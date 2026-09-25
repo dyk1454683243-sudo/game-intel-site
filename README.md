@@ -68,7 +68,15 @@ node mcp-server/cli.js digest --summarize
 
 Cursor MCP：根目录 `.mcp.json` 使用 `node ./mcp-server/index.js`，并把 `GAME_INTEL_DATA` 设为 `./data`。在 Cursor 里启用这份配置即可。
 
-静态站预览（不部署）。已提交的 `ai-site/public/` 可直接看：
+托管站还有一条**只读**远程 MCP，不需要 token：
+
+- 发现：`https://game-intel-ai.dyk1454683243.workers.dev/.well-known/mcp.json`
+- 同一份 AI Catalog：`/.well-known/ai-catalog.json`
+- 连接 URL：`https://game-intel-ai.dyk1454683243.workers.dev/mcp`（Streamable HTTP）
+
+Cursor / Claude 远程配置只填这个 URL，不要把密钥写进仓库。
+
+静态站预览（不部署）。`npm run preview` 会起 Worker（远程 MCP + 核对墙），同时仍提供已提交的 `ai-site/public/`：
 
 ```bash
 cd ai-site && npm install
@@ -139,6 +147,26 @@ Schema：`ai-site/schema/game.schema.json`（必填 `id`、`name`、`platforms`�
 
 别的 bot（例如 Cursor Cloud Agent）要改这个仓库时，维护者在 Cursor 里 **点一次授权**。授权这一次之后，bot 才能在 `game-intel-site` 上开分支、提 PR。Token 留在 Cursor / GitHub，不进 git，也不贴进聊天（`SECURITY.md`）。Bot 部署约定见 `BOT_NOTES.md`。
 
+## 核对墙 / Claims
+
+`POST /v1/claims` 用 `Authorization: Bearer`。密钥是 wrangler secret **`CLAIMS_API_KEY`**（不要提交）。
+
+```bash
+cd ai-site
+npx wrangler kv namespace create CLAIMS
+# 把返回的 id 写进 wrangler.toml 的 [[kv_namespaces]] id（id 不是密钥）
+npx wrangler secret put CLAIMS_API_KEY
+
+curl -sS -X POST https://game-intel-ai.dyk1454683243.workers.dev/v1/claims \
+  -H 'Authorization: Bearer YOUR_CLAIMS_API_KEY' \
+  -H 'Content-Type: application/json' \
+  -d '{"statement":"示例陈述","sources":["https://example.com/source"],"game_id":"hw","as_of":"2026-09-25","submitter":"example-agent"}'
+
+curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/claims.json
+```
+
+人类只读页：`/claims/index.html`。无出处的 POST 会被拒绝。
+
 ## 发布站点
 
 ```bash
@@ -166,6 +194,10 @@ Open-source game intel + guide site: MCP server and a Cloudflare Workers static 
 **Monetization:** full public OSS; operator monetizes via the **hosted Cloudflare site**, future **API keys**, and later **ads on human pages**. Never commit secrets.
 
 **Collaboration entry:** how to run locally, how to contribute cards, and the one-time Cursor authorization when another bot needs to change this repo. Same rules in `CONTRIBUTING.md`, `SECURITY.md`, `BOT_NOTES.md`.
+
+Remote read-only MCP (no token in git): discover `https://game-intel-ai.dyk1454683243.workers.dev/.well-known/mcp.json`, connect to `https://game-intel-ai.dyk1454683243.workers.dev/mcp`.
+
+Claims write: `Authorization: Bearer` against `POST /v1/claims`. Set wrangler secret `CLAIMS_API_KEY` and a KV namespace id in `ai-site/wrangler.toml` (`binding = "CLAIMS"`). Public mirror: `GET /v1/claims.json` and `/claims/index.html`. Placeholder curl is in the Chinese section above — use your own secret, never commit it.
 
 ## Run locally
 
@@ -199,7 +231,7 @@ node mcp-server/cli.js guide --game nikke --id zwei
 
 Cursor MCP: root `.mcp.json` runs `node ./mcp-server/index.js` with `GAME_INTEL_DATA=./data`. Enable that config in Cursor.
 
-Static preview (no deploy). Committed `ai-site/public/` is enough to look:
+Static preview (no deploy). `npm run preview` starts the Worker (remote MCP + claims) and still serves committed `ai-site/public/`:
 
 ```bash
 cd ai-site && npm install

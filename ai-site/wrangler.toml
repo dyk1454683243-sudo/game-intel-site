@@ -1,6 +1,26 @@
 name = "game-intel-ai"
+main = "src/worker.js"
 compatibility_date = "2026-09-06"
 workers_dev = true
 
 [assets]
 directory = "./public"
+binding = "ASSETS"
+# Worker handles discovery, MCP, and claims. Everything else stays a static asset.
+run_worker_first = [
+  "/.well-known/*",
+  "/mcp",
+  "/mcp/*",
+  "/server-card",
+  "/v1/claims",
+  "/v1/claims.json",
+  "/claims",
+  "/claims/*",
+]
+
+# Durable claims mirror. Not a secret — create the namespace, then paste the id:
+#   npx wrangler kv namespace create CLAIMS
+# The API key is separate: `npx wrangler secret put CLAIMS_API_KEY`
+[[kv_namespaces]]
+binding = "CLAIMS"
+id = "00000000000000000000000000000000"

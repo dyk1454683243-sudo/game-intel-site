@@ -5,7 +5,8 @@ Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
 Game entities dual-published from `data/games/`.
 Guide cards dual-published from `data/guides/`.
 `v1/digest|radar|calendar-hw` from best-effort MCP/CLI export.
-OpenAPI: /openapi.json (GET map of this surface; no write APIs).
+OpenAPI: /openapi.json (public GET map, plus authenticated POST /v1/claims).
+Remote MCP discovery: /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Read-only tools mirror published JSON.
 
 ## How to answer from the site
 
@@ -14,6 +15,8 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 3. If `stub` is true, or `summary.stub` is true, say the card or the conclusion is incomplete. Do not invent skill numbers, gacha rates, prices, or pull advice.
 4. Human pages mirror the same JSON: /guides/{game}/{id}.html and /games/{id}.html.
 5. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty or fixture meta means no item — do not fill the gap.
+6. Remote MCP: GET /.well-known/mcp.json then connect to the server card's streamable-http URL (/mcp). Tools read the JSON routes below. They do not scrape HTML.
+7. Sourced claims: POST /v1/claims with Authorization: Bearer and https sources. Humans read GET /v1/claims.json and /claims/index.html. No key on GET.
 
 ## Catalog and intel (JSON)
 
@@ -52,7 +55,13 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 
 ## Schemas and contract
 
-- /openapi.json — OpenAPI 3.0 for the public GET routes
+- /.well-known/mcp.json — MCP AI Catalog (alias of /.well-known/ai-catalog.json)
+- /mcp/server-card — MCP server card (application/mcp-server-card+json)
+- /mcp — read-only streamable HTTP MCP
+- /v1/claims.json — public claims mirror (no auth)
+- /claims/index.html — human claims mirror
+- POST /v1/claims — authenticated sourced claim (Authorization: Bearer, secret CLAIMS_API_KEY)
+- /openapi.json — OpenAPI 3.0 for the public routes
 - /schema/game.schema.json
 - /schema/games-index.schema.json
 - /schema/feed.schema.json
@@ -68,7 +77,9 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 ## Notes
 
 - Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
-- No authentication on these GET routes
+- No authentication on public GET routes
+- POST /v1/claims requires Authorization: Bearer. The key is wrangler secret CLAIMS_API_KEY and is never committed
+- Missing https sources are rejected
 - Prefer JSON Schema draft-07 under /schema/
 - Re-export: `npm run export-guides && npm run export-games` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
 - Never invent skill names/numbers, gacha rates, or Metacritic/prices

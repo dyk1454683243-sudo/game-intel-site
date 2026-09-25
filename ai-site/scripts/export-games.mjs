@@ -272,8 +272,11 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 | \`/v1/calendar.json\` / \`calendar-hw.json\` | Calendar |
 | \`/v1/radar.json\` | New-game radar |
 | \`/schema/*.schema.json\` | JSON Schema draft-07 |
-| \`/openapi.json\` | OpenAPI 3.0 map of public GET \`/v1\` |
+| \`/openapi.json\` | OpenAPI 3.0 map of public GET \`/v1\` plus POST \`/v1/claims\` |
 | \`/llms.txt\` | Agent discovery map |
+| \`/.well-known/mcp.json\` | MCP discovery (AI Catalog alias) |
+| \`/mcp\` | Read-only remote MCP (streamable HTTP) |
+| \`/v1/claims.json\` | Public claims mirror |
 
 ## Rules
 
@@ -292,7 +295,8 @@ Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
 Game entities dual-published from \`data/games/\`.
 Guide cards dual-published from \`data/guides/\`.
 \`v1/digest|radar|calendar-hw\` from best-effort MCP/CLI export.
-OpenAPI: /openapi.json (GET map of this surface; no write APIs).
+OpenAPI: /openapi.json (public GET map, plus authenticated POST /v1/claims).
+Remote MCP discovery: /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Read-only tools mirror published JSON.
 
 ## How to answer from the site
 
@@ -301,6 +305,8 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 3. If \`stub\` is true, or \`summary.stub\` is true, say the card or the conclusion is incomplete. Do not invent skill numbers, gacha rates, prices, or pull advice.
 4. Human pages mirror the same JSON: /guides/{game}/{id}.html and /games/{id}.html.
 5. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty or fixture meta means no item — do not fill the gap.
+6. Remote MCP: GET /.well-known/mcp.json then connect to the server card's streamable-http URL (/mcp). Tools read the JSON routes below. They do not scrape HTML.
+7. Sourced claims: POST /v1/claims with Authorization: Bearer and https sources. Humans read GET /v1/claims.json and /claims/index.html. No key on GET.
 
 ## Catalog and intel (JSON)
 
@@ -339,7 +345,13 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 
 ## Schemas and contract
 
-- /openapi.json — OpenAPI 3.0 for the public GET routes
+- /.well-known/mcp.json — MCP AI Catalog (alias of /.well-known/ai-catalog.json)
+- /mcp/server-card — MCP server card (application/mcp-server-card+json)
+- /mcp — read-only streamable HTTP MCP
+- /v1/claims.json — public claims mirror (no auth)
+- /claims/index.html — human claims mirror
+- POST /v1/claims — authenticated sourced claim (Authorization: Bearer, secret CLAIMS_API_KEY)
+- /openapi.json — OpenAPI 3.0 for the public routes
 - /schema/game.schema.json
 - /schema/games-index.schema.json
 - /schema/feed.schema.json
@@ -355,7 +367,9 @@ OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 ## Notes
 
 - Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
-- No authentication on these GET routes
+- No authentication on public GET routes
+- POST /v1/claims requires Authorization: Bearer. The key is wrangler secret CLAIMS_API_KEY and is never committed
+- Missing https sources are rejected
 - Prefer JSON Schema draft-07 under /schema/
 - Re-export: \`npm run export-guides && npm run export-games\` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
 - Never invent skill names/numbers, gacha rates, or Metacritic/prices
@@ -386,12 +400,37 @@ function openApiDoc() {
       title: "game-intel site",
       version: "0.1.0",
       description:
-        "Read-only public surface. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. No write APIs.",
+        "Public read surface plus one authenticated write: POST /v1/claims. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
     },
     servers: [{ url: "https://game-intel-ai.dyk1454683243.workers.dev" }],
     paths: {
+      "/.well-known/mcp.json": get("MCP discovery (AI Catalog alias of /.well-known/ai-catalog.json)"),
+      "/.well-known/ai-catalog.json": get("MCP AI Catalog"),
+      "/mcp/server-card": get("MCP server card"),
       "/llms.txt": { get: { summary: "Agent route map", responses: { "200": { description: "text/markdown" } } } },
       "/openapi.json": get("This document"),
+      "/v1/claims.json": get("Public claims mirror", "#/components/schemas/ClaimsIndex"),
+      "/claims/index.html": { get: { summary: "Human claims mirror", responses: { "200": { description: "text/html" } } } },
+      "/v1/claims": {
+        post: {
+          summary: "Submit a sourced claim",
+          security: [{ bearerAuth: [] }],
+          requestBody: {
+            required: true,
+            content: {
+              "application/json": { schema: { $ref: "#/components/schemas/ClaimInput" } },
+            },
+          },
+          responses: {
+            "201": { description: "Accepted" },
+            "400": { description: "Missing or invalid sources/statement" },
+            "401": { description: "Missing or wrong bearer token" },
+            "413": { description: "Body too large" },
+            "429": { description: "Rate limited" },
+            "503": { description: "CLAIMS_API_KEY or KV not configured" },
+          },
+        },
+      },
       "/v1/games/index.json": get("Game catalog index", "#/components/schemas/GamesIndex"),
       "/v1/games/{id}.json": get("One game entity", "#/components/schemas/Game"),
       "/v1/feed.json": get("Recent intel items", "#/components/schemas/Feed"),
@@ -410,7 +449,12 @@ function openApiDoc() {
       "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
     },
     components: {
+      securitySchemes: {
+        bearerAuth: { type: "http", scheme: "bearer", description: "Wrangler secret CLAIMS_API_KEY. Not committed." },
+      },
       schemas: {
+        ClaimInput: { $ref: "/schema/claim.schema.json" },
+        ClaimsIndex: { $ref: "/schema/claims-index.schema.json" },
         Game: { $ref: "/schema/game.schema.json" },
         GamesIndex: { $ref: "/schema/games-index.schema.json" },
         Feed: { $ref: "/schema/feed.schema.json" },

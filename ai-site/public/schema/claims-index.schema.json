@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/claims-index.schema.json",
+  "title": "game-intel claims mirror",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ok", "count", "timezone", "claims"],
+  "properties": {
+    "ok": { "type": "boolean" },
+    "count": { "type": "integer", "minimum": 0 },
+    "timezone": { "type": "string", "const": "Asia/Shanghai" },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "statement", "sources", "as_of", "submitted_at", "timezone"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" } },
+          "game_id": { "type": "string" },
+          "character_id": { "type": "string" },
+          "as_of": { "type": "string" },
+          "submitted_at": { "type": "string" },
+          "timezone": { "type": "string" },
+          "submitter": { "type": "string" }
+        }
+      }
+    }
+  }
+}
