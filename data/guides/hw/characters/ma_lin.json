@@ -60,5 +60,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 635215,
   "gamekee_entry_id": 163592,
-  "verified": "GameKee hw/635215 图鉴"
+  "verified": "GameKee hw/635215 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/635215.html"
+    ],
+    "tier": "T1 / 输出 / 追击 / 血海女王",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

@@ -40,5 +40,14 @@
   "gamekee_entry_id": 209189,
   "prydwen_slug": "kurumi",
   "rarity": "SR",
-  "verified": "GameKee nikke/695279 图鉴"
+  "verified": "GameKee nikke/695279 图鉴",
+  "summary": {
+    "position": "SR / 防御协议破坏 / 辅助型 / 铁甲 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/kurumi",
+      "https://www.gamekee.com/nikke/695279.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

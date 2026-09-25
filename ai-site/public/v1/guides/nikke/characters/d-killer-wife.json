@@ -44,5 +44,14 @@
   "gamekee_entry_id": 144160,
   "prydwen_slug": "d-killer-wife",
   "rarity": "SSR",
-  "verified": "GameKee nikke/616356 图鉴"
+  "verified": "GameKee nikke/616356 图鉴",
+  "summary": {
+    "position": "SSR / 解决目标 / 辅助型 / 燃烧 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/d-killer-wife",
+      "https://www.gamekee.com/nikke/616356.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

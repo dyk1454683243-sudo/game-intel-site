@@ -43,5 +43,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 718485,
   "gamekee_entry_id": 221621,
-  "verified": "GameKee zsca2/718485 图鉴"
+  "verified": "GameKee zsca2/718485 图鉴",
+  "summary": {
+    "position": "5星 / 火 / 物理 / 输出",
+    "sources": [
+      "https://www.gamekee.com/zsca2/718485.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+  }
 }

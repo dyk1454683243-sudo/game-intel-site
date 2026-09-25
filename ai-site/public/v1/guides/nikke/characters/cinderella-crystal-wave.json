@@ -40,5 +40,14 @@
   "gamekee_entry_id": 218253,
   "prydwen_slug": "cinderella-crystal-wave",
   "rarity": "SSR",
-  "verified": "GameKee nikke/711133 图鉴"
+  "verified": "GameKee nikke/711133 图鉴",
+  "summary": {
+    "position": "SSR / 水晶鞋·完全连接W / 火力型 / 铁甲 / 朝圣者",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
+      "https://www.gamekee.com/nikke/711133.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

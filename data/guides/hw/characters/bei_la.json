@@ -55,5 +55,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 634442,
   "gamekee_entry_id": 163034,
-  "verified": "GameKee hw/634442 图鉴"
+  "verified": "GameKee hw/634442 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/634442.html"
+    ],
+    "tier": "T1 / 奶妈 / 输出 / 复活大祭司",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

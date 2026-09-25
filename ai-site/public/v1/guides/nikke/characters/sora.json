@@ -40,5 +40,14 @@
   "gamekee_entry_id": 190016,
   "prydwen_slug": "sora",
   "rarity": "SSR",
-  "verified": "GameKee nikke/668936 图鉴"
+  "verified": "GameKee nikke/668936 图鉴",
+  "summary": {
+    "position": "SSR / 怀中的秘密 / 辅助型 / 风压 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/sora",
+      "https://www.gamekee.com/nikke/668936.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

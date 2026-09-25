@@ -272,6 +272,7 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 | \`/v1/calendar.json\` / \`calendar-hw.json\` | Calendar |
 | \`/v1/radar.json\` | New-game radar |
 | \`/schema/*.schema.json\` | JSON Schema draft-07 |
+| \`/openapi.json\` | OpenAPI 3.0 map of public GET \`/v1\` |
 | \`/llms.txt\` | Agent discovery map |
 
 ## Rules
@@ -280,33 +281,65 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 - \`stub: true\` = identity + real links only.
 - Watchlist games first on human pages.
 - Guides remain under \`/guides/*\` and \`/v1/guides/*\` (unchanged contract).
+- Non-stub character cards require \`sources\` + \`as_of\`. HW/NIKKE/BD2 also require \`summary\` (conclusion). \`summary.stub: true\` means the conclusion is incomplete.
 `;
   fs.writeFileSync(path.join(OUT_PUBLIC, "index.md"), md, "utf8");
 
   const llms = `# game-intel AI site (game catalog + guides + live intel)
 
 Machine-readable endpoints. Timezone: Asia/Shanghai.
-Game entities dual-published from plugin \`data/games/\`.
+Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
+Game entities dual-published from \`data/games/\`.
 Guide cards dual-published from \`data/guides/\`.
 \`v1/digest|radar|calendar-hw\` from best-effort MCP/CLI export.
+OpenAPI: /openapi.json (GET map of this surface; no write APIs).
 
-## Endpoints
+## How to answer from the site
+
+1. Resolve the game id (hw, nikke, bd2, or a catalog id under /v1/games/index.json).
+2. Prefer /v1/guides/{game}/characters/{id}.json for build questions. Read \`summary\` (结论), \`skills\`, \`sources\`, \`as_of\`.
+3. If \`stub\` is true, or \`summary.stub\` is true, say the card or the conclusion is incomplete. Do not invent skill numbers, gacha rates, prices, or pull advice.
+4. Human pages mirror the same JSON: /guides/{game}/{id}.html and /games/{id}.html.
+5. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty or fixture meta means no item — do not fill the gap.
+
+## Catalog and intel (JSON)
 
 - /v1/games/index.json — game catalog index
-- /v1/games/{id}.json — single game entity
+- /v1/games/{id}.json — single game entity (hw, nikke, bd2, star, asora, miraesi, lo2, plus the rest of the catalog)
 - /v1/feed.json — cross-platform recent intel (real items only)
-- /games/index.html — human Chinese game directory
-- /games/{id}.html — game detail
 - /v1/watchlist.json — watched games
 - /v1/digest.json — per-game digest headlines
 - /v1/calendar.json — upcoming events calendar
 - /v1/calendar-hw.json — HW calendar (live export)
 - /v1/radar.json — new-game radar
-- /v1/guides/index.json — guide coverage per watchlist game
-- /v1/guides/{game}/index.json — character list for a game
-- /v1/guides/{game}/aliases.json
-- /v1/guides/{game}/characters/{id}.json
-- /guides/index.html — human Chinese guide index
+
+## Guides (JSON) — watchlist first
+
+- /v1/guides/index.json — coverage per watchlist game (counts, rich vs stub)
+- /v1/guides/hw/index.json — Horizon Walker / 地平线行者 character list
+- /v1/guides/nikke/index.json — NIKKE character list
+- /v1/guides/bd2/index.json — Brown Dust 2 / 棕色尘埃2 character list
+- /v1/guides/{game}/aliases.json — nickname → id (nikke also has aliases.p1.json … p4.json)
+- /v1/guides/{game}/characters/{id}.json — one card. Non-stub cards require sources (https URLs) and as_of.
+- /v1/guides/hw/characters/{id}.json — summary.tier is the GameKee 图鉴 T度 already stored on the card. summary.pull only when the card already quoted 抽取建议.
+- /v1/guides/nikke/characters/{id}.json — summary.stub true unless a verified tier/pull was already on the card. Position is class/burst/element, not a tier list.
+- /v1/guides/bd2/characters/{id}.json — summary.stub true. Position is rarity/element/role from the 图鉴, not a tier list or price.
+- /v1/guides/hw/dopamine-auto.json — HW dopamine auto teams (also /v1/guides/hw/modes/dopamine-auto.json)
+
+## Human pages
+
+- / — site home
+- /games/index.html — Chinese game directory
+- /games/{id}.html — game detail
+- /guides/index.html — Chinese guide index
+- /guides/hw/index.html — HW character index
+- /guides/nikke/index.html — NIKKE character index
+- /guides/bd2/index.html — BD2 character index
+- /guides/{game}/{id}.html — character page; 结论 section mirrors summary
+
+## Schemas and contract
+
+- /openapi.json — OpenAPI 3.0 for the public GET routes
 - /schema/game.schema.json
 - /schema/games-index.schema.json
 - /schema/feed.schema.json
@@ -314,20 +347,82 @@ Guide cards dual-published from \`data/guides/\`.
 - /schema/digest.schema.json
 - /schema/calendar.schema.json
 - /schema/guides-index.schema.json
-- /schema/character-card.schema.json
+- /schema/character-card.schema.json — non-stub cards require sources + as_of; summary.sources required when summary is present; summary.stub marks a thin conclusion
 - /schema/aliases.schema.json
 - /index.md — overview
 - /llms.txt — this file
 
 ## Notes
 
-- Content-Type: application/json for /v1/* and /schema/*
-- No authentication
+- Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
+- No authentication on these GET routes
 - Prefer JSON Schema draft-07 under /schema/
-- Re-export: \`npm run export-guides && npm run export-games\`
-- Never invent skill names/numbers or Metacritic/prices; stubs have \`"stub": true\`
+- Re-export: \`npm run export-guides && npm run export-games\` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
+- Never invent skill names/numbers, gacha rates, or Metacritic/prices
+- Card \`"stub": true\` = skills not verified. \`"summary.stub": true\` = conclusion not verified. Do not collapse those two flags.
 `;
   fs.writeFileSync(path.join(OUT_PUBLIC, "llms.txt"), llms, "utf8");
+  writeJson(path.join(OUT_PUBLIC, "openapi.json"), openApiDoc());
+}
+
+function openApiDoc() {
+  const json = { "application/json": { schema: { type: "object", additionalProperties: true } } };
+  const get = (summary, schema) => ({
+    get: {
+      summary,
+      responses: {
+        "200": {
+          description: "OK",
+          content: schema
+            ? { "application/json": { schema: { $ref: schema } } }
+            : json,
+        },
+      },
+    },
+  });
+  return {
+    openapi: "3.0.3",
+    info: {
+      title: "game-intel site",
+      version: "0.1.0",
+      description:
+        "Read-only public surface. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. No write APIs.",
+    },
+    servers: [{ url: "https://game-intel-ai.dyk1454683243.workers.dev" }],
+    paths: {
+      "/llms.txt": { get: { summary: "Agent route map", responses: { "200": { description: "text/markdown" } } } },
+      "/openapi.json": get("This document"),
+      "/v1/games/index.json": get("Game catalog index", "#/components/schemas/GamesIndex"),
+      "/v1/games/{id}.json": get("One game entity", "#/components/schemas/Game"),
+      "/v1/feed.json": get("Recent intel items", "#/components/schemas/Feed"),
+      "/v1/watchlist.json": get("Watchlist", "#/components/schemas/Watchlist"),
+      "/v1/digest.json": get("Digest headlines", "#/components/schemas/Digest"),
+      "/v1/calendar.json": get("Event calendar", "#/components/schemas/Calendar"),
+      "/v1/calendar-hw.json": get("HW calendar", "#/components/schemas/Calendar"),
+      "/v1/radar.json": get("New-game radar"),
+      "/v1/guides/index.json": get("Guide coverage", "#/components/schemas/GuidesIndex"),
+      "/v1/guides/{game}/index.json": get("Character list for one game"),
+      "/v1/guides/{game}/aliases.json": get("Nickname map", "#/components/schemas/Aliases"),
+      "/v1/guides/{game}/characters/{id}.json": get(
+        "Character card. Non-stub requires sources and as_of.",
+        "#/components/schemas/CharacterCard"
+      ),
+      "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
+    },
+    components: {
+      schemas: {
+        Game: { $ref: "/schema/game.schema.json" },
+        GamesIndex: { $ref: "/schema/games-index.schema.json" },
+        Feed: { $ref: "/schema/feed.schema.json" },
+        Watchlist: { $ref: "/schema/watchlist.schema.json" },
+        Digest: { $ref: "/schema/digest.schema.json" },
+        Calendar: { $ref: "/schema/calendar.schema.json" },
+        GuidesIndex: { $ref: "/schema/guides-index.schema.json" },
+        CharacterCard: { $ref: "/schema/character-card.schema.json" },
+        Aliases: { $ref: "/schema/aliases.schema.json" },
+      },
+    },
+  };
 }
 
 function main() {

@@ -19,6 +19,7 @@
 | `/v1/calendar.json` / `calendar-hw.json` | Calendar |
 | `/v1/radar.json` | New-game radar |
 | `/schema/*.schema.json` | JSON Schema draft-07 |
+| `/openapi.json` | OpenAPI 3.0 map of public GET `/v1` |
 | `/llms.txt` | Agent discovery map |
 
 ## Rules
@@ -27,3 +28,4 @@
 - `stub: true` = identity + real links only.
 - Watchlist games first on human pages.
 - Guides remain under `/guides/*` and `/v1/guides/*` (unchanged contract).
+- Non-stub character cards require `sources` + `as_of`. HW/NIKKE/BD2 also require `summary` (conclusion). `summary.stub: true` means the conclusion is incomplete.

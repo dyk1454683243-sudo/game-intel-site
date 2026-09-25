@@ -40,5 +40,14 @@
   "gamekee_entry_id": 125852,
   "prydwen_slug": "2b",
   "rarity": "SSR",
-  "verified": "GameKee nikke/599069 图鉴"
+  "verified": "GameKee nikke/599069 图鉴",
+  "summary": {
+    "position": "SSR / 连续攻击 / 防御型 / 燃烧 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/2b",
+      "https://www.gamekee.com/nikke/599069.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

@@ -42,5 +42,14 @@
   "gamekee_entry_id": 127162,
   "prydwen_slug": "marciana",
   "rarity": "SSR",
-  "verified": "GameKee nikke/600802 图鉴"
+  "verified": "GameKee nikke/600802 图鉴",
+  "summary": {
+    "position": "SSR / 师恩 / 辅助型 / 铁甲 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/marciana",
+      "https://www.gamekee.com/nikke/600802.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

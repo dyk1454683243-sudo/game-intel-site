@@ -40,5 +40,14 @@
   "gamekee_entry_id": 195082,
   "prydwen_slug": "ada-wong",
   "rarity": "SSR",
-  "verified": "GameKee nikke/678271 图鉴"
+  "verified": "GameKee nikke/678271 图鉴",
+  "summary": {
+    "position": "SSR / 秘密特工 / 火力型 / 电击 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/ada-wong",
+      "https://www.gamekee.com/nikke/678271.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

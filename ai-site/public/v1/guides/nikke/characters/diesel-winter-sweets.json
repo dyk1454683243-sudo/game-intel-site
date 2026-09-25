@@ -40,5 +40,14 @@
   "gamekee_entry_id": 199281,
   "prydwen_slug": "diesel-winter-sweets",
   "rarity": "SSR",
-  "verified": "GameKee nikke/684848 图鉴"
+  "verified": "GameKee nikke/684848 图鉴",
+  "summary": {
+    "position": "SSR / 啦啦啦♬ / 火力型 / 燃烧 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
+      "https://www.gamekee.com/nikke/684848.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

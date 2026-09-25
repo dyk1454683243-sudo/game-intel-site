@@ -40,5 +40,14 @@
   "prydwen_slug": "mast",
   "rarity": "SSR",
   "burst": "无畏风雨！",
-  "verified": "GameKee nikke/594772 图鉴"
+  "verified": "GameKee nikke/594772 图鉴",
+  "summary": {
+    "position": "SSR / 无畏风雨！ / 支援型 / 电击 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/mast",
+      "https://www.gamekee.com/nikke/594772.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

@@ -42,5 +42,14 @@
   "gamekee_entry_id": 146355,
   "prydwen_slug": "emilia",
   "rarity": "SSR",
-  "verified": "GameKee nikke/618503 图鉴"
+  "verified": "GameKee nikke/618503 图鉴",
+  "summary": {
+    "position": "SSR / 冰结的魔女 / 火力型 / 水冷 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/emilia",
+      "https://www.gamekee.com/nikke/618503.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

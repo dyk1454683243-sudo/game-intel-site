@@ -42,5 +42,14 @@
   "gamekee_entry_id": 169046,
   "prydwen_slug": "grave",
   "rarity": "SSR",
-  "verified": "GameKee nikke/170831 图鉴"
+  "verified": "GameKee nikke/170831 图鉴",
+  "summary": {
+    "position": "SSR / 撰写者的剧透 / 辅助型 / 燃烧 / 朝圣者",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/grave",
+      "https://www.gamekee.com/nikke/170831.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

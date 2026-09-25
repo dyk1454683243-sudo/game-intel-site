@@ -39,5 +39,13 @@
   "gamekee_entry_id": 225768,
   "prydwen_slug": "guilty-mighty-bunny",
   "rarity": "SSR",
-  "verified": "GameKee nikke/721421 图鉴"
+  "verified": "GameKee nikke/721421 图鉴",
+  "summary": {
+    "position": "SSR / 终于解开了……！ / 火力型 / 水冷 / 米西利斯",
+    "sources": [
+      "https://www.gamekee.com/nikke/721421.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

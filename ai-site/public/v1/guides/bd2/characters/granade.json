@@ -57,5 +57,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 689646,
   "gamekee_entry_id": 202985,
-  "verified": "GameKee zsca2/689646 图鉴"
+  "verified": "GameKee zsca2/689646 图鉴",
+  "summary": {
+    "position": "5星 / 水 / 魔法 / 辅助",
+    "sources": [
+      "https://www.gamekee.com/zsca2/689646.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+  }
 }

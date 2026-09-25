@@ -39,5 +39,13 @@
   "gamekee_entry_id": 110439,
   "prydwen_slug": null,
   "rarity": "SR",
-  "verified": "GameKee nikke/152350 图鉴"
+  "verified": "GameKee nikke/152350 图鉴",
+  "summary": {
+    "position": "SR / 超大单细胞 / 防御型 / 电击 / 米西利斯",
+    "sources": [
+      "https://www.gamekee.com/nikke/152350.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

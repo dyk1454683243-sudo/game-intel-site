@@ -1,0 +1,298 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "game-intel site",
+    "version": "0.1.0",
+    "description": "Read-only public surface. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. No write APIs."
+  },
+  "servers": [
+    {
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev"
+    }
+  ],
+  "paths": {
+    "/llms.txt": {
+      "get": {
+        "summary": "Agent route map",
+        "responses": {
+          "200": {
+            "description": "text/markdown"
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "summary": "This document",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/games/index.json": {
+      "get": {
+        "summary": "Game catalog index",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GamesIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/games/{id}.json": {
+      "get": {
+        "summary": "One game entity",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Game"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/feed.json": {
+      "get": {
+        "summary": "Recent intel items",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feed"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/watchlist.json": {
+      "get": {
+        "summary": "Watchlist",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Watchlist"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/digest.json": {
+      "get": {
+        "summary": "Digest headlines",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Digest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/calendar.json": {
+      "get": {
+        "summary": "Event calendar",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Calendar"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/calendar-hw.json": {
+      "get": {
+        "summary": "HW calendar",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Calendar"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/radar.json": {
+      "get": {
+        "summary": "New-game radar",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/index.json": {
+      "get": {
+        "summary": "Guide coverage",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuidesIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/index.json": {
+      "get": {
+        "summary": "Character list for one game",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/aliases.json": {
+      "get": {
+        "summary": "Nickname map",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/characters/{id}.json": {
+      "get": {
+        "summary": "Character card. Non-stub requires sources and as_of.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CharacterCard"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/hw/dopamine-auto.json": {
+      "get": {
+        "summary": "HW dopamine auto teams",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Game": {
+        "$ref": "/schema/game.schema.json"
+      },
+      "GamesIndex": {
+        "$ref": "/schema/games-index.schema.json"
+      },
+      "Feed": {
+        "$ref": "/schema/feed.schema.json"
+      },
+      "Watchlist": {
+        "$ref": "/schema/watchlist.schema.json"
+      },
+      "Digest": {
+        "$ref": "/schema/digest.schema.json"
+      },
+      "Calendar": {
+        "$ref": "/schema/calendar.schema.json"
+      },
+      "GuidesIndex": {
+        "$ref": "/schema/guides-index.schema.json"
+      },
+      "CharacterCard": {
+        "$ref": "/schema/character-card.schema.json"
+      },
+      "Aliases": {
+        "$ref": "/schema/aliases.schema.json"
+      }
+    }
+  }
+}

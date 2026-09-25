@@ -40,5 +40,14 @@
   "gamekee_entry_id": 173877,
   "prydwen_slug": "mana",
   "rarity": "SSR",
-  "verified": "GameKee nikke/159658 图鉴"
+  "verified": "GameKee nikke/159658 图鉴",
+  "summary": {
+    "position": "SSR / 致命错误！ / 火力型 / 风压 / 米西利斯",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/mana",
+      "https://www.gamekee.com/nikke/159658.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

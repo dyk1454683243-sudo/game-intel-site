@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { httpSources } from "../../mcp-server/scripts/guide-conclusion.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -26,6 +27,9 @@ const WATCH = {
   miraesi: { name: "Invisible Future", name_zh: "미래시" },
   lo2: { name: "Last Origin 2", name_zh: "Last Origin 2" },
 };
+
+/** Games whose non-stub cards must carry a conclusion (`summary`) row. */
+const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2"]);
 
 function rmrf(p) {
   if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true });
@@ -116,22 +120,45 @@ ${body}
 }
 
 
+function validateCard(game, c) {
+  const errors = [];
+  if (isStub(c)) return errors;
+  const srcs = httpSources(c);
+  if (!srcs.length) errors.push("non-stub card missing https sources");
+  if (typeof c.as_of !== "string" || !c.as_of.trim()) errors.push("non-stub card missing as_of");
+  if (!CONCLUSION_GAMES.has(game)) return errors;
+  const s = c.summary;
+  if (!s || typeof s !== "object" || Array.isArray(s)) {
+    errors.push("missing summary conclusion");
+    return errors;
+  }
+  const ss = Array.isArray(s.sources) ? s.sources.filter((u) => typeof u === "string" && /^https?:\/\//i.test(u)) : [];
+  if (!ss.length) errors.push("summary.sources missing https URLs");
+  if (s.stub === true) {
+    if (!String(s.caveat || s.skip || "").trim()) errors.push("stub conclusion needs caveat");
+  } else if (!String(s.tier || "").trim() && !String(s.pull || "").trim()) {
+    errors.push("non-stub conclusion needs tier or pull from a real source");
+  }
+  return errors;
+}
+
 function conclusionBar(c) {
   const s = c && c.summary && typeof c.summary === "object" ? c.summary : null;
   if (!s) return "";
-  const tier = s.tier || c.role || "";
+  const tier = s.tier || "";
+  const position = s.position || "";
   const pull = s.pull || "";
-  const skip = s.skip || s.caveat || "";
-  const srcs = Array.isArray(s.sources) && s.sources.length
-    ? s.sources
-    : Array.isArray(c.sources)
-      ? c.sources
-      : [];
-  if (!tier && !pull && !skip && !srcs.length) return "";
+  const skip = s.skip || "";
+  const caveat = s.caveat || "";
+  const srcs = Array.isArray(s.sources) && s.sources.length ? s.sources : httpSources(c);
+  if (!tier && !position && !pull && !skip && !caveat && !srcs.length) return "";
   const rows = [];
+  if (s.stub === true) rows.push(`<dt>完整度</dt><dd class="stub">结论不完整（stub）</dd>`);
   if (tier) rows.push(`<dt>强度</dt><dd>${esc(tier)}</dd>`);
+  if (position) rows.push(`<dt>定位</dt><dd>${esc(position)}</dd>`);
   if (pull) rows.push(`<dt>抽不抽</dt><dd>${esc(pull)}</dd>`);
   if (skip) rows.push(`<dt>别追什么</dt><dd>${esc(skip)}</dd>`);
+  if (caveat) rows.push(`<dt>说明</dt><dd>${esc(caveat)}</dd>`);
   if (srcs.length) {
     const links = srcs
       .map((u, i) => `<li><a href="${esc(u)}" rel="noopener">出处${i + 1}</a></li>`)
@@ -158,6 +185,19 @@ function exportGame(game, asOf) {
   let aliases = { _meta: { game, as_of: asOf }, aliases: {} };
   if (fs.existsSync(aliasesPath)) aliases = readJson(aliasesPath);
   writeJson(path.join(gameOut, "aliases.json"), aliases);
+  const partNames = new Set(
+    [...(aliases._parts || []), ...(aliases._meta?.parts || [])].filter((x) => typeof x === "string")
+  );
+  for (const f of fs.existsSync(path.join(GUIDES, game))
+    ? fs.readdirSync(path.join(GUIDES, game)).filter((x) => /^aliases\.p\d+\.json$/.test(x))
+    : []) {
+    partNames.add(f);
+  }
+  for (const part of partNames) {
+    const src = path.join(GUIDES, game, part);
+    if (!fs.existsSync(src) || !part.endsWith(".json") || part.includes("/") || part.includes("..")) continue;
+    fs.copyFileSync(src, path.join(gameOut, path.basename(part)));
+  }
 
   // dopamine / modes
   const dopaSrc = path.join(GUIDES, game, "dopamine-auto.json");
@@ -177,11 +217,16 @@ function exportGame(game, asOf) {
 
   let rich = 0;
   let stub = 0;
+  let conclusionStub = 0;
   const indexChars = [];
+  const problems = [];
   for (const c of chars) {
     const stubFlag = isStub(c);
     if (stubFlag) stub++;
     else rich++;
+    const errs = validateCard(game, c);
+    if (errs.length) problems.push({ id: c.id, errs });
+    if (!stubFlag && c.summary?.stub === true) conclusionStub++;
     writeJson(path.join(gameOut, "characters", `${c.id}.json`), c);
     indexChars.push({
       id: c.id,
@@ -201,8 +246,16 @@ function exportGame(game, asOf) {
     character_count: chars.length,
     rich_count: rich,
     stub_count: stub,
+    conclusion_stub_count: conclusionStub,
     characters: indexChars,
   };
+  if (problems.length) {
+    const err = new Error(
+      `[export-guides] ${game}: ${problems.length} card(s) failed sources/as_of/conclusion checks`
+    );
+    err.problems = problems.slice(0, 20);
+    throw err;
+  }
   writeJson(path.join(gameOut, "index.json"), gameIndex);
 
   // Human HTML list
@@ -262,7 +315,23 @@ ${sources ? `<ul>${sources}</ul>` : "<p class=\"meta\">no sources yet</p>"}
   return gameIndex;
 }
 
+function preflight() {
+  const problems = [];
+  for (const game of listGames()) {
+    for (const c of loadChars(game)) {
+      const errs = validateCard(game, c);
+      if (errs.length) problems.push({ game, id: c.id, errs });
+    }
+  }
+  if (!problems.length) return;
+  console.error(
+    JSON.stringify({ ok: false, check: "sources+as_of+conclusion", problems: problems.slice(0, 30), count: problems.length }, null, 2)
+  );
+  process.exit(1);
+}
+
 function main() {
+  preflight();
   const asOf = shanghaiDate();
   rmrf(OUT_V1);
   rmrf(OUT_HTML);
@@ -330,6 +399,7 @@ ${summaries
           chars: s.character_count,
           rich: s.rich_count,
           stub: s.stub_count,
+          conclusion_stub: s.conclusion_stub_count,
         })),
         out_v1: OUT_V1,
         out_html: OUT_HTML,

@@ -40,5 +40,14 @@
   "gamekee_entry_id": 170296,
   "prydwen_slug": "flora",
   "rarity": "SSR",
-  "verified": "GameKee nikke/170646 图鉴"
+  "verified": "GameKee nikke/170646 图鉴",
+  "summary": {
+    "position": "SSR / 秘密花园 / 辅助型 / 电击 / 米西利斯",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/flora",
+      "https://www.gamekee.com/nikke/170646.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }
