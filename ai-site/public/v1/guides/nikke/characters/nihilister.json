@@ -42,5 +42,14 @@
   "gamekee_entry_id": 118390,
   "prydwen_slug": "nihilister",
   "rarity": "SSR",
-  "verified": "GameKee nikke/587422 图鉴"
+  "verified": "GameKee nikke/587422 图鉴",
+  "summary": {
+    "position": "SSR / 伯恩．天启 / 火力型 / 燃烧 / 朝圣者",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/nihilister",
+      "https://www.gamekee.com/nikke/587422.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

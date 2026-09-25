@@ -40,5 +40,14 @@
   "gamekee_entry_id": 102036,
   "prydwen_slug": "idoll-ocean",
   "rarity": "R",
-  "verified": "GameKee nikke/152358 图鉴"
+  "verified": "GameKee nikke/152358 图鉴",
+  "summary": {
+    "position": "R / 海之潜跃 / 辅助型 / 水冷 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/idoll-ocean",
+      "https://www.gamekee.com/nikke/152358.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

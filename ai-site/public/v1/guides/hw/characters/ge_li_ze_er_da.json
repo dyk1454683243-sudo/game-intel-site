@@ -67,5 +67,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 643305,
   "gamekee_entry_id": 170386,
-  "verified": "GameKee hw/643305 图鉴"
+  "verified": "GameKee hw/643305 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/643305.html"
+    ],
+    "tier": "T1 / 增伤 / 聚怪 / 奥术精灵王",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

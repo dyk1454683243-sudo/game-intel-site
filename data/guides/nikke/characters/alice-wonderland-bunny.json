@@ -42,5 +42,14 @@
   "prydwen_slug": "alice-wonderland-bunny",
   "rarity": "SSR",
   "burst": "珍贵的大胡萝卜",
-  "verified": "GameKee nikke/624034 图鉴"
+  "verified": "GameKee nikke/624034 图鉴",
+  "summary": {
+    "position": "SSR / 珍贵的大胡萝卜 / 支援型 / 水冷 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/alice-wonderland-bunny",
+      "https://www.gamekee.com/nikke/624034.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

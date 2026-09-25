@@ -42,5 +42,14 @@
   "gamekee_entry_id": 135409,
   "prydwen_slug": "mica-snow-buddy",
   "rarity": "SSR",
-  "verified": "GameKee nikke/607597 图鉴"
+  "verified": "GameKee nikke/607597 图鉴",
+  "summary": {
+    "position": "SSR / 雪温祭 / 辅助型 / 铁甲 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/mica-snow-buddy",
+      "https://www.gamekee.com/nikke/607597.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

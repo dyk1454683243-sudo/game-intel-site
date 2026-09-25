@@ -40,5 +40,14 @@
   "prydwen_slug": "anis-star",
   "rarity": "SSR",
   "burst": "超级巨星阿妮斯",
-  "verified": "GameKee nikke/703135 图鉴"
+  "verified": "GameKee nikke/703135 图鉴",
+  "summary": {
+    "position": "SSR / 超级巨星阿妮斯 / 防御型 / 电击 / 泰特拉（超标准）",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/anis-star",
+      "https://www.gamekee.com/nikke/703135.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

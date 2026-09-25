@@ -61,5 +61,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 646212,
   "gamekee_entry_id": 174157,
-  "verified": "GameKee hw/646212 图鉴"
+  "verified": "GameKee hw/646212 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/646212.html"
+    ],
+    "tier": "T1.5 / 援攻 / 坦克 / TX-曼提柯尔",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

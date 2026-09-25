@@ -60,5 +60,13 @@
     "https://www.gamekee.com/hw/672601.html"
   ],
   "as_of": "2026-09",
-  "verified": "GameKee hw/672601 图鉴/测评"
+  "verified": "GameKee hw/672601 图鉴/测评",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/672601.html"
+    ],
+    "position": "近战核心 / 领域追加伤；自奶维持血线",
+    "stub": true,
+    "caveat": "仓内无已核实 T 度或抽取建议，结论行 stub:true，不编造强度或抽卡。"
+  }
 }

@@ -40,5 +40,14 @@
   "gamekee_entry_id": 186774,
   "prydwen_slug": "arcana",
   "rarity": "SSR",
-  "verified": "GameKee nikke/661994 图鉴"
+  "verified": "GameKee nikke/661994 图鉴",
+  "summary": {
+    "position": "SSR / 命运的束缚 / 辅助型 / 电击 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/arcana",
+      "https://www.gamekee.com/nikke/661994.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

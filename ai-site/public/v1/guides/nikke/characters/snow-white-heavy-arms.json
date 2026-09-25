@@ -40,5 +40,14 @@
   "gamekee_entry_id": 202234,
   "prydwen_slug": "snow-white-heavy-arms",
   "rarity": "SSR",
-  "verified": "GameKee nikke/688276 图鉴"
+  "verified": "GameKee nikke/688276 图鉴",
+  "summary": {
+    "position": "SSR / 七个小矮人全面出击 / 火力型 / 水冷 / 朝圣者",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/snow-white-heavy-arms",
+      "https://www.gamekee.com/nikke/688276.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

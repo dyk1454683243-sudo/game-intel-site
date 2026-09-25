@@ -40,5 +40,14 @@
   "gamekee_entry_id": 203254,
   "prydwen_slug": "label",
   "rarity": "SSR",
-  "verified": "GameKee nikke/690252 图鉴"
+  "verified": "GameKee nikke/690252 图鉴",
+  "summary": {
+    "position": "SSR / 爆炸之心 / 防御型 / 铁甲 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/label",
+      "https://www.gamekee.com/nikke/690252.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

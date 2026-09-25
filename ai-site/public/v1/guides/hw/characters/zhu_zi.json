@@ -66,5 +66,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 718772,
   "gamekee_entry_id": 221773,
-  "verified": "GameKee hw/718772 图鉴"
+  "verified": "GameKee hw/718772 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/718772.html"
+    ],
+    "tier": "T0.5 / 主C / 近战 / 传说总长",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

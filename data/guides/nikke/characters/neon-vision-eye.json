@@ -40,5 +40,14 @@
   "gamekee_entry_id": 214040,
   "prydwen_slug": "neon-vision-eye",
   "rarity": "SSR",
-  "verified": "GameKee nikke/703513 图鉴"
+  "verified": "GameKee nikke/703513 图鉴",
+  "summary": {
+    "position": "SSR / 火力全开 / 火力型 / 电击 / 米西利斯（超标准）",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
+      "https://www.gamekee.com/nikke/703513.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

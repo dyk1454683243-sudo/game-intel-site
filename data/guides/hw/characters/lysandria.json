@@ -2,7 +2,10 @@
   "id": "lysandria",
   "name": "莉珊德莉娅",
   "name_en": "Lysandria",
-  "nicknames": ["修女", "莉珊"],
+  "nicknames": [
+    "修女",
+    "莉珊"
+  ],
   "game": "hw",
   "role": "近战核心 / 领域追加伤；自奶维持血线",
   "skills": [
@@ -37,7 +40,9 @@
     "set_name": "优菲特尔",
     "nickname": "木星",
     "pieces": 4,
-    "substats_priority": ["近战攻击力"],
+    "substats_priority": [
+      "近战攻击力"
+    ],
     "notes": [
       "ult 血之审判 does NOT scale crit/crit dmg"
     ]
@@ -55,5 +60,13 @@
     "https://www.gamekee.com/hw/672601.html"
   ],
   "as_of": "2026-09",
-  "verified": "GameKee hw/672601 图鉴/测评"
+  "verified": "GameKee hw/672601 图鉴/测评",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/672601.html"
+    ],
+    "position": "近战核心 / 领域追加伤；自奶维持血线",
+    "stub": true,
+    "caveat": "仓内无已核实 T 度或抽取建议，结论行 stub:true，不编造强度或抽卡。"
+  }
 }

@@ -1,1 +1,20 @@
-{"_meta":{"game":"nikke","note":"Nickname/name → canonical id. GameKee 角色昵称 + sure community nicknames only; never invent.","as_of":"2026-09","parts":["aliases.p1.json","aliases.p2.json","aliases.p3.json","aliases.p4.json"]},"_parts":["aliases.p1.json","aliases.p2.json","aliases.p3.json","aliases.p4.json"],"aliases":{}}
+{
+  "_meta": {
+    "game": "nikke",
+    "note": "Nickname/name → canonical id. GameKee 角色昵称 + sure community nicknames only; never invent.",
+    "as_of": "2026-09",
+    "parts": [
+      "aliases.p1.json",
+      "aliases.p2.json",
+      "aliases.p3.json",
+      "aliases.p4.json"
+    ]
+  },
+  "_parts": [
+    "aliases.p1.json",
+    "aliases.p2.json",
+    "aliases.p3.json",
+    "aliases.p4.json"
+  ],
+  "aliases": {}
+}

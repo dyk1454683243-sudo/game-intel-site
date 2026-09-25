@@ -40,5 +40,14 @@
   "gamekee_entry_id": 217280,
   "prydwen_slug": "ark-ranger-black",
   "rarity": "SSR",
-  "verified": "GameKee nikke/708686 图鉴"
+  "verified": "GameKee nikke/708686 图鉴",
+  "summary": {
+    "position": "SSR / 究极！方舟黑色流星！ / 火力型 / 风压 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/ark-ranger-black",
+      "https://www.gamekee.com/nikke/708686.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

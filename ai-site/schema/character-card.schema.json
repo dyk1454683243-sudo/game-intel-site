@@ -9,6 +9,36 @@
     "game"
   ],
   "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "not": {
+          "required": ["stub"],
+          "properties": {
+            "stub": { "const": true }
+          }
+        }
+      },
+      "then": {
+        "required": ["sources", "as_of"],
+        "properties": {
+          "sources": {
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 8
+            }
+          },
+          "as_of": {
+            "type": "string",
+            "minLength": 4,
+            "description": "Asia/Shanghai date or month the card was verified, e.g. 2026-09"
+          }
+        }
+      },
+      "description": "Non-stub cards (stub absent or false) must cite sources and as_of."
+    }
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -97,10 +127,12 @@
     },
     "sources": {
       "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 8
       },
-      "description": "Verified GameKee/Bahamut URLs only"
+      "description": "Verified source URLs (GameKee / Prydwen / Bahamut). Required when stub is not true."
     },
     "stub": {
       "type": "boolean",
@@ -110,7 +142,9 @@
       "type": "string"
     },
     "as_of": {
-      "type": "string"
+      "type": "string",
+      "minLength": 4,
+      "description": "Required on non-stub cards. Asia/Shanghai date or month."
     },
     "verified": {
       "type": "string"
@@ -131,29 +165,40 @@
     },
     "summary": {
       "type": "object",
-      "description": "Optional human+AI conclusion line: tier / pull / skip / sources. Omit on stubs.",
+      "description": "Human+AI conclusion line. Required on non-stub HW/NIKKE/BD2 cards at export. summary.stub true = thin evidence (no invented tier/pull). Omit on skill stubs.",
       "additionalProperties": true,
+      "required": ["sources"],
       "properties": {
         "tier": {
           "type": "string",
-          "description": "强度定位，如 T0 / 一人成军"
+          "description": "Verified strength line, e.g. GameKee T度. Do not invent."
+        },
+        "position": {
+          "type": "string",
+          "description": "Catalog class/element/rarity when no verified tier exists."
         },
         "pull": {
           "type": "string",
-          "description": "抽不抽建议（无编造数字）"
+          "description": "Pull advice copied from a cited source. No invented numbers."
         },
         "skip": {
           "type": "string",
-          "description": "别追什么 / 适用场景 caveat"
+          "description": "What not to chase, only when a source says so."
         },
         "caveat": {
           "type": "string",
-          "description": "Alias of skip; either field works"
+          "description": "Honest limit of the conclusion (missing tier list, no pull text)."
+        },
+        "stub": {
+          "type": "boolean",
+          "description": "true = conclusion incomplete; do not treat tier/pull as verified."
         },
         "sources": {
           "type": "array",
+          "minItems": 1,
           "items": {
-            "type": "string"
+            "type": "string",
+            "minLength": 8
           },
           "description": "Verified source URLs for the conclusion bar"
         }

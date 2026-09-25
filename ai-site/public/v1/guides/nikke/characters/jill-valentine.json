@@ -40,5 +40,14 @@
   "gamekee_entry_id": 195323,
   "prydwen_slug": "jill-valentine",
   "rarity": "SSR",
-  "verified": "GameKee nikke/678556 图鉴"
+  "verified": "GameKee nikke/678556 图鉴",
+  "summary": {
+    "position": "SSR / 超级警察 / 火力型 / 电击 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/jill-valentine",
+      "https://www.gamekee.com/nikke/678556.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

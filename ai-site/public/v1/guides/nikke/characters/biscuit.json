@@ -40,5 +40,14 @@
   "gamekee_entry_id": 117212,
   "prydwen_slug": "biscuit",
   "rarity": "SSR",
-  "verified": "GameKee nikke/584520 图鉴"
+  "verified": "GameKee nikke/584520 图鉴",
+  "summary": {
+    "position": "SSR / 徒步训练 / 辅助型 / 电击 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/biscuit",
+      "https://www.gamekee.com/nikke/584520.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

@@ -10,6 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import { conclusionFromCard } from "./guide-conclusion.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../..");
@@ -440,6 +441,7 @@ function enrichFromGameKee(card, wiki) {
   delete next.enrich_attempted;
   next.as_of = AS_OF;
   next.verified = `GameKee nikke/${wiki.content_id} 图鉴`;
+  next.summary = conclusionFromCard(next);
   return { ok: true, card: next, skill_count: skills.length, via: "gamekee" };
 }
 
@@ -459,6 +461,7 @@ function enrichFromPrydwen(card, parsed, slug) {
   delete next.enrich_attempted;
   next.as_of = AS_OF;
   next.verified = `Prydwen /nikke/characters/${slug}`;
+  next.summary = conclusionFromCard(next);
   return { ok: true, card: next, skill_count: skills.length, via: "prydwen" };
 }
 

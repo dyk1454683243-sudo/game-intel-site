@@ -63,5 +63,13 @@
   "gamekee_entry_id": 164420,
   "verified": "GameKee hw/635915 图鉴",
   "duplicate_of": "gigi",
-  "note": "Duplicate GameKee content_id 635915; canonical id is gigi (妮姆赛/吉吉). Prefer gigi."
+  "note": "Duplicate GameKee content_id 635915; canonical id is gigi (妮姆赛/吉吉). Prefer gigi.",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/635915.html"
+    ],
+    "tier": "T1 / 聚怪 / 坦克 / 审判大祭司",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

@@ -40,5 +40,14 @@
   "prydwen_slug": "centi",
   "rarity": "SSR",
   "burst": "开始动工",
-  "verified": "GameKee nikke/163877 图鉴"
+  "verified": "GameKee nikke/163877 图鉴",
+  "summary": {
+    "position": "SSR / 开始动工 / 防御型 / 铁甲 / 米西利斯",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/centi",
+      "https://www.gamekee.com/nikke/163877.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

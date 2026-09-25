@@ -58,5 +58,13 @@
   "as_of": "2026-09",
   "gamekee_content_id": 704222,
   "gamekee_entry_id": 214771,
-  "verified": "GameKee hw/704222 图鉴"
+  "verified": "GameKee hw/704222 图鉴",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/hw/704222.html"
+    ],
+    "tier": "T1 / 主C / 对单 / 拉莫拉大将军",
+    "stub": false,
+    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+  }
 }

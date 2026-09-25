@@ -40,5 +40,14 @@
   "gamekee_entry_id": 117180,
   "prydwen_slug": "power",
   "rarity": "SSR",
-  "verified": "GameKee nikke/584475 图鉴"
+  "verified": "GameKee nikke/584475 图鉴",
+  "summary": {
+    "position": "SSR / 血之铁锤 / 火力型 / 燃烧 / 反常",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/power",
+      "https://www.gamekee.com/nikke/584475.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

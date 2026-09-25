@@ -40,5 +40,14 @@
   "gamekee_entry_id": 134182,
   "prydwen_slug": "tove",
   "rarity": "SSR",
-  "verified": "GameKee nikke/606470 图鉴"
+  "verified": "GameKee nikke/606470 图鉴",
+  "summary": {
+    "position": "SSR / 临时制作的奇迹 / 辅助型 / 水冷 / 米西利斯",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/tove",
+      "https://www.gamekee.com/nikke/606470.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

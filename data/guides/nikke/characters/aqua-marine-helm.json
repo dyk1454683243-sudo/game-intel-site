@@ -42,5 +42,14 @@
   "gamekee_entry_id": 124560,
   "prydwen_slug": "aqua-marine-helm",
   "rarity": "SSR",
-  "verified": "GameKee nikke/597433 图鉴"
+  "verified": "GameKee nikke/597433 图鉴",
+  "summary": {
+    "position": "SSR / 宙斯盾加农炮过载 / 火力型 / 铁甲 / 极乐净土",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
+      "https://www.gamekee.com/nikke/597433.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

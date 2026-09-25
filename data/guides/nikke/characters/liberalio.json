@@ -42,5 +42,14 @@
   "gamekee_entry_id": 197547,
   "prydwen_slug": "liberalio",
   "rarity": "SSR",
-  "verified": "GameKee nikke/682429 图鉴"
+  "verified": "GameKee nikke/682429 图鉴",
+  "summary": {
+    "position": "SSR / 沉没的世界 / 火力型 / 风压 / 朝圣者",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/liberalio",
+      "https://www.gamekee.com/nikke/682429.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

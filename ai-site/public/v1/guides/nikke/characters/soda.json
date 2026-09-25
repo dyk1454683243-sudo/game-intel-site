@@ -40,5 +40,14 @@
   "prydwen_slug": "soda",
   "rarity": "SSR",
   "burst": "大扫除女仆",
-  "verified": "GameKee nikke/583173 图鉴"
+  "verified": "GameKee nikke/583173 图鉴",
+  "summary": {
+    "position": "SSR / 大扫除女仆 / 辅助型 / 燃烧 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/soda",
+      "https://www.gamekee.com/nikke/583173.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }

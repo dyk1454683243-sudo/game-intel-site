@@ -40,5 +40,14 @@
   "gamekee_entry_id": 141479,
   "prydwen_slug": "ade",
   "rarity": "SSR",
-  "verified": "GameKee nikke/614660 图鉴"
+  "verified": "GameKee nikke/614660 图鉴",
+  "summary": {
+    "position": "SSR / 该用餐了，主人。 / 支援型 / 风压 / 泰特拉",
+    "sources": [
+      "https://www.prydwen.gg/nikke/characters/ade",
+      "https://www.gamekee.com/nikke/614660.html"
+    ],
+    "stub": true,
+    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+  }
 }
