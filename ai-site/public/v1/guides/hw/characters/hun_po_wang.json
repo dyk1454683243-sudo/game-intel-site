@@ -1,0 +1,59 @@
+{
+  "id": "hun_po_wang",
+  "name": "混破亡",
+  "name_zh": "混破亡",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T2 / 上级梦魔",
+  "skills": [
+    {
+      "name": "梦的冲击",
+      "type": "active",
+      "summary": "造成魔法攻击力60%的无形伤害。"
+    },
+    {
+      "name": "恍惚之梦的依附",
+      "type": "passive",
+      "summary": "造成魔法攻击力30%的无形伤害，夺取敌人的肉体依附于其身。敌人生命力越低，自身魔法攻击力越高且依附成功率增加，最高70%。对BOSS或精锐敌人无法依附。依附成功时自身行动力固定为0，但可以操纵所依附的目标 操纵中的目标被击杀时依附解除，立即获得150行动力"
+    },
+    {
+      "name": "他人的身体",
+      "type": "passive",
+      "summary": "依附成功时，附身对象所有攻击都增加40%"
+    },
+    {
+      "name": "恶梦的具现",
+      "type": "active",
+      "summary": "对半径5米内的敌人造成魔法攻击力60%的无形伤害，30%的概率眩晕，并给予所有防御减少200效果。使用技能后自身也会眩晕"
+    }
+  ],
+  "skill_prio": [
+    "实在想玩可以加下附身",
+    "梦的冲击: 不加",
+    "恍惚之梦的依附: 6级即可",
+    "他人的身体: 不加",
+    "恶梦的具现: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "游荡世间",
+    "pieces": 4,
+    "notes": [
+      "2件: 移动力",
+      "4件: 满血时行动恢复力",
+      "附身成功率看魔法攻击力，副词条堆点魔法攻击力就行，娱乐角色。"
+    ]
+  },
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634497.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634497,
+  "gamekee_entry_id": 163041,
+  "verified": "GameKee hw/634497 图鉴"
+}

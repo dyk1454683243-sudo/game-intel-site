@@ -1,0 +1,70 @@
+{
+  "id": "hai_lun_na",
+  "name": "海伦娜",
+  "name_zh": "海伦娜",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "辅助",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "一同高歌！",
+      "type": "active",
+      "costume": "顶尖偶像",
+      "summary": "6"
+    },
+    {
+      "name": "为你加油！",
+      "type": "active",
+      "costume": "B级偶像",
+      "summary": "4回合内，友军的魔法力增加115%。4回合内，每回合结束时，恢复友军相当于自身魔法力100%的生命力。4回合内，友军的致命率增加50%。"
+    },
+    {
+      "name": "让我给你一个温暖的拥抱吧！",
+      "type": "active",
+      "costume": "客栈晴晖",
+      "summary": "为下一名攻击的友军施加增强效果，持续8回合，使其造成的伤害增加200%。使下一位攻击顺序的友军单位，所有正在冷却中的服装冷却时间减少2。"
+    },
+    {
+      "name": "爱情之歌！",
+      "type": "talent",
+      "summary": "从虚脱恢复至生命力50%的状态。消耗12个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "顶尖偶像",
+  "talent": {
+    "name": "爱情之歌！",
+    "summary": "从虚脱恢复至生命力50%的状态。消耗12个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "顶尖偶像",
+      "type": "辅助",
+      "skill": "一同高歌！"
+    },
+    {
+      "name": "B级偶像",
+      "type": "辅助",
+      "skill": "为你加油！"
+    },
+    {
+      "name": "客栈晴晖",
+      "type": "常驻",
+      "skill": "让我给你一个温暖的拥抱吧！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593630.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593630,
+  "gamekee_entry_id": 122361,
+  "verified": "GameKee zsca2/593630 图鉴"
+}

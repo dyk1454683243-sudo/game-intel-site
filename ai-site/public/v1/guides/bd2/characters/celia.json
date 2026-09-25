@@ -1,0 +1,70 @@
+{
+  "id": "celia",
+  "name": "西利亚",
+  "name_zh": "西利亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "小丑默剧",
+      "type": "active",
+      "costume": "诅咒之星",
+      "summary": "攻击敌人7次，每次攻击时，造成相当于自身魔法力35%的魔法伤害。4回合内，敌人攻击力减少65%。【额外能力】2回合内，敌人防御力减少10%。"
+    },
+    {
+      "name": "远古诅咒",
+      "type": "active",
+      "costume": "大魔女后裔",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力58%的魔法伤害。4回合内，敌人魔法力减少65%。【额外能力】2回合内，敌人魔法抵抗减少10%。"
+    },
+    {
+      "name": "举杯畅饮",
+      "type": "active",
+      "costume": "化妆舞会兔女郎",
+      "summary": "6回合内，对自己应用1连携强化效果。攻击敌人3次，每次攻击时，造成相当于自身魔法力160%的魔法伤害。"
+    },
+    {
+      "name": "泰拉巴克斯",
+      "type": "talent",
+      "summary": "吸收地图上的拾取物。处于可获得探查拾取物的状态时，探查拾取物也会一起被吸收。每日可用次数5次。消耗10个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "泰拉假面",
+  "talent": {
+    "name": "泰拉巴克斯",
+    "summary": "吸收地图上的拾取物。处于可获得探查拾取物的状态时，探查拾取物也会一起被吸收。每日可用次数5次。消耗10个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "诅咒之星",
+      "type": "辅助",
+      "skill": "小丑默剧"
+    },
+    {
+      "name": "大魔女后裔",
+      "type": "辅助",
+      "skill": "远古诅咒"
+    },
+    {
+      "name": "化妆舞会兔女郎",
+      "type": "限定",
+      "skill": "举杯畅饮"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593569.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593569,
+  "gamekee_entry_id": 122356,
+  "verified": "GameKee zsca2/593569 图鉴"
+}

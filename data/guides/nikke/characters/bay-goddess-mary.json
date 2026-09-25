@@ -1,0 +1,48 @@
+{
+  "id": "bay-goddess-mary",
+  "name": "梅里：海湾女神",
+  "name_zh": "梅里：海湾女神",
+  "name_en": "Mary: Bay Goddess",
+  "aliases": [],
+  "nicknames": [
+    "水梅",
+    "夏日梅里",
+    "泳装梅里"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "海边的阳光",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【不同起始次数不同效果】【低阶效果重复生效】 1次：【恢复施展者最终最大体力的0.62%】 【间隔1秒】【持续5秒】 2次：【恢复施展者最终最大体力的2.18%】 【间隔1秒】【持续5秒】 3次：【恢复施展者最终最大体力的4.05%】 【间隔1秒】【持续5秒】"
+    },
+    {
+      "name": "浸湿双脚的海浪",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，水冷代码全体队友 【不同起始次数不同效果】【低阶效果重复生效】 1次：【优越代码攻击伤害3.43% ▲】【持续3秒】 2次：【优越代码攻击伤害3.43% ▲】【持续5秒】 3次：【优越代码攻击伤害2.97% ▲】【持续10秒】"
+    },
+    {
+      "name": "平静的水面",
+      "type": "burst",
+      "summary": "■水冷代码全体队友 【攻击力 13.72% ▲】【持续3秒】 ■全体队友 【最大体力以施展者最终最大体力为基准16.47% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "平静的水面",
+  "weapon": "夏日一击",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/bay-goddess-mary",
+    "https://www.gamekee.com/nikke/593038.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593038,
+  "gamekee_entry_id": 122073,
+  "prydwen_slug": "bay-goddess-mary",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/593038 图鉴"
+}

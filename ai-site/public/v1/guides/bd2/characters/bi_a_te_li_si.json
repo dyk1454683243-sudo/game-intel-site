@@ -1,0 +1,40 @@
+{
+  "id": "bi_a_te_li_si",
+  "name": "比阿特丽丝",
+  "name_zh": "比阿特丽丝",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "打倒！",
+      "type": "active",
+      "costume": "部族大战士",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身攻击力300%的物理固定伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "撼地者",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "部族大战士",
+      "type": null,
+      "skill": "打倒！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593613.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593613,
+  "gamekee_entry_id": 122333,
+  "verified": "GameKee zsca2/593613 图鉴"
+}

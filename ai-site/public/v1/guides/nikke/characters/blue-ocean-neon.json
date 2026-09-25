@@ -1,0 +1,44 @@
+{
+  "id": "blue-ocean-neon",
+  "name": "尼恩：蓝色海洋",
+  "name_zh": "尼恩：蓝色海洋",
+  "name_en": "Neon: Blue Ocean",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "向上波浪",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【不同起始次数不同效果】【低阶效果重复生效】 1次：【零件伤害5.2% ▲】【持续20秒】 2次：【零件伤害5.2% ▲】【持续20秒】 3次：【零件伤害5.2% ▲】【持续20秒】"
+    },
+    {
+      "name": "水枪",
+      "type": "passive",
+      "summary": "■进入爆裂3阶时，自身 【不同起始次数不同效果】【低阶效果重复生效】 1次：【优越代码攻击伤害8.32% ▲】【持续10秒】 2次：【优越代码攻击伤害8.32% ▲】【持续10秒】 3次：【优越代码攻击伤害8.32% ▲】【持续10秒】"
+    },
+    {
+      "name": "水力全开一击",
+      "type": "burst",
+      "summary": "■自身 【使用武器改变】 伤害：相当于最终攻击力的19.5% 持续时间：7秒 ■若目标属于燃烧属性，造成相当于 【最终攻击力6.5%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "水力全开一击",
+  "weapon": "超级大海浪",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/blue-ocean-neon",
+    "https://www.gamekee.com/nikke/593045.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593045,
+  "gamekee_entry_id": 122074,
+  "prydwen_slug": "blue-ocean-neon",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/593045 图鉴"
+}

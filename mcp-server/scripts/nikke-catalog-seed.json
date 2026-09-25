@@ -1,0 +1,2115 @@
+{
+  "gamekee": [
+    {
+      "entry_id": 225768,
+      "name": "吉尔提：神力兔女郎",
+      "content_id": 721421,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 224507,
+      "name": "德雷克：终极反派",
+      "content_id": 719742,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 221387,
+      "name": "雪子",
+      "content_id": 717735,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 221057,
+      "name": "QUEEN(真）",
+      "content_id": 716926,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 219257,
+      "name": "麦斯威尔：平凡技师",
+      "content_id": 713899,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 219258,
+      "name": "拉普拉斯：究极英雄",
+      "content_id": 713891,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 218512,
+      "name": "玛律恰那：海洋进修",
+      "content_id": 711739,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 218253,
+      "name": "灰姑娘：琉璃波光",
+      "content_id": 711133,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 217280,
+      "name": "方舟黑色游侠",
+      "content_id": 708686,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 216838,
+      "name": "普莉卡",
+      "content_id": 706696,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 216403,
+      "name": "敏特",
+      "content_id": 705512,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 214040,
+      "name": "尼恩：透视之眼",
+      "content_id": 703513,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 214041,
+      "name": "阿维斯塔",
+      "content_id": 703507,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 213892,
+      "name": "阿妮斯：超级巨星",
+      "content_id": 703135,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 213156,
+      "name": "白鹤",
+      "content_id": 701435,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 211196,
+      "name": "阿尔卡娜：命运伴侣",
+      "content_id": 698416,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 210386,
+      "name": "E.H.",
+      "content_id": 696640,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 207952,
+      "name": "泷奈",
+      "content_id": 694801,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 205081,
+      "name": "千束",
+      "content_id": 693503,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 204395,
+      "name": "薇尔维特",
+      "content_id": 691899,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 203254,
+      "name": "蕾贝儿",
+      "content_id": 690252,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 202234,
+      "name": "白雪公主：重型武装",
+      "content_id": 688276,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 199447,
+      "name": "布丽德：静默轨道",
+      "content_id": 685270,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 199281,
+      "name": "迪塞尔：冬日甜心",
+      "content_id": 684848,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 198647,
+      "name": "索林：霜之旅票",
+      "content_id": 684090,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 197547,
+      "name": "莉贝雷利奥",
+      "content_id": 682429,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 197548,
+      "name": "钟鸣",
+      "content_id": 682342,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 197194,
+      "name": "娜由塔",
+      "content_id": 681716,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 196639,
+      "name": "德尔塔：怪盗忍者",
+      "content_id": 680619,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 195323,
+      "name": "吉儿",
+      "content_id": 678556,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 195082,
+      "name": "艾达",
+      "content_id": 678271,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 194384,
+      "name": "米尔克：花漾兔女郎",
+      "content_id": 676880,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 194017,
+      "name": "爱德：特务兔女郎",
+      "content_id": 676330,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 193470,
+      "name": "贝斯蒂：战术升级",
+      "content_id": 674867,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 193220,
+      "name": "银华：战术升级",
+      "content_id": 674108,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 193098,
+      "name": "艾玛：战术升级",
+      "content_id": 673808,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 191660,
+      "name": "伊莱格：BOOM与惊吓",
+      "content_id": 671513,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 191407,
+      "name": "桃乐丝：机缘巧遇",
+      "content_id": 670644,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 190016,
+      "name": "索拉",
+      "content_id": 668936,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 189412,
+      "name": "渡鸦",
+      "content_id": 667602,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 189413,
+      "name": "伊芙",
+      "content_id": 667586,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 188712,
+      "name": "K",
+      "content_id": 664885,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 186774,
+      "name": "阿尔卡娜",
+      "content_id": 661994,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 185065,
+      "name": "米哈拉：羁绊锁链",
+      "content_id": 660553,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 185066,
+      "name": "莫莉",
+      "content_id": 660353,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 185067,
+      "name": "小美人鱼",
+      "content_id": 660130,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 182034,
+      "name": "克劳斯特",
+      "content_id": 656124,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 180539,
+      "name": "布蕾德",
+      "content_id": 156441,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 178620,
+      "name": "特蕾娜",
+      "content_id": 156120,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 176734,
+      "name": "零（暂称）",
+      "content_id": 157318,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 176735,
+      "name": "明日香：WILLE",
+      "content_id": 156668,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 174879,
+      "name": "安克：天真的女仆",
+      "content_id": 164728,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 174880,
+      "name": "马斯特：浪漫的女仆",
+      "content_id": 159641,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 173877,
+      "name": "玛娜",
+      "content_id": 159658,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 172947,
+      "name": "拉毗：小红帽",
+      "content_id": 166530,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 171127,
+      "name": "吉萝婷：寒冬杀手",
+      "content_id": 166801,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 171126,
+      "name": "梅登：冰玫瑰",
+      "content_id": 167401,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 170296,
+      "name": "芙罗拉",
+      "content_id": 170646,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 169046,
+      "name": "格拉维",
+      "content_id": 170831,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 182035,
+      "name": "灰姑娘",
+      "content_id": 170686,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 169045,
+      "name": "长发公主：纯洁恩典",
+      "content_id": 171337,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 167995,
+      "name": "鲁玛妮",
+      "content_id": 171270,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 164839,
+      "name": "潘托姆",
+      "content_id": 155278,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 164838,
+      "name": "坎西：逃生女王",
+      "content_id": 152944,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 164837,
+      "name": "露姬",
+      "content_id": 152319,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 162037,
+      "name": "真理",
+      "content_id": 599374,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 162036,
+      "name": "零",
+      "content_id": 172126,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 162035,
+      "name": "明日香",
+      "content_id": 171662,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 160039,
+      "name": "茨瓦伊",
+      "content_id": 576593,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 156962,
+      "name": "爱因",
+      "content_id": 590070,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 153994,
+      "name": "罗珊娜：高雅海洋",
+      "content_id": 170974,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 153991,
+      "name": "樱花：夏日绽放",
+      "content_id": 156953,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 152563,
+      "name": "克雷伊",
+      "content_id": 624298,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 151199,
+      "name": "爱丽丝：仙境兔女郎",
+      "content_id": 624034,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 151198,
+      "name": "索达：闪亮兔女郎",
+      "content_id": 623992,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 149741,
+      "name": "特罗尼",
+      "content_id": 622849,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 148497,
+      "name": "吉洛",
+      "content_id": 621330,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 148496,
+      "name": "皇冠",
+      "content_id": 621270,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 147615,
+      "name": "贝伊",
+      "content_id": 620123,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 146356,
+      "name": "雷姆",
+      "content_id": 618507,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 146355,
+      "name": "爱蜜莉雅",
+      "content_id": 618503,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 144160,
+      "name": "D:杀手妻子",
+      "content_id": 616356,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 142929,
+      "name": "伊莱格",
+      "content_id": 615258,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 141479,
+      "name": "爱德",
+      "content_id": 614660,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 141478,
+      "name": "普丽瓦蒂：不友善的女仆",
+      "content_id": 614623,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 138643,
+      "name": "牡丹",
+      "content_id": 610829,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 138642,
+      "name": "莱昂纳",
+      "content_id": 610811,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 137482,
+      "name": "红莲：暗影",
+      "content_id": 609604,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 135409,
+      "name": "米卡：雪地伙伴",
+      "content_id": 607597,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 135408,
+      "name": "鲁德米拉：冬日之主",
+      "content_id": 607550,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 134182,
+      "name": "托比",
+      "content_id": 606470,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 131942,
+      "name": "白雪公主：纯真年代",
+      "content_id": 604403,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 131941,
+      "name": "小红帽",
+      "content_id": 604398,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 130607,
+      "name": "基里",
+      "content_id": 602935,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 127164,
+      "name": "蒂亚",
+      "content_id": 600940,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 127163,
+      "name": "娜嘉",
+      "content_id": 600935,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 127162,
+      "name": "玛律恰那",
+      "content_id": 600802,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 125853,
+      "name": "A2",
+      "content_id": 599115,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 125852,
+      "name": "2B",
+      "content_id": 599069,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 124560,
+      "name": "海伦：海蓝宝石",
+      "content_id": 597433,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 124559,
+      "name": "阿妮斯：闪耀夏日",
+      "content_id": 597426,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 123019,
+      "name": "马斯特",
+      "content_id": 594772,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 122926,
+      "name": "尼罗",
+      "content_id": 594767,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 122074,
+      "name": "尼恩：蓝色海洋",
+      "content_id": 593045,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 122073,
+      "name": "梅里：海湾女神",
+      "content_id": 593038,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 121117,
+      "name": "罗珊娜",
+      "content_id": 591260,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 121067,
+      "name": "诺亚尔",
+      "content_id": 591253,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 121066,
+      "name": "布兰儿",
+      "content_id": 591204,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 120208,
+      "name": "莱伊",
+      "content_id": 589853,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 120207,
+      "name": "桃乐丝",
+      "content_id": 589849,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 118974,
+      "name": "D",
+      "content_id": 588547,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 118390,
+      "name": "尼希利斯塔",
+      "content_id": 587422,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 118389,
+      "name": "樱花",
+      "content_id": 587419,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 117212,
+      "name": "饼干",
+      "content_id": 584520,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 117180,
+      "name": "帕瓦",
+      "content_id": 584475,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 117179,
+      "name": "玛奇玛",
+      "content_id": 584401,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 116194,
+      "name": "索达",
+      "content_id": 583173,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 116193,
+      "name": "可可",
+      "content_id": 582159,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115416,
+      "name": "坎西",
+      "content_id": 580948,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115415,
+      "name": "森",
+      "content_id": 580947,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115414,
+      "name": "吉尔提",
+      "content_id": 580946,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115401,
+      "name": "毒蛇",
+      "content_id": 580714,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115400,
+      "name": "豺狼",
+      "content_id": 580711,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 115012,
+      "name": "神罚",
+      "content_id": 576623,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 114279,
+      "name": "安妮：奇迹仙女",
+      "content_id": 578097,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 114278,
+      "name": "露菲：冬日购物狂",
+      "content_id": 578062,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113449,
+      "name": "拉普拉斯",
+      "content_id": 576409,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113167,
+      "name": "海伦",
+      "content_id": 171728,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113080,
+      "name": "朵拉",
+      "content_id": 170853,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113077,
+      "name": "长发公主",
+      "content_id": 170850,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102016,
+      "name": "红莲",
+      "content_id": 152335,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113070,
+      "name": "梅登",
+      "content_id": 170842,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110028,
+      "name": "诺伊斯",
+      "content_id": 163884,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110025,
+      "name": "哈兰",
+      "content_id": 163881,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110029,
+      "name": "杨",
+      "content_id": 163886,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102003,
+      "name": "尤妮",
+      "content_id": 152336,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 64611,
+      "name": "爱丽丝",
+      "content_id": 92090,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102004,
+      "name": "普丽瓦蒂",
+      "content_id": 152329,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102013,
+      "name": "吉萝婷",
+      "content_id": 152333,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102008,
+      "name": "迪塞尔",
+      "content_id": 152337,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110022,
+      "name": "沃纶姆",
+      "content_id": 163876,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102017,
+      "name": "诺雅",
+      "content_id": 152340,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 101999,
+      "name": "舒格",
+      "content_id": 152328,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102006,
+      "name": "尤莉亚",
+      "content_id": 152330,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102007,
+      "name": "西格娜",
+      "content_id": 152331,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102010,
+      "name": "德雷克",
+      "content_id": 152332,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 64608,
+      "name": "麦斯威尔",
+      "content_id": 92087,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102015,
+      "name": "艾菲涅尔",
+      "content_id": 152334,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102009,
+      "name": "银华",
+      "content_id": 152338,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110020,
+      "name": "布丽德",
+      "content_id": 163874,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 64612,
+      "name": "白雪公主",
+      "content_id": 92091,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110021,
+      "name": "阿莉亚",
+      "content_id": 163875,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110024,
+      "name": "克拉乌",
+      "content_id": 163879,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110023,
+      "name": "桑迪",
+      "content_id": 163877,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102014,
+      "name": "鲁德米拉",
+      "content_id": 152339,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110017,
+      "name": "波莉",
+      "content_id": 163861,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102001,
+      "name": "艾玛",
+      "content_id": 152341,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102005,
+      "name": "普琳玛",
+      "content_id": 152342,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102011,
+      "name": "梅里",
+      "content_id": 152343,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102012,
+      "name": "艾德米",
+      "content_id": 152344,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102040,
+      "name": "米兰达",
+      "content_id": 152345,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110027,
+      "name": "索林",
+      "content_id": 163883,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 64610,
+      "name": "艾可希雅",
+      "content_id": 92089,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113069,
+      "name": "尤尔夏",
+      "content_id": 170841,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113071,
+      "name": "诺薇儿",
+      "content_id": 170843,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113072,
+      "name": "丽塔",
+      "content_id": 170844,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113073,
+      "name": "佩珀",
+      "content_id": 170845,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113074,
+      "name": "富克旺",
+      "content_id": 170847,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113075,
+      "name": "米尔克",
+      "content_id": 170848,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113076,
+      "name": "贝斯蒂",
+      "content_id": 170849,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113078,
+      "name": "露菲",
+      "content_id": 170851,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 113079,
+      "name": "伊莎贝尔",
+      "content_id": 170852,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 221388,
+      "name": "埃葵斯",
+      "content_id": 717751,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 209189,
+      "name": "胡桃",
+      "content_id": 695279,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 195279,
+      "name": "克莱尔",
+      "content_id": 678481,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 189414,
+      "name": "百合",
+      "content_id": 667898,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 176736,
+      "name": "樱",
+      "content_id": 156606,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 182085,
+      "name": "美里",
+      "content_id": 655996,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 146357,
+      "name": "拉姆",
+      "content_id": 618548,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 125854,
+      "name": "帕斯卡",
+      "content_id": 599118,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 124561,
+      "name": "安克",
+      "content_id": 597431,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 117181,
+      "name": "姬野",
+      "content_id": 584479,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 114280,
+      "name": "尼夫",
+      "content_id": 578202,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 64603,
+      "name": "拉毗",
+      "content_id": 92082,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102025,
+      "name": "贝洛塔",
+      "content_id": 152346,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110436,
+      "name": "N102",
+      "content_id": 152351,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110437,
+      "name": "米卡",
+      "content_id": 152352,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110438,
+      "name": "阿妮斯",
+      "content_id": 152348,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110439,
+      "name": "艾瑟儿",
+      "content_id": 152350,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110440,
+      "name": "米哈拉",
+      "content_id": 152349,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110441,
+      "name": "德尔塔",
+      "content_id": 152347,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 110442,
+      "name": "尼恩",
+      "content_id": 92084,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 147300,
+      "name": "舒恩",
+      "content_id": 619532,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 120033,
+      "name": "谢芙蒂",
+      "content_id": 589285,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 198648,
+      "name": "机甲谢芙蒂",
+      "content_id": 684097,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102034,
+      "name": "产品12",
+      "content_id": 152354,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102031,
+      "name": "士兵E.G",
+      "content_id": 152353,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102032,
+      "name": "士兵F.A",
+      "content_id": 152355,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102035,
+      "name": "IDoll花",
+      "content_id": 152356,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102033,
+      "name": "产品08",
+      "content_id": 152357,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102036,
+      "name": "iDoll海",
+      "content_id": 152358,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102037,
+      "name": "士兵O.W",
+      "content_id": 152359,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102039,
+      "name": "iDoll太阳",
+      "content_id": 152361,
+      "name_alias": ""
+    },
+    {
+      "entry_id": 102038,
+      "name": "产品23",
+      "content_id": 152360,
+      "name_alias": ""
+    }
+  ],
+  "prydwen": [
+    {
+      "id": "2b",
+      "name_en": "2B"
+    },
+    {
+      "id": "a2",
+      "name_en": "A2"
+    },
+    {
+      "id": "ada-wong",
+      "name_en": "Ada Wong"
+    },
+    {
+      "id": "ade",
+      "name_en": "Ade"
+    },
+    {
+      "id": "ade-agent-bunny",
+      "name_en": "Ade: Agent Bunny"
+    },
+    {
+      "id": "admi",
+      "name_en": "Admi"
+    },
+    {
+      "id": "aigis",
+      "name_en": "Aigis"
+    },
+    {
+      "id": "alice",
+      "name_en": "Alice"
+    },
+    {
+      "id": "alice-wonderland-bunny",
+      "name_en": "Alice: Wonderland Bunny"
+    },
+    {
+      "id": "anchor",
+      "name_en": "Anchor"
+    },
+    {
+      "id": "anchor-innocent-maid",
+      "name_en": "Anchor: Innocent Maid"
+    },
+    {
+      "id": "anis",
+      "name_en": "Anis"
+    },
+    {
+      "id": "sparkling-summer-anis",
+      "name_en": "Anis: Sparkling Summer"
+    },
+    {
+      "id": "anis-star",
+      "name_en": "Anis: Star"
+    },
+    {
+      "id": "miracle-fairy-anne",
+      "name_en": "Anne: Miracle Fairy"
+    },
+    {
+      "id": "arcana",
+      "name_en": "Arcana"
+    },
+    {
+      "id": "arcana-fortune-mate",
+      "name_en": "Arcana: Fortune Mate"
+    },
+    {
+      "id": "aria",
+      "name_en": "Aria"
+    },
+    {
+      "id": "ark-ranger-black",
+      "name_en": "Ark Ranger Black"
+    },
+    {
+      "id": "asuka-shikinami-langley",
+      "name_en": "Asuka Shikinami Langley"
+    },
+    {
+      "id": "asuka-shikinami-langley-wille",
+      "name_en": "Asuka Shikinami Langley: Wille"
+    },
+    {
+      "id": "avistar",
+      "name_en": "Avistar"
+    },
+    {
+      "id": "bay",
+      "name_en": "Bay"
+    },
+    {
+      "id": "bay-treasure",
+      "name_en": "Bay (Treasure)"
+    },
+    {
+      "id": "belorta",
+      "name_en": "Belorta"
+    },
+    {
+      "id": "biscuit",
+      "name_en": "Biscuit"
+    },
+    {
+      "id": "blanc",
+      "name_en": "Blanc"
+    },
+    {
+      "id": "bready",
+      "name_en": "Bready"
+    },
+    {
+      "id": "brid",
+      "name_en": "Brid"
+    },
+    {
+      "id": "brid-silent-track",
+      "name_en": "Brid: Silent Track"
+    },
+    {
+      "id": "centi",
+      "name_en": "Centi"
+    },
+    {
+      "id": "centi-treasure",
+      "name_en": "Centi (Treasure)"
+    },
+    {
+      "id": "chime",
+      "name_en": "Chime"
+    },
+    {
+      "id": "chisato-nishikigi",
+      "name_en": "Chisato Nishikigi"
+    },
+    {
+      "id": "cinderella",
+      "name_en": "Cinderella"
+    },
+    {
+      "id": "cinderella-crystal-wave",
+      "name_en": "Cinderella: Crystal Wave"
+    },
+    {
+      "id": "claire-redfield",
+      "name_en": "Claire Redfield"
+    },
+    {
+      "id": "clay",
+      "name_en": "Clay"
+    },
+    {
+      "id": "cocoa",
+      "name_en": "Cocoa"
+    },
+    {
+      "id": "crow",
+      "name_en": "Crow"
+    },
+    {
+      "id": "crown",
+      "name_en": "Crown"
+    },
+    {
+      "id": "crust",
+      "name_en": "Crust"
+    },
+    {
+      "id": "d",
+      "name_en": "D"
+    },
+    {
+      "id": "d-killer-wife",
+      "name_en": "D: Killer Wife"
+    },
+    {
+      "id": "delta",
+      "name_en": "Delta"
+    },
+    {
+      "id": "delta-ninja-thief",
+      "name_en": "Delta: Ninja Thief"
+    },
+    {
+      "id": "diesel",
+      "name_en": "Diesel"
+    },
+    {
+      "id": "diesel-treasure",
+      "name_en": "Diesel (Treasure)"
+    },
+    {
+      "id": "diesel-winter-sweets",
+      "name_en": "Diesel: Winter Sweets"
+    },
+    {
+      "id": "dolla",
+      "name_en": "Dolla"
+    },
+    {
+      "id": "dorothy",
+      "name_en": "Dorothy"
+    },
+    {
+      "id": "dorothy-serendipity",
+      "name_en": "Dorothy: Serendipity"
+    },
+    {
+      "id": "drake",
+      "name_en": "Drake"
+    },
+    {
+      "id": "drake-treasure",
+      "name_en": "Drake (Treasure)"
+    },
+    {
+      "id": "drake-great-villain",
+      "name_en": "Drake: Great Villain"
+    },
+    {
+      "id": "e-h",
+      "name_en": "E.H."
+    },
+    {
+      "id": "ein",
+      "name_en": "Ein"
+    },
+    {
+      "id": "elegg",
+      "name_en": "Elegg"
+    },
+    {
+      "id": "elegg-boom-and-shock",
+      "name_en": "Elegg: Boom and Shock"
+    },
+    {
+      "id": "emilia",
+      "name_en": "Emilia"
+    },
+    {
+      "id": "emma",
+      "name_en": "Emma"
+    },
+    {
+      "id": "emma-tactical-upgrade",
+      "name_en": "Emma: Tactical Upgrade"
+    },
+    {
+      "id": "epinel",
+      "name_en": "Epinel"
+    },
+    {
+      "id": "ether",
+      "name_en": "Ether"
+    },
+    {
+      "id": "eunhwa",
+      "name_en": "Eunhwa"
+    },
+    {
+      "id": "eunhwa-tactical-upgrade",
+      "name_en": "Eunhwa: Tactical Upgrade"
+    },
+    {
+      "id": "eve",
+      "name_en": "Eve"
+    },
+    {
+      "id": "exia",
+      "name_en": "Exia"
+    },
+    {
+      "id": "exia-treasure",
+      "name_en": "Exia (Treasure)"
+    },
+    {
+      "id": "flora",
+      "name_en": "Flora"
+    },
+    {
+      "id": "flora-treasure",
+      "name_en": "Flora (Treasure)"
+    },
+    {
+      "id": "folkwang",
+      "name_en": "Folkwang"
+    },
+    {
+      "id": "frima-treasure",
+      "name_en": "Frima (Treasure)"
+    },
+    {
+      "id": "grave",
+      "name_en": "Grave"
+    },
+    {
+      "id": "guillotine",
+      "name_en": "Guillotine"
+    },
+    {
+      "id": "guillotine-winter-slayer",
+      "name_en": "Guillotine: Winter Slayer"
+    },
+    {
+      "id": "guilty",
+      "name_en": "Guilty"
+    },
+    {
+      "id": "harran",
+      "name_en": "Harran"
+    },
+    {
+      "id": "helm",
+      "name_en": "Helm"
+    },
+    {
+      "id": "helm-treasure",
+      "name_en": "Helm (Treasure)"
+    },
+    {
+      "id": "aqua-marine-helm",
+      "name_en": "Helm: Aquamarine"
+    },
+    {
+      "id": "himeno",
+      "name_en": "Himeno"
+    },
+    {
+      "id": "isabel",
+      "name_en": "Isabel"
+    },
+    {
+      "id": "jackal",
+      "name_en": "Jackal"
+    },
+    {
+      "id": "jill-valentine",
+      "name_en": "Jill Valentine"
+    },
+    {
+      "id": "julia",
+      "name_en": "Julia"
+    },
+    {
+      "id": "julia-treasure",
+      "name_en": "Julia (Treasure)"
+    },
+    {
+      "id": "k",
+      "name_en": "K"
+    },
+    {
+      "id": "kilo",
+      "name_en": "Kilo"
+    },
+    {
+      "id": "kurumi",
+      "name_en": "Kurumi"
+    },
+    {
+      "id": "label",
+      "name_en": "Label"
+    },
+    {
+      "id": "laplace",
+      "name_en": "Laplace"
+    },
+    {
+      "id": "laplace-treasure",
+      "name_en": "Laplace (Treasure)"
+    },
+    {
+      "id": "laplace-ultimate-hero",
+      "name_en": "Laplace: Ultimate Hero"
+    },
+    {
+      "id": "leona",
+      "name_en": "Leona"
+    },
+    {
+      "id": "liberalio",
+      "name_en": "Liberalio"
+    },
+    {
+      "id": "lily",
+      "name_en": "Lily"
+    },
+    {
+      "id": "liter",
+      "name_en": "Liter"
+    },
+    {
+      "id": "ludmilla",
+      "name_en": "Ludmilla"
+    },
+    {
+      "id": "ludmilla-winter-owner",
+      "name_en": "Ludmilla: Winter Owner"
+    },
+    {
+      "id": "maiden",
+      "name_en": "Maiden"
+    },
+    {
+      "id": "maiden-ice-rose",
+      "name_en": "Maiden: Ice Rose"
+    },
+    {
+      "id": "makima",
+      "name_en": "Makima"
+    },
+    {
+      "id": "mana",
+      "name_en": "Mana"
+    },
+    {
+      "id": "marciana",
+      "name_en": "Marciana"
+    },
+    {
+      "id": "marciana-marine-study",
+      "name_en": "Marciana: Marine Study"
+    },
+    {
+      "id": "mari-makinami-illustrious",
+      "name_en": "Mari Makinami Illustrious"
+    },
+    {
+      "id": "mary",
+      "name_en": "Mary"
+    },
+    {
+      "id": "bay-goddess-mary",
+      "name_en": "Mary: Bay Goddess"
+    },
+    {
+      "id": "mast",
+      "name_en": "Mast"
+    },
+    {
+      "id": "mast-romantic-maid",
+      "name_en": "Mast: Romantic Maid"
+    },
+    {
+      "id": "maxwell",
+      "name_en": "Maxwell"
+    },
+    {
+      "id": "maxwell-ordinary-mechanic",
+      "name_en": "Maxwell: Ordinary Mechanic"
+    },
+    {
+      "id": "mica",
+      "name_en": "Mica"
+    },
+    {
+      "id": "mica-snow-buddy",
+      "name_en": "Mica: Snow Buddy"
+    },
+    {
+      "id": "mihara",
+      "name_en": "Mihara"
+    },
+    {
+      "id": "mihara-bonding-chain",
+      "name_en": "Mihara: Bonding Chain"
+    },
+    {
+      "id": "milk",
+      "name_en": "Milk"
+    },
+    {
+      "id": "milk-treasure",
+      "name_en": "Milk (Treasure)"
+    },
+    {
+      "id": "milk-blooming-bunny",
+      "name_en": "Milk: Blooming Bunny"
+    },
+    {
+      "id": "mint",
+      "name_en": "Mint"
+    },
+    {
+      "id": "miranda",
+      "name_en": "Miranda"
+    },
+    {
+      "id": "miranda-treasure",
+      "name_en": "Miranda (Treasure)"
+    },
+    {
+      "id": "misato-katsuragi",
+      "name_en": "Misato Katsuragi"
+    },
+    {
+      "id": "modernia",
+      "name_en": "Modernia"
+    },
+    {
+      "id": "moran",
+      "name_en": "Moran"
+    },
+    {
+      "id": "moran-treasure",
+      "name_en": "Moran (Treasure)"
+    },
+    {
+      "id": "mori",
+      "name_en": "Mori"
+    },
+    {
+      "id": "n102",
+      "name_en": "N102"
+    },
+    {
+      "id": "naga",
+      "name_en": "Naga"
+    },
+    {
+      "id": "nayuta",
+      "name_en": "Nayuta"
+    },
+    {
+      "id": "neon",
+      "name_en": "Neon"
+    },
+    {
+      "id": "blue-ocean-neon",
+      "name_en": "Neon: Blue Ocean"
+    },
+    {
+      "id": "neon-vision-eye",
+      "name_en": "Neon: Vision Eye"
+    },
+    {
+      "id": "nero",
+      "name_en": "Nero"
+    },
+    {
+      "id": "neve",
+      "name_en": "Neve"
+    },
+    {
+      "id": "nihilister",
+      "name_en": "Nihilister"
+    },
+    {
+      "id": "noah",
+      "name_en": "Noah"
+    },
+    {
+      "id": "noir",
+      "name_en": "Noir"
+    },
+    {
+      "id": "noise",
+      "name_en": "Noise"
+    },
+    {
+      "id": "novel",
+      "name_en": "Novel"
+    },
+    {
+      "id": "pascal",
+      "name_en": "Pascal"
+    },
+    {
+      "id": "pepper",
+      "name_en": "Pepper"
+    },
+    {
+      "id": "phantom",
+      "name_en": "Phantom"
+    },
+    {
+      "id": "phantom-treasure",
+      "name_en": "Phantom (Treasure)"
+    },
+    {
+      "id": "poli",
+      "name_en": "Poli"
+    },
+    {
+      "id": "poli-treasure",
+      "name_en": "Poli (Treasure)"
+    },
+    {
+      "id": "power",
+      "name_en": "Power"
+    },
+    {
+      "id": "prika",
+      "name_en": "Prika"
+    },
+    {
+      "id": "privaty",
+      "name_en": "Privaty"
+    },
+    {
+      "id": "privaty-treasure",
+      "name_en": "Privaty (Treasure)"
+    },
+    {
+      "id": "privaty-unkind-maid",
+      "name_en": "Privaty: Unkind Maid"
+    },
+    {
+      "id": "product-08",
+      "name_en": "Product-08"
+    },
+    {
+      "id": "product-12",
+      "name_en": "Product-12"
+    },
+    {
+      "id": "product-23",
+      "name_en": "Product-23"
+    },
+    {
+      "id": "queen-makoto",
+      "name_en": "Queen (Makoto Niijima)"
+    },
+    {
+      "id": "quency",
+      "name_en": "Quency"
+    },
+    {
+      "id": "quency-escape-queen",
+      "name_en": "Quency: Escape Queen"
+    },
+    {
+      "id": "quiry",
+      "name_en": "Quiry"
+    },
+    {
+      "id": "ram",
+      "name_en": "Ram"
+    },
+    {
+      "id": "rapi",
+      "name_en": "Rapi"
+    },
+    {
+      "id": "rapi-red-hood",
+      "name_en": "Rapi: Red Hood"
+    },
+    {
+      "id": "rapunzel",
+      "name_en": "Rapunzel"
+    },
+    {
+      "id": "rapunzel-pure-grace",
+      "name_en": "Rapunzel: Pure Grace"
+    },
+    {
+      "id": "raven",
+      "name_en": "Raven"
+    },
+    {
+      "id": "red-hood",
+      "name_en": "Red Hood B3"
+    },
+    {
+      "id": "rei",
+      "name_en": "Rei"
+    },
+    {
+      "id": "rei-ayanami",
+      "name_en": "Rei Ayanami"
+    },
+    {
+      "id": "rei-ayanami-tentative-name",
+      "name_en": "Rei Ayanami (Tentative Name)"
+    },
+    {
+      "id": "rem",
+      "name_en": "Rem"
+    },
+    {
+      "id": "rosanna",
+      "name_en": "Rosanna"
+    },
+    {
+      "id": "rosanna-treasure",
+      "name_en": "Rosanna (Treasure)"
+    },
+    {
+      "id": "rosanna-chic-ocean",
+      "name_en": "Rosanna: Chic Ocean"
+    },
+    {
+      "id": "rouge",
+      "name_en": "Rouge"
+    },
+    {
+      "id": "rumani",
+      "name_en": "Rumani"
+    },
+    {
+      "id": "rupee",
+      "name_en": "Rupee"
+    },
+    {
+      "id": "winter-shopper-rupee",
+      "name_en": "Rupee: Winter Shopper"
+    },
+    {
+      "id": "sakura",
+      "name_en": "Sakura"
+    },
+    {
+      "id": "sakura-suzuhara",
+      "name_en": "Sakura Suzuhara"
+    },
+    {
+      "id": "sakura-bloom-in-summer",
+      "name_en": "Sakura: Bloom in Summer"
+    },
+    {
+      "id": "scarlet",
+      "name_en": "Scarlet"
+    },
+    {
+      "id": "scarlet-black-shadow",
+      "name_en": "Scarlet: Black Shadow"
+    },
+    {
+      "id": "signal",
+      "name_en": "Signal"
+    },
+    {
+      "id": "sin",
+      "name_en": "Sin"
+    },
+    {
+      "id": "siren",
+      "name_en": "Siren"
+    },
+    {
+      "id": "snow-crane",
+      "name_en": "Snow Crane"
+    },
+    {
+      "id": "snow-white",
+      "name_en": "Snow White"
+    },
+    {
+      "id": "snow-white-heavy-arms",
+      "name_en": "Snow White: Heavy Arms"
+    },
+    {
+      "id": "innocent-dayss-snow-white",
+      "name_en": "Snow White: Innocent Days"
+    },
+    {
+      "id": "soda",
+      "name_en": "Soda"
+    },
+    {
+      "id": "soda-twinkling-bunny",
+      "name_en": "Soda: Twinkling Bunny"
+    },
+    {
+      "id": "soldier-eg",
+      "name_en": "Soldier EG"
+    },
+    {
+      "id": "soldier-fa",
+      "name_en": "Soldier FA"
+    },
+    {
+      "id": "soldier-ow",
+      "name_en": "Soldier OW"
+    },
+    {
+      "id": "soline",
+      "name_en": "Soline"
+    },
+    {
+      "id": "soline-frost-ticket",
+      "name_en": "Soline: Frost Ticket"
+    },
+    {
+      "id": "sora",
+      "name_en": "Sora"
+    },
+    {
+      "id": "sugar",
+      "name_en": "Sugar"
+    },
+    {
+      "id": "sugar-treasure",
+      "name_en": "Sugar (Treasure)"
+    },
+    {
+      "id": "takina-inoue",
+      "name_en": "Takina Inoue"
+    },
+    {
+      "id": "tia",
+      "name_en": "Tia"
+    },
+    {
+      "id": "tove",
+      "name_en": "Tove"
+    },
+    {
+      "id": "tove-treasure",
+      "name_en": "Tove (Treasure)"
+    },
+    {
+      "id": "trina",
+      "name_en": "Trina"
+    },
+    {
+      "id": "trony",
+      "name_en": "Trony"
+    },
+    {
+      "id": "velvet",
+      "name_en": "Velvet"
+    },
+    {
+      "id": "vesti",
+      "name_en": "Vesti"
+    },
+    {
+      "id": "vesti-tactical-upgrade",
+      "name_en": "Vesti: Tactical Upgrade"
+    },
+    {
+      "id": "viper",
+      "name_en": "Viper"
+    },
+    {
+      "id": "viper-treasure",
+      "name_en": "Viper (Treasure)"
+    },
+    {
+      "id": "volume",
+      "name_en": "Volume"
+    },
+    {
+      "id": "yan",
+      "name_en": "Yan"
+    },
+    {
+      "id": "yukiko",
+      "name_en": "Yukiko Amagi"
+    },
+    {
+      "id": "yulha",
+      "name_en": "Yulha"
+    },
+    {
+      "id": "yuni",
+      "name_en": "Yuni"
+    },
+    {
+      "id": "zwei",
+      "name_en": "Zwei"
+    },
+    {
+      "id": "zwei-treasure",
+      "name_en": "Zwei (Treasure)"
+    },
+    {
+      "id": "frima",
+      "name_en": "frima"
+    },
+    {
+      "id": "idoll-flower",
+      "name_en": "iDoll Flower"
+    },
+    {
+      "id": "idoll-ocean",
+      "name_en": "iDoll Ocean"
+    },
+    {
+      "id": "idoll-sun",
+      "name_en": "iDoll Sun"
+    }
+  ],
+  "as_of": "2026-09"
+}

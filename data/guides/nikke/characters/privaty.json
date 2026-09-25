@@ -1,0 +1,46 @@
+{
+  "id": "privaty",
+  "name": "普丽瓦蒂",
+  "name_zh": "普丽瓦蒂",
+  "name_en": "Privaty",
+  "aliases": [],
+  "nicknames": [
+    "初音"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "EX弹匣",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【攻击力18.77%▲】【持续10秒】 【换弹速度22.88%▲】【持续10秒】 【最大装弹数50.66%▼】【持续10秒】"
+    },
+    {
+      "name": "LD强袭",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，对目标造成 【攻击力50.7%的额外伤害】 ■最后的子弹命中时，若目标处于昏迷状态，则对同一目标造成 【相当于攻击力643.5%的额外伤害】"
+    },
+    {
+      "name": "AK飞弹",
+      "type": "burst",
+      "summary": "■对全部敌人造成 【最终攻击力270.56%的爆裂技能伤害】 【昏迷】【持续3秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/privaty",
+    "https://www.gamekee.com/nikke/152329.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152329,
+  "gamekee_entry_id": 102004,
+  "prydwen_slug": "privaty",
+  "rarity": "SSR",
+  "burst": "AK飞弹",
+  "verified": "GameKee nikke/152329 图鉴"
+}

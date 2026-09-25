@@ -1,0 +1,44 @@
+{
+  "id": "n102",
+  "name": "N102",
+  "name_zh": "N102",
+  "name_en": "N102",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "记录中的回忆",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，攻击力最高的1名队友 【最大装弹数3发▲】【持续10秒】 【暴击伤害2.45%▲】【持续10秒】"
+    },
+    {
+      "name": "复生的记忆",
+      "type": "active",
+      "summary": "■攻击力最高的1名队友 【蓄力伤害11.3%▲】【持续5秒】"
+    },
+    {
+      "name": "蓝蝶之忆",
+      "type": "burst",
+      "summary": "全体队友 【攻击力11.31%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "蓝蝶之忆",
+  "weapon": "蜉蝣",
+  "element": "水冷",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/n102",
+    "https://www.gamekee.com/nikke/152351.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152351,
+  "gamekee_entry_id": 110436,
+  "prydwen_slug": "n102",
+  "rarity": "SR",
+  "verified": "GameKee nikke/152351 图鉴"
+}

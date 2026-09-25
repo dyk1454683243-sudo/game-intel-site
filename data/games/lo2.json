@@ -1,0 +1,27 @@
+{
+  "id": "lo2",
+  "name": "Last Origin 2",
+  "name_zh": "Last Origin 2",
+  "platforms": [
+    "pc",
+    "mobile",
+    "other"
+  ],
+  "tags": [
+    "gacha",
+    "rpg",
+    "upcoming"
+  ],
+  "sources": [
+    {
+      "label": "VALOFE",
+      "url": "https://www.valofe.com/"
+    }
+  ],
+  "stub": true,
+  "watchlist": true,
+  "guides_path": "/guides/lo2/",
+  "note": "Watchlist; identity + official links only",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

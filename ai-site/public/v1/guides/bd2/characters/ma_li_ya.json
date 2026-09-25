@@ -1,0 +1,40 @@
+{
+  "id": "ma_li_ya",
+  "name": "玛丽亚",
+  "name_zh": "玛丽亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "破坏魔法",
+      "type": "active",
+      "costume": "大魔法师",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身魔法力250%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "毁灭者",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "大魔法师",
+      "type": null,
+      "skill": "破坏魔法"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593572.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593572,
+  "gamekee_entry_id": 122321,
+  "verified": "GameKee zsca2/593572 图鉴"
+}

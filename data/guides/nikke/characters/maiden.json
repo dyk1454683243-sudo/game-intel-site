@@ -1,0 +1,44 @@
+{
+  "id": "maiden",
+  "name": "梅登",
+  "name_zh": "梅登",
+  "name_en": "Maiden",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "言灵：技巧之语",
+      "type": "passive",
+      "summary": "■被攻击20次时，自身 【复仇：攻击力15.75% ▲】 【持续20秒】"
+    },
+    {
+      "name": "言灵：命中之言",
+      "type": "passive",
+      "summary": "■对全体敌人进行 【挑衅】 【持续10秒】 ■自身 【暴击伤害 94.13% ▲】 【持续10秒】"
+    },
+    {
+      "name": "言灵：力量之言",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【最终攻击力270.56%的爆裂技能伤害】 ■若自身处于复仇状态，则对同一敌人造成 【最终攻击力270.56%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/maiden",
+    "https://www.gamekee.com/nikke/170842.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170842,
+  "gamekee_entry_id": 113070,
+  "prydwen_slug": "maiden",
+  "rarity": "SSR",
+  "burst": "言灵：力量之言",
+  "verified": "GameKee nikke/170842 图鉴"
+}

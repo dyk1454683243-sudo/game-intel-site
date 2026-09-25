@@ -1,0 +1,47 @@
+{
+  "id": "achila",
+  "name": "阿奇拉",
+  "name_zh": "阿奇拉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "战场狂喜",
+      "type": "active",
+      "costume": "战场猛兽",
+      "summary": "4回合内，自身受到攻击时，为自己附加持续4回合攻击力增加30%的效果。此效果叠加至1。最多可叠加至99。2回合内，自身受到攻击时，当前服装的冷却时间减少2。攻击敌人3次，每次攻击时，造成相当于自身攻击力350%的物理伤害。"
+    },
+    {
+      "name": "暂无",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "嗜血者",
+  "talent": {
+    "name": "暂无",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "战场猛兽",
+      "type": "原皮",
+      "skill": "战场狂喜"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/718485.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 718485,
+  "gamekee_entry_id": 221621,
+  "verified": "GameKee zsca2/718485 图鉴"
+}

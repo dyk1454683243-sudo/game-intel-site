@@ -1,0 +1,47 @@
+{
+  "id": "laplace",
+  "name": "拉普拉斯",
+  "name_zh": "拉普拉斯",
+  "name_en": "Laplace",
+  "aliases": [],
+  "nicknames": [
+    "英雄",
+    "hero"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "英雄使命",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【英雄使命：爆炸范围2.11% ▲】【叠加5次】【持续5秒】"
+    },
+    {
+      "name": "英雄轰炸机",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，对目标造成 【相当于最终攻击力 48.25%的额外伤害】 ■命中目标零件时，对目标本体造成 【相当于最终攻击力 8.73% 的额外伤害】"
+    },
+    {
+      "name": "拉普拉斯炸弹",
+      "type": "burst",
+      "summary": "■自身 【变更使用武器】： 初始伤害：造成相当于最终攻击力 530.4%的伤害 普通伤害：造成相当于最终攻击力 8.58%的伤害 持续时间：5秒 追加效果：穿透特化 特殊事项：爆裂技能施放过程中无法隐蔽 ■若自身处于英雄使命最大叠加状态，则对同一敌人造成 【相当于最终攻击力 7.03%的无视防御力的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "英雄症侯群",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/laplace",
+    "https://www.gamekee.com/nikke/576409.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 576409,
+  "gamekee_entry_id": 113449,
+  "prydwen_slug": "laplace",
+  "rarity": "SSR",
+  "burst": "拉普拉斯炸弹",
+  "verified": "GameKee nikke/576409 图鉴"
+}

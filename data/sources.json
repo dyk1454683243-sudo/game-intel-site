@@ -1,0 +1,42 @@
+{
+  "gamekee": {
+    "enabled": true,
+    "type": "api",
+    "note": "primary CN wiki/news via gamekee.com v1"
+  },
+  "taptap": {
+    "enabled": true,
+    "type": "api",
+    "note": "app-search/v1/by-keyword + search/v2/community; requires X-UA VN_CODE"
+  },
+  "inven": {
+    "enabled": true,
+    "type": "html",
+    "note": "www.inven.co.kr/search/webzine/article/{q}; board post anchors"
+  },
+  "steam": {
+    "enabled": true,
+    "type": "api+html",
+    "note": "ISteamNews GetNewsForApp (keep deep/akamai urls) + store suggest/search"
+  },
+  "bahamut": {
+    "enabled": true,
+    "type": "jina+html+rss",
+    "note": "Jina search.gamer.com.tw/?q=&type=2 (GNN) + forum B.php BSN scrape (情報/公告; BSN-pin filters forum) + gnn rss.xml; source=bahamut"
+  },
+  "prydwen": {
+    "enabled": true,
+    "type": "html",
+    "note": "prydwen.gg/nikke (+ banners) character/banner/guide links; NIKKE-focused"
+  },
+  "nikkegg": {
+    "enabled": true,
+    "type": "rss",
+    "note": "nikke.gg/feed/ EN news companion; folded into search_prydwen with source=nikkegg"
+  },
+  "official": {
+    "enabled": true,
+    "type": "api+html+jina+steam",
+    "note": "bd2 notices API (webapi.browndust2.com); miraesi Smilegate newsroom (smilegate_newsroom + seed); star Azur Promilia (star_official + star_seed; Jina often CF-blocked); lo2 VALOFE press seed (lo2_official + lo2_seed; no dedicated site yet); asora Astrae Oratio NC/plaync (asora_official + asora_seed); nikke official_url via Jina; steam_appid news; digest bucket official cap 1"
+  }
+}

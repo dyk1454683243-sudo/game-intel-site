@@ -1,0 +1,44 @@
+{
+  "id": "leona",
+  "name": "莱昂纳",
+  "name_zh": "莱昂纳",
+  "name_en": "Leona",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "响亮的咆哮",
+      "type": "passive",
+      "summary": "■进行5次普通攻击时，全体队友 【咆哮: 暴击率 1.38%▲】 【叠加5次】【持续5秒】 ■进行15次普通攻击时，持有霰弹枪的全体队友 【最大合理射程 20%▲】【持续10秒】"
+    },
+    {
+      "name": "勇敢的眼神",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【命中率 10.77% ▲】【持续10秒】 ■全爆裂时间开始时，攻击力最高并持有霞弹枪的2名队友 【弹丸数量 3个 ▲】【持续10秒】"
+    },
+    {
+      "name": "狮子之心",
+      "type": "burst",
+      "summary": "■全体队友 【暴击伤害20.46% ▲】【持续10秒】 ■若自身处于咆哮的最大叠加状态，则持有霰弹枪的全体队友 【暴击率 12.6% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "狮子之心",
+  "weapon": "狮子吼",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/leona",
+    "https://www.gamekee.com/nikke/610811.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 610811,
+  "gamekee_entry_id": 138642,
+  "prydwen_slug": "leona",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/610811 图鉴"
+}

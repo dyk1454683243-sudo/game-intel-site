@@ -1,0 +1,30 @@
+{
+  "id": "nikke",
+  "name": "NIKKE",
+  "name_zh": "胜利女神：NIKKE",
+  "platforms": [
+    "pc",
+    "mobile"
+  ],
+  "tags": [
+    "gacha",
+    "rpg",
+    "shooter"
+  ],
+  "sources": [
+    {
+      "label": "Official news",
+      "url": "https://nikke-en.com/news.html"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/nikke/"
+    }
+  ],
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/nikke/",
+  "note": "Watchlist + character guides coverage",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

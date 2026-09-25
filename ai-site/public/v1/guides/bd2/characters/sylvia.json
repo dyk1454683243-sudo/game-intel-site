@@ -1,0 +1,81 @@
+{
+  "id": "sylvia",
+  "name": "席比雅",
+  "name_zh": "席比雅",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "利剑要塞",
+      "type": "active",
+      "costume": "沙漠之花",
+      "summary": "4回合内，自身遭受攻击时，将进行反击。每次反击时，对敌人造成相当于自身攻击力710%的物理伤害。4回合内，对自己应用75%的防护罩效果。"
+    },
+    {
+      "name": "制裁者",
+      "type": "active",
+      "costume": "海军队长",
+      "summary": "对自己应用相当于攻击力700%的能量护盾效果。此效果在遭受7次攻击后将消失。攻击敌人5次，每次攻击时，造成相当于自身攻击力100%的物理伤害。"
+    },
+    {
+      "name": "莲花飞剑",
+      "type": "active",
+      "costume": "剑后",
+      "summary": "6回合内，自身攻击力增加225%。攻击敌人4次，每次攻击时，造成相当于自身攻击力44%的物理伤害。"
+    },
+    {
+      "name": "比基尼爆破手",
+      "type": "active",
+      "costume": "比基尼特工",
+      "summary": "自身持有的所有增益效果的持续回合数2回合延长。对敌人造成相当于自身攻击力750%的物理伤害。"
+    },
+    {
+      "name": "你说多少来着？",
+      "type": "talent",
+      "summary": "与商店主人砍价，有90%的概率能以便宜60%的价格购买物品。消耗10个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "报春剑",
+  "talent": {
+    "name": "你说多少来着？",
+    "summary": "与商店主人砍价，有90%的概率能以便宜60%的价格购买物品。消耗10个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "沙漠之花",
+      "type": "原皮",
+      "skill": "利剑要塞"
+    },
+    {
+      "name": "海军队长",
+      "type": null,
+      "skill": "制裁者"
+    },
+    {
+      "name": "剑后",
+      "type": null,
+      "skill": "莲花飞剑"
+    },
+    {
+      "name": "比基尼特工",
+      "type": null,
+      "skill": "比基尼爆破手"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593588.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593588,
+  "gamekee_entry_id": 122349,
+  "verified": "GameKee zsca2/593588 图鉴"
+}

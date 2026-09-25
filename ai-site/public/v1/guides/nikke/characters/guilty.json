@@ -1,0 +1,44 @@
+{
+  "id": "guilty",
+  "name": "吉尔提",
+  "name_zh": "吉尔提",
+  "name_en": "Guilty",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "借我一下……",
+      "type": "passive",
+      "summary": "■普通攻击命中6次时，自身 【借我一下……：对攻击力最高的1名队友复制其攻击力的4.4%】 【叠加5次】【持续10秒】"
+    },
+    {
+      "name": "一起玩吧……",
+      "type": "passive",
+      "summary": "■普通攻击命中12次时，全体风压代码队友 【可叠加的增益效果叠加量 1个 ▲】 【攻击力2.06% ▲】【持续10秒】"
+    },
+    {
+      "name": "抓住了……",
+      "type": "burst",
+      "summary": "■对防御力最高的1名敌人造成 【相当于最终攻击力142.16%的伤害】 ■若自身处于借我一下……的最大叠加状态，则使同一目标敌人 【防御力10.12% ▼】【持续5秒】 【造成最终攻击力138.85%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "抓住了……",
+  "weapon": "软带",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/guilty",
+    "https://www.gamekee.com/nikke/580946.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 580946,
+  "gamekee_entry_id": 115414,
+  "prydwen_slug": "guilty",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/580946 图鉴"
+}

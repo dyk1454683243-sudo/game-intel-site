@@ -1,0 +1,31 @@
+{
+  "id": "hw",
+  "name": "Horizon Walker",
+  "name_zh": "地平线行者",
+  "platforms": [
+    "steam",
+    "pc",
+    "mobile"
+  ],
+  "tags": [
+    "gacha",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3279780/"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/hw/"
+    }
+  ],
+  "steam_appid": 3279780,
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/hw/",
+  "note": "Watchlist + character guides coverage",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

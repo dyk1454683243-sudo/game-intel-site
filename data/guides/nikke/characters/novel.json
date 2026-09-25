@@ -1,0 +1,44 @@
+{
+  "id": "novel",
+  "name": "诺薇儿",
+  "name_zh": "诺薇儿",
+  "name_en": "Novel",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "有点奇怪！",
+      "type": "active",
+      "summary": "■对防御力最高的3名敌人造成 相当于【最终攻击力29.09%的伤害】 【防御3.52%▼，持续5s】"
+    },
+    {
+      "name": "侦探工具！",
+      "type": "passive",
+      "summary": "■普通攻击命中100次时，自身 【证物收集：防御提升6.75%▲】 【叠加5次】【持续15s】"
+    },
+    {
+      "name": "案例解决！",
+      "type": "burst",
+      "summary": "■对攻击力最高的1个敌方发动 【造成相当于攻击力165.3%的伤害】 ■若自身处于证物收集的最大叠加状态，则额外使1名敌人的 【所受伤害33.75%▲】【持续5s】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "第六感",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/novel",
+    "https://www.gamekee.com/nikke/170843.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170843,
+  "gamekee_entry_id": 113071,
+  "prydwen_slug": "novel",
+  "rarity": "SSR",
+  "burst": "案例解决！",
+  "verified": "GameKee nikke/170843 图鉴"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "gu_la_mu",
+  "name": "古拉姆",
+  "name_zh": "古拉姆",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T2 / 浪漫剑客",
+  "skills": [
+    {
+      "name": "手枪射击",
+      "type": "active",
+      "summary": "造成近战攻击力60%的穿刺伤害"
+    },
+    {
+      "name": "地洞移动",
+      "type": "passive",
+      "summary": "深入地下获得2R间的【地洞挖掘】效果"
+    },
+    {
+      "name": "地下回避术",
+      "type": "passive",
+      "summary": "每次成功回避都会获得【地下回避术】效果。"
+    },
+    {
+      "name": "失落的风采",
+      "type": "active",
+      "summary": "每场战斗最多触发1次，受到死亡伤害时生命不会降低到1以下，而是立即钻入地下，2R期间进入【地洞挖掘】状态，随后获得行动力5。"
+    },
+    {
+      "name": "爆发的帅气",
+      "type": "active",
+      "summary": "造成近战攻击力100%的穿刺伤害，此攻击时近战攻击力暂时增加当前回避的50%"
+    }
+  ],
+  "skill_prio": [
+    "手枪射击: 不加",
+    "地洞移动: 不加",
+    "地下回避术: 不加",
+    "失落的风采: 不加",
+    "爆发的帅气: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "游荡世间",
+    "pieces": 4,
+    "notes": [
+      "2件: 移动力",
+      "4件: 满血时行动恢复力",
+      "作用和普通地鼠没什么区别。"
+    ]
+  },
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634425.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634425,
+  "gamekee_entry_id": 163042,
+  "verified": "GameKee hw/634425 图鉴"
+}

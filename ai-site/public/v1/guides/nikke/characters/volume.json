@@ -1,0 +1,44 @@
+{
+  "id": "volume",
+  "name": "沃纶姆",
+  "name_zh": "沃纶姆",
+  "name_en": "Volume",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "Free Style",
+      "type": "passive",
+      "summary": "■消灭敌人时，自身 【攻击力6.93%▲】【持续5秒】"
+    },
+    {
+      "name": "Drop The Beat",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【不同起始次数不同效果】【低级效果重复生效】 1次：【爆裂技能冷却时间2.34秒▼】 2次：【爆裂技能冷却时间2.7秒▼】 3次：【爆裂技能冷却时间3.17秒▼】 ■使用爆裂技能时，全体队友 【不同使用次数不同效果】【低级效果重复生效】 1次：【暴击伤害1.68%▲】【持续5秒】 2次：【暴击伤害3.36%▲】【持续5秒】 3次：【暴击伤害5.05%▲】【持续5秒】"
+    },
+    {
+      "name": "大声点我听不见！",
+      "type": "burst",
+      "summary": "■全体队友 【暴击率17.54%▲】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "最大音量",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/volume",
+    "https://www.gamekee.com/nikke/163876.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163876,
+  "gamekee_entry_id": 110022,
+  "prydwen_slug": "volume",
+  "rarity": "SSR",
+  "burst": "大声点我听不见！",
+  "verified": "GameKee nikke/163876 图鉴"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "bei_la",
+  "name": "贝拉",
+  "name_zh": "贝拉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T1 / 奶妈 / 输出 / 复活大祭司",
+  "skills": [
+    {
+      "name": "守护之击",
+      "type": "active",
+      "summary": "挥动战锤攻击敌人，造成相当于近战攻击力60%的打击伤害，并使行动力减少5。"
+    },
+    {
+      "name": "治愈恩典",
+      "type": "active",
+      "summary": "为指定友军恢复相当于魔法攻击力100%的生命值。"
+    },
+    {
+      "name": "生命再生",
+      "type": "active",
+      "summary": "为半径2.5米范围内的队友恢复相当于魔法攻击力150%的生命值"
+    },
+    {
+      "name": "复苏之枝",
+      "type": "active",
+      "summary": "使一名陷入战斗不能状态的队友恢复意识，并回复魔法攻击力200%的生命值。目标以行动力50的状态重新加入战斗。"
+    }
+  ],
+  "skill_prio": [
+    "专武的自动奶是用的单奶，所以点单奶就行。其他无所谓。",
+    "守护之击: 不加",
+    "治愈恩典: 6级即可",
+    "生命再生: 不加",
+    "复苏之枝: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "罪孽清算",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中行动恢复力",
+      "4件: 获得行动力、敌人抗性降低",
+      "选择辅助标配罪孽套即可，副词条随意，毕竟是自动奶对行动恢复力需求不高。"
+    ]
+  },
+  "weapon": "慈悲誓约",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634442.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634442,
+  "gamekee_entry_id": 163034,
+  "verified": "GameKee hw/634442 图鉴"
+}

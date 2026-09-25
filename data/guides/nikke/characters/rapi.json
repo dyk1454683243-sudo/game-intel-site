@@ -1,0 +1,46 @@
+{
+  "id": "rapi",
+  "name": "拉毗",
+  "name_zh": "拉毗",
+  "name_en": "Rapi",
+  "aliases": [
+    "拉毗"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "阵型 F.F",
+      "type": "passive",
+      "summary": "■被攻击20次时，自身 【攻击力10.9%▲】【持续20秒】"
+    },
+    {
+      "name": "飞弹",
+      "type": "active",
+      "summary": "■对攻击力最高的1名敌人造成 【造成相当于攻击力308.57%的伤害】 【挑衅】【持续5秒】"
+    },
+    {
+      "name": "多弹头飞弹",
+      "type": "burst",
+      "summary": "■对攻击力最高的1名敌人造成 【最终攻击力328.86%的爆裂技能伤害】 ■自身 【攻击力30.37%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rapi",
+    "https://www.gamekee.com/nikke/92082.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 92082,
+  "gamekee_entry_id": 64603,
+  "prydwen_slug": "rapi",
+  "rarity": "SR",
+  "burst": "多弹头飞弹",
+  "verified": "GameKee nikke/92082 图鉴"
+}

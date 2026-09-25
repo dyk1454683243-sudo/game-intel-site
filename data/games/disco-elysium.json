@@ -1,0 +1,29 @@
+{
+  "id": "disco-elysium",
+  "name": "Disco Elysium - The Final Cut",
+  "name_zh": "极乐迪斯科",
+  "platforms": [
+    "steam",
+    "pc",
+    "ps5",
+    "xbox",
+    "switch"
+  ],
+  "tags": [
+    "indie",
+    "rpg",
+    "narrative"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/632470/"
+    }
+  ],
+  "steam_appid": 632470,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

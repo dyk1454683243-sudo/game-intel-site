@@ -1,0 +1,44 @@
+{
+  "id": "makima",
+  "name": "玛奇玛",
+  "name_zh": "玛奇玛",
+  "name_en": "Makima",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "可否让我见识你的能耐？",
+      "type": "passive",
+      "summary": "■被攻击20次时，全体队友 【换弹速度20.32% ▲】【持续10秒】 【防御力8.13% ▲】【持续10秒】"
+    },
+    {
+      "name": "好像发现了啊",
+      "type": "passive",
+      "summary": "■进行120次普通攻击时，自身 【注目：挑衅全体敌人】【持续3秒】 ■被会造成阵亡状态的攻击击中时，自身 【不屈】【持续7秒】【战斗中触发1次】 【爆裂技能冷却时间8.51秒 ▼】"
+    },
+    {
+      "name": "能不能安静一点？",
+      "type": "burst",
+      "summary": "■自身 【穿透特化】【10秒】 【恢复等同于攻击伤害的17.82%】【持续10秒】 ■若自身处于不屈状态，自身 【体力恢复量13.46% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "能不能安静一点？",
+  "weapon": "未知武器",
+  "element": "水冷",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/makima",
+    "https://www.gamekee.com/nikke/584401.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 584401,
+  "gamekee_entry_id": 117179,
+  "prydwen_slug": "makima",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/584401 图鉴"
+}

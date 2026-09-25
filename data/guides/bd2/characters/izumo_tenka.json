@@ -1,0 +1,47 @@
+{
+  "id": "izumo_tenka",
+  "name": "出云天花",
+  "name_zh": "出云天花",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "位置，刚刚好",
+      "type": "active",
+      "costume": "天御鸟命",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身魔法力350%的魔法伤害。"
+    },
+    {
+      "name": "暂无",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "天花的耳环",
+  "talent": {
+    "name": "暂无",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "天御鸟命",
+      "type": "联动",
+      "skill": "位置，刚刚好"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/720262.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 720262,
+  "gamekee_entry_id": 224651,
+  "verified": "GameKee zsca2/720262 图鉴"
+}

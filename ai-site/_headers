@@ -1,0 +1,15 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+
+/v1/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=300
+
+/schema/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8

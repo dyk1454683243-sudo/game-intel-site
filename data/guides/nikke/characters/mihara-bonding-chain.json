@@ -1,0 +1,46 @@
+{
+  "id": "mihara-bonding-chain",
+  "name": "米哈拉：羁绊锁链",
+  "name_zh": "米哈拉：羁绊锁链",
+  "name_en": "Mihara: Bonding Chain",
+  "aliases": [],
+  "nicknames": [
+    "超米"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "肢体接触",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【补充捕获锁链10个】【最多10个】 ■全爆裂时间结束时，若此前自身使用过爆裂技能，则自身 【补充捕获锁链10个】【最多10个】 ■于指定时机随机对敌人造成 【最终攻击力29.58%的伤害】【依捕获锁链的个数攻击】 【每一次攻击捕获锁链1个▼】 ■对同一敌人造成 【锁链缠绕：最终攻击力14.82%的持续伤害】【间隔1秒】【叠加20次】【持续】"
+    },
+    {
+      "name": "紧缚",
+      "type": "passive",
+      "summary": "■全爆裂时间持续期间，普通攻击命中40次时，对处于锁链缠绕的目标 【锁链缠绕叠加量1个▲】 ■自身无法战斗时，对处于锁链缠绕状态的目标 【锁链缠绕叠加量20个▲】 ■敌人死亡时，若目标处于锁链缠绕状态，则自身 【捕获锁链1个▲】【最多10个】 ■进入爆裂3阶时，自身 【持续伤害35.44%▲】【持续10秒】"
+    },
+    {
+      "name": "痛苦羁绊",
+      "type": "burst",
+      "summary": "■对处于锁链缠绕状态的目标 【锁链拉扯：最终攻击力29.57%的持续伤害】【间隔1秒】【拷贝各目标的锁链缠绕叠加】【持续10秒】 【效果生效后，锁链缠绕解除】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "痛苦羁绊",
+  "weapon": "羁绊之心",
+  "element": "燃烧",
+  "manufacturer": "米西利斯（超标准）",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain",
+    "https://www.gamekee.com/nikke/660553.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 660553,
+  "gamekee_entry_id": 185065,
+  "prydwen_slug": "mihara-bonding-chain",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/660553 图鉴"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tir",
+  "name": "提尔",
+  "name_zh": "提尔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "猫娘"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "义无反顾",
+      "type": "active",
+      "costume": "星光守护者",
+      "summary": "6回合内，对自己应用SP消耗增加2的效果。对敌人造成相当于自身攻击力1400%的物理伤害。"
+    },
+    {
+      "name": "勇往直前！",
+      "type": "active",
+      "costume": "澄心无邪兔女郎",
+      "summary": "8回合期间，对自身应用SP消耗增加2的效果。对敌人造成相当于自身攻击力300%的物理伤害。技能释放时每消耗SP1点，伤害提高180%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "布里欧纳克",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "星光守护者",
+      "type": "原皮",
+      "skill": "义无反顾"
+    },
+    {
+      "name": "澄心无邪兔女郎",
+      "type": null,
+      "skill": "勇往直前！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/678097.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 678097,
+  "gamekee_entry_id": 194976,
+  "verified": "GameKee zsca2/678097 图鉴"
+}

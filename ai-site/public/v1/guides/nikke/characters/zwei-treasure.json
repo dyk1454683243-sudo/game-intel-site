@@ -1,0 +1,39 @@
+{
+  "id": "zwei-treasure",
+  "name": "Zwei (Treasure)",
+  "name_zh": null,
+  "name_en": "Zwei (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Pierce Equation",
+      "type": "passive"
+    },
+    {
+      "name": "Frame Analysis",
+      "type": "passive"
+    },
+    {
+      "name": "Overcharge Formula",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/zwei-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "zwei-treasure",
+  "verified": "Prydwen /nikke/characters/zwei-treasure"
+}

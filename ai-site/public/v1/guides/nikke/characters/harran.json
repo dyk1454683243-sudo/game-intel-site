@@ -1,0 +1,44 @@
+{
+  "id": "harran",
+  "name": "哈兰",
+  "name_zh": "哈兰",
+  "name_en": "Harran",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "瘟疫转移",
+      "type": "passive",
+      "summary": "■攻击时以25%的机率对目标 【病毒转移：造成相当于最终攻击力 10.8%的持续伤害】【间隔1秒 】【持续5秒】 ■敌人死亡时，若目标处于病毒转移状态， 则对最近的2名敌人【病毒转移： 造成相当于最终攻击力10.8%的 持续伤害】【间隔1秒】 【持续5秒】"
+    },
+    {
+      "name": "捕食",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【穿透特化】【持续1发】 【暴击率1.84% ▲】【持续1发】 ■消灭敌人时，自身 【攻击力1.89% ▲】 【叠加15次】【持续10秒】"
+    },
+    {
+      "name": "灭亡之刃",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【最终攻击力624.37%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "狙击步枪",
+  "element": "电击",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/harran",
+    "https://www.gamekee.com/nikke/163881.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163881,
+  "gamekee_entry_id": 110025,
+  "prydwen_slug": "harran",
+  "rarity": "SSR",
+  "burst": "灭亡之刃",
+  "verified": "GameKee nikke/163881 图鉴"
+}

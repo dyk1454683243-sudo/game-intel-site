@@ -1,0 +1,44 @@
+{
+  "id": "arcana-fortune-mate",
+  "name": "阿尔卡娜：命运伴侣",
+  "name_zh": "阿尔卡娜：命运伴侣",
+  "name_en": "Arcana: Fortune Mate",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "渐满的相册",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，持有霰弹枪的全体队友 【以施展者为基准的攻击力6.86% X 珍贵的回忆叠加数▲】【持续15秒】 ■幸福的回忆生效时，自身 【青春的纪录：普通攻击伤害10%倍率▲】【叠加3次】【持续】 ■全爆裂时间结束时，自身 【解除留下回忆】 【解除青春的纪录】"
+    },
+    {
+      "name": "记忆与回忆",
+      "type": "passive",
+      "summary": "■普通攻击时，若自身处于留下回忆状态，则自身 【不同攻击次数不同效果】【仅套用对应次数效果】【解除留下回忆时重置】 2次：【子弹补充6发】 4次：【幸福的回忆：弹丸数量1个▲】【叠加3次】【持续】 6次：【珍贵的回忆：攻击力1.47%▲】【叠加3次】【持续】 ■使用爆裂技能时，除自身外持有霰弹枪的全体队友 【攻击伤害31.12%▲】【持续10秒】"
+    },
+    {
+      "name": "闪耀的青春",
+      "type": "burst",
+      "summary": "■自身 【留下回忆】： 功能：强化自身攻击能力。 效果1：【暴击率11.87%▲】【持续】 效果2：【子弹补充2发】 效果3：【攻击伤害17.72%▲】【持续】 ■对全体敌人造成 【最终攻击力327.6%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "闪耀的青春",
+  "weapon": "苦涩甜蜜",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/arcana-fortune-mate",
+    "https://www.gamekee.com/nikke/698416.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 698416,
+  "gamekee_entry_id": 211196,
+  "prydwen_slug": "arcana-fortune-mate",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/698416 图鉴"
+}

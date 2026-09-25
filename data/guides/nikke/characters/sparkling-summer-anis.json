@@ -1,0 +1,46 @@
+{
+  "id": "sparkling-summer-anis",
+  "name": "阿妮斯：闪耀夏日",
+  "name_zh": "阿妮斯：闪耀夏日",
+  "name_en": "Anis: Sparkling Summer",
+  "aliases": [],
+  "nicknames": [
+    "水阿"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "闪耀推进器",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体电击代码的队友 【相当于施展者攻击力32.68%的攻击力 ▲】【持续10秒】 【换弹速度 29.12% ▲】【持续10秒】"
+    },
+    {
+      "name": "闪耀飞弹",
+      "type": "passive",
+      "summary": "■最后的子弹发射时，对攻击力最高的2名敌人造成相当于 【最终攻击力225.97%的伤害】 ■最后的子弹发射后，自身 【阻挡部位攻击伤害4.08% ▲】【持续10秒】"
+    },
+    {
+      "name": "闪耀波浪",
+      "type": "burst",
+      "summary": "■自身 【最大装弹数43.68% ▼】【持续10秒】 【换弹速度16.38% ▲】【持续10秒】 【优越代码攻击伤害 24.96% ▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "闪耀波浪",
+  "weapon": "不羁之水",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/sparkling-summer-anis",
+    "https://www.gamekee.com/nikke/597426.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 597426,
+  "gamekee_entry_id": 124559,
+  "prydwen_slug": "sparkling-summer-anis",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/597426 图鉴"
+}

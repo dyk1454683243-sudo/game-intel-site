@@ -1,0 +1,44 @@
+{
+  "id": "rei-ayanami-tentative-name",
+  "name": "零 (暂称)",
+  "name_zh": "零 (暂称)",
+  "name_en": "Rei Ayanami (Tentative Name)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "歼灭支援",
+      "type": "passive",
+      "summary": "■普通攻击命中18次时，若目标为反AT力场状态，对目标造成 【最终攻击力349.01%的额外伤害】 【反AT力场叠加量10个▲】 ■若自身为攻击态势状态， 普通攻击命中7次时，对目标造成 【最终攻击力169.22%的额外伤害】 ■全爆裂时间开始时，歼灭态势状态的全体队友 【歼灭态势额外效果生效目标1▲】 【持续9秒】 【歼灭态势额外效果攻击范围 500%▲】【持续9秒】 【以施展者为基准的攻击力10.4%▲】【持续9秒】"
+    },
+    {
+      "name": "整备与补给",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，使用爆裂技能的全体机枪队友 【机枪预热速度100%▲】【持续13秒】 ■全爆裂时间开始时，全体队友 【以施展者为基准的攻击力6.86%▲】【持续10秒】"
+    },
+    {
+      "name": "攻击态势",
+      "type": "burst",
+      "summary": "■自身 【攻击态势】： 【攻击伤害21.21%▲】【持续10秒】 【以施展者为基准的攻击力37.44%▲】【持续10秒】 ■对全体敌人造成 【最终攻击力654.54%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "攻击态势",
+  "weapon": "压制用突击步枪",
+  "element": "风压",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rei-ayanami-tentative-name",
+    "https://www.gamekee.com/nikke/157318.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 157318,
+  "gamekee_entry_id": 176734,
+  "prydwen_slug": "rei-ayanami-tentative-name",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/157318 图鉴"
+}

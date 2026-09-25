@@ -1,0 +1,39 @@
+{
+  "id": "raven",
+  "name": "Raven",
+  "name_zh": null,
+  "name_en": "Raven",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Shock Wave",
+      "type": "passive"
+    },
+    {
+      "name": "Blue Blade",
+      "type": "passive"
+    },
+    {
+      "name": "Tempest",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 3",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/raven"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "raven",
+  "verified": "Prydwen /nikke/characters/raven"
+}

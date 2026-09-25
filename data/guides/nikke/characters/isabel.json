@@ -1,0 +1,44 @@
+{
+  "id": "isabel",
+  "name": "伊莎贝尔",
+  "name_zh": "伊莎贝尔",
+  "name_en": "Isabel",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "目标锁定",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【不同的使用次数，不同的追加效果】 【低阶效果重复生效】 1次：【目标锁定 1：暴击率 3.91% ▲】 【持续45秒】 2次：【目标锁定 2：暴击伤害 11.27% ▲】 【持续45秒】 3次：【目标锁定 3：攻击力 10.8% ▲】 【持续45秒】"
+    },
+    {
+      "name": "风羽注入",
+      "type": "active",
+      "summary": "■对防御力最高的5名敌人造成 相当于【最终攻击力106.61%的伤害】"
+    },
+    {
+      "name": "音速追击",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【最终攻击力93.65%的爆裂技能伤害】 【按照目标锁定阶段触发额外效果】 【低阶效果重复生效】： 目标锁定 1： 【所受伤害24.97%▲】【持续5秒】 目标锁定 2： 【最终攻击力187.31%的额外伤害】 目标锁定 3： 【最终攻击力218.53%的额外伤害】 ■全体队友 【全爆裂时间持续时间5秒▼】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "音速追击",
+  "weapon": "/",
+  "element": "雷电",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/isabel",
+    "https://www.gamekee.com/nikke/170852.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170852,
+  "gamekee_entry_id": 113079,
+  "prydwen_slug": "isabel",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170852 图鉴"
+}

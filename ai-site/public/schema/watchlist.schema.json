@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/watchlist.schema.json",
+  "title": "game-intel watchlist",
+  "type": "object",
+  "required": ["meta", "games"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["fixture", "generated_at", "timezone", "source"],
+      "additionalProperties": true,
+      "properties": {
+        "fixture": { "type": "boolean" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "timezone": { "type": "string", "const": "Asia/Shanghai" },
+        "source": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "name_zh", "keywords"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "name_zh": { "type": "string" },
+          "keywords": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "gamekee_alias": { "type": ["string", "null"] },
+          "official_url": { "type": "string" },
+          "official_site": { "type": "string" },
+          "official_api": { "type": "string" },
+          "steam_appid": { "type": ["integer", "string"] }
+        }
+      }
+    }
+  }
+}

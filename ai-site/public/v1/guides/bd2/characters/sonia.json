@@ -1,0 +1,53 @@
+{
+  "id": "sonia",
+  "name": "索尼娅",
+  "name_zh": "索尼娅",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "地雷妹"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "轮到你了，塔纳",
+      "type": "active",
+      "costume": "潜藏的梦",
+      "summary": "4回合内，对敌人应用125%虚弱效果。若此攻击对敌人叠加的连携数量为6或者以上，则改为在4回合内，应用175%的暗属性虚弱效果。对敌人造成相当于自身魔法力550%的魔法伤害。"
+    },
+    {
+      "name": "嘻嘻，索尼娅登场！",
+      "type": "active",
+      "costume": "卖南瓜的少女",
+      "summary": "对敌人造成相当于自身魔法力300%的魔法伤害。4回合内，对敌人造成相当于自身魔法力100%的魔法伤害的【噩梦】效果。 【噩梦】：对受到噩梦效果影响的目标的每次攻击都会造成额外伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "阿忒尔·赫卡忒",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "潜藏的梦",
+      "type": "辅助",
+      "skill": "轮到你了，塔纳"
+    },
+    {
+      "name": "卖南瓜的少女",
+      "type": "辅助",
+      "skill": "嘻嘻，索尼娅登场！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/676671.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 676671,
+  "gamekee_entry_id": 194290,
+  "verified": "GameKee zsca2/676671 图鉴"
+}

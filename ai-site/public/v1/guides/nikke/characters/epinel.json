@@ -1,0 +1,46 @@
+{
+  "id": "epinel",
+  "name": "艾菲涅尔",
+  "name_zh": "艾菲涅尔",
+  "name_en": "Epinel",
+  "aliases": [],
+  "nicknames": [
+    "滑板"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "超级新人",
+      "type": "passive",
+      "summary": "■消灭敌人时，自身 【超级新人：攻击力8.18% ▲】 【叠加5次】【持续15秒】"
+    },
+    {
+      "name": "蜘蛛",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身 【暴击率2.98% ▲】【持续5秒】 【暴击伤害3.78% ▲】【持续5秒】"
+    },
+    {
+      "name": "SAFE 50-50",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【最终攻击力270.56%的爆裂技能伤害】 ■若自身处于超级新人最大叠加状态，则对同一敌人造成 【最终攻击力270.56%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "SAFE 50-50",
+  "weapon": "/",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/epinel",
+    "https://www.gamekee.com/nikke/152334.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152334,
+  "gamekee_entry_id": 102015,
+  "prydwen_slug": "epinel",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152334 图鉴"
+}

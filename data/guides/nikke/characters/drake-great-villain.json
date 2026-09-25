@@ -1,0 +1,44 @@
+{
+  "id": "drake-great-villain",
+  "name": "德雷克：终极反派",
+  "name_zh": "德雷克：终极反派",
+  "name_en": "Drake: Great Villain",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "超超速运转",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【变更使用武器：超超速运作】： 蓄力时间：固定为1.5秒 伤害：最终攻击力121.88%的伤害 弹丸数量：15发 全蓄力伤害：300% 最大装弹数：6发 ■超超速运作状态结束时，自身 【子弹减少100%】"
+    },
+    {
+      "name": "反派，迟到了",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，全体队友 【仅以施展者为基准的最大体力5.77%▲】【叠加4次】【持续】 ■战斗开始时，自身 【迟到：相当于施展者最终最大体力3.12%的攻击力▲】【持续】"
+    },
+    {
+      "name": "反派之网特别版",
+      "type": "burst",
+      "summary": "■自身 【攻击伤害13.75%▲】【持续25秒】 ■对全体敌人造成 【最终攻击力750%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "反派之网特别版",
+  "weapon": "反派夜祭",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/drake-great-villain",
+    "https://www.gamekee.com/nikke/719742.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 719742,
+  "gamekee_entry_id": 224507,
+  "prydwen_slug": "drake-great-villain",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/719742 图鉴"
+}

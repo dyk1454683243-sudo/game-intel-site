@@ -1,0 +1,46 @@
+{
+  "id": "quency-escape-queen",
+  "name": "坎西：逃生女王",
+  "name_zh": "坎西：逃生女王",
+  "name_en": "Quency: Escape Queen",
+  "aliases": [],
+  "nicknames": [
+    "水坎西"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "确定路线",
+      "type": "passive",
+      "summary": "■当自身处于探索路线1阶叠加上限状态时，自身 【分摊伤害29.3%▲】【持续】 ■当自身处于探索路线2阶叠加上限状态时，自身 【核心伤害14.92%▲】【持续】 ■当自身处于探索路线3阶叠加上限状态时，自身 【暴击率9.89%▲】【持续】"
+    },
+    {
+      "name": "探索路线",
+      "type": "passive",
+      "summary": "■进行2次普通攻击时，自身 【各阶效果】【低阶效果重复生效】 1阶：自身 【命中率0.79%▲】【叠加10次】【持续2秒】 【攻击力1.43%▲】【叠加10次】【持续2秒】 2阶：若处于探索路线1阶叠加上限状态，则自身 【命中率1.6%▲】【叠加10次】【持续1秒】 【攻击力2.88%▲】【叠加10次】【持续1秒】 3阶：若处于探索路线2阶叠加上限状态，则自身 【命中率2.4%▲】【叠加5次】 【持续0.5秒】 【攻击力3.34%▲】【叠加5次】 【持续0.5秒】"
+    },
+    {
+      "name": "伟大窃贼",
+      "type": "burst",
+      "summary": "■自身 【攻击伤害33.72%▲】【持续10秒】 【换弹速度15.28%▲】【持续10秒】 ■对所有敌人造成 【相当于最终攻击力1026%的分摊伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "伟大窃贼",
+  "weapon": "秘密出口",
+  "element": "水冷",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/quency-escape-queen",
+    "https://www.gamekee.com/nikke/152944.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152944,
+  "gamekee_entry_id": 164838,
+  "prydwen_slug": "quency-escape-queen",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152944 图鉴"
+}

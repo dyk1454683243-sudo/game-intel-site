@@ -1,0 +1,70 @@
+{
+  "id": "levita",
+  "name": "黎维塔",
+  "name_zh": "黎维塔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "生命c",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "来自鬼怪的保护~",
+      "type": "active",
+      "costume": "温泉管理员",
+      "summary": "4回合内，对友军应用攻击连携叠加10或以上的敌人时，施加的伤害增加130%的增强效果。4回合内，每回合结束时，恢复友军相当于各自自身最大生命力25%的生命力。"
+    },
+    {
+      "name": "双面祈祷",
+      "type": "active",
+      "costume": "暗黑圣女",
+      "summary": "3"
+    },
+    {
+      "name": "玫瑰☆灵魂赋能",
+      "type": "active",
+      "costume": "奇迹玫瑰",
+      "summary": "1回合内，自身暴击率增加100%。攻击敌人5次，每次攻击时，造成相当于自身最大生命力12%的物理伤害。"
+    },
+    {
+      "name": "指引至那一位",
+      "type": "talent",
+      "summary": "吸收地图上的拾取物。处于可获得探查拾取物状态时，探查拾取物也会一起被吸收。每日可用次数5次。消耗10个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "黑暗玫瑰念珠",
+  "talent": {
+    "name": "指引至那一位",
+    "summary": "吸收地图上的拾取物。处于可获得探查拾取物状态时，探查拾取物也会一起被吸收。每日可用次数5次。消耗10个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "温泉管理员",
+      "type": "辅助",
+      "skill": "来自鬼怪的保护~"
+    },
+    {
+      "name": "暗黑圣女",
+      "type": "辅助",
+      "skill": "双面祈祷"
+    },
+    {
+      "name": "奇迹玫瑰",
+      "type": "常驻",
+      "skill": "玫瑰☆灵魂赋能"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/646889.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 646889,
+  "gamekee_entry_id": 174517,
+  "verified": "GameKee zsca2/646889 图鉴"
+}

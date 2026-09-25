@@ -1,0 +1,48 @@
+{
+  "id": "ikaros",
+  "name": "斑鸠",
+  "name_zh": "斑鸠",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "特级飞燕凤闪·一式",
+      "type": "active",
+      "costume": "纯净之焰",
+      "summary": "对自身应用攻击力增加100%的效果。此效果叠加至1。最多可赋予叠加至3。此效果在遭受1次攻击后将消失。攻击敌人6次，每次攻击时，造成相当于自身攻击力90%的物理伤害。"
+    },
+    {
+      "name": "暂无",
+      "type": "talent",
+      "summary": "暂无"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "名剑飞燕",
+  "talent": {
+    "name": "暂无",
+    "summary": "暂无"
+  },
+  "costumes": [
+    {
+      "name": "纯净之焰",
+      "type": "联动",
+      "skill": "特级飞燕凤闪·一式"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/701014.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 701014,
+  "gamekee_entry_id": 213004,
+  "verified": "GameKee zsca2/701014 图鉴"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "poli-treasure",
+  "name": "Poli (Treasure)",
+  "name_zh": null,
+  "name_en": "Poli (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Brave Call",
+      "type": "passive"
+    },
+    {
+      "name": "That&#x27;s a Good Boy",
+      "type": "passive"
+    },
+    {
+      "name": "Poli&#x27;s Defense Line",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 2",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/poli-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "poli-treasure",
+  "verified": "Prydwen /nikke/characters/poli-treasure"
+}

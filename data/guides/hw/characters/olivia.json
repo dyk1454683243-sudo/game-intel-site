@@ -1,0 +1,65 @@
+{
+  "id": "olivia",
+  "name": "奥利维亚",
+  "name_zh": "奥利维亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T0 / 输出 / 自动追击 / 玛格纳尔的剑圣",
+  "skills": [
+    {
+      "name": "天空斩击",
+      "type": "active",
+      "summary": "对矩形范围内敌人造成近战攻击力60%的斩击伤害。"
+    },
+    {
+      "name": "光辉斩",
+      "type": "active",
+      "summary": "对扇形范围内敌人造成近战攻击力100%的斩击伤害。"
+    },
+    {
+      "name": "无限体",
+      "type": "passive",
+      "summary": "战斗中失去所有暴击概率，近战攻击力增加40%。攻击时降低目标1050斩击防御。"
+    },
+    {
+      "name": "裁天.千杀",
+      "type": "passive",
+      "summary": "战斗开始时获得3层【裁天】：敌方回合时使用【千杀】对最近敌方进行追击攻击。"
+    }
+  ],
+  "skill_prio": [
+    "输出全在裁天·千杀之上，因此主点这个就行。其他随便点点。",
+    "天空斩击: 6级即可",
+    "光辉斩: 6级即可",
+    "无限体: 6级即可",
+    "裁天.千杀: 尽量点满"
+  ],
+  "stigmata": {
+    "set_id": "set_iuppiter",
+    "set_name": "优菲特尔",
+    "pieces": 4,
+    "nickname": "木星",
+    "notes": [
+      "2件: 战斗中属性强化",
+      "4件: 斩击强化、全属性防御提升",
+      "只推荐优菲特尔（木星）套，奥利维亚双暴无效，词条只需要近战攻击力。凑不满三条可以用行动恢复力或者初始行动力过渡。"
+    ],
+    "substats_priority": [
+      "近战攻击力"
+    ]
+  },
+  "weapon": "斩星剑",
+  "teams": {
+    "dopamine_auto": "B"
+  },
+  "sources": [
+    "https://www.gamekee.com/hw/651590.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 651590,
+  "gamekee_entry_id": 178579,
+  "verified": "GameKee hw/651590 图鉴"
+}

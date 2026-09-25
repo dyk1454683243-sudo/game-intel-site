@@ -1,0 +1,44 @@
+{
+  "id": "biscuit",
+  "name": "饼干",
+  "name_zh": "饼干",
+  "name_en": "Biscuit",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "快乐帕比",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，火力型全体队友 【普通攻击暴击率增加1.13%】【持续10秒】 【持续恢复等同于施展者最终最大体力的1.05%】 【间隔1秒】【持续10秒】"
+    },
+    {
+      "name": "拖船游戏",
+      "type": "passive",
+      "summary": "■某位防御型队友的体力达到50%以下时，则使其 【无敌】【持续5秒】【战斗中触发2次】 【恢复等同于施展者最终最大体力的12.46%】【战斗中触发2次】"
+    },
+    {
+      "name": "徒步训练",
+      "type": "burst",
+      "summary": "■掩体遭到破坏的随机2名队友 【以51.48%的掩体体力来复活掩体】 ■辅助型全体队友 【攻击力17.42% ▲】【持续10秒】 【恢复等同于攻击伤害的35.39%】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "徒步训练",
+  "weapon": "快乐小狗",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/biscuit",
+    "https://www.gamekee.com/nikke/584520.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 584520,
+  "gamekee_entry_id": 117212,
+  "prydwen_slug": "biscuit",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/584520 图鉴"
+}

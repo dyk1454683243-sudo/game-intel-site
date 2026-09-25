@@ -1,0 +1,44 @@
+{
+  "id": "k",
+  "name": "K",
+  "name_zh": "K",
+  "name_en": "K",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "正义的天秤",
+      "type": "passive",
+      "summary": "■最后的子弹攻击时， 【倾斜的天秤：暴击率0.44%▲】 【叠加100次】【持续】 【倾斜的天秤叠加量9个▲】 ■弹丸暴击命中4次时，对目标造成 【最终攻击力14.12%的额外伤害】 ■全爆裂时间结束时，自身 【解除倾斜的天秤】"
+    },
+    {
+      "name": "执行正义",
+      "type": "passive",
+      "summary": "■倾斜的天秤生效时，全体队友 【实现正义】 功能：最大装弹数减少但攻击伤害增加 效果1：【最大装弹数30.21%▼】【持续10秒】（相同效果不可重复） 效果2：【攻击伤害6.27%▲】【持续10秒】 ■全爆裂时间结束时，全体队友 【解除实现正义】"
+    },
+    {
+      "name": "正义的手段",
+      "type": "burst",
+      "summary": "■自身 【使用武器变更】： 伤害：最终攻击力54.66%的伤害 弹丸数量：10颗 攻击速度：90%▼ 持续时间：10秒 额外效果 【以施展者为基准的攻击力37.44%▲】【持续10秒】 【攻击伤害12.48%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "正义的手段",
+  "weapon": "危险对决",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/k",
+    "https://www.gamekee.com/nikke/664885.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 664885,
+  "gamekee_entry_id": 188712,
+  "prydwen_slug": "k",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/664885 图鉴"
+}

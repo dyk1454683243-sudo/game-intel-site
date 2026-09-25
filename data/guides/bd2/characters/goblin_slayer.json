@@ -1,0 +1,42 @@
+{
+  "id": "goblin_slayer",
+  "name": "哥布林杀手",
+  "name_zh": "哥布林杀手",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "哥杀"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "杀尽世间哥布林",
+      "type": "active",
+      "costume": "小鬼杀手",
+      "summary": "6"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "短剑",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "小鬼杀手",
+      "type": "联动",
+      "skill": "杀尽世间哥布林"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/660204.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 660204,
+  "gamekee_entry_id": 185514,
+  "verified": "GameKee zsca2/660204 图鉴"
+}

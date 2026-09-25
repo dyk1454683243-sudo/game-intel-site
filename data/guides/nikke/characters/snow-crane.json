@@ -1,0 +1,44 @@
+{
+  "id": "snow-crane",
+  "name": "白鹤",
+  "name_zh": "白鹤",
+  "name_en": "Snow Crane",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "专属誓约",
+      "type": "passive",
+      "summary": "■仅限自身不在解除誓约状态时，赋予全体队友 【恢复专属誓约：以施展者为基准的最大体力5.9%▲】【持续】 ■恢复效果生效时，若不是自身施放的恢复效果，则赋予自身 【违反誓约证明：给予的体力恢复量16.93%▼】【最多3次】【持续】"
+    },
+    {
+      "name": "誓约效果",
+      "type": "passive",
+      "summary": "■全蓄力攻击3次时，处于恢复专属誓约状态的队友 【恢复相当于施展者最终最大体力的0.78%】 ■全爆裂时间开始时，全体队友 【产生相当于施展者最终最大体力5.61%的护盾】【持续10秒】 ■若自身的违反誓约证明达到最大值，自身 【解除誓约：免疫违反誓约证明】【持续】 【恢复相当于施展者最终最大体力的0.14%】【间隔1秒】【持续】"
+    },
+    {
+      "name": "特殊誓约效果",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的26.4%】 ■自身 【穿透特化】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "特殊誓约效果",
+  "weapon": "暮之契约",
+  "element": "水冷",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/snow-crane",
+    "https://www.gamekee.com/nikke/701435.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 701435,
+  "gamekee_entry_id": 213156,
+  "prydwen_slug": "snow-crane",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/701435 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cocoa",
+  "name": "可可",
+  "name_zh": "可可",
+  "name_en": "Cocoa",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "专业折纸",
+      "type": "active",
+      "summary": "■全体队友 【掩体体力恢复9.77%】 ■对持有减益效果的随机2名队友 【解除减益效果1个】"
+    },
+    {
+      "name": "专业番茄酱",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【迷你扫帚：被击伤害2.4% ▼】【叠加15次】【持续5秒】"
+    },
+    {
+      "name": "专业女佣",
+      "type": "burst",
+      "summary": "■全体队友 【解除1个减益效果】 ■若自身处于迷你扫帚最大叠加状态，则对全体敌人 【攻击力7.47% ▼】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "专业女佣",
+  "weapon": "可可瑞丽",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/cocoa",
+    "https://www.gamekee.com/nikke/582159.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 582159,
+  "gamekee_entry_id": 116193,
+  "prydwen_slug": "cocoa",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/582159 图鉴"
+}

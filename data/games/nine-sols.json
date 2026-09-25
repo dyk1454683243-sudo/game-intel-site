@@ -1,0 +1,26 @@
+{
+  "id": "nine-sols",
+  "name": "Nine Sols",
+  "name_zh": "九魂",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "indie",
+    "metroidvania",
+    "souls"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1809540/"
+    }
+  ],
+  "steam_appid": 1809540,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

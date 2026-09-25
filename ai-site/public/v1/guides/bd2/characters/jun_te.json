@@ -1,0 +1,40 @@
+{
+  "id": "jun_te",
+  "name": "君特",
+  "name_zh": "君特",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "跳跃射击",
+      "type": "active",
+      "costume": "卢戈猎人",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身攻击力320%的物理伤害。4回合内，敌人攻击力减少50%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "手工艺",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "卢戈猎人",
+      "type": null,
+      "skill": "跳跃射击"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593203.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593203,
+  "gamekee_entry_id": 122320,
+  "verified": "GameKee zsca2/593203 图鉴"
+}

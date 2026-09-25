@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/digest.schema.json",
+  "title": "game-intel digest",
+  "type": "object",
+  "required": ["meta", "digests"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["fixture", "generated_at", "timezone", "source"],
+      "additionalProperties": true,
+      "properties": {
+        "fixture": { "type": "boolean" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "timezone": { "type": "string", "const": "Asia/Shanghai" },
+        "source": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "digests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["game", "name", "name_zh", "ok", "count", "items"],
+        "additionalProperties": false,
+        "properties": {
+          "game": { "type": "string" },
+          "name": { "type": "string" },
+          "name_zh": { "type": "string" },
+          "ok": { "type": "boolean" },
+          "count": { "type": "integer", "minimum": 0 },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title", "url", "source"],
+              "additionalProperties": false,
+              "properties": {
+                "title": { "type": "string" },
+                "url": { "type": "string" },
+                "source": { "type": "string" },
+                "is_new": { "type": "boolean" },
+                "summary": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

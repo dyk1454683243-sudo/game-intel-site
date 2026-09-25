@@ -1,0 +1,44 @@
+{
+  "id": "sin",
+  "name": "森",
+  "name_zh": "森",
+  "name_en": "Sin",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "最终判决",
+      "type": "passive",
+      "summary": "■最后的子弹命中时， 自身 【复制最大体力最高的1名队友最大体力的7.94%】【持续5秒】 【注目：挑衅所有敌人】【持续5秒】"
+    },
+    {
+      "name": "赶路",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，自身 【爆裂进度补充速度8.08% ▲】【持续5秒】 ■使用爆裂技能时，自身 【不同使用次数不同效果】【低阶效果重复生效】： 1次：【恢复相当于攻击伤害的7.65%】【5秒】 2次：【体力恢复量25.5% ▲】【持续5秒】 3次：【防御力21.6% ▲】【持续5秒】"
+    },
+    {
+      "name": "文字杀",
+      "type": "burst",
+      "summary": "■除妮姬以外的敌人达到4名以上时，所有敌人 【所受伤害6.11% ▲】【持续5秒】 ■对攻击范围内的敌人造成 【相当于最终攻击力88.16%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "文字杀",
+  "weapon": "聒噪",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/sin",
+    "https://www.gamekee.com/nikke/580947.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 580947,
+  "gamekee_entry_id": 115415,
+  "prydwen_slug": "sin",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/580947 图鉴"
+}

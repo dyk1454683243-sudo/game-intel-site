@@ -1,0 +1,62 @@
+{
+  "id": "lu_ban_xi_ya",
+  "name": "卢班希亚",
+  "name_zh": "卢班希亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "终极爆破者",
+      "type": "active",
+      "costume": "印鉴掠夺者",
+      "summary": "攻击敌人8次，每次攻击时，造成相当于自身攻击力80%的物理伤害。若敌人为主要目标，则改为造成相当于自身攻击力160%的物理伤害。每命中一个目标，伤害量额外减少5%。伤害量将以首次攻击为基准固定。"
+    },
+    {
+      "name": "狂野撕咬R-3",
+      "type": "active",
+      "costume": "野犬",
+      "summary": "攻击敌人8次，每次攻击时，造成相当于自身攻击力80%的物理伤害。若对目标应用的连携是3的倍数，则改为造成相当于自身攻击力160%的物理伤害。"
+    },
+    {
+      "name": "超频奔袭射击",
+      "type": "active",
+      "costume": "海洋先锋",
+      "summary": "6回合内，进入加速状态。自身每次通过攻击累积连携时，3回合内，对自身应用攻击力增加3%的效果。此效果叠加至1。最多可赋予叠加至60。自身攻击力增加叠加数达到24层及以上时，2回合内，对自身应用造成的连携伤害增加10%的效果。攻击敌人8次，每次攻击时，造成相当于自身攻击力80%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "史佩露比亚",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "印鉴掠夺者",
+      "type": "原皮",
+      "skill": "终极爆破者"
+    },
+    {
+      "name": "野犬",
+      "type": null,
+      "skill": "狂野撕咬R-3"
+    },
+    {
+      "name": "海洋先锋",
+      "type": "限定",
+      "skill": "超频奔袭射击"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/640139.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 640139,
+  "gamekee_entry_id": 169240,
+  "verified": "GameKee zsca2/640139 图鉴"
+}

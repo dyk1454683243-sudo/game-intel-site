@@ -1,0 +1,44 @@
+{
+  "id": "anchor",
+  "name": "安克",
+  "name_zh": "安克",
+  "name_en": "Anchor",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "GS",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，对目标 【挑衅】【持续5秒】 ■最后的子弹命中时，自身 【防御力10.42%▲】【持续5秒】"
+    },
+    {
+      "name": "MDS",
+      "type": "passive",
+      "summary": "■战斗开始时，当自身 【攻击敌人发射体时，对相关发射体造成的伤害 11.2% ▲】【持续】"
+    },
+    {
+      "name": "CIWS",
+      "type": "burst",
+      "summary": "■对全体敌人造成相当于 【最终攻击力 133.2%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "CIWS",
+  "weapon": "/",
+  "element": "风压",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/anchor",
+    "https://www.gamekee.com/nikke/597431.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 597431,
+  "gamekee_entry_id": 124561,
+  "prydwen_slug": "anchor",
+  "rarity": "SR",
+  "verified": "GameKee nikke/597431 图鉴"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "jie_deng",
+  "name": "杰登",
+  "name_zh": "杰登",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "美少女之力",
+      "type": "active",
+      "costume": "美少女信奉者",
+      "summary": "6回合内，每回合结束时，恢复自身相当于自身最大生命力17%的生命力。6回合内，对自己应用75%的魔法防护罩效果。"
+    },
+    {
+      "name": "流星落下",
+      "type": "active",
+      "costume": "漫画研究社",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身魔法力170%的魔法伤害。"
+    },
+    {
+      "name": "魔力的香气···！",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "J收藏品",
+  "talent": {
+    "name": "魔力的香气···！",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "美少女信奉者",
+      "type": null,
+      "skill": "美少女之力"
+    },
+    {
+      "name": "漫画研究社",
+      "type": null,
+      "skill": "流星落下"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593638.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593638,
+  "gamekee_entry_id": 122336,
+  "verified": "GameKee zsca2/593638 图鉴"
+}

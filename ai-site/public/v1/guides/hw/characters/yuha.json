@@ -1,0 +1,73 @@
+{
+  "id": "yuha",
+  "name": "尤哈",
+  "name_zh": "尤哈",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T0 / 辅助 / 回AP / 子弹圣女",
+  "skills": [
+    {
+      "name": "制式射击",
+      "type": "active",
+      "summary": "造成射击攻击力60%的穿刺伤害"
+    },
+    {
+      "name": "翻滚",
+      "type": "active",
+      "summary": "低空跃向指定位置，获得20的行动力。"
+    },
+    {
+      "name": "精神腐蚀",
+      "type": "active",
+      "summary": "对扇形范围内的敌人施加持续2R的穿刺防御减少180效果。"
+    },
+    {
+      "name": "燃烧的狂信",
+      "type": "passive",
+      "summary": "生命值在50%以上的队友使用基于<枪械>的技能时，将从珠哈处获得行动恢复力和攻击力增加效果。"
+    },
+    {
+      "name": "执行射手",
+      "type": "active",
+      "summary": "指定的队友获得100点行动力，并进入持续1轮的【执行射手】状态。"
+    },
+    {
+      "name": "信仰的兄弟姐妹",
+      "type": "passive",
+      "summary": "半径3米范围内队友的命中率提升40%。"
+    }
+  ],
+  "skill_prio": [
+    "最优先点加ap的大招和增伤，其次翻滚点到6级可以免费使用，剩下点破甲和增伤。",
+    "制式射击: 不加",
+    "翻滚: 6级即可",
+    "精神腐蚀: 6级即可",
+    "燃烧的狂信: 尽量点满",
+    "执行射手: 尽量点满",
+    "信仰的兄弟姐妹: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "罪孽清算",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中行动恢复力",
+      "4件: 获得行动力、敌人抗性降低",
+      "辅助标配行动恢复力拉满的罪孽套即可。"
+    ]
+  },
+  "weapon": "荣耀之翼",
+  "teams": {
+    "dopamine_auto": "A"
+  },
+  "sources": [
+    "https://www.gamekee.com/hw/640723.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 640723,
+  "gamekee_entry_id": 169724,
+  "verified": "GameKee hw/640723 图鉴"
+}

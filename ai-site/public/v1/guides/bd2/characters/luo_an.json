@@ -1,0 +1,62 @@
+{
+  "id": "luo_an",
+  "name": "罗安",
+  "name_zh": "罗安",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "业火降临",
+      "type": "active",
+      "costume": "最后的希望",
+      "summary": "对敌人造成相当于自身魔法力1000%的魔法伤害。"
+    },
+    {
+      "name": "爆裂潜水",
+      "type": "active",
+      "costume": "田径社社员",
+      "summary": "4回合内，自身魔法力增加100%。攻击敌人2次，每次攻击时，造成相当于自身魔法力350%的魔法伤害。"
+    },
+    {
+      "name": "EMP闪光",
+      "type": "active",
+      "costume": "名人兔女郎",
+      "summary": "对敌人造成相当于自身魔法力50%的魔法伤害。每命中一个目标，伤害量增加175%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "失落魔法",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "最后的希望",
+      "type": "原皮",
+      "skill": "业火降临"
+    },
+    {
+      "name": "田径社社员",
+      "type": null,
+      "skill": "爆裂潜水"
+    },
+    {
+      "name": "名人兔女郎",
+      "type": null,
+      "skill": "EMP闪光"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/621763.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 621763,
+  "gamekee_entry_id": 149010,
+  "verified": "GameKee zsca2/621763 图鉴"
+}

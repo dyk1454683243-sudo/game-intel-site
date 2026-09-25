@@ -1,0 +1,39 @@
+{
+  "id": "rosanna-treasure",
+  "name": "Rosanna (Treasure)",
+  "name_zh": null,
+  "name_en": "Rosanna (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "On the Lam",
+      "type": "passive"
+    },
+    {
+      "name": "Capo dei Capi",
+      "type": "passive"
+    },
+    {
+      "name": "Vendetta",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rosanna-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "rosanna-treasure",
+  "verified": "Prydwen /nikke/characters/rosanna-treasure"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "aigis",
+  "name": "Aigis",
+  "name_zh": null,
+  "name_en": "Aigis",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Persona: Palladion",
+      "type": "passive"
+    },
+    {
+      "name": "Papillon Heart",
+      "type": "passive"
+    },
+    {
+      "name": "Heat Wave",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 2",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/aigis"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "aigis",
+  "verified": "Prydwen /nikke/characters/aigis"
+}

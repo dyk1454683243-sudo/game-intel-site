@@ -1,0 +1,44 @@
+{
+  "id": "miranda",
+  "name": "米兰达",
+  "name_zh": "米兰达",
+  "name_en": "Miranda",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "健身！",
+      "type": "passive",
+      "summary": "■普通攻击命中30次后，全体队友 【命中率3.17%▲】【持续5秒】 ■普通攻击命中30次后，持有冲锋枪的全体队友 【命中率2.09%▲】【持续5秒】"
+    },
+    {
+      "name": "唤醒！",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【暴击伤害19.49%▲】【持续10秒】"
+    },
+    {
+      "name": "能量提升！",
+      "type": "burst",
+      "summary": "■除自身以外攻击力最高的1名队友发动效果 【攻击力23.87%▲】【持续10秒】 【暴击伤害33.22%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "能量提升！",
+  "weapon": "死板",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/miranda",
+    "https://www.gamekee.com/nikke/152345.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152345,
+  "gamekee_entry_id": 102040,
+  "prydwen_slug": "miranda",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152345 图鉴"
+}

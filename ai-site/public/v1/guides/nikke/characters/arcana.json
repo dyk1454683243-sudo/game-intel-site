@@ -1,0 +1,44 @@
+{
+  "id": "arcana",
+  "name": "阿尔卡娜",
+  "name_zh": "阿尔卡娜",
+  "name_en": "Arcana",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "苏醒的命运",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，自身若处于命运之轮牌状态，刚使用爆裂技能且处于基本爆裂阶段Step3的全体电击代码队友 【魔法师牌：技能2冷却时间75%▼】【持续15秒】 【攻击伤害106.36%▲】【持续15秒】 ■全爆裂时间结束时，全体队友 【以施展者为基准的攻击力2.95%▲】 【持续10秒】"
+    },
+    {
+      "name": "循环的命运",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，自身若处于命运之轮牌状态，刚使用爆裂技能且处于基本爆裂阶段Step3的全体电击代码队友 【力量牌：以施展者为基准的攻击力106.36%▲】【持续15秒】 ■全爆裂时间结束时，自身若处于命运之轮牌状态，全体队友 【死神牌：爆裂技能冷却时间3秒▼】 【以施展者为基准的攻击力29.54%▲】【持续5秒】 ■全爆裂时间结束时，全体队友 【攻击伤害4.43%▲】【持续10秒】"
+    },
+    {
+      "name": "命运的束缚",
+      "type": "burst",
+      "summary": "■全体电击代码的队友 【命运之轮牌：攻击伤害5.91%▲】 【持续10秒】 ■对全体敌人造成 【最终攻击力150%的爆裂技能伤害】 【审判牌：所受伤害5.91%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "命运的束缚",
+  "weapon": "预言家",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/arcana",
+    "https://www.gamekee.com/nikke/661994.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 661994,
+  "gamekee_entry_id": 186774,
+  "prydwen_slug": "arcana",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/661994 图鉴"
+}

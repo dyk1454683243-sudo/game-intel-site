@@ -1,0 +1,44 @@
+{
+  "id": "tove",
+  "name": "托比",
+  "name_zh": "托比",
+  "name_en": "Tove",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "赶造子弹",
+      "type": "passive",
+      "summary": "■攻击时，以2%概率自身 【赶造子弹：子弹补充3.31%】 ■「赶造子弹」生效时，全体队友 【临时改造：最大装弹数1发▲】 【叠加3次】【持续5秒】 【暴击伤害2.96%▲】【持续5秒】"
+    },
+    {
+      "name": "改造成功",
+      "type": "passive",
+      "summary": "■若自身处于「临时改造」最大叠加状态，全体队友 【暴击率1.96%▲】【持续】 ■若自身处于「临时改造」最大叠加状态，持有霰弹枪的全体队友 【攻击速度24.96%▲】【持续】"
+    },
+    {
+      "name": "临时制作的奇迹",
+      "type": "burst",
+      "summary": "■全体队友 【临时制作的奇迹：相当于以施展者为基准的攻击力1.37%▲】 【临时改造叠加复制】【持续10秒】 ■持有霰弹枪的全体队友 【临时制作的奇迹：相当于以施展者为基准的攻击力14.31%▲】 【临时改造叠加复制】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "临时制作的奇迹",
+  "weapon": "富有生机的幸存者",
+  "element": "水冷",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/tove",
+    "https://www.gamekee.com/nikke/606470.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 606470,
+  "gamekee_entry_id": 134182,
+  "prydwen_slug": "tove",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/606470 图鉴"
+}

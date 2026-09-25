@@ -1,0 +1,39 @@
+{
+  "id": "exia-treasure",
+  "name": "Exia (Treasure)",
+  "name_zh": null,
+  "name_en": "Exia (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Invasion",
+      "type": "passive"
+    },
+    {
+      "name": "Secret Code",
+      "type": "passive"
+    },
+    {
+      "name": "Partisan Protocol",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/exia-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "exia-treasure",
+  "verified": "Prydwen /nikke/characters/exia-treasure"
+}

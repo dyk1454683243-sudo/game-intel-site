@@ -1,0 +1,40 @@
+{
+  "id": "yukiizumi",
+  "name": "雪泉",
+  "name_zh": "雪泉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "树冰扇",
+      "type": "active",
+      "costume": "雪花之舞",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力120%的魔法伤害。3回合内，对敌人应用每层叠加造成相当于自身魔法力20%的魔法伤害的出血叠加效果。最多可应用叠加至99层。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "黑影之扇",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "雪花之舞",
+      "type": "联动",
+      "skill": "树冰扇"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/638795.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 638795,
+  "gamekee_entry_id": 167966,
+  "verified": "GameKee zsca2/638795 图鉴"
+}

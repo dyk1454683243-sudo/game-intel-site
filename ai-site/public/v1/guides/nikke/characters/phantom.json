@@ -1,0 +1,44 @@
+{
+  "id": "phantom",
+  "name": "潘托姆",
+  "name_zh": "潘托姆",
+  "name_en": "Phantom",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "怪盗的预告信",
+      "type": "passive",
+      "summary": "■若普通攻击命中未处于预告信状态的莱彻，将对目标造成 【预告信：防御力19.02%▼】【持续5秒】 ■若普通攻击命中未处于预告信状态的莱彻，则自身 【怪盗的短剑：命中率15.22%▲】【叠加3次】 【持续5秒】 ■普通攻击命中处于预告信状态的目标，则自身 【攻击伤害44.41%▲】【持续1发】"
+    },
+    {
+      "name": "怪盗的视线",
+      "type": "passive",
+      "summary": "■自身处于怪盗的短剑叠加上限状态时，解除叠加后将对处于预告信状态的目标造成 【相当于最终攻击力49.82%的额外伤害】 【效果生效后解除预告信状态】 ■自身处于怪盗的短剑叠加上限状态时，解除叠加后，自身 【分摊伤害7.61%▲】【叠加3次】 【使用爆裂技能后解除叠加】 ■进行10次普通攻击时，自身 【攻击力50.32%▲】【持续5秒】 【分摊伤害18.87%▲】【持续10秒】"
+    },
+    {
+      "name": "神秘怪盗横行",
+      "type": "burst",
+      "summary": "■对全体敌人造成相当于 【最终攻击力861.12%的分摊伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "神秘怪盗横行",
+  "weapon": "/",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/phantom",
+    "https://www.gamekee.com/nikke/155278.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 155278,
+  "gamekee_entry_id": 164839,
+  "prydwen_slug": "phantom",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/155278 图鉴"
+}

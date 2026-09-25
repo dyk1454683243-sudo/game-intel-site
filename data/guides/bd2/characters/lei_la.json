@@ -1,0 +1,48 @@
+{
+  "id": "lei_la",
+  "name": "蕾拉",
+  "name_zh": "蕾拉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "毁灭铁砧",
+      "type": "active",
+      "costume": "创造铁砧",
+      "summary": "每次攻击命中敌人时，友军的SP恢复1点。攻击敌人2次，每次攻击时，造成相当于自身攻击力180%的物理伤害。"
+    },
+    {
+      "name": "敲敲打打！",
+      "type": "talent",
+      "summary": "可制作UR装备。消耗28个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "猪猪锻造王",
+  "talent": {
+    "name": "敲敲打打！",
+    "summary": "可制作UR装备。消耗28个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "创造铁砧",
+      "type": null,
+      "skill": "毁灭铁砧"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593657.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593657,
+  "gamekee_entry_id": 122340,
+  "verified": "GameKee zsca2/593657 图鉴"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "li_di_ya",
+  "name": "黎迪雅",
+  "name_zh": "黎迪雅",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "祭祀枪术",
+      "type": "active",
+      "costume": "见习枪兵",
+      "summary": "对敌人造成相当于自身攻击力530%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "简约长矛",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "见习枪兵",
+      "type": null,
+      "skill": "祭祀枪术"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593595.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593595,
+  "gamekee_entry_id": 122331,
+  "verified": "GameKee zsca2/593595 图鉴"
+}

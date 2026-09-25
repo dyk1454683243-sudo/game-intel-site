@@ -1,0 +1,39 @@
+{
+  "id": "julia-treasure",
+  "name": "Julia (Treasure)",
+  "name_zh": null,
+  "name_en": "Julia (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Decrescendo",
+      "type": "active"
+    },
+    {
+      "name": "Crescendo",
+      "type": "passive"
+    },
+    {
+      "name": "Climax",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 3",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/julia-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "julia-treasure",
+  "verified": "Prydwen /nikke/characters/julia-treasure"
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "fixture": false,
+    "generated_at": "2026-09-06T22:04:06+08:00",
+    "timezone": "Asia/Shanghai",
+    "source": "game-intel MCP watchlist + data/watchlist.json"
+  },
+  "games": [
+    {
+      "id": "hw",
+      "name": "Horizon Walker",
+      "name_zh": "地平线行者",
+      "keywords": [
+        "Horizon Walker",
+        "地平线行者"
+      ],
+      "gamekee_alias": "hw",
+      "steam_appid": 3279780
+    },
+    {
+      "id": "nikke",
+      "name": "Nikke",
+      "name_zh": "胜利女神：NIKKE",
+      "keywords": [
+        "NIKKE",
+        "胜利女神"
+      ],
+      "gamekee_alias": "nikke",
+      "official_url": "https://nikke-en.com/news.html"
+    },
+    {
+      "id": "bd2",
+      "name": "Brown Dust 2",
+      "name_zh": "棕色尘埃2",
+      "keywords": [
+        "Brown Dust 2",
+        "棕色尘埃2"
+      ],
+      "gamekee_alias": "zsca2",
+      "official_url": "https://www.browndust2.com/en-us/news",
+      "official_api": "bd2_notices"
+    },
+    {
+      "id": "star",
+      "name": "Azure Star Origin",
+      "name_zh": "蓝色星原：旅谣",
+      "keywords": [
+        "蓝色星原",
+        "蓝色星原：旅谣",
+        "旅谣",
+        "Azur Promilia",
+        "蓝色星原旅谣",
+        "奇波"
+      ],
+      "gamekee_alias": null,
+      "official_url": "https://azurpromilia.com/news",
+      "official_site": "https://azurpromilia.manjuu.com/en/",
+      "official_api": "star_official"
+    },
+    {
+      "id": "miraesi",
+      "name": "Invisible Future",
+      "name_zh": "미래시",
+      "keywords": [
+        "미래시",
+        "Invisible Future",
+        "MIRESI",
+        "CONTROL9",
+        "미래시: 보이지 않는 미래"
+      ],
+      "gamekee_alias": null,
+      "official_url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=eng",
+      "official_site": "https://miresi.onstove.com/en",
+      "official_api": "smilegate_newsroom"
+    },
+    {
+      "id": "lo2",
+      "name": "Last Origin 2",
+      "name_zh": "Last Origin 2",
+      "keywords": [
+        "Last Origin 2",
+        "라스트오리진2",
+        "VALOFE",
+        "라스트 오리진2",
+        "Last Origin II"
+      ],
+      "gamekee_alias": null,
+      "official_url": "https://www.valofe.com/",
+      "official_api": "lo2_official"
+    },
+    {
+      "id": "asora",
+      "name": "Astrae Oratio",
+      "name_zh": "阿索拉：星之祈愿",
+      "keywords": [
+        "阿索拉",
+        "Astrae Oratio",
+        "아스트라에",
+        "오라티오",
+        "Dynamis One",
+        "Project AT",
+        "星之祈愿",
+        "星之祈願",
+        "AstraeOratio",
+        "NCSOFT"
+      ],
+      "gamekee_alias": null,
+      "official_url": "https://astraeoratio.plaync.com/zh-tw/index",
+      "official_site": "https://astraeoratio.plaync.com/zh-tw/index",
+      "official_api": "asora_official"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "mahari",
+  "name": "玛哈里",
+  "name_zh": "玛哈里",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T0.5 / 爆伤拐 / 坦克 / 最后的守护者",
+  "skills": [
+    {
+      "name": "破绽刺击",
+      "type": "active",
+      "summary": "造成近战攻击力60%的穿刺伤害。"
+    },
+    {
+      "name": "威胁攻击",
+      "type": "active",
+      "summary": "造成近战攻击力60%的穿刺伤害，并使敌人进入【嘲讽】状态，持续2R。"
+    },
+    {
+      "name": "歼灭之壁",
+      "type": "active",
+      "summary": "在扇形范围内，对敌人造成相当于近战攻击力30%的打击伤害，并在自身前方召唤【盾墙】。"
+    },
+    {
+      "name": "逆转斗志",
+      "type": "passive",
+      "summary": "弱点攻击后，获得持续2轮的【逆转斗志】护盾。"
+    },
+    {
+      "name": "抵抗意志",
+      "type": "passive",
+      "summary": "弱点攻击成功时，2R内所有防御额外增加90，并且在持有【逆转斗志】护盾的情况下，仇恨修正增加33。"
+    }
+  ],
+  "skill_prio": [
+    "她不怎么需要加点就能起到全部作用，点一下被动稍微提升生存即可。",
+    "破绽刺击: 不加",
+    "威胁攻击: 不加",
+    "歼灭之壁: 不加",
+    "逆转斗志: 6级即可",
+    "抵抗意志: 6级即可"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "罪孽清算",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中行动恢复力",
+      "4件: 获得行动力、敌人抗性降低",
+      "当辅助只需要副词条全部堆暴伤提升给全队加的暴伤即可。注意她的专武只吃词条的暴伤，套装效果的战斗中加暴伤无效。"
+    ]
+  },
+  "weapon": "拉夫涅西斯的武具",
+  "teams": {
+    "dopamine_auto": "A"
+  },
+  "sources": [
+    "https://www.gamekee.com/hw/645959.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 645959,
+  "gamekee_entry_id": 173968,
+  "verified": "GameKee hw/645959 图鉴"
+}

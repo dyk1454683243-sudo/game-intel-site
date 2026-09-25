@@ -1,0 +1,40 @@
+{
+  "id": "ka_sen",
+  "name": "卡森",
+  "name_zh": "卡森",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "坚定意志",
+      "type": "active",
+      "costume": "佣兵骑士",
+      "summary": "4回合内，对自己应用65%的物理防护罩效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "埃保伦侍卫",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "佣兵骑士",
+      "type": null,
+      "skill": "坚定意志"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593599.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593599,
+  "gamekee_entry_id": 122330,
+  "verified": "GameKee zsca2/593599 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "alice-wonderland-bunny",
+  "name": "爱丽丝：仙境兔女郎",
+  "name_zh": "爱丽丝：仙境兔女郎",
+  "name_en": "Alice: Wonderland Bunny",
+  "aliases": [],
+  "nicknames": [
+    "兔爱"
+  ],
+  "game": "nikke",
+  "role": "支援型",
+  "skills": [
+    {
+      "name": "胡萝卜和兔子的派对",
+      "type": "passive",
+      "summary": "■进行60次普通攻击时，全体队友 【恢复相当于施展者最终最大体力的3.21%】 【胡萝卜派对：阻挡部位攻击伤害增加0.89%▲】【叠加5次】【持续5秒】 ■进行90次普通攻击时，水冷代码全体队友 【可叠加的增益效果叠加量1次▲】"
+    },
+    {
+      "name": "更多胡萝卜",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，全体队友 【爆裂进度补充速度4.73%▲】【持续5秒】 ■全爆裂时间开始时，全体队友 【最大装弹数10.57%▲】【持续15秒】 【子弹补充10.57%】"
+    },
+    {
+      "name": "珍贵的大胡萝卜",
+      "type": "burst",
+      "summary": "■全体队友 【重新进入爆裂1阶】 【恢复相当于施展者最终最大体力的12.46%】 ■若自身处于胡萝卜派对最大叠加状态，全体队友 【体力恢复量74.2%▲】【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "小小胡萝卜",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/alice-wonderland-bunny",
+    "https://www.gamekee.com/nikke/624034.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 624034,
+  "gamekee_entry_id": 151199,
+  "prydwen_slug": "alice-wonderland-bunny",
+  "rarity": "SSR",
+  "burst": "珍贵的大胡萝卜",
+  "verified": "GameKee nikke/624034 图鉴"
+}

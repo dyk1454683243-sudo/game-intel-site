@@ -1,0 +1,44 @@
+{
+  "id": "soldier-eg",
+  "name": "士兵E.G",
+  "name_zh": "士兵E.G",
+  "name_en": "Soldier EG",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "鹰眼",
+      "type": "passive",
+      "summary": "■普通攻击命中时，以5%的机率，自身 【攻击力1.98%▲】【持续5秒】"
+    },
+    {
+      "name": "老鹰战术",
+      "type": "active",
+      "summary": "■自身 【最大装弹数28.19%▲】【持续5秒】"
+    },
+    {
+      "name": "鹰击",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 【相当于最终攻击力180%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "鹰击",
+  "weapon": "步枪",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/soldier-eg",
+    "https://www.gamekee.com/nikke/152353.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152353,
+  "gamekee_entry_id": 102031,
+  "prydwen_slug": "soldier-eg",
+  "rarity": "R",
+  "verified": "GameKee nikke/152353 图鉴"
+}

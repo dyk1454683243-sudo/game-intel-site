@@ -1,0 +1,44 @@
+{
+  "id": "idoll-sun",
+  "name": "iDoll太阳",
+  "name_zh": "iDoll太阳",
+  "name_en": "iDoll Sun",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "日照",
+      "type": "passive",
+      "summary": "■普通攻击命中10次时，自身 【防御力1.89%▲】【持续5秒】"
+    },
+    {
+      "name": "日光",
+      "type": "passive",
+      "summary": "■被攻击时，自身以20%的几率 【攻击力2.27%▲】【持续5秒】"
+    },
+    {
+      "name": "日落",
+      "type": "burst",
+      "summary": "■自身 【最大装弹数196.87%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "日落",
+  "weapon": "步枪",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/idoll-sun",
+    "https://www.gamekee.com/nikke/152361.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152361,
+  "gamekee_entry_id": 102039,
+  "prydwen_slug": "idoll-sun",
+  "rarity": "R",
+  "verified": "GameKee nikke/152361 图鉴"
+}

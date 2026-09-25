@@ -1,0 +1,46 @@
+{
+  "id": "naga",
+  "name": "娜嘉",
+  "name_zh": "娜嘉",
+  "name_en": "Naga",
+  "aliases": [],
+  "nicknames": [
+    "黑JK"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "友谊守护",
+      "type": "passive",
+      "summary": "■进行12次普通攻击时，全体队友 【掩体体力恢复8.61% ▲】 ■护盾生效时，全体队友的 【核心伤害50.33% ▲】【持续10秒】"
+    },
+    {
+      "name": "友谊支援",
+      "type": "passive",
+      "summary": "■进行5次普通攻击时，攻击力最高的2名队友 【核心伤害26.37% ▲】【持续5秒】 ■进行5次普通攻击时，剩余的体力比例最低的2名队友 【恢复相当于施展者最终最大体力的5.58%】"
+    },
+    {
+      "name": "如果是和朋友们一起！",
+      "type": "burst",
+      "summary": "■自身 【穿透特化】【持续10秒】 ■对全体队友 【以施展者为基准的攻击力9.56% ▲】【持续10秒】 ■如果自己正处于护盾生效状态，全体队友 【以施展者为基准的攻击力17.16% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "优雅的夜曲",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/naga",
+    "https://www.gamekee.com/nikke/600935.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 600935,
+  "gamekee_entry_id": 127163,
+  "prydwen_slug": "naga",
+  "rarity": "SSR",
+  "burst": "如果是和朋友们一起！",
+  "verified": "GameKee nikke/600935 图鉴"
+}

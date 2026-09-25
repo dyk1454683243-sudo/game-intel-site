@@ -1,0 +1,48 @@
+{
+  "id": "fu_lei_de",
+  "name": "弗雷德",
+  "name_zh": "弗雷德",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "盾牌推击",
+      "type": "active",
+      "costume": "卢戈卫队",
+      "summary": "友军的SP恢复4点。对敌人造成1的物理伤害，并将目标向后方击退2格。对被撞击的敌人造成相当于被推开目标最大生命力70%的物理伤害。6回合内，对敌人应用造成相当于自身攻击力50%的物理伤害的出血效果。"
+    },
+    {
+      "name": "拿出铁砧！",
+      "type": "talent",
+      "summary": "可制作UR装备。消耗28个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "卢戈制衬衫",
+  "talent": {
+    "name": "拿出铁砧！",
+    "summary": "可制作UR装备。消耗28个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "卢戈卫队",
+      "type": null,
+      "skill": "盾牌推击"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593194.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593194,
+  "gamekee_entry_id": 122319,
+  "verified": "GameKee zsca2/593194 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "maiden-ice-rose",
+  "name": "梅登：冰玫瑰",
+  "name_zh": "梅登：冰玫瑰",
+  "name_en": "Maiden: Ice Rose",
+  "aliases": [],
+  "nicknames": [
+    "冬梅"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "冥想",
+      "type": "passive",
+      "summary": "■进入爆裂1阶时，若自身的MP为0，则自身 【MP恢复1点】【MP最高累积至12点】【使用爆裂技能时会消耗所有累积MP】 ■全爆裂时间开始时，若自身有1点以上的MP，则自身 【MP补充1点】【MP最高累积至12点】【使用爆裂技能时会消耗所有累积MP】 ■ 全蓄力攻击6次时，自身 【仅最大体力3.74%▲】【叠加10次】【持续15秒】"
+    },
+    {
+      "name": "赐福",
+      "type": "passive",
+      "summary": "■补充MP时，除自身以外的所有电击代码队友 【优越代码攻击伤害24.2%▲】【持续10秒】 【以施展者为基准的攻击力12.35%▲】【持续10秒】 ■消耗MP后，自身 【优越代码攻击伤害18.72%▲】【持续10秒】 【按照施展者最终最大体力 1.89%的攻击力▲】【持续10秒】 ■全蓄力攻击1次时，对距离瞄准线最近的1名敌人造成 【最终攻击力323.58%的伤害】"
+    },
+    {
+      "name": "钻石尘埃",
+      "type": "burst",
+      "summary": "■对最接近瞄准线的1名敌人造成 【以施展者最终最大体力的10%和攻击力相加后，总计811.2%的伤害】【仅按照当下的MP发动连续攻击】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "钻石尘埃",
+  "weapon": "钻石尘埃",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/maiden-ice-rose",
+    "https://www.gamekee.com/nikke/167401.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 167401,
+  "gamekee_entry_id": 171126,
+  "prydwen_slug": "maiden-ice-rose",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/167401 图鉴"
+}

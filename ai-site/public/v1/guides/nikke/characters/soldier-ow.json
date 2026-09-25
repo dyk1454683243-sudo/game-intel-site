@@ -1,0 +1,44 @@
+{
+  "id": "soldier-ow",
+  "name": "士兵O.W.",
+  "name_zh": "士兵O.W.",
+  "name_en": "Soldier OW",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "猫头鹰乌鸦",
+      "type": "passive",
+      "summary": "■普通攻击时，以10%的几率目标的 【相对于攻击力18.9%的额外伤害▲】"
+    },
+    {
+      "name": "猫头鹰气流",
+      "type": "active",
+      "summary": "■攻击力最高的3名队友 【掩体防御力32.14%▲】【持续5秒】"
+    },
+    {
+      "name": "猫头鹰羽",
+      "type": "burst",
+      "summary": "■燃烧代码全体队友的 【最大装弹数70%▲】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "猫头鹰羽",
+  "weapon": "冲锋枪",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/soldier-ow",
+    "https://www.gamekee.com/nikke/152359.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152359,
+  "gamekee_entry_id": 102037,
+  "prydwen_slug": "soldier-ow",
+  "rarity": "R",
+  "verified": "GameKee nikke/152359 图鉴"
+}

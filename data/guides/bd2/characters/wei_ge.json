@@ -1,0 +1,58 @@
+{
+  "id": "wei_ge",
+  "name": "威格",
+  "name_zh": "威格",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "威格？爆炸！",
+      "type": "active",
+      "costume": "炸弹狂",
+      "summary": "对敌人自爆，造成相当于自身攻击力500%的物理伤害。自爆攻击无法闪避。"
+    },
+    {
+      "name": "与炸弹共舞",
+      "type": "active",
+      "costume": "炸弹帽衫",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力20%的物理伤害。3回合内，对敌人应用造成相当于自身攻击力155%的物理伤害的灼伤效果。"
+    },
+    {
+      "name": "爆炸恒久远",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "危险炸弹",
+  "talent": {
+    "name": "爆炸恒久远",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "炸弹狂",
+      "type": null,
+      "skill": "威格？爆炸！"
+    },
+    {
+      "name": "炸弹帽衫",
+      "type": null,
+      "skill": "与炸弹共舞"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593602.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593602,
+  "gamekee_entry_id": 122334,
+  "verified": "GameKee zsca2/593602 图鉴"
+}

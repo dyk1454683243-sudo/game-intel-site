@@ -1,0 +1,44 @@
+{
+  "id": "maxwell-ordinary-mechanic",
+  "name": "麦斯威尔：平凡技师",
+  "name_zh": "麦斯威尔：平凡技师",
+  "name_en": "Maxwell: Ordinary Mechanic",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "阶段解除限制",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，赋予全体队友 【以施展者为基准的最大体力0.5%▲】【叠加30次】【持续】 ■进入爆裂阶段3时，全体队友 【攻击伤害6.25%▲】【持续5秒】"
+    },
+    {
+      "name": "输出切换进程",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，全体队友 【相当于施展者最终最大体力0.5%的攻击力▲】【持续15秒】 ■使用爆裂技能时，自身 【超载电流：攻击力15%▲】【最多5阶段】【持续】 ■全蓄力攻击时，全体队友 【爆裂进度补充3.58%】"
+    },
+    {
+      "name": "墨提斯部队超级破坏炮",
+      "type": "burst",
+      "summary": "■自身 【变更使用武器：墨提斯部队超级破坏砲】： 【蓄力时间】 【超载电流各阶段效果】【仅套用对应阶段效果】 蓄力时间：3秒 阶段1以下：固定3秒 阶段2：固定2.5秒 阶段3：固定2秒 阶段4：固定1.5秒 阶段5以上：固定0.4秒 伤害：最终攻击力175%的伤害 全蓄力伤害：300% 最大装弹数：1发 额外效果：【穿透特化】 ■全体队友 【攻击伤害12.5%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "墨提斯部队超级破坏炮",
+  "weapon": "我的神圣宝贝",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/maxwell-ordinary-mechanic",
+    "https://www.gamekee.com/nikke/713899.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 713899,
+  "gamekee_entry_id": 219257,
+  "prydwen_slug": "maxwell-ordinary-mechanic",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/713899 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "maxwell",
+  "name": "麦斯威尔",
+  "name_zh": "麦斯威尔",
+  "name_en": "Maxwell",
+  "aliases": [],
+  "nicknames": [
+    "老麦"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "直射",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，攻击力最高的2名队友 【蓄力速度2.65% ▲】【持续10秒】 【攻击力25.46% ▲】【持续10秒】"
+    },
+    {
+      "name": "电击",
+      "type": "passive",
+      "summary": "■仅限于除了妮姬以外的敌人达5名以上时，自身 【暴击率2.85% ▲】【持续】 【暴击伤害8.22% ▲】【持续】"
+    },
+    {
+      "name": "穿刺",
+      "type": "burst",
+      "summary": "■自身 【使用武器变更】： 蓄力时间：2秒 伤害：相当于最终攻击力的144.85% 全蓄力伤害：300%伤害 最大装弹数：1发 追加效果：穿透特化"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "我的乖宝宝",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/maxwell",
+    "https://www.gamekee.com/nikke/92087.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 92087,
+  "gamekee_entry_id": 64608,
+  "prydwen_slug": "maxwell",
+  "rarity": "SSR",
+  "burst": "穿刺",
+  "verified": "GameKee nikke/92087 图鉴"
+}

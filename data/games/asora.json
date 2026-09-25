@@ -1,0 +1,25 @@
+{
+  "id": "asora",
+  "name": "Astrae Oratio",
+  "name_zh": "阿索拉：星之祈愿",
+  "platforms": [
+    "pc",
+    "other"
+  ],
+  "tags": [
+    "rpg",
+    "upcoming"
+  ],
+  "sources": [
+    {
+      "label": "Official (plaync)",
+      "url": "https://astraeoratio.plaync.com/zh-tw/index"
+    }
+  ],
+  "stub": true,
+  "watchlist": true,
+  "guides_path": "/guides/asora/",
+  "note": "Watchlist; identity + official links only",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

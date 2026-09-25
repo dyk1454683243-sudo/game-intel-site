@@ -1,0 +1,44 @@
+{
+  "id": "belorta",
+  "name": "贝洛塔",
+  "name_zh": "贝洛塔",
+  "name_en": "Belorta",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "惊喜",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，自身 【爆炸范围3.41%▲】【持续5秒】"
+    },
+    {
+      "name": "贪婪",
+      "type": "passive",
+      "summary": "■同时命中4名以上目标时，对目标造成 【防御力1.25% ▼】【持续5秒】 【相当于最终攻击力5.34%的额外伤害】"
+    },
+    {
+      "name": "狡猾投弹",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 相当于【最终攻击力68.57%的伤害】 ■全体队友 【蓄力速度1.01% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "狡猾投弹",
+  "weapon": "/",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/belorta",
+    "https://www.gamekee.com/nikke/152346.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152346,
+  "gamekee_entry_id": 102025,
+  "prydwen_slug": "belorta",
+  "rarity": "SR",
+  "verified": "GameKee nikke/152346 图鉴"
+}

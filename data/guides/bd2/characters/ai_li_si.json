@@ -1,0 +1,51 @@
+{
+  "id": "ai_li_si",
+  "name": "艾莉丝",
+  "name_zh": "艾莉丝",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "红色闪光",
+      "type": "active",
+      "costume": "受祝福的冒险家",
+      "summary": "对敌人造成相当于自身攻击力650%的物理伤害。若此攻击对敌人叠加的连携数量为7或7以下，则改为造成相当于自身攻击力1100%的物理伤害。"
+    },
+    {
+      "name": "兽人族秘技",
+      "type": "active",
+      "costume": "只属于你的猫咪",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力80%的物理伤害。4回合内，对主要目标敌人应用150%的物理虚弱效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "艾莉丝的剑",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "受祝福的冒险家",
+      "type": "联动",
+      "skill": "红色闪光"
+    },
+    {
+      "name": "只属于你的猫咪",
+      "type": "联动",
+      "skill": "兽人族秘技"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/624137.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 624137,
+  "gamekee_entry_id": 151332,
+  "verified": "GameKee zsca2/624137 图鉴"
+}

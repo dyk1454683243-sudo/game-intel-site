@@ -1,0 +1,46 @@
+{
+  "id": "nihilister",
+  "name": "尼希利斯塔",
+  "name_zh": "尼希利斯塔",
+  "name_en": "Nihilister",
+  "aliases": [],
+  "nicknames": [
+    "火龙"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "烈焰球",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【穿透特化】【持续1发】 【穿透范围扩大50%】【持续1发】 ■普通攻击时，若同时命中2个以上的目标，则对目标造成 【相当于最终攻击力11.28%的额外伤害】"
+    },
+    {
+      "name": "战场火焰",
+      "type": "active",
+      "summary": "■对攻击范围内的敌人造成 【相当于最终攻击力66.56%的伤害】"
+    },
+    {
+      "name": "伯恩．天启",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 【相当于最终攻击力99.84%的伤害】 【烧伤：造成相当于最终攻击力7.48%的持续伤害】 【间隔1秒】【持续10秒】 ■自身 【最大装弹数3发 ▲】【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "伯恩．天启",
+  "weapon": "旧世界的末日",
+  "element": "燃烧",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/nihilister",
+    "https://www.gamekee.com/nikke/587422.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 587422,
+  "gamekee_entry_id": 118390,
+  "prydwen_slug": "nihilister",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/587422 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "brid",
+  "name": "布丽德",
+  "name_zh": "布丽德",
+  "name_en": "Brid",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "加速",
+      "type": "passive",
+      "summary": "■进行30次普通攻击时，自身 【攻击力10.94% ▲】【持续10秒】"
+    },
+    {
+      "name": "泄露",
+      "type": "active",
+      "summary": "■对防御力最高的1名敌人造成 相当于【最终攻击力124.8%的伤害】"
+    },
+    {
+      "name": "AZX",
+      "type": "burst",
+      "summary": "■对防御力最高的1名敌人造成 【最终攻击力792%的爆裂技能伤害】 ■自身体力为最大值时，对同一敌人造成 【最终攻击力792%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "AZX",
+  "weapon": "/",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/brid",
+    "https://www.gamekee.com/nikke/163874.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163874,
+  "gamekee_entry_id": 110020,
+  "prydwen_slug": "brid",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/163874 图鉴"
+}

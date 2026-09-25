@@ -1,0 +1,51 @@
+{
+  "id": "luo_qi_xi",
+  "name": "洛琪希",
+  "name_zh": "洛琪希",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "豪雷积层云",
+      "type": "active",
+      "costume": "受尊敬的师傅",
+      "summary": "对敌人造成相当于自身魔法力400%的魔法伤害。若敌人为主要目标，则改为造成相当于自身魔法力600%的魔法伤害。"
+    },
+    {
+      "name": "寂静的夜晚",
+      "type": "active",
+      "costume": "泄露的欲望",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身魔法力70%的魔法伤害。2回合内，对敌人应用沉默效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "洛琪希的魔杖",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "受尊敬的师傅",
+      "type": "联动",
+      "skill": "豪雷积层云"
+    },
+    {
+      "name": "泄露的欲望",
+      "type": "联动",
+      "skill": "寂静的夜晚"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/622875.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 622875,
+  "gamekee_entry_id": 150306,
+  "verified": "GameKee zsca2/622875 图鉴"
+}

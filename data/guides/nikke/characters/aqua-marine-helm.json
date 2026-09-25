@@ -1,0 +1,46 @@
+{
+  "id": "aqua-marine-helm",
+  "name": "海伦：海蓝宝石",
+  "name_zh": "海伦：海蓝宝石",
+  "name_en": "Helm: Aquamarine",
+  "aliases": [],
+  "nicknames": [
+    "水海伦"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "与赞美号同行",
+      "type": "passive",
+      "summary": "■普通攻击命中30次后，对目标造成 【最终攻击力 38.76%的额外伤害】 ■全爆裂时间开始时，全体队友 【不同起始次数不同效果】 【低阶效果重复生效】： 1次：【爆裂技能冷却时间1.82秒▼】 2次：【爆裂技能冷却时间2.2秒▼】 3次：【爆裂技能冷却时间2.6秒▼】"
+    },
+    {
+      "name": "宙斯盾加农炮牵制射击",
+      "type": "active",
+      "summary": "■对随机1名敌人造成相当于 【最终攻击力 62.38%的伤害】 ■若目标为电击代码，则使相同的目标敌人 【所受伤害3.33% ▲】【叠加5次】 【持续5秒】"
+    },
+    {
+      "name": "宙斯盾加农炮过载",
+      "type": "burst",
+      "summary": "■对全体敌人造成相当于 【攻击力97.39%的伤害】 ■若目标为电击代码，则对相同的目标敌人造成相当于 【最终攻击力 97.39%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "宙斯盾加农炮过载",
+  "weapon": "战舰",
+  "element": "铁甲",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
+    "https://www.gamekee.com/nikke/597433.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 597433,
+  "gamekee_entry_id": 124560,
+  "prydwen_slug": "aqua-marine-helm",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/597433 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "soldier-fa",
+  "name": "士兵F.A.",
+  "name_zh": "士兵F.A.",
+  "name_en": "Soldier FA",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "鹰翼",
+      "type": "passive",
+      "summary": "■被攻击时，以10%的概率自身 【防御力0.9%▲】【持续10秒】"
+    },
+    {
+      "name": "鹰巢",
+      "type": "active",
+      "summary": "■自身 【恢复相当于攻击伤害2.01%的体力】【持续8秒】"
+    },
+    {
+      "name": "猎鹰推进器",
+      "type": "burst",
+      "summary": "■自身 【最大体力11.25%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "猎鹰推进器",
+  "weapon": "霰弹枪",
+  "element": "铁甲",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/soldier-fa",
+    "https://www.gamekee.com/nikke/152355.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152355,
+  "gamekee_entry_id": 102032,
+  "prydwen_slug": "soldier-fa",
+  "rarity": "R",
+  "verified": "GameKee nikke/152355 图鉴"
+}

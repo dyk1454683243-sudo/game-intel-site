@@ -1,0 +1,47 @@
+{
+  "id": "dorothy",
+  "name": "桃乐丝",
+  "name_zh": "桃乐丝",
+  "name_en": "Dorothy",
+  "aliases": [],
+  "nicknames": [
+    "doro",
+    "桃子"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "圣火",
+      "type": "passive",
+      "summary": "■最后的子弹攻击时，全体队友 【爆裂技能冷却时间0.97秒 ▼】 ■最后的子弹攻击时，若自身处于显现状态，则全体队友【零件伤害31.68%▲] 【持续5秒】"
+    },
+    {
+      "name": "洗礼",
+      "type": "active",
+      "summary": "■对全体敌人造成 【焦土化:最终攻击力 135%的分摊伤害】"
+    },
+    {
+      "name": "失乐园",
+      "type": "burst",
+      "summary": "■自身 【显现：2号技能冷却时间 18 ▼】 【持续10秒】 【穿透特化】【持续10秒】 ■对指定的1名目标造成【烙印： 持续期间内，记录指定敌人累计受到的伤害。 持续时间结束时，对全体敌人造成等同於累计纪录的分摊伤害。伤害最大累计量相当於施展者最终攻击力的5563.01%】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "忘恩负义的奥兹",
+  "element": "水冷",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/dorothy",
+    "https://www.gamekee.com/nikke/589849.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 589849,
+  "gamekee_entry_id": 120207,
+  "prydwen_slug": "dorothy",
+  "rarity": "SSR",
+  "burst": "失乐园",
+  "verified": "GameKee nikke/589849 图鉴"
+}

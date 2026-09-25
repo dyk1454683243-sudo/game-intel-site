@@ -1,0 +1,59 @@
+{
+  "id": "an_de_lu",
+  "name": "安德鲁",
+  "name_zh": "安德鲁",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "窃取生命",
+      "type": "active",
+      "costume": "忠直管家",
+      "summary": "恢复自身相当于自身最大生命力12%的生命力。每次攻击命中敌人时，敌人的SP减少5点。攻击敌人2次，每次攻击时，造成相当于自身攻击力275%的物理伤害。"
+    },
+    {
+      "name": "你在看哪里？",
+      "type": "active",
+      "costume": "专家",
+      "summary": "2回合内，自身有65%的概率闪避敌人的攻击。每次成功闪避攻击时，成功闪避后续攻击的概率将减少5%。2回合内，对自己应用挑衅效果。"
+    },
+    {
+      "name": "那就暂且收下了",
+      "type": "talent",
+      "summary": "有100%的概率偷窃目标的持有物。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "邪灵服",
+  "talent": {
+    "name": "那就暂且收下了",
+    "summary": "有100%的概率偷窃目标的持有物。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "忠直管家",
+      "type": null,
+      "skill": "窃取生命"
+    },
+    {
+      "name": "专家",
+      "type": null,
+      "skill": "你在看哪里？"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593635.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593635,
+  "gamekee_entry_id": 122335,
+  "verified": "GameKee zsca2/593635 图鉴"
+}

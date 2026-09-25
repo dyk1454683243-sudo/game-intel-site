@@ -1,0 +1,59 @@
+{
+  "id": "ao_er_shi_ta_yin",
+  "name": "奥尔施塔因",
+  "name_zh": "奥尔施塔因",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "沉默之怒",
+      "type": "active",
+      "costume": "魔物学家",
+      "summary": "每次攻击命中敌人时，友军的SP恢复6点，敌人的SP减少6点。对敌人造成相当于自身魔法力150%的魔法伤害。4回合内，对敌人应用沉默效果。"
+    },
+    {
+      "name": "云龙到来",
+      "type": "active",
+      "costume": "青云道士",
+      "summary": "攻击敌人7次，每次攻击时，造成相当于自身魔法力25%的魔法伤害。解除应用于敌人的能力值强化效果。4回合内，敌人攻击力减少70%。若敌人为魔法类型，则改为在4回合内，魔法力减少70%。"
+    },
+    {
+      "name": "猫咪报恩",
+      "type": "talent",
+      "summary": "可派遣老鼠统治者拉什、奶酪守护者卡什、麻雀追捕者莫什叼回很有用的道具。派遣将于上午8点（北京时间）结束。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "真理眼镜",
+  "talent": {
+    "name": "猫咪报恩",
+    "summary": "可派遣老鼠统治者拉什、奶酪守护者卡什、麻雀追捕者莫什叼回很有用的道具。派遣将于上午8点（北京时间）结束。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "魔物学家",
+      "type": "辅助",
+      "skill": "沉默之怒"
+    },
+    {
+      "name": "青云道士",
+      "type": "辅助",
+      "skill": "云龙到来"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593587.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593587,
+  "gamekee_entry_id": 122348,
+  "verified": "GameKee zsca2/593587 图鉴"
+}

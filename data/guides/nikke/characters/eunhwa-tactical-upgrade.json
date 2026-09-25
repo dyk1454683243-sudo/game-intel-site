@@ -1,0 +1,44 @@
+{
+  "id": "eunhwa-tactical-upgrade",
+  "name": "银华：战术升级",
+  "name_zh": "银华：战术升级",
+  "name_en": "Eunhwa: Tactical Upgrade",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "伪装围巾",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【伪装：从单体攻击目标中排除，直接被攻击时解除】【持续5秒】 ■全蓄力攻击时，若处于全爆裂时间，自身 【伪装：从单体攻击目标中排除，直接被攻击时解除】【持续5秒】 ■处于伪装状态时，自身 【普通攻击变为无视防御力伤害】【持续】 【无视防御力伤害24.96%▲】【持续】"
+    },
+    {
+      "name": "阵型AS",
+      "type": "passive",
+      "summary": "■自身处于生存状态时， 【阵型AS】： 功能：对目标下达有利于战斗的战术效果。 效果1：同一部队的全体队友【暴击率4.82%▲】【持续】 效果2：全体队友【蓄力伤害24.71%▲】【持续】 效果3：自身【攻击力24.96%▲】【持续】 【对自身发动阵型LT效果时，套用额外效果】 效果1：全体队友【发射体爆炸伤害3.02%▲】【持续】 效果2：全体队友【无视防御力伤害18.3%▲】【持续】"
+    },
+    {
+      "name": "内爆弹",
+      "type": "burst",
+      "summary": "■自身 【变更使用武器】： 蓄力时间：0.3秒 伤害：相当于最终攻击力62.4%的无视防御力伤害 全蓄力伤害：300%伤害 最大装弹数：1发 特殊事项：发射爆裂弹，进行大范围攻击。 额外效果 目标：命中对象 效果：【内爆弹：所受伤害16.47%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "内爆弹",
+  "weapon": "完美主义者T",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/eunhwa-tactical-upgrade",
+    "https://www.gamekee.com/nikke/674108.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 674108,
+  "gamekee_entry_id": 193220,
+  "prydwen_slug": "eunhwa-tactical-upgrade",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/674108 图鉴"
+}

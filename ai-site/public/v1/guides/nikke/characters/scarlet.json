@@ -1,0 +1,46 @@
+{
+  "id": "scarlet",
+  "name": "红莲",
+  "name_zh": "红莲",
+  "name_en": "Scarlet",
+  "aliases": [
+    "红莲"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "割肉断骨",
+      "type": "passive",
+      "summary": "■普通攻击命中10次时，自身 【攻击力17.48% ▲】 【叠加5次】【持续5秒】 【当前体力4.01% ▼】"
+    },
+    {
+      "name": "人剑合一",
+      "type": "passive",
+      "summary": "■被攻击时，以30%的机率对目标造成 【相当于最终攻击力 86.39%的额外伤害】 ■自身体力为60%以下时，自身 【暴击伤害4.13%▲】【持续】"
+    },
+    {
+      "name": "红莲一闪",
+      "type": "burst",
+      "summary": "■自身体力为50%以下时，自身 【暴击率12.23%▲】【持续10秒】 ■对全体敌人造成 【最终攻击力530.71%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "花无十日红",
+  "element": "电击",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/scarlet",
+    "https://www.gamekee.com/nikke/152335.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152335,
+  "gamekee_entry_id": 102016,
+  "prydwen_slug": "scarlet",
+  "rarity": "SSR",
+  "burst": "红莲一闪",
+  "verified": "GameKee nikke/152335 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "signal",
+  "name": "西格娜",
+  "name_zh": "西格娜",
+  "name_en": "Signal",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "攻击讯号",
+      "type": "passive",
+      "summary": "■普通攻击命中60次时，目标 【防御力2.97%▼】【持续5秒】 【攻击力2.97%▼】【持续5秒】"
+    },
+    {
+      "name": "等待讯号",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【恢复相当于攻击伤害的22.04%】【持续10秒】"
+    },
+    {
+      "name": "紧急讯号",
+      "type": "burst",
+      "summary": "■对攻击范围的敌人造成 【相当于攻击力114.61%的伤害】 【防御力6.17%▼】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "紧急讯号",
+  "weapon": "戏剧性",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/signal",
+    "https://www.gamekee.com/nikke/152331.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152331,
+  "gamekee_entry_id": 102007,
+  "prydwen_slug": "signal",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152331 图鉴"
+}

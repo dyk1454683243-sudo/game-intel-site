@@ -1,0 +1,75 @@
+{
+  "id": "zhan_shou_qi_shi",
+  "name": "斩首骑士",
+  "name_zh": "斩首骑士",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T1.5 / 收割 / 减AP / 无头骑士",
+  "skills": [
+    {
+      "name": "断头台",
+      "type": "active",
+      "summary": "造成近战攻击力60%的斩击伤害。"
+    },
+    {
+      "name": "禁止反抗",
+      "type": "passive",
+      "summary": "自身回合期间，近战攻击力提升30%，并格挡来自正面的攻击。"
+    },
+    {
+      "name": "收割",
+      "type": "active",
+      "summary": "在扇形范围内，对敌人造成近战攻击力60%的斩击伤害。"
+    },
+    {
+      "name": "碎盾击",
+      "type": "passive",
+      "summary": "攻击时，对目标造成其当前生命值的12%的额外斩击伤害。此伤害不会超过自身近战攻击力的180%。"
+    },
+    {
+      "name": "斩首",
+      "type": "active",
+      "summary": "在扇形范围内，对敌人造成近战攻击力240%的斩击伤害。"
+    },
+    {
+      "name": "收割者",
+      "type": "passive",
+      "summary": "每当敌人被击杀时，以55%的机率减少「收割」技能和「斩首」技能的冷却时间1R，移动力提升。"
+    },
+    {
+      "name": "撕裂",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [
+    "核心技能是斩首，其他技能也都需要点一下。",
+    "断头台: 不加",
+    "禁止反抗: 6级即可",
+    "收割: 6级即可",
+    "碎盾击: 6级即可",
+    "斩首: 尽量点满",
+    "收割者: 6级即可"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "织布机",
+    "pieces": 4,
+    "notes": [
+      "2件: 近战攻击力",
+      "4件: 造成弱点攻击时物理伤害强化",
+      "均等堆双暴即可，攻击力收益不高。选择织布机套可以配合格里泽尔达打群体背刺。"
+    ]
+  },
+  "weapon": "败者之首",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/639348.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 639348,
+  "gamekee_entry_id": 168451,
+  "verified": "GameKee hw/639348 图鉴"
+}

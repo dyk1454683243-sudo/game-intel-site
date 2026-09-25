@@ -1,0 +1,46 @@
+{
+  "id": "liberalio",
+  "name": "莉贝雷利奥",
+  "name_zh": "莉贝雷利奥",
+  "name_en": "Liberalio",
+  "aliases": [],
+  "nicknames": [
+    "水母"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "幽寂的深渊",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【攻击力94.54%▲】【持续3秒】 ■全蓄力攻击命中核心时，自身 【攻击伤害12.31%▲】 【持续60秒】 ■全蓄力攻击命中时，对目标造成 【最终攻击力23.93%的额外伤害】【触发5次】 ■全爆裂时间开始时，最终攻击力最低且基本爆裂阶段为三的1名队友 【以施展者为基准的蓄力速度7.52%▲】【持续10秒】"
+    },
+    {
+      "name": "诡异的海流",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，若命中对象为指定目标，则自身 【激流：攻击伤害136.5%▲】【持续】 【解除缓流】 ■全蓄力攻击命中时，若命中对象不是指定目标的莱彻，则自身 【缓流：蓄力时间固定为1秒】【持续】 【解除激流】 ■战斗开始时，自身 【蓄力速度增加效果免疫】【持续】【无法解除】 【蓄力速度减少效果免疫】【持续】【无法解除】"
+    },
+    {
+      "name": "沉没的世界",
+      "type": "burst",
+      "summary": "■自身 【攻击伤害29.54%▲】【持续10秒】 ■对全体敌人造成 【最终攻击力546.59%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "沉没的世界",
+  "weapon": "宁静的海平面",
+  "element": "风压",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/liberalio",
+    "https://www.gamekee.com/nikke/682429.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 682429,
+  "gamekee_entry_id": 197547,
+  "prydwen_slug": "liberalio",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/682429 图鉴"
+}

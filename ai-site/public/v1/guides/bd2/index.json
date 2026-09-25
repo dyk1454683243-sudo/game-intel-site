@@ -1,0 +1,795 @@
+{
+  "game": "bd2",
+  "name": "Brown Dust 2",
+  "name_zh": "棕色尘埃2",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "character_count": 87,
+  "rich_count": 87,
+  "stub_count": 0,
+  "characters": [
+    {
+      "id": "a_li_nei_si",
+      "name": "阿里内斯",
+      "name_zh": "阿里内斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593578.html"
+      ]
+    },
+    {
+      "id": "achila",
+      "name": "阿奇拉",
+      "name_zh": "阿奇拉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/718485.html"
+      ]
+    },
+    {
+      "id": "ai_li_jie",
+      "name": "爱丽洁",
+      "name_zh": "爱丽洁",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593626.html"
+      ]
+    },
+    {
+      "id": "ai_li_si",
+      "name": "艾莉丝",
+      "name_zh": "艾莉丝",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/624137.html"
+      ]
+    },
+    {
+      "id": "ai_ma",
+      "name": "艾玛",
+      "name_zh": "艾玛",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593580.html"
+      ]
+    },
+    {
+      "id": "ai_ni_er",
+      "name": "艾尼尔",
+      "name_zh": "艾尼尔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593632.html"
+      ]
+    },
+    {
+      "id": "ai_rui_ke",
+      "name": "艾瑞克",
+      "name_zh": "艾瑞克",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593614.html"
+      ]
+    },
+    {
+      "id": "an_de_lu",
+      "name": "安德鲁",
+      "name_zh": "安德鲁",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593635.html"
+      ]
+    },
+    {
+      "id": "an_jie_li_ka",
+      "name": "安洁莉卡",
+      "name_zh": "安洁莉卡",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/597740.html"
+      ]
+    },
+    {
+      "id": "an_na_ta_xi_ya",
+      "name": "安娜塔西亚",
+      "name_zh": "安娜塔西亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593623.html"
+      ]
+    },
+    {
+      "id": "ao_er_shi_ta_yin",
+      "name": "奥尔施塔因",
+      "name_zh": "奥尔施塔因",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593587.html"
+      ]
+    },
+    {
+      "id": "ban_ta_na",
+      "name": "班塔纳",
+      "name_zh": "班塔纳",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/602076.html"
+      ]
+    },
+    {
+      "id": "bei_na_ka",
+      "name": "贝那卡",
+      "name_zh": "贝那卡",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/625113.html"
+      ]
+    },
+    {
+      "id": "bi_a_te_li_si",
+      "name": "比阿特丽丝",
+      "name_zh": "比阿特丽丝",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593613.html"
+      ]
+    },
+    {
+      "id": "blade",
+      "name": "布莱德",
+      "name_zh": "布莱德",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/648133.html"
+      ]
+    },
+    {
+      "id": "celia",
+      "name": "西利亚",
+      "name_zh": "西利亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593569.html"
+      ]
+    },
+    {
+      "id": "da_fei",
+      "name": "达非",
+      "name_zh": "达非",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/607173.html"
+      ]
+    },
+    {
+      "id": "dalian",
+      "name": "达丽安",
+      "name_zh": "达丽安",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/678559.html"
+      ]
+    },
+    {
+      "id": "diana",
+      "name": "黛安娜",
+      "name_zh": "黛安娜",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/603227.html"
+      ]
+    },
+    {
+      "id": "e_er_bi_si",
+      "name": "厄尔比斯",
+      "name_zh": "厄尔比斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/619702.html"
+      ]
+    },
+    {
+      "id": "elf_archer",
+      "name": "妖精弓手",
+      "name_zh": "妖精弓手",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/660211.html"
+      ]
+    },
+    {
+      "id": "fu_lei_de",
+      "name": "弗雷德",
+      "name_zh": "弗雷德",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593194.html"
+      ]
+    },
+    {
+      "id": "ge_lei",
+      "name": "格雷",
+      "name_zh": "格雷",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593582.html"
+      ]
+    },
+    {
+      "id": "glansheit",
+      "name": "格兰希特",
+      "name_zh": "格兰希特",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/611786.html"
+      ]
+    },
+    {
+      "id": "goblin_slayer",
+      "name": "哥布林杀手",
+      "name_zh": "哥布林杀手",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/660204.html"
+      ]
+    },
+    {
+      "id": "granade",
+      "name": "葛拉娜德",
+      "name_zh": "葛拉娜德",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/689646.html"
+      ]
+    },
+    {
+      "id": "hai_lun_na",
+      "name": "海伦娜",
+      "name_zh": "海伦娜",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593630.html"
+      ]
+    },
+    {
+      "id": "hikage",
+      "name": "日影",
+      "name_zh": "日影",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/637920.html"
+      ]
+    },
+    {
+      "id": "holy_ustia",
+      "name": "神圣悠丝缇亚",
+      "name_zh": "神圣悠丝缇亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/626508.html"
+      ]
+    },
+    {
+      "id": "ikaros",
+      "name": "斑鸠",
+      "name_zh": "斑鸠",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/701014.html"
+      ]
+    },
+    {
+      "id": "izumo_tenka",
+      "name": "出云天花",
+      "name_zh": "出云天花",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/720262.html"
+      ]
+    },
+    {
+      "id": "jie_deng",
+      "name": "杰登",
+      "name_zh": "杰登",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593638.html"
+      ]
+    },
+    {
+      "id": "jie_ni_si",
+      "name": "杰尼斯",
+      "name_zh": "杰尼斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/603226.html"
+      ]
+    },
+    {
+      "id": "jun_te",
+      "name": "君特",
+      "name_zh": "君特",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593203.html"
+      ]
+    },
+    {
+      "id": "ka_sen",
+      "name": "卡森",
+      "name_zh": "卡森",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593599.html"
+      ]
+    },
+    {
+      "id": "ke_lai",
+      "name": "克莱",
+      "name_zh": "克莱",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593645.html"
+      ]
+    },
+    {
+      "id": "ke_lei_xi_ya",
+      "name": "克蕾西亚",
+      "name_zh": "克蕾西亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/600786.html"
+      ]
+    },
+    {
+      "id": "la_de_er",
+      "name": "拉德尔",
+      "name_zh": "拉德尔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593531.html"
+      ]
+    },
+    {
+      "id": "la_fei_na",
+      "name": "拉菲娜",
+      "name_zh": "拉菲娜",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593625.html"
+      ]
+    },
+    {
+      "id": "lai_ke_li_si",
+      "name": "莱克莉斯",
+      "name_zh": "莱克莉斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593624.html"
+      ]
+    },
+    {
+      "id": "lai_wei_ya",
+      "name": "莱维亚",
+      "name_zh": "莱维亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/629234.html"
+      ]
+    },
+    {
+      "id": "lei_la",
+      "name": "蕾拉",
+      "name_zh": "蕾拉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593657.html"
+      ]
+    },
+    {
+      "id": "lei_nan_te",
+      "name": "雷南特",
+      "name_zh": "雷南特",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593575.html"
+      ]
+    },
+    {
+      "id": "levita",
+      "name": "黎维塔",
+      "name_zh": "黎维塔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/646889.html"
+      ]
+    },
+    {
+      "id": "li_di_ya",
+      "name": "黎迪雅",
+      "name_zh": "黎迪雅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593595.html"
+      ]
+    },
+    {
+      "id": "li_xi_an",
+      "name": "莉西安",
+      "name_zh": "莉西安",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593667.html"
+      ]
+    },
+    {
+      "id": "li_ya_te_li_si",
+      "name": "莉亚特里斯",
+      "name_zh": "莉亚特里斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593608.html"
+      ]
+    },
+    {
+      "id": "li_zi_nei",
+      "name": "莉兹内",
+      "name_zh": "莉兹内",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593607.html"
+      ]
+    },
+    {
+      "id": "lu_ban_xi_ya",
+      "name": "卢班希亚",
+      "name_zh": "卢班希亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/640139.html"
+      ]
+    },
+    {
+      "id": "lu_ke_lei_qi_ya",
+      "name": "卢克雷齐亚",
+      "name_zh": "卢克雷齐亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593653.html"
+      ]
+    },
+    {
+      "id": "luo_an",
+      "name": "罗安",
+      "name_zh": "罗安",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/621763.html"
+      ]
+    },
+    {
+      "id": "luo_qi_xi",
+      "name": "洛琪希",
+      "name_zh": "洛琪希",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/622875.html"
+      ]
+    },
+    {
+      "id": "ma_li_ya",
+      "name": "玛丽亚",
+      "name_zh": "玛丽亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593572.html"
+      ]
+    },
+    {
+      "id": "mammonile",
+      "name": "马莫尼勒",
+      "name_zh": "马莫尼勒",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/698749.html"
+      ]
+    },
+    {
+      "id": "micaela",
+      "name": "米卡艾拉",
+      "name_zh": "米卡艾拉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/633685.html"
+      ]
+    },
+    {
+      "id": "mo_fei_ya",
+      "name": "墨菲亚",
+      "name_zh": "墨菲亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/632282.html"
+      ]
+    },
+    {
+      "id": "na_luo_da_si",
+      "name": "纳罗达斯",
+      "name_zh": "纳罗达斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/607899.html"
+      ]
+    },
+    {
+      "id": "nei_bu_li_si",
+      "name": "内布利斯",
+      "name_zh": "内布利斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/625800.html"
+      ]
+    },
+    {
+      "id": "nevendaria",
+      "name": "内肯达莉亚",
+      "name_zh": "内肯达莉亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/707171.html"
+      ]
+    },
+    {
+      "id": "oliver",
+      "name": "奥利维耶",
+      "name_zh": "奥利维耶",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/670435.html"
+      ]
+    },
+    {
+      "id": "palette",
+      "name": "帕莱特",
+      "name_zh": "帕莱特",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/697006.html"
+      ]
+    },
+    {
+      "id": "priestess",
+      "name": "女神官",
+      "name_zh": "女神官",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/660218.html"
+      ]
+    },
+    {
+      "id": "rou",
+      "name": "鲁",
+      "name_zh": "鲁",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593586.html"
+      ]
+    },
+    {
+      "id": "rubia",
+      "name": "露比雅",
+      "name_zh": "露比雅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593601.html"
+      ]
+    },
+    {
+      "id": "rui_bi_tai_ya",
+      "name": "芮彼泰雅",
+      "name_zh": "芮彼泰雅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/620949.html"
+      ]
+    },
+    {
+      "id": "sai_er",
+      "name": "赛尔",
+      "name_zh": "赛尔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593621.html"
+      ]
+    },
+    {
+      "id": "sha_he_la_cha_de",
+      "name": "莎赫拉查德",
+      "name_zh": "莎赫拉查德",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593577.html"
+      ]
+    },
+    {
+      "id": "sha_mei",
+      "name": "莎美",
+      "name_zh": "莎美",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593648.html"
+      ]
+    },
+    {
+      "id": "sonia",
+      "name": "索尼娅",
+      "name_zh": "索尼娅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/676671.html"
+      ]
+    },
+    {
+      "id": "sword_maiden",
+      "name": "剑之圣女",
+      "name_zh": "剑之圣女",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/662553.html"
+      ]
+    },
+    {
+      "id": "sylvia",
+      "name": "席比雅",
+      "name_zh": "席比雅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593588.html"
+      ]
+    },
+    {
+      "id": "tai_rui_si",
+      "name": "泰瑞丝",
+      "name_zh": "泰瑞丝",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593606.html"
+      ]
+    },
+    {
+      "id": "tir",
+      "name": "提尔",
+      "name_zh": "提尔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/678097.html"
+      ]
+    },
+    {
+      "id": "utage",
+      "name": "咏",
+      "name_zh": "咏",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/637919.html"
+      ]
+    },
+    {
+      "id": "uzen_kyoka",
+      "name": "羽前京香",
+      "name_zh": "羽前京香",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/720274.html"
+      ]
+    },
+    {
+      "id": "wei_er_ni",
+      "name": "维尔尼",
+      "name_zh": "维尔尼",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593659.html"
+      ]
+    },
+    {
+      "id": "wei_ge",
+      "name": "威格",
+      "name_zh": "威格",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593602.html"
+      ]
+    },
+    {
+      "id": "wei_lian_ming_na",
+      "name": "威廉明娜",
+      "name_zh": "威廉明娜",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/655252.html"
+      ]
+    },
+    {
+      "id": "xin_xi_ya",
+      "name": "辛西亚",
+      "name_zh": "辛西亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593593.html"
+      ]
+    },
+    {
+      "id": "yamashiro_ren",
+      "name": "山城恋",
+      "name_zh": "山城恋",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/721512.html"
+      ]
+    },
+    {
+      "id": "yi_ke_li_pu_si",
+      "name": "伊柯利普斯",
+      "name_zh": "伊柯利普斯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593603.html"
+      ]
+    },
+    {
+      "id": "ying_ge_li_de",
+      "name": "英格利得",
+      "name_zh": "英格利得",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593592.html"
+      ]
+    },
+    {
+      "id": "you_li",
+      "name": "尤里",
+      "name_zh": "尤里",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/606610.html"
+      ]
+    },
+    {
+      "id": "you_si_ti_ya",
+      "name": "悠丝缇亚",
+      "name_zh": "悠丝缇亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593571.html"
+      ]
+    },
+    {
+      "id": "yozakura",
+      "name": "夜樱",
+      "name_zh": "夜樱",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/637922.html"
+      ]
+    },
+    {
+      "id": "yukiizumi",
+      "name": "雪泉",
+      "name_zh": "雪泉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/638795.html"
+      ]
+    },
+    {
+      "id": "zhu_li",
+      "name": "茱莉",
+      "name_zh": "茱莉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/zsca2/593604.html"
+      ]
+    }
+  ]
+}

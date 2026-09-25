@@ -1,0 +1,5411 @@
+#!/usr/bin/env node
+/**
+ * Game Intel MCP — short JSON tools for watchlist + multi-source intel.
+ * Never returns raw HTML.
+ */
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "zod";
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+
+import {
+  shanghaiYmd,
+  EN_MONTH_MAP,
+  EN_MONTH_ALT,
+  toYmd,
+  parseDatesFromText,
+  applyRelativeDayPhrases,
+  classifyEventType,
+  stripDatesForNote,
+  buildEventNote,
+  TYPED_EVENT_RANK,
+  eventNeedsDateEnrichment,
+  bumpEventConfidence,
+  shanghaiTodayYmd,
+  shanghaiTomorrowYmd,
+} from "./calendar-parse.js";
+
+import {
+  resolveAlias as resolveHwAlias,
+  guideHw as guideHwCard,
+  loadDopamine,
+  listCharacterIds,
+} from "./hw-guides.js";
+import { guide as guideAny, listGuides } from "./guides.js";
+import {
+  cachedGuide,
+  warmGuideCache,
+  guideCacheStats,
+} from "./guide-cache.js";
+import { askIntel } from "./ask.js";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR =
+  process.env.GAME_INTEL_DATA || path.resolve(__dirname, "../data");
+const WATCHLIST_PATH = path.join(DATA_DIR, "watchlist.json");
+const SOURCES_PATH = path.join(DATA_DIR, "sources.json");
+const BLOCKLIST_PATH = path.join(DATA_DIR, "blocklist.json");
+const CACHE_DIR = path.join(DATA_DIR, "cache");
+const CACHE_DISABLED = process.env.GAME_INTEL_CACHE === "0";
+const CACHE_TTL_SEC = (() => {
+  const n = Number(process.env.GAME_INTEL_CACHE_TTL_SEC);
+  return Number.isFinite(n) && n > 0 ? Math.trunc(n) : 2700;
+})();
+const DIGEST_SEEN_PATH = path.join(DATA_DIR, "digest-seen.json");
+const DIGEST_SEEN_CAP = 80;
+/** GAME_INTEL_DIFF=0 disables writing digest snapshots (read-only diff still works). */
+const DIFF_WRITE_DISABLED = process.env.GAME_INTEL_DIFF === "0";
+
+const GK_ORIGIN = "https://www.gamekee.com";
+const TAPTAP_ORIGIN = "https://www.taptap.cn";
+const TAPTAP_PROBE = TAPTAP_ORIGIN + "/";
+const INVEN_ORIGIN = "https://www.inven.co.kr";
+const STEAM_STORE = "https://store.steampowered.com";
+const STEAM_NEWS_API =
+  "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/";
+const BAHAMUT_GNN_RSS = "https://gnn.gamer.com.tw/rss.xml";
+const BAHAMUT_SEARCH_JINA =
+  "https://r.jina.ai/https://search.gamer.com.tw/";
+/** Known 哈啦板 BSN for watchlist games (board list B.php?bsn=). */
+const BAHAMUT_BSN = {
+  nikke: 36390,
+  hw: 81419,
+  bd2: 76207,
+  star: 79865,
+  asora: 85952,
+};
+/** Prefer these query strings for Bahamut CSE / digest. */
+const BAHAMUT_QUERY_PREF = {
+  nikke: "NIKKE",
+  hw: "地平线行者",
+  bd2: "Brown Dust 2",
+  star: "蓝色星原",
+  asora: "阿索拉",
+};
+const PRYDWEN_ORIGIN = "https://www.prydwen.gg";
+const NIKKEGG_FEED = "https://nikke.gg/feed/";
+const BD2_API_ORIGIN = "https://webapi.browndust2.com/api";
+const BD2_SITE_ORIGIN = "https://www.browndust2.com";
+/** Map short locale → BD2 notices API locale. */
+const BD2_LOCALE_MAP = {
+  en: "en-us",
+  "en-us": "en-us",
+  kr: "ko-kr",
+  ko: "ko-kr",
+  "ko-kr": "ko-kr",
+  jp: "ja-jp",
+  ja: "ja-jp",
+  "ja-jp": "ja-jp",
+  tw: "zh-tw",
+  "zh-tw": "zh-tw",
+  cn: "zh-cn",
+  "zh-cn": "zh-cn",
+};
+/** Prefer these BD2 notice categories in digest official slot. */
+const BD2_DIGEST_CAT_PREF = new Set([
+  "notice",
+  "inspection",
+  "event",
+  "update",
+  "issue",
+]);
+
+/** Required by TapTap webapiv2 (VN_CODE); fragile if TapTap changes X-UA schema. */
+const TAPTAP_XUA =
+  "V=1&PN=WebApp&LANG=zh_CN&VN_CODE=100000000&LOC=CN&PLT=PC&DS=Android&OS=Windows&OSV=10&DT=PC";
+
+const UA =
+  "Mozilla/5.0 (compatible; game-intel-mcp/0.3.19; +local) AppleWebKit/537.36";
+
+const DEFAULT_WATCHLIST = {
+  hw: {
+    name: "Horizon Walker",
+    name_zh: "地平线行者",
+    gamekee_alias: "hw",
+    keywords: ["Horizon Walker", "地平线行者"],
+    steam_appid: 3279780,
+  },
+  nikke: {
+    name: "Nikke",
+    name_zh: "胜利女神：NIKKE",
+    gamekee_alias: "nikke",
+    keywords: ["NIKKE", "胜利女神"],
+    official_url: "https://nikke-en.com/news.html",
+  },
+  bd2: {
+    name: "Brown Dust 2",
+    name_zh: "棕色尘埃2",
+    gamekee_alias: "zsca2",
+    keywords: ["Brown Dust 2", "棕色尘埃2"],
+    official_url: "https://www.browndust2.com/en-us/news",
+    official_api: "bd2_notices",
+  },
+  star: {
+    name: "Azure Star Origin",
+    name_zh: "蓝色星原：旅谣",
+    gamekee_alias: null,
+    keywords: [
+      "蓝色星原",
+      "蓝色星原：旅谣",
+      "旅谣",
+      "Azur Promilia",
+      "蓝色星原旅谣",
+      "奇波",
+    ],
+    official_url: "https://azurpromilia.com/news",
+    official_site: "https://azurpromilia.manjuu.com/en/",
+    official_api: "star_official",
+  },
+  miraesi: {
+    name: "Invisible Future",
+    name_zh: "미래시",
+    gamekee_alias: null,
+    keywords: [
+      "미래시",
+      "Invisible Future",
+      "MIRESI",
+      "CONTROL9",
+      "미래시: 보이지 않는 미래",
+    ],
+    official_url: "https://newsroom.smilegate.com/bbs/board.php?bo_table=eng",
+    official_api: "smilegate_newsroom",
+    official_site: "https://miresi.onstove.com/en",
+  },
+  lo2: {
+    name: "Last Origin 2",
+    name_zh: "Last Origin 2",
+    gamekee_alias: null,
+    keywords: [
+      "Last Origin 2",
+      "라스트오리진2",
+      "VALOFE",
+      "라스트 오리진2",
+      "Last Origin II",
+    ],
+    official_url: "https://www.valofe.com/",
+    official_api: "lo2_official",
+  },
+  asora: {
+    name: "Astrae Oratio",
+    name_zh: "阿索拉：星之祈愿",
+    gamekee_alias: null,
+    keywords: [
+      "阿索拉",
+      "Astrae Oratio",
+      "아스트라에",
+      "오라티오",
+      "Dynamis One",
+      "Project AT",
+      "星之祈愿",
+      "星之祈願",
+      "AstraeOratio",
+      "NCSOFT",
+    ],
+    official_url: "https://astraeoratio.plaync.com/zh-tw/index",
+    official_site: "https://astraeoratio.plaync.com/zh-tw/index",
+    official_api: "asora_official",
+  },
+};
+
+const DEFAULT_SOURCES = {
+  gamekee: { enabled: true, type: "api", note: "primary CN wiki/news" },
+  taptap: {
+    enabled: true,
+    type: "api",
+    note: "app-search + community; needs X-UA VN_CODE",
+  },
+  inven: {
+    enabled: true,
+    type: "html",
+    note: "www.inven.co.kr/search/webzine/article/{q}",
+  },
+  steam: {
+    enabled: true,
+    type: "api+html",
+    note: "ISteamNews + store suggest/search",
+  },
+  bahamut: {
+    enabled: true,
+    type: "jina+html+rss",
+    note: "Jina search.gamer type=2 GNN + 哈啦板 BSN scrape + gnn rss.xml token match",
+  },
+  prydwen: {
+    enabled: true,
+    type: "html",
+    note: "prydwen.gg/nikke (+ banners) character/banner/guide links",
+  },
+  nikkegg: {
+    enabled: true,
+    type: "rss",
+    note: "nikke.gg/feed/ EN news companion for NIKKE",
+  },
+  official: {
+    enabled: true,
+    type: "api+html+jina+steam",
+    note: "bd2 notices API; miraesi Smilegate newsroom (+seed); star Azur Promilia (star_official+seed); lo2 VALOFE press (lo2_official+seed); asora NC/plaync (asora_official+seed); nikke official_url via Jina; steam_appid news; digest bucket official",
+  },
+};
+
+const RADAR_KEYWORDS = ["公测", "预约", "CBT", "新作", "launch"];
+const INVEN_PREF_GAMES = new Set(["miraesi", "lo2"]);
+
+const DEFAULT_BLOCKLIST = {
+  title_substrings: [
+    "加速器",
+    "OurPlay",
+    "UU加速",
+    "迅游",
+    "奇游",
+    "VPN",
+    "梯子",
+    "代练",
+    "氪金号",
+    "初始号",
+    "卖号",
+    "上号器",
+    "下载器",
+    "破解",
+    "修改器",
+    "内购破解",
+    "【模型】",
+    "模型情報",
+    "手办",
+    "黏土人",
+    "figma",
+    "ZOZOTOWN",
+    "联名服饰",
+    "聯名服飾",
+    "周边贩售",
+    "週邊販售",
+    "一番赏",
+    "一番賞",
+  ],
+  title_exact: ["游戏下载"],
+  url_substrings: ["/ad/", "affiliate", "加速"],
+  evergreen_exact: ["公主连结", "原神", "崩坏", "鸣潮", "明日方舟"],
+  max_age_days: 60,
+};
+
+/** Merch/peripheral title_substrings: drop unless version/event signal present. */
+const MERCH_TITLE_SUBS = new Set([
+  "【模型】",
+  "模型情報",
+  "手办",
+  "黏土人",
+  "figma",
+  "ZOZOTOWN",
+  "联名服饰",
+  "聯名服飾",
+  "周边贩售",
+  "週邊販售",
+  "一番赏",
+  "一番賞",
+]);
+const MERCH_TITLE_RE =
+  /【模型】|模型情報|手办|黏土人|figma|ZOZOTOWN|联名服饰|聯名服飾|周边贩售|週邊販售|一番赏|一番賞/i;
+const VERSION_EVENT_RE =
+  /(版本|更新|上线|活動|活动|聯動|联动|卡池|banner|pickup)/i;
+const PRYDWEN_HUB_TITLES = new Set([
+  "banners",
+  "tier list",
+  "characters",
+  "guides",
+]);
+const PRYDWEN_HUB_PATHS = new Set([
+  "/nikke/banners",
+  "/nikke/tier-list",
+  "/nikke/characters",
+  "/nikke/guides",
+]);
+const DIGEST_SOURCE_PRIORITY = {
+  bahamut: 100,
+  official: 95,
+  nikkegg: 90,
+  gamekee: 80,
+  inven: 70,
+  prydwen: 60,
+  taptap: 50,
+  steam: 40,
+};
+
+/** Prefer these title signals when ranking radar hits. */
+const RADAR_PREFER_RE =
+  /新作|公测定档|不删档|计费删档|CBT招募|预约突破|上线|开服|测试定档/i;
+const RADAR_NEWS_RE = /新作|二周目|续作/i;
+const GK_TITLE_SIGNAL_RE = /公测|预约|测试|定档|新作/;
+const GK_NEWS_KEEP_RE =
+  /公告|更新|维护|維護|版本|活动|活動|卡池|pickup|招募|补丁|補丁|已知问题|征集|访谈|訪談|Statement|Patch|Maintenance|Event/i;
+const GK_QA_START_RE =
+  /^(请问|請問|問|求|帮忙|幫|有没有|有沒有|怎么|怎麼|为何|為何)/;
+const GK_QA_DEBT_RE = /还债|還債/;
+/** GameKee water-post / Q&A title noise (no news signal). */
+const GK_QA_BODY_RE =
+  /mod疑问|mod問題|疑问|疑問|求助|求大佬|不生效|怎么弄|怎麼弄|目录不是|目錄不是/;
+const GK_MOD_SHORT_RE = /^mod\b/i;
+
+function ensureData() {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  if (!fs.existsSync(WATCHLIST_PATH)) {
+    fs.writeFileSync(
+      WATCHLIST_PATH,
+      JSON.stringify(DEFAULT_WATCHLIST, null, 2) + "\n"
+    );
+  }
+  if (!fs.existsSync(SOURCES_PATH)) {
+    fs.writeFileSync(
+      SOURCES_PATH,
+      JSON.stringify(DEFAULT_SOURCES, null, 2) + "\n"
+    );
+  }
+  if (!fs.existsSync(BLOCKLIST_PATH)) {
+    fs.writeFileSync(
+      BLOCKLIST_PATH,
+      JSON.stringify(DEFAULT_BLOCKLIST, null, 2) + "\n"
+    );
+  }
+}
+
+function readJson(p, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
+function writeJson(p, obj) {
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  fs.writeFileSync(p, JSON.stringify(obj, null, 2) + "\n");
+}
+
+function cacheEnabled() {
+  return !CACHE_DISABLED;
+}
+
+function stableCachePayload(fn, args) {
+  // Stable key: fn + sorted-ish plain args object (callers pass fixed key order).
+  return JSON.stringify({ fn, args });
+}
+
+function cacheKey(fn, args) {
+  return crypto
+    .createHash("sha1")
+    .update(stableCachePayload(fn, args))
+    .digest("hex");
+}
+
+function cacheGet(key) {
+  if (!cacheEnabled()) return undefined;
+  try {
+    const p = path.join(CACHE_DIR, `${key}.json`);
+    if (!fs.existsSync(p)) return undefined;
+    const obj = JSON.parse(fs.readFileSync(p, "utf8"));
+    if (
+      !obj ||
+      typeof obj !== "object" ||
+      !("saved_at" in obj) ||
+      !("value" in obj)
+    ) {
+      return undefined;
+    }
+    const ageSec = (Date.now() - Number(obj.saved_at)) / 1000;
+    if (!Number.isFinite(ageSec) || ageSec < 0 || ageSec > CACHE_TTL_SEC) {
+      return undefined;
+    }
+    return obj.value;
+  } catch {
+    return undefined;
+  }
+}
+
+function cacheSet(key, value) {
+  if (!cacheEnabled()) return;
+  try {
+    fs.mkdirSync(CACHE_DIR, { recursive: true });
+    fs.writeFileSync(
+      path.join(CACHE_DIR, `${key}.json`),
+      JSON.stringify({ saved_at: Date.now(), value })
+    );
+  } catch {
+    /* ignore corrupt/unwritable */
+  }
+}
+
+async function withCache(fn, args, runner) {
+  const key = cacheKey(fn, args);
+  const hit = cacheGet(key);
+  if (hit !== undefined) return hit;
+  const value = await runner();
+  cacheSet(key, value);
+  return value;
+}
+
+
+function readBlocklist() {
+  ensureData();
+  const bl = readJson(BLOCKLIST_PATH, null);
+  if (!bl || typeof bl !== "object") return { ...DEFAULT_BLOCKLIST };
+  const maxAgeRaw = Number(bl.max_age_days);
+  return {
+    title_substrings: Array.isArray(bl.title_substrings)
+      ? bl.title_substrings
+      : DEFAULT_BLOCKLIST.title_substrings,
+    title_exact: Array.isArray(bl.title_exact)
+      ? bl.title_exact
+      : DEFAULT_BLOCKLIST.title_exact,
+    url_substrings: Array.isArray(bl.url_substrings)
+      ? bl.url_substrings
+      : DEFAULT_BLOCKLIST.url_substrings,
+    evergreen_exact: Array.isArray(bl.evergreen_exact)
+      ? bl.evergreen_exact
+      : DEFAULT_BLOCKLIST.evergreen_exact,
+    max_age_days:
+      Number.isFinite(maxAgeRaw) && maxAgeRaw > 0
+        ? Math.trunc(maxAgeRaw)
+        : DEFAULT_BLOCKLIST.max_age_days,
+  };
+}
+
+function normTitle(s) {
+  return String(s ?? "").trim();
+}
+
+function includesCI(hay, needle) {
+  return String(hay || "")
+    .toLowerCase()
+    .includes(String(needle || "").toLowerCase());
+}
+
+function itemAgeDays(item) {
+  const raw = item?.date || item?.updated;
+  if (raw == null || raw === "") return null;
+  const d = new Date(raw);
+  if (Number.isNaN(d.getTime())) return null;
+  const ms = Date.now() - d.getTime();
+  if (ms < 0) return 0;
+  return ms / 86400000;
+}
+
+function isPrydwenHubItem(item) {
+  const title = normTitle(item?.title)
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+  const bare = title.replace(/^nikke\s+/, "").trim();
+  if (PRYDWEN_HUB_TITLES.has(title) || PRYDWEN_HUB_TITLES.has(bare)) {
+    return true;
+  }
+  let pathname = "";
+  try {
+    const u = new URL(String(item?.url || ""), PRYDWEN_ORIGIN);
+    pathname = u.pathname || "";
+  } catch {
+    pathname = String(item?.url || "");
+  }
+  const norm = pathname.replace(/\/+$/, "") || "/";
+  if (PRYDWEN_HUB_PATHS.has(norm)) return true;
+  // Relative / absolute path ending at hub slug (no deeper segment)
+  if (/\/nikke\/(banners|tier-list|characters|guides)\/?$/i.test(norm)) {
+    return true;
+  }
+  return false;
+}
+
+/**
+ * Cross-game keyword gate: true if title/url hits entry keywords/name/id.
+ * Special cases avoid BD1 / bare Last Origin / unrelated fuzzy Steam hits.
+ */
+function hitsGameKeywords(text, entry, entryId = null) {
+  const hay = String(text || "").toLowerCase();
+  const id = String(entryId || entry?.id || "")
+    .toLowerCase()
+    .trim();
+
+  if (id === "bd2") {
+    // Require BD2 — NOT bare "brown dust" / "棕色尘埃" (BD1)
+    return /brown\s*dust\s*2|brown\s*dust\s*ii|browndust2|棕色尘埃\s*2|棕色尘埃2/.test(
+      hay
+    );
+  }
+  if (id === "lo2") {
+    // Require LO2 — NOT bare "last origin"
+    return /last\s*origin\s*2|라스트오리진\s*2|라스트오리진2/.test(hay);
+  }
+  if (id === "miraesi") {
+    if (/미래시|invisible\s*future|miresi|control9/.test(hay)) return true;
+  }
+  if (id === "nikke") {
+    if (/妮姬|nikke/.test(hay)) return true;
+  }
+
+  const aliases = [];
+  const pushAlias = (s) => {
+    const v = String(s || "")
+      .trim()
+      .toLowerCase();
+    if (v.length >= 2) aliases.push(v);
+  };
+  pushAlias(id);
+  pushAlias(entry?.name);
+  pushAlias(entry?.name_zh);
+  pushAlias(entry?.gamekee_alias);
+  for (const k of Array.isArray(entry?.keywords) ? entry.keywords : []) {
+    pushAlias(k);
+  }
+  for (const a of aliases) {
+    if (hay.includes(a)) return true;
+  }
+  return false;
+}
+
+function bahamutItemOnPinnedBoard(item, entryId) {
+  const expected = BAHAMUT_BSN[String(entryId || "").toLowerCase()];
+  if (expected == null) return false;
+  const m = String(item?.url || "").match(/[?&]bsn=(\d+)/i);
+  return !!(m && Number(m[1]) === Number(expected));
+}
+
+function passesDigestGameGate(item, entry, entryId) {
+  const src = String(item?.source || "").toLowerCase();
+  const blob = `${item?.title || ""}\n${item?.url || ""}`;
+  if (src === "bahamut") {
+    // Pinned-board threads are on-game even without the name in the title
+    if (bahamutItemOnPinnedBoard(item, entryId)) return true;
+    return hitsGameKeywords(blob, entry, entryId);
+  }
+  if (src === "steam" || src === "taptap" || src === "inven") {
+    return hitsGameKeywords(blob, entry, entryId);
+  }
+  return true;
+}
+
+function isBareTapTapAppShell(item) {
+  const title = normTitle(item?.title);
+  const why = String(item?.why || "");
+  if (!/^taptap:/i.test(why)) return false;
+  // Has real launch/test signal in the title itself → keep
+  if (/公测|测试|預約|预约|CBT|上线|定档|新作|二周目|续作|beta|launch/i.test(title)) {
+    return false;
+  }
+  // Exact short name-only app shells (e.g. 公元) or bare app name with only why-tag
+  if (/^[\u4e00-\u9fff]{1,4}$/.test(title)) return true;
+  if (title.length <= 16) return true;
+  return false;
+}
+
+/**
+ * Shared ad/noise filter for radar (+ digest merge).
+ * item: { title, url, why?, source?, date?, updated? }
+ */
+function isNoise(item) {
+  const bl = readBlocklist();
+  const title = normTitle(item?.title);
+  const url = String(item?.url || "");
+  const why = String(item?.why || "");
+  const titleLower = title.toLowerCase();
+
+  // Very short titles (≤4) are usually water / nav crumbs
+  if (!title || title.length <= 4) return true;
+
+  for (const sub of bl.title_substrings) {
+    if (!sub || !includesCI(title, sub)) continue;
+    // Merch/peripheral: keep if title also has version/event signal
+    if (MERCH_TITLE_SUBS.has(sub) && VERSION_EVENT_RE.test(title)) continue;
+    return true;
+  }
+  // Extra merch pass (covers titles matching merch RE even if blocklist stale)
+  if (MERCH_TITLE_RE.test(title) && !VERSION_EVENT_RE.test(title)) {
+    return true;
+  }
+  // "游戏下载" exact or as whole title (also listed in title_exact)
+  if (title === "游戏下载" || titleLower === "游戏下载".toLowerCase()) {
+    return true;
+  }
+  for (const exact of bl.title_exact) {
+    if (exact && titleLower === String(exact).toLowerCase()) return true;
+  }
+  for (const sub of bl.url_substrings) {
+    if (sub && includesCI(url, sub)) return true;
+  }
+
+  // Bare Prydwen hub pages (not character/news slugs)
+  if (isPrydwenHubItem(item)) return true;
+
+  // Soft age filter: dated items older than max_age_days are noise
+  const age = itemAgeDays(item);
+  const maxAge = bl.max_age_days ?? DEFAULT_BLOCKLIST.max_age_days;
+  if (age != null && age > maxAge) return true;
+
+  // Evergreen live-ops: hard-block bare game-name titles from generic
+  // taptap:公测|预约 hits (v1). Also block exact evergreen titles unless
+  // the title itself signals 新作/二周目/续作.
+  const isEvergreenExact = bl.evergreen_exact.some(
+    (n) => n && titleLower === String(n).toLowerCase()
+  );
+  if (isEvergreenExact) {
+    if (RADAR_NEWS_RE.test(title)) return false;
+    // why-only generic 公测/预约 (e.g. taptap:公测) with bare name
+    if (/^taptap:(公测|预约)$/i.test(why.trim())) return true;
+    // bare evergreen title is noise for radar/digest unless news signal
+    return true;
+  }
+
+  // GameKee player Q&A / water-post noise (keep strong news/ops titles)
+  const src = String(item?.source || "").toLowerCase();
+  if (src === "gamekee") {
+    if (!GK_NEWS_KEEP_RE.test(title)) {
+      if (GK_QA_START_RE.test(title)) return true;
+      if (GK_QA_DEBT_RE.test(title) && !/公告|更新/.test(title)) return true;
+      if (/[?？]$/.test(title) && /^(请问|請問|求)/.test(title)) return true;
+      // mod疑问 / short mod troubleshooting without news signal
+      if (/mod疑问|mod問題/i.test(title)) return true;
+      if (GK_MOD_SHORT_RE.test(title) && title.length <= 24) return true;
+      if (GK_QA_BODY_RE.test(title)) return true;
+    }
+  }
+
+  return false;
+}
+
+function radarScore(item) {
+  const title = normTitle(item?.title);
+  let score = 0;
+  if (RADAR_PREFER_RE.test(title)) score += 10;
+  if (RADAR_NEWS_RE.test(title)) score += 4;
+  if (/CBT|公测|预约|定档|开服|上线/i.test(title)) score += 3;
+  // Mild demotion for evergreen mentions that survived filter (news about them)
+  const bl = readBlocklist();
+  if (
+    bl.evergreen_exact.some(
+      (n) => n && title.toLowerCase().includes(String(n).toLowerCase())
+    )
+  ) {
+    score -= 2;
+  }
+  return score;
+}
+
+function passesGamekeeRadarTitle(it) {
+  const title = normTitle(it?.title);
+  const why = String(it?.why || "");
+  // Cap generic www 公测/预约 keyword hits: require title signal
+  if (/^gamekee:(公测|预约)$/i.test(why.trim())) {
+    return GK_TITLE_SIGNAL_RE.test(title);
+  }
+  return true;
+}
+
+function j(obj) {
+  return JSON.stringify(obj);
+}
+
+function textResult(obj) {
+  return { content: [{ type: "text", text: j(obj) }] };
+}
+
+function truncate(s, n = 48) {
+  const t = String(s ?? "");
+  return t.length <= n ? t : t.slice(0, n - 1) + "…";
+}
+
+function stripHtml(s) {
+  return String(s ?? "")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => {
+      const code = Number(n);
+      return Number.isFinite(code) ? String.fromCharCode(code) : "";
+    })
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => {
+      const code = parseInt(h, 16);
+      return Number.isFinite(code) ? String.fromCharCode(code) : "";
+    })
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function absGkUrl(u) {
+  if (!u) return "";
+  const s = String(u);
+  if (s.startsWith("//")) return "https:" + s;
+  if (s.startsWith("/")) return GK_ORIGIN + s;
+  return s;
+}
+
+function articleUrl(alias, id) {
+  const a = alias || "www";
+  return `${GK_ORIGIN}/${a}/${id}.html`;
+}
+
+function clampLimit(n, def, max) {
+  const v = Number(n);
+  if (!Number.isFinite(v)) return def;
+  return Math.min(Math.max(Math.trunc(v), 1), max);
+}
+
+function dedupeByUrl(items) {
+  const seen = new Set();
+  const out = [];
+  for (const it of items) {
+    const u = String(it?.url || "").trim();
+    if (!u || seen.has(u)) continue;
+    seen.add(u);
+    out.push(it);
+  }
+  return out;
+}
+
+function titleFingerprint(title) {
+  return String(title || "")
+    .toLowerCase()
+    .replace(/[《》【】\[\]()（）「」『』]/g, "")
+    .replace(/[\p{P}\p{S}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function sourcePriority(source) {
+  return DIGEST_SOURCE_PRIORITY[String(source || "").toLowerCase()] ?? 0;
+}
+
+function itemDateMs(item) {
+  const raw = item?.date || item?.updated;
+  if (raw == null || raw === "") return 0;
+  const t = new Date(raw).getTime();
+  return Number.isNaN(t) ? 0 : t;
+}
+
+/** URL dedupe, then title-fingerprint dedupe keeping higher-priority source. */
+function dedupeByUrlOrTitle(items) {
+  const urlDeduped = dedupeByUrl(items);
+  const seenFp = new Map();
+  const out = [];
+  for (const it of urlDeduped) {
+    const fp = titleFingerprint(it?.title);
+    if (fp.length >= 8) {
+      const existingIdx = seenFp.get(fp);
+      if (existingIdx != null) {
+        const prev = out[existingIdx];
+        if (sourcePriority(it?.source) > sourcePriority(prev?.source)) {
+          out[existingIdx] = it;
+        } else if (
+          sourcePriority(it?.source) === sourcePriority(prev?.source) &&
+          itemDateMs(it) > itemDateMs(prev)
+        ) {
+          out[existingIdx] = it;
+        }
+        continue;
+      }
+      seenFp.set(fp, out.length);
+    }
+    out.push(it);
+  }
+  return out;
+}
+
+function normalizeUrlFp(url) {
+  const s = String(url || "").trim();
+  if (!s) return "";
+  try {
+    const u = new URL(s);
+    u.hash = "";
+    let p = u.pathname || "/";
+    if (p.length > 1 && p.endsWith("/")) p = p.slice(0, -1);
+    return `${u.protocol}//${u.host.toLowerCase()}${p}${u.search}`;
+  } catch {
+    return s.replace(/#.*$/, "").toLowerCase();
+  }
+}
+
+/** Prefer normalized URL; else title fingerprint (same normalize as dedupe). */
+function itemFingerprint(item) {
+  const urlFp = normalizeUrlFp(item?.url);
+  if (urlFp) return urlFp;
+  return titleFingerprint(item?.title);
+}
+
+function readDigestSeen() {
+  ensureData();
+  const raw = readJson(DIGEST_SEEN_PATH, null);
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    return { updated_at: null, games: {} };
+  }
+  const games =
+    raw.games && typeof raw.games === "object" && !Array.isArray(raw.games)
+      ? raw.games
+      : {};
+  return { updated_at: raw.updated_at || null, games };
+}
+
+function getGameSeenFingerprints(store, gameId) {
+  const g = store?.games?.[gameId];
+  if (!g || typeof g !== "object") return [];
+  const fps = Array.isArray(g.fingerprints) ? g.fingerprints : [];
+  return fps.map((x) => String(x)).filter(Boolean);
+}
+
+/** Union current fps into game snapshot; FIFO cap DIGEST_SEEN_CAP. */
+function updateGameSeen(store, gameId, fingerprints) {
+  if (!store.games || typeof store.games !== "object") store.games = {};
+  const prev = getGameSeenFingerprints(store, gameId);
+  const seen = new Set(prev);
+  const next = [...prev];
+  for (const fp of fingerprints) {
+    const s = String(fp || "").trim();
+    if (!s || seen.has(s)) continue;
+    seen.add(s);
+    next.push(s);
+  }
+  while (next.length > DIGEST_SEEN_CAP) next.shift();
+  const now = new Date().toISOString();
+  store.games[gameId] = { fingerprints: next, updated_at: now };
+  store.updated_at = now;
+  return store;
+}
+
+function writeDigestSeen(store) {
+  if (DIFF_WRITE_DISABLED) return false;
+  writeJson(DIGEST_SEEN_PATH, {
+    updated_at: store.updated_at || new Date().toISOString(),
+    games: store.games || {},
+  });
+  return true;
+}
+
+/**
+ * Mark is_new / optionally filter; update snapshot with ALL current fps (union).
+ * @returns {{ items, new_count, seen_count, skipped_seen?, empty_diff? }}
+ */
+function applyDigestDiff(gameId, items, opts = {}) {
+  const onlyNew = !!(opts && opts.only_new);
+  const store = readDigestSeen();
+  const prevSet = new Set(getGameSeenFingerprints(store, gameId));
+  const annotated = (items || []).map((it) => {
+    const fp = itemFingerprint(it);
+    const is_new = !fp || !prevSet.has(fp);
+    return { ...it, is_new };
+  });
+  const new_count = annotated.filter((i) => i.is_new).length;
+  const seen_count = annotated.length - new_count;
+
+  // Snapshot gets ALL current item fingerprints (union), not only new
+  const fps = (items || []).map(itemFingerprint).filter(Boolean);
+  updateGameSeen(store, gameId, fps);
+  writeDigestSeen(store);
+
+  if (onlyNew) {
+    const filtered = annotated.filter((i) => i.is_new);
+    const empty_diff = filtered.length === 0 && annotated.length > 0;
+    return {
+      items: filtered,
+      new_count,
+      seen_count,
+      skipped_seen: seen_count,
+      ...(empty_diff ? { empty_diff: true } : {}),
+    };
+  }
+  return { items: annotated, new_count, seen_count };
+}
+
+function readWatchlist() {
+  ensureData();
+  const wl = readJson(WATCHLIST_PATH, null);
+  return wl && typeof wl === "object" ? wl : { ...DEFAULT_WATCHLIST };
+}
+
+function writeWatchlist(wl) {
+  writeJson(WATCHLIST_PATH, wl);
+}
+
+function resolveGameEntry(gameOrId) {
+  const wl = readWatchlist();
+  const key = String(gameOrId || "")
+    .toLowerCase()
+    .trim();
+  if (!key) return null;
+  if (wl[key]) return { id: key, ...wl[key] };
+  for (const [id, entry] of Object.entries(wl)) {
+    const names = [
+      id,
+      entry.name,
+      entry.name_zh,
+      entry.gamekee_alias,
+      ...(entry.keywords || []),
+    ]
+      .filter(Boolean)
+      .map((x) => String(x).toLowerCase());
+    if (names.includes(key)) return { id, ...entry };
+  }
+  return null;
+}
+
+function pickAlias(entry) {
+  if (entry?.gamekee_alias) return String(entry.gamekee_alias);
+  return "www";
+}
+
+function pickQuery(entry, fallback = "") {
+  if (fallback) return String(fallback).trim();
+  if (!entry) return "";
+  const kws = Array.isArray(entry.keywords) ? entry.keywords : [];
+  return String(kws[0] || entry.name_zh || entry.name || entry.id || "").trim();
+}
+
+async function fetchRaw(url, opts = {}) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), opts.timeoutMs ?? 15000);
+  try {
+    const res = await fetch(url, {
+      ...opts,
+      signal: ctrl.signal,
+      headers: {
+        "User-Agent": UA,
+        ...(opts.headers || {}),
+      },
+      redirect: "follow",
+    });
+    const bodyText = await res.text();
+    const ct = res.headers.get("content-type") || "";
+    return {
+      ok: res.ok,
+      status: res.status,
+      bodyText,
+      ct,
+      isHtml: /^\s*</.test(bodyText) || ct.includes("html"),
+    };
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+async function fetchJson(url, opts = {}) {
+  const raw = await fetchRaw(url, {
+    ...opts,
+    headers: {
+      Accept: "application/json",
+      ...(opts.headers || {}),
+    },
+  });
+  let body = null;
+  const trimmed = raw.bodyText.trim();
+  if (
+    raw.ct.includes("json") ||
+    trimmed.startsWith("{") ||
+    trimmed.startsWith("[")
+  ) {
+    try {
+      body = JSON.parse(raw.bodyText);
+    } catch {
+      body = null;
+    }
+  }
+  return {
+    ok: raw.ok,
+    status: raw.status,
+    body,
+    bodyText: raw.bodyText.slice(0, 200),
+    isHtml: raw.isHtml,
+  };
+}
+
+async function fetchText(url, opts = {}) {
+  const raw = await fetchRaw(url, {
+    ...opts,
+    headers: {
+      Accept: "text/html,application/xhtml+xml,*/*",
+      ...(opts.headers || {}),
+    },
+  });
+  return {
+    ok: raw.ok,
+    status: raw.status,
+    text: raw.bodyText,
+  };
+}
+
+function isoFromUnix(sec) {
+  if (!sec || !Number(sec)) return null;
+  try {
+    return new Date(Number(sec) * 1000).toISOString();
+  } catch {
+    return null;
+  }
+}
+
+function mapSearchItem(it, alias) {
+  const id = it.id;
+  const a = alias || it.game?.alias || "www";
+  return {
+    id,
+    title: truncate(it.title || "", 120),
+    url: articleUrl(a, id),
+    updated: isoFromUnix(it.updated_at || it.last_at || it.created_at),
+    source: "gamekee",
+  };
+}
+
+
+/** Common CN/EN misspellings → GameKee canonical HW names (searchArticle is literal). */
+const HW_SEARCH_NAME_MAP = {
+  加鲁德: "迦露德",
+  加魯德: "迦露德",
+  加鲁: "迦露德",
+  Garud: "迦露德",
+  Garuda: "迦露德",
+  garud: "迦露德",
+  garuda: "迦露德",
+  가루드: "迦露德",
+};
+
+function expandGamekeeQueries(alias, query) {
+  const q = String(query || "").trim();
+  if (!q) return [];
+  const out = [];
+  const push = (x) => {
+    const s = String(x || "").trim();
+    if (s && !out.includes(s)) out.push(s);
+  };
+  push(q);
+  if (HW_SEARCH_NAME_MAP[q]) push(HW_SEARCH_NAME_MAP[q]);
+  for (const [k, v] of Object.entries(HW_SEARCH_NAME_MAP)) {
+    if (k.toLowerCase() === q.toLowerCase()) push(v);
+  }
+  if (String(alias || "").toLowerCase() === "hw") {
+    try {
+      const hit = resolveHwAlias(DATA_DIR, q);
+      if (hit?.ok && hit.name) push(hit.name);
+    } catch {
+      /* ignore */
+    }
+  }
+  return out;
+}
+
+async function searchGamekeeEntries({ alias, query, limit = 5 }) {
+  const a = alias || "www";
+  const q = String(query || "").trim().toLowerCase();
+  if (!q) return [];
+  const lim = clampLimit(limit, 5, 10);
+  return withCache(
+    "searchGamekeeEntries",
+    { alias: a, query: q, limit: lim },
+    async () => {
+      const url = `${GK_ORIGIN}/v1/entry/list?page_no=1&limit=2000`;
+      const res = await fetchJson(url, { headers: { "game-alias": a } });
+      if (!res.body || res.body.code !== 0 || !Array.isArray(res.body.data)) {
+        return [];
+      }
+      const CHAR_FOLDER_BY_ALIAS = { hw: 163022 };
+      const folderPid = CHAR_FOLDER_BY_ALIAS[a] ?? null;
+      const hits = [];
+      for (const x of res.body.data) {
+        if (x?.is_del) continue;
+        if (folderPid != null && x.pid !== folderPid) continue;
+        const name = String(x.name || "").replace(/\ufeff/g, "").trim();
+        const nameAlias = String(x.name_alias || "").trim();
+        const blob = `${name} ${nameAlias}`.toLowerCase();
+        if (!blob.includes(q) && name.toLowerCase() !== q && nameAlias.toLowerCase() !== q) {
+          // also match if query is substring of canonical after map
+          continue;
+        }
+        const id = x.content_id;
+        if (!id) continue;
+        hits.push({
+          id,
+          title: name || String(id),
+          url: articleUrl(a, id),
+          updated: isoFromUnix(x.updated_at || x.last_at || x.created_at),
+          source: "gamekee",
+          kind: "entry",
+        });
+        if (hits.length >= lim) break;
+      }
+      return hits;
+    }
+  );
+}
+
+async function searchGamekee({ alias, query, limit = 5 }) {
+  const lim = clampLimit(limit, 5, 10);
+  const a = alias || "www";
+  const q = String(query || "").trim();
+  return withCache(
+    "searchGamekee",
+    { alias: a, query: q, limit: lim, v: 2 },
+    async () => {
+      const queries = q ? expandGamekeeQueries(a, q) : [""];
+      const seen = new Set();
+      const items = [];
+      let lastErr = null;
+
+      for (const qq of queries) {
+        const params = new URLSearchParams({
+          page_no: "1",
+          limit: String(lim),
+        });
+        let url;
+        if (qq) {
+          params.set("keyword", qq);
+          url = `${GK_ORIGIN}/v1/content/searchArticle?${params}`;
+        } else {
+          url = `${GK_ORIGIN}/v1/content/pageList?${params}`;
+        }
+        const res = await fetchJson(url, {
+          headers: { "game-alias": a },
+        });
+        if (!res.body || res.body.code !== 0 || !Array.isArray(res.body.data)) {
+          lastErr = truncate(
+            res.body?.msg || res.bodyText || `http_${res.status}`,
+            100
+          );
+          continue;
+        }
+        for (const it of res.body.data) {
+          const row = mapSearchItem(it, a);
+          const key = String(row.id || row.url || row.title);
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push(row);
+          if (items.length >= lim) break;
+        }
+        if (items.length >= lim) break;
+      }
+
+      // Entity/wiki pages (角色图鉴) often miss searchArticle index — fall back to entry list.
+      if (q && items.length < lim && a !== "www") {
+        for (const qq of queries) {
+          try {
+            const entries = await searchGamekeeEntries({
+              alias: a,
+              query: qq,
+              limit: lim,
+            });
+            for (const row of entries || []) {
+              const key = String(row.id || row.url || row.title);
+              if (seen.has(key)) continue;
+              seen.add(key);
+              items.push(row);
+              if (items.length >= lim) break;
+            }
+          } catch {
+            /* ignore entry fallback errors */
+          }
+          if (items.length >= lim) break;
+        }
+      }
+
+      if (!items.length && lastErr && !q) {
+        return {
+          ok: false,
+          error: lastErr,
+          alias: a,
+          query: q || null,
+        };
+      }
+      return {
+        ok: true,
+        alias: a,
+        query: q || null,
+        queries: q ? queries : undefined,
+        count: items.length,
+        items: items.slice(0, lim),
+      };
+    }
+  );
+}
+
+function parseArticleRef({ url, id, game }) {
+  let articleId = id != null && id !== "" ? Number(id) : null;
+  let alias = null;
+  if (url) {
+    const u = String(url).trim();
+    const m =
+      u.match(/gamekee\.com\/([^/]+)\/(?:article\/)?(\d+)/i) ||
+      u.match(/gamekee\.com\/content\/(\d+)/i);
+    if (m) {
+      if (m[2]) {
+        alias = m[1];
+        articleId = Number(m[2]);
+      } else {
+        articleId = Number(m[1]);
+      }
+    } else {
+      const m2 = u.match(/\/(\d+)(?:\.html)?(?:\?|#|$)/);
+      if (m2) articleId = Number(m2[1]);
+    }
+  }
+  if (!alias && game) {
+    const entry = resolveGameEntry(game);
+    alias = entry ? pickAlias(entry) : String(game).toLowerCase();
+  }
+  return { articleId, alias: alias || "www" };
+}
+
+async function getArticle({ url, id, game }) {
+  const { articleId, alias } = parseArticleRef({ url, id, game });
+  if (!articleId || !Number.isFinite(articleId)) {
+    return { ok: false, error: "need_url_or_id" };
+  }
+  const detailUrl = `${GK_ORIGIN}/v1/content/detail/${articleId}`;
+  const res = await fetchJson(detailUrl, {
+    headers: { "game-alias": alias },
+  });
+  if (!res.body || res.body.code !== 0 || !res.body.data) {
+    return {
+      ok: false,
+      error: truncate(
+        res.body?.msg || res.bodyText || `http_${res.status}`,
+        100
+      ),
+      id: articleId,
+    };
+  }
+  const d = res.body.data;
+  if (res.isHtml) {
+    return { ok: false, error: "html_blocked", id: articleId };
+  }
+  const resolvedAlias = d.game?.alias || alias || "www";
+  const summaryRaw =
+    d.summary || d.desc || (typeof d.content === "string" ? d.content : "");
+  const summary = truncate(stripHtml(summaryRaw), 800);
+  return {
+    ok: true,
+    id: d.id || articleId,
+    title: truncate(d.title || "", 160),
+    url: articleUrl(resolvedAlias, d.id || articleId),
+    summary,
+    updated: isoFromUnix(d.updated_at || d.last_at || d.created_at),
+    game: d.game
+      ? { id: d.game.id, name: d.game.name, alias: d.game.alias }
+      : null,
+  };
+}
+
+/* ---------------- TapTap ---------------- */
+
+async function taptapApi(apiPath, params = {}) {
+  const qs = new URLSearchParams({ ...params, "X-UA": TAPTAP_XUA });
+  const url = `${TAPTAP_ORIGIN}${apiPath}?${qs}`;
+  return fetchJson(url, {
+    headers: {
+      Accept: "application/json",
+      Referer: TAPTAP_ORIGIN + "/",
+    },
+    timeoutMs: 15000,
+  });
+}
+
+async function searchTaptap({ query, limit = 5 }) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "").trim();
+  if (!q) return { ok: false, error: "need_query", items: [] };
+  return withCache("searchTaptap", { query: q, limit: lim }, async () => {
+  const items = [];
+  let err = null;
+
+  try {
+    const appRes = await taptapApi("/webapiv2/app-search/v1/by-keyword", {
+      kw: q,
+    });
+    const list = appRes.body?.data?.list;
+    if (appRes.ok && Array.isArray(list)) {
+      for (const it of list) {
+        if (items.length >= lim) break;
+        const id = it?.id;
+        const title = truncate(it?.title || "", 120);
+        if (!id || !title) continue;
+        items.push({
+          title,
+          url: `${TAPTAP_ORIGIN}/app/${id}`,
+          source: "taptap",
+        });
+      }
+    } else if (!items.length) {
+      err = truncate(
+        appRes.body?.data?.msg ||
+          appRes.body?.msg ||
+          appRes.bodyText ||
+          `http_${appRes.status}`,
+        80
+      );
+    }
+  } catch (e) {
+    err = truncate(e.message, 80);
+  }
+
+  // Best-effort moments/community fill if under limit
+  if (items.length < lim) {
+    try {
+      const com = await taptapApi("/webapiv2/search/v2/community", { kw: q });
+      const list = com.body?.data?.list;
+      if (com.ok && Array.isArray(list)) {
+        for (const row of list) {
+          if (items.length >= lim) break;
+          if (row?.type && row.type !== "moment") continue;
+          const mom = row.moment || {};
+          const id = mom.id_str || mom.id;
+          const summary = stripHtml(row.search_content?.summary || "");
+          const appTitle = mom.app?.title || "";
+          const title = truncate(
+            summary || appTitle || `moment:${id || ""}`,
+            120
+          );
+          if (!id || !title) continue;
+          items.push({
+            title,
+            url: `${TAPTAP_ORIGIN}/moment/${id}`,
+            source: "taptap",
+          });
+        }
+      }
+    } catch {
+      /* ignore community failures */
+    }
+  }
+
+  // Prefer non-hub pages; keep hubs only if nothing else fills the limit
+  const ranked = dedupeByUrl(items).sort((a, b) => {
+    const ah = isPrydwenHubItem(a) ? 1 : 0;
+    const bh = isPrydwenHubItem(b) ? 1 : 0;
+    if (ah !== bh) return ah - bh;
+    return 0;
+  });
+  const nonHub = ranked.filter((it) => !isPrydwenHubItem(it));
+  const deduped = (nonHub.length ? nonHub : ranked).slice(0, lim);
+  return {
+    ok: deduped.length > 0,
+    query: q,
+    count: deduped.length,
+    items: deduped,
+    ...(deduped.length ? {} : { error: err || "no_results" }),
+  };
+  });
+}
+
+/* ---------------- Inven ---------------- */
+
+async function searchInven({ query, limit = 5 }) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "").trim();
+  if (!q) return { ok: false, error: "need_query", items: [] };
+  return withCache("searchInven", { query: q, limit: lim }, async () => {
+  // Fragile HTML selectors: board/{game}/{boardId}/{postId} anchors on search page
+  const url = `${INVEN_ORIGIN}/search/webzine/article/${encodeURIComponent(q)}`;
+  try {
+    const res = await fetchText(url, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        Accept: "text/html",
+      },
+      timeoutMs: 18000,
+    });
+    if (!res.ok) {
+      return {
+        ok: false,
+        error: `http_${res.status}`,
+        query: q,
+        items: [],
+      };
+    }
+    const html = res.text;
+    const items = [];
+    const seen = new Set();
+    const re =
+      /href="(https:\/\/www\.inven\.co\.kr\/board\/[^"/]+\/\d+\/\d+)"[^>]*>([\s\S]*?)<\/a>/gi;
+    let m;
+    while ((m = re.exec(html)) && items.length < lim) {
+      const href = m[1];
+      if (seen.has(href)) continue;
+      const title = truncate(stripHtml(m[2]), 120);
+      if (!title || title.length < 4) continue;
+      seen.add(href);
+      items.push({ title, url: href, source: "inven" });
+    }
+    return {
+      ok: items.length > 0,
+      query: q,
+      count: items.length,
+      items,
+      ...(items.length ? {} : { error: "no_results_or_selectors" }),
+    };
+  } catch (e) {
+    return {
+      ok: false,
+      error: truncate(e.message, 80),
+      query: q,
+      items: [],
+    };
+  }
+  });
+}
+
+/* ---------------- Steam ---------------- */
+
+function parseSteamSuggest(html) {
+  const out = [];
+  const re =
+    /data-ds-appid="(\d+)"[^>]*href="([^"]+)"[\s\S]*?<div class="match_name">([^<]+)<\/div>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    out.push({
+      appid: m[1],
+      url: m[2].split("?")[0],
+      title: truncate(stripHtml(m[3]), 120),
+    });
+  }
+  return out;
+}
+
+function parseSteamStoreSearch(html) {
+  const out = [];
+  const re =
+    /data-ds-appid="(\d+)"[^>]*>[\s\S]*?class="title">([^<]+)</gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const appid = m[1];
+    out.push({
+      appid,
+      title: truncate(stripHtml(m[2]), 120),
+      url: `${STEAM_STORE}/app/${appid}/`,
+    });
+  }
+  return out;
+}
+
+async function resolveSteamApps(query, limit = 3) {
+  const q = String(query || "").trim();
+  if (!q) return [];
+  // suggest endpoint (fragile class=match_name)
+  try {
+    const sugUrl =
+      `${STEAM_STORE}/search/suggest?` +
+      new URLSearchParams({
+        term: q,
+        f: "games",
+        cc: "US",
+        l: "english",
+      });
+    const sug = await fetchText(sugUrl, { timeoutMs: 12000 });
+    if (sug.ok && sug.text) {
+      const parsed = parseSteamSuggest(sug.text);
+      if (parsed.length) return parsed.slice(0, limit);
+    }
+  } catch {
+    /* fall through */
+  }
+  try {
+    const storeUrl =
+      `${STEAM_STORE}/search/?` +
+      new URLSearchParams({ term: q, category1: "998" });
+    const page = await fetchText(storeUrl, { timeoutMs: 15000 });
+    if (page.ok && page.text) {
+      return parseSteamStoreSearch(page.text).slice(0, limit);
+    }
+  } catch {
+    /* ignore */
+  }
+  return [];
+}
+
+async function steamNewsForApp(appid, limit = 5) {
+  const lim = clampLimit(limit, 5, 8);
+  const url =
+    `${STEAM_NEWS_API}?` +
+    new URLSearchParams({
+      appid: String(appid),
+      count: String(lim),
+      maxlength: "0",
+    });
+  const res = await fetchJson(url, { timeoutMs: 12000 });
+  const newsitems = res.body?.appnews?.newsitems;
+  if (!res.ok || !Array.isArray(newsitems)) {
+    return {
+      ok: false,
+      error: truncate(res.bodyText || `http_${res.status}`, 80),
+      items: [],
+    };
+  }
+  const items = newsitems.slice(0, lim).map((n) => {
+    // Keep Steam/Akamai announcement URLs as-is (they 302 to community deep links).
+    // Only fall back to the app news list page when url is missing.
+    const rawUrl = n.url != null ? String(n.url).trim() : "";
+    const url = rawUrl || `${STEAM_STORE}/news/app/${appid}/`;
+    return {
+      title: truncate(n.title || "", 120),
+      url,
+      date: n.date ? isoFromUnix(n.date) : null,
+      source: "steam",
+    };
+  });
+  return { ok: items.length > 0, items };
+}
+
+async function searchSteam({ query, appid, limit = 5 }) {
+  const lim = clampLimit(limit, 5, 8);
+  const aid =
+    appid != null && String(appid).trim() !== ""
+      ? String(appid).trim()
+      : null;
+  const q = String(query || "").trim();
+  if (!aid && !q) return { ok: false, error: "need_query_or_appid", items: [] };
+  return withCache(
+    "searchSteam",
+    { query: q || null, appid: aid, limit: lim },
+    async () => {
+      if (aid) {
+        const news = await steamNewsForApp(aid, lim);
+        return {
+          ok: news.ok,
+          appid: aid,
+          query: q || null,
+          count: news.items.length,
+          items: news.items,
+          ...(news.ok ? {} : { error: news.error || "no_news" }),
+        };
+      }
+
+      const apps = await resolveSteamApps(q, 3);
+      if (!apps.length) {
+        return {
+          ok: false,
+          error: "no_steam_match",
+          query: q,
+          items: [],
+        };
+      }
+
+      // Prefer news from first match; pad with other store hits
+      const items = [];
+      const primary = apps[0];
+      const news = await steamNewsForApp(primary.appid, lim);
+      for (const it of news.items) {
+        if (items.length >= lim) break;
+        items.push(it);
+      }
+      for (const a of apps) {
+        if (items.length >= lim) break;
+        items.push({
+          title: a.title,
+          url: a.url,
+          date: null,
+          source: "steam",
+        });
+      }
+      const deduped = dedupeByUrl(items).slice(0, lim);
+      return {
+        ok: deduped.length > 0,
+        query: q,
+        appid: primary.appid,
+        count: deduped.length,
+        items: deduped,
+      };
+    }
+  );
+}
+
+/* ---------------- Radar ---------------- */
+
+function radarHitTitle(title) {
+  const t = String(title || "");
+  for (const kw of RADAR_KEYWORDS) {
+    if (t.toLowerCase().includes(kw.toLowerCase())) return kw;
+  }
+  return null;
+}
+
+async function radar({ q } = {}) {
+  const extra = String(q || "").trim();
+  const keywords = extra
+    ? [extra, ...RADAR_KEYWORDS.filter((k) => k !== extra)].slice(0, 4)
+    : ["公测", "预约", "CBT", "新作"];
+  const collected = [];
+
+  // TapTap: one community search on primary kw + app search
+  const tapKw = keywords[0];
+  try {
+    const tap = await searchTaptap({ query: tapKw, limit: 6 });
+    for (const it of tap.items || []) {
+      const row = {
+        ...it,
+        why: `taptap:${tapKw}`,
+      };
+      // Prefer titles that actually carry a radar keyword; drop bare app shells
+      const titleHasKw =
+        !!radarHitTitle(row.title) || includesCI(row.title, tapKw);
+      if (!titleHasKw) continue;
+      if (isBareTapTapAppShell(row)) continue;
+      if (isNoise(row)) continue;
+      collected.push(row);
+    }
+  } catch {
+    /* ignore */
+  }
+
+  // Inven: Korean/English launch-ish
+  const invenQ = extra || "CBT";
+  try {
+    const inv = await searchInven({ query: invenQ, limit: 5 });
+    for (const it of inv.items || []) {
+      const row = {
+        ...it,
+        why: `inven:${invenQ}`,
+      };
+      const titleHasKw =
+        !!radarHitTitle(row.title) || includesCI(row.title, invenQ);
+      if (!titleHasKw) continue;
+      if (isNoise(row)) continue;
+      collected.push(row);
+    }
+  } catch {
+    /* ignore */
+  }
+
+  // GameKee www keyword sweeps
+  for (const kw of keywords.slice(0, 3)) {
+    try {
+      const gk = await searchGamekee({ alias: "www", query: kw, limit: 4 });
+      for (const it of gk.items || []) {
+        const hit = radarHitTitle(it.title) || kw;
+        collected.push({
+          title: it.title,
+          url: it.url,
+          source: "gamekee",
+          updated: it.updated || null,
+          why: `gamekee:${hit}`,
+        });
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+
+  const filtered = dedupeByUrlOrTitle(collected)
+    .filter((it) => !isNoise(it))
+    .filter((it) => passesGamekeeRadarTitle(it))
+    .map((it) => ({
+      title: truncate(it.title, 120),
+      url: it.url,
+      source: it.source,
+      why: truncate(it.why || "radar", 40),
+      _score: radarScore(it),
+    }))
+    .sort((a, b) => b._score - a._score || String(a.title).localeCompare(String(b.title)))
+    .slice(0, 15)
+    .map(({ _score, ...rest }) => rest);
+
+  return {
+    ok: filtered.length > 0,
+    count: filtered.length,
+    keywords,
+    items: filtered,
+  };
+}
+
+
+/* ---------------- Bahamut GNN (RSS) ---------------- */
+
+function rssField(block, tag) {
+  const cdata = new RegExp(
+    "<" + tag + "[^>]*>\\s*<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>\\s*</" + tag + ">",
+    "i"
+  );
+  const plain = new RegExp(
+    "<" + tag + "[^>]*>([\\s\\S]*?)</" + tag + ">",
+    "i"
+  );
+  let m = cdata.exec(block);
+  if (m) return String(m[1] || "").trim();
+  m = plain.exec(block);
+  if (m) return String(m[1] || "").trim();
+  return "";
+}
+
+function parseRssItems(xml) {
+  const out = [];
+  const re = /<item>([\s\S]*?)<\/item>/gi;
+  let m;
+  while ((m = re.exec(String(xml || "")))) {
+    const block = m[1];
+    const title = stripHtml(rssField(block, "title"));
+    const link = stripHtml(rssField(block, "link"));
+    const dateRaw = stripHtml(rssField(block, "pubDate"));
+    const description = rssField(block, "description");
+    if (!title || !link) continue;
+    let date = null;
+    if (dateRaw) {
+      const d = new Date(dateRaw);
+      if (!Number.isNaN(d.getTime())) date = d.toISOString();
+    }
+    out.push({
+      title: truncate(title, 120),
+      url: link,
+      date,
+      description: stripHtml(description).slice(0, 400),
+    });
+  }
+  return out;
+}
+
+function tokenizeBahamutQuery(query) {
+  return String(query || "")
+    .split(/[\s/|、，,]+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 2);
+}
+
+function bahamutQueryMatches(haystack, query) {
+  const hay = String(haystack || "").toLowerCase();
+  const tokens = tokenizeBahamutQuery(query);
+  if (!tokens.length) {
+    const q = String(query || "").trim().toLowerCase();
+    return q.length >= 2 && hay.includes(q);
+  }
+  return tokens.some((t) => hay.includes(t.toLowerCase()));
+}
+
+function resolveBahamutBsn(game, bsn) {
+  if (bsn != null && Number.isFinite(Number(bsn))) return Number(bsn);
+  const key = String(game || "")
+    .toLowerCase()
+    .trim();
+  if (key && BAHAMUT_BSN[key] != null) return BAHAMUT_BSN[key];
+  return null;
+}
+
+function bahamutPreferredQuery(game, query) {
+  const key = String(game || "")
+    .toLowerCase()
+    .trim();
+  if (key && BAHAMUT_QUERY_PREF[key]) return BAHAMUT_QUERY_PREF[key];
+  return String(query || "").trim();
+}
+
+function normalizeBahamutUrl(u) {
+  try {
+    const url = new URL(String(u).trim());
+    if (/gnn\.gamer\.com\.tw$/i.test(url.hostname) && /detail\.php$/i.test(url.pathname)) {
+      const sn = url.searchParams.get("sn");
+      if (sn) return `https://gnn.gamer.com.tw/detail.php?sn=${sn}`;
+    }
+    if (/forum\.gamer\.com\.tw$/i.test(url.hostname) && /C\.php$/i.test(url.pathname)) {
+      const bsn = url.searchParams.get("bsn");
+      const snA = url.searchParams.get("snA");
+      if (bsn && snA) return `https://forum.gamer.com.tw/C.php?bsn=${bsn}&snA=${snA}`;
+    }
+  } catch {
+    /* ignore */
+  }
+  return String(u || "").trim();
+}
+
+function isWeakBahamutTitle(title, url) {
+  const t = String(title || "").trim();
+  if (!t || t.length < 8) return true;
+  if (/^(detail|B\.php|C\.php|gnn\.gamer|forum\.gamer|GNN\s*#)/i.test(t)) return true;
+  if (/巴哈姆特電玩資訊站/.test(t) && t.length < 40) return true;
+  if (/gnn\.gamer\.com\.tw|forum\.gamer\.com\.tw/i.test(t)) return true;
+  if (/^【獲取方式】|^image\.\s*SSR|\bgamer\.com\.tw\b/i.test(t)) return true;
+  // Jina snippets often lack a proper 《headline》 for GNN detail pages
+  if (/detail\.php/i.test(url || "") && !/《[^》]{2,}》/.test(t)) return true;
+  if (/detail\.php/i.test(url || "") && /^(GNN|新聞|detail)$/i.test(t)) return true;
+  return false;
+}
+
+function cleanGnnPageTitle(raw) {
+  let t = stripHtml(raw || "");
+  t = t
+    .replace(/\s*[-\u2013|\uff5c]\s*\u5df4\u54c8\u59c6\u7279\s*$/u, "")
+    .replace(/\s*[-\u2013|\uff5c]\s*GNN.*$/u, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  // Drop trailing EN duplicate book-title if a ZH 《...》 already exists
+  if ((t.match(/\u300a/g) || []).length >= 2) {
+    t = t.replace(/\u300a[^\u300b]{0,60}\u300b\s*$/u, "").trim();
+  }
+  return truncate(t, 120);
+}
+
+function parseJinaGnnDate(snippet) {
+  const m = String(snippet || "").match(
+    /(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/
+  );
+  if (!m) return null;
+  const d = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+  return Number.isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+function titleFromJinaSnippet(snippet) {
+  let s = String(snippet || "")
+    .replace(/\*\*/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  s = s.replace(/^20\d{2}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日\s*(?:\.\.\.|…|\*{0,2}\.{3}\*{0,2})?\s*/u, "");
+  s = s.replace(/^\.\.\.\s*/, "").replace(/^…\s*/, "");
+  // Prefer bracketed intel-style titles
+  const tagged = s.match(/【[^】]{1,40}】[^【]{0,80}/);
+  if (tagged) return truncate(tagged[0].trim(), 120);
+  const book = s.match(/《[^》]+》[^《.]{0,60}/);
+  if (book) return truncate(book[0].trim(), 120);
+  if (s.length >= 12) return truncate(s, 120);
+  return "";
+}
+
+/** Parse Jina markdown of Bahamut Google-CSE results for GNN + forum links. */
+function parseJinaBahamutSearch(md) {
+  const text = String(md || "");
+  const gnn = [];
+  const forum = [];
+  const seen = new Set();
+
+  const re =
+    /https:\/\/(?:gnn\.gamer\.com\.tw\/detail\.php\?sn=\d+|forum\.gamer\.com\.tw\/C\.php\?bsn=\d+&snA=\d+)/gi;
+  let m;
+  while ((m = re.exec(text))) {
+    const url = normalizeBahamutUrl(m[0]);
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+    const after = text.slice(m.index, Math.min(text.length, m.index + 700));
+    const date = parseJinaGnnDate(after);
+    let title = titleFromJinaSnippet(after);
+    // Drop breadcrumb-only chunks
+    if (/\u5df4\u54c8\u59c6\u7279/.test(title) && /(detail|\u54c8\u5566)/.test(title)) title = "";
+    if (!title) {
+      const snip = after.match(
+        /20\d{2}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日[\s\S]{0,220}/
+      );
+      if (snip) title = titleFromJinaSnippet(snip[0]);
+    }
+    if (!title) {
+      title = /detail\.php/i.test(url)
+        ? `GNN #${(url.match(/sn=(\d+)/) || [])[1] || "?"}`
+        : `Forum thread`;
+    }
+    const item = {
+      title: truncate(title, 120),
+      url,
+      date,
+      source: "bahamut",
+    };
+    if (/detail\.php/i.test(url)) gnn.push(item);
+    else forum.push(item);
+  }
+  return { gnn, forum };
+}
+
+function isBahamutIntelTitle(title) {
+  const t = String(title || "");
+  // Drop forum-meta stickies / board rules
+  if (/發文前請先閱讀|輕鬆不放縱|閱讀板規|板務公告|板規必讀/.test(t)) return false;
+  if (/【\s*公告\s*】/.test(t) && /(置頂|板規|請先閱讀|輕鬆不放縱|發文前)/.test(t)) {
+    return false;
+  }
+  // Tagged intel only — avoid bare 活動 matching 線下活動 in 【閒聊】/【問題】
+  if (/【\s*(情報|公告|活動|更新)\s*】/.test(t)) return true;
+  if (/情報/.test(t)) return true;
+  return false;
+}
+
+async function scrapeBahamutBoard(bsn, limit = 8) {
+  const lim = clampLimit(limit, 8, 20);
+  const url = `https://forum.gamer.com.tw/B.php?bsn=${bsn}`;
+  const res = await fetchText(url, { timeoutMs: 15000 });
+  if (!res.ok) return { ok: false, status: res.status, items: [] };
+  const html = res.text || "";
+  const items = [];
+  const seen = new Set();
+  const re =
+    /href="(C\.php\?bsn=\d+&snA=\d+)[^"]*"[^>]*class="b-list__main__title[^"]*">([^<]+)/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const href = m[1];
+    const title = stripHtml(m[2]);
+    if (!title || !isBahamutIntelTitle(title)) continue;
+    const full = normalizeBahamutUrl(`https://forum.gamer.com.tw/${href}`);
+    if (!full || seen.has(full)) continue;
+    seen.add(full);
+    items.push({
+      title: truncate(title, 120),
+      url: full,
+      date: null,
+      source: "bahamut",
+    });
+    if (items.length >= lim) break;
+  }
+  return { ok: items.length > 0, items };
+}
+
+async function enrichGnnTitles(items, maxFetches = 3) {
+  let left = maxFetches;
+  for (const it of items) {
+    if (left <= 0) break;
+    if (!/detail\.php\?sn=/i.test(it.url || "")) continue;
+    if (!isWeakBahamutTitle(it.title, it.url)) continue;
+    left -= 1;
+    try {
+      const res = await fetchText(it.url, { timeoutMs: 12000 });
+      if (!res.ok) continue;
+      const tm = (res.text || "").match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+      if (!tm) continue;
+      const cleaned = cleanGnnPageTitle(tm[1]);
+      if (cleaned && !isWeakBahamutTitle(cleaned, it.url)) it.title = cleaned;
+    } catch {
+      /* ignore */
+    }
+  }
+  return items;
+}
+
+async function searchBahamutRss(query, limit) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "").trim();
+  const res = await fetchText(BAHAMUT_GNN_RSS, {
+    headers: { Accept: "application/rss+xml,application/xml,text/xml,*/*" },
+    timeoutMs: 15000,
+  });
+  if (!res.ok) return { ok: false, error: `http_${res.status}`, items: [] };
+  const parsed = parseRssItems(res.text);
+  const items = [];
+  for (const it of parsed) {
+    if (items.length >= lim) break;
+    const hay = it.title + "\n" + (it.description || "");
+    if (!bahamutQueryMatches(hay, q)) continue;
+    items.push({
+      title: it.title,
+      url: normalizeBahamutUrl(it.url) || it.url,
+      date: it.date || null,
+      source: "bahamut",
+    });
+  }
+  return { ok: items.length > 0, items };
+}
+
+async function searchBahamutJina(query, limit) {
+  const lim = clampLimit(limit, 5, 12);
+  const q = String(query || "").trim();
+  if (!q) return { ok: false, items: [], gnn: [], forum: [] };
+  const target =
+    BAHAMUT_SEARCH_JINA +
+    `?q=${encodeURIComponent(q)}&type=2`;
+  const res = await fetchText(target, { timeoutMs: 25000 });
+  if (!res.ok) {
+    return {
+      ok: false,
+      error: `jina_http_${res.status}`,
+      items: [],
+      gnn: [],
+      forum: [],
+    };
+  }
+  const { gnn, forum } = parseJinaBahamutSearch(res.text);
+  return {
+    ok: gnn.length + forum.length > 0,
+    gnn: gnn.slice(0, lim),
+    forum: forum.slice(0, lim),
+    items: [...gnn, ...forum].slice(0, lim),
+  };
+}
+
+async function searchBahamut({ query, limit = 5, game = null, bsn = null }) {
+  const lim = clampLimit(limit, 5, 8);
+  const resolvedBsn = resolveBahamutBsn(game, bsn);
+  const q = bahamutPreferredQuery(game, query);
+  if (!q && resolvedBsn == null) {
+    return { ok: false, error: "need_query", items: [] };
+  }
+  return withCache(
+    "searchBahamut",
+    { query: q || null, limit: lim, game: game || null, bsn: resolvedBsn },
+    async () => {
+  const tierGnn = [];
+  const tierBoard = [];
+  const tierForum = [];
+  const tierRss = [];
+  const errors = [];
+
+  // 1) Jina GNN-focused search (type=2)
+  if (q) {
+    try {
+      const jina = await searchBahamutJina(q, Math.max(lim, 8));
+      if (jina.error) errors.push(jina.error);
+      for (const it of jina.gnn || []) tierGnn.push(it);
+      for (const it of jina.forum || []) {
+        // When BSN is pinned, drop cross-board forum noise (e.g. hw must be 81419)
+        if (resolvedBsn != null) {
+          const m = String(it.url || "").match(/[?&]bsn=(\d+)/i);
+          if (!m || Number(m[1]) !== Number(resolvedBsn)) continue;
+        }
+        if (!isBahamutIntelTitle(it.title)) continue;
+        tierForum.push(it);
+      }
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // 2) Board scrape when BSN known
+  if (resolvedBsn != null) {
+    try {
+      const board = await scrapeBahamutBoard(resolvedBsn, Math.max(lim, 6));
+      for (const it of board.items || []) tierBoard.push(it);
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // 3) RSS token match fallback
+  if (q) {
+    try {
+      const rss = await searchBahamutRss(q, lim);
+      if (rss.error) errors.push(rss.error);
+      for (const it of rss.items || []) tierRss.push(it);
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // Priority merge: with BSN pin prefer board scrape; else GNN > board > forum > RSS
+  const merged = dedupeByUrl(
+    resolvedBsn != null
+      ? [...tierBoard, ...tierGnn, ...tierForum, ...tierRss]
+      : [...tierGnn, ...tierBoard, ...tierForum, ...tierRss]
+  ).slice(0, lim);
+
+  await enrichGnnTitles(merged, 3);
+
+  return {
+    ok: merged.length > 0,
+    query: q || null,
+    game: game || null,
+    bsn: resolvedBsn,
+    count: merged.length,
+    items: merged,
+    ...(merged.length
+      ? {}
+      : { error: errors[0] || "no_match" }),
+  };
+    }
+  );
+}
+
+/* ---------------- Prydwen + nikke.gg ---------------- */
+
+const PRYDWEN_NAV_JUNK = new Set([
+  "/nikke",
+  "/nikke/",
+  "/nikke/tools",
+  "/nikke/builds",
+  "/nikke/teams-database",
+]);
+
+function isNikkeContext(query, entry) {
+  const parts = [
+    query,
+    entry?.id,
+    entry?.name,
+    entry?.name_zh,
+    ...(Array.isArray(entry?.keywords) ? entry.keywords : []),
+  ]
+    .filter(Boolean)
+    .map((x) => String(x).toLowerCase());
+  const blob = parts.join(" ");
+  return /nikke|胜利女神|勝利女神|니케|goddess of victory/.test(blob);
+}
+
+function prydwenTitleFromPath(pathname) {
+  const segs = String(pathname || "")
+    .replace(/\/+$/, "")
+    .split("/")
+    .filter(Boolean);
+  const last = segs[segs.length - 1] || "nikke";
+  return truncate(
+    last
+      .replace(/[-_]+/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase()),
+    120
+  );
+}
+
+function prydwenLinkScore(pathname, query) {
+  const p = String(pathname || "").toLowerCase();
+  const norm = p.replace(/\/+$/, "");
+  let score = 0;
+  if (/\/characters\//.test(p)) score += 60;
+  if (/\/guides\//.test(p)) score += 35;
+  if (/\/banners\//.test(p)) score += 40;
+  if (/wishlist|meta-teams|beginners/.test(p)) score += 12;
+  if (/tier-list/.test(p) && !/^\/nikke\/tier-list$/.test(norm)) score += 12;
+  const q = String(query || "")
+    .trim()
+    .toLowerCase();
+  if (q && q !== "nikke" && p.includes(q.replace(/\s+/g, "-"))) score += 20;
+  if (PRYDWEN_NAV_JUNK.has(norm) || PRYDWEN_NAV_JUNK.has(p)) score -= 100;
+  if (/^\/nikke\/(tools|builds|teams-database)$/.test(norm)) score -= 100;
+  // Bare hub index pages: demote hard so character/news win first slots
+  if (/^\/nikke\/(banners|tier-list|characters|guides)$/.test(norm)) {
+    score -= 120;
+  }
+  return score;
+}
+
+function extractPrydwenLinks(html) {
+  const found = new Map();
+  const re = /(?:href|url)=["'](\/nikke\/[^"'#?]+)/gi;
+  let m;
+  while ((m = re.exec(String(html || "")))) {
+    let pathOnly = m[1].split("#")[0].split("?")[0];
+    if (!pathOnly.startsWith("/nikke/")) continue;
+    const key = pathOnly.replace(/\/+$/, "") || "/nikke";
+    if (!found.has(key)) found.set(key, pathOnly);
+  }
+  return [...found.keys()];
+}
+
+async function scrapePrydwenNikke(query, limit) {
+  const pages = [
+    PRYDWEN_ORIGIN + "/nikke/",
+    PRYDWEN_ORIGIN + "/nikke/banners",
+  ];
+  const scored = [];
+  const seen = new Set();
+  for (const url of pages) {
+    try {
+      const res = await fetchText(url, {
+        headers: { Accept: "text/html" },
+        timeoutMs: 15000,
+      });
+      if (!res.ok) continue;
+      for (const pathname of extractPrydwenLinks(res.text)) {
+        const score = prydwenLinkScore(pathname, query);
+        if (score < 10) continue;
+        const abs = PRYDWEN_ORIGIN + pathname;
+        if (seen.has(abs)) continue;
+        seen.add(abs);
+        scored.push({
+          title: prydwenTitleFromPath(pathname),
+          url: abs,
+          source: "prydwen",
+          _score: score,
+        });
+      }
+    } catch {
+      /* ignore page */
+    }
+  }
+  scored.sort(
+    (a, b) => b._score - a._score || a.title.localeCompare(b.title)
+  );
+  return scored.slice(0, limit).map(({ _score, ...rest }) => rest);
+}
+
+async function searchNikkeGgFeed({ query, limit = 5 }) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "").trim();
+  const nikkeCtx = isNikkeContext(q, null);
+  try {
+    const res = await fetchText(NIKKEGG_FEED, {
+      headers: { Accept: "application/rss+xml,application/xml,text/xml,*/*" },
+      timeoutMs: 15000,
+    });
+    if (!res.ok) {
+      return { ok: false, error: `http_${res.status}`, items: [] };
+    }
+    const parsed = parseRssItems(res.text);
+    const qLower = q.toLowerCase();
+    const items = [];
+    for (const it of parsed) {
+      if (items.length >= lim) break;
+      if (q && !nikkeCtx) {
+        const hay = (it.title + "\n" + (it.description || "")).toLowerCase();
+        if (!hay.includes(qLower)) continue;
+      }
+      items.push({
+        title: it.title,
+        url: it.url,
+        date: it.date || null,
+        source: "nikkegg",
+      });
+    }
+    return {
+      ok: items.length > 0,
+      query: q || "NIKKE",
+      count: items.length,
+      items,
+      ...(items.length ? {} : { error: "no_match" }),
+    };
+  } catch (e) {
+    return { ok: false, error: truncate(e.message, 80), items: [] };
+  }
+}
+
+async function searchPrydwen({ query, limit = 5 } = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "NIKKE").trim() || "NIKKE";
+  return withCache("searchPrydwen", { query: q, limit: lim }, async () => {
+  const nikkeCtx = isNikkeContext(q, null);
+
+  const items = [];
+  // Prydwen HTML scrape only makes sense for NIKKE
+  if (nikkeCtx) {
+    try {
+      const pry = await scrapePrydwenNikke(q, Math.max(2, Math.ceil(lim / 2)));
+      for (const it of pry) {
+        if (items.length >= lim) break;
+        items.push(it);
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+
+  try {
+    const feedLim = Math.max(1, lim - items.length || Math.ceil(lim / 2));
+    const feed = await searchNikkeGgFeed({ query: q, limit: feedLim });
+    for (const it of feed.items || []) {
+      if (items.length >= lim) break;
+      items.push(it);
+    }
+  } catch {
+    /* ignore */
+  }
+
+  const deduped = dedupeByUrl(items).slice(0, lim);
+  return {
+    ok: deduped.length > 0,
+    query: q,
+    count: deduped.length,
+    items: deduped,
+    ...(deduped.length
+      ? {}
+      : {
+          error: nikkeCtx ? "no_items" : "not_nikke_context_no_match",
+        }),
+  };
+  });
+}
+
+
+/* ---------------- Official sources ---------------- */
+
+function parseNikkeOfficialTitle(raw) {
+  let t = String(raw || "").replace(/\s+/g, " ").trim();
+  // Drop trailing body snippet after NEW!
+  t = t.replace(/\s*NEW![\s\S]*$/i, "").trim();
+  // Prefer IMPORTANT / date-prefixed headline chunk
+  const m = t.match(
+    /^(IMPORTANT\s+\d{1,2}-\d{1,2}\s+.+?)(?:\s{2,}|\s+Commanders[,:]|\s+Hello\.|$)/i
+  );
+  if (m) return truncate(m[1].trim(), 120);
+  // Truncate long marketing paste
+  if (t.length > 140) {
+    const cut = t.slice(0, 140);
+    const sp = cut.lastIndexOf(" ");
+    t = (sp > 60 ? cut.slice(0, sp) : cut).trim();
+  }
+  return truncate(t, 120);
+}
+
+function parseOfficialDateFromTitle(title) {
+  const t = String(title || "");
+  // IMPORTANT MM-DD ...
+  let m = t.match(/\b(\d{1,2})-(\d{1,2})\b/);
+  if (m) {
+    const month = Number(m[1]);
+    const day = Number(m[2]);
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      const now = new Date();
+      let year = now.getUTCFullYear();
+      // Assume current year; if far in future relative to now-60d window, leave null
+      const d = new Date(Date.UTC(year, month - 1, day));
+      if (!Number.isNaN(d.getTime())) return d.toISOString();
+    }
+  }
+  return null;
+}
+
+function parseJinaOfficialLinks(md, { hostIncludes, pathIncludes, requireDetail } = {}) {
+  const text = String(md || "");
+  const items = [];
+  const seen = new Set();
+  // Titles from Jina can be very long (headline + body snippet)
+  const re = /\[([^\]]{2,1200})\]\((https?:\/\/[^)\s]+)\)/g;
+  let m;
+  while ((m = re.exec(text))) {
+    const rawTitle = stripHtml(m[1]);
+    let url = m[2].trim();
+    try {
+      const u = new URL(url);
+      url = u.origin + u.pathname + u.search;
+    } catch {
+      continue;
+    }
+    if (hostIncludes && !hostIncludes.some((h) => includesCI(url, h))) continue;
+    if (pathIncludes && !pathIncludes.some((p) => includesCI(url, p))) continue;
+    // Skip pure nav / social
+    if (/youtube|discord|facebook|twitter|tiktok|instagram/i.test(url)) continue;
+    if (
+      /\/(character|story|pack|screenshot|media|contest|events\/)/i.test(url) &&
+      !/newsdetail|content_id/i.test(url)
+    ) {
+      continue;
+    }
+    // Listing / filter pages are not articles
+    if (/[?&](page|type)=/i.test(url) && !/content_id|newsdetail/i.test(url)) {
+      continue;
+    }
+    if (requireDetail && !/newsdetail|content_id|\/news\/\d+/i.test(url)) {
+      continue;
+    }
+    if (seen.has(url)) continue;
+    seen.add(url);
+    const title = parseNikkeOfficialTitle(rawTitle);
+    if (!title || title.length < 4) continue;
+    // Skip bare nav / locale labels
+    if (
+      /^(HOME|NEWS|ABOUT GAME|MEDIA|ALL|NOTICE|MAINTENANCE|EVENT|PREV|NEXT|SPECIAL|Developer Notes|Package Products|Known Issues)$/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+    if (/^(한국어|中文|日本語|English)$/i.test(title)) continue;
+    items.push({
+      title,
+      url,
+      date: parseOfficialDateFromTitle(title),
+      source: "official",
+    });
+  }
+  return items;
+}
+
+function mapBd2Locale(locale) {
+  const raw = String(locale || "en").trim().toLowerCase();
+  return BD2_LOCALE_MAP[raw] || BD2_LOCALE_MAP.en;
+}
+
+function bd2ViewUrl(id, locale) {
+  const loc = mapBd2Locale(locale);
+  return `${BD2_SITE_ORIGIN}/${loc}/news/view?id=${encodeURIComponent(id)}`;
+}
+
+/** Parse BD2 notice id from bare id or news/view URL (?id= or path). */
+function parseBd2NoticeId(urlOrId) {
+  const raw = String(urlOrId || "").trim();
+  if (!raw) return null;
+  if (!/^https?:\/\//i.test(raw) && /^[A-Za-z0-9_-]{12,}$/.test(raw)) {
+    return raw;
+  }
+  try {
+    const u = new URL(raw);
+    const q = u.searchParams.get("id");
+    if (q) return String(q).trim() || null;
+    // path like /.../notices/ID or /news/view/ID
+    const parts = (u.pathname || "").split("/").filter(Boolean);
+    const viewIdx = parts.findIndex((p) => /^view$/i.test(p));
+    if (viewIdx >= 0 && parts[viewIdx + 1] && !/^(en-us|ko-kr|ja-jp|zh-tw|zh-cn)$/i.test(parts[viewIdx + 1])) {
+      return parts[viewIdx + 1];
+    }
+    const noticeIdx = parts.findIndex((p) => /^notices?$/i.test(p));
+    if (noticeIdx >= 0 && parts[noticeIdx + 1]) return parts[noticeIdx + 1];
+  } catch {
+    /* fall through */
+  }
+  const m = raw.match(/[?&]id=([^&#]+)/i);
+  if (m) {
+    try {
+      return decodeURIComponent(m[1]).trim() || null;
+    } catch {
+      return m[1].trim() || null;
+    }
+  }
+  return null;
+}
+
+function isBd2NewsViewUrl(url) {
+  const u = String(url || "");
+  if (!/browndust2\.com/i.test(u)) return false;
+  return /\/news\/view/i.test(u) || /[?&]id=/i.test(u);
+}
+
+/**
+ * Official BD2 notice detail API — full HTML content (not SPA/Jina).
+ * GET /api/notices/{id}?locale=en-us → { subject, content, publishedAt, ... }
+ */
+async function fetchBd2NoticeDetail(id, locale = "en-us") {
+  const noticeId = parseBd2NoticeId(id);
+  if (!noticeId) {
+    return { ok: false, error: "missing_id", id: null };
+  }
+  const loc = mapBd2Locale(locale);
+  return withCache("bd2NoticeDetail", { id: noticeId, locale: loc }, async () => {
+    const headers = {
+      Accept: "application/json",
+      Origin: BD2_SITE_ORIGIN,
+      Referer: BD2_SITE_ORIGIN + "/",
+    };
+    const apiUrl = `${BD2_API_ORIGIN}/notices/${encodeURIComponent(noticeId)}?locale=${encodeURIComponent(loc)}`;
+    try {
+      const res = await fetchJson(apiUrl, { headers, timeoutMs: 15000 });
+      if (!res.ok || !res.body) {
+        return {
+          ok: false,
+          error: `bd2_detail_http_${res.status || "err"}`,
+          id: noticeId,
+        };
+      }
+      const body = res.body;
+      const subject = body?.subject != null ? String(body.subject) : "";
+      const content = body?.content != null ? String(body.content) : "";
+      const publishedAt = body?.publishedAt != null ? String(body.publishedAt) : null;
+      return {
+        ok: true,
+        id: noticeId,
+        subject,
+        content,
+        publishedAt,
+        category: body?.category != null ? String(body.category) : null,
+        locale: loc,
+      };
+    } catch (err) {
+      return {
+        ok: false,
+        error: truncate(String(err?.message || err || "bd2_detail_err"), 80),
+        id: noticeId,
+      };
+    }
+  });
+}
+
+function usesBd2OfficialApi(entryId, officialUrl) {
+  if (String(entryId || "").toLowerCase() === "bd2") return true;
+  if (officialUrl && /browndust2\.com/i.test(String(officialUrl))) return true;
+  return false;
+}
+
+function isBd2ComicSubject(title) {
+  const t = String(title || "").trim();
+  if (!t) return false;
+  if (/^📕/.test(t)) return true;
+  if (/4-Panel Comics/i.test(t)) return true;
+  return false;
+}
+
+/** Soft-rank BD2 official items for digest: prefer ops categories, demote comics/goods. */
+function preferBd2OfficialForDigest(items) {
+  const list = Array.isArray(items) ? [...items] : [];
+  if (!list.length) return list;
+  const score = (it) => {
+    let s = 0;
+    const cat = String(it?.category || "").toLowerCase();
+    if (BD2_DIGEST_CAT_PREF.has(cat)) s += 10;
+    if (cat === "goods" || cat === "shop") s -= 8;
+    if (isBd2ComicSubject(it?.title)) s -= 20;
+    const ms = itemDateMs(it);
+    if (ms) s += Math.min(ms / 1e12, 5);
+    return s;
+  };
+  list.sort((a, b) => score(b) - score(a));
+  // If a non-comic preferred item exists, drop leading comic fluff
+  const hasSubstance = list.some(
+    (it) =>
+      !isBd2ComicSubject(it?.title) &&
+      BD2_DIGEST_CAT_PREF.has(String(it?.category || "").toLowerCase())
+  );
+  if (hasSubstance) {
+    return list.filter((it) => !isBd2ComicSubject(it?.title));
+  }
+  return list;
+}
+
+
+const SMILEGATE_NEWSROOM_ORIGIN = "https://newsroom.smilegate.com";
+
+/** Curated public Smilegate / MIRESI official links used when live boards fail. */
+const SMILEGATE_MIRESI_SEED = [
+  {
+    title: "MIRESI — Smilegate TGS 2026 出展 (KR)",
+    url: "https://newsroom.smilegate.com/news/1786606454",
+  },
+  {
+    title: "MIRESI — Anime Expo 2026 booth open (EN)",
+    url: "https://newsroom.smilegate.com/eng/1783313698",
+  },
+  {
+    title: "MIRESI — 사전예약 페이지 오픈 (KR)",
+    url: "https://newsroom.smilegate.com/news/1782281412",
+  },
+  {
+    title: "MIRESI — Partner Creator 모집 (KR)",
+    url: "https://newsroom.smilegate.com/news/1782453440",
+  },
+  {
+    title: "MIRESI Chronicle / official site",
+    url: "https://miresi.onstove.com/en/history",
+  },
+];
+
+const MIRESI_OFFICIAL_RE =
+  /miresi|미래시|invisible\s*future|control9/i;
+
+function usesSmilegateNewsroom(entryId, officialApi) {
+  if (String(officialApi || "").trim() === "smilegate_newsroom") return true;
+  return String(entryId || "").toLowerCase() === "miraesi";
+}
+
+function absSmilegateUrl(href) {
+  const raw = String(href || "").trim();
+  if (!raw || raw.startsWith("#") || /^javascript:/i.test(raw)) return null;
+  try {
+    if (/^https?:\/\//i.test(raw)) {
+      const u = new URL(raw);
+      if (
+        !/newsroom\.smilegate\.com$/i.test(u.hostname) &&
+        !/miresi\.onstove\.com$/i.test(u.hostname)
+      ) {
+        // allow only smilegate newsroom + official site from board scrape
+        if (!/smilegate\.com$/i.test(u.hostname)) return null;
+      }
+      return u.origin + u.pathname + u.search;
+    }
+    const u = new URL(raw, SMILEGATE_NEWSROOM_ORIGIN + "/");
+    return u.origin + u.pathname + u.search;
+  } catch {
+    return null;
+  }
+}
+
+function isSmilegateArticleUrl(url) {
+  const u = String(url || "");
+  if (/[?&]wr_id=\d+/i.test(u)) return true;
+  // Live newsroom article paths (EN /eng/{id}, KR /news/{id})
+  if (/\/(?:eng|news)\/\d+(?:\/|$|\?)/i.test(u)) return true;
+  if (/\/en\/(?:eng|game)\//i.test(u)) return true;
+  if (/miresi\.onstove\.com/i.test(u)) return true;
+  return false;
+}
+
+function matchesMiresiOfficial(title, url, extraKeywords) {
+  const blob = `${title || ""} ${url || ""}`;
+  if (MIRESI_OFFICIAL_RE.test(blob)) return true;
+  const extras = Array.isArray(extraKeywords) ? extraKeywords : [];
+  for (const k of extras) {
+    const s = String(k || "").trim();
+    if (s.length >= 2 && includesCI(blob, s)) return true;
+  }
+  return false;
+}
+
+function parseSmilegateNewsroomHtml(html) {
+  const out = [];
+  const seen = new Set();
+  const re =
+    /<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const abs = absSmilegateUrl(m[1]);
+    if (!abs || !isSmilegateArticleUrl(abs)) continue;
+    // Skip bare board / list pages without wr_id or /eng|news/{id}
+    if (
+      /board\.php/i.test(abs) &&
+      !/[?&]wr_id=\d+/i.test(abs)
+    ) {
+      continue;
+    }
+    if (/\/(?:eng|news)\/?$/i.test(new URL(abs).pathname)) {
+      continue;
+    }
+    if (seen.has(abs)) continue;
+    const title = truncate(stripHtml(m[2]), 160);
+    if (!title || title.length < 3) continue;
+    // Skip nav chrome
+    if (
+      /^(HOME|NEWS|EN|KR|KO|PREV|NEXT|더보기|목록|이전|다음)$/i.test(title)
+    ) {
+      continue;
+    }
+    seen.add(abs);
+    out.push({ title, url: abs, source: "official" });
+  }
+  return out;
+}
+
+async function fetchSmilegateBoard(boardUrl) {
+  try {
+    const res = await fetchText(boardUrl, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        Accept: "text/html,application/xhtml+xml,*/*",
+        Referer: SMILEGATE_NEWSROOM_ORIGIN + "/",
+      },
+      // Smilegate boards are SSR but can be slow from some egress; use longer timeout
+      timeoutMs: 22000,
+    });
+    if (!res.ok || !res.text) {
+      return { ok: false, status: res.status || 0, items: [] };
+    }
+    return { ok: true, status: res.status, items: parseSmilegateNewsroomHtml(res.text) };
+  } catch (e) {
+    return { ok: false, status: 0, error: truncate(e.message, 80), items: [] };
+  }
+}
+
+async function searchSmilegateNewsroom({
+  limit = 5,
+  filterKeywords,
+} = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const boards = [
+    `${SMILEGATE_NEWSROOM_ORIGIN}/bbs/board.php?bo_table=eng`,
+    `${SMILEGATE_NEWSROOM_ORIGIN}/bbs/board.php?bo_table=news`,
+    // Newer HTML list routes (SSR, same content as boards when present)
+    `${SMILEGATE_NEWSROOM_ORIGIN}/eng`,
+    `${SMILEGATE_NEWSROOM_ORIGIN}/news`,
+  ];
+  const seen = new Set();
+  const live = [];
+  const fetchErrors = [];
+
+  for (const boardUrl of boards) {
+    const fetched = await fetchSmilegateBoard(boardUrl);
+    if (!fetched.ok) {
+      fetchErrors.push(
+        fetched.error || `http_${fetched.status || "err"}`
+      );
+      continue;
+    }
+    for (const it of fetched.items || []) {
+      if (!matchesMiresiOfficial(it.title, it.url, filterKeywords)) continue;
+      if (seen.has(it.url)) continue;
+      seen.add(it.url);
+      live.push({
+        title: it.title,
+        url: it.url,
+        source: "official",
+      });
+      if (live.length >= lim) break;
+    }
+    if (live.length >= lim) break;
+  }
+
+  if (live.length) {
+    return {
+      ok: true,
+      items: live.slice(0, lim),
+      via: "smilegate_newsroom",
+    };
+  }
+
+  // Resilient fallback: curated known official posts (no invented dates/prices)
+  const seeds = SMILEGATE_MIRESI_SEED.slice(0, Math.min(5, lim)).map((it) => ({
+    title: it.title,
+    url: it.url,
+    source: "official",
+  }));
+  return {
+    ok: seeds.length > 0,
+    items: seeds,
+    via: "smilegate_seed",
+    ...(fetchErrors.length
+      ? { scrape_error: truncate(fetchErrors.join(";"), 120) }
+      : { scrape_error: "boards_empty" }),
+  };
+}
+
+const STAR_OFFICIAL_PAGES = [
+  "https://azurpromilia.com/news",
+  "https://azurpromilia.manjuu.com/en/",
+];
+
+/** Curated official-ish Azur Promilia links when live scrape/Jina fails (CF common). */
+const STAR_OFFICIAL_SEED = [
+  {
+    title: "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
+    url: "https://www.taptap.cn/moment/842394655134843472",
+  },
+  {
+    title: "GNN: 蓝色星原：旅谣 双平台事前预约 (media reprint)",
+    url: "https://gnn.gamer.com.tw/detail.php?sn=310922",
+  },
+  {
+    title: "Azur Promilia — Official site (pre-reg hub)",
+    url: "https://azurpromilia.com/",
+  },
+  {
+    title: "Azur Promilia — Manjuu EN hub",
+    url: "https://azurpromilia.manjuu.com/en/",
+  },
+  {
+    title: "Azur Promilia — JP official site",
+    url: "https://azurpromilia.jp/",
+  },
+];
+
+const STAR_OFFICIAL_RE =
+  /azur\s*promilia|蓝色星原|旅谣|promilia|奇波|manjuu|yostar/i;
+
+function usesStarOfficial(entryId, officialApi) {
+  if (String(officialApi || "").trim() === "star_official") return true;
+  return String(entryId || "").toLowerCase() === "star";
+}
+
+function matchesStarOfficial(title, url, extraKeywords) {
+  const blob = `${title || ""} ${url || ""}`;
+  if (STAR_OFFICIAL_RE.test(blob)) return true;
+  const extras = Array.isArray(extraKeywords) ? extraKeywords : [];
+  for (const k of extras) {
+    const s = String(k || "").trim();
+    if (s.length >= 2 && includesCI(blob, s)) return true;
+  }
+  return false;
+}
+
+function isStarNewsishUrl(url) {
+  const u = String(url || "");
+  // Drop legal / account chrome
+  if (/\/terms\/|privacy|cookie|login|signup|register|user-agreement/i.test(u)) {
+    return false;
+  }
+  if (/yostar\.co\.jp\/news\//i.test(u)) return true;
+  if (/gnn\.gamer\.com\.tw\/detail\.php/i.test(u)) return true;
+  if (/azurpromilia\.(com|jp|manjuu\.com)/i.test(u)) {
+    return /\/news(?:\/|$|\?)|notice|announcement|press/i.test(u);
+  }
+  return /\/news(?:\/|$|\?)|notice|announcement|press/i.test(u);
+}
+
+function isStarJunkOfficialItem(it) {
+  const title = String(it?.title || "");
+  const url = String(it?.url || "");
+  if (/\/terms\/|privacy|cookie|login|signup/i.test(url)) return true;
+  if (/^(to learn more|terms of service|privacy policy|cookie|login|sign up)$/i.test(title.trim())) {
+    return true;
+  }
+  return false;
+}
+
+function absUrlFromBase(href, baseUrl) {
+  const raw = String(href || "").trim();
+  if (!raw || raw.startsWith("#") || /^javascript:/i.test(raw)) return null;
+  try {
+    const u = new URL(raw, baseUrl || "https://azurpromilia.com/");
+    return u.origin + u.pathname + u.search;
+  } catch {
+    return null;
+  }
+}
+
+function parseHtmlAnchorLinks(html, baseUrl) {
+  const out = [];
+  const seen = new Set();
+  const re =
+    /<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = re.exec(String(html || "")))) {
+    const abs = absUrlFromBase(m[1], baseUrl);
+    if (!abs) continue;
+    if (seen.has(abs)) continue;
+    const title = truncate(stripHtml(m[2]), 160);
+    if (!title || title.length < 3) continue;
+    if (
+      /^(HOME|NEWS|ABOUT|MEDIA|LOGIN|SIGN\s*UP|PREV|NEXT|EN|JP|KR|CN|中文|日本語|한국어)$/i.test(
+        title
+      )
+    ) {
+      continue;
+    }
+    seen.add(abs);
+    out.push({ title, url: abs, source: "official" });
+  }
+  return out;
+}
+
+async function fetchStarPageLinks(pageUrl) {
+  const errors = [];
+  // 1) Direct HTML
+  try {
+    const res = await fetchText(pageUrl, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        Accept: "text/html,application/xhtml+xml,*/*",
+      },
+      timeoutMs: 15000,
+    });
+    if (res.ok && res.text) {
+      const items = parseHtmlAnchorLinks(res.text, pageUrl);
+      if (items.length) return { ok: true, items, via: "star_html" };
+      errors.push(`html_empty_${res.status || 0}`);
+    } else {
+      errors.push(`html_http_${res.status || "err"}`);
+    }
+  } catch (e) {
+    errors.push(truncate(e.message, 60));
+  }
+  // 2) Jina (often Cloudflare-blocked on these hosts)
+  try {
+    const jinaUrl = `https://r.jina.ai/${pageUrl}`;
+    const res = await fetchText(jinaUrl, {
+      headers: { Accept: "text/plain,text/markdown,*/*" },
+      timeoutMs: 20000,
+    });
+    if (res.ok && res.text) {
+      let host = "";
+      try {
+        host = new URL(pageUrl).hostname;
+      } catch {
+        host = "";
+      }
+      const items = parseJinaOfficialLinks(res.text, {
+        hostIncludes: host ? [host, "azurpromilia", "manjuu.com", "yostar"] : undefined,
+        pathIncludes: ["news", "notice", "announcement", "press", "detail"],
+      });
+      const loose = items.length
+        ? items
+        : parseJinaOfficialLinks(res.text, {
+            hostIncludes: host ? [host] : undefined,
+          }).filter((it) =>
+            /news|notice|announcement|press|promilia|星原|旅谣/i.test(
+              it.title + " " + it.url
+            )
+          );
+      if (loose.length) return { ok: true, items: loose, via: "star_jina" };
+      errors.push("jina_empty");
+    } else {
+      errors.push(`jina_http_${res.status || "err"}`);
+    }
+  } catch (e) {
+    errors.push(truncate(e.message, 60));
+  }
+  return { ok: false, items: [], error: errors.join(";") || "star_fetch_fail" };
+}
+
+async function searchStarOfficial({ limit = 5, filterKeywords } = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const seen = new Set();
+  const live = [];
+  const fetchErrors = [];
+
+  for (const pageUrl of STAR_OFFICIAL_PAGES) {
+    const fetched = await fetchStarPageLinks(pageUrl);
+    if (!fetched.ok) {
+      if (fetched.error) fetchErrors.push(fetched.error);
+      continue;
+    }
+    for (const it of fetched.items || []) {
+      if (isStarJunkOfficialItem(it)) continue;
+      // Require news-ish URL; SPA hubs rarely expose article links
+      if (!isStarNewsishUrl(it.url)) continue;
+      // Soft keyword filter when title/url mention the game or known hosts
+      if (
+        !matchesStarOfficial(it.title, it.url, filterKeywords) &&
+        !/azurpromilia|yostar|manjuu/i.test(it.url)
+      ) {
+        continue;
+      }
+      if (seen.has(it.url)) continue;
+      seen.add(it.url);
+      live.push({
+        title: it.title,
+        url: it.url,
+        source: "official",
+        ...(it.date ? { date: it.date } : {}),
+      });
+      if (live.length >= lim) break;
+    }
+    if (live.length >= lim) break;
+  }
+
+  // Live SPA pages often only yield nav/legal — prefer curated seed then
+  const substance = live.filter((it) => !isStarJunkOfficialItem(it));
+  if (substance.length) {
+    return {
+      ok: true,
+      items: substance.slice(0, lim),
+      via: "star_official",
+    };
+  }
+  if (live.length) {
+    fetchErrors.push("live_only_nav_or_legal");
+  }
+
+  const seeds = STAR_OFFICIAL_SEED.slice(0, Math.min(5, lim)).map((it) => ({
+    title: it.title,
+    url: it.url,
+    source: "official",
+  }));
+  return {
+    ok: seeds.length > 0,
+    items: seeds,
+    via: "star_seed",
+    ...(fetchErrors.length
+      ? { scrape_error: truncate(fetchErrors.join(";"), 120) }
+      : { scrape_error: "pages_empty" }),
+  };
+}
+
+const VALOFE_ORIGIN = "https://www.valofe.com";
+
+/** Curated VALOFE / Last Origin 2 publisher announcements (no dedicated game site yet). */
+const LO2_OFFICIAL_SEED = [
+  {
+    title: "VALOFE — Last Origin 2 开发本格化 / 组队 (GameChosun)",
+    url: "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
+  },
+  {
+    title: "VALOFE — Last Origin 2 开发本格化 (ThisIsGame)",
+    url: "https://www.thisisgame.com/articles/427567",
+  },
+  {
+    title: "VALOFE — Last Origin 2 开发本格化 (Edaily)",
+    url: "https://www2.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02843766645512552",
+  },
+  {
+    title: "VALOFE launches Last Origin 2 development (Inven Global EN)",
+    url: "https://www.invenglobal.com/articles/21680/valofe-launches-first-new-development-project-last-origin-2",
+  },
+  {
+    title: "VALOFE — Last Origin 2 development start (KR Inven)",
+    url: "https://www.inven.co.kr/webzine/news/?news=316246",
+  },
+];
+
+const LO2_OFFICIAL_RE =
+  /last\s*origin\s*2|last\s*origin\s*ii|라스트\s*오리진\s*2|라스트오리진2|valofe/i;
+
+function usesLo2Official(entryId, officialApi) {
+  if (String(officialApi || "").trim() === "lo2_official") return true;
+  return String(entryId || "").toLowerCase() === "lo2";
+}
+
+function matchesLo2Official(title, url, extraKeywords) {
+  const blob = `${title || ""} ${url || ""}`;
+  if (LO2_OFFICIAL_RE.test(blob)) return true;
+  const extras = Array.isArray(extraKeywords) ? extraKeywords : [];
+  for (const k of extras) {
+    const s = String(k || "").trim();
+    if (s.length >= 2 && includesCI(blob, s)) return true;
+  }
+  return false;
+}
+
+async function fetchValofeNewsLinks() {
+  const pages = [
+    `${VALOFE_ORIGIN}/`,
+    `${VALOFE_ORIGIN}/news`,
+    `${VALOFE_ORIGIN}/en/news`,
+    `${VALOFE_ORIGIN}/kr/news`,
+  ];
+  const errors = [];
+  const all = [];
+  const seen = new Set();
+  for (const pageUrl of pages) {
+    try {
+      const res = await fetchText(pageUrl, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,*/*",
+        },
+        timeoutMs: 12000,
+      });
+      if (!res.ok || !res.text) {
+        errors.push(`valofe_http_${res.status || "err"}`);
+        continue;
+      }
+      for (const it of parseHtmlAnchorLinks(res.text, pageUrl)) {
+        if (seen.has(it.url)) continue;
+        seen.add(it.url);
+        all.push(it);
+      }
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+  return {
+    ok: all.length > 0,
+    items: all,
+    error: errors.length ? errors.join(";") : undefined,
+  };
+}
+
+async function searchLo2Official({ limit = 5, filterKeywords } = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const fetchErrors = [];
+  let live = [];
+
+  try {
+    const fetched = await fetchValofeNewsLinks();
+    if (!fetched.ok && fetched.error) fetchErrors.push(fetched.error);
+    for (const it of fetched.items || []) {
+      if (!matchesLo2Official(it.title, it.url, filterKeywords)) continue;
+      live.push({
+        title: it.title,
+        url: it.url,
+        source: "official",
+      });
+      if (live.length >= lim) break;
+    }
+  } catch (e) {
+    fetchErrors.push(truncate(e.message, 80));
+  }
+
+  if (live.length) {
+    return {
+      ok: true,
+      items: live.slice(0, lim),
+      via: "lo2_official",
+    };
+  }
+
+  const seeds = LO2_OFFICIAL_SEED.slice(0, Math.min(5, lim)).map((it) => ({
+    title: it.title,
+    url: it.url,
+    source: "official",
+  }));
+  return {
+    ok: seeds.length > 0,
+    items: seeds,
+    via: "lo2_seed",
+    ...(fetchErrors.length
+      ? { scrape_error: truncate(fetchErrors.join(";"), 120) }
+      : { scrape_error: "valofe_unreachable_or_empty" }),
+  };
+}
+
+const ASORA_PLAYNC_ORIGIN = "https://astraeoratio.plaync.com";
+const ASORA_NCSOFT_NEWS = "https://about.ncsoft.com/tw/news";
+
+/** Curated Astrae Oratio / 阿索拉 official + verified press when SPA scrape is empty. */
+const ASORA_OFFICIAL_SEED = [
+  {
+    title: "Astrae Oratio — Official TW hub (阿索拉：星之祈愿)",
+    url: "https://astraeoratio.plaync.com/zh-tw/index",
+  },
+  {
+    title: "NC: 《阿索拉：星之祈願》公開前導預告首度曝光實際遊戲畫面",
+    url: "https://about.ncsoft.com/tw/news/article/astraeoratio_update_260602",
+  },
+  {
+    title: "GNN: 《阿索拉：星之祈願》預告 8 月 19 日啟動 CBT 玩家募集",
+    url: "https://gnn.gamer.com.tw/detail.php?sn=309159",
+  },
+];
+
+const ASORA_OFFICIAL_RE =
+  /astrae\s*oratio|astraeoratio|阿索拉|星之祈[愿願]|dynamis\s*one|project\s*at/i;
+
+function usesAsoraOfficial(entryId, officialApi) {
+  if (String(officialApi || "").trim() === "asora_official") return true;
+  return String(entryId || "").toLowerCase() === "asora";
+}
+
+function matchesAsoraOfficial(title, url, extraKeywords) {
+  const blob = `${title || ""} ${url || ""}`;
+  if (ASORA_OFFICIAL_RE.test(blob)) return true;
+  const extras = Array.isArray(extraKeywords) ? extraKeywords : [];
+  for (const k of extras) {
+    const s = String(k || "").trim();
+    if (s.length >= 2 && includesCI(blob, s)) return true;
+  }
+  return false;
+}
+
+function isAsoraJunkOfficialItem(it) {
+  const title = String(it?.title || "").trim();
+  const url = String(it?.url || "");
+  if (/\/terms\/|privacy|cookie|login|signup|register|blog-operating-policy/i.test(url)) {
+    return true;
+  }
+  if (
+    /^(HOME|NEWS|ABOUT|LOGIN|SIGN\s*UP|VIEW\s*MORE|FAMILY\s*SITE|GLOBAL|PLAY|ALL|PLAYNC|Operation Policy|CONTACT)$/i.test(
+      title
+    )
+  ) {
+    return true;
+  }
+  // Bare section hubs without article path
+  if (/about\.ncsoft\.com\/tw\/(play|news)\/?$/i.test(url) && title.length < 12) {
+    return true;
+  }
+  if (/about\.ncsoft\.com\/tw\/play\//i.test(url) && !ASORA_OFFICIAL_RE.test(title + " " + url)) {
+    return true;
+  }
+  return false;
+}
+
+function isAsoraSubstanceItem(it) {
+  if (isAsoraJunkOfficialItem(it)) return false;
+  const title = String(it?.title || "");
+  const url = String(it?.url || "");
+  // Dedicated game hub / news on plaync
+  if (/astraeoratio\.plaync\.com/i.test(url)) {
+    return ASORA_OFFICIAL_RE.test(title + " " + url) || /\/(index|news)/i.test(url);
+  }
+  // NC Soft article pages with game signal in title or slug
+  if (/about\.ncsoft\.com\/tw\/news\/article\//i.test(url)) {
+    return ASORA_OFFICIAL_RE.test(title + " " + url);
+  }
+  // Verified GNN with game keywords
+  if (/gnn\.gamer\.com\.tw\/detail\.php/i.test(url)) {
+    return ASORA_OFFICIAL_RE.test(title + " " + url);
+  }
+  return ASORA_OFFICIAL_RE.test(title + " " + url);
+}
+
+/** Pull NC Soft TW news list items from Vue __INITIAL_STATE__ (SPA shell). */
+function parseNcsoftTwNewsState(html) {
+  const out = [];
+  const m = String(html || "").match(
+    /window\.__INITIAL_STATE__\s*=\s*(\{[\s\S]*?\})\s*;?\s*<\/script>/
+  );
+  if (!m) return out;
+  let state;
+  try {
+    state = JSON.parse(m[1]);
+  } catch {
+    return out;
+  }
+  const list =
+    state?.__COMPONENTS_STATE__?.["news-list"]?.list ||
+    state?.["__COMPONENTS_STATE__"]?.["news-list"]?.list ||
+    [];
+  if (!Array.isArray(list)) return out;
+  for (const row of list) {
+    const slug = String(row?.slug || "").trim();
+    const title = truncate(String(row?.title || "").replace(/\n+/g, " "), 160);
+    if (!slug || !title) continue;
+    out.push({
+      title,
+      url: `https://about.ncsoft.com/tw/news/article/${slug}`,
+      date: row?.publishDtt ? String(row.publishDtt).slice(0, 10) : undefined,
+    });
+  }
+  return out;
+}
+
+async function fetchAsoraOfficialPages() {
+  const pages = [
+    `${ASORA_PLAYNC_ORIGIN}/zh-tw/index`,
+    `${ASORA_PLAYNC_ORIGIN}/zh-tw/news`,
+    ASORA_NCSOFT_NEWS,
+  ];
+  const errors = [];
+  const all = [];
+  const seen = new Set();
+
+  for (const pageUrl of pages) {
+    try {
+      const res = await fetchText(pageUrl, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,*/*",
+        },
+        timeoutMs: 12000,
+      });
+      if (!res.ok || !res.text) {
+        errors.push(`asora_http_${res.status || "err"}`);
+        // Jina fallback for SPA shells
+        try {
+          const jina = await fetchText(`https://r.jina.ai/${pageUrl}`, {
+            headers: { Accept: "text/plain,text/markdown,*/*" },
+            timeoutMs: 20000,
+          });
+          if (jina.ok && jina.text) {
+            for (const it of parseHtmlAnchorLinks(jina.text, pageUrl)) {
+              if (seen.has(it.url)) continue;
+              seen.add(it.url);
+              all.push(it);
+            }
+          } else {
+            errors.push(`asora_jina_${jina.status || "err"}`);
+          }
+        } catch (je) {
+          errors.push(truncate(je.message, 60));
+        }
+        continue;
+      }
+      for (const it of parseHtmlAnchorLinks(res.text, pageUrl)) {
+        if (seen.has(it.url)) continue;
+        seen.add(it.url);
+        all.push(it);
+      }
+      if (/about\.ncsoft\.com/i.test(pageUrl)) {
+        for (const it of parseNcsoftTwNewsState(res.text)) {
+          if (seen.has(it.url)) continue;
+          seen.add(it.url);
+          all.push(it);
+        }
+      }
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+  return {
+    ok: all.length > 0,
+    items: all,
+    error: errors.length ? errors.join(";") : undefined,
+  };
+}
+
+async function searchAsoraOfficial({ limit = 5, filterKeywords } = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const fetchErrors = [];
+  let live = [];
+
+  try {
+    const fetched = await fetchAsoraOfficialPages();
+    if (!fetched.ok && fetched.error) fetchErrors.push(fetched.error);
+    for (const it of fetched.items || []) {
+      if (!isAsoraSubstanceItem(it)) continue;
+      // Extra keyword soft-match only when already substance (avoid NCSOFT nav)
+      if (
+        !ASORA_OFFICIAL_RE.test(`${it.title || ""} ${it.url || ""}`) &&
+        !matchesAsoraOfficial(it.title, it.url, filterKeywords)
+      ) {
+        continue;
+      }
+      live.push({
+        title: it.title,
+        url: it.url,
+        source: "official",
+        ...(it.date ? { date: it.date } : {}),
+      });
+      if (live.length >= lim) break;
+    }
+  } catch (e) {
+    fetchErrors.push(truncate(e.message, 80));
+  }
+
+  const substance = live.filter((it) => isAsoraSubstanceItem(it));
+  if (substance.length) {
+    return {
+      ok: true,
+      items: substance.slice(0, lim),
+      via: "asora_official",
+    };
+  }
+  if (live.length) {
+    fetchErrors.push("live_only_nav_or_unrelated");
+  }
+
+  const seeds = ASORA_OFFICIAL_SEED.slice(0, Math.min(5, lim)).map((it) => ({
+    title: it.title,
+    url: it.url,
+    source: "official",
+  }));
+  return {
+    ok: seeds.length > 0,
+    items: seeds,
+    via: "asora_seed",
+    ...(fetchErrors.length
+      ? { scrape_error: truncate(fetchErrors.join(";"), 120) }
+      : { scrape_error: "asora_pages_empty" }),
+  };
+}
+
+async function searchBd2Official({
+  limit = 5,
+  query,
+  locale = "en",
+  forDigest = false,
+} = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const loc = mapBd2Locale(locale);
+  const q = String(query || "").trim();
+  const headers = {
+    Accept: "application/json",
+    Origin: BD2_SITE_ORIGIN,
+    Referer: BD2_SITE_ORIGIN + "/",
+  };
+  let apiUrl;
+  if (q) {
+    const params = new URLSearchParams({
+      q,
+      locale: loc,
+      page: "0",
+      limit: String(lim),
+    });
+    apiUrl = `${BD2_API_ORIGIN}/notices/search?${params}`;
+  } else {
+    const params = new URLSearchParams({
+      locale: loc,
+      page: "0",
+      limit: String(Math.max(lim, forDigest ? lim + 3 : lim)),
+    });
+    apiUrl = `${BD2_API_ORIGIN}/notices?${params}`;
+  }
+  const res = await fetchJson(apiUrl, { headers, timeoutMs: 15000 });
+  if (!res.ok || !res.body) {
+    return {
+      ok: false,
+      error: `bd2_api_http_${res.status || "err"}`,
+      items: [],
+    };
+  }
+  const rawItems = Array.isArray(res.body.items) ? res.body.items : [];
+  let items = rawItems.map((it) => {
+    const id = it?.id;
+    const subject = String(it?.subject || "").trim();
+    const publishedAt = it?.publishedAt
+      ? String(it.publishedAt)
+      : null;
+    const preview = it?.contentPreview
+      ? truncate(stripHtml(String(it.contentPreview)), 400)
+      : "";
+    return {
+      title: subject,
+      url: id ? bd2ViewUrl(id, loc) : "",
+      date: publishedAt,
+      source: "official",
+      id: id ? String(id) : undefined,
+      category: it?.category ? String(it.category) : null,
+      ...(preview ? { summary: preview } : {}),
+    };
+  }).filter((it) => it.title && it.url);
+
+  if (forDigest) {
+    items = preferBd2OfficialForDigest(items);
+  }
+  items = items.slice(0, lim);
+  return {
+    ok: items.length > 0,
+    items,
+    via: "bd2_notices",
+    locale: loc,
+  };
+}
+
+async function fetchOfficialViaJina(pageUrl, limit) {
+  const jinaUrl = `https://r.jina.ai/${pageUrl}`;
+  const res = await fetchText(jinaUrl, {
+    headers: { Accept: "text/plain,text/markdown,*/*" },
+    timeoutMs: 20000,
+  });
+  if (!res.ok || !res.text) {
+    return {
+      ok: false,
+      error: `jina_http_${res.status}`,
+      items: [],
+    };
+  }
+  let host = "";
+  try {
+    host = new URL(pageUrl).hostname;
+  } catch {
+    host = "";
+  }
+  // Nikke: require newsdetail.html?content_id=
+  if (/nikke-en\.com/i.test(pageUrl)) {
+    const items = parseJinaOfficialLinks(res.text, {
+      hostIncludes: ["nikke-en.com"],
+      pathIncludes: ["newsdetail.html"],
+      requireDetail: true,
+    }).slice(0, limit);
+    return { ok: items.length > 0, items };
+  }
+  // Brown Dust 2 SPA often yields only nav — require detail-ish URLs or empty
+  if (/browndust2\.com/i.test(pageUrl)) {
+    const items = parseJinaOfficialLinks(res.text, {
+      hostIncludes: ["browndust2.com"],
+      requireDetail: true,
+    }).slice(0, limit);
+    return { ok: items.length > 0, items };
+  }
+  // Generic official_url
+  const items = parseJinaOfficialLinks(res.text, {
+    hostIncludes: host ? [host] : undefined,
+    pathIncludes: ["newsdetail", "content_id", "/news/"],
+  }).slice(0, limit);
+  if (!items.length) {
+    const loose = parseJinaOfficialLinks(res.text, {
+      hostIncludes: host ? [host] : undefined,
+      requireDetail: true,
+    }).filter((it) =>
+      /news|notice|patch|update|maintenance|event|important/i.test(
+        it.title + " " + it.url
+      )
+    );
+    return { ok: loose.length > 0, items: loose.slice(0, limit) };
+  }
+  return { ok: items.length > 0, items };
+}
+
+async function searchOfficial({
+  game,
+  query,
+  limit = 5,
+  locale,
+  forDigest = false,
+} = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const entry = game ? resolveGameEntry(game) : null;
+  const entryId = entry?.id || (game ? String(game).toLowerCase().trim() : null);
+  const q = String(query || "").trim();
+  if (!entryId && !q) {
+    return { ok: false, error: "need_game_or_query", items: [] };
+  }
+
+  const wlEntry = entry || (entryId ? readWatchlist()[entryId] : null) || {};
+  const steamAppid =
+    wlEntry.steam_appid != null && String(wlEntry.steam_appid).trim() !== ""
+      ? String(wlEntry.steam_appid).trim()
+      : null;
+  const officialUrl = wlEntry.official_url
+    ? String(wlEntry.official_url).trim()
+    : null;
+  const officialApi = wlEntry.official_api
+    ? String(wlEntry.official_api).trim()
+    : null;
+  const useBd2 =
+    officialApi === "bd2_notices" || usesBd2OfficialApi(entryId, officialUrl);
+  const useSmilegate = !useBd2 && usesSmilegateNewsroom(entryId, officialApi);
+  const useStar =
+    !useBd2 && !useSmilegate && usesStarOfficial(entryId, officialApi);
+  const useLo2 =
+    !useBd2 && !useSmilegate && !useStar && usesLo2Official(entryId, officialApi);
+  const useAsora =
+    !useBd2 &&
+    !useSmilegate &&
+    !useStar &&
+    !useLo2 &&
+    usesAsoraOfficial(entryId, officialApi);
+
+  return withCache(
+    "searchOfficial",
+    {
+      game: entryId || null,
+      query: q || null,
+      limit: lim,
+      steam_appid: steamAppid,
+      official_url: officialUrl,
+      official_api: useBd2
+        ? "bd2_notices"
+        : useSmilegate
+          ? "smilegate_newsroom"
+          : useStar
+            ? "star_official"
+            : useLo2
+              ? "lo2_official"
+              : useAsora
+                ? "asora_official"
+                : officialApi || null,
+      forDigest: !!forDigest,
+      locale: locale || null,
+    },
+    async () => {
+      // 1) Steam appid official path (e.g. Horizon Walker)
+      if (steamAppid) {
+        const news = await steamNewsForApp(steamAppid, lim);
+        const items = (news.items || []).map((it) => ({
+          ...it,
+          source: "official",
+        }));
+        return {
+          ok: items.length > 0,
+          game: entryId,
+          query: q || null,
+          via: "steam_appid",
+          appid: steamAppid,
+          count: items.length,
+          items,
+          ...(items.length ? {} : { error: news.error || "no_official" }),
+        };
+      }
+
+      // 2) Brown Dust 2 official notices API (prefer over Jina SPA)
+      if (useBd2) {
+        try {
+          // Digest / bare game-name queries → list; otherwise search endpoint
+          const wl = wlEntry || {};
+          const nameHints = [
+            entryId,
+            wl.name,
+            wl.name_zh,
+            ...(Array.isArray(wl.keywords) ? wl.keywords : []),
+          ]
+            .filter(Boolean)
+            .map((x) => String(x).toLowerCase());
+          const qIsGameName =
+            !q || nameHints.includes(q.toLowerCase());
+          const apiQ = qIsGameName ? "" : q;
+          const fetched = await searchBd2Official({
+            limit: lim,
+            query: apiQ || undefined,
+            locale: locale || "en",
+            forDigest: !!forDigest,
+          });
+          let items = fetched.items || [];
+          // Soft client filter when caller passed a non-game query
+          if (q && !qIsGameName && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            if (filtered.length) items = filtered;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: "bd2_notices",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          return {
+            ok: false,
+            game: entryId,
+            query: q || null,
+            via: "bd2_notices",
+            official_url: officialUrl,
+            count: 0,
+            items: [],
+            error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // 3) Smilegate newsroom (miraesi / MIRESI) — live scrape + seed fallback
+      if (useSmilegate) {
+        try {
+          const kwHints = [
+            ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
+            wlEntry.name,
+            wlEntry.name_zh,
+          ].filter(Boolean);
+          const fetched = await searchSmilegateNewsroom({
+            limit: lim,
+            filterKeywords: kwHints,
+          });
+          let items = fetched.items || [];
+          if (q && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            // Keep seeds/live if query is just the game name
+            const nameHints = kwHints.map((x) => String(x).toLowerCase());
+            const qIsGameName =
+              !q || nameHints.includes(q.toLowerCase()) || q.toLowerCase() === entryId;
+            if (filtered.length) items = filtered;
+            else if (!qIsGameName) items = filtered;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: fetched.via || "smilegate_newsroom",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(fetched.scrape_error
+              ? { scrape_error: fetched.scrape_error }
+              : {}),
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          return {
+            ok: false,
+            game: entryId,
+            query: q || null,
+            via: "smilegate_newsroom",
+            official_url: officialUrl,
+            count: 0,
+            items: [],
+            error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // 4) Azur Promilia / star — live scrape+Jina + curated seed (never no_official_config)
+      if (useStar) {
+        try {
+          const kwHints = [
+            ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
+            wlEntry.name,
+            wlEntry.name_zh,
+            "Azur Promilia",
+            "蓝色星原",
+            "旅谣",
+          ].filter(Boolean);
+          const fetched = await searchStarOfficial({
+            limit: lim,
+            filterKeywords: kwHints,
+          });
+          let items = fetched.items || [];
+          if (q && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            const nameHints = kwHints.map((x) => String(x).toLowerCase());
+            const qIsGameName =
+              !q ||
+              nameHints.includes(q.toLowerCase()) ||
+              q.toLowerCase() === entryId;
+            if (filtered.length) items = filtered;
+            else if (!qIsGameName) items = filtered;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: fetched.via || "star_official",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(fetched.scrape_error
+              ? { scrape_error: fetched.scrape_error }
+              : {}),
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          // Still return seed on unexpected throw
+          const seeds = STAR_OFFICIAL_SEED.slice(0, lim).map((it) => ({
+            title: it.title,
+            url: it.url,
+            source: "official",
+          }));
+          return {
+            ok: seeds.length > 0,
+            game: entryId,
+            query: q || null,
+            via: "star_seed",
+            official_url: officialUrl,
+            count: seeds.length,
+            items: seeds,
+            scrape_error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // 5) Last Origin 2 — VALOFE scrape + curated publisher seed
+      if (useLo2) {
+        try {
+          const kwHints = [
+            ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
+            wlEntry.name,
+            wlEntry.name_zh,
+            "VALOFE",
+            "Last Origin 2",
+            "라스트오리진2",
+          ].filter(Boolean);
+          const fetched = await searchLo2Official({
+            limit: lim,
+            filterKeywords: kwHints,
+          });
+          let items = fetched.items || [];
+          if (q && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            const nameHints = kwHints.map((x) => String(x).toLowerCase());
+            const qIsGameName =
+              !q ||
+              nameHints.includes(q.toLowerCase()) ||
+              q.toLowerCase() === entryId;
+            if (filtered.length) items = filtered;
+            else if (!qIsGameName) items = filtered;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: fetched.via || "lo2_official",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(fetched.scrape_error
+              ? { scrape_error: fetched.scrape_error }
+              : {}),
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          const seeds = LO2_OFFICIAL_SEED.slice(0, lim).map((it) => ({
+            title: it.title,
+            url: it.url,
+            source: "official",
+          }));
+          return {
+            ok: seeds.length > 0,
+            game: entryId,
+            query: q || null,
+            via: "lo2_seed",
+            official_url: officialUrl,
+            count: seeds.length,
+            items: seeds,
+            scrape_error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // 6) Astrae Oratio / asora — plaync + NC Soft TW scrape + curated seed
+      if (useAsora) {
+        try {
+          const kwHints = [
+            ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
+            wlEntry.name,
+            wlEntry.name_zh,
+            "阿索拉",
+            "Astrae Oratio",
+            "astraeoratio",
+            "NCSOFT",
+            "Dynamis One",
+          ].filter(Boolean);
+          const fetched = await searchAsoraOfficial({
+            limit: lim,
+            filterKeywords: kwHints,
+          });
+          let items = fetched.items || [];
+          if (q && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            const nameHints = kwHints.map((x) => String(x).toLowerCase());
+            const qIsGameName =
+              !q ||
+              nameHints.includes(q.toLowerCase()) ||
+              q.toLowerCase() === entryId;
+            if (filtered.length) items = filtered;
+            else if (!qIsGameName) items = filtered;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: fetched.via || "asora_official",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(fetched.scrape_error
+              ? { scrape_error: fetched.scrape_error }
+              : {}),
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          const seeds = ASORA_OFFICIAL_SEED.slice(0, lim).map((it) => ({
+            title: it.title,
+            url: it.url,
+            source: "official",
+          }));
+          return {
+            ok: seeds.length > 0,
+            game: entryId,
+            query: q || null,
+            via: "asora_seed",
+            official_url: officialUrl,
+            count: seeds.length,
+            items: seeds,
+            scrape_error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // 7) official_url via Jina (nikke / others — not bd2 SPA)
+      if (officialUrl) {
+        try {
+          const fetched = await fetchOfficialViaJina(officialUrl, lim);
+          // Optional query filter
+          let items = fetched.items || [];
+          if (q && items.length) {
+            const filtered = items.filter(
+              (it) => includesCI(it.title, q) || includesCI(it.url, q)
+            );
+            if (filtered.length) items = filtered;
+          }
+          // Miraesi / Smilegate boards mix other games — keep MIRESI-ish only
+          if (
+            entryId === "miraesi" ||
+            /newsroom\.smilegate\.com/i.test(String(officialUrl))
+          ) {
+            const kwHints = [
+              ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
+              wlEntry.name,
+              wlEntry.name_zh,
+              "MIRESI",
+              "미래시",
+              "Invisible Future",
+            ].filter(Boolean);
+            const mir = items.filter((it) =>
+              matchesMiresiOfficial(it.title, it.url, kwHints)
+            );
+            if (mir.length) items = mir;
+          }
+          return {
+            ok: items.length > 0,
+            game: entryId,
+            query: q || null,
+            via: "official_url",
+            official_url: officialUrl,
+            count: items.length,
+            items,
+            ...(items.length ? {} : { error: fetched.error || "no_official" }),
+          };
+        } catch (e) {
+          return {
+            ok: false,
+            game: entryId,
+            query: q || null,
+            via: "official_url",
+            official_url: officialUrl,
+            count: 0,
+            items: [],
+            error: truncate(e.message, 80),
+          };
+        }
+      }
+
+      // No official_url / steam_appid configured
+      return {
+        ok: false,
+        game: entryId,
+        query: q || null,
+        count: 0,
+        items: [],
+        error: "no_official_config",
+      };
+    }
+  );
+}
+
+async function attachDigestSummaries(items, entryId, maxN = 2) {
+  let attached = 0;
+  for (const it of items) {
+    if (attached >= maxN) break;
+    const src = String(it?.source || "").toLowerCase();
+    const can =
+      (src === "gamekee" && (it.id != null || /gamekee\.com/i.test(it.url || ""))) ||
+      /gamekee\.com/i.test(String(it?.url || ""));
+    if (!can) continue;
+    try {
+      const art = await getArticle({
+        url: it.url,
+        id: it.id,
+        game: entryId,
+      });
+      if (art?.ok && art.summary) {
+        it.summary = truncate(art.summary, 240);
+        attached += 1;
+      }
+    } catch {
+      /* don't fail digest */
+    }
+  }
+  return attached;
+}
+
+async function digestGame(entryId, entry, opts = {}) {
+  const summarize = !!(opts && opts.summarize);
+  const alias = pickAlias(entry);
+  const query = alias === "www" ? pickQuery(entry) : pickQuery(entry, "");
+  const preferInven = INVEN_PREF_GAMES.has(entryId);
+  const isNikke =
+    entryId === "nikke" ||
+    isNikkeContext(pickQuery(entry), entry);
+
+  // Cap mix ≤5 after dedupe+noise. Slots vary by game family.
+  let gkCap, tapCap, invCap, bahCap, pryCap, offCap, steamCap;
+  if (preferInven) {
+    gkCap = 2;
+    tapCap = 1;
+    invCap = 2;
+    bahCap = 1;
+    pryCap = 0;
+    offCap = 1;
+    steamCap = 1;
+  } else if (isNikke) {
+    gkCap = 2;
+    tapCap = 1;
+    invCap = 0;
+    bahCap = 1;
+    pryCap = 2;
+    offCap = 1;
+    steamCap = 0;
+  } else {
+    gkCap = 2;
+    tapCap = 1;
+    invCap = 0;
+    bahCap = 1;
+    pryCap = 0;
+    offCap = 1;
+    // Fuzzy Steam search only when no appid; bd2 must not fuzzy-match unrelated apps
+    steamCap = entry?.steam_appid != null ? 0 : 1;
+    if (entryId === "bd2") steamCap = 0;
+  }
+
+  const tapQ = String(
+    entry.name_zh || entry.name || pickQuery(entry) || ""
+  ).trim();
+  const kws = Array.isArray(entry.keywords) ? entry.keywords : [];
+  const invenQ = String(kws[0] || entry.name_zh || entry.name || "").trim();
+  const bahQ = String(
+    BAHAMUT_QUERY_PREF[entryId] ||
+      (Array.isArray(entry.keywords) && entry.keywords[0]) ||
+      entry.name_zh ||
+      entry.name ||
+      pickQuery(entry) ||
+      ""
+  ).trim();
+  const steamQ = String(entry.name || entry.name_zh || pickQuery(entry) || "").trim();
+  const steamAppid =
+    entry?.steam_appid != null && String(entry.steam_appid).trim() !== ""
+      ? String(entry.steam_appid).trim()
+      : null;
+
+  const empty = { ok: false, items: [] };
+
+  const [
+    gkPrimary,
+    tapRes,
+    invRes,
+    bahRes,
+    pryRes,
+    offRes,
+    steamRes,
+  ] = await Promise.all([
+    (async () => {
+      try {
+        return await searchGamekee({
+          alias,
+          query: alias === "www" ? query : query || "",
+          limit: gkCap,
+        });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!(tapQ && tapCap > 0)) return empty;
+      try {
+        return await searchTaptap({ query: tapQ, limit: tapCap });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!(preferInven && invCap > 0 && invenQ)) return empty;
+      try {
+        return await searchInven({ query: invenQ, limit: invCap });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!((bahQ || BAHAMUT_BSN[entryId] != null) && bahCap > 0)) return empty;
+      try {
+        return await searchBahamut({
+          query: bahQ,
+          limit: Math.max(bahCap + 2, 4),
+          game: entryId,
+          bsn: BAHAMUT_BSN[entryId] ?? null,
+        });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!(isNikke && pryCap > 0)) return empty;
+      try {
+        return await searchPrydwen({
+          query: pickQuery(entry) || "NIKKE",
+          limit: Math.max(pryCap + 3, 5),
+        });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!(offCap > 0)) return empty;
+      try {
+        return await searchOfficial({
+          game: entryId,
+          // Digest wants latest ops notices, not keyword search
+          query: "",
+          limit: Math.max(offCap + 2, 4),
+          forDigest: true,
+        });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      if (!(steamCap > 0 && (steamAppid || steamQ))) return empty;
+      try {
+        return await searchSteam({
+          query: steamQ || undefined,
+          appid: steamAppid || undefined,
+          limit: Math.max(steamCap + 1, 3),
+        });
+      } catch {
+        return empty;
+      }
+    })(),
+  ]);
+
+  let gkOut = gkPrimary;
+  if (!gkOut.ok && alias !== "www" && query) {
+    try {
+      gkOut = await searchGamekee({ alias: "www", query, limit: gkCap });
+    } catch {
+      /* keep primary */
+    }
+  }
+
+  const buckets = {
+    gamekee: [],
+    official: [],
+    taptap: [],
+    inven: [],
+    bahamut: [],
+    prydwen: [],
+    steam: [],
+  };
+
+  for (const it of (gkOut.items || []).slice(0, gkCap + 2)) {
+    const row = {
+      title: it.title,
+      url: it.url,
+      source: "gamekee",
+      updated: it.updated || null,
+      id: it.id,
+    };
+    if (isNoise(row)) continue;
+    if (buckets.gamekee.length >= gkCap) break;
+    buckets.gamekee.push(row);
+  }
+
+  {
+    let offItems = offRes.items || [];
+    if (
+      entryId === "bd2" ||
+      /browndust2\.com/i.test(String(entry?.official_url || ""))
+    ) {
+      offItems = preferBd2OfficialForDigest(offItems);
+    }
+    for (const it of offItems) {
+      if (buckets.official.length >= offCap) break;
+      const row = {
+        title: it.title,
+        url: it.url,
+        date: it.date || null,
+        source: "official",
+        ...(it.category ? { category: it.category } : {}),
+      };
+      if (isNoise(row)) continue;
+      if (isBd2ComicSubject(row.title) && offItems.some((x) => !isBd2ComicSubject(x.title))) {
+        continue;
+      }
+      buckets.official.push(row);
+    }
+  }
+
+  for (const it of tapRes.items || []) {
+    if (buckets.taptap.length >= tapCap) break;
+    const row = {
+      title: it.title,
+      url: it.url,
+      source: "taptap",
+    };
+    if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
+    buckets.taptap.push(row);
+  }
+
+  for (const it of invRes.items || []) {
+    if (buckets.inven.length >= invCap) break;
+    const row = {
+      title: it.title,
+      url: it.url,
+      source: "inven",
+    };
+    if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
+    buckets.inven.push(row);
+  }
+
+  for (const it of bahRes.items || []) {
+    if (buckets.bahamut.length >= bahCap) break;
+    const row = {
+      title: it.title,
+      url: it.url,
+      date: it.date || null,
+      source: "bahamut",
+    };
+    if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
+    buckets.bahamut.push(row);
+  }
+
+  for (const it of pryRes.items || []) {
+    if (buckets.prydwen.length >= pryCap) break;
+    const row = {
+      title: it.title,
+      url: it.url,
+      date: it.date || null,
+      source: it.source === "nikkegg" ? "nikkegg" : "prydwen",
+    };
+    if (isNoise(row)) continue;
+    buckets.prydwen.push(row);
+  }
+
+  for (const it of steamRes.items || []) {
+    if (buckets.steam.length >= steamCap) break;
+    const row = {
+      title: it.title,
+      url: it.url,
+      date: it.date || null,
+      source: "steam",
+    };
+    if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
+    buckets.steam.push(row);
+  }
+
+  // Interleave preferred sources; keep total ≤5
+  let order;
+  if (preferInven) {
+    order = ["official", "inven", "taptap", "gamekee", "bahamut", "steam"];
+  } else if (isNikke) {
+    order = ["gamekee", "official", "prydwen", "bahamut", "taptap", "steam"];
+  } else {
+    order = ["gamekee", "official", "taptap", "bahamut", "steam"];
+  }
+  const mixed = [];
+  for (const src of order) {
+    const bucket = [...(buckets[src] || [])].sort(
+      (a, b) => itemDateMs(b) - itemDateMs(a)
+    );
+    for (const it of bucket) mixed.push(it);
+  }
+  let items = dedupeByUrlOrTitle(mixed)
+    .filter((it) => !isNoise(it))
+    .filter((it) => passesDigestGameGate(it, entry, entryId))
+    .slice(0, 5);
+
+  let wantDiff = !!(opts && opts.diff);
+  const onlyNew = !!(opts && opts.only_new);
+  if (onlyNew) wantDiff = true;
+
+  let new_count;
+  let seen_count;
+  let skipped_seen;
+  let empty_diff = false;
+
+  if (wantDiff) {
+    const diffed = applyDigestDiff(entryId, items, { only_new: onlyNew });
+    items = diffed.items;
+    new_count = diffed.new_count;
+    seen_count = diffed.seen_count;
+    if (onlyNew) skipped_seen = diffed.skipped_seen;
+    if (diffed.empty_diff) empty_diff = true;
+  }
+
+  // Summarize after diff filter so morning only_new skips seen articles
+  if (summarize && items.length) {
+    await attachDigestSummaries(items, entryId, 2);
+  }
+
+  const sources = [...new Set(items.map((i) => i.source))];
+  const ok = items.length > 0 || empty_diff;
+  return {
+    game: entryId,
+    name: entry.name_zh || entry.name || entryId,
+    alias,
+    ok,
+    count: items.length,
+    sources,
+    items,
+    ...(wantDiff
+      ? { new_count: new_count ?? 0, seen_count: seen_count ?? 0 }
+      : {}),
+    ...(onlyNew ? { skipped_seen: skipped_seen ?? 0 } : {}),
+    ...(items.length
+      ? {}
+      : empty_diff
+        ? { error: "empty_diff" }
+        : { error: truncate(gkOut.error || offRes.error || "no_items", 80) }),
+    ...(gkOut.via ? { via: gkOut.via } : {}),
+  };
+}
+
+
+/* Calendar parsers live in ./calendar-parse.js (unit-testable without MCP). */
+
+const CAL_BODY_FETCH_CAP = 6;
+const CAL_BODY_CONCURRENCY = 3;
+const CAL_BODY_SNIPPET_CHARS = 1800;
+const CAL_DATE_BLOB_CHARS = 1200;
+
+/**
+ * Strip common Jina reader chrome / nav boilerplate from plain text.
+ */
+function scrubJinaBodyText(text) {
+  let t = String(text || "");
+  t = t.replace(/^Title:.*$/gim, "");
+  t = t.replace(/^URL Source:.*$/gim, "");
+  t = t.replace(/^Published Time:.*$/gim, "");
+  t = t.replace(/^Markdown Content:.*$/gim, "");
+  t = t.replace(/^Warning:.*$/gim, "");
+  // Drop very short nav-ish lines at the top
+  const lines = t.split(/\n+/);
+  const kept = [];
+  for (const line of lines) {
+    const s = line.trim();
+    if (!s) continue;
+    if (
+      kept.length < 4 &&
+      /^(HOME|NEWS|ABOUT|MEDIA|LOGIN|SIGN\s*UP|MENU|导航|首頁|首页)$/i.test(s)
+    ) {
+      continue;
+    }
+    kept.push(s);
+  }
+  return kept.join(" ").replace(/\s+/g, " ").trim();
+}
+
+async function mapPoolLimited(items, concurrency, fn) {
+  const list = Array.isArray(items) ? items : [];
+  if (!list.length) return [];
+  const results = new Array(list.length);
+  let cursor = 0;
+  const workers = Array.from(
+    { length: Math.min(concurrency, list.length) },
+    async () => {
+      while (true) {
+        const i = cursor++;
+        if (i >= list.length) break;
+        results[i] = await fn(list[i], i);
+      }
+    }
+  );
+  await Promise.all(workers);
+  return results;
+}
+
+/**
+ * Fetch a short body/summary snippet for calendar date enrichment.
+ * BD2 official → notices detail API (full content); gamekee → getArticle;
+ * else Jina r.jina.ai plain text. Prefer BD2 detail **before** Jina (SPA junk).
+ */
+async function fetchCalendarBodySnippet(item, gameId) {
+  const url = String(item?.url || "").trim();
+  if (!url || !/^https?:\/\//i.test(url)) return null;
+
+  const src = String(item?.source || "").toLowerCase();
+  const noticeId =
+    parseBd2NoticeId(item?.id) ||
+    parseBd2NoticeId(url) ||
+    null;
+  const isBd2 =
+    isBd2NewsViewUrl(url) ||
+    (src === "official" && noticeId && /browndust2\.com/i.test(url)) ||
+    (src === "official" && !!noticeId && String(gameId || item?.game || "").toLowerCase() === "bd2");
+
+  // BD2: always prefer official detail API over short contentPreview / Jina
+  if (isBd2 && noticeId) {
+    return withCache("calendarBody", { via: "bd2_detail", id: noticeId }, async () => {
+      try {
+        const detail = await fetchBd2NoticeDetail(noticeId, "en-us");
+        if (detail?.ok && detail.content) {
+          const plain = stripHtml(String(detail.content)).trim();
+          if (plain.length >= 20) {
+            return truncate(plain, CAL_BODY_SNIPPET_CHARS);
+          }
+        }
+      } catch {
+        /* fall through to attached / jina */
+      }
+      const attached = item?.summary != null ? String(item.summary).trim() : "";
+      if (attached.length >= 40) {
+        return truncate(attached, CAL_BODY_SNIPPET_CHARS);
+      }
+      return null;
+    });
+  }
+
+  const attached = item?.summary != null ? String(item.summary).trim() : "";
+  if (attached.length >= 40) {
+    return truncate(attached, CAL_BODY_SNIPPET_CHARS);
+  }
+
+  const isGk =
+    src === "gamekee" || /gamekee\.com/i.test(url);
+
+  return withCache("calendarBody", { url }, async () => {
+    try {
+      if (isGk) {
+        const art = await getArticle({
+          url,
+          id: item?.id,
+          game: gameId || item?.game,
+        });
+        if (art?.ok && art.summary) {
+          return truncate(String(art.summary), CAL_BODY_SNIPPET_CHARS);
+        }
+        return null;
+      }
+      const jinaUrl = `https://r.jina.ai/${url}`;
+      const res = await fetchText(jinaUrl, {
+        headers: { Accept: "text/plain,text/markdown,*/*" },
+        timeoutMs: 20000,
+      });
+      if (!res.ok || !res.text) return null;
+      const scrubbed = scrubJinaBodyText(res.text);
+      if (!scrubbed || scrubbed.length < 20) return null;
+      return truncate(scrubbed, CAL_BODY_SNIPPET_CHARS);
+    } catch {
+      return null;
+    }
+  });
+}
+
+/**
+ * After initial parse, enrich undated events by re-parsing title+body snippet.
+ * Cap: max 6 body fetches per game; typed events preferred; concurrency ≤3.
+ */
+async function enrichCalendarDates(events, { gameId, itemByUrl } = {}) {
+  const list = Array.isArray(events) ? events : [];
+  if (!list.length) return list;
+
+  const candidates = list
+    .map((ev, idx) => ({ ev, idx }))
+    .filter(({ ev }) => eventNeedsDateEnrichment(ev))
+    .filter(({ ev }) => {
+      const u = String(ev?.url || "").trim();
+      return u && /^https?:\/\//i.test(u);
+    });
+
+  candidates.sort((a, b) => {
+    const ra = TYPED_EVENT_RANK[a.ev.type] ?? 99;
+    const rb = TYPED_EVENT_RANK[b.ev.type] ?? 99;
+    if (ra !== rb) return ra - rb;
+    return a.idx - b.idx;
+  });
+
+  const toFetch = candidates.slice(0, CAL_BODY_FETCH_CAP);
+  if (!toFetch.length) return list;
+
+  await mapPoolLimited(toFetch, CAL_BODY_CONCURRENCY, async ({ ev }) => {
+    const url = String(ev.url || "").trim();
+    const baseItem =
+      (itemByUrl && (itemByUrl.get(url) || itemByUrl.get(url.replace(/\/$/, "")))) ||
+      {};
+    const item = {
+      url,
+      source: ev.source || baseItem.source,
+      id: baseItem.id ?? ev.id,
+      game: gameId || ev.game,
+      summary: baseItem.summary || "",
+    };
+
+    const isBd2Item =
+      isBd2NewsViewUrl(url) ||
+      (String(item.source || "").toLowerCase() === "official" &&
+        (parseBd2NoticeId(item.id) || parseBd2NoticeId(url)));
+
+    let snippet = null;
+    const attached = String(item.summary || "").trim();
+    // BD2 contentPreview is often too short for event windows — prefer detail API
+    if (attached && !isBd2Item) {
+      snippet = truncate(attached, CAL_DATE_BLOB_CHARS);
+    }
+    if (!snippet || snippet.length < 40 || isBd2Item) {
+      const fetched = await fetchCalendarBodySnippet(item, gameId || ev.game);
+      if (fetched) snippet = fetched;
+      else if (!snippet && attached) snippet = truncate(attached, CAL_DATE_BLOB_CHARS);
+    }
+    if (!snippet) return;
+
+    const blob = `${ev.title || ""} ${snippet}`.slice(
+      0,
+      160 + CAL_DATE_BLOB_CHARS
+    );
+    const parsed = parseDatesFromText(blob);
+    const { start, end, precision } = parsed;
+    if (!start && !end) return;
+    if (!ev.start && start) ev.start = start;
+    if (!ev.end && end) ev.end = end;
+    if (precision === "month") ev.precision = "month";
+    bumpEventConfidence(ev);
+  });
+
+  return list;
+}
+
+
+function isPrydwenCharacterPage(item) {
+  const src = String(item?.source || "").toLowerCase();
+  if (src !== "prydwen") return false;
+  const url = String(item?.url || "");
+  try {
+    const u = new URL(url, PRYDWEN_ORIGIN);
+    return /\/nikke\/characters?\//i.test(u.pathname || "");
+  } catch {
+    return /\/nikke\/characters?\//i.test(url);
+  }
+}
+
+/**
+ * Convert a digest/search item into a short calendar event, or null to skip.
+ * Uses title + up to ~1200 chars of attached summary for date parse.
+ * @param {object} item
+ * @param {{id?:string,name?:string,name_zh?:string}} gameMeta
+ */
+function parseEventFromItem(item, gameMeta = {}) {
+  if (!item) return null;
+  if (isNoise(item)) return null;
+
+  const title = normTitle(item.title);
+  if (!title) return null;
+
+  const summary =
+    item.summary != null && String(item.summary).trim()
+      ? String(item.summary).trim()
+      : "";
+  const blob = summary
+    ? `${title} ${summary.slice(0, CAL_DATE_BLOB_CHARS)}`
+    : title;
+
+  const type = classifyEventType(blob);
+  const { start, end, precision } = parseDatesFromText(blob);
+
+  if (isPrydwenCharacterPage(item) && !start && !end && type === "other") {
+    return null;
+  }
+
+  if (
+    type === "other" &&
+    (/known\s*issues|statement on|unauthorized|\bfaq\b|兌換碼|coupon|序號|optimization on|\bupdate on\b/i.test(
+      title
+    ) ||
+      /^IMPORTANT\s+\d{1,2}[-/]\d{1,2}\b/i.test(title))
+  ) {
+    return null;
+  }
+
+  if (type === "other") {
+    if (!(start && end) || start === end) return null;
+  }
+
+  const hasTypeSignal = type !== "other";
+  let confidence = "low";
+  // Month-only windows stay low (do not blind-bump to high)
+  if (precision === "month") {
+    confidence = "low";
+  } else if (start && end) confidence = "high";
+  else if ((start || end) && hasTypeSignal) confidence = "high";
+
+  const name =
+    gameMeta.name_zh || gameMeta.name || gameMeta.id || item.game || "";
+
+  return {
+    game: gameMeta.id || item.game || null,
+    name,
+    type,
+    title: truncate(title, 120),
+    start,
+    end,
+    note: buildEventNote(title, type),
+    url: item.url || "",
+    source: item.source || "unknown",
+    confidence,
+    ...(precision === "month" ? { precision: "month" } : {}),
+    ...(item.id ? { id: item.id } : {}),
+  };
+}
+
+/**
+ * Build gacha/event calendar from digest items across watchlist (or one game).
+ * Undated events may be enriched via article body/summary (capped fetches).
+ * @param {{game?:string, limit?:number}} opts
+ */
+async function buildCalendar(opts = {}) {
+  const limRaw = Number(opts.limit);
+  const limit = Math.min(
+    Math.max(Number.isFinite(limRaw) ? Math.trunc(limRaw) : 20, 1),
+    30
+  );
+  const as_of = new Date().toISOString();
+  const wl = readWatchlist();
+
+  let entries;
+  if (opts.game) {
+    const entry = resolveGameEntry(opts.game);
+    if (!entry) {
+      return {
+        ok: false,
+        error: "unknown_game",
+        game: opts.game,
+        count: 0,
+        as_of,
+        events: [],
+      };
+    }
+    entries = [[entry.id, entry]];
+  } else {
+    entries = Object.entries(wl);
+  }
+
+  const events = [];
+  for (const [id, entry] of entries) {
+    const meta = {
+      id,
+      name: entry.name,
+      name_zh: entry.name_zh,
+    };
+    const alias = pickAlias(entry);
+    const query = pickQuery(entry);
+    const bahQ = String(
+      BAHAMUT_QUERY_PREF[id] ||
+        (Array.isArray(entry.keywords) && entry.keywords[0]) ||
+        entry.name_zh ||
+        entry.name ||
+        query ||
+        ""
+    ).trim();
+
+    const empty = { ok: false, items: [] };
+    const [digest, offRes, gkRes, bahRes] = await Promise.all([
+      digestGame(id, entry, {
+        summarize: false,
+        diff: false,
+        only_new: false,
+      }).catch(() => empty),
+      searchOfficial({
+        game: id,
+        query: "",
+        limit: 8,
+        forDigest: true,
+      }).catch(() => empty),
+      searchGamekee({
+        alias,
+        query: alias === "www" ? query : query || "",
+        limit: 6,
+      }).catch(() => empty),
+      (bahQ || BAHAMUT_BSN[id] != null
+        ? searchBahamut({
+            query: bahQ,
+            limit: 6,
+            game: id,
+            bsn: BAHAMUT_BSN[id] ?? null,
+          })
+        : Promise.resolve(empty)
+      ).catch(() => empty),
+    ]);
+
+    const pool = [];
+    for (const it of digest?.items || []) pool.push(it);
+    for (const it of offRes?.items || []) {
+      pool.push({
+        title: it.title,
+        url: it.url,
+        date: it.date || null,
+        source: "official",
+        ...(it.id ? { id: it.id } : {}),
+        ...(it.category ? { category: it.category } : {}),
+        ...(it.summary ? { summary: it.summary } : {}),
+      });
+    }
+    for (const it of gkRes?.items || []) {
+      pool.push({
+        title: it.title,
+        url: it.url,
+        source: "gamekee",
+        updated: it.updated || null,
+        id: it.id,
+        ...(it.summary ? { summary: it.summary } : {}),
+      });
+    }
+    for (const it of bahRes?.items || []) {
+      pool.push({
+        title: it.title,
+        url: it.url,
+        date: it.date || null,
+        source: "bahamut",
+        ...(it.summary ? { summary: it.summary } : {}),
+      });
+    }
+
+    const merged = dedupeByUrlOrTitle(pool).filter((it) => !isNoise(it));
+    const itemByUrl = new Map();
+    for (const it of merged) {
+      if (it?.url) itemByUrl.set(String(it.url), it);
+    }
+
+    const gameEvents = [];
+    for (const it of merged) {
+      const ev = parseEventFromItem(it, meta);
+      if (ev) gameEvents.push(ev);
+    }
+
+    await enrichCalendarDates(gameEvents, { gameId: id, itemByUrl });
+    events.push(...gameEvents);
+  }
+
+  // Dedupe by game + title + window
+  const seen = new Set();
+  const deduped = [];
+  for (const ev of events) {
+    const key = `${ev.game}|${String(ev.title).toLowerCase()}|${ev.start || ""}|${ev.end || ""}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(ev);
+  }
+
+  deduped.sort((a, b) => {
+    if (a.start == null && b.start == null) return 0;
+    if (a.start == null) return 1;
+    if (b.start == null) return -1;
+    if (a.start < b.start) return -1;
+    if (a.start > b.start) return 1;
+    return 0;
+  });
+
+  const capped = deduped.slice(0, Math.min(limit, 30));
+  return {
+    ok: true,
+    count: capped.length,
+    as_of,
+    events: capped,
+  };
+}
+
+
+const server = new McpServer({
+  name: "game-intel",
+  version: "0.3.23",
+});
+
+server.tool(
+  "watchlist",
+  "Return current watchlist short JSON (id → name/keywords/alias).",
+  {},
+  async () => {
+    const wl = readWatchlist();
+    const games = Object.entries(wl).map(([id, e]) => ({
+      id,
+      name: e.name || "",
+      name_zh: e.name_zh || "",
+      gamekee_alias: e.gamekee_alias ?? null,
+      keywords: Array.isArray(e.keywords) ? e.keywords.slice(0, 8) : [],
+    }));
+    return textResult({ ok: true, count: games.length, games });
+  }
+);
+
+server.tool(
+  "add_watch",
+  "Add/update a watchlist entry. Persists to data/watchlist.json",
+  {
+    id: z.string().min(1).max(32),
+    name: z.string().min(1).max(80),
+    name_zh: z.string().max(80).optional(),
+    keywords: z.array(z.string().max(40)).max(12).default([]),
+    gamekee_alias: z.string().max(32).nullable().optional(),
+  },
+  async ({ id, name, name_zh, keywords, gamekee_alias }) => {
+    const key = String(id).toLowerCase().trim().replace(/[^a-z0-9_-]/g, "");
+    if (!key) return textResult({ ok: false, error: "bad_id" });
+    const wl = readWatchlist();
+    const prev = wl[key] || {};
+    wl[key] = {
+      name: String(name).trim(),
+      name_zh: name_zh != null ? String(name_zh).trim() : prev.name_zh || "",
+      gamekee_alias:
+        gamekee_alias === undefined
+          ? prev.gamekee_alias ?? null
+          : gamekee_alias
+            ? String(gamekee_alias).trim()
+            : null,
+      keywords: (Array.isArray(keywords) ? keywords : [])
+        .map((k) => String(k).trim())
+        .filter(Boolean)
+        .slice(0, 12),
+      ...(prev.steam_appid != null ? { steam_appid: prev.steam_appid } : {}),
+      ...(prev.official_url ? { official_url: prev.official_url } : {}),
+    };
+    writeWatchlist(wl);
+    return textResult({ ok: true, id: key, entry: wl[key] });
+  }
+);
+
+server.tool(
+  "remove_watch",
+  "Remove a watchlist entry by id.",
+  {
+    id: z.string().min(1).max(32),
+  },
+  async ({ id }) => {
+    const key = String(id).toLowerCase().trim();
+    const wl = readWatchlist();
+    if (!wl[key]) return textResult({ ok: false, error: "not_found", id: key });
+    delete wl[key];
+    writeWatchlist(wl);
+    return textResult({ ok: true, removed: key });
+  }
+);
+
+server.tool(
+  "search_gamekee",
+  "Search GameKee articles. Args: game|query, limit<=10. Returns [{title,url,id,updated}].",
+  {
+    game: z.string().optional(),
+    query: z.string().max(80).optional(),
+    limit: z.number().int().min(1).max(10).default(5),
+  },
+  async ({ game, query, limit }) => {
+    try {
+      const entry = game ? resolveGameEntry(game) : null;
+      const alias = entry ? pickAlias(entry) : "www";
+      const q =
+        String(query || "").trim() ||
+        (entry ? (alias === "www" ? pickQuery(entry) : "") : "");
+      if (!q && !entry && !game) {
+        return textResult({
+          ok: false,
+          error: "need_game_or_query",
+        });
+      }
+      const useAlias =
+        entry && entry.gamekee_alias
+          ? entry.gamekee_alias
+          : game && !entry
+            ? String(game).toLowerCase()
+            : alias;
+      const out = await searchGamekee({
+        alias: useAlias,
+        query: q,
+        limit,
+      });
+      return textResult({
+        ...out,
+        game: entry?.id || game || null,
+      });
+    } catch (e) {
+      return textResult({
+        ok: false,
+        error: truncate(e.message, 80),
+      });
+    }
+  }
+);
+
+server.tool(
+  "search_taptap",
+  "Search TapTap apps/moments best-effort. Args: query, limit<=8. Returns [{title,url,source:taptap}].",
+  {
+    query: z.string().min(1).max(80),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ query, limit }) => {
+    try {
+      return textResult(await searchTaptap({ query, limit }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "search_inven",
+  "Search Inven (KR) webzine/boards. Args: query (KO/EN), limit<=8. Returns [{title,url,source:inven}].",
+  {
+    query: z.string().min(1).max(80),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ query, limit }) => {
+    try {
+      return textResult(await searchInven({ query, limit }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "search_bahamut",
+  "Bahamut per-game intel: Jina GNN search (type=2) + 哈啦板 scrape + RSS token match. Args: query required, limit<=8. Returns [{title,url,date?,source:bahamut}].",
+  {
+    query: z.string().min(1).max(80),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ query, limit }) => {
+    try {
+      const entry = resolveGameEntry(query);
+      const game = entry?.id || null;
+      return textResult(
+        await searchBahamut({
+          query: game ? bahamutPreferredQuery(game, query) : query,
+          limit,
+          game,
+          bsn: game ? BAHAMUT_BSN[game] ?? null : null,
+        })
+      );
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "search_prydwen",
+  "NIKKE Prydwen links + nikke.gg RSS. Args: query optional (default NIKKE), limit<=8. Items source prydwen|nikkegg.",
+  {
+    query: z.string().max(80).optional(),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ query, limit }) => {
+    try {
+      return textResult(await searchPrydwen({ query, limit }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "search_steam",
+  "Steam news/search. Args: query and/or appid, limit<=8. Returns [{title,url,date?,source:steam}].",
+  {
+    query: z.string().max(80).optional(),
+    appid: z.union([z.number().int(), z.string()]).optional(),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ query, appid, limit }) => {
+    try {
+      return textResult(await searchSteam({ query, appid, limit }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "search_official",
+  "Official news for a watchlist game (BD2 notices API / Jina official_url / steam_appid). Args: game, query?, limit<=8. source=official.",
+  {
+    game: z.string().min(1).max(40),
+    query: z.string().max(80).optional(),
+    limit: z.number().int().min(1).max(8).default(5),
+  },
+  async ({ game, query, limit }) => {
+    try {
+      return textResult(await searchOfficial({ game, query, limit }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "radar",
+  "Aggregate launch/CBT/公测/预约 headlines across TapTap+Inven+GameKee. Optional q. Max 15, deduped.",
+  {
+    q: z.string().max(40).optional(),
+  },
+  async ({ q }) => {
+    try {
+      return textResult(await radar({ q }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80), items: [] });
+    }
+  }
+);
+
+server.tool(
+  "get_article",
+  "Fetch one GameKee article by url or id. Returns {title,url,summary<=800,updated}. No HTML.",
+  {
+    url: z.string().url().optional(),
+    id: z.union([z.number().int(), z.string()]).optional(),
+    game: z.string().optional(),
+  },
+  async ({ url, id, game }) => {
+    try {
+      if (!url && (id === undefined || id === null || id === "")) {
+        return textResult({ ok: false, error: "need_url_or_id" });
+      }
+      const out = await getArticle({ url, id, game });
+      return textResult(out);
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+server.tool(
+  "digest",
+  "Multi-source headlines for one/all watchlist games (GameKee+official+TapTap+Bahamut; Prydwen for NIKKE; Inven for miraesi/lo2). Max 5 mixed each. summarize=true attaches ≤240char get_article summaries for top GameKee items. diff=true marks is_new vs digest-seen.json snapshot; only_new filters to new items. Morning routine: digest({ summarize:true, diff:true, only_new:true }).",
+  {
+    game: z.string().optional(),
+    summarize: z.boolean().optional().default(false),
+    diff: z.boolean().optional().default(false),
+    only_new: z.boolean().optional().default(false),
+  },
+  async ({ game, summarize, diff, only_new }) => {
+    try {
+      const wl = readWatchlist();
+      let entries;
+      if (game) {
+        const entry = resolveGameEntry(game);
+        if (!entry) {
+          return textResult({ ok: false, error: "unknown_game", game });
+        }
+        entries = [[entry.id, entry]];
+      } else {
+        entries = Object.entries(wl);
+      }
+      const digests = [];
+      for (const [id, entry] of entries) {
+        digests.push(
+          await digestGame(id, entry, {
+            summarize: !!summarize,
+            diff: !!diff,
+            only_new: !!only_new,
+          })
+        );
+      }
+      return textResult({
+        ok: digests.some((d) => d.ok),
+        count: digests.length,
+        digests,
+      });
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+
+server.tool(
+  "calendar",
+  "Gacha/event calendar from digest/official headlines. Heuristic dates+types (banner/event/maintenance/collab/login/other); enriches undated events from article body/summary (GameKee detail or Jina, capped). Relative 今日/tomorrow → Asia/Shanghai. Args: game?, limit<=30 (default 20). Returns short JSON events with start/end YYYY-MM-DD.",
+  {
+    game: z.string().optional(),
+    limit: z.number().int().min(1).max(30).default(20),
+  },
+  async ({ game, limit }) => {
+    try {
+      return textResult(
+        await buildCalendar({
+          game: game || undefined,
+          limit: limit ?? 20,
+        })
+      );
+    } catch (e) {
+      return textResult({
+        ok: false,
+        error: truncate(e.message, 80),
+        count: 0,
+        as_of: new Date().toISOString(),
+        events: [],
+      });
+    }
+  }
+);
+
+
+server.tool(
+  "resolve_alias",
+  "Horizon Walker nickname → canonical id/name (修女→lysandria, 虎鲸→yuha, 木星→set_iuppiter, …). Args: q.",
+  {
+    q: z.string().min(1).max(80),
+  },
+  async ({ q }) => {
+    try {
+      return textResult(resolveHwAlias(DATA_DIR, q));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+server.tool(
+  "guide_hw",
+  "Horizon Walker short guide card from local data (skills/stigmata/skill_prio/dopamine teams). Prefer over inventing. Args: q|id, topic?=overview|skills|stigmata|dopamine|all. Example: guide_hw({ q:'修女圣痕', topic:'stigmata' }).",
+  {
+    q: z.string().max(80).optional(),
+    id: z.string().max(40).optional(),
+    topic: z
+      .enum(["overview", "skills", "stigmata", "dopamine", "all"])
+      .optional(),
+  },
+  async ({ q, id, topic }) => {
+    try {
+      if (!q && !id) {
+        return textResult({ ok: false, error: "need_q_or_id" });
+      }
+      return textResult(
+        cachedGuide(DATA_DIR, {
+          game: "hw",
+          q: q || undefined,
+          id: id || undefined,
+          topic: topic || undefined,
+        })
+      );
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+server.tool(
+  "guide",
+  "Multi-game guide card. Args: game (default hw), q|id, topic?=overview|skills|stigmata|dopamine|all. HW fully supported; other watchlist games return no_cards_yet until verified cards exist. Prefer over inventing skill names/numbers.",
+  {
+    game: z.string().max(20).optional(),
+    q: z.string().max(80).optional(),
+    id: z.string().max(40).optional(),
+    topic: z
+      .enum(["overview", "skills", "stigmata", "dopamine", "all"])
+      .optional(),
+  },
+  async ({ game, q, id, topic }) => {
+    try {
+      if (!q && !id && (game || "hw") === "hw") {
+        // allow dopamine-only via topic on hw
+        if (topic !== "dopamine") {
+          return textResult({ ok: false, error: "need_q_or_id" });
+        }
+      }
+      if (!q && !id && game && game !== "hw") {
+        return textResult({ ok: false, error: "need_q_or_id", game });
+      }
+      return textResult(
+        cachedGuide(DATA_DIR, {
+          game: game || "hw",
+          q: q || undefined,
+          id: id || undefined,
+          topic: topic || undefined,
+        })
+      );
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+server.tool(
+  "list_guides",
+  "List guide coverage per watchlist game (character counts, stub/rich). Args: game? optional filter.",
+  {
+    game: z.string().max(20).optional(),
+  },
+  async ({ game }) => {
+    try {
+      return textResult(listGuides(DATA_DIR, { game: game || undefined }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+
+server.tool(
+  "ask_intel",
+  "Jev-gated intel ask. Runs jev gate game-intel on state, then answer/deep → local guide card (cached); brief → digest note; ask_dai/skip/escalate → return for parent. Args: state (required), game?, with_digest?. Requires PATH incl. $HOME/bin or JEV_PATH_PREFIX for jev.",
+  {
+    state: z.string().min(1).max(500),
+    game: z.string().max(20).optional(),
+    with_digest: z.boolean().optional(),
+  },
+  async ({ state, game, with_digest }) => {
+    try {
+      const out = await askIntel(DATA_DIR, {
+        state,
+        game: game || undefined,
+        with_digest: !!with_digest,
+      });
+      return textResult(out);
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(e.message, 80) });
+    }
+  }
+);
+
+server.tool(
+  "healthcheck",
+  "Probe GameKee/TapTap/Inven/Steam/Bahamut GNN/nikke.gg (+optional Prydwen). Returns {ok,latency_ms,sources}.",
+  {},
+  async () => {
+    const start = Date.now();
+    const sources = {};
+    try {
+      const gkStart = Date.now();
+      const gk = await fetchJson(
+        `${GK_ORIGIN}/v1/content/pageList?page_no=1&limit=1`,
+        {
+          headers: { "game-alias": "nikke" },
+          timeoutMs: 12000,
+        }
+      );
+      sources.gamekee = {
+        ok: !!(gk.body && gk.body.code === 0),
+        latency_ms: Date.now() - gkStart,
+        parse_ok: !!(gk.body && typeof gk.body.code === "number"),
+        probe: "content_pageList_nikke",
+      };
+    } catch (e) {
+      sources.gamekee = {
+        ok: false,
+        parse_ok: false,
+        error: truncate(e.message, 60),
+      };
+    }
+    try {
+      const tpStart = Date.now();
+      const tap = await taptapApi("/webapiv2/app-search/v1/by-keyword", {
+        kw: "NIKKE",
+      });
+      sources.taptap = {
+        ok: !!(tap.ok && Array.isArray(tap.body?.data?.list)),
+        latency_ms: Date.now() - tpStart,
+        status: tap.status,
+        probe: "app-search_by-keyword",
+      };
+    } catch (e) {
+      sources.taptap = { ok: false, error: truncate(e.message, 60) };
+    }
+    try {
+      const ivStart = Date.now();
+      const inv = await fetchText(
+        `${INVEN_ORIGIN}/search/webzine/article/NIKKE`,
+        { timeoutMs: 12000 }
+      );
+      sources.inven = {
+        ok: inv.ok && inv.text.includes("inven"),
+        latency_ms: Date.now() - ivStart,
+        status: inv.status,
+        probe: "search_webzine_article",
+      };
+    } catch (e) {
+      sources.inven = { ok: false, error: truncate(e.message, 60) };
+    }
+    try {
+      const stStart = Date.now();
+      const st = await fetchJson(
+        `${STEAM_NEWS_API}?appid=730&count=1`,
+        { timeoutMs: 12000 }
+      );
+      sources.steam = {
+        ok: !!(st.body?.appnews?.newsitems?.length),
+        latency_ms: Date.now() - stStart,
+        probe: "ISteamNews_730",
+      };
+    } catch (e) {
+      sources.steam = { ok: false, error: truncate(e.message, 60) };
+    }
+    try {
+      const bhStart = Date.now();
+      const bh = await fetchText(BAHAMUT_GNN_RSS, {
+        headers: { Accept: "application/rss+xml,application/xml,text/xml,*/*" },
+        timeoutMs: 12000,
+      });
+      sources.bahamut = {
+        ok: bh.ok && /<item>/i.test(bh.text || ""),
+        latency_ms: Date.now() - bhStart,
+        status: bh.status,
+        probe: "gnn_rss",
+      };
+    } catch (e) {
+      sources.bahamut = { ok: false, error: truncate(e.message, 60) };
+    }
+    try {
+      const ngStart = Date.now();
+      const ng = await fetchText(NIKKEGG_FEED, {
+        headers: { Accept: "application/rss+xml,application/xml,text/xml,*/*" },
+        timeoutMs: 12000,
+      });
+      sources.nikkegg = {
+        ok: ng.ok && /<item>/i.test(ng.text || ""),
+        latency_ms: Date.now() - ngStart,
+        status: ng.status,
+        probe: "nikke_gg_feed",
+      };
+    } catch (e) {
+      sources.nikkegg = { ok: false, error: truncate(e.message, 60) };
+    }
+    try {
+      const pyStart = Date.now();
+      const py = await fetchText(PRYDWEN_ORIGIN + "/nikke/", {
+        headers: { Accept: "text/html" },
+        timeoutMs: 12000,
+      });
+      sources.prydwen = {
+        ok: py.ok && /\/nikke\//i.test(py.text || ""),
+        latency_ms: Date.now() - pyStart,
+        status: py.status,
+        probe: "prydwen_nikke_html",
+      };
+    } catch (e) {
+      sources.prydwen = { ok: false, error: truncate(e.message, 60) };
+    }
+    const ok = Object.values(sources).some((s) => s && s.ok);
+    return textResult({
+      ok,
+      latency_ms: Date.now() - start,
+      sources,
+    });
+  }
+);
+
+async function smoke() {
+  const out = {};
+  try {
+    out.resolve_alias = resolveHwAlias(DATA_DIR, "修女");
+    out.guide_hw_stigmata = guideHwCard(DATA_DIR, { q: "修女圣痕", topic: "stigmata" });
+    out.guide_hw_dopamine = guideHwCard(DATA_DIR, { q: "多巴胺", topic: "dopamine" });
+    out.hw_chars = listCharacterIds(DATA_DIR);
+    out.guide = guideAny(DATA_DIR, { game: "hw", q: "修女", topic: "overview" });
+    out.guide_nikke = guideAny(DATA_DIR, { game: "nikke", id: "rapi" });
+    out.list_guides = listGuides(DATA_DIR);
+  } catch (e) {
+    out.hw_guides = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.taptap = await searchTaptap({ query: "NIKKE", limit: 2 });
+  } catch (e) {
+    out.taptap = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.inven = await searchInven({ query: "NIKKE", limit: 2 });
+  } catch (e) {
+    out.inven = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.steam = await searchSteam({ query: "Counter-Strike", limit: 2 });
+  } catch (e) {
+    out.steam = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.bahamut = await searchBahamut({ query: "NIKKE", limit: 3 });
+  } catch (e) {
+    out.bahamut = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.prydwen = await searchPrydwen({ query: "NIKKE", limit: 4 });
+  } catch (e) {
+    out.prydwen = { ok: false, error: String(e.message || e) };
+  }
+  try {
+    out.radar = await radar({ q: "公测" });
+    if (out.radar?.items) {
+      out.radar_titles = out.radar.items.map((it) => it.title);
+      out.radar.items = out.radar.items.slice(0, 5);
+    }
+  } catch (e) {
+    out.radar = { ok: false, error: String(e.message || e) };
+  }
+  console.log(JSON.stringify(out, null, 2));
+}
+
+async function main() {
+  try {
+    const warm = warmGuideCache(DATA_DIR);
+    console.error(
+      JSON.stringify({
+        event: "guide_cache_warm",
+        warmed: warm.warmed,
+        stats: warm.stats,
+      })
+    );
+  } catch (e) {
+    console.error(
+      JSON.stringify({
+        event: "guide_cache_warm_failed",
+        error: String(e && e.message ? e.message : e).slice(0, 120),
+      })
+    );
+  }
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+}
+
+const isMain =
+  process.argv[1] &&
+  path.resolve(fileURLToPath(import.meta.url)) ===
+    path.resolve(process.argv[1]);
+
+if (isMain && process.argv.includes("--smoke")) {
+  smoke().catch((err) => {
+    console.error(String(err));
+    process.exit(1);
+  });
+} else if (isMain) {
+  main().catch((err) => {
+    console.error(String(err));
+    process.exit(1);
+  });
+}
+
+export {
+  resolveHwAlias,
+  guideHwCard,
+  loadDopamine,
+  listCharacterIds,
+  askIntel,
+  cachedGuide,
+  warmGuideCache,
+  guideCacheStats,
+  searchTaptap,
+  searchInven,
+  searchSteam,
+  steamNewsForApp,
+  searchBahamut,
+  searchPrydwen,
+  searchOfficial,
+  searchBd2Official,
+  fetchBd2NoticeDetail,
+  parseBd2NoticeId,
+  searchSmilegateNewsroom,
+  searchStarOfficial,
+  searchLo2Official,
+  searchAsoraOfficial,
+  radar,
+  searchGamekee,
+  digestGame,
+  buildCalendar,
+  enrichCalendarDates,
+  fetchCalendarBodySnippet,
+  parseEventFromItem,
+  parseDatesFromText,
+  applyRelativeDayPhrases,
+  classifyEventType,
+  eventNeedsDateEnrichment,
+  bumpEventConfidence,
+  shanghaiYmd,
+  shanghaiTodayYmd,
+  isNoise,
+  hitsGameKeywords,
+  isBareTapTapAppShell,
+  readBlocklist,
+  itemAgeDays,
+  dedupeByUrlOrTitle,
+  titleFingerprint,
+  itemFingerprint,
+  normalizeUrlFp,
+  applyDigestDiff,
+  readDigestSeen,
+  writeDigestSeen,
+  updateGameSeen,
+  DIGEST_SEEN_PATH,
+  DIGEST_SEEN_CAP,
+  cacheGet,
+  cacheSet,
+  cacheKey,
+  withCache,
+  CACHE_TTL_SEC,
+  CACHE_DIR,
+};

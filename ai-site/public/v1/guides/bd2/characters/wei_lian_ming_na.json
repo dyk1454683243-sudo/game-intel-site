@@ -1,0 +1,62 @@
+{
+  "id": "wei_lian_ming_na",
+  "name": "威廉明娜",
+  "name_zh": "威廉明娜",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "朕即是贝伦",
+      "type": "active",
+      "costume": "钢铁君主",
+      "summary": "攻击敌人12次，每次攻击时，造成相当于自身攻击力95%的物理伤害。"
+    },
+    {
+      "name": "划破浪潮",
+      "type": "active",
+      "costume": "水上乐园女王",
+      "summary": "6回合内，对自己应用1连携强化效果。攻击敌人9次，每次攻击时，造成相当于自身攻击力90%的物理伤害。"
+    },
+    {
+      "name": "冰封意志",
+      "type": "active",
+      "costume": "银雪凝光女王",
+      "summary": "6回合内，自身属性伤害增加60%，攻击敌人6次，每次攻击时，造成相当于自身攻击力120%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "花刺剑",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "钢铁君主",
+      "type": "常驻",
+      "skill": "朕即是贝伦"
+    },
+    {
+      "name": "水上乐园女王",
+      "type": "常驻",
+      "skill": "划破浪潮"
+    },
+    {
+      "name": "银雪凝光女王",
+      "type": "常驻",
+      "skill": "冰封意志"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/655252.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 655252,
+  "gamekee_entry_id": 181508,
+  "verified": "GameKee zsca2/655252 图鉴"
+}

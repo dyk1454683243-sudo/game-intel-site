@@ -1,0 +1,44 @@
+{
+  "id": "rapunzel-pure-grace",
+  "name": "长发公主：纯洁恩典",
+  "name_zh": "长发公主：纯洁恩典",
+  "name_en": "Rapunzel: Pure Grace",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "圣域",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【产生相当于施展者最终最大体力12.16% 的共用护盾】【持续】 ■使用爆裂技能时，自身 【产生相当于施展者最终最大体力12.16% 的共用护盾】【持续】 ■全蓄力状态持续1秒，且自身 拥有护盾时，全体队友 【攻击伤害6.15%▲】【持续】"
+    },
+    {
+      "name": "祈祷",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【恢复相当于施展者最终最大体力1.18%的体力】 ■全蓄力状态持续1秒，且自身拥有护盾时，自身 【目前体力2%▼】【间隔1秒】【持续】 【护盾恢复相当于施展者最终 最大体力1.87%的体力】【间隔1秒】【持续】"
+    },
+    {
+      "name": "理想国乐园",
+      "type": "burst",
+      "summary": "■自身 【体力上限5.99%▲】【持续10秒】 ■全体队友 【攻击伤害9%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "理想国乐园",
+  "weapon": "圣恩",
+  "element": "铁甲",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rapunzel-pure-grace",
+    "https://www.gamekee.com/nikke/171337.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 171337,
+  "gamekee_entry_id": 169045,
+  "prydwen_slug": "rapunzel-pure-grace",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/171337 图鉴"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "an_jie_li_ka",
+  "name": "安洁莉卡",
+  "name_zh": "安洁莉卡",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "堕落神罚",
+      "type": "active",
+      "costume": "堕落之星",
+      "summary": "【生命力最多计算50000】。2回合内，对自己应用50%的防护罩效果。对敌人造成相当于敌人最大生命力90%的魔法伤害。"
+    },
+    {
+      "name": "神圣挥击",
+      "type": "active",
+      "costume": "泳池派对",
+      "summary": "【生命力最多计算50000】。2回合内，对自己应用75%的防护罩效果。攻击敌人3次，每次攻击时，造成相当于敌人最大生命力29%的魔法伤害。"
+    },
+    {
+      "name": "约尔门逆转模式",
+      "type": "active",
+      "costume": "霓虹救星",
+      "summary": "【生命力最多计算50000】。2回合内，对自己应用75%的防护罩效果。对敌人造成相当于敌人最大生命力5%的魔法伤害。8回合内，对敌人应用相当于敌人最大生命力37%的魔法伤害的腐败效果。最多可赋予叠加至3。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "魔剑约尔门",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "堕落之星",
+      "type": "原皮",
+      "skill": "堕落神罚"
+    },
+    {
+      "name": "泳池派对",
+      "type": null,
+      "skill": "神圣挥击"
+    },
+    {
+      "name": "霓虹救星",
+      "type": null,
+      "skill": "约尔门逆转模式"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/597740.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 597740,
+  "gamekee_entry_id": 124911,
+  "verified": "GameKee zsca2/597740 图鉴"
+}

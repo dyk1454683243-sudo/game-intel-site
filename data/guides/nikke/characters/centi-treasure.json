@@ -1,0 +1,39 @@
+{
+  "id": "centi-treasure",
+  "name": "Centi (Treasure)",
+  "name_zh": null,
+  "name_en": "Centi (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Maintain Fortification",
+      "type": "passive"
+    },
+    {
+      "name": "Field Discussion",
+      "type": "active"
+    },
+    {
+      "name": "Start Construction",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 2",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/centi-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "centi-treasure",
+  "verified": "Prydwen /nikke/characters/centi-treasure"
+}

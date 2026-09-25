@@ -1,0 +1,39 @@
+{
+  "id": "rei",
+  "name": "Rei",
+  "name_zh": null,
+  "name_en": "Rei",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Senpai&#x27;s Support",
+      "type": "passive"
+    },
+    {
+      "name": "Fighting Spirit",
+      "type": "passive"
+    },
+    {
+      "name": "Model Senior Student",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rei"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "rei",
+  "verified": "Prydwen /nikke/characters/rei"
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/character-card.schema.json",
+  "title": "game-intel character guide card",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "game"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical display name (usually ZH)"
+    },
+    "name_zh": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nicknames": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "game": {
+      "type": "string"
+    },
+    "role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skill_prio": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stigmata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "weapon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "teams": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Verified GameKee/Bahamut URLs only"
+    },
+    "stub": {
+      "type": "boolean",
+      "description": "true = placeholder; do not invent skills"
+    },
+    "note": {
+      "type": "string"
+    },
+    "as_of": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "string"
+    },
+    "gamekee_content_id": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "gamekee_entry_id": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": "object",
+      "description": "Optional human+AI conclusion line: tier / pull / skip / sources. Omit on stubs.",
+      "additionalProperties": true,
+      "properties": {
+        "tier": {
+          "type": "string",
+          "description": "强度定位，如 T0 / 一人成军"
+        },
+        "pull": {
+          "type": "string",
+          "description": "抽不抽建议（无编造数字）"
+        },
+        "skip": {
+          "type": "string",
+          "description": "别追什么 / 适用场景 caveat"
+        },
+        "caveat": {
+          "type": "string",
+          "description": "Alias of skip; either field works"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Verified source URLs for the conclusion bar"
+        }
+      }
+    }
+  }
+}

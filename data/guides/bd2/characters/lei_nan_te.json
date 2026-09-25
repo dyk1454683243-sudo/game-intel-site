@@ -1,0 +1,40 @@
+{
+  "id": "lei_nan_te",
+  "name": "雷南特",
+  "name_zh": "雷南特",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "沉着之手",
+      "type": "active",
+      "costume": "战斗医生",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身攻击力320%的物理伤害。4回合内，敌人攻击力减少50%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "劲弩",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "战斗医生",
+      "type": null,
+      "skill": "沉着之手"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593575.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593575,
+  "gamekee_entry_id": 122324,
+  "verified": "GameKee zsca2/593575 图鉴"
+}

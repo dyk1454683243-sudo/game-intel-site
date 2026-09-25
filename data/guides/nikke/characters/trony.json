@@ -1,0 +1,44 @@
+{
+  "id": "trony",
+  "name": "特罗尼",
+  "name_zh": "特罗尼",
+  "name_en": "Trony",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "T.Rony轰炸机",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，若没有处于T.Rony轰炸机状态的敌人，则距离瞄准线最近的x个目标 【累积爆炸技能】【持续5秒】： 功能：累积施展者造成的部分伤害。达到累积伤害上限，并对敌人造成伤害后解除。 效果1:【累积伤害上限为施展者最终攻击力的907.63%】 效果2:【仅累积自身攻击伤害的50%】 效果3:【累积爆炸技能爆炸时，对攻击范围内的敌人造成分摊伤害"
+    },
+    {
+      "name": "效率增加",
+      "type": "passive",
+      "summary": "■全蓄力攻击5次时，自身 【分摊伤害30.63%▲】【持续10秒】 ■全蓄力攻击命中5次时，目标 【防御力5.67%▼】【持续10秒】"
+    },
+    {
+      "name": "巨型T.Rony",
+      "type": "burst",
+      "summary": "■自身 【攻击力59.9%▲】【持续10秒】 【累积爆炸技能的伤害累积比例37.12%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "巨型T.Rony",
+  "weapon": "电晶体",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/trony",
+    "https://www.gamekee.com/nikke/622849.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 622849,
+  "gamekee_entry_id": 149741,
+  "prydwen_slug": "trony",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/622849 图鉴"
+}

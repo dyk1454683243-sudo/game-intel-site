@@ -1,0 +1,44 @@
+{
+  "id": "idoll-flower",
+  "name": "iDoll花",
+  "name_zh": "iDoll花",
+  "name_en": "iDoll Flower",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "鲜花叶",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，目标 【攻击力4.13%▼】【持续5秒】"
+    },
+    {
+      "name": "鲜花色",
+      "type": "active",
+      "summary": "■攻击力最高的1名敌人 【攻击力9.84%▼】【持续5秒】"
+    },
+    {
+      "name": "鲜花香水",
+      "type": "burst",
+      "summary": "■对攻击力最高的1名敌人造成 【最终攻击力110.2%的爆裂技能伤害】 【挑衅】【持续2秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "鲜花香水",
+  "weapon": "发射器",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/idoll-flower",
+    "https://www.gamekee.com/nikke/152356.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152356,
+  "gamekee_entry_id": 102035,
+  "prydwen_slug": "idoll-flower",
+  "rarity": "R",
+  "verified": "GameKee nikke/152356 图鉴"
+}

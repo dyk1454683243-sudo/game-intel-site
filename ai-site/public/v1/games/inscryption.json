@@ -1,0 +1,27 @@
+{
+  "id": "inscryption",
+  "name": "Inscryption",
+  "name_zh": "印刻",
+  "platforms": [
+    "steam",
+    "pc",
+    "switch"
+  ],
+  "tags": [
+    "indie",
+    "card",
+    "horror"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1092790/"
+    }
+  ],
+  "steam_appid": 1092790,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

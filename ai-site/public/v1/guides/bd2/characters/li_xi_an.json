@@ -1,0 +1,47 @@
+{
+  "id": "li_xi_an",
+  "name": "莉西安",
+  "name_zh": "莉西安",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "治愈祈祷",
+      "type": "active",
+      "costume": "流浪神职者",
+      "summary": "恢复友军相当于自身魔法力150%的生命力。解除应用于友军的持续伤害效果。【额外能力】4回合内，对友军应用相当于自身魔法力150%的能量护盾效果。"
+    },
+    {
+      "name": "教团救护咒语",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "阿米堤耶",
+  "talent": {
+    "name": "教团救护咒语",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "流浪神职者",
+      "type": "辅助",
+      "skill": "治愈祈祷"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593667.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593667,
+  "gamekee_entry_id": 122342,
+  "verified": "GameKee zsca2/593667 图鉴"
+}

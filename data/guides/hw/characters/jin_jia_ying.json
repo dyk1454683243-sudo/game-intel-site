@@ -1,0 +1,59 @@
+{
+  "id": "jin_jia_ying",
+  "name": "金佳映",
+  "name_zh": "金佳映",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T1.5 / Discover死神",
+  "skills": [
+    {
+      "name": "狙击",
+      "type": "active",
+      "summary": "造成射击攻击力100%的穿刺伤害，并使敌人无法进行反击"
+    },
+    {
+      "name": "支援射击",
+      "type": "passive",
+      "summary": "每轮最多触发1次，获得【反应支援:狙击】效果，在队友受到攻击时进行支援反击。"
+    },
+    {
+      "name": "伪装",
+      "type": "active",
+      "summary": "获得3轮的【伪装:隐身】效果。在隐身期间，无法进行支援反击。在隐身状态下，首次攻击时暴击率提升100%，暴击伤害增加3%。"
+    },
+    {
+      "name": "钢索机动射击",
+      "type": "active",
+      "summary": "跃向与敌人直线距离12公尺的位置。命中的敌人将受到射击攻击力150%的穿刺伤害。落地后，获得【伪装:隐身】效果，持续3R。最多使用2次。"
+    }
+  ],
+  "skill_prio": [
+    "和输出有关的只有普攻，因此只需要点普攻就行。",
+    "狙击: 6级即可",
+    "支援射击: 不加",
+    "伪装: 不加",
+    "钢索机动射击: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "亡灵宴会",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中暴击伤害",
+      "4件: 技能伤害、潜行下所有攻击力",
+      "和阿拉哈同模组的角色，照搬阿拉哈。有专武后输出时基本全程隐身，能吃满。"
+    ]
+  },
+  "weapon": "SS4-修改型",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634503.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634503,
+  "gamekee_entry_id": 163040,
+  "verified": "GameKee hw/634503 图鉴"
+}

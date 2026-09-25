@@ -1,0 +1,45 @@
+{
+  "id": "li-ta",
+  "name": "丽塔",
+  "name_zh": "丽塔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "老奶奶"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "落叶推动",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【不同起始次数不同效果】【低级效果重复生效】 1次：【爆裂技能cd2.34s▼】 2次：【爆裂技能cd2.7s▼】 3次：【爆裂技能cd3.17s▼】 ■使用爆裂技能时，全体队友 【不同起始次数不同效果】【低级效果重复生效】 1次：【最大装弹数7.05%▲】【持续5秒】 2次：【暴击伤害3.36%▲】【持续5秒】 3次：【攻击力5.05%▲】【持续5秒】"
+    },
+    {
+      "name": "伏特推动",
+      "type": "active",
+      "summary": "■目前掩体体力最低的2名队友 【掩体体力恢复28.87%】"
+    },
+    {
+      "name": "双推动",
+      "type": "burst",
+      "summary": "■全体队友 【攻击力36.3%▲】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "双推动",
+  "weapon": "钻头重击",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/nikke/170844.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170844,
+  "gamekee_entry_id": 113072,
+  "prydwen_slug": null,
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170844 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "mari-makinami-illustrious",
+  "name": "美里",
+  "name_zh": "美里",
+  "name_en": "Mari Makinami Illustrious",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "射击手册",
+      "type": "passive",
+      "summary": "■发动60次普通攻击时，自身 【射击手册：命中率2.52%▲】 【叠加3次】【持续5秒】 ■发动120次普通攻击时，剩余体力比例最低的1名队友 【恢复相当于施展者最终最大体力4.02%的体力】"
+    },
+    {
+      "name": "恢复辅助",
+      "type": "passive",
+      "summary": "■当自身处于射击手册状态下时，全体队友 【对护盾造成的伤害75%▲】【持续】 ■当自身处于增益效果叠加上限时，自身 【给予的体力恢复量15.02%▲】【持续】"
+    },
+    {
+      "name": "休息命令",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者 最终最大体力2.42%的体力】 【间隔1秒】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "休息命令",
+  "weapon": "/",
+  "element": "铁甲",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
+    "https://www.gamekee.com/nikke/655996.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 655996,
+  "gamekee_entry_id": 182085,
+  "prydwen_slug": "mari-makinami-illustrious",
+  "rarity": "SR",
+  "verified": "GameKee nikke/655996 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "neve",
+  "name": "尼夫",
+  "name_zh": "尼夫",
+  "name_en": "Neve",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "北极熊之力量",
+      "type": "active",
+      "summary": "■对剩余的体力比例最低的1名敌人 造成相当于【最终攻击力 63.63%的伤害】"
+    },
+    {
+      "name": "北极熊之冬眠",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身发动 【穿透特化】【持续2发】 【攻击力16.8% ▲】【持续2发】"
+    },
+    {
+      "name": "北极熊之咆哮",
+      "type": "burst",
+      "summary": "■自身 【暴击率13.98% ▲】【持续20秒】 【命中率9.64% ▲】【持续20秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "北极熊之咆哮",
+  "weapon": "/",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/neve",
+    "https://www.gamekee.com/nikke/578202.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 578202,
+  "gamekee_entry_id": 114280,
+  "prydwen_slug": "neve",
+  "rarity": "SR",
+  "verified": "GameKee nikke/578202 图鉴"
+}

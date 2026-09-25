@@ -1,0 +1,29 @@
+{
+  "id": "star",
+  "name": "Azure Star Origin",
+  "name_zh": "蓝色星原：旅谣",
+  "platforms": [
+    "pc",
+    "mobile"
+  ],
+  "tags": [
+    "gacha",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Official news",
+      "url": "https://azurpromilia.com/news"
+    },
+    {
+      "label": "Official site",
+      "url": "https://azurpromilia.manjuu.com/en/"
+    }
+  ],
+  "stub": true,
+  "watchlist": true,
+  "guides_path": "/guides/star/",
+  "note": "Watchlist; guides folder exists (stubs until verified)",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "product-23",
+  "name": "产品23",
+  "name_zh": "产品23",
+  "name_en": "Product-23",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "指令：功率强化",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身 【防御力0.81%▲】【持续10秒】"
+    },
+    {
+      "name": "指令：紧急措施",
+      "type": "active",
+      "summary": "■自身 【恢复相当于攻击伤害1.61%的体力】【持续10秒】"
+    },
+    {
+      "name": "指令：特殊子弹",
+      "type": "burst",
+      "summary": "■攻击力最高的2名敌人 【防御力4.87%▼】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "指令：特殊子弹",
+  "weapon": "霰弹枪",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/product-23",
+    "https://www.gamekee.com/nikke/152360.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152360,
+  "gamekee_entry_id": 102038,
+  "prydwen_slug": "product-23",
+  "rarity": "R",
+  "verified": "GameKee nikke/152360 图鉴"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ludmilla-winter-owner",
+  "name": "鲁德米拉：冬日之主",
+  "name_zh": "鲁德米拉：冬日之主",
+  "name_en": "Ludmilla: Winter Owner",
+  "aliases": [],
+  "nicknames": [
+    "冬日女王",
+    "女王"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "女王的视线",
+      "type": "passive",
+      "summary": "■普通攻击命中60次时，目标 【所受伤害 7.42% ▲】【持续3秒】 【造成相当于最终攻击力93.62%的额外伤害】 ■普通攻击命中60次时，自身 【子弹补充11发】"
+    },
+    {
+      "name": "暴风雪",
+      "type": "passive",
+      "summary": "■命中核心60次时，对目标造成 【最终攻击力64.79%的额外伤害】 ■全爆裂时间开始时，自身 【暴击率8.03% ▲】【持续10秒】"
+    },
+    {
+      "name": "引路明灯",
+      "type": "burst",
+      "summary": "■自身 【攻击力36.96% ▲】【持续10秒】 【换弹速度36.96% ▲】【持续20秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "引路明灯",
+  "weapon": "雪地救星",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/ludmilla-winter-owner",
+    "https://www.gamekee.com/nikke/607550.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 607550,
+  "gamekee_entry_id": 135408,
+  "prydwen_slug": "ludmilla-winter-owner",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/607550 图鉴"
+}

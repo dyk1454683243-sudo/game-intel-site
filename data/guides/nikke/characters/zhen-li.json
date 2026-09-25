@@ -1,0 +1,43 @@
+{
+  "id": "zhen-li",
+  "name": "真理",
+  "name_zh": "真理",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "单点狙击",
+      "type": "passive",
+      "summary": "■发动全蓄力攻击时，全体队友 【对护盾造成的伤害59.17%▲】【持续3秒】 ■命中目标核心时，全体队友 【穿透伤害24.25%▲】【持续10秒】"
+    },
+    {
+      "name": "精神集中",
+      "type": "passive",
+      "summary": "■自身 【穿透强化】【持续5秒】 【攻击力17.98% ▲】【持续5秒】 ■全体队友 【以施展者为基准的攻击力18.17% ▲】 【持续5秒】"
+    },
+    {
+      "name": "座标弹道飞弹",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【最终攻击力363.63%的爆裂技能伤害】 ■全体队友 【攻击伤害24.25%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "座标弹道飞弹",
+  "weapon": "远程精密步枪",
+  "element": "电击",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/nikke/599374.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 599374,
+  "gamekee_entry_id": 162037,
+  "prydwen_slug": null,
+  "rarity": "SSR",
+  "verified": "GameKee nikke/599374 图鉴"
+}

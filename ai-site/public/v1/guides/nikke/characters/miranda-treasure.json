@@ -1,0 +1,39 @@
+{
+  "id": "miranda-treasure",
+  "name": "Miranda (Treasure)",
+  "name_zh": null,
+  "name_en": "Miranda (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Health Up!",
+      "type": "passive"
+    },
+    {
+      "name": "Wake Up!",
+      "type": "passive"
+    },
+    {
+      "name": "Powering Up!",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/miranda-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "miranda-treasure",
+  "verified": "Prydwen /nikke/characters/miranda-treasure"
+}

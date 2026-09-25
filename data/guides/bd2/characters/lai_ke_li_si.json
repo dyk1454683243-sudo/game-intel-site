@@ -1,0 +1,59 @@
+{
+  "id": "lai_ke_li_si",
+  "name": "莱克莉斯",
+  "name_zh": "莱克莉斯",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "辅助",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "诅咒复制品",
+      "type": "active",
+      "costume": "杀人娃娃",
+      "summary": "4回合内，对自己应用85%的防护罩效果。4回合内，对自己应用挑衅效果。"
+    },
+    {
+      "name": "自动防御模式",
+      "type": "active",
+      "costume": "机械人女王",
+      "summary": "4回合内，自身遭受攻击时，将进行反击。每次反击时，对敌人造成相当于自身最大生命力40%的物理伤害。4回合内，对自己应用相当于最大生命力160%的能量护盾效果。"
+    },
+    {
+      "name": "第2幕开始",
+      "type": "talent",
+      "summary": "从虚脱恢复至生命力1的状态。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "灵魂蝴蝶结",
+  "talent": {
+    "name": "第2幕开始",
+    "summary": "从虚脱恢复至生命力1的状态。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "杀人娃娃",
+      "type": null,
+      "skill": "诅咒复制品"
+    },
+    {
+      "name": "机械人女王",
+      "type": null,
+      "skill": "自动防御模式"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593624.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593624,
+  "gamekee_entry_id": 122358,
+  "verified": "GameKee zsca2/593624 图鉴"
+}

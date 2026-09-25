@@ -1,0 +1,44 @@
+{
+  "id": "eunhwa",
+  "name": "银华",
+  "name_zh": "银华",
+  "name_en": "Eunhwa",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "准备态势",
+      "type": "passive",
+      "summary": "■以最后的子弹攻击后，自身 【蓄力伤害18.64%▲】【持续2发】 【蓄力速度7.76%▲】【持续2发】"
+    },
+    {
+      "name": "弱点识破",
+      "type": "passive",
+      "summary": "■攻击最后的子弹后，目标 【防御力14.5% ▼】【持续5秒】"
+    },
+    {
+      "name": "战况逆转",
+      "type": "burst",
+      "summary": "■对攻击力最高的10名敌人造成 【相当于最终攻击力 42.81%的伤害】 【防御力1.21%▼】【持续15秒】 ■全体队友 【暴击率2.32%▲】【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "战况逆转",
+  "weapon": "完美主义者",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/eunhwa",
+    "https://www.gamekee.com/nikke/152338.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152338,
+  "gamekee_entry_id": 102009,
+  "prydwen_slug": "eunhwa",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152338 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "marciana",
+  "name": "玛律恰那",
+  "name_zh": "玛律恰那",
+  "name_en": "Marciana",
+  "aliases": [],
+  "nicknames": [
+    "老师"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "无人机支援",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，全体队友 【恢复相当于伤害的6.47%】【持续3秒】 ■最后的子弹命中时，攻击力高的 2名队友 【体力恢复量15.94%▲】【持续3秒】"
+    },
+    {
+      "name": "校医",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，全体队友 【恢复相当于施展者最终最大体力的17.31%】"
+    },
+    {
+      "name": "师恩",
+      "type": "burst",
+      "summary": "■全体队友 【储存：以施展者为基准的最大体力16.47%为上限，储存溢出的体力恢复量】【持续10秒】 【相当于施展者防御力12.35%的防御力 ▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "师恩",
+  "weapon": "理性之眼",
+  "element": "铁甲",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/marciana",
+    "https://www.gamekee.com/nikke/600802.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 600802,
+  "gamekee_entry_id": 127162,
+  "prydwen_slug": "marciana",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/600802 图鉴"
+}

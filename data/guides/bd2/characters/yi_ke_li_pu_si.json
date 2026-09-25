@@ -1,0 +1,81 @@
+{
+  "id": "yi_ke_li_pu_si",
+  "name": "伊柯利普斯",
+  "name_zh": "伊柯利普斯",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "泰拉抽嗜",
+      "type": "active",
+      "costume": "空间魔女",
+      "summary": "恢复自身相当于自身最大生命力35%的生命力。每次攻击命中敌人时，敌人的SP减少3点。攻击敌人3次，每次攻击时，造成相当于自身魔法力370%的魔法伤害。"
+    },
+    {
+      "name": "噬梦者",
+      "type": "active",
+      "costume": "恶梦兔女郎",
+      "summary": "每次攻击命中敌人时，友军的SP恢复1点，敌人的SP减少1点。4回合内，敌人魔法抵抗减少20%。攻击敌人3次，每次攻击时，造成相当于自身魔法力220%的魔法伤害。"
+    },
+    {
+      "name": "夏季巅峰",
+      "type": "active",
+      "costume": "海滨度假",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身魔法力720%的魔法伤害。"
+    },
+    {
+      "name": "蜜月礼包",
+      "type": "active",
+      "costume": "梦中的新娘",
+      "summary": "6回合内，自身魔法力增加100%。对敌人造成相当于自身魔法力650%的魔法伤害。"
+    },
+    {
+      "name": "空间跳跃",
+      "type": "talent",
+      "summary": "可在生成魔法阵后，前往所有地图内的魔法阵。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "唤星装饰",
+  "talent": {
+    "name": "空间跳跃",
+    "summary": "可在生成魔法阵后，前往所有地图内的魔法阵。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "空间魔女",
+      "type": "常驻",
+      "skill": "泰拉抽嗜"
+    },
+    {
+      "name": "恶梦兔女郎",
+      "type": "限定",
+      "skill": "噬梦者"
+    },
+    {
+      "name": "海滨度假",
+      "type": "常驻",
+      "skill": "夏季巅峰"
+    },
+    {
+      "name": "梦中的新娘",
+      "type": null,
+      "skill": "蜜月礼包"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593603.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593603,
+  "gamekee_entry_id": 122351,
+  "verified": "GameKee zsca2/593603 图鉴"
+}

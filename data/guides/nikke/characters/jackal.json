@@ -1,0 +1,44 @@
+{
+  "id": "jackal",
+  "name": "豺狼",
+  "name_zh": "豺狼",
+  "name_en": "Jackal",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "欢乐豺狼",
+      "type": "passive",
+      "summary": "■被攻击10次时，体力上限最高的1名敌人 【所受伤害5% ▲】【持续10秒] 【攻击力5%▼】【持续10秒】"
+    },
+    {
+      "name": "兴奋豺狼",
+      "type": "passive",
+      "summary": "■战斗开始时，自身与除自身以外攻击力最高的2名队友 【所受伤害平均分摊】 【持续120秒】 【防御力4.55% ▲】 【持续120秒】"
+    },
+    {
+      "name": "狂暴豺狼",
+      "type": "burst",
+      "summary": "■全体队友 【目标说明以\"～一名敌人\"结尾的爆裂技能攻击伤害21.4%▲】【持续15秒】 【防御力8.08%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "狂暴豺狼",
+  "weapon": "T.O.P",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/jackal",
+    "https://www.gamekee.com/nikke/580711.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 580711,
+  "gamekee_entry_id": 115400,
+  "prydwen_slug": "jackal",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/580711 图鉴"
+}

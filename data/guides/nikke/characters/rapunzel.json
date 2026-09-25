@@ -1,0 +1,46 @@
+{
+  "id": "rapunzel",
+  "name": "长发公主",
+  "name_zh": "长发公主",
+  "name_en": "Rapunzel",
+  "aliases": [],
+  "nicknames": [
+    "长发"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "牺牲",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，剩余的体力比例最低的3名队友 【恢复相当于施展者最终最大体力的4.03%】"
+    },
+    {
+      "name": "神之庇佑",
+      "type": "passive",
+      "summary": "■攻击力最高的2名队友 【最大体力5.11% ▲】【持续15秒】 【获得体力恢复量8.53% ▲】【持续15秒】"
+    },
+    {
+      "name": "世外桃源",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的18.56%】 ■攻击力最高的1名无法战斗状态的队友 【以37.12%的体力复活】 ■若自身的体力为30%以下时，全体敌人陷入 【昏迷】【持续1秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "世外桃源",
+  "weapon": "圣恩",
+  "element": "铁甲",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rapunzel",
+    "https://www.gamekee.com/nikke/170850.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170850,
+  "gamekee_entry_id": 113077,
+  "prydwen_slug": "rapunzel",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170850 图鉴"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "sa_ma_li_ka",
+  "name": "萨玛莉卡",
+  "name_zh": "萨玛莉卡",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T2 / 沼泽掠食者",
+  "skills": [
+    {
+      "name": "哈尔佩斩",
+      "type": "active",
+      "summary": "造成近战攻击力60%的斩击伤害。"
+    },
+    {
+      "name": "藤蔓上的猎人",
+      "type": "passive",
+      "summary": "移动力上升20，攻击时，根据移动的直线距离按比例增加近战攻击力，最大10m时达到60%。"
+    },
+    {
+      "name": "泥沼束缚",
+      "type": "active",
+      "summary": "造成相当于近战攻击力100%的斩击伤害，并有55%的机率赋予持续2R的【缓慢】效果。此技能无法进行弱点攻击。"
+    },
+    {
+      "name": "泥沼獠牙",
+      "type": "active",
+      "summary": "越过敌人时，同时对其造成近战攻击力135%的斩击伤害。对持有[减速]效果的目标，将造成相当于自身近战攻击力与基础回避合计值100%的追加斩击伤害。"
+    }
+  ],
+  "skill_prio": [
+    "平a和大招是主要输出。跳跃的机制非常差很容易被人打出反击背刺导致被秒，内鬼技能。",
+    "哈尔佩斩: 6级即可",
+    "藤蔓上的猎人: 不加",
+    "泥沼束缚: 不加",
+    "泥沼獠牙: 6级即可"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "织布机",
+    "pieces": 4,
+    "notes": [
+      "2件: 近战攻击力",
+      "4件: 造成弱点攻击时物理伤害强化",
+      "副词条近战攻击力、暴击率、爆伤都行。"
+    ],
+    "substats_priority": [
+      "近战攻击力"
+    ]
+  },
+  "weapon": "夜之监视者",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634619.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634619,
+  "gamekee_entry_id": 163037,
+  "verified": "GameKee hw/634619 图鉴"
+}

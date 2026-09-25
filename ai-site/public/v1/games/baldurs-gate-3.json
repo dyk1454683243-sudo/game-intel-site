@@ -1,0 +1,28 @@
+{
+  "id": "baldurs-gate-3",
+  "name": "Baldur's Gate 3",
+  "name_zh": "博德之门3",
+  "platforms": [
+    "steam",
+    "pc",
+    "ps5",
+    "xbox"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "crpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1086940/"
+    }
+  ],
+  "steam_appid": 1086940,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "diesel",
+  "name": "迪塞尔",
+  "name_zh": "迪塞尔",
+  "name_en": "Diesel",
+  "aliases": [],
+  "nicknames": [
+    "草莓糖"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "草莓香",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【防御力15.12%▲】【持续10秒】 ■在全爆裂时间持续过程中被攻击时，自身 【恢复相当于施展者最大体力的7.56%】"
+    },
+    {
+      "name": "草莓糖之力",
+      "type": "passive",
+      "summary": "■普通攻击命中100次时，自身 【草莓糖：最大装弹数28.35%▲】 【叠加10次】【持续10秒】 ■若自身处于草莓糖最大叠加状态，则解除叠加后，全体队友 【子弹补充43.31%】"
+    },
+    {
+      "name": "草莓打击",
+      "type": "burst",
+      "summary": "■对攻击力最高的5名敌人造成 【相当于攻击力154.19%的伤害】 【挑衅】【持续2.53秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "草莓打击",
+  "weapon": "机枪",
+  "element": "风压",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/diesel",
+    "https://www.gamekee.com/nikke/152337.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152337,
+  "gamekee_entry_id": 102008,
+  "prydwen_slug": "diesel",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152337 图鉴"
+}

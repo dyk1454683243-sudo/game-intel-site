@@ -1,0 +1,44 @@
+{
+  "id": "soline-frost-ticket",
+  "name": "索林：霜之旅票",
+  "name_zh": "索林：霜之旅票",
+  "name_en": "Soline: Frost Ticket",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "我来检查车票！",
+      "type": "passive",
+      "summary": "■战斗开始时及使用爆裂技能时，全体队友 【发放1张车票：最多可发放2张】【持续】 车票效果：【仅以施展者为基准的最大体力5.91% X 车票数▲】 ■全爆裂时间开始时，全体队友 【爆裂技能冷却时间5.34秒▼】 ■全爆裂时间开始时，全体队友 【解除首班车优惠】"
+    },
+    {
+      "name": "我来协助你搭乘列车！",
+      "type": "passive",
+      "summary": "■当包括自身在内的某位队友体力在15%以下时，若目标处于持有车票状态，则目标 【恢复相当于施展者最终最大体力的7.25%】 【车票1张▼】 ■战斗开始时，全体队友 【首班车优惠】【持续6秒】 功能：不会消耗因“我来协助你搭乘列车！”效果获得的车票。"
+    },
+    {
+      "name": "我会带你平安抵达！",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的19.06%】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "我会带你平安抵达！",
+  "weapon": "温馨旅途",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/soline-frost-ticket",
+    "https://www.gamekee.com/nikke/684090.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 684090,
+  "gamekee_entry_id": 198647,
+  "prydwen_slug": "soline-frost-ticket",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/684090 图鉴"
+}

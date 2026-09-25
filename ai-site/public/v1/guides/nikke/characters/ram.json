@@ -1,0 +1,44 @@
+{
+  "id": "ram",
+  "name": "拉姆",
+  "name_zh": "拉姆",
+  "name_en": "Ram",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "芙拉",
+      "type": "passive",
+      "summary": "■普通攻击命中5次时，目标 【攻击力3.77%▼】【持续5秒】 ■若存在同一部队的队友，则自身 【爆裂技能的冷却时间20.16秒▼】"
+    },
+    {
+      "name": "姐姐的威光",
+      "type": "active",
+      "summary": "■自身 【仅限于最大体力20.36%▲】【持续10秒】 ■剩余的体力数值最低的2名队友 【以施展者为基准的防御力5.67%▲】 【持续5秒】"
+    },
+    {
+      "name": "别给拉姆添麻烦",
+      "type": "burst",
+      "summary": "■全体队友 【产生相当于施展者的最终最大体力5.04%的护盾】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "别给拉姆添麻烦",
+  "weapon": "/",
+  "element": "风压",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/ram",
+    "https://www.gamekee.com/nikke/618548.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 618548,
+  "gamekee_entry_id": 146357,
+  "prydwen_slug": "ram",
+  "rarity": "SR",
+  "verified": "GameKee nikke/618548 图鉴"
+}

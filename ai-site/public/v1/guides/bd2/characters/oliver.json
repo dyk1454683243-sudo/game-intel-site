@@ -1,0 +1,75 @@
+{
+  "id": "oliver",
+  "name": "奥利维耶",
+  "name_zh": "奥利维耶",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "黑妈妈"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "灭恶圣光",
+      "type": "active",
+      "costume": "堕落之翼",
+      "summary": "对敌人造成相当于自身魔法力250%的魔法伤害。此时，暴走会造成额外伤害。每额外消耗1点SP，伤害提升100%。"
+    },
+    {
+      "name": "难违之命",
+      "type": "active",
+      "costume": "使徒",
+      "summary": "【先发制人】 自身成功闪避敌人3次前，以100%的概率闪避敌人的攻击。 10回合内，自身魔法力增加80%。"
+    },
+    {
+      "name": "虔诚圣光",
+      "type": "active",
+      "costume": "信实之翼",
+      "summary": "每次攻击命中敌人时，友军的SP恢复1点。对敌人造成相当于自身魔法力250%的魔法伤害。每命中一个目标，伤害量增加50%。"
+    },
+    {
+      "name": "魔法☆洗礼~！",
+      "type": "active",
+      "costume": "传奇退役",
+      "summary": "在战场上生成领域。领域持续的10回合内，友军的魔法力提升100%。攻击敌人6次，每次攻击时，造成相当于自身魔法力90%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "提尔锋",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "堕落之翼",
+      "type": "原皮",
+      "skill": "灭恶圣光"
+    },
+    {
+      "name": "使徒",
+      "type": "使徒",
+      "skill": "难违之命"
+    },
+    {
+      "name": "信实之翼",
+      "type": "常驻",
+      "skill": "虔诚圣光"
+    },
+    {
+      "name": "传奇退役",
+      "type": "常驻",
+      "skill": "魔法☆洗礼~！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/670435.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 670435,
+  "gamekee_entry_id": 191352,
+  "verified": "GameKee zsca2/670435 图鉴"
+}

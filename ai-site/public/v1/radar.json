@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "generated_at": "2026-09-25T10:16:19+08:00",
+    "timezone": "Asia/Shanghai",
+    "source": "game-intel cli radar"
+  },
+  "ok": true,
+  "count": 9,
+  "keywords": [
+    "公测",
+    "预约",
+    "CBT",
+    "新作"
+  ],
+  "items": [
+    {
+      "title": "NCSoft奇幻RPG新作《阿索拉：星之祈愿》TGS 2026首秀，封闭测试火热招募！",
+      "url": "https://www.gamekee.com/www/721410.html",
+      "source": "gamekee",
+      "why": "gamekee:新作"
+    },
+    {
+      "title": "『 CBT 』 모집 마감 및 테스터 선정 일정 안내",
+      "url": "https://www.inven.co.kr/board/party/6537/112",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "『 CBT 』 테스터 선정 결과 발표 안내",
+      "url": "https://www.inven.co.kr/board/party/6537/115",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "CBT 참가자 모집 종료까지 D-14",
+      "url": "https://www.inven.co.kr/board/party/6537/92",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "아스트라에 CBT 참가자 모집 시작",
+      "url": "https://www.inven.co.kr/board/party/6537/69",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "아스트라에 오라토리오, CBT 참가자 모집 개시",
+      "url": "https://www.inven.co.kr/board/party/6553/37",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》TGS首发爆火！复古RPG试玩排队火热",
+      "url": "https://www.gamekee.com/www/721482.html",
+      "source": "gamekee",
+      "why": "gamekee:CBT"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》二次元新游揭秘！魔法咖啡店少女集结",
+      "url": "https://www.gamekee.com/www/721509.html",
+      "source": "gamekee",
+      "why": "gamekee:CBT"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
+      "url": "https://www.gamekee.com/www/721973.html",
+      "source": "gamekee",
+      "why": "gamekee:公测"
+    }
+  ],
+  "via": "cli"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "luo_yi_si",
+  "name": "洛伊丝",
+  "name_zh": "洛伊丝",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T0.5 / 输出 / 火焰之主",
+  "skills": [
+    {
+      "name": "待命",
+      "type": "active"
+    },
+    {
+      "name": "火焰箭",
+      "type": "active",
+      "summary": "造成魔法攻击力60%的火焰伤害。"
+    },
+    {
+      "name": "火花",
+      "type": "passive",
+      "summary": "成功攻击敌人时，对其施加持续3轮的火焰防御减少效果。"
+    },
+    {
+      "name": "火球",
+      "type": "active",
+      "summary": "对半径2米范围内的敌人造成魔法攻击力75%的不可阻挡的火焰伤害。"
+    },
+    {
+      "name": "火花爆炸",
+      "type": "passive",
+      "summary": "轮次开始时，引爆战场上的所有【火星】效果，造成相当于魔法攻击力20%的追加火焰伤害。"
+    },
+    {
+      "name": "升天之炎",
+      "type": "active",
+      "summary": "对圆形范围内的敌人造成魔法攻击力200%的不可阻挡的火焰伤害。"
+    }
+  ],
+  "skill_prio": [
+    "主点大招，其次是破甲，然后被动火花可以暴击，其他主动主要是刷cd用。",
+    "火焰箭: 不加",
+    "火花: 6级即可",
+    "火球: 不加",
+    "火花爆炸: 6级即可",
+    "升天之炎: 尽量点满"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "小丑面具",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中魔法攻击力",
+      "4件: 战斗技能伤害、魔法攻击力",
+      "小丑套现在是法师指定套装。主堆暴击率，尽量堆满。注意特性最优先选择书呆子，降低移动力对专武有巨大作用。"
+    ]
+  },
+  "weapon": "索尔",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634456.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634456,
+  "gamekee_entry_id": 163035,
+  "verified": "GameKee hw/634456 图鉴"
+}

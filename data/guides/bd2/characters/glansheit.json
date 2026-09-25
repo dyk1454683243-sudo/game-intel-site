@@ -1,0 +1,75 @@
+{
+  "id": "glansheit",
+  "name": "格兰希特",
+  "name_zh": "格兰希特",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "光坦"
+  ],
+  "game": "bd2",
+  "role": "生命c",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "回归聚光灯",
+      "type": "active",
+      "costume": "回归偶像",
+      "summary": "【先发制人】2回合内，对自己应用挑衅效果。4回合内，对自己应用相当于最大生命力350%的能量护盾效果。"
+    },
+    {
+      "name": "女神庇护",
+      "type": "active",
+      "costume": "虚无之星",
+      "summary": "【先发制人】自身遭受攻击时，将进行反击。每次反击时，对敌人造成相当于承受伤害415%的物理伤害。此效果在遭受7次攻击后将消失。"
+    },
+    {
+      "name": "呀吼，吓到了吧？",
+      "type": "active",
+      "costume": "恶作剧幽灵",
+      "summary": "攻击敌人8次，每次攻击时，造成相当于自身最大生命力8%的物理伤害。此时，还会额外造成等同于自身拥有的能量护盾的12%的物理伤害。"
+    },
+    {
+      "name": "猛药处方",
+      "type": "active",
+      "costume": "战地医疗兵",
+      "summary": "2回合内，自身致命伤害增加200%。拥有的增益效果数量达到5个及以上时，所有增益效果的持续回合数2回合延长。对敌人造成相当于自身最大生命力90%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "翼角头盔",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "回归偶像",
+      "type": null,
+      "skill": "回归聚光灯"
+    },
+    {
+      "name": "虚无之星",
+      "type": "原皮",
+      "skill": "女神庇护"
+    },
+    {
+      "name": "恶作剧幽灵",
+      "type": "常驻",
+      "skill": "呀吼，吓到了吧？"
+    },
+    {
+      "name": "战地医疗兵",
+      "type": "常驻",
+      "skill": "猛药处方"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/611786.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 611786,
+  "gamekee_entry_id": 139655,
+  "verified": "GameKee zsca2/611786 图鉴"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "micaela",
+  "name": "米卡艾拉",
+  "name_zh": "米卡艾拉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "米卡埃拉"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "暴露即是正义",
+      "type": "active",
+      "costume": "海滨正义",
+      "summary": "使用相当于自身当前生命力的80%，并在2回合内，自身魔法力增加200%。对敌人造成相当于自身魔法力650%的魔法伤害。"
+    },
+    {
+      "name": "火力赞美",
+      "type": "active",
+      "costume": "签名女王",
+      "summary": "友军的SP减少6点。攻击敌人3次，每次攻击时，造成相当于自身魔法力420%的魔法伤害。"
+    },
+    {
+      "name": "流血的圣痕",
+      "type": "active",
+      "costume": "神圣者",
+      "summary": "6回合内，自身致命伤害增加500%。4回合内，自身防御力和魔法抵抗减少90%。对敌人造成相当于自身魔法力200%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "治愈圣杯",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "海滨正义",
+      "type": null,
+      "skill": "暴露即是正义"
+    },
+    {
+      "name": "签名女王",
+      "type": null,
+      "skill": "火力赞美"
+    },
+    {
+      "name": "神圣者",
+      "type": "原皮",
+      "skill": "流血的圣痕"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/633685.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 633685,
+  "gamekee_entry_id": 162490,
+  "verified": "GameKee zsca2/633685 图鉴"
+}

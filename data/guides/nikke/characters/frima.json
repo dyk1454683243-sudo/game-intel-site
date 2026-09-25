@@ -1,0 +1,46 @@
+{
+  "id": "frima",
+  "name": "普琳玛",
+  "name_zh": "普琳玛",
+  "name_en": "frima",
+  "aliases": [],
+  "nicknames": [
+    "睡莲"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "……好想睡觉",
+      "type": "passive",
+      "summary": "■普通攻击命中4次时，目标 【防御力9.35%▼】【持续10秒】"
+    },
+    {
+      "name": "……啊",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，全体队友 【最大体力3.6%▲】【持续4秒】"
+    },
+    {
+      "name": "……好烦",
+      "type": "burst",
+      "summary": "■对防御力最高的10名敌人造成 【相当于最终攻击力60.07%的伤害】 【防御力5.83%▼】【持续10秒】 ■全体队友 【最大体力17.88%▲】【持续4秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "……好烦",
+  "weapon": "懒骨头",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/frima",
+    "https://www.gamekee.com/nikke/152342.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152342,
+  "gamekee_entry_id": 102005,
+  "prydwen_slug": "frima",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152342 图鉴"
+}

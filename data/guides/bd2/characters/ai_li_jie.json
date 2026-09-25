@@ -1,0 +1,62 @@
+{
+  "id": "ai_li_jie",
+  "name": "爱丽洁",
+  "name_zh": "爱丽洁",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "赴死之爱",
+      "type": "active",
+      "costume": "可爱小姐",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力220%的物理伤害。6回合内，敌人防御力减少50%。6回合内，敌人魔法抵抗减少50%。"
+    },
+    {
+      "name": "慎重地···砰！",
+      "type": "active",
+      "costume": "代号O",
+      "summary": "4"
+    },
+    {
+      "name": "我也想赢嘛！",
+      "type": "active",
+      "costume": "稚心佳人",
+      "summary": "对自己在6回合内，应用施加伤害增加100%的增强效果。【共鸣】战场上处于能力值弱化状态的目标，6回合内，对自己应用10%的增强效果，每有1个目标，可叠加1。最多可叠加至30。攻击敌人3次，每次攻击时，造成相当于自身攻击力160%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "玫瑰精选",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "可爱小姐",
+      "type": "原皮",
+      "skill": "赴死之爱"
+    },
+    {
+      "name": "代号O",
+      "type": null,
+      "skill": "慎重地···砰！"
+    },
+    {
+      "name": "稚心佳人",
+      "type": "常驻",
+      "skill": "我也想赢嘛！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593626.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593626,
+  "gamekee_entry_id": 122360,
+  "verified": "GameKee zsca2/593626 图鉴"
+}

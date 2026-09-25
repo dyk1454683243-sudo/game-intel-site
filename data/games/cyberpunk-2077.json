@@ -1,0 +1,28 @@
+{
+  "id": "cyberpunk-2077",
+  "name": "Cyberpunk 2077",
+  "name_zh": "赛博朋克2077",
+  "platforms": [
+    "steam",
+    "pc",
+    "ps5",
+    "xbox"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "open-world"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1091500/"
+    }
+  ],
+  "steam_appid": 1091500,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

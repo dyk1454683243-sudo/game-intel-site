@@ -1,0 +1,44 @@
+{
+  "id": "yulha",
+  "name": "尤尔夏",
+  "name_zh": "尤尔夏",
+  "name_en": "Yulha",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "啃咬领导力",
+      "type": "passive",
+      "summary": "■被攻击30次时，自身 【平常心：暴击率14.5%▲，持续20s】"
+    },
+    {
+      "name": "软弱制作者",
+      "type": "active",
+      "summary": "■体力最低的5名队友 【攻击力53.62%▲】【持续5s】 【分摊被击伤害】【持续10s】"
+    },
+    {
+      "name": "亢奋劳动者",
+      "type": "burst",
+      "summary": "■对所有敌人造成 【造成攻击力270.5%的伤害】 ■自身处于平常心状态时，对相同的目标敌人造成 【造成攻击力270.5%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "亢奋劳动者",
+  "weapon": "利他之冠",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/yulha",
+    "https://www.gamekee.com/nikke/170841.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170841,
+  "gamekee_entry_id": 113069,
+  "prydwen_slug": "yulha",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170841 图鉴"
+}

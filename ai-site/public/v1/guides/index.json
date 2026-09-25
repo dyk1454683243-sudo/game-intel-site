@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
+  "games": [
+    {
+      "id": "asora",
+      "name": "Astrae Oratio",
+      "name_zh": "阿索拉：星之祈愿",
+      "character_count": 0,
+      "rich_count": 0,
+      "stub_count": 0,
+      "path": "guides/asora"
+    },
+    {
+      "id": "bd2",
+      "name": "Brown Dust 2",
+      "name_zh": "棕色尘埃2",
+      "character_count": 87,
+      "rich_count": 87,
+      "stub_count": 0,
+      "path": "guides/bd2"
+    },
+    {
+      "id": "hw",
+      "name": "Horizon Walker",
+      "name_zh": "地平线行者",
+      "character_count": 61,
+      "rich_count": 61,
+      "stub_count": 0,
+      "path": "guides/hw"
+    },
+    {
+      "id": "lo2",
+      "name": "Last Origin 2",
+      "name_zh": "Last Origin 2",
+      "character_count": 0,
+      "rich_count": 0,
+      "stub_count": 0,
+      "path": "guides/lo2"
+    },
+    {
+      "id": "miraesi",
+      "name": "Invisible Future",
+      "name_zh": "미래시",
+      "character_count": 0,
+      "rich_count": 0,
+      "stub_count": 0,
+      "path": "guides/miraesi"
+    },
+    {
+      "id": "nikke",
+      "name": "NIKKE",
+      "name_zh": "胜利女神：NIKKE",
+      "character_count": 231,
+      "rich_count": 231,
+      "stub_count": 0,
+      "path": "guides/nikke"
+    },
+    {
+      "id": "star",
+      "name": "Azure Star Origin",
+      "name_zh": "蓝色星原：旅谣",
+      "character_count": 0,
+      "rich_count": 0,
+      "stub_count": 0,
+      "path": "guides/star"
+    }
+  ]
+}

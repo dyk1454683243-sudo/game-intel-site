@@ -1,0 +1,39 @@
+{
+  "id": "misato-katsuragi",
+  "name": "Misato Katsuragi",
+  "name_zh": null,
+  "name_en": "Misato Katsuragi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Shooting Manual",
+      "type": "passive"
+    },
+    {
+      "name": "Recovery Agent",
+      "type": "passive"
+    },
+    {
+      "name": "Command to Rest",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/misato-katsuragi"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "misato-katsuragi",
+  "verified": "Prydwen /nikke/characters/misato-katsuragi"
+}

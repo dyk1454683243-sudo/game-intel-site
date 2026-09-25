@@ -1,0 +1,46 @@
+{
+  "id": "innocent-dayss-snow-white",
+  "name": "白雪公主：纯真年代",
+  "name_zh": "白雪公主：纯真年代",
+  "name_en": "Snow White: Innocent Days",
+  "aliases": [],
+  "nicknames": [
+    "小白雪"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "七个小矮人V&VI",
+      "type": "passive",
+      "summary": "■普通攻击命中30次时，自身 【最大装弹数15.16% ▲】【叠加5次】 【持续5秒】 ■普通攻击命中30次时， 对攻击范围内的敌人造成相当于 【最终攻击力129.1%的伤害】"
+    },
+    {
+      "name": "七个小矮人IV",
+      "type": "passive",
+      "summary": "■普通攻击命中50次时， 对全体敌人造成 【最终攻击力36.45%的伤害】 ■使用爆裂技能时，自身 【攻击伤害12.48% ▲】【持续10秒】"
+    },
+    {
+      "name": "七个小矮人III",
+      "type": "burst",
+      "summary": "■自身 【技能2命中次数条件20次 ▼】【持续10秒】 【以施展者为基准的攻击力的32.4% ▲】 【持续10秒】 【装弹数无限】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "七个小矮人III",
+  "weapon": "七个小矮人Ⅱ",
+  "element": "铁甲",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/innocent-dayss-snow-white",
+    "https://www.gamekee.com/nikke/604403.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 604403,
+  "gamekee_entry_id": 131942,
+  "prydwen_slug": "innocent-dayss-snow-white",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/604403 图鉴"
+}

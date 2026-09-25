@@ -1,0 +1,44 @@
+{
+  "id": "vesti-tactical-upgrade",
+  "name": "贝斯蒂：战术升级",
+  "name_zh": "贝斯蒂：战术升级",
+  "name_en": "Vesti: Tactical Upgrade",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "飞弹导引",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，若自身未处于飞弹导引状态，则自身 【飞弹导引：蓄力速度100%▲】【持续3发】 【蓄力伤害34.56%▲】【持续3发】 ■换弹填满弹匣后，自身 【解除飞弹导引】"
+    },
+    {
+      "name": "怪物舞台",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，对目标造成 【最终攻击力157.53%的无视防御力伤害】 ■全蓄力攻击命中时，若自身处于战场布阵状态， 则自身【攻击力11.82%▲】 【持续3秒】 ■全蓄力攻击命中时，若目标处于内爆弹状态， 则自身【发射体爆炸伤害11.82%▲】 【持续3秒】"
+    },
+    {
+      "name": "飞弹就绪",
+      "type": "burst",
+      "summary": "■自身 【爆炸范围59.09%▲】【持续10秒】 【无视防御力伤害35.45%▲】【持续10秒】 ■对全体敌人（包括零件）造成 【最终攻击力290.9%的无视防御力爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "飞弹就绪",
+  "weapon": "纯粹怪物 T",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
+    "https://www.gamekee.com/nikke/674867.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 674867,
+  "gamekee_entry_id": 193470,
+  "prydwen_slug": "vesti-tactical-upgrade",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/674867 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rosanna",
+  "name": "罗珊娜",
+  "name_zh": "罗珊娜",
+  "name_en": "Rosanna",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "高歌离席",
+      "type": "passive",
+      "summary": "■普通攻击命中120次时，自身 【隐身：从单人攻击目标中摆脱出来 直接被攻击时解除】【持续10秒】 【暴击率8.98% ▲】【持续3秒】 ■普通攻击命中10次时，对攻击力最高的2名敌人 【解除增益效果 1个】【战斗中发动1次】"
+    },
+    {
+      "name": "教父",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【隐身：从单体攻击目标中排除。 直接被攻击时解除】【持续5秒】 ■当某位妮姬处于无法战斗状态时，自身 【疯狂：攻击力12.83% ▲】【叠加10次】 【持续30秒】 【爆裂进度补充 20.54%】"
+    },
+    {
+      "name": "复仇",
+      "type": "burst",
+      "summary": "■优先对2名火力型敌人造成 【最终攻击力720.72%的伤害】 ■若自身处于隐身状态，则对同一敌人造成 【最终攻击力308.88%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "复仇",
+  "weapon": "黄金士兵",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rosanna",
+    "https://www.gamekee.com/nikke/591260.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 591260,
+  "gamekee_entry_id": 121117,
+  "prydwen_slug": "rosanna",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/591260 图鉴"
+}

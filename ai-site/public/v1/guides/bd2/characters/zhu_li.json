@@ -1,0 +1,40 @@
+{
+  "id": "zhu_li",
+  "name": "茱莉",
+  "name_zh": "茱莉",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "赋予再生",
+      "type": "active",
+      "costume": "恢复师",
+      "summary": "6回合内，每回合结束时，恢复友军相当于自身魔法力155%的生命力。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "精神蝴蝶结",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "恢复师",
+      "type": null,
+      "skill": "赋予再生"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593604.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593604,
+  "gamekee_entry_id": 122329,
+  "verified": "GameKee zsca2/593604 图鉴"
+}

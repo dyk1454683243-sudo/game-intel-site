@@ -1,0 +1,65 @@
+{
+  "id": "gu_er_si_ni",
+  "name": "古尔斯尼",
+  "name_zh": "古尔斯尼",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T2 / 卡位 / 岩穴之王",
+  "skills": [
+    {
+      "name": "地下双剑刺击",
+      "type": "active",
+      "summary": "造成近战攻击力60%穿刺伤害"
+    },
+    {
+      "name": "掘地移动",
+      "type": "passive",
+      "summary": "深入地下获得2R间的【地洞挖掘】效果"
+    },
+    {
+      "name": "地下防御术",
+      "type": "active",
+      "summary": "斩击，穿刺，打击防御增加150，格挡概率增加10%"
+    },
+    {
+      "name": "轰隆隆地下爆炸",
+      "type": "active",
+      "summary": "仅在【地洞挖掘】状态下可使用，造成近战攻击力100%的打击伤害，击退敌人3m并在1R间嘲讽。此技能不可进行弱点攻击"
+    },
+    {
+      "name": "急建堡垒",
+      "type": "passive",
+      "summary": "回合开始时若是【地洞挖掘】状态，斩击，穿刺，打击防御在下回合开始前增加300，行动恢复力增加20%"
+    }
+  ],
+  "skill_prio": [
+    "堵路工具人，不需要点什么东西。",
+    "地下双剑刺击: 不加",
+    "掘地移动: 不加",
+    "地下防御术: 不加",
+    "轰隆隆地下爆炸: 不加",
+    "急建堡垒: 不加"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "织布机",
+    "pieces": 4,
+    "notes": [
+      "2件: 近战攻击力+10%",
+      "4件: 造成弱点攻击是斩击/穿刺/打击强化+40%。",
+      "辅助标配行动恢复力拉满的漂泊套即可。"
+    ]
+  },
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634628.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634628,
+  "gamekee_entry_id": 163038,
+  "verified": "GameKee hw/634628 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "asuka-shikinami-langley",
+  "name": "明日香",
+  "name_zh": "明日香",
+  "name_en": "Asuka Shikinami Langley",
+  "aliases": [],
+  "nicknames": [
+    "一期香"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "好胜心",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【对护盾造成的伤害404.65%▲】【持续】 ■获得恢复效果时，自身 【攻击力57.93%▲】【持续25秒】"
+    },
+    {
+      "name": "突击战术",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，若自身已获得护盾，则自身 【优越代码攻击伤害17.78%▲】【持续10秒】 ■全爆裂时间开始时，所有燃烧代码队友 【核心伤害33.19%▲】【持续10秒】"
+    },
+    {
+      "name": "穿透强化子弹",
+      "type": "burst",
+      "summary": "■自身 【穿透强化】【持续15秒】 【攻击伤害63.64%▲】【持续10秒】 【恢复相当于攻击伤害1.87%的体力】【持续10秒】 【命中率59.9%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "穿透强化子弹",
+  "weapon": "突击式轻型步枪",
+  "element": "燃烧",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley",
+    "https://www.gamekee.com/nikke/171662.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 171662,
+  "gamekee_entry_id": 162035,
+  "prydwen_slug": "asuka-shikinami-langley",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/171662 图鉴"
+}

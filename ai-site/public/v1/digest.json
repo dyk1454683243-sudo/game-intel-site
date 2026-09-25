@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "generated_at": "2026-09-25T10:16:18+08:00",
+    "timezone": "Asia/Shanghai",
+    "source": "game-intel cli digest --summarize"
+  },
+  "ok": true,
+  "count": 7,
+  "digests": [
+    {
+      "game": "hw",
+      "name": "地平线行者",
+      "alias": "hw",
+      "ok": true,
+      "count": 4,
+      "sources": [
+        "gamekee",
+        "official",
+        "bahamut"
+      ],
+      "items": [
+        {
+          "title": "第二届近卫征集大赛",
+          "url": "https://www.gamekee.com/hw/719925.html",
+          "source": "gamekee",
+          "updated": "2026-09-05T14:13:48.000Z",
+          "id": 719925,
+          "summary": "您好，人神大人！迎来二周年，近卫征集大赛再度回归！这一次又会有哪位近卫化作现实呢！让您的想象成为现实！不妨再次尽情展开您想象的翅膀吧？第二届近卫征集大赛正式开启。本次被选为最优秀奖的构想，将会被制作为游戏内实装的近卫角色，诚邀大家踊跃参与！◆活动参与方式参与渠道：官方Discord【第二届近卫征集大"
+        },
+        {
+          "title": "幕后访谈第14弹 “两周年奖励，比一周周年更加丰厚”",
+          "url": "https://www.gamekee.com/hw/715371.html",
+          "source": "gamekee",
+          "updated": "2026-08-04T09:20:33.000Z",
+          "id": 715371,
+          "summary": "“小游戏是制作组研讨得出的产物，白石琴叶是超强力辅助角色。”大家好，这里是TheGamesDaily的记者姜仁锡。近期针对叛忍以及HorizonWalker开服两周年进行了专访。将尽可能原汁原味地传达现场的访谈内容。本次访谈由徐允硕PD出席。记者：能否介绍一下为纪念开服两周年准备的更新与活动？徐：目"
+        },
+        {
+          "title": "《Horizon Walker》l Patch Note",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010503595",
+          "date": "2026-09-22T09:01:38.000Z",
+          "source": "official"
+        },
+        {
+          "title": "【情報】角色預測",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=471",
+          "date": null,
+          "source": "bahamut"
+        }
+      ]
+    },
+    {
+      "game": "nikke",
+      "name": "胜利女神：NIKKE",
+      "alias": "nikke",
+      "ok": true,
+      "count": 5,
+      "sources": [
+        "gamekee",
+        "prydwen",
+        "bahamut"
+      ],
+      "items": [
+        {
+          "title": "【角色评测+攻略】小美人鱼+米哈拉：羁绊锁链",
+          "url": "https://www.gamekee.com/nikke/721995.html",
+          "source": "gamekee",
+          "updated": "2026-09-24T10:34:29.000Z",
+          "id": 721995,
+          "summary": "千呼万唤始出来！赛莲终于要登录国服了！作为国际服2.5周年的主打，尽管当期剧情颇具争议，但赛莲的造型人设强度都是毫无争议的优质，尽管早在二周年灰姑娘主场就登场，赛莲依旧在第三届人气投票中取得前三名的成绩，并且在后续的夏日剧情中与你指的羁绊进一步加强，还是NIKKE史上第一位双转盘拥有者，可以说是捍卫"
+        },
+        {
+          "title": "ElotesDoro 事件状况&来龙去脉",
+          "url": "https://www.gamekee.com/nikke/721826.html",
+          "source": "gamekee",
+          "updated": "2026-09-22T09:51:59.000Z",
+          "id": 721826,
+          "summary": "ElotesDoro是什么？我相信国内很多玩NIKKE的小伙伴并不知道（包括在昨天之前的我）不过有小伙伴私信给我并且说这事非同小可我去推上一看果然可以说在nikke圈炸开了锅（截止到目前接近200万的访问量）所以我去把事情详细了解了一下为大家解读一番。简单来说ElotesDoro是一家墨西哥小镇当地"
+        },
+        {
+          "title": "Guilty Mighty Bunny",
+          "url": "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+          "date": null,
+          "source": "prydwen"
+        },
+        {
+          "title": "Sin Swift Bunny",
+          "url": "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
+          "date": null,
+          "source": "prydwen"
+        },
+        {
+          "title": "【情報】PC版本FAQ(2023/9/7更新)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=36390&snA=7519",
+          "date": null,
+          "source": "bahamut"
+        }
+      ]
+    },
+    {
+      "game": "bd2",
+      "name": "棕色尘埃2",
+      "alias": "zsca2",
+      "ok": true,
+      "count": 4,
+      "sources": [
+        "gamekee",
+        "official",
+        "bahamut"
+      ],
+      "items": [
+        {
+          "title": "解决一个bug，服务器断开连接重新开始游戏，实际上与网络无关，留档也许有人需要",
+          "url": "https://www.gamekee.com/zsca2/722174.html",
+          "source": "gamekee",
+          "updated": "2026-09-24T15:56:02.000Z",
+          "id": 722174,
+          "summary": "前两天游戏在开始界面打不开选择卸载重装，结果每次在进度1%左右就卡住了，然后跳错误说明（我忘记截图用网上的图）：“与服务器断开连接。重新开始游戏CLIENT_LOGIC_ERROR/BUNDLE_COMMON”这个bug直接困扰我两三天，各种换梯子加速器都没用，提示断开连接让人误以为是网络问题，实际"
+        },
+        {
+          "title": "收/换 莎拉镭射票/吧唧",
+          "url": "https://www.gamekee.com/zsca2/720284.html",
+          "source": "gamekee",
+          "updated": "2026-09-08T11:46:38.000Z",
+          "id": 720284,
+          "summary": "棕色尘埃2收/换莎拉镭射票/吧唧【现货】BROWNDUSTIIxknoppers联名礼盒，官方正版联名周边。已有：卢班希亚吧唧及温感明信片x2（主图所示）爱丽洁镭射票均有原袋，保存完好。收或换莎拉的镭射票和吧唧。包邮。细节欢迎私聊（前提是有我需要的）。"
+        },
+        {
+          "title": "Happy Chuseok! 🌝",
+          "url": "https://www.browndust2.com/en-us/news/view?id=01M36CPE9E31T673V1HSXDJNS0",
+          "date": "2026-09-25T00:00:34.111Z",
+          "source": "official",
+          "category": "notice"
+        },
+        {
+          "title": "【情報】序號CouPon兌換碼集中串(9/24更新)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=76207&snA=9744",
+          "date": null,
+          "source": "bahamut"
+        }
+      ]
+    },
+    {
+      "game": "star",
+      "name": "蓝色星原：旅谣",
+      "alias": "www",
+      "ok": true,
+      "count": 5,
+      "sources": [
+        "gamekee",
+        "official",
+        "taptap",
+        "bahamut"
+      ],
+      "items": [
+        {
+          "title": "蓝色星原 平民队伍推荐——火属性超限队与风属性超限队",
+          "url": "https://www.gamekee.com/www/722051.html",
+          "source": "gamekee",
+          "updated": "2026-09-23T16:35:20.000Z",
+          "id": 722051,
+          "summary": "大家好，我是顽皮的风，随着蓝原三测的开启，很多小伙伴们都开始对游戏的玩法感到好奇。今天我就将对蓝原配队进行简单的介绍并推荐几套平民阵容，希望大家能在这基础上发挥自己的想象，为自己构筑出适合自己的队伍。特别提醒：本攻略写于蓝原三测期间，后续公测时机制与数值出现变化都非常正常，希望可以理性观看。超限队："
+        },
+        {
+          "title": "蓝色星原 战斗底层介绍——属性克制与印记",
+          "url": "https://www.gamekee.com/www/722050.html",
+          "source": "gamekee",
+          "updated": "2026-09-23T16:24:53.000Z",
+          "id": 722050,
+          "summary": "大家好，我是顽皮的风，随着蓝原三测的开启，很多小伙伴们都开始对游戏的玩法感到好奇。今天我就将对蓝原的属性与印记进行一下简单的介绍，并为大家介绍一下组队构思，希望大家能在这基础上发挥自己的想象，为自己构筑出适合自己的队伍。特别提醒：本攻略写于蓝原三测期间，后续公测时机制与数值出现变化都非常正常，希望可"
+        },
+        {
+          "title": "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
+          "url": "https://www.taptap.cn/moment/842394655134843472",
+          "date": null,
+          "source": "official"
+        },
+        {
+          "title": "蓝色星原：旅谣",
+          "url": "https://www.taptap.cn/app/593829",
+          "source": "taptap"
+        },
+        {
+          "title": "【情報】版上實用文章整合(暫定)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=79865&snA=76",
+          "date": null,
+          "source": "bahamut"
+        }
+      ]
+    },
+    {
+      "game": "miraesi",
+      "name": "미래시",
+      "alias": "www",
+      "ok": true,
+      "count": 1,
+      "sources": [
+        "official"
+      ],
+      "items": [
+        {
+          "title": "Smilegate Officially Opens MIRESI and CZN Booths at Anime Expo 2026",
+          "url": "https://newsroom.smilegate.com/eng/1783313698",
+          "date": null,
+          "source": "official"
+        }
+      ]
+    },
+    {
+      "game": "lo2",
+      "name": "Last Origin 2",
+      "alias": "www",
+      "ok": true,
+      "count": 1,
+      "sources": [
+        "official"
+      ],
+      "items": [
+        {
+          "title": "VALOFE — Last Origin 2 开发本格化 / 组队 (GameChosun)",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
+          "date": null,
+          "source": "official"
+        }
+      ]
+    },
+    {
+      "game": "asora",
+      "name": "阿索拉：星之祈愿",
+      "alias": "www",
+      "ok": true,
+      "count": 5,
+      "sources": [
+        "gamekee",
+        "official",
+        "taptap",
+        "bahamut"
+      ],
+      "items": [
+        {
+          "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
+          "url": "https://www.gamekee.com/www/721973.html",
+          "source": "gamekee",
+          "updated": "2026-09-23T08:32:17.000Z",
+          "id": 721973,
+          "summary": "NCSoft宣布，由迪纳米斯一号工作室开发的全新魔法RPG《阿索拉：星之祈愿》将于10月2日至6日开启全球封闭测试。本次为期五天的测试将登陆移动双平台，并支持中文繁体、日文、英文、韩文等多国语言。玩家将有机会抢先体验18位独特角色，以及首次公开的团队副本等核心玩法。测试内容还包括三段主线剧情、两段支线故事及丰富的战斗与社交系统。此前，游戏已在东京电玩展上首次公开亮相，NCSoft将根据本次测试反馈"
+        },
+        {
+          "title": "《阿索拉：星之祈愿》TGS首发爆火！复古RPG试玩排队火热",
+          "url": "https://www.gamekee.com/www/721482.html",
+          "source": "gamekee",
+          "updated": "2026-09-18T03:31:33.000Z",
+          "id": 721482,
+          "summary": "NCSoft旗下全新二次元RPG《阿索拉：星之祈愿》于9月17日至21日在TGS 2026正式亮相。这款以虚构1989年东京为背景的“新战纪RPG”，让玩家扮演特区厅主任，与魔法师们展开故事。游戏首日便人气爆棚，试玩区排队等候时间超过一小时，即便现场提供了30多台试玩设备，仍吸引了全球业界的高度关注。"
+        },
+        {
+          "title": "NC《阿索拉：星之祈願》10月2日起展開全球CBT",
+          "url": "https://about.ncsoft.com/tw/news/article/AO_update_20260923",
+          "date": "2026-09-22",
+          "source": "official"
+        },
+        {
+          "title": "阿索拉：星之祈愿",
+          "url": "https://www.taptap.cn/app/855697",
+          "source": "taptap"
+        },
+        {
+          "title": "【情報】《CBT》測試者選拔結果及主要日程公告",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=85952&snA=28",
+          "date": null,
+          "source": "bahamut"
+        }
+      ]
+    }
+  ],
+  "via": "cli"
+}

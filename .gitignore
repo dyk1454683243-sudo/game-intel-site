@@ -1,0 +1,36 @@
+# Dependencies & build
+node_modules/
+**/node_modules/
+dist/
+.cache/
+data/cache/
+**/data/cache/
+
+# Cloudflare / wrangler local
+.wrangler/
+**/.wrangler/
+.dev.vars
+.wrangler/**
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+**/tokens.json
+**/*secret*
+**/*token*.local*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local ops (personal)
+intel-morning-doc.id
+*.local.json
+MORNING_ROUTINE_PROMPT.txt

@@ -1,0 +1,747 @@
+{
+  "_meta": {
+    "game": "hw",
+    "note": "Nickname → canonical id/name for Horizon Walker. Prefer GameKee 图鉴 names. Skip uncertain whale nicknames (白鲸/奶鲸). Auto-merged catalog names 2026-09; community nick patch 2026-09-18 (白金/水猫/冰女; 吉吉/妮姆赛→gigi). Garud/迦露德 aliases 2026-09-25.",
+    "as_of": "2026-09"
+  },
+  "aliases": {
+    "修女": {
+      "id": "lysandria",
+      "name": "莉珊德莉娅",
+      "kind": "character"
+    },
+    "莉珊": {
+      "id": "lysandria",
+      "name": "莉珊德莉娅",
+      "kind": "character"
+    },
+    "莉珊德莉娅": {
+      "id": "lysandria",
+      "name": "莉珊德莉娅",
+      "kind": "character"
+    },
+    "lysandria": {
+      "id": "lysandria",
+      "name": "莉珊德莉娅",
+      "kind": "character"
+    },
+    "虎鲸": {
+      "id": "yuha",
+      "name": "尤哈",
+      "kind": "character"
+    },
+    "尤哈": {
+      "id": "yuha",
+      "name": "尤哈",
+      "kind": "character"
+    },
+    "yuha": {
+      "id": "yuha",
+      "name": "尤哈",
+      "kind": "character"
+    },
+    "狗盾": {
+      "id": "mahari",
+      "name": "玛哈里",
+      "kind": "character"
+    },
+    "盾狗": {
+      "id": "mahari",
+      "name": "玛哈里",
+      "kind": "character"
+    },
+    "玛哈里": {
+      "id": "mahari",
+      "name": "玛哈里",
+      "kind": "character"
+    },
+    "mahari": {
+      "id": "mahari",
+      "name": "玛哈里",
+      "kind": "character"
+    },
+    "姑妈": {
+      "id": "olivia",
+      "name": "奥利维亚",
+      "kind": "character"
+    },
+    "奥利维亚": {
+      "id": "olivia",
+      "name": "奥利维亚",
+      "kind": "character"
+    },
+    "olivia": {
+      "id": "olivia",
+      "name": "奥利维亚",
+      "kind": "character"
+    },
+    "老师": {
+      "id": "valet",
+      "name": "瓦莱塔",
+      "kind": "character",
+      "note": "默认瓦莱塔；帕莱卡有时也称老师"
+    },
+    "瓦莱塔": {
+      "id": "valet",
+      "name": "瓦莱塔",
+      "kind": "character"
+    },
+    "valet": {
+      "id": "valet",
+      "name": "瓦莱塔",
+      "kind": "character"
+    },
+    "风女": {
+      "id": "palmen",
+      "name": "帕梅恩",
+      "kind": "character"
+    },
+    "帕梅恩": {
+      "id": "palmen",
+      "name": "帕梅恩",
+      "kind": "character"
+    },
+    "palmen": {
+      "id": "palmen",
+      "name": "帕梅恩",
+      "kind": "character"
+    },
+    "木星": {
+      "id": "set_iuppiter",
+      "name": "优菲特尔",
+      "kind": "stigmata_set"
+    },
+    "木星套": {
+      "id": "set_iuppiter",
+      "name": "优菲特尔",
+      "kind": "stigmata_set"
+    },
+    "优菲特尔": {
+      "id": "set_iuppiter",
+      "name": "优菲特尔",
+      "kind": "stigmata_set"
+    },
+    "iuppiter": {
+      "id": "set_iuppiter",
+      "name": "优菲特尔",
+      "kind": "stigmata_set"
+    },
+    "set_iuppiter": {
+      "id": "set_iuppiter",
+      "name": "优菲特尔",
+      "kind": "stigmata_set"
+    },
+    "科拉": {
+      "id": "cola",
+      "name": "科拉",
+      "kind": "character"
+    },
+    "cola": {
+      "id": "cola",
+      "name": "科拉",
+      "kind": "character"
+    },
+    "阿岚": {
+      "id": "alan",
+      "name": "阿岚",
+      "kind": "character"
+    },
+    "alan": {
+      "id": "alan",
+      "name": "阿岚",
+      "kind": "character"
+    },
+    "a_la_ha": {
+      "id": "a_la_ha",
+      "name": "阿拉哈",
+      "kind": "character"
+    },
+    "阿拉哈": {
+      "id": "a_la_ha",
+      "name": "阿拉哈",
+      "kind": "character"
+    },
+    "ai_er_nie_si_te": {
+      "id": "ai_er_nie_si_te",
+      "name": "艾尔涅斯特",
+      "kind": "character"
+    },
+    "艾尔涅斯特": {
+      "id": "ai_er_nie_si_te",
+      "name": "艾尔涅斯特",
+      "kind": "character"
+    },
+    "ai_fu_li_te": {
+      "id": "ai_fu_li_te",
+      "name": "艾弗里特",
+      "kind": "character"
+    },
+    "艾弗里特": {
+      "id": "ai_fu_li_te",
+      "name": "艾弗里特",
+      "kind": "character"
+    },
+    "ai_ji_de_na": {
+      "id": "ai_ji_de_na",
+      "name": "艾姬德娜",
+      "kind": "character"
+    },
+    "艾姬德娜": {
+      "id": "ai_ji_de_na",
+      "name": "艾姬德娜",
+      "kind": "character"
+    },
+    "ai_mi_li_ya": {
+      "id": "ai_mi_li_ya",
+      "name": "艾米莉亚",
+      "kind": "character"
+    },
+    "艾米莉亚": {
+      "id": "ai_mi_li_ya",
+      "name": "艾米莉亚",
+      "kind": "character"
+    },
+    "ao_si_la": {
+      "id": "ao_si_la",
+      "name": "奥丝拉",
+      "kind": "character"
+    },
+    "奥丝拉": {
+      "id": "ao_si_la",
+      "name": "奥丝拉",
+      "kind": "character"
+    },
+    "bei_er_jia": {
+      "id": "bei_er_jia",
+      "name": "贝尔嘉",
+      "kind": "character"
+    },
+    "贝尔嘉": {
+      "id": "bei_er_jia",
+      "name": "贝尔嘉",
+      "kind": "character"
+    },
+    "bei_la": {
+      "id": "bei_la",
+      "name": "贝拉",
+      "kind": "character"
+    },
+    "贝拉": {
+      "id": "bei_la",
+      "name": "贝拉",
+      "kind": "character"
+    },
+    "bu_li_xin": {
+      "id": "bu_li_xin",
+      "name": "布利辛",
+      "kind": "character"
+    },
+    "布利辛": {
+      "id": "bu_li_xin",
+      "name": "布利辛",
+      "kind": "character"
+    },
+    "de_li_ya": {
+      "id": "de_li_ya",
+      "name": "德莉娅",
+      "kind": "character"
+    },
+    "德莉娅": {
+      "id": "de_li_ya",
+      "name": "德莉娅",
+      "kind": "character"
+    },
+    "ge_li_ze_er_da": {
+      "id": "ge_li_ze_er_da",
+      "name": "格里泽尔达",
+      "kind": "character"
+    },
+    "格里泽尔达": {
+      "id": "ge_li_ze_er_da",
+      "name": "格里泽尔达",
+      "kind": "character"
+    },
+    "gigi": {
+      "id": "gigi",
+      "name": "妮姆赛",
+      "kind": "character"
+    },
+    "吉吉": {
+      "id": "gigi",
+      "name": "妮姆赛",
+      "kind": "character"
+    },
+    "gu_er_si_ni": {
+      "id": "gu_er_si_ni",
+      "name": "古尔斯尼",
+      "kind": "character"
+    },
+    "古尔斯尼": {
+      "id": "gu_er_si_ni",
+      "name": "古尔斯尼",
+      "kind": "character"
+    },
+    "gu_la_mu": {
+      "id": "gu_la_mu",
+      "name": "古拉姆",
+      "kind": "character"
+    },
+    "古拉姆": {
+      "id": "gu_la_mu",
+      "name": "古拉姆",
+      "kind": "character"
+    },
+    "hun_po_wang": {
+      "id": "hun_po_wang",
+      "name": "混破亡",
+      "kind": "character"
+    },
+    "混破亡": {
+      "id": "hun_po_wang",
+      "name": "混破亡",
+      "kind": "character"
+    },
+    "jin_jia_ying": {
+      "id": "jin_jia_ying",
+      "name": "金佳映",
+      "kind": "character"
+    },
+    "金佳映": {
+      "id": "jin_jia_ying",
+      "name": "金佳映",
+      "kind": "character"
+    },
+    "ka_er_ma": {
+      "id": "ka_er_ma",
+      "name": "卡尔玛",
+      "kind": "character"
+    },
+    "卡尔玛": {
+      "id": "ka_er_ma",
+      "name": "卡尔玛",
+      "kind": "character"
+    },
+    "ka_lin_na": {
+      "id": "ka_lin_na",
+      "name": "卡琳娜",
+      "kind": "character"
+    },
+    "卡琳娜": {
+      "id": "ka_lin_na",
+      "name": "卡琳娜",
+      "kind": "character"
+    },
+    "ka_ni_si_ke": {
+      "id": "ka_ni_si_ke",
+      "name": "卡尼斯克",
+      "kind": "character"
+    },
+    "卡尼斯克": {
+      "id": "ka_ni_si_ke",
+      "name": "卡尼斯克",
+      "kind": "character"
+    },
+    "ka_wu_er": {
+      "id": "ka_wu_er",
+      "name": "卡乌尔",
+      "kind": "character"
+    },
+    "卡乌尔": {
+      "id": "ka_wu_er",
+      "name": "卡乌尔",
+      "kind": "character"
+    },
+    "ke_la_bi": {
+      "id": "ke_la_bi",
+      "name": "科拉比",
+      "kind": "character"
+    },
+    "科拉比": {
+      "id": "ke_la_bi",
+      "name": "科拉比",
+      "kind": "character"
+    },
+    "la_sa_di_na": {
+      "id": "la_sa_di_na",
+      "name": "拉萨蒂娜",
+      "kind": "character"
+    },
+    "拉萨蒂娜": {
+      "id": "la_sa_di_na",
+      "name": "拉萨蒂娜",
+      "kind": "character"
+    },
+    "leia": {
+      "id": "leia",
+      "name": "蕾雅",
+      "kind": "character"
+    },
+    "蕾雅": {
+      "id": "leia",
+      "name": "蕾雅",
+      "kind": "character"
+    },
+    "luo_yi_si": {
+      "id": "luo_yi_si",
+      "name": "洛伊丝",
+      "kind": "character"
+    },
+    "洛伊丝": {
+      "id": "luo_yi_si",
+      "name": "洛伊丝",
+      "kind": "character"
+    },
+    "ma_ke_xi_mi_li_ya": {
+      "id": "ma_ke_xi_mi_li_ya",
+      "name": "玛克西米利亚",
+      "kind": "character"
+    },
+    "玛克西米利亚": {
+      "id": "ma_ke_xi_mi_li_ya",
+      "name": "玛克西米利亚",
+      "kind": "character"
+    },
+    "ma_li_ka": {
+      "id": "ma_li_ka",
+      "name": "玛丽卡",
+      "kind": "character"
+    },
+    "玛丽卡": {
+      "id": "ma_li_ka",
+      "name": "玛丽卡",
+      "kind": "character"
+    },
+    "ma_lin": {
+      "id": "ma_lin",
+      "name": "玛琳",
+      "kind": "character"
+    },
+    "玛琳": {
+      "id": "ma_lin",
+      "name": "玛琳",
+      "kind": "character"
+    },
+    "ma_te_luo_suo": {
+      "id": "ma_te_luo_suo",
+      "name": "马特罗索",
+      "kind": "character"
+    },
+    "马特罗索": {
+      "id": "ma_te_luo_suo",
+      "name": "马特罗索",
+      "kind": "character"
+    },
+    "mi_la": {
+      "id": "mi_la",
+      "name": "米拉",
+      "kind": "character"
+    },
+    "米拉": {
+      "id": "mi_la",
+      "name": "米拉",
+      "kind": "character"
+    },
+    "mi_la_na": {
+      "id": "mi_la_na",
+      "name": "米拉娜",
+      "kind": "character"
+    },
+    "米拉娜": {
+      "id": "mi_la_na",
+      "name": "米拉娜",
+      "kind": "character"
+    },
+    "min_en_l": {
+      "id": "min_en_l",
+      "name": "闵恩率",
+      "kind": "character"
+    },
+    "闵恩率": {
+      "id": "min_en_l",
+      "name": "闵恩率",
+      "kind": "character"
+    },
+    "na_li": {
+      "id": "na_li",
+      "name": "娜莉",
+      "kind": "character"
+    },
+    "娜莉": {
+      "id": "na_li",
+      "name": "娜莉",
+      "kind": "character"
+    },
+    "ni_ka": {
+      "id": "ni_ka",
+      "name": "妮卡",
+      "kind": "character"
+    },
+    "妮卡": {
+      "id": "ni_ka",
+      "name": "妮卡",
+      "kind": "character"
+    },
+    "ni_mu_sai": {
+      "id": "gigi",
+      "name": "妮姆赛",
+      "kind": "character"
+    },
+    "妮姆赛": {
+      "id": "gigi",
+      "name": "妮姆赛",
+      "kind": "character"
+    },
+    "nuo_nuo_ha": {
+      "id": "nuo_nuo_ha",
+      "name": "诺诺哈",
+      "kind": "character"
+    },
+    "诺诺哈": {
+      "id": "nuo_nuo_ha",
+      "name": "诺诺哈",
+      "kind": "character"
+    },
+    "pa_lai_ka": {
+      "id": "pa_lai_ka",
+      "name": "帕莱卡",
+      "kind": "character"
+    },
+    "帕莱卡": {
+      "id": "pa_lai_ka",
+      "name": "帕莱卡",
+      "kind": "character"
+    },
+    "pan_te_li": {
+      "id": "pan_te_li",
+      "name": "潘特莉",
+      "kind": "character"
+    },
+    "潘特莉": {
+      "id": "pan_te_li",
+      "name": "潘特莉",
+      "kind": "character"
+    },
+    "pretina": {
+      "id": "pretina",
+      "name": "普拉蒂娜",
+      "kind": "character"
+    },
+    "普拉蒂娜": {
+      "id": "pretina",
+      "name": "普拉蒂娜",
+      "kind": "character"
+    },
+    "qian_long": {
+      "id": "qian_long",
+      "name": "千隆",
+      "kind": "character"
+    },
+    "千隆": {
+      "id": "qian_long",
+      "name": "千隆",
+      "kind": "character"
+    },
+    "sa_ma_li_ka": {
+      "id": "sa_ma_li_ka",
+      "name": "萨玛莉卡",
+      "kind": "character"
+    },
+    "萨玛莉卡": {
+      "id": "sa_ma_li_ka",
+      "name": "萨玛莉卡",
+      "kind": "character"
+    },
+    "shiraishi_kotoha": {
+      "id": "shiraishi_kotoha",
+      "name": "白石琴叶",
+      "kind": "character"
+    },
+    "白石琴叶": {
+      "id": "shiraishi_kotoha",
+      "name": "白石琴叶",
+      "kind": "character"
+    },
+    "song_ben_you_yi": {
+      "id": "song_ben_you_yi",
+      "name": "松本优伊",
+      "kind": "character"
+    },
+    "松本优伊": {
+      "id": "song_ben_you_yi",
+      "name": "松本优伊",
+      "kind": "character"
+    },
+    "su_zhu_xi": {
+      "id": "su_zhu_xi",
+      "name": "苏珠熙",
+      "kind": "character"
+    },
+    "苏珠熙": {
+      "id": "su_zhu_xi",
+      "name": "苏珠熙",
+      "kind": "character"
+    },
+    "tx": {
+      "id": "tx",
+      "name": "TX - 曼提柯尔",
+      "kind": "character"
+    },
+    "TX - 曼提柯尔": {
+      "id": "tx",
+      "name": "TX - 曼提柯尔",
+      "kind": "character"
+    },
+    "yan_cai_ying": {
+      "id": "yan_cai_ying",
+      "name": "妍彩英",
+      "kind": "character"
+    },
+    "妍彩英": {
+      "id": "yan_cai_ying",
+      "name": "妍彩英",
+      "kind": "character"
+    },
+    "yan_yu": {
+      "id": "yan_yu",
+      "name": "妍雨",
+      "kind": "character"
+    },
+    "妍雨": {
+      "id": "yan_yu",
+      "name": "妍雨",
+      "kind": "character"
+    },
+    "yi_feng_na": {
+      "id": "yi_feng_na",
+      "name": "伊冯娜",
+      "kind": "character"
+    },
+    "伊冯娜": {
+      "id": "yi_feng_na",
+      "name": "伊冯娜",
+      "kind": "character"
+    },
+    "yi_fu_li_te": {
+      "id": "yi_fu_li_te",
+      "name": "伊芙利特",
+      "kind": "character"
+    },
+    "伊芙利特": {
+      "id": "yi_fu_li_te",
+      "name": "伊芙利特",
+      "kind": "character"
+    },
+    "yi_nie_si": {
+      "id": "yi_nie_si",
+      "name": "伊涅丝",
+      "kind": "character"
+    },
+    "伊涅丝": {
+      "id": "yi_nie_si",
+      "name": "伊涅丝",
+      "kind": "character"
+    },
+    "you_jie_ni_ya": {
+      "id": "you_jie_ni_ya",
+      "name": "尤洁妮亚",
+      "kind": "character"
+    },
+    "尤洁妮亚": {
+      "id": "you_jie_ni_ya",
+      "name": "尤洁妮亚",
+      "kind": "character"
+    },
+    "珠哈": {
+      "id": "yuha",
+      "name": "尤哈",
+      "kind": "character"
+    },
+    "zhan_shou_qi_shi": {
+      "id": "zhan_shou_qi_shi",
+      "name": "斩首骑士",
+      "kind": "character"
+    },
+    "斩首骑士": {
+      "id": "zhan_shou_qi_shi",
+      "name": "斩首骑士",
+      "kind": "character"
+    },
+    "zhu_zi": {
+      "id": "zhu_zi",
+      "name": "朱子",
+      "kind": "character"
+    },
+    "朱子": {
+      "id": "zhu_zi",
+      "name": "朱子",
+      "kind": "character"
+    },
+    "白金": {
+      "id": "pretina",
+      "name": "普拉蒂娜",
+      "kind": "character"
+    },
+    "水猫": {
+      "id": "leia",
+      "name": "蕾雅",
+      "kind": "character"
+    },
+    "冰女": {
+      "id": "shiraishi_kotoha",
+      "name": "白石琴叶",
+      "kind": "character"
+    },
+    "迦露德": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "加鲁德": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character",
+      "note": "常见误写；GameKee 图鉴正式名为迦露德"
+    },
+    "加魯德": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "Garud": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "Garuda": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "garud": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "garuda": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "가루드": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "大佬迦": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character"
+    },
+    "不死鸟": {
+      "id": "garud",
+      "name": "迦露德",
+      "kind": "character",
+      "note": "强度榜称号；与角色称号「循环的不死鸟」对应"
+    }
+  }
+}

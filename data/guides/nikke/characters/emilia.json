@@ -1,0 +1,46 @@
+{
+  "id": "emilia",
+  "name": "爱蜜莉雅",
+  "name_zh": "爱蜜莉雅",
+  "name_en": "Emilia",
+  "aliases": [],
+  "nicknames": [
+    "emt"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "微精灵的祝福",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【蓄力速度8.92%▲】【持续1发】 【自身每发最终最大装弹数，蓄力伤害1.39%▲】【持续1发】"
+    },
+    {
+      "name": "大精灵的锤矛",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，对目标 【本体造成相当于自身施加伤害量41.32%的固定伤害】 ■全爆裂时间开始时，自身 【最大装弹数1发▲】【持续10秒】"
+    },
+    {
+      "name": "冰结的魔女",
+      "type": "burst",
+      "summary": "■自身 【爆炸范围 59.82%▲】【持续[10秒】 【冰结的魔女】 功能：蓄力速度降低，但蓄力伤害增加持续1发 效果1：【蓄力速度 300%▼】 效果2：【蓄力伤害 842.4%▲】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "冰结的魔女",
+  "weapon": "冰结的气息",
+  "element": "水冷",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/emilia",
+    "https://www.gamekee.com/nikke/618503.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 618503,
+  "gamekee_entry_id": 146355,
+  "prydwen_slug": "emilia",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/618503 图鉴"
+}

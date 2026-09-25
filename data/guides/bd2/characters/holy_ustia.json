@@ -1,0 +1,42 @@
+{
+  "id": "holy_ustia",
+  "name": "神圣悠丝缇亚",
+  "name_zh": "神圣悠丝缇亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "神UT"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "信实之剑",
+      "type": "active",
+      "costume": "找回的命运",
+      "summary": "对敌人造成相当于自身攻击力300%的物理伤害。每命中一个目标，伤害量增加150%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "米斯特汀",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "找回的命运",
+      "type": "原皮",
+      "skill": "信实之剑"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/626508.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 626508,
+  "gamekee_entry_id": 153813,
+  "verified": "GameKee zsca2/626508 图鉴"
+}

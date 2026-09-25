@@ -1,0 +1,47 @@
+{
+  "id": "tia",
+  "name": "蒂亚",
+  "name_zh": "蒂亚",
+  "name_en": "Tia",
+  "aliases": [],
+  "nicknames": [
+    "白jk",
+    "白JK"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "爬虫类爱好者",
+      "type": "passive",
+      "summary": "■掩体体力恢复时，自身 【爆裂技能冷却时间7秒 ▼】【叠加2次】【持续12秒】 ■掩体体力恢复时，全体队友 【攻击伤害17.46% ▲】【持续10秒】"
+    },
+    {
+      "name": "变色龙隐身术",
+      "type": "passive",
+      "summary": "■普通攻击命中5次时，自身 【相当于施展者最大体力的掩体最大体力19.35% ▲】【持续5秒】 【注目：挑衅全体敌人】【持续5秒】 ■使用爆裂技能时，自身 【恢复相当于施展者最终最大体力的掩体体力10.5% ▲】 【恢复相当于攻击伤害的18.03%】【持续10秒】"
+    },
+    {
+      "name": "蜥蜴的守护",
+      "type": "burst",
+      "summary": "■自身 【生成相当于施展者最终最大体力的20.72%护盾】【持续10秒】 ■除自己以外的全体队友 【生成相当于施展者最终最大体力的6.03%护盾】【持续10秒】 ■全体队友 【重新进入爆裂 1阶】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "追魂钉",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/tia",
+    "https://www.gamekee.com/nikke/600940.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 600940,
+  "gamekee_entry_id": 127164,
+  "prydwen_slug": "tia",
+  "rarity": "SSR",
+  "burst": "蜥蜴的守护",
+  "verified": "GameKee nikke/600940 图鉴"
+}

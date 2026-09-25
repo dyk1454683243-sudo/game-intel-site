@@ -1,0 +1,44 @@
+{
+  "id": "product-08",
+  "name": "产品08",
+  "name_zh": "产品08",
+  "name_en": "Product-08",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "战术：装甲强化",
+      "type": "passive",
+      "summary": "■普通攻击命中时，以20%的几率，体力最低的1名队友 【防御力2.27%▲】【持续5秒】"
+    },
+    {
+      "name": "战术：精准射击",
+      "type": "active",
+      "summary": "■攻击力最高的1名队友 【暴击率5.74%▲】【持续5秒】"
+    },
+    {
+      "name": "战术：功率提升",
+      "type": "burst",
+      "summary": "■所有队友 【攻击力4.84%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "战术：功率提升",
+  "weapon": "狙击步枪",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/product-08",
+    "https://www.gamekee.com/nikke/152357.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152357,
+  "gamekee_entry_id": 102033,
+  "prydwen_slug": "product-08",
+  "rarity": "R",
+  "verified": "GameKee nikke/152357 图鉴"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "clay",
+  "name": "克雷伊",
+  "name_zh": "克雷伊",
+  "name_en": "Clay",
+  "aliases": [],
+  "nicknames": [
+    "白啦啦队"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "DON'T MISS!",
+      "type": "passive",
+      "summary": "■在全爆裂时间持续期间，进行60次普通攻击时，全体队友 【胜利的呐喊：无视防御伤害3.81%▲】 【叠加3次】【持续6秒] 【攻击敌人发射体时，对相关发射体施加的伤害28.81%▲】【持续6秒】"
+    },
+    {
+      "name": "WAKE UP!",
+      "type": "passive",
+      "summary": "■进入爆裂1阶时，全体队友 【免疫减益效果1个】【持续10秒】 ■仅限自身处于胜利的呐喊状态时，全体队友 【以施展者为基准的攻击力11.8%▲】【持续】"
+    },
+    {
+      "name": "GO! GO! VICTORY!",
+      "type": "burst",
+      "summary": "■全体队友 【无视防御伤害6.86% ▲】【持续10秒】 ■自身 【普通攻击变为无视防御力的伤害】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "GO! GO! VICTORY!",
+  "weapon": "You Can Do It",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/clay",
+    "https://www.gamekee.com/nikke/624298.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 624298,
+  "gamekee_entry_id": 152563,
+  "prydwen_slug": "clay",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/624298 图鉴"
+}

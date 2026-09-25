@@ -1,0 +1,44 @@
+{
+  "id": "rouge",
+  "name": "露姬",
+  "name_zh": "露姬",
+  "name_en": "Rouge",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "投掷卡牌",
+      "type": "passive",
+      "summary": "■全蓄力攻击8次时，全体队友 【仅以施展者为基准的最大体力2.95%▲】 【持续5秒】 【爆裂技能冷却时间4.13秒▼】"
+    },
+    {
+      "name": "抛掷硬币",
+      "type": "passive",
+      "summary": "■战斗开始时，被部署在后排时，自身和两侧 的2名队友 【刀剑币：攻击伤害3.93%▲】 【持续】 ■当进行30次全蓄力攻击时，如果自身 正处于刀剑币状态，则自身和两侧的2名队友 【 盾牌币：所受伤害8.98%▼】 【持续】 ■当使用5次爆裂技能时，如果自身 正处于盾牌币状态，则全体队友 【双剑币：以施展者为基准的最大体力8.91%▲】 【持续】"
+    },
+    {
+      "name": "游戏荷官",
+      "type": "burst",
+      "summary": "■全体队友 【以施展者为基准的攻击力7.12%▲】【持续10秒】 ■当自身处于刀剑币状态时，则全体队友 【仅以施展者为基准的最大体力6%▲】 【持续10秒】 ■当自身处于盾牌币状态时， 则全体队友 【以施展者为基准的最大体力11.88%▲】 【持续10秒】 ■当自身处于双剑币状态时，则全体队友 【仅以施展者为基准的最大体力17.74%▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "游戏荷官",
+  "weapon": "一击必中",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rouge",
+    "https://www.gamekee.com/nikke/152319.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152319,
+  "gamekee_entry_id": 164837,
+  "prydwen_slug": "rouge",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152319 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "elegg",
+  "name": "伊莱格",
+  "name_zh": "伊莱格",
+  "name_en": "Elegg",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "短路",
+      "type": "passive",
+      "summary": "■战斗开始时，全体队友 【攻击敌人发射体时，对该发射体造成的伤害 35.25%▲】【持续】 ■普通攻击命中100次时，若目标处于BOOM安装状态，则对目标和周围的2名敌人造成 【相当于最终攻击力53.79%的分摊伤害】"
+    },
+    {
+      "name": "快速蓄电",
+      "type": "passive",
+      "summary": "■普通攻击命中60次时， 若目标处于BOOM安装状态，则全体队友 【相当于以施展者为基准的攻击力5.49%▲】 【持续5秒】 ■目标出现时，全体队友 【爆裂进度补充 100%】【战斗中触发1次】"
+    },
+    {
+      "name": "BOOM安装",
+      "type": "burst",
+      "summary": "■全体队友 【分摊伤害 22.46%▲】【持续10秒】 ■对距离瞄准线最近的1名敌人 【造成相当于最终攻击力46.8%的伤害】 【BOOM安装：防御力21.06%▼】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "BOOM安装",
+  "weapon": "爆弹枪",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/elegg",
+    "https://www.gamekee.com/nikke/615258.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 615258,
+  "gamekee_entry_id": 142929,
+  "prydwen_slug": "elegg",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/615258 图鉴"
+}

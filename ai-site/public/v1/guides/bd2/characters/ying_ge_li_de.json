@@ -1,0 +1,40 @@
+{
+  "id": "ying_ge_li_de",
+  "name": "英格利得",
+  "name_zh": "英格利得",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "起舞枪管",
+      "type": "active",
+      "costume": "卡迪斯的子弹",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力210%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "双重麻烦",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "卡迪斯的子弹",
+      "type": null,
+      "skill": "起舞枪管"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593592.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593592,
+  "gamekee_entry_id": 122327,
+  "verified": "GameKee zsca2/593592 图鉴"
+}

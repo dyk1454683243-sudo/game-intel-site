@@ -1,0 +1,44 @@
+{
+  "id": "brid-silent-track",
+  "name": "布丽德：静默轨道",
+  "name_zh": "布丽德：静默轨道",
+  "name_en": "Brid: Silent Track",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "列车启动",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，使全体风压代码敌人 【所受伤害8.93%▲】【持续10秒】 ■全爆裂时间开始时，对全体敌人造成 【最终攻击力375.82%的伤害】"
+    },
+    {
+      "name": "前行之路",
+      "type": "passive",
+      "summary": "■发动10次普通攻击时，使剩馀体力最低的1名风压代码敌人 【所受伤害7.16%▲】【持续10秒】 ■发动5次普通攻击时，对剩馀体力最低的1名敌人造成 【最终攻击力239.32%的伤害】"
+    },
+    {
+      "name": "全速行驶",
+      "type": "burst",
+      "summary": "■除自身之外的全体队友 【以施展者为基准的攻击力39.3%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "全速行驶",
+  "weapon": "无声蒸汽",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/brid-silent-track",
+    "https://www.gamekee.com/nikke/685270.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 685270,
+  "gamekee_entry_id": 199447,
+  "prydwen_slug": "brid-silent-track",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/685270 图鉴"
+}

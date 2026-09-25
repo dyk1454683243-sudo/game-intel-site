@@ -1,0 +1,46 @@
+{
+  "id": "noir",
+  "name": "诺亚尔",
+  "name_zh": "诺亚尔",
+  "name_en": "Noir",
+  "aliases": [],
+  "nicknames": [
+    "黑兔"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "幸运符",
+      "type": "passive",
+      "summary": "■若自身体力在70%以上，则全体队友 【获得施展者攻击力的8.32% ▲】【持续】"
+    },
+    {
+      "name": "双子兔 B",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【最大装弹数3发 ▲】【持续10秒】 【子弹补充26.02%】"
+    },
+    {
+      "name": "谢幕",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【相当于攻击力207.79%的伤害】 ■持有霰弹枪的全体队友 【命中率8.23% ▲】【持续10秒】 【阻挡部位攻击伤害13.72% ▲】【持续10秒】 ■若有同一部队的队友，则全体队友 【命中率6.86% ▲】【持续30秒】 【阻挡部位攻击伤害 11.44% ▲】 【持续30秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "黑色卡斯托尔",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/noir",
+    "https://www.gamekee.com/nikke/591253.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 591253,
+  "gamekee_entry_id": 121067,
+  "prydwen_slug": "noir",
+  "rarity": "SSR",
+  "burst": "谢幕",
+  "verified": "GameKee nikke/591253 图鉴"
+}

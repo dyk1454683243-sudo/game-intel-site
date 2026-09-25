@@ -1,0 +1,44 @@
+{
+  "id": "admi",
+  "name": "艾德米",
+  "name_zh": "艾德米",
+  "name_en": "Admi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "助威之手",
+      "type": "passive",
+      "summary": "■被攻击20次时，全体队友 【蓄力伤害4.8%▲】【持续20秒】"
+    },
+    {
+      "name": "猫之气息",
+      "type": "active",
+      "summary": "■攻击力最高的两名队友 【被击伤害14.32%▼】【持续10秒】"
+    },
+    {
+      "name": "爱之报恩",
+      "type": "burst",
+      "summary": "■全体队友 【换弹速度25.45%▲】【持续10秒】 【暴击伤害14.17%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "爱之报恩",
+  "weapon": "狙击步枪",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/admi",
+    "https://www.gamekee.com/nikke/152344.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152344,
+  "gamekee_entry_id": 102012,
+  "prydwen_slug": "admi",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152344 图鉴"
+}

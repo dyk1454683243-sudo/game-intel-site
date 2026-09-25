@@ -1,0 +1,46 @@
+{
+  "id": "privaty-unkind-maid",
+  "name": "普丽瓦蒂：不友善的女仆",
+  "name_zh": "普丽瓦蒂：不友善的女仆",
+  "name_en": "Privaty: Unkind Maid",
+  "aliases": [],
+  "nicknames": [
+    "女仆初音"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "热情满满的女仆",
+      "type": "passive",
+      "summary": "■弹丸命中30次时， 对距离瞄准线最近的2名敌人造成 【相当于最终攻击力119.86%的额外伤害】"
+    },
+    {
+      "name": "充满爱意的女仆",
+      "type": "passive",
+      "summary": "■普通攻击1次命中弹丸5个以上时， 自身 【换弹速度12.33%▲】【持续2秒】 ■在全爆裂时间持续过程中命中弹丸30次时，自身 【子弹补充1发】 【攻击力6.63%▲】【叠加5次】 【持续2秒】"
+    },
+    {
+      "name": "害羞！你的女仆",
+      "type": "burst",
+      "summary": "■自身 【攻击伤害6.24%▲】【持续10秒】 【暴击伤害52.1%▲】【持续10秒】 ■对所有敌人造成 【相当于最终攻击力630.3%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "害羞！你的女仆",
+  "weapon": "野蛮情人",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
+    "https://www.gamekee.com/nikke/614623.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 614623,
+  "gamekee_entry_id": 141478,
+  "prydwen_slug": "privaty-unkind-maid",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/614623 图鉴"
+}

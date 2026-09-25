@@ -1,0 +1,81 @@
+{
+  "id": "sha_he_la_cha_de",
+  "name": "莎赫拉查德",
+  "name_zh": "莎赫拉查德",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "水流裂破",
+      "type": "active",
+      "costume": "苍蓝魔女",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身魔法力340%的魔法伤害。解除应用于敌人的增益效果。"
+    },
+    {
+      "name": "幽静水流",
+      "type": "active",
+      "costume": "魔法学校教授",
+      "summary": "攻击敌人7次，每次攻击时，造成相当于自身魔法力90%的魔法伤害。解除应用于敌人的增益效果。【额外能力】2回合内，敌人魔法抵抗减少15%。"
+    },
+    {
+      "name": "蓝宝石回旋镖",
+      "type": "active",
+      "costume": "代号S",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身魔法力245%的魔法伤害。解除应用于敌人的增益效果。4回合内，对敌人应用沉默效果。"
+    },
+    {
+      "name": "盛夏热浪",
+      "type": "active",
+      "costume": "泳池派对",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力80%的魔法伤害。若此攻击对敌人叠加的连携数量为15或以上，则改为造成相当于自身魔法力260%的魔法伤害。解除应用于敌人的增益效果。"
+    },
+    {
+      "name": "第1式炼金术",
+      "type": "talent",
+      "summary": "限Lv.5可使用炼金术。消耗20个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "丰识魔剑",
+  "talent": {
+    "name": "第1式炼金术",
+    "summary": "限Lv.5可使用炼金术。消耗20个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "苍蓝魔女",
+      "type": "原皮",
+      "skill": "水流裂破"
+    },
+    {
+      "name": "魔法学校教授",
+      "type": null,
+      "skill": "幽静水流"
+    },
+    {
+      "name": "代号S",
+      "type": null,
+      "skill": "蓝宝石回旋镖"
+    },
+    {
+      "name": "泳池派对",
+      "type": "限定",
+      "skill": "盛夏热浪"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593577.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593577,
+  "gamekee_entry_id": 122345,
+  "verified": "GameKee zsca2/593577 图鉴"
+}

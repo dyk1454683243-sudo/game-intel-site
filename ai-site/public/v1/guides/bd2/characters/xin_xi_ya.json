@@ -1,0 +1,40 @@
+{
+  "id": "xin_xi_ya",
+  "name": "辛西亚",
+  "name_zh": "辛西亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "暴风雪",
+      "type": "active",
+      "costume": "寒日温暖",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身魔法力25%的魔法伤害。对敌人应用造成相当于自身魔法力225%的魔法伤害的冻伤效果。此效果在遭受8次攻击后将消失。（包括此攻击）"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "冰雪红宝石",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "寒日温暖",
+      "type": null,
+      "skill": "暴风雪"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593593.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593593,
+  "gamekee_entry_id": 122328,
+  "verified": "GameKee zsca2/593593 图鉴"
+}

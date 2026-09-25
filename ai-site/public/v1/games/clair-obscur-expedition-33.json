@@ -1,0 +1,28 @@
+{
+  "id": "clair-obscur-expedition-33",
+  "name": "Clair Obscur: Expedition 33",
+  "name_zh": "光与影：33号远征队",
+  "platforms": [
+    "steam",
+    "pc",
+    "ps5",
+    "xbox"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "turn-based"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1903340/"
+    }
+  ],
+  "steam_appid": 1903340,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

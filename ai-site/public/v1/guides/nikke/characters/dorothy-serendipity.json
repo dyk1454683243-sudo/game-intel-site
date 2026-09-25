@@ -1,0 +1,47 @@
+{
+  "id": "dorothy-serendipity",
+  "name": "桃乐丝：机缘巧遇",
+  "name_zh": "桃乐丝：机缘巧遇",
+  "name_en": "Dorothy: Serendipity",
+  "aliases": [],
+  "nicknames": [
+    "水桃",
+    "水蜜桃"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "闪光",
+      "type": "passive",
+      "summary": "■弹丸命中80次时，自身 【穿透特化】【持续3发】 【命中率78.54%▲】【持续3发】 【攻击伤害43.2%▲】【持续3发】 【弹丸数量固定为1颗】【持续3发】 ■弹丸命中160次时，自身 【穿透范围扩大200%】【持续3发】"
+    },
+    {
+      "name": "光翼",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【穿透伤害31.68%▲】【持续】 ■仅限在全爆裂时间持续期间内，自身 【攻击力45%▲】【持续】 【命中率23.4%▲】【持续】"
+    },
+    {
+      "name": "虚假救赎",
+      "type": "burst",
+      "summary": "■自身 【攻击速度36.72%▲】【持续15秒】 【攻击力51.08%▲】【持续15秒】 【弹丸数量3个▲】【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "忘恩负义的奥兹",
+  "element": "水冷",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/dorothy-serendipity",
+    "https://www.gamekee.com/nikke/670644.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 670644,
+  "gamekee_entry_id": 191407,
+  "prydwen_slug": "dorothy-serendipity",
+  "rarity": "SSR",
+  "burst": "虚假救赎",
+  "verified": "GameKee nikke/670644 图鉴"
+}

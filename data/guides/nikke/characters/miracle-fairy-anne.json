@@ -1,0 +1,46 @@
+{
+  "id": "miracle-fairy-anne",
+  "name": "安妮：奇迹仙女",
+  "name_zh": "安妮：奇迹仙女",
+  "name_en": "Anne: Miracle Fairy",
+  "aliases": [],
+  "nicknames": [
+    "圣安"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "跳舞的精灵",
+      "type": "passive",
+      "summary": "■发动3次普通攻击时，辅助型全体队友 【恢复等同于攻击伤害的3.33%】【持续5秒】"
+    },
+    {
+      "name": "精灵的玩笑",
+      "type": "passive",
+      "summary": "■当自身体力在90%以上时，全体队友 【获得体力恢复量12.9% ▲】【持续】 ■最后的子弹命中时，若自身体力为90% 以上，全体敌人 【获得体力恢复量43.41% ▼】【持续10秒】"
+    },
+    {
+      "name": "蓝蝶之梦",
+      "type": "burst",
+      "summary": "■火力型全体队友 【恢复相当于施展者最终最大体力的21.23%】 【攻击力42.47% ▲】【持续10秒】 ■无法战斗状态的随机1名火力型队友 【以54.45%的体力复活】【战斗中触发1次】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "蓝蝶之梦",
+  "weapon": "蜉蝣",
+  "element": "风压",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
+    "https://www.gamekee.com/nikke/578097.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 578097,
+  "gamekee_entry_id": 114279,
+  "prydwen_slug": "miracle-fairy-anne",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/578097 图鉴"
+}

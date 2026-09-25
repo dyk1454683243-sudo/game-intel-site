@@ -1,0 +1,44 @@
+{
+  "id": "chisato-nishikigi",
+  "name": "千束",
+  "name_zh": "千束",
+  "name_en": "Chisato Nishikigi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "超感知",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【超感知充电100%】【最大100%】【持续】【无法解除】 ■若自身处于超感知状态，则赋予自身 【超感知状态阶段效果】 【低阶效果重复生效】 100%状态时：【射击看破：无敌】 【持续2秒】 仅限70%以上时：【攻击力31.72%▲】 【持续】【无法解除】 仅限55%以上时：【无视防御力伤害28.73%▲】【持续】【无法解除】 仅限25%以上时：【命中率13.22%▲】【持续】【无法解除】 ■每2秒自身 【超感知1%▼】"
+    },
+    {
+      "name": "防御贯穿射击",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【普通攻击变更为无视防御力的伤害】【持续10秒】 ■普通攻击命中48次时，对目标造成 【最终攻击力279.01%的无视防御力伤害】"
+    },
+    {
+      "name": "紧急充电",
+      "type": "burst",
+      "summary": "■自身 【超感知充电100%】 【攻击力43.23%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "紧急充电",
+  "weapon": "SMG压制型冲锋枪",
+  "element": "铁甲",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
+    "https://www.gamekee.com/nikke/693503.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 693503,
+  "gamekee_entry_id": 205081,
+  "prydwen_slug": "chisato-nishikigi",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/693503 图鉴"
+}

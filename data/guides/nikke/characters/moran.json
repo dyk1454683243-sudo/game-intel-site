@@ -1,0 +1,44 @@
+{
+  "id": "moran",
+  "name": "牡丹",
+  "name_zh": "牡丹",
+  "name_en": "Moran",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "放马过来吧!",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【每失去1%的体力，防御力1.93%▲】【持续】 ■自身处于武器变更状态时，普通攻击命中5次时，对目标造成相当于 【最终攻击力25.95%的额外伤害】"
+    },
+    {
+      "name": "这里就交给我吧！",
+      "type": "passive",
+      "summary": "■最后的子弹攻击时，向最终攻击力最高的3名敌人发动 【挑衅】【持续4秒】 ■自身体力少于20%时，自身 【不同使用次数不同效果】 【毅力: 仅套用对应次数效果】 1次:【最大体力55%▲】【持续3秒】【战斗中发动1次】 2次:【最大体力36.09%▲】【持续3秒】【战斗中发动1次】 3次:【最大体力25.78%▲】【持续3秒】【战斗中发动1次】"
+    },
+    {
+      "name": "堂堂正正地一决胜负!",
+      "type": "burst",
+      "summary": "■自身 【变更使用武器】： 伤害：造成相当于最终攻击力11.46%的伤害 持续时间：10秒 追加效果 【恢复相当于攻击伤害的19.89%】【持续10秒】 【注目：挑衅全体敌人】【持续10秒】 特殊事项：爆裂技能施展过程中无法掩蔽 ■全体队友 【所受伤害21.78%▼】 【持续10秒】 【以施展者为标准的防御力8.16%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "堂堂正正地一决胜负!",
+  "weapon": "龙头",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/moran",
+    "https://www.gamekee.com/nikke/610829.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 610829,
+  "gamekee_entry_id": 138643,
+  "prydwen_slug": "moran",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/610829 图鉴"
+}

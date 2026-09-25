@@ -1,0 +1,59 @@
+{
+  "id": "an_na_ta_xi_ya",
+  "name": "安娜塔西亚",
+  "name_zh": "安娜塔西亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "集中炮击",
+      "type": "active",
+      "costume": "和善女仆",
+      "summary": "1回合内，自身致命伤害增加600%。攻击敌人3次，每次攻击时，造成相当于自身攻击力210%的物理伤害。若敌人为主要目标，则改为造成相当于自身攻击力500%的物理伤害。"
+    },
+    {
+      "name": "扫射，扫射，扫射！",
+      "type": "active",
+      "costume": "热火涂鸦",
+      "summary": "1回合内，自身致命伤害增加600%。攻击敌人10次，每次攻击时，造成相当于自身攻击力50%的物理伤害。若敌人为主要目标，则改为造成相当于自身攻击力90%的物理伤害。"
+    },
+    {
+      "name": "好兴奋啊！",
+      "type": "talent",
+      "summary": "能以移动速度增加75%的状态移动10秒。消耗10个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "M.A.I.DC",
+  "talent": {
+    "name": "好兴奋啊！",
+    "summary": "能以移动速度增加75%的状态移动10秒。消耗10个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "和善女仆",
+      "type": "原皮",
+      "skill": "集中炮击"
+    },
+    {
+      "name": "热火涂鸦",
+      "type": null,
+      "skill": "扫射，扫射，扫射！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593623.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593623,
+  "gamekee_entry_id": 122357,
+  "verified": "GameKee zsca2/593623 图鉴"
+}

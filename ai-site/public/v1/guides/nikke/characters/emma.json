@@ -1,0 +1,44 @@
+{
+  "id": "emma",
+  "name": "艾玛",
+  "name_zh": "艾玛",
+  "name_en": "Emma",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "啦啦队",
+      "type": "passive",
+      "summary": "■被攻击时以5%的机率对全体队友 【恢复相当于施展者最终最大体力的5.92%】"
+    },
+    {
+      "name": "诱惑",
+      "type": "passive",
+      "summary": "■自身的体力达90%以上时，全体队友 【获得体力恢复量7.33% ▲】【持续】"
+    },
+    {
+      "name": "利他主义",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的21.78%】 【恢复相当于攻击伤害的21.78%】 【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "利他主义",
+  "weapon": "特别治愈师",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/emma",
+    "https://www.gamekee.com/nikke/152341.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152341,
+  "gamekee_entry_id": 102001,
+  "prydwen_slug": "emma",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152341 图鉴"
+}

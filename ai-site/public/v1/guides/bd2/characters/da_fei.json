@@ -1,0 +1,62 @@
+{
+  "id": "da_fei",
+  "name": "达非",
+  "name_zh": "达非",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "月夜豪谈",
+      "type": "active",
+      "costume": "明月",
+      "summary": "6回合内，释放九尾狐之力，并进行变身。攻击敌人2次，每次攻击时，造成相当于自身魔法力650%的魔法伤害。4回合内，对敌人应用每层叠加造成相当于自身魔法力200%的魔法伤害的出血叠加效果。最多可应用叠加至99层。"
+    },
+    {
+      "name": "妖力风暴",
+      "type": "active",
+      "costume": "暑假",
+      "summary": "攻击敌人4次，每次攻击时，造成相当于自身魔法力100%的魔法伤害。8回合内，对敌人应用每层叠加造成相当于自身魔法力100%的魔法伤害的出血叠加效果。最多可应用叠加至99层。"
+    },
+    {
+      "name": "这场闹剧，也该收场了吧？",
+      "type": "active",
+      "costume": "机智恋人",
+      "summary": "对敌人造成相当于自身魔法力100%的魔法伤害。若敌人处于【出血】状态，则改为根据敌人持有的总量，每拥有1个出血，造成相当于自身魔法力300%的魔法伤害。解除敌人身上的出血效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "千年发簪",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "明月",
+      "type": "原皮",
+      "skill": "月夜豪谈"
+    },
+    {
+      "name": "暑假",
+      "type": "限定",
+      "skill": "妖力风暴"
+    },
+    {
+      "name": "机智恋人",
+      "type": "常驻",
+      "skill": "这场闹剧，也该收场了吧？"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/607173.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 607173,
+  "gamekee_entry_id": 135141,
+  "verified": "GameKee zsca2/607173 图鉴"
+}

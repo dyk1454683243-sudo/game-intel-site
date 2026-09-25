@@ -1,0 +1,31 @@
+{
+  "id": "miraesi",
+  "name": "Invisible Future",
+  "name_zh": "미래시",
+  "platforms": [
+    "pc",
+    "mobile",
+    "other"
+  ],
+  "tags": [
+    "gacha",
+    "rpg",
+    "upcoming"
+  ],
+  "sources": [
+    {
+      "label": "Official site",
+      "url": "https://miresi.onstove.com/en"
+    },
+    {
+      "label": "Smilegate newsroom",
+      "url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=eng"
+    }
+  ],
+  "stub": true,
+  "watchlist": true,
+  "guides_path": "/guides/miraesi/",
+  "note": "Watchlist; identity + official links only",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

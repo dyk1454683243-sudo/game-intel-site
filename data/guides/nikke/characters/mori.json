@@ -1,0 +1,39 @@
+{
+  "id": "mori",
+  "name": "Mori",
+  "name_zh": null,
+  "name_en": "Mori",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Mole in Hiding",
+      "type": "passive"
+    },
+    {
+      "name": "All-Out Support",
+      "type": "passive"
+    },
+    {
+      "name": "Survival Tactics of the Weak",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 2",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mori"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "mori",
+  "verified": "Prydwen /nikke/characters/mori"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "privaty-treasure",
+  "name": "Privaty (Treasure)",
+  "name_zh": null,
+  "name_en": "Privaty (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Ex Magazine",
+      "type": "passive"
+    },
+    {
+      "name": "LD Assault",
+      "type": "passive"
+    },
+    {
+      "name": "AK Missile",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 3",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/privaty-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "privaty-treasure",
+  "verified": "Prydwen /nikke/characters/privaty-treasure"
+}

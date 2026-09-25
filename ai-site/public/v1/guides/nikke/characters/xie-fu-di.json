@@ -1,0 +1,43 @@
+{
+  "id": "xie-fu-di",
+  "name": "谢芙蒂",
+  "name_zh": "谢芙蒂",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "超级操作员",
+      "type": "passive",
+      "summary": "关于愚人节的由来： 关于愚人节的由来虽然有许多说法，但其中最为可信的就是"
+    },
+    {
+      "name": "恐慌炸弹",
+      "type": "passive",
+      "summary": "【炒年糕食谱】 ①在锅中加入两杯水和年糕块，并用大火煮开。 ②水滚后，倒入调味料搅拌均匀并持续煮沸。 ③煮至收汁后，根据喜好的口味放入葱或芝麻点缀。"
+    },
+    {
+      "name": "身陷恐慌",
+      "type": "burst",
+      "summary": "我要写首愚人节打油诗。 愚：愚蠢的人啊 啊，写不下去了。还是明年愚人节再说吧。"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "身陷恐慌",
+  "weapon": "冲锋枪",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/nikke/589285.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 589285,
+  "gamekee_entry_id": 120033,
+  "prydwen_slug": null,
+  "rarity": "R",
+  "verified": "GameKee nikke/589285 图鉴"
+}

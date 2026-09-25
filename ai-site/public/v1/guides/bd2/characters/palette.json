@@ -1,0 +1,53 @@
+{
+  "id": "palette",
+  "name": "帕莱特",
+  "name_zh": "帕莱特",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "棉被"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "让你见识真正的杰作···！",
+      "type": "active",
+      "costume": "惊悚之梦",
+      "summary": "对敌人造成相当于自身魔法力800%的魔法伤害。敌人持有的所有减益效果的持续回合数2回合延长。"
+    },
+    {
+      "name": "紫罗兰☆极限突袭",
+      "type": "active",
+      "costume": "奇迹紫罗兰",
+      "summary": "攻击敌人7次，每次攻击时，造成相当于自身魔法力65%的魔法伤害。此时，敌方的减益效果达到7个及以上时，则改为造成相当于自身魔法力200%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "黛莉内奥",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "惊悚之梦",
+      "type": "原皮",
+      "skill": "让你见识真正的杰作···！"
+    },
+    {
+      "name": "奇迹紫罗兰",
+      "type": null,
+      "skill": "紫罗兰☆极限突袭"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/697006.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 697006,
+  "gamekee_entry_id": 210629,
+  "verified": "GameKee zsca2/697006 图鉴"
+}

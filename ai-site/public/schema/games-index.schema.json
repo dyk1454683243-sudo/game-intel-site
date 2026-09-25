@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/games-index.schema.json",
+  "title": "game-intel games catalog index",
+  "type": "object",
+  "required": ["as_of", "timezone", "games"],
+  "additionalProperties": true,
+  "properties": {
+    "as_of": { "type": "string" },
+    "timezone": { "type": "string", "const": "Asia/Shanghai" },
+    "note": { "type": "string" },
+    "count": { "type": "integer", "minimum": 0 },
+    "watchlist_count": { "type": "integer", "minimum": 0 },
+    "stub_count": { "type": "integer", "minimum": 0 },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "stub"],
+        "additionalProperties": true,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "name_zh": { "type": "string" },
+          "platforms": { "type": "array", "items": { "type": "string" } },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "stub": { "type": "boolean" },
+          "watchlist": { "type": "boolean" },
+          "steam_appid": { "type": ["integer", "null"] },
+          "path": { "type": "string" }
+        }
+      }
+    }
+  }
+}

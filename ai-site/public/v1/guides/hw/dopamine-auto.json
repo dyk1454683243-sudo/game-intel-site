@@ -1,0 +1,95 @@
+{
+  "id": "dopamine_auto",
+  "name": "多巴胺自动三队",
+  "name_en": "Dopamine Auto 3 Teams",
+  "game": "hw",
+  "as_of": "2026-09",
+  "constraint": "三队互斥；每位角色累计出场 ≤3 次",
+  "note": "Verified roster for auto clear; stage mapping A=1/3/5, B=2/4/6, C=7. Prefer GameKee community clears over third-party walkthroughs.",
+  "teams": [
+    {
+      "id": "A",
+      "label": "修女队",
+      "stages": [
+        1,
+        3,
+        5
+      ],
+      "members": [
+        {
+          "id": "lysandria",
+          "name": "莉珊德莉娅"
+        },
+        {
+          "id": "palmen",
+          "name": "帕梅恩"
+        },
+        {
+          "id": "mahari",
+          "name": "玛哈里"
+        },
+        {
+          "id": "yuha",
+          "name": "尤哈"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "姑妈队",
+      "stages": [
+        2,
+        4,
+        6
+      ],
+      "members": [
+        {
+          "id": "olivia",
+          "name": "奥利维亚"
+        },
+        {
+          "id": "valet",
+          "name": "瓦莱塔"
+        },
+        {
+          "id": "gigi",
+          "name": "吉吉"
+        },
+        {
+          "id": "pretina",
+          "name": "普蕾缇娜"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "科拉队",
+      "stages": [
+        7
+      ],
+      "members": [
+        {
+          "id": "cola",
+          "name": "科拉"
+        },
+        {
+          "id": "alan",
+          "name": "阿岚"
+        },
+        {
+          "id": "leia",
+          "name": "蕾雅"
+        },
+        {
+          "id": "shiraishi_kotoha",
+          "name": "白石琴叶",
+          "alt": "冰女"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gamekee.com/hw/718778.html",
+    "community verified Sep 2026 (Asia/Shanghai)"
+  ]
+}

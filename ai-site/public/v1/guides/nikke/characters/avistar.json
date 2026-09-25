@@ -1,0 +1,44 @@
+{
+  "id": "avistar",
+  "name": "阿维斯塔",
+  "name_zh": "阿维斯塔",
+  "name_en": "Avistar",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "安可表演",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，赋予我的偶像 【安可表演：以施展者为基准的攻击力47.42%▲】【进入全爆裂状态时解除】 ■全爆裂时间结束时，自身 【恢复施展者最终最大体力的2.08%】【间隔1秒】【持续10秒】 【观星者解除】"
+    },
+    {
+      "name": "美好回忆",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，若自身体力在25%以上且处于观星者状态时，则自身 【目前体力20%▼】 ■全爆裂时间开始时，仅在自身处于观星者状态下，赋予我的偶像 【发射体爆炸伤害23.71%▲】【持续】 【攻击伤害23.71%▲】【持续】"
+    },
+    {
+      "name": "观星者",
+      "type": "burst",
+      "summary": "■全体队友 【重新进入爆裂1阶】 ■自身 【观星者：以施展者为基准的最大体力15.6%▲】【持续】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "观星者",
+  "weapon": "孤傲荣光",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/avistar",
+    "https://www.gamekee.com/nikke/703507.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 703507,
+  "gamekee_entry_id": 214041,
+  "prydwen_slug": "avistar",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/703507 图鉴"
+}

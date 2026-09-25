@@ -1,0 +1,44 @@
+{
+  "id": "power",
+  "name": "帕瓦",
+  "name_zh": "帕瓦",
+  "name_en": "Power",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "血之魔印",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【血之魔印：攻击力3.78% ▲】 【叠加5次】【持续3秒】"
+    },
+    {
+      "name": "血之爆炸",
+      "type": "passive",
+      "summary": "■进行18次普通攻击后，自身若处于血之魔印的最大叠加状态，则自身 【爆炸范围15.21% ▲】【持续10秒】 【子弹补充100%】【战斗中触发1次】"
+    },
+    {
+      "name": "血之铁锤",
+      "type": "burst",
+      "summary": "■对攻击力最高的1名敌人造成 【相当于最终攻击力936%的伤害】 ■自身若处于血之魔印的最大叠加状态，则对同一敌人造成 【相当于最终攻击力936% 的追加伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "血之铁锤",
+  "weapon": "充沛的力量",
+  "element": "燃烧",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/power",
+    "https://www.gamekee.com/nikke/584475.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 584475,
+  "gamekee_entry_id": 117180,
+  "prydwen_slug": "power",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/584475 图鉴"
+}

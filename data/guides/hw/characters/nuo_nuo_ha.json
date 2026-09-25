@@ -1,0 +1,59 @@
+{
+  "id": "nuo_nuo_ha",
+  "name": "诺诺哈",
+  "name_zh": "诺诺哈",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T1.5 / 微风君主",
+  "skills": [
+    {
+      "name": "寒风",
+      "type": "active",
+      "summary": "造成相当于魔法攻击力60%的斩击伤害，并将目标击退1.5米。"
+    },
+    {
+      "name": "风之汇聚",
+      "type": "passive",
+      "summary": "每次进行除待机以外的行动时，都会获得【流动之风】效果。自身回合结束时，赋予所有友军【风之汇聚】效果。"
+    },
+    {
+      "name": "风之护盾",
+      "type": "active",
+      "summary": "根据自身的魔法攻击力，对单一友军及自身赋予持续2R的【风之护盾】效果"
+    },
+    {
+      "name": "季风",
+      "type": "active",
+      "summary": "仅在拥有3层以上【涌动之风】效果时可触发。消耗3层【涌动之风】效果，使所有友军获得相当于自身行动恢复力30%的行动力，并在下一轮开始时，将增加的行动力数值转换为等量的行动恢复力。"
+    }
+  ],
+  "skill_prio": [
+    "和帕梅恩技能组完全一样，因此也只需要点护盾和大招。",
+    "寒风: 不加",
+    "风之汇聚: 不加",
+    "风之护盾: 6级即可",
+    "季风: 6级即可"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "游荡世间",
+    "pieces": 4,
+    "notes": [
+      "2件: 移动力",
+      "4件: 满血时行动恢复力",
+      "辅助标配行动恢复力拉满的游荡世间的微风套即可。"
+    ]
+  },
+  "weapon": "微风呢喃",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634258.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 634258,
+  "gamekee_entry_id": 163046,
+  "verified": "GameKee hw/634258 图鉴"
+}

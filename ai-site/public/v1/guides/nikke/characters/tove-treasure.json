@@ -1,0 +1,39 @@
+{
+  "id": "tove-treasure",
+  "name": "Tove (Treasure)",
+  "name_zh": null,
+  "name_en": "Tove (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Emergency-Crafted Bullets",
+      "type": "passive"
+    },
+    {
+      "name": "Modification Successful",
+      "type": "passive"
+    },
+    {
+      "name": "Miracle of Makeshifts",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/tove-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "tove-treasure",
+  "verified": "Prydwen /nikke/characters/tove-treasure"
+}

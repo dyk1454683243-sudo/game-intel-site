@@ -1,0 +1,46 @@
+{
+  "id": "alice",
+  "name": "爱丽丝",
+  "name_zh": "爱丽丝",
+  "name_en": "Alice",
+  "aliases": [
+    "爱丽丝"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "力量红萝卜",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，攻击力最高的2名队友 【以施展者为基准的蓄力速度6.89%▲】 【持续10秒】 【蓄力伤害4.13%▲】【持续10秒】"
+    },
+    {
+      "name": "健康红萝卜",
+      "type": "passive",
+      "summary": "■自身体力为80%以上时，自身 【穿透特化】【持续】 ■自身体力为80%以下时，自身 【恢复相当于攻击伤害的2.45%】【持续】"
+    },
+    {
+      "name": "奇异国度",
+      "type": "burst",
+      "summary": "■自身 【蓄力速度54.84%▲】【持续10秒】 【攻击力14.62%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/alice",
+    "https://www.gamekee.com/nikke/92090.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 92090,
+  "gamekee_entry_id": 64611,
+  "prydwen_slug": "alice",
+  "rarity": "SSR",
+  "burst": "奇异国度",
+  "verified": "GameKee nikke/92090 图鉴"
+}

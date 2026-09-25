@@ -1,0 +1,48 @@
+{
+  "id": "asuka-shikinami-langley-wille",
+  "name": "明日香：WILLE",
+  "name_zh": "明日香：WILLE",
+  "name_en": "Asuka Shikinami Langley: Wille",
+  "aliases": [],
+  "nicknames": [
+    "二期香",
+    "风香",
+    "独眼香"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "反AT力场",
+      "type": "passive",
+      "summary": "■普通攻击命中50次时，对目标造成 【最终攻击力278.82%的额外伤害】 ■只要自身处于歼灭态势状态，自身 【歼灭态势额外效果】： 目标：每10发，对距离瞄准线最近的攻击范围内的敌人2名造成 伤害：最终攻击力9.22%的伤害 额外效果：【反AT力场：所受伤害0.49%▲】【叠加30次】【持续30秒】"
+    },
+    {
+      "name": "紧急修复",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时， 若自身为歼灭态势状态，自身 【攻击伤害18.3%▲】【持续10秒】 ■歼灭时，自身 【紧急修复】： 功能：机枪预热速度降低＆子弹减少但换弹速度固定＆最大体力持续等比恢复 效果1：【机枪预热速度100%▼】 【持续3秒】 效果2：【子弹减少100%】 效果3：【根据施展者的最终最大体力2.22%持续等比恢复】【间隔1秒】【持续3秒】 效果4：【换弹速度固定为60%增加状态】【持续1发】"
+    },
+    {
+      "name": "歼灭态势",
+      "type": "burst",
+      "summary": "■自身 【歼灭态势】： 功能：普通攻击伤害减少，但攻击能力增加 效果1：【普通攻击伤害40% 倍率▼】 【持续9秒】 效果2：【子弹补充12.4%】 效果3：【以施展者为基准的 攻击力27.65%▲】【持续9秒】 效果4：【攻击伤害21.27%▲】【持续9秒】 ■对反AT力场状态的目标 【歼灭】： 功能：歼灭态势结束时，对陷入反AT力场的目标发起强力攻击，造成 【最终攻击力3.91%的额外伤害】【复制各目标的反AT力场叠加次数】【效果生效后，反AT力场解除】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "歼灭态势",
+  "weapon": "大规模歼灭专用机枪",
+  "element": "风压",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley-wille",
+    "https://www.gamekee.com/nikke/156668.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 156668,
+  "gamekee_entry_id": 176735,
+  "prydwen_slug": "asuka-shikinami-langley-wille",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/156668 图鉴"
+}

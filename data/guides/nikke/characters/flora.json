@@ -1,0 +1,44 @@
+{
+  "id": "flora",
+  "name": "芙罗拉",
+  "name_zh": "芙罗拉",
+  "name_en": "Flora",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "矮牵牛",
+      "type": "passive",
+      "summary": "■战斗开始时，只要自身处于生存状态，自身及自身两侧的2名队友 【恢复相当于施展者最终最大体力1%的体力】【间隔1秒】【持续】 【获得体力恢复量 2.36%▲】【叠加5次】【持续】 ■发动100次普通攻击时，电击代码的全体队友 【可叠加的增益效果叠加量1次▲】"
+    },
+    {
+      "name": "鸢尾花",
+      "type": "passive",
+      "summary": "■自身两侧的队友之一体力低于90%时，全体队友 【产生相当于施展者最终最大体力6.04%的护盾】【持续10秒】 ■自身两侧的队友之一体力达到上限时，全体队友 【无视防御力伤害18.3%▲】【持续5秒】"
+    },
+    {
+      "name": "秘密花园",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者 最终最大体力6.17%的体力】 【无视防御力伤害25.05%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "秘密花园",
+  "weapon": "自然花园",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/flora",
+    "https://www.gamekee.com/nikke/170646.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170646,
+  "gamekee_entry_id": 170296,
+  "prydwen_slug": "flora",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170646 图鉴"
+}

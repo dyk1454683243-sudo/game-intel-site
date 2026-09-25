@@ -1,0 +1,81 @@
+{
+  "id": "rubia",
+  "name": "露比雅",
+  "name_zh": "露比雅",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "短剑之舞",
+      "type": "active",
+      "costume": "沙漠之刺",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力110%的物理伤害。7回合内，对敌人应用造成相当于自身攻击力340%的物理伤害的灼伤效果。"
+    },
+    {
+      "name": "爆裂子弹",
+      "type": "active",
+      "costume": "大海女帝",
+      "summary": "攻击敌人6次，每次攻击时，造成相当于自身攻击力80%的物理伤害。4回合内，敌人防御力减少45%。"
+    },
+    {
+      "name": "秘密服务",
+      "type": "active",
+      "costume": "女仆代号C",
+      "summary": "自身成功闪避敌人3次前，以100%的概率闪避敌人的攻击。6回合内，自身攻击力增加50%。攻击敌人2次，每次攻击时，造成相当于自身攻击力220%的物理伤害。"
+    },
+    {
+      "name": "秘密指令",
+      "type": "active",
+      "costume": "女仆比基尼",
+      "summary": "对敌人造成相当于自身攻击力150%的物理伤害。2回合内，对敌人应用造成相当于自身攻击力500%的物理伤害的灼伤效果。4回合内，对敌人应用300%的施加持续伤害虚弱效果。"
+    },
+    {
+      "name": "踩云",
+      "type": "talent",
+      "summary": "20秒内冲刺恢复速度提升95%。消耗10个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "红玉髓剑",
+  "talent": {
+    "name": "踩云",
+    "summary": "20秒内冲刺恢复速度提升95%。消耗10个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "沙漠之刺",
+      "type": "原皮",
+      "skill": "短剑之舞"
+    },
+    {
+      "name": "大海女帝",
+      "type": null,
+      "skill": "爆裂子弹"
+    },
+    {
+      "name": "女仆代号C",
+      "type": null,
+      "skill": "秘密服务"
+    },
+    {
+      "name": "女仆比基尼",
+      "type": "常驻",
+      "skill": "秘密指令"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593601.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593601,
+  "gamekee_entry_id": 122350,
+  "verified": "GameKee zsca2/593601 图鉴"
+}

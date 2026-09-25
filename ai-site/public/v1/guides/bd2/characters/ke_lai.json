@@ -1,0 +1,51 @@
+{
+  "id": "ke_lai",
+  "name": "克莱",
+  "name_zh": "克莱",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "暗",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "铁甲袭击",
+      "type": "active",
+      "costume": "解放掠夺者",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身攻击力215%的物理伤害。4回合内，敌人防御力减少50%。"
+    },
+    {
+      "name": "相信我",
+      "type": "active",
+      "costume": "粗暴学生",
+      "summary": "3"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "哭泣魔王",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "解放掠夺者",
+      "type": null,
+      "skill": "铁甲袭击"
+    },
+    {
+      "name": "粗暴学生",
+      "type": null,
+      "skill": "相信我"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593645.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593645,
+  "gamekee_entry_id": 122337,
+  "verified": "GameKee zsca2/593645 图鉴"
+}

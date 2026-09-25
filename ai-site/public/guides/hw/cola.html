@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>科拉 · 地平线行者</title>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#111}
+    a{color:#06c} code{background:#f4f4f4;padding:.1em .35em;border-radius:4px}
+    .stub{color:#a60}.rich{color:#070} ul{padding-left:1.2rem}
+    .meta{color:#666;font-size:.9rem} table{border-collapse:collapse;width:100%}
+    td,th{border:1px solid #ddd;padding:.4rem .55rem;text-align:left}
+    .conclusion{background:#f7fafc;border:1px solid #c8d6e5;border-radius:8px;padding:.75rem 1rem;margin:1rem 0}
+    .conclusion h2{font-size:1rem;margin:0 0 .5rem;color:#234}
+    .conclusion dl{margin:0;display:grid;grid-template-columns:5.5em 1fr;gap:.35rem .75rem}
+    .conclusion dt{font-weight:600;color:#456}
+    .conclusion dd{margin:0}
+    .conclusion .srcs{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem .75rem}
+    .conclusion .srcs a{font-size:.85rem}
+  </style>
+</head>
+<body>
+<p><a href="./index.html">← 地平线行者</a></p>
+<h1>科拉 <code>cola</code></h1>
+<p class="rich">verified card</p>
+
+<p>定位：T0.5 / 输出 / 火地板 / 黄泉君主</p>
+
+<h2>技能</h2>
+<ul><li><strong>能量召唤</strong> <code>active</code> — 对矩形范围内敌人造成魔法攻击力80%的火属性伤害，该技能无法进行弱点攻击。</li>
+<li><strong>空间转移</strong> <code>active</code> — 瞬间移动到半径9m范围内指定的位置</li>
+<li><strong>召唤熔岩</strong> <code>active</code> — 对3米圆形范围内的敌人造成魔法攻击力40% 的火属性伤害，并在5R间内生成【熔岩】区域。【熔岩】区域最多被召唤3个，超过3个后最先被召唤的【熔岩】将消失。</li>
+<li><strong>禁忌之地</strong> <code>passive</code> — 如果位于【熔岩】的敌人被击中，回合结束时所有的熔岩区域都会爆炸，对区域内所有敌人造成施展者魔法攻击 40%的额外火属性伤害。此额外火属性伤害会受到火属性强化属性2倍效果的影响。</li>
+<li><strong>火山喷发</strong> <code>active</code> — 对所有敌人造成魔法攻击力30%的火属性伤害。</li></ul>
+<h2>加点优先级</h2><ol><li>伤害来源主要是*mauve:大招诱发的禁忌之地伤害*，因此这两个是核心。除此之外大招也可以单独作为清日常的手段。不过考虑到8费角色技能升级消耗过高，还是量力而行吧。</li><li>能量召唤: 不加</li><li>空间转移: 6级即可</li><li>召唤熔岩: 6级即可</li><li>禁忌之地: 尽量点满</li><li>火山喷发: 尽量点满</li></ol>
+<h2>圣痕</h2><pre>{
+  &quot;set_id&quot;: null,
+  &quot;set_name&quot;: &quot;永恒之战&quot;,
+  &quot;pieces&quot;: 4,
+  &quot;notes&quot;: [
+    &quot;2件: 战斗中魔法攻击力&quot;,
+    &quot;4件: 攻击多名敌人时魔法攻击力&quot;,
+    &quot;大招效果为追加伤害，因此小丑套意义不大，用老的永恒之战即可。&quot;
+  ]
+}</pre>
+<h2>来源</h2>
+<ul><li><a href="https://www.gamekee.com/hw/634222.html">https://www.gamekee.com/hw/634222.html</a></li></ul>
+<p class="meta">JSON: <a href="/v1/guides/hw/characters/cola.json"><code>/v1/guides/hw/characters/cola.json</code></a></p>
+<hr/>
+<p class="meta">game-intel guides · Asia/Shanghai · dual-publish from <code>data/guides/</code></p>
+</body>
+</html>

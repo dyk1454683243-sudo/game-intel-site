@@ -1,0 +1,39 @@
+{
+  "id": "helm-treasure",
+  "name": "Helm (Treasure)",
+  "name_zh": null,
+  "name_en": "Helm (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Frontline Command",
+      "type": "passive"
+    },
+    {
+      "name": "Fire Away",
+      "type": "passive"
+    },
+    {
+      "name": "Aegis Cannon",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 3",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/helm-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "helm-treasure",
+  "verified": "Prydwen /nikke/characters/helm-treasure"
+}

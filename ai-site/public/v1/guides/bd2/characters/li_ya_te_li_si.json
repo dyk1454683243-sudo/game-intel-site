@@ -1,0 +1,70 @@
+{
+  "id": "li_ya_te_li_si",
+  "name": "莉亚特里斯",
+  "name_zh": "莉亚特里斯",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "空气穿透",
+      "type": "active",
+      "costume": "罗戴夫之星",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力45%的物理伤害。5回合内，对敌人应用每层叠加造成相当于自身攻击力45%物理伤害的灼伤叠加效果。并且最多可赋予叠加至10。"
+    },
+    {
+      "name": "火焰喷射",
+      "type": "active",
+      "costume": "霓虹跟踪狂",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力65%的物理伤害。5回合内，对敌人应用每层叠加造成相当于自身攻击力40%物理伤害的灼伤叠加效果。并且最多可赋予叠加至10。"
+    },
+    {
+      "name": "女仆之爱❤发射",
+      "type": "active",
+      "costume": "女仆代号R",
+      "summary": "对敌人造成相当于自身攻击力550%的物理伤害。若敌人处于持续伤害状态，则改为造成相当于自身攻击力850%的物理伤害。"
+    },
+    {
+      "name": "跌进相公的怀抱❤",
+      "type": "talent",
+      "summary": "能以移动速度增加25%的状态移动30秒。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "穿月弓",
+  "talent": {
+    "name": "跌进相公的怀抱❤",
+    "summary": "能以移动速度增加25%的状态移动30秒。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "罗戴夫之星",
+      "type": "原皮",
+      "skill": "空气穿透"
+    },
+    {
+      "name": "霓虹跟踪狂",
+      "type": null,
+      "skill": "火焰喷射"
+    },
+    {
+      "name": "女仆代号R",
+      "type": null,
+      "skill": "女仆之爱❤发射"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593608.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593608,
+  "gamekee_entry_id": 122353,
+  "verified": "GameKee zsca2/593608 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "quency",
+  "name": "坎西",
+  "name_zh": "坎西",
+  "name_en": "Quency",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "新的路线",
+      "type": "passive",
+      "summary": "■进行60次普通攻击时，自身 【复制体力最高妮姬最大体力的6.21%】【持续10秒】"
+    },
+    {
+      "name": "隐秘的共犯",
+      "type": "active",
+      "summary": "■攻击力最高的2名队友 【攻击力8.05% ▲】【持续5秒】"
+    },
+    {
+      "name": "伟大的脱身",
+      "type": "burst",
+      "summary": "■攻击力最高的2名队友 【最大体力21.93% ▲】【持续5秒】 【暴击伤害14.95% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "伟大的脱身",
+  "weapon": "清单第一",
+  "element": "电击",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/quency",
+    "https://www.gamekee.com/nikke/580948.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 580948,
+  "gamekee_entry_id": 115416,
+  "prydwen_slug": "quency",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/580948 图鉴"
+}

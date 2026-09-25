@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "as_of": "2026-09-25",
+    "timezone": "Asia/Shanghai",
+    "generated_at": "2026-09-25T10:16:19+08:00",
+    "source": "digest+radar (real items only; never invented)",
+    "count": 32,
+    "note": "Sparse is OK. Empty items[] is valid if no real intel available."
+  },
+  "items": [
+    {
+      "title": "Happy Chuseok! 🌝",
+      "url": "https://www.browndust2.com/en-us/news/view?id=01M36CPE9E31T673V1HSXDJNS0",
+      "game_id": "bd2",
+      "platform": "official",
+      "published_at": "2026-09-25T00:00:34.111Z",
+      "source": "official"
+    },
+    {
+      "title": "解决一个bug，服务器断开连接重新开始游戏，实际上与网络无关，留档也许有人需要",
+      "url": "https://www.gamekee.com/zsca2/722174.html",
+      "game_id": "bd2",
+      "platform": "gamekee",
+      "published_at": "2026-09-24T15:56:02.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "【角色评测+攻略】小美人鱼+米哈拉：羁绊锁链",
+      "url": "https://www.gamekee.com/nikke/721995.html",
+      "game_id": "nikke",
+      "platform": "gamekee",
+      "published_at": "2026-09-24T10:34:29.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "蓝色星原 平民队伍推荐——火属性超限队与风属性超限队",
+      "url": "https://www.gamekee.com/www/722051.html",
+      "game_id": "star",
+      "platform": "gamekee",
+      "published_at": "2026-09-23T16:35:20.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "蓝色星原 战斗底层介绍——属性克制与印记",
+      "url": "https://www.gamekee.com/www/722050.html",
+      "game_id": "star",
+      "platform": "gamekee",
+      "published_at": "2026-09-23T16:24:53.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
+      "url": "https://www.gamekee.com/www/721973.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": "2026-09-23T08:32:17.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "ElotesDoro 事件状况&来龙去脉",
+      "url": "https://www.gamekee.com/nikke/721826.html",
+      "game_id": "nikke",
+      "platform": "gamekee",
+      "published_at": "2026-09-22T09:51:59.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《Horizon Walker》l Patch Note",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010503595",
+      "game_id": "hw",
+      "platform": "official",
+      "published_at": "2026-09-22T09:01:38.000Z",
+      "source": "official"
+    },
+    {
+      "title": "NC《阿索拉：星之祈願》10月2日起展開全球CBT",
+      "url": "https://about.ncsoft.com/tw/news/article/AO_update_20260923",
+      "game_id": "asora",
+      "platform": "official",
+      "published_at": "2026-09-22",
+      "source": "official"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》TGS首发爆火！复古RPG试玩排队火热",
+      "url": "https://www.gamekee.com/www/721482.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": "2026-09-18T03:31:33.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "收/换 莎拉镭射票/吧唧",
+      "url": "https://www.gamekee.com/zsca2/720284.html",
+      "game_id": "bd2",
+      "platform": "gamekee",
+      "published_at": "2026-09-08T11:46:38.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "第二届近卫征集大赛",
+      "url": "https://www.gamekee.com/hw/719925.html",
+      "game_id": "hw",
+      "platform": "gamekee",
+      "published_at": "2026-09-05T14:13:48.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "幕后访谈第14弹 “两周年奖励，比一周周年更加丰厚”",
+      "url": "https://www.gamekee.com/hw/715371.html",
+      "game_id": "hw",
+      "platform": "gamekee",
+      "published_at": "2026-08-04T09:20:33.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "【情報】角色預測",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=471",
+      "game_id": "hw",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
+      "title": "Guilty Mighty Bunny",
+      "url": "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+      "game_id": "nikke",
+      "platform": "prydwen",
+      "published_at": null,
+      "source": "prydwen"
+    },
+    {
+      "title": "Sin Swift Bunny",
+      "url": "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
+      "game_id": "nikke",
+      "platform": "prydwen",
+      "published_at": null,
+      "source": "prydwen"
+    },
+    {
+      "title": "【情報】PC版本FAQ(2023/9/7更新)",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=36390&snA=7519",
+      "game_id": "nikke",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
+      "title": "【情報】序號CouPon兌換碼集中串(9/24更新)",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=76207&snA=9744",
+      "game_id": "bd2",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
+      "title": "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
+      "url": "https://www.taptap.cn/moment/842394655134843472",
+      "game_id": "star",
+      "platform": "official",
+      "published_at": null,
+      "source": "official"
+    },
+    {
+      "title": "蓝色星原：旅谣",
+      "url": "https://www.taptap.cn/app/593829",
+      "game_id": "star",
+      "platform": "taptap",
+      "published_at": null,
+      "source": "taptap"
+    },
+    {
+      "title": "【情報】版上實用文章整合(暫定)",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=79865&snA=76",
+      "game_id": "star",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
+      "title": "Smilegate Officially Opens MIRESI and CZN Booths at Anime Expo 2026",
+      "url": "https://newsroom.smilegate.com/eng/1783313698",
+      "game_id": "miraesi",
+      "platform": "official",
+      "published_at": null,
+      "source": "official"
+    },
+    {
+      "title": "VALOFE — Last Origin 2 开发本格化 / 组队 (GameChosun)",
+      "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
+      "game_id": "lo2",
+      "platform": "official",
+      "published_at": null,
+      "source": "official"
+    },
+    {
+      "title": "阿索拉：星之祈愿",
+      "url": "https://www.taptap.cn/app/855697",
+      "game_id": "asora",
+      "platform": "taptap",
+      "published_at": null,
+      "source": "taptap"
+    },
+    {
+      "title": "【情報】《CBT》測試者選拔結果及主要日程公告",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=85952&snA=28",
+      "game_id": "asora",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
+      "title": "NCSoft奇幻RPG新作《阿索拉：星之祈愿》TGS 2026首秀，封闭测试火热招募！",
+      "url": "https://www.gamekee.com/www/721410.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": null,
+      "source": "gamekee"
+    },
+    {
+      "title": "『 CBT 』 모집 마감 및 테스터 선정 일정 안내",
+      "url": "https://www.inven.co.kr/board/party/6537/112",
+      "game_id": null,
+      "platform": "inven",
+      "published_at": null,
+      "source": "inven"
+    },
+    {
+      "title": "『 CBT 』 테스터 선정 결과 발표 안내",
+      "url": "https://www.inven.co.kr/board/party/6537/115",
+      "game_id": null,
+      "platform": "inven",
+      "published_at": null,
+      "source": "inven"
+    },
+    {
+      "title": "CBT 참가자 모집 종료까지 D-14",
+      "url": "https://www.inven.co.kr/board/party/6537/92",
+      "game_id": null,
+      "platform": "inven",
+      "published_at": null,
+      "source": "inven"
+    },
+    {
+      "title": "아스트라에 CBT 참가자 모집 시작",
+      "url": "https://www.inven.co.kr/board/party/6537/69",
+      "game_id": null,
+      "platform": "inven",
+      "published_at": null,
+      "source": "inven"
+    },
+    {
+      "title": "아스트라에 오라토리오, CBT 참가자 모집 개시",
+      "url": "https://www.inven.co.kr/board/party/6553/37",
+      "game_id": null,
+      "platform": "inven",
+      "published_at": null,
+      "source": "inven"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》二次元新游揭秘！魔法咖啡店少女集结",
+      "url": "https://www.gamekee.com/www/721509.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": null,
+      "source": "gamekee"
+    }
+  ]
+}

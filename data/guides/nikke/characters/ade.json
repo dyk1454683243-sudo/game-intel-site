@@ -1,0 +1,44 @@
+{
+  "id": "ade",
+  "name": "爱德",
+  "name_zh": "爱德",
+  "name_en": "Ade",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "支援型",
+  "skills": [
+    {
+      "name": "我要开始打扫了，主人",
+      "type": "passive",
+      "summary": "■战斗开始时，全体队友 【完美的女仆：免疫减益效果1个】 【叠加1次】【持续】 ■自身体力在90%以下时，全体队友 【相当于以施展者为基准的攻击力3.29%▲】 【持续5秒】"
+    },
+    {
+      "name": "现在是休息时间，主人。",
+      "type": "passive",
+      "summary": "■普通攻击420次时，全体队友 【完美的女仆：免疫减益效果1个】 【叠加1次】【持续】 ■普通攻击120次时，全体队友 【仅限于以施展者为基准最大体力8.78%▲】 【持续5秒】"
+    },
+    {
+      "name": "该用餐了，主人。",
+      "type": "burst",
+      "summary": "■全体队友 【仅限于以施展者为基准最大体力16.88%▲】 【持续10秒】 【相当于以施展者为基准的攻击力6.58%▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "该用餐了，主人。",
+  "weapon": "典雅（AR）",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/ade",
+    "https://www.gamekee.com/nikke/614660.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 614660,
+  "gamekee_entry_id": 141479,
+  "prydwen_slug": "ade",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/614660 图鉴"
+}

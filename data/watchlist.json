@@ -1,0 +1,98 @@
+{
+  "hw": {
+    "name": "Horizon Walker",
+    "name_zh": "地平线行者",
+    "gamekee_alias": "hw",
+    "keywords": [
+      "Horizon Walker",
+      "地平线行者"
+    ],
+    "steam_appid": 3279780
+  },
+  "nikke": {
+    "name": "Nikke",
+    "name_zh": "胜利女神：NIKKE",
+    "gamekee_alias": "nikke",
+    "keywords": [
+      "NIKKE",
+      "胜利女神"
+    ],
+    "official_url": "https://nikke-en.com/news.html"
+  },
+  "bd2": {
+    "name": "Brown Dust 2",
+    "name_zh": "棕色尘埃2",
+    "gamekee_alias": "zsca2",
+    "keywords": [
+      "Brown Dust 2",
+      "棕色尘埃2"
+    ],
+    "official_url": "https://www.browndust2.com/en-us/news",
+    "official_api": "bd2_notices"
+  },
+  "star": {
+    "name": "Azure Star Origin",
+    "name_zh": "蓝色星原：旅谣",
+    "gamekee_alias": null,
+    "keywords": [
+      "蓝色星原",
+      "蓝色星原：旅谣",
+      "旅谣",
+      "Azur Promilia",
+      "蓝色星原旅谣",
+      "奇波"
+    ],
+    "official_url": "https://azurpromilia.com/news",
+    "official_site": "https://azurpromilia.manjuu.com/en/",
+    "official_api": "star_official"
+  },
+  "miraesi": {
+    "name": "Invisible Future",
+    "name_zh": "미래시",
+    "gamekee_alias": null,
+    "keywords": [
+      "미래시",
+      "Invisible Future",
+      "MIRESI",
+      "CONTROL9",
+      "미래시: 보이지 않는 미래"
+    ],
+    "official_url": "https://newsroom.smilegate.com/bbs/board.php?bo_table=eng",
+    "official_api": "smilegate_newsroom",
+    "official_site": "https://miresi.onstove.com/en"
+  },
+  "lo2": {
+    "name": "Last Origin 2",
+    "name_zh": "Last Origin 2",
+    "gamekee_alias": null,
+    "keywords": [
+      "Last Origin 2",
+      "라스트오리진2",
+      "VALOFE",
+      "라스트 오리진2",
+      "Last Origin II"
+    ],
+    "official_url": "https://www.valofe.com/",
+    "official_api": "lo2_official"
+  },
+  "asora": {
+    "name": "Astrae Oratio",
+    "name_zh": "阿索拉：星之祈愿",
+    "gamekee_alias": null,
+    "keywords": [
+      "阿索拉",
+      "Astrae Oratio",
+      "아스트라에",
+      "오라티오",
+      "Dynamis One",
+      "Project AT",
+      "星之祈愿",
+      "星之祈願",
+      "AstraeOratio",
+      "NCSOFT"
+    ],
+    "official_url": "https://astraeoratio.plaync.com/zh-tw/index",
+    "official_site": "https://astraeoratio.plaync.com/zh-tw/index",
+    "official_api": "asora_official"
+  }
+}

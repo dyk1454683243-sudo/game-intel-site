@@ -1,0 +1,44 @@
+{
+  "id": "kilo",
+  "name": "吉洛",
+  "name_zh": "吉洛",
+  "name_en": "Kilo",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "奈米涂层",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【奈米涂层：产生相当于施展者最终最大体力11.61%的护盾】【持续】 ■使用爆裂技能时，若自身未处于奈米涂层状态，则自身 【奈米涂层：产生相当于施展者最终最大体力11.61%的护盾】【持续】"
+    },
+    {
+      "name": "自我恢复",
+      "type": "passive",
+      "summary": "■普通攻击200次时，若自身处于奈米涂层状态，则自身 【恢复相当于施展者最终最大体力的护盾体力 1.57%】 ■使用爆裂技能时，若自身未处于奈米涂层状态，则自身 【不同使用次数不同效果】【低阶效果重复生效】 1次：【下一个护盾的体力 9.76% ▲】【持续】 2次：【下一个护盾的体力 14.66% ▲】【持续】 3次：【下一个护盾的体力 19.54% ▲】【持续】"
+    },
+    {
+      "name": "指定优先顺序",
+      "type": "burst",
+      "summary": "■若自身处于奈米涂层状态，则对所有敌人造成 【最终最大体力的5%换算成攻击力632.96%的伤害】 ■若自身未处于奈米涂层状态，则自身 【最大体力26.4% ▲】 【持续20秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "指定优先顺序",
+  "weapon": "隐遁者",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/kilo",
+    "https://www.gamekee.com/nikke/621330.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 621330,
+  "gamekee_entry_id": 148497,
+  "prydwen_slug": "kilo",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/621330 图鉴"
+}

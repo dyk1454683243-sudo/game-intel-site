@@ -1,0 +1,46 @@
+{
+  "id": "rosanna-chic-ocean",
+  "name": "罗珊娜：高雅海洋",
+  "name_zh": "罗珊娜：高雅海洋",
+  "name_en": "Rosanna: Chic Ocean",
+  "aliases": [],
+  "nicknames": [
+    "水罗"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "伤痕",
+      "type": "passive",
+      "summary": "■战斗开始时，全体队友 【零件伤害 14.33%▲】【持续15秒】 ■当包含自身在内的某位队友破坏零件时，全体队友 【相当于施展者攻击力的1.77% ▲】 【叠加5次】【持续30秒】"
+    },
+    {
+      "name": "玫瑰刺",
+      "type": "active",
+      "summary": "■全体队友 【零件伤害 14.33%▲】【持续15秒】 ■对距离瞄准线最近的1名敌人 【造成相当于最终攻击力41.6%的持续伤害】 【间隔1秒】【持续15秒】"
+    },
+    {
+      "name": "巨浪",
+      "type": "burst",
+      "summary": "■所有隊友 【持續傷害12.01% ▲】【持續10秒】 ■所有敵人 【所受傷害19.04% ▲】【持續10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "巨浪",
+  "weapon": "黄金士兵",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean",
+    "https://www.gamekee.com/nikke/170974.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170974,
+  "gamekee_entry_id": 153994,
+  "prydwen_slug": "rosanna-chic-ocean",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170974 图鉴"
+}

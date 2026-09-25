@@ -1,0 +1,44 @@
+{
+  "id": "centi",
+  "name": "桑迪",
+  "name_zh": "桑迪",
+  "name_en": "Centi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "维修工程",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，自身 【技能2的冷却时间4.58% ▼】"
+    },
+    {
+      "name": "现场检查",
+      "type": "active",
+      "summary": "■自身 【产生相当于施展者最终最大体力3.19%的队友通用护盾】 【持续5秒】"
+    },
+    {
+      "name": "开始动工",
+      "type": "burst",
+      "summary": "■对剩余的体力最低的5名敌人造成 相当于【最终攻击力72.73%的伤害】 【防御力 7.27% ▼】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "发射器",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/centi",
+    "https://www.gamekee.com/nikke/163877.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163877,
+  "gamekee_entry_id": 110023,
+  "prydwen_slug": "centi",
+  "rarity": "SSR",
+  "burst": "开始动工",
+  "verified": "GameKee nikke/163877 图鉴"
+}

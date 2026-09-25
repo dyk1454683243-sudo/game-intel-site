@@ -1,0 +1,46 @@
+{
+  "id": "anchor-innocent-maid",
+  "name": "安克：天真的女仆",
+  "name_zh": "安克：天真的女仆",
+  "name_en": "Anchor: Innocent Maid",
+  "aliases": [],
+  "nicknames": [
+    "女仆安克"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "海星（形状）蛋包饭",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【不同使用次数不同效果】【低阶效果重复生效】 1次：【体力恢复量18.29%▲】【持续5秒】 2次：【分摊伤害17.96%▲】【持续10秒】 3次：【可叠加的减益效果叠加量1个▼】 ■全爆裂时间开始时，若有同一部队的队友，全体队友 【恢复相当于施展者最大体力的1.79%】【间隔1秒】【持续8秒】"
+    },
+    {
+      "name": "海葵（形状）意大利面",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，全体队友 【不同使用次数不同效果】【低阶效果重复生效】 1次：【命中率5.98% ▲】【持续10秒】 2次：【以施展者为基准的攻击力20.65% ▲】【持续10秒】 3次：【换弹速度23.82% ▲】【持续15秒】"
+    },
+    {
+      "name": "海边散步",
+      "type": "burst",
+      "summary": "■全体队友 【储存：以施展者为基准的最大体力35.56%为上限，储存溢出获得的体力恢复量】【持续25秒】 【恢复相当于施展者最大体力的23.56%】 【以施展者为基准的攻击力17.78%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "海边散步",
+  "weapon": "天真的疑惑",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
+    "https://www.gamekee.com/nikke/164728.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 164728,
+  "gamekee_entry_id": 174879,
+  "prydwen_slug": "anchor-innocent-maid",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/164728 图鉴"
+}

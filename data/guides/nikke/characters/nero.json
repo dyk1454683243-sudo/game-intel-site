@@ -1,0 +1,44 @@
+{
+  "id": "nero",
+  "name": "尼罗",
+  "name_zh": "尼罗",
+  "name_en": "Nero",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "猫的报恩",
+      "type": "passive",
+      "summary": "■恢复效果生效时， 使目标 【所受伤害8.07% ▼】【持续5秒】 ■恢复效果生效时， 使自身 【猫的报恩：所受伤害5.24% ▼】 【叠加5次】【持续5秒】"
+    },
+    {
+      "name": "猫爪",
+      "type": "passive",
+      "summary": "■被攻击时，有30%的机率使目标 【所受伤害5.33% ▲】【持续5秒】 ■被攻击时，若正处于野蛮大猫状态，则有30%的机率对目标造成相当于 【最终攻击力62.4%的伤害】 ■战斗开始时，自身 【最大体力38.68% ▲】【持续】"
+    },
+    {
+      "name": "野蛮大猫",
+      "type": "burst",
+      "summary": "■对体力最高的1名敌人造成相当于 【最终攻击力975.31%的伤害】 ■自身 【注目：挑衅全体敌人】【持续8秒】 ■若自身处于猫的报恩最大叠加状态，则使自身 【野蛮大猫：体力恢复量38.48% ▲】【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "野蛮大猫",
+  "weapon": "喵呜喵呜",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/nero",
+    "https://www.gamekee.com/nikke/594767.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 594767,
+  "gamekee_entry_id": 122926,
+  "prydwen_slug": "nero",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/594767 图鉴"
+}

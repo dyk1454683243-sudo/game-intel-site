@@ -1,0 +1,44 @@
+{
+  "id": "claire-redfield",
+  "name": "克莱尔",
+  "name_zh": "克莱尔",
+  "name_en": "Claire Redfield",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "绿色药草",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中3次时，最终攻击力最高的2名队友 【绿色药草：恢复相当于施展者最终最大体力的1.26%】"
+    },
+    {
+      "name": "临时路障",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，全体队友 【蓝色药草：产生相当于施展者最终最大体力4.43%的护盾】【持续10秒】"
+    },
+    {
+      "name": "R+G+B",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的14.96%】 【解除减益效果1个】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "R+G+B",
+  "weapon": "H1手榴弹",
+  "element": "电击",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/claire-redfield",
+    "https://www.gamekee.com/nikke/678481.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 678481,
+  "gamekee_entry_id": 195279,
+  "prydwen_slug": "claire-redfield",
+  "rarity": "SR",
+  "verified": "GameKee nikke/678481 图鉴"
+}

@@ -1,0 +1,606 @@
+#!/usr/bin/env node
+/**
+ * Game Intel MCP — short JSON tools for watchlist + multi-source intel.
+ * Never returns raw HTML.
+ */
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "zod";
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+
+import {
+  shanghaiYmd,
+  EN_MONTH_MAP,
+  EN_MONTH_ALT,
+  toYmd,
+  parseDatesFromText,
+  applyRelativeDayPhrases,
+  classifyEventType,
+  stripDatesForNote,
+  buildEventNote,
+  TYPED_EVENT_RANK,
+  eventNeedsDateEnrichment,
+  bumpEventConfidence,
+  shanghaiTodayYmd,
+  shanghaiTomorrowYmd,
+} from "./calendar-parse.js";
+
+import {
+  resolveAlias as resolveHwAlias,
+  guideHw as guideHwCard,
+  loadDopamine,
+  listCharacterIds,
+} from "./hw-guides.js";
+import { guide as guideAny, listGuides } from "./guides.js";
+import {
+  cachedGuide,
+  warmGuideCache,
+  guideCacheStats,
+} from "./guide-cache.js";
+import { askIntel } from "./ask.js";
+
+export * from "./index-lib-02.js";
+import {
+  withCache,
+  includesCI,
+  isBareTapTapAppShell,
+  BAHAMUT_GNN_RSS,
+  BAHAMUT_SEARCH_JINA,
+  BAHAMUT_BSN,
+  BAHAMUT_QUERY_PREF,
+  RADAR_KEYWORDS,
+  isNoise,
+  radarScore,
+  passesGamekeeRadarTitle,
+  truncate,
+  stripHtml,
+  clampLimit,
+  dedupeByUrl,
+  dedupeByUrlOrTitle,
+  fetchText,
+  searchGamekee,
+  searchTaptap,
+  searchInven,
+  radarHitTitle,
+} from "./index-lib-02.js";
+
+
+async function radar({ q } = {}) {
+  const extra = String(q || "").trim();
+  const keywords = extra
+    ? [extra, ...RADAR_KEYWORDS.filter((k) => k !== extra)].slice(0, 4)
+    : ["公测", "预约", "CBT", "新作"];
+  const collected = [];
+
+  // TapTap: one community search on primary kw + app search
+  const tapKw = keywords[0];
+  try {
+    const tap = await searchTaptap({ query: tapKw, limit: 6 });
+    for (const it of tap.items || []) {
+      const row = {
+        ...it,
+        why: `taptap:${tapKw}`,
+      };
+      // Prefer titles that actually carry a radar keyword; drop bare app shells
+      const titleHasKw =
+        !!radarHitTitle(row.title) || includesCI(row.title, tapKw);
+      if (!titleHasKw) continue;
+      if (isBareTapTapAppShell(row)) continue;
+      if (isNoise(row)) continue;
+      collected.push(row);
+    }
+  } catch {
+    /* ignore */
+  }
+
+  // Inven: Korean/English launch-ish
+  const invenQ = extra || "CBT";
+  try {
+    const inv = await searchInven({ query: invenQ, limit: 5 });
+    for (const it of inv.items || []) {
+      const row = {
+        ...it,
+        why: `inven:${invenQ}`,
+      };
+      const titleHasKw =
+        !!radarHitTitle(row.title) || includesCI(row.title, invenQ);
+      if (!titleHasKw) continue;
+      if (isNoise(row)) continue;
+      collected.push(row);
+    }
+  } catch {
+    /* ignore */
+  }
+
+  // GameKee www keyword sweeps
+  for (const kw of keywords.slice(0, 3)) {
+    try {
+      const gk = await searchGamekee({ alias: "www", query: kw, limit: 4 });
+      for (const it of gk.items || []) {
+        const hit = radarHitTitle(it.title) || kw;
+        collected.push({
+          title: it.title,
+          url: it.url,
+          source: "gamekee",
+          updated: it.updated || null,
+          why: `gamekee:${hit}`,
+        });
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+
+  const filtered = dedupeByUrlOrTitle(collected)
+    .filter((it) => !isNoise(it))
+    .filter((it) => passesGamekeeRadarTitle(it))
+    .map((it) => ({
+      title: truncate(it.title, 120),
+      url: it.url,
+      source: it.source,
+      why: truncate(it.why || "radar", 40),
+      _score: radarScore(it),
+    }))
+    .sort((a, b) => b._score - a._score || String(a.title).localeCompare(String(b.title)))
+    .slice(0, 15)
+    .map(({ _score, ...rest }) => rest);
+
+  return {
+    ok: filtered.length > 0,
+    count: filtered.length,
+    keywords,
+    items: filtered,
+  };
+}
+
+
+/* ---------------- Bahamut GNN (RSS) ---------------- */
+
+function rssField(block, tag) {
+  const cdata = new RegExp(
+    "<" + tag + "[^>]*>\\s*<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>\\s*</" + tag + ">",
+    "i"
+  );
+  const plain = new RegExp(
+    "<" + tag + "[^>]*>([\\s\\S]*?)</" + tag + ">",
+    "i"
+  );
+  let m = cdata.exec(block);
+  if (m) return String(m[1] || "").trim();
+  m = plain.exec(block);
+  if (m) return String(m[1] || "").trim();
+  return "";
+}
+
+function parseRssItems(xml) {
+  const out = [];
+  const re = /<item>([\s\S]*?)<\/item>/gi;
+  let m;
+  while ((m = re.exec(String(xml || "")))) {
+    const block = m[1];
+    const title = stripHtml(rssField(block, "title"));
+    const link = stripHtml(rssField(block, "link"));
+    const dateRaw = stripHtml(rssField(block, "pubDate"));
+    const description = rssField(block, "description");
+    if (!title || !link) continue;
+    let date = null;
+    if (dateRaw) {
+      const d = new Date(dateRaw);
+      if (!Number.isNaN(d.getTime())) date = d.toISOString();
+    }
+    out.push({
+      title: truncate(title, 120),
+      url: link,
+      date,
+      description: stripHtml(description).slice(0, 400),
+    });
+  }
+  return out;
+}
+
+function tokenizeBahamutQuery(query) {
+  return String(query || "")
+    .split(/[\s/|、，,]+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 2);
+}
+
+function bahamutQueryMatches(haystack, query) {
+  const hay = String(haystack || "").toLowerCase();
+  const tokens = tokenizeBahamutQuery(query);
+  if (!tokens.length) {
+    const q = String(query || "").trim().toLowerCase();
+    return q.length >= 2 && hay.includes(q);
+  }
+  return tokens.some((t) => hay.includes(t.toLowerCase()));
+}
+
+function resolveBahamutBsn(game, bsn) {
+  if (bsn != null && Number.isFinite(Number(bsn))) return Number(bsn);
+  const key = String(game || "")
+    .toLowerCase()
+    .trim();
+  if (key && BAHAMUT_BSN[key] != null) return BAHAMUT_BSN[key];
+  return null;
+}
+
+function bahamutPreferredQuery(game, query) {
+  const key = String(game || "")
+    .toLowerCase()
+    .trim();
+  if (key && BAHAMUT_QUERY_PREF[key]) return BAHAMUT_QUERY_PREF[key];
+  return String(query || "").trim();
+}
+
+function normalizeBahamutUrl(u) {
+  try {
+    const url = new URL(String(u).trim());
+    if (/gnn\.gamer\.com\.tw$/i.test(url.hostname) && /detail\.php$/i.test(url.pathname)) {
+      const sn = url.searchParams.get("sn");
+      if (sn) return `https://gnn.gamer.com.tw/detail.php?sn=${sn}`;
+    }
+    if (/forum\.gamer\.com\.tw$/i.test(url.hostname) && /C\.php$/i.test(url.pathname)) {
+      const bsn = url.searchParams.get("bsn");
+      const snA = url.searchParams.get("snA");
+      if (bsn && snA) return `https://forum.gamer.com.tw/C.php?bsn=${bsn}&snA=${snA}`;
+    }
+  } catch {
+    /* ignore */
+  }
+  return String(u || "").trim();
+}
+
+function isWeakBahamutTitle(title, url) {
+  const t = String(title || "").trim();
+  if (!t || t.length < 8) return true;
+  if (/^(detail|B\.php|C\.php|gnn\.gamer|forum\.gamer|GNN\s*#)/i.test(t)) return true;
+  if (/巴哈姆特電玩資訊站/.test(t) && t.length < 40) return true;
+  if (/gnn\.gamer\.com\.tw|forum\.gamer\.com\.tw/i.test(t)) return true;
+  if (/^【獲取方式】|^image\.\s*SSR|\bgamer\.com\.tw\b/i.test(t)) return true;
+  // Jina snippets often lack a proper 《headline》 for GNN detail pages
+  if (/detail\.php/i.test(url || "") && !/《[^》]{2,}》/.test(t)) return true;
+  if (/detail\.php/i.test(url || "") && /^(GNN|新聞|detail)$/i.test(t)) return true;
+  return false;
+}
+
+function cleanGnnPageTitle(raw) {
+  let t = stripHtml(raw || "");
+  t = t
+    .replace(/\s*[-\u2013|\uff5c]\s*\u5df4\u54c8\u59c6\u7279\s*$/u, "")
+    .replace(/\s*[-\u2013|\uff5c]\s*GNN.*$/u, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  // Drop trailing EN duplicate book-title if a ZH 《...》 already exists
+  if ((t.match(/\u300a/g) || []).length >= 2) {
+    t = t.replace(/\u300a[^\u300b]{0,60}\u300b\s*$/u, "").trim();
+  }
+  return truncate(t, 120);
+}
+
+function parseJinaGnnDate(snippet) {
+  const m = String(snippet || "").match(
+    /(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/
+  );
+  if (!m) return null;
+  const d = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+  return Number.isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+function titleFromJinaSnippet(snippet) {
+  let s = String(snippet || "")
+    .replace(/\*\*/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  s = s.replace(/^20\d{2}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日\s*(?:\.\.\.|…|\*{0,2}\.{3}\*{0,2})?\s*/u, "");
+  s = s.replace(/^\.\.\.\s*/, "").replace(/^…\s*/, "");
+  // Prefer bracketed intel-style titles
+  const tagged = s.match(/【[^】]{1,40}】[^【]{0,80}/);
+  if (tagged) return truncate(tagged[0].trim(), 120);
+  const book = s.match(/《[^》]+》[^《.]{0,60}/);
+  if (book) return truncate(book[0].trim(), 120);
+  if (s.length >= 12) return truncate(s, 120);
+  return "";
+}
+
+/** Parse Jina markdown of Bahamut Google-CSE results for GNN + forum links. */
+function parseJinaBahamutSearch(md) {
+  const text = String(md || "");
+  const gnn = [];
+  const forum = [];
+  const seen = new Set();
+
+  const re =
+    /https:\/\/(?:gnn\.gamer\.com\.tw\/detail\.php\?sn=\d+|forum\.gamer\.com\.tw\/C\.php\?bsn=\d+&snA=\d+)/gi;
+  let m;
+  while ((m = re.exec(text))) {
+    const url = normalizeBahamutUrl(m[0]);
+    if (!url || seen.has(url)) continue;
+    seen.add(url);
+    const after = text.slice(m.index, Math.min(text.length, m.index + 700));
+    const date = parseJinaGnnDate(after);
+    let title = titleFromJinaSnippet(after);
+    // Drop breadcrumb-only chunks
+    if (/\u5df4\u54c8\u59c6\u7279/.test(title) && /(detail|\u54c8\u5566)/.test(title)) title = "";
+    if (!title) {
+      const snip = after.match(
+        /20\d{2}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日[\s\S]{0,220}/
+      );
+      if (snip) title = titleFromJinaSnippet(snip[0]);
+    }
+    if (!title) {
+      title = /detail\.php/i.test(url)
+        ? `GNN #${(url.match(/sn=(\d+)/) || [])[1] || "?"}`
+        : `Forum thread`;
+    }
+    const item = {
+      title: truncate(title, 120),
+      url,
+      date,
+      source: "bahamut",
+    };
+    if (/detail\.php/i.test(url)) gnn.push(item);
+    else forum.push(item);
+  }
+  return { gnn, forum };
+}
+
+function isBahamutIntelTitle(title) {
+  const t = String(title || "");
+  // Drop forum-meta stickies / board rules
+  if (/發文前請先閱讀|輕鬆不放縱|閱讀板規|板務公告|板規必讀/.test(t)) return false;
+  if (/【\s*公告\s*】/.test(t) && /(置頂|板規|請先閱讀|輕鬆不放縱|發文前)/.test(t)) {
+    return false;
+  }
+  // Tagged intel only — avoid bare 活動 matching 線下活動 in 【閒聊】/【問題】
+  if (/【\s*(情報|公告|活動|更新)\s*】/.test(t)) return true;
+  if (/情報/.test(t)) return true;
+  return false;
+}
+
+async function scrapeBahamutBoard(bsn, limit = 8) {
+  const lim = clampLimit(limit, 8, 20);
+  const url = `https://forum.gamer.com.tw/B.php?bsn=${bsn}`;
+  const res = await fetchText(url, { timeoutMs: 15000 });
+  if (!res.ok) return { ok: false, status: res.status, items: [] };
+  const html = res.text || "";
+  const items = [];
+  const seen = new Set();
+  const re =
+    /href="(C\.php\?bsn=\d+&snA=\d+)[^"]*"[^>]*class="b-list__main__title[^"]*">([^<]+)/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const href = m[1];
+    const title = stripHtml(m[2]);
+    if (!title || !isBahamutIntelTitle(title)) continue;
+    const full = normalizeBahamutUrl(`https://forum.gamer.com.tw/${href}`);
+    if (!full || seen.has(full)) continue;
+    seen.add(full);
+    items.push({
+      title: truncate(title, 120),
+      url: full,
+      date: null,
+      source: "bahamut",
+    });
+    if (items.length >= lim) break;
+  }
+  return { ok: items.length > 0, items };
+}
+
+async function enrichGnnTitles(items, maxFetches = 3) {
+  let left = maxFetches;
+  for (const it of items) {
+    if (left <= 0) break;
+    if (!/detail\.php\?sn=/i.test(it.url || "")) continue;
+    if (!isWeakBahamutTitle(it.title, it.url)) continue;
+    left -= 1;
+    try {
+      const res = await fetchText(it.url, { timeoutMs: 12000 });
+      if (!res.ok) continue;
+      const tm = (res.text || "").match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+      if (!tm) continue;
+      const cleaned = cleanGnnPageTitle(tm[1]);
+      if (cleaned && !isWeakBahamutTitle(cleaned, it.url)) it.title = cleaned;
+    } catch {
+      /* ignore */
+    }
+  }
+  return items;
+}
+
+async function searchBahamutRss(query, limit) {
+  const lim = clampLimit(limit, 5, 8);
+  const q = String(query || "").trim();
+  const res = await fetchText(BAHAMUT_GNN_RSS, {
+    headers: { Accept: "application/rss+xml,application/xml,text/xml,*/*" },
+    timeoutMs: 15000,
+  });
+  if (!res.ok) return { ok: false, error: `http_${res.status}`, items: [] };
+  const parsed = parseRssItems(res.text);
+  const items = [];
+  for (const it of parsed) {
+    if (items.length >= lim) break;
+    const hay = it.title + "\n" + (it.description || "");
+    if (!bahamutQueryMatches(hay, q)) continue;
+    items.push({
+      title: it.title,
+      url: normalizeBahamutUrl(it.url) || it.url,
+      date: it.date || null,
+      source: "bahamut",
+    });
+  }
+  return { ok: items.length > 0, items };
+}
+
+async function searchBahamutJina(query, limit) {
+  const lim = clampLimit(limit, 5, 12);
+  const q = String(query || "").trim();
+  if (!q) return { ok: false, items: [], gnn: [], forum: [] };
+  const target =
+    BAHAMUT_SEARCH_JINA +
+    `?q=${encodeURIComponent(q)}&type=2`;
+  const res = await fetchText(target, { timeoutMs: 25000 });
+  if (!res.ok) {
+    return {
+      ok: false,
+      error: `jina_http_${res.status}`,
+      items: [],
+      gnn: [],
+      forum: [],
+    };
+  }
+  const { gnn, forum } = parseJinaBahamutSearch(res.text);
+  return {
+    ok: gnn.length + forum.length > 0,
+    gnn: gnn.slice(0, lim),
+    forum: forum.slice(0, lim),
+    items: [...gnn, ...forum].slice(0, lim),
+  };
+}
+
+async function searchBahamut({ query, limit = 5, game = null, bsn = null }) {
+  const lim = clampLimit(limit, 5, 8);
+  const resolvedBsn = resolveBahamutBsn(game, bsn);
+  const q = bahamutPreferredQuery(game, query);
+  if (!q && resolvedBsn == null) {
+    return { ok: false, error: "need_query", items: [] };
+  }
+  return withCache(
+    "searchBahamut",
+    { query: q || null, limit: lim, game: game || null, bsn: resolvedBsn },
+    async () => {
+  const tierGnn = [];
+  const tierBoard = [];
+  const tierForum = [];
+  const tierRss = [];
+  const errors = [];
+
+  // 1) Jina GNN-focused search (type=2)
+  if (q) {
+    try {
+      const jina = await searchBahamutJina(q, Math.max(lim, 8));
+      if (jina.error) errors.push(jina.error);
+      for (const it of jina.gnn || []) tierGnn.push(it);
+      for (const it of jina.forum || []) {
+        // When BSN is pinned, drop cross-board forum noise (e.g. hw must be 81419)
+        if (resolvedBsn != null) {
+          const m = String(it.url || "").match(/[?&]bsn=(\d+)/i);
+          if (!m || Number(m[1]) !== Number(resolvedBsn)) continue;
+        }
+        if (!isBahamutIntelTitle(it.title)) continue;
+        tierForum.push(it);
+      }
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // 2) Board scrape when BSN known
+  if (resolvedBsn != null) {
+    try {
+      const board = await scrapeBahamutBoard(resolvedBsn, Math.max(lim, 6));
+      for (const it of board.items || []) tierBoard.push(it);
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // 3) RSS token match fallback
+  if (q) {
+    try {
+      const rss = await searchBahamutRss(q, lim);
+      if (rss.error) errors.push(rss.error);
+      for (const it of rss.items || []) tierRss.push(it);
+    } catch (e) {
+      errors.push(truncate(e.message, 60));
+    }
+  }
+
+  // Priority merge: with BSN pin prefer board scrape; else GNN > board > forum > RSS
+  const merged = dedupeByUrl(
+    resolvedBsn != null
+      ? [...tierBoard, ...tierGnn, ...tierForum, ...tierRss]
+      : [...tierGnn, ...tierBoard, ...tierForum, ...tierRss]
+  ).slice(0, lim);
+
+  await enrichGnnTitles(merged, 3);
+
+  return {
+    ok: merged.length > 0,
+    query: q || null,
+    game: game || null,
+    bsn: resolvedBsn,
+    count: merged.length,
+    items: merged,
+    ...(merged.length
+      ? {}
+      : { error: errors[0] || "no_match" }),
+  };
+    }
+  );
+}
+
+/* ---------------- Prydwen + nikke.gg ---------------- */
+
+const PRYDWEN_NAV_JUNK = new Set([
+  "/nikke",
+  "/nikke/",
+  "/nikke/tools",
+  "/nikke/builds",
+  "/nikke/teams-database",
+]);
+
+function isNikkeContext(query, entry) {
+  const parts = [
+    query,
+    entry?.id,
+    entry?.name,
+    entry?.name_zh,
+    ...(Array.isArray(entry?.keywords) ? entry.keywords : []),
+  ]
+    .filter(Boolean)
+    .map((x) => String(x).toLowerCase());
+  const blob = parts.join(" ");
+  return /nikke|胜利女神|勝利女神|니케|goddess of victory/.test(blob);
+}
+
+function prydwenTitleFromPath(pathname) {
+  const segs = String(pathname || "")
+    .replace(/\/+$/, "")
+    .split("/")
+    .filter(Boolean);
+  const last = segs[segs.length - 1] || "nikke";
+  return truncate(
+    last
+      .replace(/[-_]+/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase()),
+    120
+  );
+}
+
+export {
+  radar,
+  rssField,
+  parseRssItems,
+  tokenizeBahamutQuery,
+  bahamutQueryMatches,
+  resolveBahamutBsn,
+  bahamutPreferredQuery,
+  normalizeBahamutUrl,
+  isWeakBahamutTitle,
+  cleanGnnPageTitle,
+  parseJinaGnnDate,
+  titleFromJinaSnippet,
+  parseJinaBahamutSearch,
+  isBahamutIntelTitle,
+  scrapeBahamutBoard,
+  enrichGnnTitles,
+  searchBahamutRss,
+  searchBahamutJina,
+  searchBahamut,
+  isNikkeContext,
+  prydwenTitleFromPath,
+  PRYDWEN_NAV_JUNK,
+};

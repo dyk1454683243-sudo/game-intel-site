@@ -1,0 +1,44 @@
+{
+  "id": "2b",
+  "name": "2B",
+  "name_zh": "2B",
+  "name_en": "2B",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "生存行动",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【不同起始次数不同效果】【低阶效果重复生效】 1次：【最大体力5.92% ▲】【持续】 2次：【最大体力11.85% ▲】【持续】 3次：【最大体力34.13% ▲】【持续】"
+    },
+    {
+      "name": "集束炸弹",
+      "type": "passive",
+      "summary": "■射击300次时，对全体敌人造成相当于 【最终攻击力98.94%的伤害】 ■战斗开始时，自身 【相当于施展者的最终最大体力3.64%的攻击力 ▲】【持续】"
+    },
+    {
+      "name": "连续攻击",
+      "type": "burst",
+      "summary": "■对全体敌人造成相当于 【最终攻击力1441.44% 的分摊伤害】 ■对最大体力最高的1名敌人造成相当于 【最终攻击力468%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "连续攻击",
+  "weapon": "白色加农",
+  "element": "燃烧",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/2b",
+    "https://www.gamekee.com/nikke/599069.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 599069,
+  "gamekee_entry_id": 125852,
+  "prydwen_slug": "2b",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/599069 图鉴"
+}

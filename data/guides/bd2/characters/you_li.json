@@ -1,0 +1,51 @@
+{
+  "id": "you_li",
+  "name": "尤里",
+  "name_zh": "尤里",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "变身闪电",
+      "type": "active",
+      "costume": "白雷",
+      "summary": "6回合内，对自身应用攻击力增加160%的效果。此效果叠加至1。最多可赋予叠加至2。攻击敌人4次，每次攻击时，造成相当于自身攻击力160%的物理伤害。解除应用于敌人的增益效果。"
+    },
+    {
+      "name": "扑通扑通···砰！",
+      "type": "active",
+      "costume": "回归偶像",
+      "summary": "6回合内，对自身应用致命伤害增加150%的效果。此效果叠加至1。最多可赋予叠加至3。4回合内，对自己应用闪避目标效果。对敌人造成相当于自身攻击力900%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "黑雪大虎剑",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "白雷",
+      "type": "原皮",
+      "skill": "变身闪电"
+    },
+    {
+      "name": "回归偶像",
+      "type": null,
+      "skill": "扑通扑通···砰！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/606610.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 606610,
+  "gamekee_entry_id": 134559,
+  "verified": "GameKee zsca2/606610 图鉴"
+}

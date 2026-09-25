@@ -1,0 +1,60 @@
+{
+  "id": "mammonile",
+  "name": "马莫尼勒",
+  "name_zh": "马莫尼勒",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "章鱼妹"
+  ],
+  "game": "bd2",
+  "role": "生命c",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "去吧，奥克托比乌斯！",
+      "type": "active",
+      "costume": "玄夜",
+      "summary": "6回合内，释放奥克托比乌斯之力，并进行变身。6回合内，自身致命伤害增加300%。攻击敌人8次，每次攻击时，造成相当于自身最大生命值14%的魔法伤害。 【变身】：改变目标的外形并获得追加效果。在变身过程中，该技能的消耗SP和冷却时间为0。变身效果不会被解除效果解除。"
+    },
+    {
+      "name": "海洋☆深度意志",
+      "type": "active",
+      "costume": "奇迹海洋",
+      "summary": "自身遭受攻击时，对敌人应用50%虚弱效果。此效果在遭受8次攻击后将消失。4回合内，虚弱效果将持续，每被攻击1次时，叠加至1，最多可赋予叠加至8。6回合内，对自己应用70%的防护罩效果。"
+    },
+    {
+      "name": "暂无",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "暗影涌动",
+  "talent": {
+    "name": "暂无",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "玄夜",
+      "type": "原皮",
+      "skill": "去吧，奥克托比乌斯！"
+    },
+    {
+      "name": "奇迹海洋",
+      "type": null,
+      "skill": "海洋☆深度意志"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/698749.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 698749,
+  "gamekee_entry_id": 211476,
+  "verified": "GameKee zsca2/698749 图鉴"
+}

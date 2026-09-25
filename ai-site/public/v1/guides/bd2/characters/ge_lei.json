@@ -1,0 +1,81 @@
+{
+  "id": "ge_lei",
+  "name": "格雷",
+  "name_zh": "格雷",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "三重射击",
+      "type": "active",
+      "costume": "迷雾神射手",
+      "summary": "攻击敌人3次，每次攻击时，根据自己攻击力的125%造成物理伤害。4回合期间，每回合根据目标攻击力的425%对其造成物理伤害。"
+    },
+    {
+      "name": "狂粉驱散腿",
+      "type": "active",
+      "costume": "B级老板",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力100%的物理伤害。2回合内，敌人防御力减少50%。"
+    },
+    {
+      "name": "光荣旗帜",
+      "type": "active",
+      "costume": "先锋大将",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力65%的物理伤害。4回合内，对敌人应用造成相当于敌人魔法力425%的物理伤害的中毒效果。"
+    },
+    {
+      "name": "水弹发射！",
+      "type": "active",
+      "costume": "泳池派对",
+      "summary": "4回合内，自身致命率增加50%。4回合内，自身致命伤害增加50%。攻击敌人3次，每次攻击时，造成相当于自身攻击力170%的物理伤害。"
+    },
+    {
+      "name": "那个很危险唉？",
+      "type": "talent",
+      "summary": "可在20秒内知道周边大范围的陷阱及幽冥葛洛堤等造成伤害的怪物的位置。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "权冠之弓",
+  "talent": {
+    "name": "那个很危险唉？",
+    "summary": "可在20秒内知道周边大范围的陷阱及幽冥葛洛堤等造成伤害的怪物的位置。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "迷雾神射手",
+      "type": "原皮",
+      "skill": "三重射击"
+    },
+    {
+      "name": "B级老板",
+      "type": null,
+      "skill": "狂粉驱散腿"
+    },
+    {
+      "name": "先锋大将",
+      "type": null,
+      "skill": "光荣旗帜"
+    },
+    {
+      "name": "泳池派对",
+      "type": null,
+      "skill": "水弹发射！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593582.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593582,
+  "gamekee_entry_id": 122346,
+  "verified": "GameKee zsca2/593582 图鉴"
+}

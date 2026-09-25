@@ -1,0 +1,44 @@
+{
+  "id": "rumani",
+  "name": "鲁玛妮",
+  "name_zh": "鲁玛妮",
+  "name_en": "Rumani",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "引体向上",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，自身 【引体向上：体力上限1.79%▲】【叠加5次】【持续2秒】 ■全爆裂期间，以全蓄力攻击命中目标时，将对目标发动 【挑衅】【持续5秒】"
+    },
+    {
+      "name": "增肌时间",
+      "type": "passive",
+      "summary": "■命中目标零件5次时，全体队友 【零件伤害5.94%▲】【持续5秒】"
+    },
+    {
+      "name": "万能肌肉",
+      "type": "burst",
+      "summary": "■自身 【最大体力8.94%▲】【持续10秒】 ■全体队友 【普通攻击伤害5.94%倍率▲】【持续10秒】 ■当自身处于引体向上叠加上限时，自身 【所受伤害11.85%▼】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "万能肌肉",
+  "weapon": "瞄我",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rumani",
+    "https://www.gamekee.com/nikke/171270.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 171270,
+  "gamekee_entry_id": 167995,
+  "prydwen_slug": "rumani",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/171270 图鉴"
+}

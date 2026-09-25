@@ -1,0 +1,44 @@
+{
+  "id": "mast",
+  "name": "马斯特",
+  "name_zh": "马斯特",
+  "name_en": "Mast",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "支援型",
+  "skills": [
+    {
+      "name": "海盗的毅力",
+      "type": "passive",
+      "summary": "■普通攻击暴击命中2次时，目标 【海风：以施展者为标准的防御力1.12% ▼】 【叠加50次】【持续3秒】 ■仅限于自身体力在70%以下时，自身与除自身以外最终攻击力最高的2名队友 【暴击伤害30.1% ▲】【持续】"
+    },
+    {
+      "name": "海盗的眼光",
+      "type": "passive",
+      "summary": "■战斗开始时，自身与除自身以外最终攻击力最高的2名队友 【暴击率13.92%▲】【持续30秒】"
+    },
+    {
+      "name": "无畏风雨！",
+      "type": "burst",
+      "summary": "■自身与除自身以外最终攻击力最高的2名队友 【仅以施展者为基准的最大体力50.93%▲】【持续7秒】 【暴击伤害14.88%▲】【持续7秒】 ■对处于海风状态的目标造成 【暴风：相当于最终攻击力2.67%的伤害】【海风叠加复制】【间隔1秒】【持续7秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "穷凶极恶",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mast",
+    "https://www.gamekee.com/nikke/594772.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 594772,
+  "gamekee_entry_id": 123019,
+  "prydwen_slug": "mast",
+  "rarity": "SSR",
+  "burst": "无畏风雨！",
+  "verified": "GameKee nikke/594772 图鉴"
+}

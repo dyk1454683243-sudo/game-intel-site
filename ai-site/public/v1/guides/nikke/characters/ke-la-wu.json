@@ -1,0 +1,43 @@
+{
+  "id": "ke-la-wu",
+  "name": "克拉乌",
+  "name_zh": "克拉乌",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "杀戮时刻",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体敌人 【攻击力11.77%▼】【持续10秒】"
+    },
+    {
+      "name": "蛮勇",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，对目标造成 【相当于最终攻击力52.65%的额外伤害】 ■最后的子弹命中时，自身 【防御力7.52%▲】【持续5秒】"
+    },
+    {
+      "name": "怒火",
+      "type": "burst",
+      "summary": "■对攻击力最高的1名敌人造成 【最终攻击力541.12%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "怒火",
+  "weapon": "冲锋枪",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/nikke/163879.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163879,
+  "gamekee_entry_id": 110024,
+  "prydwen_slug": null,
+  "rarity": "SSR",
+  "verified": "GameKee nikke/163879 图鉴"
+}

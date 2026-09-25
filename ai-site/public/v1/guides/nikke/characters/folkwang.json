@@ -1,0 +1,44 @@
+{
+  "id": "folkwang",
+  "name": "富克旺",
+  "name_zh": "富克旺",
+  "name_en": "Folkwang",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "开场哨",
+      "type": "active",
+      "summary": "■攻击力最高的2名队友生成 【相当于施展者最终最大体力值6.85%的护盾】【持续10秒】 【体力恢复量22.85%▲（受到治疗效果增加）】【持续10秒】"
+    },
+    {
+      "name": "压迫",
+      "type": "active",
+      "summary": "■对最终攻击力最高的1名敌方单位进行 【挑衅】【持续5秒】 ■自身 【自己最大生命值22.92%▲】【持续10秒】"
+    },
+    {
+      "name": "冲刺",
+      "type": "burst",
+      "summary": "■最终攻击力最高的2名队友生效 【相当于施展者最终最大体力16.45%的护盾】【持续10秒】 【恢复相当于攻击伤害的32.9%】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "冲刺",
+  "weapon": "超热",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/folkwang",
+    "https://www.gamekee.com/nikke/170847.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170847,
+  "gamekee_entry_id": 113074,
+  "prydwen_slug": "folkwang",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170847 图鉴"
+}

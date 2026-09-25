@@ -1,0 +1,53 @@
+{
+  "id": "dalian",
+  "name": "达丽安",
+  "name_zh": "达丽安",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "大公主"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "为了母亲的梦想",
+      "type": "active",
+      "costume": "启示之梦",
+      "summary": "对敌人造成相当于自身攻击力900%的物理伤害。若敌人为主要目标，则改为造成相当于自身攻击力1300%的物理伤害。"
+    },
+    {
+      "name": "雪之花",
+      "type": "active",
+      "costume": "半糖余韵兔女郎",
+      "summary": "每命中一个目标，该技能的冷却时间减少2。对敌人造成相当于自身400%的物理伤害。若敌人处于持续伤害状态，则改为造成相当于自身攻击力600%的物理伤害。5回合内，对敌人应用每层叠加造成相当于自身攻击180%的物理伤害的冻伤效果。最多可应用叠加至7。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "默示",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "启示之梦",
+      "type": "原皮",
+      "skill": "为了母亲的梦想"
+    },
+    {
+      "name": "半糖余韵兔女郎",
+      "type": "限定",
+      "skill": "雪之花"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/678559.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 678559,
+  "gamekee_entry_id": 195333,
+  "verified": "GameKee zsca2/678559 图鉴"
+}

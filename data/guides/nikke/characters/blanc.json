@@ -1,0 +1,46 @@
+{
+  "id": "blanc",
+  "name": "布兰儿",
+  "name_zh": "布兰儿",
+  "name_en": "Blanc",
+  "aliases": [],
+  "nicknames": [
+    "白兔"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "幸运守护",
+      "type": "passive",
+      "summary": "■进行120次普通攻击时， 【生成相当于施展者最大体力6.97%的队友通用护盾】【持续5秒】"
+    },
+    {
+      "name": "双子兔 W",
+      "type": "passive",
+      "summary": "■全爆裂时间结束时，全体队友 【持续恢复相当于施展者最大体力的1.78%】 【间隔1秒】【持续5秒】 ■全爆裂时间结束时，若有同一部队的队友，则自身 【爆裂技能冷却时间40.76秒▼】"
+    },
+    {
+      "name": "Show Time",
+      "type": "burst",
+      "summary": "■全体队友 【持续恢复相当于施展者最大体力的2.05%】【间隔1秒】【持续8秒】 ■除自身以外的体力最低的1名队友 【不屈】【持续10秒】 【最大体力18.72% ▲】【持续10秒】 ■全体敌人 【所受伤害20.08% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "白色波鲁克斯",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/blanc",
+    "https://www.gamekee.com/nikke/591204.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 591204,
+  "gamekee_entry_id": 121066,
+  "prydwen_slug": "blanc",
+  "rarity": "SSR",
+  "burst": "Show Time",
+  "verified": "GameKee nikke/591204 图鉴"
+}

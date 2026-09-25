@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "game-intel": {
+      "command": "node",
+      "args": ["./mcp-server/index.js"],
+      "env": {
+        "GAME_INTEL_DATA": "./data",
+        "PATH": "/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  }
+}

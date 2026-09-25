@@ -1,0 +1,70 @@
+{
+  "id": "sai_er",
+  "name": "赛尔",
+  "name_zh": "赛尔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "辅助",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "保护本能",
+      "type": "active",
+      "costume": "恶魔之女",
+      "summary": "4回合内，每次遭受攻击时，恢复相当于自身最大生命力30%的生命力。4回合内，对自己应用85%的防护罩效果。【额外能力】4回合内，对自己应用挑衅效果。"
+    },
+    {
+      "name": "那家伙欺负人！",
+      "type": "active",
+      "costume": "B级偶像",
+      "summary": "3"
+    },
+    {
+      "name": "请、请签下合约！",
+      "type": "active",
+      "costume": "新进员工",
+      "summary": "4回合内，自身每次遭受攻击时，对友军应用22%的增强效果。8回合内，增强效果将持续，每被攻击1次时，叠加至1，并且最多可赋予叠加至99。"
+    },
+    {
+      "name": "好可怕···！",
+      "type": "talent",
+      "summary": "能以隐身状态移动72秒。消耗15个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "大邪灵",
+  "talent": {
+    "name": "好可怕···！",
+    "summary": "能以隐身状态移动72秒。消耗15个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "恶魔之女",
+      "type": "原皮",
+      "skill": "保护本能"
+    },
+    {
+      "name": "B级偶像",
+      "type": "辅助",
+      "skill": "那家伙欺负人！"
+    },
+    {
+      "name": "新进员工",
+      "type": "辅助",
+      "skill": "请、请签下合约！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593621.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593621,
+  "gamekee_entry_id": 122355,
+  "verified": "GameKee zsca2/593621 图鉴"
+}

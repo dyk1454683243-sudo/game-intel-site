@@ -1,0 +1,45 @@
+{
+  "id": "modernia",
+  "name": "Modernia",
+  "name_zh": null,
+  "name_en": "Modernia",
+  "aliases": [
+    "现代化枪"
+  ],
+  "nicknames": [
+    "现代化枪",
+    "魔导",
+    "摩登"
+  ],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "High-Speed Evolution",
+      "type": "passive"
+    },
+    {
+      "name": "Giant Leap",
+      "type": "passive"
+    },
+    {
+      "name": "New World",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/modernia"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "modernia",
+  "burst": "Burst 3",
+  "verified": "Prydwen /nikke/characters/modernia"
+}

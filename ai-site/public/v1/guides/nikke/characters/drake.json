@@ -1,0 +1,47 @@
+{
+  "id": "drake",
+  "name": "德雷克",
+  "name_zh": "德雷克",
+  "name_en": "Drake",
+  "aliases": [],
+  "nicknames": [
+    "反派",
+    "大反派"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "超负荷",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【命中率7%▲】【持续10秒】 【攻击力7%▲】【持续10秒】"
+    },
+    {
+      "name": "霹雳",
+      "type": "passive",
+      "summary": "■进行10次攻击时，对剩余的 体力最低的3名敌人造成 相当于 【最终攻击力58.24%的伤害】"
+    },
+    {
+      "name": "特殊德雷克",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 相当于【最终攻击力 741%的伤害】 ■自身 【最大装弹数42.65%▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "暴虐狂欢节",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/drake",
+    "https://www.gamekee.com/nikke/152332.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152332,
+  "gamekee_entry_id": 102010,
+  "prydwen_slug": "drake",
+  "rarity": "SSR",
+  "burst": "特殊德雷克",
+  "verified": "GameKee nikke/152332 图鉴"
+}

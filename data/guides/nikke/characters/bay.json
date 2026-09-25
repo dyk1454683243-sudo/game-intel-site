@@ -1,0 +1,46 @@
+{
+  "id": "bay",
+  "name": "贝伊",
+  "name_zh": "贝伊",
+  "name_en": "Bay",
+  "aliases": [],
+  "nicknames": [
+    "黑啦啦队"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "你做得到",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，若自身处于生存状态，则全体队友 【被击伤害逐级分摊】【持续】 【以施展者为标准的防御力5.57%▲】【持续】"
+    },
+    {
+      "name": "大家打起精神",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，若自身处于生存状态，则自身掩体 【被击伤害逐级分摊】【持续】 ■全爆裂时间结束时，自身 【相当于施展者最终最大体力的掩体体力持续恢复1.58%】 【间隔1秒】【持续5秒】"
+    },
+    {
+      "name": "首胜者",
+      "type": "burst",
+      "summary": "■自身 【相当于施展者最大体力的掩体最大体力9.9%▲】 【持续20秒】 ■全体队友 【所受伤害4.87%▼】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "首胜者",
+  "weapon": "胜利号角（RL）",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/bay",
+    "https://www.gamekee.com/nikke/620123.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 620123,
+  "gamekee_entry_id": 147615,
+  "prydwen_slug": "bay",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/620123 图鉴"
+}

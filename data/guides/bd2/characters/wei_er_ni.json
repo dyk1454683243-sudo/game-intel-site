@@ -1,0 +1,48 @@
+{
+  "id": "wei_er_ni",
+  "name": "维尔尼",
+  "name_zh": "维尔尼",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "抽嗜短剑",
+      "type": "active",
+      "costume": "侠盗少女",
+      "summary": "每次攻击命中敌人时，友军的SP恢复3点。攻击敌人2次，每次攻击时，造成相当于自身攻击力110%的物理伤害。2回合内，对敌人应用沉默效果。"
+    },
+    {
+      "name": "手比眼快",
+      "type": "talent",
+      "summary": "有100%的概率偷窃目标的持有物。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "掠夺之手",
+  "talent": {
+    "name": "手比眼快",
+    "summary": "有100%的概率偷窃目标的持有物。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "侠盗少女",
+      "type": null,
+      "skill": "抽嗜短剑"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593659.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593659,
+  "gamekee_entry_id": 122341,
+  "verified": "GameKee zsca2/593659 图鉴"
+}

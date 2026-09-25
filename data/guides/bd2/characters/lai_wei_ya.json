@@ -1,0 +1,62 @@
+{
+  "id": "lai_wei_ya",
+  "name": "莱维亚",
+  "name_zh": "莱维亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "爆裂猛冲",
+      "type": "active",
+      "costume": "田径社社长",
+      "summary": "攻击敌人4次，每次攻击时，造成相当于自身魔法力90%的魔法伤害。4回合内，对敌人应用100%的魔法虚弱效果。若敌人为主要目标，则改为在4回合内，应用120%的魔法虚弱效果。"
+    },
+    {
+      "name": "塔尔塔罗斯之门",
+      "type": "active",
+      "costume": "猜忌之夜",
+      "summary": "攻击敌人4次，每次攻击时，造成相当于自身魔法力180%的魔法伤害。若敌人为主要目标，则改为造成相当于自身魔法力420%的魔法伤害。"
+    },
+    {
+      "name": "野兽超速",
+      "type": "active",
+      "costume": "过热",
+      "summary": "对敌人造成相当于自身魔法力350%的魔法伤害。若敌人处于虚弱状态，则改为造成相当于自身魔法力850%的魔法伤害。解除应用于敌人的虚弱效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "解放之书",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "田径社社长",
+      "type": "辅助",
+      "skill": "爆裂猛冲"
+    },
+    {
+      "name": "猜忌之夜",
+      "type": "原皮",
+      "skill": "塔尔塔罗斯之门"
+    },
+    {
+      "name": "过热",
+      "type": null,
+      "skill": "野兽超速"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/629234.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 629234,
+  "gamekee_entry_id": 156254,
+  "verified": "GameKee zsca2/629234 图鉴"
+}

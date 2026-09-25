@@ -1,0 +1,51 @@
+{
+  "id": "ai_ma",
+  "name": "艾玛",
+  "name_zh": "艾玛",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "我最棒！",
+      "type": "active",
+      "costume": "麻烦问题儿童",
+      "summary": "6回合期内，自身攻击力增加500%。【额外能力】6回合内，自身致命率增加30%。"
+    },
+    {
+      "name": "我很忙，快让开！",
+      "type": "active",
+      "costume": "校园女王",
+      "summary": "3"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "首席勋章",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "麻烦问题儿童",
+      "type": null,
+      "skill": "我最棒！"
+    },
+    {
+      "name": "校园女王",
+      "type": null,
+      "skill": "我很忙，快让开！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593580.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593580,
+  "gamekee_entry_id": 122326,
+  "verified": "GameKee zsca2/593580 图鉴"
+}

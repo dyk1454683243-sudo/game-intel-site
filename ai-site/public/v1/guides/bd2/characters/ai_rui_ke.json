@@ -1,0 +1,59 @@
+{
+  "id": "ai_rui_ke",
+  "name": "艾瑞克",
+  "name_zh": "艾瑞克",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "激愤一击",
+      "type": "active",
+      "costume": "毁灭之星",
+      "summary": "对敌人造成相当于自身攻击力1000%的物理固定伤害。"
+    },
+    {
+      "name": "破剑攻击",
+      "type": "active",
+      "costume": "破剑士",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力300%的物理固定伤害。"
+    },
+    {
+      "name": "蔑视弱者",
+      "type": "talent",
+      "summary": "可在30秒内制伏部分怪物。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "掠食者",
+  "talent": {
+    "name": "蔑视弱者",
+    "summary": "可在30秒内制伏部分怪物。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "毁灭之星",
+      "type": "原皮",
+      "skill": "激愤一击"
+    },
+    {
+      "name": "破剑士",
+      "type": null,
+      "skill": "破剑攻击"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593614.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593614,
+  "gamekee_entry_id": 122354,
+  "verified": "GameKee zsca2/593614 图鉴"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "elf_archer",
+  "name": "妖精弓手",
+  "name_zh": "妖精弓手",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "上森人式弓术",
+      "type": "active",
+      "costume": "星风之女",
+      "summary": "2回合内，自身暴击率增加100%。 攻击敌人4次，每次攻击时，造成相当于自身攻击力135%的物理伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "赤柏松木弓",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "星风之女",
+      "type": "联动",
+      "skill": "上森人式弓术"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/660211.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 660211,
+  "gamekee_entry_id": 185515,
+  "verified": "GameKee zsca2/660211 图鉴"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "laplace-treasure",
+  "name": "Laplace (Treasure)",
+  "name_zh": null,
+  "name_en": "Laplace (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "Hero Vision",
+      "type": "passive"
+    },
+    {
+      "name": "Hero Bomber",
+      "type": "passive"
+    },
+    {
+      "name": "Laplace Buster",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 3",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/laplace-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "laplace-treasure",
+  "verified": "Prydwen /nikke/characters/laplace-treasure"
+}

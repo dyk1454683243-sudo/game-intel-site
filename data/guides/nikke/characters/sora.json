@@ -1,0 +1,44 @@
+{
+  "id": "sora",
+  "name": "索拉",
+  "name_zh": "索拉",
+  "name_en": "Sora",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "搭乘手续",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【给予的体力恢复量20.8%】【持续】"
+    },
+    {
+      "name": "秘密行李箱",
+      "type": "passive",
+      "summary": "■ 当包含自身在内的某位队友破坏零件时，全体队友 【储存：以施展者为基准的最大体力3.17%为上限，储存溢出的体力恢复量】 【叠加5次】【持续15秒】 以施展者为基准的攻击力14.03%▲】 【持续15秒】"
+    },
+    {
+      "name": "怀中的秘密",
+      "type": "burst",
+      "summary": "■全体队友 【恢复相当于施展者最终最大体力的30.88%】 【解除减益效果1个】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "怀中的秘密",
+  "weapon": "乱流",
+  "element": "风压",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/sora",
+    "https://www.gamekee.com/nikke/668936.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 668936,
+  "gamekee_entry_id": 190016,
+  "prydwen_slug": "sora",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/668936 图鉴"
+}

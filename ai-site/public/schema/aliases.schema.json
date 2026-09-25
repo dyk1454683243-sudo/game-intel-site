@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/aliases.schema.json",
+  "title": "game-intel guide aliases",
+  "type": "object",
+  "required": ["aliases"],
+  "additionalProperties": true,
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "game": { "type": "string" },
+        "note": { "type": "string" },
+        "as_of": { "type": "string" }
+      }
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "name", "kind"],
+        "additionalProperties": true,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": ["character", "stigmata_set", "mode", "other"]
+          },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "yuni",
+  "name": "尤妮",
+  "name_zh": "尤妮",
+  "name_en": "Yuni",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "DMNS",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【蓄力速度4.93%▲】【持续10秒】"
+    },
+    {
+      "name": "SDS",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，全体队友 【防御力1.52%▲】【持续10秒】 【恢复相当于攻击伤害的1.52%】 【持续10秒】 【最大装弹数1发▲】【持续5秒】"
+    },
+    {
+      "name": "BDG",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 相当于【最终攻击力 172.4%的伤害】 【无法移动】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "BDG",
+  "weapon": "/",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/yuni",
+    "https://www.gamekee.com/nikke/152336.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152336,
+  "gamekee_entry_id": 102003,
+  "prydwen_slug": "yuni",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152336 图鉴"
+}

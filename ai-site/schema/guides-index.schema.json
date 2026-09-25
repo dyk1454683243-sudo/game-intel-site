@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/guides-index.schema.json",
+  "title": "game-intel guides index",
+  "type": "object",
+  "required": ["as_of", "games"],
+  "additionalProperties": true,
+  "properties": {
+    "as_of": { "type": "string", "description": "Asia/Shanghai date or month, e.g. 2026-09-18" },
+    "timezone": { "type": "string", "const": "Asia/Shanghai" },
+    "note": { "type": "string" },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "name_zh", "character_count"],
+        "additionalProperties": true,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "name_zh": { "type": "string" },
+          "character_count": { "type": "integer", "minimum": 0 },
+          "rich_count": { "type": "integer", "minimum": 0 },
+          "stub_count": { "type": "integer", "minimum": 0 },
+          "has_aliases": { "type": "boolean" },
+          "has_modes": { "type": "boolean" },
+          "path": { "type": "string" }
+        }
+      }
+    }
+  }
+}

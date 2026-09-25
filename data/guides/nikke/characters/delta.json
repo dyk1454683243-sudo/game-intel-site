@@ -1,0 +1,44 @@
+{
+  "id": "delta",
+  "name": "德尔塔",
+  "name_zh": "德尔塔",
+  "name_en": "Delta",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "回溯",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，自身 【最大体力3.15%▲】【持续10秒】"
+    },
+    {
+      "name": "最后的记忆",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【防御力18.36%▲】【持续20秒】"
+    },
+    {
+      "name": "勿忘我",
+      "type": "burst",
+      "summary": "■自身 【诱饵：生成相当于施展者最大体力41.06%的分身】【持续10秒】 【注目:挑衅全体敌人】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "勿忘我",
+  "weapon": "狙击步枪",
+  "element": "风压",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/delta",
+    "https://www.gamekee.com/nikke/152347.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152347,
+  "gamekee_entry_id": 110441,
+  "prydwen_slug": "delta",
+  "rarity": "SR",
+  "verified": "GameKee nikke/152347 图鉴"
+}

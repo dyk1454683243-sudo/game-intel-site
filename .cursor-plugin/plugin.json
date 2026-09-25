@@ -1,0 +1,22 @@
+{
+  "name": "game-intel",
+  "displayName": "Game Intel",
+  "version": "0.3.25",
+  "description": "Watchlist game intel crawler for HW/Nikke/BD2/蓝色星原/미래시/LO2/阿索拉. Sources: GameKee, TapTap, Inven, Steam, Bahamut GNN, Prydwen/nikke.gg, Official (BD2 notices API, Miraesi Smilegate, star Azur Promilia seed, lo2 VALOFE seed, asora NC/plaync seed). Short JSON only. Cache+parallel digest. Calendar gacha/event extractor with body-date enrichment. HW local guide cards: resolve_alias + guide_hw (aliases/builds/dopamine). ask_intel/jev gate + guide hot-cache.",
+  "author": {
+    "name": "Dai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gamekee",
+    "intel",
+    "gacha",
+    "taptap",
+    "bahamut",
+    "prydwen",
+    "nikke",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

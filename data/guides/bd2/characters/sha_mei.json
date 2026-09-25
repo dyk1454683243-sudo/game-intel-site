@@ -1,0 +1,58 @@
+{
+  "id": "sha_mei",
+  "name": "莎美",
+  "name_zh": "莎美",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "犹豫之刃",
+      "type": "active",
+      "costume": "深情解放者",
+      "summary": "攻击敌人2次，每次攻击时，造成相当于自身魔法力200%的魔法伤害。4回合内，敌人魔法抵抗减少50%。"
+    },
+    {
+      "name": "靠你了！",
+      "type": "active",
+      "costume": "和善学生",
+      "summary": "2回合内，友军的攻击力增加50%。2回合内，友军的魔法力增加50%。2回合内，每回合结束时，恢复友军相当于自身魔法力25%的生命力。"
+    },
+    {
+      "name": "请起来···",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "七层地狱",
+  "talent": {
+    "name": "请起来···",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "深情解放者",
+      "type": "辅助",
+      "skill": "犹豫之刃"
+    },
+    {
+      "name": "和善学生",
+      "type": "辅助",
+      "skill": "靠你了！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593648.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593648,
+  "gamekee_entry_id": 122338,
+  "verified": "GameKee zsca2/593648 图鉴"
+}

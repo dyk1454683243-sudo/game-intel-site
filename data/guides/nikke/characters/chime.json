@@ -1,0 +1,44 @@
+{
+  "id": "chime",
+  "name": "钟鸣",
+  "name_zh": "钟鸣",
+  "name_en": "Chime",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "首席大臣",
+      "type": "passive",
+      "summary": "■战斗开始时，赋予我的国王 【祈愿：以施展者为基准的攻击力27.45%▲】【持续】"
+    },
+    {
+      "name": "王的秘书",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，赋予我的国王 【例行报告：普通攻击伤害27.31%倍率▲】【持续10秒】"
+    },
+    {
+      "name": "为了国王",
+      "type": "burst",
+      "summary": "■全体队友 【重新进入爆裂2阶】 【最大装弹数11.82%▲】【持续10秒】 ■赋予我的国王 【忠心：攻击伤害54.62%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "为了国王",
+  "weapon": "钟鸣铃",
+  "element": "铁甲",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/chime",
+    "https://www.gamekee.com/nikke/682342.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 682342,
+  "gamekee_entry_id": 197548,
+  "prydwen_slug": "chime",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/682342 图鉴"
+}

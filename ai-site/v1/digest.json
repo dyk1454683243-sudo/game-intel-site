@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "fixture": false,
+    "generated_at": "2026-09-06T22:05:07+08:00",
+    "timezone": "Asia/Shanghai",
+    "source": "game-intel MCP digest (summarize+diff)"
+  },
+  "digests": [
+    {
+      "game": "hw",
+      "name": "Horizon Walker",
+      "name_zh": "地平线行者",
+      "ok": true,
+      "count": 4,
+      "items": [
+        {
+          "title": "第二届近卫征集大赛",
+          "url": "https://www.gamekee.com/hw/719925.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "您好，人神大人！迎来二周年，近卫征集大赛再度回归！这一次又会有哪位近卫化作现实呢！让您的想象成为现实！不妨再次尽情展开您想象的翅膀吧？第二届近卫征集大赛正式开启。本次被选为最优秀奖的构想，将会被制作为游戏内实装的近卫角色，诚邀大家踊跃参与！◆活动参与方式参与渠道：官方Discord【第二届近卫征集大"
+        },
+        {
+          "title": "幕后访谈第14弹 “两周年奖励，比一周周年更加丰厚”",
+          "url": "https://www.gamekee.com/hw/715371.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "“小游戏是制作组研讨得出的产物，白石琴叶是超强力辅助角色。”大家好，这里是TheGamesDaily的记者姜仁锡。近期针对叛忍以及HorizonWalker开服两周年进行了专访。将尽可能原汁原味地传达现场的访谈内容。本次访谈由徐允硕PD出席。记者：能否介绍一下为纪念开服两周年准备的更新与活动？徐：目"
+        },
+        {
+          "title": "《Horizon Walker》| Notice",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951312556",
+          "source": "official",
+          "is_new": false
+        },
+        {
+          "title": "【情報】二周年座談會8/28-8/29内容",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=448",
+          "source": "bahamut",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "nikke",
+      "name": "Nikke",
+      "name_zh": "胜利女神：NIKKE",
+      "ok": true,
+      "count": 5,
+      "items": [
+        {
+          "title": "《MINIKKE 小小童话集》小红帽篇 正式公开",
+          "url": "https://www.gamekee.com/nikke/720069.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "从前从前，有一位妮姬，她叫小红帽，她最引以为傲的就是自己比任何人都还要跑得快。今天，小红帽也一如往常地以全速奔驰在荒野之中，负责将货物送达目的地。然而，接二连三发生了完全出乎意料的事情，原本只是一趟普通的配送任务，却逐渐朝著越来越奇怪的方向发展……究竟小红帽能不能顺利完成配送呢？平安将货物送达。今天"
+        },
+        {
+          "title": "Drake Great Villain",
+          "url": "https://www.prydwen.gg/nikke/characters/drake-great-villain",
+          "source": "prydwen",
+          "is_new": false
+        },
+        {
+          "title": "Queen Makoto",
+          "url": "https://www.prydwen.gg/nikke/characters/queen-makoto",
+          "source": "prydwen",
+          "is_new": false
+        },
+        {
+          "title": "【情報】PC版本FAQ(2023/9/7更新)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=36390&snA=7519",
+          "source": "bahamut",
+          "is_new": false
+        },
+        {
+          "title": "胜利女神：新的希望",
+          "url": "https://www.taptap.cn/app/737341",
+          "source": "taptap",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "bd2",
+      "name": "Brown Dust 2",
+      "name_zh": "棕色尘埃2",
+      "ok": true,
+      "count": 3,
+      "items": [
+        {
+          "title": "Windows 上 BrownDust II 闪退诊断结论",
+          "url": "https://www.gamekee.com/zsca2/718800.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "AddressableAssets系统的资源目录（catalog）索引越界，下载的404MB更新包20260827002.tied.dat没和exe/Data同步合并，索引对不上。Player-prev.log也是同一错误，每天每次启动都崩在同一个地方。修复顺序（推荐1→2→3）1.打开Neowiz"
+        },
+        {
+          "title": "🎥[Special Video] The Cutscene Wall",
+          "url": "https://www.browndust2.com/en-us/news/view?id=01M1NHSAG8PVFQ0WNP9MT88H2B",
+          "source": "official",
+          "is_new": false
+        },
+        {
+          "title": "【情報】序號CouPon兌換碼集中串(9/1更新)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=76207&snA=9744",
+          "source": "bahamut",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "star",
+      "name": "Azure Star Origin",
+      "name_zh": "蓝色星原：旅谣",
+      "ok": true,
+      "count": 4,
+      "items": [
+        {
+          "title": "《蓝色星原：旅谣》封闭测试落幕释出官方来信 将针对玩家回馈意见持续改善游戏内容",
+          "url": "https://www.gamekee.com/www/712058.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "由蛮啾网路（Manjuu）制作、NIJIGEN 代理的全新幻想大世界 RPG《 蓝色星原：旅谣 》宣布，「封闭测试」已告一段落，感谢所有关注及参与本次测试的星临者对《 蓝色星原：旅谣 》的支持和陪伴，这段由大家共同创造的回忆是他们继续前行的动力。 官方表示，本次「封闭测试」中，从游戏问卷、客服回馈、"
+        },
+        {
+          "title": "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
+          "url": "https://www.taptap.cn/moment/842394655134843472",
+          "source": "official",
+          "is_new": false
+        },
+        {
+          "title": "蓝色星原：旅谣",
+          "url": "https://www.taptap.cn/app/593829",
+          "source": "taptap",
+          "is_new": false
+        },
+        {
+          "title": "【情報】版上實用文章整合(暫定)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=79865&snA=76",
+          "source": "bahamut",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "miraesi",
+      "name": "Invisible Future",
+      "name_zh": "미래시",
+      "ok": true,
+      "count": 1,
+      "items": [
+        {
+          "title": "Smilegate Officially Opens MIRESI and CZN Booths at Anime Expo 2026",
+          "url": "https://newsroom.smilegate.com/eng/1783313698",
+          "source": "official",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "lo2",
+      "name": "Last Origin 2",
+      "name_zh": "Last Origin 2",
+      "ok": true,
+      "count": 1,
+      "items": [
+        {
+          "title": "VALOFE — Last Origin 2 开发本格化 / 组队 (GameChosun)",
+          "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
+          "source": "official",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "game": "asora",
+      "name": "Astrae Oratio",
+      "name_zh": "阿索拉：星之祈愿",
+      "ok": true,
+      "count": 5,
+      "items": [
+        {
+          "title": "《阿索拉：星之祈愿》漫展人气爆棚，主美揭秘“诗意复古”美学！",
+          "url": "https://www.gamekee.com/www/718290.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "NCSoft旗下全新二次元RPG《阿索拉：星之祈愿》近日在日本Comic Market漫展圆满落幕。尽管游戏尚未正式上线，其概念画册等周边商品却迅速售罄，引发当地二次元粉丝热烈关注。现场，游戏艺术总监金仁接受采访，深入解读了《阿索拉：星之祈愿》“诗意复古”的核心美术理念，旨在通过魔法与神殿纪主题，为玩家呈现一个既怀旧又充满新意的奇幻世界。"
+        },
+        {
+          "title": "NCSoft二次元新作《阿索拉：星之祈愿》确认参展东京电玩展2026！",
+          "url": "https://www.gamekee.com/www/717849.html",
+          "source": "gamekee",
+          "is_new": false,
+          "summary": "NCSoft旗下二次元RPG新作《阿索拉：星之祈愿》已确认参展全球游戏盛会东京电玩展2026，将与全球玩家见面。展会将于9月17日至21日在日本千叶幕张展览馆举行。NCSoft届时将设立《阿索拉：星之祈愿》独立展台，与现场参观者互动，具体活动细节将后续公布。该作此前在Comiket上推出概念画册等周边曾全部售罄，此次参展东京电玩展，旨在持续扩大游戏影响力。"
+        },
+        {
+          "title": "NC 二次元新作《阿索拉：星之祈願》CBT募集開跑",
+          "url": "https://about.ncsoft.com/tw/news/article/AO_update_20260819",
+          "source": "official",
+          "is_new": false
+        },
+        {
+          "title": "阿索拉：星之祈愿",
+          "url": "https://www.taptap.cn/app/855697",
+          "source": "taptap",
+          "is_new": false
+        },
+        {
+          "title": "【情報】CBT申請參加認證活動",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=85952&snA=9",
+          "source": "bahamut",
+          "is_new": false
+        }
+      ]
+    }
+  ]
+}

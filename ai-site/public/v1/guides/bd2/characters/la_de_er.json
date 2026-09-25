@@ -1,0 +1,103 @@
+{
+  "id": "la_de_er",
+  "name": "拉德尔",
+  "name_zh": "拉德尔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "鲜血之剑",
+      "type": "active",
+      "costume": "草药猎人",
+      "summary": "使用相当于自身当前生命力的5%，并在2回合内，自身攻击力增加50%。攻击敌人2次，每次攻击时，造成相当于自身攻击力350%的物理伤害。"
+    },
+    {
+      "name": "路比德昂大爆冲",
+      "type": "active",
+      "costume": "孤独生还者",
+      "summary": "使用相当于自身当前生命力的5%，并在2回合内，自身攻击力增加50%。攻击敌人3次，每次攻击时，造成相当于自身攻击力185%的物理伤害。"
+    },
+    {
+      "name": "血色咆哮",
+      "type": "active",
+      "costume": "暗黑骑士",
+      "summary": "【先发制人】6回合内，对自己应用相当于最大生命力350%的能量护盾效果。6回合内，对自己应用60%的物理防护罩效果。"
+    },
+    {
+      "name": "复仇火焰",
+      "type": "active",
+      "costume": "复仇的誓言",
+      "summary": "使用相当于自身当前生命力的5%，并在2回合内，自身攻击力增加60%。对敌人造成相当于自身攻击力1150%的物理伤害。"
+    },
+    {
+      "name": "鲨鱼龙卷风",
+      "type": "active",
+      "costume": "泳池派对",
+      "summary": "使用相当于自身当前生命力的5%，并在2回合内，自身致命率增加100%。攻击敌人3次，每次攻击时，造成相当于自身攻击力175%的物理伤害。"
+    },
+    {
+      "name": "鲜血牺牲",
+      "type": "active",
+      "costume": "霍尔蒙克斯",
+      "summary": "6回合内，友军的攻击力增加90%。2回合内，友军的攻击力增加70%。"
+    },
+    {
+      "name": "采药人的感官",
+      "type": "talent",
+      "summary": "在180秒内确认隐藏物品的位置。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "阿尔塔卢戈",
+  "talent": {
+    "name": "采药人的感官",
+    "summary": "在180秒内确认隐藏物品的位置。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "草药猎人",
+      "type": "原皮",
+      "skill": "鲜血之剑"
+    },
+    {
+      "name": "孤独生还者",
+      "type": null,
+      "skill": "路比德昂大爆冲"
+    },
+    {
+      "name": "暗黑骑士",
+      "type": null,
+      "skill": "血色咆哮"
+    },
+    {
+      "name": "复仇的誓言",
+      "type": "复仇的誓言",
+      "skill": "复仇火焰"
+    },
+    {
+      "name": "泳池派对",
+      "type": null,
+      "skill": "鲨鱼龙卷风"
+    },
+    {
+      "name": "霍尔蒙克斯",
+      "type": "辅助",
+      "skill": "鲜血牺牲"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593531.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593531,
+  "gamekee_entry_id": 122343,
+  "verified": "GameKee zsca2/593531 图鉴"
+}

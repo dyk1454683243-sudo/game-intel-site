@@ -1,0 +1,44 @@
+{
+  "id": "sakura",
+  "name": "樱花",
+  "name_zh": "樱花",
+  "name_en": "Sakura",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "樱花茶",
+      "type": "passive",
+      "summary": "■进行3次普通攻击后，全体队友 【樱花茶：防御力4.81%】【叠加10次】【持续15秒】"
+    },
+    {
+      "name": "落樱缤纷",
+      "type": "passive",
+      "summary": "■全体队友 【攻击敌人发射体时，对该发射体造成的伤害4.57% ▲】【持续】 ■全爆裂时间开始时，对全体队友 【爆裂技能冷却时间2.86秒▼】"
+    },
+    {
+      "name": "樱花烂漫",
+      "type": "burst",
+      "summary": "\"■全体队友 【受到风压代码敌人的伤害减少56.16%】【持续30秒】【战斗中触发1次】 【攻击力提升相当于施展者攻击力的12.35%】【持续10秒】 ■若自身处于樱花茶最大叠加状态，则全体队友 【阻止部位攻击伤害13.91% ▲】【持续30秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "樱花烂漫",
+  "weapon": "一弦琴",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/sakura",
+    "https://www.gamekee.com/nikke/587419.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 587419,
+  "gamekee_entry_id": 118389,
+  "prydwen_slug": "sakura",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/587419 图鉴"
+}

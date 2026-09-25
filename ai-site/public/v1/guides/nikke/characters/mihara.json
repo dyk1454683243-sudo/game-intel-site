@@ -1,0 +1,44 @@
+{
+  "id": "mihara",
+  "name": "米哈拉",
+  "name_zh": "米哈拉",
+  "name_en": "Mihara",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "忍耐",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身 【暴击伤害8.18%▲】【持续10秒】"
+    },
+    {
+      "name": "苦难之路",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身【不同的使用次数，不同的追加效果】 【低阶效果重複生效】 1次：【苦难之路1：攻击力6.81% ▲】 【持续45秒】 2次：【苦难之路2：暴击率4.93% ▲】 【持续45秒】"
+    },
+    {
+      "name": "意识共享",
+      "type": "burst",
+      "summary": "■全体队友 【全爆裂持续时间5秒▼】 ■对所有敌人造成 【相当于攻击力174.82%的伤害】 ■若自身处于苦难之路2的状态，则对所有敌入造成 【相当于攻击力116.55%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "意识共享",
+  "weapon": "步枪",
+  "element": "水冷",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mihara",
+    "https://www.gamekee.com/nikke/152349.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152349,
+  "gamekee_entry_id": 110440,
+  "prydwen_slug": "mihara",
+  "rarity": "SR",
+  "verified": "GameKee nikke/152349 图鉴"
+}

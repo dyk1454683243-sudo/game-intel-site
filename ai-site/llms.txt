@@ -1,0 +1,43 @@
+# game-intel AI site (game catalog + guides + live intel)
+
+Machine-readable endpoints. Timezone: Asia/Shanghai.
+Game entities dual-published from plugin `data/games/`.
+Guide cards dual-published from `data/guides/`.
+`v1/digest|radar|calendar-hw` from best-effort MCP/CLI export.
+
+## Endpoints
+
+- /v1/games/index.json — game catalog index
+- /v1/games/{id}.json — single game entity
+- /v1/feed.json — cross-platform recent intel (real items only)
+- /games/index.html — human Chinese game directory
+- /games/{id}.html — game detail
+- /v1/watchlist.json — watched games
+- /v1/digest.json — per-game digest headlines
+- /v1/calendar.json — upcoming events calendar
+- /v1/calendar-hw.json — HW calendar (live export)
+- /v1/radar.json — new-game radar
+- /v1/guides/index.json — guide coverage per watchlist game
+- /v1/guides/{game}/index.json — character list for a game
+- /v1/guides/{game}/aliases.json
+- /v1/guides/{game}/characters/{id}.json
+- /guides/index.html — human Chinese guide index
+- /schema/game.schema.json
+- /schema/games-index.schema.json
+- /schema/feed.schema.json
+- /schema/watchlist.schema.json
+- /schema/digest.schema.json
+- /schema/calendar.schema.json
+- /schema/guides-index.schema.json
+- /schema/character-card.schema.json
+- /schema/aliases.schema.json
+- /index.md — overview
+- /llms.txt — this file
+
+## Notes
+
+- Content-Type: application/json for /v1/* and /schema/*
+- No authentication
+- Prefer JSON Schema draft-07 under /schema/
+- Re-export: `npm run export-guides && npm run export-games`
+- Never invent skill names/numbers or Metacritic/prices; stubs have `"stub": true`

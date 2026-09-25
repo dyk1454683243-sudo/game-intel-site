@@ -1,0 +1,44 @@
+{
+  "id": "yan",
+  "name": "杨",
+  "name_zh": "杨",
+  "name_en": "Yan",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "支离破碎",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【蓄力伤害11.85%▲】【持续10秒】"
+    },
+    {
+      "name": "多多益善",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，全体队友 【攻击力1.52%▲】【持续5秒】 【暴击率0.73%▲】【持续5秒】"
+    },
+    {
+      "name": "一振千金",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 相当于【最终攻击力 172.4%的伤害】 【强制移动至攻击范围中心】【持续2秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "一振千金",
+  "weapon": "/",
+  "element": "燃烧",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/yan",
+    "https://www.gamekee.com/nikke/163886.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 163886,
+  "gamekee_entry_id": 110029,
+  "prydwen_slug": "yan",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/163886 图鉴"
+}

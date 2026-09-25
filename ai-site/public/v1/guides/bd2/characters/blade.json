@@ -1,0 +1,62 @@
+{
+  "id": "blade",
+  "name": "布莱德",
+  "name_zh": "布莱德",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "深渊凝视",
+      "type": "active",
+      "costume": "使徒",
+      "summary": "自身遭受攻击时，将进行反击。每次反击时，对敌人全体造成相当于自身攻击力200%的物理伤害。此效果在遭受10次攻击后将消失。对敌人造成相当于自身攻击力700%的物理伤害。"
+    },
+    {
+      "name": "冷酷的热情",
+      "type": "active",
+      "costume": "小公主",
+      "summary": "攻击敌人4次，每次攻击时，造成相当于自身攻击力150%的物理伤害。4回合内，对主要目标敌人应用150%的物理虚弱效果。"
+    },
+    {
+      "name": "皎月流辉",
+      "type": "active",
+      "costume": "温泉剑客",
+      "summary": "对敌人造成相当于自身攻击力600%的物理伤害。此时，敌方的减益效果数量每增加1个时，将额外增加相当于攻击力120%的伤害量。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "布莱德",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "使徒",
+      "type": "原皮",
+      "skill": "深渊凝视"
+    },
+    {
+      "name": "小公主",
+      "type": "辅助",
+      "skill": "冷酷的热情"
+    },
+    {
+      "name": "温泉剑客",
+      "type": null,
+      "skill": "皎月流辉"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/648133.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 648133,
+  "gamekee_entry_id": 175519,
+  "verified": "GameKee zsca2/648133 图鉴"
+}

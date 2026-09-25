@@ -1,0 +1,48 @@
+{
+  "id": "d-killer-wife",
+  "name": "D:杀手妻子",
+  "name_zh": "D:杀手妻子",
+  "name_en": "D: Killer Wife",
+  "aliases": [],
+  "nicknames": [
+    "人妻D",
+    "妻D",
+    "7D"
+  ],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "精准狙击",
+      "type": "passive",
+      "summary": "■全蓄力攻击3次时，自身 【穿透特化】【持续1发】 ■全爆裂时间开始时，持有狙击步枪的全体队友 【穿透伤害8%▲】【持续10秒】"
+    },
+    {
+      "name": "突击阵型",
+      "type": "passive",
+      "summary": "■全蓄力攻击8次时，全体队友 【爆裂技能冷却时间4.13秒▼】 ■全蓄力攻击5次时，全体队友 【攻击伤害2.99%▲】【持续10秒】"
+    },
+    {
+      "name": "解决目标",
+      "type": "burst",
+      "summary": "■对距离瞄准线最近的1个目标造成相当于 【最终攻击力159.12%的额外伤害】 并附加【目标歼灭】状态【持续10秒】 ■队友以普通攻击命中处于目标歼灭状态敌人的特定部位时 【命中部位】【命中时生效增益效果】 命中零件的队友：【核心伤害9.6%▲】 【持续10秒】 命中本体的队友：【相当于以施展者为基准的攻击力7.2%▲】 【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "解决目标",
+  "weapon": "隐匿之刃",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/d-killer-wife",
+    "https://www.gamekee.com/nikke/616356.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 616356,
+  "gamekee_entry_id": 144160,
+  "prydwen_slug": "d-killer-wife",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/616356 图鉴"
+}

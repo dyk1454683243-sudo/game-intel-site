@@ -1,0 +1,44 @@
+{
+  "id": "noah",
+  "name": "诺雅",
+  "name_zh": "诺雅",
+  "name_en": "Noah",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "似疼似痛？",
+      "type": "passive",
+      "summary": "■被攻击时，有10%的机率全体队友 【所受伤害4.4%▼】【持续10秒】"
+    },
+    {
+      "name": "来打我？",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，对目标进行 【挑衅】【持续2秒】 【攻击力9.35%▼ 】【持续5秒】"
+    },
+    {
+      "name": "气不气人啊？",
+      "type": "burst",
+      "summary": "■自身 【注目：挑衅全体敌人】【持续10秒】 ■全体队友 【无敌】【持续3秒】 【防御力88.93%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "气不气人啊？",
+  "weapon": "/",
+  "element": "风压",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/noah",
+    "https://www.gamekee.com/nikke/152340.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152340,
+  "gamekee_entry_id": 102017,
+  "prydwen_slug": "noah",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152340 图鉴"
+}

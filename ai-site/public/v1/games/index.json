@@ -1,0 +1,581 @@
+{
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "note": "Game entity catalog (separate from character guides). stub:true = identity+links only; never invent Metacritic/prices/player counts.",
+  "count": 30,
+  "watchlist_count": 7,
+  "stub_count": 27,
+  "games": [
+    {
+      "id": "asora",
+      "name": "Astrae Oratio",
+      "name_zh": "阿索拉：星之祈愿",
+      "platforms": [
+        "pc",
+        "other"
+      ],
+      "tags": [
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/asora"
+    },
+    {
+      "id": "bd2",
+      "name": "Brown Dust 2",
+      "name_zh": "棕色尘埃2",
+      "platforms": [
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/bd2"
+    },
+    {
+      "id": "hw",
+      "name": "Horizon Walker",
+      "name_zh": "地平线行者",
+      "platforms": [
+        "steam",
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 3279780,
+      "path": "games/hw"
+    },
+    {
+      "id": "lo2",
+      "name": "Last Origin 2",
+      "name_zh": "Last Origin 2",
+      "platforms": [
+        "pc",
+        "mobile",
+        "other"
+      ],
+      "tags": [
+        "gacha",
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/lo2"
+    },
+    {
+      "id": "miraesi",
+      "name": "Invisible Future",
+      "name_zh": "미래시",
+      "platforms": [
+        "pc",
+        "mobile",
+        "other"
+      ],
+      "tags": [
+        "gacha",
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/miraesi"
+    },
+    {
+      "id": "nikke",
+      "name": "NIKKE",
+      "name_zh": "胜利女神：NIKKE",
+      "platforms": [
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg",
+        "shooter"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/nikke"
+    },
+    {
+      "id": "star",
+      "name": "Azure Star Origin",
+      "name_zh": "蓝色星原：旅谣",
+      "platforms": [
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": true,
+      "steam_appid": null,
+      "path": "games/star"
+    },
+    {
+      "id": "balatro",
+      "name": "Balatro",
+      "name_zh": "小丑牌",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "card"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2379780,
+      "path": "games/balatro"
+    },
+    {
+      "id": "baldurs-gate-3",
+      "name": "Baldur's Gate 3",
+      "name_zh": "博德之门3",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "crpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1086940,
+      "path": "games/baldurs-gate-3"
+    },
+    {
+      "id": "black-myth-wukong",
+      "name": "Black Myth: Wukong",
+      "name_zh": "黑神话：悟空",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2358720,
+      "path": "games/black-myth-wukong"
+    },
+    {
+      "id": "celeste",
+      "name": "Celeste",
+      "name_zh": "蔚蓝",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "platformer"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 504230,
+      "path": "games/celeste"
+    },
+    {
+      "id": "clair-obscur-expedition-33",
+      "name": "Clair Obscur: Expedition 33",
+      "name_zh": "光与影：33号远征队",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "turn-based"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1903340,
+      "path": "games/clair-obscur-expedition-33"
+    },
+    {
+      "id": "cyberpunk-2077",
+      "name": "Cyberpunk 2077",
+      "name_zh": "赛博朋克2077",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "open-world"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1091500,
+      "path": "games/cyberpunk-2077"
+    },
+    {
+      "id": "dave-the-diver",
+      "name": "DAVE THE DIVER",
+      "name_zh": "潜水员戴夫",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "adventure",
+        "sim"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1868140,
+      "path": "games/dave-the-diver"
+    },
+    {
+      "id": "dead-cells",
+      "name": "Dead Cells",
+      "name_zh": "死亡细胞",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "ps5",
+        "xbox",
+        "mobile"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "metroidvania"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 588650,
+      "path": "games/dead-cells"
+    },
+    {
+      "id": "disco-elysium",
+      "name": "Disco Elysium - The Final Cut",
+      "name_zh": "极乐迪斯科",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "xbox",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "rpg",
+        "narrative"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 632470,
+      "path": "games/disco-elysium"
+    },
+    {
+      "id": "elden-ring",
+      "name": "ELDEN RING",
+      "name_zh": "艾尔登法环",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1245620,
+      "path": "games/elden-ring"
+    },
+    {
+      "id": "factorio",
+      "name": "Factorio",
+      "name_zh": "异星工厂",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "sim",
+        "factory"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 427520,
+      "path": "games/factorio"
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "name_zh": "哈迪斯",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1145360,
+      "path": "games/hades"
+    },
+    {
+      "id": "hades-2",
+      "name": "Hades II",
+      "name_zh": "哈迪斯2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1145350,
+      "path": "games/hades-2"
+    },
+    {
+      "id": "hollow-knight",
+      "name": "Hollow Knight",
+      "name_zh": "空洞骑士",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "metroidvania"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 367520,
+      "path": "games/hollow-knight"
+    },
+    {
+      "id": "hollow-knight-silksong",
+      "name": "Hollow Knight: Silksong",
+      "name_zh": "空洞骑士：丝之歌",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "metroidvania"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1030300,
+      "path": "games/hollow-knight-silksong"
+    },
+    {
+      "id": "inscryption",
+      "name": "Inscryption",
+      "name_zh": "印刻",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch"
+      ],
+      "tags": [
+        "indie",
+        "card",
+        "horror"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1092790,
+      "path": "games/inscryption"
+    },
+    {
+      "id": "nine-sols",
+      "name": "Nine Sols",
+      "name_zh": "九魂",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "metroidvania",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1809540,
+      "path": "games/nine-sols"
+    },
+    {
+      "id": "palworld",
+      "name": "Palworld",
+      "name_zh": "幻兽帕鲁",
+      "platforms": [
+        "steam",
+        "pc",
+        "xbox"
+      ],
+      "tags": [
+        "survival",
+        "open-world",
+        "multiplayer"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1623730,
+      "path": "games/palworld"
+    },
+    {
+      "id": "rimworld",
+      "name": "RimWorld",
+      "name_zh": "环世界",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "sim",
+        "colony"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 294100,
+      "path": "games/rimworld"
+    },
+    {
+      "id": "slay-the-spire",
+      "name": "Slay the Spire",
+      "name_zh": "杀戮尖塔",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "mobile"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "card"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 646570,
+      "path": "games/slay-the-spire"
+    },
+    {
+      "id": "stardew-valley",
+      "name": "Stardew Valley",
+      "name_zh": "星露谷物语",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "ps5",
+        "xbox"
+      ],
+      "tags": [
+        "indie",
+        "farming",
+        "sim"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 413150,
+      "path": "games/stardew-valley"
+    },
+    {
+      "id": "undertale",
+      "name": "Undertale",
+      "name_zh": "Undertale",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "ps5"
+      ],
+      "tags": [
+        "indie",
+        "rpg",
+        "narrative"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 391540,
+      "path": "games/undertale"
+    },
+    {
+      "id": "vampire-survivors",
+      "name": "Vampire Survivors",
+      "name_zh": "吸血鬼幸存者",
+      "platforms": [
+        "steam",
+        "pc",
+        "switch",
+        "xbox",
+        "mobile"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1794680,
+      "path": "games/vampire-survivors"
+    }
+  ]
+}

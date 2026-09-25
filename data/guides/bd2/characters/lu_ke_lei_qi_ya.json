@@ -1,0 +1,47 @@
+{
+  "id": "lu_ke_lei_qi_ya",
+  "name": "卢克雷齐亚",
+  "name_zh": "卢克雷齐亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "暗",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "魅惑之手",
+      "type": "active",
+      "costume": "诱惑之翼",
+      "summary": "每次攻击命中敌人时，友军的SP恢复3点。攻击敌人2次，每次攻击时，造成相当于自身魔法力40%的魔法伤害。6回合内，对敌人应用沉默效果。"
+    },
+    {
+      "name": "黑暗之门",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "飞翅骷髅",
+  "talent": {
+    "name": "黑暗之门",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "诱惑之翼",
+      "type": "辅助",
+      "skill": "魅惑之手"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593653.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593653,
+  "gamekee_entry_id": 122339,
+  "verified": "GameKee zsca2/593653 图鉴"
+}

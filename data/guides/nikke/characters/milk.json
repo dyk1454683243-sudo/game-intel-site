@@ -1,0 +1,44 @@
+{
+  "id": "milk",
+  "name": "米尔克",
+  "name_zh": "米尔克",
+  "name_en": "Milk",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "胜负欲",
+      "type": "active",
+      "summary": "■对攻击力最高的2名队友发动 【攻击力17.51%▲】【持续10秒】"
+    },
+    {
+      "name": "米尔克禁药",
+      "type": "passive",
+      "summary": "■自身体力为80%以上时，全体队友 【暴击伤害6.12%▲】【持续】"
+    },
+    {
+      "name": "冲向胜利",
+      "type": "burst",
+      "summary": "■对防御力最高的一名敌人造成 【相当于攻击力202.04%的伤害】 ■全体队友 【恢复相当于攻击伤害的8.88%】【持续10s】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "冲向胜利",
+  "weapon": "完美胜利",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/milk",
+    "https://www.gamekee.com/nikke/170848.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170848,
+  "gamekee_entry_id": 113075,
+  "prydwen_slug": "milk",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170848 图鉴"
+}

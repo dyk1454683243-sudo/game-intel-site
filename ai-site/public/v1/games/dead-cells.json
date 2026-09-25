@@ -1,0 +1,30 @@
+{
+  "id": "dead-cells",
+  "name": "Dead Cells",
+  "name_zh": "死亡细胞",
+  "platforms": [
+    "steam",
+    "pc",
+    "switch",
+    "ps5",
+    "xbox",
+    "mobile"
+  ],
+  "tags": [
+    "indie",
+    "roguelike",
+    "metroidvania"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/588650/"
+    }
+  ],
+  "steam_appid": 588650,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

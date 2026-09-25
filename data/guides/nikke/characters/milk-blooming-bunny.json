@@ -1,0 +1,44 @@
+{
+  "id": "milk-blooming-bunny",
+  "name": "米尔克：花漾兔女郎",
+  "name_zh": "米尔克：花漾兔女郎",
+  "name_en": "Milk: Blooming Bunny",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "忍住害羞",
+      "type": "passive",
+      "summary": "■全蓄力攻击时，赋予自身 【穿透特化】【持续6秒】 ■全蓄力状态持续0.5秒以上时，若自身不处于害羞状态， 则获得【害羞】： 功能：在降低换弹速度的状态下强制换弹，但赋予攻击力增加和分摊伤害效果 效果1：对全体敌人造成【最终攻击力171.36%的分摊伤害】 效果2：自身【子弹减少100%】 效果3：自身【换弹速度固定为减少50%的状态】【适用于1次换弹】 效果4：自身【强制换弹】 效果5：自身【攻击力70.14%▲】 【持续40秒】"
+    },
+    {
+      "name": "怒气爆发",
+      "type": "passive",
+      "summary": "■若处于害羞状态时，自身 【穿透伤害38.23%▲】【持续】 ■若自身处于看什么热闹，你们这些家伙！！状态时，每2秒对全体敌人造成 【最终攻击力264.55%的分摊伤害】"
+    },
+    {
+      "name": "羞耻心爆发",
+      "type": "burst",
+      "summary": "■赋予自身 【看什么热闹，你们这些家伙！！】： 【害羞免疫】【持续10秒】 【穿透伤害69.51%▲】【持续10秒】 【攻击力130%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "羞耻心爆发",
+  "weapon": "腼腆兔子",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/milk-blooming-bunny",
+    "https://www.gamekee.com/nikke/676880.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 676880,
+  "gamekee_entry_id": 194384,
+  "prydwen_slug": "milk-blooming-bunny",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/676880 图鉴"
+}

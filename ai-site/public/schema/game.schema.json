@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/game.schema.json",
+  "title": "game-intel game entity",
+  "type": "object",
+  "required": ["id", "name", "platforms", "stub", "as_of", "timezone"],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable slug, e.g. hw / balatro"
+    },
+    "name": {
+      "type": "string",
+      "description": "Canonical display name (usually EN / official)"
+    },
+    "name_zh": {
+      "type": "string",
+      "description": "Optional Chinese display name"
+    },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["steam", "pc", "ps5", "xbox", "switch", "mobile", "other"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "e.g. gacha|indie|aaa|rpg|roguelike|…"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "url"],
+        "additionalProperties": true,
+        "properties": {
+          "label": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      },
+      "description": "Official / Steam / wiki links only — never invent"
+    },
+    "steam_appid": {
+      "type": ["integer", "null"],
+      "description": "Steam AppID when known; omit or null if unknown"
+    },
+    "stub": {
+      "type": "boolean",
+      "description": "true = identity + links only; no invented review/score"
+    },
+    "watchlist": {
+      "type": "boolean",
+      "description": "true if on Dai daily watch list"
+    },
+    "guides_path": {
+      "type": ["string", "null"],
+      "description": "Human guides path when coverage exists, e.g. /guides/hw/"
+    },
+    "as_of": {
+      "type": "string",
+      "description": "Asia/Shanghai date YYYY-MM-DD"
+    },
+    "timezone": {
+      "type": "string",
+      "const": "Asia/Shanghai"
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}

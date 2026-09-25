@@ -1,0 +1,43 @@
+{
+  "id": "shen-fa",
+  "name": "神罚",
+  "name_zh": "神罚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "高速进化",
+      "type": "passive",
+      "summary": "■普通攻击命中时，对目标造成 【相当于最终攻击力 2.03%的额外伤害】 ■普通攻击命中200次时，自身 【暴击伤害10.41% ▲】 【叠加5次】【持续10秒】 【最大装弹数5.04% ▼】 【叠加5次】【持续10秒】"
+    },
+    {
+      "name": "大飞跃",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【命中率5.35% ▲】【持续15秒】 ■普通攻击命中200次时，若自身处于命中率增加状态，则自身 【攻击力18.36% ▲】【持续10秒】"
+    },
+    {
+      "name": "新世界",
+      "type": "burst",
+      "summary": "■全体队友 【全爆裂持续时间5秒▲】 ■自身 【装弹数无限】【持续15秒】 【歼灭模式】： 功能：瞄准线扩大 & 同时瞄准处于瞄准范围内的所有敌人。 无视BOSS阻挡部位及零件， 将其视为单体敌人 伤害：相当于最终攻击力1.52%的伤害 持续时间：15秒"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "新世界",
+  "weapon": "新世纪",
+  "element": "燃烧",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/nikke/576623.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 576623,
+  "gamekee_entry_id": 115012,
+  "prydwen_slug": null,
+  "rarity": "SSR",
+  "verified": "GameKee nikke/576623 图鉴"
+}

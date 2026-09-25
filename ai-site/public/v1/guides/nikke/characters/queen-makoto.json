@@ -1,0 +1,44 @@
+{
+  "id": "queen-makoto",
+  "name": "QUEEN（真）",
+  "name_zh": "QUEEN（真）",
+  "name_en": "Queen (Makoto Niijima)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "人格面具：琼安",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【人格面具 - 琼安】【持续】【无法解除】： 功能：透过人格面具强化自身。 效果1：【核热强化：优越代码攻击伤害8.03%▲】【持续】【无法解除】 效果2：【防御诀窍：防御力8.73%▲】【持续】【无法解除】 ■战斗开始时及全爆裂时间结束时，自身 【攻击力29.7%▲】【持续15秒】 ■1MORE生效时，对全体敌人造成相当于 【最终攻击力324.39%的分摊伤害】 ■追击生效时，对全体敌人造成相当于 【最终攻击力324.39%的分摊伤害】"
+    },
+    {
+      "name": "铁·拳·制·裁！",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【攻击伤害17.72%▲】【持续】 ■使用爆裂技能时，自身 【铁．拳．制．裁！】【持续】【无法解除】： 功能：强化自身。 效果1：【高级核热强化：优越代码攻击伤害15.09%▲】【持续】【无法解除】 效果2：【拉库卡加：防御力10.6%▲】【持续】【无法解除】 解除时间：全爆裂时间结束时 ■进入爆裂3阶时，自身 【分摊伤害53.18%▲】【持续10秒】 ■1MORE生效时，对除自身外基本爆裂阶段为3阶且处于人格面具状态的全体队友 【换手：以施展者为基准的攻击力20.8%▲】【叠加3次】【持续】"
+    },
+    {
+      "name": "玛哈芙雷达因",
+      "type": "burst",
+      "summary": "■对全体敌人造成相当于 【最终攻击力840.08%的分摊伤害】 ■若存在风压代码的敌人，自身 【1MORE：攻击力17.88%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "玛哈芙雷达因",
+  "weapon": "铁腕裁决",
+  "element": "燃烧",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/queen-makoto",
+    "https://www.gamekee.com/nikke/716926.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 716926,
+  "gamekee_entry_id": 221057,
+  "prydwen_slug": "queen-makoto",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/716926 图鉴"
+}

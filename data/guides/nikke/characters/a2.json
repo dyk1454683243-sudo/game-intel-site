@@ -1,0 +1,44 @@
+{
+  "id": "a2",
+  "name": "A2",
+  "name_zh": "A2",
+  "name_en": "A2",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "功率提升",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【蓄力伤害66.81% ▲】【持续15秒】 【爆炸范围60.08% ▲】【持续15秒】"
+    },
+    {
+      "name": "缓冲攻击",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，对目标造成相当于 【最终攻击力17.78%的额外伤害】 ■全蓄力攻击命中时，自身 【零件伤害 24.16% ▲】【持续3秒】"
+    },
+    {
+      "name": "B模式",
+      "type": "burst",
+      "summary": "■自身 【B模式】： 功能：每秒降低自身体力，同时提升攻击力与蓄力速度。若自身体力为40%以下，则解除B模式。 效果1：【目前体力5.61%▼】【间隔1秒】 效果2：【攻击力9.36%▲】 效果3：【蓄力速度23.02%▲】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "B模式",
+  "weapon": "四零式斩机刀",
+  "element": "燃烧",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/a2",
+    "https://www.gamekee.com/nikke/599115.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 599115,
+  "gamekee_entry_id": 125853,
+  "prydwen_slug": "a2",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/599115 图鉴"
+}

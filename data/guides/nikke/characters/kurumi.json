@@ -1,0 +1,44 @@
+{
+  "id": "kurumi",
+  "name": "胡桃",
+  "name_zh": "胡桃",
+  "name_en": "Kurumi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "病毒代码植入",
+      "type": "passive",
+      "summary": "■普通攻击命中36次时，对目标造成 【骇入：最终攻击力30.87%的持续伤害】【间隔1秒】【持续5秒】 ■使用爆裂技能时，对全体敌人造成 【骇入：最终攻击力30.87%的持续伤害】【间隔1秒】【持续5秒】"
+    },
+    {
+      "name": "负载扩散",
+      "type": "passive",
+      "summary": "■全爆裂时间持续期间，普通攻击命中36次时，若目标处于骇入状态，则对目标造成 【最终攻击力50.92%的额外伤害】"
+    },
+    {
+      "name": "防御协议破坏",
+      "type": "burst",
+      "summary": "■全体敌人 【所受伤害10.67%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "防御协议破坏",
+  "weapon": "骇客用遥控无人机",
+  "element": "铁甲",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/kurumi",
+    "https://www.gamekee.com/nikke/695279.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 695279,
+  "gamekee_entry_id": 209189,
+  "prydwen_slug": "kurumi",
+  "rarity": "SR",
+  "verified": "GameKee nikke/695279 图鉴"
+}

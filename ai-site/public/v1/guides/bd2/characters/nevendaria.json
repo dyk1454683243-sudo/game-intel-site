@@ -1,0 +1,42 @@
+{
+  "id": "nevendaria",
+  "name": "内肯达莉亚",
+  "name_zh": "内肯达莉亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [
+    "黑妹"
+  ],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "致命战线",
+      "type": "active",
+      "costume": "神枪手",
+      "summary": "6回合内，对敌人应用【标记】。对敌人进行10次攻击，每次攻击时造成自身魔法力90%的魔法伤害。 【标记】：无视目标的闪避效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "雪白遗骸",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "神枪手",
+      "type": null,
+      "skill": "致命战线"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/707171.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 707171,
+  "gamekee_entry_id": 216930,
+  "verified": "GameKee zsca2/707171 图鉴"
+}

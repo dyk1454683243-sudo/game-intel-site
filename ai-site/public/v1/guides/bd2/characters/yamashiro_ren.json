@@ -1,0 +1,47 @@
+{
+  "id": "yamashiro_ren",
+  "name": "山城恋",
+  "name_zh": "山城恋",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "让我好好管教你",
+      "type": "active",
+      "costume": "无限宇宙之全一",
+      "summary": "自身成功闪避敌人1次前，以100%的概率闪避敌人的攻击。攻击敌人1次，每次攻击时，造成相当于自身魔法力920%的魔法伤害。（试用+5数据）"
+    },
+    {
+      "name": "暂无",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "星星召唤首饰",
+  "talent": {
+    "name": "暂无",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "无限宇宙之全一",
+      "type": "限定",
+      "skill": "让我好好管教你"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/721512.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 721512,
+  "gamekee_entry_id": 225782,
+  "verified": "GameKee zsca2/721512 图鉴"
+}

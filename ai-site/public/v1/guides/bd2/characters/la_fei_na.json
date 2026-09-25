@@ -1,0 +1,70 @@
+{
+  "id": "la_fei_na",
+  "name": "拉菲娜",
+  "name_zh": "拉菲娜",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "机械潜水",
+      "type": "active",
+      "costume": "钢铁引擎",
+      "summary": "解除应用于敌人的防护罩和能量护盾效果。对敌人造成相当于自身攻击力925%的物理伤害。"
+    },
+    {
+      "name": "机械召唤",
+      "type": "active",
+      "costume": "代号A",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身攻击力200%的物理伤害。4回合内，敌人防御力减少50%。"
+    },
+    {
+      "name": "虚拟忍者出击！",
+      "type": "active",
+      "costume": "游戏社",
+      "summary": "攻击敌人3次，每次任务时，造成相当于自身攻击力140%的物理伤害。4回合内，对敌人应用100%的物理虚弱效果。"
+    },
+    {
+      "name": "危险侦察功能开启!",
+      "type": "talent",
+      "summary": "可在60秒内知道周边大范围的陷阱及幽冥葛洛堤等造成伤害的怪物的位置。消耗5个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "E.P.G",
+  "talent": {
+    "name": "危险侦察功能开启!",
+    "summary": "可在60秒内知道周边大范围的陷阱及幽冥葛洛堤等造成伤害的怪物的位置。消耗5个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "钢铁引擎",
+      "type": "原皮",
+      "skill": "机械潜水"
+    },
+    {
+      "name": "代号A",
+      "type": null,
+      "skill": "机械召唤"
+    },
+    {
+      "name": "游戏社",
+      "type": "辅助",
+      "skill": "虚拟忍者出击！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593625.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593625,
+  "gamekee_entry_id": 122359,
+  "verified": "GameKee zsca2/593625 图鉴"
+}

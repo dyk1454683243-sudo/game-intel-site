@@ -1,0 +1,46 @@
+{
+  "id": "neon",
+  "name": "尼恩",
+  "name_zh": "尼恩",
+  "name_en": "Neon",
+  "aliases": [
+    "尼恩"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "尼恩特制弹",
+      "type": "passive",
+      "summary": "■消灭敌人时，攻击力最高的2名队友 【暴击率1.78%▲】【持续5秒】"
+    },
+    {
+      "name": "火力万岁！",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【暴击率22.96%▲】【持续2发】"
+    },
+    {
+      "name": "火力至上！",
+      "type": "burst",
+      "summary": "■对防御力最高的1名敌人造成 【相当于攻击力198.36%的伤害】 ■持有霰弹枪的全体队友 【最大装弹数3发▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "霰弹枪",
+  "element": "燃烧",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/neon",
+    "https://www.gamekee.com/nikke/92084.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 92084,
+  "gamekee_entry_id": 110442,
+  "prydwen_slug": "neon",
+  "rarity": "SR",
+  "burst": "火力至上！",
+  "verified": "GameKee nikke/92084 图鉴"
+}

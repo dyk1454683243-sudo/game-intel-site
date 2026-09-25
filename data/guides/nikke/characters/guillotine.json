@@ -1,0 +1,47 @@
+{
+  "id": "guillotine",
+  "name": "吉萝婷",
+  "name_zh": "吉萝婷",
+  "name_en": "Guillotine",
+  "aliases": [],
+  "nicknames": [
+    "中二",
+    "中二病"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "愉悦",
+      "type": "passive",
+      "summary": "■普通攻击命中30次时，自身 【暴击率6.28%▲】【持续10秒】 【目前体力2.01%▼】"
+    },
+    {
+      "name": "黑化",
+      "type": "passive",
+      "summary": "■普通攻命中150次时，自身 【暴击伤害8.68%▲】 【持续5秒】 ■自身体力为70%以下时，自身 【每失去1%的体力，攻击力0.56%▲】 【持续】"
+    },
+    {
+      "name": "魔界黑龙波",
+      "type": "burst",
+      "summary": "■对攻击力最高的1名敌人造成 【最终攻击力731.25%的爆裂技能伤害】 ■自身体力为50%以下时，对同一敌人造成 【最终攻击力731.25%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "电击",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/guillotine",
+    "https://www.gamekee.com/nikke/152333.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152333,
+  "gamekee_entry_id": 102013,
+  "prydwen_slug": "guillotine",
+  "rarity": "SSR",
+  "burst": "魔界黑龙波",
+  "verified": "GameKee nikke/152333 图鉴"
+}

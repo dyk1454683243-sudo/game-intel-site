@@ -1,0 +1,64 @@
+{
+  "id": "lysandria",
+  "name": "莉珊德莉娅",
+  "name_en": "Lysandria",
+  "nicknames": [
+    "修女",
+    "莉珊"
+  ],
+  "game": "hw",
+  "role": "近战核心 / 领域追加伤；自奶维持血线",
+  "skills": [
+    {
+      "name": "旋转斩",
+      "type": "active",
+      "summary": "melee slash"
+    },
+    {
+      "name": "黑暗中的光芒",
+      "type": "passive",
+      "summary": "heal self+allies in 5m based on magic atk"
+    },
+    {
+      "name": "未知者之剑",
+      "type": "active",
+      "summary": "shield + empower basic with extra invisible dmg; with exclusive weapon becomes 2CD +15 AP"
+    },
+    {
+      "name": "驱魔圣战",
+      "type": "passive",
+      "summary": "on hit stack 救赎 (magic) and 审判 (melee), up to 9 each"
+    },
+    {
+      "name": "血之审判",
+      "type": "ult",
+      "summary": "domain; end of turn deals melee% invisible additional dmg consuming 救赎; needs 救赎 stacks; keep HP ≥50% to sustain (burn-HP mechanic with weapon)"
+    }
+  ],
+  "stigmata": {
+    "set_id": "set_iuppiter",
+    "set_name": "优菲特尔",
+    "nickname": "木星",
+    "pieces": 4,
+    "substats_priority": [
+      "近战攻击力"
+    ],
+    "notes": [
+      "ult 血之审判 does NOT scale crit/crit dmg"
+    ]
+  },
+  "skill_prio": [
+    "ult 血之审判 first",
+    "then basics/passives that sustain HP/救赎",
+    "passive heal (黑暗中的光芒) can be leveled for 50% HP sustain"
+  ],
+  "weapon": "own exclusive preferred",
+  "teams": {
+    "dopamine_auto": "A"
+  },
+  "sources": [
+    "https://www.gamekee.com/hw/672601.html"
+  ],
+  "as_of": "2026-09",
+  "verified": "GameKee hw/672601 图鉴/测评"
+}

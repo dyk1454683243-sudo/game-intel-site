@@ -1,0 +1,61 @@
+{
+  "id": "palmen",
+  "name": "帕梅恩",
+  "name_zh": "帕梅恩",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "hw",
+  "role": "T0.5 / 回AP / 加护盾 / 微风君主",
+  "skills": [
+    {
+      "name": "寒风",
+      "type": "active",
+      "summary": "造成相当于魔法攻击力60%的斩击伤害，并将目标击退1.5米。"
+    },
+    {
+      "name": "风之汇聚",
+      "type": "passive",
+      "summary": "每次进行除待机以外的行动时，都会获得【流动之风】效果。自身回合结束时，赋予所有友军【风之汇聚】效果。"
+    },
+    {
+      "name": "风之护盾",
+      "type": "active",
+      "summary": "根据自身的魔法攻击力，对单一友军及自身赋予持续2R的【风之护盾】效果"
+    },
+    {
+      "name": "季风",
+      "type": "active",
+      "summary": "仅在拥有3层以上【涌动之风】效果时可触发。消耗3层【涌动之风】效果，使所有友军获得相当于自身行动恢复力30%的行动力，并在下一轮开始时，将增加的行动力数值转换为等量的行动恢复力。"
+    }
+  ],
+  "skill_prio": [
+    "只需要点大招和加盾即可，大招升到6级以上的收益也不高，因此都6级即可。",
+    "寒风: 不加",
+    "风之汇聚: 不加",
+    "风之护盾: 6级即可",
+    "季风: 6级即可"
+  ],
+  "stigmata": {
+    "set_id": null,
+    "set_name": "罪孽清算",
+    "pieces": 4,
+    "notes": [
+      "2件: 战斗中行动恢复力",
+      "4件: 获得行动力、敌人抗性降低",
+      "辅助标配行动恢复力拉满的罪孽套即可。"
+    ]
+  },
+  "weapon": "悲恋之玫瑰",
+  "teams": {
+    "dopamine_auto": "A"
+  },
+  "sources": [
+    "https://www.gamekee.com/hw/638184.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 638184,
+  "gamekee_entry_id": 167248,
+  "verified": "GameKee hw/638184 图鉴"
+}

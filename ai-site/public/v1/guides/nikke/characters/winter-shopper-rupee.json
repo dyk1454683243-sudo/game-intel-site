@@ -1,0 +1,47 @@
+{
+  "id": "winter-shopper-rupee",
+  "name": "露菲：冬日购物狂",
+  "name_zh": "露菲：冬日购物狂",
+  "name_en": "Rupee: Winter Shopper",
+  "aliases": [],
+  "nicknames": [
+    "圣诞露菲",
+    "圣露"
+  ],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "冬季特惠",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，全体队友 【防御力10.46%▲】【持续5秒】"
+    },
+    {
+      "name": "VIP礼物",
+      "type": "passive",
+      "summary": "■队友使用爆裂技能时，全体队友 【购物：防御力0.73%▲】【叠加4次】【20秒】 ■全爆裂时间结束时，若自身处于购物最大叠加状态，则全体队友 【爆裂进度补充速度4.34%▲】【持续5秒】"
+    },
+    {
+      "name": "购物狂约会",
+      "type": "burst",
+      "summary": "■自身 【注目：挑衅全体敌人】【持续5秒】 【恢复等同于攻击伤害的33.94%】【持续10秒】 ■全体队友 【装弹速度20.74%▲】【持续10秒】 【重新进入爆裂1阶】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "购物狂约会",
+  "weapon": "购物狂",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/winter-shopper-rupee",
+    "https://www.gamekee.com/nikke/578062.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 578062,
+  "gamekee_entry_id": 114278,
+  "prydwen_slug": "winter-shopper-rupee",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/578062 图鉴"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rem",
+  "name": "雷姆",
+  "name_zh": "雷姆",
+  "name_en": "Rem",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "交给雷姆吧！",
+      "type": "passive",
+      "summary": "■处于鬼之气息状态，普通攻击命中15次时，自身 【攻击力2.49%▲】 【叠加30次】【持续10秒】 ■使用爆裂技能时，全体队友 【体力恢复分摊】【持续10秒】"
+    },
+    {
+      "name": "让雷姆来治疗吧！",
+      "type": "passive",
+      "summary": "■战斗开始时，自身 【恢复相当于攻击伤害的24.96%】【持续】 ■战斗开始时，自身与持有高攻击力榴弹发射器的2名队友 【体力恢复分配】【持续】"
+    },
+    {
+      "name": "雷姆绝对不会原谅！",
+      "type": "burst",
+      "summary": "■自身 【鬼之气息：暴击率7.4%▲】 【持续10秒】 ■持有榴弹发射器的全体队友 【相当于以施展者为准的攻击力30.01%▲】 【持续10秒】 【最大装弹数3发▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "雷姆绝对不会原谅！",
+  "weapon": "鬼之全力",
+  "element": "水冷",
+  "manufacturer": "反常",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rem",
+    "https://www.gamekee.com/nikke/618507.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 618507,
+  "gamekee_entry_id": 146356,
+  "prydwen_slug": "rem",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/618507 图鉴"
+}

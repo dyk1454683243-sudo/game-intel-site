@@ -1,0 +1,44 @@
+{
+  "id": "rupee",
+  "name": "露菲",
+  "name_zh": "露菲",
+  "name_en": "Rupee",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "奖赏",
+      "type": "passive",
+      "summary": "■普通攻击100次时，全体铁甲属性队友 【可叠加的增益效果叠加量1个▲】 【暴击率1.23%▲】【持续10s】"
+    },
+    {
+      "name": "积分",
+      "type": "passive",
+      "summary": "■攻击30次时，自身 【积分：攻击力7.59%▲】 【叠加5次】【持续15秒】"
+    },
+    {
+      "name": "一次性支付",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 【相当于最终攻击力150.85%的伤害】 ■若自身处于积分最大叠加状态，则全体队友 【攻击力10.89%▲】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "/",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/rupee",
+    "https://www.gamekee.com/nikke/170851.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170851,
+  "gamekee_entry_id": 113078,
+  "prydwen_slug": "rupee",
+  "rarity": "SSR",
+  "burst": "一次性支付",
+  "verified": "GameKee nikke/170851 图鉴"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "jie_ni_si",
+  "name": "杰尼斯",
+  "name_zh": "杰尼斯",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "辅助",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "瞄准苹果",
+      "type": "active",
+      "costume": "罗宾汉",
+      "summary": "攻击敌人6次，每次攻击时，造成相当于自身攻击力25%的物理伤害。2回合内，对敌人应用集中射击效果。4回合内，对敌人应用100%的虚弱效果。"
+    },
+    {
+      "name": "违反规定！",
+      "type": "active",
+      "costume": "水上守护者",
+      "summary": "攻击敌人6次，每次攻击时，造成相当于自身攻击力50%的物理伤害。2回合内，对敌人应用集中射击效果。4回合内，对敌人应用受到的连携伤害增加10%的效果。"
+    },
+    {
+      "name": "探查",
+      "type": "talent",
+      "summary": "于240秒内确认隐藏物品的位置。消耗15个天赋神药。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "兔子游侠",
+  "talent": {
+    "name": "探查",
+    "summary": "于240秒内确认隐藏物品的位置。消耗15个天赋神药。"
+  },
+  "costumes": [
+    {
+      "name": "罗宾汉",
+      "type": "辅助",
+      "skill": "瞄准苹果"
+    },
+    {
+      "name": "水上守护者",
+      "type": "辅助",
+      "skill": "违反规定！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/603226.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 603226,
+  "gamekee_entry_id": 130986,
+  "verified": "GameKee zsca2/603226 图鉴"
+}

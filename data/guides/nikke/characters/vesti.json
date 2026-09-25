@@ -1,0 +1,44 @@
+{
+  "id": "vesti",
+  "name": "贝斯蒂",
+  "name_zh": "贝斯蒂",
+  "name_en": "Vesti",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "想象成真",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，自身 【爆炸范围提升8.87%】"
+    },
+    {
+      "name": "生存本能",
+      "type": "passive",
+      "summary": "■使用爆裂技能时，自身 【不同的使用次数，不同的额外效果】 【低阶效果重复生效】 1次：【生存本能 1：攻击力 3.16% ▲】 【持续45秒】 2次：【生存本能 2：暴击伤害 13.2% ▲】 【持续45秒】 3次：【生存本能 3：暴击率 9.17% ▲】 【持续45秒】"
+    },
+    {
+      "name": "正当防卫",
+      "type": "burst",
+      "summary": "■自身 【调用2台飞弹货柜】： 功能：对剩余的体力数值最低的敌人造成最终攻击力9.19%的伤害 攻击间隔：1秒 持续时间：18秒 ■全体敌人 【按照生存本能阶段触发额外效果】【低阶效果重复生效】： 生存本能 1：【最终攻击力 124.45%的额外伤害】 生存本能2：【造成最终攻击力 146.1%的额外伤害】 生存本能3：【造成最终攻击力 178.57%的额外伤害】 ■全体队友 【全爆裂时间持续时间5秒▼】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "正当防卫",
+  "weapon": "纯粹怪物",
+  "element": "水冷",
+  "manufacturer": "极乐净土",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/vesti",
+    "https://www.gamekee.com/nikke/170849.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170849,
+  "gamekee_entry_id": 113076,
+  "prydwen_slug": "vesti",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170849 图鉴"
+}

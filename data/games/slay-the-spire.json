@@ -1,0 +1,28 @@
+{
+  "id": "slay-the-spire",
+  "name": "Slay the Spire",
+  "name_zh": "杀戮尖塔",
+  "platforms": [
+    "steam",
+    "pc",
+    "switch",
+    "mobile"
+  ],
+  "tags": [
+    "indie",
+    "roguelike",
+    "card"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/646570/"
+    }
+  ],
+  "steam_appid": 646570,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

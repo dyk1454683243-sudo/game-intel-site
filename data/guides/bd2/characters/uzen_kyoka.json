@@ -1,0 +1,47 @@
+{
+  "id": "uzen_kyoka",
+  "name": "羽前京香",
+  "name_zh": "羽前京香",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "受死吧！",
+      "type": "active",
+      "costume": "无穷之锁",
+      "summary": "攻击敌人1次，每次攻击时，造成相当于自身攻击力600%的物理伤害。"
+    },
+    {
+      "name": "暂无",
+      "type": "talent"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "京香的剑",
+  "talent": {
+    "name": "暂无",
+    "summary": null
+  },
+  "costumes": [
+    {
+      "name": "无穷之锁",
+      "type": "联动",
+      "skill": "受死吧！"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/720274.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 720274,
+  "gamekee_entry_id": 224650,
+  "verified": "GameKee zsca2/720274 图鉴"
+}

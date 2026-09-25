@@ -1,0 +1,44 @@
+{
+  "id": "product-12",
+  "name": "产品12",
+  "name_zh": "产品12",
+  "name_en": "Product-12",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "攻击提升",
+      "type": "passive",
+      "summary": "■进行200次普通攻击时，自身 【攻击力2.07%▲】【持续5秒】"
+    },
+    {
+      "name": "火力集中",
+      "type": "active",
+      "summary": "■对体力最低的1名敌人造成 相当于【最终攻击力27.27%的伤害】"
+    },
+    {
+      "name": "精准打击",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 【相对于最终攻击力180%的伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "精准打击",
+  "weapon": "/",
+  "element": "燃烧",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/product-12",
+    "https://www.gamekee.com/nikke/152354.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152354,
+  "gamekee_entry_id": 102034,
+  "prydwen_slug": "product-12",
+  "rarity": "R",
+  "verified": "GameKee nikke/152354 图鉴"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "milk-treasure",
+  "name": "Milk (Treasure)",
+  "name_zh": null,
+  "name_en": "Milk (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "In it to Win It",
+      "type": "active"
+    },
+    {
+      "name": "Sugar Rush",
+      "type": "passive"
+    },
+    {
+      "name": "Victory is Mine",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/milk-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "milk-treasure",
+  "verified": "Prydwen /nikke/characters/milk-treasure"
+}

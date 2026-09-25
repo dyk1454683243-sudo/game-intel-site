@@ -1,0 +1,62 @@
+{
+  "id": "ai_ni_er",
+  "name": "艾尼尔",
+  "name_zh": "艾尼尔",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "暗",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "三重箭矢",
+      "type": "active",
+      "costume": "穿透魔弓",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力210%的物理伤害。解除应用于敌人的增益效果。"
+    },
+    {
+      "name": "真离谱！",
+      "type": "active",
+      "costume": "B级偶像",
+      "summary": "攻击敌人3次，每次攻击时，造成相当于自身攻击力270%的物理伤害。2回合内，对敌人应用沉默效果。【额外能力】2回合内，敌人防御力减少20%。"
+    },
+    {
+      "name": "灰烬风暴",
+      "type": "active",
+      "costume": "夜色流影兔女郎",
+      "summary": "10回合内，自身攻击力增加40%。在战场上生成领域。领域持续的10回合内，友军的攻击力或魔法力将根据各自攻击类型提高60%。对敌人应用50%虚弱效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "自由射手",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "穿透魔弓",
+      "type": "原皮",
+      "skill": "三重箭矢"
+    },
+    {
+      "name": "B级偶像",
+      "type": null,
+      "skill": "真离谱！"
+    },
+    {
+      "name": "夜色流影兔女郎",
+      "type": "辅助",
+      "skill": "灰烬风暴"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593632.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593632,
+  "gamekee_entry_id": 122362,
+  "verified": "GameKee zsca2/593632 图鉴"
+}

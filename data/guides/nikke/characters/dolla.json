@@ -1,0 +1,44 @@
+{
+  "id": "dolla",
+  "name": "朵拉",
+  "name_zh": "朵拉",
+  "name_en": "Dolla",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "企业家精神",
+      "type": "passive",
+      "summary": "■全体队友 【攻击力8.88% ▲】【持续5秒】"
+    },
+    {
+      "name": "风险共享",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，全体队友 【不同起始次数不同效果】 【低阶效果重复生效】： 1次：【爆裂技能冷却时间1.82秒 ▼】 2次：【爆裂技能冷却时间2.2秒 ▼】 3次：【爆裂技能冷却时间2.6秒 ▼】 ■使用爆裂技能时，全体队友 【不同使用次数不同效果】 【低阶效果重复生效】： 1次：【攻击力1.18% ▲】【持续5秒】 2次：【暴击率1.05% ▲】【持续5秒】 3次：【暴击伤害3.85% ▲】【持续5秒】"
+    },
+    {
+      "name": "R&D射击",
+      "type": "burst",
+      "summary": "■对防御力最高的1名敌人造成 【最终攻击力404.08%的爆裂技能伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "R&D射击",
+  "weapon": "/",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/dolla",
+    "https://www.gamekee.com/nikke/170853.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 170853,
+  "gamekee_entry_id": 113080,
+  "prydwen_slug": "dolla",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/170853 图鉴"
+}

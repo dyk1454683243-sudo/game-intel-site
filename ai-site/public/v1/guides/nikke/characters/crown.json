@@ -1,0 +1,44 @@
+{
+  "id": "crown",
+  "name": "皇冠",
+  "name_zh": "皇冠",
+  "name_en": "Crown",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "One for All",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，使用爆裂技能启动全爆裂的全体队友 【以施展者为标准的攻击力40.32%▲】【持续15秒】 【换弹速度27.72%▲】【持续15秒】 ■全爆裂时间开始时，未使用爆裂技能启动全爆裂的全体队友 【以施展者为标准的防御力23.4%▲】【持续15秒】 【换弹速度27.72%▲】【持续15秒】"
+    },
+    {
+      "name": "皇家礼服",
+      "type": "passive",
+      "summary": "■普通攻击65次时，自身 【放松：体力恢复量2.54%】 【叠加20次】【持续】 ■自身处于放松最大叠加时，解除叠加后自身 【无敌】【持续2.57秒】 【注目：挑衅全体敌人】【持续2.57秒】 【恢复相当于施展者最终最大体力的3.27%】 ■ 获得恢复效果时， 全体队友 【攻击伤害13.12%▲】【持续7秒】"
+    },
+    {
+      "name": "最后的王国",
+      "type": "burst",
+      "summary": "■全体队友 【攻击伤害22.65%▲】【持续15秒】 【相当于施展者最终最大体力的6.53%护盾】 【持续15秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "尊敬的陛下",
+  "element": "铁甲",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/crown",
+    "https://www.gamekee.com/nikke/621270.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 621270,
+  "gamekee_entry_id": 148496,
+  "prydwen_slug": "crown",
+  "rarity": "SSR",
+  "burst": "最后的王国",
+  "verified": "GameKee nikke/621270 图鉴"
+}

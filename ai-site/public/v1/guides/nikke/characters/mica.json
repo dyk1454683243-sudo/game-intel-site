@@ -1,0 +1,44 @@
+{
+  "id": "mica",
+  "name": "米卡",
+  "name_zh": "米卡",
+  "name_en": "Mica",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "美味之星",
+      "type": "passive",
+      "summary": "■被攻击20次时，自身 【防御力17.14%▲】【持续10秒】"
+    },
+    {
+      "name": "勇敢之星",
+      "type": "active",
+      "summary": "■攻击力最高的2名队友【最大装弹数2发▲】【持续10秒】【防御力5.57%▲】【持续10秒】"
+    },
+    {
+      "name": "闪烁之星",
+      "type": "burst",
+      "summary": "■对全体敌人造成 【相当于攻击力66.6%的伤害】 【防御力5.82%▼】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "闪烁之星",
+  "weapon": "发射器",
+  "element": "风压",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/mica",
+    "https://www.gamekee.com/nikke/152352.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152352,
+  "gamekee_entry_id": 110437,
+  "prydwen_slug": "mica",
+  "rarity": "SR",
+  "verified": "GameKee nikke/152352 图鉴"
+}

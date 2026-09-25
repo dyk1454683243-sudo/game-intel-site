@@ -1,0 +1,40 @@
+{
+  "id": "yozakura",
+  "name": "夜樱",
+  "name_zh": "夜樱",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "风",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "地狱极乐万手拳",
+      "type": "active",
+      "costume": "信念之拳",
+      "summary": "对自己应用使普通攻击的施加伤害增加1200%的增强效果。此效果将在接下来1次普通攻击中维持。攻击敌人3次，每次攻击时，造成相当于自身魔法力285%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "好友的拳甲",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "信念之拳",
+      "type": "联动",
+      "skill": "地狱极乐万手拳"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/637922.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 637922,
+  "gamekee_entry_id": 167129,
+  "verified": "GameKee zsca2/637922 图鉴"
+}

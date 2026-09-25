@@ -1,0 +1,2285 @@
+{
+  "game": "nikke",
+  "name": "NIKKE",
+  "name_zh": "胜利女神：NIKKE",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "character_count": 231,
+  "rich_count": 231,
+  "stub_count": 0,
+  "characters": [
+    {
+      "id": "2b",
+      "name": "2B",
+      "name_zh": "2B",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/2b",
+        "https://www.gamekee.com/nikke/599069.html"
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "A2",
+      "name_zh": "A2",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/a2",
+        "https://www.gamekee.com/nikke/599115.html"
+      ]
+    },
+    {
+      "id": "ada-wong",
+      "name": "艾达",
+      "name_zh": "艾达",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ada-wong",
+        "https://www.gamekee.com/nikke/678271.html"
+      ]
+    },
+    {
+      "id": "ade",
+      "name": "爱德",
+      "name_zh": "爱德",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ade",
+        "https://www.gamekee.com/nikke/614660.html"
+      ]
+    },
+    {
+      "id": "ade-agent-bunny",
+      "name": "爱德：特务兔女郎",
+      "name_zh": "爱德：特务兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ade-agent-bunny",
+        "https://www.gamekee.com/nikke/676330.html"
+      ]
+    },
+    {
+      "id": "admi",
+      "name": "艾德米",
+      "name_zh": "艾德米",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/admi",
+        "https://www.gamekee.com/nikke/152344.html"
+      ]
+    },
+    {
+      "id": "ai-se-er",
+      "name": "艾瑟儿",
+      "name_zh": "艾瑟儿",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/152350.html"
+      ]
+    },
+    {
+      "id": "aigis",
+      "name": "Aigis",
+      "name_zh": "Aigis",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/aigis"
+      ]
+    },
+    {
+      "id": "alice",
+      "name": "爱丽丝",
+      "name_zh": "爱丽丝",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/alice",
+        "https://www.gamekee.com/nikke/92090.html"
+      ]
+    },
+    {
+      "id": "alice-wonderland-bunny",
+      "name": "爱丽丝：仙境兔女郎",
+      "name_zh": "爱丽丝：仙境兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/alice-wonderland-bunny",
+        "https://www.gamekee.com/nikke/624034.html"
+      ]
+    },
+    {
+      "id": "anchor",
+      "name": "安克",
+      "name_zh": "安克",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/anchor",
+        "https://www.gamekee.com/nikke/597431.html"
+      ]
+    },
+    {
+      "id": "anchor-innocent-maid",
+      "name": "安克：天真的女仆",
+      "name_zh": "安克：天真的女仆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
+        "https://www.gamekee.com/nikke/164728.html"
+      ]
+    },
+    {
+      "id": "anis",
+      "name": "阿妮斯",
+      "name_zh": "阿妮斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/anis",
+        "https://www.gamekee.com/nikke/152348.html"
+      ]
+    },
+    {
+      "id": "anis-star",
+      "name": "阿妮斯：超级巨星",
+      "name_zh": "阿妮斯：超级巨星",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/anis-star",
+        "https://www.gamekee.com/nikke/703135.html"
+      ]
+    },
+    {
+      "id": "aqua-marine-helm",
+      "name": "海伦：海蓝宝石",
+      "name_zh": "海伦：海蓝宝石",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
+        "https://www.gamekee.com/nikke/597433.html"
+      ]
+    },
+    {
+      "id": "arcana",
+      "name": "阿尔卡娜",
+      "name_zh": "阿尔卡娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/arcana",
+        "https://www.gamekee.com/nikke/661994.html"
+      ]
+    },
+    {
+      "id": "arcana-fortune-mate",
+      "name": "阿尔卡娜：命运伴侣",
+      "name_zh": "阿尔卡娜：命运伴侣",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/arcana-fortune-mate",
+        "https://www.gamekee.com/nikke/698416.html"
+      ]
+    },
+    {
+      "id": "aria",
+      "name": "阿莉亚",
+      "name_zh": "阿莉亚",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/aria",
+        "https://www.gamekee.com/nikke/163875.html"
+      ]
+    },
+    {
+      "id": "ark-ranger-black",
+      "name": "方舟黑色游侠",
+      "name_zh": "方舟黑色游侠",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ark-ranger-black",
+        "https://www.gamekee.com/nikke/708686.html"
+      ]
+    },
+    {
+      "id": "asuka-shikinami-langley",
+      "name": "明日香",
+      "name_zh": "明日香",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley",
+        "https://www.gamekee.com/nikke/171662.html"
+      ]
+    },
+    {
+      "id": "asuka-shikinami-langley-wille",
+      "name": "明日香：WILLE",
+      "name_zh": "明日香：WILLE",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley-wille",
+        "https://www.gamekee.com/nikke/156668.html"
+      ]
+    },
+    {
+      "id": "avistar",
+      "name": "阿维斯塔",
+      "name_zh": "阿维斯塔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/avistar",
+        "https://www.gamekee.com/nikke/703507.html"
+      ]
+    },
+    {
+      "id": "bay",
+      "name": "贝伊",
+      "name_zh": "贝伊",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/bay",
+        "https://www.gamekee.com/nikke/620123.html"
+      ]
+    },
+    {
+      "id": "bay-goddess-mary",
+      "name": "梅里：海湾女神",
+      "name_zh": "梅里：海湾女神",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/bay-goddess-mary",
+        "https://www.gamekee.com/nikke/593038.html"
+      ]
+    },
+    {
+      "id": "bay-treasure",
+      "name": "Bay (Treasure)",
+      "name_zh": "Bay (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/bay-treasure"
+      ]
+    },
+    {
+      "id": "belorta",
+      "name": "贝洛塔",
+      "name_zh": "贝洛塔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/belorta",
+        "https://www.gamekee.com/nikke/152346.html"
+      ]
+    },
+    {
+      "id": "biscuit",
+      "name": "饼干",
+      "name_zh": "饼干",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/biscuit",
+        "https://www.gamekee.com/nikke/584520.html"
+      ]
+    },
+    {
+      "id": "blanc",
+      "name": "布兰儿",
+      "name_zh": "布兰儿",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/blanc",
+        "https://www.gamekee.com/nikke/591204.html"
+      ]
+    },
+    {
+      "id": "blue-ocean-neon",
+      "name": "尼恩：蓝色海洋",
+      "name_zh": "尼恩：蓝色海洋",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/blue-ocean-neon",
+        "https://www.gamekee.com/nikke/593045.html"
+      ]
+    },
+    {
+      "id": "bready",
+      "name": "布蕾德",
+      "name_zh": "布蕾德",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/bready",
+        "https://www.gamekee.com/nikke/156441.html"
+      ]
+    },
+    {
+      "id": "brid",
+      "name": "布丽德",
+      "name_zh": "布丽德",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/brid",
+        "https://www.gamekee.com/nikke/163874.html"
+      ]
+    },
+    {
+      "id": "brid-silent-track",
+      "name": "布丽德：静默轨道",
+      "name_zh": "布丽德：静默轨道",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/brid-silent-track",
+        "https://www.gamekee.com/nikke/685270.html"
+      ]
+    },
+    {
+      "id": "centi",
+      "name": "桑迪",
+      "name_zh": "桑迪",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/centi",
+        "https://www.gamekee.com/nikke/163877.html"
+      ]
+    },
+    {
+      "id": "centi-treasure",
+      "name": "Centi (Treasure)",
+      "name_zh": "Centi (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/centi-treasure"
+      ]
+    },
+    {
+      "id": "chime",
+      "name": "钟鸣",
+      "name_zh": "钟鸣",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/chime",
+        "https://www.gamekee.com/nikke/682342.html"
+      ]
+    },
+    {
+      "id": "chisato-nishikigi",
+      "name": "千束",
+      "name_zh": "千束",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
+        "https://www.gamekee.com/nikke/693503.html"
+      ]
+    },
+    {
+      "id": "cinderella",
+      "name": "灰姑娘",
+      "name_zh": "灰姑娘",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/cinderella",
+        "https://www.gamekee.com/nikke/170686.html"
+      ]
+    },
+    {
+      "id": "cinderella-crystal-wave",
+      "name": "灰姑娘：琉璃波光",
+      "name_zh": "灰姑娘：琉璃波光",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
+        "https://www.gamekee.com/nikke/711133.html"
+      ]
+    },
+    {
+      "id": "claire-redfield",
+      "name": "克莱尔",
+      "name_zh": "克莱尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/claire-redfield",
+        "https://www.gamekee.com/nikke/678481.html"
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "克雷伊",
+      "name_zh": "克雷伊",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/clay",
+        "https://www.gamekee.com/nikke/624298.html"
+      ]
+    },
+    {
+      "id": "cocoa",
+      "name": "可可",
+      "name_zh": "可可",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/cocoa",
+        "https://www.gamekee.com/nikke/582159.html"
+      ]
+    },
+    {
+      "id": "crow",
+      "name": "渡鸦",
+      "name_zh": "渡鸦",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/crow",
+        "https://www.gamekee.com/nikke/667602.html"
+      ]
+    },
+    {
+      "id": "crown",
+      "name": "皇冠",
+      "name_zh": "皇冠",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/crown",
+        "https://www.gamekee.com/nikke/621270.html"
+      ]
+    },
+    {
+      "id": "crust",
+      "name": "克劳斯特",
+      "name_zh": "克劳斯特",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/crust",
+        "https://www.gamekee.com/nikke/656124.html"
+      ]
+    },
+    {
+      "id": "d",
+      "name": "D",
+      "name_zh": "D",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/d",
+        "https://www.gamekee.com/nikke/588547.html"
+      ]
+    },
+    {
+      "id": "d-killer-wife",
+      "name": "D:杀手妻子",
+      "name_zh": "D:杀手妻子",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/d-killer-wife",
+        "https://www.gamekee.com/nikke/616356.html"
+      ]
+    },
+    {
+      "id": "delta",
+      "name": "德尔塔",
+      "name_zh": "德尔塔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/delta",
+        "https://www.gamekee.com/nikke/152347.html"
+      ]
+    },
+    {
+      "id": "delta-ninja-thief",
+      "name": "德尔塔：怪盗忍者",
+      "name_zh": "德尔塔：怪盗忍者",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/delta-ninja-thief",
+        "https://www.gamekee.com/nikke/680619.html"
+      ]
+    },
+    {
+      "id": "diesel",
+      "name": "迪塞尔",
+      "name_zh": "迪塞尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/diesel",
+        "https://www.gamekee.com/nikke/152337.html"
+      ]
+    },
+    {
+      "id": "diesel-treasure",
+      "name": "Diesel (Treasure)",
+      "name_zh": "Diesel (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/diesel-treasure"
+      ]
+    },
+    {
+      "id": "diesel-winter-sweets",
+      "name": "迪塞尔：冬日甜心",
+      "name_zh": "迪塞尔：冬日甜心",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
+        "https://www.gamekee.com/nikke/684848.html"
+      ]
+    },
+    {
+      "id": "dolla",
+      "name": "朵拉",
+      "name_zh": "朵拉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/dolla",
+        "https://www.gamekee.com/nikke/170853.html"
+      ]
+    },
+    {
+      "id": "dorothy",
+      "name": "桃乐丝",
+      "name_zh": "桃乐丝",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/dorothy",
+        "https://www.gamekee.com/nikke/589849.html"
+      ]
+    },
+    {
+      "id": "dorothy-serendipity",
+      "name": "桃乐丝：机缘巧遇",
+      "name_zh": "桃乐丝：机缘巧遇",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/dorothy-serendipity",
+        "https://www.gamekee.com/nikke/670644.html"
+      ]
+    },
+    {
+      "id": "drake",
+      "name": "德雷克",
+      "name_zh": "德雷克",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/drake",
+        "https://www.gamekee.com/nikke/152332.html"
+      ]
+    },
+    {
+      "id": "drake-great-villain",
+      "name": "德雷克：终极反派",
+      "name_zh": "德雷克：终极反派",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/drake-great-villain",
+        "https://www.gamekee.com/nikke/719742.html"
+      ]
+    },
+    {
+      "id": "drake-treasure",
+      "name": "Drake (Treasure)",
+      "name_zh": "Drake (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/drake-treasure"
+      ]
+    },
+    {
+      "id": "e-h",
+      "name": "E.H.",
+      "name_zh": "E.H.",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/e-h",
+        "https://www.gamekee.com/nikke/696640.html"
+      ]
+    },
+    {
+      "id": "ein",
+      "name": "爱因",
+      "name_zh": "爱因",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ein",
+        "https://www.gamekee.com/nikke/590070.html"
+      ]
+    },
+    {
+      "id": "elegg",
+      "name": "伊莱格",
+      "name_zh": "伊莱格",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/elegg",
+        "https://www.gamekee.com/nikke/615258.html"
+      ]
+    },
+    {
+      "id": "elegg-boom-and-shock",
+      "name": "伊莱格：BOOM与惊吓",
+      "name_zh": "伊莱格：BOOM与惊吓",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/elegg-boom-and-shock",
+        "https://www.gamekee.com/nikke/671513.html"
+      ]
+    },
+    {
+      "id": "emilia",
+      "name": "爱蜜莉雅",
+      "name_zh": "爱蜜莉雅",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/emilia",
+        "https://www.gamekee.com/nikke/618503.html"
+      ]
+    },
+    {
+      "id": "emma",
+      "name": "艾玛",
+      "name_zh": "艾玛",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/emma",
+        "https://www.gamekee.com/nikke/152341.html"
+      ]
+    },
+    {
+      "id": "emma-tactical-upgrade",
+      "name": "艾玛：战术升级",
+      "name_zh": "艾玛：战术升级",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/emma-tactical-upgrade",
+        "https://www.gamekee.com/nikke/673808.html"
+      ]
+    },
+    {
+      "id": "epinel",
+      "name": "艾菲涅尔",
+      "name_zh": "艾菲涅尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/epinel",
+        "https://www.gamekee.com/nikke/152334.html"
+      ]
+    },
+    {
+      "id": "ether",
+      "name": "埃癸斯",
+      "name_zh": "埃癸斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ether",
+        "https://www.gamekee.com/nikke/717751.html"
+      ]
+    },
+    {
+      "id": "eunhwa",
+      "name": "银华",
+      "name_zh": "银华",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/eunhwa",
+        "https://www.gamekee.com/nikke/152338.html"
+      ]
+    },
+    {
+      "id": "eunhwa-tactical-upgrade",
+      "name": "银华：战术升级",
+      "name_zh": "银华：战术升级",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/eunhwa-tactical-upgrade",
+        "https://www.gamekee.com/nikke/674108.html"
+      ]
+    },
+    {
+      "id": "eve",
+      "name": "伊芙",
+      "name_zh": "伊芙",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/eve",
+        "https://www.gamekee.com/nikke/667586.html"
+      ]
+    },
+    {
+      "id": "exia",
+      "name": "艾可希雅",
+      "name_zh": "艾可希雅",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/exia",
+        "https://www.gamekee.com/nikke/92089.html"
+      ]
+    },
+    {
+      "id": "exia-treasure",
+      "name": "Exia (Treasure)",
+      "name_zh": "Exia (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/exia-treasure"
+      ]
+    },
+    {
+      "id": "flora",
+      "name": "芙罗拉",
+      "name_zh": "芙罗拉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/flora",
+        "https://www.gamekee.com/nikke/170646.html"
+      ]
+    },
+    {
+      "id": "flora-treasure",
+      "name": "Flora (Treasure)",
+      "name_zh": "Flora (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/flora-treasure"
+      ]
+    },
+    {
+      "id": "folkwang",
+      "name": "富克旺",
+      "name_zh": "富克旺",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/folkwang",
+        "https://www.gamekee.com/nikke/170847.html"
+      ]
+    },
+    {
+      "id": "frima",
+      "name": "普琳玛",
+      "name_zh": "普琳玛",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/frima",
+        "https://www.gamekee.com/nikke/152342.html"
+      ]
+    },
+    {
+      "id": "frima-treasure",
+      "name": "Frima (Treasure)",
+      "name_zh": "Frima (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/frima-treasure"
+      ]
+    },
+    {
+      "id": "grave",
+      "name": "格拉维",
+      "name_zh": "格拉维",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/grave",
+        "https://www.gamekee.com/nikke/170831.html"
+      ]
+    },
+    {
+      "id": "guillotine",
+      "name": "吉萝婷",
+      "name_zh": "吉萝婷",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/guillotine",
+        "https://www.gamekee.com/nikke/152333.html"
+      ]
+    },
+    {
+      "id": "guillotine-winter-slayer",
+      "name": "吉萝婷：寒冬杀手",
+      "name_zh": "吉萝婷：寒冬杀手",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
+        "https://www.gamekee.com/nikke/166801.html"
+      ]
+    },
+    {
+      "id": "guilty",
+      "name": "吉尔提",
+      "name_zh": "吉尔提",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/guilty",
+        "https://www.gamekee.com/nikke/580946.html"
+      ]
+    },
+    {
+      "id": "guilty-mighty-bunny",
+      "name": "吉尔提：神力兔女郎",
+      "name_zh": "吉尔提：神力兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/721421.html"
+      ]
+    },
+    {
+      "id": "harran",
+      "name": "哈兰",
+      "name_zh": "哈兰",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/harran",
+        "https://www.gamekee.com/nikke/163881.html"
+      ]
+    },
+    {
+      "id": "helm",
+      "name": "海伦",
+      "name_zh": "海伦",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/helm",
+        "https://www.gamekee.com/nikke/171728.html"
+      ]
+    },
+    {
+      "id": "helm-treasure",
+      "name": "Helm (Treasure)",
+      "name_zh": "Helm (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/helm-treasure"
+      ]
+    },
+    {
+      "id": "himeno",
+      "name": "姬野",
+      "name_zh": "姬野",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/himeno",
+        "https://www.gamekee.com/nikke/584479.html"
+      ]
+    },
+    {
+      "id": "idoll-flower",
+      "name": "iDoll花",
+      "name_zh": "iDoll花",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/idoll-flower",
+        "https://www.gamekee.com/nikke/152356.html"
+      ]
+    },
+    {
+      "id": "idoll-ocean",
+      "name": "iDoll海",
+      "name_zh": "iDoll海",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/idoll-ocean",
+        "https://www.gamekee.com/nikke/152358.html"
+      ]
+    },
+    {
+      "id": "idoll-sun",
+      "name": "iDoll太阳",
+      "name_zh": "iDoll太阳",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/idoll-sun",
+        "https://www.gamekee.com/nikke/152361.html"
+      ]
+    },
+    {
+      "id": "innocent-dayss-snow-white",
+      "name": "白雪公主：纯真年代",
+      "name_zh": "白雪公主：纯真年代",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/innocent-dayss-snow-white",
+        "https://www.gamekee.com/nikke/604403.html"
+      ]
+    },
+    {
+      "id": "isabel",
+      "name": "伊莎贝尔",
+      "name_zh": "伊莎贝尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/isabel",
+        "https://www.gamekee.com/nikke/170852.html"
+      ]
+    },
+    {
+      "id": "jackal",
+      "name": "豺狼",
+      "name_zh": "豺狼",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/jackal",
+        "https://www.gamekee.com/nikke/580711.html"
+      ]
+    },
+    {
+      "id": "ji-jia-xie-fu-di",
+      "name": "机甲谢芙蒂",
+      "name_zh": "机甲谢芙蒂",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/684097.html"
+      ]
+    },
+    {
+      "id": "jill-valentine",
+      "name": "吉儿",
+      "name_zh": "吉儿",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/jill-valentine",
+        "https://www.gamekee.com/nikke/678556.html"
+      ]
+    },
+    {
+      "id": "julia",
+      "name": "尤莉亚",
+      "name_zh": "尤莉亚",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/julia",
+        "https://www.gamekee.com/nikke/152330.html"
+      ]
+    },
+    {
+      "id": "julia-treasure",
+      "name": "Julia (Treasure)",
+      "name_zh": "Julia (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/julia-treasure"
+      ]
+    },
+    {
+      "id": "k",
+      "name": "K",
+      "name_zh": "K",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/k",
+        "https://www.gamekee.com/nikke/664885.html"
+      ]
+    },
+    {
+      "id": "ke-la-wu",
+      "name": "克拉乌",
+      "name_zh": "克拉乌",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/163879.html"
+      ]
+    },
+    {
+      "id": "kilo",
+      "name": "吉洛",
+      "name_zh": "吉洛",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/kilo",
+        "https://www.gamekee.com/nikke/621330.html"
+      ]
+    },
+    {
+      "id": "kurumi",
+      "name": "胡桃",
+      "name_zh": "胡桃",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/kurumi",
+        "https://www.gamekee.com/nikke/695279.html"
+      ]
+    },
+    {
+      "id": "label",
+      "name": "蕾贝儿",
+      "name_zh": "蕾贝儿",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/label",
+        "https://www.gamekee.com/nikke/690252.html"
+      ]
+    },
+    {
+      "id": "laplace",
+      "name": "拉普拉斯",
+      "name_zh": "拉普拉斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/laplace",
+        "https://www.gamekee.com/nikke/576409.html"
+      ]
+    },
+    {
+      "id": "laplace-treasure",
+      "name": "Laplace (Treasure)",
+      "name_zh": "Laplace (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/laplace-treasure"
+      ]
+    },
+    {
+      "id": "laplace-ultimate-hero",
+      "name": "拉普拉斯：究极英雄",
+      "name_zh": "拉普拉斯：究极英雄",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
+        "https://www.gamekee.com/nikke/713891.html"
+      ]
+    },
+    {
+      "id": "leona",
+      "name": "莱昂纳",
+      "name_zh": "莱昂纳",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/leona",
+        "https://www.gamekee.com/nikke/610811.html"
+      ]
+    },
+    {
+      "id": "li-ta",
+      "name": "丽塔",
+      "name_zh": "丽塔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/170844.html"
+      ]
+    },
+    {
+      "id": "liberalio",
+      "name": "莉贝雷利奥",
+      "name_zh": "莉贝雷利奥",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/liberalio",
+        "https://www.gamekee.com/nikke/682429.html"
+      ]
+    },
+    {
+      "id": "lily",
+      "name": "百合",
+      "name_zh": "百合",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/lily",
+        "https://www.gamekee.com/nikke/667898.html"
+      ]
+    },
+    {
+      "id": "liter",
+      "name": "莱伊",
+      "name_zh": "莱伊",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/liter",
+        "https://www.gamekee.com/nikke/589853.html"
+      ]
+    },
+    {
+      "id": "ludmilla",
+      "name": "鲁德米拉",
+      "name_zh": "鲁德米拉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ludmilla",
+        "https://www.gamekee.com/nikke/152339.html"
+      ]
+    },
+    {
+      "id": "ludmilla-winter-owner",
+      "name": "鲁德米拉：冬日之主",
+      "name_zh": "鲁德米拉：冬日之主",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ludmilla-winter-owner",
+        "https://www.gamekee.com/nikke/607550.html"
+      ]
+    },
+    {
+      "id": "maiden",
+      "name": "梅登",
+      "name_zh": "梅登",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/maiden",
+        "https://www.gamekee.com/nikke/170842.html"
+      ]
+    },
+    {
+      "id": "maiden-ice-rose",
+      "name": "梅登：冰玫瑰",
+      "name_zh": "梅登：冰玫瑰",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/maiden-ice-rose",
+        "https://www.gamekee.com/nikke/167401.html"
+      ]
+    },
+    {
+      "id": "makima",
+      "name": "玛奇玛",
+      "name_zh": "玛奇玛",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/makima",
+        "https://www.gamekee.com/nikke/584401.html"
+      ]
+    },
+    {
+      "id": "mana",
+      "name": "玛娜",
+      "name_zh": "玛娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mana",
+        "https://www.gamekee.com/nikke/159658.html"
+      ]
+    },
+    {
+      "id": "marciana",
+      "name": "玛律恰那",
+      "name_zh": "玛律恰那",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/marciana",
+        "https://www.gamekee.com/nikke/600802.html"
+      ]
+    },
+    {
+      "id": "marciana-marine-study",
+      "name": "玛律恰那：海洋进修",
+      "name_zh": "玛律恰那：海洋进修",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/marciana-marine-study",
+        "https://www.gamekee.com/nikke/711739.html"
+      ]
+    },
+    {
+      "id": "mari-makinami-illustrious",
+      "name": "美里",
+      "name_zh": "美里",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
+        "https://www.gamekee.com/nikke/655996.html"
+      ]
+    },
+    {
+      "id": "mary",
+      "name": "梅里",
+      "name_zh": "梅里",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mary",
+        "https://www.gamekee.com/nikke/152343.html"
+      ]
+    },
+    {
+      "id": "mast",
+      "name": "马斯特",
+      "name_zh": "马斯特",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mast",
+        "https://www.gamekee.com/nikke/594772.html"
+      ]
+    },
+    {
+      "id": "mast-romantic-maid",
+      "name": "马斯特：浪漫的女仆",
+      "name_zh": "马斯特：浪漫的女仆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mast-romantic-maid",
+        "https://www.gamekee.com/nikke/159641.html"
+      ]
+    },
+    {
+      "id": "maxwell",
+      "name": "麦斯威尔",
+      "name_zh": "麦斯威尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/maxwell",
+        "https://www.gamekee.com/nikke/92087.html"
+      ]
+    },
+    {
+      "id": "maxwell-ordinary-mechanic",
+      "name": "麦斯威尔：平凡技师",
+      "name_zh": "麦斯威尔：平凡技师",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/maxwell-ordinary-mechanic",
+        "https://www.gamekee.com/nikke/713899.html"
+      ]
+    },
+    {
+      "id": "mica",
+      "name": "米卡",
+      "name_zh": "米卡",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mica",
+        "https://www.gamekee.com/nikke/152352.html"
+      ]
+    },
+    {
+      "id": "mica-snow-buddy",
+      "name": "米卡：雪地伙伴",
+      "name_zh": "米卡：雪地伙伴",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mica-snow-buddy",
+        "https://www.gamekee.com/nikke/607597.html"
+      ]
+    },
+    {
+      "id": "mihara",
+      "name": "米哈拉",
+      "name_zh": "米哈拉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mihara",
+        "https://www.gamekee.com/nikke/152349.html"
+      ]
+    },
+    {
+      "id": "mihara-bonding-chain",
+      "name": "米哈拉：羁绊锁链",
+      "name_zh": "米哈拉：羁绊锁链",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain",
+        "https://www.gamekee.com/nikke/660553.html"
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "米尔克",
+      "name_zh": "米尔克",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/milk",
+        "https://www.gamekee.com/nikke/170848.html"
+      ]
+    },
+    {
+      "id": "milk-blooming-bunny",
+      "name": "米尔克：花漾兔女郎",
+      "name_zh": "米尔克：花漾兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/milk-blooming-bunny",
+        "https://www.gamekee.com/nikke/676880.html"
+      ]
+    },
+    {
+      "id": "milk-treasure",
+      "name": "Milk (Treasure)",
+      "name_zh": "Milk (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/milk-treasure"
+      ]
+    },
+    {
+      "id": "mint",
+      "name": "敏特",
+      "name_zh": "敏特",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mint",
+        "https://www.gamekee.com/nikke/705512.html"
+      ]
+    },
+    {
+      "id": "miracle-fairy-anne",
+      "name": "安妮：奇迹仙女",
+      "name_zh": "安妮：奇迹仙女",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
+        "https://www.gamekee.com/nikke/578097.html"
+      ]
+    },
+    {
+      "id": "miranda",
+      "name": "米兰达",
+      "name_zh": "米兰达",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/miranda",
+        "https://www.gamekee.com/nikke/152345.html"
+      ]
+    },
+    {
+      "id": "miranda-treasure",
+      "name": "Miranda (Treasure)",
+      "name_zh": "Miranda (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/miranda-treasure"
+      ]
+    },
+    {
+      "id": "misato-katsuragi",
+      "name": "Misato Katsuragi",
+      "name_zh": "Misato Katsuragi",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/misato-katsuragi"
+      ]
+    },
+    {
+      "id": "mo-li",
+      "name": "莫莉",
+      "name_zh": "莫莉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/660353.html"
+      ]
+    },
+    {
+      "id": "modernia",
+      "name": "Modernia",
+      "name_zh": "Modernia",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/modernia"
+      ]
+    },
+    {
+      "id": "moran",
+      "name": "牡丹",
+      "name_zh": "牡丹",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/moran",
+        "https://www.gamekee.com/nikke/610829.html"
+      ]
+    },
+    {
+      "id": "moran-treasure",
+      "name": "Moran (Treasure)",
+      "name_zh": "Moran (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/moran-treasure"
+      ]
+    },
+    {
+      "id": "mori",
+      "name": "Mori",
+      "name_zh": "Mori",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/mori"
+      ]
+    },
+    {
+      "id": "n102",
+      "name": "N102",
+      "name_zh": "N102",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/n102",
+        "https://www.gamekee.com/nikke/152351.html"
+      ]
+    },
+    {
+      "id": "naga",
+      "name": "娜嘉",
+      "name_zh": "娜嘉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/naga",
+        "https://www.gamekee.com/nikke/600935.html"
+      ]
+    },
+    {
+      "id": "nayuta",
+      "name": "娜由塔",
+      "name_zh": "娜由塔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/nayuta",
+        "https://www.gamekee.com/nikke/681716.html"
+      ]
+    },
+    {
+      "id": "neon",
+      "name": "尼恩",
+      "name_zh": "尼恩",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/neon",
+        "https://www.gamekee.com/nikke/92084.html"
+      ]
+    },
+    {
+      "id": "neon-vision-eye",
+      "name": "尼恩：透视之眼",
+      "name_zh": "尼恩：透视之眼",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
+        "https://www.gamekee.com/nikke/703513.html"
+      ]
+    },
+    {
+      "id": "nero",
+      "name": "尼罗",
+      "name_zh": "尼罗",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/nero",
+        "https://www.gamekee.com/nikke/594767.html"
+      ]
+    },
+    {
+      "id": "neve",
+      "name": "尼夫",
+      "name_zh": "尼夫",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/neve",
+        "https://www.gamekee.com/nikke/578202.html"
+      ]
+    },
+    {
+      "id": "nihilister",
+      "name": "尼希利斯塔",
+      "name_zh": "尼希利斯塔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/nihilister",
+        "https://www.gamekee.com/nikke/587422.html"
+      ]
+    },
+    {
+      "id": "noah",
+      "name": "诺雅",
+      "name_zh": "诺雅",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/noah",
+        "https://www.gamekee.com/nikke/152340.html"
+      ]
+    },
+    {
+      "id": "noir",
+      "name": "诺亚尔",
+      "name_zh": "诺亚尔",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/noir",
+        "https://www.gamekee.com/nikke/591253.html"
+      ]
+    },
+    {
+      "id": "noise",
+      "name": "诺伊斯",
+      "name_zh": "诺伊斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/noise",
+        "https://www.gamekee.com/nikke/163884.html"
+      ]
+    },
+    {
+      "id": "novel",
+      "name": "诺薇儿",
+      "name_zh": "诺薇儿",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/novel",
+        "https://www.gamekee.com/nikke/170843.html"
+      ]
+    },
+    {
+      "id": "pascal",
+      "name": "帕斯卡",
+      "name_zh": "帕斯卡",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/pascal",
+        "https://www.gamekee.com/nikke/599118.html"
+      ]
+    },
+    {
+      "id": "pepper",
+      "name": "佩珀",
+      "name_zh": "佩珀",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/pepper",
+        "https://www.gamekee.com/nikke/170845.html"
+      ]
+    },
+    {
+      "id": "phantom",
+      "name": "潘托姆",
+      "name_zh": "潘托姆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/phantom",
+        "https://www.gamekee.com/nikke/155278.html"
+      ]
+    },
+    {
+      "id": "phantom-treasure",
+      "name": "Phantom (Treasure)",
+      "name_zh": "Phantom (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/phantom-treasure"
+      ]
+    },
+    {
+      "id": "poli",
+      "name": "波莉",
+      "name_zh": "波莉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/poli",
+        "https://www.gamekee.com/nikke/163861.html"
+      ]
+    },
+    {
+      "id": "poli-treasure",
+      "name": "Poli (Treasure)",
+      "name_zh": "Poli (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/poli-treasure"
+      ]
+    },
+    {
+      "id": "power",
+      "name": "帕瓦",
+      "name_zh": "帕瓦",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/power",
+        "https://www.gamekee.com/nikke/584475.html"
+      ]
+    },
+    {
+      "id": "prika",
+      "name": "普莉卡",
+      "name_zh": "普莉卡",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/prika",
+        "https://www.gamekee.com/nikke/706696.html"
+      ]
+    },
+    {
+      "id": "privaty",
+      "name": "普丽瓦蒂",
+      "name_zh": "普丽瓦蒂",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/privaty",
+        "https://www.gamekee.com/nikke/152329.html"
+      ]
+    },
+    {
+      "id": "privaty-treasure",
+      "name": "Privaty (Treasure)",
+      "name_zh": "Privaty (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/privaty-treasure"
+      ]
+    },
+    {
+      "id": "privaty-unkind-maid",
+      "name": "普丽瓦蒂：不友善的女仆",
+      "name_zh": "普丽瓦蒂：不友善的女仆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
+        "https://www.gamekee.com/nikke/614623.html"
+      ]
+    },
+    {
+      "id": "product-08",
+      "name": "产品08",
+      "name_zh": "产品08",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/product-08",
+        "https://www.gamekee.com/nikke/152357.html"
+      ]
+    },
+    {
+      "id": "product-12",
+      "name": "产品12",
+      "name_zh": "产品12",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/product-12",
+        "https://www.gamekee.com/nikke/152354.html"
+      ]
+    },
+    {
+      "id": "product-23",
+      "name": "产品23",
+      "name_zh": "产品23",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/product-23",
+        "https://www.gamekee.com/nikke/152360.html"
+      ]
+    },
+    {
+      "id": "queen-makoto",
+      "name": "QUEEN（真）",
+      "name_zh": "QUEEN（真）",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/queen-makoto",
+        "https://www.gamekee.com/nikke/716926.html"
+      ]
+    },
+    {
+      "id": "quency",
+      "name": "坎西",
+      "name_zh": "坎西",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/quency",
+        "https://www.gamekee.com/nikke/580948.html"
+      ]
+    },
+    {
+      "id": "quency-escape-queen",
+      "name": "坎西：逃生女王",
+      "name_zh": "坎西：逃生女王",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/quency-escape-queen",
+        "https://www.gamekee.com/nikke/152944.html"
+      ]
+    },
+    {
+      "id": "quiry",
+      "name": "基里",
+      "name_zh": "基里",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/quiry",
+        "https://www.gamekee.com/nikke/602935.html"
+      ]
+    },
+    {
+      "id": "ram",
+      "name": "拉姆",
+      "name_zh": "拉姆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/ram",
+        "https://www.gamekee.com/nikke/618548.html"
+      ]
+    },
+    {
+      "id": "rapi",
+      "name": "拉毗",
+      "name_zh": "拉毗",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rapi",
+        "https://www.gamekee.com/nikke/92082.html"
+      ]
+    },
+    {
+      "id": "rapi-red-hood",
+      "name": "拉毗：小红帽",
+      "name_zh": "拉毗：小红帽",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rapi-red-hood",
+        "https://www.gamekee.com/nikke/166530.html"
+      ]
+    },
+    {
+      "id": "rapunzel",
+      "name": "长发公主",
+      "name_zh": "长发公主",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rapunzel",
+        "https://www.gamekee.com/nikke/170850.html"
+      ]
+    },
+    {
+      "id": "rapunzel-pure-grace",
+      "name": "长发公主：纯洁恩典",
+      "name_zh": "长发公主：纯洁恩典",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rapunzel-pure-grace",
+        "https://www.gamekee.com/nikke/171337.html"
+      ]
+    },
+    {
+      "id": "raven",
+      "name": "Raven",
+      "name_zh": "Raven",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/raven"
+      ]
+    },
+    {
+      "id": "red-hood",
+      "name": "小红帽",
+      "name_zh": "小红帽",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/red-hood",
+        "https://www.gamekee.com/nikke/604398.html"
+      ]
+    },
+    {
+      "id": "rei",
+      "name": "Rei",
+      "name_zh": "Rei",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rei"
+      ]
+    },
+    {
+      "id": "rei-ayanami",
+      "name": "零",
+      "name_zh": "零",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rei-ayanami",
+        "https://www.gamekee.com/nikke/172126.html"
+      ]
+    },
+    {
+      "id": "rei-ayanami-tentative-name",
+      "name": "零 (暂称)",
+      "name_zh": "零 (暂称)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rei-ayanami-tentative-name",
+        "https://www.gamekee.com/nikke/157318.html"
+      ]
+    },
+    {
+      "id": "rem",
+      "name": "雷姆",
+      "name_zh": "雷姆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rem",
+        "https://www.gamekee.com/nikke/618507.html"
+      ]
+    },
+    {
+      "id": "rosanna",
+      "name": "罗珊娜",
+      "name_zh": "罗珊娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rosanna",
+        "https://www.gamekee.com/nikke/591260.html"
+      ]
+    },
+    {
+      "id": "rosanna-chic-ocean",
+      "name": "罗珊娜：高雅海洋",
+      "name_zh": "罗珊娜：高雅海洋",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean",
+        "https://www.gamekee.com/nikke/170974.html"
+      ]
+    },
+    {
+      "id": "rosanna-treasure",
+      "name": "Rosanna (Treasure)",
+      "name_zh": "Rosanna (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rosanna-treasure"
+      ]
+    },
+    {
+      "id": "rouge",
+      "name": "露姬",
+      "name_zh": "露姬",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rouge",
+        "https://www.gamekee.com/nikke/152319.html"
+      ]
+    },
+    {
+      "id": "rumani",
+      "name": "鲁玛妮",
+      "name_zh": "鲁玛妮",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rumani",
+        "https://www.gamekee.com/nikke/171270.html"
+      ]
+    },
+    {
+      "id": "rupee",
+      "name": "露菲",
+      "name_zh": "露菲",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/rupee",
+        "https://www.gamekee.com/nikke/170851.html"
+      ]
+    },
+    {
+      "id": "sakura",
+      "name": "樱花",
+      "name_zh": "樱花",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sakura",
+        "https://www.gamekee.com/nikke/587419.html"
+      ]
+    },
+    {
+      "id": "sakura-bloom-in-summer",
+      "name": "樱花：夏日绽放",
+      "name_zh": "樱花：夏日绽放",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sakura-bloom-in-summer",
+        "https://www.gamekee.com/nikke/156953.html"
+      ]
+    },
+    {
+      "id": "sakura-suzuhara",
+      "name": "樱",
+      "name_zh": "樱",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sakura-suzuhara",
+        "https://www.gamekee.com/nikke/156606.html"
+      ]
+    },
+    {
+      "id": "scarlet",
+      "name": "红莲",
+      "name_zh": "红莲",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/scarlet",
+        "https://www.gamekee.com/nikke/152335.html"
+      ]
+    },
+    {
+      "id": "scarlet-black-shadow",
+      "name": "红莲：暗影",
+      "name_zh": "红莲：暗影",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/scarlet-black-shadow",
+        "https://www.gamekee.com/nikke/609604.html"
+      ]
+    },
+    {
+      "id": "shen-fa",
+      "name": "神罚",
+      "name_zh": "神罚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/576623.html"
+      ]
+    },
+    {
+      "id": "shu-en",
+      "name": "舒恩",
+      "name_zh": "舒恩",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/619532.html"
+      ]
+    },
+    {
+      "id": "signal",
+      "name": "西格娜",
+      "name_zh": "西格娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/signal",
+        "https://www.gamekee.com/nikke/152331.html"
+      ]
+    },
+    {
+      "id": "sin",
+      "name": "森",
+      "name_zh": "森",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sin",
+        "https://www.gamekee.com/nikke/580947.html"
+      ]
+    },
+    {
+      "id": "siren",
+      "name": "小美人鱼",
+      "name_zh": "小美人鱼",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/siren",
+        "https://www.gamekee.com/nikke/660130.html"
+      ]
+    },
+    {
+      "id": "snow-crane",
+      "name": "白鹤",
+      "name_zh": "白鹤",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/snow-crane",
+        "https://www.gamekee.com/nikke/701435.html"
+      ]
+    },
+    {
+      "id": "snow-white",
+      "name": "白雪公主",
+      "name_zh": "白雪公主",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/snow-white",
+        "https://www.gamekee.com/nikke/92091.html"
+      ]
+    },
+    {
+      "id": "snow-white-heavy-arms",
+      "name": "白雪公主：重型武装",
+      "name_zh": "白雪公主：重型武装",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/snow-white-heavy-arms",
+        "https://www.gamekee.com/nikke/688276.html"
+      ]
+    },
+    {
+      "id": "soda",
+      "name": "索达",
+      "name_zh": "索达",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soda",
+        "https://www.gamekee.com/nikke/583173.html"
+      ]
+    },
+    {
+      "id": "soda-twinkling-bunny",
+      "name": "索达：闪亮兔女郎",
+      "name_zh": "索达：闪亮兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soda-twinkling-bunny",
+        "https://www.gamekee.com/nikke/623992.html"
+      ]
+    },
+    {
+      "id": "soldier-eg",
+      "name": "士兵E.G",
+      "name_zh": "士兵E.G",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soldier-eg",
+        "https://www.gamekee.com/nikke/152353.html"
+      ]
+    },
+    {
+      "id": "soldier-fa",
+      "name": "士兵F.A.",
+      "name_zh": "士兵F.A.",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soldier-fa",
+        "https://www.gamekee.com/nikke/152355.html"
+      ]
+    },
+    {
+      "id": "soldier-ow",
+      "name": "士兵O.W.",
+      "name_zh": "士兵O.W.",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soldier-ow",
+        "https://www.gamekee.com/nikke/152359.html"
+      ]
+    },
+    {
+      "id": "soline",
+      "name": "索林",
+      "name_zh": "索林",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soline",
+        "https://www.gamekee.com/nikke/163883.html"
+      ]
+    },
+    {
+      "id": "soline-frost-ticket",
+      "name": "索林：霜之旅票",
+      "name_zh": "索林：霜之旅票",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/soline-frost-ticket",
+        "https://www.gamekee.com/nikke/684090.html"
+      ]
+    },
+    {
+      "id": "sora",
+      "name": "索拉",
+      "name_zh": "索拉",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sora",
+        "https://www.gamekee.com/nikke/668936.html"
+      ]
+    },
+    {
+      "id": "sparkling-summer-anis",
+      "name": "阿妮斯：闪耀夏日",
+      "name_zh": "阿妮斯：闪耀夏日",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sparkling-summer-anis",
+        "https://www.gamekee.com/nikke/597426.html"
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "舒格",
+      "name_zh": "舒格",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sugar",
+        "https://www.gamekee.com/nikke/152328.html"
+      ]
+    },
+    {
+      "id": "sugar-treasure",
+      "name": "Sugar (Treasure)",
+      "name_zh": "Sugar (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/sugar-treasure"
+      ]
+    },
+    {
+      "id": "takina-inoue",
+      "name": "泷奈",
+      "name_zh": "泷奈",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/takina-inoue",
+        "https://www.gamekee.com/nikke/694801.html"
+      ]
+    },
+    {
+      "id": "tia",
+      "name": "蒂亚",
+      "name_zh": "蒂亚",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/tia",
+        "https://www.gamekee.com/nikke/600940.html"
+      ]
+    },
+    {
+      "id": "tove",
+      "name": "托比",
+      "name_zh": "托比",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/tove",
+        "https://www.gamekee.com/nikke/606470.html"
+      ]
+    },
+    {
+      "id": "tove-treasure",
+      "name": "Tove (Treasure)",
+      "name_zh": "Tove (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/tove-treasure"
+      ]
+    },
+    {
+      "id": "trina",
+      "name": "特蕾娜",
+      "name_zh": "特蕾娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/trina",
+        "https://www.gamekee.com/nikke/156120.html"
+      ]
+    },
+    {
+      "id": "trony",
+      "name": "特罗尼",
+      "name_zh": "特罗尼",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/trony",
+        "https://www.gamekee.com/nikke/622849.html"
+      ]
+    },
+    {
+      "id": "velvet",
+      "name": "薇尔维特",
+      "name_zh": "薇尔维特",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/velvet",
+        "https://www.gamekee.com/nikke/691899.html"
+      ]
+    },
+    {
+      "id": "vesti",
+      "name": "贝斯蒂",
+      "name_zh": "贝斯蒂",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/vesti",
+        "https://www.gamekee.com/nikke/170849.html"
+      ]
+    },
+    {
+      "id": "vesti-tactical-upgrade",
+      "name": "贝斯蒂：战术升级",
+      "name_zh": "贝斯蒂：战术升级",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
+        "https://www.gamekee.com/nikke/674867.html"
+      ]
+    },
+    {
+      "id": "viper",
+      "name": "毒蛇",
+      "name_zh": "毒蛇",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/viper",
+        "https://www.gamekee.com/nikke/580714.html"
+      ]
+    },
+    {
+      "id": "viper-treasure",
+      "name": "Viper (Treasure)",
+      "name_zh": "Viper (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/viper-treasure"
+      ]
+    },
+    {
+      "id": "volume",
+      "name": "沃纶姆",
+      "name_zh": "沃纶姆",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/volume",
+        "https://www.gamekee.com/nikke/163876.html"
+      ]
+    },
+    {
+      "id": "winter-shopper-rupee",
+      "name": "露菲：冬日购物狂",
+      "name_zh": "露菲：冬日购物狂",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/winter-shopper-rupee",
+        "https://www.gamekee.com/nikke/578062.html"
+      ]
+    },
+    {
+      "id": "xie-fu-di",
+      "name": "谢芙蒂",
+      "name_zh": "谢芙蒂",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/589285.html"
+      ]
+    },
+    {
+      "id": "yan",
+      "name": "杨",
+      "name_zh": "杨",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/yan",
+        "https://www.gamekee.com/nikke/163886.html"
+      ]
+    },
+    {
+      "id": "yukiko",
+      "name": "雪子",
+      "name_zh": "雪子",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/yukiko",
+        "https://www.gamekee.com/nikke/717735.html"
+      ]
+    },
+    {
+      "id": "yulha",
+      "name": "尤尔夏",
+      "name_zh": "尤尔夏",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/yulha",
+        "https://www.gamekee.com/nikke/170841.html"
+      ]
+    },
+    {
+      "id": "yuni",
+      "name": "尤妮",
+      "name_zh": "尤妮",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/yuni",
+        "https://www.gamekee.com/nikke/152336.html"
+      ]
+    },
+    {
+      "id": "zhen-li",
+      "name": "真理",
+      "name_zh": "真理",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/599374.html"
+      ]
+    },
+    {
+      "id": "zwei",
+      "name": "茨瓦伊",
+      "name_zh": "茨瓦伊",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/zwei",
+        "https://www.gamekee.com/nikke/576593.html"
+      ]
+    },
+    {
+      "id": "zwei-treasure",
+      "name": "Zwei (Treasure)",
+      "name_zh": "Zwei (Treasure)",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/nikke/characters/zwei-treasure"
+      ]
+    }
+  ]
+}

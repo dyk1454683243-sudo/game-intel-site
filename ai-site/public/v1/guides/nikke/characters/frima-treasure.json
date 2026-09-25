@@ -1,0 +1,39 @@
+{
+  "id": "frima-treasure",
+  "name": "Frima (Treasure)",
+  "name_zh": null,
+  "name_en": "Frima (Treasure)",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [
+    {
+      "name": "... I Want To Sleep",
+      "type": "passive"
+    },
+    {
+      "name": "... Ah",
+      "type": "passive"
+    },
+    {
+      "name": "… Annoying",
+      "type": "active"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "Burst 1",
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/frima-treasure"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "prydwen_slug": "frima-treasure",
+  "verified": "Prydwen /nikke/characters/frima-treasure"
+}

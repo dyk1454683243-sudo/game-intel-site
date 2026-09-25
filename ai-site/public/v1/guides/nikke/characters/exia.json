@@ -1,0 +1,44 @@
+{
+  "id": "exia",
+  "name": "艾可希雅",
+  "name_zh": "艾可希雅",
+  "name_en": "Exia",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [
+    {
+      "name": "入侵",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身若处于收集骇客攻击代码的状态，则目标 【攻击力7.57%▼】【持续5秒】 【防御力7.57%▼】【持续5秒】"
+    },
+    {
+      "name": "密码",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身 【收集骇客攻击代码：攻击力9.24%▲】 【叠加5次】【持续15秒】"
+    },
+    {
+      "name": "单方协议",
+      "type": "burst",
+      "summary": "■防御力最高的10名敌人造成 【相当于攻击力62.27%的伤害】 【防御力1.49%▼】【持续5秒】 若自身处于收集骇客攻击代码的最大叠加状态，则对目标造成 【相当于攻击力67.27%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "单方协议",
+  "weapon": "狙击步枪",
+  "element": "电击",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/exia",
+    "https://www.gamekee.com/nikke/92089.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 92089,
+  "gamekee_entry_id": 64610,
+  "prydwen_slug": "exia",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/92089 图鉴"
+}

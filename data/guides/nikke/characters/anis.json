@@ -1,0 +1,46 @@
+{
+  "id": "anis",
+  "name": "阿妮斯",
+  "name_zh": "阿妮斯",
+  "name_en": "Anis",
+  "aliases": [
+    "阿妮斯"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "防御型",
+  "skills": [
+    {
+      "name": "阵型D.H",
+      "type": "passive",
+      "summary": "■被攻击40次时，自身【防御力52.5%▲】【持续10秒】"
+    },
+    {
+      "name": "阵型C.H",
+      "type": "active",
+      "summary": "■自身与除自身以外攻击力最高的2名队友 【防御力35%▲】 【持续5秒】 【所受伤害平均分摊】 【持续10秒】"
+    },
+    {
+      "name": "针点飞弹",
+      "type": "burst",
+      "summary": "■对攻击范围内的敌人造成 【相当于攻击力68.57%的伤害】 【防御力14%▼】【持续5秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "发射器",
+  "element": "铁甲",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/anis",
+    "https://www.gamekee.com/nikke/152348.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152348,
+  "gamekee_entry_id": 110438,
+  "prydwen_slug": "anis",
+  "rarity": "SR",
+  "burst": "针点飞弹",
+  "verified": "GameKee nikke/152348 图鉴"
+}

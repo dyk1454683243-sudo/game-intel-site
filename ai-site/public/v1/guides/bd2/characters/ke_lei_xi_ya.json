@@ -1,0 +1,62 @@
+{
+  "id": "ke_lei_xi_ya",
+  "name": "克蕾西亚",
+  "name_zh": "克蕾西亚",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "辅助",
+  "rarity": "5星",
+  "element": "水",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "永恒茶派对",
+      "type": "active",
+      "costume": "爱丽丝",
+      "summary": "4回合内，对自己应用挑衅效果。2回合内，对自己应用相当于自身魔法力1250%的能量护盾效果。4回合内，对自己应用复活效果。死亡时，将以100%的生命力复活，并在2回合内，对自己应用挑衅效果。"
+    },
+    {
+      "name": "绝对校规！",
+      "type": "active",
+      "costume": "纪律部",
+      "summary": "2回合内，对自己应用50%的魔法防护罩效果。攻击敌人3次，每次攻击时，造成相当于自身魔法力360%的魔法固定伤害。"
+    },
+    {
+      "name": "真龙现影",
+      "type": "active",
+      "costume": "天守传人",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力160%的魔法固定伤害。4回合内，对敌人应用15的连携保留效果。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "冰霜女王",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "爱丽丝",
+      "type": null,
+      "skill": "永恒茶派对"
+    },
+    {
+      "name": "纪律部",
+      "type": null,
+      "skill": "绝对校规！"
+    },
+    {
+      "name": "天守传人",
+      "type": "常驻",
+      "skill": "真龙现影"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/600786.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 600786,
+  "gamekee_entry_id": 127664,
+  "verified": "GameKee zsca2/600786 图鉴"
+}

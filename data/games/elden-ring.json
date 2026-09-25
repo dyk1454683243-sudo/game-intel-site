@@ -1,0 +1,28 @@
+{
+  "id": "elden-ring",
+  "name": "ELDEN RING",
+  "name_zh": "艾尔登法环",
+  "platforms": [
+    "steam",
+    "pc",
+    "ps5",
+    "xbox"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "souls"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1245620/"
+    }
+  ],
+  "steam_appid": 1245620,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}

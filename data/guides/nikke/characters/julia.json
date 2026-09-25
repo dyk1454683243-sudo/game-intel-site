@@ -1,0 +1,46 @@
+{
+  "id": "julia",
+  "name": "尤莉亚",
+  "name_zh": "尤莉亚",
+  "name_en": "Julia",
+  "aliases": [],
+  "nicknames": [
+    "小提琴"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "渐弱",
+      "type": "active",
+      "summary": "■自身 【暴击率15.38%▲】【持续10秒】"
+    },
+    {
+      "name": "渐强",
+      "type": "passive",
+      "summary": "■最后的子弹命中时，自身 【渐强：暴击伤害14.65%▲】 【叠加5】【持续15秒】"
+    },
+    {
+      "name": "高潮",
+      "type": "burst",
+      "summary": "■对防御力最高的5名敌人造成 【相当于攻击力321.75%的伤害】 ■若自身处于渐强最大叠加状态，则对目标造成 【相当于最终攻击力321.74%的额外伤害】"
+    }
+  ],
+  "skill_prio": [],
+  "burst": "高潮",
+  "weapon": "步枪",
+  "element": "铁甲",
+  "manufacturer": "米西利斯",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/julia",
+    "https://www.gamekee.com/nikke/152330.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 152330,
+  "gamekee_entry_id": 102006,
+  "prydwen_slug": "julia",
+  "rarity": "SSR",
+  "verified": "GameKee nikke/152330 图鉴"
+}

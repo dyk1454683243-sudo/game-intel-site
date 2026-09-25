@@ -1,0 +1,40 @@
+{
+  "id": "a_li_nei_si",
+  "name": "阿里内斯",
+  "name_zh": "阿里内斯",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "3星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "堂堂正正",
+      "type": "active",
+      "costume": "活力祭司",
+      "summary": "6回合内，友军的攻击力增加80%。6回合内，友军的致命率增加30%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "神圣凝视",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "活力祭司",
+      "type": "辅助",
+      "skill": "堂堂正正"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/593578.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 593578,
+  "gamekee_entry_id": 122325,
+  "verified": "GameKee zsca2/593578 图鉴"
+}

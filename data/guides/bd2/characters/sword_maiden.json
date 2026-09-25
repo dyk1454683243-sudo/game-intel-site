@@ -1,0 +1,40 @@
+{
+  "id": "sword_maiden",
+  "name": "剑之圣女",
+  "name_zh": "剑之圣女",
+  "name_en": null,
+  "aliases": [],
+  "nicknames": [],
+  "game": "bd2",
+  "role": "输出",
+  "rarity": "5星",
+  "element": "光",
+  "attack_type": "魔法",
+  "skills": [
+    {
+      "name": "圣击",
+      "type": "active",
+      "costume": "至高神的大主教",
+      "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力120%的魔法伤害。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "天秤剑",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "至高神的大主教",
+      "type": "联动",
+      "skill": "圣击"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/zsca2/662553.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 662553,
+  "gamekee_entry_id": 187553,
+  "verified": "GameKee zsca2/662553 图鉴"
+}

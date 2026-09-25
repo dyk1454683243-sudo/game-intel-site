@@ -1,0 +1,46 @@
+{
+  "id": "scarlet-black-shadow",
+  "name": "红莲：暗影",
+  "name_zh": "红莲：暗影",
+  "name_en": "Scarlet: Black Shadow",
+  "aliases": [],
+  "nicknames": [
+    "黑莲"
+  ],
+  "game": "nikke",
+  "role": "火力型",
+  "skills": [
+    {
+      "name": "花无十日红·破竹",
+      "type": "passive",
+      "summary": "■全蓄力攻击时， 【不同攻击次数不同效果】 【仅套用对应次数效果】： 3次：对防御力最低的1名敌人造成 【最终攻击力193.33%的额外伤害】 6次：对攻击范围内的敌人造成 【最终攻击力328.57%的分摊伤害】 9次：对全体敌人造成 【最终攻击力390.47%的分摊伤害】"
+    },
+    {
+      "name": "花无十日红·修罗",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【最大装弹数 40% ▲】【持续10秒】 【子弹补充 30%】"
+    },
+    {
+      "name": "花无十日红·满开",
+      "type": "burst",
+      "summary": "■自身 【技能1的全蓄力攻击次数条件变更为1次/2次/3次】 【持续10秒】 【攻击力17.28% ▲】【持续10秒】 【蓄力伤害85.32% ▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "花无十日红",
+  "element": "风压",
+  "manufacturer": "朝圣者",
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/nikke/characters/scarlet-black-shadow",
+    "https://www.gamekee.com/nikke/609604.html"
+  ],
+  "stub": false,
+  "as_of": "2026-09",
+  "gamekee_content_id": 609604,
+  "gamekee_entry_id": 137482,
+  "prydwen_slug": "scarlet-black-shadow",
+  "rarity": "SSR",
+  "burst": "花无十日红·满开",
+  "verified": "GameKee nikke/609604 图鉴"
+}

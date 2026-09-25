@@ -1,0 +1,29 @@
+{
+  "id": "bd2",
+  "name": "Brown Dust 2",
+  "name_zh": "棕色尘埃2",
+  "platforms": [
+    "pc",
+    "mobile"
+  ],
+  "tags": [
+    "gacha",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Official news",
+      "url": "https://www.browndust2.com/en-us/news"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/zsca2/"
+    }
+  ],
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/bd2/",
+  "note": "Watchlist + character guides coverage",
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai"
+}
