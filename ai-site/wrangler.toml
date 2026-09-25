@@ -23,4 +23,4 @@ run_worker_first = [
 # The API key is separate: `npx wrangler secret put CLAIMS_API_KEY`
 [[kv_namespaces]]
 binding = "CLAIMS"
-id = "00000000000000000000000000000000"
+id = "c5d31aef615e4fb19a933f661d5ed72e"
