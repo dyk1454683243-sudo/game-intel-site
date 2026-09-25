@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>核对墙 · game-intel claims</title>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#111}
+    a{color:#06c} code{background:#f4f4f4;padding:.1em .35em;border-radius:4px}
+    .meta{color:#666;font-size:.9rem} article{border-top:1px solid #ddd;padding:1rem 0}
+  </style>
+</head>
+<body>
+<h1>核对墙 Claims</h1>
+<p class="meta">只读镜像。JSON：<a href="/v1/claims.json"><code>/v1/claims.json</code></a></p>
+<div id="list"><p class="meta">加载中…</p></div>
+<p><a href="/">← 首页</a></p>
+<script>
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));}
+fetch("/v1/claims.json").then(r=>r.json()).then(data=>{
+  const claims=data.claims||[];
+  const root=document.getElementById("list");
+  if(!claims.length){root.innerHTML="<p>还没有已接受的核对。</p>";return;}
+  root.innerHTML=claims.map(c=>{
+    const sources=(c.sources||[]).map(u=>`<li><a href="${esc(u)}" rel="noopener noreferrer">${esc(u)}</a></li>`).join("");
+    return `<article><h2>${esc(c.statement)}</h2><p class="meta">${esc(c.submitted_at||"")} · as_of ${esc(c.as_of||"")}</p><ul>${sources}</ul></article>`;
+  }).join("");
+}).catch(()=>{document.getElementById("list").innerHTML="<p>镜像还不可用。</p>";});
+</script>
+</body>
+</html>

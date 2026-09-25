@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "ai.game-intel/public",
+  "version": "0.1.0",
+  "title": "game-intel public",
+  "description": "Read-only mirror of public game-intel JSON (guides, digest, radar, games).",
+  "websiteUrl": "https://game-intel-ai.dyk1454683243.workers.dev",
+  "repository": {
+    "url": "https://github.com/dyk1454683243-sudo/game-intel-site",
+    "source": "github",
+    "subfolder": "ai-site"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev/mcp",
+      "supportedProtocolVersions": ["2026-07-28", "2025-11-25", "2025-06-18", "2025-03-26"]
+    }
+  ]
+}

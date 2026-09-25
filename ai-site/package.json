@@ -1,11 +1,14 @@
 {
   "name": "game-intel-ai-site",
   "private": true,
+  "type": "module",
   "version": "0.1.0",
   "description": "AI-readable game-intel JSON endpoints",
   "scripts": {
     "deploy": "wrangler deploy",
-    "preview": "python3 -m http.server 8787 --directory public",
+    "preview": "wrangler dev --port 8787",
+    "preview:static": "python3 -m http.server 8787 --directory public",
+    "test": "node --test test/*.test.mjs",
     "export-guides": "node scripts/export-guides.mjs",
     "export-intel": "node scripts/export-intel.mjs",
     "publish": "bash scripts/publish.sh",

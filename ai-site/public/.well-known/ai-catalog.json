@@ -1,0 +1,10 @@
+{
+  "specVersion": "1.0",
+  "entries": [
+    {
+      "identifier": "urn:air:game-intel-ai.dyk1454683243.workers.dev:mcp:public",
+      "type": "application/mcp-server-card+json",
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev/mcp/server-card"
+    }
+  ]
+}

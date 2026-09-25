@@ -7,10 +7,32 @@ Minimal AI-friendly read-only static site (schema + live MCP JSON exports). No d
 From this directory (`ai-site/`):
 
 ```bash
-python3 -m http.server 8787
+npm install
+npm test
+npm run preview
 ```
 
-Then:
+`npm run preview` is `wrangler dev --port 8787` (static assets + Worker). Then:
+
+```bash
+curl -sS http://127.0.0.1:8787/.well-known/mcp.json
+curl -sS http://127.0.0.1:8787/mcp/server-card
+curl -sS -X POST http://127.0.0.1:8787/mcp \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json, text/event-stream' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"curl","version":"0"}}}'
+```
+
+Static-only check (discovery files, no MCP protocol and no claims write):
+
+```bash
+npm run preview:static
+curl -sS http://127.0.0.1:8787/.well-known/mcp.json
+```
+
+For local claims writes, create `ai-site/.dev.vars` (gitignored) with `CLAIMS_API_KEY=local-placeholder`. Before a real deploy, replace the KV `id` in `wrangler.toml` (`npx wrangler kv namespace create CLAIMS`) and set `npx wrangler secret put CLAIMS_API_KEY`.
+
+Existing JSON checks against the same preview:
 
 ```bash
 curl -sS http://127.0.0.1:8787/llms.txt

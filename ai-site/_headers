@@ -13,3 +13,13 @@
 
 /llms.txt
   Content-Type: text/plain; charset=utf-8
+
+/.well-known/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/mcp/server-card
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *

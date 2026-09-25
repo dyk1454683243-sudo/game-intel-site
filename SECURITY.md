@@ -14,6 +14,10 @@ If you find a vulnerability or accidentally committed secret in this repository,
 
 Planned hosted API keys and ad configs must stay out of git. Document env var names only.
 
+## Claims API
+
+`POST /v1/claims` uses wrangler secret `CLAIMS_API_KEY` (`Authorization: Bearer`). The KV namespace id in `ai-site/wrangler.toml` (`binding = "CLAIMS"`) is not a secret. Do not commit `.dev.vars` or a real key.
+
 ## Dependency / supply chain
 
 Report malicious dependency behavior the same way as other security issues.
