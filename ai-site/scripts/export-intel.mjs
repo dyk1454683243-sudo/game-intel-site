@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -32,6 +33,36 @@ function shanghaiIso() {
 
 function mkdirp(p) {
   fs.mkdirSync(p, { recursive: true });
+}
+
+function mcpSdkResolves() {
+  try {
+    const require = createRequire(path.join(ROOT, "mcp-server", "package.json"));
+    require.resolve("@modelcontextprotocol/sdk/package.json");
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function ensureMcpDeps() {
+  if (mcpSdkResolves()) return;
+  const mcpDir = path.join(ROOT, "mcp-server");
+  const hasLock = fs.existsSync(path.join(mcpDir, "package-lock.json"));
+  const npmCmd = hasLock ? "ci" : "install";
+  console.log(
+    `[export-intel] npm ${npmCmd} in mcp-server (missing @modelcontextprotocol/sdk)`
+  );
+  const r = spawnSync("npm", [npmCmd], {
+    cwd: mcpDir,
+    encoding: "utf8",
+    stdio: "inherit",
+    timeout: Number(process.env.EXPORT_INTEL_NPM_TIMEOUT_MS || 300000),
+  });
+  if (r.error || r.status !== 0) {
+    const why = r.error ? String(r.error.message || r.error) : `exit ${r.status}`;
+    console.error(`[export-intel] mcp-server dependency install failed: ${why}`);
+  }
 }
 
 function runCli(args) {
@@ -114,6 +145,8 @@ if (!fs.existsSync(CLI)) {
   console.error(`[export-intel] missing CLI: ${CLI}`);
   process.exit(0);
 }
+
+ensureMcpDeps();
 
 for (const job of jobs) {
   console.log(`[export-intel] running: node cli.js ${job.args.join(" ")}`);

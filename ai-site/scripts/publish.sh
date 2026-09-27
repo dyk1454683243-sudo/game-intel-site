@@ -13,7 +13,19 @@ echo "[publish] cwd=$SITE_DIR"
 echo "[publish] 1/4 export-guides"
 npm run export-guides
 
-echo "[publish] 2/4 export-intel (best-effort; failures do not abort)"
+echo "[publish] 2/4 export-intel (best-effort; fetch failures do not abort)"
+# node_modules/ is gitignored. digest/calendar/radar import mcp-server/index.js,
+# which loads @modelcontextprotocol/sdk. Install from the lockfile first.
+MCP_DIR="$(cd "$SITE_DIR/.." && pwd)/mcp-server"
+echo "[publish] npm ci in mcp-server"
+(
+  cd "$MCP_DIR"
+  if [[ -f package-lock.json ]]; then
+    npm ci
+  else
+    npm install
+  fi
+)
 set +e
 node scripts/export-intel.mjs
 INTEL_RC=$?

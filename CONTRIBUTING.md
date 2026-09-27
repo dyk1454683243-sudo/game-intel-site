@@ -5,7 +5,7 @@ Thanks for helping improve game-intel-site.
 ## Setup
 
 1. Fork / clone this public repo.
-2. `cd mcp-server && npm install` (Node.js 18+).
+2. `cd mcp-server && npm install` (Node.js 18+). `ai-site/scripts/publish.sh` runs `npm ci` there before export-intel, so a publish does not need this step first.
 3. Optional: `cd ai-site && npm install` for preview and export.
 4. `GAME_INTEL_DATA` defaults to the repo `data/` directory. Export it when data lives elsewhere.
 

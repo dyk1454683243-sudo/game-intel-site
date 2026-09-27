@@ -180,6 +180,10 @@ npm install
 bash scripts/publish.sh
 ```
 
+`publish.sh` 会在 `export-intel` 之前对 `../mcp-server` 执行 `npm ci`。`node_modules/` 不入库；digest / calendar / radar 会加载 `mcp-server/index.js`，因此需要已安装的 `@modelcontextprotocol/sdk`。直接跑 `npm run export-intel` 时，脚本也会在缺包时安装。
+
+`publish.sh` runs `npm ci` in `../mcp-server` before `export-intel` (`node_modules/` is not committed). digest / calendar / radar load `mcp-server/index.js`, which needs `@modelcontextprotocol/sdk`. `npm run export-intel` installs that package when it is missing.
+
 Live: https://game-intel-ai.dyk1454683243.workers.dev
 
 ## 原则
