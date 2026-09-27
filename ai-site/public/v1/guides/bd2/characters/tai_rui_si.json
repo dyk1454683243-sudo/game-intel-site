@@ -80,17 +80,24 @@
       "tier": "T1",
       "source": "https://www.gamekee.com/zsca2/652516.html",
       "content_id": 652516
+    },
+    {
+      "label": "保健社·泰瑞丝服装 泰瑞丝新",
+      "tier": "T0",
+      "source": "https://www.gamekee.com/zsca2/616812.html",
+      "content_id": 616812
     }
   ],
   "summary": {
-    "tier": "GameKee 服装测评：海边天使·泰瑞丝服装 T0；原皮泰瑞丝 T1",
+    "tier": "GameKee 服装测评：海边天使·泰瑞丝服装 T0；原皮泰瑞丝 T1；保健社·泰瑞丝服装 泰瑞丝新 T0",
     "sources": [
       "https://www.gamekee.com/zsca2/631518.html",
       "https://www.gamekee.com/zsca2/652516.html",
+      "https://www.gamekee.com/zsca2/616812.html",
       "https://www.gamekee.com/zsca2/593606.html"
     ],
     "stub": false,
-    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "caveat": "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
     "position": "5星 / 水 / 物理 / 辅助",
     "pull": "海边天使·泰瑞丝服装：必抽，尽量拉满，最少+3，+5最好"
   }

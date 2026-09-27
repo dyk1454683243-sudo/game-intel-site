@@ -51,6 +51,7 @@ import {
   INVEN_ORIGIN,
   STEAM_STORE,
   STEAM_NEWS_API,
+  SOURCES_PATH,
   TAPTAP_XUA,
   UA,
   RADAR_KEYWORDS,
@@ -68,6 +69,10 @@ import {
   expandGamekeeQueries,
   searchGamekeeEntries,
 } from "./index-lib-01.js";
+import {
+  parseFourGamerRss,
+  parseSteamComingSoonPayload,
+} from "./channel-parse.mjs";
 
 
 async function searchGamekee({ alias, query, limit = 5 }) {
@@ -549,6 +554,80 @@ async function searchSteam({ query, appid, limit = 5 }) {
   );
 }
 
+const STEAM_COMING_SOON_API =
+  "https://store.steampowered.com/api/featuredcategories/";
+const FOUR_GAMER_RSS = "https://www.4gamer.net/rss/index.xml";
+
+function channelEnabled(id) {
+  try {
+    const reg = JSON.parse(fs.readFileSync(SOURCES_PATH, "utf8"));
+    return reg?.[id]?.enabled === true;
+  } catch {
+    return false;
+  }
+}
+
+/** Steam Coming Soon JSON. Official store app URL + as_of. No HTML scrape. */
+async function searchSteamComingSoon({ limit = 8 } = {}) {
+  const lim = clampLimit(limit, 8, 12);
+  if (!channelEnabled("steam_coming_soon")) {
+    return { ok: false, error: "disabled", items: [], source: "steam_coming_soon" };
+  }
+  const asOf = shanghaiTodayYmd();
+  return withCache("searchSteamComingSoon", { limit: lim, asOf }, async () => {
+    const url = `${STEAM_COMING_SOON_API}?l=english&cc=US`;
+    const res = await fetchJson(url, { timeoutMs: 12000 });
+    const items = parseSteamComingSoonPayload(res.body, { asOf, limit: lim });
+    if (!res.ok || !items.length) {
+      return {
+        ok: false,
+        error: truncate(res.bodyText || `http_${res.status}`, 80),
+        items: [],
+        as_of: asOf,
+        source_url: url,
+        source: "steam_coming_soon",
+      };
+    }
+    return {
+      ok: true,
+      count: items.length,
+      as_of: asOf,
+      source_url: url,
+      source: "steam_coming_soon",
+      items,
+    };
+  });
+}
+
+/** 4Gamer RSS 1.0. Radar keeps launch-ish headlines; digest keeps recent news. */
+async function searchFourGamer({ limit = 5, mode = "radar" } = {}) {
+  const lim = clampLimit(limit, 5, mode === "digest" ? 30 : 8);
+  if (!channelEnabled("four_gamer")) {
+    return { ok: false, error: "disabled", items: [], source: "four_gamer" };
+  }
+  const useMode = mode === "digest" ? "digest" : "radar";
+  return withCache("searchFourGamer", { limit: lim, mode: useMode }, async () => {
+    const res = await fetchText(FOUR_GAMER_RSS, { timeoutMs: 15000 });
+    const items = parseFourGamerRss(res.text || "", { limit: lim, mode: useMode });
+    if (!res.ok || !items.length) {
+      return {
+        ok: false,
+        error: truncate(res.text || `http_${res.status}`, 80),
+        items: [],
+        source_url: FOUR_GAMER_RSS,
+        source: "four_gamer",
+      };
+    }
+    return {
+      ok: true,
+      count: items.length,
+      source_url: FOUR_GAMER_RSS,
+      source: "four_gamer",
+      items,
+    };
+  });
+}
+
 /* ---------------- Radar ---------------- */
 
 function radarHitTitle(title) {
@@ -571,5 +650,7 @@ export {
   resolveSteamApps,
   steamNewsForApp,
   searchSteam,
+  searchSteamComingSoon,
+  searchFourGamer,
   radarHitTitle,
 };

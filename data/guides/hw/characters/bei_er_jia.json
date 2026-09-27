@@ -49,16 +49,18 @@
     "https://www.gamekee.com/hw/655878.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 655878,
   "gamekee_entry_id": 181898,
   "verified": "GameKee hw/655878 图鉴",
+  "note": "抽取建议: 中规中矩的近战C，能进行多动但是本身输出有限，基本上是配合冰女玩。EX0+1专即可。可能算马特罗索上位，不过意义不大。总体只是能用水平，不强。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/655878.html"
     ],
     "tier": "T1.5 / 输出 / 普攻 / 赫斯卡尔复仇者",
+    "pull": "中规中矩的近战C，能进行多动但是本身输出有限，基本上是配合冰女玩。EX0+1专即可。可能算马特罗索上位，不过意义不大。总体只是能用水平，不强。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

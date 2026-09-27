@@ -61,16 +61,18 @@
     "https://www.gamekee.com/hw/634234.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634234,
   "gamekee_entry_id": 163047,
   "verified": "GameKee hw/634234 图鉴",
+  "note": "抽取建议: 半神化后用毕业圣痕的话稳定每动平砍2次，整体输出大幅提升，打桩能力强也适合打boss。团队拉条能力因为可出场范围的问题没那么亮眼。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634234.html"
     ],
     "tier": "T1 / 单体 / 闪避 / 剑之大师",
+    "pull": "半神化后用毕业圣痕的话稳定每动平砍2次，整体输出大幅提升，打桩能力强也适合打boss。团队拉条能力因为可出场范围的问题没那么亮眼。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

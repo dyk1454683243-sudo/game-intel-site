@@ -65,16 +65,18 @@
     "https://www.gamekee.com/hw/634357.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634357,
   "gamekee_entry_id": 163031,
   "verified": "GameKee hw/634357 图鉴",
+  "note": "抽取建议: 重做完成后是主C和辅助都能胜任的角色，虽然失去了拐非近战攻击角色的能力，但是换来了大量的数值反而获得了上场机会，性价比很高的角色。需要注意格挡率最高75%。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634357.html"
     ],
     "tier": "T0.5 / 增伤 / 光环 / 一人成军",
+    "pull": "重做完成后是主C和辅助都能胜任的角色，虽然失去了拐非近战攻击角色的能力，但是换来了大量的数值反而获得了上场机会，性价比很高的角色。需要注意格挡率最高75%。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

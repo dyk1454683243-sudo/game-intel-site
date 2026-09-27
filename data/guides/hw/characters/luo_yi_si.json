@@ -62,16 +62,18 @@
     "https://www.gamekee.com/hw/634456.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634456,
   "gamekee_entry_id": 163035,
   "verified": "GameKee hw/634456 图鉴",
+  "note": "抽取建议: 半神化后本身提升不错，更关键的是解放了cost后可以加入伊芙利特+格里泽尔达的火塞无限动队伍作为最合适的输出手使用，综合提升巨大，且不再极度依赖专武的突破。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634456.html"
     ],
     "tier": "T0.5 / 输出 / 火焰之主",
+    "pull": "半神化后本身提升不错，更关键的是解放了cost后可以加入伊芙利特+格里泽尔达的火塞无限动队伍作为最合适的输出手使用，综合提升巨大，且不再极度依赖专武的突破。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

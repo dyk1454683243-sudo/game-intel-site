@@ -128,13 +128,19 @@ function nikkeFromRatings(card, sources) {
   return null;
 }
 
+function isBd2TextGrade(tier) {
+  const t = String(tier || "").trim();
+  if (!t || t.length > 80) return false;
+  if (/[。！？?]/.test(t)) return false;
+  return /T\d/.test(t);
+}
+
 function bd2FromCostumeRatings(card, sources) {
   const rows = Array.isArray(card?.costume_ratings) ? card.costume_ratings : [];
   const good = rows.filter(
     (row) =>
       row &&
-      typeof row.tier === "string" &&
-      /^T\d/.test(row.tier.trim()) &&
+      isBd2TextGrade(row.tier) &&
       typeof row.source === "string" &&
       HTTP.test(row.source) &&
       typeof row.label === "string" &&
@@ -151,7 +157,7 @@ function bd2FromCostumeRatings(card, sources) {
     sources: uniqSources([...good.map((row) => row.source), ...sources]),
     stub: false,
     caveat:
-      "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+      "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
   };
   const position = bd2Position(card);
   if (position) summary.position = position;

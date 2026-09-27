@@ -61,16 +61,18 @@
     "https://www.gamekee.com/hw/634255.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634255,
   "gamekee_entry_id": 163025,
   "verified": "GameKee hw/634255 图鉴",
+  "note": "抽取建议: 1月15日卡琳娜重做，得到了大量的增伤和大招cd减少，目前可以作为非常优质的4费近战C使用，推荐配合赛妈。SS角色本体突破很简单，因此抽一下武器即可，性价比很高。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634255.html"
     ],
     "tier": "T1 / 输出 / 根性 / 沼泽暴君",
+    "pull": "1月15日卡琳娜重做，得到了大量的增伤和大招cd减少，目前可以作为非常优质的4费近战C使用，推荐配合赛妈。SS角色本体突破很简单，因此抽一下武器即可，性价比很高。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

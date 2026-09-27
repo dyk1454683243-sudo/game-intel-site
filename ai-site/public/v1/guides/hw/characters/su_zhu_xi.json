@@ -58,16 +58,18 @@
     "https://www.gamekee.com/hw/634585.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634585,
   "gamekee_entry_id": 163039,
   "verified": "GameKee hw/634585 图鉴",
+  "note": "抽取建议: 专武的赠品，有能力就多抽专武。角色要到第三章主线获得后才能抽取。最高的单体破甲角色，射击队的辅助。使用时记得优先把负面的普通特性先洗掉。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634585.html"
     ],
     "tier": "T0.5 / 破甲 / 隐秘之眼",
+    "pull": "专武的赠品，有能力就多抽专武。角色要到第三章主线获得后才能抽取。最高的单体破甲角色，射击队的辅助。使用时记得优先把负面的普通特性先洗掉。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

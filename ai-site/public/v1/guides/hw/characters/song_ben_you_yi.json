@@ -77,16 +77,18 @@
     "https://www.gamekee.com/hw/660898.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 660898,
   "gamekee_entry_id": 185630,
   "verified": "GameKee hw/660898 图鉴",
+  "note": "抽取建议: 射击队主C，但是目前竞争不过娜莉（风水轮流转）等待半神化后再进行比较。由于阿岚的存在依然很强。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/660898.html"
     ],
     "tier": "T1 / 输出 / 背刺 / 一人成军",
+    "pull": "射击队主C，但是目前竞争不过娜莉（风水轮流转）等待半神化后再进行比较。由于阿岚的存在依然很强。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

@@ -54,16 +54,18 @@
     "https://www.gamekee.com/hw/638184.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 638184,
   "gamekee_entry_id": 167248,
   "verified": "GameKee hw/638184 图鉴",
+  "note": "抽取建议: 通用辅助，一般EX0+1即可，追求极限的话可以追到EX3+1专武。最万能的辅助，适配任何队伍，是技能组完全一致的诺诺哈的上位，具备全堆加速+治疗+上盾的功能，非常全面。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/638184.html"
     ],
     "tier": "T0.5 / 回AP / 加护盾 / 微风君主",
+    "pull": "通用辅助，一般EX0+1即可，追求极限的话可以追到EX3+1专武。最万能的辅助，适配任何队伍，是技能组完全一致的诺诺哈的上位，具备全堆加速+治疗+上盾的功能，非常全面。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

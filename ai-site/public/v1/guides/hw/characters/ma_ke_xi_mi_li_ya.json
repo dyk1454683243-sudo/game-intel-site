@@ -60,16 +60,18 @@
     "https://www.gamekee.com/hw/698923.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 698923,
   "gamekee_entry_id": 211612,
   "verified": "GameKee hw/698923 图鉴",
+  "note": "抽取建议: EX0+1足矣的功能性坦克。光环角色，能提供生存+小幅破甲.半神化后获得拉条能力，对群环境配合阿岚能打出大量AP。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/698923.html"
     ],
     "tier": "T0.5 / 坦克 / 拉条 / 一人成军",
+    "pull": "EX0+1足矣的功能性坦克。光环角色，能提供生存+小幅破甲.半神化后获得拉条能力，对群环境配合阿岚能打出大量AP。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

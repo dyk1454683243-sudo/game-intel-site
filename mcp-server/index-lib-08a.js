@@ -63,6 +63,9 @@ import {
   searchTaptap,
   searchInven,
   searchSteam,
+  searchSteamComingSoon,
+  searchFourGamer,
+  hitsGameKeywords,
   searchBahamut,
   isNikkeContext,
   searchPrydwen,
@@ -144,6 +147,8 @@ async function digestGame(entryId, entry, opts = {}) {
     pryRes,
     offRes,
     steamRes,
+    soonRes,
+    fourRes,
   ] = await Promise.all([
     (async () => {
       try {
@@ -222,6 +227,20 @@ async function digestGame(entryId, entry, opts = {}) {
         return empty;
       }
     })(),
+    (async () => {
+      try {
+        return await searchSteamComingSoon({ limit: 12 });
+      } catch {
+        return empty;
+      }
+    })(),
+    (async () => {
+      try {
+        return await searchFourGamer({ limit: 24, mode: "digest" });
+      } catch {
+        return empty;
+      }
+    })(),
   ]);
 
   let gkOut = gkPrimary;
@@ -241,6 +260,8 @@ async function digestGame(entryId, entry, opts = {}) {
     bahamut: [],
     prydwen: [],
     steam: [],
+    steam_coming_soon: [],
+    four_gamer: [],
   };
 
   for (const it of (gkOut.items || []).slice(0, gkCap + 2)) {
@@ -343,14 +364,54 @@ async function digestGame(entryId, entry, opts = {}) {
     buckets.steam.push(row);
   }
 
+  {
+    const appid =
+      entry?.steam_appid != null && String(entry.steam_appid).trim() !== ""
+        ? String(entry.steam_appid).trim()
+        : "";
+    for (const it of soonRes.items || []) {
+      if (buckets.steam_coming_soon.length >= 1) break;
+      const blob = `${it.title || ""}\n${it.url || ""}`;
+      const appHit = appid && String(it.appid || "") === appid;
+      const nameHit = hitsGameKeywords(blob, entry, entryId);
+      if (!appHit && !nameHit) continue;
+      const asOf = it.as_of || shanghaiTodayYmd();
+      const row = {
+        title: it.title,
+        url: it.url,
+        source: "steam_coming_soon",
+        as_of: asOf,
+        summary: `as_of ${asOf}. ${it.url}`,
+      };
+      if (isNoise(row)) continue;
+      buckets.steam_coming_soon.push(row);
+    }
+  }
+
+  for (const it of fourRes.items || []) {
+    if (buckets.four_gamer.length >= 1) break;
+    const asOf = it.as_of || shanghaiTodayYmd();
+    const row = {
+      title: it.title,
+      url: it.url,
+      date: it.date || null,
+      source: "four_gamer",
+      as_of: asOf,
+      summary: `as_of ${asOf}. ${it.url}`,
+    };
+    if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
+    buckets.four_gamer.push(row);
+  }
+
   // Interleave preferred sources; keep total ≤5
   let order;
   if (preferInven) {
-    order = ["official", "inven", "taptap", "gamekee", "bahamut", "steam"];
+    order = ["official", "inven", "taptap", "gamekee", "bahamut", "steam", "steam_coming_soon", "four_gamer"];
   } else if (isNikke) {
-    order = ["gamekee", "official", "prydwen", "bahamut", "taptap", "steam"];
+    order = ["gamekee", "official", "prydwen", "bahamut", "taptap", "steam", "steam_coming_soon", "four_gamer"];
   } else {
-    order = ["gamekee", "official", "taptap", "bahamut", "steam"];
+    order = ["gamekee", "official", "taptap", "bahamut", "steam", "steam_coming_soon", "four_gamer"];
   }
   const mixed = [];
   for (const src of order) {

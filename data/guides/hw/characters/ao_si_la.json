@@ -58,16 +58,18 @@
     "https://www.gamekee.com/hw/634306.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634306,
   "gamekee_entry_id": 163029,
   "verified": "GameKee hw/634306 图鉴",
+  "note": "抽取建议: 有专武就能用，最重要的就是1专武。角色突破不重要。开荒期追伤机制很强，配合奥利维亚表现不错。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634306.html"
     ],
     "tier": "T1 / 增伤 / 嘲讽 / 远古领主",
+    "pull": "有专武就能用，最重要的就是1专武。角色突破不重要。开荒期追伤机制很强，配合奥利维亚表现不错。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

@@ -60,16 +60,18 @@
     "https://www.gamekee.com/hw/645959.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 645959,
   "gamekee_entry_id": 173968,
   "verified": "GameKee hw/645959 图鉴",
+  "note": "抽取建议: 全部增伤都在专武上，因此本体只需要EX0，专武越高越好。当然优先还是抽主C的。顶级坦克，增伤+范围制造背刺能力极强，肉度也完全足够，cost还很低，完美的辅助型T。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/645959.html"
     ],
     "tier": "T0.5 / 爆伤拐 / 坦克 / 最后的守护者",
+    "pull": "全部增伤都在专武上，因此本体只需要EX0，专武越高越好。当然优先还是抽主C的。顶级坦克，增伤+范围制造背刺能力极强，肉度也完全足够，cost还很低，完美的辅助型T。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

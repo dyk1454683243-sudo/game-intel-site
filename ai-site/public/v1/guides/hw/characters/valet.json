@@ -60,16 +60,18 @@
     "https://www.gamekee.com/hw/639139.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 639139,
   "gamekee_entry_id": 168274,
   "verified": "GameKee hw/639139 图鉴",
+  "note": "抽取建议: EX0+1专武足够应对所有需要她出场的场合。需要暖机的倍率怪，能单刷多巴胺的选手之一。不过暖机速度和乘区过少限制了上限和特种作战基本无缘。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/639139.html"
     ],
     "tier": "T1 / 混伤 / 奶妈 / 希琳娜的代理人",
+    "pull": "EX0+1专武足够应对所有需要她出场的场合。需要暖机的倍率怪，能单刷多巴胺的选手之一。不过暖机速度和乘区过少限制了上限和特种作战基本无缘。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

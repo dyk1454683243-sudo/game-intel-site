@@ -9,6 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
 import { fetchWiki as fetchBd2Wiki } from "./enrich-bd2-cards.js";
 import { fetchCharacterWiki } from "./enrich-hw-cards.js";
@@ -19,9 +20,12 @@ import {
   extractCostumeTier,
   isNikkeTier,
   matchCostumeReview,
+  matchGradeSection,
   nikkeCharacterUrl,
   nikkeLocalId,
+  parseNumberedGradeSections,
   renderNikkeSkill,
+  stripMarkup,
 } from "./watchlist-parse.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -34,7 +38,6 @@ const GK = "https://www.gamekee.com";
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
 
-const LYSANDRIA_WIKI = 634473;
 const SIN_BUNNY = {
   id: "sin-rapid-bunny",
   contentId: 722087,
@@ -79,6 +82,55 @@ async function getJson(url, headers = {}) {
   });
   if (!res.ok) throw new Error(`http_${res.status}`);
   return res.json();
+}
+
+function curlBody(url) {
+  const r = spawnSync(
+    "curl",
+    [
+      "-sS",
+      "-L",
+      "--max-time",
+      "30",
+      "-A",
+      UA,
+      "-H",
+      "Accept: application/json,text/plain,*/*",
+      "-H",
+      `Referer: ${GK}/`,
+      url,
+    ],
+    { encoding: "utf8", maxBuffer: 20 * 1024 * 1024 }
+  );
+  if (r.status !== 0) throw new Error(`curl_${r.status}`);
+  return r.stdout || "";
+}
+
+/** Full review text. The detail summary is often cut off before 综合评价. */
+function articleText(detail) {
+  const summary = stripMarkup(detail?.summary || "");
+  const chunks = [];
+  let cdn = String(detail?.content_cdn || "").trim();
+  if (cdn.startsWith("//")) cdn = `https:${cdn}`;
+  if (cdn) {
+    try {
+      chunks.push(stripMarkup(curlBody(cdn)));
+    } catch {
+      /* CDN miss; inline content may still have the grade */
+    }
+  }
+  if (detail?.content) chunks.push(stripMarkup(String(detail.content)));
+  chunks.push(summary);
+  const graded = chunks.find((text) => /综合评价|服装评价/.test(text));
+  if (graded) return graded;
+  return chunks.sort((a, b) => b.length - a.length)[0] || "";
+}
+
+function pullNearGrade(text) {
+  const clean = stripMarkup(text);
+  const i = clean.search(/综合评价[:：]/);
+  const window = i >= 0 ? clean.slice(i, i + 240) : clean.slice(0, 180);
+  return extractCostumePull(window);
 }
 
 function applySummary(card) {
@@ -328,30 +380,67 @@ async function deepenBd2Reviews(dry) {
   });
   // GameKee marks many still-readable 测评 entries is_del=1 after they leave the folder.
   // Keep them when content_id is present; drop the row only if the detail has no 综合评价.
-  const reviews = (list.data || []).filter(
-    (row) => row && row.content_id && String(row.name || "").includes("测评")
-  );
+  const reviews = [];
+  const seenReview = new Set();
+  for (const row of list.data || []) {
+    if (!row?.content_id || !String(row.name || "").includes("测评")) continue;
+    if (seenReview.has(row.content_id)) continue;
+    seenReview.add(row.content_id);
+    reviews.push(row);
+  }
   const cards = loadCards("bd2");
+  const cardList = cards.map((row) => row.card);
   const byId = new Map(cards.map((row) => [row.card.id, row]));
   const grouped = new Map();
   let skipped = 0;
   const skippedSample = [];
+
+  const pushItem = (id, item) => {
+    if (!id || !byId.has(id)) return;
+    if (!grouped.has(id)) grouped.set(id, []);
+    const bucket = grouped.get(id);
+    if (!bucket.some((row) => row.source === item.source)) bucket.push(item);
+  };
+
   for (const review of reviews) {
-    let summary = "";
+    let text = "";
     let title = String(review.name || "");
+    let shortSummary = "";
     try {
       const detail = await getJson(`${GK}/v1/content/detail/${review.content_id}`, {
         "game-alias": "zsca2",
       });
       title = detail.data?.title || title;
-      summary = detail.data?.summary || "";
+      shortSummary = stripMarkup(detail.data?.summary || "");
+      text = articleText(detail.data || {});
     } catch (err) {
       console.error(`bd2 review ${review.content_id}: ${err.message}`);
       await sleep(200);
       continue;
     }
-    const tier = extractCostumeTier(summary);
-    const id = matchCostumeReview(title, summary, cards.map((row) => row.card));
+    const source = `${GK}/zsca2/${review.content_id}.html`;
+    if (/三四星/.test(title)) {
+      const sections = parseNumberedGradeSections(text);
+      if (!sections.length) {
+        skipped++;
+        skippedSample.push({ title, tier: null, id: null, summary: "no_numbered_grades" });
+      }
+      for (const section of sections) {
+        const id = matchGradeSection(section.heading, section.body, cardList);
+        if (!id) continue;
+        pushItem(id, {
+          label: section.heading,
+          tier: section.tier,
+          source,
+          content_id: review.content_id,
+        });
+      }
+      await sleep(80);
+      continue;
+    }
+    const tier = extractCostumeTier(text);
+    // Match on the title and the short summary only. The full article names other characters.
+    const id = matchCostumeReview(title, shortSummary, cardList);
     if (!tier || !id || !byId.has(id)) {
       skipped++;
       if (skippedSample.length < 12) {
@@ -359,29 +448,39 @@ async function deepenBd2Reviews(dry) {
           title,
           tier: tier || null,
           id: id || null,
-          summary: String(summary).slice(0, 80),
+          summary: String(text).replace(/\s+/g, " ").slice(0, 80),
         });
       }
       await sleep(80);
       continue;
     }
-    const pull = extractCostumePull(summary);
+    const pull = pullNearGrade(text);
     const item = {
-      label: title.replace(/服装抽取建议|角色简评|抽取建议|测评/g, "").replace(/[|｜]+/g, " ").replace(/\s+/g, " ").trim() || title,
+      label:
+        title
+          .replace(/服装抽取建议|角色简评|抽取建议|测评/g, "")
+          .replace(/[|｜]+/g, " ")
+          .replace(/\s+/g, " ")
+          .trim() || title,
       tier,
-      source: `${GK}/zsca2/${review.content_id}.html`,
+      source,
       content_id: review.content_id,
     };
     if (pull) item.pull = pull;
-    if (!grouped.has(id)) grouped.set(id, []);
-    const bucket = grouped.get(id);
-    if (!bucket.some((row) => row.source === item.source)) bucket.push(item);
+    pushItem(id, item);
     await sleep(80);
   }
 
   let written = 0;
-  for (const [id, costume_ratings] of grouped) {
+  for (const [id, found] of grouped) {
     const row = byId.get(id);
+    const existing = Array.isArray(row.card.costume_ratings) ? row.card.costume_ratings : [];
+    const costume_ratings = [...existing];
+    for (const item of found) {
+      if (costume_ratings.some((prev) => prev.source === item.source)) continue;
+      costume_ratings.push(item);
+    }
+    if (costume_ratings.length === existing.length) continue;
     const next = applySummary({
       ...row.card,
       costume_ratings,
@@ -401,88 +500,97 @@ async function deepenBd2Reviews(dry) {
   };
 }
 
-function hwRole(meta) {
-  const parts = [];
-  if (meta.t_rank) parts.push(meta.t_rank);
-  if (meta.tag1) parts.push(meta.tag1);
-  if (meta.tag2) parts.push(meta.tag2);
-  if (meta.job3) parts.push(meta.job3);
-  else if (meta.job2) parts.push(meta.job2);
-  return parts.join(" / ");
+function cleanHwPull(text) {
+  const v = String(text || "")
+    .replace(/\*[a-z]+:([^*]*)\*/gi, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!v || v.length < 4) return "";
+  if (/^(暂无|无|没有|抽取建议|暂无建议)/.test(v)) return "";
+  return v.length > 480 ? `${v.slice(0, 480).trim()}…` : v;
 }
 
-function hwStigmata(meta) {
-  if (!meta.stig_set || meta.stig_set === "封面图片") return null;
-  const stig = { set_id: meta.stig_set === "优菲特尔" ? "set_iuppiter" : null, set_name: meta.stig_set, pieces: 4 };
-  if (meta.stig_set === "优菲特尔") stig.nickname = "木星";
-  const notes = [];
-  if (meta.set2) notes.push(`2件: ${meta.set2}`);
-  if (meta.set4) notes.push(`4件: ${meta.set4}`);
-  if (meta.stig_analysis) notes.push(meta.stig_analysis);
-  if (notes.length) stig.notes = notes;
-  return stig;
+function cleanHwWeapon(name) {
+  const v = String(name || "").replace(/\s+/g, " ").trim();
+  if (!v || v.length < 2) return "";
+  if (/^(暂无|无|没有|专武|图标|封面|技能)/.test(v)) return "";
+  if (/暂无专武|没有专武|无专武/.test(v)) return "";
+  return v;
+}
+
+function normSkillName(name) {
+  return String(name || "")
+    .replace(/\s+/g, "")
+    .replace(/[·・．.]/g, "")
+    .trim();
 }
 
 async function deepenHw(dry) {
-  const rows = loadCards("hw").filter(
-    (row) => row.card.id === "lysandria" || (row.card.skills || []).some((skill) => !String(skill.summary || "").trim())
-  );
+  // lysandria was rebuilt from the same wiki rules; leave that card as the reference.
+  const rows = loadCards("hw").filter((row) => row.card.id !== "lysandria" && row.card.gamekee_content_id);
   let written = 0;
-  let filled = 0;
-  for (const row of rows) {
-    const contentId = row.card.id === "lysandria" ? LYSANDRIA_WIKI : Number(row.card.gamekee_content_id);
-    if (!contentId) continue;
+  let pulls = 0;
+  let weapons = 0;
+  let summaries = 0;
+  let cursor = 0;
+
+  async function one(row) {
+    const contentId = Number(row.card.gamekee_content_id);
+    if (!contentId) return;
     try {
       const wiki = await fetchCharacterWiki(contentId);
-      const byName = new Map((wiki.skills || []).filter((skill) => skill.summary).map((skill) => [skill.name, skill]));
-      let next = { ...row.card };
-      if (row.card.id === "lysandria") {
-        next.skills = (wiki.skills || []).map((skill) => {
-          const item = { name: skill.name };
-          if (skill.type) item.type = skill.type;
-          if (skill.summary) item.summary = skill.summary;
-          return item;
-        });
-        const role = hwRole(wiki.meta || {});
-        if (role) next.role = role;
-        if (wiki.meta?.weapon) next.weapon = wiki.meta.weapon;
-        const stig = hwStigmata(wiki.meta || {});
-        if (stig) next.stigmata = stig;
-        const prio = [];
-        if (wiki.meta?.prio_all) prio.push(wiki.meta.prio_all);
-        for (const skill of wiki.skills || []) {
-          if (skill.prio_note) prio.push(`${skill.name}: ${skill.prio_note}`);
-        }
-        if (prio.length) next.skill_prio = prio;
-        if (wiki.meta?.pull) next.note = `抽取建议: ${String(wiki.meta.pull).replace(/\s+/g, " ").trim()}`;
-        next.gamekee_content_id = contentId;
-        if (wiki.entry_id != null) next.gamekee_entry_id = wiki.entry_id;
-        next.verified = `GameKee hw/${contentId} 图鉴`;
-        const src = `${GK}/hw/${contentId}.html`;
-        const sources = Array.isArray(next.sources) ? [...next.sources] : [];
-        if (!sources.includes(src)) sources.unshift(src);
-        next.sources = sources;
-        filled += next.skills.filter((skill) => skill.summary).length;
-      } else {
-        next.skills = (next.skills || []).map((skill) => {
-          if (String(skill.summary || "").trim()) return skill;
-          const fresh = byName.get(skill.name);
-          if (!fresh?.summary) return skill;
-          filled++;
-          return { ...skill, summary: fresh.summary, ...(fresh.type && !skill.type ? { type: fresh.type } : {}) };
-        });
+      const byExact = new Map();
+      const byNorm = new Map();
+      for (const skill of wiki.skills || []) {
+        if (!skill?.summary) continue;
+        byExact.set(skill.name, skill);
+        byNorm.set(normSkillName(skill.name), skill);
       }
-      const stamped = applySummary({ ...next, as_of: row.card.as_of });
-      if (!changed(row.card, stamped)) continue;
-      next = applySummary({ ...next, as_of: AS_OF });
+      const next = { ...row.card };
+      let touched = false;
+      next.skills = (next.skills || []).map((skill) => {
+        if (String(skill.summary || "").trim()) return skill;
+        const fresh = byExact.get(skill.name) || byNorm.get(normSkillName(skill.name));
+        if (!fresh?.summary) return skill;
+        touched = true;
+        summaries++;
+        return {
+          ...skill,
+          summary: fresh.summary,
+          ...(fresh.type && !skill.type ? { type: fresh.type } : {}),
+        };
+      });
+      const pull = cleanHwPull(wiki.meta?.pull);
+      if (pull && !/抽取建议:/.test(String(next.note || ""))) {
+        next.note = `抽取建议: ${pull}`;
+        touched = true;
+        pulls++;
+      }
+      const weapon = cleanHwWeapon(wiki.meta?.weapon);
+      if (weapon && !String(next.weapon || "").trim()) {
+        next.weapon = weapon;
+        touched = true;
+        weapons++;
+      }
+      if (!touched) return;
+      const stamped = applySummary({ ...next, as_of: AS_OF });
+      if (!changed(row.card, stamped)) return;
       written++;
-      if (!dry) writeJson(row.path, next);
+      if (!dry) writeJson(row.path, stamped);
     } catch (err) {
       console.error(`hw ${row.card.id}: ${err.message}`);
     }
-    await sleep(300);
   }
-  return { attempted: rows.length, written, filled };
+
+  async function worker() {
+    while (cursor < rows.length) {
+      const row = rows[cursor++];
+      await one(row);
+      await sleep(200);
+    }
+  }
+  await Promise.all([worker(), worker(), worker()]);
+  return { attempted: rows.length, written, pulls, weapons, summaries, skipped_lysandria: true };
 }
 
 function addBunnyAlias(dry) {

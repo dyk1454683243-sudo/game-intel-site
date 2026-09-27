@@ -57,16 +57,18 @@
     "https://www.gamekee.com/hw/635215.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 635215,
   "gamekee_entry_id": 163592,
   "verified": "GameKee hw/635215 图鉴",
+  "note": "抽取建议: 当前版本能吃到不少辅助的加成，半神化后配合艾尔涅斯特（增伤）+阿岚（破甲）+蕾雅有不错的上限，能超越很多同T度的角色。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/635215.html"
     ],
     "tier": "T1 / 输出 / 追击 / 血海女王",
+    "pull": "当前版本能吃到不少辅助的加成，半神化后配合艾尔涅斯特（增伤）+阿岚（破甲）+蕾雅有不错的上限，能超越很多同T度的角色。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

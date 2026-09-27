@@ -62,16 +62,18 @@
     "https://www.gamekee.com/hw/634358.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634358,
   "gamekee_entry_id": 163043,
   "verified": "GameKee hw/634358 图鉴",
+  "note": "抽取建议: 抽1个解锁女王好感剧情即可。从女王的情况来看即使有专武也未必有用。早期作为比女王便宜的逃课角色使用，现在没有什么用的必要。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634358.html"
     ],
     "tier": "T2 / 卡位 / 星光君主",
+    "pull": "抽1个解锁女王好感剧情即可。从女王的情况来看即使有专武也未必有用。早期作为比女王便宜的逃课角色使用，现在没有什么用的必要。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

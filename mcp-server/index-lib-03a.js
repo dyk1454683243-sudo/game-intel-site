@@ -63,6 +63,8 @@ import {
   searchGamekee,
   searchTaptap,
   searchInven,
+  searchSteamComingSoon,
+  searchFourGamer,
   radarHitTitle,
 } from "./index-lib-02.js";
 
@@ -133,7 +135,42 @@ async function radar({ q } = {}) {
     }
   }
 
-  const filtered = dedupeByUrlOrTitle(collected)
+  let steamSoon = { as_of: null, source_url: null, error: null };
+  try {
+    const soon = await searchSteamComingSoon({ limit: 4 });
+    steamSoon = {
+      as_of: soon.as_of || null,
+      source_url: soon.source_url || null,
+      error: soon.ok ? null : soon.error || null,
+    };
+    for (const it of soon.items || []) {
+      collected.push({
+        ...it,
+        why: `steam_coming_soon:${it.as_of || soon.as_of || "upcoming"}`,
+      });
+    }
+  } catch {
+    /* ignore */
+  }
+
+  let fourGamer = { source_url: null, error: null };
+  try {
+    const fg = await searchFourGamer({ limit: 3, mode: "radar" });
+    fourGamer = {
+      source_url: fg.source_url || null,
+      error: fg.ok ? null : fg.error || null,
+    };
+    for (const it of fg.items || []) {
+      collected.push({
+        ...it,
+        why: `four_gamer:${it.as_of || "rss"}`,
+      });
+    }
+  } catch {
+    /* ignore */
+  }
+
+  const shaped = dedupeByUrlOrTitle(collected)
     .filter((it) => !isNoise(it))
     .filter((it) => passesGamekeeRadarTitle(it))
     .map((it) => ({
@@ -141,9 +178,18 @@ async function radar({ q } = {}) {
       url: it.url,
       source: it.source,
       why: truncate(it.why || "radar", 40),
+      ...(it.as_of ? { as_of: it.as_of } : {}),
+      ...(it.date ? { date: it.date } : {}),
       _score: radarScore(it),
-    }))
+    }));
+  const reserved = shaped.filter(
+    (it) => it.source === "steam_coming_soon" || it.source === "four_gamer"
+  );
+  const ranked = shaped
+    .filter((it) => it.source !== "steam_coming_soon" && it.source !== "four_gamer")
     .sort((a, b) => b._score - a._score || String(a.title).localeCompare(String(b.title)))
+    .slice(0, 8);
+  const filtered = [...ranked, ...reserved]
     .slice(0, 15)
     .map(({ _score, ...rest }) => rest);
 
@@ -151,6 +197,10 @@ async function radar({ q } = {}) {
     ok: filtered.length > 0,
     count: filtered.length,
     keywords,
+    channels: {
+      steam_coming_soon: steamSoon,
+      four_gamer: fourGamer,
+    },
     items: filtered,
   };
 }
