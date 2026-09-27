@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Attacker",
   "skills": [
     {
       "name": "Ex Magazine",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when entering Full Burst. Affects all allies. ATK ▲ 18.77% for 10 sec. Reload Speed ▲ 22.88% for 10 sec. Max Ammunition Capacity ▼ 50.66% for 10 sec."
     },
     {
       "name": "LD Assault",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when the last bullet hits the target. Affects the target. Deals 50.7% of final ATK as additional damage. ■ Affects the enemy hit by the last round of ammunition if they are Stunned. Deals 643.5% of final ATK as additional damage."
     },
     {
       "name": "AK Missile",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects all enemies. Deals 270.56% of final ATK as Burst Skill damage. Stuns for 3 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/7/7",
+    "预算练度 7/7/4"
+  ],
   "burst": "Burst 3",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "AR",
+  "element": "Water",
+  "manufacturer": "Elysion",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/privaty-treasure"
+    "https://www.prydwen.gg/nikke/characters/privaty-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/privaty/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "privaty-treasure",
-  "verified": "Prydwen /nikke/characters/privaty-treasure",
+  "verified": "Prydwen /nikke/characters/privaty-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SS",
+    "boss": "SSS",
+    "pvp": "S",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "privaty?treasure=true",
+    "character_url": "https://nikke.gg/characters/privaty/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 3",
+    "tier": "Nikke.gg 综合 SSS（故事 SS / Boss SSS / PvP S）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/privaty/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/privaty-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / Burst 3 / Attacker / Water / Elysion"
   }
 }

@@ -24,7 +24,11 @@
       "summary": "■自身 【爆炸范围59.09%▲】【持续10秒】 【无视防御力伤害35.45%▲】【持续10秒】 ■对全体敌人（包括零件）造成 【最终攻击力290.9%的无视防御力爆裂技能伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/10/7",
+    "预算练度 4/7/4"
+  ],
   "burst": "飞弹就绪",
   "weapon": "纯粹怪物 T",
   "element": "燃烧",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
-    "https://www.gamekee.com/nikke/674867.html"
+    "https://www.gamekee.com/nikke/674867.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/vesti-tactical-upgrade/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 674867,
   "gamekee_entry_id": 193470,
   "prydwen_slug": "vesti-tactical-upgrade",
   "rarity": "SSR",
-  "verified": "GameKee nikke/674867 图鉴",
+  "verified": "GameKee nikke/674867 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SSS",
+    "boss": "A",
+    "pvp": "SSS",
+    "req_invest": true,
+    "strong_early": true,
+    "slug": "vesti-tactical-upgrade",
+    "character_url": "https://nikke.gg/characters/vesti-tactical-upgrade/"
+  },
   "summary": {
-    "position": "SSR / 飞弹就绪 / 火力型 / 燃烧 / 极乐净土",
+    "tier": "Nikke.gg 综合 SS（故事 SSS / Boss A / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/vesti-tactical-upgrade/",
       "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
       "https://www.gamekee.com/nikke/674867.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。Nikke.gg 标记低中战役缺口表现更好。",
+    "position": "SSR / 飞弹就绪 / 火力型 / 燃烧 / 极乐净土"
   }
 }

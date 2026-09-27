@@ -24,7 +24,11 @@
       "summary": "■全体电击代码的队友 【命运之轮牌：攻击伤害5.91%▲】 【持续10秒】 ■对全体敌人造成 【最终攻击力150%的爆裂技能伤害】 【审判牌：所受伤害5.91%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/7/4",
+    "预算练度 4/4/4"
+  ],
   "burst": "命运的束缚",
   "weapon": "预言家",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/arcana",
-    "https://www.gamekee.com/nikke/661994.html"
+    "https://www.gamekee.com/nikke/661994.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/arcana/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 661994,
   "gamekee_entry_id": 186774,
   "prydwen_slug": "arcana",
   "rarity": "SSR",
-  "verified": "GameKee nikke/661994 图鉴",
+  "verified": "GameKee nikke/661994 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "C",
+    "boss": "SS",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "arcana",
+    "character_url": "https://nikke.gg/characters/arcana/"
+  },
   "summary": {
-    "position": "SSR / 命运的束缚 / 辅助型 / 电击 / 极乐净土",
+    "tier": "Nikke.gg 综合 A（故事 C / Boss SS / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/arcana/",
       "https://www.prydwen.gg/nikke/characters/arcana",
       "https://www.gamekee.com/nikke/661994.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 命运的束缚 / 辅助型 / 电击 / 极乐净土"
   }
 }

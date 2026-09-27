@@ -26,7 +26,11 @@
       "summary": "■全体队友 【暴击伤害23.51%▲】【持续10秒】 【攻击伤害8.89%▲】【持续10秒】 ■若自身处于醉意状态，全体队友 【以施展者为基准的攻击力11.85% X 醉意叠加数▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 10/10/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "海盗之梦",
   "weapon": "浪漫之心",
   "element": "水冷",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mast-romantic-maid",
-    "https://www.gamekee.com/nikke/159641.html"
+    "https://www.gamekee.com/nikke/159641.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/mast-romantic-maid/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 159641,
   "gamekee_entry_id": 174880,
   "prydwen_slug": "mast-romantic-maid",
   "rarity": "SSR",
-  "verified": "GameKee nikke/159641 图鉴",
+  "verified": "GameKee nikke/159641 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SS",
+    "boss": "SSS",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "mast-romantic-maid",
+    "character_url": "https://nikke.gg/characters/mast-romantic-maid/"
+  },
   "summary": {
-    "position": "SSR / 海盗之梦 / 辅助型 / 水冷 / 极乐净土",
+    "tier": "Nikke.gg 综合 SS（故事 SS / Boss SSS / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/mast-romantic-maid/",
       "https://www.prydwen.gg/nikke/characters/mast-romantic-maid",
       "https://www.gamekee.com/nikke/159641.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 海盗之梦 / 辅助型 / 水冷 / 极乐净土"
   }
 }

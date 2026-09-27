@@ -24,7 +24,11 @@
       "summary": "■全体队友 【分摊伤害 22.46%▲】【持续10秒】 ■对距离瞄准线最近的1名敌人 【造成相当于最终攻击力46.8%的伤害】 【BOOM安装：防御力21.06%▼】 【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/7/7",
+    "预算练度 4/4/5"
+  ],
   "burst": "BOOM安装",
   "weapon": "爆弹枪",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/elegg",
-    "https://www.gamekee.com/nikke/615258.html"
+    "https://www.gamekee.com/nikke/615258.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/elegg/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 615258,
   "gamekee_entry_id": 142929,
   "prydwen_slug": "elegg",
   "rarity": "SSR",
-  "verified": "GameKee nikke/615258 图鉴",
+  "verified": "GameKee nikke/615258 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "B",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "elegg",
+    "character_url": "https://nikke.gg/characters/elegg/"
+  },
   "summary": {
-    "position": "SSR / BOOM安装 / 辅助型 / 电击 / 米西利斯",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss B / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/elegg/",
       "https://www.prydwen.gg/nikke/characters/elegg",
       "https://www.gamekee.com/nikke/615258.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / BOOM安装 / 辅助型 / 电击 / 米西利斯"
   }
 }

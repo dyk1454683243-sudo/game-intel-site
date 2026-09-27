@@ -24,7 +24,11 @@
       "summary": "■所有水冷代码队友 【攻击伤害5.99%▲】【持续10秒】 【优越代码攻击伤害11.08%▲】【持续10秒】 ■对体力最高的1名敌人造成 【相当于最终攻击力12.34%×勇者等级的持续伤害】【间隔1秒】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/10/7",
+    "预算练度 4/7/4"
+  ],
   "burst": "灭绝程式",
   "weapon": "勇气之刃",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
-    "https://www.gamekee.com/nikke/166801.html"
+    "https://www.gamekee.com/nikke/166801.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/guillotine-winter-slayer/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 166801,
   "gamekee_entry_id": 171127,
   "prydwen_slug": "guillotine-winter-slayer",
   "rarity": "SSR",
-  "verified": "GameKee nikke/166801 图鉴",
+  "verified": "GameKee nikke/166801 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "C",
+    "boss": "S",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "guillotine-winter-slayer",
+    "character_url": "https://nikke.gg/characters/guillotine-winter-slayer/"
+  },
   "summary": {
-    "position": "SSR / 灭绝程式 / 火力型 / 水冷 / 极乐净土",
+    "tier": "Nikke.gg 综合 A（故事 C / Boss S / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/guillotine-winter-slayer/",
       "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
       "https://www.gamekee.com/nikke/166801.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 灭绝程式 / 火力型 / 水冷 / 极乐净土"
   }
 }

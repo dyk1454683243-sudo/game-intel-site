@@ -6,3 +6,4 @@ NIKKE character guide cards.
 - Enrich (GameKee CDN / Prydwen HTML, never invent skills): `node mcp-server/scripts/enrich-nikke-cards.js [--limit 40]`
 - Mark incomplete cards with `"stub": true`. Never invent skill names or numbers.
 - Sources: GameKee `game-alias: nikke` 角色图鉴 (entry pid 64599) + Prydwen `/nikke/characters/{slug}`.
+- Conclusions: Nikke.gg tier list (`https://nikke.gg/tier-list/`, September 2026) supplies Combined/Story/Boss/PvP when the slug matches. Cards absent from that list stay `summary.stub: true`（未见可靠出处）. Skill lines missing from GameKee are filled from the Nikke.gg character API at level 1 only when every placeholder has a published value.

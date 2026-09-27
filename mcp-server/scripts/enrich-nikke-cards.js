@@ -8,7 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
 
@@ -244,7 +244,7 @@ function parseNikkeWiki(inner) {
       /^lv\s*1$/i.test(texts[0]) &&
       texts[1]
     ) {
-      expectSummaryFor.summary = texts[1].replace(/\s+/g, " ").trim().slice(0, 280);
+      expectSummaryFor.summary = texts[1].replace(/\s+/g, " ").trim().slice(0, 520);
       continue;
     }
   }
@@ -287,7 +287,7 @@ async function fetchDetail(contentId) {
   }
 }
 
-async function fetchGameKeeWiki(contentId) {
+export async function fetchGameKeeWiki(contentId) {
   const d = await fetchDetail(contentId);
   let cdnUrl = d.content_cdn || "";
   if (!cdnUrl) throw new Error("no_content_cdn");
@@ -634,7 +634,11 @@ async function main() {
   console.log(JSON.stringify(summary, null, 2));
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+const invokedDirectly =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (invokedDirectly) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

@@ -26,7 +26,11 @@
       "summary": "■全体队友 【储存：以施展者为基准的最大体力35.56%为上限，储存溢出获得的体力恢复量】【持续25秒】 【恢复相当于施展者最大体力的23.56%】 【以施展者为基准的攻击力17.78%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 => S2",
+    "推荐练度 10/10/7",
+    "预算练度 7/7/4"
+  ],
   "burst": "海边散步",
   "weapon": "天真的疑惑",
   "element": "水冷",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
-    "https://www.gamekee.com/nikke/164728.html"
+    "https://www.gamekee.com/nikke/164728.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/anchor-innocent-maid/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 164728,
   "gamekee_entry_id": 174879,
   "prydwen_slug": "anchor-innocent-maid",
   "rarity": "SSR",
-  "verified": "GameKee nikke/164728 图鉴",
+  "verified": "GameKee nikke/164728 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SS",
+    "boss": "SS",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "anchor-innocent-maid",
+    "character_url": "https://nikke.gg/characters/anchor-innocent-maid/"
+  },
   "summary": {
-    "position": "SSR / 海边散步 / 辅助型 / 水冷 / 极乐净土",
+    "tier": "Nikke.gg 综合 SS（故事 SS / Boss SS / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/anchor-innocent-maid/",
       "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
       "https://www.gamekee.com/nikke/164728.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 海边散步 / 辅助型 / 水冷 / 极乐净土"
   }
 }

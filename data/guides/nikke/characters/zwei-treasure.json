@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Supporter",
   "skills": [
     {
       "name": "Pierce Equation",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when entering Full Burst. Affects all allies. Pierce Damage ▲ 11.89% for 1 round(s). Pierce Damage ▲ 5.94% for 10 sec."
     },
     {
       "name": "Frame Analysis",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates after performing 5 normal attacks. Affects all allies. Restores 4.38% of cover HP. ■ Activates when entering Full Burst. Affects all allies. Critical Rate ▲ 11.01% for 5 sec."
     },
     {
       "name": "Overcharge Formula",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects self. Changes the weapon in use: Charge Time: 1.5 sec Damage: 29.95% of final ATK Full Charge Damage: 300% of damage Max Ammunition Capacity: 1 Additional Effect: Pierce ■ Affects all allies. Pierce Damage ▲ 9.15% for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 7/10/7",
+    "预算练度 4/4/4"
+  ],
   "burst": "Burst 1",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "SG",
+  "element": "Electric",
+  "manufacturer": "Elysion",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/zwei-treasure"
+    "https://www.prydwen.gg/nikke/characters/zwei-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/zwei/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "zwei-treasure",
-  "verified": "Prydwen /nikke/characters/zwei-treasure",
+  "verified": "Prydwen /nikke/characters/zwei-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "A",
+    "boss": "S",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "zwei?treasure=true",
+    "character_url": "https://nikke.gg/characters/zwei/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 1",
+    "tier": "Nikke.gg 综合 A（故事 A / Boss S / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/zwei/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/zwei-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 1 / Supporter / Electric / Elysion"
   }
 }

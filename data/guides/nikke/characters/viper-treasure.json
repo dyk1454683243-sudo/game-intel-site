@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Attacker",
   "skills": [
     {
       "name": "Snake Sense",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when the stage target appears. Affects all allies. ATK ▲ 12.99% for 10 sec. Hit Rate ▲ 5.56% for 10 sec."
     },
     {
       "name": "Snake Scale",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Affects self. Hit Rate ▲ 1.71% continuously. ■ Activates when entering Full Burst. Affects self. Vamp: Prevents being targeted by single-target attacks for 10 sec. This effect is removed upon taking a direct hit. Invulnerable for 1 sec."
     },
     {
       "name": "Snake Bite",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects 1 designated enemy unit(s). Deals 231.42% of final ATK as damage. ■ Affects the enemy if the enemy is the stage target. DEF ▼ 9.91% for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/4/10",
+    "预算练度 7/4/7"
+  ],
   "burst": "Burst 2",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "SG",
+  "element": "Water",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/viper-treasure"
+    "https://www.prydwen.gg/nikke/characters/viper-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/viper/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "viper-treasure",
-  "verified": "Prydwen /nikke/characters/viper-treasure",
+  "verified": "Prydwen /nikke/characters/viper-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "D",
+    "boss": "S",
+    "pvp": "S",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "viper?treasure=true",
+    "character_url": "https://nikke.gg/characters/viper/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 2",
+    "tier": "Nikke.gg 综合 B（故事 D / Boss S / PvP S）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/viper/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/viper-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 2 / Attacker / Water / Tetra"
   }
 }

@@ -24,7 +24,11 @@
       "summary": "■对全体敌人（包括零件）造成 【最终攻击力290.9%的爆裂技能伤害】 ■对自身施加 【A.N.模式】： 效果1：【解除单点攻击】 效果2：【持续伤害52.85%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "飙风",
   "weapon": "急冻刀",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/crow",
-    "https://www.gamekee.com/nikke/667602.html"
+    "https://www.gamekee.com/nikke/667602.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/crow/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 667602,
   "gamekee_entry_id": 189412,
   "prydwen_slug": "crow",
   "rarity": "SSR",
-  "verified": "GameKee nikke/667602 图鉴",
+  "verified": "GameKee nikke/667602 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "F",
+    "story": "F",
+    "boss": "F",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "crow",
+    "character_url": "https://nikke.gg/characters/crow/"
+  },
   "summary": {
-    "position": "SSR / 飙风 / 火力型 / 铁甲 / 反常",
+    "tier": "Nikke.gg 综合 F（故事 F / Boss F / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/crow/",
       "https://www.prydwen.gg/nikke/characters/crow",
       "https://www.gamekee.com/nikke/667602.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 飙风 / 火力型 / 铁甲 / 反常"
   }
 }

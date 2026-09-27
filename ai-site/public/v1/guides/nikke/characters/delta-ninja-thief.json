@@ -24,7 +24,11 @@
       "summary": "■全体队友 【分摊伤害11.82%▲】【持续10秒】 【以施展者为基准的攻击力8.86%▲】【持续10秒】 ■对全体敌人造成 【最终攻击力102.6%的分摊伤害】 ■自身若处于注目状态，自身 【下一个护盾体力11.9%▲】【持续10秒】 ■自身若处于忍术．注射状态，自身 【忍术．个人急救包最大累积量11.9%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/4/4",
+    "预算练度 4/4/1"
+  ],
   "burst": "密技·忍者超速运作",
   "weapon": "忍者之力",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/delta-ninja-thief",
-    "https://www.gamekee.com/nikke/680619.html"
+    "https://www.gamekee.com/nikke/680619.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/delta-ninja-thief/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 680619,
   "gamekee_entry_id": 196639,
   "prydwen_slug": "delta-ninja-thief",
   "rarity": "SSR",
-  "verified": "GameKee nikke/680619 图鉴",
+  "verified": "GameKee nikke/680619 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "A",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "delta-ninja-thief",
+    "character_url": "https://nikke.gg/characters/delta-ninja-thief/"
+  },
   "summary": {
-    "position": "SSR / 密技·忍者超速运作 / 防御型 / 水冷 / 极乐净土",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss A / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/delta-ninja-thief/",
       "https://www.prydwen.gg/nikke/characters/delta-ninja-thief",
       "https://www.gamekee.com/nikke/680619.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 密技·忍者超速运作 / 防御型 / 水冷 / 极乐净土"
   }
 }

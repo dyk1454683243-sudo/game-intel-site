@@ -15,7 +15,7 @@
       "name": "狂暴扣杀",
       "type": "active",
       "costume": "毁灭天使",
-      "summary": "3"
+      "summary": "友军的SP恢复3点。对敌人造成1的物理伤害，并将目标向后方击退2格。对被撞击的敌人造成相当于被推开目标最大生命力150%的物理伤害。6回合内，对敌人应用造成相当于自身攻击力225%的物理伤害的出血效果。"
     },
     {
       "name": "我、我来帮忙！",
@@ -63,16 +63,35 @@
     "https://www.gamekee.com/zsca2/593606.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593606,
   "gamekee_entry_id": 122352,
   "verified": "GameKee zsca2/593606 图鉴",
+  "costume_ratings": [
+    {
+      "label": "海边天使·泰瑞丝服装",
+      "tier": "T0",
+      "source": "https://www.gamekee.com/zsca2/631518.html",
+      "content_id": 631518,
+      "pull": "必抽，尽量拉满，最少+3，+5最好"
+    },
+    {
+      "label": "原皮泰瑞丝",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/652516.html",
+      "content_id": 652516
+    }
+  ],
   "summary": {
-    "position": "5星 / 水 / 物理 / 辅助",
+    "tier": "GameKee 服装测评：海边天使·泰瑞丝服装 T0；原皮泰瑞丝 T1",
     "sources": [
+      "https://www.gamekee.com/zsca2/631518.html",
+      "https://www.gamekee.com/zsca2/652516.html",
       "https://www.gamekee.com/zsca2/593606.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 水 / 物理 / 辅助",
+    "pull": "海边天使·泰瑞丝服装：必抽，尽量拉满，最少+3，+5最好"
   }
 }

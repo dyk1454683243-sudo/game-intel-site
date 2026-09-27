@@ -26,7 +26,11 @@
       "summary": "■对攻击范围内的敌人造成 【相当于最终攻击力99.84%的伤害】 【烧伤：造成相当于最终攻击力7.48%的持续伤害】 【间隔1秒】【持续10秒】 ■自身 【最大装弹数3发 ▲】【持续15秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "伯恩．天启",
   "weapon": "旧世界的末日",
   "element": "燃烧",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/nihilister",
-    "https://www.gamekee.com/nikke/587422.html"
+    "https://www.gamekee.com/nikke/587422.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/nihilister/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 587422,
   "gamekee_entry_id": 118390,
   "prydwen_slug": "nihilister",
   "rarity": "SSR",
-  "verified": "GameKee nikke/587422 图鉴",
+  "verified": "GameKee nikke/587422 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "C",
+    "boss": "D",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "nihilister",
+    "character_url": "https://nikke.gg/characters/nihilister/"
+  },
   "summary": {
-    "position": "SSR / 伯恩．天启 / 火力型 / 燃烧 / 朝圣者",
+    "tier": "Nikke.gg 综合 D（故事 C / Boss D / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/nihilister/",
       "https://www.prydwen.gg/nikke/characters/nihilister",
       "https://www.gamekee.com/nikke/587422.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 伯恩．天启 / 火力型 / 燃烧 / 朝圣者"
   }
 }

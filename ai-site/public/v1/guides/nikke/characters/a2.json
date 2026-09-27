@@ -24,7 +24,11 @@
       "summary": "■自身 【B模式】： 功能：每秒降低自身体力，同时提升攻击力与蓄力速度。若自身体力为40%以下，则解除B模式。 效果1：【目前体力5.61%▼】【间隔1秒】 效果2：【攻击力9.36%▲】 效果3：【蓄力速度23.02%▲】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 7/7/7",
+    "预算练度 1/1/1"
+  ],
   "burst": "B模式",
   "weapon": "四零式斩机刀",
   "element": "燃烧",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/a2",
-    "https://www.gamekee.com/nikke/599115.html"
+    "https://www.gamekee.com/nikke/599115.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/a2/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 599115,
   "gamekee_entry_id": 125853,
   "prydwen_slug": "a2",
   "rarity": "SSR",
-  "verified": "GameKee nikke/599115 图鉴",
+  "verified": "GameKee nikke/599115 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "S",
+    "boss": "A",
+    "pvp": "S",
+    "req_invest": false,
+    "strong_early": true,
+    "slug": "a2",
+    "character_url": "https://nikke.gg/characters/a2/"
+  },
   "summary": {
-    "position": "SSR / B模式 / 火力型 / 燃烧 / 反常",
+    "tier": "Nikke.gg 综合 A（故事 S / Boss A / PvP S）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/a2/",
       "https://www.prydwen.gg/nikke/characters/a2",
       "https://www.gamekee.com/nikke/599115.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记低中战役缺口表现更好。",
+    "position": "SSR / B模式 / 火力型 / 燃烧 / 反常"
   }
 }

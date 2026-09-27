@@ -26,7 +26,11 @@
       "summary": "■自身 【攻击伤害6.24%▲】【持续10秒】 【暴击伤害52.1%▲】【持续10秒】 ■对所有敌人造成 【相当于最终攻击力630.3%的伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/7/7",
+    "预算练度 7/5/5"
+  ],
   "burst": "害羞！你的女仆",
   "weapon": "野蛮情人",
   "element": "电击",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
-    "https://www.gamekee.com/nikke/614623.html"
+    "https://www.gamekee.com/nikke/614623.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/privaty-unkind-maid/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 614623,
   "gamekee_entry_id": 141478,
   "prydwen_slug": "privaty-unkind-maid",
   "rarity": "SSR",
-  "verified": "GameKee nikke/614623 图鉴",
+  "verified": "GameKee nikke/614623 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "B",
+    "boss": "A",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "privaty-unkind-maid",
+    "character_url": "https://nikke.gg/characters/privaty-unkind-maid/"
+  },
   "summary": {
-    "position": "SSR / 害羞！你的女仆 / 火力型 / 电击 / 极乐净土",
+    "tier": "Nikke.gg 综合 A（故事 B / Boss A / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/privaty-unkind-maid/",
       "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
       "https://www.gamekee.com/nikke/614623.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 害羞！你的女仆 / 火力型 / 电击 / 极乐净土"
   }
 }

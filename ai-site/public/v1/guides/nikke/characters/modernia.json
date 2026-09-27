@@ -12,42 +12,68 @@
     "摩登"
   ],
   "game": "nikke",
-  "role": null,
+  "role": "Attacker",
   "skills": [
     {
       "name": "High-Speed Evolution",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when landing a normal attack. Affects the target. Deals 1.9% of final ATK as additional damage. ■ Activates after landing 200 normal attacks. Affects self. Critical Damage ▲ 9.93%. Stacks up to 5 times and lasts for 10 sec. Max Ammunition Capacity ▼ 5.04%. Stacks up to 5 times and lasts for 10 sec."
     },
     {
       "name": "Giant Leap",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when entering Full Burst. Affects all allies. Hit Rate ▲ 5.35% for 15 sec. ■ Activates after landing 200 normal attacks while the skill user's hit rate is increased. Affects self. ATK ▲ 18.36% for 10 sec."
     },
     {
       "name": "New World",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects all allies. Full Burst Duration ▲ 5 sec. ■ Affects self. Unlimited ammunition for 15 sec. Destroy Mode: Extends her line of sight and auto-aims at all enemies within range. The stage target is treated as a single enemy regardless of whether it has parts (including interruption parts). Deals 1.52% of final ATK as damage for 15 sec."
     }
   ],
-  "skill_prio": [],
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/10/7",
+    "预算练度 7/5/5"
+  ],
+  "weapon": "MG",
+  "element": "Fire",
+  "manufacturer": "Pilgrim",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/modernia"
+    "https://www.prydwen.gg/nikke/characters/modernia",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/modernia/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "modernia",
   "burst": "Burst 3",
-  "verified": "Prydwen /nikke/characters/modernia",
+  "verified": "Prydwen /nikke/characters/modernia；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "A",
+    "boss": "S",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": true,
+    "slug": "modernia",
+    "character_url": "https://nikke.gg/characters/modernia/"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 3",
+    "tier": "Nikke.gg 综合 A（故事 A / Boss S / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/modernia/",
       "https://www.prydwen.gg/nikke/characters/modernia"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记低中战役缺口表现更好。",
+    "position": "SSR / Burst 3 / Attacker / Fire / Pilgrim"
   }
 }

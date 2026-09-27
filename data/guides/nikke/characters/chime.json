@@ -24,7 +24,11 @@
       "summary": "■全体队友 【重新进入爆裂2阶】 【最大装弹数11.82%▲】【持续10秒】 ■赋予我的国王 【忠心：攻击伤害54.62%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/7",
+    "预算练度 4/7/7"
+  ],
   "burst": "为了国王",
   "weapon": "钟鸣铃",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/chime",
-    "https://www.gamekee.com/nikke/682342.html"
+    "https://www.gamekee.com/nikke/682342.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/chime/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 682342,
   "gamekee_entry_id": 197548,
   "prydwen_slug": "chime",
   "rarity": "SSR",
-  "verified": "GameKee nikke/682342 图鉴",
+  "verified": "GameKee nikke/682342 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "S",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "chime",
+    "character_url": "https://nikke.gg/characters/chime/"
+  },
   "summary": {
-    "position": "SSR / 为了国王 / 辅助型 / 铁甲 / 朝圣者",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss S / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/chime/",
       "https://www.prydwen.gg/nikke/characters/chime",
       "https://www.gamekee.com/nikke/682342.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 为了国王 / 辅助型 / 铁甲 / 朝圣者"
   }
 }

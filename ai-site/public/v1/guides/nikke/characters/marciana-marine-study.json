@@ -24,7 +24,11 @@
       "summary": "■自身 【优越代码攻击伤害18.3%▲】【持续10秒】 【攻击伤害16.22%▲】【持续10秒】 ■对全体电击代码的敌人 【高危险对象：防御力6.24%▼】【持续20秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/7",
+    "预算练度 7/7/7"
+  ],
   "burst": "企鹅螺旋",
   "weapon": "企鹅救援",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/marciana-marine-study",
-    "https://www.gamekee.com/nikke/711739.html"
+    "https://www.gamekee.com/nikke/711739.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/marciana-marine-study/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 711739,
   "gamekee_entry_id": 218512,
   "prydwen_slug": "marciana-marine-study",
   "rarity": "SSR",
-  "verified": "GameKee nikke/711739 图鉴",
+  "verified": "GameKee nikke/711739 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "S",
+    "story": "S",
+    "boss": "SS",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "marciana-marine-study",
+    "character_url": "https://nikke.gg/characters/marciana-marine-study/"
+  },
   "summary": {
-    "position": "SSR / 企鹅螺旋 / 火力型 / 铁甲 / 极乐净土",
+    "tier": "Nikke.gg 综合 S（故事 S / Boss SS / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/marciana-marine-study/",
       "https://www.prydwen.gg/nikke/characters/marciana-marine-study",
       "https://www.gamekee.com/nikke/711739.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 企鹅螺旋 / 火力型 / 铁甲 / 极乐净土"
   }
 }

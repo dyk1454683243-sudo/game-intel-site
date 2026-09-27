@@ -6,42 +6,67 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Supporter",
   "skills": [
     {
       "name": "... I Want To Sleep",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates after landing 4 normal attacks. Affects the target(s). DEF ▼ 9.35% for 10 sec."
     },
     {
       "name": "... Ah",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when performing a Full Charge attack. Affects all allies. Max HP ▲ 3.6% for 4 sec."
     },
     {
       "name": "… Annoying",
       "type": "active"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "Burst 1",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "SR",
+  "element": "Iron",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/frima-treasure"
+    "https://www.prydwen.gg/nikke/characters/frima-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/frima/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "frima-treasure",
-  "verified": "Prydwen /nikke/characters/frima-treasure",
+  "verified": "Prydwen /nikke/characters/frima-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "C",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "frima?treasure=true",
+    "character_url": "https://nikke.gg/characters/frima/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 1",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss C / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/frima/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/frima-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 1 / Supporter / Iron / Tetra"
   }
 }

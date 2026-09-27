@@ -24,7 +24,11 @@
       "summary": "■全体队友 【产生相当于施展者的最终最大体力5.04%的护盾】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "别给拉姆添麻烦",
   "weapon": "/",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/ram",
-    "https://www.gamekee.com/nikke/618548.html"
+    "https://www.gamekee.com/nikke/618548.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/ram/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 618548,
   "gamekee_entry_id": 146357,
   "prydwen_slug": "ram",
   "rarity": "SR",
-  "verified": "GameKee nikke/618548 图鉴",
+  "verified": "GameKee nikke/618548 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "E",
+    "boss": "D",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "ram",
+    "character_url": "https://nikke.gg/characters/ram/"
+  },
   "summary": {
-    "position": "SR / 别给拉姆添麻烦 / 防御型 / 风压 / 反常",
+    "tier": "Nikke.gg 综合 D（故事 E / Boss D / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/ram/",
       "https://www.prydwen.gg/nikke/characters/ram",
       "https://www.gamekee.com/nikke/618548.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 别给拉姆添麻烦 / 防御型 / 风压 / 反常"
   }
 }

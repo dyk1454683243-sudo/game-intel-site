@@ -32,22 +32,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/kurumi",
-    "https://www.gamekee.com/nikke/695279.html"
+    "https://www.gamekee.com/nikke/695279.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/kurumi/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 695279,
   "gamekee_entry_id": 209189,
   "prydwen_slug": "kurumi",
   "rarity": "SR",
-  "verified": "GameKee nikke/695279 图鉴",
+  "verified": "GameKee nikke/695279 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "C",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "kurumi",
+    "character_url": "https://nikke.gg/characters/kurumi/"
+  },
   "summary": {
-    "position": "SR / 防御协议破坏 / 辅助型 / 铁甲 / 反常",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss C / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/kurumi/",
       "https://www.prydwen.gg/nikke/characters/kurumi",
       "https://www.gamekee.com/nikke/695279.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 防御协议破坏 / 辅助型 / 铁甲 / 反常"
   }
 }

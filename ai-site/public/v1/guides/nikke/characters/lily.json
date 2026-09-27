@@ -24,7 +24,11 @@
       "summary": "■随机1名掩体遭到破坏的队友 【以掩体体力17.73%复活掩体】 【以施展者为基准的攻击力11.82%▲】【持续10秒】 ■若无掩体遭到破坏的队友，随机1名队友 【以施展者为基准的攻击力23.63%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "最棒的工程师！",
   "weapon": "阿缇米斯炮",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/lily",
-    "https://www.gamekee.com/nikke/667898.html"
+    "https://www.gamekee.com/nikke/667898.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/lily/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 667898,
   "gamekee_entry_id": 189414,
   "prydwen_slug": "lily",
   "rarity": "SR",
-  "verified": "GameKee nikke/667898 图鉴",
+  "verified": "GameKee nikke/667898 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "E",
+    "story": "D",
+    "boss": "E",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "lily",
+    "character_url": "https://nikke.gg/characters/lily/"
+  },
   "summary": {
-    "position": "SR / 最棒的工程师！ / 辅助型 / 风压 / 反常",
+    "tier": "Nikke.gg 综合 E（故事 D / Boss E / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/lily/",
       "https://www.prydwen.gg/nikke/characters/lily",
       "https://www.gamekee.com/nikke/667898.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 最棒的工程师！ / 辅助型 / 风压 / 反常"
   }
 }

@@ -6,42 +6,67 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Defender",
   "skills": [
     {
       "name": "Bring It On!",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates at the start of battle. Affects self. DEF ▲ 1.93% continuously for every 1% of HP lost. ■ Activates after landing 5 normal attacks while weapon is changed. Affects the target. Deals 25.95% of final ATK as additional damage."
     },
     {
       "name": "Leave It To Me!",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when firing the final bullet. Affects the 3 enemy unit(s) with the highest final ATK. Taunts for 4 sec. ■ Activates when HP falls below 20%. Affects self. Effects vary according to the number of uses. Perseverance: Only one effect is triggered at a time. Once: Max HP ▲ 55% for 3 sec. Activates once per battle. Twice: Max HP ▲ 36.09% for 3 sec. Activates once per battle. Three Times: Max HP ▲ 25.78% for 3 sec. Activates once per battle."
     },
     {
       "name": "Fair and Square",
       "type": "active"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/10",
+    "预算练度 4/7/4"
+  ],
   "burst": "Burst 1",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "AR",
+  "element": "Electric",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/moran-treasure"
+    "https://www.prydwen.gg/nikke/characters/moran-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/moran/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "moran-treasure",
-  "verified": "Prydwen /nikke/characters/moran-treasure",
+  "verified": "Prydwen /nikke/characters/moran-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SSS",
+    "pvp": "SSS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "moran?treasure=true",
+    "character_url": "https://nikke.gg/characters/moran/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 1",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SSS / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/moran/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/moran-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 1 / Defender / Electric / Tetra"
   }
 }

@@ -26,7 +26,11 @@
       "summary": "■全体队友 【恢复相当于施展者最终最大体力的18.56%】 ■攻击力最高的1名无法战斗状态的队友 【以37.12%的体力复活】 ■若自身的体力为30%以下时，全体敌人陷入 【昏迷】【持续1秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/5/7",
+    "预算练度 1/1/1"
+  ],
   "burst": "世外桃源",
   "weapon": "圣恩",
   "element": "铁甲",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rapunzel",
-    "https://www.gamekee.com/nikke/170850.html"
+    "https://www.gamekee.com/nikke/170850.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/rapunzel/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 170850,
   "gamekee_entry_id": 113077,
   "prydwen_slug": "rapunzel",
   "rarity": "SSR",
-  "verified": "GameKee nikke/170850 图鉴",
+  "verified": "GameKee nikke/170850 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "B",
+    "boss": "B",
+    "pvp": "SS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "rapunzel",
+    "character_url": "https://nikke.gg/characters/rapunzel/"
+  },
   "summary": {
-    "position": "SSR / 世外桃源 / 辅助型 / 铁甲 / 朝圣者",
+    "tier": "Nikke.gg 综合 B（故事 B / Boss B / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/rapunzel/",
       "https://www.prydwen.gg/nikke/characters/rapunzel",
       "https://www.gamekee.com/nikke/170850.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 世外桃源 / 辅助型 / 铁甲 / 朝圣者"
   }
 }

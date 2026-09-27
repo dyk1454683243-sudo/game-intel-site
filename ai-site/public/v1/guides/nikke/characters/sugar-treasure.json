@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Attacker",
   "skills": [
     {
       "name": "Black Typhoon",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ There is a 20% chance of activating when cover is attacked. Affects self. Critical Damage ▲ 9.68% for 10 sec. Reload Speed ▲ 7.16% for 10 sec."
     },
     {
       "name": "Noire Sensor",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when entering Full Burst. Affects self. Critical Rate ▲ 7.69% for 10 sec. ■ Activates when entering Full Burst. Affects all allies with shotguns. Max Ammunition Capacity ▲ 49.52% for 10 sec."
     },
     {
       "name": "Trouble Shooter",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects self. Attack Speed ▲ 39% for 15 sec. Hit Rate ▲ 19.5% for 15 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/10",
+    "预算练度 4/7/7"
+  ],
   "burst": "Burst 3",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "SG",
+  "element": "Iron",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/sugar-treasure"
+    "https://www.prydwen.gg/nikke/characters/sugar-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/sugar/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "sugar-treasure",
-  "verified": "Prydwen /nikke/characters/sugar-treasure",
+  "verified": "Prydwen /nikke/characters/sugar-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "B",
+    "boss": "SS",
+    "pvp": "C",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "sugar?treasure=true",
+    "character_url": "https://nikke.gg/characters/sugar/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 3",
+    "tier": "Nikke.gg 综合 A（故事 B / Boss SS / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/sugar/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/sugar-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / Burst 3 / Attacker / Iron / Tetra"
   }
 }

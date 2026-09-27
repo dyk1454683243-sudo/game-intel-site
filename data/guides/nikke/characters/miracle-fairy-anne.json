@@ -26,7 +26,11 @@
       "summary": "■火力型全体队友 【恢复相当于施展者最终最大体力的21.23%】 【攻击力42.47% ▲】【持续10秒】 ■无法战斗状态的随机1名火力型队友 【以54.45%的体力复活】【战斗中触发1次】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 4/4/5",
+    "预算练度 1/1/1"
+  ],
   "burst": "蓝蝶之梦",
   "weapon": "蜉蝣",
   "element": "风压",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
-    "https://www.gamekee.com/nikke/578097.html"
+    "https://www.gamekee.com/nikke/578097.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/anne-miracle-fairy/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 578097,
   "gamekee_entry_id": 114279,
   "prydwen_slug": "miracle-fairy-anne",
   "rarity": "SSR",
-  "verified": "GameKee nikke/578097 图鉴",
+  "verified": "GameKee nikke/578097 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "B",
+    "boss": "D",
+    "pvp": "SS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "anne-miracle-fairy",
+    "character_url": "https://nikke.gg/characters/anne-miracle-fairy/"
+  },
   "summary": {
-    "position": "SSR / 蓝蝶之梦 / 辅助型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 C（故事 B / Boss D / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/anne-miracle-fairy/",
       "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
       "https://www.gamekee.com/nikke/578097.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 蓝蝶之梦 / 辅助型 / 风压 / 米西利斯"
   }
 }

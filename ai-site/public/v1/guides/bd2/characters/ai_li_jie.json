@@ -21,7 +21,7 @@
       "name": "慎重地···砰！",
       "type": "active",
       "costume": "代号O",
-      "summary": "4"
+      "summary": "友军的SP恢复4点。对敌人造成相当于自身攻击力1000%的物理伤害。"
     },
     {
       "name": "我也想赢嘛！",
@@ -55,16 +55,26 @@
     "https://www.gamekee.com/zsca2/593626.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593626,
   "gamekee_entry_id": 122360,
   "verified": "GameKee zsca2/593626 图鉴",
+  "costume_ratings": [
+    {
+      "label": "可爱的小姐-爱丽洁服装",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/646162.html",
+      "content_id": 646162
+    }
+  ],
   "summary": {
-    "position": "5星 / 火 / 物理 / 输出",
+    "tier": "GameKee 服装测评：可爱的小姐-爱丽洁服装 T2",
     "sources": [
+      "https://www.gamekee.com/zsca2/646162.html",
       "https://www.gamekee.com/zsca2/593626.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 火 / 物理 / 输出"
   }
 }

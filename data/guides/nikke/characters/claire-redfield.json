@@ -32,22 +32,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/claire-redfield",
-    "https://www.gamekee.com/nikke/678481.html"
+    "https://www.gamekee.com/nikke/678481.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/claire/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 678481,
   "gamekee_entry_id": 195279,
   "prydwen_slug": "claire-redfield",
   "rarity": "SR",
-  "verified": "GameKee nikke/678481 图鉴",
+  "verified": "GameKee nikke/678481 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "C",
+    "boss": "C",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "claire",
+    "character_url": "https://nikke.gg/characters/claire/"
+  },
   "summary": {
-    "position": "SR / R+G+B / 辅助型 / 电击 / 反常",
+    "tier": "Nikke.gg 综合 C（故事 C / Boss C / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/claire/",
       "https://www.prydwen.gg/nikke/characters/claire-redfield",
       "https://www.gamekee.com/nikke/678481.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / R+G+B / 辅助型 / 电击 / 反常"
   }
 }

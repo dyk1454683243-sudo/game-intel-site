@@ -24,7 +24,11 @@
       "summary": "■对全体敌人造成 【所受伤害14.82%▲】【持续10秒】【最终攻击力10.89%的持续伤害】【间隔1秒】【持续9秒】 ■若命中对象为指定目标，则对同一敌人造成 【最终攻击力107.07%的持续伤害】【间隔1秒】【持续9秒】 ■若自身处于歌声最高潮状态，除自身之外的全体队友 【噪音污染：命中率100%▼】【持续1秒】 ■自身处于歌声最高潮状态时，则全体队友 【静音叠加量1个▼】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/10",
+    "预算练度 4/10/7"
+  ],
   "burst": "啦啦啦♬",
   "weapon": "蜜糖轨道",
   "element": "燃烧",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
-    "https://www.gamekee.com/nikke/684848.html"
+    "https://www.gamekee.com/nikke/684848.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/diesel-winter-sweets/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 684848,
   "gamekee_entry_id": 199281,
   "prydwen_slug": "diesel-winter-sweets",
   "rarity": "SSR",
-  "verified": "GameKee nikke/684848 图鉴",
+  "verified": "GameKee nikke/684848 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "S",
+    "boss": "SSS",
+    "pvp": "C",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "diesel-winter-sweets",
+    "character_url": "https://nikke.gg/characters/diesel-winter-sweets/"
+  },
   "summary": {
-    "position": "SSR / 啦啦啦♬ / 火力型 / 燃烧 / 极乐净土",
+    "tier": "Nikke.gg 综合 SS（故事 S / Boss SSS / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/diesel-winter-sweets/",
       "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
       "https://www.gamekee.com/nikke/684848.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 啦啦啦♬ / 火力型 / 燃烧 / 极乐净土"
   }
 }

@@ -24,7 +24,11 @@
       "summary": "■全体队友 【恢复相当于施展者最终最大体力的26.4%】 ■自身 【穿透特化】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 1/4/4",
+    "预算练度 1/4/1"
+  ],
   "burst": "特殊誓约效果",
   "weapon": "暮之契约",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/snow-crane",
-    "https://www.gamekee.com/nikke/701435.html"
+    "https://www.gamekee.com/nikke/701435.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/snow-crane/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 701435,
   "gamekee_entry_id": 213156,
   "prydwen_slug": "snow-crane",
   "rarity": "SSR",
-  "verified": "GameKee nikke/701435 图鉴",
+  "verified": "GameKee nikke/701435 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "snow-crane",
+    "character_url": "https://nikke.gg/characters/snow-crane/"
+  },
   "summary": {
-    "position": "SSR / 特殊誓约效果 / 防御型 / 水冷 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/snow-crane/",
       "https://www.prydwen.gg/nikke/characters/snow-crane",
       "https://www.gamekee.com/nikke/701435.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 特殊誓约效果 / 防御型 / 水冷 / 米西利斯"
   }
 }

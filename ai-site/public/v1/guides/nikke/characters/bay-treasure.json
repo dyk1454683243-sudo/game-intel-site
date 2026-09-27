@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Defender",
   "skills": [
     {
       "name": "You Can Do It",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when using Burst Skill as long as this unit is still alive. Affects all allies. Proportionally shares damage taken. This effect is continuous. DEF ▲ 5.57% of the skill user's DEF continuously."
     },
     {
       "name": "Cheer Up Together",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when using Burst Skill as long as this unit is still alive. Affects this unit's cover. Proportionally shares damage taken. This effect is continuous. ■ Activates when Full Burst ends. Affects self. Continuously restores cover HP equal to 1.58% of the skill user's final max HP every second for 5 sec."
     },
     {
       "name": "First Winner",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects self. Max HP of cover ▲ 9.9% of the skill user's max HP for 20 sec. ■ Affects all allies. Damage Taken ▼ 4.87% for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "Burst 2",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "RL",
+  "element": "Fire",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/bay-treasure"
+    "https://www.prydwen.gg/nikke/characters/bay-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/bay/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "bay-treasure",
-  "verified": "Prydwen /nikke/characters/bay-treasure",
+  "verified": "Prydwen /nikke/characters/bay-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "D",
+    "boss": "C",
+    "pvp": "S",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "bay?treasure=true",
+    "character_url": "https://nikke.gg/characters/bay/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 2",
+    "tier": "Nikke.gg 综合 C（故事 D / Boss C / PvP S）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/bay/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/bay-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 2 / Defender / Fire / Tetra"
   }
 }

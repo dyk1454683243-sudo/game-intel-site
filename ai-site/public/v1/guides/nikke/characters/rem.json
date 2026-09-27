@@ -24,7 +24,11 @@
       "summary": "■自身 【鬼之气息：暴击率7.4%▲】 【持续10秒】 ■持有榴弹发射器的全体队友 【相当于以施展者为准的攻击力30.01%▲】 【持续10秒】 【最大装弹数3发▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/7/7",
+    "预算练度 7/4/4"
+  ],
   "burst": "雷姆绝对不会原谅！",
   "weapon": "鬼之全力",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rem",
-    "https://www.gamekee.com/nikke/618507.html"
+    "https://www.gamekee.com/nikke/618507.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/rem/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 618507,
   "gamekee_entry_id": 146356,
   "prydwen_slug": "rem",
   "rarity": "SSR",
-  "verified": "GameKee nikke/618507 图鉴",
+  "verified": "GameKee nikke/618507 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "B",
+    "boss": "B",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "rem",
+    "character_url": "https://nikke.gg/characters/rem/"
+  },
   "summary": {
-    "position": "SSR / 雷姆绝对不会原谅！ / 辅助型 / 水冷 / 反常",
+    "tier": "Nikke.gg 综合 B（故事 B / Boss B / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/rem/",
       "https://www.prydwen.gg/nikke/characters/rem",
       "https://www.gamekee.com/nikke/618507.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 雷姆绝对不会原谅！ / 辅助型 / 水冷 / 反常"
   }
 }

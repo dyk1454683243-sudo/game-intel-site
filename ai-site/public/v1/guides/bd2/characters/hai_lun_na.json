@@ -15,7 +15,7 @@
       "name": "一同高歌！",
       "type": "active",
       "costume": "顶尖偶像",
-      "summary": "6"
+      "summary": "友军的SP恢复6点。4回合内，对友军应用70%的防护罩效果。"
     },
     {
       "name": "为你加油！",
@@ -63,16 +63,33 @@
     "https://www.gamekee.com/zsca2/593630.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593630,
   "gamekee_entry_id": 122361,
   "verified": "GameKee zsca2/593630 图鉴",
+  "costume_ratings": [
+    {
+      "label": "B级偶像·海伦娜服装",
+      "tier": "T0（全环境）",
+      "source": "https://www.gamekee.com/zsca2/644624.html",
+      "content_id": 644624
+    },
+    {
+      "label": "原皮海伦娜",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/652481.html",
+      "content_id": 652481
+    }
+  ],
   "summary": {
-    "position": "5星 / 光 / 魔法 / 辅助",
+    "tier": "GameKee 服装测评：B级偶像·海伦娜服装 T0（全环境）；原皮海伦娜 T1",
     "sources": [
+      "https://www.gamekee.com/zsca2/644624.html",
+      "https://www.gamekee.com/zsca2/652481.html",
       "https://www.gamekee.com/zsca2/593630.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 光 / 魔法 / 辅助"
   }
 }

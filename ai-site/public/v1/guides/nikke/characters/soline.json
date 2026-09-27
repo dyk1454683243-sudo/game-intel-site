@@ -24,7 +24,11 @@
       "summary": "■对攻击范围内的敌人造成 【相当于攻击力234%的伤害】 ■自身体力最大时，则对同一目标敌人造成 【相当于攻击力546%的额外伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 1/7/7",
+    "预算练度 1/1/1"
+  ],
   "burst": "我也行！",
   "weapon": "冲锋枪",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/soline",
-    "https://www.gamekee.com/nikke/163883.html"
+    "https://www.gamekee.com/nikke/163883.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/soline/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 163883,
   "gamekee_entry_id": 110027,
   "prydwen_slug": "soline",
   "rarity": "SSR",
-  "verified": "GameKee nikke/163883 图鉴",
+  "verified": "GameKee nikke/163883 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "B",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "soline",
+    "character_url": "https://nikke.gg/characters/soline/"
+  },
   "summary": {
-    "position": "SSR / 我也行！ / 火力型 / 铁甲 / 极乐净土",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss B / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/soline/",
       "https://www.prydwen.gg/nikke/characters/soline",
       "https://www.gamekee.com/nikke/163883.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 我也行！ / 火力型 / 铁甲 / 极乐净土"
   }
 }

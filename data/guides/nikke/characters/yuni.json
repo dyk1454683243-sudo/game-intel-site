@@ -24,7 +24,11 @@
       "summary": "■对攻击范围内的敌人造成 相当于【最终攻击力 172.4%的伤害】 【无法移动】【持续5秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 5/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "BDG",
   "weapon": "/",
   "element": "燃烧",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/yuni",
-    "https://www.gamekee.com/nikke/152336.html"
+    "https://www.gamekee.com/nikke/152336.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/yuni/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152336,
   "gamekee_entry_id": 102003,
   "prydwen_slug": "yuni",
   "rarity": "SSR",
-  "verified": "GameKee nikke/152336 图鉴",
+  "verified": "GameKee nikke/152336 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "yuni",
+    "character_url": "https://nikke.gg/characters/yuni/"
+  },
   "summary": {
-    "position": "SSR / BDG / 防御型 / 燃烧 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/yuni/",
       "https://www.prydwen.gg/nikke/characters/yuni",
       "https://www.gamekee.com/nikke/152336.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / BDG / 防御型 / 燃烧 / 米西利斯"
   }
 }

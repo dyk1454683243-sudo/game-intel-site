@@ -7,66 +7,74 @@
     "莉珊"
   ],
   "game": "hw",
-  "role": "近战核心 / 领域追加伤；自奶维持血线",
+  "role": "T0.5 / 混伤 / 奶妈 / 剑之裁决者",
   "skills": [
     {
       "name": "旋转斩",
       "type": "active",
-      "summary": "melee slash"
+      "summary": "造成近战攻击力60%的斩击伤害。"
     },
     {
       "name": "黑暗中的光芒",
       "type": "passive",
-      "summary": "heal self+allies in 5m based on magic atk"
+      "summary": "每次使用技能或进行攻击时，为自身和半径5米范围内的队友恢复相当于魔法攻击力50%的生命值。"
     },
     {
       "name": "未知者之剑",
       "type": "active",
-      "summary": "shield + empower basic with extra invisible dmg; with exclusive weapon becomes 2CD +15 AP"
+      "summary": "为自身赋予持续3轮的魔法攻击力200%的护盾效果，并赋予【未知者之剑】效果。"
     },
     {
       "name": "驱魔圣战",
       "type": "passive",
-      "summary": "on hit stack 救赎 (magic) and 审判 (melee), up to 9 each"
+      "summary": "攻击成功时获得【救赎】与【审判】效果，提升魔法和近战攻击力。"
     },
     {
       "name": "血之审判",
-      "type": "ult",
-      "summary": "domain; end of turn deals melee% invisible additional dmg consuming 救赎; needs 救赎 stacks; keep HP ≥50% to sustain (burn-HP mechanic with weapon)"
+      "type": "active",
+      "summary": "在战场上生成【血之审判】领域并获得1层【救赎】。每当任一回合结束时，对领域内的所有敌人造成近战攻击力200%的追加无形伤害，并失去1层【救赎】效果。"
     }
   ],
   "stigmata": {
     "set_id": "set_iuppiter",
     "set_name": "优菲特尔",
-    "nickname": "木星",
     "pieces": 4,
-    "substats_priority": [
-      "近战攻击力"
-    ],
+    "nickname": "木星",
     "notes": [
-      "ult 血之审判 does NOT scale crit/crit dmg"
+      "2件: 战斗中属性强化",
+      "4件: 斩击强化、全属性防御提升",
+      "想打伤害就用木星套，虽然看着和老师模组差不多，但是很多伤害是看近战攻击力的，因此主要堆近战攻击力。"
     ]
   },
   "skill_prio": [
-    "ult 血之审判 first",
-    "then basics/passives that sustain HP/救赎",
-    "passive heal (黑暗中的光芒) can be leveled for 50% HP sustain"
+    "加强后*mauve:大招倍率翻4倍*，加上专武的增伤输出非常夸张，现在修女完全是围绕大招进行战斗的，因此主点大招，其他6级即可。",
+    "旋转斩: 不加",
+    "黑暗中的光芒: 6级即可",
+    "未知者之剑: 6级即可",
+    "驱魔圣战: 6级即可",
+    "血之审判: 尽量点满"
   ],
-  "weapon": "own exclusive preferred",
+  "weapon": "报应的荆棘之刃",
   "teams": {
     "dopamine_auto": "A"
   },
   "sources": [
+    "https://www.gamekee.com/hw/634473.html",
     "https://www.gamekee.com/hw/672601.html"
   ],
-  "as_of": "2026-09",
-  "verified": "GameKee hw/672601 图鉴/测评",
+  "as_of": "2026-09-28",
+  "verified": "GameKee hw/634473 图鉴",
+  "note": "抽取建议: 有1专武解锁机制即可，本体突破由于是SS角色非常简单。加强后大招是非常优质的输出，只需要配合多个低费队友点待机就能叠出爆炸的aoe输出。",
+  "gamekee_content_id": 634473,
+  "gamekee_entry_id": 163036,
   "summary": {
     "sources": [
+      "https://www.gamekee.com/hw/634473.html",
       "https://www.gamekee.com/hw/672601.html"
     ],
-    "position": "近战核心 / 领域追加伤；自奶维持血线",
-    "stub": true,
-    "caveat": "仓内无已核实 T 度或抽取建议，结论行 stub:true，不编造强度或抽卡。"
+    "tier": "T0.5 / 混伤 / 奶妈 / 剑之裁决者",
+    "pull": "有1专武解锁机制即可，本体突破由于是SS角色非常简单。加强后大招是非常优质的输出，只需要配合多个低费队友点待机就能叠出爆炸的aoe输出。",
+    "stub": false,
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

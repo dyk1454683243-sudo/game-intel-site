@@ -24,7 +24,11 @@
       "summary": "■全体队友 【恢复相当于施展者 最终最大体力6.17%的体力】 【无视防御力伤害25.05%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/7/7",
+    "预算练度 4/4/4"
+  ],
   "burst": "秘密花园",
   "weapon": "自然花园",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/flora",
-    "https://www.gamekee.com/nikke/170646.html"
+    "https://www.gamekee.com/nikke/170646.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/flora/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 170646,
   "gamekee_entry_id": 170296,
   "prydwen_slug": "flora",
   "rarity": "SSR",
-  "verified": "GameKee nikke/170646 图鉴",
+  "verified": "GameKee nikke/170646 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "flora",
+    "character_url": "https://nikke.gg/characters/flora/"
+  },
   "summary": {
-    "position": "SSR / 秘密花园 / 辅助型 / 电击 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/flora/",
       "https://www.prydwen.gg/nikke/characters/flora",
       "https://www.gamekee.com/nikke/170646.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 秘密花园 / 辅助型 / 电击 / 米西利斯"
   }
 }

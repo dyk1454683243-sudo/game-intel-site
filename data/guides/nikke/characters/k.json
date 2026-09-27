@@ -24,7 +24,11 @@
       "summary": "■自身 【使用武器变更】： 伤害：最终攻击力54.66%的伤害 弹丸数量：10颗 攻击速度：90%▼ 持续时间：10秒 额外效果 【以施展者为基准的攻击力37.44%▲】【持续10秒】 【攻击伤害12.48%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 7/7/4",
+    "预算练度 4/4/4"
+  ],
   "burst": "正义的手段",
   "weapon": "危险对决",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/k",
-    "https://www.gamekee.com/nikke/664885.html"
+    "https://www.gamekee.com/nikke/664885.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/k/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 664885,
   "gamekee_entry_id": 188712,
   "prydwen_slug": "k",
   "rarity": "SSR",
-  "verified": "GameKee nikke/664885 图鉴",
+  "verified": "GameKee nikke/664885 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "D",
+    "boss": "B",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "k",
+    "character_url": "https://nikke.gg/characters/k/"
+  },
   "summary": {
-    "position": "SSR / 正义的手段 / 火力型 / 电击 / 极乐净土",
+    "tier": "Nikke.gg 综合 C（故事 D / Boss B / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/k/",
       "https://www.prydwen.gg/nikke/characters/k",
       "https://www.gamekee.com/nikke/664885.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 正义的手段 / 火力型 / 电击 / 极乐净土"
   }
 }

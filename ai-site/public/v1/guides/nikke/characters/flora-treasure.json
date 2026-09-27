@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Supporter",
   "skills": [
     {
       "name": "Petunia",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates at the start of battle as long as this unit is alive. Affects self and both adjacent allies. Restores HP equal to 1% of the skill user's final max HP every second. Incoming Healing ▲ 2.36% continuously. Stacks up to 5 times. ■ Activates after performing 100 normal attacks. Affects all Electric Code allies. Increases the stack count of stackable buffs by 1."
     },
     {
       "name": "Iris",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when the HP of an adjacent ally drops to 90% or below while the ally is still alive. Affects all allies. Creates a shield with HP equal to 6.04% of the skill user's final max HP that lasts for 10 sec. ■ Activates when either adjacent ally reaches max HP. Affects all allies. True Damage ▲ 18.3% for 5 sec."
     },
     {
       "name": "Secret Garden",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects all allies. Restores HP equal to 6.17% of the skill user's final max HP. True Damage ▲ 25.05% for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/10",
+    "预算练度 4/7/7"
+  ],
   "burst": "Burst 2",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "MG",
+  "element": "Electric",
+  "manufacturer": "Missilis",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/flora-treasure"
+    "https://www.prydwen.gg/nikke/characters/flora-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/flora/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "flora-treasure",
-  "verified": "Prydwen /nikke/characters/flora-treasure",
+  "verified": "Prydwen /nikke/characters/flora-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SS",
+    "pvp": "B",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "flora?treasure=true",
+    "character_url": "https://nikke.gg/characters/flora/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 2",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SS / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/flora/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/flora-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / Burst 2 / Supporter / Electric / Missilis"
   }
 }

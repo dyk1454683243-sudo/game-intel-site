@@ -24,7 +24,11 @@
       "summary": "■全体队友 【恢复相当于施展者最终最大体力的30.88%】 【解除减益效果1个】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 4/1/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "怀中的秘密",
   "weapon": "乱流",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/sora",
-    "https://www.gamekee.com/nikke/668936.html"
+    "https://www.gamekee.com/nikke/668936.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/sora/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 668936,
   "gamekee_entry_id": 190016,
   "prydwen_slug": "sora",
   "rarity": "SSR",
-  "verified": "GameKee nikke/668936 图鉴",
+  "verified": "GameKee nikke/668936 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "sora",
+    "character_url": "https://nikke.gg/characters/sora/"
+  },
   "summary": {
-    "position": "SSR / 怀中的秘密 / 辅助型 / 风压 / 极乐净土",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/sora/",
       "https://www.prydwen.gg/nikke/characters/sora",
       "https://www.gamekee.com/nikke/668936.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 怀中的秘密 / 辅助型 / 风压 / 极乐净土"
   }
 }

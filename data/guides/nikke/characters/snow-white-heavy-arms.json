@@ -24,7 +24,11 @@
       "summary": "■自身 【攻击伤害49.92%▲】【持续10秒】 【七个小矮人全面出击】 功能：蓄力时间增加，但最大锁定目标数与最大自动射击就绪装弹数增加 使用次数：【2次】 效果1：【蓄力时间固定为3.2秒】【持续】 效果2：【最大【锁定】目标数10▲】【持续】 效果3：【最大自动射击就绪装弹数10▲】【持续】 解除时机：使用次数消耗完毕 ■对所有可破坏的发射体造成 【最终攻击力24.76%的伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/7",
+    "预算练度 7/7/7"
+  ],
   "burst": "七个小矮人全面出击",
   "weapon": "七个小矮人I+II",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/snow-white-heavy-arms",
-    "https://www.gamekee.com/nikke/688276.html"
+    "https://www.gamekee.com/nikke/688276.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/snow-white-heavy-arms/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 688276,
   "gamekee_entry_id": 202234,
   "prydwen_slug": "snow-white-heavy-arms",
   "rarity": "SSR",
-  "verified": "GameKee nikke/688276 图鉴",
+  "verified": "GameKee nikke/688276 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SSS",
+    "pvp": "SSS",
+    "req_invest": false,
+    "strong_early": true,
+    "slug": "snow-white-heavy-arms",
+    "character_url": "https://nikke.gg/characters/snow-white-heavy-arms/"
+  },
   "summary": {
-    "position": "SSR / 七个小矮人全面出击 / 火力型 / 水冷 / 朝圣者",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SSS / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/snow-white-heavy-arms/",
       "https://www.prydwen.gg/nikke/characters/snow-white-heavy-arms",
       "https://www.gamekee.com/nikke/688276.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记低中战役缺口表现更好。",
+    "position": "SSR / 七个小矮人全面出击 / 火力型 / 水冷 / 朝圣者"
   }
 }

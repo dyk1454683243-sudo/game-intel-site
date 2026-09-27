@@ -27,30 +27,52 @@
       "summary": "■自身 【显现：2号技能冷却时间 18 ▼】 【持续10秒】 【穿透特化】【持续10秒】 ■对指定的1名目标造成【烙印： 持续期间内，记录指定敌人累计受到的伤害。 持续时间结束时，对全体敌人造成等同於累计纪录的分摊伤害。伤害最大累计量相当於施展者最终攻击力的5563.01%】 【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/7/10",
+    "预算练度 7/4/7"
+  ],
   "weapon": "忘恩负义的奥兹",
   "element": "水冷",
   "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/dorothy",
-    "https://www.gamekee.com/nikke/589849.html"
+    "https://www.gamekee.com/nikke/589849.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/dorothy/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 589849,
   "gamekee_entry_id": 120207,
   "prydwen_slug": "dorothy",
   "rarity": "SSR",
   "burst": "失乐园",
-  "verified": "GameKee nikke/589849 图鉴",
+  "verified": "GameKee nikke/589849 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "B",
+    "boss": "A",
+    "pvp": "D",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "dorothy",
+    "character_url": "https://nikke.gg/characters/dorothy/"
+  },
   "summary": {
-    "position": "SSR / 失乐园 / 辅助型 / 水冷 / 朝圣者",
+    "tier": "Nikke.gg 综合 A（故事 B / Boss A / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/dorothy/",
       "https://www.prydwen.gg/nikke/characters/dorothy",
       "https://www.gamekee.com/nikke/589849.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 失乐园 / 辅助型 / 水冷 / 朝圣者"
   }
 }

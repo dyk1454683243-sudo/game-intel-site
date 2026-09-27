@@ -24,7 +24,11 @@
       "summary": "■对防御力最高的1名敌人造成 【相当于最终攻击力142.16%的伤害】 ■若自身处于借我一下……的最大叠加状态，则使同一目标敌人 【防御力10.12% ▼】【持续5秒】 【造成最终攻击力138.85%的额外伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/1/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "抓住了……",
   "weapon": "软带",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/guilty",
-    "https://www.gamekee.com/nikke/580946.html"
+    "https://www.gamekee.com/nikke/580946.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/guilty/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 580946,
   "gamekee_entry_id": 115414,
   "prydwen_slug": "guilty",
   "rarity": "SSR",
-  "verified": "GameKee nikke/580946 图鉴",
+  "verified": "GameKee nikke/580946 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "E",
+    "boss": "A",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "guilty",
+    "character_url": "https://nikke.gg/characters/guilty/"
+  },
   "summary": {
-    "position": "SSR / 抓住了…… / 火力型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 C（故事 E / Boss A / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/guilty/",
       "https://www.prydwen.gg/nikke/characters/guilty",
       "https://www.gamekee.com/nikke/580946.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 抓住了…… / 火力型 / 风压 / 米西利斯"
   }
 }
