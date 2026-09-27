@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "note": "Documentation slice, not the live catalog. Live index: /v1/games/index.json. watchlist rows may have character cards; stub rows are name/platforms/tags/sources/steam_appid only.",
+  "count": 2,
+  "watchlist_count": 1,
+  "stub_count": 1,
+  "games": [
+    {
+      "id": "hw",
+      "name": "Horizon Walker",
+      "name_zh": "地平线行者",
+      "platforms": ["steam", "pc", "mobile"],
+      "tags": ["gacha", "rpg"],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 3279780,
+      "path": "games/hw"
+    },
+    {
+      "id": "balatro",
+      "name": "Balatro",
+      "name_zh": "小丑牌",
+      "platforms": ["steam", "pc", "switch"],
+      "tags": ["indie", "roguelike", "card"],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2379780,
+      "path": "games/balatro"
+    }
+  ]
+}

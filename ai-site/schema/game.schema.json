@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://game-intel.local/schema/game.schema.json",
   "title": "game-intel game entity",
+  "description": "Light catalog rows (stub true, watchlist false) store identity only: name, platforms, tags, sources, steam_appid. Character guide cards are published only for watchlist games. Do not invent scores, prices, or player counts. If a fact has no https source, say 未见可靠出处. When sources disagree: official > review sites > forums.",
   "type": "object",
   "required": ["id", "name", "platforms", "stub", "as_of", "timezone"],
   "additionalProperties": true,
@@ -45,7 +46,7 @@
           "url": { "type": "string", "format": "uri" }
         }
       },
-      "description": "Official / Steam / wiki links only — never invent"
+      "description": "https only (Steam store and/or official site). Never invent. When citing, official > review sites > forums."
     },
     "steam_appid": {
       "type": ["integer", "null"],
@@ -53,11 +54,11 @@
     },
     "stub": {
       "type": "boolean",
-      "description": "true = identity + links only; no invented review/score"
+      "description": "true = light catalog identity only (no character card, no scores). false = watchlist game that may have guides."
     },
     "watchlist": {
       "type": "boolean",
-      "description": "true if on Dai daily watch list"
+      "description": "true = deep-dive watch list (character cards may exist). false = directory stub."
     },
     "guides_path": {
       "type": ["string", "null"],

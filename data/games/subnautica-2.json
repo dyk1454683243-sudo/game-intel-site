@@ -1,0 +1,27 @@
+{
+  "id": "subnautica-2",
+  "name": "Subnautica 2",
+  "name_zh": "Subnautica 2：异星水域",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "indie",
+    "survival",
+    "adventure",
+    "early-access"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1962700/"
+    }
+  ],
+  "steam_appid": 1962700,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

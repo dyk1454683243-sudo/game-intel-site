@@ -7,7 +7,7 @@
 
 | Path | Description |
 |------|-------------|
-| `/v1/games/index.json` | Game catalog index (30+) |
+| `/v1/games/index.json` | Game catalog index (54+) |
 | `/v1/games/{id}.json` | Single game entity |
 | `/v1/feed.json` | Recent intel items (real only) |
 | `/games/index.html` | Human game directory |
@@ -19,13 +19,17 @@
 | `/v1/calendar.json` / `calendar-hw.json` | Calendar |
 | `/v1/radar.json` | New-game radar |
 | `/schema/*.schema.json` | JSON Schema draft-07 |
-| `/openapi.json` | OpenAPI 3.0 map of public GET `/v1` |
+| `/openapi.json` | OpenAPI 3.0 map of public GET `/v1` plus POST `/v1/claims` |
 | `/llms.txt` | Agent discovery map |
+| `/.well-known/mcp.json` | MCP discovery (AI Catalog alias) |
+| `/mcp` | Read-only remote MCP (streamable HTTP) |
+| `/v1/claims.json` | Public claims mirror |
 
 ## Rules
 
 - Never invent Metacritic / prices / player counts.
-- `stub: true` = identity + real links only.
+- `stub: true` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
+- Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
 - Guides remain under `/guides/*` and `/v1/guides/*` (unchanged contract).
 - Non-stub character cards require `sources` + `as_of`. HW/NIKKE/BD2 also require `summary` (conclusion). `summary.stub: true` means the conclusion is incomplete.
