@@ -24,7 +24,11 @@
       "summary": "■全体队友 【恢复相当于施展者 最终最大体力2.42%的体力】 【间隔1秒】【持续5秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 => S2",
+    "推荐练度 10/7/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "休息命令",
   "weapon": "/",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
-    "https://www.gamekee.com/nikke/655996.html"
+    "https://www.gamekee.com/nikke/655996.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/mari/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 655996,
   "gamekee_entry_id": 182085,
   "prydwen_slug": "mari-makinami-illustrious",
   "rarity": "SR",
-  "verified": "GameKee nikke/655996 图鉴",
+  "verified": "GameKee nikke/655996 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "S",
+    "boss": "SS",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "mari",
+    "character_url": "https://nikke.gg/characters/mari/"
+  },
   "summary": {
-    "position": "SR / 休息命令 / 辅助型 / 铁甲 / 反常",
+    "tier": "Nikke.gg 综合 SS（故事 S / Boss SS / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/mari/",
       "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
       "https://www.gamekee.com/nikke/655996.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 休息命令 / 辅助型 / 铁甲 / 反常"
   }
 }

@@ -24,7 +24,11 @@
       "summary": "■自身 【注目：挑衅全体敌人】【持续10秒】 ■全体队友 【无敌】【持续3秒】 【防御力88.93%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "气不气人啊？",
   "weapon": "/",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/noah",
-    "https://www.gamekee.com/nikke/152340.html"
+    "https://www.gamekee.com/nikke/152340.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/noah/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152340,
   "gamekee_entry_id": 102017,
   "prydwen_slug": "noah",
   "rarity": "SSR",
-  "verified": "GameKee nikke/152340 图鉴",
+  "verified": "GameKee nikke/152340 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "C",
+    "boss": "C",
+    "pvp": "SSS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "noah",
+    "character_url": "https://nikke.gg/characters/noah/"
+  },
   "summary": {
-    "position": "SSR / 气不气人啊？ / 防御型 / 风压 / 朝圣者",
+    "tier": "Nikke.gg 综合 C（故事 C / Boss C / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/noah/",
       "https://www.prydwen.gg/nikke/characters/noah",
       "https://www.gamekee.com/nikke/152340.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 气不气人啊？ / 防御型 / 风压 / 朝圣者"
   }
 }

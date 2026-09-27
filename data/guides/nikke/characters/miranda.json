@@ -24,7 +24,11 @@
       "summary": "■除自身以外攻击力最高的1名队友发动效果 【攻击力23.87%▲】【持续10秒】 【暴击伤害33.22%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 1/5/7",
+    "预算练度 1/1/1"
+  ],
   "burst": "能量提升！",
   "weapon": "死板",
   "element": "燃烧",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/miranda",
-    "https://www.gamekee.com/nikke/152345.html"
+    "https://www.gamekee.com/nikke/152345.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/miranda/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152345,
   "gamekee_entry_id": 102040,
   "prydwen_slug": "miranda",
   "rarity": "SSR",
-  "verified": "GameKee nikke/152345 图鉴",
+  "verified": "GameKee nikke/152345 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "B",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "miranda",
+    "character_url": "https://nikke.gg/characters/miranda/"
+  },
   "summary": {
-    "position": "SSR / 能量提升！ / 辅助型 / 燃烧 / 极乐净土",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss B / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/miranda/",
       "https://www.prydwen.gg/nikke/characters/miranda",
       "https://www.gamekee.com/nikke/152345.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 能量提升！ / 辅助型 / 燃烧 / 极乐净土"
   }
 }

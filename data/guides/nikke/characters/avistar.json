@@ -24,7 +24,11 @@
       "summary": "■全体队友 【重新进入爆裂1阶】 ■自身 【观星者：以施展者为基准的最大体力15.6%▲】【持续】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/7/4",
+    "预算练度 1/4/1"
+  ],
   "burst": "观星者",
   "weapon": "孤傲荣光",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/avistar",
-    "https://www.gamekee.com/nikke/703507.html"
+    "https://www.gamekee.com/nikke/703507.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/avistar/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 703507,
   "gamekee_entry_id": 214041,
   "prydwen_slug": "avistar",
   "rarity": "SSR",
-  "verified": "GameKee nikke/703507 图鉴",
+  "verified": "GameKee nikke/703507 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "D",
+    "boss": "A",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "avistar",
+    "character_url": "https://nikke.gg/characters/avistar/"
+  },
   "summary": {
-    "position": "SSR / 观星者 / 辅助型 / 电击 / 极乐净土",
+    "tier": "Nikke.gg 综合 B（故事 D / Boss A / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/avistar/",
       "https://www.prydwen.gg/nikke/characters/avistar",
       "https://www.gamekee.com/nikke/703507.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 观星者 / 辅助型 / 电击 / 极乐净土"
   }
 }

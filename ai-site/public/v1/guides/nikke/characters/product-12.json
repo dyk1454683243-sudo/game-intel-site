@@ -24,7 +24,10 @@
       "summary": "■对攻击范围内的敌人造成 【相对于最终攻击力180%的伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "精准打击",
   "weapon": "/",
   "element": "燃烧",
@@ -32,22 +35,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/product-12",
-    "https://www.gamekee.com/nikke/152354.html"
+    "https://www.gamekee.com/nikke/152354.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/product-12/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152354,
   "gamekee_entry_id": 102034,
   "prydwen_slug": "product-12",
   "rarity": "R",
-  "verified": "GameKee nikke/152354 图鉴",
+  "verified": "GameKee nikke/152354 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "F",
+    "story": "F",
+    "boss": "F",
+    "pvp": "F",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "product-12",
+    "character_url": "https://nikke.gg/characters/product-12/"
+  },
   "summary": {
-    "position": "R / 精准打击 / 火力型 / 燃烧 / 米西利斯",
+    "tier": "Nikke.gg 综合 F（故事 F / Boss F / PvP F）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/product-12/",
       "https://www.prydwen.gg/nikke/characters/product-12",
       "https://www.gamekee.com/nikke/152354.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "R / 精准打击 / 火力型 / 燃烧 / 米西利斯"
   }
 }

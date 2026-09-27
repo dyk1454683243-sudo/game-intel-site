@@ -24,7 +24,11 @@
       "summary": "■自身 【攻击力37.44%▲】【持续10秒】 ■对全体敌人造成 【最终攻击力1745.45%的爆裂技能伤害】 ■若自身处于阶段1以上的能量超载状态，则对距离瞄准线最近的1名敌人造成 【最终攻击力552.36%x能量超载阶段的额外伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/7/10",
+    "预算练度 10/7/7"
+  ],
   "burst": "再生电力武装：雷霆战锤",
   "weapon": "究极英雄症候群",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
-    "https://www.gamekee.com/nikke/713891.html"
+    "https://www.gamekee.com/nikke/713891.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/laplace-ultimate-hero/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 713891,
   "gamekee_entry_id": 219258,
   "prydwen_slug": "laplace-ultimate-hero",
   "rarity": "SSR",
-  "verified": "GameKee nikke/713891 图鉴",
+  "verified": "GameKee nikke/713891 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SS",
+    "boss": "SS",
+    "pvp": "SS",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "laplace-ultimate-hero",
+    "character_url": "https://nikke.gg/characters/laplace-ultimate-hero/"
+  },
   "summary": {
-    "position": "SSR / 再生电力武装：雷霆战锤 / 火力型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 SS（故事 SS / Boss SS / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/laplace-ultimate-hero/",
       "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
       "https://www.gamekee.com/nikke/713891.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 再生电力武装：雷霆战锤 / 火力型 / 风压 / 米西利斯"
   }
 }

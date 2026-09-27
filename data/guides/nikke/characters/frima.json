@@ -26,7 +26,11 @@
       "summary": "■对防御力最高的10名敌人造成 【相当于最终攻击力60.07%的伤害】 【防御力5.83%▼】【持续10秒】 ■全体队友 【最大体力17.88%▲】【持续4秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "……好烦",
   "weapon": "懒骨头",
   "element": "铁甲",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/frima",
-    "https://www.gamekee.com/nikke/152342.html"
+    "https://www.gamekee.com/nikke/152342.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/frima/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152342,
   "gamekee_entry_id": 102005,
   "prydwen_slug": "frima",
   "rarity": "SSR",
-  "verified": "GameKee nikke/152342 图鉴",
+  "verified": "GameKee nikke/152342 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "frima",
+    "character_url": "https://nikke.gg/characters/frima/"
+  },
   "summary": {
-    "position": "SSR / ……好烦 / 辅助型 / 铁甲 / 泰特拉",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/frima/",
       "https://www.prydwen.gg/nikke/characters/frima",
       "https://www.gamekee.com/nikke/152342.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / ……好烦 / 辅助型 / 铁甲 / 泰特拉"
   }
 }

@@ -27,30 +27,52 @@
       "summary": "<在阶段1使用：辅助部队行动方针> ■自身 【爆裂技能冷却时间20秒▼】 【爆炸范围62.88%▲】【持续10秒】 ■全体队友 【相当于以施展者为基准的攻击力11.16%▲】【持续10秒】 <在阶段3使用：高机动近战型决战武器> ■对距离瞄准线最近的1名敌人造成 【相当于最终攻击力1512%的额外伤害】 ■自身 【爆炸范围62.88%▲】【持续10秒】 【发射体附着伤害216%▲】【持续10秒】 【技能2榴弹发射条件次数60次▼】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/10",
+    "预算练度 7/7/7"
+  ],
   "weapon": "七个小矮人零",
   "element": "燃烧",
   "manufacturer": "极乐净土（超标准）",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rapi-red-hood",
-    "https://www.gamekee.com/nikke/166530.html"
+    "https://www.gamekee.com/nikke/166530.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/rapi-red-hood/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 166530,
   "gamekee_entry_id": 172947,
   "prydwen_slug": "rapi-red-hood",
   "rarity": "SSR",
   "burst": "继承的力量",
-  "verified": "GameKee nikke/166530 图鉴",
+  "verified": "GameKee nikke/166530 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SSS",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "rapi-red-hood",
+    "character_url": "https://nikke.gg/characters/rapi-red-hood/"
+  },
   "summary": {
-    "position": "SSR / 继承的力量 / 火力型 / 燃烧 / 极乐净土（超标准）",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SSS / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/rapi-red-hood/",
       "https://www.prydwen.gg/nikke/characters/rapi-red-hood",
       "https://www.gamekee.com/nikke/166530.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 继承的力量 / 火力型 / 燃烧 / 极乐净土（超标准）"
   }
 }

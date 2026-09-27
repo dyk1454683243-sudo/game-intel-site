@@ -24,7 +24,11 @@
       "summary": "■若自身火力量条低于100，则自身 【火力充能：可补充火力量条】【持续10秒】【无法解除】 【火力量条补充1】 ■若自身火力量条状态为100，则自身 【火力全开：攻击伤害34.56%▲】【持续10秒】 【消耗100火力量条】 ■自身 【爆炸范围200%▲】【持续10秒】 【攻击伤害22.94%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "火力全开",
   "weapon": "万物破坏者",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
-    "https://www.gamekee.com/nikke/703513.html"
+    "https://www.gamekee.com/nikke/703513.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/neon-vision-eye/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 703513,
   "gamekee_entry_id": 214040,
   "prydwen_slug": "neon-vision-eye",
   "rarity": "SSR",
-  "verified": "GameKee nikke/703513 图鉴",
+  "verified": "GameKee nikke/703513 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SS",
+    "boss": "SSS",
+    "pvp": "S",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "neon-vision-eye",
+    "character_url": "https://nikke.gg/characters/neon-vision-eye/"
+  },
   "summary": {
-    "position": "SSR / 火力全开 / 火力型 / 电击 / 米西利斯（超标准）",
+    "tier": "Nikke.gg 综合 SS（故事 SS / Boss SSS / PvP S）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/neon-vision-eye/",
       "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
       "https://www.gamekee.com/nikke/703513.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 火力全开 / 火力型 / 电击 / 米西利斯（超标准）"
   }
 }

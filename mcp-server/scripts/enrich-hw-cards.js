@@ -8,7 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
 
@@ -278,7 +278,7 @@ async function fetchDetail(contentId) {
   return detail.data;
 }
 
-async function fetchCharacterWiki(contentId) {
+export async function fetchCharacterWiki(contentId) {
   const d = await fetchDetail(contentId);
   let cdnUrl = d.content_cdn || "";
   if (!cdnUrl) throw new Error("no_content_cdn");
@@ -632,7 +632,11 @@ async function main() {
   console.log(JSON.stringify(summary, null, 2));
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+const invokedDirectly =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (invokedDirectly) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

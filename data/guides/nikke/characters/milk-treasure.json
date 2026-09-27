@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Attacker",
   "skills": [
     {
       "name": "In it to Win It",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects the 2 allies with the highest final ATK. ATK ▲ 17.51% for 10 sec."
     },
     {
       "name": "Sugar Rush",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when above 80% HP. Affects all allies. Critical Damage ▲ 6.12% permanently."
     },
     {
       "name": "Victory is Mine",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects the enemy with the highest final DEF. Deals 202.04% of final ATK as Burst Skill damage. ■ Affects all allies. Restores HP equal to 8.88% of attack damage. Lasts for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 4/1/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "Burst 1",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "SR",
+  "element": "Water",
+  "manufacturer": "Tetra",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/milk-treasure"
+    "https://www.prydwen.gg/nikke/characters/milk-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/milk/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "milk-treasure",
-  "verified": "Prydwen /nikke/characters/milk-treasure",
+  "verified": "Prydwen /nikke/characters/milk-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "C",
+    "boss": "C",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "milk?treasure=true",
+    "character_url": "https://nikke.gg/characters/milk/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 1",
+    "tier": "Nikke.gg 综合 C（故事 C / Boss C / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/milk/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/milk-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 1 / Attacker / Water / Tetra"
   }
 }

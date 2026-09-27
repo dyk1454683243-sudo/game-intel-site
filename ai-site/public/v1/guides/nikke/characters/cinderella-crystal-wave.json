@@ -24,7 +24,11 @@
       "summary": "■自身 【攻击伤害46%▲】【持续10秒】 【攻击力35.75%▲】【持续10秒】 ■对最终攻击力最高的1名敌人造成 【最终攻击力3299.97%的爆裂技能伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/7/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "水晶鞋·完全连接W",
   "weapon": "水晶鞋",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
-    "https://www.gamekee.com/nikke/711133.html"
+    "https://www.gamekee.com/nikke/711133.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/cinderella-crystal-wave/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 711133,
   "gamekee_entry_id": 218253,
   "prydwen_slug": "cinderella-crystal-wave",
   "rarity": "SSR",
-  "verified": "GameKee nikke/711133 图鉴",
+  "verified": "GameKee nikke/711133 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SSS",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": true,
+    "slug": "cinderella-crystal-wave",
+    "character_url": "https://nikke.gg/characters/cinderella-crystal-wave/"
+  },
   "summary": {
-    "position": "SSR / 水晶鞋·完全连接W / 火力型 / 铁甲 / 朝圣者",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SSS / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/cinderella-crystal-wave/",
       "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
       "https://www.gamekee.com/nikke/711133.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记低中战役缺口表现更好。",
+    "position": "SSR / 水晶鞋·完全连接W / 火力型 / 铁甲 / 朝圣者"
   }
 }

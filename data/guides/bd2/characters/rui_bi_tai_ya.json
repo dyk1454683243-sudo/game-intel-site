@@ -21,7 +21,7 @@
       "name": "葛洛堤的演出！",
       "type": "active",
       "costume": "贪婪之星",
-      "summary": "5"
+      "summary": "6回合内，友军的致命伤害增加125%。6回合内，对自己应用光环效果。对光环效果内友军应用50%的防护罩效果。友军的SP恢复5点。"
     },
     {
       "name": "水枪大战时间！",
@@ -63,16 +63,28 @@
     "https://www.gamekee.com/zsca2/620949.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 620949,
   "gamekee_entry_id": 148504,
   "verified": "GameKee zsca2/620949 图鉴",
+  "costume_ratings": [
+    {
+      "label": "水上精灵-芮彼泰雅服装 装备阵容推荐",
+      "tier": "T0.5（本期测评由攻略组：A胖提供）",
+      "source": "https://www.gamekee.com/zsca2/667869.html",
+      "content_id": 667869,
+      "pull": "建议抽+3以上强度解析综合评价：T0.5（本期测评由攻略组：A胖提供）芮彼再次加强，芮"
+    }
+  ],
   "summary": {
-    "position": "5星 / 光 / 魔法 / 辅助",
+    "tier": "GameKee 服装测评：水上精灵-芮彼泰雅服装 装备阵容推荐 T0.5（本期测评由攻略组：A胖提供）",
     "sources": [
+      "https://www.gamekee.com/zsca2/667869.html",
       "https://www.gamekee.com/zsca2/620949.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 光 / 魔法 / 辅助",
+    "pull": "水上精灵-芮彼泰雅服装 装备阵容推荐：建议抽+3以上强度解析综合评价：T0.5（本期测评由攻略组：A胖提供）芮彼再次加强，芮"
   }
 }

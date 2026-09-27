@@ -21,7 +21,7 @@
       "name": "相信我",
       "type": "active",
       "costume": "粗暴学生",
-      "summary": "3"
+      "summary": "友军的SP恢复3。对敌人造成1的物理伤害，并将目标向后方击退2格。对被撞击的敌人造成相当于目标最大生命力100%的物理伤害。6回合内，对敌人应用造成相当于自身攻击力130%的物理伤害的出血效果。"
     }
   ],
   "skill_prio": [],
@@ -44,7 +44,7 @@
     "https://www.gamekee.com/zsca2/593645.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593645,
   "gamekee_entry_id": 122337,
   "verified": "GameKee zsca2/593645 图鉴",

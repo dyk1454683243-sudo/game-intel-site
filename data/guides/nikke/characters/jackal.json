@@ -24,7 +24,11 @@
       "summary": "■全体队友 【目标说明以\"～一名敌人\"结尾的爆裂技能攻击伤害21.4%▲】【持续15秒】 【防御力8.08%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 4/1/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "狂暴豺狼",
   "weapon": "T.O.P",
   "element": "铁甲",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/jackal",
-    "https://www.gamekee.com/nikke/580711.html"
+    "https://www.gamekee.com/nikke/580711.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/jackal/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 580711,
   "gamekee_entry_id": 115400,
   "prydwen_slug": "jackal",
   "rarity": "SSR",
-  "verified": "GameKee nikke/580711 图鉴",
+  "verified": "GameKee nikke/580711 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "C",
+    "pvp": "SSS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "jackal",
+    "character_url": "https://nikke.gg/characters/jackal/"
+  },
   "summary": {
-    "position": "SSR / 狂暴豺狼 / 防御型 / 铁甲 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss C / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/jackal/",
       "https://www.prydwen.gg/nikke/characters/jackal",
       "https://www.gamekee.com/nikke/580711.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 狂暴豺狼 / 防御型 / 铁甲 / 米西利斯"
   }
 }

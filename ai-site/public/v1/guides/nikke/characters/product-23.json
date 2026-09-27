@@ -24,7 +24,10 @@
       "summary": "■攻击力最高的2名敌人 【防御力4.87%▼】【持续5秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "指令：特殊子弹",
   "weapon": "霰弹枪",
   "element": "风压",
@@ -32,22 +35,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/product-23",
-    "https://www.gamekee.com/nikke/152360.html"
+    "https://www.gamekee.com/nikke/152360.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/product-23/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152360,
   "gamekee_entry_id": 102038,
   "prydwen_slug": "product-23",
   "rarity": "R",
-  "verified": "GameKee nikke/152360 图鉴",
+  "verified": "GameKee nikke/152360 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "F",
+    "story": "F",
+    "boss": "F",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "product-23",
+    "character_url": "https://nikke.gg/characters/product-23/"
+  },
   "summary": {
-    "position": "R / 指令：特殊子弹 / 辅助型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 F（故事 F / Boss F / PvP B）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/product-23/",
       "https://www.prydwen.gg/nikke/characters/product-23",
       "https://www.gamekee.com/nikke/152360.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "R / 指令：特殊子弹 / 辅助型 / 风压 / 米西利斯"
   }
 }

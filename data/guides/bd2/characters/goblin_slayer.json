@@ -17,7 +17,7 @@
       "name": "杀尽世间哥布林",
       "type": "active",
       "costume": "小鬼杀手",
-      "summary": "6"
+      "summary": "2回合内，对自己应用75%的防护罩效果。友军的SP恢复6点。攻击敌人2次，每次攻击时，造成相当于自身攻击力255%的物理伤害。"
     }
   ],
   "skill_prio": [],
@@ -35,16 +35,26 @@
     "https://www.gamekee.com/zsca2/660204.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 660204,
   "gamekee_entry_id": 185514,
   "verified": "GameKee zsca2/660204 图鉴",
+  "costume_ratings": [
+    {
+      "label": "小鬼杀手·哥布林杀手",
+      "tier": "T1.5（萌新T1）",
+      "source": "https://www.gamekee.com/zsca2/660135.html",
+      "content_id": 660135
+    }
+  ],
   "summary": {
-    "position": "5星 / 火 / 物理 / 输出",
+    "tier": "GameKee 服装测评：小鬼杀手·哥布林杀手 T1.5（萌新T1）",
     "sources": [
+      "https://www.gamekee.com/zsca2/660135.html",
       "https://www.gamekee.com/zsca2/660204.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 火 / 物理 / 输出"
   }
 }

@@ -6,42 +6,68 @@
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "Defender",
   "skills": [
     {
       "name": "Maintain Fortification",
-      "type": "passive"
+      "type": "passive",
+      "summary": "Lv1: ■ Activates when landing a Full Charge attack. Affects self. Cooldown of Skill 2 ▼ 4.58%."
     },
     {
       "name": "Field Discussion",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects self. Creates a shared shield with HP equal to 3.19% of the skill user's final max HP that protects all allies from damage. Lasts for 5 sec."
     },
     {
       "name": "Start Construction",
-      "type": "active"
+      "type": "active",
+      "summary": "Lv1: ■ Affects 5 enemy unit(s) with the lowest remaining HP. Deals 72.73% of final ATK as damage. DEF ▼ 7.27% for 10 sec."
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/4/1",
+    "预算练度 4/4/1"
+  ],
   "burst": "Burst 2",
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "RL",
+  "element": "Iron",
+  "manufacturer": "Missilis",
   "teams": {},
   "sources": [
-    "https://www.prydwen.gg/nikke/characters/centi-treasure"
+    "https://www.prydwen.gg/nikke/characters/centi-treasure",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/centi/?treasure=true"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "prydwen_slug": "centi-treasure",
-  "verified": "Prydwen /nikke/characters/centi-treasure",
+  "verified": "Prydwen /nikke/characters/centi-treasure；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "A",
+    "boss": "B",
+    "pvp": "SS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "centi?treasure=true",
+    "character_url": "https://nikke.gg/characters/centi/?treasure=true"
+  },
+  "rarity": "SSR",
   "summary": {
-    "position": "Burst 2",
+    "tier": "Nikke.gg 综合 A（故事 A / Boss B / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/centi/?treasure=true",
       "https://www.prydwen.gg/nikke/characters/centi-treasure"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / Burst 2 / Defender / Iron / Missilis"
   }
 }

@@ -24,7 +24,11 @@
       "summary": "■自身 【换弹速度固定为增加54.6%的状态】【持续10秒】 【子弹减少100%】 【强制换弹】 【命中率47.73%▲】【持续10秒】 【攻击伤害42.43%▲】【持续10秒】 【普通攻击变为无视防御力伤害】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "超级警察",
   "weapon": "闪电之鹰",
   "element": "电击",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/jill-valentine",
-    "https://www.gamekee.com/nikke/678556.html"
+    "https://www.gamekee.com/nikke/678556.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/jill/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 678556,
   "gamekee_entry_id": 195323,
   "prydwen_slug": "jill-valentine",
   "rarity": "SSR",
-  "verified": "GameKee nikke/678556 图鉴",
+  "verified": "GameKee nikke/678556 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "B",
+    "boss": "S",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "jill",
+    "character_url": "https://nikke.gg/characters/jill/"
+  },
   "summary": {
-    "position": "SSR / 超级警察 / 火力型 / 电击 / 反常",
+    "tier": "Nikke.gg 综合 A（故事 B / Boss S / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/jill/",
       "https://www.prydwen.gg/nikke/characters/jill-valentine",
       "https://www.gamekee.com/nikke/678556.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 超级警察 / 火力型 / 电击 / 反常"
   }
 }

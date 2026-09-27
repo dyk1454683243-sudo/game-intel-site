@@ -74,16 +74,28 @@
     "https://www.gamekee.com/zsca2/593603.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593603,
   "gamekee_entry_id": 122351,
   "verified": "GameKee zsca2/593603 图鉴",
+  "costume_ratings": [
+    {
+      "label": "海边度假·伊柯利普斯服装",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/634618.html",
+      "content_id": 634618,
+      "pull": "必抽，至少+1强度测评综合评价：T1大范围魔法输出，"
+    }
+  ],
   "summary": {
-    "position": "5星 / 暗 / 魔法 / 输出",
+    "tier": "GameKee 服装测评：海边度假·伊柯利普斯服装 T1",
     "sources": [
+      "https://www.gamekee.com/zsca2/634618.html",
       "https://www.gamekee.com/zsca2/593603.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "position": "5星 / 暗 / 魔法 / 输出",
+    "pull": "海边度假·伊柯利普斯服装：必抽，至少+1强度测评综合评价：T1大范围魔法输出，"
   }
 }

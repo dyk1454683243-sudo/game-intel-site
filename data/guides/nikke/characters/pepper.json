@@ -24,30 +24,52 @@
       "summary": "■对攻击力最高的1名敌人发动 【造成攻击力731.25%的伤害】 ■全体队友 【可叠加的增益效果叠加量1个▲】 ■若自身处于重生之心最大叠加状态，则全体队友 【恢复相当于施展者最大体力的16.08%】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 7/1/7",
+    "预算练度 1/1/1"
+  ],
   "weapon": "维他命香膏",
   "element": "风压",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/pepper",
-    "https://www.gamekee.com/nikke/170845.html"
+    "https://www.gamekee.com/nikke/170845.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/pepper/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 170845,
   "gamekee_entry_id": 113073,
   "prydwen_slug": "pepper",
   "rarity": "SSR",
   "burst": "佩珀疗法",
-  "verified": "GameKee nikke/170845 图鉴",
+  "verified": "GameKee nikke/170845 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "C",
+    "boss": "B",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "pepper",
+    "character_url": "https://nikke.gg/characters/pepper/"
+  },
   "summary": {
-    "position": "SSR / 佩珀疗法 / 辅助型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 B（故事 C / Boss B / PvP A）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/pepper/",
       "https://www.prydwen.gg/nikke/characters/pepper",
       "https://www.gamekee.com/nikke/170845.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 佩珀疗法 / 辅助型 / 风压 / 米西利斯"
   }
 }

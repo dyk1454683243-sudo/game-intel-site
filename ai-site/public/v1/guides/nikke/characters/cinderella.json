@@ -24,30 +24,52 @@
       "summary": "■随机对敌人 造成【相当于最终攻击力853.7%的伤害】 【依次攻击10次】 ■自身处于美丽状态时，对同目标敌人 造成【相当于最终攻击力18.07%的额外伤害】 【美丽叠加复制】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/7/10",
+    "预算练度 7/4/7"
+  ],
   "weapon": "水晶鞋",
   "element": "电击",
   "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/cinderella",
-    "https://www.gamekee.com/nikke/170686.html"
+    "https://www.gamekee.com/nikke/170686.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/cinderella/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 170686,
   "gamekee_entry_id": 182035,
   "prydwen_slug": "cinderella",
   "rarity": "SSR",
   "burst": "水晶鞋·完全连接",
-  "verified": "GameKee nikke/170686 图鉴",
+  "verified": "GameKee nikke/170686 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "S",
+    "boss": "SSS",
+    "pvp": "SS",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "cinderella",
+    "character_url": "https://nikke.gg/characters/cinderella/"
+  },
   "summary": {
-    "position": "SSR / 水晶鞋·完全连接 / 防御型 / 电击 / 朝圣者",
+    "tier": "Nikke.gg 综合 SS（故事 S / Boss SSS / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/cinderella/",
       "https://www.prydwen.gg/nikke/characters/cinderella",
       "https://www.gamekee.com/nikke/170686.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 水晶鞋·完全连接 / 防御型 / 电击 / 朝圣者"
   }
 }

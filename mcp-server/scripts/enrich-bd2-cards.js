@@ -8,7 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
 
@@ -168,6 +168,32 @@ function parseBaseMeta(baseData) {
   return meta;
 }
 
+const EFFECT_SKIP = new Set([
+  "技能效果",
+  "技能范围",
+  "SP消耗",
+  "CD",
+  "效果",
+  "回复sp",
+  "技能",
+  "SP",
+  "范围",
+]);
+
+/** Longest non-numeric cell. The last cell is often 回复sp, not the effect. */
+export function bd2EffectText(texts) {
+  const cands = (texts || []).slice(1).filter((t) => {
+    if (!t || typeof t !== "string") return false;
+    const v = t.trim();
+    if (!v || /^\d+$/.test(v) || EFFECT_SKIP.has(v)) return false;
+    if (v.length < 8) return false;
+    if (/^(技能|SP|CD|范围)/.test(v)) return false;
+    return true;
+  });
+  if (!cands.length) return null;
+  return cands.reduce((a, b) => (a.length >= b.length ? a : b));
+}
+
 function pickSkillSummary(rows) {
   // Prefer 满破满潜力 / 满破满潜能 effect text; else highest +N.
   let best = null;
@@ -177,24 +203,15 @@ function pickSkillSummary(rows) {
     const texts = rowTexts(row);
     if (!texts.length) continue;
     const head = texts[0];
+    const effect = bd2EffectText(texts);
+    if (!effect) continue;
     if (/^满破满潜/.test(head) || head === "满破满潜力" || head === "满破满潜能") {
-      const effect = texts[texts.length - 1];
-      if (effect && effect !== head && !/^(技能|SP|CD|范围)/.test(effect)) {
-        full = effect;
-      } else if (texts.length >= 4) {
-        full = texts[3];
-      }
+      full = effect;
     }
     const m = /^\+(\d+)$/.exec(head);
     if (m) {
       const n = Number(m[1]);
-      const effect = texts[texts.length - 1];
-      if (
-        n >= bestPlus &&
-        effect &&
-        effect !== head &&
-        !/^(技能|SP|CD|范围)/.test(effect)
-      ) {
+      if (n >= bestPlus) {
         bestPlus = n;
         best = effect;
       }
@@ -286,7 +303,7 @@ function fetchDetail(contentId) {
   return detail.data;
 }
 
-function fetchWiki(contentId) {
+export function fetchWiki(contentId) {
   const d = fetchDetail(contentId);
   let cdnUrl = d.content_cdn || "";
   if (!cdnUrl) throw new Error("no_content_cdn");
@@ -554,7 +571,11 @@ async function main() {
   console.log(JSON.stringify(summary, null, 2));
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+const invokedDirectly =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (invokedDirectly) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

@@ -24,7 +24,11 @@
       "summary": "全体队友 【攻击力11.31%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "蓝蝶之忆",
   "weapon": "蜉蝣",
   "element": "水冷",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/n102",
-    "https://www.gamekee.com/nikke/152351.html"
+    "https://www.gamekee.com/nikke/152351.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/n102/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152351,
   "gamekee_entry_id": 110436,
   "prydwen_slug": "n102",
   "rarity": "SR",
-  "verified": "GameKee nikke/152351 图鉴",
+  "verified": "GameKee nikke/152351 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "C",
+    "story": "B",
+    "boss": "C",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "n102",
+    "character_url": "https://nikke.gg/characters/n102/"
+  },
   "summary": {
-    "position": "SR / 蓝蝶之忆 / 辅助型 / 水冷 / 米西利斯",
+    "tier": "Nikke.gg 综合 C（故事 B / Boss C / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/n102/",
       "https://www.prydwen.gg/nikke/characters/n102",
       "https://www.gamekee.com/nikke/152351.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 蓝蝶之忆 / 辅助型 / 水冷 / 米西利斯"
   }
 }

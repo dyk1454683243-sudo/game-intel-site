@@ -26,7 +26,11 @@
       "summary": "■自身 【技能2命中次数条件20次 ▼】【持续10秒】 【以施展者为基准的攻击力的32.4% ▲】 【持续10秒】 【装弹数无限】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 4/10/10",
+    "预算练度 4/7/7"
+  ],
   "burst": "七个小矮人III",
   "weapon": "七个小矮人Ⅱ",
   "element": "铁甲",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/innocent-dayss-snow-white",
-    "https://www.gamekee.com/nikke/604403.html"
+    "https://www.gamekee.com/nikke/604403.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/snow-white-innocent-days/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 604403,
   "gamekee_entry_id": 131942,
   "prydwen_slug": "innocent-dayss-snow-white",
   "rarity": "SSR",
-  "verified": "GameKee nikke/604403 图鉴",
+  "verified": "GameKee nikke/604403 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "B",
+    "story": "B",
+    "boss": "B",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "snow-white-innocent-days",
+    "character_url": "https://nikke.gg/characters/snow-white-innocent-days/"
+  },
   "summary": {
-    "position": "SSR / 七个小矮人III / 火力型 / 铁甲 / 朝圣者",
+    "tier": "Nikke.gg 综合 B（故事 B / Boss B / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/snow-white-innocent-days/",
       "https://www.prydwen.gg/nikke/characters/innocent-dayss-snow-white",
       "https://www.gamekee.com/nikke/604403.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 七个小矮人III / 火力型 / 铁甲 / 朝圣者"
   }
 }

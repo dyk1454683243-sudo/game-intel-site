@@ -26,30 +26,52 @@
       "summary": "■自身 【使用武器变更】： 蓄力时间：2秒 伤害：相当于最终攻击力的144.85% 全蓄力伤害：300%伤害 最大装弹数：1发 追加效果：穿透特化"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/1/10",
+    "预算练度 7/1/7"
+  ],
   "weapon": "我的乖宝宝",
   "element": "铁甲",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/maxwell",
-    "https://www.gamekee.com/nikke/92087.html"
+    "https://www.gamekee.com/nikke/92087.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/maxwell/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 92087,
   "gamekee_entry_id": 64608,
   "prydwen_slug": "maxwell",
   "rarity": "SSR",
   "burst": "穿刺",
-  "verified": "GameKee nikke/92087 图鉴",
+  "verified": "GameKee nikke/92087 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "C",
+    "boss": "S",
+    "pvp": "C",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "maxwell",
+    "character_url": "https://nikke.gg/characters/maxwell/"
+  },
   "summary": {
-    "position": "SSR / 穿刺 / 火力型 / 铁甲 / 米西利斯",
+    "tier": "Nikke.gg 综合 A（故事 C / Boss S / PvP C）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/maxwell/",
       "https://www.prydwen.gg/nikke/characters/maxwell",
       "https://www.gamekee.com/nikke/92087.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 穿刺 / 火力型 / 铁甲 / 米西利斯"
   }
 }

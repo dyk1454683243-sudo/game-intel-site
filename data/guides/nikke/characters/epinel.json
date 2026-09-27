@@ -26,7 +26,11 @@
       "summary": "■对全体敌人造成 【最终攻击力270.56%的爆裂技能伤害】 ■若自身处于超级新人最大叠加状态，则对同一敌人造成 【最终攻击力270.56%的额外伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 5/1/5",
+    "预算练度 1/1/1"
+  ],
   "burst": "SAFE 50-50",
   "weapon": "/",
   "element": "风压",
@@ -34,22 +38,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/epinel",
-    "https://www.gamekee.com/nikke/152334.html"
+    "https://www.gamekee.com/nikke/152334.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/epinel/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 152334,
   "gamekee_entry_id": 102015,
   "prydwen_slug": "epinel",
   "rarity": "SSR",
-  "verified": "GameKee nikke/152334 图鉴",
+  "verified": "GameKee nikke/152334 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "C",
+    "boss": "E",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "epinel",
+    "character_url": "https://nikke.gg/characters/epinel/"
+  },
   "summary": {
-    "position": "SSR / SAFE 50-50 / 火力型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 C / Boss E / PvP D）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/epinel/",
       "https://www.prydwen.gg/nikke/characters/epinel",
       "https://www.gamekee.com/nikke/152334.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / SAFE 50-50 / 火力型 / 风压 / 米西利斯"
   }
 }

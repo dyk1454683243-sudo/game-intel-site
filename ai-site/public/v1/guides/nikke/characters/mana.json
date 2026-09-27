@@ -24,7 +24,11 @@
       "summary": "■自身 【持续伤害31.2%▲】【持续10秒】 ■对距离瞄准线最近的1名敌人造成相当于 【最终攻击力234%的持续伤害】 【间隔1秒】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S2 > S1",
+    "推荐练度 7/10/10",
+    "预算练度 5/7/7"
+  ],
   "burst": "致命错误！",
   "weapon": "索姆纳斯",
   "element": "风压",
@@ -32,22 +36,40 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mana",
-    "https://www.gamekee.com/nikke/159658.html"
+    "https://www.gamekee.com/nikke/159658.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/mana/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 159658,
   "gamekee_entry_id": 173877,
   "prydwen_slug": "mana",
   "rarity": "SSR",
-  "verified": "GameKee nikke/159658 图鉴",
+  "verified": "GameKee nikke/159658 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "A",
+    "story": "B",
+    "boss": "A",
+    "pvp": "SS",
+    "req_invest": true,
+    "strong_early": false,
+    "slug": "mana",
+    "character_url": "https://nikke.gg/characters/mana/"
+  },
   "summary": {
-    "position": "SSR / 致命错误！ / 火力型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 A（故事 B / Boss A / PvP SS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/mana/",
       "https://www.prydwen.gg/nikke/characters/mana",
       "https://www.gamekee.com/nikke/159658.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。Nikke.gg 标记需高练度才完整发挥。",
+    "position": "SSR / 致命错误！ / 火力型 / 风压 / 米西利斯"
   }
 }

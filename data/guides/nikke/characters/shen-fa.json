@@ -34,18 +34,24 @@
     "https://www.gamekee.com/nikke/576623.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 576623,
   "gamekee_entry_id": 115012,
   "prydwen_slug": null,
   "rarity": "SSR",
   "verified": "GameKee nikke/576623 图鉴",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/"
+  },
   "summary": {
-    "position": "SSR / 新世界 / 火力型 / 燃烧 / 朝圣者",
     "sources": [
+      "https://nikke.gg/tier-list/",
       "https://www.gamekee.com/nikke/576623.html"
     ],
     "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    "position": "SSR / 新世界 / 火力型 / 燃烧 / 朝圣者"
   }
 }

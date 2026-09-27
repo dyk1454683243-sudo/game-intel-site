@@ -24,30 +24,52 @@
       "summary": "■赋予自身 【流星】 功能：在阿妮斯周围产生小型流星，自动攻击随机目标。 伤害：最终攻击力的23.64% 攻击间隔：0.25秒 持续时间：10秒 额外效果 【蓄力时间固定为0.7秒】【持续10秒】 【爆炸范围59.09%▲】【持续10秒】 【防御力32.44%▲】【持续10秒】 ■若自身处于只属于我的星星状态，则自身 【攻击伤害20.8%▲】【持续10秒】 ■若自身处于大家的星星状态，则全体队友 【以施展者为基准的最大体力8.87%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 10/10/10",
+    "预算练度 7/7/7"
+  ],
   "weapon": "闪亮之星",
   "element": "电击",
   "manufacturer": "泰特拉（超标准）",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/anis-star",
-    "https://www.gamekee.com/nikke/703135.html"
+    "https://www.gamekee.com/nikke/703135.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/anis-star/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 703135,
   "gamekee_entry_id": 213892,
   "prydwen_slug": "anis-star",
   "rarity": "SSR",
   "burst": "超级巨星阿妮斯",
-  "verified": "GameKee nikke/703135 图鉴",
+  "verified": "GameKee nikke/703135 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SSS",
+    "story": "SSS",
+    "boss": "SSS",
+    "pvp": "SSS",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "anis-star",
+    "character_url": "https://nikke.gg/characters/anis-star/"
+  },
   "summary": {
-    "position": "SSR / 超级巨星阿妮斯 / 防御型 / 电击 / 泰特拉（超标准）",
+    "tier": "Nikke.gg 综合 SSS（故事 SSS / Boss SSS / PvP SSS）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/anis-star/",
       "https://www.prydwen.gg/nikke/characters/anis-star",
       "https://www.gamekee.com/nikke/703135.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SSR / 超级巨星阿妮斯 / 防御型 / 电击 / 泰特拉（超标准）"
   }
 }

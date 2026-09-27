@@ -35,19 +35,25 @@
     "https://www.gamekee.com/nikke/719742.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 719742,
   "gamekee_entry_id": 224507,
   "prydwen_slug": "drake-great-villain",
   "rarity": "SSR",
   "verified": "GameKee nikke/719742 图鉴",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/"
+  },
   "summary": {
-    "position": "SSR / 反派之网特别版 / 火力型 / 风压 / 米西利斯",
     "sources": [
+      "https://nikke.gg/tier-list/",
       "https://www.prydwen.gg/nikke/characters/drake-great-villain",
       "https://www.gamekee.com/nikke/719742.html"
     ],
     "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    "position": "SSR / 反派之网特别版 / 火力型 / 风压 / 米西利斯"
   }
 }

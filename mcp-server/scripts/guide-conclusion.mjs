@@ -41,14 +41,122 @@ export function conclusionFromCard(card) {
   const sources = httpSources(card);
   const game = card?.game;
   if (game === "hw") return hwSummary(card, sources);
-  if (game === "nikke") return catalogSummary(card, sources, "nikke");
-  if (game === "bd2") return catalogSummary(card, sources, "bd2");
+  if (game === "nikke") return nikkeFromRatings(card, sources) || catalogSummary(card, sources, "nikke");
+  if (game === "bd2") return bd2FromCostumeRatings(card, sources) || catalogSummary(card, sources, "bd2");
   return existing && typeof existing === "object" ? existing : null;
 }
 
 function pullFromNote(note) {
   const m = String(note || "").match(/抽取建议:\s*([^|]+)/);
   return m ? m[1].replace(/\s+/g, " ").trim() : "";
+}
+
+const NIKKE_TIERS = new Set(["SSS", "SS", "S", "A", "B", "C", "D", "E", "F"]);
+
+function uniqSources(list) {
+  const out = [];
+  for (const s of list) {
+    if (typeof s === "string" && HTTP.test(s) && !out.includes(s)) out.push(s);
+  }
+  return out;
+}
+
+function nikkePosition(card) {
+  return [card.rarity, card.burst, card.role, card.element, card.manufacturer]
+    .filter((x) => typeof x === "string" && x.trim())
+    .join(" / ");
+}
+
+function bd2Position(card) {
+  return [card.rarity, card.element, card.attack_type, card.role]
+    .filter((x) => typeof x === "string" && x.trim())
+    .join(" / ");
+}
+
+function nikkeTierLine(ratings) {
+  const combined = String(ratings.combined || "").trim();
+  if (!NIKKE_TIERS.has(combined)) return "";
+  const bits = [`Nikke.gg 综合 ${combined}`];
+  const parts = [];
+  for (const [key, label] of [
+    ["story", "故事"],
+    ["boss", "Boss"],
+    ["pvp", "PvP"],
+  ]) {
+    const v = String(ratings[key] || "").trim();
+    if (NIKKE_TIERS.has(v)) parts.push(`${label} ${v}`);
+  }
+  return parts.length ? `${bits[0]}（${parts.join(" / ")}）` : bits[0];
+}
+
+function nikkeFromRatings(card, sources) {
+  const ratings = card?.ratings;
+  if (!ratings || typeof ratings !== "object") return null;
+  const tier = nikkeTierLine(ratings);
+  const cited = uniqSources([
+    ratings.url,
+    ratings.character_url,
+    ...sources,
+  ]);
+  if (!cited.length) return null;
+  const position = nikkePosition(card);
+  if (tier) {
+    const notes = [
+      "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    ];
+    if (ratings.req_invest === true) notes.push("Nikke.gg 标记需高练度才完整发挥。");
+    if (ratings.strong_early === true) notes.push("Nikke.gg 标记低中战役缺口表现更好。");
+    const summary = {
+      tier,
+      sources: cited,
+      stub: false,
+      caveat: notes.join(""),
+    };
+    if (position) summary.position = position;
+    return summary;
+  }
+  if (ratings.checked === true) {
+    const summary = {
+      sources: cited,
+      stub: true,
+      caveat:
+        "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    };
+    if (position) summary.position = position;
+    return summary;
+  }
+  return null;
+}
+
+function bd2FromCostumeRatings(card, sources) {
+  const rows = Array.isArray(card?.costume_ratings) ? card.costume_ratings : [];
+  const good = rows.filter(
+    (row) =>
+      row &&
+      typeof row.tier === "string" &&
+      /^T\d/.test(row.tier.trim()) &&
+      typeof row.source === "string" &&
+      HTTP.test(row.source) &&
+      typeof row.label === "string" &&
+      row.label.trim()
+  );
+  if (!good.length) return null;
+  const pulls = good
+    .filter((row) => typeof row.pull === "string" && row.pull.trim())
+    .map((row) => `${row.label.trim()}：${row.pull.trim()}`);
+  const summary = {
+    tier: `GameKee 服装测评：${good
+      .map((row) => `${row.label.trim()} ${row.tier.trim()}`)
+      .join("；")}`,
+    sources: uniqSources([...good.map((row) => row.source), ...sources]),
+    stub: false,
+    caveat:
+      "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+  };
+  const position = bd2Position(card);
+  if (position) summary.position = position;
+  if (pulls.length) summary.pull = pulls.join("；");
+  return summary;
 }
 
 function hwSummary(card, sources) {

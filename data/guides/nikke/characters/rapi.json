@@ -26,30 +26,51 @@
       "summary": "■对攻击力最高的1名敌人造成 【最终攻击力328.86%的爆裂技能伤害】 ■自身 【攻击力30.37%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "weapon": "/",
   "element": "燃烧",
   "manufacturer": "极乐净土",
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rapi",
-    "https://www.gamekee.com/nikke/92082.html"
+    "https://www.gamekee.com/nikke/92082.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/rapi/"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 92082,
   "gamekee_entry_id": 64603,
   "prydwen_slug": "rapi",
   "rarity": "SR",
   "burst": "多弹头飞弹",
-  "verified": "GameKee nikke/92082 图鉴",
+  "verified": "GameKee nikke/92082 图鉴；Nikke.gg tier-list 2026-09",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-28",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "E",
+    "story": "E",
+    "boss": "E",
+    "pvp": "E",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "rapi",
+    "character_url": "https://nikke.gg/characters/rapi/"
+  },
   "summary": {
-    "position": "SR / 多弹头飞弹 / 火力型 / 燃烧 / 极乐净土",
+    "tier": "Nikke.gg 综合 E（故事 E / Boss E / PvP E）",
     "sources": [
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/rapi/",
       "https://www.prydwen.gg/nikke/characters/rapi",
       "https://www.gamekee.com/nikke/92082.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee/Prydwen 图鉴职业与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度与抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。不编造抽卡结论。",
+    "position": "SR / 多弹头飞弹 / 火力型 / 燃烧 / 极乐净土"
   }
 }

@@ -2,12 +2,12 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-28",
   "timezone": "Asia/Shanghai",
-  "character_count": 231,
-  "rich_count": 231,
+  "character_count": 232,
+  "rich_count": 232,
   "stub_count": 0,
-  "conclusion_stub_count": 231,
+  "conclusion_stub_count": 12,
   "characters": [
     {
       "id": "2b",
@@ -16,7 +16,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/2b",
-        "https://www.gamekee.com/nikke/599069.html"
+        "https://www.gamekee.com/nikke/599069.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/2b/"
       ]
     },
     {
@@ -26,7 +28,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/a2",
-        "https://www.gamekee.com/nikke/599115.html"
+        "https://www.gamekee.com/nikke/599115.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/a2/"
       ]
     },
     {
@@ -36,7 +40,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ada-wong",
-        "https://www.gamekee.com/nikke/678271.html"
+        "https://www.gamekee.com/nikke/678271.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ada/"
       ]
     },
     {
@@ -46,7 +52,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ade",
-        "https://www.gamekee.com/nikke/614660.html"
+        "https://www.gamekee.com/nikke/614660.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ade/"
       ]
     },
     {
@@ -56,7 +64,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ade-agent-bunny",
-        "https://www.gamekee.com/nikke/676330.html"
+        "https://www.gamekee.com/nikke/676330.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ade-agent-bunny/"
       ]
     },
     {
@@ -66,7 +76,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/admi",
-        "https://www.gamekee.com/nikke/152344.html"
+        "https://www.gamekee.com/nikke/152344.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/admi/"
       ]
     },
     {
@@ -84,7 +96,9 @@
       "name_zh": "Aigis",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/aigis"
+        "https://www.prydwen.gg/nikke/characters/aigis",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/aigis/"
       ]
     },
     {
@@ -94,7 +108,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/alice",
-        "https://www.gamekee.com/nikke/92090.html"
+        "https://www.gamekee.com/nikke/92090.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/alice/"
       ]
     },
     {
@@ -104,7 +120,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/alice-wonderland-bunny",
-        "https://www.gamekee.com/nikke/624034.html"
+        "https://www.gamekee.com/nikke/624034.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/alice-wonderland-bunny/"
       ]
     },
     {
@@ -114,7 +132,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/anchor",
-        "https://www.gamekee.com/nikke/597431.html"
+        "https://www.gamekee.com/nikke/597431.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anchor/"
       ]
     },
     {
@@ -124,7 +144,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
-        "https://www.gamekee.com/nikke/164728.html"
+        "https://www.gamekee.com/nikke/164728.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anchor-innocent-maid/"
       ]
     },
     {
@@ -134,7 +156,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/anis",
-        "https://www.gamekee.com/nikke/152348.html"
+        "https://www.gamekee.com/nikke/152348.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anis/"
       ]
     },
     {
@@ -144,7 +168,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/anis-star",
-        "https://www.gamekee.com/nikke/703135.html"
+        "https://www.gamekee.com/nikke/703135.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anis-star/"
       ]
     },
     {
@@ -154,7 +180,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
-        "https://www.gamekee.com/nikke/597433.html"
+        "https://www.gamekee.com/nikke/597433.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/helm-aquamarine/"
       ]
     },
     {
@@ -164,7 +192,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/arcana",
-        "https://www.gamekee.com/nikke/661994.html"
+        "https://www.gamekee.com/nikke/661994.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/arcana/"
       ]
     },
     {
@@ -174,7 +204,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/arcana-fortune-mate",
-        "https://www.gamekee.com/nikke/698416.html"
+        "https://www.gamekee.com/nikke/698416.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/arcana-fortune-mate/"
       ]
     },
     {
@@ -184,7 +216,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/aria",
-        "https://www.gamekee.com/nikke/163875.html"
+        "https://www.gamekee.com/nikke/163875.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/aria/"
       ]
     },
     {
@@ -194,7 +228,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ark-ranger-black",
-        "https://www.gamekee.com/nikke/708686.html"
+        "https://www.gamekee.com/nikke/708686.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ark-ranger-black/"
       ]
     },
     {
@@ -204,7 +240,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley",
-        "https://www.gamekee.com/nikke/171662.html"
+        "https://www.gamekee.com/nikke/171662.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/asuka/"
       ]
     },
     {
@@ -214,7 +252,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley-wille",
-        "https://www.gamekee.com/nikke/156668.html"
+        "https://www.gamekee.com/nikke/156668.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/asuka-wille/"
       ]
     },
     {
@@ -224,7 +264,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/avistar",
-        "https://www.gamekee.com/nikke/703507.html"
+        "https://www.gamekee.com/nikke/703507.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/avistar/"
       ]
     },
     {
@@ -234,7 +276,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/bay",
-        "https://www.gamekee.com/nikke/620123.html"
+        "https://www.gamekee.com/nikke/620123.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/bay/"
       ]
     },
     {
@@ -244,7 +288,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/bay-goddess-mary",
-        "https://www.gamekee.com/nikke/593038.html"
+        "https://www.gamekee.com/nikke/593038.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mary-bay-goddess/"
       ]
     },
     {
@@ -253,7 +299,9 @@
       "name_zh": "Bay (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/bay-treasure"
+        "https://www.prydwen.gg/nikke/characters/bay-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/bay/?treasure=true"
       ]
     },
     {
@@ -263,7 +311,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/belorta",
-        "https://www.gamekee.com/nikke/152346.html"
+        "https://www.gamekee.com/nikke/152346.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/belorta/"
       ]
     },
     {
@@ -273,7 +323,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/biscuit",
-        "https://www.gamekee.com/nikke/584520.html"
+        "https://www.gamekee.com/nikke/584520.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/biscuit/"
       ]
     },
     {
@@ -283,7 +335,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/blanc",
-        "https://www.gamekee.com/nikke/591204.html"
+        "https://www.gamekee.com/nikke/591204.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/blanc/"
       ]
     },
     {
@@ -293,7 +347,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/blue-ocean-neon",
-        "https://www.gamekee.com/nikke/593045.html"
+        "https://www.gamekee.com/nikke/593045.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/neon-blue-ocean/"
       ]
     },
     {
@@ -303,7 +359,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/bready",
-        "https://www.gamekee.com/nikke/156441.html"
+        "https://www.gamekee.com/nikke/156441.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/bready/"
       ]
     },
     {
@@ -313,7 +371,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/brid",
-        "https://www.gamekee.com/nikke/163874.html"
+        "https://www.gamekee.com/nikke/163874.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/brid/"
       ]
     },
     {
@@ -323,7 +383,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/brid-silent-track",
-        "https://www.gamekee.com/nikke/685270.html"
+        "https://www.gamekee.com/nikke/685270.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/brid-silent-track/"
       ]
     },
     {
@@ -333,7 +395,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/centi",
-        "https://www.gamekee.com/nikke/163877.html"
+        "https://www.gamekee.com/nikke/163877.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/centi/"
       ]
     },
     {
@@ -342,7 +406,9 @@
       "name_zh": "Centi (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/centi-treasure"
+        "https://www.prydwen.gg/nikke/characters/centi-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/centi/?treasure=true"
       ]
     },
     {
@@ -352,7 +418,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/chime",
-        "https://www.gamekee.com/nikke/682342.html"
+        "https://www.gamekee.com/nikke/682342.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/chime/"
       ]
     },
     {
@@ -362,7 +430,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
-        "https://www.gamekee.com/nikke/693503.html"
+        "https://www.gamekee.com/nikke/693503.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/chisato/"
       ]
     },
     {
@@ -372,7 +442,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/cinderella",
-        "https://www.gamekee.com/nikke/170686.html"
+        "https://www.gamekee.com/nikke/170686.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/cinderella/"
       ]
     },
     {
@@ -382,7 +454,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
-        "https://www.gamekee.com/nikke/711133.html"
+        "https://www.gamekee.com/nikke/711133.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/cinderella-crystal-wave/"
       ]
     },
     {
@@ -392,7 +466,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/claire-redfield",
-        "https://www.gamekee.com/nikke/678481.html"
+        "https://www.gamekee.com/nikke/678481.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/claire/"
       ]
     },
     {
@@ -402,7 +478,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/clay",
-        "https://www.gamekee.com/nikke/624298.html"
+        "https://www.gamekee.com/nikke/624298.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/clay/"
       ]
     },
     {
@@ -412,7 +490,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/cocoa",
-        "https://www.gamekee.com/nikke/582159.html"
+        "https://www.gamekee.com/nikke/582159.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/cocoa/"
       ]
     },
     {
@@ -422,7 +502,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/crow",
-        "https://www.gamekee.com/nikke/667602.html"
+        "https://www.gamekee.com/nikke/667602.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/crow/"
       ]
     },
     {
@@ -432,7 +514,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/crown",
-        "https://www.gamekee.com/nikke/621270.html"
+        "https://www.gamekee.com/nikke/621270.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/crown/"
       ]
     },
     {
@@ -442,7 +526,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/crust",
-        "https://www.gamekee.com/nikke/656124.html"
+        "https://www.gamekee.com/nikke/656124.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/crust/"
       ]
     },
     {
@@ -452,7 +538,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/d",
-        "https://www.gamekee.com/nikke/588547.html"
+        "https://www.gamekee.com/nikke/588547.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/d/"
       ]
     },
     {
@@ -462,7 +550,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/d-killer-wife",
-        "https://www.gamekee.com/nikke/616356.html"
+        "https://www.gamekee.com/nikke/616356.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/d-killer-wife/"
       ]
     },
     {
@@ -472,7 +562,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/delta",
-        "https://www.gamekee.com/nikke/152347.html"
+        "https://www.gamekee.com/nikke/152347.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/delta/"
       ]
     },
     {
@@ -482,7 +574,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/delta-ninja-thief",
-        "https://www.gamekee.com/nikke/680619.html"
+        "https://www.gamekee.com/nikke/680619.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/delta-ninja-thief/"
       ]
     },
     {
@@ -492,7 +586,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/diesel",
-        "https://www.gamekee.com/nikke/152337.html"
+        "https://www.gamekee.com/nikke/152337.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/diesel/"
       ]
     },
     {
@@ -501,7 +597,9 @@
       "name_zh": "Diesel (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/diesel-treasure"
+        "https://www.prydwen.gg/nikke/characters/diesel-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/diesel/?treasure=true"
       ]
     },
     {
@@ -511,7 +609,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
-        "https://www.gamekee.com/nikke/684848.html"
+        "https://www.gamekee.com/nikke/684848.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/diesel-winter-sweets/"
       ]
     },
     {
@@ -521,7 +621,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/dolla",
-        "https://www.gamekee.com/nikke/170853.html"
+        "https://www.gamekee.com/nikke/170853.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/dolla/"
       ]
     },
     {
@@ -531,7 +633,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/dorothy",
-        "https://www.gamekee.com/nikke/589849.html"
+        "https://www.gamekee.com/nikke/589849.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/dorothy/"
       ]
     },
     {
@@ -541,7 +645,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/dorothy-serendipity",
-        "https://www.gamekee.com/nikke/670644.html"
+        "https://www.gamekee.com/nikke/670644.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/dorothy-serendipity/"
       ]
     },
     {
@@ -551,7 +657,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/drake",
-        "https://www.gamekee.com/nikke/152332.html"
+        "https://www.gamekee.com/nikke/152332.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/drake/"
       ]
     },
     {
@@ -570,7 +678,9 @@
       "name_zh": "Drake (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/drake-treasure"
+        "https://www.prydwen.gg/nikke/characters/drake-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/drake/?treasure=true"
       ]
     },
     {
@@ -580,7 +690,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/e-h",
-        "https://www.gamekee.com/nikke/696640.html"
+        "https://www.gamekee.com/nikke/696640.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/e-h/"
       ]
     },
     {
@@ -590,7 +702,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ein",
-        "https://www.gamekee.com/nikke/590070.html"
+        "https://www.gamekee.com/nikke/590070.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ein/"
       ]
     },
     {
@@ -600,7 +714,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/elegg",
-        "https://www.gamekee.com/nikke/615258.html"
+        "https://www.gamekee.com/nikke/615258.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/elegg/"
       ]
     },
     {
@@ -610,7 +726,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/elegg-boom-and-shock",
-        "https://www.gamekee.com/nikke/671513.html"
+        "https://www.gamekee.com/nikke/671513.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/elegg-boom-and-shock/"
       ]
     },
     {
@@ -620,7 +738,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/emilia",
-        "https://www.gamekee.com/nikke/618503.html"
+        "https://www.gamekee.com/nikke/618503.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/emilia/"
       ]
     },
     {
@@ -630,7 +750,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/emma",
-        "https://www.gamekee.com/nikke/152341.html"
+        "https://www.gamekee.com/nikke/152341.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/emma/"
       ]
     },
     {
@@ -640,7 +762,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/emma-tactical-upgrade",
-        "https://www.gamekee.com/nikke/673808.html"
+        "https://www.gamekee.com/nikke/673808.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/emma-tactical-upgrade/"
       ]
     },
     {
@@ -650,7 +774,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/epinel",
-        "https://www.gamekee.com/nikke/152334.html"
+        "https://www.gamekee.com/nikke/152334.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/epinel/"
       ]
     },
     {
@@ -660,7 +786,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ether",
-        "https://www.gamekee.com/nikke/717751.html"
+        "https://www.gamekee.com/nikke/717751.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ether/"
       ]
     },
     {
@@ -670,7 +798,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/eunhwa",
-        "https://www.gamekee.com/nikke/152338.html"
+        "https://www.gamekee.com/nikke/152338.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/eunhwa/"
       ]
     },
     {
@@ -680,7 +810,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/eunhwa-tactical-upgrade",
-        "https://www.gamekee.com/nikke/674108.html"
+        "https://www.gamekee.com/nikke/674108.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/eunhwa-tactical-upgrade/"
       ]
     },
     {
@@ -690,7 +822,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/eve",
-        "https://www.gamekee.com/nikke/667586.html"
+        "https://www.gamekee.com/nikke/667586.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/eve/"
       ]
     },
     {
@@ -700,7 +834,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/exia",
-        "https://www.gamekee.com/nikke/92089.html"
+        "https://www.gamekee.com/nikke/92089.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/exia/"
       ]
     },
     {
@@ -709,7 +845,9 @@
       "name_zh": "Exia (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/exia-treasure"
+        "https://www.prydwen.gg/nikke/characters/exia-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/exia/?treasure=true"
       ]
     },
     {
@@ -719,7 +857,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/flora",
-        "https://www.gamekee.com/nikke/170646.html"
+        "https://www.gamekee.com/nikke/170646.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/flora/"
       ]
     },
     {
@@ -728,7 +868,9 @@
       "name_zh": "Flora (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/flora-treasure"
+        "https://www.prydwen.gg/nikke/characters/flora-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/flora/?treasure=true"
       ]
     },
     {
@@ -738,7 +880,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/folkwang",
-        "https://www.gamekee.com/nikke/170847.html"
+        "https://www.gamekee.com/nikke/170847.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/folkwang/"
       ]
     },
     {
@@ -748,7 +892,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/frima",
-        "https://www.gamekee.com/nikke/152342.html"
+        "https://www.gamekee.com/nikke/152342.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/frima/"
       ]
     },
     {
@@ -757,7 +903,9 @@
       "name_zh": "Frima (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/frima-treasure"
+        "https://www.prydwen.gg/nikke/characters/frima-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/frima/?treasure=true"
       ]
     },
     {
@@ -767,7 +915,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/grave",
-        "https://www.gamekee.com/nikke/170831.html"
+        "https://www.gamekee.com/nikke/170831.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/grave/"
       ]
     },
     {
@@ -777,7 +927,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/guillotine",
-        "https://www.gamekee.com/nikke/152333.html"
+        "https://www.gamekee.com/nikke/152333.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/guillotine/"
       ]
     },
     {
@@ -787,7 +939,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
-        "https://www.gamekee.com/nikke/166801.html"
+        "https://www.gamekee.com/nikke/166801.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/guillotine-winter-slayer/"
       ]
     },
     {
@@ -797,7 +951,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/guilty",
-        "https://www.gamekee.com/nikke/580946.html"
+        "https://www.gamekee.com/nikke/580946.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/guilty/"
       ]
     },
     {
@@ -816,7 +972,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/harran",
-        "https://www.gamekee.com/nikke/163881.html"
+        "https://www.gamekee.com/nikke/163881.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/harran/"
       ]
     },
     {
@@ -826,7 +984,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/helm",
-        "https://www.gamekee.com/nikke/171728.html"
+        "https://www.gamekee.com/nikke/171728.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/helm/"
       ]
     },
     {
@@ -835,7 +995,9 @@
       "name_zh": "Helm (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/helm-treasure"
+        "https://www.prydwen.gg/nikke/characters/helm-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/helm/?treasure=true"
       ]
     },
     {
@@ -845,7 +1007,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/himeno",
-        "https://www.gamekee.com/nikke/584479.html"
+        "https://www.gamekee.com/nikke/584479.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/himeno/"
       ]
     },
     {
@@ -855,7 +1019,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/idoll-flower",
-        "https://www.gamekee.com/nikke/152356.html"
+        "https://www.gamekee.com/nikke/152356.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/idoll-flower/"
       ]
     },
     {
@@ -865,7 +1031,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/idoll-ocean",
-        "https://www.gamekee.com/nikke/152358.html"
+        "https://www.gamekee.com/nikke/152358.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/idoll-ocean/"
       ]
     },
     {
@@ -875,7 +1043,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/idoll-sun",
-        "https://www.gamekee.com/nikke/152361.html"
+        "https://www.gamekee.com/nikke/152361.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/idoll-sun/"
       ]
     },
     {
@@ -885,7 +1055,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/innocent-dayss-snow-white",
-        "https://www.gamekee.com/nikke/604403.html"
+        "https://www.gamekee.com/nikke/604403.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/snow-white-innocent-days/"
       ]
     },
     {
@@ -895,7 +1067,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/isabel",
-        "https://www.gamekee.com/nikke/170852.html"
+        "https://www.gamekee.com/nikke/170852.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/isabel/"
       ]
     },
     {
@@ -905,7 +1079,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/jackal",
-        "https://www.gamekee.com/nikke/580711.html"
+        "https://www.gamekee.com/nikke/580711.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/jackal/"
       ]
     },
     {
@@ -924,7 +1100,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/jill-valentine",
-        "https://www.gamekee.com/nikke/678556.html"
+        "https://www.gamekee.com/nikke/678556.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/jill/"
       ]
     },
     {
@@ -934,7 +1112,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/julia",
-        "https://www.gamekee.com/nikke/152330.html"
+        "https://www.gamekee.com/nikke/152330.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/julia/"
       ]
     },
     {
@@ -943,7 +1123,9 @@
       "name_zh": "Julia (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/julia-treasure"
+        "https://www.prydwen.gg/nikke/characters/julia-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/julia/?treasure=true"
       ]
     },
     {
@@ -953,7 +1135,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/k",
-        "https://www.gamekee.com/nikke/664885.html"
+        "https://www.gamekee.com/nikke/664885.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/k/"
       ]
     },
     {
@@ -972,7 +1156,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/kilo",
-        "https://www.gamekee.com/nikke/621330.html"
+        "https://www.gamekee.com/nikke/621330.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/kilo/"
       ]
     },
     {
@@ -982,7 +1168,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/kurumi",
-        "https://www.gamekee.com/nikke/695279.html"
+        "https://www.gamekee.com/nikke/695279.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/kurumi/"
       ]
     },
     {
@@ -992,7 +1180,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/label",
-        "https://www.gamekee.com/nikke/690252.html"
+        "https://www.gamekee.com/nikke/690252.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/label/"
       ]
     },
     {
@@ -1002,7 +1192,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/laplace",
-        "https://www.gamekee.com/nikke/576409.html"
+        "https://www.gamekee.com/nikke/576409.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/laplace/"
       ]
     },
     {
@@ -1011,7 +1203,9 @@
       "name_zh": "Laplace (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/laplace-treasure"
+        "https://www.prydwen.gg/nikke/characters/laplace-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/laplace/?treasure=true"
       ]
     },
     {
@@ -1021,7 +1215,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
-        "https://www.gamekee.com/nikke/713891.html"
+        "https://www.gamekee.com/nikke/713891.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/laplace-ultimate-hero/"
       ]
     },
     {
@@ -1031,7 +1227,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/leona",
-        "https://www.gamekee.com/nikke/610811.html"
+        "https://www.gamekee.com/nikke/610811.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/leona/"
       ]
     },
     {
@@ -1050,7 +1248,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/liberalio",
-        "https://www.gamekee.com/nikke/682429.html"
+        "https://www.gamekee.com/nikke/682429.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/liberalio/"
       ]
     },
     {
@@ -1060,7 +1260,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/lily",
-        "https://www.gamekee.com/nikke/667898.html"
+        "https://www.gamekee.com/nikke/667898.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/lily/"
       ]
     },
     {
@@ -1070,7 +1272,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/liter",
-        "https://www.gamekee.com/nikke/589853.html"
+        "https://www.gamekee.com/nikke/589853.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/liter/"
       ]
     },
     {
@@ -1080,7 +1284,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ludmilla",
-        "https://www.gamekee.com/nikke/152339.html"
+        "https://www.gamekee.com/nikke/152339.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ludmilla/"
       ]
     },
     {
@@ -1090,7 +1296,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ludmilla-winter-owner",
-        "https://www.gamekee.com/nikke/607550.html"
+        "https://www.gamekee.com/nikke/607550.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ludmilla-winter-owner/"
       ]
     },
     {
@@ -1100,7 +1308,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/maiden",
-        "https://www.gamekee.com/nikke/170842.html"
+        "https://www.gamekee.com/nikke/170842.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/maiden/"
       ]
     },
     {
@@ -1110,7 +1320,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/maiden-ice-rose",
-        "https://www.gamekee.com/nikke/167401.html"
+        "https://www.gamekee.com/nikke/167401.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/maiden-ice-rose/"
       ]
     },
     {
@@ -1120,7 +1332,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/makima",
-        "https://www.gamekee.com/nikke/584401.html"
+        "https://www.gamekee.com/nikke/584401.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/makima/"
       ]
     },
     {
@@ -1130,7 +1344,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mana",
-        "https://www.gamekee.com/nikke/159658.html"
+        "https://www.gamekee.com/nikke/159658.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mana/"
       ]
     },
     {
@@ -1140,7 +1356,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/marciana",
-        "https://www.gamekee.com/nikke/600802.html"
+        "https://www.gamekee.com/nikke/600802.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/marciana/"
       ]
     },
     {
@@ -1150,7 +1368,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/marciana-marine-study",
-        "https://www.gamekee.com/nikke/711739.html"
+        "https://www.gamekee.com/nikke/711739.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/marciana-marine-study/"
       ]
     },
     {
@@ -1160,7 +1380,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
-        "https://www.gamekee.com/nikke/655996.html"
+        "https://www.gamekee.com/nikke/655996.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mari/"
       ]
     },
     {
@@ -1170,7 +1392,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mary",
-        "https://www.gamekee.com/nikke/152343.html"
+        "https://www.gamekee.com/nikke/152343.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mary/"
       ]
     },
     {
@@ -1180,7 +1404,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mast",
-        "https://www.gamekee.com/nikke/594772.html"
+        "https://www.gamekee.com/nikke/594772.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mast/"
       ]
     },
     {
@@ -1190,7 +1416,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mast-romantic-maid",
-        "https://www.gamekee.com/nikke/159641.html"
+        "https://www.gamekee.com/nikke/159641.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mast-romantic-maid/"
       ]
     },
     {
@@ -1200,7 +1428,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/maxwell",
-        "https://www.gamekee.com/nikke/92087.html"
+        "https://www.gamekee.com/nikke/92087.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/maxwell/"
       ]
     },
     {
@@ -1210,7 +1440,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/maxwell-ordinary-mechanic",
-        "https://www.gamekee.com/nikke/713899.html"
+        "https://www.gamekee.com/nikke/713899.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/maxwell-ordinary-mechanic/"
       ]
     },
     {
@@ -1220,7 +1452,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mica",
-        "https://www.gamekee.com/nikke/152352.html"
+        "https://www.gamekee.com/nikke/152352.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mica/"
       ]
     },
     {
@@ -1230,7 +1464,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mica-snow-buddy",
-        "https://www.gamekee.com/nikke/607597.html"
+        "https://www.gamekee.com/nikke/607597.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mica-snow-buddy/"
       ]
     },
     {
@@ -1240,7 +1476,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mihara",
-        "https://www.gamekee.com/nikke/152349.html"
+        "https://www.gamekee.com/nikke/152349.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mihara/"
       ]
     },
     {
@@ -1250,7 +1488,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain",
-        "https://www.gamekee.com/nikke/660553.html"
+        "https://www.gamekee.com/nikke/660553.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mihara-bonding-chain/"
       ]
     },
     {
@@ -1260,7 +1500,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/milk",
-        "https://www.gamekee.com/nikke/170848.html"
+        "https://www.gamekee.com/nikke/170848.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/milk/"
       ]
     },
     {
@@ -1270,7 +1512,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/milk-blooming-bunny",
-        "https://www.gamekee.com/nikke/676880.html"
+        "https://www.gamekee.com/nikke/676880.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/milk-blooming-bunny/"
       ]
     },
     {
@@ -1279,7 +1523,9 @@
       "name_zh": "Milk (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/milk-treasure"
+        "https://www.prydwen.gg/nikke/characters/milk-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/milk/?treasure=true"
       ]
     },
     {
@@ -1289,7 +1535,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/mint",
-        "https://www.gamekee.com/nikke/705512.html"
+        "https://www.gamekee.com/nikke/705512.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mint/"
       ]
     },
     {
@@ -1299,7 +1547,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
-        "https://www.gamekee.com/nikke/578097.html"
+        "https://www.gamekee.com/nikke/578097.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anne-miracle-fairy/"
       ]
     },
     {
@@ -1309,7 +1559,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/miranda",
-        "https://www.gamekee.com/nikke/152345.html"
+        "https://www.gamekee.com/nikke/152345.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/miranda/"
       ]
     },
     {
@@ -1318,7 +1570,9 @@
       "name_zh": "Miranda (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/miranda-treasure"
+        "https://www.prydwen.gg/nikke/characters/miranda-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/miranda/?treasure=true"
       ]
     },
     {
@@ -1327,7 +1581,9 @@
       "name_zh": "Misato Katsuragi",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/misato-katsuragi"
+        "https://www.prydwen.gg/nikke/characters/misato-katsuragi",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/misato/"
       ]
     },
     {
@@ -1345,7 +1601,9 @@
       "name_zh": "Modernia",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/modernia"
+        "https://www.prydwen.gg/nikke/characters/modernia",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/modernia/"
       ]
     },
     {
@@ -1355,7 +1613,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/moran",
-        "https://www.gamekee.com/nikke/610829.html"
+        "https://www.gamekee.com/nikke/610829.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/moran/"
       ]
     },
     {
@@ -1364,7 +1624,9 @@
       "name_zh": "Moran (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/moran-treasure"
+        "https://www.prydwen.gg/nikke/characters/moran-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/moran/?treasure=true"
       ]
     },
     {
@@ -1373,7 +1635,9 @@
       "name_zh": "Mori",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/mori"
+        "https://www.prydwen.gg/nikke/characters/mori",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mori/"
       ]
     },
     {
@@ -1383,7 +1647,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/n102",
-        "https://www.gamekee.com/nikke/152351.html"
+        "https://www.gamekee.com/nikke/152351.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/n102/"
       ]
     },
     {
@@ -1393,7 +1659,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/naga",
-        "https://www.gamekee.com/nikke/600935.html"
+        "https://www.gamekee.com/nikke/600935.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/naga/"
       ]
     },
     {
@@ -1403,7 +1671,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/nayuta",
-        "https://www.gamekee.com/nikke/681716.html"
+        "https://www.gamekee.com/nikke/681716.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/nayuta/"
       ]
     },
     {
@@ -1413,7 +1683,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/neon",
-        "https://www.gamekee.com/nikke/92084.html"
+        "https://www.gamekee.com/nikke/92084.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/neon/"
       ]
     },
     {
@@ -1423,7 +1695,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
-        "https://www.gamekee.com/nikke/703513.html"
+        "https://www.gamekee.com/nikke/703513.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/neon-vision-eye/"
       ]
     },
     {
@@ -1433,7 +1707,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/nero",
-        "https://www.gamekee.com/nikke/594767.html"
+        "https://www.gamekee.com/nikke/594767.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/nero/"
       ]
     },
     {
@@ -1443,7 +1719,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/neve",
-        "https://www.gamekee.com/nikke/578202.html"
+        "https://www.gamekee.com/nikke/578202.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/neve/"
       ]
     },
     {
@@ -1453,7 +1731,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/nihilister",
-        "https://www.gamekee.com/nikke/587422.html"
+        "https://www.gamekee.com/nikke/587422.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/nihilister/"
       ]
     },
     {
@@ -1463,7 +1743,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/noah",
-        "https://www.gamekee.com/nikke/152340.html"
+        "https://www.gamekee.com/nikke/152340.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/noah/"
       ]
     },
     {
@@ -1473,7 +1755,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/noir",
-        "https://www.gamekee.com/nikke/591253.html"
+        "https://www.gamekee.com/nikke/591253.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/noir/"
       ]
     },
     {
@@ -1483,7 +1767,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/noise",
-        "https://www.gamekee.com/nikke/163884.html"
+        "https://www.gamekee.com/nikke/163884.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/noise/"
       ]
     },
     {
@@ -1493,7 +1779,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/novel",
-        "https://www.gamekee.com/nikke/170843.html"
+        "https://www.gamekee.com/nikke/170843.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/novel/"
       ]
     },
     {
@@ -1503,7 +1791,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/pascal",
-        "https://www.gamekee.com/nikke/599118.html"
+        "https://www.gamekee.com/nikke/599118.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/pascal/"
       ]
     },
     {
@@ -1513,7 +1803,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/pepper",
-        "https://www.gamekee.com/nikke/170845.html"
+        "https://www.gamekee.com/nikke/170845.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/pepper/"
       ]
     },
     {
@@ -1523,7 +1815,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/phantom",
-        "https://www.gamekee.com/nikke/155278.html"
+        "https://www.gamekee.com/nikke/155278.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/phantom/"
       ]
     },
     {
@@ -1532,7 +1826,9 @@
       "name_zh": "Phantom (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/phantom-treasure"
+        "https://www.prydwen.gg/nikke/characters/phantom-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/phantom/?treasure=true"
       ]
     },
     {
@@ -1542,7 +1838,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/poli",
-        "https://www.gamekee.com/nikke/163861.html"
+        "https://www.gamekee.com/nikke/163861.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/poli/"
       ]
     },
     {
@@ -1551,7 +1849,9 @@
       "name_zh": "Poli (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/poli-treasure"
+        "https://www.prydwen.gg/nikke/characters/poli-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/poli/?treasure=true"
       ]
     },
     {
@@ -1561,7 +1861,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/power",
-        "https://www.gamekee.com/nikke/584475.html"
+        "https://www.gamekee.com/nikke/584475.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/power/"
       ]
     },
     {
@@ -1571,7 +1873,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/prika",
-        "https://www.gamekee.com/nikke/706696.html"
+        "https://www.gamekee.com/nikke/706696.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/prika/"
       ]
     },
     {
@@ -1581,7 +1885,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/privaty",
-        "https://www.gamekee.com/nikke/152329.html"
+        "https://www.gamekee.com/nikke/152329.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/privaty/"
       ]
     },
     {
@@ -1590,7 +1896,9 @@
       "name_zh": "Privaty (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/privaty-treasure"
+        "https://www.prydwen.gg/nikke/characters/privaty-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/privaty/?treasure=true"
       ]
     },
     {
@@ -1600,7 +1908,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
-        "https://www.gamekee.com/nikke/614623.html"
+        "https://www.gamekee.com/nikke/614623.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/privaty-unkind-maid/"
       ]
     },
     {
@@ -1610,7 +1920,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/product-08",
-        "https://www.gamekee.com/nikke/152357.html"
+        "https://www.gamekee.com/nikke/152357.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/product-08/"
       ]
     },
     {
@@ -1620,7 +1932,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/product-12",
-        "https://www.gamekee.com/nikke/152354.html"
+        "https://www.gamekee.com/nikke/152354.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/product-12/"
       ]
     },
     {
@@ -1630,7 +1944,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/product-23",
-        "https://www.gamekee.com/nikke/152360.html"
+        "https://www.gamekee.com/nikke/152360.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/product-23/"
       ]
     },
     {
@@ -1640,7 +1956,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/queen-makoto",
-        "https://www.gamekee.com/nikke/716926.html"
+        "https://www.gamekee.com/nikke/716926.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/queen-makoto/"
       ]
     },
     {
@@ -1650,7 +1968,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/quency",
-        "https://www.gamekee.com/nikke/580948.html"
+        "https://www.gamekee.com/nikke/580948.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/quency/"
       ]
     },
     {
@@ -1660,7 +1980,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/quency-escape-queen",
-        "https://www.gamekee.com/nikke/152944.html"
+        "https://www.gamekee.com/nikke/152944.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/quency-escape-queen/"
       ]
     },
     {
@@ -1670,7 +1992,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/quiry",
-        "https://www.gamekee.com/nikke/602935.html"
+        "https://www.gamekee.com/nikke/602935.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/quiry/"
       ]
     },
     {
@@ -1680,7 +2004,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/ram",
-        "https://www.gamekee.com/nikke/618548.html"
+        "https://www.gamekee.com/nikke/618548.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ram/"
       ]
     },
     {
@@ -1690,7 +2016,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rapi",
-        "https://www.gamekee.com/nikke/92082.html"
+        "https://www.gamekee.com/nikke/92082.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rapi/"
       ]
     },
     {
@@ -1700,7 +2028,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rapi-red-hood",
-        "https://www.gamekee.com/nikke/166530.html"
+        "https://www.gamekee.com/nikke/166530.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rapi-red-hood/"
       ]
     },
     {
@@ -1710,7 +2040,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rapunzel",
-        "https://www.gamekee.com/nikke/170850.html"
+        "https://www.gamekee.com/nikke/170850.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rapunzel/"
       ]
     },
     {
@@ -1720,7 +2052,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rapunzel-pure-grace",
-        "https://www.gamekee.com/nikke/171337.html"
+        "https://www.gamekee.com/nikke/171337.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rapunzel-pure-grace/"
       ]
     },
     {
@@ -1729,7 +2063,9 @@
       "name_zh": "Raven",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/raven"
+        "https://www.prydwen.gg/nikke/characters/raven",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/raven/"
       ]
     },
     {
@@ -1739,7 +2075,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/red-hood",
-        "https://www.gamekee.com/nikke/604398.html"
+        "https://www.gamekee.com/nikke/604398.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/red-hood/"
       ]
     },
     {
@@ -1748,7 +2086,9 @@
       "name_zh": "Rei",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/rei"
+        "https://www.prydwen.gg/nikke/characters/rei",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rei/"
       ]
     },
     {
@@ -1758,7 +2098,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rei-ayanami",
-        "https://www.gamekee.com/nikke/172126.html"
+        "https://www.gamekee.com/nikke/172126.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rei-ayanami/"
       ]
     },
     {
@@ -1768,7 +2110,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rei-ayanami-tentative-name",
-        "https://www.gamekee.com/nikke/157318.html"
+        "https://www.gamekee.com/nikke/157318.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rei-ayanami-tentative-name/"
       ]
     },
     {
@@ -1778,7 +2122,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rem",
-        "https://www.gamekee.com/nikke/618507.html"
+        "https://www.gamekee.com/nikke/618507.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rem/"
       ]
     },
     {
@@ -1788,7 +2134,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rosanna",
-        "https://www.gamekee.com/nikke/591260.html"
+        "https://www.gamekee.com/nikke/591260.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rosanna/"
       ]
     },
     {
@@ -1798,7 +2146,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean",
-        "https://www.gamekee.com/nikke/170974.html"
+        "https://www.gamekee.com/nikke/170974.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rosanna-chic-ocean/"
       ]
     },
     {
@@ -1807,7 +2157,9 @@
       "name_zh": "Rosanna (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/rosanna-treasure"
+        "https://www.prydwen.gg/nikke/characters/rosanna-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rosanna/?treasure=true"
       ]
     },
     {
@@ -1817,7 +2169,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rouge",
-        "https://www.gamekee.com/nikke/152319.html"
+        "https://www.gamekee.com/nikke/152319.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rouge/"
       ]
     },
     {
@@ -1827,7 +2181,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rumani",
-        "https://www.gamekee.com/nikke/171270.html"
+        "https://www.gamekee.com/nikke/171270.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rumani/"
       ]
     },
     {
@@ -1837,7 +2193,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rupee",
-        "https://www.gamekee.com/nikke/170851.html"
+        "https://www.gamekee.com/nikke/170851.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rupee/"
       ]
     },
     {
@@ -1847,7 +2205,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sakura",
-        "https://www.gamekee.com/nikke/587419.html"
+        "https://www.gamekee.com/nikke/587419.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sakura/"
       ]
     },
     {
@@ -1857,7 +2217,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sakura-bloom-in-summer",
-        "https://www.gamekee.com/nikke/156953.html"
+        "https://www.gamekee.com/nikke/156953.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sakura-bloom-in-summer/"
       ]
     },
     {
@@ -1867,7 +2229,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sakura-suzuhara",
-        "https://www.gamekee.com/nikke/156606.html"
+        "https://www.gamekee.com/nikke/156606.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sakura-suzuhara/"
       ]
     },
     {
@@ -1877,7 +2241,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/scarlet",
-        "https://www.gamekee.com/nikke/152335.html"
+        "https://www.gamekee.com/nikke/152335.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/scarlet/"
       ]
     },
     {
@@ -1887,7 +2253,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/scarlet-black-shadow",
-        "https://www.gamekee.com/nikke/609604.html"
+        "https://www.gamekee.com/nikke/609604.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/scarlet-black-shadow/"
       ]
     },
     {
@@ -1915,7 +2283,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/signal",
-        "https://www.gamekee.com/nikke/152331.html"
+        "https://www.gamekee.com/nikke/152331.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/signal/"
       ]
     },
     {
@@ -1925,7 +2295,19 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sin",
-        "https://www.gamekee.com/nikke/580947.html"
+        "https://www.gamekee.com/nikke/580947.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sin/"
+      ]
+    },
+    {
+      "id": "sin-rapid-bunny",
+      "name": "森：疾速兔女郎",
+      "name_zh": "森：疾速兔女郎",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/nikke/722087.html",
+        "https://nikke.gg/tier-list/"
       ]
     },
     {
@@ -1935,7 +2317,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/siren",
-        "https://www.gamekee.com/nikke/660130.html"
+        "https://www.gamekee.com/nikke/660130.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/little-mermaid/"
       ]
     },
     {
@@ -1945,7 +2329,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/snow-crane",
-        "https://www.gamekee.com/nikke/701435.html"
+        "https://www.gamekee.com/nikke/701435.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/snow-crane/"
       ]
     },
     {
@@ -1955,7 +2341,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/snow-white",
-        "https://www.gamekee.com/nikke/92091.html"
+        "https://www.gamekee.com/nikke/92091.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/snow-white/"
       ]
     },
     {
@@ -1965,7 +2353,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/snow-white-heavy-arms",
-        "https://www.gamekee.com/nikke/688276.html"
+        "https://www.gamekee.com/nikke/688276.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/snow-white-heavy-arms/"
       ]
     },
     {
@@ -1975,7 +2365,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soda",
-        "https://www.gamekee.com/nikke/583173.html"
+        "https://www.gamekee.com/nikke/583173.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soda/"
       ]
     },
     {
@@ -1985,7 +2377,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soda-twinkling-bunny",
-        "https://www.gamekee.com/nikke/623992.html"
+        "https://www.gamekee.com/nikke/623992.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soda-twinkling-bunny/"
       ]
     },
     {
@@ -1995,7 +2389,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soldier-eg",
-        "https://www.gamekee.com/nikke/152353.html"
+        "https://www.gamekee.com/nikke/152353.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soldier-eg/"
       ]
     },
     {
@@ -2005,7 +2401,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soldier-fa",
-        "https://www.gamekee.com/nikke/152355.html"
+        "https://www.gamekee.com/nikke/152355.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soldier-fa/"
       ]
     },
     {
@@ -2015,7 +2413,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soldier-ow",
-        "https://www.gamekee.com/nikke/152359.html"
+        "https://www.gamekee.com/nikke/152359.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soldier-ow/"
       ]
     },
     {
@@ -2025,7 +2425,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soline",
-        "https://www.gamekee.com/nikke/163883.html"
+        "https://www.gamekee.com/nikke/163883.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soline/"
       ]
     },
     {
@@ -2035,7 +2437,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/soline-frost-ticket",
-        "https://www.gamekee.com/nikke/684090.html"
+        "https://www.gamekee.com/nikke/684090.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/soline-frost-ticket/"
       ]
     },
     {
@@ -2045,7 +2449,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sora",
-        "https://www.gamekee.com/nikke/668936.html"
+        "https://www.gamekee.com/nikke/668936.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sora/"
       ]
     },
     {
@@ -2055,7 +2461,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sparkling-summer-anis",
-        "https://www.gamekee.com/nikke/597426.html"
+        "https://www.gamekee.com/nikke/597426.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/anis-sparkling-summer/"
       ]
     },
     {
@@ -2065,7 +2473,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sugar",
-        "https://www.gamekee.com/nikke/152328.html"
+        "https://www.gamekee.com/nikke/152328.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sugar/"
       ]
     },
     {
@@ -2074,7 +2484,9 @@
       "name_zh": "Sugar (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/sugar-treasure"
+        "https://www.prydwen.gg/nikke/characters/sugar-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/sugar/?treasure=true"
       ]
     },
     {
@@ -2084,7 +2496,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/takina-inoue",
-        "https://www.gamekee.com/nikke/694801.html"
+        "https://www.gamekee.com/nikke/694801.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/takina/"
       ]
     },
     {
@@ -2094,7 +2508,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/tia",
-        "https://www.gamekee.com/nikke/600940.html"
+        "https://www.gamekee.com/nikke/600940.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/tia/"
       ]
     },
     {
@@ -2104,7 +2520,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/tove",
-        "https://www.gamekee.com/nikke/606470.html"
+        "https://www.gamekee.com/nikke/606470.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/tove/"
       ]
     },
     {
@@ -2113,7 +2531,9 @@
       "name_zh": "Tove (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/tove-treasure"
+        "https://www.prydwen.gg/nikke/characters/tove-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/tove/?treasure=true"
       ]
     },
     {
@@ -2123,7 +2543,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/trina",
-        "https://www.gamekee.com/nikke/156120.html"
+        "https://www.gamekee.com/nikke/156120.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/trina/"
       ]
     },
     {
@@ -2133,7 +2555,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/trony",
-        "https://www.gamekee.com/nikke/622849.html"
+        "https://www.gamekee.com/nikke/622849.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/trony/"
       ]
     },
     {
@@ -2143,7 +2567,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/velvet",
-        "https://www.gamekee.com/nikke/691899.html"
+        "https://www.gamekee.com/nikke/691899.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/velvet/"
       ]
     },
     {
@@ -2153,7 +2579,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/vesti",
-        "https://www.gamekee.com/nikke/170849.html"
+        "https://www.gamekee.com/nikke/170849.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/vesti/"
       ]
     },
     {
@@ -2163,7 +2591,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
-        "https://www.gamekee.com/nikke/674867.html"
+        "https://www.gamekee.com/nikke/674867.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/vesti-tactical-upgrade/"
       ]
     },
     {
@@ -2173,7 +2603,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/viper",
-        "https://www.gamekee.com/nikke/580714.html"
+        "https://www.gamekee.com/nikke/580714.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/viper/"
       ]
     },
     {
@@ -2182,7 +2614,9 @@
       "name_zh": "Viper (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/viper-treasure"
+        "https://www.prydwen.gg/nikke/characters/viper-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/viper/?treasure=true"
       ]
     },
     {
@@ -2192,7 +2626,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/volume",
-        "https://www.gamekee.com/nikke/163876.html"
+        "https://www.gamekee.com/nikke/163876.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/volume/"
       ]
     },
     {
@@ -2202,7 +2638,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/winter-shopper-rupee",
-        "https://www.gamekee.com/nikke/578062.html"
+        "https://www.gamekee.com/nikke/578062.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/rupee-winter-shopper/"
       ]
     },
     {
@@ -2221,7 +2659,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/yan",
-        "https://www.gamekee.com/nikke/163886.html"
+        "https://www.gamekee.com/nikke/163886.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/yan/"
       ]
     },
     {
@@ -2231,7 +2671,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/yukiko",
-        "https://www.gamekee.com/nikke/717735.html"
+        "https://www.gamekee.com/nikke/717735.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/yukiko/"
       ]
     },
     {
@@ -2241,7 +2683,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/yulha",
-        "https://www.gamekee.com/nikke/170841.html"
+        "https://www.gamekee.com/nikke/170841.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/yulha/"
       ]
     },
     {
@@ -2251,7 +2695,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/yuni",
-        "https://www.gamekee.com/nikke/152336.html"
+        "https://www.gamekee.com/nikke/152336.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/yuni/"
       ]
     },
     {
@@ -2270,7 +2716,9 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/zwei",
-        "https://www.gamekee.com/nikke/576593.html"
+        "https://www.gamekee.com/nikke/576593.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/zwei/"
       ]
     },
     {
@@ -2279,7 +2727,9 @@
       "name_zh": "Zwei (Treasure)",
       "stub": false,
       "sources": [
-        "https://www.prydwen.gg/nikke/characters/zwei-treasure"
+        "https://www.prydwen.gg/nikke/characters/zwei-treasure",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/zwei/?treasure=true"
       ]
     }
   ]
