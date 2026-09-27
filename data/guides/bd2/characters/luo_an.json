@@ -55,16 +55,44 @@
     "https://www.gamekee.com/zsca2/621763.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 621763,
   "gamekee_entry_id": 149010,
   "verified": "GameKee zsca2/621763 图鉴",
+  "costume_ratings": [
+    {
+      "label": "最后的希望",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/621763.html",
+      "kind": "atlas",
+      "content_id": 621763,
+      "pull": "建议抽"
+    },
+    {
+      "label": "田径社社员",
+      "tier": "T1.5",
+      "source": "https://www.gamekee.com/zsca2/621763.html",
+      "kind": "atlas",
+      "content_id": 621763,
+      "pull": "建议抽"
+    },
+    {
+      "label": "名人兔女郎",
+      "tier": "T0.5",
+      "source": "https://www.gamekee.com/zsca2/621763.html",
+      "kind": "atlas",
+      "content_id": 621763,
+      "pull": "必抽"
+    }
+  ],
   "summary": {
-    "position": "5星 / 火 / 魔法 / 输出",
+    "tier": "GameKee 图鉴服装梯度：最后的希望 T1；田径社社员 T1.5；名人兔女郎 T0.5",
     "sources": [
       "https://www.gamekee.com/zsca2/621763.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。",
+    "position": "5星 / 火 / 魔法 / 输出",
+    "pull": "最后的希望：建议抽；田径社社员：建议抽；名人兔女郎：必抽"
   }
 }

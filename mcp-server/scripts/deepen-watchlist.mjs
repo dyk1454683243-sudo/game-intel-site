@@ -2,6 +2,7 @@
 /**
  * Deepen HW / NIKKE / BD2 cards from sources that already publish text.
  * Nikke.gg tier list + character API, GameKee 图鉴, GameKee 服装测评摘要.
+ * BD2 atlas grades come only from a 服装梯度 cell that is a written T token.
  * Does not invent tiers, pull lines, or skill numbers.
  *
  * Usage: node mcp-server/scripts/deepen-watchlist.mjs [--dry-run]
@@ -525,6 +526,57 @@ function normSkillName(name) {
     .trim();
 }
 
+async function deepenBd2Atlas(dry) {
+  const rows = loadCards("bd2").filter(
+    (row) => row.card.summary?.stub === true && Number(row.card.gamekee_content_id)
+  );
+  let written = 0;
+  let grades = 0;
+  const stayed = [];
+  for (const row of rows) {
+    const contentId = Number(row.card.gamekee_content_id);
+    try {
+      const wiki = fetchBd2Wiki(contentId);
+      const found = Array.isArray(wiki.costume_grades) ? wiki.costume_grades : [];
+      if (!found.length) {
+        stayed.push(row.card.name_zh || row.card.name || row.card.id);
+        await sleep(200);
+        continue;
+      }
+      const source = `${GK}/zsca2/${contentId}.html`;
+      const costume_ratings = found.map((item) => {
+        const next = {
+          label: item.label,
+          tier: item.tier,
+          source,
+          kind: "atlas",
+          content_id: contentId,
+        };
+        if (item.pull) next.pull = item.pull;
+        return next;
+      });
+      grades += costume_ratings.length;
+      const next = applySummary({
+        ...row.card,
+        costume_ratings,
+        as_of: AS_OF,
+      });
+      if (!changed(row.card, next)) {
+        stayed.push(row.card.name_zh || row.card.name || row.card.id);
+        await sleep(200);
+        continue;
+      }
+      written++;
+      if (!dry) writeJson(row.path, next);
+    } catch (err) {
+      console.error(`bd2 atlas ${row.card.id}: ${err.message}`);
+      stayed.push(row.card.name_zh || row.card.name || row.card.id);
+    }
+    await sleep(200);
+  }
+  return { attempted: rows.length, written, grades, stayed };
+}
+
 async function deepenHw(dry) {
   // lysandria was rebuilt from the same wiki rules; leave that card as the reference.
   const rows = loadCards("hw").filter((row) => row.card.id !== "lysandria" && row.card.gamekee_content_id);
@@ -616,6 +668,7 @@ async function main() {
   const report = { ok: true, dry_run: dry, as_of: AS_OF, only: only || "all" };
   if (!only || only === "bd2-skills") report.bd2_skills = await deepenBd2Skills(dry);
   if (!only || only === "bd2-reviews") report.bd2_reviews = await deepenBd2Reviews(dry);
+  if (!only || only === "bd2-atlas") report.bd2_atlas = await deepenBd2Atlas(dry);
   if (!only || only === "hw") report.hw = await deepenHw(dry);
   if (!only || only === "nikke") report.nikke = await deepenNikke(dry);
   if (!only || only === "nikke") report.bunny_alias = addBunnyAlias(dry);

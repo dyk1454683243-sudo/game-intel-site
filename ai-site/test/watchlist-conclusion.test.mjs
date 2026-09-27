@@ -3,6 +3,7 @@ import test from "node:test";
 import { conclusionFromCard } from "../../mcp-server/scripts/guide-conclusion.mjs";
 import { bd2EffectText } from "../../mcp-server/scripts/enrich-bd2-cards.js";
 import {
+  bd2AtlasCostumeGrades,
   extractCostumePull,
   extractCostumeTier,
   matchCostumeReview,
@@ -10,6 +11,7 @@ import {
   nikkeLocalId,
   parseNumberedGradeSections,
   renderNikkeSkill,
+  usableHwSkillText,
 } from "../../mcp-server/scripts/watchlist-parse.mjs";
 
 test("nikke.gg combined tier is copied and pull is not invented", () => {
@@ -70,9 +72,65 @@ test("bd2 costume tiers stay per costume", () => {
     ],
   });
   assert.equal(summary.stub, false);
+  assert.match(summary.tier, /^GameKee 服装测评：/);
   assert.match(summary.tier, /忌妒之夜 T1/);
   assert.equal(summary.pull, "忌妒之夜：建议抽");
   assert.match(summary.caveat, /不合并成角色总榜/);
+});
+
+test("bd2 atlas grades copy 服装梯度 and 抽取建议 cells only", () => {
+  const cell = (value) => ({ type: "text", value });
+  const grades = bd2AtlasCostumeGrades([
+    {
+      data: [
+        [cell("服装名称"), cell("天守传人")],
+        [cell("服装梯度（4字符）"), cell("抽取建议（3字符）")],
+        [cell("T0.5"), cell("建议抽")],
+      ],
+    },
+    {
+      data: [
+        [cell("服装名称"), cell("爱丽丝")],
+        [cell("服装梯度（4字符）"), cell("抽取建议（3字符）")],
+        [cell(""), cell("不抽")],
+      ],
+    },
+    {
+      data: [
+        [cell("服装名称"), cell("炸弹人")],
+        [cell("服装梯度（4字符）"), cell("抽取建议（3字符）")],
+        [cell("前期T0，后期T10086"), cell("免费送")],
+      ],
+    },
+  ]);
+  assert.deepEqual(grades, [
+    { label: "天守传人", tier: "T0.5", pull: "建议抽" },
+    { label: "炸弹人", tier: "前期T0，后期T10086", pull: "免费送" },
+  ]);
+  const summary = conclusionFromCard({
+    game: "bd2",
+    rarity: "5星",
+    element: "水",
+    role: "辅助",
+    sources: ["https://www.gamekee.com/zsca2/600786.html"],
+    costume_ratings: grades.map((row) => ({
+      ...row,
+      kind: "atlas",
+      source: "https://www.gamekee.com/zsca2/600786.html",
+    })),
+  });
+  assert.equal(summary.stub, false);
+  assert.equal(
+    summary.tier,
+    "GameKee 图鉴服装梯度：天守传人 T0.5；炸弹人 前期T0，后期T10086"
+  );
+  assert.equal(summary.pull, "天守传人：建议抽；炸弹人：免费送");
+  assert.match(summary.caveat, /服装梯度/);
+  assert.equal(usableHwSkillText("3"), "");
+  assert.equal(usableHwSkillText("升级材料"), "");
+  assert.equal(usableHwSkillText("暂无"), "");
+  assert.equal(usableHwSkillText("指定位置待命"), "指定位置待命");
+  assert.match(usableHwSkillText("当拥有被动【收割者】时才可使用，造成斩击伤害。"), /收割者/);
 });
 
 test("bd2 effect text ignores the trailing SP cell", () => {

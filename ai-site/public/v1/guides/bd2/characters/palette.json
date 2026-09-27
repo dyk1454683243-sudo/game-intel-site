@@ -46,16 +46,36 @@
     "https://www.gamekee.com/zsca2/697006.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 697006,
   "gamekee_entry_id": 210629,
   "verified": "GameKee zsca2/697006 图鉴",
+  "costume_ratings": [
+    {
+      "label": "惊悚之梦",
+      "tier": "T0.5",
+      "source": "https://www.gamekee.com/zsca2/697006.html",
+      "kind": "atlas",
+      "content_id": 697006,
+      "pull": "建议抽"
+    },
+    {
+      "label": "奇迹紫罗兰",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/697006.html",
+      "kind": "atlas",
+      "content_id": 697006,
+      "pull": "必抽"
+    }
+  ],
   "summary": {
-    "position": "5星 / 暗 / 魔法 / 输出",
+    "tier": "GameKee 图鉴服装梯度：惊悚之梦 T0.5；奇迹紫罗兰 T1",
     "sources": [
       "https://www.gamekee.com/zsca2/697006.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。",
+    "position": "5星 / 暗 / 魔法 / 输出",
+    "pull": "惊悚之梦：建议抽；奇迹紫罗兰：必抽"
   }
 }

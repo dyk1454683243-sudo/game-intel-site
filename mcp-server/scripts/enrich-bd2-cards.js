@@ -11,6 +11,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
+import { bd2AtlasCostumeGrades } from "./watchlist-parse.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../..");
@@ -330,6 +331,7 @@ export function fetchWiki(contentId) {
     content_id: contentId,
     entry_id: d.entry_id ?? null,
     ...parsed,
+    costume_grades: bd2AtlasCostumeGrades(inner?.styleData),
   };
 }
 

@@ -74,16 +74,52 @@
     "https://www.gamekee.com/zsca2/593582.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593582,
   "gamekee_entry_id": 122346,
   "verified": "GameKee zsca2/593582 图鉴",
+  "costume_ratings": [
+    {
+      "label": "迷雾神射手",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/593582.html",
+      "kind": "atlas",
+      "content_id": 593582,
+      "pull": "不抽"
+    },
+    {
+      "label": "B级老板",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/593582.html",
+      "kind": "atlas",
+      "content_id": 593582,
+      "pull": "不抽"
+    },
+    {
+      "label": "先锋大将",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/593582.html",
+      "kind": "atlas",
+      "content_id": 593582,
+      "pull": "不抽"
+    },
+    {
+      "label": "泳池派对",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/593582.html",
+      "kind": "atlas",
+      "content_id": 593582,
+      "pull": "不抽"
+    }
+  ],
   "summary": {
-    "position": "5星 / 风 / 物理 / 输出",
+    "tier": "GameKee 图鉴服装梯度：迷雾神射手 T2；B级老板 T2；先锋大将 T2；泳池派对 T2",
     "sources": [
       "https://www.gamekee.com/zsca2/593582.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。",
+    "position": "5星 / 风 / 物理 / 输出",
+    "pull": "迷雾神射手：不抽；B级老板：不抽；先锋大将：不抽；泳池派对：不抽"
   }
 }

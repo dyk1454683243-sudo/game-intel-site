@@ -11,6 +11,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { spawnSync } from "node:child_process";
 import { conclusionFromCard } from "./guide-conclusion.mjs";
+import { usableHwSkillText } from "./watchlist-parse.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "../..");
@@ -185,9 +186,14 @@ function parseWikiContent(inner) {
         const mapped = mapSkillType(labelValue(texts, "技能类型"));
         if (mapped) cur.type = mapped;
       }
-      if (texts.includes("精简描述")) {
-        const s = labelValue(texts, "精简描述");
-        if (s) cur.summary = s.replace(/\s+/g, " ").trim();
+      if (texts.includes("精简描述") || texts[0] === "精简描述") {
+        const s = usableHwSkillText(labelValue(texts, "精简描述"));
+        if (s) cur.summary = s;
+      }
+      // Some skills publish the effect under 技能信息 and leave 精简描述 off the row.
+      if (!cur.summary && (texts[0] === "技能信息" || texts.includes("技能信息"))) {
+        const s = usableHwSkillText(labelValue(texts, "技能信息"));
+        if (s) cur.summary = s;
       }
       if (texts.includes("加点推荐")) {
         const p = labelValue(texts, "加点推荐");
