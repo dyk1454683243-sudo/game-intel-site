@@ -1,0 +1,26 @@
+{
+  "id": "sekiro",
+  "name": "Sekiro: Shadows Die Twice - GOTY Edition",
+  "name_zh": "只狼：影逝二度",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "action",
+    "souls"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/814380/"
+    }
+  ],
+  "steam_appid": 814380,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

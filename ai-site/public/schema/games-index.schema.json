@@ -2,13 +2,17 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://game-intel.local/schema/games-index.schema.json",
   "title": "game-intel games catalog index",
+  "description": "Directory index. Stub rows are identity-only. Character cards are not listed here; they live under /v1/guides for watchlist games.",
   "type": "object",
   "required": ["as_of", "timezone", "games"],
   "additionalProperties": true,
   "properties": {
     "as_of": { "type": "string" },
     "timezone": { "type": "string", "const": "Asia/Shanghai" },
-    "note": { "type": "string" },
+    "note": {
+      "type": "string",
+      "description": "Catalog rule: stub true = name/platforms/tags/sources/steam_appid only. Unverified facts: 未见可靠出处."
+    },
     "count": { "type": "integer", "minimum": 0 },
     "watchlist_count": { "type": "integer", "minimum": 0 },
     "stub_count": { "type": "integer", "minimum": 0 },

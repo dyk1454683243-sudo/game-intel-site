@@ -1,0 +1,26 @@
+{
+  "id": "phantom-blade-zero",
+  "name": "Phantom Blade Zero",
+  "name_zh": "影之刃零",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "action",
+    "rpg",
+    "upcoming"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/4115450/"
+    }
+  ],
+  "steam_appid": 4115450,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; page lists the title as upcoming. No invented scores or dates.",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

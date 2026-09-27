@@ -1,0 +1,26 @@
+{
+  "id": "monster-hunter-wilds",
+  "name": "Monster Hunter Wilds",
+  "name_zh": "怪物猎人：荒野",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "action",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2246340/"
+    }
+  ],
+  "steam_appid": 2246340,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

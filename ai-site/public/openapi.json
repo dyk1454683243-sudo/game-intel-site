@@ -3,7 +3,7 @@
   "info": {
     "title": "game-intel site",
     "version": "0.1.0",
-    "description": "Public read surface plus one authenticated write: POST /v1/claims. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json."
+    "description": "Public read surface plus one authenticated write: POST /v1/claims. Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json."
   },
   "servers": [
     {
@@ -14,45 +14,54 @@
     "/.well-known/mcp.json": {
       "get": {
         "summary": "MCP discovery (AI Catalog alias of /.well-known/ai-catalog.json)",
-        "responses": { "200": { "description": "OK", "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } } } }
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/.well-known/ai-catalog.json": {
       "get": {
         "summary": "MCP AI Catalog",
-        "responses": { "200": { "description": "OK", "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } } } }
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/mcp/server-card": {
       "get": {
         "summary": "MCP server card",
-        "responses": { "200": { "description": "OK", "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } } } }
-      }
-    },
-    "/v1/claims.json": {
-      "get": {
-        "summary": "Public claims mirror",
-        "responses": { "200": { "description": "OK", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ClaimsIndex" } } } } }
-      }
-    },
-    "/claims/index.html": {
-      "get": { "summary": "Human claims mirror", "responses": { "200": { "description": "text/html" } } }
-    },
-    "/v1/claims": {
-      "post": {
-        "summary": "Submit a sourced claim",
-        "security": [{ "bearerAuth": [] }],
-        "requestBody": {
-          "required": true,
-          "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ClaimInput" } } }
-        },
         "responses": {
-          "201": { "description": "Accepted" },
-          "400": { "description": "Missing or invalid sources/statement" },
-          "401": { "description": "Missing or wrong bearer token" },
-          "413": { "description": "Body too large" },
-          "429": { "description": "Rate limited" },
-          "503": { "description": "CLAIMS_API_KEY or KV not configured" }
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -84,9 +93,76 @@
         }
       }
     },
+    "/v1/claims.json": {
+      "get": {
+        "summary": "Public claims mirror",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimsIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/claims/index.html": {
+      "get": {
+        "summary": "Human claims mirror",
+        "responses": {
+          "200": {
+            "description": "text/html"
+          }
+        }
+      }
+    },
+    "/v1/claims": {
+      "post": {
+        "summary": "Submit a sourced claim",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClaimInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Accepted"
+          },
+          "400": {
+            "description": "Missing or invalid sources/statement"
+          },
+          "401": {
+            "description": "Missing or wrong bearer token"
+          },
+          "413": {
+            "description": "Body too large"
+          },
+          "429": {
+            "description": "Rate limited"
+          },
+          "503": {
+            "description": "CLAIMS_API_KEY or KV not configured"
+          }
+        }
+      }
+    },
     "/v1/games/index.json": {
       "get": {
-        "summary": "Game catalog index",
+        "summary": "Game catalog index. Updates on publish. Stubs are identity-only.",
         "responses": {
           "200": {
             "description": "OK",
@@ -103,7 +179,7 @@
     },
     "/v1/games/{id}.json": {
       "get": {
-        "summary": "One game entity",
+        "summary": "One game entity. stub true = name, platforms, tags, sources, steam_appid.",
         "responses": {
           "200": {
             "description": "OK",
@@ -120,7 +196,7 @@
     },
     "/v1/feed.json": {
       "get": {
-        "summary": "Recent intel items",
+        "summary": "Recent intel items from real digest and radar rows. Rebuilds on catalog export.",
         "responses": {
           "200": {
             "description": "OK",
@@ -137,7 +213,7 @@
     },
     "/v1/watchlist.json": {
       "get": {
-        "summary": "Watchlist",
+        "summary": "Watchlist for deep guides. Best-effort daily.",
         "responses": {
           "200": {
             "description": "OK",
@@ -154,7 +230,7 @@
     },
     "/v1/digest.json": {
       "get": {
-        "summary": "Digest headlines",
+        "summary": "Digest headlines. Best-effort daily.",
         "responses": {
           "200": {
             "description": "OK",
@@ -171,7 +247,7 @@
     },
     "/v1/calendar.json": {
       "get": {
-        "summary": "Event calendar",
+        "summary": "Event calendar. Best-effort daily.",
         "responses": {
           "200": {
             "description": "OK",
@@ -188,7 +264,7 @@
     },
     "/v1/calendar-hw.json": {
       "get": {
-        "summary": "HW calendar",
+        "summary": "HW calendar. Best-effort daily.",
         "responses": {
           "200": {
             "description": "OK",
@@ -205,7 +281,7 @@
     },
     "/v1/radar.json": {
       "get": {
-        "summary": "New-game radar",
+        "summary": "New-game radar. Best-effort daily. Not a second catalog.",
         "responses": {
           "200": {
             "description": "OK",
@@ -318,8 +394,12 @@
       }
     },
     "schemas": {
-      "ClaimInput": { "$ref": "/schema/claim.schema.json" },
-      "ClaimsIndex": { "$ref": "/schema/claims-index.schema.json" },
+      "ClaimInput": {
+        "$ref": "/schema/claim.schema.json"
+      },
+      "ClaimsIndex": {
+        "$ref": "/schema/claims-index.schema.json"
+      },
       "Game": {
         "$ref": "/schema/game.schema.json"
       },

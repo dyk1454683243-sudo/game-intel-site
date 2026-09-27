@@ -1,0 +1,26 @@
+{
+  "id": "kingdom-come-deliverance-2",
+  "name": "Kingdom Come: Deliverance II",
+  "name_zh": "天国：拯救2",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "open-world"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1771300/"
+    }
+  ],
+  "steam_appid": 1771300,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

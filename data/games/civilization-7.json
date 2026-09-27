@@ -1,0 +1,26 @@
+{
+  "id": "civilization-7",
+  "name": "Sid Meier's Civilization VII",
+  "name_zh": "席德·梅尔的文明VII",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "strategy",
+    "sim"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1295660/"
+    }
+  ],
+  "steam_appid": 1295660,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

@@ -281,101 +281,21 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 ## Rules
 
 - Never invent Metacritic / prices / player counts.
-- \`stub: true\` = identity + real links only.
+- \`stub: true\` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
+- Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
 - Guides remain under \`/guides/*\` and \`/v1/guides/*\` (unchanged contract).
 - Non-stub character cards require \`sources\` + \`as_of\`. HW/NIKKE/BD2 also require \`summary\` (conclusion). \`summary.stub: true\` means the conclusion is incomplete.
 `;
   fs.writeFileSync(path.join(OUT_PUBLIC, "index.md"), md, "utf8");
 
-  const llms = `# game-intel AI site (game catalog + guides + live intel)
-
-Machine-readable endpoints. Timezone: Asia/Shanghai.
-Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
-Game entities dual-published from \`data/games/\`.
-Guide cards dual-published from \`data/guides/\`.
-\`v1/digest|radar|calendar-hw\` from best-effort MCP/CLI export.
-OpenAPI: /openapi.json (public GET map, plus authenticated POST /v1/claims).
-Remote MCP discovery: /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Read-only tools mirror published JSON.
-
-## How to answer from the site
-
-1. Resolve the game id (hw, nikke, bd2, or a catalog id under /v1/games/index.json).
-2. Prefer /v1/guides/{game}/characters/{id}.json for build questions. Read \`summary\` (结论), \`skills\`, \`sources\`, \`as_of\`.
-3. If \`stub\` is true, or \`summary.stub\` is true, say the card or the conclusion is incomplete. Do not invent skill numbers, gacha rates, prices, or pull advice.
-4. Human pages mirror the same JSON: /guides/{game}/{id}.html and /games/{id}.html.
-5. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty or fixture meta means no item — do not fill the gap.
-6. Remote MCP: GET /.well-known/mcp.json then connect to the server card's streamable-http URL (/mcp). Tools read the JSON routes below. They do not scrape HTML.
-7. Sourced claims: POST /v1/claims with Authorization: Bearer and https sources. Humans read GET /v1/claims.json and /claims/index.html. No key on GET.
-
-## Catalog and intel (JSON)
-
-- /v1/games/index.json — game catalog index
-- /v1/games/{id}.json — single game entity (hw, nikke, bd2, star, asora, miraesi, lo2, plus the rest of the catalog)
-- /v1/feed.json — cross-platform recent intel (real items only)
-- /v1/watchlist.json — watched games
-- /v1/digest.json — per-game digest headlines
-- /v1/calendar.json — upcoming events calendar
-- /v1/calendar-hw.json — HW calendar (live export)
-- /v1/radar.json — new-game radar
-
-## Guides (JSON) — watchlist first
-
-- /v1/guides/index.json — coverage per watchlist game (counts, rich vs stub)
-- /v1/guides/hw/index.json — Horizon Walker / 地平线行者 character list
-- /v1/guides/nikke/index.json — NIKKE character list
-- /v1/guides/bd2/index.json — Brown Dust 2 / 棕色尘埃2 character list
-- /v1/guides/{game}/aliases.json — nickname → id (nikke also has aliases.p1.json … p4.json)
-- /v1/guides/{game}/characters/{id}.json — one card. Non-stub cards require sources (https URLs) and as_of.
-- /v1/guides/hw/characters/{id}.json — summary.tier is the GameKee 图鉴 T度 already stored on the card. summary.pull only when the card already quoted 抽取建议.
-- /v1/guides/nikke/characters/{id}.json — summary.stub true unless a verified tier/pull was already on the card. Position is class/burst/element, not a tier list.
-- /v1/guides/bd2/characters/{id}.json — summary.stub true. Position is rarity/element/role from the 图鉴, not a tier list or price.
-- /v1/guides/hw/dopamine-auto.json — HW dopamine auto teams (also /v1/guides/hw/modes/dopamine-auto.json)
-
-## Human pages
-
-- / — site home
-- /games/index.html — Chinese game directory
-- /games/{id}.html — game detail
-- /guides/index.html — Chinese guide index
-- /guides/hw/index.html — HW character index
-- /guides/nikke/index.html — NIKKE character index
-- /guides/bd2/index.html — BD2 character index
-- /guides/{game}/{id}.html — character page; 结论 section mirrors summary
-
-## Schemas and contract
-
-- /.well-known/mcp.json — MCP AI Catalog (alias of /.well-known/ai-catalog.json)
-- /mcp/server-card — MCP server card (application/mcp-server-card+json)
-- /mcp — read-only streamable HTTP MCP
-- /v1/claims.json — public claims mirror (no auth)
-- /claims/index.html — human claims mirror
-- POST /v1/claims — authenticated sourced claim (Authorization: Bearer, secret CLAIMS_API_KEY)
-- /openapi.json — OpenAPI 3.0 for the public routes
-- /schema/game.schema.json
-- /schema/games-index.schema.json
-- /schema/feed.schema.json
-- /schema/watchlist.schema.json
-- /schema/digest.schema.json
-- /schema/calendar.schema.json
-- /schema/guides-index.schema.json
-- /schema/character-card.schema.json — non-stub cards require sources + as_of; summary.sources required when summary is present; summary.stub marks a thin conclusion
-- /schema/aliases.schema.json
-- /index.md — overview
-- /llms.txt — this file
-
-## Notes
-
-- Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
-- No authentication on public GET routes
-- POST /v1/claims requires Authorization: Bearer. The key is wrangler secret CLAIMS_API_KEY and is never committed
-- Missing https sources are rejected
-- Prefer JSON Schema draft-07 under /schema/
-- Re-export: \`npm run export-guides && npm run export-games\` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
-- Never invent skill names/numbers, gacha rates, or Metacritic/prices
-- Card \`"stub": true\` = skills not verified. \`"summary.stub": true\` = conclusion not verified. Do not collapse those two flags.
-`;
-  fs.writeFileSync(path.join(OUT_PUBLIC, "llms.txt"), llms, "utf8");
+  // ai-site/llms.txt is the source of published /llms.txt (fields, examples, cadence).
+  const llmsSrc = path.join(SITE, "llms.txt");
+  if (!fs.existsSync(llmsSrc)) {
+    console.error("[export-games] missing source", llmsSrc);
+    process.exit(1);
+  }
+  fs.copyFileSync(llmsSrc, path.join(OUT_PUBLIC, "llms.txt"));
   writeJson(path.join(OUT_PUBLIC, "openapi.json"), openApiDoc());
 }
 
@@ -400,7 +320,7 @@ function openApiDoc() {
       title: "game-intel site",
       version: "0.1.0",
       description:
-        "Public read surface plus one authenticated write: POST /v1/claims. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
+        "Public read surface plus one authenticated write: POST /v1/claims. Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
     },
     servers: [{ url: "https://game-intel-ai.dyk1454683243.workers.dev" }],
     paths: {
@@ -431,14 +351,14 @@ function openApiDoc() {
           },
         },
       },
-      "/v1/games/index.json": get("Game catalog index", "#/components/schemas/GamesIndex"),
-      "/v1/games/{id}.json": get("One game entity", "#/components/schemas/Game"),
-      "/v1/feed.json": get("Recent intel items", "#/components/schemas/Feed"),
-      "/v1/watchlist.json": get("Watchlist", "#/components/schemas/Watchlist"),
-      "/v1/digest.json": get("Digest headlines", "#/components/schemas/Digest"),
-      "/v1/calendar.json": get("Event calendar", "#/components/schemas/Calendar"),
-      "/v1/calendar-hw.json": get("HW calendar", "#/components/schemas/Calendar"),
-      "/v1/radar.json": get("New-game radar"),
+      "/v1/games/index.json": get("Game catalog index. Updates on publish. Stubs are identity-only.", "#/components/schemas/GamesIndex"),
+      "/v1/games/{id}.json": get("One game entity. stub true = name, platforms, tags, sources, steam_appid.", "#/components/schemas/Game"),
+      "/v1/feed.json": get("Recent intel items from real digest and radar rows. Rebuilds on catalog export.", "#/components/schemas/Feed"),
+      "/v1/watchlist.json": get("Watchlist for deep guides. Best-effort daily.", "#/components/schemas/Watchlist"),
+      "/v1/digest.json": get("Digest headlines. Best-effort daily.", "#/components/schemas/Digest"),
+      "/v1/calendar.json": get("Event calendar. Best-effort daily.", "#/components/schemas/Calendar"),
+      "/v1/calendar-hw.json": get("HW calendar. Best-effort daily.", "#/components/schemas/Calendar"),
+      "/v1/radar.json": get("New-game radar. Best-effort daily. Not a second catalog."),
       "/v1/guides/index.json": get("Guide coverage", "#/components/schemas/GuidesIndex"),
       "/v1/guides/{game}/index.json": get("Character list for one game"),
       "/v1/guides/{game}/aliases.json": get("Nickname map", "#/components/schemas/Aliases"),
@@ -545,7 +465,7 @@ ${card.note ? `<p class="meta">${esc(card.note)}</p>` : ""}
   const index = {
     as_of: asOf,
     timezone: "Asia/Shanghai",
-    note: "Game entity catalog (separate from character guides). stub:true = identity+links only; never invent Metacritic/prices/player counts.",
+    note: "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
     count: summaries.length,
     watchlist_count: summaries.filter((s) => s.watchlist).length,
     stub_count: summaries.filter((s) => s.stub).length,
@@ -583,7 +503,7 @@ ${rows}
   writeHomePages(games, feed, asOf);
 
   // Keep root ai-site copies in sync for editors
-  for (const f of ["index.html", "index.md", "llms.txt"]) {
+  for (const f of ["index.html", "index.md"]) {
     const src = path.join(OUT_PUBLIC, f);
     if (fs.existsSync(src)) {
       fs.copyFileSync(src, path.join(SITE, f));

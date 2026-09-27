@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-27",
   "timezone": "Asia/Shanghai",
-  "note": "Game entity catalog (separate from character guides). stub:true = identity+links only; never invent Metacritic/prices/player counts.",
-  "count": 30,
+  "note": "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
+  "count": 54,
   "watchlist_count": 7,
-  "stub_count": 27,
+  "stub_count": 51,
   "games": [
     {
       "id": "asora",
@@ -190,6 +190,24 @@
       "path": "games/black-myth-wukong"
     },
     {
+      "id": "blue-prince",
+      "name": "Blue Prince",
+      "name_zh": "蓝途王子",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "puzzle",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1569580,
+      "path": "games/blue-prince"
+    },
+    {
       "id": "celeste",
       "name": "Celeste",
       "name_zh": "蔚蓝",
@@ -206,6 +224,24 @@
       "watchlist": false,
       "steam_appid": 504230,
       "path": "games/celeste"
+    },
+    {
+      "id": "civilization-7",
+      "name": "Sid Meier's Civilization VII",
+      "name_zh": "席德·梅尔的文明VII",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "strategy",
+        "sim"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1295660,
+      "path": "games/civilization-7"
     },
     {
       "id": "clair-obscur-expedition-33",
@@ -226,6 +262,24 @@
       "watchlist": false,
       "steam_appid": 1903340,
       "path": "games/clair-obscur-expedition-33"
+    },
+    {
+      "id": "control-resonant",
+      "name": "CONTROL Resonant",
+      "name_zh": "控制: 共振",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3669870,
+      "path": "games/control-resonant"
     },
     {
       "id": "cyberpunk-2077",
@@ -289,6 +343,24 @@
       "path": "games/dead-cells"
     },
     {
+      "id": "deep-rock-galactic",
+      "name": "Deep Rock Galactic",
+      "name_zh": "深岩银河",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "shooter",
+        "co-op"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 548430,
+      "path": "games/deep-rock-galactic"
+    },
+    {
       "id": "disco-elysium",
       "name": "Disco Elysium - The Final Cut",
       "name_zh": "极乐迪斯科",
@@ -330,6 +402,24 @@
       "path": "games/elden-ring"
     },
     {
+      "id": "elden-ring-nightreign",
+      "name": "ELDEN RING NIGHTREIGN",
+      "name_zh": "艾尔登法环 黑夜君临",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "co-op"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2622380,
+      "path": "games/elden-ring-nightreign"
+    },
+    {
       "id": "factorio",
       "name": "Factorio",
       "name_zh": "异星工厂",
@@ -346,6 +436,23 @@
       "watchlist": false,
       "steam_appid": 427520,
       "path": "games/factorio"
+    },
+    {
+      "id": "gears-of-war-e-day",
+      "name": "Gears of War: E-Day",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "shooter",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3010850,
+      "path": "games/gears-of-war-e-day"
     },
     {
       "id": "hades",
@@ -385,6 +492,24 @@
       "watchlist": false,
       "steam_appid": 1145350,
       "path": "games/hades-2"
+    },
+    {
+      "id": "helldivers-2",
+      "name": "HELLDIVERS 2",
+      "name_zh": "绝地潜兵2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "shooter",
+        "co-op"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 553850,
+      "path": "games/helldivers-2"
     },
     {
       "id": "hollow-knight",
@@ -441,6 +566,77 @@
       "path": "games/inscryption"
     },
     {
+      "id": "kingdom-come-deliverance-2",
+      "name": "Kingdom Come: Deliverance II",
+      "name_zh": "天国：拯救2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "open-world"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1771300,
+      "path": "games/kingdom-come-deliverance-2"
+    },
+    {
+      "id": "lies-of-p",
+      "name": "Lies of P",
+      "name_zh": "匹诺曹的谎言",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1627720,
+      "path": "games/lies-of-p"
+    },
+    {
+      "id": "metaphor-refantazio",
+      "name": "Metaphor: ReFantazio",
+      "name_zh": "暗喻幻想：ReFantazio",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2679460,
+      "path": "games/metaphor-refantazio"
+    },
+    {
+      "id": "monster-hunter-wilds",
+      "name": "Monster Hunter Wilds",
+      "name_zh": "怪物猎人：荒野",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2246340,
+      "path": "games/monster-hunter-wilds"
+    },
+    {
       "id": "nine-sols",
       "name": "Nine Sols",
       "name_zh": "九魂",
@@ -457,6 +653,41 @@
       "watchlist": false,
       "steam_appid": 1809540,
       "path": "games/nine-sols"
+    },
+    {
+      "id": "no-mans-sky",
+      "name": "No Man's Sky",
+      "name_zh": "无人深空",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "exploration",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 275850,
+      "path": "games/no-mans-sky"
+    },
+    {
+      "id": "onimusha-way-of-the-sword",
+      "name": "Onimusha: Way of the Sword",
+      "name_zh": "鬼武者 Way of the Sword",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2638890,
+      "path": "games/onimusha-way-of-the-sword"
     },
     {
       "id": "palworld",
@@ -478,6 +709,42 @@
       "path": "games/palworld"
     },
     {
+      "id": "phantom-blade-zero",
+      "name": "Phantom Blade Zero",
+      "name_zh": "影之刃零",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "action",
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 4115450,
+      "path": "games/phantom-blade-zero"
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "name_zh": "荒野大镖客：救赎2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "open-world"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1174180,
+      "path": "games/red-dead-redemption-2"
+    },
+    {
       "id": "rimworld",
       "name": "RimWorld",
       "name_zh": "环世界",
@@ -494,6 +761,42 @@
       "watchlist": false,
       "steam_appid": 294100,
       "path": "games/rimworld"
+    },
+    {
+      "id": "satisfactory",
+      "name": "Satisfactory",
+      "name_zh": "幸福工厂",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "sim",
+        "factory"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 526870,
+      "path": "games/satisfactory"
+    },
+    {
+      "id": "sekiro",
+      "name": "Sekiro: Shadows Die Twice - GOTY Edition",
+      "name_zh": "只狼：影逝二度",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 814380,
+      "path": "games/sekiro"
     },
     {
       "id": "slay-the-spire",
@@ -514,6 +817,43 @@
       "watchlist": false,
       "steam_appid": 646570,
       "path": "games/slay-the-spire"
+    },
+    {
+      "id": "slay-the-spire-2",
+      "name": "Slay the Spire 2",
+      "name_zh": "杀戮尖塔2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "roguelike",
+        "card",
+        "early-access"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2868840,
+      "path": "games/slay-the-spire-2"
+    },
+    {
+      "id": "split-fiction",
+      "name": "Split Fiction",
+      "name_zh": "双影奇境",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "co-op",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2001120,
+      "path": "games/split-fiction"
     },
     {
       "id": "stardew-valley",
@@ -537,6 +877,79 @@
       "path": "games/stardew-valley"
     },
     {
+      "id": "subnautica-2",
+      "name": "Subnautica 2",
+      "name_zh": "Subnautica 2：异星水域",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "survival",
+        "adventure",
+        "early-access"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1962700,
+      "path": "games/subnautica-2"
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "name_zh": "泰拉瑞亚",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "sandbox",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 105600,
+      "path": "games/terraria"
+    },
+    {
+      "id": "the-blood-of-dawnwalker",
+      "name": "The Blood of Dawnwalker",
+      "name_zh": "黎明行者之血",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3751260,
+      "path": "games/the-blood-of-dawnwalker"
+    },
+    {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "name_zh": "巫师 3：狂猎 - 完全版",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "open-world"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 292030,
+      "path": "games/the-witcher-3"
+    },
+    {
       "id": "undertale",
       "name": "Undertale",
       "name_zh": "Undertale",
@@ -555,6 +968,24 @@
       "watchlist": false,
       "steam_appid": 391540,
       "path": "games/undertale"
+    },
+    {
+      "id": "valheim",
+      "name": "Valheim",
+      "name_zh": "英灵神殿",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "survival",
+        "sandbox"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 892970,
+      "path": "games/valheim"
     },
     {
       "id": "vampire-survivors",
