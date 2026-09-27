@@ -1,0 +1,25 @@
+{
+  "id": "outer-wilds",
+  "name": "Outer Wilds",
+  "name_zh": "星际拓荒",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "indie",
+    "adventure"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/753640/"
+    }
+  ],
+  "steam_appid": 753640,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

@@ -33,6 +33,7 @@ export async function readJson(env, origin, pathname) {
 export function resolvePublicPath(pathname) {
   if (pathname === "/llms.txt" || pathname === "/openapi.json") return pathname;
   if (pathname === "/v1/games/index.json") return pathname;
+  if (pathname === "/v1/catalog-aliases.json") return pathname;
   if (pathname === "/v1/digest.json") return pathname;
   if (pathname === "/v1/radar.json") return pathname;
   if (pathname === "/v1/feed.json") return pathname;

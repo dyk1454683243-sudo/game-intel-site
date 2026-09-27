@@ -1,0 +1,487 @@
+{
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai",
+  "note": "Nickname → catalog id. Export merges these keys with each game's name and name_zh into /v1/catalog-aliases.json. Resolve: alias → id → /v1/games/{id}.json. Character nicknames stay in data/guides/{game}/aliases.json. Keys are Steam schinese titles, Steam koreana titles, or official CN/EN names — not slang.",
+  "aliases": {
+    "ANANTA": {
+      "id": "ananta",
+      "name": "ANANTA",
+      "lang": "en"
+    },
+    "Arknights: Endfield": {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "lang": "en"
+    },
+    "ARMORED CORE VI FIRES OF RUBICON": {
+      "id": "armored-core-vi",
+      "name": "ARMORED CORE VI FIRES OF RUBICON",
+      "lang": "en"
+    },
+    "Assassin's Creed Shadows": {
+      "id": "assassins-creed-shadows",
+      "name": "Assassin's Creed Shadows",
+      "lang": "en"
+    },
+    "Blasphemous 2": {
+      "id": "blasphemous-2",
+      "name": "Blasphemous 2",
+      "lang": "en"
+    },
+    "Cult of the Lamb": {
+      "id": "cult-of-the-lamb",
+      "name": "Cult of the Lamb",
+      "lang": "en"
+    },
+    "DARK SOULS III": {
+      "id": "dark-souls-iii",
+      "name": "DARK SOULS III",
+      "lang": "en"
+    },
+    "Dark Souls III": {
+      "id": "dark-souls-iii",
+      "name": "DARK SOULS III",
+      "lang": "en"
+    },
+    "Diablo IV": {
+      "id": "diablo-iv",
+      "name": "Diablo IV",
+      "lang": "en"
+    },
+    "DREDGE": {
+      "id": "dredge",
+      "name": "DREDGE",
+      "lang": "en"
+    },
+    "GIRLS' FRONTLINE 2: EXILIUM": {
+      "id": "girls-frontline-2",
+      "name": "GIRLS' FRONTLINE 2: EXILIUM",
+      "lang": "en"
+    },
+    "Hogwarts Legacy": {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "lang": "en"
+    },
+    "Horizon Forbidden West Complete Edition": {
+      "id": "horizon-forbidden-west",
+      "name": "Horizon Forbidden West Complete Edition",
+      "lang": "en"
+    },
+    "Indiana Jones and the Great Circle": {
+      "id": "indiana-jones-and-the-great-circle",
+      "name": "Indiana Jones and the Great Circle",
+      "lang": "en"
+    },
+    "Infinity Nikki": {
+      "id": "infinity-nikki",
+      "name": "Infinity Nikki",
+      "lang": "en"
+    },
+    "Lethal Company": {
+      "id": "lethal-company",
+      "name": "Lethal Company",
+      "lang": "en"
+    },
+    "Limbus Company": {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "lang": "en"
+    },
+    "NARAKA: BLADEPOINT": {
+      "id": "naraka-bladepoint",
+      "name": "NARAKA: BLADEPOINT",
+      "lang": "en"
+    },
+    "Once Human": {
+      "id": "once-human",
+      "name": "Once Human",
+      "lang": "en"
+    },
+    "Outer Wilds": {
+      "id": "outer-wilds",
+      "name": "Outer Wilds",
+      "lang": "en"
+    },
+    "Path of Exile 2": {
+      "id": "path-of-exile-2",
+      "name": "Path of Exile 2",
+      "lang": "en"
+    },
+    "Persona 5 Royal": {
+      "id": "persona-5-royal",
+      "name": "Persona 5 Royal",
+      "lang": "en"
+    },
+    "RDR2": {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "lang": "en"
+    },
+    "Reverse: 1999": {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "lang": "en"
+    },
+    "Risk of Rain 2": {
+      "id": "risk-of-rain-2",
+      "name": "Risk of Rain 2",
+      "lang": "en"
+    },
+    "Sea of Stars": {
+      "id": "sea-of-stars",
+      "name": "Sea of Stars: Sunset Edition",
+      "lang": "en"
+    },
+    "Sea of Stars 星之海": {
+      "id": "sea-of-stars",
+      "name": "Sea of Stars: Sunset Edition",
+      "lang": "zh"
+    },
+    "Sea of Stars: Sunset Edition": {
+      "id": "sea-of-stars",
+      "name": "Sea of Stars: Sunset Edition",
+      "lang": "en"
+    },
+    "Stellar Blade": {
+      "id": "stellar-blade",
+      "name": "Stellar Blade",
+      "lang": "en"
+    },
+    "Subnautica": {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "lang": "en"
+    },
+    "Subnautica - 深海迷航": {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "lang": "zh"
+    },
+    "The Witcher 3": {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "lang": "en"
+    },
+    "Warframe": {
+      "id": "warframe",
+      "name": "Warframe",
+      "lang": "en"
+    },
+    "Warframe 星际战甲": {
+      "id": "warframe",
+      "name": "Warframe",
+      "lang": "zh"
+    },
+    "WUCHANG: Fallen Feathers": {
+      "id": "wuchang-fallen-feathers",
+      "name": "WUCHANG: Fallen Feathers",
+      "lang": "en"
+    },
+    "Wuthering Waves": {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "lang": "en"
+    },
+    "Zenless Zone Zero": {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "lang": "en"
+    },
+    "七日世界": {
+      "id": "once-human",
+      "name": "Once Human",
+      "lang": "zh"
+    },
+    "刺客信条：影": {
+      "id": "assassins-creed-shadows",
+      "name": "Assassin's Creed Shadows",
+      "lang": "zh"
+    },
+    "剑星": {
+      "id": "stellar-blade",
+      "name": "Stellar Blade",
+      "lang": "zh"
+    },
+    "博德之门 3": {
+      "id": "baldurs-gate-3",
+      "name": "Baldur's Gate 3",
+      "lang": "zh"
+    },
+    "只狼": {
+      "id": "sekiro",
+      "name": "Sekiro: Shadows Die Twice - GOTY Edition",
+      "lang": "zh"
+    },
+    "咩咩启示录": {
+      "id": "cult-of-the-lamb",
+      "name": "Cult of the Lamb",
+      "lang": "zh"
+    },
+    "地平线 西之绝境完整版": {
+      "id": "horizon-forbidden-west",
+      "name": "Horizon Forbidden West Complete Edition",
+      "lang": "zh"
+    },
+    "夺宝奇兵：古老之圈": {
+      "id": "indiana-jones-and-the-great-circle",
+      "name": "Indiana Jones and the Great Circle",
+      "lang": "zh"
+    },
+    "女神异闻录5皇家版": {
+      "id": "persona-5-royal",
+      "name": "Persona 5 Royal",
+      "lang": "zh"
+    },
+    "少女前线2追放": {
+      "id": "girls-frontline-2",
+      "name": "GIRLS' FRONTLINE 2: EXILIUM",
+      "lang": "zh"
+    },
+    "少女前线2：追放": {
+      "id": "girls-frontline-2",
+      "name": "GIRLS' FRONTLINE 2: EXILIUM",
+      "lang": "zh"
+    },
+    "巫师 3": {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "lang": "zh"
+    },
+    "巫师3": {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "lang": "zh"
+    },
+    "巫师3：狂猎": {
+      "id": "the-witcher-3",
+      "name": "The Witcher 3: Wild Hunt - Complete Edition",
+      "lang": "zh"
+    },
+    "怪物猎人荒野": {
+      "id": "monster-hunter-wilds",
+      "name": "Monster Hunter Wilds",
+      "lang": "zh"
+    },
+    "无限大": {
+      "id": "ananta",
+      "name": "ANANTA",
+      "lang": "zh"
+    },
+    "无限暖暖": {
+      "id": "infinity-nikki",
+      "name": "Infinity Nikki",
+      "lang": "zh"
+    },
+    "明日方舟终末地": {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "lang": "zh"
+    },
+    "明日方舟：终末地": {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "lang": "zh"
+    },
+    "明末：渊虚之羽": {
+      "id": "wuchang-fallen-feathers",
+      "name": "WUCHANG: Fallen Feathers",
+      "lang": "zh"
+    },
+    "星之海": {
+      "id": "sea-of-stars",
+      "name": "Sea of Stars: Sunset Edition",
+      "lang": "zh"
+    },
+    "星际战甲": {
+      "id": "warframe",
+      "name": "Warframe",
+      "lang": "zh"
+    },
+    "星际拓荒": {
+      "id": "outer-wilds",
+      "name": "Outer Wilds",
+      "lang": "zh"
+    },
+    "暗黑破坏神 IV": {
+      "id": "diablo-iv",
+      "name": "Diablo IV",
+      "lang": "zh"
+    },
+    "机战佣兵VI 境界天火": {
+      "id": "armored-core-vi",
+      "name": "ARMORED CORE VI FIRES OF RUBICON",
+      "lang": "zh"
+    },
+    "永劫无间": {
+      "id": "naraka-bladepoint",
+      "name": "NARAKA: BLADEPOINT",
+      "lang": "zh"
+    },
+    "流放之路2": {
+      "id": "path-of-exile-2",
+      "name": "Path of Exile 2",
+      "lang": "zh"
+    },
+    "深海迷航": {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "lang": "zh"
+    },
+    "渔帆暗涌": {
+      "id": "dredge",
+      "name": "DREDGE",
+      "lang": "zh"
+    },
+    "神之亵渎2": {
+      "id": "blasphemous-2",
+      "name": "Blasphemous 2",
+      "lang": "zh"
+    },
+    "绝区零": {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "lang": "zh"
+    },
+    "绝地潜兵 2": {
+      "id": "helldivers-2",
+      "name": "HELLDIVERS 2",
+      "lang": "zh"
+    },
+    "胜利女神": {
+      "id": "nikke",
+      "name": "NIKKE",
+      "lang": "zh"
+    },
+    "艾尔登法环黑夜君临": {
+      "id": "elden-ring-nightreign",
+      "name": "ELDEN RING NIGHTREIGN",
+      "lang": "zh"
+    },
+    "荒野大镖客2": {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "lang": "zh"
+    },
+    "赛博朋克 2077": {
+      "id": "cyberpunk-2077",
+      "name": "Cyberpunk 2077",
+      "lang": "zh"
+    },
+    "边狱公司": {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "lang": "zh"
+    },
+    "重返未来1999": {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "lang": "zh"
+    },
+    "重返未来：1999": {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "lang": "zh"
+    },
+    "雨中冒险 2": {
+      "id": "risk-of-rain-2",
+      "name": "Risk of Rain 2",
+      "lang": "zh"
+    },
+    "霍格沃茨之遗": {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "lang": "zh"
+    },
+    "鸣潮": {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "lang": "zh"
+    },
+    "黑暗之魂3": {
+      "id": "dark-souls-iii",
+      "name": "DARK SOULS III",
+      "lang": "zh"
+    },
+    "黑暗之魂III": {
+      "id": "dark-souls-iii",
+      "name": "DARK SOULS III",
+      "lang": "zh"
+    },
+    "黑神话悟空": {
+      "id": "black-myth-wukong",
+      "name": "Black Myth: Wukong",
+      "lang": "zh"
+    },
+    "디아블로 IV": {
+      "id": "diablo-iv",
+      "name": "Diablo IV",
+      "lang": "ko"
+    },
+    "명말: 공허의 깃털": {
+      "id": "wuchang-fallen-feathers",
+      "name": "WUCHANG: Fallen Feathers",
+      "lang": "ko"
+    },
+    "명일방주: 엔드필드": {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "lang": "ko"
+    },
+    "무한대": {
+      "id": "ananta",
+      "name": "ANANTA",
+      "lang": "ko"
+    },
+    "서브노티카": {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "lang": "ko"
+    },
+    "스텔라 블레이드": {
+      "id": "stellar-blade",
+      "name": "Stellar Blade",
+      "lang": "ko"
+    },
+    "아머드 코어 VI 루비콘의 화염": {
+      "id": "armored-core-vi",
+      "name": "ARMORED CORE VI FIRES OF RUBICON",
+      "lang": "ko"
+    },
+    "어쌔신 크리드 섀도우스": {
+      "id": "assassins-creed-shadows",
+      "name": "Assassin's Creed Shadows",
+      "lang": "ko"
+    },
+    "인디아나 존스: 그레이트 서클": {
+      "id": "indiana-jones-and-the-great-circle",
+      "name": "Indiana Jones and the Great Circle",
+      "lang": "ko"
+    },
+    "인피니티 니키": {
+      "id": "infinity-nikki",
+      "name": "Infinity Nikki",
+      "lang": "ko"
+    },
+    "젠레스 존 제로": {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "lang": "ko"
+    },
+    "페르소나 5 더 로열": {
+      "id": "persona-5-royal",
+      "name": "Persona 5 Royal",
+      "lang": "ko"
+    },
+    "호그와트 레거시": {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "lang": "ko"
+    },
+    "호라이즌 포비든 웨스트 컴플리트 에디션": {
+      "id": "horizon-forbidden-west",
+      "name": "Horizon Forbidden West Complete Edition",
+      "lang": "ko"
+    }
+  }
+}

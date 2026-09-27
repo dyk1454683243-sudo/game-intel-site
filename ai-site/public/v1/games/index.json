@@ -2,9 +2,9 @@
   "as_of": "2026-09-27",
   "timezone": "Asia/Shanghai",
   "note": "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
-  "count": 54,
+  "count": 84,
   "watchlist_count": 7,
-  "stub_count": 51,
+  "stub_count": 81,
   "games": [
     {
       "id": "asora",
@@ -132,6 +132,79 @@
       "path": "games/star"
     },
     {
+      "id": "ananta",
+      "name": "ANANTA",
+      "name_zh": "无限大",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 4814120,
+      "path": "games/ananta"
+    },
+    {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "name_zh": "明日方舟：终末地",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg",
+        "upcoming"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 4732690,
+      "path": "games/arknights-endfield"
+    },
+    {
+      "id": "armored-core-vi",
+      "name": "ARMORED CORE VI FIRES OF RUBICON",
+      "name_zh": "机战佣兵VI 境界天火",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1888160,
+      "path": "games/armored-core-vi"
+    },
+    {
+      "id": "assassins-creed-shadows",
+      "name": "Assassin's Creed Shadows",
+      "name_zh": "刺客信条：影",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3159330,
+      "path": "games/assassins-creed-shadows"
+    },
+    {
       "id": "balatro",
       "name": "Balatro",
       "name_zh": "小丑牌",
@@ -188,6 +261,23 @@
       "watchlist": false,
       "steam_appid": 2358720,
       "path": "games/black-myth-wukong"
+    },
+    {
+      "id": "blasphemous-2",
+      "name": "Blasphemous 2",
+      "name_zh": "神之亵渎2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2114740,
+      "path": "games/blasphemous-2"
     },
     {
       "id": "blue-prince",
@@ -282,6 +372,23 @@
       "path": "games/control-resonant"
     },
     {
+      "id": "cult-of-the-lamb",
+      "name": "Cult of the Lamb",
+      "name_zh": "咩咩启示录",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1313140,
+      "path": "games/cult-of-the-lamb"
+    },
+    {
       "id": "cyberpunk-2077",
       "name": "Cyberpunk 2077",
       "name_zh": "赛博朋克2077",
@@ -300,6 +407,24 @@
       "watchlist": false,
       "steam_appid": 1091500,
       "path": "games/cyberpunk-2077"
+    },
+    {
+      "id": "dark-souls-iii",
+      "name": "DARK SOULS III",
+      "name_zh": "黑暗之魂III",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "souls"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 374320,
+      "path": "games/dark-souls-iii"
     },
     {
       "id": "dave-the-diver",
@@ -361,6 +486,24 @@
       "path": "games/deep-rock-galactic"
     },
     {
+      "id": "diablo-iv",
+      "name": "Diablo IV",
+      "name_zh": "暗黑破坏神 IV",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "rpg",
+        "live-service"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2344520,
+      "path": "games/diablo-iv"
+    },
+    {
       "id": "disco-elysium",
       "name": "Disco Elysium - The Final Cut",
       "name_zh": "极乐迪斯科",
@@ -380,6 +523,24 @@
       "watchlist": false,
       "steam_appid": 632470,
       "path": "games/disco-elysium"
+    },
+    {
+      "id": "dredge",
+      "name": "DREDGE",
+      "name_zh": "渔帆暗涌",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "adventure",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1562430,
+      "path": "games/dredge"
     },
     {
       "id": "elden-ring",
@@ -455,6 +616,24 @@
       "path": "games/gears-of-war-e-day"
     },
     {
+      "id": "girls-frontline-2",
+      "name": "GIRLS' FRONTLINE 2: EXILIUM",
+      "name_zh": "少女前线2：追放",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "strategy",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3347400,
+      "path": "games/girls-frontline-2"
+    },
+    {
       "id": "hades",
       "name": "Hades",
       "name_zh": "哈迪斯",
@@ -512,6 +691,24 @@
       "path": "games/helldivers-2"
     },
     {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "name_zh": "霍格沃茨之遗",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 990080,
+      "path": "games/hogwarts-legacy"
+    },
+    {
       "id": "hollow-knight",
       "name": "Hollow Knight",
       "name_zh": "空洞骑士",
@@ -545,6 +742,59 @@
       "watchlist": false,
       "steam_appid": 1030300,
       "path": "games/hollow-knight-silksong"
+    },
+    {
+      "id": "horizon-forbidden-west",
+      "name": "Horizon Forbidden West Complete Edition",
+      "name_zh": "地平线 西之绝境完整版",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2420110,
+      "path": "games/horizon-forbidden-west"
+    },
+    {
+      "id": "indiana-jones-and-the-great-circle",
+      "name": "Indiana Jones and the Great Circle",
+      "name_zh": "夺宝奇兵：古老之圈",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2677660,
+      "path": "games/indiana-jones-and-the-great-circle"
+    },
+    {
+      "id": "infinity-nikki",
+      "name": "Infinity Nikki",
+      "name_zh": "无限暖暖",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3164330,
+      "path": "games/infinity-nikki"
     },
     {
       "id": "inscryption",
@@ -584,6 +834,23 @@
       "path": "games/kingdom-come-deliverance-2"
     },
     {
+      "id": "lethal-company",
+      "name": "Lethal Company",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "action",
+        "early-access"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1966720,
+      "path": "games/lethal-company"
+    },
+    {
       "id": "lies-of-p",
       "name": "Lies of P",
       "name_zh": "匹诺曹的谎言",
@@ -600,6 +867,23 @@
       "watchlist": false,
       "steam_appid": 1627720,
       "path": "games/lies-of-p"
+    },
+    {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "name_zh": "边狱公司",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1973530,
+      "path": "games/limbus-company"
     },
     {
       "id": "metaphor-refantazio",
@@ -635,6 +919,23 @@
       "watchlist": false,
       "steam_appid": 2246340,
       "path": "games/monster-hunter-wilds"
+    },
+    {
+      "id": "naraka-bladepoint",
+      "name": "NARAKA: BLADEPOINT",
+      "name_zh": "永劫无间",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "live-service",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1203220,
+      "path": "games/naraka-bladepoint"
     },
     {
       "id": "nine-sols",
@@ -673,6 +974,24 @@
       "path": "games/no-mans-sky"
     },
     {
+      "id": "once-human",
+      "name": "Once Human",
+      "name_zh": "七日世界",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "live-service",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2139460,
+      "path": "games/once-human"
+    },
+    {
       "id": "onimusha-way-of-the-sword",
       "name": "Onimusha: Way of the Sword",
       "name_zh": "鬼武者 Way of the Sword",
@@ -688,6 +1007,23 @@
       "watchlist": false,
       "steam_appid": 2638890,
       "path": "games/onimusha-way-of-the-sword"
+    },
+    {
+      "id": "outer-wilds",
+      "name": "Outer Wilds",
+      "name_zh": "星际拓荒",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 753640,
+      "path": "games/outer-wilds"
     },
     {
       "id": "palworld",
@@ -707,6 +1043,41 @@
       "watchlist": false,
       "steam_appid": 1623730,
       "path": "games/palworld"
+    },
+    {
+      "id": "path-of-exile-2",
+      "name": "Path of Exile 2",
+      "name_zh": "流放之路2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "live-service",
+        "rpg",
+        "early-access"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2694490,
+      "path": "games/path-of-exile-2"
+    },
+    {
+      "id": "persona-5-royal",
+      "name": "Persona 5 Royal",
+      "name_zh": "女神异闻录5皇家版",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1687950,
+      "path": "games/persona-5-royal"
     },
     {
       "id": "phantom-blade-zero",
@@ -745,6 +1116,23 @@
       "path": "games/red-dead-redemption-2"
     },
     {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "name_zh": "重返未来：1999",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3092660,
+      "path": "games/reverse-1999"
+    },
+    {
       "id": "rimworld",
       "name": "RimWorld",
       "name_zh": "环世界",
@@ -763,6 +1151,23 @@
       "path": "games/rimworld"
     },
     {
+      "id": "risk-of-rain-2",
+      "name": "Risk of Rain 2",
+      "name_zh": "雨中冒险 2",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "action"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 632360,
+      "path": "games/risk-of-rain-2"
+    },
+    {
       "id": "satisfactory",
       "name": "Satisfactory",
       "name_zh": "幸福工厂",
@@ -779,6 +1184,23 @@
       "watchlist": false,
       "steam_appid": 526870,
       "path": "games/satisfactory"
+    },
+    {
+      "id": "sea-of-stars",
+      "name": "Sea of Stars: Sunset Edition",
+      "name_zh": "星之海",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 1244090,
+      "path": "games/sea-of-stars"
     },
     {
       "id": "sekiro",
@@ -875,6 +1297,41 @@
       "watchlist": false,
       "steam_appid": 413150,
       "path": "games/stardew-valley"
+    },
+    {
+      "id": "stellar-blade",
+      "name": "Stellar Blade",
+      "name_zh": "剑星",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3489700,
+      "path": "games/stellar-blade"
+    },
+    {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "name_zh": "深海迷航",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "indie",
+        "adventure"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 264710,
+      "path": "games/subnautica"
     },
     {
       "id": "subnautica-2",
@@ -1007,6 +1464,78 @@
       "watchlist": false,
       "steam_appid": 1794680,
       "path": "games/vampire-survivors"
+    },
+    {
+      "id": "warframe",
+      "name": "Warframe",
+      "name_zh": "星际战甲",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "live-service",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 230410,
+      "path": "games/warframe"
+    },
+    {
+      "id": "wuchang-fallen-feathers",
+      "name": "WUCHANG: Fallen Feathers",
+      "name_zh": "明末：渊虚之羽",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "aaa",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 2277560,
+      "path": "games/wuchang-fallen-feathers"
+    },
+    {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "name_zh": "鸣潮",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 3513350,
+      "path": "games/wuthering-waves"
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "name_zh": "绝区零",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg"
+      ],
+      "stub": true,
+      "watchlist": false,
+      "steam_appid": 4162040,
+      "path": "games/zenless-zone-zero"
     }
   ]
 }

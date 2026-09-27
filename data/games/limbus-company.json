@@ -1,0 +1,25 @@
+{
+  "id": "limbus-company",
+  "name": "Limbus Company",
+  "name_zh": "边狱公司",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "gacha",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/1973530/"
+    }
+  ],
+  "steam_appid": 1973530,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

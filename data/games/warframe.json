@@ -1,0 +1,26 @@
+{
+  "id": "warframe",
+  "name": "Warframe",
+  "name_zh": "星际战甲",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "live-service",
+    "action",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/230410/"
+    }
+  ],
+  "steam_appid": 230410,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

@@ -194,6 +194,23 @@
         }
       }
     },
+    "/v1/catalog-aliases.json": {
+      "get": {
+        "summary": "Catalog nickname map. Look up alias → id → /v1/games/{id}.json. Not character aliases.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CatalogAliases"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/feed.json": {
       "get": {
         "summary": "Recent intel items from real digest and radar rows. Rebuilds on catalog export.",
@@ -402,6 +419,9 @@
       },
       "Game": {
         "$ref": "/schema/game.schema.json"
+      },
+      "CatalogAliases": {
+        "$ref": "/schema/catalog-aliases.schema.json"
       },
       "GamesIndex": {
         "$ref": "/schema/games-index.schema.json"

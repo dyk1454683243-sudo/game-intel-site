@@ -1,0 +1,26 @@
+{
+  "id": "indiana-jones-and-the-great-circle",
+  "name": "Indiana Jones and the Great Circle",
+  "name_zh": "夺宝奇兵：古老之圈",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "action",
+    "adventure"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2677660/"
+    }
+  ],
+  "steam_appid": 2677660,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

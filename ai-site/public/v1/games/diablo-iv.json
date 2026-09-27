@@ -1,0 +1,26 @@
+{
+  "id": "diablo-iv",
+  "name": "Diablo IV",
+  "name_zh": "暗黑破坏神 IV",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "rpg",
+    "live-service"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2344520/"
+    }
+  ],
+  "steam_appid": 2344520,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

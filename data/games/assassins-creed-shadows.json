@@ -1,0 +1,26 @@
+{
+  "id": "assassins-creed-shadows",
+  "name": "Assassin's Creed Shadows",
+  "name_zh": "刺客信条：影",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "aaa",
+    "action",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3159330/"
+    }
+  ],
+  "steam_appid": 3159330,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

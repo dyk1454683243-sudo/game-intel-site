@@ -14,7 +14,7 @@ const META_VERSION = "io.modelcontextprotocol/protocolVersion";
 export const TOOLS = [
   {
     name: "list_games",
-    description: "Game catalog index from /v1/games/index.json. Published JSON only.",
+    description: "Game catalog index from /v1/games/index.json. Nicknames: /v1/catalog-aliases.json (alias → id → /v1/games/{id}.json). Published JSON only.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
   },
   {

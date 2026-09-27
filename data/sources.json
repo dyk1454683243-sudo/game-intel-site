@@ -2,41 +2,141 @@
   "gamekee": {
     "enabled": true,
     "type": "api",
-    "note": "primary CN wiki/news via gamekee.com v1"
+    "zone": "cn",
+    "role": "review",
+    "note": "CN wiki/news via gamekee.com v1. Live radar sweep with taptap and inven. Radar keywords are CLI constants (公测, 预约, CBT, 新作, launch), not loaded from this file. Radar is new-game/CBT by language and platform, not a second catalog."
   },
   "taptap": {
     "enabled": true,
     "type": "api",
-    "note": "app-search/v1/by-keyword + search/v2/community; requires X-UA VN_CODE"
+    "zone": "cn",
+    "role": "review",
+    "note": "CN review plus live radar. app-search/v1/by-keyword + search/v2/community; requires X-UA VN_CODE."
   },
   "inven": {
     "enabled": true,
     "type": "html",
-    "note": "www.inven.co.kr/search/webzine/article/{q}; board post anchors"
+    "zone": "kr",
+    "role": "review",
+    "note": "KR review plus live radar. www.inven.co.kr/search/webzine/article/{q}; board post anchors."
   },
   "steam": {
     "enabled": true,
     "type": "api+html",
-    "note": "ISteamNews GetNewsForApp (keep deep/akamai urls) + store suggest/search"
+    "zone": "global",
+    "role": "official",
+    "note": "Official Steam news (ISteamNews GetNewsForApp; keep deep/akamai urls) and store suggest/search. This row is both Steam news and the store page. EN new-release headlines are not a separate crawler."
+  },
+  "steam_coming_soon": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "global",
+    "role": "official",
+    "note": "Global upcoming radar: Steam Coming Soon / pre-purchase. Registered only. No fetcher."
+  },
+  "app_store": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "global",
+    "role": "official",
+    "note": "Apple App Store notes and pre-register. Registered only. No scraper."
+  },
+  "google_play": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "global",
+    "role": "official",
+    "note": "Google Play notes and pre-register. Registered only. No scraper."
   },
   "bahamut": {
     "enabled": true,
     "type": "jina+html+rss",
-    "note": "Jina search.gamer.com.tw/?q=&type=2 (GNN) + forum B.php BSN scrape (情報/公告; BSN-pin filters forum) + gnn rss.xml; source=bahamut"
+    "zone": "tw",
+    "role": "review",
+    "note": "TW review. Jina search.gamer.com.tw/?q=&type=2 (GNN) + forum B.php BSN scrape (情報/公告; BSN-pin filters forum) + gnn rss.xml; source=bahamut."
   },
   "prydwen": {
     "enabled": true,
     "type": "html",
-    "note": "prydwen.gg/nikke (+ banners) character/banner/guide links; NIKKE-focused"
+    "zone": "en",
+    "role": "review",
+    "note": "EN review. prydwen.gg/nikke (+ banners) character/banner/guide links; NIKKE-focused."
   },
   "nikkegg": {
     "enabled": true,
     "type": "rss",
-    "note": "nikke.gg/feed/ EN news companion; folded into search_prydwen with source=nikkegg"
+    "zone": "en",
+    "role": "review",
+    "note": "nikke.gg/feed/ EN news companion; folded into search_prydwen with source=nikkegg."
+  },
+  "reddit": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "en",
+    "role": "community",
+    "note": "Community stickies, including r/gachagaming for EN new-game radar. Registered only. No scraper."
+  },
+  "discord": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "global",
+    "role": "community",
+    "note": "Official Discord stickies. Registered only. No scraper."
+  },
+  "bilibili": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "cn",
+    "role": "radar",
+    "note": "CN language-zone radar (new game / CBT), beside live taptap and gamekee. Registered only. No scraper."
+  },
+  "xiaoheihe": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "cn",
+    "role": "radar",
+    "note": "小黑盒. CN language-zone radar. Registered only. No scraper."
+  },
+  "ruliweb": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "kr",
+    "role": "radar",
+    "note": "루리웹. KR language-zone radar, beside live inven. Registered only. No scraper."
+  },
+  "arca_live": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "kr",
+    "role": "radar",
+    "note": "아카라이브. KR language-zone radar. Registered only. No scraper."
+  },
+  "four_gamer": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "jp",
+    "role": "radar",
+    "note": "4Gamer. JP language-zone radar. Registered only. No scraper."
+  },
+  "famitsu": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "jp",
+    "role": "radar",
+    "note": "Famitsu. JP language-zone radar. Registered only. No scraper."
+  },
+  "dengeki": {
+    "enabled": false,
+    "type": "registry",
+    "zone": "jp",
+    "role": "radar",
+    "note": "電ファミ / Dengeki Online. JP language-zone radar. Registered only. No scraper."
   },
   "official": {
     "enabled": true,
     "type": "api+html+jina+steam",
-    "note": "bd2 notices API (webapi.browndust2.com); miraesi Smilegate newsroom (smilegate_newsroom + seed); star Azur Promilia (star_official + star_seed; Jina often CF-blocked); lo2 VALOFE press seed (lo2_official + lo2_seed; no dedicated site yet); asora Astrae Oratio NC/plaync (asora_official + asora_seed); nikke official_url via Jina; steam_appid news; digest bucket official cap 1"
+    "zone": "global",
+    "role": "official",
+    "note": "bd2 notices API (webapi.browndust2.com); miraesi Smilegate newsroom (smilegate_newsroom + seed); star Azur Promilia (star_official + star_seed; Jina often CF-blocked); lo2 VALOFE press seed (lo2_official + lo2_seed; no dedicated site yet); asora Astrae Oratio NC/plaync (asora_official + asora_seed); nikke official_url via Jina; steam_appid news; digest bucket official cap 1."
   }
 }
