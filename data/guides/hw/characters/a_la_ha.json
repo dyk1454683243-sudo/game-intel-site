@@ -56,16 +56,18 @@
     "https://www.gamekee.com/hw/634407.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634407,
   "gamekee_entry_id": 163032,
   "verified": "GameKee hw/634407 图鉴",
+  "note": "抽取建议: 抽1个专武就行，角色突破可以随便拿，反正SS角色容易满。强度不错的反击流角色，配合专武奥丝拉有一些玩法。主要问题就是一直按待机很麻烦。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634407.html"
     ],
     "tier": "T1.5 / 隐身 / 反击 / Discover死神",
+    "pull": "抽1个专武就行，角色突破可以随便拿，反正SS角色容易满。强度不错的反击流角色，配合专武奥丝拉有一些玩法。主要问题就是一直按待机很麻烦。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

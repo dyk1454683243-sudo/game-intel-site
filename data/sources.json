@@ -28,11 +28,11 @@
     "note": "Official Steam news (ISteamNews GetNewsForApp; keep deep/akamai urls) and store suggest/search. This row is both Steam news and the store page. EN new-release headlines are not a separate crawler."
   },
   "steam_coming_soon": {
-    "enabled": false,
-    "type": "registry",
+    "enabled": true,
+    "type": "api",
     "zone": "global",
     "role": "official",
-    "note": "Global upcoming radar: Steam Coming Soon / pre-purchase. Registered only. No fetcher."
+    "note": "Global upcoming radar via Steam featuredcategories coming_soon JSON (https://store.steampowered.com/api/featuredcategories/?l=english&cc=US). Each fact keeps the store app URL and as_of. No HTML scraper."
   },
   "app_store": {
     "enabled": false,
@@ -112,11 +112,11 @@
     "note": "아카라이브. KR language-zone radar. Registered only. No scraper."
   },
   "four_gamer": {
-    "enabled": false,
-    "type": "registry",
+    "enabled": true,
+    "type": "rss",
     "zone": "jp",
     "role": "radar",
-    "note": "4Gamer. JP language-zone radar. Registered only. No scraper."
+    "note": "4Gamer.net RSS 1.0 (https://www.4gamer.net/rss/index.xml). Radar keeps launch-ish headlines (発売 / 配信開始 / CBT / 新作 / ローンチ) and drops hardware/movie posts. Each fact keeps the article URL and dc:date as as_of."
   },
   "famitsu": {
     "enabled": false,

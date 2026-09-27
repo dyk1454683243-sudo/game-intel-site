@@ -58,16 +58,18 @@
     "https://www.gamekee.com/hw/646212.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 646212,
   "gamekee_entry_id": 174157,
   "verified": "GameKee hw/646212 图鉴",
+  "note": "抽取建议: 非抽取角色，特种作战奖励，能换满EX6+5。作为免费角色强度微妙，尤洁妮娅登场后可以双人上场auto过低压的多巴胺。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/646212.html"
     ],
     "tier": "T1.5 / 援攻 / 坦克 / TX-曼提柯尔",
+    "pull": "非抽取角色，特种作战奖励，能换满EX6+5。作为免费角色强度微妙，尤洁妮娅登场后可以双人上场auto过低压的多巴胺。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

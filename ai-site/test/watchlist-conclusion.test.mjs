@@ -6,7 +6,9 @@ import {
   extractCostumePull,
   extractCostumeTier,
   matchCostumeReview,
+  matchGradeSection,
   nikkeLocalId,
+  parseNumberedGradeSections,
   renderNikkeSkill,
 } from "../../mcp-server/scripts/watchlist-parse.mjs";
 
@@ -92,6 +94,48 @@ test("costume review parser copies 综合评价 and does not flip 不建议抽",
   assert.match(pull, /不建议抽满破/);
   assert.match(pull, /建议抽一命/);
   assert.equal(extractCostumeTier("只有一句评价，没有梯度。"), null);
+  assert.equal(
+    extractCostumeTier("综合评价：虽然代号S的沉默亮眼，但范围怪异，因此不是很建议抽取。"),
+    null
+  );
+  assert.equal(extractCostumeTier("综合评价：前期T1，后期T2.5 学生皮好用。"), "前期T1，后期T2.5");
+  assert.equal(
+    extractCostumeTier("综合评价：<span>T0.5</span></div>定位为风属性"),
+    "T0.5"
+  );
+});
+
+test("numbered 三四星 sections keep written grades only", () => {
+  const text = [
+    "1.绿帽（阿里）",
+    "服装评价：T0",
+    "物理队辅助",
+    "2.莎美（学生皮和原皮）",
+    "综合评价：前期T1，后期T2.5",
+    "能拐能打",
+    "9.君特，雷南特，英格利得",
+    "服装评价：仅适合恶魔城凹分以及前期补伤害",
+  ].join("\n");
+  const sections = parseNumberedGradeSections(text);
+  assert.deepEqual(
+    sections.map((row) => [row.heading, row.tier]),
+    [
+      ["绿帽（阿里）", "T0"],
+      ["莎美（学生皮和原皮）", "前期T1，后期T2.5"],
+    ]
+  );
+  const cards = [
+    { id: "a_li_nei_si", name: "阿里内斯", nicknames: [], costumes: [] },
+    { id: "sha_mei", name: "莎美", nicknames: [], costumes: [] },
+  ];
+  assert.equal(matchGradeSection("绿帽（阿里）", sections[0].body, cards), "a_li_nei_si");
+  assert.equal(matchGradeSection("莎美（学生皮和原皮）", sections[1].body, cards), "sha_mei");
+  const shadow = [
+    { id: "ke_lei_xi_ya", name: "克蕾西亚", nicknames: [], costumes: [] },
+    { id: "lu_ke_lei_qi_ya", name: "卢克雷齐亚", nicknames: [], costumes: [] },
+  ];
+  assert.equal(matchCostumeReview("卢克蕾西亚（原皮）测评", "综合评价：T2", shadow), null);
+  assert.equal(matchGradeSection("卢克蕾西亚（原皮）", "综合评价：T2", shadow), "lu_ke_lei_qi_ya");
 });
 
 test("nikke slug alias and skill placeholders", () => {

@@ -52,16 +52,18 @@
     "https://www.gamekee.com/hw/634497.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634497,
   "gamekee_entry_id": 163041,
   "verified": "GameKee hw/634497 图鉴",
+  "note": "抽取建议: 支线剧情获取，抽到没有拿的必要。差2费不带地鼠可以带个它。没啥用。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634497.html"
     ],
     "tier": "T2 / 上级梦魔",
+    "pull": "支线剧情获取，抽到没有拿的必要。差2费不带地鼠可以带个它。没啥用。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

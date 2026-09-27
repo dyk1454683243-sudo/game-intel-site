@@ -331,7 +331,15 @@ function passesDigestGameGate(item, entry, entryId) {
     if (bahamutItemOnPinnedBoard(item, entryId)) return true;
     return hitsGameKeywords(blob, entry, entryId);
   }
-  if (src === "steam" || src === "taptap" || src === "inven") {
+  if (src === "steam" || src === "taptap" || src === "inven" || src === "four_gamer") {
+    return hitsGameKeywords(blob, entry, entryId);
+  }
+  if (src === "steam_coming_soon") {
+    const appid =
+      entry?.steam_appid != null && String(entry.steam_appid).trim() !== ""
+        ? String(entry.steam_appid).trim()
+        : "";
+    if (appid && String(item?.url || "").includes(`/app/${appid}/`)) return true;
     return hitsGameKeywords(blob, entry, entryId);
   }
   return true;

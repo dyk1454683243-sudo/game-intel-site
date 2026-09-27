@@ -75,16 +75,23 @@
       "tier": "T0",
       "source": "https://www.gamekee.com/zsca2/603254.html",
       "content_id": 603254
+    },
+    {
+      "label": "戴安娜服装 反乌托邦",
+      "tier": "T1（高难环境）",
+      "source": "https://www.gamekee.com/zsca2/609774.html",
+      "content_id": 609774
     }
   ],
   "summary": {
-    "tier": "GameKee 服装测评：戴安娜服装 未知的探究者 T0",
+    "tier": "GameKee 服装测评：戴安娜服装 未知的探究者 T0；戴安娜服装 反乌托邦 T1（高难环境）",
     "sources": [
       "https://www.gamekee.com/zsca2/603254.html",
+      "https://www.gamekee.com/zsca2/609774.html",
       "https://www.gamekee.com/zsca2/603227.html"
     ],
     "stub": false,
-    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "caveat": "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
     "position": "5星 / 风 / 魔法 / 输出"
   }
 }

@@ -58,16 +58,18 @@
     "https://www.gamekee.com/hw/634169.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634169,
   "gamekee_entry_id": 163050,
   "verified": "GameKee hw/634169 图鉴",
+  "note": "抽取建议: 常驻角色，加强后评价为普池出了就拿，本体和武器提升都不错。加强后是很不错的辅助，有伤害有大范围破甲，美中不足的就是费有点高，保人可以但自保有缺陷，输出不低。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634169.html"
     ],
     "tier": "T1 / 流动君主",
+    "pull": "常驻角色，加强后评价为普池出了就拿，本体和武器提升都不错。加强后是很不错的辅助，有伤害有大范围破甲，美中不足的就是费有点高，保人可以但自保有缺陷，输出不低。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

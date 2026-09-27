@@ -1,25 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-09-25T10:16:18+08:00",
+    "generated_at": "2026-09-28T01:43:21+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli calendar --game hw"
   },
   "ok": true,
-  "count": 2,
-  "as_of": "2026-09-25T02:16:18.896Z",
+  "count": 1,
+  "as_of": "2026-09-27T17:43:19.210Z",
   "events": [
-    {
-      "game": "hw",
-      "name": "地平线行者",
-      "type": "other",
-      "title": "【情報】二周年座談會8/28-8/29内容",
-      "start": "2026-08-28",
-      "end": "2026-08-29",
-      "note": "【情報】二周年座談會 内容",
-      "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=448",
-      "source": "bahamut",
-      "confidence": "high"
-    },
     {
       "game": "hw",
       "name": "地平线行者",

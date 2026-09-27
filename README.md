@@ -141,7 +141,7 @@ Schema：`ai-site/schema/game.schema.json`（必填 `id`、`name`、`platforms`�
 
 目录别名在 `data/catalog-aliases.json`，导出为 `/v1/catalog-aliases.json`。查别名得到 `id`，再读 `/v1/games/{id}.json`。角色别名仍在 `data/guides/{game}/aliases.json`。
 
-情报源注册表是 `data/sources.json`（`enabled` / `type` / `note`）。已有抓取的渠道保持 `enabled: true`。计划里的语言区渠道没有稳定抓取时登记为 `enabled: false`，不另写爬虫。Radar 是按语言和平台扫新游 / CBT，不是第二份目录。
+情报源注册表是 `data/sources.json`（`enabled` / `type` / `note`）。已有抓取的渠道保持 `enabled: true`。这次只打开两个轻量渠道：`steam_coming_soon`（Steam `featuredcategories` 的 coming_soon JSON，店面链接 + `as_of`）和 `four_gamer`（4Gamer RSS 1.0，文章链接 + `dc:date`）。其余计划里的语言区渠道没有稳定抓取时仍是 `enabled: false`，不另写爬虫。Radar 是按语言和平台扫新游 / CBT，不是第二份目录。
 
 情报条目同样保留来源 URL。福利 CDK 走独立 `game-welfare`，不在本仓代氪。
 
@@ -304,7 +304,7 @@ Schema: `ai-site/schema/game.schema.json` (required: `id`, `name`, `platforms`, 
 
 Catalog nicknames live in `data/catalog-aliases.json` and export to `/v1/catalog-aliases.json`. Look up an alias, read `id`, then `/v1/games/{id}.json`. Character nicknames stay in `data/guides/{game}/aliases.json`.
 
-The channel registry is `data/sources.json` (`enabled` / `type` / `note`). Channels that already have a fetcher stay `enabled: true`. Language-zone outlets without a stable fetcher are `enabled: false`. Radar is a new-game / CBT scan by language and platform, not a second catalog.
+The channel registry is `data/sources.json` (`enabled` / `type` / `note`). Channels that already have a fetcher stay `enabled: true`. Two light channels are on: `steam_coming_soon` (Steam `featuredcategories` coming_soon JSON, store URL + `as_of`) and `four_gamer` (4Gamer RSS 1.0, article URL + `dc:date`). Other planned language-zone outlets stay `enabled: false`. Radar is a new-game / CBT scan by language and platform, not a second catalog.
 
 Intel items keep source URLs. Welfare / CDK stays in `game-welfare`, not this repo.
 

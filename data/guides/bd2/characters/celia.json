@@ -73,16 +73,23 @@
       "tier": "T2",
       "source": "https://www.gamekee.com/zsca2/650131.html",
       "content_id": 650131
+    },
+    {
+      "label": "西利亚服装 化装舞会兔女郎",
+      "tier": "T0.5",
+      "source": "https://www.gamekee.com/zsca2/609230.html",
+      "content_id": 609230
     }
   ],
   "summary": {
-    "tier": "GameKee 服装测评：大魔女的后裔·西利亚服装 西利亚 T2",
+    "tier": "GameKee 服装测评：大魔女的后裔·西利亚服装 西利亚 T2；西利亚服装 化装舞会兔女郎 T0.5",
     "sources": [
       "https://www.gamekee.com/zsca2/650131.html",
+      "https://www.gamekee.com/zsca2/609230.html",
       "https://www.gamekee.com/zsca2/593569.html"
     ],
     "stub": false,
-    "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",
+    "caveat": "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
     "position": "5星 / 暗 / 魔法 / 输出"
   }
 }

@@ -62,16 +62,18 @@
     "https://www.gamekee.com/hw/716690.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 716690,
   "gamekee_entry_id": 221006,
   "verified": "GameKee hw/716690 图鉴",
+  "note": "抽取建议: 单体增伤辅，但是机制很容易断档，容错率低。综合EX0+1就行了。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/716690.html"
     ],
     "tier": "T0.5 / 增伤 / 一人成军",
+    "pull": "单体增伤辅，但是机制很容易断档，容错率低。综合EX0+1就行了。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

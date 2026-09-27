@@ -240,11 +240,11 @@ const DEFAULT_SOURCES = {
     note: "Official Steam news (ISteamNews) and store suggest/search",
   },
   steam_coming_soon: {
-    enabled: false,
-    type: "registry",
+    enabled: true,
+    type: "api",
     zone: "global",
     role: "official",
-    note: "Steam Coming Soon / pre-purchase. Registered only. No fetcher.",
+    note: "Steam featuredcategories coming_soon JSON. Store app URL and as_of on each fact. No HTML scraper.",
   },
   app_store: {
     enabled: false,
@@ -324,11 +324,11 @@ const DEFAULT_SOURCES = {
     note: "아카라이브. KR language-zone radar. Registered only. No scraper.",
   },
   four_gamer: {
-    enabled: false,
-    type: "registry",
+    enabled: true,
+    type: "rss",
     zone: "jp",
     role: "radar",
-    note: "4Gamer. JP language-zone radar. Registered only. No scraper.",
+    note: "4Gamer.net RSS 1.0. Launch-ish headlines only. Article URL and dc:date as as_of.",
   },
   famitsu: {
     enabled: false,

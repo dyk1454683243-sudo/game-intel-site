@@ -58,16 +58,18 @@
     "https://www.gamekee.com/hw/707349.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 707349,
   "gamekee_entry_id": 216978,
   "verified": "GameKee hw/707349 图鉴",
+  "note": "抽取建议: 钦定的女王队盾位，提供常态的聚怪能力和护盾，EX0+1即可，尤其专武突破基本无价值。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/707349.html"
     ],
     "tier": "T1 / 坦克 / 聚怪 / 一人成军",
+    "pull": "钦定的女王队盾位，提供常态的聚怪能力和护盾，EX0+1即可，尤其专武突破基本无价值。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

@@ -55,16 +55,18 @@
     "https://www.gamekee.com/hw/634619.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634619,
   "gamekee_entry_id": 163037,
   "verified": "GameKee hw/634619 图鉴",
+  "note": "抽取建议: 想用抽1个专武就行。4费的近战C里单人理论输出最高的一位，（谁家4费c不吃拐啊）但是机制太差导致生存不行，容易被秒。没什么上场空间。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634619.html"
     ],
     "tier": "T2 / 沼泽掠食者",
+    "pull": "想用抽1个专武就行。4费的近战C里单人理论输出最高的一位，（谁家4费c不吃拐啊）但是机制太差导致生存不行，容易被秒。没什么上场空间。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

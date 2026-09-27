@@ -55,16 +55,18 @@
     "https://www.gamekee.com/hw/634302.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634302,
   "gamekee_entry_id": 163045,
   "verified": "GameKee hw/634302 图鉴",
+  "note": "抽取建议: EX0+1专武即可，不需要更多，由于总力战强行有等级压制，速通用毒是最好的，不过还得配合艾姬德娜。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634302.html"
     ],
     "tier": "T1 / 固伤 / 追击 / 剧毒女王",
+    "pull": "EX0+1专武即可，不需要更多，由于总力战强行有等级压制，速通用毒是最好的，不过还得配合艾姬德娜。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

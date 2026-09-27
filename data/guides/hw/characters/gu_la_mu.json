@@ -57,16 +57,18 @@
     "https://www.gamekee.com/hw/634425.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634425,
   "gamekee_entry_id": 163042,
   "verified": "GameKee hw/634425 图鉴",
+  "note": "抽取建议: 支线解锁角色，本身和一般地鼠作用一样是钻地卡位。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634425.html"
     ],
     "tier": "T2 / 浪漫剑客",
+    "pull": "支线解锁角色，本身和一般地鼠作用一样是钻地卡位。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

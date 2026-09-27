@@ -64,16 +64,18 @@
     "https://www.gamekee.com/hw/691731.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 691731,
   "gamekee_entry_id": 204227,
   "verified": "GameKee hw/691731 图鉴",
+  "note": "抽取建议: 总力战出后价值提升的角色，由于强制性的等级压制存在，可以直接通过3猫队配合她直接毒死地区A的boss速刷。不过效率不如更强的队伍。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/691731.html"
     ],
     "tier": "T1 / 毒 / 一人成军",
+    "pull": "总力战出后价值提升的角色，由于强制性的等级压制存在，可以直接通过3猫队配合她直接毒死地区A的boss速刷。不过效率不如更强的队伍。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

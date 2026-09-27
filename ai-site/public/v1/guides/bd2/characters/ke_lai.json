@@ -48,12 +48,22 @@
   "gamekee_content_id": 593645,
   "gamekee_entry_id": 122337,
   "verified": "GameKee zsca2/593645 图鉴",
+  "costume_ratings": [
+    {
+      "label": "克莱（原皮和学生服）",
+      "tier": "全期T1",
+      "source": "https://www.gamekee.com/zsca2/614967.html",
+      "content_id": 614967
+    }
+  ],
   "summary": {
-    "position": "4星 / 暗 / 物理 / 输出",
+    "tier": "GameKee 服装测评：克莱（原皮和学生服） 全期T1",
     "sources": [
+      "https://www.gamekee.com/zsca2/614967.html",
       "https://www.gamekee.com/zsca2/593645.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
+    "position": "4星 / 暗 / 物理 / 输出"
   }
 }

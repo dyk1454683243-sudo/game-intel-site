@@ -85,15 +85,137 @@ export function decodeBasicEntities(value) {
     .trim();
 }
 
-/** Pull the first 综合评价 tier phrase from a GameKee review summary. */
+const GRADE_TOKEN = "T\\d+(?:\\.\\d+)?(?:（[^）]{0,48}）)?";
+const GRADE_PREFIX = "前期|后期|全期|单皮|萌新";
+
+/** Flatten GameKee editor JSON or HTML to plain text. Does not invent text. */
+export function stripMarkup(value) {
+  let s = String(value || "");
+  const trimmed = s.trim();
+  if (trimmed.startsWith("{")) {
+    try {
+      const parsed = JSON.parse(trimmed);
+      let content = parsed && typeof parsed === "object" ? parsed.content ?? parsed : parsed;
+      if (typeof content === "string") {
+        try {
+          const nodes = JSON.parse(content);
+          if (Array.isArray(nodes)) content = nodes;
+        } catch {
+          /* HTML or plain string inside the envelope */
+        }
+      }
+      if (Array.isArray(content)) {
+        const texts = [];
+        const walk = (node) => {
+          if (!node) return;
+          if (Array.isArray(node)) {
+            node.forEach(walk);
+            return;
+          }
+          if (typeof node === "object") {
+            if (typeof node.text === "string" && node.text.trim()) texts.push(node.text.trim());
+            if (node.children) walk(node.children);
+          }
+        };
+        walk(content);
+        if (texts.length) s = texts.join("\n");
+        else if (typeof parsed.content === "string") s = parsed.content;
+      } else if (typeof content === "string" && content.trim()) {
+        s = content;
+      }
+    } catch {
+      /* keep original */
+    }
+  }
+  return s
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(p|div|h\d|li|tr)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim();
+}
+
+/**
+ * Pull the first 综合评价 tier phrase.
+ * Accepts a short qualifier (前期 / 单皮) and a second grade.
+ * Rejects a prose sentence that merely mentions the label.
+ */
 export function extractCostumeTier(summary) {
-  const text = String(summary || "");
-  const m = text.match(
-    /综合评价[:：]\s*(T\d(?:\.\d)?(?:（[^）]{0,48}）)?)(?:\s*(T\d(?:\.\d)?(?:（[^）]{0,48}）)?))?/
-  );
+  const text = stripMarkup(summary).replace(/[ \t]+/g, " ");
+  const m = text.match(/综合评价[:：]\s*([\s\S]{0,120})/);
   if (!m) return null;
-  const tiers = [m[1], m[2]].filter(Boolean);
-  return tiers.join(" / ");
+  const rest = m[1].trim();
+  const first = rest.match(
+    new RegExp(`^(?:${GRADE_PREFIX})?\\s*(${GRADE_TOKEN})`)
+  );
+  if (!first) return null;
+  const grades = [first[1]];
+  const idx = first[0].length;
+  const second = rest
+    .slice(idx)
+    .match(new RegExp(`^(?:\\s*[，,/／]?\\s*)(?:${GRADE_PREFIX})?\\s*(${GRADE_TOKEN})`));
+  if (second && second[1] && second.index === 0) grades.push(second[1]);
+  const hasQualifier = new RegExp(`^(?:${GRADE_PREFIX})`).test(rest);
+  if (hasQualifier) {
+    const end = idx + (second && second[1] ? second[0].length : 0);
+    return rest.slice(0, end).replace(/\s+/g, " ").trim();
+  }
+  if (grades.length >= 2) return grades.slice(0, 2).join(" / ");
+  return grades[0];
+}
+
+/** First 服装评价 / 综合评价 line in one section, only when it contains a T grade. */
+export function extractLabeledGrade(sectionText) {
+  const text = stripMarkup(sectionText);
+  const m = text.match(/(?:服装综合评价|综合评价|服装评价)[:：]\s*([^\n]{1,48})/);
+  if (!m) return null;
+  const phrase = m[1].replace(/\s+/g, " ").trim();
+  if (!/T\d/.test(phrase)) return null;
+  if (/[。！？]/.test(phrase)) return null;
+  return phrase;
+}
+
+/**
+ * Numbered 三四星-style sections. Skips a heading that names three or more characters.
+ * Returns only sections whose evaluation line contains a written T grade.
+ */
+export function parseNumberedGradeSections(text) {
+  const clean = stripMarkup(text);
+  const chunks = clean.split(/\n(?=\s*\d+\.\s*)/);
+  const out = [];
+  for (const chunk of chunks) {
+    const head = chunk.match(/^\s*\d+\.\s*([^\n]{2,48})/);
+    if (!head) continue;
+    const heading = head[1].trim();
+    const names = heading.split(/[，,、]/).map((s) => s.trim()).filter(Boolean);
+    if (names.length >= 3) continue;
+    const tier = extractLabeledGrade(chunk);
+    if (!tier) continue;
+    out.push({ heading, tier, body: chunk });
+  }
+  return out;
+}
+
+const SECTION_HINTS = [
+  [/绿帽|（阿里）|阿里内斯/, "a_li_nei_si"],
+  [/卢克蕾西亚/, "lu_ke_lei_qi_ya"],
+];
+
+/** One numbered section → one character. Title match first; hints only on a miss. */
+export function matchGradeSection(heading, body, cards) {
+  const hinted = [];
+  for (const [re, cid] of SECTION_HINTS) {
+    if (re.test(String(heading || "")) && cards.some((card) => card.id === cid)) hinted.push(cid);
+  }
+  const uniq = [...new Set(hinted)];
+  if (uniq.length === 1) return uniq[0];
+  return matchCostumeReview(heading, `${heading}\n${body || ""}`, cards);
 }
 
 /** Copy explicit 建议抽 / 不建议抽 / 必抽 clauses. No paraphrase. */
@@ -115,6 +237,18 @@ const TITLE_HINTS = [
   [/哥杀|哥布林杀手/, "goblin_slayer"],
   [/戴安娜|黛安娜/, "diana"],
 ];
+
+/** A shorter name glued inside a different longer name is not a hit. */
+const NAME_SHADOW = [["克蕾西亚", "卢克蕾西亚"]];
+
+function mentionsKey(hay, key) {
+  const text = String(hay || "");
+  if (!text.includes(key)) return false;
+  for (const [short, long] of NAME_SHADOW) {
+    if (key === short && text.includes(long)) return false;
+  }
+  return true;
+}
 
 function keysFor(card) {
   const keys = [];
@@ -148,8 +282,8 @@ export function matchCostumeReview(title, summary, cards) {
     let best = 0;
     for (const key of keysFor(card)) {
       if ((owners.get(key)?.size || 0) !== 1) continue;
-      const inTitle = titleText.includes(key);
-      const inBody = String(summary || "").includes(key);
+      const inTitle = mentionsKey(titleText, key);
+      const inBody = mentionsKey(summary, key);
       if (!inTitle && !inBody) continue;
       const score = key.length + (inTitle ? 100 : 0);
       if (score > best) best = score;

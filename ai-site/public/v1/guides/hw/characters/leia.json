@@ -62,16 +62,18 @@
     "https://www.gamekee.com/hw/678807.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 678807,
   "gamekee_entry_id": 195508,
   "verified": "GameKee hw/678807 图鉴",
+  "note": "抽取建议: 当前版本辅助数值膨胀后算是最大受害者，目前比机制和辅助数值都打不过娜莉，有能力的可以继续抽EX6+1，但是要等新的法系辅助。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/678807.html"
     ],
     "tier": "T0.5 / 主C / 闪避 / 暗影神女",
+    "pull": "当前版本辅助数值膨胀后算是最大受害者，目前比机制和辅助数值都打不过娜莉，有能力的可以继续抽EX6+1，但是要等新的法系辅助。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

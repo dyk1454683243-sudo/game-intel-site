@@ -1,17 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-09-25T10:16:19+08:00",
+    "generated_at": "2026-09-28T01:43:27+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli radar"
   },
   "ok": true,
-  "count": 9,
+  "count": 15,
   "keywords": [
     "公测",
     "预约",
     "CBT",
     "新作"
   ],
+  "channels": {
+    "steam_coming_soon": {
+      "as_of": "2026-09-28",
+      "source_url": "https://store.steampowered.com/api/featuredcategories/?l=english&cc=US",
+      "error": null
+    },
+    "four_gamer": {
+      "source_url": "https://www.4gamer.net/rss/index.xml",
+      "error": null
+    }
+  },
   "items": [
     {
       "title": "NCSoft奇幻RPG新作《阿索拉：星之祈愿》TGS 2026首秀，封闭测试火热招募！",
@@ -62,10 +73,56 @@
       "why": "gamekee:CBT"
     },
     {
-      "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
-      "url": "https://www.gamekee.com/www/721973.html",
-      "source": "gamekee",
-      "why": "gamekee:公测"
+      "title": "Pawmlet - Wheat Farm",
+      "url": "https://store.steampowered.com/app/5250830/",
+      "source": "steam_coming_soon",
+      "why": "steam_coming_soon:2026-09-28",
+      "as_of": "2026-09-28"
+    },
+    {
+      "title": "BomberParty",
+      "url": "https://store.steampowered.com/app/3130680/",
+      "source": "steam_coming_soon",
+      "why": "steam_coming_soon:2026-09-28",
+      "as_of": "2026-09-28"
+    },
+    {
+      "title": "Hacker CLIcker",
+      "url": "https://store.steampowered.com/app/4504620/",
+      "source": "steam_coming_soon",
+      "why": "steam_coming_soon:2026-09-28",
+      "as_of": "2026-09-28"
+    },
+    {
+      "title": "DICEWAR OTHERWORLD Demo",
+      "url": "https://store.steampowered.com/app/5255600/",
+      "source": "steam_coming_soon",
+      "why": "steam_coming_soon:2026-09-28",
+      "as_of": "2026-09-28"
+    },
+    {
+      "title": "9月29日発売の「Minecraft Dungeons II」を開発陣と体験。約15年ぶりに登場する新ディメンション「シフト」（Sift）を4人協力プレイで飛び回ってきた",
+      "url": "https://www.4gamer.net/games/014/G101443/20260924017/",
+      "source": "four_gamer",
+      "why": "four_gamer:2026-09-26",
+      "as_of": "2026-09-26",
+      "date": "2026-09-26T18:00:00.000Z"
+    },
+    {
+      "title": "週刊Steam広場 第173号：仕立て屋シム「Dressmaker」や「Graveyard Keeper 2」が発売に",
+      "url": "https://www.4gamer.net/games/038/G003821/20260926002/",
+      "source": "four_gamer",
+      "why": "four_gamer:2026-09-26",
+      "as_of": "2026-09-26",
+      "date": "2026-09-26T09:00:00.000Z"
+    },
+    {
+      "title": "Switch向けダウンロード版「クーロンズゲートSuzaku」は10月29日発売へ。「クーロンズ・ゲート」の世界を再構築したアドベンチャーゲーム",
+      "url": "https://www.4gamer.net/games/911/G091134/20260925059/",
+      "source": "four_gamer",
+      "why": "four_gamer:2026-09-25",
+      "as_of": "2026-09-25",
+      "date": "2026-09-25T13:48:57.000Z"
     }
   ],
   "via": "cli"

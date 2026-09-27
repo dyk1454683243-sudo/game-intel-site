@@ -43,16 +43,18 @@
     "https://www.gamekee.com/hw/634300.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 634300,
   "gamekee_entry_id": 163028,
   "verified": "GameKee hw/634300 图鉴",
+  "note": "抽取建议: 抽1个专武就行。即使有专武提供输出加成的情况下本身输出依然不足，一般接近于奥丝拉的下位。配合尤洁妮亚可以打出不错的效果。",
   "summary": {
     "sources": [
       "https://www.gamekee.com/hw/634300.html"
     ],
     "tier": "T1.5 / 坦克 / 反击 / 格里克君主",
+    "pull": "抽1个专武就行。即使有专武提供输出加成的情况下本身输出依然不足，一般接近于奥丝拉的下位。配合尤洁妮亚可以打出不错的效果。",
     "stub": false,
-    "caveat": "强度来自 GameKee 图鉴 T度/标签（卡面 role）。本卡无独立抽取建议正文，不编造抽卡结论。"
+    "caveat": "抽取建议摘自卡面已收录备注，未另编数字。"
   }
 }

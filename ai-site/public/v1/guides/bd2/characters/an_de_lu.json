@@ -52,16 +52,26 @@
     "https://www.gamekee.com/zsca2/593635.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 593635,
   "gamekee_entry_id": 122335,
   "verified": "GameKee zsca2/593635 图鉴",
+  "costume_ratings": [
+    {
+      "label": "安德鲁（专家和原皮）",
+      "tier": "T3",
+      "source": "https://www.gamekee.com/zsca2/614967.html",
+      "content_id": 614967
+    }
+  ],
   "summary": {
-    "position": "4星 / 火 / 物理 / 输出",
+    "tier": "GameKee 服装测评：安德鲁（专家和原皮） T3",
     "sources": [
+      "https://www.gamekee.com/zsca2/614967.html",
       "https://www.gamekee.com/zsca2/593635.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
+    "position": "4星 / 火 / 物理 / 输出"
   }
 }
