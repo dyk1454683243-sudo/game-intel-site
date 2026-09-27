@@ -16,13 +16,14 @@ Remote MCP: GET /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalo
 
 ## Sources / 出处
 
-Priority when two links disagree: official (Steam news, publisher, store page) > review sites (Prydwen, Inven, GameKee 测评) > forums (Bahamut, Reddit, Discord, TapTap).
+Priority when two links disagree: official (Steam news, publisher, store page) > review sites (Prydwen, Inven, GameKee 测评, Bahamut, TapTap) > forums (Reddit, Discord).
+Channel registry: `data/sources.json` (`enabled`, `type`, `note`, optional `zone` / `role`). Live digest/radar fetchers are the enabled api/html/rss rows (GameKee, TapTap, Inven, Steam news+store, Bahamut, Prydwen, nikke.gg, watchlist official). Language-zone outlets without a fetcher stay `enabled: false`: Bilibili, 小黑盒, 루리웹, 아카라이브, 4Gamer, Famitsu, 電ファミ, Reddit, Discord, App Store, Google Play, Steam coming-soon. Do not treat a registry row as a live headline.
 If the JSON does not support a claim, say 未见可靠出处 / no reliable source. Do not fill the gap.
 On a thin item, quote 1–2 sentences already stored and cite `url`.
 
 ## How to answer
 
-1. Resolve the game id (hw, nikke, bd2, or any id in /v1/games/index.json).
+1. Resolve the game id. Catalog nicknames: look up the alias in /v1/catalog-aliases.json, read `id`, then GET /v1/games/{id}.json. Or use any id in /v1/games/index.json (hw, nikke, bd2, …). Character nicknames are /v1/guides/{game}/aliases.json, not the catalog file.
 2. Build questions use /v1/guides/{game}/characters/{id}.json. Read `summary` (结论), `skills`, `sources`, `as_of`.
 3. `stub: true` means the card or the catalog row is incomplete. `summary.stub: true` means the conclusion is incomplete. Do not collapse those two flags.
 4. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty arrays or `meta.fixture: true` mean no item.
@@ -45,6 +46,12 @@ Shape sample (repo): `examples/game-stub.example.json`. Live stub:
 
 {"id":"balatro","name":"Balatro","name_zh":"小丑牌","platforms":["steam","pc","switch"],"tags":["indie","roguelike","card"],"sources":[{"label":"Steam","url":"https://store.steampowered.com/app/2379780/"}],"steam_appid":2379780,"stub":true,"watchlist":false,"as_of":"2026-09-25","timezone":"Asia/Shanghai"}
 
+### GET /v1/catalog-aliases.json
+Purpose: wide-catalog nicknames (CN / EN / KR) → game id. Cadence: on publish (`export-games` merges `data/catalog-aliases.json` with each game's `name` and `name_zh`).
+Resolve: alias key → `id` → GET /v1/games/{id}.json.
+Fields: `as_of`, `timezone`, `count`, `aliases{key → {id,name,lang}}`. `lang` is `zh`, `en`, `ko`, `ja`, or `other`.
+Character nicknames stay on /v1/guides/{game}/aliases.json. This file is not a second catalog and has no scores.
+
 ### GET /v1/feed.json
 Purpose: cross-game headlines already present in digest or radar. Cadence: each catalog export.
 Fields: `meta.{as_of,timezone,generated_at,source,count,note}`, `items[]` `{title,url,game_id,platform,published_at,source}`.
@@ -61,7 +68,8 @@ Fields: `meta.{generated_at,timezone,source}`, `digests[]` `{game,name,count,ite
 `summary` is a clipped blurb already stored. Do not extend it.
 
 ### GET /v1/radar.json
-Purpose: new-game / CBT / 预约 scan. Add sources by language and platform here. Not a second catalog. Cadence: best-effort daily.
+Purpose: new-game / CBT / 预约 scan by language and platform. Not a second catalog. Cadence: best-effort daily.
+Live CLI sweeps are TapTap, Inven, and GameKee. Keywords in code: 公测, 预约, CBT, 新作, launch. Other language-zone outlets are registry rows in `data/sources.json` (`enabled: false`) until a fetcher exists.
 Fields: `meta`, `keywords`, `items[]` `{title,url,source,why}`.
 
 ### GET /v1/calendar.json and /v1/calendar-hw.json
@@ -105,7 +113,8 @@ GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` ret
 - /schema/calendar.schema.json
 - /schema/guides-index.schema.json
 - /schema/character-card.schema.json
-- /schema/aliases.schema.json
+- /schema/aliases.schema.json — character nicknames
+- /schema/catalog-aliases.schema.json — catalog nickname → id
 - /schema/claim.schema.json
 - /schema/claims-index.schema.json
 - /index.md — overview

@@ -1,0 +1,26 @@
+{
+  "id": "girls-frontline-2",
+  "name": "GIRLS' FRONTLINE 2: EXILIUM",
+  "name_zh": "少女前线2：追放",
+  "platforms": [
+    "steam",
+    "pc"
+  ],
+  "tags": [
+    "gacha",
+    "strategy",
+    "rpg"
+  ],
+  "sources": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/3347400/"
+    }
+  ],
+  "steam_appid": 3347400,
+  "stub": true,
+  "watchlist": false,
+  "note": "Catalog stub — Steam store link only; no invented scores",
+  "as_of": "2026-09-27",
+  "timezone": "Asia/Shanghai"
+}

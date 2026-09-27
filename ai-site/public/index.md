@@ -7,8 +7,9 @@
 
 | Path | Description |
 |------|-------------|
-| `/v1/games/index.json` | Game catalog index (54+) |
+| `/v1/games/index.json` | Game catalog index (84+) |
 | `/v1/games/{id}.json` | Single game entity |
+| `/v1/catalog-aliases.json` | Catalog nickname → id |
 | `/v1/feed.json` | Recent intel items (real only) |
 | `/games/index.html` | Human game directory |
 | `/games/{id}.html` | Game detail |

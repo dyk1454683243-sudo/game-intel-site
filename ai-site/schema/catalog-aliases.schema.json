@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/catalog-aliases.schema.json",
+  "title": "game-intel catalog aliases",
+  "description": "Nickname → catalog id. Resolve the alias, then GET /v1/games/{id}.json. Character nicknames are /v1/guides/{game}/aliases.json, not this file.",
+  "type": "object",
+  "required": ["timezone", "aliases"],
+  "additionalProperties": true,
+  "properties": {
+    "as_of": { "type": "string" },
+    "timezone": { "type": "string", "const": "Asia/Shanghai" },
+    "note": { "type": "string" },
+    "count": { "type": "integer", "minimum": 0 },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id"],
+        "additionalProperties": true,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string" },
+          "lang": { "type": "string", "enum": ["zh", "en", "ko", "ja", "other"] }
+        }
+      }
+    }
+  }
+}

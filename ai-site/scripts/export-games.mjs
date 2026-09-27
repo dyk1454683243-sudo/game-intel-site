@@ -19,6 +19,8 @@ const OUT_SCHEMA = path.join(SITE, "public", "schema");
 const OUT_PUBLIC = path.join(SITE, "public");
 const SCHEMA_SRC = path.join(SITE, "schema");
 const FEED_OUT = path.join(SITE, "public", "v1", "feed.json");
+const ALIAS_SRC = path.join(DATA, "catalog-aliases.json");
+const ALIAS_OUT = path.join(SITE, "public", "v1", "catalog-aliases.json");
 
 function rmrf(p) {
   if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true });
@@ -262,6 +264,7 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 |------|-------------|
 | \`/v1/games/index.json\` | Game catalog index (${games.length}+) |
 | \`/v1/games/{id}.json\` | Single game entity |
+| \`/v1/catalog-aliases.json\` | Catalog nickname → id |
 | \`/v1/feed.json\` | Recent intel items (real only) |
 | \`/games/index.html\` | Human game directory |
 | \`/games/{id}.html\` | Game detail |
@@ -353,6 +356,10 @@ function openApiDoc() {
       },
       "/v1/games/index.json": get("Game catalog index. Updates on publish. Stubs are identity-only.", "#/components/schemas/GamesIndex"),
       "/v1/games/{id}.json": get("One game entity. stub true = name, platforms, tags, sources, steam_appid.", "#/components/schemas/Game"),
+      "/v1/catalog-aliases.json": get(
+        "Catalog nickname map. Look up alias → id → /v1/games/{id}.json. Not character aliases.",
+        "#/components/schemas/CatalogAliases"
+      ),
       "/v1/feed.json": get("Recent intel items from real digest and radar rows. Rebuilds on catalog export.", "#/components/schemas/Feed"),
       "/v1/watchlist.json": get("Watchlist for deep guides. Best-effort daily.", "#/components/schemas/Watchlist"),
       "/v1/digest.json": get("Digest headlines. Best-effort daily.", "#/components/schemas/Digest"),
@@ -376,6 +383,7 @@ function openApiDoc() {
         ClaimInput: { $ref: "/schema/claim.schema.json" },
         ClaimsIndex: { $ref: "/schema/claims-index.schema.json" },
         Game: { $ref: "/schema/game.schema.json" },
+        CatalogAliases: { $ref: "/schema/catalog-aliases.schema.json" },
         GamesIndex: { $ref: "/schema/games-index.schema.json" },
         Feed: { $ref: "/schema/feed.schema.json" },
         Watchlist: { $ref: "/schema/watchlist.schema.json" },
@@ -386,6 +394,63 @@ function openApiDoc() {
         Aliases: { $ref: "/schema/aliases.schema.json" },
       },
     },
+  };
+}
+
+function aliasLang(text) {
+  const s = String(text || "");
+  if (/[\uac00-\ud7a3]/.test(s)) return "ko";
+  if (/[\u3040-\u30ff]/.test(s)) return "ja";
+  if (/[\u4e00-\u9fff]/.test(s)) return "zh";
+  return "en";
+}
+
+function buildCatalogAliases(games, asOf) {
+  const ids = new Set(games.map((g) => g.id));
+  const aliases = {};
+  const add = (key, entry) => {
+    const k = String(key || "").replace(/\s+/g, " ").trim();
+    if (!k || !entry || !entry.id) return;
+    if (!ids.has(entry.id)) {
+      console.error(`[export-games] catalog alias ${JSON.stringify(k)} unknown id ${entry.id}`);
+      process.exit(1);
+    }
+    const prev = aliases[k];
+    if (prev && prev.id !== entry.id) {
+      console.error(
+        `[export-games] catalog alias conflict ${JSON.stringify(k)} -> ${prev.id} vs ${entry.id}`
+      );
+      process.exit(1);
+    }
+    if (!prev) {
+      const row = { id: entry.id };
+      if (entry.name) row.name = entry.name;
+      if (entry.lang) row.lang = entry.lang;
+      aliases[k] = row;
+    }
+  };
+
+  if (fs.existsSync(ALIAS_SRC)) {
+    const src = readJson(ALIAS_SRC);
+    for (const [key, entry] of Object.entries(src.aliases || {})) {
+      add(key, entry);
+    }
+  }
+
+  for (const g of games) {
+    add(g.name, { id: g.id, name: g.name, lang: aliasLang(g.name) });
+    if (g.name_zh) add(g.name_zh, { id: g.id, name: g.name, lang: aliasLang(g.name_zh) });
+  }
+
+  const keys = Object.keys(aliases).sort((a, b) => a.localeCompare(b, "en"));
+  const out = {};
+  for (const k of keys) out[k] = aliases[k];
+  return {
+    as_of: asOf,
+    timezone: "Asia/Shanghai",
+    note: "Nickname → catalog id. Resolve: look up the alias key, read id, then GET /v1/games/{id}.json. Character nicknames stay on /v1/guides/{game}/aliases.json. Not a second catalog.",
+    count: keys.length,
+    aliases: out,
   };
 }
 
@@ -499,6 +564,8 @@ ${rows}
 
   const feed = buildFeed(games, asOf);
   writeJson(FEED_OUT, feed);
+  const catalogAliases = buildCatalogAliases(games, asOf);
+  writeJson(ALIAS_OUT, catalogAliases);
 
   writeHomePages(games, feed, asOf);
 
@@ -519,6 +586,7 @@ ${rows}
         watchlist: index.watchlist_count,
         stub: index.stub_count,
         feed_items: feed.meta.count,
+        catalog_aliases: catalogAliases.count,
         ids: summaries.map((s) => s.id),
         out_v1: OUT_V1,
         out_html: OUT_HTML,
