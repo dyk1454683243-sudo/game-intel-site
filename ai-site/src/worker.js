@@ -9,6 +9,7 @@ import {
   saveClaim,
 } from "./claims.js";
 import { corsHeaders, handleMcp, jsonResponse } from "./mcp.js";
+import { servePortrait } from "../public/ui/portrait.js";
 
 const DISCOVERY_PATHS = new Set([
   "/.well-known/mcp.json",
@@ -31,6 +32,11 @@ export async function route(request, env) {
   const path = url.pathname;
 
   if (path === "/mcp") return handleMcp(request, env);
+
+  if (path === "/v1/portrait") {
+    if (request.method !== "GET") return new Response("method", { status: 405 });
+    return servePortrait(url.searchParams.get("u"));
+  }
 
   if (request.method === "OPTIONS" && (DISCOVERY_PATHS.has(path) || path === "/mcp/server-card" || path.startsWith("/v1/claims"))) {
     return new Response(null, { status: 204, headers: corsHeaders() });

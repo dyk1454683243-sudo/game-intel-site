@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { httpSources } from "../../mcp-server/scripts/guide-conclusion.mjs";
+import { portraitTarget } from "../public/ui/portrait.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -120,8 +121,26 @@ ${body}
 }
 
 
-function validateCard(game, c) {
+function validatePortrait(c) {
   const errors = [];
+  if (c.portrait == null || c.portrait === "") {
+    if (c.portrait_source != null || c.portrait_via != null) {
+      errors.push("portrait citation set without a portrait url");
+    }
+    return errors;
+  }
+  if (!portraitTarget(c.portrait)) errors.push("portrait url is not an allowed public image");
+  if (typeof c.portrait_source !== "string" || !/^https:\/\/\S+$/.test(c.portrait_source)) {
+    errors.push("portrait_source must be an https URL");
+  }
+  if (typeof c.portrait_via !== "string" || !c.portrait_via.trim()) {
+    errors.push("portrait_via must name the field the URL came from");
+  }
+  return errors;
+}
+
+function validateCard(game, c) {
+  const errors = [...validatePortrait(c)];
   if (isStub(c)) return errors;
   const srcs = httpSources(c);
   if (!srcs.length) errors.push("non-stub card missing https sources");
@@ -228,13 +247,17 @@ function exportGame(game, asOf) {
     if (errs.length) problems.push({ id: c.id, errs });
     if (!stubFlag && c.summary?.stub === true) conclusionStub++;
     writeJson(path.join(gameOut, "characters", `${c.id}.json`), c);
-    indexChars.push({
+    const indexRow = {
       id: c.id,
       name: c.name,
       name_zh: c.name_zh || c.name,
       stub: stubFlag,
       sources: c.sources || [],
-    });
+    };
+    if (CONCLUSION_GAMES.has(game)) {
+      indexRow.portrait = typeof c.portrait === "string" && c.portrait ? c.portrait : null;
+    }
+    indexChars.push(indexRow);
   }
 
   const gameIndex = {
