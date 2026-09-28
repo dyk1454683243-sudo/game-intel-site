@@ -11,8 +11,13 @@
 | `/v1/games/{id}.json` | Single game entity |
 | `/v1/catalog-aliases.json` | Catalog nickname → id |
 | `/v1/feed.json` | Recent intel items (real only) |
-| `/games/index.html` | Human game directory |
-| `/games/{id}.html` | Game detail |
+| `/` | Human UI home: digest + radar from live /v1 JSON |
+| `/catalog/` | Human catalog search |
+| `/watchlist/` | Human watchlist |
+| `/game/?id=` | Identity card. Non-deep games show 尚无深耕 |
+| `/character/?game=&id=` | Deep character card (hw, nikke, bd2 only) |
+| `/games/index.html` | Static game directory |
+| `/games/{id}.html` | Static game detail |
 | `/v1/guides/index.json` | Character guide coverage |
 | `/guides/*.html` | Human Chinese guide pages |
 | `/v1/watchlist.json` | Dai daily watchlist |
@@ -32,5 +37,6 @@
 - `stub: true` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
 - Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
+- Human UI v0 reads `/v1` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
 - Guides remain under `/guides/*` and `/v1/guides/*` (unchanged contract).
 - Non-stub character cards require `sources` + `as_of`. HW/NIKKE/BD2 also require `summary` (conclusion). `summary.stub: true` means the conclusion is incomplete.

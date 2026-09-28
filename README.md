@@ -84,6 +84,16 @@ npm run preview
 # http://127.0.0.1:8787/   例如 /llms.txt 、/v1/guides/index.json 、/guides/hw/lysandria.html
 ```
 
+人类界面（中文，浏览器读取已发布的 `/v1` JSON，无登录、无 CDK）：
+
+- `/` 今日摘要与雷达
+- `/catalog/` 目录检索
+- `/watchlist/` 关注：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
+- `/game/?id=` 身份卡；hw / nikke / bd2 以外显示「尚无深耕」
+- `/character/?game=hw&id=` 角色深耕（强度、服装、技能、出处），仅这三款
+
+静态双发页仍在 `/games/` 与 `/guides/`。`export-games` 会把 `ai-site/public/ui/home.html` 复制为站点首页。
+
 改过 `data/guides` 之后，在 `ai-site/` 执行 `npm run export-guides` 再预览。非 stub 卡缺少 `sources` 或 `as_of`，或 hw / nikke / bd2 缺少结论行时，导出会拒绝。
 
 ## 怎么贡献卡
@@ -246,6 +256,8 @@ cd ai-site && npm install
 npm run preview
 # http://127.0.0.1:8787/   e.g. /llms.txt , /v1/guides/index.json , /guides/hw/lysandria.html
 ```
+
+Human UI (Chinese, reads published `/v1` JSON, no login, no CDK): `/` digest and radar, `/catalog/` search, `/watchlist/`, `/game/?id=` identity cards, `/character/?game=&id=` for hw / nikke / bd2 only. Static dual-publish pages stay under `/games/` and `/guides/`.
 
 After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and an hw / nikke / bd2 card that lacks a conclusion row.
 

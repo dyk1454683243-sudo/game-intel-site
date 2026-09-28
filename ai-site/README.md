@@ -35,6 +35,8 @@ For local claims writes, create `ai-site/.dev.vars` (gitignored) with `CLAIMS_AP
 Existing JSON checks against the same preview:
 
 ```bash
+curl -sS http://127.0.0.1:8787/
+curl -sS http://127.0.0.1:8787/catalog/
 curl -sS http://127.0.0.1:8787/llms.txt
 curl -sS http://127.0.0.1:8787/v1/watchlist.json | python3 -m json.tool
 curl -sS http://127.0.0.1:8787/v1/digest.json | python3 -m json.tool
