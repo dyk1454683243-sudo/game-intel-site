@@ -520,9 +520,6 @@ function renderStrength(card) {
   if (summary && summary.tier) parts.push(`<p><span class="k">强度</span> ${esc(summary.tier)}</p>`);
   else if (grades.length) parts.push(`<p><span class="k">强度</span> ${esc(grades.join(" / "))}</p>`);
   else parts.push(`<p class="gap"><span class="k">强度</span> ${GAP}</p>`);
-  if (grades.length && summary && summary.tier) {
-    parts.push(`<p><span class="k">分项</span> ${esc(grades.join(" / "))}</p>`);
-  }
   if (card.ratings && safeHttpUrl(card.ratings.url) && grades.length) {
     parts.push(`<p class="meta">梯度出处 ${link(card.ratings.url, card.ratings.url)}</p>`);
   }
