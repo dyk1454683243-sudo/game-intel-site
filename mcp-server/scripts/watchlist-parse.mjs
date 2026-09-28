@@ -304,3 +304,79 @@ export function matchCostumeReview(title, summary, cards) {
   const uniq = [...new Set(hinted)];
   return uniq.length === 1 ? uniq[0] : null;
 }
+
+function tableCellText(cell) {
+  if (!cell || typeof cell !== "object") return "";
+  if (cell.type !== "text" || typeof cell.value !== "string") return "";
+  return cell.value.replace(/\ufeff/g, "").replace(/\s+/g, " ").trim();
+}
+
+const ATLAS_GRADE =
+  /^(?:前期|后期|全期|单皮|萌新)?\s*T\d+(?:\.\d+)?(?:（[^）]{0,24}）)?(?:\s*[，,、/／]\s*(?:前期|后期|全期|单皮|萌新)?\s*T\d+(?:\.\d+)?(?:（[^）]{0,24}）)?){0,3}$/;
+
+function usableCostumeName(name) {
+  const v = String(name || "").trim();
+  if (v.length < 2 || v.length > 40) return "";
+  if (/^(服装|皮肤\d|简中|尊爵)/.test(v)) return "";
+  return v;
+}
+
+function usableAtlasPull(value) {
+  const v = String(value || "").replace(/\s+/g, " ").trim();
+  if (!v || v.length > 24) return "";
+  if (/^(暂无|无|没有|抽取建议|待定|—|-|\/|／)$/.test(v)) return "";
+  if (/[。！？?]/.test(v)) return "";
+  return v;
+}
+
+/**
+ * Costume grades from a GameKee 图鉴 styleData table.
+ * Reads only the 服装梯度 cell when it is a written T token, plus the 抽取建议 cell.
+ * Empty cells, image charts, and prose without a T token are omitted.
+ */
+export function bd2AtlasCostumeGrades(styleData) {
+  const out = [];
+  for (const skin of styleData || []) {
+    const rows = Array.isArray(skin?.data) ? skin.data : [];
+    let label = "";
+    let tier = "";
+    let pull = "";
+    for (let i = 0; i < rows.length; i++) {
+      const cells = (rows[i] || []).map(tableCellText);
+      const head = cells[0] || "";
+      if (head === "服装名称") {
+        const name = usableCostumeName(cells[1]);
+        if (name) label = name;
+      }
+      if (!head.startsWith("服装梯度")) continue;
+      const val = (rows[i + 1] || []).map(tableCellText);
+      const grade = String(val[0] || "").trim();
+      if (!ATLAS_GRADE.test(grade)) continue;
+      tier = grade;
+      const pullIdx = cells.findIndex((cell) => cell.startsWith("抽取建议"));
+      if (pullIdx > 0) pull = usableAtlasPull(val[pullIdx]);
+    }
+    if (!label || !tier) continue;
+    const item = { label, tier };
+    if (pull) item.pull = pull;
+    out.push(item);
+  }
+  return out;
+}
+
+const HW_SKILL_TEXT_SKIP =
+  /^(暂无|无|没有|待补充|待定|升级材料|技能信息|精简描述|技能描述|技能图标|主动|被动|终极|大招|奥义|必杀)$/;
+
+/**
+ * A GameKee skill cell is usable only when it is real text.
+ * Numeric-only cells (SP / cooldown) and empty placeholders are not skill effects.
+ * 精简描述 wins when present; 技能信息 is the fallback the caller uses.
+ */
+export function usableHwSkillText(value) {
+  const v = String(value || "")
+    .replace(/\ufeff/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!v || v.length < 2 || HW_SKILL_TEXT_SKIP.test(v) || /^\d+$/.test(v)) return "";
+  return v.length > 900 ? `${v.slice(0, 900).trim()}…` : v;
+}

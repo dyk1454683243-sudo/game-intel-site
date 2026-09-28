@@ -68,16 +68,52 @@
     "https://www.gamekee.com/zsca2/611786.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-28",
   "gamekee_content_id": 611786,
   "gamekee_entry_id": 139655,
   "verified": "GameKee zsca2/611786 图鉴",
+  "costume_ratings": [
+    {
+      "label": "回归偶像",
+      "tier": "T0.5",
+      "source": "https://www.gamekee.com/zsca2/611786.html",
+      "kind": "atlas",
+      "content_id": 611786,
+      "pull": "建议抽"
+    },
+    {
+      "label": "虚无之星",
+      "tier": "T2",
+      "source": "https://www.gamekee.com/zsca2/611786.html",
+      "kind": "atlas",
+      "content_id": 611786,
+      "pull": "慎抽"
+    },
+    {
+      "label": "恶作剧幽灵",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/611786.html",
+      "kind": "atlas",
+      "content_id": 611786,
+      "pull": "建议抽"
+    },
+    {
+      "label": "战地医疗兵",
+      "tier": "T1",
+      "source": "https://www.gamekee.com/zsca2/611786.html",
+      "kind": "atlas",
+      "content_id": 611786,
+      "pull": "必开图鉴"
+    }
+  ],
   "summary": {
-    "position": "5星 / 光 / 物理 / 生命c",
+    "tier": "GameKee 图鉴服装梯度：回归偶像 T0.5；虚无之星 T2；恶作剧幽灵 T1；战地医疗兵 T1",
     "sources": [
       "https://www.gamekee.com/zsca2/611786.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。",
+    "position": "5星 / 光 / 物理 / 生命c",
+    "pull": "回归偶像：建议抽；虚无之星：慎抽；恶作剧幽灵：建议抽；战地医疗兵：必开图鉴"
   }
 }

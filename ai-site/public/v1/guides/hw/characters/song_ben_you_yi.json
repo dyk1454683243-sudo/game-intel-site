@@ -40,11 +40,13 @@
     },
     {
       "name": "军势·枪击",
-      "type": "active"
+      "type": "active",
+      "summary": "射击敌人，造成射击攻击力60%的穿刺伤害。"
     },
     {
       "name": "待命",
-      "type": "active"
+      "type": "active",
+      "summary": "指定位置待命"
     },
     {
       "name": "军势·过载",

@@ -150,14 +150,17 @@ function bd2FromCostumeRatings(card, sources) {
   const pulls = good
     .filter((row) => typeof row.pull === "string" && row.pull.trim())
     .map((row) => `${row.label.trim()}：${row.pull.trim()}`);
+  const atlas = good.some((row) => row.kind === "atlas");
+  const review = good.some((row) => row.kind !== "atlas");
+  const prefix =
+    atlas && !review ? "GameKee 图鉴服装梯度：" : atlas && review ? "GameKee：" : "GameKee 服装测评：";
   const summary = {
-    tier: `GameKee 服装测评：${good
-      .map((row) => `${row.label.trim()} ${row.tier.trim()}`)
-      .join("；")}`,
+    tier: `${prefix}${good.map((row) => `${row.label.trim()} ${row.tier.trim()}`).join("；")}`,
     sources: uniqSources([...good.map((row) => row.source), ...sources]),
     stub: false,
-    caveat:
-      "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
+    caveat: atlas
+      ? "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。"
+      : "梯度只摘自 GameKee 测评正文里写明的「综合评价」或「服装评价」短句，按出处分列，不合并成角色总榜。测评写明具备时效性。图片榜无角色名文本的不收录，不编造未写明的服装。",
   };
   const position = bd2Position(card);
   if (position) summary.position = position;
