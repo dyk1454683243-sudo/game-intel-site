@@ -94,13 +94,24 @@ GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` ret
 
 ## Human pages
 
-- / — site home (same catalog as the JSON index)
+Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
+
+- / — digest summary + radar glance (`/v1/digest.json`, `/v1/radar.json`)
+- /catalog/ — search and filter the game directory
+- /watchlist/ — hw, nikke, bd2, star (星原), asora (阿索拉), miraesi (미래시), lo2
+- /game/?id= — identity card (name, platforms, tags, sources, steam_appid). Games other than hw / nikke / bd2 show 尚无深耕 and do not invent tier or pull advice.
+- /character/?game=&id= — strength, costume, skills, and source links. Only hw, nikke, bd2.
+
+`export-games` copies `ai-site/public/ui/home.html` onto `/`. Static dual-publish HTML remains:
+
 - /games/index.html — Chinese game directory
 - /games/{id}.html — game detail
 - /guides/index.html — guide index
 - /guides/hw/index.html, /guides/nikke/index.html, /guides/bd2/index.html
 - /guides/{game}/{id}.html — character page; 结论 mirrors `summary`
 - /claims/index.html — claims mirror
+
+`stub` and 未见可靠出处 stay visible when the JSON carries them.
 
 ## Schemas and contract
 

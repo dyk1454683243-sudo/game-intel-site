@@ -292,7 +292,7 @@ ${rows || "<tr><td colspan=3>no cards yet — fill when verified</td></tr>"}
     const sources = (c.sources || [])
       .map((u) => `<li><a href="${esc(u)}">${esc(u)}</a></li>`)
       .join("\n");
-    const body = `<p><a href="./index.html">← ${esc(meta.name_zh)}</a></p>
+    const body = `<p><a href="/">首页</a> · <a href="/watchlist/">关注</a> · <a href="/character/?game=${esc(game)}&amp;id=${esc(c.id)}">人类界面</a> · <a href="./index.html">← ${esc(meta.name_zh)}</a></p>
 <h1>${esc(c.name)} <code>${esc(c.id)}</code></h1>
 <p class="${isStub(c) ? "stub" : "rich"}">${isStub(c) ? "stub card — skills not verified yet" : "verified card"}</p>
 ${conclusionBar(c)}
@@ -375,7 +375,7 @@ function main() {
       "game-intel 攻略索引",
       `<h1>攻略 Guides</h1>
 <p class="meta">as_of ${esc(asOf)} Asia/Shanghai</p>
-<p>AI index: <a href="/v1/guides/index.json"><code>/v1/guides/index.json</code></a></p>
+<p>AI index: <a href="/v1/guides/index.json"><code>/v1/guides/index.json</code></a> · <a href="/">人类首页</a> · <a href="/watchlist/">关注</a></p>
 <ul>
 ${summaries
   .map(

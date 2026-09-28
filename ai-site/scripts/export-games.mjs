@@ -201,58 +201,23 @@ function buildFeed(games, asOf) {
   };
 }
 
+export function publishHumanHome(publicDir) {
+  const shellPath = path.join(publicDir, "ui", "home.html");
+  if (!fs.existsSync(shellPath)) {
+    throw new Error(`[export-games] missing human UI shell ${shellPath}`);
+  }
+  const html = fs.readFileSync(shellPath, "utf8");
+  if (!html.includes('data-view="home"') || !html.includes("/ui/app.js")) {
+    throw new Error(`[export-games] human UI shell is not the home page: ${shellPath}`);
+  }
+  fs.writeFileSync(path.join(publicDir, "index.html"), html, "utf8");
+  return html;
+}
+
 function writeHomePages(games, feed, asOf) {
-  const wl = games.filter((g) => g.watchlist);
-  const rest = games.filter((g) => !g.watchlist);
-  const feedLi = (feed.items || [])
-    .slice(0, 12)
-    .map((it) => {
-      const gid = it.game_id ? ` <code>${esc(it.game_id)}</code>` : "";
-      const src = it.source ? ` · ${esc(it.source)}` : "";
-      return `<li><a href="${esc(it.url)}" rel="noopener">${esc(it.title)}</a>${gid}<span class="meta">${src}</span></li>`;
-    })
-    .join("\n");
+  publishHumanHome(OUT_PUBLIC);
 
-  const gameLi = (list) =>
-    list
-      .map((g) => {
-        const zh = g.name_zh ? ` · ${esc(g.name_zh)}` : "";
-        const badge = g.watchlist ? ' <span class="tag wl">watchlist</span>' : "";
-        const stub = g.stub ? ' <span class="stub">stub</span>' : ' <span class="rich">guides</span>';
-        return `<li><a href="/games/${esc(g.id)}.html"><strong>${esc(g.name)}</strong></a>${zh}${badge}${stub}</li>`;
-      })
-      .join("\n");
-
-  const body = `<h1>game-intel · 泛游戏目录</h1>
-<p class="meta">as_of ${esc(asOf)} Asia/Shanghai · ${games.length} games · feed ${feed.meta.count} items</p>
-<p>AI JSON：
-  <a href="/v1/games/index.json"><code>/v1/games/index.json</code></a> ·
-  <a href="/v1/feed.json"><code>/v1/feed.json</code></a> ·
-  <a href="/v1/guides/index.json"><code>/v1/guides/index.json</code></a>
-</p>
-
-<h2>情报 Feed</h2>
-${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编造标题）</p>"}
-<p class="meta">完整 JSON：<a href="/v1/feed.json"><code>/v1/feed.json</code></a></p>
-
-<h2>每日 Watchlist</h2>
-<ul>${gameLi(wl)}</ul>
-
-<h2>目录 · Steam / Indie / AAA stubs</h2>
-<ul>${gameLi(rest)}</ul>
-
-<h2>角色攻略 Guides</h2>
-<p><a href="/guides/index.html">攻略索引</a>（HW / NIKKE / BD2 等）— 与游戏目录分离，同源 dual-publish。</p>
-
-<p class="meta">规则：不编造评分/在线人数/Metacritic；stub 仅身份+真实链接。</p>`;
-
-  fs.writeFileSync(
-    path.join(OUT_PUBLIC, "index.html"),
-    htmlPage("game-intel · 泛游戏目录", body),
-    "utf8"
-  );
-
-  // Also keep a markdown overview for agents
+  // Also keep a markdown overview for agents. Home HTML is the human UI shell.
   const md = `# game-intel · 泛游戏目录 / Game Catalog
 
 **中文：** 泛游戏站 first cut — 游戏实体目录 + 情报 feed + 既有角色攻略。时区 Asia/Shanghai。
@@ -266,8 +231,13 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 | \`/v1/games/{id}.json\` | Single game entity |
 | \`/v1/catalog-aliases.json\` | Catalog nickname → id |
 | \`/v1/feed.json\` | Recent intel items (real only) |
-| \`/games/index.html\` | Human game directory |
-| \`/games/{id}.html\` | Game detail |
+| \`/\` | Human UI home: digest + radar from live /v1 JSON |
+| \`/catalog/\` | Human catalog search |
+| \`/watchlist/\` | Human watchlist |
+| \`/game/?id=\` | Identity card. Non-deep games show 尚无深耕 |
+| \`/character/?game=&id=\` | Deep character card (hw, nikke, bd2 only) |
+| \`/games/index.html\` | Static game directory |
+| \`/games/{id}.html\` | Static game detail |
 | \`/v1/guides/index.json\` | Character guide coverage |
 | \`/guides/*.html\` | Human Chinese guide pages |
 | \`/v1/watchlist.json\` | Dai daily watchlist |
@@ -287,8 +257,11 @@ ${feedLi ? `<ul>${feedLi}</ul>` : "<p class=\"meta\">暂无真实条目（未编
 - \`stub: true\` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
 - Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
+- Human UI v0 reads \`/v1\` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
 - Guides remain under \`/guides/*\` and \`/v1/guides/*\` (unchanged contract).
 - Non-stub character cards require \`sources\` + \`as_of\`. HW/NIKKE/BD2 also require \`summary\` (conclusion). \`summary.stub: true\` means the conclusion is incomplete.
+
+Catalog export as_of ${asOf}. Feed items: ${feed.meta.count}.
 `;
   fs.writeFileSync(path.join(OUT_PUBLIC, "index.md"), md, "utf8");
 
@@ -496,7 +469,7 @@ function main() {
       card.guides_path
         ? `<p>攻略：<a href="${esc(card.guides_path)}">${esc(card.guides_path)}</a></p>`
         : "";
-    const body = `<p><a href="./index.html">← 游戏目录</a></p>
+    const body = `<p><a href="/">首页</a> · <a href="/catalog/">目录</a> · <a href="/watchlist/">关注</a> · <a href="./index.html">静态目录</a></p>
 <h1>${esc(card.name_zh || card.name)} <code>${esc(card.id)}</code></h1>
 <p class="meta">${esc(card.name)}${card.watchlist ? " · <strong>watchlist</strong>" : ""}</p>
 <p class="${card.stub ? "stub" : "rich"}">${card.stub ? "stub — 仅身份与真实链接，无编造评分" : "非 stub — 有攻略覆盖"}</p>
@@ -554,7 +527,7 @@ ${card.note ? `<p class="meta">${esc(card.note)}</p>` : ""}
       `<h1>游戏目录 Games</h1>
 <p class="meta">as_of ${esc(asOf)} · ${summaries.length} games · watchlist ${index.watchlist_count} · stub ${index.stub_count}</p>
 <p>AI index: <a href="/v1/games/index.json"><code>/v1/games/index.json</code></a> · Feed: <a href="/v1/feed.json"><code>/v1/feed.json</code></a></p>
-<p><a href="/">← 首页</a> · <a href="/guides/index.html">攻略 Guides</a></p>
+<p><a href="/">人类首页</a> · <a href="/catalog/">目录检索</a> · <a href="/watchlist/">关注</a> · <a href="/guides/index.html">攻略 Guides</a></p>
 <table><thead><tr><th>id</th><th>name</th><th>中文</th><th>status</th><th>watchlist</th></tr></thead><tbody>
 ${rows}
 </tbody></table>`
@@ -598,4 +571,6 @@ ${rows}
   );
 }
 
-main();
+const isDirectRun =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isDirectRun) main();
