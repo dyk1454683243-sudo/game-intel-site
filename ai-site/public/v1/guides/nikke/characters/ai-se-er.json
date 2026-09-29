@@ -2,7 +2,7 @@
   "id": "ai-se-er",
   "name": "艾瑟儿",
   "name_zh": "艾瑟儿",
-  "name_en": null,
+  "name_en": "Ether",
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
@@ -24,17 +24,22 @@
       "summary": "■体力最低的3名队友 【生成相当于施展者体力42%的护盾】【持续5秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "超大单细胞",
   "weapon": "霰弹枪",
   "element": "电击",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/152350.html"
+    "https://www.gamekee.com/nikke/152350.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/ether/"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 152350,
   "gamekee_entry_id": 110439,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/668734.png",
@@ -42,19 +47,29 @@
   "portrait_via": "gamekee-entry-icon:nikke:110439",
   "prydwen_slug": null,
   "rarity": "SR",
-  "verified": "GameKee nikke/152350 图鉴",
+  "verified": "GameKee nikke/152350 图鉴；Nikke.gg tier-list 2026-09（技能数值对上 Ether）",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
-    "url": "https://nikke.gg/tier-list/"
+    "as_of": "2026-09-29",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "E",
+    "story": "E",
+    "boss": "E",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "ether",
+    "character_url": "https://nikke.gg/characters/ether/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/152350.html"
+      "https://www.gamekee.com/nikke/152350.html",
+      "https://nikke.gg/characters/ether/"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SR / 超大单细胞 / 防御型 / 电击 / 米西利斯"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。本卡 GameKee 技能里的 22.96%、24.64%、42% 与 Nikke.gg「Ether」技能页 Lv1 相同，故对上该档。不编造抽卡结论。",
+    "position": "SR / 超大单细胞 / 防御型 / 电击 / 米西利斯",
+    "tier": "Nikke.gg 综合 E（故事 E / Boss E / PvP D）"
   }
 }

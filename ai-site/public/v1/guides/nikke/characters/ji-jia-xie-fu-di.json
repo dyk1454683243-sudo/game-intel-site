@@ -34,7 +34,7 @@
     "https://www.gamekee.com/nikke/684097.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 684097,
   "gamekee_entry_id": 198648,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/374156.png",
@@ -45,7 +45,7 @@
   "verified": "GameKee nikke/684097 图鉴",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
+    "as_of": "2026-09-29",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
@@ -54,7 +54,7 @@
       "https://www.gamekee.com/nikke/684097.html"
     ],
     "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    "caveat": "已核对 Nikke.gg 2026-09 梯度页（无机甲谢芙蒂综合档）与 GameKee 检索（愚人节活动介绍，无 T 档或抽取句）。不编造 T 度或抽卡结论。",
     "position": "R / 星球毁灭者 / 火力型 / 水冷 / 极乐净土"
   }
 }

@@ -31,10 +31,11 @@
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/721421.html"
+    "https://www.gamekee.com/nikke/721421.html",
+    "https://www.gamekee.com/nikke/721179.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 721421,
   "gamekee_entry_id": 225768,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png",
@@ -45,16 +46,17 @@
   "verified": "GameKee nikke/721421 图鉴",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
+    "as_of": "2026-09-29",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/721421.html"
+      "https://www.gamekee.com/nikke/721421.html",
+      "https://www.gamekee.com/nikke/721179.html"
     ],
     "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    "caveat": "已核对 Nikke.gg 2026-09 梯度接口（无 guilty-mighty-bunny）与角色接口（Character not found），以及 GameKee 技能预览 https://www.gamekee.com/nikke/721179.html （只有技能展示，无梯度或抽取句）。Prydwen 页面被 Cloudflare 拦截，未能读取。不编造 T 度或抽卡结论。",
     "position": "SSR / 终于解开了……！ / 火力型 / 水冷 / 米西利斯"
   }
 }

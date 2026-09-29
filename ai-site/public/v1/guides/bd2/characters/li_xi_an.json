@@ -37,10 +37,11 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/593667.html"
+    "https://www.gamekee.com/zsca2/593667.html",
+    "https://www.gamekee.com/zsca2/614967.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 593667,
   "gamekee_entry_id": 122342,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/969823.png",
@@ -50,9 +51,10 @@
   "summary": {
     "position": "4星 / 风 / 魔法 / 输出",
     "sources": [
-      "https://www.gamekee.com/zsca2/593667.html"
+      "https://www.gamekee.com/zsca2/593667.html",
+      "https://www.gamekee.com/zsca2/614967.html"
     ],
     "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）和《三四星角色测评》（未单列莉西安）。图片总强度榜不转录。不编造 T 度或抽卡结论。"
   }
 }

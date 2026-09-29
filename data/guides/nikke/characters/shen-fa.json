@@ -31,10 +31,12 @@
   "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/576623.html"
+    "https://www.gamekee.com/nikke/576623.html",
+    "https://www.gamekee.com/nikke/645119.html",
+    "https://www.gamekee.com/nikke/666751.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 576623,
   "gamekee_entry_id": 115012,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/236746/2022/11/27/67879.png",
@@ -42,19 +44,23 @@
   "portrait_via": "gamekee-entry-icon:nikke:115012",
   "prydwen_slug": null,
   "rarity": "SSR",
-  "verified": "GameKee nikke/576623 图鉴",
+  "verified": "GameKee nikke/576623 图鉴；GameKee nikke/645119 评分；nikke/666751 抽取建议",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
+    "as_of": "2026-09-29",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/576623.html"
+      "https://www.gamekee.com/nikke/576623.html",
+      "https://www.gamekee.com/nikke/645119.html",
+      "https://www.gamekee.com/nikke/666751.html"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 新世界 / 火力型 / 燃烧 / 朝圣者"
+    "stub": false,
+    "caveat": "梯度摘自 GameKee 短评原文「低战压：SS」「高战压：S」「BOSS：S」「PVP：C」，并写明评分随版本调整。抽取句摘自 GameKee 国服上线稿（必抽；已有 200 金票可直接兑换），非官方。Nikke.gg 2026-09 梯度页没有「神罚」这一行。",
+    "position": "SSR / 新世界 / 火力型 / 燃烧 / 朝圣者",
+    "tier": "GameKee：低战压 SS / 高战压 S / BOSS S / PVP C",
+    "pull": "国服上线测评建议必抽；前期技能加点 7/7/4 或 7/4/4"
   }
 }

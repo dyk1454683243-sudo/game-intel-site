@@ -2,12 +2,12 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "timezone": "Asia/Shanghai",
   "character_count": 232,
   "rich_count": 232,
   "stub_count": 0,
-  "conclusion_stub_count": 12,
+  "conclusion_stub_count": 5,
   "characters": [
     {
       "id": "2b",
@@ -93,7 +93,9 @@
       "name_zh": "艾瑟儿",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/152350.html"
+        "https://www.gamekee.com/nikke/152350.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/ether/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/668734.png"
     },
@@ -724,7 +726,8 @@
       "stub": false,
       "sources": [
         "https://www.prydwen.gg/nikke/characters/drake-great-villain",
-        "https://www.gamekee.com/nikke/719742.html"
+        "https://www.gamekee.com/nikke/719742.html",
+        "https://www.gamekee.com/nikke/719599.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/3/05857786mtlchmr3.png"
     },
@@ -1042,7 +1045,8 @@
       "name_zh": "吉尔提：神力兔女郎",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/721421.html"
+        "https://www.gamekee.com/nikke/721421.html",
+        "https://www.gamekee.com/nikke/721179.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png"
     },
@@ -1242,7 +1246,9 @@
       "name_zh": "克拉乌",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/163879.html"
+        "https://www.gamekee.com/nikke/163879.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/crow/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/29538.png"
     },
@@ -1342,7 +1348,9 @@
       "name_zh": "丽塔",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/170844.html"
+        "https://www.gamekee.com/nikke/170844.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/liter/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/455781.png"
     },
@@ -1726,7 +1734,9 @@
       "name_zh": "莫莉",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/660353.html"
+        "https://www.gamekee.com/nikke/660353.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mori/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/459992.png"
     },
@@ -2455,7 +2465,9 @@
       "name_zh": "神罚",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/576623.html"
+        "https://www.gamekee.com/nikke/576623.html",
+        "https://www.gamekee.com/nikke/645119.html",
+        "https://www.gamekee.com/nikke/666751.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/236746/2022/11/27/67879.png"
     },
@@ -2502,7 +2514,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/nikke/722087.html",
-        "https://nikke.gg/tier-list/"
+        "https://nikke.gg/tier-list/",
+        "https://www.gamekee.com/nikke/721179.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png"
     },
@@ -2935,7 +2948,9 @@
       "name_zh": "真理",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/nikke/599374.html"
+        "https://www.gamekee.com/nikke/599374.html",
+        "https://nikke.gg/tier-list/",
+        "https://nikke.gg/characters/mari/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/527815.png"
     },

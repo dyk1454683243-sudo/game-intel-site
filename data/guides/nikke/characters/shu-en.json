@@ -34,7 +34,7 @@
     "https://www.gamekee.com/nikke/619532.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 619532,
   "gamekee_entry_id": 147300,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2024/3/9/295205.png",
@@ -45,7 +45,7 @@
   "verified": "GameKee nikke/619532 图鉴",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
+    "as_of": "2026-09-29",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
@@ -54,7 +54,7 @@
       "https://www.gamekee.com/nikke/619532.html"
     ],
     "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
+    "caveat": "已核对 Nikke.gg 2026-09 梯度页（无舒恩综合档）与 GameKee 检索（无单独测评 T 档或抽取句）。不编造 T 度或抽卡结论。",
     "position": "R / 米傻一斯网路串流 / 辅助型 / 水冷 / 米西利斯"
   }
 }

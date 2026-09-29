@@ -190,11 +190,16 @@ test("character pages use stored guide fields and keep gaps visible", () => {
   assert.match(grey, /抽取建议：不抽/);
   assert.match(grey, /https:\/\/www\.gamekee\.com\/zsca2\/593582\.html/);
 
-  const thin = renderCharacter("nikke", readJson("v1/guides/nikke/characters/zhen-li.json"));
+  const thin = renderCharacter("nikke", readJson("v1/guides/nikke/characters/shu-en.json"));
   assert.match(thin, /summary\.stub/);
   assert.match(thin, /未见可靠出处/);
-  assert.match(thin, /https:\/\/www\.gamekee\.com\/nikke\/599374\.html/);
+  assert.match(thin, /https:\/\/www\.gamekee\.com\/nikke\/619532\.html/);
   assert.doesNotMatch(thin, /T0/);
+
+  const mari = renderCharacter("nikke", readJson("v1/guides/nikke/characters/zhen-li.json"));
+  assert.match(mari, /综合 SS/);
+  assert.match(mari, /https:\/\/nikke\.gg\/characters\/mari\//);
+  assert.doesNotMatch(mari, /summary\.stub/);
 
   const zwei = renderCharacter("nikke", readJson("v1/guides/nikke/characters/zwei.json"));
   assert.match(zwei, /穿透算式/);

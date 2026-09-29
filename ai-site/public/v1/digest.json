@@ -2,7 +2,8 @@
   "meta": {
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
-    "source": "game-intel cli digest --summarize"
+    "source": "game-intel cli digest --summarize",
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。其余标题未重抓。"
   },
   "ok": true,
   "count": 7,
@@ -62,6 +63,13 @@
       ],
       "items": [
         {
+          "title": "NIKKE特别动画系列 《MINIKKE 小小童话集》灰姑娘篇 完整版 中文字幕",
+          "url": "https://www.gamekee.com/nikke/722533.html",
+          "source": "gamekee",
+          "date": "2026-09-28T02:28:52.000Z",
+          "summary": "GameKee 发布特别动画《MINIKKE 小小童话集》灰姑娘篇完整版，带中文字幕。页面写道：灰姑娘梦想与女神部队并肩作战，与伙伴准备华丽舞台；公演开始后伙伴能力接连失控，出征欢迎仪式的舞台也朝意想不到的方向发展。不补充页面没写的情节。"
+        },
+        {
           "title": "【角色评测+攻略】小美人鱼+米哈拉：羁绊锁链",
           "url": "https://www.gamekee.com/nikke/721995.html",
           "source": "gamekee",
@@ -88,12 +96,6 @@
           "url": "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
           "date": null,
           "source": "prydwen"
-        },
-        {
-          "title": "Sin Swift Bunny",
-          "url": "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
-          "date": null,
-          "source": "prydwen"
         }
       ]
     },
@@ -102,12 +104,19 @@
       "name": "棕色尘埃2",
       "alias": "zsca2",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "sources": [
-        "gamekee",
-        "official"
+        "official",
+        "gamekee"
       ],
       "items": [
+        {
+          "title": "September 28 Resource Update & Fiend Hunter Skill Adjustment Notice",
+          "url": "https://www.browndust2.com/en-us/news/view?id=01M3KNK923NR4P7568ECBR3JX5",
+          "source": "official",
+          "date": "2026-09-28T09:30:14.367Z",
+          "summary": "官方公告：9月28日 18:28（KST）已做资源更新。巨型魔兽「矿坑之灵（暗）」每次攻击追加效果：若目标的反击是按受到敌人伤害触发，则对其施加 1 回合、防御力降低 200% 的减益（防御力不低于 0%；按自身属性触发的反击不在此列），以免养成投入因防御力拉开猎魔分数。公告没有逐条改写玩家服装技能。"
+        },
         {
           "title": "解决一个bug，服务器断开连接重新开始游戏，实际上与网络无关，留档也许有人需要",
           "url": "https://www.gamekee.com/zsca2/722174.html",
