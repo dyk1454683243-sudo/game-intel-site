@@ -34,12 +34,19 @@
   "weapon": "霰弹枪",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T1 灰姑娘：琉璃波光-拉毗：小红帽-白雪公主：重型武装——尼恩：审判之眼",
+      "推图评价：EX，个突评价：EX，PVP：至少S以上 期待开发阵容（核爆？）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/neon",
     "https://www.gamekee.com/nikke/92084.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/neon/"
+    "https://nikke.gg/characters/neon/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/702875.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

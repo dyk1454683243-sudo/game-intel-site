@@ -30,9 +30,12 @@
       "skill": "杀尽世间哥布林"
     }
   ],
-  "teams": {},
+  "teams": {
+    "小鬼杀手": "魔兽的话可以配合蛋糕或者爱丽洁上三队，根据弱点来灵活选择"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/660204.html"
+    "https://www.gamekee.com/zsca2/660204.html",
+    "https://www.gamekee.com/zsca2/660135.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

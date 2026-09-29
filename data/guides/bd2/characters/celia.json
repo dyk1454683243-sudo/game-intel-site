@@ -35,7 +35,9 @@
       "summary": "吸收地图上的拾取物。处于可获得探查拾取物的状态时，探查拾取物也会一起被吸收。每日可用次数5次。消耗10个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "潜能开启建议：如果是辅助魔法队可以把减抗点了。"
+  ],
   "weapon": "泰拉假面",
   "talent": {
     "name": "泰拉巴克斯",
@@ -58,9 +60,14 @@
       "skill": "举杯畅饮"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "潜能开启建议：如果是辅助魔法队可以把减抗点了"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593569.html"
+    "https://www.gamekee.com/zsca2/593569.html",
+    "https://www.gamekee.com/zsca2/650131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

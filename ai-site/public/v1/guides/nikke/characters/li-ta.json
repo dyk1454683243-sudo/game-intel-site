@@ -35,11 +35,17 @@
   "weapon": "钻头重击",
   "element": "铁甲",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "T2：丽塔———露姬--D：杀手妻子",
+      "人人都可以从任务以及新手活动中100%获得的阵容 蒂亚-丽塔-娜嘉-爱丽丝-德雷克-迪塞尔&普丽瓦蒂-海伦"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/nikke/170844.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/liter/"
+    "https://nikke.gg/characters/liter/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-29",

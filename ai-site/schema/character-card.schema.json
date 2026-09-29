@@ -101,6 +101,7 @@
     },
     "skill_prio": {
       "type": "array",
+      "description": "Cited 加点 / 练度 lines. Empty when the source does not state an order or level.",
       "items": {
         "type": "string"
       }
@@ -123,7 +124,8 @@
         "object",
         "null"
       ],
-      "additionalProperties": true
+      "additionalProperties": true,
+      "description": "Short cited 配队 notes. HW dopamine_auto is A/B/C from the auto roster. HW mode cells story, rift_45, dopamine, spec_ops, union, training are √ or × from the GameKee 适用场合表. comp is an array of verbatim sentences. A BD2 costume name key is that costume's 测评 line. Empty object when no sentence was published."
     },
     "sources": {
       "type": "array",

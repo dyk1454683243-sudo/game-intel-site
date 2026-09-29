@@ -33,12 +33,17 @@
   "weapon": "泡沫",
   "element": "风压",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T1——小美人鱼———— （新增：牡丹（刚需珍藏品））-拉毗：小红帽（当3号位使用）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/siren",
     "https://www.gamekee.com/nikke/660130.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/little-mermaid/"
+    "https://nikke.gg/characters/little-mermaid/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

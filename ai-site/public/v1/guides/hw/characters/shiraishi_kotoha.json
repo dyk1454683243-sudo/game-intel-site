@@ -56,10 +56,15 @@
   },
   "weapon": "护符：狐神的引导",
   "teams": {
-    "dopamine_auto": "C"
+    "dopamine_auto": "C",
+    "comp": [
+      "但是不加射击攻击，目前无法融入射击队，这一点有些可惜",
+      "当前的魔攻和近战主C强度堪忧，所以没有产生三鲸队这种现象级队伍，但是琴叶自身的辅助素质很不错，配合姑妈开荒使用效果很好，且在自动战斗中能够精准赋予集中角色buff，表现比较亮眼"
+    ]
   },
   "sources": [
-    "https://www.gamekee.com/hw/716690.html"
+    "https://www.gamekee.com/hw/716690.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

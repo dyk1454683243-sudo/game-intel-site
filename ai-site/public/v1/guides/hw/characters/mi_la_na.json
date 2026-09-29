@@ -47,9 +47,17 @@
     ]
   },
   "weapon": "克律萨俄耳",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "极致的减防，可以提供拉条（虽然给女王之外的角色拉条不稳定），在女王队毫无疑问的强",
+      "即便脱离了女王队，配合其他无形伤害的主C（水猫、修女等），增伤能力仍旧十分强大",
+      "1.女王技能280AP消耗，米拉每回合固定240AP，单次破防1520"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/707367.html"
+    "https://www.gamekee.com/hw/707367.html",
+    "https://www.gamekee.com/hw/665170.html",
+    "https://www.gamekee.com/hw/707538.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

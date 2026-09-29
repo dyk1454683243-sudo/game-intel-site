@@ -33,12 +33,17 @@
   "weapon": "爆弹枪",
   "element": "电击",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "1. 确定了自身需要装弹词条，以及机枪队友一起获取幽灵"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/elegg",
     "https://www.gamekee.com/nikke/615258.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/elegg/"
+    "https://nikke.gg/characters/elegg/",
+    "https://www.gamekee.com/nikke/671143.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

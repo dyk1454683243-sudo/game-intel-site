@@ -33,12 +33,18 @@
   "weapon": "完美主义者T",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "艾玛：战术升级 需要和银华：战术升级处于同一队伍 （一起搭配水平:t2）",
+      "银华：战术升级需要艾玛：战术升级和处于同一队伍 （12333）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/eunhwa-tactical-upgrade",
     "https://www.gamekee.com/nikke/674108.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/eunhwa-tactical-upgrade/"
+    "https://nikke.gg/characters/eunhwa-tactical-upgrade/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -59,9 +59,15 @@
     ]
   },
   "weapon": "掌中宇宙",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "在当前仙之人兮列如麻的时代，塞妈原本的机制已经没什么优势，主要用途是配合火神组成“火塞队”",
+      "单独看塞妈仅仅给到T1可有可无的角色，但是火塞丝（火神+塞妈+洛伊丝）是一个T0级的强力配队，可以轻松处理绝大多数高难本"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/643305.html"
+    "https://www.gamekee.com/hw/643305.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

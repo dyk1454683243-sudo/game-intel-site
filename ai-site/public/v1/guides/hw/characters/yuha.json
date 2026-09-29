@@ -60,10 +60,22 @@
   },
   "weapon": "荣耀之翼",
   "teams": {
-    "dopamine_auto": "A"
+    "dopamine_auto": "A",
+    "story": "√",
+    "rift_45": "√",
+    "dopamine": "√",
+    "spec_ops": "√",
+    "union": "√",
+    "training": "√",
+    "comp": [
+      "在高难作战中，5+5以上配置的虎鲸，可以轻松凑出280初始ap，单回合（25%概率）提供两次大招，总计为主C提供272ap",
+      "是众多队伍的常驻成员，在日常副本、多巴胺、总力战均有极高出场率",
+      "万能拉条辅助，配合射击C效果更佳，和阿岚是射击队双壁"
+    ]
   },
   "sources": [
-    "https://www.gamekee.com/hw/640723.html"
+    "https://www.gamekee.com/hw/640723.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

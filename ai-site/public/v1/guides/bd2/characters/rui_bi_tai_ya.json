@@ -35,7 +35,9 @@
       "summary": "召集当前所在地图上所有带奖励的战场怪物。每日可用次数5次。消耗1个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "水上精灵：潜能开启建议：3个都要点，加范围需要第一时间点上，否则没法抄作业，剩下2个提升较小可以慢慢点。"
+  ],
   "weapon": "小仙子",
   "talent": {
     "name": "来吧，葛洛堤！",
@@ -58,9 +60,12 @@
       "skill": "水枪大战时间！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "水上精灵": "黑天帝也跟着喝了一口汤，比起其他主C只吃到属伤，内布利斯OL皮多吃2个BUFF还额外加了180%技能倍率，上限再次提高，强者处处是惊喜！而且这个减sp机制很有可能会配合后面即将推出的UT妈！"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/620949.html"
+    "https://www.gamekee.com/zsca2/620949.html",
+    "https://www.gamekee.com/zsca2/667869.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

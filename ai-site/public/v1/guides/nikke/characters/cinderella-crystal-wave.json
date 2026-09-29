@@ -33,12 +33,17 @@
   "weapon": "水晶鞋",
   "element": "铁甲",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T1 灰姑娘：琉璃波光-拉毗：小红帽-白雪公主：重型武装——尼恩：审判之眼"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/cinderella-crystal-wave",
     "https://www.gamekee.com/nikke/711133.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/cinderella-crystal-wave/"
+    "https://nikke.gg/characters/cinderella-crystal-wave/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

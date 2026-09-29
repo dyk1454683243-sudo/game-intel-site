@@ -33,12 +33,17 @@
   "weapon": "死板",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "（百爆队：以米兰达 茨瓦伊为1号位构筑队伍 为队伍带来巨额的双爆加持队伍 通常二号位携带爆伤辅助 例如敏特）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/miranda",
     "https://www.gamekee.com/nikke/152345.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/miranda/"
+    "https://nikke.gg/characters/miranda/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

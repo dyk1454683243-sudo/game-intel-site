@@ -33,12 +33,19 @@
   "weapon": "预言家",
   "element": "电击",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "阿尔卡娜需要和伊莎贝尔处于同一队伍（12333）",
+      "不会从其他已经建立的配队中换取DPS/辅助"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/arcana",
     "https://www.gamekee.com/nikke/661994.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/arcana/"
+    "https://nikke.gg/characters/arcana/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/663037.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

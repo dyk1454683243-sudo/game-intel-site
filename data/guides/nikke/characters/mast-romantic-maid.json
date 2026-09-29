@@ -35,12 +35,20 @@
   "weapon": "浪漫之心",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T2 爱德：特务兔女郎——马斯特：浪漫的女仆&安克：天真的女仆（一起使用）",
+      "使用马斯特：浪漫的女仆&安克：天真的女仆配队时：12233",
+      "这种配队方式绝对是最强大的风压属性弱点的组合方式，无论BOSS有没有核心那都不重要了"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mast-romantic-maid",
     "https://www.gamekee.com/nikke/159641.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mast-romantic-maid/"
+    "https://nikke.gg/characters/mast-romantic-maid/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/647134.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

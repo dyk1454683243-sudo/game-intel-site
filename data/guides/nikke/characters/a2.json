@@ -33,12 +33,17 @@
   "weapon": "四零式斩机刀",
   "element": "燃烧",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "整体评价：T1.5(PVE和PVP上场，但大招受配队限制，需要奶妈)"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/a2",
     "https://www.gamekee.com/nikke/599115.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/a2/"
+    "https://nikke.gg/characters/a2/",
+    "https://www.gamekee.com/nikke/668164.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

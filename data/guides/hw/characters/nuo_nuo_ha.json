@@ -47,9 +47,15 @@
     ]
   },
   "weapon": "微风呢喃",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "诺诺哈主要是启动慢，配队跟风女差不多",
+      "诺诺哈感觉是给卡乌尔做售后，但卡乌尔目前依托，救不了一点。"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/634258.html"
+    "https://www.gamekee.com/hw/634258.html",
+    "https://www.gamekee.com/hw/683660.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

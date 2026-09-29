@@ -33,12 +33,17 @@
   "weapon": "特务",
   "element": "铁甲",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T2 爱德：特务兔女郎——马斯特：浪漫的女仆&安克：天真的女仆（一起使用）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/ade-agent-bunny",
     "https://www.gamekee.com/nikke/676330.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/ade-agent-bunny/"
+    "https://nikke.gg/characters/ade-agent-bunny/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

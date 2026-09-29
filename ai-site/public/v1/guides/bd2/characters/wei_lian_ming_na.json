@@ -30,7 +30,9 @@
       "summary": "6回合内，自身属性伤害增加60%，攻击敌人6次，每次攻击时，造成相当于自身攻击力120%的物理伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "潜能开启建议：3个都是输出类，提升蛮高的，资源够可以全点。"
+  ],
   "weapon": "花刺剑",
   "talent": null,
   "costumes": [
@@ -50,9 +52,13 @@
       "skill": "冰封意志"
     }
   ],
-  "teams": {},
+  "teams": {
+    "钢铁君主": "配队基本绑定黎维塔和芮彼"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/655252.html"
+    "https://www.gamekee.com/zsca2/655252.html",
+    "https://www.gamekee.com/zsca2/666735.html",
+    "https://www.gamekee.com/zsca2/655079.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

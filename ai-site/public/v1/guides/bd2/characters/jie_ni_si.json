@@ -29,7 +29,9 @@
       "summary": "于240秒内确认隐藏物品的位置。消耗15个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "水上守护者：潜能开启建议：3个都要点。"
+  ],
   "weapon": "兔子游侠",
   "talent": {
     "name": "探查",
@@ -47,9 +49,12 @@
       "skill": "违反规定！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "水上守护者": "如图所示，当攻击次数越多时，杰尼斯泳装的提升越大，所以杰尼斯队友基本绑定芮彼泰雅和威廉明娜"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/603226.html"
+    "https://www.gamekee.com/zsca2/603226.html",
+    "https://www.gamekee.com/zsca2/668707.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

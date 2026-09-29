@@ -32,12 +32,20 @@
   "weapon": "逐光之星",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T2 爱德：特务兔女郎——马斯特：浪漫的女仆&安克：天真的女仆（一… 新增：敏特&普莉卡（偶像双子）",
+      "敏特可以单走普莉卡强绑定敏特",
+      "整体评价：T1（双子） 敏特可单走，普莉卡强绑敏特 新的双子组合，全能维度的buff+高强度的生存能力 对于狙击和发射器队伍效果更好 两者刚需减cd1号位， 目前没有C吃满buff，与女仆组情况有些类似，皇马大部分环境＞女仆双子 茨瓦伊敏特（百爆）目前大部分环境＞偶像双子"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/prika",
     "https://www.gamekee.com/nikke/706696.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/prika/"
+    "https://nikke.gg/characters/prika/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/706500.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

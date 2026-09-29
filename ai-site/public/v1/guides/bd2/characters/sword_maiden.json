@@ -18,7 +18,9 @@
       "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力120%的魔法伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "潜能开启建议：提升幅度太勾八小了，谨慎点。"
+  ],
   "weapon": "天秤剑",
   "talent": null,
   "costumes": [
@@ -30,7 +32,8 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/662553.html"
+    "https://www.gamekee.com/zsca2/662553.html",
+    "https://www.gamekee.com/zsca2/662354.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

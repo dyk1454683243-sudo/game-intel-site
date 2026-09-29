@@ -33,12 +33,17 @@
   "weapon": "/",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "2技能提供风压易伤加自伤 不过需要喷子打 可能需要加攻速的队友（推出之后经过实测火布的输出比较一般 就老老实实当辅助吧）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/brid",
     "https://www.gamekee.com/nikke/163874.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/brid/"
+    "https://nikke.gg/characters/brid/",
+    "https://www.gamekee.com/nikke/684721.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

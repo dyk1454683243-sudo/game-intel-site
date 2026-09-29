@@ -35,7 +35,9 @@
       "summary": "从虚脱恢复至生命力50%的状态。消耗12个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "B级偶像：潜能开启建议：给我全部点满口牙！！"
+  ],
   "weapon": "顶尖偶像",
   "talent": {
     "name": "爱情之歌！",
@@ -58,9 +60,12 @@
       "skill": "让我给你一个温暖的拥抱吧！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "B级偶像": "目前出的服装大部分都只能在部分场景适用，甚至辅助也是，但是b偶做到了全环境T0，只要有魔法c的地方就一定有海天帝的一席之地，已经成为这个游戏魔法队的低层代码了"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593630.html"
+    "https://www.gamekee.com/zsca2/593630.html",
+    "https://www.gamekee.com/zsca2/644624.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

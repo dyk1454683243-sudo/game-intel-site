@@ -78,7 +78,8 @@ Fields: `as_of`, `count`, `events[]` `{game,type,title,start,end,url,source,conf
 
 ### GET /v1/guides/index.json and /v1/guides/{game}/…
 Purpose: watchlist character guides. Catalog stubs have no cards here. Cadence: on `export-guides`.
-Card fields: `id`, `name`, `game`, `stub`, `sources`, `as_of`, `skills`, `summary.{stub,tier?,pull?,sources}`.
+Card fields: `id`, `name`, `game`, `stub`, `sources`, `as_of`, `skills`, `skill_prio`, `teams`, `summary.{stub,tier?,pull?,sources}`.
+`skill_prio` is cited 加点 or 练度 lines. `teams` is short cited 配队 text: HW `dopamine_auto` is A/B/C, HW mode keys use the source √/×, `comp` is verbatim sentences, and a BD2 key may be a costume name. Empty means the source did not state it.
 Non-stub cards require https `sources` and `as_of`. HW `summary.tier` is the GameKee 图鉴 T度 already stored. `summary.pull` only when the card already quoted 抽取建议. NIKKE and BD2 position is class, burst, element, rarity, or role — not a tier list or a price.
 Aliases: /v1/guides/{game}/aliases.json (nikke also aliases.p1.json … p4.json).
 HW dopamine auto: /v1/guides/hw/dopamine-auto.json (also /v1/guides/hw/modes/dopamine-auto.json).

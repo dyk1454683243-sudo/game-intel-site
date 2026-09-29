@@ -33,12 +33,17 @@
   "weapon": "特别治愈师",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "冷知识：皇冠是全爆裂时间开始时，使用爆裂技能启动全爆裂的全体队友【以施展者为标准的攻击力64.51%▲】【持续15秒】"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/emma",
     "https://www.gamekee.com/nikke/152341.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/emma/"
+    "https://nikke.gg/characters/emma/",
+    "https://www.gamekee.com/nikke/673303.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

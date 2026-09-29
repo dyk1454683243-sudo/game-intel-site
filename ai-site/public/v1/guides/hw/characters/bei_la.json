@@ -34,7 +34,8 @@
     "守护之击: 不加",
     "治愈恩典: 6级即可",
     "生命再生: 不加",
-    "复苏之枝: 不加"
+    "复苏之枝: 不加",
+    "不升级也能用，最多升个单体治疗。"
   ],
   "stigmata": {
     "set_id": null,
@@ -47,9 +48,15 @@
     ]
   },
   "weapon": "慈悲誓约",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "奶量很不错,关键在于能在队友被敌人攻击后支援回复,并且大招能复活倒下的队友,多巴胺常客,评价极高."
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/634442.html"
+    "https://www.gamekee.com/hw/634442.html",
+    "https://www.gamekee.com/hw/665170.html",
+    "https://www.gamekee.com/hw/665145.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

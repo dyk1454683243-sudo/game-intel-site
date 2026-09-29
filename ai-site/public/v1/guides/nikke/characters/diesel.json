@@ -35,12 +35,19 @@
   "weapon": "机枪",
   "element": "风压",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "人人都可以从任务以及新手活动中100%获得的阵容 蒂亚-丽塔-娜嘉-爱丽丝-德雷克-迪塞尔&普丽瓦蒂-海伦",
+      "整体评价：T1.5(个突≈渡鸦水平输出 但是吃配队以及环境)其他环境几乎不用 pvp也很难上场"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/diesel",
     "https://www.gamekee.com/nikke/152337.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/diesel/"
+    "https://nikke.gg/characters/diesel/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/684606.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

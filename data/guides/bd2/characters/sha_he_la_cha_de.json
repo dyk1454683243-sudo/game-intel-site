@@ -41,7 +41,9 @@
       "summary": "限Lv.5可使用炼金术。消耗20个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "代号S：潜能开启建议：伤害倍率加成挺大，非要点的话点倍率"
+  ],
   "weapon": "丰识魔剑",
   "talent": {
     "name": "第1式炼金术",
@@ -71,7 +73,8 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/593577.html"
+    "https://www.gamekee.com/zsca2/593577.html",
+    "https://www.gamekee.com/zsca2/652497.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

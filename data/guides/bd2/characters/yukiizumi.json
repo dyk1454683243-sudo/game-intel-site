@@ -18,7 +18,9 @@
       "summary": "攻击敌人5次，每次攻击时，造成相当于自身魔法力120%的魔法伤害。3回合内，对敌人应用每层叠加造成相当于自身魔法力20%的魔法伤害的出血叠加效果。最多可应用叠加至99层。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "雪花之舞：潜能开启建议：由于潜能提升非常大，所以如果要练雪泉的话建议全点了。"
+  ],
   "weapon": "黑影之扇",
   "talent": null,
   "costumes": [
@@ -30,7 +32,8 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/638795.html"
+    "https://www.gamekee.com/zsca2/638795.html",
+    "https://www.gamekee.com/zsca2/638736.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

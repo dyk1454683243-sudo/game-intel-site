@@ -46,7 +46,8 @@
     "随尾雷霆: 6级即可",
     "扩散闪电: 6级即可",
     "席卷而来的闪电风暴: 尽量点满",
-    "开启刹那的闪电: 不加"
+    "开启刹那的闪电: 不加",
+    "被动无法升级，所以只升级主动技能。大招、平A、随尾闪电。"
   ],
   "stigmata": {
     "set_id": null,
@@ -61,7 +62,8 @@
   "weapon": "风暴之眼",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/hw/673989.html"
+    "https://www.gamekee.com/hw/673989.html",
+    "https://www.gamekee.com/hw/674095.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

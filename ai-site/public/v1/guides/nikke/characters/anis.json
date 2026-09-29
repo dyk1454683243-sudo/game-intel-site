@@ -33,12 +33,17 @@
   "weapon": "发射器",
   "element": "铁甲",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "总结：非常全面的阿妮斯神，作为单1非常适合萌新开荒和国家队这种，作为双1看起来可以在pvp肉队有不错的发挥而在pve上也有非常多的可能性，包括未来给那种后续火力全开的1成为队伍中一个奶，总之就是非常强力"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/anis",
     "https://www.gamekee.com/nikke/152348.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/anis/"
+    "https://nikke.gg/characters/anis/",
+    "https://www.gamekee.com/nikke/702871.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -30,7 +30,9 @@
       "summary": "若敌人处于挑衅或集中射击状态，则在10回合内，对敌人应用200%的光属性虚弱效果。对敌人造成相当于自身攻击力750%的物理伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "温泉修行者：潜能开启建议：潜能提升比较大，必点加持续时间，两个倍率根据自身情况点。"
+  ],
   "weapon": "魔剑紫月",
   "talent": null,
   "costumes": [
@@ -50,9 +52,12 @@
       "skill": "毛巾剑心流集中突破"
     }
   ],
-  "teams": {},
+  "teams": {
+    "温泉修行者": "2、配合偶像皮，班塔娜角色整体对开启嘲讽的坦克角色拥有很强的击杀能力"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/602076.html"
+    "https://www.gamekee.com/zsca2/602076.html",
+    "https://www.gamekee.com/zsca2/645460.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

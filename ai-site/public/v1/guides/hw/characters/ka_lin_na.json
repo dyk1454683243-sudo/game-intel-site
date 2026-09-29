@@ -40,7 +40,8 @@
     "洞窟上的猎人: 6级即可",
     "强袭: 6级即可",
     "暴政之刃: 尽量点满",
-    "生存专家: 6级即可"
+    "生存专家: 6级即可",
+    "被动、大招。现在被动即加攻击力，又加爆伤，收益很高。"
   ],
   "stigmata": {
     "set_id": null,
@@ -58,7 +59,8 @@
   "weapon": "暴君之刃",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/hw/634255.html"
+    "https://www.gamekee.com/hw/634255.html",
+    "https://www.gamekee.com/hw/651425.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

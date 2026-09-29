@@ -35,12 +35,20 @@
   "weapon": "天真的疑惑",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T2 爱德：特务兔女郎——马斯特：浪漫的女仆&安克：天真的女仆（一起使用）",
+      "使用马斯特：浪漫的女仆&安克：天真的女仆配队时：12233",
+      "在个人突袭中，这种配队方式不一定是你的选择，但在联盟突袭或异常拦截中可以选择这种配队方式"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid",
     "https://www.gamekee.com/nikke/164728.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/anchor-innocent-maid/"
+    "https://nikke.gg/characters/anchor-innocent-maid/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/647705.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

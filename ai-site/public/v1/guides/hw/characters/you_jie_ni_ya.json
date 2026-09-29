@@ -53,9 +53,14 @@
     ]
   },
   "weapon": "真理之光",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "在新版本中，与迦露德和奶鲸都有相当不错的适配性，具备了稳定就业空间，恭迎归位T0.5"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/694732.html"
+    "https://www.gamekee.com/hw/694732.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

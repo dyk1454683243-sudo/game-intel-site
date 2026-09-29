@@ -48,10 +48,15 @@
   },
   "weapon": "悲恋之玫瑰",
   "teams": {
-    "dopamine_auto": "A"
+    "dopamine_auto": "A",
+    "comp": [
+      "全队拉条+生存辅助，配合专武可以快速启动，无高星高专需求",
+      "在多轮次的战斗中，拉条能力不逊色虎鲸"
+    ]
   },
   "sources": [
-    "https://www.gamekee.com/hw/638184.html"
+    "https://www.gamekee.com/hw/638184.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

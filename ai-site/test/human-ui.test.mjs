@@ -201,6 +201,23 @@ test("character pages use stored guide fields and keep gaps visible", () => {
   assert.match(mari, /https:\/\/nikke\.gg\/characters\/mari\//);
   assert.doesNotMatch(mari, /summary\.stub/);
 
+  const withTeams = renderCharacter("hw", {
+    id: "garud",
+    name: "迦露德",
+    game: "hw",
+    teams: { story: "√", union: "×", comp: ["辅助白石琴叶", "<script>"] },
+    skill_prio: ["引燃尽量点满"],
+    sources: ["https://www.gamekee.com/hw/665170.html"],
+    summary: { stub: true, sources: ["https://www.gamekee.com/hw/665170.html"] },
+  });
+  assert.match(withTeams, /<h2>配队<\/h2>/);
+  assert.match(withTeams, /主线开荒/);
+  assert.match(withTeams, /总力战/);
+  assert.match(withTeams, /√/);
+  assert.match(withTeams, /引燃尽量点满/);
+  assert.match(withTeams, /&lt;script&gt;/);
+  assert.doesNotMatch(withTeams, /<script>/);
+
   const zwei = renderCharacter("nikke", readJson("v1/guides/nikke/characters/zwei.json"));
   assert.match(zwei, /穿透算式/);
   assert.match(zwei, /综合 B/);

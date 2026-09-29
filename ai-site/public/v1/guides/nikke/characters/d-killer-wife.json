@@ -37,12 +37,17 @@
   "weapon": "隐匿之刃",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "T2：丽塔———露姬--D：杀手妻子"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/d-killer-wife",
     "https://www.gamekee.com/nikke/616356.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/d-killer-wife/"
+    "https://nikke.gg/characters/d-killer-wife/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

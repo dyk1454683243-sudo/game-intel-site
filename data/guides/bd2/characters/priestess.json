@@ -18,7 +18,9 @@
       "summary": "2回合内，对敌人应用75%的魔法脆弱效果。对敌人造成相当于自身魔法力400%的魔法伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "地母神的祭司：潜能开启建议：潜能提升很小，可以不点大的，小的还是要点的（如果要用的话）"
+  ],
   "weapon": "锡杖",
   "talent": null,
   "costumes": [
@@ -28,9 +30,12 @@
       "skill": "圣光"
     }
   ],
-  "teams": {},
+  "teams": {
+    "地母神的祭司": "对萌新来说推图推塔，所有魔法队的pve环境都很有用，对中登来说可以拿来当田径社莱维亚的替代，以及九宫格c的替代"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/660218.html"
+    "https://www.gamekee.com/zsca2/660218.html",
+    "https://www.gamekee.com/zsca2/660124.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

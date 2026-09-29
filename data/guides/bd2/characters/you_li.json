@@ -39,9 +39,14 @@
       "skill": "扑通扑通···砰！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "队员技能消耗sp点数总和应不超过15，推荐萌新使用魔法队推图，魔法队有dj和莱维亚俩大十字，比较方便推图。物理队有兔弓神ut，偶像尤里，原皮拉菲娜"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/606610.html"
+    "https://www.gamekee.com/zsca2/606610.html",
+    "https://www.gamekee.com/zsca2/593518.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

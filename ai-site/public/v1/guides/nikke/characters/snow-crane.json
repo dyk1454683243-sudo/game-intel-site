@@ -33,12 +33,17 @@
   "weapon": "暮之契约",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "角色简评：纯回血+护盾卡 还有如果吃到队友奶自身奶缩小的神秘DEBUFF 平庸数值 国服竞技场现阶段勉强可用 国际服竞技场进不去肉队 没就业环境"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/snow-crane",
     "https://www.gamekee.com/nikke/701435.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/snow-crane/"
+    "https://nikke.gg/characters/snow-crane/",
+    "https://www.gamekee.com/nikke/701044.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",
