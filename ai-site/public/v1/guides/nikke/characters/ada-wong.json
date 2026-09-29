@@ -33,12 +33,17 @@
   "weapon": "爆裂弩炮",
   "element": "电击",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "插播一条：已知无视防御队友有，贝斯蒂：战术升级、爱因、拉普拉斯，三位大将，还有一位联动新出的吉尔"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/ada-wong",
     "https://www.gamekee.com/nikke/678271.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/ada/"
+    "https://nikke.gg/characters/ada/",
+    "https://www.gamekee.com/nikke/677996.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

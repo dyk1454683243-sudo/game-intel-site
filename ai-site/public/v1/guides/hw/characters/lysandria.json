@@ -56,7 +56,11 @@
   ],
   "weapon": "报应的荆棘之刃",
   "teams": {
-    "dopamine_auto": "A"
+    "dopamine_auto": "A",
+    "comp": [
+      "艾米提升高，但5费，加不进虎鲸帕莱卡队伍",
+      "芋头提升比尤洁妮亚高，但尤洁妮亚有拉条，能多待机几次。"
+    ]
   },
   "sources": [
     "https://www.gamekee.com/hw/634473.html",

@@ -33,12 +33,17 @@
   "weapon": "苦涩甜蜜",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "抽取建议：个突党必抽 普通玩家可挂愿望单 有成型霰弹队（需要珍藏托比/水桃/珍藏德）可抽 萌新不太建议（整体队伍刚需角色且成本高）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/arcana-fortune-mate",
     "https://www.gamekee.com/nikke/698416.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/arcana-fortune-mate/"
+    "https://nikke.gg/characters/arcana-fortune-mate/",
+    "https://www.gamekee.com/nikke/698188.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

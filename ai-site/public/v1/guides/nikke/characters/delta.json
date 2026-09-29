@@ -32,12 +32,17 @@
   "weapon": "狙击步枪",
   "element": "风压",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "角色简评：40SPVE分摊拐+生存能力爆裂二，能易伤、加攻、能嘲讽，关键问题是40秒大招浪费宝贵的队伍位置，实属可惜，可等可以搭配的40秒辅助一起"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/delta",
     "https://www.gamekee.com/nikke/152347.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/delta/"
+    "https://nikke.gg/characters/delta/",
+    "https://www.gamekee.com/nikke/679867.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

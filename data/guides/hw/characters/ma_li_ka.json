@@ -50,7 +50,11 @@
     ]
   },
   "weapon": "拉莫拉加速器",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "暖机启动很慢，但是新角色阿岚登场后联动非常强力，属于钦定队友"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/704222.html"
   ],

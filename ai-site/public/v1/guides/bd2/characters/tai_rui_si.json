@@ -35,7 +35,9 @@
       "summary": "可在60秒内制伏部分怪物。消耗15个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "潜能开启建议：全点，优先点那两个增加伤害的"
+  ],
   "weapon": "刑罚之斧",
   "talent": {
     "name": "别挡路···！",
@@ -58,9 +60,14 @@
       "skill": "堂、堂堂正正地暴露！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "对于pvp的前排玩家而言，基本自己的几个pvp配队都有已经成型的队友，所以提升不大，唯一最适配泳装泰瑞丝的队伍是乌龟壳队，但龟壳队在第一回合表现太过慢热，容易遭到对手的完美阵容反制"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593606.html"
+    "https://www.gamekee.com/zsca2/593606.html",
+    "https://www.gamekee.com/zsca2/631518.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -9,3 +9,7 @@ Character cards from GameKee wiki (`game-alias: zsca2`).
 Skills are per-costume (服装); talent is included as `type: "talent"` when present on the 图鉴.
 
 Costume conclusions, when present, copy GameKee 服装测评摘要中的「综合评价」only. The image-only 总强度榜 is not transcribed. Cards without that sentence stay `summary.stub: true`.
+
+`skill_prio` copies a 测评 sentence that states 潜能开启建议 / 技能优先级 / 加点. Prefix the costume name when the article title names one costume on the card.
+
+`teams` stays `{}` unless a 测评 or `zsca2/593518` states a comp. A costume-scoped line uses the costume name as the key. `comp` is a short verbatim sentence that is not tied to one costume. Do not invent T-tiers in either field.

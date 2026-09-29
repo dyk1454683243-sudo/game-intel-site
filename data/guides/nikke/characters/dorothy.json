@@ -35,12 +35,19 @@
   "weapon": "忘恩负义的奥兹",
   "element": "水冷",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "抽取建议：必吃榜！泳装要等一年才会复刻，因此务必至少200金票换一只（朝圣不推荐硬抽）",
+      "第二部分桃乐丝将会标记一个敌人，并在10秒内造成她与所有队友的伤害相加"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/dorothy",
     "https://www.gamekee.com/nikke/589849.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/dorothy/"
+    "https://nikke.gg/characters/dorothy/",
+    "https://www.gamekee.com/nikke/670224.html",
+    "https://www.gamekee.com/nikke/645163.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

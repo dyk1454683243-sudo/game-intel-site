@@ -24,7 +24,9 @@
       "summary": "4回合内，对敌人应用150%的风属性虚弱效果。对敌人造成相当于自身魔法力400%的魔法伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "风之舞姬：潜能开启建议：必点风属性弱点+25%，剩下那个+倍率的可以不点。"
+  ],
   "weapon": "和声",
   "talent": null,
   "costumes": [
@@ -39,9 +41,12 @@
       "skill": "清风之舞"
     }
   ],
-  "teams": {},
+  "teams": {
+    "风之舞姬": "只要是水属性的高难boss贝那卡都是主力，自身dj皮配合泳装大魅魔还是魔法队最强推图阵容，水魔兽魔法队必带，有时候物理队也可以带，救赎塔也是魔法大c，傲慢塔凹分变得更简单了，全游独一无二的最前方九宫格，能做到很多跳过九宫格做不到的事"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/625113.html"
+    "https://www.gamekee.com/zsca2/625113.html",
+    "https://www.gamekee.com/zsca2/642168.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

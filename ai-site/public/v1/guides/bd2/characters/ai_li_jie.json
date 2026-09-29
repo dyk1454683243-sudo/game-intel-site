@@ -30,7 +30,9 @@
       "summary": "对自己在6回合内，应用施加伤害增加100%的增强效果。【共鸣】战场上处于能力值弱化状态的目标，6回合内，对自己应用10%的增强效果，每有1个目标，可叠加1。最多可叠加至30。攻击敌人3次，每次攻击时，造成相当于自身攻击力160%的物理伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "可爱小姐：潜能开启建议：可以把cd点了。"
+  ],
   "weapon": "玫瑰精选",
   "talent": null,
   "costumes": [
@@ -52,7 +54,8 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/593626.html"
+    "https://www.gamekee.com/zsca2/593626.html",
+    "https://www.gamekee.com/zsca2/646162.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

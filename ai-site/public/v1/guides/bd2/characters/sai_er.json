@@ -35,7 +35,10 @@
       "summary": "能以隐身状态移动72秒。消耗15个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "新进员工：潜能开启建议：潜能提升太大了，必须拉满！（优先点减cd和加持续回合）",
+    "恶魔之女：潜能开启建议：pvp要上的话必须把减费和嘲讽开了。"
+  ],
   "weapon": "大邪灵",
   "talent": {
     "name": "好可怕···！",
@@ -58,9 +61,13 @@
       "skill": "请、请签下合约！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "恶魔之女": "2、费用低廉，效果百搭，无论是在猫盾、戴安娜盾、混合流强攻等阵容内，均拥有不错的表现"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593621.html"
+    "https://www.gamekee.com/zsca2/593621.html",
+    "https://www.gamekee.com/zsca2/639603.html",
+    "https://www.gamekee.com/zsca2/639248.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

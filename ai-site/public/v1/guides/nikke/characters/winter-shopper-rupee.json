@@ -36,12 +36,17 @@
   "weapon": "购物狂",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "露菲：冬日购物狂 需要再配制一名1号位角色（11233）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/winter-shopper-rupee",
     "https://www.gamekee.com/nikke/578062.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rupee-winter-shopper/"
+    "https://nikke.gg/characters/rupee-winter-shopper/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -33,12 +33,18 @@
   "weapon": "一击必中",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "T2：丽塔———露姬--D：杀手妻子",
+      "布兰儿需要和露姬或诺亚尔处于同一队伍"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rouge",
     "https://www.gamekee.com/nikke/152319.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rouge/"
+    "https://nikke.gg/characters/rouge/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

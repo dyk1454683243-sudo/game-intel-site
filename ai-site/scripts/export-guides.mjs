@@ -8,6 +8,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { httpSources } from "../../mcp-server/scripts/guide-conclusion.mjs";
 import { portraitTarget } from "../public/ui/portrait.js";
+import { teamLines } from "../public/ui/render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -324,6 +325,7 @@ ${c.note ? `<p class="meta">${esc(c.note)}</p>` : ""}
 <h2>技能</h2>
 ${skills ? `<ul>${skills}</ul>` : "<p class=\"stub\">（无 — 勿编造）</p>"}
 ${c.skill_prio?.length ? `<h2>加点优先级</h2><ol>${c.skill_prio.map((x) => `<li>${esc(x)}</li>`).join("")}</ol>` : ""}
+${teamLines(c).length ? `<h2>配队</h2><ul>${teamLines(c).map((row) => `<li><strong>${esc(row.label)}</strong> ${esc(row.text)}</li>`).join("")}</ul>` : ""}
 ${c.stigmata ? `<h2>圣痕</h2><pre>${esc(JSON.stringify(c.stigmata, null, 2))}</pre>` : ""}
 <h2>来源</h2>
 ${sources ? `<ul>${sources}</ul>` : "<p class=\"meta\">no sources yet</p>"}

@@ -53,9 +53,15 @@
     ]
   },
   "weapon": "女王的白金法杖",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "钦定配队，最优携带双子姐妹（无双子姐妹仍然强于科拉）",
+      "特殊训练场模式人权卡地位被“三鲸队”取代"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/634139.html"
+    "https://www.gamekee.com/hw/634139.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

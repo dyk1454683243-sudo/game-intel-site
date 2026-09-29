@@ -33,12 +33,17 @@
   "weapon": "纯粹怪物",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "PVP：T0（持续全体AOE伤害能力，可替代灰姑娘去克制诺雅阵容）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/vesti",
     "https://www.gamekee.com/nikke/170849.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/vesti/"
+    "https://nikke.gg/characters/vesti/",
+    "https://www.gamekee.com/nikke/674827.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

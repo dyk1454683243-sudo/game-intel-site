@@ -34,7 +34,8 @@
     "天空斩击: 6级即可",
     "光辉斩: 6级即可",
     "无限体: 6级即可",
-    "裁天.千杀: 尽量点满"
+    "裁天.千杀: 尽量点满",
+    "由于角色8费，升级需索材料双倍消耗量，同时需要红色素材的角色最多，所以只需升级2个被动。。优先无限体。其次裁天千杀"
   ],
   "stigmata": {
     "set_id": "set_iuppiter",
@@ -52,10 +53,17 @@
   },
   "weapon": "斩星剑",
   "teams": {
-    "dopamine_auto": "B"
+    "dopamine_auto": "B",
+    "comp": [
+      "适用于多巴胺战斗，仅能通关少部分特种作战1T，总力战模式不推荐",
+      "目前奥利维亚只需EX0+1便能auto单挑大部分多巴胺地图，但为了求稳，最好配个EX专武的奥斯拉，敌人基本追着半血奥斯拉打",
+      "奥利维亚+奥斯拉+辅的队伍，应该是目前强力多巴胺队伍之一了"
+    ]
   },
   "sources": [
-    "https://www.gamekee.com/hw/651590.html"
+    "https://www.gamekee.com/hw/651590.html",
+    "https://www.gamekee.com/hw/665170.html",
+    "https://www.gamekee.com/hw/651894.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

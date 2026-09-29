@@ -33,12 +33,17 @@
   "weapon": "/",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "#2 铁甲代码变种：B2B1B3B3B2阵容讲解：这套是铁甲代码的变种，这次拉毗将作为爆裂1使用，当你想要发挥其他铁甲DPS的输出时，无论是拉普拉斯（珍藏）、 麦斯威尔、索达兔子，都可以使用这套阵容"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rapi",
     "https://www.gamekee.com/nikke/92082.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rapi/"
+    "https://nikke.gg/characters/rapi/",
+    "https://www.gamekee.com/nikke/645112.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -34,12 +34,17 @@
   "weapon": "黑色卡斯托尔",
   "element": "风压",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "布兰儿需要和露姬或诺亚尔处于同一队伍"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/noir",
     "https://www.gamekee.com/nikke/591253.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/noir/"
+    "https://nikke.gg/characters/noir/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

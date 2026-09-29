@@ -24,6 +24,33 @@ const NAV = [
 
 const GAP = "未见可靠出处";
 
+const TEAM_KEY_LABELS = {
+  dopamine_auto: "多巴胺自动",
+  story: "主线开荒",
+  rift_45: "45层裂隙",
+  dopamine: "多巴胺",
+  spec_ops: "特殊作战",
+  union: "总力战",
+  training: "特殊训练场",
+  comp: "配队",
+  note: "说明",
+};
+
+export function teamLines(card) {
+  const teams = card && card.teams;
+  if (!teams || typeof teams !== "object" || Array.isArray(teams)) return [];
+  const out = [];
+  for (const [key, value] of Object.entries(teams)) {
+    const label = TEAM_KEY_LABELS[key] || key;
+    const lines = Array.isArray(value) ? value : [value];
+    for (const line of lines) {
+      if (line == null || String(line).trim() === "") continue;
+      out.push({ label, text: String(line) });
+    }
+  }
+  return out;
+}
+
 export function isDeep(id) {
   return DEEP_GAMES.includes(String(id || ""));
 }
@@ -584,7 +611,11 @@ function renderCostumes(card) {
 
 function renderSkills(card) {
   const skills = Array.isArray(card.skills) ? card.skills : [];
-  if (!skills.length) return `<p class="gap">技能：${GAP}</p>`;
+  const prio =
+    Array.isArray(card.skill_prio) && card.skill_prio.length
+      ? `<h3>加点</h3><ol>${card.skill_prio.map((line) => `<li>${esc(line)}</li>`).join("")}</ol>`
+      : "";
+  if (!skills.length) return `<p class="gap">技能：${GAP}</p>${prio}`;
   const items = skills
     .map((skill) => {
       const name = skill && skill.name ? skill.name : "未命名";
@@ -598,10 +629,7 @@ function renderSkills(card) {
       return `<li><strong>${esc(name)}</strong> ${bits.join(" ")}${summary}</li>`;
     })
     .join("");
-  let extra = "";
-  if (Array.isArray(card.skill_prio) && card.skill_prio.length) {
-    extra += `<h3>加点</h3><ol>${card.skill_prio.map((line) => `<li>${esc(line)}</li>`).join("")}</ol>`;
-  }
+  let extra = prio;
   const talent = card.talent && typeof card.talent === "object" ? card.talent : null;
   const talentName = talent && talent.name;
   const already = skills.some((skill) => skill && skill.name === talentName);
@@ -611,6 +639,14 @@ function renderSkills(card) {
     }`;
   }
   return `<ul class="skills">${items}</ul>${extra}`;
+}
+
+function renderTeams(card) {
+  const lines = teamLines(card);
+  if (!lines.length) return "";
+  return `<section><h2>配队</h2><ul>${lines
+    .map((row) => `<li><span class="k">${esc(row.label)}</span> ${esc(row.text)}</li>`)
+    .join("")}</ul></section>`;
 }
 
 function renderStigmata(stigmata) {
@@ -682,6 +718,7 @@ ${gapBanner(card)}
 <section><h2>强度</h2>${renderStrength(card)}</section>
 <section><h2>服装</h2>${renderCostumes(card)}</section>
 <section><h2>技能</h2>${renderSkills(card)}</section>
+${renderTeams(card)}
 ${renderStigmata(card.stigmata)}
 ${weapon ? `<section><h2>武器</h2><p>${esc(weapon)}</p></section>` : ""}
 <section><h2>出处</h2>${

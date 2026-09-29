@@ -51,7 +51,8 @@
     "收割: 6级即可",
     "碎盾击: 6级即可",
     "斩首: 尽量点满",
-    "收割者: 6级即可"
+    "收割者: 6级即可",
+    "升级需要红色技能素材，除了平A都得升级。而且6费，技能素材消耗量1.5倍。素材消耗大户。。优先减cd被动和加攻击力被动以及斩头。主动技能收获和追加敌方当前生命百分比的被动可以缓一缓。"
   ],
   "stigmata": {
     "set_id": null,
@@ -66,7 +67,8 @@
   "weapon": "败者之首",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/hw/639348.html"
+    "https://www.gamekee.com/hw/639348.html",
+    "https://www.gamekee.com/hw/639398.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

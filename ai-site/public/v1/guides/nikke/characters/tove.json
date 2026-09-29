@@ -33,12 +33,18 @@
   "weapon": "富有生机的幸存者",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "托比 需要后续配置霰弹枪队友 请搭配霰弹枪角色（至少三名霰弹枪角色）",
+      "莱昂纳需要后续配置霰弹枪队友 请搭配霰弹枪角色（至少三名霰弹枪角色 ）强绑定托比（12333）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/tove",
     "https://www.gamekee.com/nikke/606470.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/tove/"
+    "https://nikke.gg/characters/tove/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

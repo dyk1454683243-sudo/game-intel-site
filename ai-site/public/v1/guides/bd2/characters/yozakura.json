@@ -18,7 +18,9 @@
       "summary": "对自己应用使普通攻击的施加伤害增加1200%的增强效果。此效果将在接下来1次普通攻击中维持。攻击敌人3次，每次攻击时，造成相当于自身魔法力285%的魔法伤害。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "信念之拳：潜能开启建议：潜能提升很大，如果是夜樱作为魔兽主力的话建议点满。"
+  ],
   "weapon": "好友的拳甲",
   "talent": null,
   "costumes": [
@@ -28,9 +30,12 @@
       "skill": "地狱极乐万手拳"
     }
   ],
-  "teams": {},
+  "teams": {
+    "信念之拳": "目前看来跟内布利斯一样只能在魔兽就业，配队的话进魔法队可以踢掉低配dj，更合理的配队是屁股弓，日影，保健社，戴安娜"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/637922.html"
+    "https://www.gamekee.com/zsca2/637922.html",
+    "https://www.gamekee.com/zsca2/637871.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

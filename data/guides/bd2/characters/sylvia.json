@@ -41,7 +41,9 @@
       "summary": "与商店主人砍价，有90%的概率能以便宜60%的价格购买物品。消耗10个天赋神药。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "海军队长：潜能开启建议：cd必点，其他无所谓。"
+  ],
   "weapon": "报春剑",
   "talent": {
     "name": "你说多少来着？",
@@ -69,9 +71,12 @@
       "skill": "比基尼爆破手"
     }
   ],
-  "teams": {},
+  "teams": {
+    "海军队长": "非常优秀的水系输出服装，是席比雅伤害最高的一个服装，一般应用环境是火魔兽配合拉菲娜打物理队"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593588.html"
+    "https://www.gamekee.com/zsca2/593588.html",
+    "https://www.gamekee.com/zsca2/598941.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

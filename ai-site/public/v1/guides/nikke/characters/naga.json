@@ -34,12 +34,19 @@
   "weapon": "优雅的夜曲",
   "element": "电击",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "蒂亚：需要再配制一名1号位角色 且和娜嘉处于同一队伍时 激活特殊效果（一起搭配水平:t3）",
+      "娜嘉 可以单走，与蒂亚处于同一队伍时 激活特殊效果（11233）",
+      "人人都可以从任务以及新手活动中100%获得的阵容 蒂亚-丽塔-娜嘉-爱丽丝-德雷克-迪塞尔&普丽瓦蒂-海伦"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/naga",
     "https://www.gamekee.com/nikke/600935.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/naga/"
+    "https://nikke.gg/characters/naga/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

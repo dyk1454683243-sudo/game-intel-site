@@ -30,7 +30,9 @@
       "summary": "10回合内，自身攻击力增加40%。在战场上生成领域。领域持续的10回合内，友军的攻击力或魔法力将根据各自攻击类型提高60%。对敌人应用50%虚弱效果。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "穿透魔弓：潜能开启建议：要点的话减cd比较重要"
+  ],
   "weapon": "自由射手",
   "talent": null,
   "costumes": [
@@ -50,9 +52,12 @@
       "skill": "灰烬风暴"
     }
   ],
-  "teams": {},
+  "teams": {
+    "穿透魔弓": "2、暗弓强攻队是目前造价最低的PVP强势队伍，同时也是唯一一个不需要限定角色的前排常客队伍，非常适合新手和平民接触竞技场"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593632.html"
+    "https://www.gamekee.com/zsca2/593632.html",
+    "https://www.gamekee.com/zsca2/640590.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -32,12 +32,19 @@
   "weapon": "柔耀之星",
   "element": "铁甲",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T2 爱德：特务兔女郎——马斯特：浪漫的女仆&安克：天真的女仆（一… 新增：敏特&普莉卡（偶像双子）",
+      "敏特可以单走普莉卡强绑定敏特",
+      "（百爆队：以米兰达 茨瓦伊为1号位构筑队伍 为队伍带来巨额的双爆加持队伍 通常二号位携带爆伤辅助 例如敏特）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mint",
     "https://www.gamekee.com/nikke/705512.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mint/"
+    "https://nikke.gg/characters/mint/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

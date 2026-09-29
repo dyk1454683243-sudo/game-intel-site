@@ -40,7 +40,8 @@
     "刃舞舞姿: 不加",
     "绝命轨迹: 6级即可",
     "试炼之文: 尽量点满",
-    "不止息的剑舞: 6级即可"
+    "不止息的剑舞: 6级即可",
+    "EX0的只升级破防。支援回AP想升也可以升。ex6如果想要打输出的其他几个都要升。"
   ],
   "stigmata": {
     "set_id": null,
@@ -53,9 +54,15 @@
     ]
   },
   "weapon": "历史之结",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "此外，白鲸、米拉娜的出现，特定伤害类型的破防数值远超帕莱卡，cost更大、减防数值更少的帕莱卡出场机会被进一步压缩"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/688042.html"
+    "https://www.gamekee.com/hw/688042.html",
+    "https://www.gamekee.com/hw/665170.html",
+    "https://www.gamekee.com/hw/688063.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

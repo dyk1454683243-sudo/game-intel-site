@@ -59,9 +59,15 @@
     ]
   },
   "weapon": "布尔卡努斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "配合塞妈组成火塞队，可以实现电表倒转，现版本使用半神洛伊丝主C，可以轻松解决大多数高难本",
+      "洛伊丝半神化后可以0cost出场，配合她+格里泽尔达组成新时代火塞队能刷行动力，因此价值大幅提升"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/666802.html"
+    "https://www.gamekee.com/hw/666802.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

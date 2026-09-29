@@ -40,7 +40,8 @@
     "空间转移: 6级即可",
     "召唤熔岩: 6级即可",
     "禁忌之地: 尽量点满",
-    "火山喷发: 尽量点满"
+    "火山喷发: 尽量点满",
+    "8费，升级消耗翻倍。主要升级大招和被动。。召唤熔岩有破防，但收益低。"
   ],
   "stigmata": {
     "set_id": null,
@@ -57,7 +58,8 @@
     "dopamine_auto": "C"
   },
   "sources": [
-    "https://www.gamekee.com/hw/634222.html"
+    "https://www.gamekee.com/hw/634222.html",
+    "https://www.gamekee.com/hw/678298.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

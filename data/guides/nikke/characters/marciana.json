@@ -35,12 +35,17 @@
   "weapon": "理性之眼",
   "element": "铁甲",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "唯一可惜的是没有拐队友的能力并且只能处于轴内，也没有零件等加伤（铁甲零件多）实战可能比预期有下降，但依然是合格的个突铁甲C"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/marciana",
     "https://www.gamekee.com/nikke/600802.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/marciana/"
+    "https://nikke.gg/characters/marciana/",
+    "https://www.gamekee.com/nikke/710844.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

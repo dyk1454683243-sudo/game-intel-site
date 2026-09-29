@@ -33,12 +33,17 @@
   "weapon": "/",
   "element": "雷电",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "阿尔卡娜需要和伊莎贝尔处于同一队伍（12333）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/isabel",
     "https://www.gamekee.com/nikke/170852.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/isabel/"
+    "https://nikke.gg/characters/isabel/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

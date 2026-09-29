@@ -32,12 +32,19 @@
   "weapon": "尊敬的陛下",
   "element": "铁甲",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "优先级T1 娜由塔——皇冠",
+      "#2 通用配队：自选DPS自选DPSB2B1B3B3B2阵容讲解：这是大多数皇冠队的基本结构"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/crown",
     "https://www.gamekee.com/nikke/621270.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/crown/"
+    "https://nikke.gg/characters/crown/",
+    "https://www.gamekee.com/nikke/682131.html",
+    "https://www.gamekee.com/nikke/645499.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

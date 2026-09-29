@@ -34,12 +34,17 @@
   "weapon": "/",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "人人都可以从任务以及新手活动中100%获得的阵容 蒂亚-丽塔-娜嘉-爱丽丝-德雷克-迪塞尔&普丽瓦蒂-海伦"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/privaty",
     "https://www.gamekee.com/nikke/152329.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/privaty/"
+    "https://nikke.gg/characters/privaty/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

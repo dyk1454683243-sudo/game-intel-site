@@ -64,9 +64,14 @@
     ]
   },
   "weapon": "赛里欧尔:医疗锤",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "在半神化队伍中，辅助位的Cost较为充足，而拐力饱满的艾米莉亚几乎已经成为常驻辅助，可谓恩情还不完"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/684718.html"
+    "https://www.gamekee.com/hw/684718.html",
+    "https://www.gamekee.com/hw/665170.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -60,9 +60,12 @@
       "skill": "魔法增幅"
     }
   ],
-  "teams": {},
+  "teams": {
+    "反乌托邦": "即使没有魔攻buff加持在+5有装备基础上使用也依然有 大致不到1W左右的护盾量 ，而且覆盖范围非常广，除去上下两格边角都可以完全覆盖到 几乎可以当作全场覆盖 ，放在最前最后也能覆盖半场多一格，很少会有队友吃不到盾的情况"
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/603227.html"
+    "https://www.gamekee.com/zsca2/603227.html",
+    "https://www.gamekee.com/zsca2/609774.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

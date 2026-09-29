@@ -40,7 +40,8 @@
     "隐匿: 不加",
     "暗杀: 不加",
     "全员处刑: 不加",
-    "无法回避之眼: 不加"
+    "无法回避之眼: 不加",
+    "毒猫现在版本基本管仓了，红米技能升不升无所谓了，因为是A级角色，升阶难，无氪玩家也不指望她打伤害。就当作纯粹破防用的工具人。"
   ],
   "stigmata": {
     "set_id": null,
@@ -53,9 +54,14 @@
     ]
   },
   "weapon": "浮华之花 92",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "最高的单体破甲角色，射击队的辅助"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/634585.html"
+    "https://www.gamekee.com/hw/634585.html",
+    "https://www.gamekee.com/hw/661284.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

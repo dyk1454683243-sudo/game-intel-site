@@ -30,7 +30,10 @@
       "summary": "对敌人造成相当于自身魔法力200%的魔法伤害。2回合内，对主要目标敌人应用集中射击效果。2回合内，对敌人应用180%的召唤兽虚弱效果。"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "潜能开启建议：先点减SP，再慢慢点其他的",
+    "潜能开启建议：要练墨菲亚的话减sp必开，冷却主要是针对魔兽的，可以无限召唤囤兵，等魔兽虚弱打输出。"
+  ],
   "weapon": "拉·修普诺斯",
   "talent": null,
   "costumes": [
@@ -50,9 +53,15 @@
       "skill": "黑暗密令"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "因此，墨菲亚在进攻中几乎没有什么空间，不推荐让其上场"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/632282.html"
+    "https://www.gamekee.com/zsca2/632282.html",
+    "https://www.gamekee.com/zsca2/657320.html",
+    "https://www.gamekee.com/zsca2/632311.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",
