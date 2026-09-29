@@ -163,6 +163,27 @@
         "null"
       ]
     },
+    "portrait": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Public https portrait for hw, nikke, and bd2. null when no cited image loaded. GameKee entry icons are cdnimg-v2.gamekee.com; a Nikke card with no icon may use a cdn.prydwen.gg image that appears on a Prydwen page already in sources."
+    },
+    "portrait_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "URL the portrait was read from. GameKee cards cite /v1/entry/list. Prydwen fallbacks cite that character page. null when portrait is null."
+    },
+    "portrait_via": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Which field supplied the URL, e.g. gamekee-entry-icon:hw:163036 or prydwen-character:biscuit. null when portrait is null."
+    },
     "summary": {
       "type": "object",
       "description": "Human+AI conclusion line. Required on non-stub HW/NIKKE/BD2 cards at export. summary.stub true = thin evidence (no invented tier/pull). Omit on skill stubs.",

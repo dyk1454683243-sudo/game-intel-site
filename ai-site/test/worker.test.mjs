@@ -223,3 +223,43 @@ test("static asset paths are not swallowed", async () => {
   const res = await route(new Request(`${origin}/llms.txt`), env());
   assert.equal(res, null);
 });
+
+test("portrait route only fetches allowlisted GameKee images", async () => {
+  const png = Uint8Array.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0, 0, 0, 0]);
+  const allowed = "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1/h_1/1.png";
+  const original = globalThis.fetch;
+  globalThis.fetch = async (url, init) => {
+    assert.equal(url, allowed);
+    assert.equal(init.headers.Referer, "https://www.gamekee.com/");
+    assert.equal(init.redirect, "manual");
+    return new Response(png, { status: 200, headers: { "content-type": "image/png" } });
+  };
+  try {
+    const foreign = await route(
+      new Request(`${origin}/v1/portrait?u=${encodeURIComponent("https://evil.example/a.png")}`),
+      env()
+    );
+    assert.equal(foreign.status, 400);
+    assert.equal(await foreign.text(), "rejected_url");
+
+    const queried = await route(
+      new Request(
+        `${origin}/v1/portrait?u=${encodeURIComponent("https://cdnimg-v2.gamekee.com/wiki2.0/images/a.png?x=1")}`
+      ),
+      env()
+    );
+    assert.equal(queried.status, 400);
+
+    const posted = await route(new Request(`${origin}/v1/portrait?u=${encodeURIComponent(allowed)}`, { method: "POST" }), env());
+    assert.equal(posted.status, 405);
+
+    const ok = await route(new Request(`${origin}/v1/portrait?u=${encodeURIComponent(allowed)}`), env());
+    assert.equal(ok.status, 200);
+    assert.equal(ok.headers.get("content-type"), "image/png");
+    assert.match(ok.headers.get("cache-control"), /max-age=86400/);
+    const body = new Uint8Array(await ok.arrayBuffer());
+    assert.equal(body[0], 0x89);
+  } finally {
+    globalThis.fetch = original;
+  }
+});

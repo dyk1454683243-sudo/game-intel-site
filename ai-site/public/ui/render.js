@@ -2,6 +2,7 @@
  * Pure HTML renderers for the human UI. No DOM, no invented tiers or pull advice.
  * Non-deep games stay identity-only. Deep character cards are hw / nikke / bd2.
  */
+import { portraitImgSrc } from "./portrait.js";
 
 export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2"]);
 
@@ -429,7 +430,7 @@ export function renderGame(game, extras = {}) {
       .map((card) => {
         const name = card.name_zh || card.name || card.id;
         const stub = card.stub === true ? ` ${flag("stub", "stub")}` : "";
-        return `<li><a href="${esc(characterHref(game.id, card.id))}">${esc(name)}</a> <code>${esc(card.id)}</code>${stub}</li>`;
+        return `<li><a class="char-row" href="${esc(characterHref(game.id, card.id))}">${portraitTag(card)}<span><span class="row-title">${esc(name)}</span> <code>${esc(card.id)}</code>${stub}</span></a></li>`;
       })
       .join("");
     deepBlock = `<h2>角色</h2>
@@ -510,6 +511,25 @@ function profileBits(card, summary) {
     bits.push(`定位 ${card.role}`);
   }
   return bits;
+}
+
+function portraitTag(card, large) {
+  const name = (card && (card.name_zh || card.name || card.id)) || "角色";
+  const src = portraitImgSrc(card && card.portrait);
+  const cls = large ? "portrait lg" : "portrait";
+  if (!src) {
+    return `<span class="${cls} placeholder" role="img" aria-label="${esc(name)}，无头像">无图</span>`;
+  }
+  return `<img class="${cls}" src="${esc(src)}" alt="${esc(name)}" loading="lazy" decoding="async"/>`;
+}
+
+function portraitCite(card) {
+  const src = portraitImgSrc(card && card.portrait);
+  if (!src) return `<p class="gap">头像：${GAP}</p>`;
+  const source = safeHttpUrl(card.portrait_source);
+  if (!source) return `<p class="gap">头像：${GAP}</p>`;
+  const label = card.portrait_via ? String(card.portrait_via) : source;
+  return `<p class="meta">头像出处 ${link(source, label)}</p>`;
 }
 
 function renderStrength(card) {
@@ -651,10 +671,13 @@ export function renderCharacter(gameId, card) {
   const sources = collectCardSources(card);
   const weapon = typeof card.weapon === "string" && card.weapon.trim() ? card.weapon : "";
   return `<p class="crumbs">${link("/watchlist/", "关注")} / ${link(gameHref(id), gameLabel)} / ${esc(name)}</p>
+<div class="char-head">${portraitTag(card, true)}<div>
 <h1>${esc(name)} <code>${esc(card.id || "")}</code></h1>
 ${marks.length ? `<p class="flags">${marks.join(" ")}</p>` : ""}
 <p class="meta">${esc([en, nick ? `别名 ${nick}` : "", card.as_of ? `as_of ${card.as_of}` : ""].filter(Boolean).join(" · "))}</p>
 ${card.verified ? `<p class="meta">核对：${esc(card.verified)}</p>` : ""}
+${portraitCite(card)}
+</div></div>
 ${gapBanner(card)}
 <section><h2>强度</h2>${renderStrength(card)}</section>
 <section><h2>服装</h2>${renderCostumes(card)}</section>

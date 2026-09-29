@@ -6,7 +6,7 @@ workers_dev = true
 [assets]
 directory = "./public"
 binding = "ASSETS"
-# Worker handles discovery, MCP, and claims. Everything else stays a static asset.
+# Worker handles discovery, MCP, claims, and GameKee portrait fetches. Everything else stays a static asset.
 run_worker_first = [
   "/.well-known/*",
   "/mcp",
@@ -14,6 +14,7 @@ run_worker_first = [
   "/server-card",
   "/v1/claims",
   "/v1/claims.json",
+  "/v1/portrait",
   "/claims",
   "/claims/*",
 ]

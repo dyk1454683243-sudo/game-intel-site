@@ -18,6 +18,7 @@ import {
   renderWatchlist,
   safeHttpUrl,
 } from "../public/ui/render.js";
+import { portraitImgSrc, portraitTarget } from "../public/ui/portrait.js";
 import { publishHumanHome } from "../scripts/export-games.mjs";
 
 const site = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -138,7 +139,20 @@ test("deep game page lists characters and alias search", () => {
   const html = renderGame(game, { guideIndex, aliasesById: aliases, q: "修女" });
   assert.match(html, /3279780/);
   assert.match(html, /\/character\/\?game=hw&amp;id=lysandria/);
+  assert.match(html, /class="char-row"/);
+  assert.match(html, /class="portrait"/);
+  const lysRow = guideIndex.characters.find((card) => card.id === "lysandria");
+  assert.equal(portraitTarget(lysRow.portrait)?.hostname, "cdnimg-v2.gamekee.com");
+  assert.match(html, /\/v1\/portrait\?u=/);
   assert.doesNotMatch(html, /尚无深耕/);
+  const bare = renderGame(game, {
+    guideIndex: {
+      characters: [{ id: "no_face", name: "无头像", name_zh: "无头像", stub: true, portrait: null }],
+    },
+  });
+  assert.match(bare, /无图/);
+  assert.match(bare, /placeholder/);
+  assert.doesNotMatch(bare, /<img/);
   assert.equal(filterCharacters(guideIndex.characters, "修女", aliases).length, 1);
   const nikke = readJson("v1/guides/nikke/aliases.json");
   assert.deepEqual(aliasPartNames(nikke), [
@@ -152,8 +166,14 @@ test("deep game page lists characters and alias search", () => {
 });
 
 test("character pages use stored guide fields and keep gaps visible", () => {
-  const lys = renderCharacter("hw", readJson("v1/guides/hw/characters/lysandria.json"));
+  const lysCard = readJson("v1/guides/hw/characters/lysandria.json");
+  const lys = renderCharacter("hw", lysCard);
   assert.match(lys, /<h2>强度<\/h2>/);
+  assert.match(lys, /class="portrait lg"/);
+  assert.match(lys, /头像出处/);
+  assert.match(lys, new RegExp(`gamekee-entry-icon:hw:${lysCard.gamekee_entry_id}`));
+  assert.equal(portraitImgSrc(lysCard.portrait).startsWith("/v1/portrait?u="), true);
+  assert.match(lys, /\/v1\/portrait\?u=/);
   assert.match(lys, /<h2>服装<\/h2>/);
   assert.match(lys, /<h2>技能<\/h2>/);
   assert.match(lys, /<h2>出处<\/h2>/);
@@ -181,14 +201,29 @@ test("character pages use stored guide fields and keep gaps visible", () => {
   assert.match(zwei, /综合 B/);
   assert.match(zwei, /https:\/\/www\.prydwen\.gg\/nikke\/characters\/zwei/);
 
+  const hostilePortrait = renderCharacter("hw", {
+    id: "x",
+    name: "<img>",
+    game: "hw",
+    portrait: "javascript:alert(1)",
+    portrait_source: "https://evil.example/a.png",
+    portrait_via: "nope",
+  });
+  assert.match(hostilePortrait, /无图/);
+  assert.match(hostilePortrait, /头像：未见可靠出处/);
+  assert.doesNotMatch(hostilePortrait, /javascript:/);
+  assert.doesNotMatch(hostilePortrait, /<img/);
+
   const blocked = renderCharacter("star", {
     id: "made-up",
     name: "虚构",
     game: "star",
     summary: { tier: "T0", pull: "必抽", sources: ["https://example.com/a"] },
+    portrait: "https://cdnimg-v2.gamekee.com/wiki2.0/images/a.png",
     skills: [{ name: "编造技能", summary: "100%" }],
   });
   assert.match(blocked, /尚无深耕/);
+  assert.doesNotMatch(blocked, /cdnimg/);
   assert.doesNotMatch(blocked, /T0/);
   assert.doesNotMatch(blocked, /必抽/);
   assert.doesNotMatch(blocked, /编造技能/);
