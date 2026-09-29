@@ -2,7 +2,7 @@
   "id": "zhen-li",
   "name": "真理",
   "name_zh": "真理",
-  "name_en": null,
+  "name_en": "Mari",
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
@@ -24,17 +24,23 @@
       "summary": "■对全体敌人造成 【最终攻击力363.63%的爆裂技能伤害】 ■全体队友 【攻击伤害24.25%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 => S2",
+    "推荐练度 10/7/10",
+    "预算练度 7/7/7"
+  ],
   "burst": "座标弹道飞弹",
   "weapon": "远程精密步枪",
   "element": "电击",
   "manufacturer": "反常",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/599374.html"
+    "https://www.gamekee.com/nikke/599374.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/mari/"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 599374,
   "gamekee_entry_id": 162037,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/527815.png",
@@ -42,19 +48,29 @@
   "portrait_via": "gamekee-entry-icon:nikke:162037",
   "prydwen_slug": null,
   "rarity": "SSR",
-  "verified": "GameKee nikke/599374 图鉴",
+  "verified": "GameKee nikke/599374 图鉴；Nikke.gg tier-list 2026-09（技能数值对上 Mari）",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
-    "url": "https://nikke.gg/tier-list/"
+    "as_of": "2026-09-29",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "S",
+    "boss": "SS",
+    "pvp": "A",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "mari",
+    "character_url": "https://nikke.gg/characters/mari/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/599374.html"
+      "https://www.gamekee.com/nikke/599374.html",
+      "https://nikke.gg/characters/mari/"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 座标弹道飞弹 / 辅助型 / 电击 / 反常"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。GameKee 图鉴摘要写明原型为真希波·真理·伊兰崔亚斯；技能里的 59.17%、363.63%、24.25% 与 Nikke.gg「Mari」技能页 Lv1 相同，故对上该档。不编造抽卡结论。",
+    "position": "SSR / 座标弹道飞弹 / 辅助型 / 电击 / 反常",
+    "tier": "Nikke.gg 综合 SS（故事 S / Boss SS / PvP A）"
   }
 }

@@ -30,22 +30,26 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/593592.html"
+    "https://www.gamekee.com/zsca2/593592.html",
+    "https://www.gamekee.com/zsca2/614967.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 593592,
   "gamekee_entry_id": 122327,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/921546.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122327",
-  "verified": "GameKee zsca2/593592 图鉴",
+  "verified": "GameKee zsca2/593592 图鉴；GameKee zsca2/614967 三四星测评",
   "summary": {
     "position": "3星 / 水 / 物理 / 输出",
     "sources": [
+      "https://www.gamekee.com/zsca2/614967.html",
       "https://www.gamekee.com/zsca2/593592.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "与君特、雷南特写在同一节，没有单独 T 档。图鉴「服装梯度」单元格没有书面 T 字。文中写明具备时效性。不编造价格。",
+    "tier": "GameKee 三四星测评：仅适合恶魔城凹分以及前期补伤害",
+    "pull": "是凹恶魔城的必练角色"
   }
 }

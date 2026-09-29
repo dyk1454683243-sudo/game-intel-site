@@ -37,22 +37,26 @@
   ],
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/zsca2/593607.html"
+    "https://www.gamekee.com/zsca2/593607.html",
+    "https://www.gamekee.com/zsca2/614967.html"
   ],
   "stub": false,
-  "as_of": "2026-09",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 593607,
   "gamekee_entry_id": 122332,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/678419.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122332",
-  "verified": "GameKee zsca2/593607 图鉴",
+  "verified": "GameKee zsca2/593607 图鉴；GameKee zsca2/614967 三四星测评",
   "summary": {
     "position": "3星 / 风 / 物理 / 输出",
     "sources": [
+      "https://www.gamekee.com/zsca2/614967.html",
       "https://www.gamekee.com/zsca2/593607.html"
     ],
-    "stub": true,
-    "caveat": "仅有 GameKee 图鉴职业/属性/稀有度与技能。仓内无已核实强度榜或抽取建议，结论行 stub:true，不编造 T 度、抽卡结论或价格。"
+    "stub": false,
+    "caveat": "摘自「莉兹内（小猎人）」一节。没有书面 T 档。图鉴「服装梯度」单元格为空。文中写明具备时效性。",
+    "tier": "GameKee 三四星测评：小罗宾汉，对策卡",
+    "skip": "有罗宾汉的完全不用养；没有的也没事，出场的场合极少"
   }
 }

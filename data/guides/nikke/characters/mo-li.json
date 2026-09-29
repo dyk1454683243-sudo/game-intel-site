@@ -2,7 +2,7 @@
   "id": "mo-li",
   "name": "莫莉",
   "name_zh": "莫莉",
-  "name_en": null,
+  "name_en": "Mori",
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
@@ -24,17 +24,23 @@
       "summary": "■若自身处于垂死挣扎状态，则自身 【恢复相当于施展者最终最大体力的护盾体力8.89%】 ■若自身不处于垂死挣扎状态，则自身 【最大体力5.96%▲】【持续10秒】 ■全体队友 【持续伤害6%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 4/4/4",
+    "预算练度 1/1/1"
+  ],
   "burst": "弱者的生存法",
   "weapon": "莫耳之森",
   "element": "风压",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/660353.html"
+    "https://www.gamekee.com/nikke/660353.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/mori/"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 660353,
   "gamekee_entry_id": 185066,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/459992.png",
@@ -42,19 +48,29 @@
   "portrait_via": "gamekee-entry-icon:nikke:185066",
   "prydwen_slug": null,
   "rarity": "SSR",
-  "verified": "GameKee nikke/660353 图鉴",
+  "verified": "GameKee nikke/660353 图鉴；Nikke.gg tier-list 2026-09（技能数值对上 Mori）",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
-    "url": "https://nikke.gg/tier-list/"
+    "as_of": "2026-09-29",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "D",
+    "story": "D",
+    "boss": "D",
+    "pvp": "D",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "mori",
+    "character_url": "https://nikke.gg/characters/mori/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/660353.html"
+      "https://www.gamekee.com/nikke/660353.html",
+      "https://nikke.gg/characters/mori/"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 弱者的生存法 / 防御型 / 风压 / 米西利斯"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。本卡 GameKee 技能里的 23.71%、13.72%、8.89% 与 Nikke.gg「Mori」技能页 Lv1 相同，故对上该档。不编造抽卡结论。",
+    "position": "SSR / 弱者的生存法 / 防御型 / 风压 / 米西利斯",
+    "tier": "Nikke.gg 综合 D（故事 D / Boss D / PvP D）"
   }
 }

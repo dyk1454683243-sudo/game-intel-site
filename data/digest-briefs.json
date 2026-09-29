@@ -1,0 +1,21 @@
+{
+  "note": "Curated Chinese digest lines. digestGame overlays these when the URL is already in the mix, and pins a missing row on a full digest (not morning only_new). Claims are copied from the linked page.",
+  "items": [
+    {
+      "game": "bd2",
+      "title": "September 28 Resource Update & Fiend Hunter Skill Adjustment Notice",
+      "url": "https://www.browndust2.com/en-us/news/view?id=01M3KNK923NR4P7568ECBR3JX5",
+      "source": "official",
+      "date": "2026-09-28T09:30:14.367Z",
+      "summary": "官方公告：9月28日 18:28（KST）已做资源更新。巨型魔兽「矿坑之灵（暗）」每次攻击追加效果：若目标的反击是按受到敌人伤害触发，则对其施加 1 回合、防御力降低 200% 的减益（防御力不低于 0%；按自身属性触发的反击不在此列），以免养成投入因防御力拉开猎魔分数。公告没有逐条改写玩家服装技能。"
+    },
+    {
+      "game": "nikke",
+      "title": "NIKKE特别动画系列 《MINIKKE 小小童话集》灰姑娘篇 完整版 中文字幕",
+      "url": "https://www.gamekee.com/nikke/722533.html",
+      "source": "gamekee",
+      "date": "2026-09-28T02:28:52.000Z",
+      "summary": "GameKee 发布特别动画《MINIKKE 小小童话集》灰姑娘篇完整版，带中文字幕。页面写道：灰姑娘梦想与女神部队并肩作战，与伙伴准备华丽舞台；公演开始后伙伴能力接连失控，出征欢迎仪式的舞台也朝意想不到的方向发展。不补充页面没写的情节。"
+    }
+  ]
+}

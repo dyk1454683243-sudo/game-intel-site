@@ -10,6 +10,8 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { DATA_DIR } from "./index-lib-00a.js";
+import { applyDigestBriefs, loadDigestBriefs } from "./digest-briefs.js";
 
 import {
   shanghaiYmd,
@@ -446,6 +448,13 @@ async function digestGame(entryId, entry, opts = {}) {
   // Summarize after diff filter so morning only_new skips seen articles
   if (summarize && items.length) {
     await attachDigestSummaries(items, entryId, 2);
+  }
+
+  // Curated Chinese lines win over truncated article text. Pin only on a full
+  // digest; morning only_new must not keep replaying an old brief as new.
+  const briefs = loadDigestBriefs(DATA_DIR).filter((row) => row.game === entryId);
+  if (briefs.length) {
+    items = applyDigestBriefs(items, briefs, { limit: 5, pin: !onlyNew });
   }
 
   const sources = [...new Set(items.map((i) => i.source))];

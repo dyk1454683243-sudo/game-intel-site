@@ -2,7 +2,7 @@
   "id": "ke-la-wu",
   "name": "克拉乌",
   "name_zh": "克拉乌",
-  "name_en": null,
+  "name_en": "Crow",
   "aliases": [],
   "nicknames": [],
   "game": "nikke",
@@ -24,17 +24,23 @@
       "summary": "■对攻击力最高的1名敌人造成 【最终攻击力541.12%的爆裂技能伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 = S2",
+    "推荐练度 1/1/1",
+    "预算练度 1/1/1"
+  ],
   "burst": "怒火",
   "weapon": "冲锋枪",
   "element": "燃烧",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/163879.html"
+    "https://www.gamekee.com/nikke/163879.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/crow/"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 163879,
   "gamekee_entry_id": 110024,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/29538.png",
@@ -42,19 +48,29 @@
   "portrait_via": "gamekee-entry-icon:nikke:110024",
   "prydwen_slug": null,
   "rarity": "SSR",
-  "verified": "GameKee nikke/163879 图鉴",
+  "verified": "GameKee nikke/163879 图鉴；Nikke.gg tier-list 2026-09（技能数值对上 Crow）",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
-    "url": "https://nikke.gg/tier-list/"
+    "as_of": "2026-09-29",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "F",
+    "story": "F",
+    "boss": "F",
+    "pvp": "C",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "crow",
+    "character_url": "https://nikke.gg/characters/crow/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/163879.html"
+      "https://www.gamekee.com/nikke/163879.html",
+      "https://nikke.gg/characters/crow/"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 怒火 / 防御型 / 燃烧 / 米西利斯"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。本卡 GameKee 技能里的 11.77%、52.65%、541.12% 与 Nikke.gg「Crow」技能页 Lv1 相同，故对上该档。不编造抽卡结论。",
+    "position": "SSR / 怒火 / 防御型 / 燃烧 / 米西利斯",
+    "tier": "Nikke.gg 综合 F（故事 F / Boss F / PvP C）"
   }
 }

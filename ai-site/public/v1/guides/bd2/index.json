@@ -2,12 +2,12 @@
   "game": "bd2",
   "name": "Brown Dust 2",
   "name_zh": "棕色尘埃2",
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "timezone": "Asia/Shanghai",
   "character_count": 87,
   "rich_count": 87,
   "stub_count": 0,
-  "conclusion_stub_count": 15,
+  "conclusion_stub_count": 10,
   "characters": [
     {
       "id": "a_li_nei_si",
@@ -55,7 +55,8 @@
       "name_zh": "艾玛",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593580.html"
+        "https://www.gamekee.com/zsca2/593580.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/860822.png"
     },
@@ -145,7 +146,8 @@
       "name_zh": "比阿特丽丝",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593613.html"
+        "https://www.gamekee.com/zsca2/593613.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/785656.png"
     },
@@ -205,7 +207,8 @@
       "name_zh": "厄尔比斯",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/619702.html"
+        "https://www.gamekee.com/zsca2/619702.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png"
     },
@@ -225,7 +228,8 @@
       "name_zh": "弗雷德",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593194.html"
+        "https://www.gamekee.com/zsca2/593194.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/803065.png"
     },
@@ -345,7 +349,8 @@
       "name_zh": "君特",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593203.html"
+        "https://www.gamekee.com/zsca2/593203.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/467009.png"
     },
@@ -355,7 +360,8 @@
       "name_zh": "卡森",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593599.html"
+        "https://www.gamekee.com/zsca2/593599.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/465581.png"
     },
@@ -435,7 +441,8 @@
       "name_zh": "雷南特",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593575.html"
+        "https://www.gamekee.com/zsca2/593575.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/519039.png"
     },
@@ -455,7 +462,8 @@
       "name_zh": "黎迪雅",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593595.html"
+        "https://www.gamekee.com/zsca2/593595.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/570673.png"
     },
@@ -465,7 +473,8 @@
       "name_zh": "莉西安",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593667.html"
+        "https://www.gamekee.com/zsca2/593667.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/969823.png"
     },
@@ -485,7 +494,8 @@
       "name_zh": "莉兹内",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593607.html"
+        "https://www.gamekee.com/zsca2/593607.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/678419.png"
     },
@@ -535,7 +545,8 @@
       "name_zh": "玛丽亚",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593572.html"
+        "https://www.gamekee.com/zsca2/593572.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png"
     },
@@ -765,7 +776,8 @@
       "name_zh": "维尔尼",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593659.html"
+        "https://www.gamekee.com/zsca2/593659.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/858890.png"
     },
@@ -795,7 +807,8 @@
       "name_zh": "辛西亚",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593593.html"
+        "https://www.gamekee.com/zsca2/593593.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/148256.png"
     },
@@ -825,7 +838,8 @@
       "name_zh": "英格利得",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593592.html"
+        "https://www.gamekee.com/zsca2/593592.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/921546.png"
     },
@@ -875,7 +889,8 @@
       "name_zh": "茱莉",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593604.html"
+        "https://www.gamekee.com/zsca2/593604.html",
+        "https://www.gamekee.com/zsca2/614967.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/123688.png"
     }

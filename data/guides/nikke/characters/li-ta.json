@@ -2,7 +2,7 @@
   "id": "li-ta",
   "name": "丽塔",
   "name_zh": "丽塔",
-  "name_en": null,
+  "name_en": "Liter",
   "aliases": [],
   "nicknames": [
     "老奶奶"
@@ -26,17 +26,23 @@
       "summary": "■全体队友 【攻击力36.3%▲】【持续5秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能顺序 S1 > S2",
+    "推荐练度 10/5/10",
+    "预算练度 7/5/7"
+  ],
   "burst": "双推动",
   "weapon": "钻头重击",
   "element": "铁甲",
   "manufacturer": "米西利斯",
   "teams": {},
   "sources": [
-    "https://www.gamekee.com/nikke/170844.html"
+    "https://www.gamekee.com/nikke/170844.html",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/liter/"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 170844,
   "gamekee_entry_id": 113072,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/455781.png",
@@ -44,19 +50,29 @@
   "portrait_via": "gamekee-entry-icon:nikke:113072",
   "prydwen_slug": null,
   "rarity": "SSR",
-  "verified": "GameKee nikke/170844 图鉴",
+  "verified": "GameKee nikke/170844 图鉴；Nikke.gg tier-list 2026-09（技能数值对上 Liter）",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
-    "url": "https://nikke.gg/tier-list/"
+    "as_of": "2026-09-29",
+    "url": "https://nikke.gg/tier-list/",
+    "combined": "SS",
+    "story": "SS",
+    "boss": "SSS",
+    "pvp": "B",
+    "req_invest": false,
+    "strong_early": false,
+    "slug": "liter",
+    "character_url": "https://nikke.gg/characters/liter/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
-      "https://www.gamekee.com/nikke/170844.html"
+      "https://www.gamekee.com/nikke/170844.html",
+      "https://nikke.gg/characters/liter/"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 双推动 / 辅助型 / 铁甲 / 米西利斯"
+    "stub": false,
+    "caveat": "强度摘自 Nikke.gg 梯度页（编辑向，非官方；页面说明综合档约 60% Boss、40% 战役，不含 PvP）。本卡 GameKee 技能里的 2.34/2.7/3.17 秒、28.87%、36.3% 与 Nikke.gg「Liter」技能页 Lv1 相同，故对上该档。不编造抽卡结论。",
+    "position": "SSR / 双推动 / 辅助型 / 铁甲 / 米西利斯",
+    "tier": "Nikke.gg 综合 SS（故事 SS / Boss SSS / PvP B）"
   }
 }

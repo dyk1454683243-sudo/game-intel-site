@@ -24,7 +24,9 @@
       "summary": "■自身 【攻击伤害13.75%▲】【持续25秒】 ■对全体敌人造成 【最终攻击力750%的爆裂技能伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "技能建议 4/4/4-7/7/7-10/10/10 或 4/4/1-7/7/1-10/10/4"
+  ],
   "burst": "反派之网特别版",
   "weapon": "反派夜祭",
   "element": "风压",
@@ -32,10 +34,11 @@
   "teams": {},
   "sources": [
     "https://www.prydwen.gg/nikke/characters/drake-great-villain",
-    "https://www.gamekee.com/nikke/719742.html"
+    "https://www.gamekee.com/nikke/719742.html",
+    "https://www.gamekee.com/nikke/719599.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "gamekee_content_id": 719742,
   "gamekee_entry_id": 224507,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/3/05857786mtlchmr3.png",
@@ -43,20 +46,23 @@
   "portrait_via": "gamekee-entry-icon:nikke:224507",
   "prydwen_slug": "drake-great-villain",
   "rarity": "SSR",
-  "verified": "GameKee nikke/719742 图鉴",
+  "verified": "GameKee nikke/719742 图鉴；GameKee nikke/719599 测评",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-28",
+    "as_of": "2026-09-29",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
     "sources": [
       "https://nikke.gg/tier-list/",
       "https://www.prydwen.gg/nikke/characters/drake-great-villain",
-      "https://www.gamekee.com/nikke/719742.html"
+      "https://www.gamekee.com/nikke/719742.html",
+      "https://www.gamekee.com/nikke/719599.html"
     ],
-    "stub": true,
-    "caveat": "Nikke.gg 2026-09 梯度页未给出该角色综合档。强度未见可靠出处，不编造 T 度或抽卡结论。",
-    "position": "SSR / 反派之网特别版 / 火力型 / 风压 / 米西利斯"
+    "stub": false,
+    "caveat": "摘自 GameKee《德雷克：终极反派》测评（作者小埋哥）。文首写明尚无实战预览、仅供参考。T 档是该文自己的尺度（文中 T2 指 PVE 和 PVP 都只能部分场景勉强使用），不是 Nikke.gg 综合档。Nikke.gg 角色接口没有这套服装。",
+    "position": "SSR / 反派之网特别版 / 火力型 / 风压 / 米西利斯",
+    "tier": "GameKee 测评：推图 T2，个突 T1.5-T1，PVP 一般",
+    "pull": "可跳，后续若有价值愿望单补"
   }
 }
