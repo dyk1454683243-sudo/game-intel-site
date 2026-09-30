@@ -1,52 +1,73 @@
 import { formatShanghai, shanghaiYmd } from "./time.js";
 import { isSlug } from "./public-json.js";
 
+/**
+ * Public POST /v1/claims abuse caps. No API key.
+ * Counts are best-effort Workers KV read-modify-write (not a lock).
+ * Per IP: 10 posts per Asia/Shanghai hour (`rl:{sha256(ip)[0:16]}:{YYYY-MM-DDTHH}`, TTL 2h).
+ * Global: 100 posts per Asia/Shanghai calendar day (`rl:global:{YYYY-MM-DD}`, TTL 48h).
+ * Body: 16384 bytes. Statement: 2000 chars. Sources: 1–8 https URLs, each ≤ 500 chars.
+ * IP is `cf-connecting-ip` (Cloudflare). `x-forwarded-for` is only a local fallback.
+ */
 export const MAX_BODY_BYTES = 16 * 1024;
 export const MAX_STATEMENT = 2000;
 export const MAX_SOURCES = 8;
 export const MAX_URL = 500;
 export const MAX_SUBMITTER = 80;
 export const MAX_STORED = 200;
-export const RATE_LIMIT = 30;
+export const RATE_LIMIT_PER_IP = 10;
+export const RATE_LIMIT_GLOBAL_DAY = 100;
+export const GLOBAL_RATE_PREFIX = "rl:global:";
 export const INDEX_KEY = "claims:index";
 
-export function timingSafeEqual(a, b) {
-  const enc = new TextEncoder();
-  const aa = enc.encode(String(a));
-  const bb = enc.encode(String(b));
-  const len = Math.max(aa.length, bb.length);
-  let out = aa.length === bb.length ? 0 : 1;
-  for (let i = 0; i < len; i++) {
-    out |= (aa[i] || 0) ^ (bb[i] || 0);
-  }
-  return out === 0;
-}
+/** DNS labels that mark a placeholder, docs, or fake host. */
+const PLACEHOLDER_LABELS = new Set([
+  "example",
+  "invalid",
+  "localhost",
+  "placeholder",
+  "changeme",
+  "fake",
+]);
 
-export function bearerToken(request) {
-  const header = request.headers.get("authorization") || "";
-  const match = header.match(/^Bearer\s+(\S+)\s*$/i);
-  return match ? match[1] : "";
-}
+const RESERVED_SUFFIXES = [".example", ".invalid", ".localhost", ".test", ".local", ".localdomain"];
 
-export function authorize(request, env) {
-  const expected = env && env.CLAIMS_API_KEY;
-  if (!expected) return { ok: false, status: 503, error: "claims_api_unconfigured" };
-  const got = bearerToken(request);
-  if (!got || !timingSafeEqual(got, expected)) {
-    return { ok: false, status: 401, error: "unauthorized" };
-  }
-  return { ok: true };
-}
-
+/** Syntactic https check only. Do not fetch the URL (that would be an SSRF). */
 export function isHttpsSource(value) {
-  if (typeof value !== "string" || value.length < 12 || value.length > MAX_URL) return false;
+  if (typeof value !== "string") return false;
+  const text = value.trim();
+  if (text.length < 12 || text.length > MAX_URL) return false;
+  if (/[\s<>"']/.test(text)) return false;
   let url;
   try {
-    url = new URL(value);
+    url = new URL(text);
   } catch {
     return false;
   }
-  return url.protocol === "https:" && !url.username && !url.password;
+  if (url.protocol !== "https:") return false;
+  if (url.username || url.password) return false;
+  return !isBlockedHost(url.hostname);
+}
+
+function isBlockedHost(hostname) {
+  let host = String(hostname || "").trim().toLowerCase().replace(/\.+$/, "");
+  if (host.startsWith("[") && host.endsWith("]")) host = host.slice(1, -1);
+  if (!host || host === "localhost" || host === "0.0.0.0" || host === "::" || host === "::1") return true;
+  if (host.includes(":")) return true;
+  if (/^\d{1,3}(\.\d{1,3}){3}$/.test(host)) return true;
+  for (const suffix of RESERVED_SUFFIXES) {
+    if (host === suffix.slice(1) || host.endsWith(suffix)) return true;
+  }
+  const labels = host.split(".");
+  if (labels.length < 2) return true;
+  if (labels.some((label) => PLACEHOLDER_LABELS.has(label))) return true;
+  const tld = labels[labels.length - 1];
+  if (!/^[a-z]{2,63}$/.test(tld)) return true;
+  return labels.some((label) => !isHostnameLabel(label));
+}
+
+function isHostnameLabel(label) {
+  return label.length >= 1 && label.length <= 63 && /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(label);
 }
 
 export function normalizeClaim(body, now = new Date()) {
@@ -67,7 +88,8 @@ export function normalizeClaim(body, now = new Date()) {
   const sources = [];
   for (const raw of body.sources) {
     if (!isHttpsSource(raw)) return { ok: false, status: 400, error: "invalid_source" };
-    if (!sources.includes(raw)) sources.push(raw);
+    const url = String(raw).trim();
+    if (!sources.includes(url)) sources.push(url);
   }
   const claim = {
     id: crypto.randomUUID(),
@@ -82,16 +104,19 @@ export function normalizeClaim(body, now = new Date()) {
   }
   claim.as_of = asOf;
   const game = body.game_id ?? body.game;
-  if (game != null && game !== "") {
-    if (!isSlug(String(game))) return { ok: false, status: 400, error: "invalid_game_id" };
-    claim.game_id = String(game);
+  if (game == null || String(game).trim() === "") {
+    return { ok: false, status: 400, error: "game_id_required" };
   }
+  const gameId = String(game).trim();
+  if (!isSlug(gameId)) return { ok: false, status: 400, error: "invalid_game_id" };
+  claim.game_id = gameId;
   const character = body.character_id ?? body.character;
   if (character != null && character !== "") {
-    if (!isSlug(String(character))) {
+    const characterId = String(character).trim();
+    if (!isSlug(characterId)) {
       return { ok: false, status: 400, error: "invalid_character_id" };
     }
-    claim.character_id = String(character);
+    claim.character_id = characterId;
   }
   if (body.submitter != null && body.submitter !== "") {
     const submitter = String(body.submitter).trim();
@@ -116,14 +141,29 @@ async function sha256Hex(text) {
   return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
+function countOf(raw) {
+  const n = Number(raw);
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : 0;
+}
+
 export async function enforceRateLimit(env, request, now = new Date()) {
   if (!env.CLAIMS) return { ok: false, status: 503, error: "claims_kv_unconfigured" };
-  const bucket = formatShanghai(now).slice(0, 13);
+  const stamp = formatShanghai(now);
+  const hour = stamp.slice(0, 13);
+  const day = stamp.slice(0, 10);
   const hash = (await sha256Hex(clientIp(request))).slice(0, 16);
-  const key = `rl:${hash}:${bucket}`;
-  const prev = Number((await env.CLAIMS.get(key)) || "0");
-  if (prev >= RATE_LIMIT) return { ok: false, status: 429, error: "rate_limited" };
-  await env.CLAIMS.put(key, String(prev + 1), { expirationTtl: 60 * 60 * 2 });
+  const ipKey = `rl:${hash}:${hour}`;
+  const globalKey = `${GLOBAL_RATE_PREFIX}${day}`;
+  const prevIp = countOf(await env.CLAIMS.get(ipKey));
+  if (prevIp >= RATE_LIMIT_PER_IP) {
+    return { ok: false, status: 429, error: "rate_limited", scope: "ip", limit: RATE_LIMIT_PER_IP };
+  }
+  const prevGlobal = countOf(await env.CLAIMS.get(globalKey));
+  if (prevGlobal >= RATE_LIMIT_GLOBAL_DAY) {
+    return { ok: false, status: 429, error: "rate_limited", scope: "day", limit: RATE_LIMIT_GLOBAL_DAY };
+  }
+  await env.CLAIMS.put(ipKey, String(prevIp + 1), { expirationTtl: 60 * 60 * 2 });
+  await env.CLAIMS.put(globalKey, String(prevGlobal + 1), { expirationTtl: 60 * 60 * 48 });
   return { ok: true };
 }
 
@@ -200,7 +240,7 @@ export function claimsHtml(mirror) {
 </head>
 <body>
 <h1>核对墙 Claims</h1>
-<p class="meta">只读镜像。带 https 出处的陈述，不是论坛。JSON：<a href="/v1/claims.json"><code>/v1/claims.json</code></a></p>
+<p class="meta">公开提交，没有审核队列。列出的陈述在人工复核前不可信。只读镜像，必须带 https 出处，不是论坛。JSON：<a href="/v1/claims.json"><code>/v1/claims.json</code></a></p>
 <p class="meta">${mirror.count} accepted · ${esc(mirror.timezone || "Asia/Shanghai")}</p>
 ${rows || "<p>还没有已接受的核对。</p>"}
 <p><a href="/">← 首页</a></p>

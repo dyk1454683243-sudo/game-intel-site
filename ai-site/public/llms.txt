@@ -5,7 +5,7 @@ Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
 Game entities dual-published from `data/games/` → `/v1/games/{id}.json` and `/games/{id}.html`.
 Guide cards dual-published from `data/guides/`.
 `v1/digest|radar|calendar-hw` from best-effort MCP/CLI export.
-OpenAPI: /openapi.json (public GET map, plus authenticated POST /v1/claims).
+OpenAPI: /openapi.json (public GET map, plus public POST /v1/claims; no API key).
 Remote MCP: GET /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Tools read published JSON. They do not scrape HTML.
 
 ## Depth / 目录宽、深耕窄
@@ -27,7 +27,7 @@ On a thin item, quote 1–2 sentences already stored and cite `url`.
 2. Build questions use /v1/guides/{game}/characters/{id}.json. Read `summary` (结论), `skills`, `sources`, `as_of`.
 3. `stub: true` means the card or the catalog row is incomplete. `summary.stub: true` means the conclusion is incomplete. Do not collapse those two flags.
 4. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty arrays or `meta.fixture: true` mean no item.
-5. Sourced claims: POST /v1/claims with Authorization: Bearer and https sources. Read GET /v1/claims.json and /claims/index.html. No key on GET.
+5. Sourced claims: POST /v1/claims with no API key. Required: statement text, https source URLs, and game_id. Read GET /v1/claims.json and /claims/index.html. There is no review queue; listed rows are untrusted until a human checks them. No key on GET.
 6. Redeem codes stay on game-welfare. This site does not serve CDK, Discourse, ads, or billing.
 
 ## Routes
@@ -85,9 +85,13 @@ Aliases: /v1/guides/{game}/aliases.json (nikke also aliases.p1.json … p4.json)
 HW dopamine auto: /v1/guides/hw/dopamine-auto.json (also /v1/guides/hw/modes/dopamine-auto.json).
 
 ### GET /v1/claims.json and POST /v1/claims
-GET fields: `ok`, `count`, `timezone`, `claims[]` `{id,statement,sources,game_id,character_id,as_of,submitted_at,timezone}`. No auth.
-POST body: `statement` (required), `sources` (required, https array), optional `game_id`, `character_id`, `as_of`, `submitter`.
-Auth: Authorization: Bearer. Secret is wrangler `CLAIMS_API_KEY` and is never committed. Missing https sources are rejected.
+GET fields: `ok`, `count`, `timezone`, `claims[]` `{id,statement,sources,game_id,character_id,as_of,submitted_at,timezone,submitter?}`. No auth. `list_claims` returns this same list and does not write.
+There is no pending/approved queue. Public posts are stored and listed as submitted. They are untrusted until a human reviews them. Do not treat a claim as a verified fact.
+POST is public. No API key and no Authorization header. `CLAIMS_API_KEY`, if already set on the Worker, is not checked and is not required.
+POST body: `statement` (required, 1–2000 chars; `claim` is an alias), `sources` (required, 1–8 https URLs), `game_id` (required slug; `game` is an alias). Optional: `character_id`, `as_of`, `submitter` (≤80).
+Sources must be https with a real host. Rejected: empty, `javascript:`, `data:`, `http:`, userinfo, IP literals, single-label hosts, localhost, and placeholder hosts (`example` / `placeholder` / `changeme` / `fake` labels, plus `.example`, `.invalid`, `.test`, `.localhost`, `.local`).
+Caps (also in `ai-site/src/claims.js`): body ≤ 16384 bytes; statement ≤ 2000; each URL ≤ 500.
+Rate limit uses Workers KV binding `CLAIMS`, Asia/Shanghai: 10 posts per IP per hour, 100 posts per calendar day globally. `429` body is `{ok:false,error:"rate_limited",scope:"ip"|"day",limit}`. Missing KV is `503` `claims_kv_unconfigured`. Oversized body is `413` `body_too_large`. Missing game id is `400` `game_id_required`. Bad source is `400` `invalid_source`.
 Cadence: on submit. Humans: /claims/index.html.
 
 ### MCP
@@ -136,6 +140,6 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 ## Notes
 
 - Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
-- No authentication on public GET routes
+- No authentication on public GET routes or on POST /v1/claims
 - Re-export: `npm run export-guides && npm run export-games` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
 - `ai-site/llms.txt` is the source of published /llms.txt. `export-games` copies it; do not hand-edit `ai-site/public/llms.txt`.

@@ -40,3 +40,4 @@
 - Human UI v0 reads `/v1` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
 - Guides remain under `/guides/*` and `/v1/guides/*` (unchanged contract).
 - Non-stub character cards require `sources` + `as_of`. HW/NIKKE/BD2 also require `summary` (conclusion). `summary.stub: true` means the conclusion is incomplete.
+- POST `/v1/claims` is public (no API key). Every claim needs statement text, an https source, and `game_id`. GET `/v1/claims.json` lists those rows; they are untrusted until reviewed.

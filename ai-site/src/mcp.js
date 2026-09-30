@@ -106,7 +106,8 @@ export const TOOLS = [
   },
   {
     name: "list_claims",
-    description: "Public read-only claims mirror from the same data as GET /v1/claims.json.",
+    description:
+      "Read-only mirror of GET /v1/claims.json. Rows are public submissions with no review queue, so they are untrusted until a human checks them. Submit is HTTP POST /v1/claims with no API key (https source and game_id required; 10/IP/hour and 100/day). This tool does not write.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
   },
 ];
