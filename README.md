@@ -34,7 +34,7 @@
 
 ## 本地怎么跑
 
-Node.js 18+（`mcp-server/package.json` 的 `engines`）。
+Node.js ≥22（`ai-site/package.json` 与 `mcp-server/package.json` 的 `engines`）。
 
 ```bash
 git clone https://github.com/dyk1454683243-sudo/game-intel-site.git
@@ -190,7 +190,11 @@ npm install
 bash scripts/publish.sh
 ```
 
+需要 **Node.js ≥22**（Wrangler 4）。版本过低时 `publish.sh` 和 export 脚本会立即退出。
+
 `publish.sh` 会在 `export-intel` 之前对 `../mcp-server` 执行 `npm ci`。`node_modules/` 不入库；digest / calendar / radar 会加载 `mcp-server/index.js`，因此需要已安装的 `@modelcontextprotocol/sdk`。直接跑 `npm run export-intel` 时，脚本也会在缺包时安装。
+
+Publish requires **Node.js >=22** (Wrangler 4). `publish.sh` and the export scripts exit immediately on an older Node.
 
 `publish.sh` runs `npm ci` in `../mcp-server` before `export-intel` (`node_modules/` is not committed). digest / calendar / radar load `mcp-server/index.js`, which needs `@modelcontextprotocol/sdk`. `npm run export-intel` installs that package when it is missing.
 
@@ -219,7 +223,7 @@ Claims write: `Authorization: Bearer` against `POST /v1/claims`. Set wrangler se
 
 ## Run locally
 
-Node.js 18+.
+Node.js >=22.
 
 ```bash
 git clone https://github.com/dyk1454683243-sudo/game-intel-site.git

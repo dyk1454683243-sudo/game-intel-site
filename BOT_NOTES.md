@@ -1,6 +1,6 @@
 # For other bots optimizing the site
 
-- Source of truth for deploy: `ai-site/` → `scripts/publish.sh` (export-guides → `npm ci` in `mcp-server` → export-intel → export-games → wrangler deploy). `node_modules/` is gitignored; without that install, digest/calendar/radar fail on missing `@modelcontextprotocol/sdk`.
+- Source of truth for deploy: `ai-site/` → `scripts/publish.sh` (export-guides → `npm ci` in `mcp-server` → export-intel → export-games → wrangler deploy). Requires Node >=22; the script exits if `node` is older. `node_modules/` is gitignored; without that install, digest/calendar/radar fail on missing `@modelcontextprotocol/sdk`.
 - Live: https://game-intel-ai.dyk1454683243.workers.dev
 - Dual publish: human HTML under `/games`, `/guides` + AI JSON under `/v1/`.
 - Do not invent rates/scores; stubs use `"stub": true`.

@@ -1,0 +1,30 @@
+name: node22-gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  node22-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ai-site/package-lock.json
+      - name: Node version
+        run: node -v
+      - name: publish.sh accepts this Node and does not deploy
+        run: bash ai-site/scripts/publish.sh --check-node
+      - name: Install and test
+        working-directory: ai-site
+        run: |
+          npm ci
+          npm test

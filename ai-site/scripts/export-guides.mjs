@@ -3,6 +3,7 @@
  * Export data/guides → ai-site/public (JSON for AI + simple HTML for humans).
  * Dual publish from one source of truth.
  */
+import "./require-node22.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

@@ -4,6 +4,7 @@
  * Also builds /v1/feed.json from real digest/radar items (never invents headlines).
  * Dual publish from one source of truth — separate from character guides.
  */
+import "./require-node22.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
