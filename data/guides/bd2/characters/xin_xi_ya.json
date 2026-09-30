@@ -2,7 +2,7 @@
   "id": "xin_xi_ya",
   "name": "辛西亚",
   "name_zh": "辛西亚",
-  "name_en": null,
+  "name_en": "Cynthia",
   "aliases": [],
   "nicknames": [],
   "game": "bd2",
@@ -31,23 +31,26 @@
   "teams": {},
   "sources": [
     "https://www.gamekee.com/zsca2/593593.html",
-    "https://www.gamekee.com/zsca2/614967.html"
+    "https://www.gamekee.com/zsca2/614967.html",
+    "https://browndust2.miraheze.org/wiki/Cynthia/Warmth_within_the_Severe_Cold"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 593593,
   "gamekee_entry_id": 122328,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/148256.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122328",
-  "verified": "GameKee zsca2/593593 图鉴",
+  "verified": "GameKee zsca2/593593 图鉴；GameKee zsca2/614967 三四星测评",
   "summary": {
     "position": "3星 / 水 / 魔法 / 输出",
     "sources": [
       "https://www.gamekee.com/zsca2/593593.html",
-      "https://www.gamekee.com/zsca2/614967.html"
+      "https://www.gamekee.com/zsca2/614967.html",
+      "https://browndust2.miraheze.org/wiki/Cynthia/Warmth_within_the_Severe_Cold"
     ],
-    "stub": true,
-    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）。《三四星角色测评》写的是「辛西娅（酷寒中的热气）」，与本卡「辛西亚／寒日温暖」名称不一致，未转写。图片总强度榜不转录。不编造 T 度或抽卡结论。"
+    "stub": false,
+    "caveat": "小节标题是「辛西娅（酷寒中的热气）」。图鉴中文名是辛西亚，英文 Cynthia，唯一服装英文名 Warmth within the Severe Cold，图鉴服装名是寒日温暖。技能暴风雪满破为二连击、8 次后消失的 225% 冻伤，与正文一致。没有书面 T 档。文中写明具备时效性。",
+    "tier": "GameKee 三四星测评：仅在恶魔城凹分中用"
   }
 }

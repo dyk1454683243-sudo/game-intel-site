@@ -2,7 +2,7 @@
   "id": "wei_er_ni",
   "name": "维尔尼",
   "name_zh": "维尔尼",
-  "name_en": null,
+  "name_en": "Bernie",
   "aliases": [],
   "nicknames": [],
   "game": "bd2",
@@ -39,23 +39,28 @@
   "teams": {},
   "sources": [
     "https://www.gamekee.com/zsca2/593659.html",
-    "https://www.gamekee.com/zsca2/614967.html"
+    "https://www.gamekee.com/zsca2/614967.html",
+    "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+    "https://browndust2.miraheze.org/wiki/Bernie/Righteous_Raider_Girl"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 593659,
   "gamekee_entry_id": 122341,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/858890.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122341",
-  "verified": "GameKee zsca2/593659 图鉴",
+  "verified": "GameKee zsca2/593659 图鉴；DotGG 镜像战 2025-03",
   "summary": {
     "position": "4星 / 风 / 物理 / 输出",
     "sources": [
       "https://www.gamekee.com/zsca2/593659.html",
-      "https://www.gamekee.com/zsca2/614967.html"
+      "https://www.gamekee.com/zsca2/614967.html",
+      "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+      "https://browndust2.miraheze.org/wiki/Bernie/Righteous_Raider_Girl"
     ],
-    "stub": true,
-    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）和《三四星角色测评》（未单列维尔尼）。图片总强度榜不转录。不编造 T 度或抽卡结论。"
+    "stub": false,
+    "caveat": "档位与备注摘自 DotGG 2025-03 镜像战表一行（备注原文：Not good value for cost, and not recommended）。侠盗少女对应英文服装 Righteous Raider Girl，满破技能为 2 次 110% 物理、沉默 2 回合、命中回复 3 点 SP，与图鉴「抽嗜短剑」一致。只覆盖镜像战。2026-10 角色总表未再单列。图鉴没有书面 T 档。《三四星角色测评》未单列。",
+    "tier": "DotGG 镜像战 2025-03：侠盗少女 进攻 D / 防守 D"
   }
 }

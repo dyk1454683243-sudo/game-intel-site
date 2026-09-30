@@ -2,12 +2,12 @@
   "game": "bd2",
   "name": "Brown Dust 2",
   "name_zh": "棕色尘埃2",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "timezone": "Asia/Shanghai",
   "character_count": 87,
   "rich_count": 87,
   "stub_count": 0,
-  "conclusion_stub_count": 10,
+  "conclusion_stub_count": 0,
   "characters": [
     {
       "id": "a_li_nei_si",
@@ -215,7 +215,10 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/619702.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+        "https://www.gamekee.com/zsca2/600417.html",
+        "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png"
     },
@@ -490,7 +493,9 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593667.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+        "https://browndust2.miraheze.org/wiki/Lisianne/Wandering_Priest"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/969823.png"
     },
@@ -564,7 +569,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593572.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "https://browndust2.miraheze.org/wiki/Maria/Archmage"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png"
     },
@@ -808,7 +814,9 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593659.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+        "https://browndust2.miraheze.org/wiki/Bernie/Righteous_Raider_Girl"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/858890.png"
     },
@@ -841,7 +849,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593593.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "https://browndust2.miraheze.org/wiki/Cynthia/Warmth_within_the_Severe_Cold"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/148256.png"
     },
