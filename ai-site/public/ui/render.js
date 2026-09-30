@@ -808,8 +808,20 @@ export function renderForAi() {
 <li>发布</li>
 <li>人读页与 <code>/v1</code> 同步</li>
 </ol>
-<p>MCP 只读已发布数据。新写走公开投稿口 <a href="/claims/"><code>POST /v1/claims</code></a>（https <code>sources</code> 与 <code>as_of</code>，写入用站点已配置的 Bearer，密钥不进页面），或走仓库里的导出管线。不另开私有 MCP 写通道。</p>
-<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。</p>
+<p>MCP 只读已发布数据。新写走公开投稿口 <a href="/claims/"><code>POST /v1/claims</code></a>（公开，不需要密钥；https <code>sources</code> 必填），或走仓库里的导出管线。不另开私有 MCP 写通道。</p>
+<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。深耕图鉴只有 hw、nikke、bd2。CDK 不在本站。</p>
+<h2>各页对应的 /v1</h2>
+<p>人读页只消费已发布 JSON，不另造第二套库。</p>
+<dl class="facts">
+<dt>首页</dt><dd><code>/v1/digest.json</code> · <code>/v1/radar.json</code></dd>
+<dt>目录</dt><dd><code>/v1/games/index.json</code></dd>
+<dt>观察名单</dt><dd><code>/v1/watchlist.json</code> · <code>/v1/games/index.json</code> · <code>/v1/guides/index.json</code></dd>
+<dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code> 与该游戏别名。</dd>
+<dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，仅 hw / nikke / bd2。</dd>
+<dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>
+<dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。</dd>
+<dt>草图</dt><dd><code>/sketches/</code> 不读 JSON。</dd>
+</dl>
 <p class="meta">线框草图：<a href="/sketches/">首页 / 游戏页 / 角色卡</a></p>`;
 }
 
@@ -839,8 +851,8 @@ export function renderClaims(mirror = {}) {
   return `<h1>核对墙</h1>
 <p class="lede">只列出带 https 出处、已进入镜像的断言。这不是论坛，也不是已发布的角色卡。</p>
 <aside class="notice">
-<p><strong>公开投稿已开通。</strong> <code>POST /v1/claims</code> 要求 <code>sources[]</code> 为 https，并带 <code>as_of</code>，缺则拒绝。写入使用站点已配置的 Bearer，页面不收集、不展示密钥。读取 <a href="/v1/claims.json"><code>/v1/claims.json</code></a> 不需要密钥。</p>
-<p>未经人工核对，这些陈述不能当作目录或角色卡里的已发布事实。核对之后才走现有导出管线，人读页与 <code>/v1</code> 一起更新。</p>
+<p><strong>公开投稿已开通，不需要密钥。</strong> <code>POST /v1/claims</code> 要求 <code>sources[]</code> 为可核对的 https，缺则拒绝。每条都有 <code>as_of</code>（不填则记上海当日，格式不对则拒绝），并要有 <code>game_id</code>。读取 <a href="/v1/claims.json"><code>/v1/claims.json</code></a>。</p>
+<p>没有审核队列。未经人工核对并经现有导出管线发布之前，这些陈述都不可信，不能当作目录或角色卡里的已发布事实。</p>
 <p>MCP 只读已发布数据。新写走这个投稿口或现有导出管线，不另开私写。</p>
 </aside>
 <p class="meta">${esc(count)} 条 · ${esc((mirror && mirror.timezone) || "Asia/Shanghai")}</p>

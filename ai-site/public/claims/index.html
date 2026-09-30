@@ -10,7 +10,7 @@
 <body data-view="claims">
   <div id="app"><p class="meta">正在读取 /v1/claims.json …</p></div>
   <noscript>
-    <p>需要 JavaScript。公开投稿口是 POST /v1/claims：sources 必须是 https，并带 as_of，缺则拒绝。未经人工核对，不能当成已发布事实。</p>
+    <p>需要 JavaScript。POST /v1/claims 公开，不需要密钥。sources 必须是 https，缺则拒绝。每条都有 as_of。未经人工核对并导出之前，陈述不可信。</p>
     <p><a href="/v1/claims.json">/v1/claims.json</a></p>
   </noscript>
   <script type="module" src="/ui/app.js"></script>

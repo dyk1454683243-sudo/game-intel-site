@@ -93,7 +93,7 @@ npm run preview
 - `/watchlist/` 观察名单：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
 - `/game/?id=` 身份、深耕入口（仅 hw / nikke / bd2 有图鉴）、该游资讯
 - `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开
-- `/claims/` 核对墙。`POST /v1/claims` 已开通（https `sources` 与 `as_of`，缺则拒）。未经人工核对，不能当成已发布事实
+- `/claims/` 核对墙。`POST /v1/claims` 公开，不需要密钥（https `sources` 必填；`as_of` 会记下）。镜像条目在人工复核并导出前不可信
 - `/for-ai/` MCP URL、OpenAPI、`llms.txt`
 - 线框草图：`/sketches/`（首页、游戏页、角色卡）
 
@@ -262,7 +262,7 @@ npm run preview
 # http://127.0.0.1:8787/   e.g. /llms.txt , /v1/guides/index.json , /guides/hw/lysandria.html
 ```
 
-Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, claims wall, For AI. Game and character pages open from the catalog or watchlist. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that `POST /v1/claims` is live (https `sources` and `as_of` required; untrusted until a human review publishes through the existing export). Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
+Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, claims wall, For AI. Game and character pages open from the catalog or watchlist. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that public `POST /v1/claims` needs no API key (https `sources` required; `as_of` is stored; mirror rows stay untrusted until a human review publishes through the existing export). `/for-ai/` lists the `/v1` path each human page reads. Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
 
 After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and an hw / nikke / bd2 card that lacks a conclusion row.
 

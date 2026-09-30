@@ -313,6 +313,12 @@ test("shared nav matches the site map and for-ai states the write path", () => {
   assert.match(ai, /as_of/);
   assert.match(ai, /填模板/);
   assert.match(ai, /不另开私有 MCP 写通道/);
+  assert.match(ai, /不需要密钥/);
+  assert.match(ai, /\/v1\/digest\.json/);
+  assert.match(ai, /\/v1\/games\/\{id\}\.json/);
+  assert.match(ai, /\/v1\/guides\/\{game\}\/characters\/\{id\}\.json/);
+  assert.match(ai, /GET \/v1\/claims\.json/);
+  assert.doesNotMatch(ai, /Bearer/);
   assert.match(ai, /href="\/sketches\/"/);
 
   const wall = renderClaims({
@@ -330,6 +336,9 @@ test("shared nav matches the site map and for-ai states the write path", () => {
   assert.match(wall, /POST \/v1\/claims/);
   assert.match(wall, /https/);
   assert.match(wall, /未经人工核对/);
+  assert.match(wall, /不可信/);
+  assert.match(wall, /不需要密钥/);
+  assert.doesNotMatch(wall, /Bearer/);
   assert.match(wall, /示例断言/);
   assert.match(wall, /https:\/\/example\.com\/source/);
   const empty = renderClaims({ claims: [], error: "无法读取 /v1/claims.json（404）" });
