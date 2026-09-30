@@ -1,0 +1,23 @@
+{
+  "id": "yan_long_xiao_ye_mei",
+  "name": "炎龙小夜美",
+  "name_zh": "炎龙小夜美",
+  "name_en": null,
+  "aliases": [
+    "烈焰魔女",
+    "猛炎少女"
+  ],
+  "nicknames": [],
+  "game": "asora",
+  "role": null,
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/www/722620.html"
+  ],
+  "stub": true,
+  "note": "TGS「悠露子三人组」之一。摘要：烈焰魔女，青森县出身的强大魔女。正文：青森县来的「猛炎少女」，从小接受罗马尼亚大魔女祖母的教育，对青森县有很强的自豪感。不写技能、强度或概率。",
+  "as_of": "2026-09-30",
+  "verified": "GameKee www/722620 TGS 悠露子三人组"
+}

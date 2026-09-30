@@ -33,14 +33,22 @@
   "weapon": "SR",
   "element": "Water",
   "manufacturer": "Elysion",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "皇冠+丽塔+红毗+红帽+珍藏品海伦（低配使用娜嘉）的国家队阵容",
+      "珍藏品海伦可以看做娜嘉的绝对上位，成为队伍中的通用五号位选择，她通常放在轴外辅助",
+      "推荐阵容：小红帽：拉毗 马斯特：浪漫的女仆 安克：天真的女仆 海伦（珍藏品）普丽瓦蒂（珍藏品）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/helm-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/helm/?treasure=true"
+    "https://nikke.gg/characters/helm/?treasure=true",
+    "https://www.gamekee.com/nikke/700085.html",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "portrait": "https://cdn.prydwen.gg/images/nikke/characters/helm-treasure.webp",

@@ -494,18 +494,19 @@ export function renderWatchlist({ watchlist, catalog, guides } = {}) {
       const count = guide && guide.character_count != null ? guide.character_count : null;
       const steam = (fromCatalog && fromCatalog.steam_appid) || (fromWatch && fromWatch.steam_appid);
       const empty = !deep && (count == null || count === 0);
+      const thin = !deep && typeof count === "number" && count > 0 ? `身份卡 ${count}，不写强度。` : "";
       return `<article class="card"><h2>${link(gameHref(id), nameZh)}</h2>
 <p class="meta">${esc(name && name !== nameZh ? `${name} · ${id}` : id)}</p>
 <p class="flags">${marks.join(" ")}</p>
 ${fromCatalog ? `<p>平台 ${chips(fromCatalog.platforms)}</p><p>标签 ${chips(fromCatalog.tags)}</p>` : ""}
 ${steam != null && steam !== "" ? `<p class="meta">steam_appid <code>${esc(steam)}</code></p>` : ""}
-${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · ${esc(count)}` : ""}</a></p>` : `<p class="rule">尚无深耕。${empty ? "深耕目录为空。" : ""}</p>`}
+${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · ${esc(count)}` : ""}</a></p>` : `<p class="rule">尚无深耕。${empty ? "深耕目录为空。" : thin}</p>`}
 </article>`;
     })
     .join("");
   const meta = watchlist && watchlist.meta;
   return `<h1>关注</h1>
-<p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。星原、阿索拉、미래시、LO2 保留空目录。</p>
+<p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
 <div class="stack">${cards}</div>

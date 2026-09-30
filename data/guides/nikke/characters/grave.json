@@ -35,15 +35,20 @@
   "weapon": "作家的橡皮擦",
   "element": "燃烧",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "2号位：娜由塔/皇冠/格拉维"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/grave",
     "https://www.gamekee.com/nikke/170831.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/grave/"
+    "https://nikke.gg/characters/grave/",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 170831,
   "gamekee_entry_id": 169046,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/5/646530.png",

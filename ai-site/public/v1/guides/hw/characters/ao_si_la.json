@@ -53,12 +53,16 @@
     ]
   },
   "weapon": "伟大先祖的圣痕",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "开荒期追伤机制很强，配合奥利维亚表现不错"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/634306.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 634306,
   "gamekee_entry_id": 163029,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/887329.png",

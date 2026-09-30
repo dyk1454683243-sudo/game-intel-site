@@ -50,12 +50,16 @@
   ],
   "stigmata": null,
   "weapon": "第九毒牙",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "由于总力战强行有等级压制，速通用毒是最好的，不过还得配合艾姬德娜"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/634302.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 634302,
   "gamekee_entry_id": 163045,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/25951.png",

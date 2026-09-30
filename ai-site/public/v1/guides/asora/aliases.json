@@ -1,8 +1,39 @@
 {
   "_meta": {
     "game": "asora",
-    "note": "fill when verified from GameKee 图鉴/测评 or Bahamut; never invent skill names/numbers",
-    "as_of": "2026-09"
+    "note": "TGS 悠露子三人组 identity only, GameKee www/722620 (2026-09-30). Summary spelling 柳原路易斯 and body spelling 柳原路易丝 are both on that page. No skill names or numbers.",
+    "as_of": "2026-09-30"
   },
-  "aliases": {}
+  "aliases": {
+    "柳原路易斯": {
+      "id": "liu_yuan_lu_yi_si",
+      "name": "柳原路易斯",
+      "kind": "character"
+    },
+    "柳原路易丝": {
+      "id": "liu_yuan_lu_yi_si",
+      "name": "柳原路易斯",
+      "kind": "character"
+    },
+    "炎龙小夜美": {
+      "id": "yan_long_xiao_ye_mei",
+      "name": "炎龙小夜美",
+      "kind": "character"
+    },
+    "烈焰魔女": {
+      "id": "yan_long_xiao_ye_mei",
+      "name": "炎龙小夜美",
+      "kind": "character"
+    },
+    "猛炎少女": {
+      "id": "yan_long_xiao_ye_mei",
+      "name": "炎龙小夜美",
+      "kind": "character"
+    },
+    "爱泉柚月": {
+      "id": "ai_quan_you_yue",
+      "name": "爱泉柚月",
+      "kind": "character"
+    }
+  }
 }

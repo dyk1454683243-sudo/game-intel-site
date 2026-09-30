@@ -35,15 +35,20 @@
   "weapon": "羁绊之心",
   "element": "燃烧",
   "manufacturer": "米西利斯（超标准）",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "但和米兰达（珍藏品）组队依旧是她收益最佳的组合（持续伤害可以受到双暴加持）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain",
     "https://www.gamekee.com/nikke/660553.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mihara-bonding-chain/"
+    "https://nikke.gg/characters/mihara-bonding-chain/",
+    "https://www.gamekee.com/nikke/721995.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 660553,
   "gamekee_entry_id": 185065,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/282296.png",

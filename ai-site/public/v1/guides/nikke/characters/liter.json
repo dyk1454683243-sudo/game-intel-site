@@ -34,15 +34,21 @@
   "weapon": "金刚宝贝",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "T2：丽塔———露姬--D：杀手妻子",
+      "人人都可以从任务以及新手活动中100%获得的阵容 蒂亚-丽塔-娜嘉-爱丽丝-德雷克-迪塞尔&普丽瓦蒂-海伦"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/liter",
     "https://www.gamekee.com/nikke/589853.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/liter/"
+    "https://nikke.gg/characters/liter/",
+    "https://www.gamekee.com/nikke/682131.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 589853,
   "gamekee_entry_id": 120208,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/3/27/379549.png",
