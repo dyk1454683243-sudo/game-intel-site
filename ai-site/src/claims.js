@@ -1,5 +1,6 @@
 import { formatShanghai, shanghaiYmd } from "./time.js";
 import { isSlug } from "./public-json.js";
+import { renderClaims, renderFrame } from "../public/ui/render.js";
 
 /**
  * Public POST /v1/claims abuse caps. No API key.
@@ -210,48 +211,18 @@ export async function listClaims(env) {
 }
 
 export function claimsHtml(mirror) {
-  const rows = (mirror.claims || [])
-    .map((c) => {
-      const sources = (c.sources || [])
-        .map((u) => `<li><a href="${esc(u)}" rel="noopener noreferrer">${esc(u)}</a></li>`)
-        .join("");
-      const who = c.submitter ? `<span class="meta">${esc(c.submitter)}</span>` : "";
-      const game = c.game_id ? `<code>${esc(c.game_id)}</code>` : "";
-      const character = c.character_id ? `<code>${esc(c.character_id)}</code>` : "";
-      return `<article>
-<h2>${esc(c.statement)}</h2>
-<p class="meta">${esc(c.submitted_at || "")} · as_of ${esc(c.as_of || "")} ${who} ${game} ${character}</p>
-<ul>${sources}</ul>
-</article>`;
-    })
-    .join("\n");
+  const body = renderFrame("claims", renderClaims(mirror));
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>核对墙 · game-intel claims</title>
-  <style>
-    body{font-family:system-ui,sans-serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#111}
-    a{color:#06c} code{background:#f4f4f4;padding:.1em .35em;border-radius:4px}
-    .meta{color:#666;font-size:.9rem} article{border-top:1px solid #ddd;padding:1rem 0}
-    ul{padding-left:1.2rem}
-  </style>
+  <meta name="color-scheme" content="light dark"/>
+  <title>核对墙 · game-intel</title>
+  <link rel="stylesheet" href="/ui/app.css"/>
 </head>
 <body>
-<h1>核对墙 Claims</h1>
-<p class="meta">公开提交，没有审核队列。列出的陈述在人工复核前不可信。只读镜像，必须带 https 出处，不是论坛。JSON：<a href="/v1/claims.json"><code>/v1/claims.json</code></a></p>
-<p class="meta">${mirror.count} accepted · ${esc(mirror.timezone || "Asia/Shanghai")}</p>
-${rows || "<p>还没有已接受的核对。</p>"}
-<p><a href="/">← 首页</a></p>
+${body}
 </body>
 </html>`;
-}
-
-function esc(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }

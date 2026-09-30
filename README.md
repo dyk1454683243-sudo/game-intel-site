@@ -84,13 +84,18 @@ npm run preview
 # http://127.0.0.1:8787/   例如 /llms.txt 、/v1/guides/index.json 、/guides/hw/lysandria.html
 ```
 
-人类界面（中文，浏览器读取已发布的 `/v1` JSON，无登录、无 CDK）：
+人类界面（中文，浏览器读取已发布的 `/v1` JSON，无登录、无 CDK）。
 
-- `/` 今日摘要与雷达
-- `/catalog/` 目录检索
-- `/watchlist/` 关注：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
-- `/game/?id=` 身份卡；hw / nikke / bd2 以外显示「尚无深耕」
-- `/character/?game=hw&id=` 角色深耕（强度、服装、技能、出处），仅这三款
+人从网页专区进，AI 从 MCP + `/v1` 进，读的是同一份已发布数据。主导航：首页、目录、观察名单、核对墙、给 AI。游戏页和角色卡从目录或观察名单进入。写卡仍是同一条路：填模板 → 校验（`sources[]` https + `as_of`，缺则拒）→ 可选审 → 发布 → 人读页与 `/v1` 同步。MCP 只读。新写走 `POST /v1/claims` 或现有导出管线。
+
+- `/` 今日情报摘要，并进入观察名单和给 AI
+- `/catalog/` 轻目录（stub 身份卡）
+- `/watchlist/` 观察名单：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
+- `/game/?id=` 身份、深耕入口（仅 hw / nikke / bd2 有图鉴）、该游资讯
+- `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开
+- `/claims/` 核对墙。`POST /v1/claims` 已开通（https `sources` 与 `as_of`，缺则拒）。未经人工核对，不能当成已发布事实
+- `/for-ai/` MCP URL、OpenAPI、`llms.txt`
+- 线框草图：`/sketches/`（首页、游戏页、角色卡）
 
 静态双发页仍在 `/games/` 与 `/guides/`。`export-games` 会把 `ai-site/public/ui/home.html` 复制为站点首页。
 
@@ -257,7 +262,7 @@ npm run preview
 # http://127.0.0.1:8787/   e.g. /llms.txt , /v1/guides/index.json , /guides/hw/lysandria.html
 ```
 
-Human UI (Chinese, reads published `/v1` JSON, no login, no CDK): `/` digest and radar, `/catalog/` search, `/watchlist/`, `/game/?id=` identity cards, `/character/?game=&id=` for hw / nikke / bd2 only. Static dual-publish pages stay under `/games/` and `/guides/`.
+Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, claims wall, For AI. Game and character pages open from the catalog or watchlist. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that `POST /v1/claims` is live (https `sources` and `as_of` required; untrusted until a human review publishes through the existing export). Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
 
 After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and an hw / nikke / bd2 card that lacks a conclusion row.
 

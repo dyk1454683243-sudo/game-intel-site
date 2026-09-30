@@ -19,8 +19,12 @@ export const WATCH_ORDER = Object.freeze([
 const NAV = [
   ["home", "/", "首页"],
   ["catalog", "/catalog/", "目录"],
-  ["watchlist", "/watchlist/", "关注"],
+  ["watchlist", "/watchlist/", "观察名单"],
+  ["claims", "/claims/", "核对墙"],
+  ["for-ai", "/for-ai/", "给 AI"],
 ];
+
+const PUBLIC_SITE = "https://game-intel-ai.dyk1454683243.workers.dev";
 
 const GAP = "未见可靠出处";
 
@@ -225,7 +229,17 @@ function renderNav(active) {
 }
 
 function renderFooter() {
-  return `<footer class="site-foot"><p>目录宽、深耕窄、出处硬</p><p>无登录。CDK 不在本站。</p></footer>`;
+  return `<footer class="site-foot"><p>人读网页专区，AI 读 MCP 与 /v1，同一份已发布数据。</p><p>目录宽、深耕窄、出处硬。不编造评分或价格。</p><p>无登录。CDK 不在本站。</p></footer>`;
+}
+
+function depthBanner(kind, label) {
+  return `<p class="depth-banner ${kind}">${esc(label)}</p>`;
+}
+
+function characterDepth(card) {
+  if (!card || card.stub === true) return "stub";
+  if (!card.summary || card.summary.stub === true) return "partial";
+  return "deep";
 }
 
 export function renderFrame(active, body) {
@@ -274,6 +288,13 @@ function jsonLink(href, label) {
   return `<p class="meta">JSON：${link(href, label || href)}</p>`;
 }
 
+function zoneEntries() {
+  return `<nav class="zones" aria-label="首页入口">
+<a class="zone" href="/watchlist/"><strong>观察名单</strong><span>深耕从图鉴进。其余游戏只保留身份。</span></a>
+<a class="zone" href="/for-ai/"><strong>给 AI</strong><span>MCP、OpenAPI、llms.txt。与人读同一份已发布数据。</span></a>
+</nav>`;
+}
+
 export function renderHome({ digest, radar, digestError = "", radarError = "", today } = {}) {
   const day = today || shanghaiToday();
   const digestBlock = digestError
@@ -281,7 +302,8 @@ export function renderHome({ digest, radar, digestError = "", radarError = "", t
     : renderDigest(digest, day);
   const radarBlock = radarError ? renderError(radarError) : renderRadar(radar, day);
   return `<h1>今日情报</h1>
-<p class="lede">摘要与雷达都读已发布的 <code>/v1</code> JSON，不另写情报。</p>
+<p class="lede">今日摘要读已发布的 <code>/v1/digest.json</code>。人从观察名单继续，AI 从「给 AI」读同一份数据。</p>
+${zoneEntries()}
 <section aria-labelledby="digest-h">${digestBlock}</section>
 <section aria-labelledby="radar-h">${radarBlock}</section>`;
 }
@@ -361,18 +383,19 @@ export function renderCatalog(index, opts = {}) {
       const zh = game.name_zh || game.name || game.id;
       const sub = [game.name && game.name !== zh ? game.name : "", game.id].filter(Boolean).join(" · ");
       const marks = [];
-      if (game.watchlist) marks.push(flag("关注", "wl"));
+      if (game.watchlist) marks.push(flag("观察名单", "wl"));
       if (game.stub === true) marks.push(flag("stub", "stub"));
       marks.push(isDeep(game.id) ? flag("已深耕", "deep") : flag("尚无深耕", "gap"));
-      return `<li><a class="row" href="${esc(gameHref(game.id))}"><span class="row-title">${esc(zh)}</span><span class="row-sub">${esc(sub)}</span><span class="row-tags">${chips(game.platforms)} ${chips(game.tags)}</span><span class="row-flags">${marks.join(" ")}</span></a></li>`;
+      const tone = isDeep(game.id) ? "row-deep" : "row-stub";
+      return `<li><a class="row ${tone}" href="${esc(gameHref(game.id))}"><span class="row-title">${esc(zh)}</span><span class="row-sub">${esc(sub)}</span><span class="row-tags">${chips(game.platforms)} ${chips(game.tags)}</span><span class="row-flags">${marks.join(" ")}</span></a></li>`;
     })
     .join("");
-  return `<h1>游戏目录</h1>
-<p class="lede">共 ${esc(index && index.count != null ? index.count : games.length)} 部。身份卡展示名称、平台、标签、出处和 steam_appid。</p>
+  return `<h1>目录</h1>
+<p class="lede">轻目录，共 ${esc(index && index.count != null ? index.count : games.length)} 部。stub 身份卡只展示名称、平台、标签、出处和 steam_appid，不写评分或价格。</p>
 <p class="meta">${index && index.as_of ? `as_of ${esc(index.as_of)}` : ""} ${index && index.timezone ? esc(index.timezone) : ""}</p>
 <form id="filters" role="search">
 <label>搜索 <input id="q" name="q" type="search" value="${esc(opts.q || "")}" placeholder="名称、id、标签" autocomplete="off"/></label>
-<label>范围 <select id="kind" name="kind">${option("all", "全部", kind)}${option("watchlist", "关注", kind)}${option("stub", "仅身份", kind)}${option("deep", "已深耕", kind)}</select></label>
+<label>范围 <select id="kind" name="kind">${option("all", "全部", kind)}${option("watchlist", "观察名单", kind)}${option("stub", "仅身份", kind)}${option("deep", "已深耕", kind)}</select></label>
 <label>平台 <select id="platform" name="platform">${option("", "全部平台", opts.platform)}${platforms.map((value) => option(value, value, opts.platform)).join("")}</select></label>
 <label>标签 <select id="tag" name="tag">${option("", "全部标签", opts.tag)}${tags.map((value) => option(value, value, opts.tag)).join("")}</select></label>
 </form>
@@ -386,11 +409,12 @@ function identityFacts(game) {
   const en = game.name && game.name !== zh ? game.name : "";
   const steam = game.steam_appid == null || game.steam_appid === "" ? "无" : game.steam_appid;
   const marks = [];
-  if (game.watchlist) marks.push(flag("关注", "wl"));
+  if (game.watchlist) marks.push(flag("观察名单", "wl"));
   if (game.stub === true) marks.push(flag("stub", "stub"));
   if (!isDeep(game.id)) marks.push(flag("尚无深耕", "gap"));
   else marks.push(flag("已深耕", "deep"));
-  return `<p class="crumbs">${link("/catalog/", "目录")}${game.watchlist ? ` / ${link("/watchlist/", "关注")}` : ""} / ${esc(zh)}</p>
+  return `<p class="crumbs">${link("/catalog/", "目录")}${game.watchlist ? ` / ${link("/watchlist/", "观察名单")}` : ""} / ${esc(zh)}</p>
+${depthBanner(isDeep(game.id) ? "deep" : "stub", isDeep(game.id) ? "深耕" : "尚无深耕")}
 <h1>${esc(zh)} <code>${esc(game.id || "")}</code></h1>
 <p class="flags">${marks.join(" ")}</p>
 ${en ? `<p class="meta">${esc(en)}</p>` : ""}
@@ -446,7 +470,7 @@ export function renderGame(game, extras = {}) {
   const aliasesById = extras.aliasesById || null;
   let deepBlock = "";
   if (!deep) {
-    deepBlock = `<p class="rule">尚无深耕。这里只保留身份和出处。</p>`;
+    deepBlock = `<p class="rule">尚无深耕。这里只保留身份和出处，不写图鉴。</p>`;
   } else if (guideError) {
     deepBlock = `<h2>角色</h2>${renderError(guideError)}`;
   } else {
@@ -457,16 +481,36 @@ export function renderGame(game, extras = {}) {
       .map((card) => {
         const name = card.name_zh || card.name || card.id;
         const stub = card.stub === true ? ` ${flag("stub", "stub")}` : "";
-        return `<li><a class="char-row" href="${esc(characterHref(game.id, card.id))}">${portraitTag(card)}<span><span class="row-title">${esc(name)}</span> <code>${esc(card.id)}</code>${stub}</span></a></li>`;
+        const tone = card.stub === true ? "char-stub" : "char-deep";
+        return `<li><a class="char-row ${tone}" href="${esc(characterHref(game.id, card.id))}">${portraitTag(card)}<span><span class="row-title">${esc(name)}</span> <code>${esc(card.id)}</code>${stub}</span></a></li>`;
       })
       .join("");
     deepBlock = `<h2>角色</h2>
-<p class="rule">角色卡只来自 <code>/v1/guides/${esc(game.id)}/</code>。强度、服装、技能和出处在角色页。</p>
+<p class="rule">图鉴只对观察名单里已深耕的游戏开放。角色卡来自 <code>/v1/guides/${esc(game.id)}/</code>，页内是结论、技能养成、配队、出处、立绘。</p>
 <form id="filters" role="search"><label>搜索角色 <input id="q" name="q" type="search" value="${esc(q)}" placeholder="角色名、别名或 id" autocomplete="off"/></label></form>
 <p class="meta">${esc(count)} 名，显示 ${filtered.length} 名</p>
 ${rows ? `<ul class="char-list">${rows}</ul>` : `<p class="meta">深耕目录为空</p>`}`;
   }
-  return `${identityFacts(game)}${deepBlock}${jsonLink(`/v1/games/${encodeURIComponent(game.id)}.json`, `/v1/games/${game.id}.json`)}`;
+  const tone = deep ? "sheet sheet-deep" : "sheet sheet-stub";
+  return `<article class="${tone}">${identityFacts(game)}${deepBlock}${renderGameNews(extras.news, extras.newsError || "")}${jsonLink(`/v1/games/${encodeURIComponent(game.id)}.json`, `/v1/games/${game.id}.json`)}</article>`;
+}
+
+export function newsForGame(digest, gameId) {
+  const rows = (digest && digest.digests) || [];
+  const row = rows.find((item) => item && String(item.game) === String(gameId));
+  return row && Array.isArray(row.items) ? row.items : [];
+}
+
+function renderGameNews(items, error) {
+  const head = `<h2>该游资讯</h2><p class="rule">只列出已发布 digest 里这部游戏的标题和出处。</p>`;
+  if (error) return `<section aria-label="该游资讯">${head}${renderError(error)}</section>`;
+  const list = Array.isArray(items) ? items : [];
+  const shown = list.slice(0, 8);
+  const html = shown.map(headlineItem).filter(Boolean).join("");
+  const more =
+    list.length > shown.length ? `<p class="meta">其余 ${list.length - shown.length} 条见 /v1/digest.json</p>` : "";
+  const body = html ? `<ul class="headlines">${html}</ul>${more}` : `<p class="meta">暂无已发布资讯。</p>`;
+  return `<section aria-label="该游资讯">${head}${body}</section>`;
 }
 
 export function renderWatchlist({ watchlist, catalog, guides } = {}) {
@@ -486,9 +530,9 @@ export function renderWatchlist({ watchlist, catalog, guides } = {}) {
       const nameZh = (fromCatalog && fromCatalog.name_zh) || (fromWatch && fromWatch.name_zh) || (shell && shell.name_zh) || id;
       const name = (fromCatalog && fromCatalog.name) || (fromWatch && fromWatch.name) || (shell && shell.name) || "";
       const deep = isDeep(id);
-      const marks = [flag("关注", "wl")];
+      const marks = [flag("观察名单", "wl")];
       if (fromCatalog && fromCatalog.stub === true) marks.push(flag("stub", "stub"));
-      if (!fromWatch) marks.push(flag("关注列表 JSON 未收录", "gap"));
+      if (!fromWatch) marks.push(flag("观察名单 JSON 未收录", "gap"));
       if (!fromCatalog) marks.push(flag("目录索引未收录", "gap"));
       marks.push(deep ? flag("已深耕", "deep") : flag("尚无深耕", "gap"));
       const count = guide && guide.character_count != null ? guide.character_count : null;
@@ -505,7 +549,7 @@ ${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · $
     })
     .join("");
   const meta = watchlist && watchlist.meta;
-  return `<h1>关注</h1>
+  return `<h1>观察名单</h1>
 <p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
@@ -644,7 +688,7 @@ function renderSkills(card) {
 
 function renderTeams(card) {
   const lines = teamLines(card);
-  if (!lines.length) return "";
+  if (!lines.length) return `<section><h2>配队</h2><p class="gap">${GAP}</p></section>`;
   return `<section><h2>配队</h2><ul>${lines
     .map((row) => `<li><span class="k">${esc(row.label)}</span> ${esc(row.text)}</li>`)
     .join("")}</ul></section>`;
@@ -691,10 +735,11 @@ export function renderCharacter(gameId, card) {
   const known = watchMeta(id);
   const gameLabel = (known && known.name_zh) || id;
   if (!isDeep(id)) {
-    return `<p class="crumbs">${link("/watchlist/", "关注")} / ${link(gameHref(id), gameLabel)}</p>
+    return `<article class="sheet sheet-stub"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)}</p>
+${depthBanner("stub", "尚无深耕")}
 <h1>尚无深耕</h1>
 <p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）。</p>
-<p class="flags">${flag("尚无深耕", "gap")}</p>`;
+<p class="flags">${flag("尚无深耕", "gap")}</p></article>`;
   }
   if (!card || typeof card !== "object") return renderError("未找到角色卡");
   if (card.game && card.game !== id) {
@@ -703,22 +748,32 @@ export function renderCharacter(gameId, card) {
   const name = card.name_zh || card.name || card.id || "未命名";
   const en = card.name_en && card.name_en !== name ? card.name_en : "";
   const nick = Array.isArray(card.nicknames) && card.nicknames.length ? card.nicknames.join("、") : "";
+  const depth = characterDepth(card);
+  const depthLabel = depth === "deep" ? "深耕" : depth === "partial" ? "结论未完成" : "stub";
   const marks = [];
   if (card.stub === true) marks.push(flag("stub", "stub"));
   const sources = collectCardSources(card);
   const weapon = typeof card.weapon === "string" && card.weapon.trim() ? card.weapon : "";
-  return `<p class="crumbs">${link("/watchlist/", "关注")} / ${link(gameHref(id), gameLabel)} / ${esc(name)}</p>
-<div class="char-head">${portraitTag(card, true)}<div>
+  const depthNote =
+    depth === "deep"
+      ? "深耕卡。结论、技能养成、配队、出处、立绘都只来自这张已发布 JSON。"
+      : depth === "partial"
+        ? "结论未完成（summary.stub）。其余栏只显示卡上已有字段，不补评分或价格。"
+        : "stub 身份卡。只显示卡上已有字段，不补强度、价格或档位。";
+  return `<article class="sheet sheet-${depth}"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)} / ${esc(name)}</p>
+${depthBanner(depth, depthLabel)}
+<div class="char-head"><figure class="art"><figcaption>立绘</figcaption>${portraitTag(card, true)}</figure><div>
 <h1>${esc(name)} <code>${esc(card.id || "")}</code></h1>
 ${marks.length ? `<p class="flags">${marks.join(" ")}</p>` : ""}
+<p class="rule">${depthNote}</p>
 <p class="meta">${esc([en, nick ? `别名 ${nick}` : "", card.as_of ? `as_of ${card.as_of}` : ""].filter(Boolean).join(" · "))}</p>
 ${card.verified ? `<p class="meta">核对：${esc(card.verified)}</p>` : ""}
 ${portraitCite(card)}
 </div></div>
 ${gapBanner(card)}
-<section><h2>强度</h2>${renderStrength(card)}</section>
+<section><h2>结论</h2>${renderStrength(card)}</section>
 <section><h2>服装</h2>${renderCostumes(card)}</section>
-<section><h2>技能</h2>${renderSkills(card)}</section>
+<section><h2>技能养成</h2>${renderSkills(card)}</section>
 ${renderTeams(card)}
 ${renderStigmata(card.stigmata)}
 ${weapon ? `<section><h2>武器</h2><p>${esc(weapon)}</p></section>` : ""}
@@ -727,5 +782,68 @@ ${weapon ? `<section><h2>武器</h2><p>${esc(weapon)}</p></section>` : ""}
       ? `<ul class="sources">${sources.map((item) => `<li>${link(item.url, item.label || item.url)}</li>`).join("")}</ul>`
       : `<p class="gap">出处：${GAP}</p>`
   }</section>
-${card.id ? jsonLink(`/v1/guides/${encodeURIComponent(id)}/characters/${encodeURIComponent(card.id)}.json`, `/v1/guides/${id}/characters/${card.id}.json`) : ""}`;
+${card.id ? jsonLink(`/v1/guides/${encodeURIComponent(id)}/characters/${encodeURIComponent(card.id)}.json`, `/v1/guides/${id}/characters/${card.id}.json`) : ""}</article>`;
+}
+
+export function renderForAi() {
+  return `<h1>给 AI</h1>
+<p class="lede">人和 AI 读同一份已发布数据。本页只说明入口，不另开写卡接口。</p>
+<h2>双入口</h2>
+<ul class="plain">
+<li>人：网页专区。首页（今日情报）→ 目录或观察名单 → 游戏页（身份、深耕入口、该游资讯）→ 角色卡。核对墙单列。</li>
+<li>AI：MCP <code>/mcp</code> 与 JSON <code>/v1</code>。发现文档是 <a href="/.well-known/mcp.json">/.well-known/mcp.json</a>，与 <a href="/.well-known/ai-catalog.json">/.well-known/ai-catalog.json</a> 相同。</li>
+</ul>
+<h2>三个地址</h2>
+<dl class="facts">
+<dt>MCP</dt><dd>连接 <code>/mcp</code>（Streamable HTTP，只读已发布 JSON）。托管站同一路径：<code>${PUBLIC_SITE}/mcp</code>。发现文档见上一节。</dd>
+<dt>OpenAPI</dt><dd><a href="/openapi.json"><code>/openapi.json</code></a></dd>
+<dt>llms.txt</dt><dd><a href="/llms.txt"><code>/llms.txt</code></a></dd>
+</dl>
+<h2>写卡统一框架</h2>
+<p>字段跟现有 <a href="/schema/character-card.schema.json">character-card schema</a>。非 stub 必填 <code>sources[]</code>（https）和 <code>as_of</code>，缺则拒绝。</p>
+<ol>
+<li>填模板</li>
+<li>校验</li>
+<li>可选审</li>
+<li>发布</li>
+<li>人读页与 <code>/v1</code> 同步</li>
+</ol>
+<p>MCP 只读已发布数据。新写走公开投稿口 <a href="/claims/"><code>POST /v1/claims</code></a>（https <code>sources</code> 与 <code>as_of</code>，写入用站点已配置的 Bearer，密钥不进页面），或走仓库里的导出管线。不另开私有 MCP 写通道。</p>
+<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。</p>
+<p class="meta">线框草图：<a href="/sketches/">首页 / 游戏页 / 角色卡</a></p>`;
+}
+
+export function renderClaims(mirror = {}) {
+  const claims = Array.isArray(mirror && mirror.claims) ? mirror.claims : [];
+  const error = mirror && mirror.error ? renderError(mirror.error) : "";
+  const rows = claims
+    .map((claim) => {
+      const items = normalizeSources(claim && claim.sources);
+      const sourceHtml = items.length
+        ? `<ul class="sources">${items.map((item) => `<li>${link(item.url, item.label || item.url)}</li>`).join("")}</ul>`
+        : `<p class="gap">出处：${GAP}</p>`;
+      const bits = [
+        claim && claim.submitted_at,
+        claim && claim.as_of ? `as_of ${claim.as_of}` : "",
+        claim && claim.submitter,
+        claim && claim.game_id,
+        claim && claim.character_id,
+      ].filter(Boolean);
+      return `<article class="card"><h2>${esc((claim && claim.statement) || "")}</h2>${
+        bits.length ? `<p class="meta">${esc(bits.join(" · "))}</p>` : ""
+      }${sourceHtml}</article>`;
+    })
+    .join("");
+  const count = mirror && mirror.count != null ? mirror.count : claims.length;
+  const empty = error ? "" : `<p>还没有已接受的核对。</p>`;
+  return `<h1>核对墙</h1>
+<p class="lede">只列出带 https 出处、已进入镜像的断言。这不是论坛，也不是已发布的角色卡。</p>
+<aside class="notice">
+<p><strong>公开投稿已开通。</strong> <code>POST /v1/claims</code> 要求 <code>sources[]</code> 为 https，并带 <code>as_of</code>，缺则拒绝。写入使用站点已配置的 Bearer，页面不收集、不展示密钥。读取 <a href="/v1/claims.json"><code>/v1/claims.json</code></a> 不需要密钥。</p>
+<p>未经人工核对，这些陈述不能当作目录或角色卡里的已发布事实。核对之后才走现有导出管线，人读页与 <code>/v1</code> 一起更新。</p>
+<p>MCP 只读已发布数据。新写走这个投稿口或现有导出管线，不另开私写。</p>
+</aside>
+<p class="meta">${esc(count)} 条 · ${esc((mirror && mirror.timezone) || "Asia/Shanghai")}</p>
+${error}
+${rows || empty}`;
 }

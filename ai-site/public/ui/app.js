@@ -3,9 +3,12 @@ import {
   aliasesByCharacterId,
   isDeep,
   mergeAliasDocs,
+  newsForGame,
   renderCatalog,
   renderCharacter,
+  renderClaims,
   renderError,
+  renderForAi,
   renderFrame,
   renderGame,
   renderHome,
@@ -122,7 +125,7 @@ async function showWatchlist() {
     getJson("/v1/games/index.json"),
     getJson("/v1/guides/index.json"),
   ]);
-  paint(renderWatchlist({ watchlist, catalog, guides }), "关注 · game-intel");
+  paint(renderWatchlist({ watchlist, catalog, guides }), "观察名单 · game-intel");
 }
 
 async function showGame() {
@@ -136,28 +139,47 @@ async function showGame() {
   cache.guideIndex = null;
   cache.aliasesById = {};
   cache.guideError = "";
+  cache.news = [];
+  cache.newsError = "";
+  const jobs = [];
   if (isDeep(id)) {
-    try {
-      const [guideIndex, aliasesById] = await Promise.all([
+    jobs.push(
+      Promise.all([
         getJson(`/v1/guides/${encodeURIComponent(id)}/index.json`),
         loadAliases(id),
-      ]);
-      cache.guideIndex = guideIndex;
-      cache.aliasesById = aliasesById;
-    } catch (error) {
-      cache.guideError = error.message;
-    }
+      ])
+        .then(([guideIndex, aliasesById]) => {
+          cache.guideIndex = guideIndex;
+          cache.aliasesById = aliasesById;
+        })
+        .catch((error) => {
+          cache.guideError = error.message;
+        })
+    );
   }
-  const title = `${game.name_zh || game.name || id} · game-intel`;
-  paint(
-    renderGame(game, {
-      guideIndex: cache.guideIndex,
-      guideError: cache.guideError,
-      aliasesById: cache.aliasesById,
-      q: params().get("q") || "",
-    }),
-    title
+  jobs.push(
+    getJson("/v1/digest.json")
+      .then((digest) => {
+        cache.news = newsForGame(digest, id);
+      })
+      .catch((error) => {
+        cache.newsError = error.message;
+      })
   );
+  await Promise.all(jobs);
+  const title = `${game.name_zh || game.name || id} · game-intel`;
+  paint(renderGame(game, gameExtras(params().get("q") || "")), title);
+}
+
+function gameExtras(q) {
+  return {
+    guideIndex: cache.guideIndex,
+    guideError: cache.guideError,
+    aliasesById: cache.aliasesById,
+    news: cache.news,
+    newsError: cache.newsError,
+    q,
+  };
 }
 
 async function showCharacter() {
@@ -175,6 +197,19 @@ async function showCharacter() {
     `/v1/guides/${encodeURIComponent(game)}/characters/${encodeURIComponent(id)}.json`
   );
   paint(renderCharacter(game, card), `${card.name_zh || card.name || id} · game-intel`);
+}
+
+function showForAi() {
+  paint(renderForAi(), "给 AI · game-intel");
+}
+
+async function showClaims() {
+  try {
+    const mirror = await getJson("/v1/claims.json");
+    paint(renderClaims(mirror), "核对墙 · game-intel");
+  } catch (error) {
+    paint(renderClaims({ claims: [], error: error.message }), "核对墙 · game-intel");
+  }
 }
 
 function onFilter(event) {
@@ -203,15 +238,7 @@ function onFilter(event) {
     const q = String(new FormData(form).get("q") || "").trim();
     if (q) search.set("q", q);
     writeSearch(search);
-    paint(
-      renderGame(cache.game, {
-        guideIndex: cache.guideIndex,
-        guideError: cache.guideError,
-        aliasesById: cache.aliasesById,
-        q,
-      }),
-      document.title
-    );
+    paint(renderGame(cache.game, gameExtras(q)), document.title);
   }
 }
 
@@ -223,6 +250,8 @@ async function boot() {
     else if (view === "watchlist") await showWatchlist();
     else if (view === "game") await showGame();
     else if (view === "character") await showCharacter();
+    else if (view === "for-ai") showForAi();
+    else if (view === "claims") await showClaims();
     else paint(renderError("未知页面"));
   } catch (error) {
     paint(renderError(error.message || String(error)));
