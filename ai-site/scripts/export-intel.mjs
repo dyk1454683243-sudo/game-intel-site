@@ -3,6 +3,7 @@
  * Best-effort: shell mcp-server/cli.js → public/v1/{digest,calendar-hw,radar}.json
  * Failures log to stderr but do not fail the process (exit 0) so publish can continue.
  */
+import "./require-node22.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";

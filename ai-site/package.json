@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=22"
+  },
   "description": "AI-readable game-intel JSON endpoints",
   "scripts": {
     "deploy": "wrangler deploy",

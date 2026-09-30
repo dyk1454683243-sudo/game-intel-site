@@ -3,6 +3,30 @@
 # No browser / Cloudflare UI. Requires existing wrangler OAuth login.
 set -euo pipefail
 
+# Wrangler 4 and the export scripts need Node >= 22. Fail before npm or deploy.
+require_node_22() {
+  local node_ver node_major
+  if ! command -v node >/dev/null 2>&1; then
+    echo "[publish] ERROR: node is not on PATH. Use Node >=22 (Wrangler 4 and export scripts)." >&2
+    return 1
+  fi
+  node_ver="$(node -v 2>/dev/null || true)"
+  node_major="${node_ver#v}"
+  node_major="${node_major%%.*}"
+  if [[ ! "$node_major" =~ ^[0-9]+$ ]] || [[ "$node_major" -lt 22 ]]; then
+    echo "[publish] ERROR: Node ${node_ver:-unknown} is too old. Use Node >=22 (Wrangler 4 and export scripts)." >&2
+    return 1
+  fi
+  echo "[publish] node $node_ver"
+}
+
+require_node_22
+
+# Version gate only. Does not export or deploy.
+if [[ "${1:-}" == "--check-node" ]]; then
+  exit 0
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SITE_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 LIVE_URL="${GAME_INTEL_AI_URL:-https://game-intel-ai.dyk1454683243.workers.dev}"
