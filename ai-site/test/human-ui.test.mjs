@@ -381,6 +381,23 @@ test("stub character cards stay visually distinct and do not invent a conclusion
   assert.doesNotMatch(html, /T0/);
 });
 
+test("human stylesheet keeps focus, contrast, and distinct depth badges", () => {
+  const css = fs.readFileSync(path.join(publicDir, "ui/app.css"), "utf8");
+  assert.match(css, /:focus-visible/);
+  assert.match(css, /\.skip:focus/);
+  assert.match(css, /\.depth-banner\.deep[\s\S]*background:\s*var\(--deep\)/);
+  assert.match(css, /\.depth-banner\.stub[\s\S]*color:\s*var\(--stub-ink\)/);
+  assert.match(css, /\.depth-banner\.partial/);
+  assert.match(css, /\.flag\.deep[\s\S]*background:\s*var\(--deep\)/);
+  assert.match(css, /\.flag\.stub[\s\S]*background:\s*var\(--stub-bg\)/);
+  assert.match(css, /prefers-color-scheme:\s*dark/);
+  assert.match(css, /min-height:\s*44px/);
+  const sketch = fs.readFileSync(path.join(publicDir, "sketches/sketch.css"), "utf8");
+  assert.match(sketch, /--deep:\s*#0b5f5a/);
+  assert.match(sketch, /--stub-ink:\s*#6a3f00/);
+  assert.match(sketch, /:focus-visible/);
+});
+
 test("sketch index links the three wireframes", () => {
   const index = fs.readFileSync(path.join(publicDir, "sketches/index.html"), "utf8");
   assert.match(index, /href="\/sketches\/home\.html"/);

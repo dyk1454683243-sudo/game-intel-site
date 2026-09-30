@@ -243,7 +243,7 @@ function characterDepth(card) {
 }
 
 export function renderFrame(active, body) {
-  return `<a class="skip" href="#main">跳到内容</a>${renderNav(active)}<main id="main">${body}</main>${renderFooter()}`;
+  return `<a class="skip" href="#main">跳到内容</a>${renderNav(active)}<main id="main" tabindex="-1">${body}</main>${renderFooter()}`;
 }
 
 export function renderError(message) {
@@ -333,7 +333,7 @@ function renderDigest(digest, today) {
       }${more}</article>`;
     })
     .join("");
-  return `${head}${blocks}${jsonLink("/v1/digest.json", "/v1/digest.json")}`;
+  return `${head}<div class="digest-list">${blocks}</div>${jsonLink("/v1/digest.json", "/v1/digest.json")}`;
 }
 
 function renderRadar(radar, today) {
@@ -356,7 +356,7 @@ function renderRadar(radar, today) {
   const list = shown.map(headlineItem).filter(Boolean).join("");
   const more =
     items.length > shown.length ? `<p class="meta">其余 ${items.length - shown.length} 条见 /v1/radar.json</p>` : "";
-  return `${head}${keywordLine}${channelLine}<ul class="headlines">${list}</ul>${more}${jsonLink("/v1/radar.json", "/v1/radar.json")}`;
+  return `${head}${keywordLine}${channelLine}<ul class="headlines feed">${list}</ul>${more}${jsonLink("/v1/radar.json", "/v1/radar.json")}`;
 }
 
 function option(value, label, current) {
@@ -539,7 +539,7 @@ export function renderWatchlist({ watchlist, catalog, guides } = {}) {
       const steam = (fromCatalog && fromCatalog.steam_appid) || (fromWatch && fromWatch.steam_appid);
       const empty = !deep && (count == null || count === 0);
       const thin = !deep && typeof count === "number" && count > 0 ? `身份卡 ${count}，不写强度。` : "";
-      return `<article class="card"><h2>${link(gameHref(id), nameZh)}</h2>
+      return `<article class="card ${deep ? "card-deep" : "card-stub"}"><h2>${link(gameHref(id), nameZh)}</h2>
 <p class="meta">${esc(name && name !== nameZh ? `${name} · ${id}` : id)}</p>
 <p class="flags">${marks.join(" ")}</p>
 ${fromCatalog ? `<p>平台 ${chips(fromCatalog.platforms)}</p><p>标签 ${chips(fromCatalog.tags)}</p>` : ""}
@@ -801,7 +801,7 @@ export function renderForAi() {
 </dl>
 <h2>写卡统一框架</h2>
 <p>字段跟现有 <a href="/schema/character-card.schema.json">character-card schema</a>。非 stub 必填 <code>sources[]</code>（https）和 <code>as_of</code>，缺则拒绝。</p>
-<ol>
+<ol class="steps">
 <li>填模板</li>
 <li>校验</li>
 <li>可选审</li>

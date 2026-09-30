@@ -1,82 +1,117 @@
+/* Wireframe palette tracks /ui/app.css tokens. Panels stay dashed on purpose. */
 :root {
   color-scheme: light;
-  --ink: #1c1b18;
-  --muted: #5c574e;
-  --line: #c9c2b4;
-  --paper: #f6f3ec;
-  --card: #fffdf8;
-  --deep: #0c6b66;
-  --stub: #8a5a00;
-  --stub-bg: #fff4d8;
-  --deep-bg: #e7f5f3;
+  --bg: #f3f0e8;
+  --surface: #fffcf7;
+  --text: #1a1916;
+  --muted: #4f4b44;
+  --line: #cdc5b6;
+  --accent: #0b5f5a;
+  --accent-ink: #f3fffc;
+  --deep: #0b5f5a;
+  --deep-ink: #08443f;
+  --deep-bg: #e3f4f1;
+  --stub: #8a5a12;
+  --stub-ink: #6a3f00;
+  --stub-bg: #fff3d4;
+  --ink: var(--text);
+  --paper: var(--bg);
+  --card: var(--surface);
 }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 16px/1.5 "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+  font: 16px/1.55 "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
 }
-a { color: var(--deep); }
-.wrap { width: min(980px, calc(100% - 2rem)); margin: 0 auto; padding: 1.25rem 0 3rem; }
+a { color: var(--deep); text-underline-offset: 0.16em; }
+a:focus-visible {
+  outline: 2px solid var(--deep);
+  outline-offset: 2px;
+}
+.wrap { width: min(980px, calc(100% - 2rem)); margin: 0 auto; padding: 1.35rem 0 3rem; }
 .banner {
-  background: #efe8d4;
+  background: var(--stub-bg);
   border-bottom: 1px dashed var(--line);
-  padding: 0.55rem 1rem;
+  padding: 0.6rem 1rem;
   font-size: 0.92rem;
+  color: var(--stub-ink);
 }
-.banner strong { margin-right: 0.4rem; }
+.banner strong { margin-right: 0.4rem; color: var(--ink); }
 .nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin: 0.8rem 0 1rem;
+  margin: 0.2rem 0 1.1rem;
 }
 .nav a, .pill {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 0.15rem 0.7rem;
+  min-height: 44px;
+  padding: 0.15rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--card);
   color: var(--ink);
   text-decoration: none;
 }
-.nav a[aria-current="page"] { background: var(--ink); color: var(--paper); }
-h1 { font-size: 1.55rem; margin: 0.2rem 0 0.4rem; }
-h2 { font-size: 1.05rem; margin: 0 0 0.45rem; }
-.note { color: var(--muted); margin-top: 0; }
-.grid { display: grid; gap: 0.8rem; }
-@media (min-width: 800px) {
-  .grid.two { grid-template-columns: 1fr 1fr; }
+.nav a[aria-current="page"] {
+  background: var(--deep);
+  color: var(--accent-ink);
 }
+h1 { font-size: clamp(1.45rem, 1.2rem + 0.8vw, 1.7rem); margin: 0.2rem 0 0.45rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.05rem; margin: 0 0 0.45rem; }
+.note { color: var(--muted); margin-top: 0; max-width: 40rem; }
+.grid { display: grid; gap: 0.85rem; }
 .panel {
   background: var(--card);
   border: 1px dashed var(--line);
-  border-radius: 14px;
-  padding: 0.85rem 1rem;
+  border-radius: 16px;
+  padding: 0.95rem 1rem;
 }
-.panel.deep { border-style: solid; border-left: 6px solid var(--deep); background: var(--deep-bg); }
-.panel.stub { border-left: 6px solid var(--stub); background: var(--stub-bg); }
+.panel.deep {
+  border-style: solid;
+  border-left: 4px solid var(--deep);
+  background: color-mix(in srgb, var(--deep-bg) 72%, var(--card));
+}
+.panel.stub {
+  border-left: 4px dashed var(--stub);
+  background: color-mix(in srgb, var(--stub-bg) 70%, var(--card));
+}
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-bottom: 0.45rem;
-  padding: 0.05rem 0.5rem;
+  padding: 0.08rem 0.55rem;
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
+  letter-spacing: 0.04em;
 }
-.tag.deep { background: var(--deep); color: #f4fffd; }
-.tag.stub { background: var(--stub); color: #fffaf0; }
+.tag.deep { background: var(--deep); color: var(--accent-ink); }
+.tag.stub {
+  background: transparent;
+  color: var(--stub-ink);
+  border: 1px dashed var(--stub);
+}
 .box {
   border: 1px dashed var(--line);
   border-radius: 10px;
   padding: 0.55rem 0.7rem;
   margin: 0.45rem 0;
-  background: color-mix(in srgb, var(--card) 70%, transparent);
+  background: color-mix(in srgb, var(--card) 78%, transparent);
 }
 .box strong { display: block; }
 .k { color: var(--muted); font-size: 0.85rem; }
-ol { margin: 0.3rem 0 0; padding-left: 1.2rem; }
-.foot { margin-top: 1.4rem; color: var(--muted); font-size: 0.92rem; }
+ol { margin: 0.35rem 0 0; padding-left: 1.2rem; }
+ol li { margin: 0.28rem 0; }
+.foot { margin-top: 1.5rem; color: var(--muted); font-size: 0.92rem; }
+@media (min-width: 800px) {
+  .grid.two { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .nav a, .pill { flex: none; }
+  .wrap { width: min(980px, calc(100% - 1.35rem)); }
+}
