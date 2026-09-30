@@ -24,7 +24,10 @@
       "summary": "■自身 【攻击力65%▲】【持续5秒】 ■对全体敌人造成 【最终攻击力305.26%的爆裂技能伤害】 ■自身处于兔兔模式：架势状态时，则对同一敌人造成 【最终攻击力566.62%的额外伤害】 ■自身处于兔兔模式：出击状态时，则对同一敌人造成 【最终攻击力504.99%的无视防御力伤害】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "Prydwen PVE 4/4/4 → 7/7/7 → 10/10/7（→ 10/10/10）",
+    "Prydwen PVP 4/4/4 → 4/7/7 → 7/10/10（→ 10/10/10）"
+  ],
   "weapon": "闪光兔萝",
   "element": "水冷",
   "manufacturer": "米西利斯",
@@ -32,10 +35,11 @@
   "sources": [
     "https://www.gamekee.com/nikke/722087.html",
     "https://nikke.gg/tier-list/",
-    "https://www.gamekee.com/nikke/721179.html"
+    "https://www.gamekee.com/nikke/721179.html",
+    "https://www.prydwen.gg/nikke/characters/sin-swift-bunny"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 722087,
   "gamekee_entry_id": 225993,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png",
@@ -43,20 +47,24 @@
   "portrait_via": "gamekee-entry-icon:nikke:225993",
   "rarity": "SSR",
   "burst": "疾速贯穿",
-  "verified": "GameKee nikke/722087 图鉴",
+  "verified": "GameKee nikke/722087 图鉴；Prydwen /nikke/characters/sin-swift-bunny",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-29",
+    "as_of": "2026-10-01",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
+    "tier": "Prydwen 故事 S / Boss A / PvP A",
+    "pull": "For any player group, she is not worth Mileage.",
     "sources": [
-      "https://nikke.gg/tier-list/",
       "https://www.gamekee.com/nikke/722087.html",
-      "https://www.gamekee.com/nikke/721179.html"
+      "https://nikke.gg/tier-list/",
+      "https://www.gamekee.com/nikke/721179.html",
+      "https://www.prydwen.gg/nikke/characters/sin-swift-bunny"
     ],
-    "stub": true,
-    "caveat": "已核对 Nikke.gg 2026-09 梯度接口（无 sin-rapid-bunny / sin-swift-bunny）与角色接口（Character not found），以及 GameKee 技能预览 https://www.gamekee.com/nikke/721179.html （无梯度或抽取句）。Prydwen 页面被 Cloudflare 拦截，未能读取。不编造 T 度或抽卡结论。",
+    "stub": false,
+    "caveat": "Nikke.gg 2026-10-01 梯度接口没有 sin-swift-bunny 综合档。上列是 Prydwen 角色页 Ratings 的 Story / Bossing / PVP，不是 Nikke.gg 综合档。Mileage 句与练度路径为同页原文。不编造综合档。",
     "position": "SSR / 疾速贯穿 / 火力型 / 水冷 / 米西利斯"
-  }
+  },
+  "prydwen_slug": "sin-swift-bunny"
 }

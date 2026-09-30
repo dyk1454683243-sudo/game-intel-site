@@ -2,7 +2,7 @@
   "id": "e_er_bi_si",
   "name": "厄尔比斯",
   "name_zh": "厄尔比斯",
-  "name_en": null,
+  "name_en": "Elpis",
   "aliases": [],
   "nicknames": [],
   "game": "bd2",
@@ -31,23 +31,30 @@
   "teams": {},
   "sources": [
     "https://www.gamekee.com/zsca2/619702.html",
-    "https://www.gamekee.com/zsca2/614967.html"
+    "https://www.gamekee.com/zsca2/614967.html",
+    "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+    "https://www.gamekee.com/zsca2/600417.html",
+    "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 619702,
   "gamekee_entry_id": 147432,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:147432",
-  "verified": "GameKee zsca2/619702 图鉴",
+  "verified": "GameKee zsca2/619702 图鉴；DotGG 镜像战 2025-03；GameKee zsca2/600417",
   "summary": {
     "position": "4星 / 暗 / 魔法 / 输出",
     "sources": [
       "https://www.gamekee.com/zsca2/619702.html",
-      "https://www.gamekee.com/zsca2/614967.html"
+      "https://www.gamekee.com/zsca2/614967.html",
+      "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
+      "https://www.gamekee.com/zsca2/600417.html",
+      "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation"
     ],
-    "stub": true,
-    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）和《三四星角色测评》（未单列厄尔比斯）。图片总强度榜不转录。不编造 T 度或抽卡结论。"
+    "stub": false,
+    "caveat": "进攻/防守档摘自 DotGG 2025-03 镜像战表（备注原文：A poor substitute for B.Helena. Decent damage boost for magic teams, but the 2 SP cost is hefty.）。2026-10 角色总表未再单列。GameKee《破坏的天使·泰瑞丝＆厄尔比斯》后半用作者昵称「黑帽」写了 2SP、6 回合、70% 魔法力、35% 致命率，对得上救赎之手的一档强化，并写「最顶级的4星之一」「海伦娜下位替代」「身板较脆，谨慎携带」。该文泰瑞丝一节的「不抽等歪」不转写到本卡。图鉴满破满潜力为魔法力 80%。没有 GameKee 书面 T 档。文中写明具备时效性。",
+    "tier": "DotGG 镜像战 2025-03：救赎之手 进攻 C / 防守 C；GameKee 测评：最顶级的4星之一"
   }
 }

@@ -24,7 +24,10 @@
       "summary": "■自身 【神力重踏：变更使用武器】： 蓄力时间：固定为1.5秒 伤害：最终攻击力的61.3% 全蓄力伤害：250%伤害 持续时间：1发 额外效果1：【蓄力伤害827.27%▲】【持续1发】 额外效果2：【攻击伤害45.71%▲】【持续10秒】"
     }
   ],
-  "skill_prio": [],
+  "skill_prio": [
+    "Prydwen PVE 4/4/4 → 4/7/7 → 7/10/10（→ 10/10/10）",
+    "Prydwen PVP 4/4/4 → 7/7/4 → 10/10/4（→ 10/10/7）"
+  ],
   "burst": "终于解开了……！",
   "weapon": "轰鸣重拳",
   "element": "水冷",
@@ -32,10 +35,12 @@
   "teams": {},
   "sources": [
     "https://www.gamekee.com/nikke/721421.html",
-    "https://www.gamekee.com/nikke/721179.html"
+    "https://www.gamekee.com/nikke/721179.html",
+    "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+    "https://nikke.gg/tier-list/"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 721421,
   "gamekee_entry_id": 225768,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png",
@@ -43,20 +48,23 @@
   "portrait_via": "gamekee-entry-icon:nikke:225768",
   "prydwen_slug": "guilty-mighty-bunny",
   "rarity": "SSR",
-  "verified": "GameKee nikke/721421 图鉴",
+  "verified": "GameKee nikke/721421 图鉴；Prydwen /nikke/characters/guilty-mighty-bunny",
   "ratings": {
     "checked": true,
-    "as_of": "2026-09-29",
+    "as_of": "2026-10-01",
     "url": "https://nikke.gg/tier-list/"
   },
   "summary": {
+    "tier": "Prydwen 故事 A / Boss A / PvP B",
+    "pull": "For any player group, she is not worth Mileage.",
     "sources": [
-      "https://nikke.gg/tier-list/",
       "https://www.gamekee.com/nikke/721421.html",
-      "https://www.gamekee.com/nikke/721179.html"
+      "https://www.gamekee.com/nikke/721179.html",
+      "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+      "https://nikke.gg/tier-list/"
     ],
-    "stub": true,
-    "caveat": "已核对 Nikke.gg 2026-09 梯度接口（无 guilty-mighty-bunny）与角色接口（Character not found），以及 GameKee 技能预览 https://www.gamekee.com/nikke/721179.html （只有技能展示，无梯度或抽取句）。Prydwen 页面被 Cloudflare 拦截，未能读取。不编造 T 度或抽卡结论。",
+    "stub": false,
+    "caveat": "Nikke.gg 2026-10-01 梯度接口没有 guilty-mighty-bunny 综合档。上列是 Prydwen 角色页 Ratings 的 Story / Bossing / PVP，不是 Nikke.gg 综合档。Mileage 句与练度路径为同页原文。不编造综合档。",
     "position": "SSR / 终于解开了……！ / 火力型 / 水冷 / 米西利斯"
   }
 }

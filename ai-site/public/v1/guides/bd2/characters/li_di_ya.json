@@ -2,7 +2,7 @@
   "id": "li_di_ya",
   "name": "黎迪雅",
   "name_zh": "黎迪雅",
-  "name_en": null,
+  "name_en": "Lydia",
   "aliases": [],
   "nicknames": [],
   "game": "bd2",
@@ -34,20 +34,21 @@
     "https://www.gamekee.com/zsca2/614967.html"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 593595,
   "gamekee_entry_id": 122331,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/570673.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122331",
-  "verified": "GameKee zsca2/593595 图鉴",
+  "verified": "GameKee zsca2/593595 图鉴；GameKee zsca2/614967 三四星测评文末",
   "summary": {
     "position": "3星 / 水 / 物理 / 输出",
     "sources": [
       "https://www.gamekee.com/zsca2/593595.html",
       "https://www.gamekee.com/zsca2/614967.html"
     ],
-    "stub": true,
-    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）和《三四星角色测评》（未单列黎迪雅）。图片总强度榜不转录。不编造 T 度或抽卡结论。"
+    "stub": false,
+    "caveat": "该角色在《三四星角色测评》里没有单独小节。上句是文末对未点名三星的原句。图鉴「服装梯度」单元格没有书面 T 档。文中写明具备时效性。不编造价格。",
+    "tier": "GameKee 三四星测评：没有提到的三星角色不用练，基本完全没有他们的出场空间，有也是有上位替代"
   }
 }

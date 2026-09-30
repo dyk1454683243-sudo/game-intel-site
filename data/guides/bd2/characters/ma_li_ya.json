@@ -2,7 +2,7 @@
   "id": "ma_li_ya",
   "name": "玛丽亚",
   "name_zh": "玛丽亚",
-  "name_en": null,
+  "name_en": "Maria",
   "aliases": [],
   "nicknames": [],
   "game": "bd2",
@@ -31,23 +31,26 @@
   "teams": {},
   "sources": [
     "https://www.gamekee.com/zsca2/593572.html",
-    "https://www.gamekee.com/zsca2/614967.html"
+    "https://www.gamekee.com/zsca2/614967.html",
+    "https://browndust2.miraheze.org/wiki/Maria/Archmage"
   ],
   "stub": false,
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-01",
   "gamekee_content_id": 593572,
   "gamekee_entry_id": 122321,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png",
   "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
   "portrait_via": "gamekee-entry-icon:zsca2:122321",
-  "verified": "GameKee zsca2/593572 图鉴",
+  "verified": "GameKee zsca2/593572 图鉴；GameKee zsca2/614967 三四星测评",
   "summary": {
     "position": "3星 / 暗 / 魔法 / 输出",
     "sources": [
       "https://www.gamekee.com/zsca2/593572.html",
-      "https://www.gamekee.com/zsca2/614967.html"
+      "https://www.gamekee.com/zsca2/614967.html",
+      "https://browndust2.miraheze.org/wiki/Maria/Archmage"
     ],
-    "stub": true,
-    "caveat": "已核对 GameKee 图鉴「服装梯度」单元格（没有书面 T 档）。《三四星角色测评》写的是「玛丽娜（大魔法师）」，与本卡「玛丽亚」名称不一致，未转写。图片总强度榜不转录。不编造 T 度或抽卡结论。"
+    "stub": false,
+    "caveat": "小节标题是「玛丽娜（大魔法师）」。图鉴中文名是玛丽亚，英文 Maria，唯一服装大魔法师对应 Archmage，技能破坏魔法为二连击魔法伤害。没有书面 T 档。文中写明具备时效性。",
+    "tier": "GameKee 三四星测评：超前期可以养的法系输出"
   }
 }

@@ -2,12 +2,12 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-01",
   "timezone": "Asia/Shanghai",
   "character_count": 232,
   "rich_count": 232,
   "stub_count": 0,
-  "conclusion_stub_count": 5,
+  "conclusion_stub_count": 3,
   "characters": [
     {
       "id": "2b",
@@ -1078,7 +1078,9 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/nikke/721421.html",
-        "https://www.gamekee.com/nikke/721179.html"
+        "https://www.gamekee.com/nikke/721179.html",
+        "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+        "https://nikke.gg/tier-list/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png"
     },
@@ -2581,7 +2583,8 @@
       "sources": [
         "https://www.gamekee.com/nikke/722087.html",
         "https://nikke.gg/tier-list/",
-        "https://www.gamekee.com/nikke/721179.html"
+        "https://www.gamekee.com/nikke/721179.html",
+        "https://www.prydwen.gg/nikke/characters/sin-swift-bunny"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png"
     },
