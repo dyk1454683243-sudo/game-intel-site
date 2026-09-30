@@ -795,7 +795,7 @@ export function renderForAi() {
 </ul>
 <h2>三个地址</h2>
 <dl class="facts">
-<dt>MCP</dt><dd>连接 <code>/mcp</code>（Streamable HTTP，只读已发布 JSON）。托管站同一路径：<code>${PUBLIC_SITE}/mcp</code>。发现文档见上一节。</dd>
+<dt>MCP</dt><dd>连接 <code>/mcp</code>（Streamable HTTP，只读已发布 JSON）。<br/>托管站 <code>${PUBLIC_SITE}/mcp</code></dd>
 <dt>OpenAPI</dt><dd><a href="/openapi.json"><code>/openapi.json</code></a></dd>
 <dt>llms.txt</dt><dd><a href="/llms.txt"><code>/llms.txt</code></a></dd>
 </dl>
