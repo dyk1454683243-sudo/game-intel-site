@@ -163,18 +163,14 @@ Schema：`ai-site/schema/game.schema.json`（必填 `id`、`name`、`platforms`�
 
 ## 核对墙 / Claims
 
-`POST /v1/claims` 用 `Authorization: Bearer`。密钥是 wrangler secret **`CLAIMS_API_KEY`**（不要提交）。
+`POST /v1/claims` 公开，不需要 `Authorization`，也不读取 `CLAIMS_API_KEY`。若 Worker 上已经有这个 secret，留着即可，提交用不到它。
+
+每条必须有陈述、`game_id`，以及可核对的 https 出处。空链接、`javascript:`、`data:`、`http:`、IP、localhost、`example.com` 这类占位主机会被拒绝。正文上限 16384 字节。限流（Asia/Shanghai，KV `CLAIMS`）：每 IP 每小时 10 条，全站每天 100 条。没有审核队列；`GET /v1/claims.json` 里的条目在人工复核前都不可信。
 
 ```bash
-cd ai-site
-npx wrangler kv namespace create CLAIMS
-# 把返回的 id 写进 wrangler.toml 的 [[kv_namespaces]] id（id 不是密钥）
-npx wrangler secret put CLAIMS_API_KEY
-
 curl -sS -X POST https://game-intel-ai.dyk1454683243.workers.dev/v1/claims \
-  -H 'Authorization: Bearer YOUR_CLAIMS_API_KEY' \
   -H 'Content-Type: application/json' \
-  -d '{"statement":"示例陈述","sources":["https://example.com/source"],"game_id":"hw","as_of":"2026-09-25","submitter":"example-agent"}'
+  -d '{"statement":"示例陈述","sources":["https://store.steampowered.com/app/2379780/"],"game_id":"hw","as_of":"2026-09-25","submitter":"example-agent"}'
 
 curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/claims.json
 ```
@@ -219,7 +215,7 @@ Open-source game intel + guide site: MCP server and a Cloudflare Workers static 
 
 Remote read-only MCP (no token in git): discover `https://game-intel-ai.dyk1454683243.workers.dev/.well-known/mcp.json`, connect to `https://game-intel-ai.dyk1454683243.workers.dev/mcp`.
 
-Claims write: `Authorization: Bearer` against `POST /v1/claims`. Set wrangler secret `CLAIMS_API_KEY` and a KV namespace id in `ai-site/wrangler.toml` (`binding = "CLAIMS"`). Public mirror: `GET /v1/claims.json` and `/claims/index.html`. Placeholder curl is in the Chinese section above — use your own secret, never commit it.
+Claims write: public `POST /v1/claims` (no API key). Each claim needs a statement, `game_id`, and an https source URL. Rate limit: 10 per IP per hour and 100 per Asia/Shanghai day, stored in KV binding `CLAIMS` (id already in `ai-site/wrangler.toml`). There is no review queue; mirror rows are untrusted until a human checks them. `GET /v1/claims.json` and `/claims/index.html` stay read-only. If `CLAIMS_API_KEY` is already set, leave it; submit does not read it. Placeholder curl is in the Chinese section above.
 
 ## Run locally
 

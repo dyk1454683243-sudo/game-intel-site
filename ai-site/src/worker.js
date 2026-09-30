@@ -1,7 +1,6 @@
 import { aiCatalog, serverCard } from "./discovery.js";
 import {
   MAX_BODY_BYTES,
-  authorize,
   claimsHtml,
   enforceRateLimit,
   listClaims,
@@ -71,15 +70,21 @@ export async function route(request, env) {
 }
 
 async function postClaim(request, env) {
-  const auth = authorize(request, env);
-  if (!auth.ok) return jsonResponse({ ok: false, error: auth.error }, auth.status);
-
-  const limited = await enforceRateLimit(env, request);
-  if (!limited.ok) return jsonResponse({ ok: false, error: limited.error }, limited.status);
-
+  const declared = Number(request.headers.get("content-length"));
+  if (Number.isFinite(declared) && declared > MAX_BODY_BYTES) {
+    return jsonResponse({ ok: false, error: "body_too_large", max_bytes: MAX_BODY_BYTES }, 413);
+  }
   const raw = await request.text();
   if (raw.length > MAX_BODY_BYTES) {
-    return jsonResponse({ ok: false, error: "body_too_large" }, 413);
+    return jsonResponse({ ok: false, error: "body_too_large", max_bytes: MAX_BODY_BYTES }, 413);
+  }
+
+  const limited = await enforceRateLimit(env, request);
+  if (!limited.ok) {
+    const body = { ok: false, error: limited.error };
+    if (limited.scope) body.scope = limited.scope;
+    if (limited.limit) body.limit = limited.limit;
+    return jsonResponse(body, limited.status);
   }
   let body;
   try {

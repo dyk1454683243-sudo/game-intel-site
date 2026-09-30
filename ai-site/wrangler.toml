@@ -19,9 +19,9 @@ run_worker_first = [
   "/claims/*",
 ]
 
-# Durable claims mirror. Not a secret — create the namespace, then paste the id:
-#   npx wrangler kv namespace create CLAIMS
-# The API key is separate: `npx wrangler secret put CLAIMS_API_KEY`
+# Claims mirror and rate-limit counters. The namespace id is not a secret.
+# Public POST /v1/claims does not read CLAIMS_API_KEY. If that secret is already
+# set on the Worker, leave it; submit does not require it.
 [[kv_namespaces]]
 binding = "CLAIMS"
 id = "c5d31aef615e4fb19a933f661d5ed72e"

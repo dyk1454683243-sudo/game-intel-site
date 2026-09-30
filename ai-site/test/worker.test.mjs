@@ -4,6 +4,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { route } from "../src/worker.js";
+import { formatShanghai } from "../src/time.js";
+import {
+  GLOBAL_RATE_PREFIX,
+  MAX_BODY_BYTES,
+  RATE_LIMIT_GLOBAL_DAY,
+  RATE_LIMIT_PER_IP,
+} from "../src/claims.js";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "../public");
 const origin = "http://127.0.0.1:8787";
@@ -166,57 +173,138 @@ test("GET /mcp is not an SSE stream", async () => {
   assert.equal(res.status, 405);
 });
 
-test("claims: unauthorized, missing sources, then mirror", async () => {
-  const e = env();
-  const unauth = await route(
-    new Request(`${origin}/v1/claims`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ statement: "x", sources: ["https://example.com/a"] }),
-    }),
-    e
-  );
-  assert.equal(unauth.status, 401);
+function claimBody(overrides = {}) {
+  return {
+    statement: "HW card lists sources",
+    sources: ["https://www.gamekee.com/hw/634407.html"],
+    game_id: "hw",
+    character_id: "a_la_ha",
+    as_of: "2026-09-25",
+    submitter: "example-agent",
+    ...overrides,
+  };
+}
 
-  const bad = await route(
-    new Request(`${origin}/v1/claims`, {
-      method: "POST",
-      headers: { authorization: "Bearer test-key-not-real", "content-type": "application/json" },
-      body: JSON.stringify({ statement: "no sources" }),
-    }),
-    e
-  );
-  assert.equal(bad.status, 400);
-  assert.equal((await jsonOf(bad)).error, "sources_required");
+function postClaim(body, headers = {}) {
+  return new Request(`${origin}/v1/claims`, {
+    method: "POST",
+    headers: { "content-type": "application/json", ...headers },
+    body: typeof body === "string" ? body : JSON.stringify(body),
+  });
+}
 
-  const ok = await route(
-    new Request(`${origin}/v1/claims`, {
-      method: "POST",
-      headers: { authorization: "Bearer test-key-not-real", "content-type": "application/json" },
-      body: JSON.stringify({
-        statement: "HW card lists sources",
-        sources: ["https://www.gamekee.com/hw/634407.html"],
-        game_id: "hw",
-        character_id: "a_la_ha",
-        as_of: "2026-09-25",
-        submitter: "example-agent",
-      }),
-    }),
-    e
-  );
-  assert.equal(ok.status, 201);
-  const created = await jsonOf(ok);
+test("claims: public submit, hard sources, then read-only mirror", async () => {
+  const e = { ASSETS: assets(), CLAIMS: memoryKv() };
+  const anon = await route(postClaim(claimBody()), e);
+  assert.equal(anon.status, 201);
+  const created = await jsonOf(anon);
   assert.equal(created.claim.timezone, "Asia/Shanghai");
+  assert.equal(created.claim.game_id, "hw");
   assert.ok(created.claim.submitted_at.endsWith("+08:00"));
+
+  const ignoredKey = await route(
+    postClaim(claimBody({ statement: "Bearer is ignored" }), {
+      authorization: "Bearer wrong-key",
+    }),
+    { ...e, CLAIMS_API_KEY: "test-key-not-real" }
+  );
+  assert.equal(ignoredKey.status, 201);
 
   const mirror = await route(new Request(`${origin}/v1/claims.json`), e);
   const listed = await jsonOf(mirror);
-  assert.equal(listed.count, 1);
-  assert.equal(listed.claims[0].statement, "HW card lists sources");
+  assert.equal(listed.count, 2);
+  assert.equal(listed.claims[0].statement, "Bearer is ignored");
+  assert.equal(listed.claims[1].statement, "HW card lists sources");
 
   const page = await route(new Request(`${origin}/claims/index.html`), e);
   assert.equal(page.headers.get("content-type"), "text/html; charset=utf-8");
-  assert.match(await page.text(), /HW card lists sources/);
+  const html = await page.text();
+  assert.match(html, /HW card lists sources/);
+  assert.match(html, /不可信/);
+
+  const listedTool = await route(
+    new Request(`${origin}/mcp`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ jsonrpc: "2.0", id: 9, method: "tools/call", params: { name: "list_claims", arguments: {} } }),
+    }),
+    e
+  );
+  const toolBody = await jsonOf(listedTool);
+  const toolData = JSON.parse(toolBody.result.content[0].text);
+  assert.equal(toolData.count, 2);
+  assert.equal(toolData.claims[1].statement, "HW card lists sources");
+});
+
+test("claims: reject missing game, bad sources, and oversized bodies", async () => {
+  const e = env();
+  const cases = [
+    [{ statement: "no sources", game_id: "hw" }, 400, "sources_required"],
+    [{ statement: "no game", sources: ["https://www.gamekee.com/hw/634407.html"] }, 400, "game_id_required"],
+    [claimBody({ sources: [""] }), 400, "invalid_source"],
+    [claimBody({ sources: ["javascript:alert(1)"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["data:text/html,hi"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["http://store.steampowered.com/app/2379780/"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["https://example.com/source"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["https://localhost/a"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["https://127.0.0.1/a"] }), 400, "invalid_source"],
+    [claimBody({ sources: ["https://user:pass@www.gamekee.com/hw/634407.html"] }), 400, "invalid_source"],
+    [claimBody({ statement: "" }), 400, "statement_required"],
+    [claimBody({ game_id: "Not A Slug" }), 400, "invalid_game_id"],
+  ];
+  for (let i = 0; i < cases.length; i++) {
+    const [body, status, error] = cases[i];
+    const res = await route(postClaim(body, { "cf-connecting-ip": `203.0.113.${i + 1}` }), e);
+    assert.equal(res.status, status, error);
+    assert.equal((await jsonOf(res)).error, error);
+  }
+
+  const huge = await route(postClaim(`{"statement":"${"a".repeat(MAX_BODY_BYTES)}"}`), e);
+  assert.equal(huge.status, 413);
+  assert.equal((await jsonOf(huge)).error, "body_too_large");
+
+  const mirror = await route(new Request(`${origin}/v1/claims.json`), e);
+  assert.equal((await jsonOf(mirror)).count, 0);
+});
+
+test("claims: per-IP and global daily rate limits", async () => {
+  const e = env();
+  for (let i = 0; i < RATE_LIMIT_PER_IP; i++) {
+    const res = await route(postClaim(claimBody({ statement: `n${i}` })), e);
+    assert.equal(res.status, 201, `post ${i}`);
+  }
+  const limited = await route(postClaim(claimBody({ statement: "over ip" })), e);
+  assert.equal(limited.status, 429);
+  const limitedBody = await jsonOf(limited);
+  assert.equal(limitedBody.error, "rate_limited");
+  assert.equal(limitedBody.scope, "ip");
+  assert.equal(limitedBody.limit, RATE_LIMIT_PER_IP);
+
+  const otherIp = await route(
+    postClaim(claimBody({ statement: "other ip" }), { "cf-connecting-ip": "203.0.113.9" }),
+    e
+  );
+  assert.equal(otherIp.status, 201);
+
+  const day = formatShanghai(new Date()).slice(0, 10);
+  const capped = { ASSETS: assets(), CLAIMS: memoryKv() };
+  await capped.CLAIMS.put(`${GLOBAL_RATE_PREFIX}${day}`, String(RATE_LIMIT_GLOBAL_DAY));
+  const globalHit = await route(
+    postClaim(claimBody(), { "cf-connecting-ip": "203.0.113.10" }),
+    capped
+  );
+  assert.equal(globalHit.status, 429);
+  const globalBody = await jsonOf(globalHit);
+  assert.equal(globalBody.error, "rate_limited");
+  assert.equal(globalBody.scope, "day");
+  assert.equal(globalBody.limit, RATE_LIMIT_GLOBAL_DAY);
+  assert.equal((await jsonOf(await route(new Request(`${origin}/v1/claims.json`), capped))).count, 0);
+});
+
+test("claims: KV required, API key is not", async () => {
+  const missing = await route(postClaim(claimBody()), { ASSETS: assets() });
+  assert.equal(missing.status, 503);
+  assert.equal((await jsonOf(missing)).error, "claims_kv_unconfigured");
 });
 
 test("static asset paths are not swallowed", async () => {

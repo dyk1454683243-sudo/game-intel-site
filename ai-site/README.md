@@ -30,7 +30,7 @@ npm run preview:static
 curl -sS http://127.0.0.1:8787/.well-known/mcp.json
 ```
 
-For local claims writes, create `ai-site/.dev.vars` (gitignored) with `CLAIMS_API_KEY=local-placeholder`. Before a real deploy, replace the KV `id` in `wrangler.toml` (`npx wrangler kv namespace create CLAIMS`) and set `npx wrangler secret put CLAIMS_API_KEY`.
+Local claims writes need the Worker (`npm run preview`) so KV rate limits run. `POST /v1/claims` does not need `CLAIMS_API_KEY`. The KV id already in `wrangler.toml` (`binding = "CLAIMS"`) is what production uses; do not recreate that namespace to make POST public.
 
 Existing JSON checks against the same preview:
 

@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://game-intel.local/schema/claims-index.schema.json",
   "title": "game-intel claims mirror",
+  "description": "Read-only mirror of public claim submissions. There is no pending/approved queue. Rows are untrusted until a human reviews them. list_claims returns this same list.",
   "type": "object",
   "additionalProperties": false,
   "required": ["ok", "count", "timezone", "claims"],

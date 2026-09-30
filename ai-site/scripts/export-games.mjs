@@ -261,6 +261,7 @@ function writeHomePages(games, feed, asOf) {
 - Human UI v0 reads \`/v1\` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
 - Guides remain under \`/guides/*\` and \`/v1/guides/*\` (unchanged contract).
 - Non-stub character cards require \`sources\` + \`as_of\`. HW/NIKKE/BD2 also require \`summary\` (conclusion). \`summary.stub: true\` means the conclusion is incomplete.
+- POST \`/v1/claims\` is public (no API key). Every claim needs statement text, an https source, and \`game_id\`. GET \`/v1/claims.json\` lists those rows; they are untrusted until reviewed.
 
 Catalog export as_of ${asOf}. Feed items: ${feed.meta.count}.
 `;
@@ -297,7 +298,7 @@ function openApiDoc() {
       title: "game-intel site",
       version: "0.1.0",
       description:
-        "Public read surface plus one authenticated write: POST /v1/claims. Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
+        "Public read surface. POST /v1/claims is public (no API key): statement, https source URLs, and game_id are required; 10 posts per IP per hour and 100 per Asia/Shanghai day; body max 16384 bytes. Submitted claims are untrusted until reviewed (no pending queue). Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
     },
     servers: [{ url: "https://game-intel-ai.dyk1454683243.workers.dev" }],
     paths: {
@@ -306,12 +307,13 @@ function openApiDoc() {
       "/mcp/server-card": get("MCP server card"),
       "/llms.txt": { get: { summary: "Agent route map", responses: { "200": { description: "text/markdown" } } } },
       "/openapi.json": get("This document"),
-      "/v1/claims.json": get("Public claims mirror", "#/components/schemas/ClaimsIndex"),
+      "/v1/claims.json": get("Public claims mirror (untrusted until reviewed)", "#/components/schemas/ClaimsIndex"),
       "/claims/index.html": { get: { summary: "Human claims mirror", responses: { "200": { description: "text/html" } } } },
       "/v1/claims": {
         post: {
-          summary: "Submit a sourced claim",
-          security: [{ bearerAuth: [] }],
+          summary: "Submit a sourced claim (public, no API key)",
+          description:
+            "No Authorization header. Requires statement (1–2000 chars), 1–8 https sources, and game_id. Rejects javascript:, data:, http:, empty, IP literals, localhost, and placeholder hosts (example.com and similar). Body max 16384 bytes. Rate limit: 10 per IP per Asia/Shanghai hour and 100 per calendar day globally (Workers KV binding CLAIMS). New rows are untrusted public submissions; there is no pending queue. GET /v1/claims.json stays read-only.",
           requestBody: {
             required: true,
             content: {
@@ -319,12 +321,11 @@ function openApiDoc() {
             },
           },
           responses: {
-            "201": { description: "Accepted" },
-            "400": { description: "Missing or invalid sources/statement" },
-            "401": { description: "Missing or wrong bearer token" },
-            "413": { description: "Body too large" },
-            "429": { description: "Rate limited" },
-            "503": { description: "CLAIMS_API_KEY or KV not configured" },
+            "201": { description: "Stored. Untrusted until a human reviews it." },
+            "400": { description: "Missing or invalid statement, game_id, or source" },
+            "413": { description: "Body too large (max 16384 bytes)" },
+            "429": { description: "Rate limited (10 per IP per hour, or 100 per day globally)" },
+            "503": { description: "Claims KV binding not configured" },
           },
         },
       },
@@ -350,9 +351,6 @@ function openApiDoc() {
       "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
     },
     components: {
-      securitySchemes: {
-        bearerAuth: { type: "http", scheme: "bearer", description: "Wrangler secret CLAIMS_API_KEY. Not committed." },
-      },
       schemas: {
         ClaimInput: { $ref: "/schema/claim.schema.json" },
         ClaimsIndex: { $ref: "/schema/claims-index.schema.json" },
