@@ -32,15 +32,20 @@
   "weapon": "水晶鞋",
   "element": "电击",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "3号位：泳装灰/大白雪/红毗/超尼恩/小红帽/水母/黑莲/灰姑娘/水桃"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/cinderella",
     "https://www.gamekee.com/nikke/170686.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/cinderella/"
+    "https://nikke.gg/characters/cinderella/",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 170686,
   "gamekee_entry_id": 182035,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_231/h_300/1253/4408/2025/3/17/295657.png",

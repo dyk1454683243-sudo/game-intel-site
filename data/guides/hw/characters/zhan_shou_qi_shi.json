@@ -65,13 +65,18 @@
     ]
   },
   "weapon": "败者之首",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "稍有难度的关卡也可以配合塞妈打秒杀",
+      "选择织布机套可以配合格里泽尔达打群体背刺"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/639348.html",
     "https://www.gamekee.com/hw/639398.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 639348,
   "gamekee_entry_id": 168451,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_900/h_1170/50448/236746/2025/2/10/750829.png",

@@ -4,9 +4,37 @@
   "name_zh": "阿索拉：星之祈愿",
   "as_of": "2026-09-30",
   "timezone": "Asia/Shanghai",
-  "character_count": 0,
+  "character_count": 3,
   "rich_count": 0,
-  "stub_count": 0,
+  "stub_count": 3,
   "conclusion_stub_count": 0,
-  "characters": []
+  "characters": [
+    {
+      "id": "ai_quan_you_yue",
+      "name": "爱泉柚月",
+      "name_zh": "爱泉柚月",
+      "stub": true,
+      "sources": [
+        "https://www.gamekee.com/www/722620.html"
+      ]
+    },
+    {
+      "id": "liu_yuan_lu_yi_si",
+      "name": "柳原路易斯",
+      "name_zh": "柳原路易斯",
+      "stub": true,
+      "sources": [
+        "https://www.gamekee.com/www/722620.html"
+      ]
+    },
+    {
+      "id": "yan_long_xiao_ye_mei",
+      "name": "炎龙小夜美",
+      "name_zh": "炎龙小夜美",
+      "stub": true,
+      "sources": [
+        "https://www.gamekee.com/www/722620.html"
+      ]
+    }
+  ]
 }

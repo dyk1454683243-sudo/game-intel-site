@@ -34,15 +34,20 @@
   "weapon": "我的乖宝宝",
   "element": "铁甲",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "最后一个位置可以带德雷克/麦斯威尔/珍藏品hero/艾因/玛娜/坎西怪盗"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/maxwell",
     "https://www.gamekee.com/nikke/92087.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/maxwell/"
+    "https://nikke.gg/characters/maxwell/",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 92087,
   "gamekee_entry_id": 64608,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/478656.png",

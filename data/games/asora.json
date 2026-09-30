@@ -14,12 +14,16 @@
     {
       "label": "Official (plaync)",
       "url": "https://astraeoratio.plaync.com/zh-tw/index"
+    },
+    {
+      "label": "GameKee TGS 悠露子三人组",
+      "url": "https://www.gamekee.com/www/722620.html"
     }
   ],
   "stub": true,
   "watchlist": true,
   "guides_path": "/guides/asora/",
-  "note": "Watchlist; identity + official links only",
-  "as_of": "2026-09-25",
+  "note": "Watchlist. Identity stubs only for the TGS 悠露子三人组 (柳原路易斯、炎龙小夜美、爱泉柚月). No rates or strength.",
+  "as_of": "2026-09-30",
   "timezone": "Asia/Shanghai"
 }

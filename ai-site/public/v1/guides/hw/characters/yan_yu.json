@@ -59,12 +59,16 @@
     ]
   },
   "weapon": "怎么吃都吃不完的汉堡",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "有专武贝拉或布莉辛配合打多巴胺不错"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/670432.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 670432,
   "gamekee_entry_id": 191188,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/725147/2025/8/17/799028.png",

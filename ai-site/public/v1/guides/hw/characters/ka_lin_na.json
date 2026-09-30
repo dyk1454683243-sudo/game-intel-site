@@ -57,13 +57,17 @@
     ]
   },
   "weapon": "暴君之刃",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "1月15日卡琳娜重做，得到了大量的增伤和大招cd减少，目前可以作为非常优质的4费近战C使用，推荐配合赛妈"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/634255.html",
     "https://www.gamekee.com/hw/651425.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 634255,
   "gamekee_entry_id": 163025,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/454694.png",

@@ -33,14 +33,20 @@
   "weapon": "MG",
   "element": "Electric",
   "manufacturer": "Missilis",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "米西利斯以珍藏品芙罗拉搭配双超标准火力",
+      "最后一个位置可以带德雷克/麦斯威尔/珍藏品hero/艾因/玛娜/坎西怪盗"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/flora-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/flora/?treasure=true"
+    "https://nikke.gg/characters/flora/?treasure=true",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "portrait": "https://cdn.prydwen.gg/images/nikke/characters/flora-treasure.webp",

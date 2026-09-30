@@ -32,15 +32,22 @@
   "weapon": "狼毒",
   "element": "铁甲",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "皇冠+丽塔+红毗+红帽+珍藏品海伦（低配使用娜嘉）的国家队阵容",
+      "3号位：泳装灰/大白雪/红毗/超尼恩/小红帽/水母/黑莲/灰姑娘/水桃"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/red-hood",
     "https://www.gamekee.com/nikke/604398.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/red-hood/"
+    "https://nikke.gg/characters/red-hood/",
+    "https://www.gamekee.com/nikke/700085.html",
+    "https://www.gamekee.com/nikke/647737.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 604398,
   "gamekee_entry_id": 131941,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/6/702095.png",

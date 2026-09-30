@@ -33,14 +33,19 @@
   "weapon": "SMG",
   "element": "Fire",
   "manufacturer": "Elysion",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "但和米兰达（珍藏品）组队依旧是她收益最佳的组合（持续伤害可以受到双暴加持）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/miranda-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/miranda/?treasure=true"
+    "https://nikke.gg/characters/miranda/?treasure=true",
+    "https://www.gamekee.com/nikke/721995.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": null,
   "gamekee_entry_id": null,
   "portrait": "https://cdn.prydwen.gg/images/nikke/characters/miranda-treasure.webp",

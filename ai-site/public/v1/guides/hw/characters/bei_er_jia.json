@@ -44,12 +44,16 @@
   ],
   "stigmata": null,
   "weapon": "赤霜托尔图拉斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "中规中矩的近战C，能进行多动但是本身输出有限，基本上是配合冰女玩"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/655878.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 655878,
   "gamekee_entry_id": 181898,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/725147/2025/8/17/896761.png",

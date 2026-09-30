@@ -52,12 +52,16 @@
     ]
   },
   "weapon": "JK220 阿耳忒弥斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "强度不错的反击流角色，配合专武奥丝拉有一些玩法"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/634407.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 634407,
   "gamekee_entry_id": 163032,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/925146.png",

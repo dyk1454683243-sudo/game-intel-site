@@ -125,11 +125,15 @@ test("watchlist keeps deep games and empty shells", () => {
   const card = (name) => cards.find((part) => part.includes(name));
   assert.doesNotMatch(card("地平线行者"), /尚无深耕/);
   assert.match(card("地平线行者"), /角色列表/);
-  for (const name of ["蓝色星原：旅谣", "阿索拉：星之祈愿", "미래시", "Last Origin 2"]) {
+  for (const name of ["蓝色星原：旅谣", "미래시", "Last Origin 2"]) {
     assert.match(card(name), /尚无深耕/);
     assert.match(card(name), /深耕目录为空/);
     assert.match(card(name), /stub/);
   }
+  assert.match(card("阿索拉：星之祈愿"), /尚无深耕/);
+  assert.match(card("阿索拉：星之祈愿"), /身份卡 3，不写强度/);
+  assert.doesNotMatch(card("阿索拉：星之祈愿"), /深耕目录为空/);
+  assert.match(card("阿索拉：星之祈愿"), /stub/);
 });
 
 test("deep game page lists characters and alias search", () => {

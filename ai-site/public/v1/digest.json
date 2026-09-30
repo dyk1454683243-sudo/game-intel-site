@@ -3,7 +3,7 @@
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。其余标题未重抓。"
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。其余标题未重抓。"
   },
   "ok": true,
   "count": 7,
@@ -243,10 +243,16 @@
       "sources": [
         "gamekee",
         "official",
-        "taptap",
-        "bahamut"
+        "taptap"
       ],
       "items": [
+        {
+          "title": "《阿索拉：星之祈愿》TGS曝新角色！“悠露子三人组”档案揭秘",
+          "url": "https://www.gamekee.com/www/722620.html",
+          "source": "gamekee",
+          "date": "2026-09-29T11:34:07.000Z",
+          "summary": "GameKee 转述 TGS 角色情报：Dynamis One 与 NCSoft 的《阿索拉：星之祈愿》公布「悠露子三人组」，来自私立利萨拉女学园的特殊社团。三人是问题少女柳原路易斯、烈焰魔女炎龙小夜美、普通女孩爱泉柚月。正文亦写作柳原路易丝，并称她们被官方描述成「一群乌合之众组成的社团」。不补充强度或抽卡。"
+        },
         {
           "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
           "url": "https://www.gamekee.com/www/721973.html",
@@ -273,12 +279,6 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
-        },
-        {
-          "title": "《阿索拉：星之祈願》（開發商Dynamis One）公開CBT（封閉測試）玩家",
-          "url": "https://gnn.gamer.com.tw/detail.php?sn=309159",
-          "date": "2026-07-31T00:00:00.000Z",
-          "source": "bahamut"
         }
       ]
     }

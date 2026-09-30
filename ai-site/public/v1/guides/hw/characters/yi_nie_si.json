@@ -44,12 +44,16 @@
     ]
   },
   "weapon": "命运切割",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "配合格里泽尔达比较强力的主C，就是培养起来比较麻烦"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/hw/634305.html"
   ],
   "stub": false,
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-30",
   "gamekee_content_id": 634305,
   "gamekee_entry_id": 163044,
   "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/438760.png",
