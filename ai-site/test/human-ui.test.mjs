@@ -10,8 +10,11 @@ import {
   filterCharacters,
   filterGames,
   mergeAliasDocs,
+  newsForGame,
   renderCatalog,
   renderCharacter,
+  renderClaims,
+  renderForAi,
   renderFrame,
   renderGame,
   renderHome,
@@ -36,6 +39,8 @@ test("human shells point at the shared client", () => {
     "watchlist/index.html": "watchlist",
     "game/index.html": "game",
     "character/index.html": "character",
+    "for-ai/index.html": "for-ai",
+    "claims/index.html": "claims",
   };
   const home = fs.readFileSync(path.join(publicDir, "ui/home.html"), "utf8");
   assert.equal(fs.readFileSync(path.join(publicDir, "index.html"), "utf8"), home);
@@ -143,7 +148,7 @@ test("deep game page lists characters and alias search", () => {
   const html = renderGame(game, { guideIndex, aliasesById: aliases, q: "修女" });
   assert.match(html, /3279780/);
   assert.match(html, /\/character\/\?game=hw&amp;id=lysandria/);
-  assert.match(html, /class="char-row"/);
+  assert.match(html, /class="char-row char-deep"/);
   assert.match(html, /class="portrait"/);
   const lysRow = guideIndex.characters.find((card) => card.id === "lysandria");
   assert.equal(portraitTarget(lysRow.portrait)?.hostname, "cdnimg-v2.gamekee.com");
@@ -172,14 +177,16 @@ test("deep game page lists characters and alias search", () => {
 test("character pages use stored guide fields and keep gaps visible", () => {
   const lysCard = readJson("v1/guides/hw/characters/lysandria.json");
   const lys = renderCharacter("hw", lysCard);
-  assert.match(lys, /<h2>强度<\/h2>/);
+  assert.match(lys, /<h2>结论<\/h2>/);
+  assert.match(lys, /sheet-deep/);
+  assert.match(lys, /立绘/);
   assert.match(lys, /class="portrait lg"/);
   assert.match(lys, /头像出处/);
   assert.match(lys, new RegExp(`gamekee-entry-icon:hw:${lysCard.gamekee_entry_id}`));
   assert.equal(portraitImgSrc(lysCard.portrait).startsWith("/v1/portrait?u="), true);
   assert.match(lys, /\/v1\/portrait\?u=/);
   assert.match(lys, /<h2>服装<\/h2>/);
-  assert.match(lys, /<h2>技能<\/h2>/);
+  assert.match(lys, /<h2>技能养成<\/h2>/);
   assert.match(lys, /<h2>出处<\/h2>/);
   assert.match(lys, /旋转斩/);
   assert.match(lys, /有1专武解锁机制即可/);
@@ -196,6 +203,8 @@ test("character pages use stored guide fields and keep gaps visible", () => {
 
   const thin = renderCharacter("nikke", readJson("v1/guides/nikke/characters/shu-en.json"));
   assert.match(thin, /summary\.stub/);
+  assert.match(thin, /结论未完成/);
+  assert.match(thin, /sheet-partial/);
   assert.match(thin, /未见可靠出处/);
   assert.match(thin, /https:\/\/www\.gamekee\.com\/nikke\/619532\.html/);
   assert.doesNotMatch(thin, /T0/);
@@ -263,6 +272,9 @@ test("home renders digest and radar without turning radar into a catalog", () =>
     today,
   });
   assert.match(html, /今日摘要/);
+  assert.match(html, /href="\/watchlist\/"/);
+  assert.match(html, /href="\/for-ai\/"/);
+  assert.match(html, /观察名单/);
   assert.match(html, /雷达/);
   assert.match(html, /第二届近卫征集大赛/);
   assert.match(html, /阿索拉：星之祈愿/);
@@ -280,4 +292,104 @@ test("home renders digest and radar without turning radar into a catalog", () =>
   assert.match(hostile, /不是上海当日/);
   assert.doesNotMatch(hostile, /javascript:/);
   assert.equal(safeHttpUrl("javascript:alert(1)"), "");
+});
+
+test("shared nav matches the site map and for-ai states the write path", () => {
+  const frame = renderFrame("home", "<p>x</p>");
+  for (const href of ["/", "/catalog/", "/watchlist/", "/claims/", "/for-ai/"]) {
+    assert.match(frame, new RegExp(`href="${href.replaceAll("/", "\\/")}"`));
+  }
+  assert.match(frame, /观察名单/);
+  assert.match(frame, /核对墙/);
+  assert.match(frame, /给 AI/);
+  assert.match(frame, /同一份已发布数据/);
+
+  const ai = renderForAi();
+  assert.match(ai, /\/mcp/);
+  assert.match(ai, /\/openapi\.json/);
+  assert.match(ai, /\/llms\.txt/);
+  assert.match(ai, /character-card/);
+  assert.match(ai, /sources\[\]/);
+  assert.match(ai, /as_of/);
+  assert.match(ai, /填模板/);
+  assert.match(ai, /不另开私有 MCP 写通道/);
+  assert.match(ai, /不需要密钥/);
+  assert.match(ai, /\/v1\/digest\.json/);
+  assert.match(ai, /\/v1\/games\/\{id\}\.json/);
+  assert.match(ai, /\/v1\/guides\/\{game\}\/characters\/\{id\}\.json/);
+  assert.match(ai, /GET \/v1\/claims\.json/);
+  assert.doesNotMatch(ai, /Bearer/);
+  assert.match(ai, /href="\/sketches\/"/);
+
+  const wall = renderClaims({
+    count: 1,
+    timezone: "Asia/Shanghai",
+    claims: [
+      {
+        statement: "示例断言",
+        sources: ["https://example.com/source"],
+        as_of: "2026-09-30",
+        submitter: "example",
+      },
+    ],
+  });
+  assert.match(wall, /POST \/v1\/claims/);
+  assert.match(wall, /https/);
+  assert.match(wall, /未经人工核对/);
+  assert.match(wall, /不可信/);
+  assert.match(wall, /不需要密钥/);
+  assert.doesNotMatch(wall, /Bearer/);
+  assert.match(wall, /示例断言/);
+  assert.match(wall, /https:\/\/example\.com\/source/);
+  const empty = renderClaims({ claims: [], error: "无法读取 /v1/claims.json（404）" });
+  assert.match(empty, /POST \/v1\/claims/);
+  assert.match(empty, /404/);
+  assert.doesNotMatch(empty, /还没有已接受的核对/);
+});
+
+test("game page keeps identity, deep entry, and published news only", () => {
+  const digest = readJson("v1/digest.json");
+  const hw = renderGame(readJson("v1/games/hw.json"), {
+    news: newsForGame(digest, "hw"),
+    guideIndex: { characters: [], character_count: 0 },
+  });
+  assert.match(hw, /sheet-deep/);
+  assert.match(hw, /该游资讯/);
+  assert.match(hw, /第二届近卫征集大赛/);
+  assert.match(hw, /https:\/\/www\.gamekee\.com\/hw\/719925\.html/);
+  assert.doesNotMatch(hw, /暂无已发布资讯/);
+  const quiet = renderGame(readJson("v1/games/balatro.json"), { news: newsForGame(digest, "balatro") });
+  assert.match(quiet, /sheet-stub/);
+  assert.match(quiet, /暂无已发布资讯/);
+  assert.match(quiet, /尚无深耕/);
+  assert.doesNotMatch(quiet, /第二届近卫征集大赛/);
+});
+
+test("stub character cards stay visually distinct and do not invent a conclusion", () => {
+  const html = renderCharacter("hw", {
+    id: "placeholder",
+    name: "占位",
+    game: "hw",
+    stub: true,
+  });
+  assert.match(html, /sheet-stub/);
+  assert.match(html, /depth-banner stub/);
+  assert.match(html, /<h2>结论<\/h2>/);
+  assert.match(html, /<h2>配队<\/h2>/);
+  assert.match(html, /未见可靠出处/);
+  assert.doesNotMatch(html, /sheet-deep/);
+  assert.doesNotMatch(html, /T0/);
+});
+
+test("sketch index links the three wireframes", () => {
+  const index = fs.readFileSync(path.join(publicDir, "sketches/index.html"), "utf8");
+  assert.match(index, /href="\/sketches\/home\.html"/);
+  assert.match(index, /href="\/sketches\/game\.html"/);
+  assert.match(index, /href="\/sketches\/character\.html"/);
+  for (const name of ["home.html", "game.html", "character.html"]) {
+    const html = fs.readFileSync(path.join(publicDir, "sketches", name), "utf8");
+    assert.match(html, /草图/);
+    assert.doesNotMatch(html, /T0/);
+    assert.doesNotMatch(html, /必抽/);
+  }
 });

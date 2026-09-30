@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>草图 · 角色卡</title>
+  <link rel="stylesheet" href="/sketches/sketch.css"/>
+</head>
+<body>
+  <p class="banner"><strong>草图 · 角色卡</strong>字段跟 character-card。缺出处就留空，不补数字。</p>
+  <div class="wrap">
+    <nav class="nav" aria-label="草图">
+      <a href="/sketches/">索引</a>
+      <a href="/sketches/home.html">首页</a>
+      <a href="/sketches/game.html">游戏页</a>
+      <a href="/sketches/character.html" aria-current="page">角色卡</a>
+      <a href="/character/?game=hw&amp;id=lysandria">现网深耕例</a>
+    </nav>
+    <h1>角色卡</h1>
+    <p class="note">同一套栏目。深耕是实线，stub 是虚线。结论未完成时用单独色标，不把整张卡说成没写过。</p>
+    <div class="grid two">
+      <article class="panel deep">
+        <span class="tag deep">深耕</span>
+        <h2>已发布结论</h2>
+        <div class="box"><strong>立绘</strong><span class="k">有图就显示，并给出头像出处。无图写「无图」。</span></div>
+        <div class="box"><strong>结论</strong><span class="k">只渲染卡上已有的 summary。没有则写未见可靠出处。</span></div>
+        <div class="box"><strong>技能养成</strong><span class="k">技能摘要，加上已引用的加点顺序。</span></div>
+        <div class="box"><strong>配队</strong><span class="k">已引用的配队句。没有则写未见可靠出处。</span></div>
+        <div class="box"><strong>出处</strong><span class="k">https 外链始终可见。</span></div>
+      </article>
+      <article class="panel stub">
+        <span class="tag stub">stub</span>
+        <h2>身份或结论未完成</h2>
+        <div class="box"><strong>立绘</strong><span class="k">无图</span></div>
+        <div class="box"><strong>结论</strong><span class="k">未见可靠出处</span></div>
+        <div class="box"><strong>技能养成</strong><span class="k">只显示卡上已有的句子</span></div>
+        <div class="box"><strong>配队</strong><span class="k">未见可靠出处</span></div>
+        <div class="box"><strong>出处</strong><span class="k">有 https 才出现链接。没有就写未见可靠出处。</span></div>
+      </article>
+    </div>
+    <section class="panel" style="margin-top:0.8rem">
+      <h2>写卡路径</h2>
+      <ol>
+        <li>填模板（character-card schema）</li>
+        <li>校验：sources[] 为 https，并有 as_of</li>
+        <li>可选审</li>
+        <li>发布</li>
+        <li>人读页与 /v1 同步</li>
+      </ol>
+      <p class="k">MCP 只读已发布数据。新写走 POST /v1/claims 或现有导出管线。</p>
+    </section>
+    <p class="foot"><a href="/sketches/">草图索引</a> · <a href="/for-ai/">给 AI</a></p>
+  </div>
+</body>
+</html>

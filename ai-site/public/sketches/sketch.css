@@ -1,0 +1,82 @@
+:root {
+  color-scheme: light;
+  --ink: #1c1b18;
+  --muted: #5c574e;
+  --line: #c9c2b4;
+  --paper: #f6f3ec;
+  --card: #fffdf8;
+  --deep: #0c6b66;
+  --stub: #8a5a00;
+  --stub-bg: #fff4d8;
+  --deep-bg: #e7f5f3;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.5 "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+}
+a { color: var(--deep); }
+.wrap { width: min(980px, calc(100% - 2rem)); margin: 0 auto; padding: 1.25rem 0 3rem; }
+.banner {
+  background: #efe8d4;
+  border-bottom: 1px dashed var(--line);
+  padding: 0.55rem 1rem;
+  font-size: 0.92rem;
+}
+.banner strong { margin-right: 0.4rem; }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.8rem 0 1rem;
+}
+.nav a, .pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0.15rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  text-decoration: none;
+}
+.nav a[aria-current="page"] { background: var(--ink); color: var(--paper); }
+h1 { font-size: 1.55rem; margin: 0.2rem 0 0.4rem; }
+h2 { font-size: 1.05rem; margin: 0 0 0.45rem; }
+.note { color: var(--muted); margin-top: 0; }
+.grid { display: grid; gap: 0.8rem; }
+@media (min-width: 800px) {
+  .grid.two { grid-template-columns: 1fr 1fr; }
+}
+.panel {
+  background: var(--card);
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+.panel.deep { border-style: solid; border-left: 6px solid var(--deep); background: var(--deep-bg); }
+.panel.stub { border-left: 6px solid var(--stub); background: var(--stub-bg); }
+.tag {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.tag.deep { background: var(--deep); color: #f4fffd; }
+.tag.stub { background: var(--stub); color: #fffaf0; }
+.box {
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.7rem;
+  margin: 0.45rem 0;
+  background: color-mix(in srgb, var(--card) 70%, transparent);
+}
+.box strong { display: block; }
+.k { color: var(--muted); font-size: 0.85rem; }
+ol { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.foot { margin-top: 1.4rem; color: var(--muted); font-size: 0.92rem; }

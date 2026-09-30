@@ -221,6 +221,10 @@ test("claims: public submit, hard sources, then read-only mirror", async () => {
   const html = await page.text();
   assert.match(html, /HW card lists sources/);
   assert.match(html, /不可信/);
+  assert.match(html, /不需要密钥/);
+  assert.match(html, /POST \/v1\/claims/);
+  assert.match(html, /href="\/for-ai\/"/);
+  assert.match(html, /aria-current="page"/);
 
   const listedTool = await route(
     new Request(`${origin}/mcp`, {
