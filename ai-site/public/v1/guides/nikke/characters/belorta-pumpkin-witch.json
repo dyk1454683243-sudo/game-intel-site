@@ -1,0 +1,59 @@
+{
+  "id": "belorta-pumpkin-witch",
+  "name": "贝洛塔：南瓜女巫",
+  "name_zh": "贝洛塔：南瓜女巫",
+  "name_en": "Belorta: Pumpkin Witch",
+  "aliases": [
+    "貝洛塔：南瓜女巫"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": "辅助型",
+  "skills": [],
+  "skill_prio": [],
+  "burst": null,
+  "weapon": "糖果发射器（RL）",
+  "element": "水冷",
+  "manufacturer": "泰特拉",
+  "teams": {},
+  "sources": [
+    "https://nikke.hotcool.tw/m/News_detail-232",
+    "https://www.gamekee.com/nikke/722928.html",
+    "https://nikke.gg/october-8-patch-notes-summary/",
+    "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011",
+    "https://www.prydwen.gg/nikke/banners",
+    "https://nikke.gg/tier-list/",
+    "https://nikke.gg/characters/belorta-pumpkin-witch/"
+  ],
+  "stub": true,
+  "note": "2026 万圣节 SSR 变体，与基础贝洛塔（belorta）分卡。官方公告：为迎接万圣节化身为调皮魔女的辅助型，可强化队友攻击能力；使用爆裂技能时进一步强化队友。武器为糖果发射器（RL），代码水冷，企业写作「泰特拉Line」（卡面制造商沿用图鉴简称「泰特拉」）。特殊招募：2026-10-08 更新维护结束后至 2026-10-28 23:59:59（UTC+9）。同期剧情活动 LITTLE WITCH TRICK，窗口相同。技能名与数值未见可靠出处。",
+  "as_of": "2026-10-07",
+  "gamekee_content_id": null,
+  "gamekee_entry_id": null,
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "prydwen_slug": null,
+  "rarity": "SSR",
+  "verified": "官方更新公告 nikke.hotcool.tw News_detail-232（2026-10-05）；GameKee nikke/722928 招募预告用简体名「贝洛塔：南瓜女巫」。技能与梯度未见可靠出处。",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-07",
+    "url": "https://nikke.gg/tier-list/",
+    "character_url": "https://nikke.gg/characters/belorta-pumpkin-witch/"
+  },
+  "summary": {
+    "position": "SSR / 辅助型 / 水冷 / 泰特拉",
+    "sources": [
+      "https://nikke.hotcool.tw/m/News_detail-232",
+      "https://www.gamekee.com/nikke/722928.html",
+      "https://nikke.gg/october-8-patch-notes-summary/",
+      "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011",
+      "https://www.prydwen.gg/nikke/banners",
+      "https://nikke.gg/tier-list/",
+      "https://nikke.gg/characters/belorta-pumpkin-witch/"
+    ],
+    "stub": true,
+    "caveat": "技能名、技能数值与强度档未见可靠出处。2026-10-07 核对 Nikke.gg 梯度页与角色页：无南瓜女巫综合档，角色页无技能正文；GameKee 角色图鉴目录只有基础贝洛塔。不编造 T 度或抽卡结论。特殊招募与剧情活动 LITTLE WITCH TRICK 均为 2026-10-08 更新维护结束后至 2026-10-28 23:59:59（UTC+9），摘自官方更新公告。Prydwen banners（页面标注更新于 2026-10-05）把本期写成 2026-10-08 至 2026-10-21，与官方结束日不一致，卡面不采用该结束日。"
+  }
+}

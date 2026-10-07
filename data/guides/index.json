@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-07",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -52,9 +52,9 @@
       "id": "nikke",
       "name": "NIKKE",
       "name_zh": "胜利女神：NIKKE",
-      "character_count": 232,
+      "character_count": 233,
       "rich_count": 232,
-      "stub_count": 0,
+      "stub_count": 1,
       "path": "guides/nikke"
     },
     {
