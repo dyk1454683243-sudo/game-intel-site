@@ -243,6 +243,7 @@ delete CN_TO_ID["谢芙蒂"];
 delete CN_TO_ID["机甲谢芙蒂"];
 delete CN_TO_ID["艾瑟儿"]; // Ether already 埃葵斯
 CN_TO_ID["吉尔提：神力兔女郎"] = "guilty-mighty-bunny"; // dedicated id even if not on Prydwen
+CN_TO_ID["贝洛塔：南瓜女巫"] = "belorta-pumpkin-witch"; // Halloween SSR; keep off base belorta
 
 /** Common CN nicknames → id (only sure from GameKee 角色昵称 + community). */
 const NICK_TO_ID = {
