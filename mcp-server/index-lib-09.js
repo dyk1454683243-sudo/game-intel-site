@@ -41,6 +41,7 @@ import {
   guideCacheStats,
 } from "./guide-cache.js";
 import { askIntel } from "./ask.js";
+import { acceptsLo2DigestItem } from "./lo2-match.js";
 
 export * from "./index-lib-08.js";
 import {
@@ -55,6 +56,7 @@ import {
   pickAlias,
   pickQuery,
   searchGamekee,
+  searchLo2Gamekee,
   searchBahamut,
   searchOfficial,
   digestGame,
@@ -190,11 +192,14 @@ async function buildCalendar(opts = {}) {
         limit: 8,
         forDigest: true,
       }).catch(() => empty),
-      searchGamekee({
-        alias,
-        query: alias === "www" ? query : query || "",
-        limit: 6,
-      }).catch(() => empty),
+      (id === "lo2"
+        ? searchLo2Gamekee({ limit: 6 })
+        : searchGamekee({
+            alias,
+            query: alias === "www" ? query : query || "",
+            limit: 6,
+          })
+      ).catch(() => empty),
       (bahQ || BAHAMUT_BSN[id] != null
         ? searchBahamut({
             query: bahQ,
@@ -239,7 +244,9 @@ async function buildCalendar(opts = {}) {
       });
     }
 
-    const merged = dedupeByUrlOrTitle(pool).filter((it) => !isNoise(it));
+    const mergedAll = dedupeByUrlOrTitle(pool).filter((it) => !isNoise(it));
+    const merged =
+      id === "lo2" ? mergedAll.filter((it) => acceptsLo2DigestItem(it)) : mergedAll;
     const itemByUrl = new Map();
     for (const it of merged) {
       if (it?.url) itemByUrl.set(String(it.url), it);

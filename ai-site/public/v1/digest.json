@@ -3,7 +3,7 @@
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。其余标题未重抓。"
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
   },
   "ok": true,
   "count": 7,
@@ -206,10 +206,9 @@
       "name": "Last Origin 2",
       "alias": "www",
       "ok": true,
-      "count": 3,
+      "count": 1,
       "sources": [
-        "official",
-        "gamekee"
+        "official"
       ],
       "items": [
         {
@@ -217,20 +216,6 @@
           "url": "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
           "date": null,
           "source": "official"
-        },
-        {
-          "title": "【1周年】灵梦",
-          "url": "https://www.gamekee.com/www/722370.html",
-          "source": "gamekee",
-          "updated": "2026-09-26T16:17:32.000Z",
-          "id": 722370
-        },
-        {
-          "title": "ミスティア・ローレライ",
-          "url": "https://www.gamekee.com/www/722318.html",
-          "source": "gamekee",
-          "updated": "2026-09-26T16:17:17.000Z",
-          "id": 722318
         }
       ]
     },

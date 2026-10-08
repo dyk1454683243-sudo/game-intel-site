@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:14:26.849Z",
+  "updated_at": "2026-10-08T09:00:00.000Z",
   "games": {
     "hw": {
       "fingerprints": [
@@ -87,17 +87,9 @@
     },
     "lo2": {
       "fingerprints": [
-        "https://www.gamekee.com/www/719394.html",
-        "https://www.gamekee.com/www/719320.html",
-        "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244",
-        "https://www.gamekee.com/www/720049.html",
-        "https://www.gamekee.com/www/720373.html",
-        "https://www.gamekee.com/www/720318.html",
-        "https://www.gamekee.com/www/721647.html",
-        "https://www.gamekee.com/www/721776.html",
-        "https://www.gamekee.com/www/721833.html"
+        "https://www.gamechosun.co.kr/webzine/article/view.php?no=223244"
       ],
-      "updated_at": "2026-09-25T02:14:24.379Z"
+      "updated_at": "2026-10-08T09:00:00.000Z"
     },
     "asora": {
       "fingerprints": [

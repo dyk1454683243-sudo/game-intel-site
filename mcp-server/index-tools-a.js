@@ -52,6 +52,7 @@ import {
   pickAlias,
   pickQuery,
   searchGamekee,
+  searchLo2Gamekee,
   searchTaptap,
   searchInven,
   searchSteam,
@@ -162,11 +163,14 @@ server.tool(
           : game && !entry
             ? String(game).toLowerCase()
             : alias;
-      const out = await searchGamekee({
-        alias: useAlias,
-        query: q,
-        limit,
-      });
+      const out =
+        entry?.id === "lo2"
+          ? await searchLo2Gamekee({ limit, extraQuery: q })
+          : await searchGamekee({
+              alias: useAlias,
+              query: q,
+              limit,
+            });
       return textResult({
         ...out,
         game: entry?.id || game || null,

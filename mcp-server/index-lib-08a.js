@@ -61,6 +61,7 @@ import {
   pickQuery,
   fetchText,
   searchGamekee,
+  searchLo2Gamekee,
   getArticle,
   searchTaptap,
   searchInven,
@@ -154,6 +155,11 @@ async function digestGame(entryId, entry, opts = {}) {
   ] = await Promise.all([
     (async () => {
       try {
+        if (entryId === "lo2") {
+          return await searchLo2Gamekee({
+            limit: Math.max(gkCap + 4, 6),
+          });
+        }
         return await searchGamekee({
           alias,
           query: alias === "www" ? query : query || "",
@@ -275,6 +281,7 @@ async function digestGame(entryId, entry, opts = {}) {
       id: it.id,
     };
     if (isNoise(row)) continue;
+    if (!passesDigestGameGate(row, entry, entryId)) continue;
     if (buckets.gamekee.length >= gkCap) break;
     buckets.gamekee.push(row);
   }
@@ -297,6 +304,7 @@ async function digestGame(entryId, entry, opts = {}) {
         ...(it.category ? { category: it.category } : {}),
       };
       if (isNoise(row)) continue;
+      if (!passesDigestGameGate(row, entry, entryId)) continue;
       if (isBd2ComicSubject(row.title) && offItems.some((x) => !isBd2ComicSubject(x.title))) {
         continue;
       }
