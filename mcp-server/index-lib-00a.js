@@ -181,9 +181,10 @@ const DEFAULT_WATCHLIST = {
     keywords: [
       "Last Origin 2",
       "라스트오리진2",
-      "VALOFE",
       "라스트 오리진2",
       "Last Origin II",
+      "最后的起源2",
+      "最後的起源2",
     ],
     official_url: "https://www.valofe.com/",
     official_api: "lo2_official",

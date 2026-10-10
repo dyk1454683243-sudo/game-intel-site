@@ -73,6 +73,7 @@ import {
   parseFourGamerRss,
   parseSteamComingSoonPayload,
 } from "./channel-parse.mjs";
+import { acceptsLo2DigestItem, LO2_GAMEKEE_QUERIES } from "./lo2-match.js";
 
 
 async function searchGamekee({ alias, query, limit = 5 }) {
@@ -162,6 +163,55 @@ async function searchGamekee({ alias, query, limit = 5 }) {
       };
     }
   );
+}
+
+/**
+ * Last Origin 2 GameKee sweep. searchArticle("Last Origin 2") returns the
+ * live LO1 wiki, so each query is title-filtered before it can fill the cap.
+ */
+async function searchLo2Gamekee({ limit = 5, extraQuery = "" } = {}) {
+  const lim = clampLimit(limit, 5, 8);
+  const queries = [];
+  const pushQuery = (q) => {
+    const s = String(q || "").trim();
+    if (s && !queries.includes(s)) queries.push(s);
+  };
+  for (const q of LO2_GAMEKEE_QUERIES) pushQuery(q);
+  pushQuery(extraQuery);
+
+  const results = await Promise.all(
+    queries.map(async (q) => {
+      try {
+        return await searchGamekee({ alias: "www", query: q, limit: 8 });
+      } catch {
+        return { ok: false, items: [] };
+      }
+    })
+  );
+
+  const seen = new Set();
+  const items = [];
+  for (const res of results) {
+    for (const it of res?.items || []) {
+      if (!acceptsLo2DigestItem(it)) continue;
+      const key = String(it.id || it.url || it.title);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      items.push(it);
+      if (items.length >= lim) break;
+    }
+    if (items.length >= lim) break;
+  }
+
+  return {
+    ok: items.length > 0,
+    alias: "www",
+    query: queries[0] || null,
+    queries,
+    count: items.length,
+    items,
+    ...(items.length ? {} : { error: "no_lo2_sequel_items" }),
+  };
 }
 
 function parseArticleRef({ url, id, game }) {
@@ -640,6 +690,7 @@ function radarHitTitle(title) {
 
 export {
   searchGamekee,
+  searchLo2Gamekee,
   parseArticleRef,
   getArticle,
   taptapApi,

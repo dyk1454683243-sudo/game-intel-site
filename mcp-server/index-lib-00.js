@@ -101,6 +101,7 @@ import {
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { acceptsLo2DigestItem, mentionsLo2Sequel } from "./lo2-match.js";
 function ensureData() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
   if (!fs.existsSync(WATCHLIST_PATH)) {
@@ -286,8 +287,9 @@ function hitsGameKeywords(text, entry, entryId = null) {
     );
   }
   if (id === "lo2") {
-    // Require LO2 — NOT bare "last origin"
-    return /last\s*origin\s*2|라스트오리진\s*2|라스트오리진2/.test(hay);
+    // Sequel only. Do not fall through to keywords: "VALOFE" and bare
+    // "Last Origin" are the live LO1 game.
+    return mentionsLo2Sequel(text);
   }
   if (id === "miraesi") {
     if (/미래시|invisible\s*future|miresi|control9/.test(hay)) return true;
@@ -326,6 +328,13 @@ function bahamutItemOnPinnedBoard(item, entryId) {
 function passesDigestGameGate(item, entry, entryId) {
   const src = String(item?.source || "").toLowerCase();
   const blob = `${item?.title || ""}\n${item?.url || ""}`;
+  const id = String(entryId || entry?.id || "")
+    .toLowerCase()
+    .trim();
+  if (id === "lo2") {
+    // www GameKee search and VALOFE pages also return Last Origin 1.
+    return acceptsLo2DigestItem(item);
+  }
   if (src === "bahamut") {
     // Pinned-board threads are on-game even without the name in the title
     if (bahamutItemOnPinnedBoard(item, entryId)) return true;

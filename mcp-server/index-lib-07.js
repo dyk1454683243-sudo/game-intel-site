@@ -168,9 +168,10 @@ async function searchOfficial({
             ...(Array.isArray(wlEntry.keywords) ? wlEntry.keywords : []),
             wlEntry.name,
             wlEntry.name_zh,
-            "VALOFE",
             "Last Origin 2",
             "라스트오리진2",
+            "最后的起源2",
+            "最後的起源2",
           ].filter(Boolean);
           const fetched = await searchLo2Official({
             limit: lim,

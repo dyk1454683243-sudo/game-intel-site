@@ -33,8 +33,8 @@ import {
   STAR_OFFICIAL_RE,
   VALOFE_ORIGIN,
   LO2_OFFICIAL_SEED,
-  LO2_OFFICIAL_RE,
 } from "./index-lib-05a.js";
+import { acceptsLo2DigestItem } from "./lo2-match.js";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -88,15 +88,9 @@ function usesLo2Official(entryId, officialApi) {
   return String(entryId || "").toLowerCase() === "lo2";
 }
 
-function matchesLo2Official(title, url, extraKeywords) {
-  const blob = `${title || ""} ${url || ""}`;
-  if (LO2_OFFICIAL_RE.test(blob)) return true;
-  const extras = Array.isArray(extraKeywords) ? extraKeywords : [];
-  for (const k of extras) {
-    const s = String(k || "").trim();
-    if (s.length >= 2 && includesCI(blob, s)) return true;
-  }
-  return false;
+function matchesLo2Official(title, url, _extraKeywords) {
+  // Ignore watchlist extras. "VALOFE" and bare "Last Origin" are LO1.
+  return acceptsLo2DigestItem({ title, url });
 }
 
 async function fetchValofeNewsLinks() {

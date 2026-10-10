@@ -397,8 +397,12 @@ const LO2_OFFICIAL_SEED = [
   },
 ];
 
+/**
+ * Explicit sequel names only. Bare `valofe` is the live Last Origin publisher.
+ * 续作 / 후속작 pairing is in mentionsLo2Sequel, which is the ingest gate.
+ */
 const LO2_OFFICIAL_RE =
-  /last\s*origin\s*2|last\s*origin\s*ii|라스트\s*오리진\s*2|라스트오리진2|valofe/i;
+  /last[\s\-_]*origin[\s「」『』“”"'《》（）()[\]：:·.\-]*?(?:2|ii)(?!\d|[a-z])|라스트\s*오리진\s*2(?!\d)|ラスト\s*オリジン\s*2(?!\d)|最[后後]的起源\s*2(?!\d)|\blo2\b/i;
 
 
 export {
