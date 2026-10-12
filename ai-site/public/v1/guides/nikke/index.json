@@ -2,11 +2,11 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-12",
   "timezone": "Asia/Shanghai",
   "character_count": 233,
-  "rich_count": 232,
-  "stub_count": 1,
+  "rich_count": 233,
+  "stub_count": 0,
   "conclusion_stub_count": 3,
   "characters": [
     {
@@ -360,17 +360,19 @@
       "id": "belorta-pumpkin-witch",
       "name": "贝洛塔：南瓜女巫",
       "name_zh": "贝洛塔：南瓜女巫",
-      "stub": true,
+      "stub": false,
       "sources": [
-        "https://nikke.hotcool.tw/m/News_detail-232",
-        "https://www.gamekee.com/nikke/722928.html",
-        "https://nikke.gg/october-8-patch-notes-summary/",
-        "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011",
-        "https://www.prydwen.gg/nikke/banners",
+        "https://www.gamekee.com/nikke/723519.html",
+        "https://www.prydwen.gg/nikke/characters/belorta-pumpkin-witch",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/belorta-pumpkin-witch/"
+        "https://nikke.gg/characters/belorta-pumpkin-witch/",
+        "https://nikke.hotcool.tw/m/News_detail-232",
+        "https://nikke.gg/october-8-patch-notes-summary/",
+        "https://www.prydwen.gg/nikke/banners",
+        "https://www.gamekee.com/nikke/722928.html",
+        "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011"
       ],
-      "portrait": null
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/9/8/94897384muzcnooa.png"
     },
     {
       "id": "biscuit",

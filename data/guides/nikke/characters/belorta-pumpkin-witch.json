@@ -9,51 +9,75 @@
   "nicknames": [],
   "game": "nikke",
   "role": "辅助型",
-  "skills": [],
-  "skill_prio": [],
-  "burst": null,
+  "skills": [
+    {
+      "name": "俏皮小魔女",
+      "type": "passive",
+      "summary": "■全爆裂时间开始时，自身 【幽灵伪装：从单体攻击目标中排除，直接被攻击时解除】【持续10秒】 【准备捣蛋：最大体力9.36%▲】【持续10秒】 ■全爆裂时间开始时，自身右侧位置的1名队友 【以施展者为基准的攻击力26.52%▲】【持续10秒】"
+    },
+    {
+      "name": "不给糖就捣蛋！",
+      "type": "passive",
+      "summary": "■全蓄力攻击命中时，若自身处于幽灵伪装状态，目标 【幽灵恶作剧：所受伤害6.24%▲】【持续10秒】 ■全蓄力攻击时，自身右侧位置的1名队友 【持续伤害11.8%▲】【持续5秒】"
+    },
+    {
+      "name": "万圣节快乐！",
+      "type": "burst",
+      "summary": "■自身右侧位置的1名队友 【以施展者为基准的攻击力28.08%▲】【持续10秒】 【持续伤害16.09%▲】【持续10秒】"
+    }
+  ],
+  "skill_prio": [
+    "Prydwen PVE 4/4/4 → 7/7/7 → 7/10/7（→ 10/10/10）",
+    "Prydwen PVP 4/4/4 → 4/7/7 → 7/10/10（→ 10/10/10）"
+  ],
+  "burst": "万圣节快乐！",
   "weapon": "糖果发射器（RL）",
   "element": "水冷",
   "manufacturer": "泰特拉",
   "teams": {},
   "sources": [
-    "https://nikke.hotcool.tw/m/News_detail-232",
-    "https://www.gamekee.com/nikke/722928.html",
-    "https://nikke.gg/october-8-patch-notes-summary/",
-    "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011",
-    "https://www.prydwen.gg/nikke/banners",
+    "https://www.gamekee.com/nikke/723519.html",
+    "https://www.prydwen.gg/nikke/characters/belorta-pumpkin-witch",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/belorta-pumpkin-witch/"
+    "https://nikke.gg/characters/belorta-pumpkin-witch/",
+    "https://nikke.hotcool.tw/m/News_detail-232",
+    "https://nikke.gg/october-8-patch-notes-summary/",
+    "https://www.prydwen.gg/nikke/banners",
+    "https://www.gamekee.com/nikke/722928.html",
+    "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011"
   ],
-  "stub": true,
-  "note": "2026 万圣节 SSR 变体，与基础贝洛塔（belorta）分卡。官方公告：为迎接万圣节化身为调皮魔女的辅助型，可强化队友攻击能力；使用爆裂技能时进一步强化队友。武器为糖果发射器（RL），代码水冷，企业写作「泰特拉Line」（卡面制造商沿用图鉴简称「泰特拉」）。特殊招募：2026-10-08 更新维护结束后至 2026-10-28 23:59:59（UTC+9）。同期剧情活动 LITTLE WITCH TRICK，窗口相同。技能名与数值未见可靠出处。",
-  "as_of": "2026-10-07",
-  "gamekee_content_id": null,
-  "gamekee_entry_id": null,
-  "portrait": null,
-  "portrait_source": null,
-  "portrait_via": null,
-  "prydwen_slug": null,
+  "stub": false,
+  "note": "2026 万圣节 SSR 变体，与基础贝洛塔（belorta）分卡。官方公告：辅助型，可强化队友攻击能力，使用爆裂技能时进一步强化队友；武器糖果发射器（RL），代码水冷，企业「泰特拉Line」（卡面制造商沿用图鉴简称「泰特拉」）。GameKee 图鉴：阶段二阶，爆裂技能「万圣节快乐！」。特殊招募与 LITTLE WITCH TRICK：2026-10-08 更新维护结束后至 2026-10-28 23:59:59（UTC+9）。Prydwen / Nikke.gg 英文技能名为 Playful Little Witch、Trick or Treat!、Happy Halloween!；卡面技能名只用 GameKee 简体，不把英文名当成中文译名。",
+  "as_of": "2026-10-12",
+  "gamekee_content_id": 723519,
+  "gamekee_entry_id": 226665,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/9/8/94897384muzcnooa.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:nikke:226665",
+  "prydwen_slug": "belorta-pumpkin-witch",
   "rarity": "SSR",
-  "verified": "官方更新公告 nikke.hotcool.tw News_detail-232（2026-10-05）；GameKee nikke/722928 招募预告用简体名「贝洛塔：南瓜女巫」。技能与梯度未见可靠出处。",
+  "verified": "GameKee nikke/723519 图鉴（技能 lv1、阶段二阶）；Prydwen /nikke/characters/belorta-pumpkin-witch Ratings Story B / Bossing A / PVP B；Nikke.gg tier list 2026-10-12 无综合档。官方公告结束日 2026-10-28。",
   "ratings": {
     "checked": true,
-    "as_of": "2026-10-07",
+    "as_of": "2026-10-12",
     "url": "https://nikke.gg/tier-list/",
     "character_url": "https://nikke.gg/characters/belorta-pumpkin-witch/"
   },
   "summary": {
-    "position": "SSR / 辅助型 / 水冷 / 泰特拉",
+    "tier": "Prydwen 故事 B / Boss A / PvP B",
+    "position": "SSR / 万圣节快乐！ / 辅助型 / 水冷 / 泰特拉",
     "sources": [
-      "https://nikke.hotcool.tw/m/News_detail-232",
-      "https://www.gamekee.com/nikke/722928.html",
-      "https://nikke.gg/october-8-patch-notes-summary/",
-      "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011",
-      "https://www.prydwen.gg/nikke/banners",
+      "https://www.gamekee.com/nikke/723519.html",
+      "https://www.prydwen.gg/nikke/characters/belorta-pumpkin-witch",
       "https://nikke.gg/tier-list/",
-      "https://nikke.gg/characters/belorta-pumpkin-witch/"
+      "https://nikke.gg/characters/belorta-pumpkin-witch/",
+      "https://nikke.hotcool.tw/m/News_detail-232",
+      "https://nikke.gg/october-8-patch-notes-summary/",
+      "https://www.prydwen.gg/nikke/banners",
+      "https://www.gamekee.com/nikke/722928.html",
+      "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011"
     ],
-    "stub": true,
-    "caveat": "技能名、技能数值与强度档未见可靠出处。2026-10-07 核对 Nikke.gg 梯度页与角色页：无南瓜女巫综合档，角色页无技能正文；GameKee 角色图鉴目录只有基础贝洛塔。不编造 T 度或抽卡结论。特殊招募与剧情活动 LITTLE WITCH TRICK 均为 2026-10-08 更新维护结束后至 2026-10-28 23:59:59（UTC+9），摘自官方更新公告。Prydwen banners（页面标注更新于 2026-10-05）把本期写成 2026-10-08 至 2026-10-21，与官方结束日不一致，卡面不采用该结束日。"
+    "stub": false,
+    "caveat": "Nikke.gg 2026-10-12 梯度接口没有 belorta-pumpkin-witch 综合档。上列是 Prydwen 角色页 Ratings 的 Story B / Bossing A / PVP B，不是 Nikke.gg 综合档；该页未标 pending review，也没有综合档，不编造。练度路径为同页 Skill Investment 原文，Priority 为 Medium (Boss)。不编造抽卡结论。技能名与摘要数值是 GameKee nikke/723519 的 lv1；Prydwen 技能框与 Nikke.gg 角色页（技能等级选中 10）的百分比与该图鉴 lv10 相同，摘要不改收 lv10。普通攻击百分比两站不一致（GameKee 69.04%，Prydwen / Nikke.gg 技能框 61.3%），卡面不收普攻。特殊招募与剧情活动 LITTLE WITCH TRICK 结束日仍为 2026-10-28 23:59:59（UTC+9），2026-10-12 复核官方更新公告与 Nikke.gg October 8 patch notes。Prydwen banners（Last updated: 08/October/2026）仍写成 Oct 8, 2026 – Oct 21, 2026（data-end-global 2026-10-21T20:00:00.000Z），卡面不采用该结束日。"
   }
 }
