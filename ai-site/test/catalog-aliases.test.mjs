@@ -9,6 +9,10 @@ const publicDir = path.join(path.dirname(fileURLToPath(import.meta.url)), "../pu
 
 test("catalog alias path is allowlisted", () => {
   assert.equal(resolvePublicPath("/v1/catalog-aliases.json"), "/v1/catalog-aliases.json");
+  assert.equal(resolvePublicPath("/v1/guides/nikke/banners.json"), "/v1/guides/nikke/banners.json");
+  assert.equal(resolvePublicPath("/v1/guides/bd2/codes.json"), "/v1/guides/bd2/codes.json");
+  assert.equal(resolvePublicPath("/v1/guides/hw/banners.json"), "/v1/guides/hw/banners.json");
+  assert.equal(resolvePublicPath("/v1/guides/not a game/codes.json"), null);
   assert.equal(resolvePublicPath("/v1/not-a-route.json"), null);
 });
 

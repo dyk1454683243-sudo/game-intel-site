@@ -1,0 +1,69 @@
+{
+  "game": "hw",
+  "as_of": "2026-10-15",
+  "timezone_note": "Steam 公告写了日期和钟点，没有写时区。下面的 start/end 只保留公告原文，不补 KST 或 UTC。",
+  "sources": [
+    "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+  ],
+  "banners": [
+    {
+      "id": "hw-2026-10-08-rerun",
+      "name": "4种复刻搜寻",
+      "kind": "rerun",
+      "status": "current",
+      "up": [
+        "終末之果 艾米莉亞",
+        "賽里歐爾：醫療鎚",
+        "JK220 阿爾忒彌斯",
+        "SS4-修改型"
+      ],
+      "up_characters": [
+        {
+          "id": "ai_mi_li_ya",
+          "name": "艾米莉亚",
+          "label": "終末之果 艾米莉亞"
+        }
+      ],
+      "start_text": "2026.10.8 (四) 維護結束後",
+      "end_text": "2026.10.22 (四) 10:00",
+      "start": "2026-10-08",
+      "end": "2026-10-22T10:00:00",
+      "timezone": null,
+      "source": "https://steamcommunity.com/app/3279780/announcements/?l=tchinese",
+      "as_of": "2026-10-15",
+      "note": "10/8 定期维护更新公告。医疗锤、JK220 阿尔忒弥斯、SS4-修改型按公告原文收录，公告没有把它们写成角色名。"
+    },
+    {
+      "id": "hw-2026-09-23-garud",
+      "name": "特别搜寻 循环的不死鸟 迦露德 / 复刻 光之剑处女 尤洁妮亚",
+      "kind": "mixed",
+      "status": "ended",
+      "up": [
+        "循環的不死鳥 迦露德",
+        "不滅炎羽",
+        "光之劍處女 尤潔妮亞",
+        "真理之光"
+      ],
+      "up_characters": [
+        {
+          "id": "garud",
+          "name": "迦露德",
+          "label": "循環的不死鳥 迦露德"
+        },
+        {
+          "id": "you_jie_ni_ya",
+          "name": "尤洁妮亚",
+          "label": "光之劍處女 尤潔妮亞"
+        }
+      ],
+      "start_text": "2026.9.23 (三) 維護結束後",
+      "end_text": "2026.10.8 (四) 10:00",
+      "start": "2026-09-23",
+      "end": "2026-10-08T10:00:00",
+      "timezone": null,
+      "source": "https://steamcommunity.com/app/3279780/announcements/?l=tchinese",
+      "as_of": "2026-10-15",
+      "note": "9/23 公告写这两段搜寻到 2026.10.8 10:00。10/8 公告另写这些横幅再额外显示一周，并移除妖精网搜寻按钮；额外一周的结束钟点公告没有写。"
+    }
+  ]
+}

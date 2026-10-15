@@ -1,0 +1,121 @@
+{
+  "game": "nikke",
+  "as_of": "2026-10-15",
+  "timezone": "Asia/Tokyo",
+  "timezone_note": "官方公告写 UTC+9。Asia/Tokyo 与 UTC+9 同一偏移，没有夏令时。",
+  "sources": [
+    "https://nikke.hotcool.tw/m/News_detail-232",
+    "https://nikke.hotcool.tw/News_detail-223"
+  ],
+  "banners": [
+    {
+      "id": "nikke-belorta-pumpkin-witch",
+      "name": "特殊招募 贝洛塔：南瓜女巫",
+      "kind": "special_recruit",
+      "status": "current",
+      "up": [
+        "贝洛塔：南瓜女巫"
+      ],
+      "up_characters": [
+        {
+          "id": "belorta-pumpkin-witch",
+          "name": "贝洛塔：南瓜女巫"
+        }
+      ],
+      "start": "2026-10-08",
+      "start_text": "2026年10月8日更新维护结束后",
+      "end": "2026-10-28T23:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/m/News_detail-232",
+      "as_of": "2026-10-15"
+    },
+    {
+      "id": "nikke-sin-rapid-bunny",
+      "name": "特殊招募 森：疾速兔女郎",
+      "kind": "special_recruit",
+      "status": "ended",
+      "up": [
+        "森：疾速兔女郎"
+      ],
+      "up_characters": [
+        {
+          "id": "sin-rapid-bunny",
+          "name": "森：疾速兔女郎"
+        }
+      ],
+      "start": "2026-09-24T05:00:00+09:00",
+      "end": "2026-10-15T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-223",
+      "as_of": "2026-10-15"
+    },
+    {
+      "id": "nikke-guilty-mighty-bunny",
+      "name": "特殊招募 吉尔提：神力兔女郎",
+      "kind": "special_recruit",
+      "status": "ended",
+      "up": [
+        "吉尔提：神力兔女郎"
+      ],
+      "up_characters": [
+        {
+          "id": "guilty-mighty-bunny",
+          "name": "吉尔提：神力兔女郎"
+        }
+      ],
+      "start_text": "2026年9月17日更新维护结束后",
+      "start": "2026-09-17",
+      "end": "2026-10-08T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-223",
+      "as_of": "2026-10-15"
+    },
+    {
+      "id": "nikke-2026-09-17-select",
+      "name": "限时选择招募",
+      "kind": "limited_select",
+      "status": "ended",
+      "up": [
+        "露菲：冬日购物狂",
+        "安妮：奇迹仙女",
+        "鲁德米拉：冬日之主",
+        "米卡：雪地伙伴",
+        "梅登：冰玫瑰",
+        "吉萝婷：寒冬杀手"
+      ],
+      "up_characters": [
+        {
+          "id": "winter-shopper-rupee",
+          "name": "露菲：冬日购物狂"
+        },
+        {
+          "id": "miracle-fairy-anne",
+          "name": "安妮：奇迹仙女"
+        },
+        {
+          "id": "ludmilla-winter-owner",
+          "name": "鲁德米拉：冬日之主"
+        },
+        {
+          "id": "mica-snow-buddy",
+          "name": "米卡：雪地伙伴"
+        },
+        {
+          "id": "maiden-ice-rose",
+          "name": "梅登：冰玫瑰"
+        },
+        {
+          "id": "guillotine-winter-slayer",
+          "name": "吉萝婷：寒冬杀手"
+        }
+      ],
+      "start_text": "2026年9月17日更新维护结束后",
+      "start": "2026-09-17",
+      "end": "2026-10-08T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-223",
+      "as_of": "2026-10-15",
+      "note": "同一公告里这 6 名的限时选择招募起止时间相同。"
+    }
+  ]
+}

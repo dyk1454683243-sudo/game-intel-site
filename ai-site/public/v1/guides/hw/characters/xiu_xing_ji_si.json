@@ -1,0 +1,102 @@
+{
+  "id": "xiu_xing_ji_si",
+  "name": "修行祭司",
+  "name_zh": "修行祭司",
+  "name_en": null,
+  "aliases": [
+    "分枝修行祭司"
+  ],
+  "nicknames": [],
+  "game": "hw",
+  "role": "1转 枝条女祭司 / 2转 生命之枝女祭司 / 3转 复生女教皇",
+  "rarity": "B",
+  "attributes": {
+    "基础能力值": {
+      "品级": "B",
+      "费用": "4",
+      "筋力": "8",
+      "技巧": "6",
+      "智能": "8",
+      "体质": "11",
+      "敏捷": "10"
+    },
+    "主要能力值": {
+      "近战攻击力": "9",
+      "射击攻击力": "7",
+      "魔法攻击力": "9",
+      "最大生命力": "55",
+      "移动力": "87",
+      "行动力": "121",
+      "行动恢复力": "105",
+      "命中": "8",
+      "回避": "10",
+      "暴击概率": "10",
+      "暴击伤害": "150"
+    },
+    "属性能力值": {
+      "斩击强化": "0",
+      "斩击防御": "0",
+      "痛击强化": "0",
+      "痛击防御": "0",
+      "打击强化": "0",
+      "打击防御": "0",
+      "火属性强化": "0",
+      "火属性防御": "0",
+      "冰属性强化": "0",
+      "冰属性防御": "0",
+      "电属性强化": "0",
+      "电属性防御": "0",
+      "无属性强化": "0",
+      "无属性防御": "0",
+      "毒属性强化": "0",
+      "毒属性防御": "0",
+      "格挡概率": "0"
+    }
+  },
+  "skills": [
+    {
+      "name": "守护的一击",
+      "type": "active",
+      "summary": "主动 / 行动力：30 / 冷却：0R。造成近战攻击力60%（114%）的打击伤害，减少行动力5"
+    },
+    {
+      "name": "治愈的恩宠",
+      "type": "active",
+      "summary": "主动 / 行动力：45 / 冷却：0R。以魔法攻击力的100%（190%）恢复指定友军的生命力"
+    },
+    {
+      "name": "生命再生",
+      "type": "active",
+      "summary": "主动 / 行动力：60 / 冷却：2R。以魔法攻击力的150%（285%）恢复半径2.5m圆形范围内友军的生命力"
+    },
+    {
+      "name": "复活的树枝",
+      "type": "active",
+      "summary": "主动 / 行动力：90 / 冷却：0R。复活1名无法战斗的友军，并以魔法攻击力的200%（380%）进行恢复 目标以行动力50（95）的状态展开战斗"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/hw/634759.html",
+    "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+  ],
+  "stub": false,
+  "as_of": "2026-10-15",
+  "gamekee_content_id": 634759,
+  "gamekee_entry_id": 163322,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/434471.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:hw:163322",
+  "verified": "GameKee hw/634759 佣兵图鉴；Steam 2026-10-08 更新公告妖精网特别冲刺可出现名单",
+  "summary": {
+    "position": "品级 B / 1转 枝条女祭司 / 2转 生命之枝女祭司 / 3转 复生女教皇",
+    "sources": [
+      "https://www.gamekee.com/hw/634759.html",
+      "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+    ],
+    "stub": true,
+    "caveat": "图鉴写了品级、属性和技能，没有 T 度或抽取建议。2026-10-15 复核的 GameKee 强度简评（hw/668272）写明请不要参考，不收录评级。"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "game": "bd2",
+  "as_of": "2026-10-15",
+  "checked": "2026-10-15",
+  "redeem_url": "https://redeem.bd2.pmang.cloud/bd2/index.html?lang=zh-TW",
+  "sources": [
+    "https://www.gamekee.com/zsca2/619029.html",
+    "https://twiscan.com/en/x/BROWNDUST2_EN/2105085217832947751"
+  ],
+  "note": "GameKee 兑换码汇总标题为 9月28日更新，接口 updated_at 为 2025-09-28。该页写过期码会清掉，并写只能兑换当月。2026-10-15 没有把该页上的 2025 码标成可用。2026BD2OCT 的奖励内容官方帖没有写。",
+  "codes": [
+    {
+      "code": "2026BD2OCT",
+      "rewards": null,
+      "expires": "2026-10-31T14:59:00Z",
+      "expires_text": "Sep 30, 2026, 15:00 - Oct 31, 2026, 14:59 (UTC)",
+      "starts": "2026-09-30T15:00:00Z",
+      "timezone": "UTC",
+      "status": "active",
+      "note": "官方帖没有写奖励内容。可访问转载为 @BROWNDUST2_EN 2026-09-30 的帖。",
+      "source": "https://twiscan.com/en/x/BROWNDUST2_EN/2105085217832947751",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "THANKS2025TGS",
+      "rewards": "600钻",
+      "expires": null,
+      "timezone": null,
+      "status": "expiry_not_stated",
+      "note": "GameKee 9月兑换码一节写未知过期时间。页面停在 2025-09-28，不标成可用。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "BURAJOCODE05E",
+      "rewards": "3抽",
+      "expires": "2025-09-29",
+      "timezone": null,
+      "status": "expired",
+      "note": "同页先写未知过期时间，下一行写 9月29日过期。页面更新于 2025-09-28，9月按 2025-09。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "THANKSKYOMAF2025",
+      "rewards": "600钻",
+      "expires": "2025-10-05",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写 10月5日过期。页面更新于 2025-09-28，10月按 2025-10。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2SEP",
+      "rewards": "2抽",
+      "expires": "2025-10-01",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 9月一节写 10月1日过期。月份表又列九月:2025BD2SEP，只收一条。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "BD2RADIO0901",
+      "rewards": "3抽",
+      "expires": null,
+      "timezone": null,
+      "status": "expiry_not_stated",
+      "note": "GameKee 写未知过期时间。页面停在 2025-09-28，不标成可用。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "BD2radio0801",
+      "rewards": "3抽",
+      "expires": null,
+      "timezone": null,
+      "status": "expiry_not_stated",
+      "note": "大小写按 GameKee 原文。未知过期时间。页面停在 2025-09-28，不标成可用。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "BD2025SUMMER",
+      "rewards": "5星招募券1张",
+      "expires": null,
+      "timezone": null,
+      "status": "listed_permanent",
+      "note": "放在页面「永久兑换码」小标题下。页面停在 2025-09-28，2026-10-15 没有在游戏内重试。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "WAITING4LEGEND",
+      "rewards": "一个UR3的毒蛇之手",
+      "expires": null,
+      "timezone": null,
+      "status": "listed_permanent",
+      "note": "放在页面「永久兑换码」小标题下。页面停在 2025-09-28，2026-10-15 没有在游戏内重试。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2JAN",
+      "rewards": "2张劵",
+      "expires": "2025-01",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「一月:2025BD2JAN」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。页面写 2张劵。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2FEB",
+      "rewards": null,
+      "expires": "2025-02",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「二月:2025BD2FEB」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2MAR",
+      "rewards": null,
+      "expires": "2025-03",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「三月:2025BD2MAR」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2APR",
+      "rewards": null,
+      "expires": "2025-04",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「四月:2025BD2APR」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2MAY",
+      "rewards": null,
+      "expires": "2025-05",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「五月:2025BD2MAY」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2JUN",
+      "rewards": null,
+      "expires": "2025-06",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「六月:2025BD2JUN」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2JUL",
+      "rewards": null,
+      "expires": "2025-07",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「七月:2025BD2JUL」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2AUG",
+      "rewards": null,
+      "expires": "2025-08",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「八月:2025BD2AUG」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD20CT",
+      "rewards": null,
+      "expires": "2025-10",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「十月:2025BD20CT」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。原文拼写是 2025BD20CT（数字 0，不是字母 O）。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2NOV",
+      "rewards": null,
+      "expires": "2025-11",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「十一月:2025BD2NOV」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    },
+    {
+      "code": "2025BD2DEC",
+      "rewards": null,
+      "expires": "2025-12",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 写「十二月:2025BD2DEC」。页面写只能兑换当月，不能兑换上一个月。2026-10-15 该月份已过。",
+      "source": "https://www.gamekee.com/zsca2/619029.html",
+      "checked": "2026-10-15"
+    }
+  ]
+}

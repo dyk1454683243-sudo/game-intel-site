@@ -154,6 +154,39 @@ test("deep game page lists characters and alias search", () => {
   assert.equal(portraitTarget(lysRow.portrait)?.hostname, "cdnimg-v2.gamekee.com");
   assert.match(html, /\/v1\/portrait\?u=/);
   assert.doesNotMatch(html, /尚无深耕/);
+  assert.doesNotMatch(html, /<h2>卡池<\/h2>/);
+  const pools = renderGame(game, {
+    banners: {
+      banners: [
+        {
+          name: "4种复刻搜寻",
+          status: "current",
+          up: ["終末之果 艾米莉亞"],
+          start_text: "2026.10.8 维护结束后",
+          end_text: "2026.10.22 10:00",
+          source: "https://steamcommunity.com/app/3279780/announcements/?l=tchinese",
+        },
+      ],
+    },
+    codes: {
+      codes: [
+        {
+          code: "26earlysummer",
+          rewards: "3常驻抽+3女王的王冠",
+          status: "expired",
+          expires_text: "2026年9月30日",
+          source: "https://www.gamekee.com/hw/634406.html",
+        },
+      ],
+    },
+  });
+  assert.match(pools, /<h2>卡池<\/h2>/);
+  assert.match(pools, /进行中/);
+  assert.match(pools, /終末之果 艾米莉亞/);
+  assert.match(pools, /<h2>兑换码<\/h2>/);
+  assert.match(pools, /已过期/);
+  assert.match(pools, /26earlysummer/);
+  assert.match(pools, /本站不代领/);
   const bare = renderGame(game, {
     guideIndex: {
       characters: [{ id: "no_face", name: "无头像", name_zh: "无头像", stub: true, portrait: null }],

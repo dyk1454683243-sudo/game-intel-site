@@ -59,6 +59,9 @@ export function resolvePublicPath(pathname) {
   );
   if (m && isSlug(m[1]) && isSlug(m[2])) return pathname;
 
+  m = pathname.match(/^\/v1\/guides\/([a-z0-9][a-z0-9_-]{0,63})\/(banners|codes)\.json$/);
+  if (m && isSlug(m[1])) return pathname;
+
   return null;
 }
 
