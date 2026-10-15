@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 /**
- * Import Horizon Walker character stubs from GameKee entry list (pid=163022).
+ * Import Horizon Walker character stubs from GameKee entry list.
+ * pid 163022 is the 角色图鉴. pid 163310 is the 佣兵图鉴 (B-rank units
+ * that also appear on the official recruitment list).
  * Never overwrites rich (non-stub) cards. Offline fallback: hw-catalog-seed.json
  *
  * Usage: node mcp-server/scripts/import-hw-catalog.js [--offline]
@@ -16,7 +18,7 @@ const DATA = process.env.GAME_INTEL_DATA || path.join(ROOT, "data");
 const OUT_DIR = path.join(DATA, "guides", "hw", "characters");
 const SEED_PATH = path.join(__dirname, "hw-catalog-seed.json");
 const GK = "https://www.gamekee.com";
-const CHAR_FOLDER_PID = 163022;
+const CHAR_FOLDER_PIDS = new Set([163022, 163310]);
 const AS_OF = "2026-09";
 
 const NAME_TO_ID = {
@@ -35,6 +37,17 @@ const NAME_TO_ID = {
   普蕾缇娜: "pretina",
   普拉蒂娜: "pretina",
   迦露德: "garud",
+  汪仔步进器: "wang_zai_bu_jin_qi",
+  汪仔射手: "wang_zai_she_shou",
+  帝国盾牌佣兵: "di_guo_dun_pai_yong_bing",
+  格里克佣兵: "ge_li_ke_yong_bing",
+  科博特佣兵: "ke_bo_te_yong_bing",
+  哥利亚: "ge_li_ya",
+  沼泽精灵自卫队员: "zhao_ze_jing_ling_zi_wei_dui_yuan",
+  战争佣兵: "zhan_zheng_yong_bing",
+  托尔塔战士: "tuo_er_ta_zhan_shi",
+  修行祭司: "xiu_xing_ji_si",
+  帝国魔法兵士: "di_guo_mo_fa_bing_shi",
 };
 
 const ENSURE = [
@@ -92,7 +105,7 @@ async function fetchEntryList() {
     throw new Error(body.msg || "bad_entry_list");
   }
   return body.data
-    .filter((x) => x.pid === CHAR_FOLDER_PID && !x.is_del)
+    .filter((x) => CHAR_FOLDER_PIDS.has(x.pid) && !x.is_del)
     .map((x) => ({
       entry_id: x.id,
       name: clean(x.name),

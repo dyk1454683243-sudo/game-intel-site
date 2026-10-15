@@ -461,6 +461,51 @@ function gapBanner(value) {
   return `<aside class="gap-banner"><strong>${GAP}</strong><ul>${sentences.map((sentence) => `<li>${esc(sentence)}</li>`).join("")}</ul></aside>`;
 }
 
+const BANNER_STATUS = {
+  current: "进行中",
+  ended: "已结束",
+  upcoming: "未开始",
+};
+
+const CODE_STATUS = {
+  active: "有效期内",
+  expired: "已过期",
+  expiry_not_stated: "出处未写有效期",
+  reported_working: "页面称仍可用，无官方截止",
+  listed_permanent: "出处标为永久",
+};
+
+function renderBanners(doc) {
+  const rows = doc && Array.isArray(doc.banners) ? doc.banners : [];
+  if (!rows.length) return "";
+  const items = rows
+    .map((row) => {
+      const ups = Array.isArray(row.up) ? row.up.filter(Boolean).join("、") : "";
+      const when = [row.start_text || row.start, row.end_text || row.end].filter(Boolean).join(" → ");
+      const label = BANNER_STATUS[row.status] || "";
+      const kind = row.status === "current" ? "deep" : "gap";
+      const src = safeHttpUrl(row.source);
+      return `<li><strong>${esc(row.name || row.id || "卡池")}</strong> ${label ? flag(label, kind) : ""}<div class="meta">${esc(ups)}</div><div class="meta">${esc(when)}${row.timezone ? ` · ${esc(row.timezone)}` : ""}</div>${src ? `<div>${link(src, "出处")}</div>` : ""}</li>`;
+    })
+    .join("");
+  return `<h2>卡池</h2><p class="rule">名称、UP 和起止时间只来自 <code>banners.json</code>。出处没写时区的，这里不补。</p><ul>${items}</ul>`;
+}
+
+function renderCodes(doc) {
+  const rows = doc && Array.isArray(doc.codes) ? doc.codes : [];
+  if (!rows.length) return "";
+  const items = rows
+    .map((row) => {
+      const label = CODE_STATUS[row.status] || row.status || "";
+      const kind = row.status === "expired" ? "gap" : "wl";
+      const src = safeHttpUrl(row.source);
+      const when = row.expires_text || row.expires || "";
+      return `<li><code>${esc(row.code || "")}</code> ${label ? flag(label, kind) : ""}<div>${esc(row.rewards || "出处未写奖励")}</div><div class="meta">${esc(when)}${row.timezone ? ` · ${esc(row.timezone)}` : ""}</div>${src ? `<div>${link(src, "出处")}</div>` : ""}</li>`;
+    })
+    .join("");
+  return `<h2>兑换码</h2><p class="rule">只转写已发布出处里的码、奖励和有效期。过期的保持标出。本站不代领。</p><ul>${items}</ul>`;
+}
+
 export function renderGame(game, extras = {}) {
   if (!game || !game.id) return renderError("未找到该游戏");
   const deep = isDeep(game.id);
@@ -492,7 +537,8 @@ export function renderGame(game, extras = {}) {
 ${rows ? `<ul class="char-list">${rows}</ul>` : `<p class="meta">深耕目录为空</p>`}`;
   }
   const tone = deep ? "sheet sheet-deep" : "sheet sheet-stub";
-  return `<article class="${tone}">${identityFacts(game)}${deepBlock}${renderGameNews(extras.news, extras.newsError || "")}${jsonLink(`/v1/games/${encodeURIComponent(game.id)}.json`, `/v1/games/${game.id}.json`)}</article>`;
+  const pools = deep ? `${renderBanners(extras.banners)}${renderCodes(extras.codes)}` : "";
+  return `<article class="${tone}">${identityFacts(game)}${deepBlock}${pools}${renderGameNews(extras.news, extras.newsError || "")}${jsonLink(`/v1/games/${encodeURIComponent(game.id)}.json`, `/v1/games/${game.id}.json`)}</article>`;
 }
 
 export function newsForGame(digest, gameId) {
@@ -816,7 +862,7 @@ export function renderForAi() {
 <dt>首页</dt><dd><code>/v1/digest.json</code> · <code>/v1/radar.json</code></dd>
 <dt>目录</dt><dd><code>/v1/games/index.json</code></dd>
 <dt>观察名单</dt><dd><code>/v1/watchlist.json</code> · <code>/v1/games/index.json</code> · <code>/v1/guides/index.json</code></dd>
-<dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code> 与该游戏别名。</dd>
+<dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code>、别名、<code>banners.json</code> 与 <code>codes.json</code>。</dd>
 <dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，仅 hw / nikke / bd2。</dd>
 <dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>
 <dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。</dd>

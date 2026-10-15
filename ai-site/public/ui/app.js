@@ -141,8 +141,19 @@ async function showGame() {
   cache.guideError = "";
   cache.news = [];
   cache.newsError = "";
+  cache.banners = null;
+  cache.codes = null;
   const jobs = [];
   if (isDeep(id)) {
+    jobs.push(
+      Promise.all([
+        getJson(`/v1/guides/${encodeURIComponent(id)}/banners.json`).catch(() => null),
+        getJson(`/v1/guides/${encodeURIComponent(id)}/codes.json`).catch(() => null),
+      ]).then(([banners, codes]) => {
+        cache.banners = banners;
+        cache.codes = codes;
+      })
+    );
     jobs.push(
       Promise.all([
         getJson(`/v1/guides/${encodeURIComponent(id)}/index.json`),
@@ -178,6 +189,8 @@ function gameExtras(q) {
     aliasesById: cache.aliasesById,
     news: cache.news,
     newsError: cache.newsError,
+    banners: cache.banners,
+    codes: cache.codes,
     q,
   };
 }

@@ -2,12 +2,12 @@
   "game": "hw",
   "name": "Horizon Walker",
   "name_zh": "地平线行者",
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-15",
   "timezone": "Asia/Shanghai",
-  "character_count": 61,
-  "rich_count": 61,
+  "character_count": 72,
+  "rich_count": 72,
   "stub_count": 0,
-  "conclusion_stub_count": 0,
+  "conclusion_stub_count": 11,
   "characters": [
     {
       "id": "a_la_ha",
@@ -139,6 +139,28 @@
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/361267.png"
     },
     {
+      "id": "di_guo_dun_pai_yong_bing",
+      "name": "帝国盾牌佣兵",
+      "name_zh": "帝国盾牌佣兵",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634717.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/40527.png"
+    },
+    {
+      "id": "di_guo_mo_fa_bing_shi",
+      "name": "帝国魔法兵士",
+      "name_zh": "帝国魔法兵士",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634663.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/728520.png"
+    },
+    {
       "id": "garud",
       "name": "迦露德",
       "name_zh": "迦露德",
@@ -150,6 +172,28 @@
         "https://www.gamekee.com/hw/721953.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50448/images/w_1000/h_1300/157597/2026/8/23/51710361mudtjwur.png"
+    },
+    {
+      "id": "ge_li_ke_yong_bing",
+      "name": "格里克佣兵",
+      "name_zh": "格里克佣兵",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634836.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/725341.png"
+    },
+    {
+      "id": "ge_li_ya",
+      "name": "哥利亚",
+      "name_zh": "哥利亚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634845.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/499833.png"
     },
     {
       "id": "ge_li_ze_er_da",
@@ -254,6 +298,17 @@
         "https://www.gamekee.com/hw/682436.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/157597/2025/10/6/458064.png"
+    },
+    {
+      "id": "ke_bo_te_yong_bing",
+      "name": "科博特佣兵",
+      "name_zh": "科博特佣兵",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634834.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/734220.png"
     },
     {
       "id": "ke_la_bi",
@@ -546,6 +601,17 @@
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/847801.png"
     },
     {
+      "id": "tuo_er_ta_zhan_shi",
+      "name": "托尔塔战士",
+      "name_zh": "托尔塔战士",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634815.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/276142.png"
+    },
+    {
       "id": "tx",
       "name": "TX - 曼提柯尔",
       "name_zh": "TX - 曼提柯尔",
@@ -564,6 +630,39 @@
         "https://www.gamekee.com/hw/639139.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/551370.png"
+    },
+    {
+      "id": "wang_zai_bu_jin_qi",
+      "name": "汪仔步进器",
+      "name_zh": "汪仔步进器",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634635.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/117575.png"
+    },
+    {
+      "id": "wang_zai_she_shou",
+      "name": "汪仔射手",
+      "name_zh": "汪仔射手",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634678.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/715134.png"
+    },
+    {
+      "id": "xiu_xing_ji_si",
+      "name": "修行祭司",
+      "name_zh": "修行祭司",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634759.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/434471.png"
     },
     {
       "id": "yan_cai_ying",
@@ -648,6 +747,28 @@
         "https://www.gamekee.com/hw/639398.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_900/h_1170/50448/236746/2025/2/10/750829.png"
+    },
+    {
+      "id": "zhan_zheng_yong_bing",
+      "name": "战争佣兵",
+      "name_zh": "战争佣兵",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634833.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/588504.png"
+    },
+    {
+      "id": "zhao_ze_jing_ling_zi_wei_dui_yuan",
+      "name": "沼泽精灵自卫队员",
+      "name_zh": "沼泽精灵自卫队员",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/634838.html",
+        "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/9712.png"
     },
     {
       "id": "zhu_zi",

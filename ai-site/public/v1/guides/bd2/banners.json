@@ -1,0 +1,57 @@
+{
+  "game": "bd2",
+  "as_of": "2026-10-15",
+  "sources": [
+    "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
+    "https://dotgg.gg/brown-dust-2/%F0%9F%93%8B54th-developer-notes-october-update/"
+  ],
+  "banners": [
+    {
+      "id": "bd2-unraveling-mummy-nekyndalia",
+      "name": "Pickup Unraveling Mummy Nekyndalia",
+      "kind": "pickup",
+      "status": "current",
+      "up": [
+        "Unraveling Mummy Nekyndalia"
+      ],
+      "up_characters": [
+        {
+          "id": "nevendaria",
+          "name": "内肯达莉亚",
+          "costume": "Unraveling Mummy Nekyndalia"
+        }
+      ],
+      "start": "2026-10-08",
+      "start_text": "官方帖 2026-10-08 写 Now Live，没有另写开始钟点",
+      "end": "2026-10-22T08:50:00+09:00",
+      "end_text": "Oct 22, 8:50 AM (KST)",
+      "timezone": "Asia/Seoul",
+      "source": "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
+      "as_of": "2026-10-15",
+      "note": "可访问转载页原文为 @BROWNDUST2_EN 2026-10-08 03:05 的帖。开发笔记把同名服装标在 Oct 8。"
+    },
+    {
+      "id": "bd2-sealed-desires-aquila",
+      "name": "Sealed Desires Aquila",
+      "kind": "costume",
+      "status": "upcoming",
+      "up": [
+        "Sealed Desires Aquila"
+      ],
+      "up_characters": [
+        {
+          "id": "achila",
+          "name": "阿奇拉",
+          "costume": "Sealed Desires Aquila"
+        }
+      ],
+      "start": "2026-10-22",
+      "start_text": "开发笔记写 Oct 22，没有钟点",
+      "end": null,
+      "timezone": null,
+      "source": "https://dotgg.gg/brown-dust-2/%F0%9F%93%8B54th-developer-notes-october-update/",
+      "as_of": "2026-10-15",
+      "note": "DotGG 转载的第 54 期开发笔记（页头日期 October 2, 2026，Source: Neowiz）把这套服装和 Glupy Diner 有缘之客都标在 Oct 22。笔记正文没有把它写成带结束钟点的 Pickup。上一档官方 Pickup 帖写到 2026-10-22 08:50 KST。"
+    }
+  ]
+}

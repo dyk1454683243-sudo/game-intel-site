@@ -1,8 +1,8 @@
 {
   "_meta": {
     "game": "hw",
-    "note": "Nickname → canonical id/name for Horizon Walker. Prefer GameKee 图鉴 names. Skip uncertain whale nicknames (白鲸/奶鲸). Auto-merged catalog names 2026-09; community nick patch 2026-09-18 (白金/水猫/冰女; 吉吉/妮姆赛→gigi). Garud/迦露德 aliases 2026-09-25.",
-    "as_of": "2026-09"
+    "note": "Nickname → canonical id/name for Horizon Walker. Prefer GameKee 图鉴 names. Skip uncertain whale nicknames (白鲸/奶鲸). Auto-merged catalog names 2026-09; community nick patch 2026-09-18 (白金/水猫/冰女; 吉吉/妮姆赛→gigi). Garud/迦露德 aliases 2026-09-25. Mercenary aliases 2026-10-15 from GameKee pid 163310 and the 2026-10-08 Steam recruitment list.",
+    "as_of": "2026-10-15"
   },
   "aliases": {
     "修女": {
@@ -742,6 +742,166 @@
       "name": "迦露德",
       "kind": "character",
       "note": "强度榜称号；与角色称号「循环的不死鸟」对应"
+    },
+    "汪仔步进器": {
+      "id": "wang_zai_bu_jin_qi",
+      "name": "汪仔步进器",
+      "kind": "character"
+    },
+    "小狗踏步者": {
+      "id": "wang_zai_bu_jin_qi",
+      "name": "汪仔步进器",
+      "kind": "character"
+    },
+    "wang_zai_bu_jin_qi": {
+      "id": "wang_zai_bu_jin_qi",
+      "name": "汪仔步进器",
+      "kind": "character"
+    },
+    "汪仔射手": {
+      "id": "wang_zai_she_shou",
+      "name": "汪仔射手",
+      "kind": "character"
+    },
+    "小狗射手": {
+      "id": "wang_zai_she_shou",
+      "name": "汪仔射手",
+      "kind": "character"
+    },
+    "wang_zai_she_shou": {
+      "id": "wang_zai_she_shou",
+      "name": "汪仔射手",
+      "kind": "character"
+    },
+    "帝国盾牌佣兵": {
+      "id": "di_guo_dun_pai_yong_bing",
+      "name": "帝国盾牌佣兵",
+      "kind": "character"
+    },
+    "di_guo_dun_pai_yong_bing": {
+      "id": "di_guo_dun_pai_yong_bing",
+      "name": "帝国盾牌佣兵",
+      "kind": "character"
+    },
+    "格里克佣兵": {
+      "id": "ge_li_ke_yong_bing",
+      "name": "格里克佣兵",
+      "kind": "character"
+    },
+    "格里克傭兵": {
+      "id": "ge_li_ke_yong_bing",
+      "name": "格里克佣兵",
+      "kind": "character"
+    },
+    "ge_li_ke_yong_bing": {
+      "id": "ge_li_ke_yong_bing",
+      "name": "格里克佣兵",
+      "kind": "character"
+    },
+    "科博特佣兵": {
+      "id": "ke_bo_te_yong_bing",
+      "name": "科博特佣兵",
+      "kind": "character"
+    },
+    "科博特傭兵": {
+      "id": "ke_bo_te_yong_bing",
+      "name": "科博特佣兵",
+      "kind": "character"
+    },
+    "ke_bo_te_yong_bing": {
+      "id": "ke_bo_te_yong_bing",
+      "name": "科博特佣兵",
+      "kind": "character"
+    },
+    "哥利亚": {
+      "id": "ge_li_ya",
+      "name": "哥利亚",
+      "kind": "character"
+    },
+    "歌利亞": {
+      "id": "ge_li_ya",
+      "name": "哥利亚",
+      "kind": "character"
+    },
+    "ge_li_ya": {
+      "id": "ge_li_ya",
+      "name": "哥利亚",
+      "kind": "character"
+    },
+    "沼泽精灵自卫队员": {
+      "id": "zhao_ze_jing_ling_zi_wei_dui_yuan",
+      "name": "沼泽精灵自卫队员",
+      "kind": "character"
+    },
+    "沼澤妖精守護隊隊員": {
+      "id": "zhao_ze_jing_ling_zi_wei_dui_yuan",
+      "name": "沼泽精灵自卫队员",
+      "kind": "character"
+    },
+    "zhao_ze_jing_ling_zi_wei_dui_yuan": {
+      "id": "zhao_ze_jing_ling_zi_wei_dui_yuan",
+      "name": "沼泽精灵自卫队员",
+      "kind": "character"
+    },
+    "战争佣兵": {
+      "id": "zhan_zheng_yong_bing",
+      "name": "战争佣兵",
+      "kind": "character"
+    },
+    "戰爭傭兵": {
+      "id": "zhan_zheng_yong_bing",
+      "name": "战争佣兵",
+      "kind": "character"
+    },
+    "zhan_zheng_yong_bing": {
+      "id": "zhan_zheng_yong_bing",
+      "name": "战争佣兵",
+      "kind": "character"
+    },
+    "托尔塔战士": {
+      "id": "tuo_er_ta_zhan_shi",
+      "name": "托尔塔战士",
+      "kind": "character"
+    },
+    "托爾塔戰士": {
+      "id": "tuo_er_ta_zhan_shi",
+      "name": "托尔塔战士",
+      "kind": "character"
+    },
+    "tuo_er_ta_zhan_shi": {
+      "id": "tuo_er_ta_zhan_shi",
+      "name": "托尔塔战士",
+      "kind": "character"
+    },
+    "修行祭司": {
+      "id": "xiu_xing_ji_si",
+      "name": "修行祭司",
+      "kind": "character"
+    },
+    "分枝修行祭司": {
+      "id": "xiu_xing_ji_si",
+      "name": "修行祭司",
+      "kind": "character"
+    },
+    "xiu_xing_ji_si": {
+      "id": "xiu_xing_ji_si",
+      "name": "修行祭司",
+      "kind": "character"
+    },
+    "帝国魔法兵士": {
+      "id": "di_guo_mo_fa_bing_shi",
+      "name": "帝国魔法兵士",
+      "kind": "character"
+    },
+    "帝國魔法兵": {
+      "id": "di_guo_mo_fa_bing_shi",
+      "name": "帝国魔法兵士",
+      "kind": "character"
+    },
+    "di_guo_mo_fa_bing_shi": {
+      "id": "di_guo_mo_fa_bing_shi",
+      "name": "帝国魔法兵士",
+      "kind": "character"
     }
   }
 }

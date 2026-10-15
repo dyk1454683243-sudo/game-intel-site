@@ -228,6 +228,10 @@ function exportGame(game, asOf) {
     mkdirp(path.join(gameOut, "modes"));
     writeJson(path.join(gameOut, "modes", "dopamine-auto.json"), dopa);
   }
+  for (const extra of ["banners.json", "codes.json"]) {
+    const extraSrc = path.join(GUIDES, game, extra);
+    if (fs.existsSync(extraSrc)) writeJson(path.join(gameOut, extra), readJson(extraSrc));
+  }
   const modesDir = path.join(GUIDES, game, "modes");
   if (fs.existsSync(modesDir)) {
     mkdirp(path.join(gameOut, "modes"));
@@ -298,7 +302,10 @@ function exportGame(game, asOf) {
       `${meta.name_zh} 攻略索引`,
       `<h1>${esc(meta.name_zh)} <span class="meta">(${esc(meta.name)})</span></h1>
 <p class="meta">as_of ${esc(asOf)} · ${chars.length} characters · rich ${rich} / stub ${stub}</p>
-<p>AI JSON: <a href="/v1/guides/${esc(game)}/index.json"><code>/v1/guides/${esc(game)}/index.json</code></a></p>
+<p>AI JSON: <a href="/v1/guides/${esc(game)}/index.json"><code>/v1/guides/${esc(game)}/index.json</code></a>${["banners.json", "codes.json"]
+    .filter((name) => fs.existsSync(path.join(GUIDES, game, name)))
+    .map((name) => ` · <a href="/v1/guides/${esc(game)}/${name}"><code>${name}</code></a>`)
+    .join("")}</p>
 <table><thead><tr><th>id</th><th>name</th><th>status</th></tr></thead><tbody>
 ${rows || "<tr><td colspan=3>no cards yet — fill when verified</td></tr>"}
 </tbody></table>`

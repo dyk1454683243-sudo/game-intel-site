@@ -376,6 +376,42 @@
         }
       }
     },
+    "/v1/guides/{game}/banners.json": {
+      "get": {
+        "summary": "Current and recent banners for one game. Times and UP names stay with their source.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/codes.json": {
+      "get": {
+        "summary": "Redeem codes with rewards, expiry, source, and checked date. Expired rows stay marked.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/guides/hw/dopamine-auto.json": {
       "get": {
         "summary": "HW dopamine auto teams",

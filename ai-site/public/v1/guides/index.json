@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-15",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -25,8 +25,8 @@
       "id": "hw",
       "name": "Horizon Walker",
       "name_zh": "地平线行者",
-      "character_count": 61,
-      "rich_count": 61,
+      "character_count": 72,
+      "rich_count": 72,
       "stub_count": 0,
       "path": "guides/hw"
     },

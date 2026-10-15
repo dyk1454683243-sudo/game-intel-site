@@ -349,6 +349,8 @@ function openApiDoc() {
         "#/components/schemas/CharacterCard"
       ),
       "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
+      "/v1/guides/{game}/banners.json": get("Current and recent banners for one game. Times and UP names stay with their source."),
+      "/v1/guides/{game}/codes.json": get("Redeem codes with rewards, expiry, source, and checked date. Expired rows stay marked."),
     },
     components: {
       schemas: {
