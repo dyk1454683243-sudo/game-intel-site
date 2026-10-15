@@ -33,12 +33,19 @@
   "weapon": "快乐小狗",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · The Immune Hero：诺雅 / 饼干 / 拉普拉斯：究极英雄 / Helm (Treasure) / 阿妮斯：超级巨星（https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Best Anis PvP Team 3：阿妮斯：超级巨星 / 尼罗 / Helm (Treasure) / 饼干 / Moran (Treasure)（https://www.prydwen.gg/nikke/characters/anis-star ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/biscuit",
     "https://www.gamekee.com/nikke/584520.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/biscuit/"
+    "https://nikke.gg/characters/biscuit/",
+    "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
+    "https://www.prydwen.gg/nikke/characters/anis-star"
   ],
   "stub": false,
   "as_of": "2026-09-28",

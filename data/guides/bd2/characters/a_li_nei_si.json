@@ -28,9 +28,15 @@
       "skill": "堂堂正正"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · General Purpose (High Crit Rate)：黎维塔 / 阿里内斯 / 拉菲娜 / 神圣悠丝缇亚 / 尤里（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · General Purpose (High Crit Rate)：黎维塔 / 阿里内斯 / 泰瑞丝 / 拉菲娜 / 神圣悠丝缇亚（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593578.html"
+    "https://www.gamekee.com/zsca2/593578.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

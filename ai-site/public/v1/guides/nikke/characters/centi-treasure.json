@@ -33,11 +33,17 @@
   "weapon": "RL",
   "element": "Iron",
   "manufacturer": "Missilis",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Iron · Two Team No SW No BMilk T1：拉毗：小红帽 / 皇冠 / 灰姑娘：琉璃波光 / 白雪公主：重型武装 / Centi (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Lapluh - PvP Offense I：特蕾娜 / 小美人鱼 / 拉普拉斯：究极英雄 / Helm (Treasure) / Centi (Treasure)（https://www.prydwen.gg/nikke/characters/centi-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/centi-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/centi/?treasure=true"
+    "https://nikke.gg/characters/centi/?treasure=true",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

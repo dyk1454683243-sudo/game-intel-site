@@ -2,12 +2,16 @@
   "game": "bd2",
   "name": "Brown Dust 2",
   "name_zh": "棕色尘埃2",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "timezone": "Asia/Shanghai",
   "character_count": 87,
   "rich_count": 87,
   "stub_count": 0,
   "conclusion_stub_count": 0,
+  "links": {
+    "banners": "/v1/guides/bd2/banners.json",
+    "codes": "/v1/guides/bd2/codes.json"
+  },
   "characters": [
     {
       "id": "a_li_nei_si",
@@ -15,7 +19,8 @@
       "name_zh": "阿里内斯",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593578.html"
+        "https://www.gamekee.com/zsca2/593578.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/851901.png"
     },
@@ -98,7 +103,8 @@
       "name_zh": "安洁莉卡",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/597740.html"
+        "https://www.gamekee.com/zsca2/597740.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/605722.png"
     },
@@ -118,7 +124,8 @@
       "name_zh": "奥尔施塔因",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593587.html"
+        "https://www.gamekee.com/zsca2/593587.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/445033.png"
     },
@@ -183,7 +190,8 @@
       "name_zh": "达非",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/607173.html"
+        "https://www.gamekee.com/zsca2/607173.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/258688.png"
     },
@@ -218,7 +226,8 @@
         "https://www.gamekee.com/zsca2/614967.html",
         "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
         "https://www.gamekee.com/zsca2/600417.html",
-        "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation"
+        "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png"
     },
@@ -312,7 +321,8 @@
       "name_zh": "神圣悠丝缇亚",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/626508.html"
+        "https://www.gamekee.com/zsca2/626508.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/281148.png"
     },
@@ -364,7 +374,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593203.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/467009.png"
     },
@@ -385,7 +396,8 @@
       "name_zh": "克莱",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593645.html"
+        "https://www.gamekee.com/zsca2/593645.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/40835.png"
     },
@@ -405,7 +417,8 @@
       "name_zh": "拉德尔",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593531.html"
+        "https://www.gamekee.com/zsca2/593531.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/170495.png"
     },
@@ -505,7 +518,8 @@
       "name_zh": "莉亚特里斯",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593608.html"
+        "https://www.gamekee.com/zsca2/593608.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/914813.png"
     },
@@ -538,7 +552,8 @@
       "name_zh": "卢克雷齐亚",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593653.html"
+        "https://www.gamekee.com/zsca2/593653.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/897702.png"
     },
@@ -548,7 +563,8 @@
       "name_zh": "罗安",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/621763.html"
+        "https://www.gamekee.com/zsca2/621763.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/99242.png"
     },
@@ -570,7 +586,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593572.html",
         "https://www.gamekee.com/zsca2/614967.html",
-        "https://browndust2.miraheze.org/wiki/Maria/Archmage"
+        "https://browndust2.miraheze.org/wiki/Maria/Archmage",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png"
     },
@@ -720,7 +737,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593577.html",
-        "https://www.gamekee.com/zsca2/652497.html"
+        "https://www.gamekee.com/zsca2/652497.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/219283.png"
     },
@@ -730,7 +748,8 @@
       "name_zh": "莎美",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593648.html"
+        "https://www.gamekee.com/zsca2/593648.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/414888.png"
     },
@@ -826,7 +845,8 @@
       "name_zh": "威格",
       "stub": false,
       "sources": [
-        "https://www.gamekee.com/zsca2/593602.html"
+        "https://www.gamekee.com/zsca2/593602.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/609707.png"
     },
@@ -881,7 +901,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/zsca2/593592.html",
-        "https://www.gamekee.com/zsca2/614967.html"
+        "https://www.gamekee.com/zsca2/614967.html",
+        "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/921546.png"
     },

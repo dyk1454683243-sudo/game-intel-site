@@ -33,12 +33,18 @@
   "weapon": "喵呜喵呜",
   "element": "燃烧",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Best Anis PvP Team 3：阿妮斯：超级巨星 / 尼罗 / Helm (Treasure) / 饼干 / Moran (Treasure)（https://www.prydwen.gg/nikke/characters/anis-star ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Best Anis PvP Team 2：尼罗 / Bay (Treasure) / 阿妮斯：超级巨星 / Helm (Treasure) / Moran (Treasure)（https://www.prydwen.gg/nikke/characters/anis-star ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/nero",
     "https://www.gamekee.com/nikke/594767.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/nero/"
+    "https://nikke.gg/characters/nero/",
+    "https://www.prydwen.gg/nikke/characters/anis-star"
   ],
   "stub": false,
   "as_of": "2026-09-28",

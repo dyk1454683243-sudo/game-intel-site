@@ -33,12 +33,18 @@
   "weapon": "赤红绽放",
   "element": "燃烧",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Anomaly - Indivilla · Fire · B1 Rapi vs Crab：皇冠 / 拉毗：小红帽 / Helm (Treasure) / 雪子 / 马斯特：浪漫的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Anomaly - Indivilla · Fire · Who has more Machine Guns now?：拉毗：小红帽 / 皇冠 / 阿妮斯：超级巨星 / 马斯特：浪漫的女仆 / 雪子（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/yukiko",
     "https://www.gamekee.com/nikke/717735.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/yukiko/"
+    "https://nikke.gg/characters/yukiko/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

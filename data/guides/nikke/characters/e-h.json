@@ -33,7 +33,11 @@
   "weapon": "向天而行",
   "element": "风压",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Wind · Wind-Weak SR Angle 2：小美人鱼 / 薇尔维特 / E.H. / Helm (Treasure) / Privaty (Treasure)（https://www.prydwen.gg/nikke/characters/e-h ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/e-h",
     "https://www.gamekee.com/nikke/696640.html",

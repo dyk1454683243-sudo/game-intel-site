@@ -32,12 +32,17 @@
   "weapon": "暖冰",
   "element": "铁甲",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Run It Down ft. 5 SGs：Drake (Treasure) / 舒格 / 诺亚尔 / 索达：闪亮兔女郎 / Viper (Treasure)（https://www.prydwen.gg/nikke/characters/drake-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/sugar",
     "https://www.gamekee.com/nikke/152328.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/sugar/"
+    "https://nikke.gg/characters/sugar/",
+    "https://www.prydwen.gg/nikke/characters/drake-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

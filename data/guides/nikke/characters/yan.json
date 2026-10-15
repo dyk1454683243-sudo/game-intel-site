@@ -33,12 +33,17 @@
   "weapon": "/",
   "element": "燃烧",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Combat Team #2：吉萝婷 / 芙罗拉 / 布兰儿 / 朵拉 / 杨（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/yan",
     "https://www.gamekee.com/nikke/163886.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/yan/"
+    "https://nikke.gg/characters/yan/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -35,7 +35,12 @@
   "weapon": "胜利号角（RL）",
   "element": "燃烧",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Stall team 2：诺伊斯 / 基里 / 贝伊 / 小红帽 / 豺狼（https://www.prydwen.gg/nikke/characters/bay ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Stall team：牡丹 / 贝伊 / 基里 / 饼干 / 长发公主（https://www.prydwen.gg/nikke/characters/bay ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/bay",
     "https://www.gamekee.com/nikke/620123.html",

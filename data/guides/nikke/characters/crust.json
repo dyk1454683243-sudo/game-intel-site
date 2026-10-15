@@ -33,12 +33,17 @@
   "weapon": "挥丶碰丶叮！",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Tribe Tower · All · Tetra Tribe Tower Team #2：鲁德米拉：冬日之主 / 露姬 / 爱丽丝 / 克劳斯特 / 布蕾德（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/crust",
     "https://www.gamekee.com/nikke/656124.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/crust/"
+    "https://nikke.gg/characters/crust/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

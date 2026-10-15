@@ -50,9 +50,15 @@
       "skill": "EMP闪光"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · General Purpose (with SP Recovery)：厄尔比斯 / 海伦娜 / 莱维亚 / 罗安 / 卢克雷齐亚（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · Strong Elemental Advantage for Fire：黛安娜 / 芮彼泰雅 / 海伦娜 / 莱维亚 / 罗安（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/621763.html"
+    "https://www.gamekee.com/zsca2/621763.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

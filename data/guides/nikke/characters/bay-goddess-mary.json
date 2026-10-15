@@ -37,12 +37,19 @@
   "weapon": "夏日一击",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Mary the Water buffer：梅里：海湾女神 / 罗珊娜：高雅海洋 / 布蕾德 / 吉萝婷：寒冬杀手 / D:杀手妻子（https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer ，as_of 2026-10-15）",
+      "Prydwen · Bossing · Water · Wo'ah Water Woteh：梅里：海湾女神 / 朵拉 / 坎西：逃生女王 / 潘托姆 / 鲁德米拉：冬日之主（https://www.prydwen.gg/nikke/characters/phantom ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/bay-goddess-mary",
     "https://www.gamekee.com/nikke/593038.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mary-bay-goddess/"
+    "https://nikke.gg/characters/mary-bay-goddess/",
+    "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
+    "https://www.prydwen.gg/nikke/characters/phantom"
   ],
   "stub": false,
   "as_of": "2026-09-28",

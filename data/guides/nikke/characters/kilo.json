@@ -33,7 +33,11 @@
   "weapon": "隐遁者",
   "element": "燃烧",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Kilo-ton：诺伊斯 / 豺狼 / 桑迪 / 阿妮斯 / 吉洛（https://www.prydwen.gg/nikke/characters/kilo ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/kilo",
     "https://www.gamekee.com/nikke/621330.html",

@@ -33,12 +33,18 @@
   "weapon": "纯粹怪物 T",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Campaign · All · Mission Impossible Team：阿妮斯：超级巨星 / 皇冠 / 贝斯蒂：战术升级 / 艾达 / 泷奈（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Campaign · All · Pure Evil Team #2：阿妮斯：超级巨星 / 普莉卡 / 敏特 / 贝斯蒂：战术升级 / 拉毗：小红帽（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
     "https://www.gamekee.com/nikke/674867.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/vesti-tactical-upgrade/"
+    "https://nikke.gg/characters/vesti-tactical-upgrade/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

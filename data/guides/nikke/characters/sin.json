@@ -33,12 +33,17 @@
   "weapon": "聒噪",
   "element": "电击",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Electric · Electric Combat Team：吉萝婷 / K / 伊莎贝尔 / 灰姑娘 / 森（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/sin",
     "https://www.gamekee.com/nikke/580947.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/sin/"
+    "https://nikke.gg/characters/sin/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

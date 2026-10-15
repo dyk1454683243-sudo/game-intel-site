@@ -33,11 +33,17 @@
   "weapon": "RL",
   "element": "Iron",
   "manufacturer": "Abnormal",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Iron · Iron Multi T3：Miranda (Treasure) / 爱德：特务兔女郎 / 玛律恰那：海洋进修 / Raven / 索林：霜之旅票（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Iron · Alternate Combo 3 / Two Team T2：阿妮斯：超级巨星 / 敏特 / 小红帽 / Raven / 普莉卡（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/raven",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/raven/"
+    "https://nikke.gg/characters/raven/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -33,12 +33,19 @@
   "weapon": "天眼",
   "element": "风压",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · The ultimate stall：牡丹 / 尼罗 / 基里 / Helm (Treasure) / 长发公主（https://www.prydwen.gg/nikke/characters/helm-treasure ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Heal More, Stall Longer：尼罗 / Milk (Treasure) / 基里 / 长发公主 / 饼干（https://www.prydwen.gg/nikke/characters/milk-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/quiry",
     "https://www.gamekee.com/nikke/602935.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/quiry/"
+    "https://nikke.gg/characters/quiry/",
+    "https://www.prydwen.gg/nikke/characters/helm-treasure",
+    "https://www.prydwen.gg/nikke/characters/milk-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

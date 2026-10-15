@@ -33,12 +33,18 @@
   "weapon": "危险对决",
   "element": "电击",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Electric · Kosmiu Electric Team：梅登 / 灰姑娘 / 伊莎贝尔 / 吉萝婷 / K（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Surface · Electric · Electric Combat Team：吉萝婷 / K / 伊莎贝尔 / 灰姑娘 / 森（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/k",
     "https://www.gamekee.com/nikke/664885.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/k/"
+    "https://nikke.gg/characters/k/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

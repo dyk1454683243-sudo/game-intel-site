@@ -28,11 +28,16 @@
       "skill": "破坏魔法"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · Chapter 2 Magic：厄尔比斯 / 莎美 / 达非 / 玛丽亚 / 莎赫拉查德（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/zsca2/593572.html",
     "https://www.gamekee.com/zsca2/614967.html",
-    "https://browndust2.miraheze.org/wiki/Maria/Archmage"
+    "https://browndust2.miraheze.org/wiki/Maria/Archmage",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-10-01",

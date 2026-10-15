@@ -39,9 +39,14 @@
       "skill": "相信我"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · Just 3 and 4 Stars (Physical)：阿里内斯 / 莎美 / 威格 / 克莱（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593645.html"
+    "https://www.gamekee.com/zsca2/593645.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

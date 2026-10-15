@@ -33,12 +33,18 @@
   "weapon": "黄金士兵",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Rise from the Dead (Adaptive Speed)：米哈拉：羁绊锁链 / 布兰儿 / 玛娜 / 罗珊娜 / Helm (Treasure)（https://www.prydwen.gg/nikke/characters/mihara-bonding-chain ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · One-Night-Stand Makima：Drake (Treasure) / 索达：闪亮兔女郎 / 罗珊娜 / 玛奇玛 / 米哈拉：羁绊锁链（https://www.prydwen.gg/nikke/characters/mihara-bonding-chain ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rosanna",
     "https://www.gamekee.com/nikke/591260.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rosanna/"
+    "https://nikke.gg/characters/rosanna/",
+    "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
   ],
   "stub": false,
   "as_of": "2026-09-28",

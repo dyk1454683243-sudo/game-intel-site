@@ -33,11 +33,16 @@
   "weapon": "SR",
   "element": "Electric",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Electric · Ein's Best Bossing team：Exia (Treasure) / 皇冠 / 爱因 / 阿妮斯：闪耀夏日 / D:杀手妻子（https://www.prydwen.gg/nikke/characters/ein ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/exia-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/exia/?treasure=true"
+    "https://nikke.gg/characters/exia/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/ein"
   ],
   "stub": false,
   "as_of": "2026-09-28",

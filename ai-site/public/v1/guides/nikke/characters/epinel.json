@@ -35,12 +35,17 @@
   "weapon": "/",
   "element": "风压",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Wind · Wind Combat Team：红莲：暗影 / D / 莉贝雷利奥 / 吉尔提 / 艾菲涅尔（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/epinel",
     "https://www.gamekee.com/nikke/152334.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/epinel/"
+    "https://nikke.gg/characters/epinel/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

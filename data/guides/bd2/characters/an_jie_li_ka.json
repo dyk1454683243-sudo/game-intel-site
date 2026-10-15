@@ -50,9 +50,14 @@
       "skill": "约尔门逆转模式"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · Advanced Solo Boss Kill (Nox, ch12 or ch14), crit fishing edition：黛安娜 / 芮彼泰雅 / 杰尼斯 / 莱维亚 / 安洁莉卡（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/597740.html"
+    "https://www.gamekee.com/zsca2/597740.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

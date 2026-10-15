@@ -35,12 +35,19 @@
   "weapon": "坚定不移",
   "element": "铁甲",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Kosmiu Support Team 2：佩珀 / 克雷伊 / 西格娜 / 梅里 / 索达：闪亮兔女郎（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Iron · Rock Iron Sugar：Tove (Treasure) / 阿尔卡娜：命运伴侣 / 索达：闪亮兔女郎 / Sugar (Treasure) / Drake (Treasure)（https://www.prydwen.gg/nikke/characters/sugar-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/soda-twinkling-bunny",
     "https://www.gamekee.com/nikke/623992.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/soda-twinkling-bunny/"
+    "https://nikke.gg/characters/soda-twinkling-bunny/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/sugar-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

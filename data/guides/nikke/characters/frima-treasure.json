@@ -32,11 +32,18 @@
   "weapon": "SR",
   "element": "Iron",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Iron · So Much True Damage：Moran (Treasure) / 泷奈 / 千束 / Laplace (Treasure) / Frima (Treasure)（https://www.prydwen.gg/nikke/characters/chisato-nishikigi ，as_of 2026-10-15）",
+      "Prydwen · Bossing · All · True Damage Team... Completed?：Frima (Treasure) / 雷姆 / Laplace (Treasure) / 爱因 / 朵拉（https://www.prydwen.gg/nikke/characters/ein ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/frima-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/frima/?treasure=true"
+    "https://nikke.gg/characters/frima/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
+    "https://www.prydwen.gg/nikke/characters/ein"
   ],
   "stub": false,
   "as_of": "2026-09-28",

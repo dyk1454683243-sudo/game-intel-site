@@ -33,12 +33,18 @@
   "weapon": "温馨旅途",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - Black Typhoon of Serendipity：Tove (Treasure) / 阿尔卡娜：命运伴侣 / 桃乐丝：机缘巧遇 / Sugar (Treasure) / 索林：霜之旅票（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Museum - Black Smith · Water · Standard Shotgun team - BS：Tove (Treasure) / 格拉维 / 桃乐丝：机缘巧遇 / Sugar (Treasure) / 索林：霜之旅票（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/soline-frost-ticket",
     "https://www.gamekee.com/nikke/684090.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/soline-frost-ticket/"
+    "https://nikke.gg/characters/soline-frost-ticket/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -32,12 +32,19 @@
   "weapon": "/",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · I'm inevitable：诺伊斯 / 诺雅 / 贝斯蒂：战术升级 / Helm (Treasure) / 梅登：冰玫瑰（https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · H E A L I N G：诺伊斯 / 安克：天真的女仆 / Helm (Treasure) / 长发公主 / 豺狼（https://www.prydwen.gg/nikke/characters/anchor-innocent-maid ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/noise",
     "https://www.gamekee.com/nikke/163884.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/noise/"
+    "https://nikke.gg/characters/noise/",
+    "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
+    "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid"
   ],
   "stub": false,
   "as_of": "2026-09-28",

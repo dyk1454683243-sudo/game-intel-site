@@ -91,9 +91,15 @@
       "skill": "鲜血牺牲"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · No Advantage Physical：黎维塔 / 拉德尔 / 拉菲娜 / 神圣悠丝缇亚 / 尤里（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · Very First Solo Boss Kill (Partan, ch11 Fake Game)：黛安娜 / 阿里内斯 / 莉亚特里斯 / 威格 / 拉德尔（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593531.html"
+    "https://www.gamekee.com/zsca2/593531.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

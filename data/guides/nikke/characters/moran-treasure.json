@@ -32,11 +32,17 @@
   "weapon": "AR",
   "element": "Electric",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - A Café With Flowers and Bunnies：吉尔提：神力兔女郎 / Flora (Treasure) / 森：疾速兔女郎 / 泷奈 / Moran (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Museum - Ultra · Iron · True damage - Ultra：Laplace (Treasure) / Flora (Treasure) / 艾达 / Moran (Treasure) / 泷奈（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/moran-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/moran/?treasure=true"
+    "https://nikke.gg/characters/moran/?treasure=true",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

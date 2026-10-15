@@ -35,12 +35,19 @@
   "weapon": "蜉蝣",
   "element": "风压",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Wind · Kosmiu Wind Team：红莲：暗影 / 吉尔提 / 诺雅 / D / 安妮：奇迹仙女（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Banish the SGs：Drake (Treasure) / 安妮：奇迹仙女 / 罗珊娜 / 索达：闪亮兔女郎 / 米哈拉：羁绊锁链（https://www.prydwen.gg/nikke/characters/mihara-bonding-chain ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
     "https://www.gamekee.com/nikke/578097.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/anne-miracle-fairy/"
+    "https://nikke.gg/characters/anne-miracle-fairy/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
   ],
   "stub": false,
   "as_of": "2026-09-28",

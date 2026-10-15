@@ -35,12 +35,17 @@
   "weapon": "You Can Do It",
   "element": "电击",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Kosmiu Support Team 2：佩珀 / 克雷伊 / 西格娜 / 梅里 / 索达：闪亮兔女郎（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/clay",
     "https://www.gamekee.com/nikke/624298.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/clay/"
+    "https://nikke.gg/characters/clay/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

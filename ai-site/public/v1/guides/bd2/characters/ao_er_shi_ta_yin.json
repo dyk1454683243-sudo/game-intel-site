@@ -47,9 +47,15 @@
       "skill": "云龙到来"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · General Purpose Magic (High Chains)：芮彼泰雅 / 海伦娜 / 奥尔施塔因 / 莱维亚 / 罗安（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · Elemental Advantage for Wind：黛安娜 / 海伦娜 / 奥尔施塔因 / 达非 / 贝那卡（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593587.html"
+    "https://www.gamekee.com/zsca2/593587.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

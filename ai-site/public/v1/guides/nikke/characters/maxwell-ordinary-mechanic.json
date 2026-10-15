@@ -33,12 +33,19 @@
   "weapon": "我的神圣宝贝",
   "element": "风压",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Wind · Matis T3：德雷克：终极反派 / 露姬 / 拉普拉斯：究极英雄 / 麦斯威尔：平凡技师 / 薇尔维特（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Wind · The Greatest Villain II：拉普拉斯：究极英雄 / 露姬 / 德雷克：终极反派 / 特蕾娜 / 麦斯威尔：平凡技师（https://www.prydwen.gg/nikke/characters/drake-great-villain ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/maxwell-ordinary-mechanic",
     "https://www.gamekee.com/nikke/713899.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/maxwell-ordinary-mechanic/"
+    "https://nikke.gg/characters/maxwell-ordinary-mechanic/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/drake-great-villain"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -35,12 +35,18 @@
   "weapon": "钻石尘埃",
   "element": "电击",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Mother Whale · Electric · Mafia gang - MW：Rosanna (Treasure) / 皇冠 / 阿妮斯：闪耀夏日 / 梅登：冰玫瑰 / 小美人鱼（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Anomaly - Mirror Container · Electric · The 3.5 Anniversary：皇冠 / 阿妮斯：超级巨星 / 尼恩：透视之眼 / 阿妮斯：闪耀夏日 / 梅登：冰玫瑰（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/maiden-ice-rose",
     "https://www.gamekee.com/nikke/167401.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/maiden-ice-rose/"
+    "https://nikke.gg/characters/maiden-ice-rose/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

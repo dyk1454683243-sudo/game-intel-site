@@ -33,12 +33,17 @@
   "weapon": "霰弹枪",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Kosmiu Support Team 2：佩珀 / 克雷伊 / 西格娜 / 梅里 / 索达：闪亮兔女郎（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mary",
     "https://www.gamekee.com/nikke/152343.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mary/"
+    "https://nikke.gg/characters/mary/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

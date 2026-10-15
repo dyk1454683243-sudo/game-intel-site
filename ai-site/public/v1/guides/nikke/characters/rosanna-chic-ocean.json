@@ -35,12 +35,19 @@
   "weapon": "黄金士兵",
   "element": "风压",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Fire · Triple Fire V2 2：Miranda (Treasure) / 罗珊娜：高雅海洋 / 米哈拉：羁绊锁链 / 艾达 / 小美人鱼（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Bossing · Wind · What's Better: Black Critting or a Black Crit Line?：Miranda (Treasure) / 罗珊娜：高雅海洋 / 方舟黑色游侠 / 露姬 / 樱花：夏日绽放（https://www.prydwen.gg/nikke/characters/ark-ranger-black ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean",
     "https://www.gamekee.com/nikke/170974.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rosanna-chic-ocean/"
+    "https://nikke.gg/characters/rosanna-chic-ocean/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
   ],
   "stub": false,
   "as_of": "2026-09-28",

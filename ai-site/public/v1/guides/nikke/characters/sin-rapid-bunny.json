@@ -31,12 +31,17 @@
   "weapon": "闪光兔萝",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - A Café With Flowers and Bunnies：吉尔提：神力兔女郎 / Flora (Treasure) / 森：疾速兔女郎 / 泷奈 / Moran (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/nikke/722087.html",
     "https://nikke.gg/tier-list/",
     "https://www.gamekee.com/nikke/721179.html",
-    "https://www.prydwen.gg/nikke/characters/sin-swift-bunny"
+    "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-10-01",

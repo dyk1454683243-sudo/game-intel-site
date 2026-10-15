@@ -32,12 +32,18 @@
   "weapon": "织尘不染",
   "element": "燃烧",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Kosmiu Support Team 4：索达 / 爱德：特务兔女郎 / 伊莱格：BOOM与惊吓 / 玛娜 / 伊莱格（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Surface · All · Basic Combat Team #1：Modernia / 莉贝雷利奥 / 桑迪 / 索达 / 露姬（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/soda",
     "https://www.gamekee.com/nikke/583173.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/soda/"
+    "https://nikke.gg/characters/soda/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

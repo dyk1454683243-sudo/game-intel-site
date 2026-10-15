@@ -35,12 +35,18 @@
   "weapon": "战舰",
   "element": "铁甲",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Ultra · Iron · Snow White - Ultra：Zwei (Treasure) / 格拉维 / 白雪公主 / 米尔克：花漾兔女郎 / 海伦：海蓝宝石（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Anomaly - Ultra · Iron · Artillery vs Moth：皇冠 / Zwei (Treasure) / 白雪公主 / 麦斯威尔 / 海伦：海蓝宝石（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
     "https://www.gamekee.com/nikke/597433.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/helm-aquamarine/"
+    "https://nikke.gg/characters/helm-aquamarine/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

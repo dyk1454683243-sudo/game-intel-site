@@ -33,7 +33,12 @@
   "weapon": "乱流",
   "element": "风压",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · General Summer Anis team：诺雅 / 索拉 / 阿妮斯：闪耀夏日 / 饼干 / 长发公主（https://www.prydwen.gg/nikke/characters/sora ，as_of 2026-10-15）",
+      "Prydwen · Bossing · Wind · Steward to fight Math：皇冠 / 小美人鱼 / 红莲：暗影 / 明日香：WILLE / 索拉（https://www.prydwen.gg/nikke/characters/sora ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/sora",
     "https://www.gamekee.com/nikke/668936.html",
