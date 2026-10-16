@@ -42,6 +42,7 @@ import {
 } from "./guide-cache.js";
 import { askIntel } from "./ask.js";
 
+import { personalFromPublic } from "./personal-public.js";
 import { server } from "./index-tools-a.js";
 import {
   DATA_DIR,
@@ -68,6 +69,22 @@ import {
   digestGame,
   buildCalendar,
 } from "./index-lib-09.js";
+
+server.tool(
+  "personal_digest",
+  "Stateless personal digest from published /v1 JSON (feed, digest, banners, codes). Same filter as GET /v1/personal. games: comma-separated ids. chars: comma-separated game:id. Highlights followed-character UP/rerun, new codes, and codes expiring within 21 days. Stores nothing. No network.",
+  {
+    games: z.string().max(1800).optional(),
+    chars: z.string().max(1800).optional(),
+  },
+  async ({ games, chars }) => {
+    try {
+      return textResult(await personalFromPublic({ games: games || "", chars: chars || "" }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
+    }
+  }
+);
 
 server.tool(
   "radar",

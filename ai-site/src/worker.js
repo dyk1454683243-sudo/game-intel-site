@@ -8,6 +8,8 @@ import {
   saveClaim,
 } from "./claims.js";
 import { corsHeaders, handleMcp, jsonResponse } from "./mcp.js";
+import { personalDocument } from "./personal.js";
+import { personalAtom } from "../public/ui/personal.js";
 import { servePortrait } from "../public/ui/portrait.js";
 
 const DISCOVERY_PATHS = new Set([
@@ -31,6 +33,10 @@ export async function route(request, env) {
   const path = url.pathname;
 
   if (path === "/mcp") return handleMcp(request, env);
+
+  if (path === "/v1/personal" || path === "/v1/personal.atom") {
+    return respondPersonal(request, env, path);
+  }
 
   if (path === "/v1/portrait") {
     if (request.method !== "GET") return new Response("method", { status: 405 });
@@ -67,6 +73,38 @@ export async function route(request, env) {
     });
   }
   return null;
+}
+
+async function respondPersonal(request, env, path) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders() });
+  }
+  if (request.method !== "GET") return jsonResponse({ ok: false, error: "method" }, 405);
+  const url = new URL(request.url);
+  const doc = await personalDocument(env, url.origin, {
+    games: url.searchParams.get("games") || "",
+    chars: url.searchParams.get("chars") || "",
+    code: url.searchParams.get("code") || "",
+  });
+  if (!doc.ok) return jsonResponse({ ok: false, error: doc.error }, doc.status || 400);
+  if (path === "/v1/personal.atom") {
+    return new Response(personalAtom(doc, url.href), {
+      status: 200,
+      headers: {
+        "content-type": "application/atom+xml; charset=utf-8",
+        "cache-control": "public, max-age=300",
+        ...corsHeaders(),
+      },
+    });
+  }
+  return new Response(JSON.stringify(doc), {
+    status: 200,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "public, max-age=300",
+      ...corsHeaders(),
+    },
+  });
 }
 
 async function postClaim(request, env) {

@@ -85,6 +85,15 @@ Aliases: /v1/guides/{game}/aliases.json (nikke also aliases.p1.json … p4.json)
 HW dopamine auto: /v1/guides/hw/dopamine-auto.json (also /v1/guides/hw/modes/dopamine-auto.json).
 Banners: /v1/guides/{game}/banners.json. Codes: /v1/guides/{game}/codes.json. Both keep the source URL, the checked date, and an explicit expired or unstated status. Do not treat a code as live when status is expired or expiry_not_stated.
 
+### GET /v1/personal and GET /v1/personal.atom
+Purpose: stateless personal digest. No account and no stored follows. The browser page `/me/` keeps the list in `localStorage` and filters the same published JSON locally. Bots call this endpoint or the MCP tool `personal_digest`.
+Query: `games` (comma-separated ids, max 24) and `chars` (comma-separated `game:id`, max 48). `code` is a `gi1.` share code and replaces the other two parameters when present.
+Cadence: computed on request from published `/v1/feed.json`, `/v1/digest.json`, and each relevant `/v1/guides/{game}/banners.json`, `codes.json`, character index, and aliases. Nothing is written.
+Filter: a followed game keeps its feed and digest items. A followed character keeps items from that game whose title or summary contains a published name or alias. Banners stay for followed games, plus any banner whose `up_characters.id` matches a followed character. Codes stay for followed games and for the games of followed characters.
+Highlights: `up` when that character is in `up_characters`. `rerun` when `kind` is `rerun`, or the banner name places that character after 复刻 / 復刻 / rerun. A code is `new` when it is not expired and `starts` or `released` is an ISO date within the previous 45 Asia/Shanghai days. A code is `expiring` when it is not expired and `expires` is an ISO date within the next 21 Asia/Shanghai days, including today. Non-ISO dates are not treated as new or expiring. Expired rows stay marked. This does not redeem codes.
+`stored` is false. Atom is `/v1/personal.atom` with the same query. Human page: `/me/?games=&chars=` imports into that browser only.
+Schema: `/schema/personal.schema.json`.
+
 ### GET /v1/claims.json and POST /v1/claims
 GET fields: `ok`, `count`, `timezone`, `claims[]` `{id,statement,sources,game_id,character_id,as_of,submitted_at,timezone,submitter?}`. No auth. `list_claims` returns this same list and does not write.
 There is no pending/approved queue. Public posts are stored and listed as submitted. They are untrusted until a human reviews them. Do not treat a claim as a verified fact.
@@ -106,7 +115,8 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 - /catalog/ — search and filter the game directory
 - /watchlist/ — hw, nikke, bd2, star (星原), asora (阿索拉), miraesi (미래시), lo2
 - /game/?id= — identity card (name, platforms, tags, sources, steam_appid). Games other than hw / nikke / bd2 show 尚无深耕 and do not invent tier or pull advice.
-- /character/?game=&id= — strength, costume, skills, and source links. Only hw, nikke, bd2.
+- /character/?game=&id= — strength, costume, skills, and source links. Only hw, nikke, bd2. A 关注 button writes that character into localStorage.
+- /me/ — personal view. Follow list is localStorage plus a shareable `/me/?games=&chars=` link or `gi1.` code. The page filters feed, digest, banners, and codes in the browser and does not send the list to the server.
 
 `export-games` copies `ai-site/public/ui/home.html` onto `/`. Static dual-publish HTML remains:
 
@@ -132,6 +142,7 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 - /schema/character-card.schema.json
 - /schema/aliases.schema.json — character nicknames
 - /schema/catalog-aliases.schema.json — catalog nickname → id
+- /schema/personal.schema.json — stateless personal digest
 - /schema/claim.schema.json
 - /schema/claims-index.schema.json
 - /index.md — overview

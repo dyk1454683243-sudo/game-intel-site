@@ -412,6 +412,41 @@
         }
       }
     },
+    "/v1/personal": {
+      "get": {
+        "summary": "Stateless personal digest. Query games (comma-separated ids) and chars (comma-separated game:id), or code=gi1.… . Filters published feed, digest, banners, and codes. Stores nothing.",
+        "parameters": [
+          { "name": "games", "in": "query", "schema": { "type": "string" } },
+          { "name": "chars", "in": "query", "schema": { "type": "string" } },
+          { "name": "code", "in": "query", "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Personal" }
+              }
+            }
+          },
+          "400": { "description": "Bad follow list" }
+        }
+      }
+    },
+    "/v1/personal.atom": {
+      "get": {
+        "summary": "Atom feed for the same /v1/personal filter. Stores nothing.",
+        "parameters": [
+          { "name": "games", "in": "query", "schema": { "type": "string" } },
+          { "name": "chars", "in": "query", "schema": { "type": "string" } },
+          { "name": "code", "in": "query", "schema": { "type": "string" } }
+        ],
+        "responses": {
+          "200": { "description": "application/atom+xml" },
+          "400": { "description": "Bad follow list" }
+        }
+      }
+    },
     "/v1/guides/hw/dopamine-auto.json": {
       "get": {
         "summary": "HW dopamine auto teams",
@@ -468,6 +503,9 @@
       },
       "Aliases": {
         "$ref": "/schema/aliases.schema.json"
+      },
+      "Personal": {
+        "$ref": "/schema/personal.schema.json"
       }
     }
   }

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://game-intel.local/schema/personal.schema.json",
+  "title": "game-intel personal digest",
+  "description": "Stateless filter of published feed, digest, banners, and codes. The server does not store the games or chars list.",
+  "type": "object",
+  "required": ["ok", "stateless", "stored", "follows", "highlights", "feed", "digest", "banners", "codes"],
+  "additionalProperties": true,
+  "properties": {
+    "ok": { "type": "boolean" },
+    "stateless": { "const": true },
+    "stored": { "const": false },
+    "follows": {
+      "type": "object",
+      "required": ["games", "chars"],
+      "additionalProperties": true,
+      "properties": {
+        "games": { "type": "array", "items": { "type": "string" } },
+        "chars": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["game", "id"],
+            "additionalProperties": false,
+            "properties": {
+              "game": { "type": "string" },
+              "id": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "highlights": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "banners": { "type": "array" },
+        "codes_new": { "type": "array" },
+        "codes_expiring": { "type": "array" }
+      }
+    },
+    "feed": { "type": "object", "additionalProperties": true },
+    "digest": { "type": "object", "additionalProperties": true },
+    "banners": { "type": "array" },
+    "codes": { "type": "array" }
+  }
+}

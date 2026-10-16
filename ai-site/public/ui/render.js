@@ -20,6 +20,7 @@ const NAV = [
   ["home", "/", "首页"],
   ["catalog", "/catalog/", "目录"],
   ["watchlist", "/watchlist/", "观察名单"],
+  ["me", "/me/", "我的关注"],
   ["claims", "/claims/", "核对墙"],
   ["for-ai", "/for-ai/", "给 AI"],
 ];
@@ -220,6 +221,18 @@ function flag(text, kind) {
   return `<span class="flag ${kind}">${esc(text)}</span>`;
 }
 
+function followButton(kind, game, id, pressed) {
+  const gid = safeId(game);
+  if (!gid) return "";
+  const on = pressed === true;
+  if (kind === "char") {
+    const cid = safeId(id);
+    if (!cid) return "";
+    return `<button type="button" class="follow" data-follow-kind="char" data-game="${esc(gid)}" data-id="${esc(cid)}" aria-pressed="${on ? "true" : "false"}">${on ? "已关注这个角色" : "关注这个角色"}</button>`;
+  }
+  return `<button type="button" class="follow" data-follow-kind="game" data-game="${esc(gid)}" aria-pressed="${on ? "true" : "false"}">${on ? "已关注这部游戏" : "关注这部游戏"}</button>`;
+}
+
 function renderNav(active) {
   const links = NAV.map(([id, href, label]) => {
     const current = id === active ? ' aria-current="page"' : "";
@@ -229,7 +242,7 @@ function renderNav(active) {
 }
 
 function renderFooter() {
-  return `<footer class="site-foot"><p>人读网页专区，AI 读 MCP 与 /v1，同一份已发布数据。</p><p>目录宽、深耕窄、出处硬。不编造评分或价格。</p><p>无登录。CDK 不在本站。</p></footer>`;
+  return `<footer class="site-foot"><p>人读网页专区，AI 读 MCP 与 /v1，同一份已发布数据。</p><p>目录宽、深耕窄、出处硬。不编造评分或价格。</p><p>无登录。关注名单只留在这台浏览器。CDK 不在本站。</p></footer>`;
 }
 
 function depthBanner(kind, label) {
@@ -291,6 +304,7 @@ function jsonLink(href, label) {
 function zoneEntries() {
   return `<nav class="zones" aria-label="首页入口">
 <a class="zone" href="/watchlist/"><strong>观察名单</strong><span>深耕从图鉴进。其余游戏只保留身份。</span></a>
+<a class="zone" href="/me/"><strong>我的关注</strong><span>只看订阅的游戏和角色。名单留在这台浏览器。</span></a>
 <a class="zone" href="/for-ai/"><strong>给 AI</strong><span>MCP、OpenAPI、llms.txt。与人读同一份已发布数据。</span></a>
 </nav>`;
 }
@@ -417,6 +431,7 @@ function identityFacts(game) {
 ${depthBanner(isDeep(game.id) ? "deep" : "stub", isDeep(game.id) ? "深耕" : "尚无深耕")}
 <h1>${esc(zh)} <code>${esc(game.id || "")}</code></h1>
 <p class="flags">${marks.join(" ")}</p>
+<p class="follow-row">${followButton("game", game.id)}</p>
 ${en ? `<p class="meta">${esc(en)}</p>` : ""}
 <dl class="facts">
 <dt>平台</dt><dd>${chips(game.platforms)}</dd>
@@ -776,16 +791,18 @@ function collectCardSources(card) {
   return items;
 }
 
-export function renderCharacter(gameId, card) {
+export function renderCharacter(gameId, card, opts = {}) {
   const id = safeId(gameId) || String(gameId || "");
   const known = watchMeta(id);
   const gameLabel = (known && known.name_zh) || id;
   if (!isDeep(id)) {
+    const requested = safeId(opts.id);
     return `<article class="sheet sheet-stub"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)}</p>
 ${depthBanner("stub", "尚无深耕")}
 <h1>尚无深耕</h1>
 <p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）。</p>
-<p class="flags">${flag("尚无深耕", "gap")}</p></article>`;
+<p class="flags">${flag("尚无深耕", "gap")}</p>
+${requested ? `<p class="follow-row">${followButton("char", id, requested)}</p>` : ""}</article>`;
   }
   if (!card || typeof card !== "object") return renderError("未找到角色卡");
   if (card.game && card.game !== id) {
@@ -810,6 +827,7 @@ ${depthBanner("stub", "尚无深耕")}
 ${depthBanner(depth, depthLabel)}
 <div class="char-head"><figure class="art"><figcaption>立绘</figcaption>${portraitTag(card, true)}</figure><div>
 <h1>${esc(name)} <code>${esc(card.id || "")}</code></h1>
+${card.id ? `<p class="follow-row">${followButton("char", id, card.id)}</p>` : ""}
 ${marks.length ? `<p class="flags">${marks.join(" ")}</p>` : ""}
 <p class="rule">${depthNote}</p>
 <p class="meta">${esc([en, nick ? `别名 ${nick}` : "", card.as_of ? `as_of ${card.as_of}` : ""].filter(Boolean).join(" · "))}</p>
@@ -829,6 +847,135 @@ ${weapon ? `<section><h2>武器</h2><p>${esc(weapon)}</p></section>` : ""}
       : `<p class="gap">出处：${GAP}</p>`
   }</section>
 ${card.id ? jsonLink(`/v1/guides/${encodeURIComponent(id)}/characters/${encodeURIComponent(card.id)}.json`, `/v1/guides/${id}/characters/${card.id}.json`) : ""}</article>`;
+}
+
+function personalBannerItem(row) {
+  const marks = (row.matched || [])
+    .map((item) => flag(item.mark === "rerun" ? `复刻 ${item.name}` : `UP ${item.name}`, item.mark === "rerun" ? "wl" : "deep"))
+    .join(" ");
+  const status = BANNER_STATUS[row.status] || "";
+  const when = [row.start_text || row.start, row.end_text || row.end].filter(Boolean).join(" → ");
+  const src = safeHttpUrl(row.source);
+  const ups = Array.isArray(row.up) ? row.up.join("、") : "";
+  return `<li><strong>${esc(row.name || row.id || "卡池")}</strong> ${status ? flag(status, row.status === "current" ? "deep" : "gap") : ""} ${marks}<div class="meta">${esc(ups)}</div><div class="meta">${esc(when)}${row.timezone ? ` · ${esc(row.timezone)}` : ""}</div>${src ? `<div>${link(src, "出处")}</div>` : ""}</li>`;
+}
+
+function personalCodeItem(row) {
+  const bits = [];
+  if ((row.marks || []).includes("new")) bits.push(flag("新码", "deep"));
+  if ((row.marks || []).includes("expiring")) {
+    const left = row.days_left === 0 ? "今天到期" : `还有 ${row.days_left} 天`;
+    bits.push(flag(left, "stub"));
+  }
+  if ((row.marks || []).includes("expired")) bits.push(flag("已过期", "gap"));
+  const label = CODE_STATUS[row.status] || "";
+  if (label && !bits.length) bits.push(flag(label, row.status === "expired" ? "gap" : "wl"));
+  const src = safeHttpUrl(row.source);
+  const when = row.expires_text || row.expires || "";
+  return `<li><code>${esc(row.code || "")}</code> ${bits.join(" ")}<div>${esc(row.rewards || "出处未写奖励")}</div><div class="meta">${esc(row.game || "")}${when ? ` · ${esc(when)}` : ""}</div>${src ? `<div>${link(src, "出处")}</div>` : ""}</li>`;
+}
+
+export function renderMe(doc, opts = {}) {
+  if (!doc || doc.ok === false) return renderError(opts.message || "无法整理关注列表");
+  const follows = doc.follows || { games: [], chars: [] };
+  const labels = doc.labels || { games: {}, chars: {} };
+  const share = doc.share || {};
+  const highlights = doc.highlights || {};
+  const bannerHits = highlights.banners || [];
+  const fresh = highlights.codes_new || [];
+  const expiring = highlights.codes_expiring || [];
+  const games = (follows.games || [])
+    .map((id) => {
+      const gid = safeId(id);
+      if (!gid) return "";
+      return `<li>${link(gameHref(gid), (labels.games && labels.games[gid]) || gid)} <code>${esc(gid)}</code> ${followButton("game", gid, "", true)}</li>`;
+    })
+    .filter(Boolean)
+    .join("");
+  const chars = (follows.chars || [])
+    .map((row) => {
+      const gid = safeId(row && row.game);
+      const cid = safeId(row && row.id);
+      if (!gid || !cid) return "";
+      const key = `${gid}:${cid}`;
+      const name = (labels.chars && labels.chars[key]) || cid;
+      return `<li>${link(characterHref(gid, cid), name)} <code>${esc(key)}</code> ${followButton("char", gid, cid, true)}</li>`;
+    })
+    .filter(Boolean)
+    .join("");
+  const listHtml = games || chars
+    ? `${games ? `<h2>游戏</h2><ul class="follow-list">${games}</ul>` : ""}${chars ? `<h2>角色</h2><ul class="follow-list">${chars}</ul>` : ""}`
+    : `<p class="meta">还没有关注。打开游戏页或角色卡，点「关注」。</p>`;
+  const bannerHtml = bannerHits.length
+    ? `<ul>${bannerHits.map(personalBannerItem).join("")}</ul>`
+    : `<p class="meta">没有对上的 UP 或复刻。</p>`;
+  const freshHtml = fresh.length
+    ? `<ul>${fresh.map(personalCodeItem).join("")}</ul>`
+    : `<p class="meta">没有落在近 45 天内的新码。</p>`;
+  const expiringHtml = expiring.length
+    ? `<ul>${expiring.map(personalCodeItem).join("")}</ul>`
+    : `<p class="meta">没有 21 天内到期的码。</p>`;
+  const feedItems = (doc.feed && doc.feed.items) || [];
+  const feedHtml = feedItems.length
+    ? `<ul class="headlines">${feedItems.slice(0, 20).map(headlineItem).filter(Boolean).join("")}</ul>`
+    : `<p class="meta">没有对上的情报条目。</p>`;
+  const digestRows = (doc.digest && doc.digest.digests) || [];
+  const digestHtml = digestRows.length
+    ? digestRows
+        .map((row) => {
+          const id = safeId(row.game);
+          const name = row.name_zh || row.name || row.game;
+          const title = id ? link(gameHref(id), name) : esc(name);
+          const items = (row.items || []).slice(0, 8).map(headlineItem).filter(Boolean).join("");
+          return `<article class="card"><h3>${title} <span class="meta">${esc(id || row.game || "")} · ${esc(row.count != null ? row.count : (row.items || []).length)} 条</span></h3>${items ? `<ul class="headlines">${items}</ul>` : `<p class="meta">暂无条目。</p>`}</article>`;
+        })
+        .join("")
+    : `<p class="meta">没有对上的摘要。</p>`;
+  const poolHtml = (doc.banners || []).length
+    ? `<ul>${doc.banners.map(personalBannerItem).join("")}</ul>`
+    : `<p class="meta">没有已发布卡池。</p>`;
+  const liveCodes = (doc.codes || []).filter((row) => !(row.marks || []).includes("expired"));
+  const oldCodes = (doc.codes || []).filter((row) => (row.marks || []).includes("expired"));
+  const codeHtml = liveCodes.length ? `<ul>${liveCodes.map(personalCodeItem).join("")}</ul>` : `<p class="meta">没有未过期的码。</p>`;
+  const oldHtml = oldCodes.length
+    ? `<details class="expired"><summary>已过期的码（${oldCodes.length}）</summary><ul>${oldCodes.map(personalCodeItem).join("")}</ul></details>`
+    : "";
+  const missing = (doc.meta && doc.meta.missing) || [];
+  const missingHtml = missing.length ? `<p class="gap">这些已发布文件没有读到：${esc(missing.join("、"))}</p>` : "";
+  const note = opts.note ? `<p class="meta" id="follow-status" role="status">${esc(opts.note)}</p>` : `<p class="meta" id="follow-status" role="status"></p>`;
+  const query = share.query || "";
+  const page = share.page || "/me/";
+  const atom = share.atom || "/v1/personal.atom";
+  const api = query ? `/v1/personal?${query}` : "/v1/personal";
+  return `<h1>我的关注</h1>
+<p class="lede">按这台浏览器里的关注列表，过滤已发布的 feed、digest、卡池和兑换码。不建账号，名单不上传。</p>
+${opts.imported ? `<p class="meta">已从链接导入。之后只改这台浏览器里的名单。</p>` : ""}
+${note}
+${listHtml}
+<form id="follow-import">
+<label>导入订阅码或链接 <input id="follow-code" name="code" type="text" autocomplete="off" placeholder="gi1.… 或 /me/?games=nikke&chars=nikke:modernia"/></label>
+<label>分享链接 <input id="share-url" readonly value="${esc(page)}"/></label>
+<label>订阅码 <input id="share-code" readonly value="${esc(share.code || "")}"/></label>
+<div class="follow-actions">
+<button type="submit" class="action">导入</button>
+<button type="button" class="action" data-follow-action="copy-url">复制链接</button>
+<button type="button" class="action" data-follow-action="copy-code">复制订阅码</button>
+<button type="button" class="action" data-follow-action="clear">清空关注</button>
+</div>
+</form>
+<p class="rule">UP / 复刻只来自 <code>banners.json</code> 的 <code>up_characters</code>。新码看 ISO 起始日是否落在近 45 天。即将过期看 ISO 截止日是否落在 21 天内。过期的保持标出。本站不代领。</p>
+${missingHtml}
+<section aria-labelledby="focus-h"><h2 id="focus-h">重点</h2>
+<h3>关注角色的 UP / 复刻</h3>${bannerHtml}
+<h3>新兑换码</h3>${freshHtml}
+<h3>即将过期</h3>${expiringHtml}
+</section>
+<section aria-labelledby="feed-h"><h2 id="feed-h">情报</h2><p class="rule">关注整部游戏时保留该游条目。只关注角色时，标题或摘要要出现已发布的名字或别名。</p>${feedHtml}</section>
+<section aria-labelledby="digest-h"><h2 id="digest-h">摘要</h2><div class="digest-list">${digestHtml}</div></section>
+<section aria-labelledby="pool-h"><h2 id="pool-h">卡池</h2>${poolHtml}</section>
+<section aria-labelledby="code-h"><h2 id="code-h">兑换码</h2>${codeHtml}${oldHtml}</section>
+<p class="meta">Atom：${link(atom, atom)}</p>
+${jsonLink(api, "/v1/personal")}`;
 }
 
 export function renderForAi() {
@@ -862,6 +1009,7 @@ export function renderForAi() {
 <dt>首页</dt><dd><code>/v1/digest.json</code> · <code>/v1/radar.json</code></dd>
 <dt>目录</dt><dd><code>/v1/games/index.json</code></dd>
 <dt>观察名单</dt><dd><code>/v1/watchlist.json</code> · <code>/v1/games/index.json</code> · <code>/v1/guides/index.json</code></dd>
+<dt>我的关注</dt><dd>浏览器 <code>localStorage</code>。分享用 <code>/me/?games=&amp;chars=</code> 或订阅码 <code>gi1.</code>。机器读 <code>GET /v1/personal</code>、<code>/v1/personal.atom</code>，MCP 工具 <code>personal_digest</code>。服务端不保存名单。</dd>
 <dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code>、别名、<code>banners.json</code> 与 <code>codes.json</code>。</dd>
 <dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，仅 hw / nikke / bd2。</dd>
 <dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>

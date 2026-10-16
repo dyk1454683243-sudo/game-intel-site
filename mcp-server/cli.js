@@ -36,6 +36,8 @@ Commands:
   ask --state TEXT | ask "STATE" [--game ID] [--with-digest]
   filter_morning | triage [--max N] [--gap-ms MS] [--keep-ask-dai] [--game ID]
     stdin JSON or internal digest+radar; jev-gate each candidate; stdout {kept,dropped,stats}
+  personal [--games id,id] [--chars game:id,game:id]
+    Stateless filter of published /v1 JSON. Stores nothing. No network.
 
 Examples:
   node mcp-server/cli.js digest --summarize --diff --only_new
@@ -43,6 +45,7 @@ Examples:
   node mcp-server/cli.js calendar --game hw --limit 15
   node mcp-server/cli.js guide --q 吉吉 --topic skills
   node mcp-server/cli.js list_guides --game hw
+  node mcp-server/cli.js personal --games bd2 --chars bd2:nevendaria
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js ask --state 'Horizon Walker 修女圣痕用什么 来源GameKee'
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js filter_morning --max 40
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js digest --summarize --diff --only_new | node mcp-server/cli.js triage --max 20
@@ -229,6 +232,14 @@ async function cmdFilterMorning(flags) {
   });
 }
 
+async function cmdPersonal(flags) {
+  const { personalFromPublic } = await import("./personal-public.js");
+  return personalFromPublic({
+    games: flags.games != null ? String(flags.games) : "",
+    chars: flags.chars != null ? String(flags.chars) : "",
+  });
+}
+
 async function main() {
   const flags = parseArgs(process.argv.slice(2));
   if (flags.help || flags._.length === 0) usage(flags.help ? 0 : 1);
@@ -259,6 +270,10 @@ async function main() {
     case "filter-morning":
     case "triage":
       result = await cmdFilterMorning(flags);
+      break;
+    case "personal":
+    case "personal_digest":
+      result = await cmdPersonal(flags);
       break;
     default:
       process.stderr.write(`unknown command: ${cmd}\n`);

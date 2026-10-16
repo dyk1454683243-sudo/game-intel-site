@@ -237,6 +237,9 @@ function writeHomePages(games, feed, asOf) {
 | \`/watchlist/\` | Human watchlist |
 | \`/game/?id=\` | Identity card. Non-deep games show 尚无深耕 |
 | \`/character/?game=&id=\` | Deep character card (hw, nikke, bd2 only) |
+| \`/me/\` | Personal follows. List stays in the browser |
+| \`/v1/personal\` | Stateless filter. Query games and chars. Stores nothing |
+| \`/v1/personal.atom\` | Atom for the same filter |
 | \`/games/index.html\` | Static game directory |
 | \`/games/{id}.html\` | Static game detail |
 | \`/v1/guides/index.json\` | Character guide coverage |
@@ -351,6 +354,21 @@ function openApiDoc() {
       "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
       "/v1/guides/{game}/banners.json": get("Current and recent banners for one game. Times and UP names stay with their source."),
       "/v1/guides/{game}/codes.json": get("Redeem codes with rewards, expiry, source, and checked date. Expired rows stay marked."),
+      "/v1/personal": get(
+        "Stateless personal digest. Query games (comma-separated ids) and chars (comma-separated game:id), or code=gi1.… . Filters published feed, digest, banners, and codes. Stores nothing.",
+        "#/components/schemas/Personal"
+      ),
+      "/v1/personal.atom": {
+        get: {
+          summary: "Atom feed for the same /v1/personal filter. Stores nothing.",
+          parameters: [
+            { name: "games", in: "query", schema: { type: "string" } },
+            { name: "chars", in: "query", schema: { type: "string" } },
+            { name: "code", in: "query", schema: { type: "string" } },
+          ],
+          responses: { "200": { description: "application/atom+xml" } },
+        },
+      },
     },
     components: {
       schemas: {
@@ -366,6 +384,7 @@ function openApiDoc() {
         GuidesIndex: { $ref: "/schema/guides-index.schema.json" },
         CharacterCard: { $ref: "/schema/character-card.schema.json" },
         Aliases: { $ref: "/schema/aliases.schema.json" },
+        Personal: { $ref: "/schema/personal.schema.json" },
       },
     },
   };

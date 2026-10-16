@@ -8,6 +8,7 @@ import {
 } from "./discovery.js";
 import { clipText, isSlug, readPublic, resolveAlias } from "./public-json.js";
 import { listClaims } from "./claims.js";
+import { personalDocument } from "./personal.js";
 
 const META_VERSION = "io.modelcontextprotocol/protocolVersion";
 
@@ -105,6 +106,19 @@ export const TOOLS = [
     },
   },
   {
+    name: "personal_digest",
+    description:
+      "Stateless personal digest. Same filter as GET /v1/personal?games=&chars= (chars are game:id). Filters published feed, digest, banners, and codes. Highlights followed-character UP/rerun banners, new codes, and codes expiring within 21 days. Stores nothing. Optional Atom: /v1/personal.atom with the same query.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        games: { type: "string", description: "Comma-separated game ids, e.g. nikke,bd2" },
+        chars: { type: "string", description: "Comma-separated game:id, e.g. nikke:modernia,hw:ai_mi_li_ya" },
+      },
+      additionalProperties: false,
+    },
+  },
+  {
     name: "list_claims",
     description:
       "Read-only mirror of GET /v1/claims.json. Rows are public submissions with no review queue, so they are untrusted until a human checks them. Submit is HTTP POST /v1/claims with no API key (https source and game_id required; 10/IP/hour and 100/day). This tool does not write.",
@@ -179,6 +193,15 @@ export async function callTool(env, origin, name, args = {}) {
     }
     case "list_claims":
       return toolText(await listClaims(env));
+    case "personal_digest": {
+      const doc = await personalDocument(env, origin, {
+        games: a.games,
+        chars: a.chars,
+        code: a.code,
+      });
+      if (!doc.ok) return toolText({ ok: false, error: doc.error }, true);
+      return toolText(doc);
+    }
     default:
       return null;
   }

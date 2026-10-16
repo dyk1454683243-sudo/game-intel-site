@@ -16,6 +16,9 @@
 | `/watchlist/` | Human watchlist |
 | `/game/?id=` | Identity card. Non-deep games show 尚无深耕 |
 | `/character/?game=&id=` | Deep character card (hw, nikke, bd2 only) |
+| `/me/` | Personal follows. List stays in the browser |
+| `/v1/personal` | Stateless filter. Query games and chars. Stores nothing |
+| `/v1/personal.atom` | Atom for the same filter |
 | `/games/index.html` | Static game directory |
 | `/games/{id}.html` | Static game detail |
 | `/v1/guides/index.json` | Character guide coverage |
