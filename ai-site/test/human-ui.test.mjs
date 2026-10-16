@@ -39,6 +39,7 @@ test("human shells point at the shared client", () => {
     "watchlist/index.html": "watchlist",
     "game/index.html": "game",
     "character/index.html": "character",
+    "me/index.html": "me",
     "for-ai/index.html": "for-ai",
     "claims/index.html": "claims",
   };
@@ -329,7 +330,7 @@ test("home renders digest and radar without turning radar into a catalog", () =>
 
 test("shared nav matches the site map and for-ai states the write path", () => {
   const frame = renderFrame("home", "<p>x</p>");
-  for (const href of ["/", "/catalog/", "/watchlist/", "/claims/", "/for-ai/"]) {
+  for (const href of ["/", "/catalog/", "/watchlist/", "/me/", "/claims/", "/for-ai/"]) {
     assert.match(frame, new RegExp(`href="${href.replaceAll("/", "\\/")}"`));
   }
   assert.match(frame, /观察名单/);
@@ -351,6 +352,9 @@ test("shared nav matches the site map and for-ai states the write path", () => {
   assert.match(ai, /\/v1\/games\/\{id\}\.json/);
   assert.match(ai, /\/v1\/guides\/\{game\}\/characters\/\{id\}\.json/);
   assert.match(ai, /GET \/v1\/claims\.json/);
+  assert.match(ai, /\/v1\/personal/);
+  assert.match(ai, /personal_digest/);
+  assert.match(ai, /localStorage/);
   assert.doesNotMatch(ai, /Bearer/);
   assert.match(ai, /href="\/sketches\/"/);
 
@@ -387,6 +391,9 @@ test("game page keeps identity, deep entry, and published news only", () => {
     guideIndex: { characters: [], character_count: 0 },
   });
   assert.match(hw, /sheet-deep/);
+  assert.match(hw, /关注这部游戏/);
+  assert.match(hw, /data-follow-kind="game"/);
+  assert.match(hw, /data-game="hw"/);
   assert.match(hw, /该游资讯/);
   assert.match(hw, /第二届近卫征集大赛/);
   assert.match(hw, /https:\/\/www\.gamekee\.com\/hw\/719925\.html/);
@@ -407,6 +414,9 @@ test("stub character cards stay visually distinct and do not invent a conclusion
   });
   assert.match(html, /sheet-stub/);
   assert.match(html, /depth-banner stub/);
+  assert.match(html, /关注这个角色/);
+  assert.match(html, /data-follow-kind="char"/);
+  assert.match(html, /data-id="placeholder"/);
   assert.match(html, /<h2>结论<\/h2>/);
   assert.match(html, /<h2>配队<\/h2>/);
   assert.match(html, /未见可靠出处/);

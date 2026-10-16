@@ -86,13 +86,15 @@ npm run preview
 
 人类界面（中文，浏览器读取已发布的 `/v1` JSON，无登录、无 CDK）。
 
-人从网页专区进，AI 从 MCP + `/v1` 进，读的是同一份已发布数据。主导航：首页、目录、观察名单、核对墙、给 AI。游戏页和角色卡从目录或观察名单进入。写卡仍是同一条路：填模板 → 校验（`sources[]` https + `as_of`，缺则拒）→ 可选审 → 发布 → 人读页与 `/v1` 同步。MCP 只读。新写走 `POST /v1/claims` 或现有导出管线。
+人从网页专区进，AI 从 MCP + `/v1` 进，读的是同一份已发布数据。主导航：首页、目录、观察名单、我的关注、核对墙、给 AI。游戏页和角色卡从目录或观察名单进入。写卡仍是同一条路：填模板 → 校验（`sources[]` https + `as_of`，缺则拒）→ 可选审 → 发布 → 人读页与 `/v1` 同步。MCP 只读。新写走 `POST /v1/claims` 或现有导出管线。
 
 - `/` 今日情报摘要，并进入观察名单和给 AI
 - `/catalog/` 轻目录（stub 身份卡）
 - `/watchlist/` 观察名单：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
 - `/game/?id=` 身份、深耕入口（仅 hw / nikke / bd2 有图鉴）、该游资讯
-- `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开
+- `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开。页上有「关注」
+- `/me/` 我的关注。关注列表在浏览器 `localStorage`，可用 `/me/?games=bd2&chars=bd2:nevendaria` 或 `gi1.` 订阅码导入。页面在本地过滤 feed、digest、`banners.json`、`codes.json`，标出关注角色的 UP / 复刻、近 45 天新码、21 天内到期的码。不上传名单
+- `/v1/personal?games=&chars=` 同一份过滤的无状态 JSON。`/v1/personal.atom` 是 Atom。MCP 工具 `personal_digest`。服务端不保存查询
 - `/claims/` 核对墙。`POST /v1/claims` 公开，不需要密钥（https `sources` 必填；`as_of` 会记下）。镜像条目在人工复核并导出前不可信
 - `/for-ai/` MCP URL、OpenAPI、`llms.txt`
 - 线框草图：`/sketches/`（首页、游戏页、角色卡）
@@ -262,7 +264,7 @@ npm run preview
 # http://127.0.0.1:8787/   e.g. /llms.txt , /v1/guides/index.json , /guides/hw/lysandria.html
 ```
 
-Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, claims wall, For AI. Game and character pages open from the catalog or watchlist. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that public `POST /v1/claims` needs no API key (https `sources` required; `as_of` is stored; mirror rows stay untrusted until a human review publishes through the existing export). `/for-ai/` lists the `/v1` path each human page reads. Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
+Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, my follows, claims wall, For AI. Game and character pages open from the catalog or watchlist and have a follow button. `/me/` filters feed, digest, banners, and codes from the browser's follow list (`localStorage`, or `/me/?games=&chars=`, or a `gi1.` code). `GET /v1/personal` and MCP `personal_digest` run that same stateless filter and store nothing. `/v1/personal.atom` is the Atom form. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that public `POST /v1/claims` needs no API key (https `sources` required; `as_of` is stored; mirror rows stay untrusted until a human review publishes through the existing export). `/for-ai/` lists the `/v1` path each human page reads. Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
 
 After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and an hw / nikke / bd2 card that lacks a conclusion row.
 

@@ -352,6 +352,58 @@ input, select {
   letter-spacing: 0;
 }
 ::placeholder { color: var(--muted); opacity: 1; }
+button.follow,
+button.action {
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+button.follow[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: transparent;
+  color: var(--accent-ink);
+}
+button.action {
+  background: var(--deep-bg);
+  color: var(--deep-ink);
+  border-color: transparent;
+}
+button.follow:hover,
+button.action:hover { filter: brightness(0.98); }
+.follow-row { margin: 0.15rem 0 0.7rem; }
+.follow-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.follow-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.3rem 0 0.8rem;
+}
+.follow-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+}
+details.expired { margin: 0.8rem 0 0.2rem; }
+details.expired summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 650;
+}
 .sheet form {
   background: color-mix(in srgb, var(--bg) 70%, var(--surface));
   box-shadow: none;
@@ -786,7 +838,7 @@ ol.steps li::before {
 }
 
 @media (forced-colors: active) {
-  .flag, .depth-banner, .tag, .top nav a[aria-current="page"], .zone, .card, .sheet {
+  .flag, .depth-banner, .tag, .top nav a[aria-current="page"], .zone, .card, .sheet, button.follow, button.action {
     border: 1px solid ButtonText;
   }
   .depth-banner.deep, .flag.deep, .top nav a[aria-current="page"], .sheet-deep, .card-deep {

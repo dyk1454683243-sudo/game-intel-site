@@ -12,15 +12,32 @@ import {
   renderFrame,
   renderGame,
   renderHome,
+  renderMe,
   renderWatchlist,
   safeId,
   shanghaiToday,
 } from "./render.js";
+import {
+  assemblePersonal,
+  importFollowText,
+  parseFollows,
+  toggleFollow,
+} from "./personal.js";
 
 const app = document.getElementById("app");
 const view = (document.body && document.body.dataset.view) || "home";
+const FOLLOW_KEY = "game-intel.follows.v1";
+const FOLLOW_ERRORS = {
+  bad_follow: "订阅里有无法识别的 id。只接受小写字母、数字、下划线和连字符。",
+  bad_code: "订阅码无法解析。",
+  too_many_games: "关注的游戏太多（最多 24 部）。",
+  too_many_chars: "关注的角色太多（最多 48 名）。",
+  empty: "先贴上订阅码、链接，或游戏 id。",
+};
 const cache = {};
+const published = {};
 let keepFocus = null;
+let meNote = "";
 
 function params() {
   return new URLSearchParams(location.search);
@@ -51,6 +68,11 @@ function paint(html, title) {
   keepFocus = null;
   app.innerHTML = renderFrame(view, html);
   if (title) document.title = title;
+  syncFollowButtons();
+  const shareUrl = document.getElementById("share-url");
+  if (shareUrl && shareUrl.value.startsWith("/")) {
+    shareUrl.value = new URL(shareUrl.value, location.origin).href;
+  }
   if (!prev || !prev.id) return;
   const el = document.getElementById(prev.id);
   if (!el) return;
@@ -62,6 +84,51 @@ function paint(html, title) {
       /* select elements have no caret */
     }
   }
+}
+
+function loadFollows() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(FOLLOW_KEY) || "null");
+    const parsed = parseFollows(raw && typeof raw === "object" ? raw : {});
+    return parsed.ok ? parsed.follows : { games: [], chars: [] };
+  } catch {
+    return { games: [], chars: [] };
+  }
+}
+
+function saveFollows(follows) {
+  try {
+    localStorage.setItem(
+      FOLLOW_KEY,
+      JSON.stringify({ v: 1, games: follows.games, chars: follows.chars })
+    );
+  } catch {
+    meNote = "这台浏览器拒绝写入本地名单。";
+  }
+}
+
+function syncFollowButtons() {
+  const follows = loadFollows();
+  for (const button of document.querySelectorAll("[data-follow-kind]")) {
+    const kind = button.dataset.followKind;
+    const on =
+      kind === "game"
+        ? follows.games.includes(button.dataset.game)
+        : follows.chars.some((row) => row.game === button.dataset.game && row.id === button.dataset.id);
+    button.setAttribute("aria-pressed", on ? "true" : "false");
+    if (button.closest("#main") && view === "me") continue;
+    button.textContent = kind === "game" ? (on ? "已关注这部游戏" : "关注这部游戏") : on ? "已关注这个角色" : "关注这个角色";
+  }
+}
+
+async function readPublished(pathname) {
+  if (Object.prototype.hasOwnProperty.call(published, pathname)) return published[pathname];
+  try {
+    published[pathname] = await getJson(pathname);
+  } catch {
+    published[pathname] = null;
+  }
+  return published[pathname];
 }
 
 function rememberFocus(target) {
@@ -203,7 +270,7 @@ async function showCharacter() {
     return;
   }
   if (!isDeep(game)) {
-    paint(renderCharacter(game, null), "尚无深耕 · game-intel");
+    paint(renderCharacter(game, null, { id }), "尚无深耕 · game-intel");
     return;
   }
   const card = await getJson(
@@ -214,6 +281,32 @@ async function showCharacter() {
 
 function showForAi() {
   paint(renderForAi(), "给 AI · game-intel");
+}
+
+async function showMe() {
+  const search = params();
+  let follows = loadFollows();
+  let imported = false;
+  const incoming = ["games", "chars", "code"].some((key) => String(search.get(key) || "").trim());
+  if (incoming) {
+    const parsed = parseFollows({
+      games: search.get("games") || "",
+      chars: search.get("chars") || "",
+      code: search.get("code") || "",
+    });
+    if (!parsed.ok) {
+      paint(renderError(FOLLOW_ERRORS[parsed.error] || "订阅无法导入"), "我的关注 · game-intel");
+      return;
+    }
+    follows = parsed.follows;
+    saveFollows(follows);
+    imported = true;
+    history.replaceState(null, "", "/me/");
+  }
+  const doc = await assemblePersonal(follows, readPublished, shanghaiToday());
+  const note = meNote;
+  meNote = "";
+  paint(renderMe(doc, { imported, note }), "我的关注 · game-intel");
 }
 
 async function showClaims() {
@@ -263,6 +356,7 @@ async function boot() {
     else if (view === "watchlist") await showWatchlist();
     else if (view === "game") await showGame();
     else if (view === "character") await showCharacter();
+    else if (view === "me") await showMe();
     else if (view === "for-ai") showForAi();
     else if (view === "claims") await showClaims();
     else paint(renderError("未知页面"));
@@ -271,10 +365,99 @@ async function boot() {
   }
 }
 
+function setFollowStatus(message) {
+  const el = document.getElementById("follow-status");
+  if (el) {
+    el.textContent = message;
+    return;
+  }
+  let note = document.getElementById("follow-toast");
+  if (!note) {
+    note = document.createElement("p");
+    note.id = "follow-toast";
+    note.className = "meta";
+    note.setAttribute("role", "status");
+    const main = document.getElementById("main");
+    if (main) main.prepend(note);
+  }
+  note.textContent = message;
+}
+
+async function onFollowClick(button) {
+  try {
+    await followClick(button);
+  } catch (error) {
+    setFollowStatus(error.message || "没能更新关注。");
+  }
+}
+
+async function followClick(button) {
+  const action = button.dataset.followAction;
+  if (action === "copy-url" || action === "copy-code") {
+    const el = document.getElementById(action === "copy-url" ? "share-url" : "share-code");
+    const value = el ? el.value : "";
+    if (!value || value === "/me/") {
+      setFollowStatus("名单是空的。先关注一部游戏或一个角色。");
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(value);
+      setFollowStatus("已复制。打开链接的人会导入这份名单，服务端不保存。");
+    } catch {
+      if (el) {
+        el.focus();
+        el.select();
+      }
+      setFollowStatus("无法自动复制，内容已选中。");
+    }
+    return;
+  }
+  if (action === "clear") {
+    saveFollows({ games: [], chars: [] });
+    meNote = "已清空这台浏览器里的关注。";
+    await showMe();
+    return;
+  }
+  const kind = button.dataset.followKind;
+  if (!kind) return;
+  const toggled = toggleFollow(loadFollows(), kind, button.dataset.game, button.dataset.id);
+  if (!toggled.ok) {
+    setFollowStatus(FOLLOW_ERRORS[toggled.error] || "没能更新关注。");
+    return;
+  }
+  saveFollows(toggled.follows);
+  if (view === "me") {
+    meNote = kind === "game" ? "已更新关注的游戏。" : "已更新关注的角色。";
+    await showMe();
+    return;
+  }
+  syncFollowButtons();
+}
+
+async function onFollowImport(form) {
+  const raw = String(new FormData(form).get("code") || "");
+  const parsed = importFollowText(raw);
+  if (!parsed.ok) {
+    setFollowStatus(FOLLOW_ERRORS[parsed.error] || "没能导入。");
+    return;
+  }
+  saveFollows(parsed.follows);
+  meNote = "已导入。名单只保存在这台浏览器。";
+  await showMe();
+}
+
 document.addEventListener("input", onFilter);
 document.addEventListener("change", onFilter);
+document.addEventListener("click", (event) => {
+  const button = event.target && event.target.closest && event.target.closest("[data-follow-kind], [data-follow-action]");
+  if (!button || button.type === "submit") return;
+  event.preventDefault();
+  onFollowClick(button);
+});
 document.addEventListener("submit", (event) => {
-  if (event.target && event.target.id === "filters") event.preventDefault();
+  if (!event.target) return;
+  if (event.target.id === "filters" || event.target.id === "follow-import") event.preventDefault();
+  if (event.target.id === "follow-import") onFollowImport(event.target);
 });
 
 boot();
