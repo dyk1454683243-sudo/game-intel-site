@@ -33,12 +33,17 @@
   "weapon": "铁腕裁决",
   "element": "燃烧",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Fire · New Firey Duo In Town：小美人鱼 / 皇冠 / QUEEN（真） / 雪子 / Privaty (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/queen-makoto",
     "https://www.gamekee.com/nikke/716926.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/queen-makoto/"
+    "https://nikke.gg/characters/queen-makoto/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

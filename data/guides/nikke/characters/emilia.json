@@ -35,12 +35,19 @@
   "weapon": "冰结的气息",
   "element": "水冷",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Send in the Black Hawk：Moran (Treasure) / 特蕾娜 / Privaty (Treasure) / 爱蜜莉雅 / Helm (Treasure)（https://www.prydwen.gg/nikke/characters/privaty-treasure ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Absolute Vesti：诺雅 / 银华：战术升级 / 贝斯蒂：战术升级 / 艾玛：战术升级 / 爱蜜莉雅（https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/emilia",
     "https://www.gamekee.com/nikke/618503.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/emilia/"
+    "https://nikke.gg/characters/emilia/",
+    "https://www.prydwen.gg/nikke/characters/privaty-treasure",
+    "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
   ],
   "stub": false,
   "as_of": "2026-09-28",

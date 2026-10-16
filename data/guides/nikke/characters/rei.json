@@ -30,11 +30,16 @@
   "weapon": "SMG",
   "element": "Water",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Water · Water Combat Team：普丽瓦蒂 / 吉萝婷：寒冬杀手 / 潘托姆 / 坎西：逃生女王 / Rei（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rei",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rei/"
+    "https://nikke.gg/characters/rei/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -35,12 +35,18 @@
   "weapon": "突击式轻型步枪",
   "element": "燃烧",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Campaign · Fire · Blaze-ing Through Campaign ft. Asulice (Rapi as B1)：皇冠 / 明日香 / 爱丽丝 / 拉毗：小红帽 / Helm (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Campaign · Fire · Blaze-ing Through Campaign ft. Asupi (CDR Variant)：皇冠 / 明日香 / 小美人鱼 / 拉毗：小红帽 / Helm (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley",
     "https://www.gamekee.com/nikke/171662.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/asuka/"
+    "https://nikke.gg/characters/asuka/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

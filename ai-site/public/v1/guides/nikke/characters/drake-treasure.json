@@ -32,11 +32,18 @@
   "weapon": "SG",
   "element": "Fire",
   "manufacturer": "Missilis",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Iron · Rock Iron Sugar：Tove (Treasure) / 阿尔卡娜：命运伴侣 / 索达：闪亮兔女郎 / Sugar (Treasure) / Drake (Treasure)（https://www.prydwen.gg/nikke/characters/sugar-treasure ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Shotgun Dance Crew：娜由塔 / 阿妮斯：超级巨星 / 索达：闪亮兔女郎 / 诺亚尔 / Drake (Treasure)（https://www.prydwen.gg/nikke/characters/anis-star ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/drake-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/drake/?treasure=true"
+    "https://nikke.gg/characters/drake/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/sugar-treasure",
+    "https://www.prydwen.gg/nikke/characters/anis-star"
   ],
   "stub": false,
   "as_of": "2026-09-28",

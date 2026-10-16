@@ -32,12 +32,17 @@
   "weapon": "穷凶极恶",
   "element": "电击",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Tactical Label：马斯特 / 艾玛：战术升级 / 银华：战术升级 / 贝斯蒂：战术升级 / 蕾贝儿（https://www.prydwen.gg/nikke/characters/label ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mast",
     "https://www.gamekee.com/nikke/594772.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/mast/"
+    "https://nikke.gg/characters/mast/",
+    "https://www.prydwen.gg/nikke/characters/label"
   ],
   "stub": false,
   "as_of": "2026-09-28",

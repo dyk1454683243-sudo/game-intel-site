@@ -28,13 +28,19 @@
       "skill": "圣殿祈祷"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · General Purpose (with SP Recovery)：厄尔比斯 / 海伦娜 / 莱维亚 / 罗安 / 卢克雷齐亚（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · General Purpose (High Crit Rate)：厄尔比斯 / 海伦娜 / 泰瑞丝 / 莱维亚 / 罗安（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/zsca2/619702.html",
     "https://www.gamekee.com/zsca2/614967.html",
     "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
     "https://www.gamekee.com/zsca2/600417.html",
-    "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation"
+    "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-10-01",

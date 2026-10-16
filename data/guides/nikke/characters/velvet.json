@@ -33,12 +33,19 @@
   "weapon": "蛇蝎美人",
   "element": "风压",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Nikke.gg Meta · raid · 30d · 22名指挥官 · 占比0.4%：小美人鱼 / 娜由塔 / 薇尔维特 / 红莲：暗影 / 莉贝雷利奥（https://nikke.gg/meta/ ，as_of 2026-10-16）",
+      "Prydwen · Anomaly - Kraken · Wind · Mermaid Enjoyer：薇尔维特 / 鲁德米拉：冬日之主 / 小美人鱼 / Privaty (Treasure) / 皇冠（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/velvet",
     "https://www.gamekee.com/nikke/691899.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/velvet/"
+    "https://nikke.gg/characters/velvet/",
+    "https://nikke.gg/meta/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

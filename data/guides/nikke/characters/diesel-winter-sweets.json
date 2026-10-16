@@ -33,12 +33,18 @@
   "weapon": "蜜糖轨道",
   "element": "燃烧",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Fire · ATK buffs for the Fire Queens：阿妮斯：超级巨星 / 布丽德：静默轨道 / 米哈拉：羁绊锁链 / 迪塞尔：冬日甜心 / 马斯特：浪漫的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Fire · Double Fire 2：小美人鱼 / 布丽德：静默轨道 / Helm (Treasure) / 迪塞尔：冬日甜心 / 米哈拉：羁绊锁链（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
     "https://www.gamekee.com/nikke/684848.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/diesel-winter-sweets/"
+    "https://nikke.gg/characters/diesel-winter-sweets/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

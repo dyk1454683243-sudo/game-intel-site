@@ -47,9 +47,14 @@
     ]
   },
   "weapon": "SS4-修改型",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "金佳映自身缺乏高额的基础攻击力加成、穿刺强化与穿刺破防，而这些短板在配合人权辅助阿岚时被完美抹平：金佳映 / 阿岚（https://www.gamekee.com/hw/686447.html ，as_of 2026-10-08）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/hw/634503.html"
+    "https://www.gamekee.com/hw/634503.html",
+    "https://www.gamekee.com/hw/686447.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

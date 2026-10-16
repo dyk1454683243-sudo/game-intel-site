@@ -33,12 +33,19 @@
   "weapon": "/",
   "element": "风压",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Wind · Kosmiu Wind Team：红莲：暗影 / 吉尔提 / 诺雅 / D / 安妮：奇迹仙女（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Lapluh - PvP Defense I：诺雅 / 索达 / 拉普拉斯：究极英雄 / Centi (Treasure) / 白雪公主：重型武装（https://www.prydwen.gg/nikke/characters/centi-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/noah",
     "https://www.gamekee.com/nikke/152340.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/noah/"
+    "https://nikke.gg/characters/noah/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/centi-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

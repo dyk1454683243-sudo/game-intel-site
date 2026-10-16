@@ -38,11 +38,17 @@
   "weapon": "MG",
   "element": "Fire",
   "manufacturer": "Pilgrim",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Combat Team #1：Modernia / 莉贝雷利奥 / 桑迪 / 索达 / 露姬（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Campaign · All · One-Nikke-Army-Modernia：N102 / 阿妮斯 / 爱丽丝 / 普丽瓦蒂 / Modernia（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/modernia",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/modernia/"
+    "https://nikke.gg/characters/modernia/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

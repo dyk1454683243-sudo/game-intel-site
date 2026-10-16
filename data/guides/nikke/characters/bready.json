@@ -33,12 +33,18 @@
   "weapon": "品尝美味",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - Maids: Rampage of Bread：阿妮斯：超级巨星 / Phantom (Treasure) / 安克：天真的女仆 / 马斯特：浪漫的女仆 / 布蕾德（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Anomaly - Harvester · Water · Snow White went wandering：皇冠 / 阿妮斯：超级巨星 / 布蕾德 / 莉贝雷利奥 / 马斯特：浪漫的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/bready",
     "https://www.gamekee.com/nikke/156441.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/bready/"
+    "https://nikke.gg/characters/bready/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

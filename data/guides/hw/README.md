@@ -21,4 +21,4 @@ Character cards from GameKee (`game-alias: hw`).
 | `training` | 特殊训练场 |
 | `comp` | verbatim 配队 sentences from that table's 简评, a character 测评「配队」section, or the 图鉴抽取建议 when it names a team |
 
-`√` / `×` are the table marks. The page calls them 使用推荐度; `×` does not mean the mode is impossible. Leave `teams` `{}` when no source states a mode or a team. `hw/641248` says 请不要参考 and is not copied.
+`√` / `×` are the table marks. The page calls them 使用推荐度; `×` does not mean the mode is impossible. Leave `teams` `{}` when no source states a mode or a team. `hw/641248` says 请不要参考 and is not copied. A `comp` line may also be a 测评 sentence that names a partner already on a card, with that page's URL and `as_of`. Existing `teams` are left in place.

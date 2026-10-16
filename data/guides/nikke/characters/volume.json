@@ -32,12 +32,17 @@
   "weapon": "最大音量",
   "element": "风压",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · All · Summer Solstice：沃纶姆 / 罗珊娜：高雅海洋 / 樱花：夏日绽放 / Helm (Treasure) / Modernia（https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/volume",
     "https://www.gamekee.com/nikke/163876.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/volume/"
+    "https://nikke.gg/characters/volume/",
+    "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean"
   ],
   "stub": false,
   "as_of": "2026-09-28",

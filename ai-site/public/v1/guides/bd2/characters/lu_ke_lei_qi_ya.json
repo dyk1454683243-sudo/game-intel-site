@@ -35,9 +35,15 @@
       "skill": "魅惑之手"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Gamependium · General Purpose (with SP Recovery)：厄尔比斯 / 海伦娜 / 莱维亚 / 罗安 / 卢克雷齐亚（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）",
+      "Gamependium · SP Hungry Magic：海伦娜 / 泰瑞丝 / 卢克雷齐亚 / 莱维亚 / 墨菲亚（http://cymmina.gamependium.com/browndust2/teams.html ，as_of 2026-08-21）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593653.html"
+    "https://www.gamekee.com/zsca2/593653.html",
+    "http://cymmina.gamependium.com/browndust2/teams.html"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -36,12 +36,18 @@
   "weapon": "雪地救星",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Black Smith · Water · Standard Water team - BS：拉毗：小红帽 / 皇冠 / Helm (Treasure) / 鲁德米拉：冬日之主 / 伊莱格：BOOM与惊吓（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Anomaly - Kraken · Wind · Mermaid Enjoyer：薇尔维特 / 鲁德米拉：冬日之主 / 小美人鱼 / Privaty (Treasure) / 皇冠（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/ludmilla-winter-owner",
     "https://www.gamekee.com/nikke/607550.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/ludmilla-winter-owner/"
+    "https://nikke.gg/characters/ludmilla-winter-owner/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

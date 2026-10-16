@@ -33,12 +33,18 @@
   "weapon": "2.0版无人机",
   "element": "铁甲",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Ultra · Iron · Cinderella - Ultra：小美人鱼 / 马斯特：浪漫的女仆 / 灰姑娘：琉璃波光 / 伊芙 / 安克：天真的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Iron · Iron Multi T1：小美人鱼 / 皇冠 / 灰姑娘：琉璃波光 / 伊芙 / 马斯特：浪漫的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/eve",
     "https://www.gamekee.com/nikke/667586.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/eve/"
+    "https://nikke.gg/characters/eve/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

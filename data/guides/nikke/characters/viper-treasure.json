@@ -33,11 +33,18 @@
   "weapon": "SG",
   "element": "Water",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · SR Boss w/o core：拉毗：小红帽 / Viper (Treasure) / Phantom (Treasure) / 吉萝婷：寒冬杀手 / 爱德：特务兔女郎（https://www.prydwen.gg/nikke/characters/phantom-treasure ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Run It Down ft. 5 SGs：Drake (Treasure) / 舒格 / 诺亚尔 / 索达：闪亮兔女郎 / Viper (Treasure)（https://www.prydwen.gg/nikke/characters/drake-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/viper-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/viper/?treasure=true"
+    "https://nikke.gg/characters/viper/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/phantom-treasure",
+    "https://www.prydwen.gg/nikke/characters/drake-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

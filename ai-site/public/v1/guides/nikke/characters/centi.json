@@ -32,12 +32,18 @@
   "weapon": "发射器",
   "element": "铁甲",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Combat Team #1：Modernia / 莉贝雷利奥 / 桑迪 / 索达 / 露姬（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · 2 RL Instant Nuke：红莲 / 特蕾娜 / 小红帽 / 豺狼 / 桑迪（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/centi",
     "https://www.gamekee.com/nikke/163877.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/centi/"
+    "https://nikke.gg/characters/centi/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

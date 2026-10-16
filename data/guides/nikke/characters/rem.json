@@ -33,12 +33,18 @@
   "weapon": "鬼之全力",
   "element": "水冷",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Water · Kosmiu Water Team：坎西：逃生女王 / 鲁德米拉：冬日之主 / 吉萝婷：寒冬杀手 / 普丽瓦蒂 / 雷姆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Bossing · Water · The WaterWorks Squad：桃乐丝 / 雷姆 / 爱蜜莉雅 / 鲁德米拉：冬日之主 / 普丽瓦蒂（https://www.prydwen.gg/nikke/characters/rem ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rem",
     "https://www.gamekee.com/nikke/618507.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rem/"
+    "https://nikke.gg/characters/rem/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

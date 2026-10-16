@@ -33,12 +33,18 @@
   "weapon": "阴郁心绪",
   "element": "铁甲",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Snow Crane PVP team：白鹤 / 饼干 / 蕾贝儿 / 白雪公主：重型武装 / Helm (Treasure)（https://www.prydwen.gg/nikke/characters/snow-crane ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Wind · Siren Hypercarry (No Crown)：蕾贝儿 / 薇尔维特 / Helm (Treasure) / 鲁德米拉：冬日之主 / 小美人鱼（https://www.prydwen.gg/nikke/characters/label ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/label",
     "https://www.gamekee.com/nikke/690252.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/label/"
+    "https://nikke.gg/characters/label/",
+    "https://www.prydwen.gg/nikke/characters/snow-crane"
   ],
   "stub": false,
   "as_of": "2026-09-28",

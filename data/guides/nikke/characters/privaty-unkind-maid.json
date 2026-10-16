@@ -35,12 +35,18 @@
   "weapon": "野蛮情人",
   "element": "电击",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · 3RL - Nuke Assist：普丽瓦蒂：不友善的女仆 / 布兰儿 / Drake (Treasure) / 小红帽 / 豺狼（https://www.prydwen.gg/nikke/characters/drake-treasure ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Deceptive Rosanna Team：普丽瓦蒂：不友善的女仆 / Drake (Treasure) / 罗珊娜 / 安妮：奇迹仙女 / 桑迪（https://www.prydwen.gg/nikke/characters/privaty-unkind-maid ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
     "https://www.gamekee.com/nikke/614623.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/privaty-unkind-maid/"
+    "https://nikke.gg/characters/privaty-unkind-maid/",
+    "https://www.prydwen.gg/nikke/characters/drake-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

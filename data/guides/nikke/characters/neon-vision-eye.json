@@ -33,12 +33,18 @@
   "weapon": "万物破坏者",
   "element": "电击",
   "manufacturer": "米西利斯（超标准）",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Nikke.gg Meta · raid · 30d · 41名指挥官 · 占比0.8%：阿妮斯：超级巨星 / 皇冠 / 海伦 / 拉毗：小红帽 / 尼恩：透视之眼（https://nikke.gg/meta/ ，as_of 2026-10-16）",
+      "Nikke.gg Meta · raid · 30d · 35名指挥官 · 占比0.7%：阿妮斯：超级巨星 / 皇冠 / 拉毗：小红帽 / 白雪公主：重型武装 / 尼恩：透视之眼（https://nikke.gg/meta/ ，as_of 2026-10-16）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
     "https://www.gamekee.com/nikke/703513.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/neon-vision-eye/"
+    "https://nikke.gg/characters/neon-vision-eye/",
+    "https://nikke.gg/meta/"
   ],
   "stub": false,
   "as_of": "2026-09-28",

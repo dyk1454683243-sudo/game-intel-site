@@ -32,12 +32,17 @@
   "weapon": "/",
   "element": "水冷",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · Water · Neve SG team：托比 / 莱昂纳 / 索达：闪亮兔女郎 / Drake (Treasure) / 尼夫（https://www.prydwen.gg/nikke/characters/leona ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/neve",
     "https://www.gamekee.com/nikke/578202.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/neve/"
+    "https://nikke.gg/characters/neve/",
+    "https://www.prydwen.gg/nikke/characters/leona"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -37,12 +37,18 @@
   "weapon": "大规模歼灭专用机枪",
   "element": "风压",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Anomaly - Kraken · Wind · Missing the great swordwoman?：皇冠 / 阿妮斯：超级巨星 / 莉贝雷利奥 / 明日香：WILLE / 马斯特：浪漫的女仆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Wind · Triple Hit T2 Wind：小美人鱼 / 皇冠 / 明日香：WILLE / 零 (暂称) / Privaty (Treasure)（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley-wille",
     "https://www.gamekee.com/nikke/156668.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/asuka-wille/"
+    "https://nikke.gg/characters/asuka-wille/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

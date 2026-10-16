@@ -2,12 +2,16 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "timezone": "Asia/Shanghai",
   "character_count": 233,
   "rich_count": 233,
   "stub_count": 0,
   "conclusion_stub_count": 3,
+  "links": {
+    "banners": "/v1/guides/nikke/banners.json",
+    "codes": "/v1/guides/nikke/codes.json"
+  },
   "characters": [
     {
       "id": "2b",
@@ -206,7 +210,8 @@
         "https://www.prydwen.gg/nikke/characters/aqua-marine-helm",
         "https://www.gamekee.com/nikke/597433.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/helm-aquamarine/"
+        "https://nikke.gg/characters/helm-aquamarine/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/947173.png"
     },
@@ -275,7 +280,8 @@
         "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley",
         "https://www.gamekee.com/nikke/171662.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/asuka/"
+        "https://nikke.gg/characters/asuka/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/969221.png"
     },
@@ -288,7 +294,8 @@
         "https://www.prydwen.gg/nikke/characters/asuka-shikinami-langley-wille",
         "https://www.gamekee.com/nikke/156668.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/asuka-wille/"
+        "https://nikke.gg/characters/asuka-wille/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/368055.png"
     },
@@ -327,7 +334,9 @@
         "https://www.prydwen.gg/nikke/characters/bay-goddess-mary",
         "https://www.gamekee.com/nikke/593038.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/mary-bay-goddess/"
+        "https://nikke.gg/characters/mary-bay-goddess/",
+        "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
+        "https://www.prydwen.gg/nikke/characters/phantom"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/5/16/499321.png"
     },
@@ -339,7 +348,9 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/bay-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/bay/?treasure=true"
+        "https://nikke.gg/characters/bay/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/anis-star",
+        "https://www.prydwen.gg/nikke/characters/dorothy-serendipity"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/bay-treasure.webp"
     },
@@ -383,7 +394,9 @@
         "https://www.prydwen.gg/nikke/characters/biscuit",
         "https://www.gamekee.com/nikke/584520.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/biscuit/"
+        "https://nikke.gg/characters/biscuit/",
+        "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
+        "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/1/23/822522.png"
     },
@@ -423,7 +436,8 @@
         "https://www.prydwen.gg/nikke/characters/bready",
         "https://www.gamekee.com/nikke/156441.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/bready/"
+        "https://nikke.gg/characters/bready/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/31/701752.png"
     },
@@ -450,7 +464,8 @@
         "https://www.prydwen.gg/nikke/characters/brid-silent-track",
         "https://www.gamekee.com/nikke/685270.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/brid-silent-track/"
+        "https://nikke.gg/characters/brid-silent-track/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/11/65222.png"
     },
@@ -463,7 +478,8 @@
         "https://www.prydwen.gg/nikke/characters/centi",
         "https://www.gamekee.com/nikke/163877.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/centi/"
+        "https://nikke.gg/characters/centi/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/6236.png"
     },
@@ -475,7 +491,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/centi-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/centi/?treasure=true"
+        "https://nikke.gg/characters/centi/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/centi-treasure.webp"
     },
@@ -501,7 +518,9 @@
         "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
         "https://www.gamekee.com/nikke/693503.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/chisato/"
+        "https://nikke.gg/characters/chisato/",
+        "https://www.prydwen.gg/nikke/characters/centi-treasure",
+        "https://www.prydwen.gg/nikke/characters/flora-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/12/651534.png"
     },
@@ -555,7 +574,8 @@
         "https://www.prydwen.gg/nikke/characters/clay",
         "https://www.gamekee.com/nikke/624298.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/clay/"
+        "https://nikke.gg/characters/clay/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/24/235196.png"
     },
@@ -609,7 +629,8 @@
         "https://www.prydwen.gg/nikke/characters/crust",
         "https://www.gamekee.com/nikke/656124.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/crust/"
+        "https://nikke.gg/characters/crust/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/3/17/185020.png"
     },
@@ -622,7 +643,8 @@
         "https://www.prydwen.gg/nikke/characters/d",
         "https://www.gamekee.com/nikke/588547.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/d/"
+        "https://nikke.gg/characters/d/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/3/13/439758.png"
     },
@@ -690,7 +712,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/diesel-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/diesel/?treasure=true"
+        "https://nikke.gg/characters/diesel/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/d-killer-wife"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/diesel-treasure.webp"
     },
@@ -703,7 +726,8 @@
         "https://www.prydwen.gg/nikke/characters/diesel-winter-sweets",
         "https://www.gamekee.com/nikke/684848.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/diesel-winter-sweets/"
+        "https://nikke.gg/characters/diesel-winter-sweets/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/5/17667.png"
     },
@@ -716,7 +740,8 @@
         "https://www.prydwen.gg/nikke/characters/dolla",
         "https://www.gamekee.com/nikke/170853.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/dolla/"
+        "https://nikke.gg/characters/dolla/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/308653.png"
     },
@@ -771,7 +796,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/drake-great-villain",
         "https://www.gamekee.com/nikke/719742.html",
-        "https://www.gamekee.com/nikke/719599.html"
+        "https://www.gamekee.com/nikke/719599.html",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/3/05857786mtlchmr3.png"
     },
@@ -783,7 +809,9 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/drake-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/drake/?treasure=true"
+        "https://nikke.gg/characters/drake/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/sugar-treasure",
+        "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/drake-treasure.webp"
     },
@@ -809,7 +837,8 @@
         "https://www.prydwen.gg/nikke/characters/ein",
         "https://www.gamekee.com/nikke/590070.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/ein/"
+        "https://nikke.gg/characters/ein/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/29/838398.png"
     },
@@ -836,7 +865,8 @@
         "https://www.prydwen.gg/nikke/characters/elegg-boom-and-shock",
         "https://www.gamekee.com/nikke/671513.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/elegg-boom-and-shock/"
+        "https://nikke.gg/characters/elegg-boom-and-shock/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/24/259858.png"
     },
@@ -849,7 +879,9 @@
         "https://www.prydwen.gg/nikke/characters/emilia",
         "https://www.gamekee.com/nikke/618503.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/emilia/"
+        "https://nikke.gg/characters/emilia/",
+        "https://www.prydwen.gg/nikke/characters/privaty-treasure",
+        "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/537729.png"
     },
@@ -890,7 +922,8 @@
         "https://www.prydwen.gg/nikke/characters/epinel",
         "https://www.gamekee.com/nikke/152334.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/epinel/"
+        "https://nikke.gg/characters/epinel/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/921049.png"
     },
@@ -943,7 +976,8 @@
         "https://www.prydwen.gg/nikke/characters/eve",
         "https://www.gamekee.com/nikke/667586.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/eve/"
+        "https://nikke.gg/characters/eve/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/386431.png"
     },
@@ -956,7 +990,8 @@
         "https://www.prydwen.gg/nikke/characters/exia",
         "https://www.gamekee.com/nikke/92089.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/exia/"
+        "https://nikke.gg/characters/exia/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/790186.png"
     },
@@ -968,7 +1003,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/exia-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/exia/?treasure=true"
+        "https://nikke.gg/characters/exia/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/ein"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/exia-treasure.webp"
     },
@@ -981,7 +1017,8 @@
         "https://www.prydwen.gg/nikke/characters/flora",
         "https://www.gamekee.com/nikke/170646.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/flora/"
+        "https://nikke.gg/characters/flora/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/25/116606.png"
     },
@@ -1032,7 +1069,9 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/frima-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/frima/?treasure=true"
+        "https://nikke.gg/characters/frima/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
+        "https://www.prydwen.gg/nikke/characters/ein"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/frima-treasure.webp"
     },
@@ -1059,7 +1098,8 @@
         "https://www.prydwen.gg/nikke/characters/guillotine",
         "https://www.gamekee.com/nikke/152333.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/guillotine/"
+        "https://nikke.gg/characters/guillotine/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/114608.png"
     },
@@ -1072,7 +1112,8 @@
         "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
         "https://www.gamekee.com/nikke/166801.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/guillotine-winter-slayer/"
+        "https://nikke.gg/characters/guillotine-winter-slayer/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/298329.png"
     },
@@ -1085,7 +1126,8 @@
         "https://www.prydwen.gg/nikke/characters/guilty",
         "https://www.gamekee.com/nikke/580946.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/guilty/"
+        "https://nikke.gg/characters/guilty/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/3316.png"
     },
@@ -1098,7 +1140,8 @@
         "https://www.gamekee.com/nikke/721421.html",
         "https://www.gamekee.com/nikke/721179.html",
         "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
-        "https://nikke.gg/tier-list/"
+        "https://nikke.gg/tier-list/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png"
     },
@@ -1231,7 +1274,9 @@
         "https://www.prydwen.gg/nikke/characters/jackal",
         "https://www.gamekee.com/nikke/580711.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/jackal/"
+        "https://nikke.gg/characters/jackal/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/9/653492.png"
     },
@@ -1292,7 +1337,8 @@
         "https://www.prydwen.gg/nikke/characters/k",
         "https://www.gamekee.com/nikke/664885.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/k/"
+        "https://nikke.gg/characters/k/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/3/123982.png"
     },
@@ -1343,7 +1389,8 @@
         "https://www.prydwen.gg/nikke/characters/label",
         "https://www.gamekee.com/nikke/690252.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/label/"
+        "https://nikke.gg/characters/label/",
+        "https://www.prydwen.gg/nikke/characters/snow-crane"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/16/618292.png"
     },
@@ -1368,7 +1415,9 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/laplace-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/laplace/?treasure=true"
+        "https://nikke.gg/characters/laplace/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/laplace-treasure.webp"
     },
@@ -1381,7 +1430,9 @@
         "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
         "https://www.gamekee.com/nikke/713891.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/laplace-ultimate-hero/"
+        "https://nikke.gg/characters/laplace-ultimate-hero/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/76919549mrylbcnv.png"
     },
@@ -1475,7 +1526,8 @@
         "https://www.prydwen.gg/nikke/characters/ludmilla-winter-owner",
         "https://www.gamekee.com/nikke/607550.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/ludmilla-winter-owner/"
+        "https://nikke.gg/characters/ludmilla-winter-owner/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/11/11/998853.png"
     },
@@ -1488,7 +1540,8 @@
         "https://www.prydwen.gg/nikke/characters/maiden",
         "https://www.gamekee.com/nikke/170842.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/maiden/"
+        "https://nikke.gg/characters/maiden/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/750510.png"
     },
@@ -1501,7 +1554,8 @@
         "https://www.prydwen.gg/nikke/characters/maiden-ice-rose",
         "https://www.gamekee.com/nikke/167401.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/maiden-ice-rose/"
+        "https://nikke.gg/characters/maiden-ice-rose/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/305462.png"
     },
@@ -1514,7 +1568,8 @@
         "https://www.prydwen.gg/nikke/characters/makima",
         "https://www.gamekee.com/nikke/584401.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/makima/"
+        "https://nikke.gg/characters/makima/",
+        "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/1/23/123381.png"
     },
@@ -1527,7 +1582,9 @@
         "https://www.prydwen.gg/nikke/characters/mana",
         "https://www.gamekee.com/nikke/159658.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/mana/"
+        "https://nikke.gg/characters/mana/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/0/17/919940.png"
     },
@@ -1554,7 +1611,8 @@
         "https://www.prydwen.gg/nikke/characters/marciana-marine-study",
         "https://www.gamekee.com/nikke/711739.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/marciana-marine-study/"
+        "https://nikke.gg/characters/marciana-marine-study/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/7/93309727mraf1s67.png"
     },
@@ -1580,7 +1638,8 @@
         "https://www.prydwen.gg/nikke/characters/mary",
         "https://www.gamekee.com/nikke/152343.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/mary/"
+        "https://nikke.gg/characters/mary/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/567788.png"
     },
@@ -1593,7 +1652,8 @@
         "https://www.prydwen.gg/nikke/characters/mast",
         "https://www.gamekee.com/nikke/594772.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/mast/"
+        "https://nikke.gg/characters/mast/",
+        "https://www.prydwen.gg/nikke/characters/label"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/13/724288.png"
     },
@@ -1635,7 +1695,9 @@
         "https://www.prydwen.gg/nikke/characters/maxwell-ordinary-mechanic",
         "https://www.gamekee.com/nikke/713899.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/maxwell-ordinary-mechanic/"
+        "https://nikke.gg/characters/maxwell-ordinary-mechanic/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/93435910mrylbg14.png"
     },
@@ -1754,7 +1816,9 @@
         "https://www.prydwen.gg/nikke/characters/miracle-fairy-anne",
         "https://www.gamekee.com/nikke/578097.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/anne-miracle-fairy/"
+        "https://nikke.gg/characters/anne-miracle-fairy/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/291028.png"
     },
@@ -1817,7 +1881,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/modernia",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/modernia/"
+        "https://nikke.gg/characters/modernia/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/modernia.webp"
     },
@@ -1843,7 +1908,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/moran-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/moran/?treasure=true"
+        "https://nikke.gg/characters/moran/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/moran-treasure.webp"
     },
@@ -1868,7 +1934,8 @@
         "https://www.prydwen.gg/nikke/characters/n102",
         "https://www.gamekee.com/nikke/152351.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/n102/"
+        "https://nikke.gg/characters/n102/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/932460.png"
     },
@@ -1925,7 +1992,8 @@
         "https://www.prydwen.gg/nikke/characters/neon-vision-eye",
         "https://www.gamekee.com/nikke/703513.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/neon-vision-eye/"
+        "https://nikke.gg/characters/neon-vision-eye/",
+        "https://nikke.gg/meta/"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/29/468730.png"
     },
@@ -1938,7 +2006,8 @@
         "https://www.prydwen.gg/nikke/characters/nero",
         "https://www.gamekee.com/nikke/594767.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/nero/"
+        "https://nikke.gg/characters/nero/",
+        "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/7/308378.png"
     },
@@ -1951,7 +2020,8 @@
         "https://www.prydwen.gg/nikke/characters/neve",
         "https://www.gamekee.com/nikke/578202.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/neve/"
+        "https://nikke.gg/characters/neve/",
+        "https://www.prydwen.gg/nikke/characters/leona"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/187868.png"
     },
@@ -1977,7 +2047,9 @@
         "https://www.prydwen.gg/nikke/characters/noah",
         "https://www.gamekee.com/nikke/152340.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/noah/"
+        "https://nikke.gg/characters/noah/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/880362.png"
     },
@@ -2004,7 +2076,9 @@
         "https://www.prydwen.gg/nikke/characters/noise",
         "https://www.gamekee.com/nikke/163884.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/noise/"
+        "https://nikke.gg/characters/noise/",
+        "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
+        "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/515916.png"
     },
@@ -2043,7 +2117,9 @@
         "https://www.prydwen.gg/nikke/characters/pepper",
         "https://www.gamekee.com/nikke/170845.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/pepper/"
+        "https://nikke.gg/characters/pepper/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/47776.png"
     },
@@ -2056,7 +2132,9 @@
         "https://www.prydwen.gg/nikke/characters/phantom",
         "https://www.gamekee.com/nikke/155278.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/phantom/"
+        "https://nikke.gg/characters/phantom/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/d-killer-wife"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/466930.png"
     },
@@ -2068,7 +2146,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/phantom-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/phantom/?treasure=true"
+        "https://nikke.gg/characters/phantom/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/phantom-treasure.webp"
     },
@@ -2081,7 +2160,8 @@
         "https://www.prydwen.gg/nikke/characters/poli",
         "https://www.gamekee.com/nikke/163861.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/poli/"
+        "https://nikke.gg/characters/poli/",
+        "https://www.prydwen.gg/nikke/characters/biscuit"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/448895.png"
     },
@@ -2161,7 +2241,8 @@
         "https://www.prydwen.gg/nikke/characters/privaty-unkind-maid",
         "https://www.gamekee.com/nikke/614623.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/privaty-unkind-maid/"
+        "https://nikke.gg/characters/privaty-unkind-maid/",
+        "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/2/371020.png"
     },
@@ -2213,7 +2294,8 @@
         "https://www.prydwen.gg/nikke/characters/queen-makoto",
         "https://www.gamekee.com/nikke/716926.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/queen-makoto/"
+        "https://nikke.gg/characters/queen-makoto/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/14/15028282mssktdnr.png"
     },
@@ -2239,7 +2321,8 @@
         "https://www.prydwen.gg/nikke/characters/quency-escape-queen",
         "https://www.gamekee.com/nikke/152944.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/quency-escape-queen/"
+        "https://nikke.gg/characters/quency-escape-queen/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/449924.png"
     },
@@ -2252,7 +2335,9 @@
         "https://www.prydwen.gg/nikke/characters/quiry",
         "https://www.gamekee.com/nikke/602935.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/quiry/"
+        "https://nikke.gg/characters/quiry/",
+        "https://www.prydwen.gg/nikke/characters/helm-treasure",
+        "https://www.prydwen.gg/nikke/characters/milk-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/9/23/964371.png"
     },
@@ -2306,7 +2391,9 @@
         "https://www.prydwen.gg/nikke/characters/rapunzel",
         "https://www.gamekee.com/nikke/170850.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rapunzel/"
+        "https://nikke.gg/characters/rapunzel/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/951208.png"
     },
@@ -2331,7 +2418,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/raven",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/raven/"
+        "https://nikke.gg/characters/raven/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/raven.webp"
     },
@@ -2358,7 +2446,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rei",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rei/"
+        "https://nikke.gg/characters/rei/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rei.webp"
     },
@@ -2371,7 +2460,8 @@
         "https://www.prydwen.gg/nikke/characters/rei-ayanami",
         "https://www.gamekee.com/nikke/172126.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rei-ayanami/"
+        "https://nikke.gg/characters/rei-ayanami/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/153028.png"
     },
@@ -2384,7 +2474,8 @@
         "https://www.prydwen.gg/nikke/characters/rei-ayanami-tentative-name",
         "https://www.gamekee.com/nikke/157318.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rei-ayanami-tentative-name/"
+        "https://nikke.gg/characters/rei-ayanami-tentative-name/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/974404.png"
     },
@@ -2397,7 +2488,8 @@
         "https://www.prydwen.gg/nikke/characters/rem",
         "https://www.gamekee.com/nikke/618507.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rem/"
+        "https://nikke.gg/characters/rem/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/968956.png"
     },
@@ -2410,7 +2502,8 @@
         "https://www.prydwen.gg/nikke/characters/rosanna",
         "https://www.gamekee.com/nikke/591260.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rosanna/"
+        "https://nikke.gg/characters/rosanna/",
+        "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/5/758854.png"
     },
@@ -2423,7 +2516,9 @@
         "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean",
         "https://www.gamekee.com/nikke/170974.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rosanna-chic-ocean/"
+        "https://nikke.gg/characters/rosanna-chic-ocean/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/436770.png"
     },
@@ -2435,7 +2530,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/rosanna-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rosanna/?treasure=true"
+        "https://nikke.gg/characters/rosanna/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rosanna-treasure.webp"
     },
@@ -2462,7 +2558,9 @@
         "https://www.prydwen.gg/nikke/characters/rumani",
         "https://www.gamekee.com/nikke/171270.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/rumani/"
+        "https://nikke.gg/characters/rumani/",
+        "https://www.prydwen.gg/nikke/characters/ark-ranger-black",
+        "https://www.prydwen.gg/nikke/characters/privaty-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/9/18/856152.png"
     },
@@ -2501,7 +2599,8 @@
         "https://www.prydwen.gg/nikke/characters/sakura-bloom-in-summer",
         "https://www.gamekee.com/nikke/156953.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/sakura-bloom-in-summer/"
+        "https://nikke.gg/characters/sakura-bloom-in-summer/",
+        "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/903652.png"
     },
@@ -2527,7 +2626,8 @@
         "https://www.prydwen.gg/nikke/characters/scarlet",
         "https://www.gamekee.com/nikke/152335.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/scarlet/"
+        "https://nikke.gg/characters/scarlet/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/935524.png"
     },
@@ -2576,7 +2676,8 @@
         "https://www.prydwen.gg/nikke/characters/signal",
         "https://www.gamekee.com/nikke/152331.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/signal/"
+        "https://nikke.gg/characters/signal/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/116225.png"
     },
@@ -2589,7 +2690,8 @@
         "https://www.prydwen.gg/nikke/characters/sin",
         "https://www.gamekee.com/nikke/580947.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/sin/"
+        "https://nikke.gg/characters/sin/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/738031.png"
     },
@@ -2602,7 +2704,8 @@
         "https://www.gamekee.com/nikke/722087.html",
         "https://nikke.gg/tier-list/",
         "https://www.gamekee.com/nikke/721179.html",
-        "https://www.prydwen.gg/nikke/characters/sin-swift-bunny"
+        "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png"
     },
@@ -2643,7 +2746,8 @@
         "https://www.prydwen.gg/nikke/characters/snow-white",
         "https://www.gamekee.com/nikke/92091.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/snow-white/"
+        "https://nikke.gg/characters/snow-white/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/619677.png"
     },
@@ -2670,7 +2774,8 @@
         "https://www.prydwen.gg/nikke/characters/soda",
         "https://www.gamekee.com/nikke/583173.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/soda/"
+        "https://nikke.gg/characters/soda/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/0/31/852435.png"
     },
@@ -2683,7 +2788,9 @@
         "https://www.prydwen.gg/nikke/characters/soda-twinkling-bunny",
         "https://www.gamekee.com/nikke/623992.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/soda-twinkling-bunny/"
+        "https://nikke.gg/characters/soda-twinkling-bunny/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/sugar-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/3/311477.png"
     },
@@ -2696,7 +2803,8 @@
         "https://www.prydwen.gg/nikke/characters/soldier-eg",
         "https://www.gamekee.com/nikke/152353.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/soldier-eg/"
+        "https://nikke.gg/characters/soldier-eg/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/937852.png"
     },
@@ -2709,7 +2817,8 @@
         "https://www.prydwen.gg/nikke/characters/soldier-fa",
         "https://www.gamekee.com/nikke/152355.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/soldier-fa/"
+        "https://nikke.gg/characters/soldier-fa/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/454134.png"
     },
@@ -2748,7 +2857,8 @@
         "https://www.prydwen.gg/nikke/characters/soline-frost-ticket",
         "https://www.gamekee.com/nikke/684090.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/soline-frost-ticket/"
+        "https://nikke.gg/characters/soline-frost-ticket/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/933895.png"
     },
@@ -2774,7 +2884,8 @@
         "https://www.prydwen.gg/nikke/characters/sparkling-summer-anis",
         "https://www.gamekee.com/nikke/597426.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/anis-sparkling-summer/"
+        "https://nikke.gg/characters/anis-sparkling-summer/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/219410.png"
     },
@@ -2787,7 +2898,8 @@
         "https://www.prydwen.gg/nikke/characters/sugar",
         "https://www.gamekee.com/nikke/152328.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/sugar/"
+        "https://nikke.gg/characters/sugar/",
+        "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/141962.png"
     },
@@ -2799,7 +2911,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/sugar-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/sugar/?treasure=true"
+        "https://nikke.gg/characters/sugar/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/sugar-treasure.webp"
     },
@@ -2812,7 +2925,8 @@
         "https://www.prydwen.gg/nikke/characters/takina-inoue",
         "https://www.gamekee.com/nikke/694801.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/takina/"
+        "https://nikke.gg/characters/takina/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/26/175858.png"
     },
@@ -2852,7 +2966,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/tove-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/tove/?treasure=true"
+        "https://nikke.gg/characters/tove/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/tove-treasure.webp"
     },
@@ -2865,7 +2980,9 @@
         "https://www.prydwen.gg/nikke/characters/trina",
         "https://www.gamekee.com/nikke/156120.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/trina/"
+        "https://nikke.gg/characters/trina/",
+        "https://www.prydwen.gg/nikke/teams-database",
+        "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/18/437251.png"
     },
@@ -2891,7 +3008,9 @@
         "https://www.prydwen.gg/nikke/characters/velvet",
         "https://www.gamekee.com/nikke/691899.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/velvet/"
+        "https://nikke.gg/characters/velvet/",
+        "https://nikke.gg/meta/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/30/513311.png"
     },
@@ -2918,7 +3037,8 @@
         "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
         "https://www.gamekee.com/nikke/674867.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/vesti-tactical-upgrade/"
+        "https://nikke.gg/characters/vesti-tactical-upgrade/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/21/729883.png"
     },
@@ -2943,7 +3063,9 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/viper-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/viper/?treasure=true"
+        "https://nikke.gg/characters/viper/?treasure=true",
+        "https://www.prydwen.gg/nikke/characters/phantom-treasure",
+        "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/viper-treasure.webp"
     },
@@ -2956,7 +3078,8 @@
         "https://www.prydwen.gg/nikke/characters/volume",
         "https://www.gamekee.com/nikke/163876.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/volume/"
+        "https://nikke.gg/characters/volume/",
+        "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_159/h_207/1253/43637/2022/7/4/344271.png"
     },
@@ -2993,7 +3116,8 @@
         "https://www.prydwen.gg/nikke/characters/yan",
         "https://www.gamekee.com/nikke/163886.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/yan/"
+        "https://nikke.gg/characters/yan/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/675453.png"
     },
@@ -3006,7 +3130,8 @@
         "https://www.prydwen.gg/nikke/characters/yukiko",
         "https://www.gamekee.com/nikke/717735.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/yukiko/"
+        "https://nikke.gg/characters/yukiko/",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/20/08644008mt196eto.png"
     },
@@ -3019,7 +3144,8 @@
         "https://www.prydwen.gg/nikke/characters/yulha",
         "https://www.gamekee.com/nikke/170841.html",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/yulha/"
+        "https://nikke.gg/characters/yulha/",
+        "https://www.prydwen.gg/nikke/characters/zwei"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/251875.png"
     },
@@ -3070,7 +3196,8 @@
       "sources": [
         "https://www.prydwen.gg/nikke/characters/zwei-treasure",
         "https://nikke.gg/tier-list/",
-        "https://nikke.gg/characters/zwei/?treasure=true"
+        "https://nikke.gg/characters/zwei/?treasure=true",
+        "https://www.prydwen.gg/nikke/teams-database"
       ],
       "portrait": "https://cdn.prydwen.gg/images/nikke/characters/zwei-treasure.webp"
     }

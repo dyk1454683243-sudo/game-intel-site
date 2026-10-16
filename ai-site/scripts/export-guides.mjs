@@ -276,8 +276,15 @@ function exportGame(game, asOf) {
     rich_count: rich,
     stub_count: stub,
     conclusion_stub_count: conclusionStub,
-    characters: indexChars,
   };
+  const guideLinks = {};
+  for (const name of ["banners", "codes"]) {
+    if (fs.existsSync(path.join(GUIDES, game, `${name}.json`))) {
+      guideLinks[name] = `/v1/guides/${game}/${name}.json`;
+    }
+  }
+  if (Object.keys(guideLinks).length) gameIndex.links = guideLinks;
+  gameIndex.characters = indexChars;
   if (problems.length) {
     const err = new Error(
       `[export-guides] ${game}: ${problems.length} card(s) failed sources/as_of/conclusion checks`

@@ -33,12 +33,19 @@
   "weapon": "T.O.P",
   "element": "铁甲",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · 2 RL Instant Nuke：红莲 / 特蕾娜 / 小红帽 / 豺狼 / 桑迪（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · Safer Blanc：豺狼 / 白雪公主：重型武装 / 布兰儿 / Centi (Treasure) / 艾达（https://www.prydwen.gg/nikke/characters/centi-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/jackal",
     "https://www.gamekee.com/nikke/580711.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/jackal/"
+    "https://nikke.gg/characters/jackal/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/centi-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

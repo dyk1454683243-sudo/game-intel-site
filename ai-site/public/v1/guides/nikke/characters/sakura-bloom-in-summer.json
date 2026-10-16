@@ -37,12 +37,18 @@
   "weapon": "一弦琴",
   "element": "风压",
   "manufacturer": "泰特拉",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · Wind · What's Better: Black Critting or a Black Crit Line?：Miranda (Treasure) / 罗珊娜：高雅海洋 / 方舟黑色游侠 / 露姬 / 樱花：夏日绽放（https://www.prydwen.gg/nikke/characters/ark-ranger-black ，as_of 2026-10-15）",
+      "Prydwen · Bossing · Wind · Black, White, and Red：Miranda (Treasure) / 布兰儿 / 方舟黑色游侠 / 露姬 / 樱花：夏日绽放（https://www.prydwen.gg/nikke/characters/ark-ranger-black ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/sakura-bloom-in-summer",
     "https://www.gamekee.com/nikke/156953.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/sakura-bloom-in-summer/"
+    "https://nikke.gg/characters/sakura-bloom-in-summer/",
+    "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
   ],
   "stub": false,
   "as_of": "2026-09-28",

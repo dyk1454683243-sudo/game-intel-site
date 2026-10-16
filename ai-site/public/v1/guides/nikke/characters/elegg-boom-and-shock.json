@@ -33,12 +33,18 @@
   "weapon": "BFG",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Black Smith · Water · Standard Water team - BS：拉毗：小红帽 / 皇冠 / Helm (Treasure) / 鲁德米拉：冬日之主 / 伊莱格：BOOM与惊吓（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Water · Triple Hit Helm：小美人鱼 / 皇冠 / Helm (Treasure) / Privaty (Treasure) / 伊莱格：BOOM与惊吓（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/elegg-boom-and-shock",
     "https://www.gamekee.com/nikke/671513.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/elegg-boom-and-shock/"
+    "https://nikke.gg/characters/elegg-boom-and-shock/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

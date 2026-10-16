@@ -32,12 +32,17 @@
   "weapon": "霰弹枪",
   "element": "铁甲",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Exploration Team：士兵F.A. / 米哈拉：羁绊锁链 / 阿妮斯：闪耀夏日 / 布丽德 / 长发公主（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/soldier-fa",
     "https://www.gamekee.com/nikke/152355.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/soldier-fa/"
+    "https://nikke.gg/characters/soldier-fa/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

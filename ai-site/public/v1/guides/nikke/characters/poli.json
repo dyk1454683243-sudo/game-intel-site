@@ -33,12 +33,17 @@
   "weapon": "野狗",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · Electric · Anis Biscuit Special：桃乐丝 / 饼干 / 阿妮斯：闪耀夏日 / 普丽瓦蒂 / 波莉（https://www.prydwen.gg/nikke/characters/biscuit ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/poli",
     "https://www.gamekee.com/nikke/163861.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/poli/"
+    "https://nikke.gg/characters/poli/",
+    "https://www.prydwen.gg/nikke/characters/biscuit"
   ],
   "stub": false,
   "as_of": "2026-09-28",

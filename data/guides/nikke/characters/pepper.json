@@ -32,12 +32,19 @@
   "weapon": "维他命香膏",
   "element": "风压",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Kosmiu Support Team 2：佩珀 / 克雷伊 / 西格娜 / 梅里 / 索达：闪亮兔女郎（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · 2RL - A Threat to be Reckoned With：红莲 / 特蕾娜 / Drake (Treasure) / 佩珀 / 豺狼（https://www.prydwen.gg/nikke/characters/drake-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/pepper",
     "https://www.gamekee.com/nikke/170845.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/pepper/"
+    "https://nikke.gg/characters/pepper/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/drake-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

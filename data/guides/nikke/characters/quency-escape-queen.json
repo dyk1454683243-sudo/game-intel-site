@@ -35,12 +35,18 @@
   "weapon": "秘密出口",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - Quency Hypercarry：拉毗：小红帽 / 娜由塔 / 小红帽 / 坎西：逃生女王 / 灰姑娘：琉璃波光（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Museum - Black Smith · Water · Leftover - BS：坎西：逃生女王 / 娜由塔 / 灰姑娘：琉璃波光 / 米哈拉：羁绊锁链 / 小美人鱼（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/quency-escape-queen",
     "https://www.gamekee.com/nikke/152944.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/quency-escape-queen/"
+    "https://nikke.gg/characters/quency-escape-queen/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

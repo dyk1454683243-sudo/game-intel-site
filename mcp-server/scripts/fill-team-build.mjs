@@ -95,10 +95,8 @@ function ensureTeams(card) {
 }
 
 function resetFilledTeams(card) {
-  const prev = ensureTeams(card);
-  const next = {};
-  if (prev.dopamine_auto) next.dopamine_auto = prev.dopamine_auto;
-  card.teams = next;
+  // Leave cited teams in place. Wiping them dropped Nikke comps that were already sourced.
+  ensureTeams(card);
 }
 
 function addSource(card, url) {

@@ -33,11 +33,16 @@
   "weapon": "MG",
   "element": "Wind",
   "manufacturer": "Elysion",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Tribe Tower · All · Elysion tower：D:杀手妻子 / Diesel (Treasure) / 潘托姆 / 拉毗：小红帽 / Helm (Treasure)（https://www.prydwen.gg/nikke/characters/d-killer-wife ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/diesel-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/diesel/?treasure=true"
+    "https://nikke.gg/characters/diesel/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/d-killer-wife"
   ],
   "stub": false,
   "as_of": "2026-09-28",

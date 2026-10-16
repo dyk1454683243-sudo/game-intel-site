@@ -33,12 +33,19 @@
   "weapon": "/",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Water · Water Combat Team：普丽瓦蒂 / 吉萝婷：寒冬杀手 / 潘托姆 / 坎西：逃生女王 / Rei（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Tribe Tower · All · Elysion tower：D:杀手妻子 / Diesel (Treasure) / 潘托姆 / 拉毗：小红帽 / Helm (Treasure)（https://www.prydwen.gg/nikke/characters/d-killer-wife ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/phantom",
     "https://www.gamekee.com/nikke/155278.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/phantom/"
+    "https://nikke.gg/characters/phantom/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/d-killer-wife"
   ],
   "stub": false,
   "as_of": "2026-09-28",

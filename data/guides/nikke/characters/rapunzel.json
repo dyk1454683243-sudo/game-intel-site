@@ -35,12 +35,19 @@
   "weapon": "圣恩",
   "element": "铁甲",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Exploration Team：士兵F.A. / 米哈拉：羁绊锁链 / 阿妮斯：闪耀夏日 / 布丽德 / 长发公主（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · What if SG splash?：布兰儿 / 贝斯蒂：战术升级 / 长发公主 / 爱蜜莉雅 / Laplace (Treasure)（https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/rapunzel",
     "https://www.gamekee.com/nikke/170850.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/rapunzel/"
+    "https://nikke.gg/characters/rapunzel/",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
   ],
   "stub": false,
   "as_of": "2026-09-28",

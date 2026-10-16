@@ -34,12 +34,18 @@
   "weapon": "花无十日红",
   "element": "电击",
   "manufacturer": "朝圣者",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · All · Basic Exploration Team #2：士兵E.G / 牡丹 / 红莲 / 伊芙 / 白雪公主（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · 2 RL Instant Nuke：红莲 / 特蕾娜 / 小红帽 / 豺狼 / 桑迪（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/scarlet",
     "https://www.gamekee.com/nikke/152335.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/scarlet/"
+    "https://nikke.gg/characters/scarlet/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

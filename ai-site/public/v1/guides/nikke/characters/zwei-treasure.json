@@ -33,11 +33,17 @@
   "weapon": "SG",
   "element": "Electric",
   "manufacturer": "Elysion",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Union / Solo Raids · Water · Solo Raid 41 - Yellow Numbers：Zwei (Treasure) / 敏特 / 白雪公主：重型武装 / Privaty (Treasure) / 小美人鱼（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Museum - Ultra · Iron · Snow White - Ultra：Zwei (Treasure) / 格拉维 / 白雪公主 / 米尔克：花漾兔女郎 / 海伦：海蓝宝石（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/zwei-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/zwei/?treasure=true"
+    "https://nikke.gg/characters/zwei/?treasure=true",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

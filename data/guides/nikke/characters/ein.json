@@ -33,12 +33,18 @@
   "weapon": "庞克少女",
   "element": "电击",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Anomaly - Mirror Container · Electric · The TRUE Way：爱因 / Flora (Treasure) / 阿妮斯：超级巨星 / 皇冠 / 艾达（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Electric · Triple T3 V1 - Better but Niche：泷奈 / 爱因 / 艾达 / Miranda (Treasure) / 小美人鱼（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/ein",
     "https://www.gamekee.com/nikke/590070.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/ein/"
+    "https://nikke.gg/characters/ein/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -33,12 +33,18 @@
   "weapon": "蜉蝣",
   "element": "水冷",
   "manufacturer": "米西利斯",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Campaign · All · One-Nikke-army：N102 / 阿妮斯 / 爱丽丝 / 普丽瓦蒂 / 拉毗：小红帽（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Surface · All · Kosmiu Support Team 3：N102 / 朵拉 / 露姬 / 布蕾德 / 艾可希雅（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/n102",
     "https://www.gamekee.com/nikke/152351.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/n102/"
+    "https://nikke.gg/characters/n102/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

@@ -33,11 +33,18 @@
   "weapon": "RL",
   "element": "Fire",
   "manufacturer": "Tetra",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · Best Anis PvP Team 2：尼罗 / Bay (Treasure) / 阿妮斯：超级巨星 / Helm (Treasure) / Moran (Treasure)（https://www.prydwen.gg/nikke/characters/anis-star ，as_of 2026-10-15）",
+      "Prydwen · PVP · All · 3 RL 3 SG：索达：闪亮兔女郎 / Bay (Treasure) / Tove (Treasure) / 桃乐丝：机缘巧遇 / Drake (Treasure)（https://www.prydwen.gg/nikke/characters/dorothy-serendipity ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/bay-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/bay/?treasure=true"
+    "https://nikke.gg/characters/bay/?treasure=true",
+    "https://www.prydwen.gg/nikke/characters/anis-star",
+    "https://www.prydwen.gg/nikke/characters/dorothy-serendipity"
   ],
   "stub": false,
   "as_of": "2026-09-28",

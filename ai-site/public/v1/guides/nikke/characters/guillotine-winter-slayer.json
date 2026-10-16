@@ -33,12 +33,18 @@
   "weapon": "勇气之刃",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Surface · Water · Kosmiu Water Team：坎西：逃生女王 / 鲁德米拉：冬日之主 / 吉萝婷：寒冬杀手 / 普丽瓦蒂 / 雷姆（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Surface · Water · Water Combat Team：普丽瓦蒂 / 吉萝婷：寒冬杀手 / 潘托姆 / 坎西：逃生女王 / Rei（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
     "https://www.gamekee.com/nikke/166801.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/guillotine-winter-slayer/"
+    "https://nikke.gg/characters/guillotine-winter-slayer/",
+    "https://www.prydwen.gg/nikke/teams-database"
   ],
   "stub": false,
   "as_of": "2026-09-28",

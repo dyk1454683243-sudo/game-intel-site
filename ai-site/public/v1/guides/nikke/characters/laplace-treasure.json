@@ -33,11 +33,18 @@
   "weapon": "RL",
   "element": "Iron",
   "manufacturer": "Missilis",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Museum - Ultra · Iron · True damage - Ultra：Laplace (Treasure) / Flora (Treasure) / 艾达 / Moran (Treasure) / 泷奈（https://www.prydwen.gg/nikke/teams-database ，as_of 2026-10-15）",
+      "Prydwen · Union / Solo Raids · Iron · True Construction：Moran (Treasure) / 泷奈 / 千束 / Laplace (Treasure) / Centi (Treasure)（https://www.prydwen.gg/nikke/characters/centi-treasure ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/laplace-treasure",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/laplace/?treasure=true"
+    "https://nikke.gg/characters/laplace/?treasure=true",
+    "https://www.prydwen.gg/nikke/teams-database",
+    "https://www.prydwen.gg/nikke/characters/centi-treasure"
   ],
   "stub": false,
   "as_of": "2026-09-28",

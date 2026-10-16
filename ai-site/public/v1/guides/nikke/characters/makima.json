@@ -33,12 +33,17 @@
   "weapon": "未知武器",
   "element": "水冷",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · PVP · All · One-Night-Stand Makima：Drake (Treasure) / 索达：闪亮兔女郎 / 罗珊娜 / 玛奇玛 / 米哈拉：羁绊锁链（https://www.prydwen.gg/nikke/characters/mihara-bonding-chain ，as_of 2026-10-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/makima",
     "https://www.gamekee.com/nikke/584401.html",
     "https://nikke.gg/tier-list/",
-    "https://nikke.gg/characters/makima/"
+    "https://nikke.gg/characters/makima/",
+    "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
   ],
   "stub": false,
   "as_of": "2026-09-28",
