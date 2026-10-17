@@ -269,9 +269,15 @@ test("docs name the page, endpoint, and tool", () => {
   assert.match(llms, /personal_digest/);
   assert.match(llms, /\/me\//);
   const openapi = readJson("openapi.json");
+  assert.equal(openapi.openapi, "3.1.0");
   assert.ok(openapi.paths["/v1/personal"]);
   assert.ok(openapi.paths["/v1/personal.atom"]);
-  assert.equal(openapi.components.schemas.Personal.$ref, "/schema/personal.schema.json");
+  assert.equal(openapi.components.schemas.Personal.type, "object");
+  assert.ok(openapi.components.schemas.Personal.required.includes("stored"));
+  assert.equal(
+    openapi.paths["/v1/personal"].get.responses["200"].content["application/json"].schema.$ref,
+    "#/components/schemas/Personal"
+  );
   const cli = spawnSync(process.execPath, ["mcp-server/cli.js", "personal", "--games", "hw", "--chars", "hw:ai_mi_li_ya"], {
     cwd: repo,
     encoding: "utf8",

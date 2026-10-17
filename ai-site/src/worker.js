@@ -8,7 +8,19 @@ import {
   saveClaim,
 } from "./claims.js";
 import { corsHeaders, handleMcp, jsonResponse } from "./mcp.js";
+import { openApiDocument } from "./openapi.js";
 import { personalDocument } from "./personal.js";
+import {
+  API_VERSION,
+  CACHE_LONG,
+  apiError,
+  cachePolicy,
+  decoratePublicResponse,
+  enforcePublicLimit,
+  healthDocument,
+  isPublicSurface,
+  isRateLimitedSurface,
+} from "./public-limit.js";
 import { personalAtom } from "../public/ui/personal.js";
 import { servePortrait } from "../public/ui/portrait.js";
 
@@ -19,18 +31,109 @@ const DISCOVERY_PATHS = new Set([
 
 export default {
   async fetch(request, env) {
-    const routed = await route(request, env);
-    if (routed) return routed;
-    if (env.ASSETS && typeof env.ASSETS.fetch === "function") {
-      return env.ASSETS.fetch(request);
-    }
-    return new Response("Not found", { status: 404 });
+    return handleRequest(request, env);
   },
 };
+
+function cacheStore() {
+  try {
+    if (typeof caches === "undefined" || !caches || !caches.default) return null;
+    return caches.default;
+  } catch {
+    return null;
+  }
+}
+
+function isStaticJson(pathname) {
+  return pathname.startsWith("/v1/") && pathname.endsWith(".json") && pathname !== "/v1/openapi.json";
+}
+
+async function fetchStatic(request, env, pathname) {
+  if (!env.ASSETS || typeof env.ASSETS.fetch !== "function") return null;
+  const cache = cacheStore();
+  if (cache && request.method === "GET" && isStaticJson(pathname)) {
+    try {
+      const hit = await cache.match(request);
+      if (hit) return hit;
+    } catch {
+      /* a missing cache must not fail the request */
+    }
+  }
+  let asset;
+  try {
+    asset = await env.ASSETS.fetch(request);
+  } catch {
+    return null;
+  }
+  if (cache && request.method === "GET" && isStaticJson(pathname) && asset && asset.status === 200) {
+    try {
+      await cache.put(request, asset.clone());
+    } catch {
+      /* ignore */
+    }
+  }
+  return asset;
+}
+
+export async function handleRequest(request, env) {
+  const path = new URL(request.url).pathname;
+
+  if (request.method === "OPTIONS" && isPublicSurface(path)) {
+    const allow = path === "/mcp" || path.startsWith("/mcp/") ? "POST, OPTIONS" : "GET, HEAD, POST, OPTIONS";
+    return new Response(null, {
+      status: 204,
+      headers: { ...corsHeaders({ allow }), "x-api-version": API_VERSION },
+    });
+  }
+
+  if (request.method !== "OPTIONS" && isRateLimitedSurface(path)) {
+    const limited = await enforcePublicLimit(request, env);
+    if (limited) return limited;
+  }
+
+  const effective = request.method === "HEAD" ? new Request(request, { method: "GET" }) : request;
+  let response = await route(effective, env);
+  if (!response) {
+    if (path.startsWith("/v1/") || path === "/v1") {
+      if (effective.method !== "GET") return apiError(405, "method_not_allowed");
+      response = await fetchStatic(effective, env, path);
+      if (!response || response.status === 404) return apiError(404, "not_found");
+    } else if (env.ASSETS && typeof env.ASSETS.fetch === "function") {
+      response = await env.ASSETS.fetch(effective);
+    } else {
+      return new Response("Not found", { status: 404 });
+    }
+  }
+
+  if (isPublicSurface(path) || path === "/llms.txt" || path === "/developers" || path.startsWith("/developers/")) {
+    response = await decoratePublicResponse(response, effective, cachePolicy(path, effective.method, response.status));
+  }
+  if (request.method === "HEAD") {
+    return new Response(null, { status: response.status, headers: response.headers });
+  }
+  return response;
+}
 
 export async function route(request, env) {
   const url = new URL(request.url);
   const path = url.pathname;
+
+  if (path === "/v1/health") {
+    if (request.method !== "GET") return apiError(405, "method_not_allowed");
+    return jsonResponse(healthDocument(env), 200);
+  }
+
+  if ((path === "/v1/openapi.json" || path === "/openapi.json") && request.method === "GET") {
+    return new Response(JSON.stringify(openApiDocument()), {
+      status: 200,
+      headers: {
+        "content-type": "application/json; charset=utf-8",
+        "cache-control": CACHE_LONG,
+        "x-api-version": API_VERSION,
+        ...corsHeaders(),
+      },
+    });
+  }
 
   if (path === "/mcp") return handleMcp(request, env);
 

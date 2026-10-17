@@ -6,18 +6,40 @@ workers_dev = true
 [assets]
 directory = "./public"
 binding = "ASSETS"
-# Worker handles discovery, MCP, claims, and GameKee portrait fetches. Everything else stays a static asset.
+# Worker handles discovery, MCP, claims, portraits, and every /v1 URL so static JSON
+# can get the public rate limit, CORS, ETag, and X-API-Version. HTML stays on assets.
 run_worker_first = [
   "/.well-known/*",
   "/mcp",
   "/mcp/*",
   "/server-card",
-  "/v1/claims",
-  "/v1/claims.json",
-  "/v1/portrait",
+  "/openapi.json",
+  "/v1/*",
   "/claims",
   "/claims/*",
 ]
+
+# Public read limits. Applied on the next `wrangler deploy` (do not deploy from this change).
+# namespace_id is an account-unique integer you choose, not a KV id. Shared ids share counters.
+# Counters are per Cloudflare location. If a binding is missing at runtime, that tier is allowed.
+# Do not point these at the CLAIMS namespace, and do not recreate CLAIMS.
+# Optional keys: `wrangler secret put GAME_INTEL_API_KEYS` (comma-separated). Not CLAIMS_API_KEY.
+# Leave that secret unset in the repo. Claims submission does not read either secret.
+[[ratelimits]]
+name = "RATE_LIMIT_ANON"
+namespace_id = "71001"
+
+  [ratelimits.simple]
+  limit = 120
+  period = 60
+
+[[ratelimits]]
+name = "RATE_LIMIT_KEY"
+namespace_id = "71002"
+
+  [ratelimits.simple]
+  limit = 1200
+  period = 60
 
 # Claims mirror and rate-limit counters. The namespace id is not a secret.
 # Public POST /v1/claims does not read CLAIMS_API_KEY. If that secret is already

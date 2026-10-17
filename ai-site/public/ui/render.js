@@ -1,6 +1,6 @@
 /**
  * Pure HTML renderers for the human UI. No DOM, no invented tiers or pull advice.
- * Non-deep games stay identity-only. Deep character cards are hw / nikke / bd2 / zenless-zone-zero / wuthering-waves.
+ * Non-deep games stay identity-only. Deep character cards are the eight DEEP_GAMES.
  */
 import { portraitImgSrc } from "./portrait.js";
 
@@ -28,6 +28,7 @@ const NAV = [
   ["me", "/me/", "我的关注"],
   ["claims", "/claims/", "核对墙"],
   ["for-ai", "/for-ai/", "给 AI"],
+  ["developers", "/developers/", "开发者"],
 ];
 
 const PUBLIC_SITE = "https://game-intel-ai.dyk1454683243.workers.dev";
@@ -63,6 +64,13 @@ export function teamLines(card) {
 
 export function isDeep(id) {
   return DEEP_GAMES.includes(String(id || ""));
+}
+
+export function deepNames() {
+  return DEEP_GAMES.map((id) => {
+    const row = WATCH_ORDER.find((game) => game.id === id);
+    return `${row ? row.name_zh : id}（${id}）`;
+  }).join("、");
 }
 
 export function safeId(value) {
@@ -869,7 +877,7 @@ export function renderCharacter(gameId, card, opts = {}) {
     return `<article class="sheet sheet-stub"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)}</p>
 ${depthBanner("stub", "尚无深耕")}
 <h1>尚无深耕</h1>
-<p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）、明日方舟：终末地（arknights-endfield）、边狱公司（limbus-company）、鸣潮（wuthering-waves）。</p>
+<p class="rule">角色深耕只开放给${deepNames()}。</p>
 <p class="flags">${flag("尚无深耕", "gap")}</p>
 ${requested ? `<p class="follow-row">${followButton("char", id, requested)}</p>` : ""}</article>`;
   }
@@ -1066,10 +1074,11 @@ export function renderForAi() {
 <li>人：网页专区。首页（今日情报）→ 目录或观察名单 → 游戏页（身份、深耕入口、该游资讯）→ 角色卡。核对墙单列。</li>
 <li>AI：MCP <code>/mcp</code> 与 JSON <code>/v1</code>。发现文档是 <a href="/.well-known/mcp.json">/.well-known/mcp.json</a>，与 <a href="/.well-known/ai-catalog.json">/.well-known/ai-catalog.json</a> 相同。</li>
 </ul>
-<h2>三个地址</h2>
+<h2>入口</h2>
 <dl class="facts">
+<dt>开发者</dt><dd><a href="/developers/"><code>/developers/</code></a> 中英说明：端点、curl、MCP 接入、出处和署名。</dd>
 <dt>MCP</dt><dd>连接 <code>/mcp</code>（Streamable HTTP，只读已发布 JSON）。<br/>托管站 <code>${PUBLIC_SITE}/mcp</code></dd>
-<dt>OpenAPI</dt><dd><a href="/openapi.json"><code>/openapi.json</code></a></dd>
+<dt>OpenAPI</dt><dd><a href="/v1/openapi.json"><code>/v1/openapi.json</code></a>（<a href="/openapi.json"><code>/openapi.json</code></a> 同一份）</dd>
 <dt>llms.txt</dt><dd><a href="/llms.txt"><code>/llms.txt</code></a></dd>
 </dl>
 <h2>写卡统一框架</h2>
@@ -1082,7 +1091,7 @@ export function renderForAi() {
 <li>人读页与 <code>/v1</code> 同步</li>
 </ol>
 <p>MCP 只读已发布数据。新写走公开投稿口 <a href="/claims/"><code>POST /v1/claims</code></a>（公开，不需要密钥；https <code>sources</code> 必填），或走仓库里的导出管线。不另开私有 MCP 写通道。</p>
-<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。深耕图鉴有 hw、nikke、bd2、limbus-company。CDK 不在本站。</p>
+<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。深耕图鉴有 ${deepNames()}。CDK 不在本站。</p>
 <h2>各页对应的 /v1</h2>
 <p>人读页只消费已发布 JSON，不另造第二套库。</p>
 <dl class="facts">
@@ -1091,9 +1100,9 @@ export function renderForAi() {
 <dt>观察名单</dt><dd><code>/v1/watchlist.json</code> · <code>/v1/games/index.json</code> · <code>/v1/guides/index.json</code></dd>
 <dt>我的关注</dt><dd>浏览器 <code>localStorage</code>。分享用 <code>/me/?games=&amp;chars=</code> 或订阅码 <code>gi1.</code>。机器读 <code>GET /v1/personal</code>、<code>/v1/personal.atom</code>，MCP 工具 <code>personal_digest</code>。服务端不保存名单。</dd>
 <dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code>、别名、<code>banners.json</code> 与 <code>codes.json</code>。</dd>
-<dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，hw / nikke / bd2 / limbus-company。边狱公司的卡是人格，带 <code>sinner</code>，游戏页和关注列表按罪人分组。</dd>
+<dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，深耕八款：${deepNames()}。边狱公司的卡是人格，带 <code>sinner</code>，游戏页和关注列表按罪人分组。</dd>
 <dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>
-<dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。</dd>
+<dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <a href="/developers/"><code>/developers/</code></a> · <a href="/v1/openapi.json"><code>/v1/openapi.json</code></a> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。读接口的可选密钥写在开发者页，投稿不使用它。</dd>
 <dt>草图</dt><dd><code>/sketches/</code> 不读 JSON。</dd>
 </dl>
 <p class="meta">线框草图：<a href="/sketches/">首页 / 游戏页 / 角色卡</a></p>`;
