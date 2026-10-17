@@ -1,0 +1,102 @@
+{
+  "id": "edgar-family-butler-ishmael",
+  "name": "Edgar Family Butler Ishmael",
+  "name_zh": null,
+  "name_en": "Edgar Family Butler Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "00",
+  "role": "Bind Haste Poise Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sweeping Redirection",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If this unit's Speed is faster than the target's, Coin Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain 2 Poise 2 [On Hit] Inflict 2 Sinking [On Crit] Gain 1 Haste next turn",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Housekeeping",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. If this unit's Speed is faster than the target's, Coin Power +1 [On Use] Gain +2 Poise Count [Clash Win] Gain 2 Poise 1 [On Hit] Gain 1 Haste next turn [On Crit] Inflict 1 Bind next turn [On Hit] Inflict 2 Defense Level Down 2 [On Hit] Inflict 4 Sinking",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Restraining Technique",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 4. Coins 3. Coin Power 3. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the target's, Coin Power +1 [On Use] Gain 6 Poise 1 [On Hit] Inflict +3 Sinking Count 2 [On Hit] Inflict 2 Sinking 3 [On Hit] Inflict 2 Sinking [On Hit] Inflict 2 Bind next turn [On Hit] Inflict 1 Slash Fragility next turn",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. Skill Power 3. Coins 1. Coin Power 10. Offense Level 59. Atk Weight 1. [On Evade] Heal 5 SP (once per turn)",
+      "sin": "Gloom"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/edgar-family-butler-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "edgar-family-butler-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/edgar-family-butler-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:edgar-family-butler-ishmael",
+  "released": "18/April/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "4-6",
+    "defense": "59",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Yet another Sinking Ishmael ID but this time she uses Poise and speed as an extra mechanic. The problem? She is pretty much competing against Molar Ishmael in the sinking slot. Edgar Family Butler Ishmael skills roll up to 11 on S1, 14 on S2, and 13 on S3, with fulfilled conditions she goes to 13/16/16 which is, at best, average. With her speed range of 4-6, it’s not that hard to fulfill the Coin Power conditionals on her skills and she also has ways to manipulate it being haste and bind. Now her main purpose is to inflict sinking and other debuffs onto enemies, and her passive even helps her with it. The only problem with her kit is that to truly get maximum usage from her debuffs and passive, she must be able to Critically Hit the enemy which may prove tricky to do since she barely gains Poise Count, making her unable to maintain high enough and sustainable Poise to get full benefit fr",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/edgar-family-butler-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ishmael / Bind Haste Poise Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/edgar-family-butler-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

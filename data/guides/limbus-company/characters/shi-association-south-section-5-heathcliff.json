@@ -1,0 +1,113 @@
+{
+  "id": "shi-association-south-section-5-heathcliff",
+  "name": "Shi Association South Section 5 Heathcliff",
+  "name_zh": null,
+  "name_en": "Shi Association South Section 5 Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "00",
+  "role": "Poise",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Extreme Edge",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 4. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. At less than 50% HP, Skill Power +2 [On Use] Gain +3 Poise Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Flying Sword",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 5. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. At less than 50% HP, +2 Skill Power [On Use] Gain 3 Poise",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Flashing Strike",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 5. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 1. At 10+ Poise Count, Skill Power +2 At less than 50% HP, Atk Weight +1 1 [Before Attack] Lose 5 HP; +50% Skill Damage for this Coin 2 [Before Attack] Lose 5 HP; +50% Skill Damage for this Coin",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Wrath. Slash. Skill Power 8. Coins 1. Coin Power 5. Offense Level 61. Atk Weight 1. [On Use] Lose 5 HP At 3+ Poise Count, Damage +50%",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Respiration",
+      "type": "passive",
+      "summary": "x3 Wrath [Res]. After taking damage from attacks this turn, deal +10% damage."
+    },
+    {
+      "name": "Self-neglect",
+      "type": "support",
+      "summary": "x3 Wrath [Res]. 1 ally with the lowest HP deals and takes +20% damage."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "shi-association-south-section-5-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/shi-association-south-section-5-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:shi-association-south-section-5-heathcliff",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "2-5",
+    "defense": "61",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Requires Uptie 4 to work and NEEDS to be at 50% HP or lower. Otherwise, Shi Heathcliff's performance will be really lackluster compared to other IDs. Shi Heathcliff can work with his HP above 50%, but in those cases other IDs can just do better. While at 50% or lower, Shi Heathcliff's damage is just decent. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Heathcliff / Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/shi-association-south-section-5-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

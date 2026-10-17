@@ -1,0 +1,108 @@
+{
+  "id": "lobotomy-e-g-o-regret-faust",
+  "name": "Lobotomy E.G.O::Regret Faust",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Regret Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Contracting Straight-jacket",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Blunt. Skill Power 4. Coins 1. Coin Power 7. Offense Level 63. Atk Weight 1. [On Use] Gain +3 Tremor Count [Clash Lose] Gain +3 Tremor Count 1 [On Hit] Gain +3 Tremor Count [On Hit] Inflict +3 Tremor Count",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Metallic Ringing",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill [On Use] Gain +4 Tremor Count 1 [Heads Hit] Gain +1 Tremor Count [On Hit] Inflict 1 Offense Level Down next turn 2 [On Hit] Inflict 5 Tremor [On Hit] Inflict 1 Plus Coin Drop next turn",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Unleashed Violence",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 3. Coins 3. Coin Power 5. Offense Level 63. Atk Weight 1. [Combat Start] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max+2) [Clash Lose] Lose 20 SP Deal 6% more Damage for every type of negative effect on target (Max 30%) [On Kill] Gain +2 Tremor Count 1 [On Hit] Burst Tremor, Then deal Wrath Damage by 30% of the final Stagger Treshold raised by Burst Tremor. (Max 20) 2 [On Hit] Burst Tremor, Then deal Wrath Damage by 30% of the final Stagger Treshold raised by Burst Tremor. (Max 20) 3 [On Hit] Burst Tremor, Then deal Wrath Damage by 30% of the final Stagger Treshold raised by Burst Tremor. (Max 20) Reduce Tremor Count by 3.",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Gathering Spite",
+      "type": "defense",
+      "summary": "Defense Counter · Gloom. Blunt. Skill Power 9. Coins 1. Coin Power 6. Offense Level 65. Atk Weight 1. [On Use] Gain +6 Tremor Count",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Coerced Regret",
+      "type": "passive",
+      "summary": "x6 Wrath [Owned]. - In a clash, the target has -1 Clash Power for every 3 types of negative effects (Max -2 Clash Power) - When this unit is alive, enemies affected by Tremor Burst gain 2 Defense Level Down. (3 times per enemy per turn) - Mental Corruption: If at less than -25 SP at Turn End, gain 2 Bind and 1 Blunt Power Up next turn. Repression Work x5 Wrath [Owned] In a clash, the target of the slowest ally has -1 Clash Power if they have 3+ types of negative effects"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-regret-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-regret-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-regret-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-regret-faust",
+  "released": "26/October/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "3-6",
+    "defense": "61",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Regret Faust is a very good ID when it comes to dealing with a bunch of enemies or when the boss has multiple parts that can be hit separately. She does not need other Tremor IDs in a team to work as she is a good standalone. However, she needs Tremor Count to really show her prowess during combat as without it, or multiple targets, her damage and performance will go down. In situations when she is working, she performs excellently in the debuff and damage department. No particular E.G.O Synergies. While she does not fuel Fluid Sac E.G.O., it is still recommended to use it on her due to how great that E.G.O. is",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-regret-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-regret-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

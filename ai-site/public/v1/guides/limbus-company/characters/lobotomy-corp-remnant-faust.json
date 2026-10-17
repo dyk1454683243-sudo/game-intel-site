@@ -1,0 +1,108 @@
+{
+  "id": "lobotomy-corp-remnant-faust",
+  "name": "Lobotomy Corp. Remnant Faust",
+  "name_zh": null,
+  "name_en": "Lobotomy Corp. Remnant Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "00",
+  "role": "Haste Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sole Strike",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 1. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] Gain +2 Poise Count 1 [On Hit] Inflict 2 Rupture",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Deep Cuts",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 3. Offense Level 63. Atk Weight 1. 1 [On Hit] Gain 1 Poise next turn 2 [On Hit] Gain 1 Poise next turn 3 [On Hit] Gain 4 Haste next turn [On Hit] Gain 1 Poise next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Opportunistic Slash",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 4. Coins 2. Coin Power 8. Offense Level 63. Atk Weight 1. Coin Power +3 if user took no damage last turn 1 [Heads Hit] Inflict 5 Rupture",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Envy. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1",
+      "sin": "Envy",
+      "attack_type": "-"
+    },
+    {
+      "name": "Resolution",
+      "type": "passive",
+      "summary": "x2 Lust [Res]. At the start of the turn, if at 4+ Poise Count, gain 2 Haste. Backing x2 Lust [Res] 1 ally with the lowest Max HP gains +2 defensive skill final Power."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-corp-remnant-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-corp-remnant-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-corp-remnant-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-corp-remnant-faust",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "3-6",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Great 00 Faust Identity that works amazingly well in Mirror Dungeon. If you need somebody to clash, Lob Corp Faust is the choice. Fuels fully also Fluid Sac E.G.O., the best E.G.O. in the game which is a big bonus for an already great Identity. Her other gimmick is poise, but in her case, that can be ignored. E.G.O. Synergies: Fluid Sac - Fuels Fluid Sac sin requirements, making it available faster and more often.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-corp-remnant-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Faust / Haste Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-corp-remnant-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

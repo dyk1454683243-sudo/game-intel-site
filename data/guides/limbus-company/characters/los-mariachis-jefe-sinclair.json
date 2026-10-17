@@ -1,0 +1,108 @@
+{
+  "id": "los-mariachis-jefe-sinclair",
+  "name": "Los Mariachis Jefe Sinclair",
+  "name_zh": null,
+  "name_en": "Los Mariachis Jefe Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "00",
+  "role": "Poise Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Baile y Rola",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Blunt. Skill Power 4. Coins 2. Coin Power 2. Offense Level 57. Atk Weight 1. If target has 4+ Sinking, Coin Power +1 1 [On Hit] Inflict 4 Sinking",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Danza de Pasión",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 5. Coins 3. Coin Power 1. Offense Level 57. Atk Weight 1. If target has 6+ Sinking, Coin Power +2 1 [On Hit] Gain 2 Poise [On Hit] Gain +1 Poise Count 2 [On Hit] Inflict 2 Sinking [On Hit] Apply +1 Sinking Count 3 [On Hit] Inflict 2 Sinking",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Pañata Party",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 8. Coins 1. Coin Power 11. Offense Level 57. Atk Weight 1. If target's SP is below 0, boost crit chance proportional to target's SP If user has 5+ Poise Count, 30% Critical Damage 1 [On Hit] Lower user’s Stagger Threshold by 50% of damage dealt",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 5. Coins 1. Coin Power 10. Offense Level 65. Atk Weight 1. [On Evade] Gain +1 Poise Count",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Júbilo Hedonista",
+      "type": "passive",
+      "summary": "x3 Gloom [Res]. After a successful evade, lower STagger Threshold by the evade skill's power at a (5x Gloom Res.)% chance Jugar con Enemigos x4 Gloom [Owned] 1 ally with the highest SP deals +10% damage to enemies with lower SP."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/los-mariachis-jefe-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "los-mariachis-jefe-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/los-mariachis-jefe-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:los-mariachis-jefe-sinclair",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "291",
+    "speed": "2-3",
+    "defense": "63",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Evade tank, sinking, poise ID… That is a lot of mixed effects that at the end do not mesh together at all. As a “tank” ID, Sinclair lacks aggro even at U4 that most “tank” IDs got, clashing ability even with sinking on target to boost his coins is way below average. Only his S3 can clash, but other than that, Mariachi Sinclair does not offer much. Like LCB Rodion, he is much better used as a passive support at the bench and provides much more value than being on the field. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/los-mariachis-jefe-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Tank B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Sinclair / Poise Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/los-mariachis-jefe-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

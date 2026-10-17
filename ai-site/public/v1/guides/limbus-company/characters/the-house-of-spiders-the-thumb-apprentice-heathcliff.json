@@ -1,0 +1,117 @@
+{
+  "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+  "name": "The House of Spiders: The Thumb Apprentice Heathcliff",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Thumb Apprentice Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Burn Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "La Spada di Palermo",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2) 1 [On Hit] Inflict 2 Burn 2 [On Hit] Inflict 1 Tremor",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Colpi Sottani",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2) [Clash Win] If target has The Duel Escalates, inflict +1 Tremor Count 1 [On Hit] Inflict 2 Burn and +2 Burn Count 2 [On Hit] Inflict 2 Tremor and +2 Tremor Count 3 [On Hit] If this unit has Maturing Textbook, or if target has The Duel Escalates, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Il Cacciatore",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. [Before Use] If target has 5 The Duel Escalates, activate \"Sezionature di Cervo\" instead (once per turn) [On Use] If target has 6+ (Burn + Tremor), Coin Power +1 [On Use] Gain the following effects based on The Duel Escalates Stack on target: - 1+ The Duel Escalates: Inflict +1 more Tremor Potency - 2+ T he Duel Escalates: Inflict +1 more Tremor Count - 3+ The Duel Escalates: Inflict +1 more Burn Potency - 4+ The Duel Escalates: Inflict +1 more Burn Count [On Use] If this unit has Maturing Textbook, or if target has 3+ The Duel Escalates, convert all Coins on this Skill to Unbreakable Coins 1 [On Hit] Inflict 3 Burn and +2 Burn Count 2 [On Hit] Inflict 3 Tremor and +2 Tremor Count 3 Deal +25% damage for every Maturing Textbook stack on self (max 75%) [On Hit] Trigger Amplitude Conversion into Tremor - Scorch [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If this unit has Maturing Textbook, or if target has 3+ The Duel Escalates, trigger Tremor Burst 2 times, then, reduce target's Tremor Count by 2",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sezionatura di Cervo",
+      "type": "skill4",
+      "summary": "Skill 4 · Wrath. Slash. Skill Power 5. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. [On Use] - Gain +(Maturing Textbook - 1) Atk Weight (max 2) - Coin Power +1 for every 6 (Burn + Tremor) on the main target (max 3) - When attacking just 1 target, deal +25% damage (for Focused Encounters, 1 Part) - Deal +25% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts) [Attack End] - Consume all The Duel Escalates on the main target - Gain 1 Maturing Textbook. If the main target is defeated, gain 2 Maturing Textbook instead 1 Unbreakable Coin [On Hit] Inflict 3 Burn and +3 Burn Count 2 Unbreakable Coin [On Hit] Inflict 3 Tremor and +3 Tremor Count 3 Unbreakable Coin 4 Unbreakable Coin [Coin Start] This Coin gains Coin Power +1 for every Maturing Textbook (max 3) [On Hit] Trigger Amplitude Conversion into Tremor - Scorch [On Hit] Trigger Tremor Burst 2 times; then, reduce targeet's Tremor Count by 2",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Measuring Blade Reach",
+      "type": "defense",
+      "summary": "Defense Counter · . Skill Power 5. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. Deal +20% damage for every The Duel Escalates on target (max 100%) [On Use] Final Power +1 for every 4 (Burn + Tremor) on target (max 2) 1 [On Hit] Inflict 1 Burn (2 times per turn) 2 [On Hit] Inflict 1 Tremor (2 times per turn)"
+    },
+    {
+      "name": "I Will Protect",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. Clashable Guard Assist Defense exclusive Skill [On Use] - Gain 2 Protection (once per turn) - Heal 5 SP for the unit protected by the Assist Defense 1 Unbreakable Coin"
+    },
+    {
+      "name": "Palermitan Style",
+      "type": "passive",
+      "summary": "x2 Lust [Owned] x2 Sloth [Owned]. Gain the following effects based on (Maturing Textbook on self + The Duel Escalates on the main target) - Base Skills deal +3% damage for every combined Stack (max 15%) - 1+ Stack: Clash Power +1 - 2+ Stack: Base Skills gain Base Power +1 - 3+ Stack: On Hit using a Base Skill, inflict 1 Severed Tendon next turn - 4+ Stack: Base Skills gain Final Power +1 - 5+ Stack: Base Skills deal +15% damage Take -3% damage for every (Maturing Textbook on self + The Duel Escalates on the enemy attacking this unit) (max -15%) In One-on-one Duels… x3 Wrath [Res] 1 ally with the fastest Speed: On Clash Win using Base Attack Skills, inflict +1 Burn Coun t on target (once per turn) - Prioritizes \"The Thumb\" Identities - If the ally is \"The Thumb\" Identity, inflict +1 Burn Count and Tremor Count instead - Combat Start: If there is only 1 enemy on the field, (for Abnormalities, a Core), this effect inflicts +1 more Burn Count and Tremor Count"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-thumb-apprentice-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-thumb-apprentice-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-thumb-apprentice-heathcliff",
+  "released": "25/June/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "260",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "“In one-on-one duels, my Palermitan Style has the advantage”, the very thing Thumb Heathcliff’s kit is built around. Thumb Heathcliff is a Tremor and Burn ID whose kit revolves around heavily stacking his unique status on one target and well.. focus on them. When he does so, he gains massive buffs and becomes very consistent. Let’s take a deeper look at his kit! Firstly, his 3 unique statuses: - The Duel Escalates - This status revolves around Heathcliff’s entire kit, as it heavily interacts with his passive and skills. The main way to inflict it is when Thumb Heathcliff hits an enemy or wins a clash. Heathcliff can only inflict this up to 3 times per turn. - Maturing Textbook - A free damage boost up to a maximum of 15%. Gained when Thumb Heathcliff defeats an enemy with The Duel Escalates or after using S3-2. This effect can only be gained 2 times each turn and stacks up to 3. - Severe",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-thumb-apprentice-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Burn Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-thumb-apprentice-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dieci-assoc-south-section-4-yi-sang",
+  "name": "Dieci Assoc. South Section 4 Yi Sang",
+  "name_zh": null,
+  "name_en": "Dieci Assoc. South Section 4 Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Discard Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Expend Knowledge",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 49. Atk Weight 1. Gain (Insight x 3% of Max HP) Shield if this Skill is Discarded [On Use] Discard 1 Skill of the highest rank in all of this unit's Skill slots [On Use] If target has 5+ Sinking, Coin Power +1 1 [On Hit] Lower user's Stagger Treshold by Insight 2 [On Hit] Lower user's Stagger Treshold by Insight",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Seal Shut",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 49. Atk Weight 1. Gain (Insight x 6% of Max HP) Shield if this Skill is Discarded [On Use] Discard 1 Skill of the highest rank in all of this unit's Skill Slots [On Use] If target has 5+ Sinking, Coin Power +1 [On Use] Gain +3 Aggro to this Skill Slot next turn 1 [On Hit] Inflict Sinking equal to Insight 2 [On Hit] Inflict Sinking equal to Insight",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Grace of Knowledge",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 4. Coins 4. Coin Power 2. Offense Level 53. Atk Weight 1. Gain (Insight x 12% of Max HP) Shield if this Skill is Discarded [On Use] Gain +10 Aggro to this Skill slot next turn [On Use] At 50%- HP, Coin Power +1 1 [On Hit] Inflict +3 Sinking Count",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Fixated Study",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 53. Atk Weight 1. [On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots [On Use] Gain +5 Aggro to this Skill Slot next turn",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "dieci-assoc-south-section-4-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/dieci-assoc-south-section-4-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:dieci-assoc-south-section-4-yi-sang",
+  "released": "25/January/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-6",
+    "defense": "63",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Dieci Yi Sang is a tank ID whose tankiness comes in the form of gaining barrier upon discarding a skill. Unfortunately he does not do anything else besides that as his sinking application is not great but he does synergize with it, althought he is on the same slot as spicebush Yi sang for sinking. His s1 and s2 has okay clashing power being at 13 and 16 but his s3 is quite conditional with him having to be under 50% hp just to reach 16 clashing power while rolling 12 normally, you are better off discarding than using it.His support passive thought can be really good with discard IDs, such as Molar outis, Dieci rodion but ultimately Dieci Hong lu will benefit the most from this passive since he discards the highest rank skill giving him the most shield No notable E.G.O Synergy",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Yi Sang / Aggro Discard Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/dieci-assoc-south-section-4-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

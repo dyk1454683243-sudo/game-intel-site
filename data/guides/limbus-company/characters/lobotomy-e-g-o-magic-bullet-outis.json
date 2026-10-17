@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-magic-bullet-outis",
+  "name": "Lobotomy E.G.O::Magic Bullet Outis",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Magic Bullet Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Burn Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ignition",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. Gain +1 Coin Power for every 3 Burn on target (Max 3) 1 [On Hit] Inflict 1 Dark Flame next turn 2 [On Hit] Inflict Burn equal to Dark Flame on target",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Detonate Magic Bullet",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Gain +1 Coin Power for every 6 Burn on target (Max 3) 1 [On Hit] At less than 4 Magic Bullet, gain 1 Magic Bullet. Inflict Dark Flame equal to Magic Bullet next turn 2 [On Hit] Inflict Burn equal to Dark Flame on target",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Magic Bullet Fire",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 15. Coins 1. Coin Power 4. Offense Level 65. Atk Weight 1. Deal +1% damage based on Burn on target (Max 30%) [Before Attack] Gain 1 Magic Bullet - Lose ((Magic Bullet -1)x5) SP - Atk Weight becomes equal to Magic Bullet - At 10 or less SP, 50% chance to attack indiscriminately [After Attack] If at 7 Magic Bullet, reset to 0 (Counts as spending the last Ammo) 1 [On Hit] Inflict Dark Flame equal to Magic Bullet",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "The Price of a Bullet",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 57. Atk Weight 1. [On Use] Gain 1 Magic Bullet (Once per turn) [On Use] Gain Final Power proportional to (Magic Bullet x2) [Skill End] Lose SP equal to Magic Bullet",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "The Marksman's Smoking Pipe",
+      "type": "passive",
+      "summary": "x3 Pride [Owned]. If the main target's Defense Level is currently lowered by 4 or more, gain (Burn on main target) Poise Before Attack (Max 20 per turn)"
+    },
+    {
+      "name": "Request Work",
+      "type": "support",
+      "summary": "x3 Pride [Res]. 1 ally with the most SP deals +10% damage with E.G.O Skills If the E.G.O Skill consumes 7+ E.G.O resources, deal additionally +5% damage"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-magic-bullet-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-magic-bullet-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-magic-bullet-outis",
+  "released": "11/January/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "57",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The new Der Freischütz Outis ID is an absolute beast and a must-have for burn teams. Starting with her flaws, she only has two Sin Affinities, which greatly limits the amount of ego she can fuel with her kit. Magic Bullet Outis would also struggle a bit with battles that do not have that many enemies or abnos that do not have many parts. Still though, as a standalone ID, she is capable of inflicting Defense Level Down to enemies through her Dark Flame, up to 7. This would mean that if she inflicts 7 Dark Flame on the enemy, it's the equivalent of having 2 fragile to the enemy, which totals up to everyone dealing +20% more damage teamwide for the entire turn. When put on a burn team, burn is amplified to do damage multiplied by how much Dark Flame is on the enemy. Say you have 30 Burn on the target and 7 Dark Flame on the target, not only do you get the extra damage from the defense level",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Burn Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

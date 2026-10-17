@@ -1,0 +1,147 @@
+{
+  "id": "the-house-of-spiders-the-middle-nursefather-outis",
+  "name": "The House of Spiders: The Middle Nursefather Outis",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Middle Nursefather Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bind Bleed Burn Haste Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Stomping",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight -. Coin Power +1 for every 6 (Burn + Bleed) on target (max 2) [Before Use] If this unit has Lævateinn, activate as \"I'll Gut You Like a Fish\" [On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], convert Coin 2 into Unbreakable Coin [On Use] Heal 5 SP 1 [On Hit] Inflict +2 Bleed Count [On Hit] Raise Stagger Treshold by 5 2 [On Hit] Inflict 1 Bleed [On Hit] If this unit has Middle Styled Augmentation Tattoos [Great Sister], inflict 1 Bind next turn",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I'll Gut You Like a Fish",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 3. Coins 2. Coin Power 1. Offense Level 63. Atk Weight -. Lævateinn Exclusive Skill Coin Power +1 for every 6 (Burn + Bleed) on target (max 2) [On Use] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down) [On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bleed On Coin Hit [Before Attack] Gain Burn equal to the number of Coins in this Skill [Attack End] Lose 5 SP 1 Unbreakable Coin [On Hit] Inflict +2 Bleed Count [On Hit] Raise Stagger Treshold by 10 2 Unbreakable Coin [On Hit] Inflict 4 Burn and +2 Burn Count [On Hit] If this unit has Middle Styled Augmentation Tattoos [Great Sister], inflict 1 Bind and 1 Paralyze next turn (once per turn)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Don't Let Somethin' Like This Break You!",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight -. Coin Power +1 for every 6 (Burn + Bleed) on target (max 2 [Before Use] If this unit has Lævateinn, activate as \"Gut Stab\" [On Use] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3, rounded down) [On Use] Convert this Skill's Coins equal to The Middle - Vengeance Tattoo [Great Sister] on this unit into Unbreakable Coins, beginning with Coin 3 [On Use] If this unit's sword is at First Seal Removed or Second Seal Removed stage, inflict Burn by the base amount of Bleed the Skill inflicts On Coin Hit [On Use] Gain +5 Aggro to this Skill Slot next turn 1 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Bind next turn (once per turn) 2 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Paralyze next turn (once per turn) [On Hit] Inflict 1 Bleed 3 [On Hit] If this unit has Middle Styled Augmentation Tattoos [Great Sister], deal Blunt damage equal to (Burn on target + Bleed on target)% of this Coin's final damage (max 20%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Gut Stab [Lævateinn]",
+      "type": "skill4",
+      "summary": "Skill 4 · . Blunt. Skill Power 3. Coins 5. Coin Power 3. Offense Level 62. Atk Weight -. If target has 4+ (Burn + Bleed), Final Power +1 [On Use] This Skill gains Offense Level equal to (highest Reson. / 2) (max 3; rounded down) [On Use] Gain +5 Aggro to this Skill Slot next turn [Before Attack] Gain Burn equal to the number of Coins in this Skill [Attack End] Lose 5 SP 1 Unbreakable Coin [On Hit] Inflict 4 Burn 2 Unbreakable Coin [On Hit] Inflict 4 Bleed 3 Unbreakable Coin [On Hit] Inflict +1 Burn Count 4 Unbreakable Coin [On Hit] Inflict +2 Bleed Count 5 Unbreakable Coin [On Hit] Inflict 1 Bind and 1 Paralyze next turn (once per turn)",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Stamp of Vengeance",
+      "type": "skill5",
+      "summary": "Skill 5 · . Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 62. Atk Weight -. Final Power +1 for every 4 (Burn + Bleed) on target (max 3) At 6+ Envy A-Reson., Coin Power +1 [Before Use] If this unit has Lævateinn, activate as \"Complete and Total Extermination\" [On Use] This Skill gains Offense Level equal to (highest Reson.) (max 6) [On Use] Final Power +1 for every The Middle - Vengeance Tattoo [Great Sister] on self (max 3) [On Use] Convert this Skill's Coins into Unbreakable Coins equal to The Middle - Vengeance Tattoo [Great Sister] on this unit, beginning with Coin 3 [On Use] If this unit's sword is at First Seal Removed or Second Seal Removed stage, inflict Burn by the base amount of Bleed the Skill inflicts On Coin Hit [Attack End] Consume all The Middle - Grudge on self [Attack End] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (once per turn) 1 [On Hit] Inflict 3 Bleed 2 [On Hit] Inflict +1 Bleed Count 3 [On Hit] Inflict 2 Bleed 4 Unbreakable Coin [On Hit] Inflict +1 Bleed Count",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Complete and Total Extermination [Lævateinn]",
+      "type": "skill6",
+      "summary": "Skill 6 · . Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 65. Atk Weight -. Lævateinn Exclusive Skill Final Power +1 for every 4 (Burn + Bleed) on target (max 3) Deal +1% damage for every 1 (Burn + Bleed) on target (max 40%) [On Use] This Skill gains Offense Level equal to (highest Reson.) (max 6) [On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], Coin Power +1 [On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], inflict 1 Bleed Potency On Coin Hit [Before Attack] Gain Burn equal to the number of Coins of this Skill [Attack End] Lose 5 SP [Attack End] Consume all The Middle - Grudge on self [Attack End] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (once per turn) 1 Unbreakable Coin [On Hit] Inflict 4 Burn 2 Unbreakable Coin [On Hit] Inflict +2 Burn Count 3 Unbreakable Coin [On Hit] Inflict 4 Bleed [On Hit] Deal Slash damage equal to ((Burn on target + Bleed on target) x 2)% of this Coin's final damage (max 50%) 4 Unbreakable Coin [On Hit] Inflict +2 Bleed Count [On Hit] Deal Slash damage equal to ((Burn on target + Bleed on target) x 2)% of this Coin's final damage (max 50%) 5 Unbreakable Coin [On Hit] Deal Pierce damage equal to ((Burn on target + Bleed on target) x 2)% of this Coin's final damage (max 25%) [On Hit] Deal Blunt damage equal to ((Burn on target + Bleed on target) x 2)% of this Coin's final damage (max 25%)",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Time to Unpack!",
+      "type": "skill7",
+      "summary": "Skill 7 · . Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. External effects cannot trigger this Skill to be Reused [On Use] If this unit has The Middle - Vengeance Tattoo [Great Sister], deal Slash damage equal to (25% of each Coin's final damage) On Coin Hit [Attack End] Remove a seal from the sword 1 Unbreakable Coin [On Hit] Inflict 3 Burn 2 Unbreakable Coin [On Hit] Inflict 3 Bleed 3 Unbreakable Coin [On Hit] Raise Stagger Treshold by 10 4 Unbreakable Coin [On Hit] Inflict 2 Envy Fragility next turn",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Good Girl. Your Sacrifice for the Family Won't Be Forgotten.",
+      "type": "skill8",
+      "summary": "Skill 8 · . Blunt. Skill Power 16. Coins 1. Offense Level 62. Lævateinn Lævateinn Exclusive Skill [Unclashable] [Target Fixed] External effects cannot trigger this Skill to be Reused, and this Skill does not trigger Defense Skills Final Power +1 for every 4 (Burn + Bleed) on the main target (max 3) [On Use] Final Power +1 and deal +10% damage for every The Middle - Vengeance Tattoo [Great Sister] on self (max 3, max 100%) [On Use] If The House of Spiders: The Middle Apprentice Ishmael is among targets, deal +100% damage [Attack End] Consume all The Middle - Grudge and gain 5 The Middle - Grudge [Attack End] If a targeted ally is killed, gain 10 The Middle - Grudge 1 Unbreakable Coin If target's Blunt Res. is below 'Normal' (1.0), treat it as Normal (1.0) [On Hit] Inflict 3 Burn and +2 Burn Count [On Hit] Inflict 3 Bleed and +2 Bleed Count [On Hit] Deal Blunt damage equal to (100% of this Coin's final damage)",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Rule Violation",
+      "type": "defense",
+      "summary": "Defense Counter · Envy. Blunt. Skill Power 4. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] At 6+ sum of Envy A-Reson., use \"Stamp of Vengeance\" or \"Complete and Total Extermination\" as Counter (activaties from the leftmost Skill Slot; activates 2 times per turn) [Combat Start] Gain 30% of missing HP as Shield (once per turn) 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Lower user's Stagger Threshold by 10",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Smell of Blood and Fire",
+      "type": "passive",
+      "summary": "This unit is considered as an Identity that inflicts Burn and Bleed. If this unit's sword has First Seal Removed or Second Seal Removed, Skills that inflict Bleed are considered as Skills that inflict both Burn and Bleed"
+    },
+    {
+      "name": "Sealed Sword [Lævateinn]",
+      "type": "passive",
+      "summary": "Upon entering the Encounter for the first time, gain Sealed Sword. When each Seal is removed from the sword, gain Rising Fever corresponding to the unsealing stage - Sealed Sword: Gain 1 Rising Fever - First Seal Removed: Gain 2 Rising Fever - Second Seal Removed: Gain 2 Rising Fever When the following conditions are met, lose 1 Rising Fever (once per turn) - Upon using the \"Stamp of Vengeance\" Skill, lose 1 Stack (including \"Stamp of Vengeance\" activation via Counter) - At 6+ sum of Envy A-Reson., lose 1 Stack at Turn End At 0 Rising Fever Stack, use \"Time to Unpack!\" as an Unopposed Attack at Skill End - Turn End: At 0 Rising Fever Stack, and if this unit failed to use \"Time to Unpack!\" in that turn, use \"Time to Unpack!\" at the next turn's Combat Start - While this unit's sword has Sealed Sword, at less than 80% HP, use \"Time to Unpack!\" regardless of Rising Fever Stack At 50%- HP, gain 3 Ridiculous Grit (once per Encounter) When Staggered for the first time in this Encounter, recover from Stagger at Turn End and gain 15 The Middle - Grudge (excluding forced Staggers) Turn Start: At 15 The Middle - Grudge, replace a Base Skill on this unit's Dashboard with \"Stamp of Vengeance\" or \"Complete and Total Extermination\" (3 times per Encounter) - Applies only on the Skill on the leftmost Slot's bottom row on the Dashboard - This effect does not activate if either \"Stamp of Vengeance\" or \"Complete and Total Extermination\" is already in the affected Slot Parenting If The House of Spiders: The Middle Apprentice Ishmael is on the field alongside this unit, activate the following effects: - On Clash Win, gain 1 Check This Out, Kiddo! (once per turn; if it was the first Skill this unit used in that turn, gain 1 additional Check This Out, Kiddo!) - On Hit using a Skill, gain 1 Check This Out, Kiddo! (once per turn; does not gain Check This Out, Kiddo! from using Cracked Coins) 【Effects apply only to The House of Spiders: The Middle Apprentice Ishmael】 - When Ishmael wins a Clash, Ishmael gains 1 I Got Praised! (once per turn; if it was the first Skill Ishmael used in that turn, Ishmael gains 1 additional I Got Praised!) - On Hit using Ishmael's Skill, Ishmael gains 1 I Got Praised! (once per turn; does not gain I Got Praised! from using Cracked Coins; if the Skill that hit was a Skill 3 activated as a Counter, gain 1 additional I Got Praised!) Saikai [再会] - The Middle If the Encounter begins while this unit is already defeated, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects: - Gain 1 Entanglement - Take -20% damage - When hit, gain 1 Offense Level Up (2 times per turn)"
+    },
+    {
+      "name": "Thanks… Kiddo.",
+      "type": "passive",
+      "summary": "When this unit has Lævateinn: When an ally that has less than 20% HP loses a Clash against an enemy, use \"Good Girl. Your Sacrifice for the Family Won't Be Forgotten.\" Skill that targets the said enemy as the main target and the said ally as the sub-target (once per Encounter). - The House of Spiders: The Middle Apprentice Ishmael has a 30% HP conditional instead of 20% If this Skill killed an ally in The Middle, gain 1 Envy DMG Up next turn - If this Skill killed The House of Spiders: The Middle Apprentice Ishmael, gain Avenging My Family next turn instead"
+    },
+    {
+      "name": "The Book of Vengeance - The House of Spiders Special Clause",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. Turn End: - Apply Vengeance Mark on the unit that dealt the most Skill damage to an ally - Apply Book of Vengeance [The House of Spiders] on the unit that dealt the most Skill damage to this unit Combat Start: Gain 1 The Middle - Grudge for every Envy Reson. (max 7) If the following conditions are met during the Combat Phase, gain 2 The Middle - Grudge - When this unit is hit by another unit's Skill (2 times per turn) - When The House of Spiders: The Middle Apprentice Ishmael is hit by another unit's Skill (once per turn) If the following conditions are met during the Combat Phase, gain 1 The Middle - Grudge (this unit and The House of Spiders: The Middle Apprentice Ishmael getting hit do not count toward either conditional below) - When a The Middle ally is hit by another unit's Skill (once per turn per Identity) - When a The House of Spiders ally is hit by another unit's Skill (once per turn per Identity) When this unit gains The Middle - Grudge, if the target has Vengeance Mark, gain an additional Stack of The Middle - Grudge Gain 1 The Middle - Vengeance Tattoo [Great Sister] every time this unit consumes 5 The Middle - Grudge 【Effects apply only to The House of Spiders: The Middle Apprentice Ishmael】 When The House of Spiders: The Middle Nursefather Outis is hit by another unit's Skill, Ishmael gains 2 The Middle - Grudge (once per turn) Someone Mess With the Family? x4 Envy [Res] Combat Start: Apply 1 Damage Up and 1 Protection on allies that equipped Counter Skills (2 times per Encounter; excluding Clashable Counters) - If the affected ally is in The Middle, apply 2 Envy DMG Up and 2 Protection instead"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-nursefather-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-middle-nursefather-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-middle-nursefather-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-middle-nursefather-outis",
+  "released": "28/May/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "285",
+    "speed": "4-7",
+    "level": 60
+  },
+  "review": "[The House of Spiders: The Middle Nursefather] Outis is the newest addition to the Middle team and the sacrificial team of [Blade of the House of Spiders] Ryōshū’s collections, performing better in the Middle team. While [The Middle Big Brother] Heathcliff was a glue that tied the Middle team together, Middle Outis is a stamp of approval on the team's effectiveness and strength. What does she bring to the table? Damage, a lot of it. Like really a lot. Let's talk about her Passives, 6 of them plus 1 Support Passive, and then about her 9 (!) skills and why her damage can reach absurd levels. Firstly, we will go over each of her unique statuses; she has 9 of them, by the way. - Sealed Sword - Middle Outis unique mechanic where you need to use Skill 3-3 from decreasing Rising Fever a total of 3 times to fully unbox Lævateinn, which normally takes 5 Turns on Middle team. On Sealed Sword, firs",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-nursefather-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SSS；梯度表 Damage Dealer SSS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Aggro Bind Bleed Burn Haste Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-middle-nursefather-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

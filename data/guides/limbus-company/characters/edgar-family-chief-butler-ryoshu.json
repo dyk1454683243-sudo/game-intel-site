@@ -1,0 +1,108 @@
+{
+  "id": "edgar-family-chief-butler-ryoshu",
+  "name": "Edgar Family Chief Butler Ryoshu",
+  "name_zh": null,
+  "name_en": "Edgar Family Chief Butler Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Bind Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Receiving Arts 1: The Hunt",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (max 3) [On Use] Gain +2 Poise Count 1 [On Hit] Gain +2 Poise Count 2 [On Hit] Inflict 2 B.M.",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Receiving Arts 7: Capture",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the main target's, gain Clash Power +1 for every 2 Speed difference (max 3) [Combat Start] Consume 6 Poise Count on self to gain +2 Atk Weight for this Skill 1 [On Hit] Gain 3 Poise [On Crit] Inflict 1 B.M. 2 [On Hit] Inflict 2 B.M.",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Receiving Arts 2: S.Y.N.C.",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 2. Coin Power 7. Offense Level 65. Atk Weight 1. If the target has B.M., Clash Power +1 If this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (max 2) [On Use] Gain +7 Poise Count 1 [On Hit] Gain 5 Poise [On Hit] Inflict 1 Bind next turn [On Hit] Raise Stagger Treshold by 30% of damage dealth [On Crit] Inflict 1 B.M. 2 [On Hit] If target is Staggered, deal +40% Damage on Critical Hit [On Hit] Inflict 2 B.M. [On Kill] Reuse Skill once on a random target with B.M. (Does not activate on Reuse. Does not activate when there are no remaining targets with B.M.)",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Mediocre",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. [On Evade] Heal 3 SP (5 times per turn) [On Evade] Gain +1 Poise Count (5 times per turn)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Clearing Household Chores",
+      "type": "passive",
+      "summary": "x3 Pride [Owned]. On Hit against targets with B.M., gain +1 Poise Count, and gain 1 Haste next turn (3 times per turn) On Crit against targets with B.M., eliminate B.M. on target; then, if this unit's Speed is faster than the target's, deal +10% Damage on Critical Hit for every 1 Speed difference (max 60%) Cleaning Command x4 Pride [Owned] When the ally that was deployed last wins a Clash, gain +1 Poise Count (3 times per turn), and gain 1 Haste next turn (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/edgar-family-chief-butler-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "edgar-family-chief-butler-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/edgar-family-chief-butler-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:edgar-family-chief-butler-ryoshu",
+  "released": "18/April/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-8",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Chief Maid Ryoshu is an interesting and strong Poise-focused Identity. She is focused on taking care of groups of enemies and her effectiveness goes down a bit against single bosses. Chief Maid Ryoshu skills roll up to 11 on S1, 16 on S2, and 18 on S3 in clashes, and they can go up to 14/19/23 respectively if the conditions are fulfilled. The main appeal of Chief Maid Ryoshu is her S2, which gains +2 Attack Weight by consuming 6 Poise Count on herself, making it hit 3 enemies. Her S3 can also be reused on another target if its last coin kills an enemy and if there's another enemy with B.M. Her Poise Count and gain are entirely self-sufficient, often generating more than enough to make the Poise Count cost on her S2 negligible, combined with the fact that she has a low amount of coins across all of her skills, meaning she won't chew through her Poise Count by getting crits on every hit. A",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/edgar-family-chief-butler-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Bind Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/edgar-family-chief-butler-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

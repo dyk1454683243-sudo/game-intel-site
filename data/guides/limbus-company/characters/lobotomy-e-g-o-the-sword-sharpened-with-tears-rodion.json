@@ -1,0 +1,144 @@
+{
+  "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+  "name": "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Charge Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "The Knight's Sanctuary",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If target has 6+ Sinking, Coin Power +1 At 3+ Protecting Sword, Clash Power +1 1 [On Hit] Inflict 1 Sinking 2 [On Hit] Inflict 1 Sinking Count [On Hit] Gain 2 Deep Tears - Gain 1 additional Deep Tears for every 2 Protecting Sword (max 2)",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Faded Faith",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 10. Coins 2. Coin Power -4. Offense Level 63. Atk Weight 1. Final Power +1 for every 3 Sinking on target (max 3) [On Use] Lose 7 SP 1 [On Hit] Inflict 2 Sinking 2 [On Hit] Inflict 1 Sinking Count [On Hit] Gain 2 Deep Tears - Gain 1 additional Deep Tears for every 2 Piercing Sword this unit had at Combat Start (max 2)",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "With the Power of Justice",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If target has 6+ Sinking, Coin Power +1 Clash Power +1 for every 2 Protecting Sword (max 2) [On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +15% damage 1 [On Hit] Inflict 3 Sinking 2 [On Hit] Inflict +2 Sinking Count [On Hit] Gain 3 Deep Tears - Gain additional Deep Tears equal to Protecting Sword (max 5)",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "With the Tear-sharpened Sword",
+      "type": "skill4",
+      "summary": "Skill 4 · Envy. Pierce. Skill Power 16. Coins 3. Coin Power -4. Offense Level 64. Atk Weight 1. Final Power +1 for every 3 Sinking on target (max 3) [On Use] Lose 10 SP [On Use] At 15+ Deep Tears, consume 5 Deep Tears to deal +20% damage 1 [On Hit] Inflict 3 Sinking 2 [On Hit] Inflict 2 Sinking and +2 Sinking Count [On Hit] Gain 3 Deep Tears - Gain additional Deep Tears equal to Piercing Sword this unit had at Combat Start (max 5)",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Arcana Pierce",
+      "type": "skill5",
+      "summary": "Skill 5 · Pride. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If target has 6+ Sinking, Coin Power +1 Clash Power +1 for every X Protecting Sword (max 5) [On Use] At 10+ Deep Tears, consume up to 20 Deep Tears - Deal +(Stack consumed x 1,5)% damage - +1 Base Power for every 5 Stack Consumed [After Attack] If target is defeated, regain half of Deep Tears consumed by this Skill 1 [On Hit] Inflict 3 Sinking Count 2 If this unit has Tear-sharpened or has consumed it with this Coin, deal +20% damage [On Hit] Inflict 1 Sinking equal to Protecting Sword (max 5)",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Arcana: Tear and Pierce",
+      "type": "skill6",
+      "summary": "Skill 6 · Pride. Pierce. Skill Power 20. Coins 3. Coin Power -5. Offense Level 66. Atk Weight 1. Final Power +1 for every 3 Sinking on target [On Use] Lose 15 SP [On Use] At 10+ Deep Tears, consume up to 20 Deep Tears - Deal +(Stack consumed x 3)% damage - Base Power +1 for every 5 Stack consumed [After Attack] If the target is defeated, regain half of Deep Tears consumed by this Skill 1 [On Hit] Inflict +4 Sinking Count 2 [On Hit] Inflict 5 Sinking (once per Skill) [On Hit] If this Coin consumed Tear-sharpened, Reuse Coin once",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "The Knight's Faith",
+      "type": "defense",
+      "summary": "Defense Counter · Gloom. Skill Power 3. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. [Clashable Guard] [Combat Start] Coin Power +1 for every 2 Protecting Sword (max 2) [Combat Start] Gain Shield equal to (SP / 3)% of this unit's max HP (once per turn) [On Use] Gain 5 Deep Tears (2 times per turn) [Turn End] At less than 3 Tear-sharpened, lose 15 SP and gain 1 Tear-sharpened (once per turn) - If this unit has Tear-sharpened, lose (Tear-sharpened Stack x 15) more SP 1 [Unbreakable Coin]",
+      "sin": "Gloom"
+    },
+    {
+      "name": "Weathered Pride",
+      "type": "defense",
+      "summary": "Defense Counter · Gloom. Pierce. Skill Power 12. Coins 2. Coin Power -4. Offense Level 62. Atk Weight 1. [Clashable Counter] [Combat Start] Final Power +1 for every 2 Piercing Sword (max 2) [On Use] Gain 5 Deep Tears (2 times per turn) [Turn End] At less than 3 Tear-sharepened, lose 15 SP and gain 1 Tear-sharpened (once per turn) - If this unit has Tear-sharpened, lose (Tear-sharpened Stack x 15) more SP 1 [Unbreakable Coin] [On Hit] Inflict 1 Sinking 2 [Unbreakable Coin] [On Hit] Inflict 2 Sinking",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Whispers of the Betrayed Knight",
+      "type": "passive",
+      "summary": "This unit's SP does not drop below -40 from the following effects:. - SP loss effects of this unit's Base Skills - SP loss effects from allies unit's Support Passives - SP loss effects from Tear-sharpened - SP loss effects from ally death in this unit's 'Base factors decreasing Sanity' In an Encounter, when this unit takes damage that brings its SP to -45, maintain this unit's SP at -44 for that turn (once per Encounter) - (This applies only to SP damages, does not apply to SP changes or SP consuming abiliites like using E.G.O Skills)"
+    },
+    {
+      "name": "Break, Tear, and Pierce",
+      "type": "passive",
+      "summary": "If this unit has Piercing Sword: before hitting an enemy with a Base Attack Skill, consume 1 Piercing Sword to inflict 1 Sinking. - If this unit has 2+ Piercing Sword before this turn's final Base Attack Skill's final Coin hits, consume all of it instead to inflict it as Sinking If this unit has 3 Tear-sharpened: before hitting an enemy with the final Coin of a Base Attack Skill, consume all Tear-sharpened to inflict 3 Sinking and +3 Sinking Count, and deal +50% damage with that Coin - If this effect activated, reset to 0 SP if this unit has less than 0 SP at Turn End. (when in Panic or E.G.O. Corrosion, recover) Then, heal 30 SP"
+    },
+    {
+      "name": "Magical Girl of Justice / Knight of Despair",
+      "type": "passive",
+      "summary": "x3 Gloom [Owned] x3 Pride [Owned]. When in Blessing state... - Take -(SP / 2)% HP damage from attacks (max 20%) - Combat Start: at 3+ Protecting Sword, gain 1 Protection - Combat Start: At 5 Protection Sword, gain 2 Protection and 1 Clash Power Up instead When in Despair state... - Deal +(-SP/2)% damage with Base Skills (max 20%) - Combat Start: at 3+ Piercing Sword gain 1 Damage Up - Combat Start: at 5 Piercing Sword, gain 2 Damage Up and 1 Power Up instead For All Those Who Despair x5 Gloom [Owned] Combat Start: applies to the ally with the earliest Deployment order At -15 or less SP, +1 Final Power to Minus Coin Skills At -30 or less SP, +15% damage and +1 Final Power to Minus Coin Skills instead"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+  "released": "17/July/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "278",
+    "speed": "4-7",
+    "defense": "65",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Normal"
+    },
+    "level": 60
+  },
+  "review": "The Sword Sharpened with Tears Rodion is the 6th Walp exclusive ID with hybrid Charge and Sinking mechanics. Her main gimmick is quite similar yet unique compared to her QoH counterpart Don Quixote. Rodion can also flip between Positive and Negative Coins, but unlike Don, she has no means of being forced out of negative SP stance once she has locked into Negative Coin mode. However, it is a good thing since she cannot go below -40 SP without losing Clash, and the better parts of her kit are locked behind the Negative SP “stance“. To flip into that stance, you need to use your Defensive Skill once, after which she starts to lose SP actively. With more uses of Defensive Skill, she will lose more SP per turn and start to deal more damage, but that is a matter to discuss within the skillset. Her built-in passives, which are always active, describe all of the QoL features of this unit. The fi",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Aggro Charge Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

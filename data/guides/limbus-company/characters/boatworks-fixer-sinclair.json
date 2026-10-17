@@ -1,0 +1,113 @@
+{
+  "id": "boatworks-fixer-sinclair",
+  "name": "Molar Boatworks Fixer Sinclair",
+  "name_zh": null,
+  "name_en": "Molar Boatworks Fixer Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "00",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fierce Assault",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 2. Coins 4. Coin Power 1. Offense Level 61. Atk Weight 1. At 10+ Tremor Count, Coin Power +1 1 [On Hit] Gain +2 Tremor Count [Heads Hit] Inflict +1 Tremor Count 2 [On Hit] Gain +2 Tremor Count [Heads Hit] Inflict +1 Tremor Count",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Steady",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 4. Coins 1. Coin Power 12. Offense Level 61. Atk Weight 1. [On Use] Gain +6 Tremor Count 1 [On Hit] Inflict +6 Tremor",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Gamble",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 1. Coin Power +1 for every 10 Tremor Count on self (Max 2) 1 [On Hit] At 10+ Tremor Count, spend all Tremor Count to inflict target with the same amount of Tremor Count [On Hit] At less than 10 Tremor Count, gain 10 Tremor and Burst Tremor on self Deal more damage equal to Tremor Burst damage",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Crab Bastards...!",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 58. Atk Weight 1. [On Use] Gain 1 Rupture Protection (3 times per turn)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Unstable Power Output",
+      "type": "passive",
+      "summary": "x4 Gloom [Owned]. On hit with Heads Coin at 10+ Tremor Count on self, Inflict +1 Tremor and Tremor Count with Coin effects"
+    },
+    {
+      "name": "Modified Power Output",
+      "type": "support",
+      "summary": "x4 Gloom [Owned]. 1 ally with the most Max HP inflicts +1 Tremor with the effects of their attacks skills/coins."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/boatworks-fixer-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "boatworks-fixer-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/boatworks-fixer-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:boatworks-fixer-sinclair",
+  "released": "27/July/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Slash",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "S1 requires coin power up to actually do something. He has good tremor application and coin rolls. Although he can stagger himself with S3 if you do not have enough tremor count on self. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/boatworks-fixer-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Sinclair / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/boatworks-fixer-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "the-ring-fauvist-student-meursault",
+  "name": "The Ring Fauvist Student Meursault",
+  "name_zh": null,
+  "name_en": "The Ring Fauvist Student Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rough Portrayal",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Deal +5% damage for every type of negative effect on target (max 15%) [On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (max 2) 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict +1 Bleed Count [On Hit] Inflict +1 Sinking Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Visceral Strokes",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Deal +5% damage for every type of negative effect on target (max 20%) [On Use] If target does not have Mauled Color [Rouge], Clash Power +1 [On Use] Coin Power +1 for every 6 (Bleed + Sinking) on target (max 2) 1 [On Hit] Inflict Bleed 2 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Sinking 3 [On Hit] Inflict +2 Bleed Count [On Hit] Inflict 1 Sinking",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Le Fauvisme - Reveal Submission",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. Deal +10% damage for every type of negative effect on target (max 60%) [On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (max 4) [On Use] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to Unbreakable Coin s - On Hit with the additional Coin: Randomly inflict (Mauled Color on target / 3) Bleed or Sinking Potency (max 3 each; rounded down) 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 2 Bleed [On Hit] Inflict 2 Sinking 3 [On Hit] Inflict +2 Bleed Count [On Hit] Inflict +2 Sinking Count [On Hit] Inflict 1 Mauled Color [Rouge]",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Coloring Preparations",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Blunt. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit has Le Fauvisme - Masque de Chie n, Base Power +2 [On Use] If target has 6+ (Bleed + Sinking), Coin Power +1 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Sinking",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-student-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-ring-fauvist-student-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-ring-fauvist-student-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-ring-fauvist-student-meursault",
+  "released": "16/April/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The Ring Fauvist Student Meursault (shortened to Ring Meursault) is a welfare event unit released alongside Ring Rodion. While being a Bleed and Sinking unit, he is strongly leaning towards Bleed infliction. His Main gimmick - infliction of Mauled Colour [Rouge], which is meant for increasing potency ramp-up and “sticky” debuff source for other ring IDs. Let’s go through his unique effects more thoroughly: - Mauled Color [Rouge] - This effect inflicts bonus Bleed Potency on hit (three maximum) and up to 2 Defense Level Down at the end of turns. - Le Fauvisme - Masque de Chien - A self buff he gains after inflicting 10 Mauled Color [Rouge] stacks. It gives him a minor damage buff and increased Bleed potency infliction. - Imperfections Addressed - Another self-damage buff that he gains from Ring Rodion while she uses her counter - 2. It lasts as long as her buff from counter - 2. Additiona",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-student-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Bleed Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-ring-fauvist-student-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

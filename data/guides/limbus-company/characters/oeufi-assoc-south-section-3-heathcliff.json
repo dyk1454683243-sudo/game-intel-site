@@ -1,0 +1,113 @@
+{
+  "id": "oeufi-assoc-south-section-3-heathcliff",
+  "name": "Öufi Assoc. South Section 3 Heathcliff",
+  "name_zh": null,
+  "name_en": "Öufi Assoc. South Section 3 Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Execution Advised",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 3 Tremor on target (Max 2) 1 [On Hit] Inflict 2 Tremor Count",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Final Warning",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 Tremor on target (Max 2) 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 2 Tremor",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Execution Sentencing",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 Tremor on target (Max 2) 1 [On Hit] Inflict 1 Tremor 2 [On Hit] Inflict 1 Tremor 3 [On Hit] If the sum of the target's Tremor Potency + Count is 20 or higher, trigger Amplitude Conversion on target, converting Tremor to Tremor - Decay (Amplitude Conversion: Converts Tremor or already converted Tremor on target to a different type of Tremor. Potency and Count values carry over with the conversion.)",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Do Not Obstruct",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 60. Atk Weight 1. When attacked while this unit has Shield, inflict +1 Tremor Count on the attacker (this effect does not stack with multiple uses)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Grave Attendance",
+      "type": "passive",
+      "summary": "x4 Pride [Owned]. Deal +10% more damage for every 6 Tremor Potency on target (Max 30%) When converting Tremor to Tremor Decay with this unit's Skill effects, trigger Tremor Burst on target"
+    },
+    {
+      "name": "Verify Obligation Fulfillment",
+      "type": "support",
+      "summary": "x6 Pride [Owned]. To 1 ally with the fastest Speed: Clash Power +1 to Skills that apply Tremor Potency or Count"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/oeufi-assoc-south-section-3-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "oeufi-assoc-south-section-3-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/oeufi-assoc-south-section-3-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:oeufi-assoc-south-section-3-heathcliff",
+  "released": "21/March/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "4-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Öufi Heathcliff is an ID that inflicts Tremor - Decay, which functions and interacts just like a normal Tremor. However, it additionally decreases the target Defense Level by 1 per 4 Tremor Potency, making it in theory a very great debuff. Now let us take a look at his Skills: - Skill 1 - Execution Advised - 2 Coin Skill, Base Roll – 11, Conditionals Met – 15. Inflicts Tremor Potency and Count. - Skill 2 - Final Warning - 2 Coin Skill, Base Roll – 16, Conditionals Met – 20. Inflicts Tremor Potency and Count. - Skill 3 - Execution Sentencing - 3 Coin Skill, Base Roll – 17, Conditionals Met – 23. On the third Coin, if the target’s Tremor Potency + Tremor Count ≥ 20, convert all Tremor to Tremor - Decay. Öufi Heathcliff clashes with other Tremor Conversion types, notably Reverb, making him sometimes risky to use. However, he is still worth running if you're able to trigger Tremor Entangleme",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/oeufi-assoc-south-section-3-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/oeufi-assoc-south-section-3-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

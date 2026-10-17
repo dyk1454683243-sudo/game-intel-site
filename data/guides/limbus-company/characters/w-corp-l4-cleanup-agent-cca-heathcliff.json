@@ -1,0 +1,113 @@
+{
+  "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+  "name": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+  "name_zh": null,
+  "name_en": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Charge Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Congestion Cleanup",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] At 3+ Charge, Coin Power +1 [On Use] Clash Power +1 for every 6 Charge Count on self 1 [On Hit] Gain +4 Charge Count [On Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict +1 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Boost: Elbow Blade",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 5. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 1. [Combat Start] Gain Charge Barrier equal to (2 + Charge Potency on self) (max 6, 1 per turn) [On Use] Consume 6 Charge Count to gain Coin Power [On Use] At 3+ Charge, Coin Power +1 1 [On Hit] Gain +6 Charge Count [On Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict 3 Rupture",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Rip Space - CCA Overdrive",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 3. Coins 4. Coin Power 2. Offense Level 65. Atk Weight 1. [Combat Start] If this unit has 3+ Charge Potency or less than 50% HP, convert all Coins in this Skill to Unbreakable Coin s - If this unit loses a Clash while this effect is active, Final Power +3 [On Use] At 10+ Charge Count, consume 10 Charge Count to gain +4 Coin Power [On Use] Gain Clash Power equal to Charge Potency on self (max 5) 1 [Heads Hit] Gain +1 Charge Count 2 [Heads Hit] Gain +1 Charge Count 3 [Heads Hit] Gain +2 Charge Count 4 [Coin Start] Consume up to 10 Charge Count to gain Coin Power for this Coin equal to (Charge Count consumed for this Coin) [On Hit] Inflict 2 Rupture [On Hit] Deal Slash damage equal to (Charge Potency x 10)% of this Coin's final damage (max 50%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "CCA Overcharge",
+      "type": "defense",
+      "summary": "Defense Guard · Envy. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. Clashable Guard [Combat Start] At less than 15 Charge Count, gain the following effects: - Gain Overcharge next turn (max 1 per turn) - Turn End: Remove this unit's first Stagger Threshold (once per Encounter) - Turn End: Add 1 Rip Space - CCA Overdrive to the list of Skills for the next upcoming turn (once per turn) 1 Unbreakable Coin",
+      "sin": "Envy",
+      "attack_type": "-"
+    },
+    {
+      "name": "Congestion Cleaning Armour",
+      "type": "passive",
+      "summary": "x5 Envy [Owned]. - Combat Start: If this unit has less than 50% HP, gain Shield equal to (Charge Potency x 5) (max 25) - Immediately before getting hit, gain Shield equal to (Charge Potency on self) (max 5, 3 times per turn) - If this unit gains Charge Count past the Max Charge Count Cap by using a Skill, the Skill deals +3% damage for every Charge Count that exceeds the Max Charge Count Cap (max 15%)"
+    },
+    {
+      "name": "One day I'll wear me Armour for Cancelled Trains",
+      "type": "support",
+      "summary": "x3 Envy [Res]. - Combat Start: If the unit with the earliest Deployement Order gains Charge Count past the Max Charge Count Cap by using a Skill, the unit gains 1 Charge Barrier next turn for every Charge Count that exceeds the Max Charge Count Cap (max 3, including E.G.O Skills)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l4-cleanup-agent-cca-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l4-cleanup-agent-cca-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l4-cleanup-agent-cca-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l4-cleanup-agent-cca-heathcliff",
+  "released": "23/October/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "304",
+    "speed": "4-6",
+    "defense": "63",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "W Corp. Heathcliff is a self-sufficient Charge ID, with a mix of a Damage Dealer and a Tank whose gameplay loop is tied to a Defensive Skill. Let's look at his Passives first: His always active Passive exists to provide a way of gaining Charge Potency and increasing Heathcliff’s survivability in the form of Defense Level Up. The main Passive, which requires 5 Envy Owned, can provide Heathcliff with constant shields to ward off cheap damage and even bigger hits when his HP drops below 50%. This Passive also “fixes” one of the issues of Charge Identities, which is Charge Count overflow. Normally, when Charge Identity would have gained Charge Count past 20, it would be considered “wasted”. Heathcliff turns that excess into bonus damage, albeit small; it is welcome. His Support Passive also follows the same “fix” policy of Normal Passive, where if an Identity would gain Charge Count past 20,",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l4-cleanup-agent-cca-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Aggro Charge Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l4-cleanup-agent-cca-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

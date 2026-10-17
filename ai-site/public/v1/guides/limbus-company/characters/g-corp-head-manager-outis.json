@@ -1,0 +1,113 @@
+{
+  "id": "g-corp-head-manager-outis",
+  "name": "G Corp. Head Manager Outis",
+  "name_zh": null,
+  "name_en": "G Corp. Head Manager Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "00",
+  "role": "Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Order",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Pierce. Skill Power 4. Coins 1. Coin Power 6. Offense Level 59. Atk Weight 1. If target has 5+ Sinking, Coin Power +2 1 [On Hit] Apply 2 Protection to the ally with the lowest speed",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Onslaught Command",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 6. Coins 1. Coin Power 10. Offense Level 59. Atk Weight 1. [On Use] Apply 1 Attack Power Up to the ally with the lowest speed 1 [On Hit] Give 2 Damage Up to the ally with the lowest speed",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Focus",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 6. Coins 1. Coin Power 16. Offense Level 59. Atk Weight 1. 1 [On Hit] Inflict 5 Sinking [On Hit] Inflict 2 Attack Power Down [Heads Hit] Inflict 4 Sinking",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Sloth. -. Skill Power 9. Coins 1. Coin Power 4. Offense Level 62. Atk Weight 1",
+      "sin": "Sloth",
+      "attack_type": "-"
+    },
+    {
+      "name": "Morale Boost",
+      "type": "passive",
+      "summary": "x2 Sloth [Res]. Next turn, give 2 Haste to self and allies adjacent to this unit on the Dashboard this turn"
+    },
+    {
+      "name": "Resolution",
+      "type": "support",
+      "summary": "x4 Sloth [Owned]. 1 ally with the highest HP randomly gains 1 Attack Power Up, 1 Defense Power Up, or Protection at the start of combat phase."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/g-corp-head-manager-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "g-corp-head-manager-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/g-corp-head-manager-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:g-corp-head-manager-outis",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "4-8",
+    "defense": "62",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "One coin wonder that inflicts buffs and debuffs, with her high speed these buffs will never land on her, althought like every single coin skills rolling tails is pretty much a death sentence for her. She has a spot in early Mirror Dungeon teams and sinking team. Both her field passive and support passive are just generally good and easy to proc. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/g-corp-head-manager-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Outis / Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/g-corp-head-manager-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

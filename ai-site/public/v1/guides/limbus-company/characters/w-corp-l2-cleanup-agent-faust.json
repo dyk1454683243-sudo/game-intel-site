@@ -1,0 +1,111 @@
+{
+  "id": "w-corp-l2-cleanup-agent-faust",
+  "name": "W Corp. L2 Cleanup Agent Faust",
+  "name_zh": null,
+  "name_en": "W Corp. L2 Cleanup Agent Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "00",
+  "role": "Bind Charge Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Energy Cycle",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Blunt. Skill Power 4. Coins 1. Coin Power 8. Offense Level 59. Atk Weight 1. [On Use] Gain +2 Charge Count 1 [On Hit] Gain 2 Charge Count",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Leap",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 6. Coins 2. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] Gain +3 Charge Count 1 [On Hit] Gain +3 Charge Count 2 [On Hit] Spend 3 Charge to inflict 4 Bind next turn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Overcharge",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 6. Coins 3. Coin Power 3. Offense Level 59. Atk Weight 1. At 5+ Charge Count, Clash Power +2 1 [On Hit] Spend 5 Charge to inflict 2 Attack Power Down and 3 Paralyze next turn.",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 10. Coins 1. Coin Power 2. Offense Level 65. Atk Weight 1",
+      "attack_type": "-"
+    },
+    {
+      "name": "Self-charging",
+      "type": "passive",
+      "summary": "x4 Envy [Owned]. Gain +1 Charge Count after an attack. A random ally gains +1 Charge Count after an attack."
+    },
+    {
+      "name": "Radio Comms",
+      "type": "support",
+      "summary": "x3 Envy [Owned]. 1 ally with the lowest Max HP gains +1 Charge Count."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l2-cleanup-agent-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l2-cleanup-agent-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l2-cleanup-agent-faust",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "271",
+    "speed": "2-4",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "W Faust is an ID that has great clashes and excellent debuffs. She also has stats that makes her pretty good at tanking attacks. The only downsides she may have is that her damage is bad and her speed is quite low, but her speed being low may be really good due to the fact that she can do one sided attacks and inflict insanely good debuffs or use any ego that helps the entire team by the time the turn ends. There's one case where slow speed can be good and this is that one case. Notable E.G.O Synergies: Fluid Sac - The only time where being one of the slowest IDs in the game has a benefit. Due to W Faust being among the slowest, she is most of the time guaranteed to use Fluid Sac at the end of the chain, meaning everything gets healed HP and SP after they are done with their actions.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Faust / Bind Charge Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l2-cleanup-agent-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

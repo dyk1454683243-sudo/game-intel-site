@@ -31,6 +31,15 @@
       "path": "guides/hw"
     },
     {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "name_zh": "边狱公司",
+      "character_count": 190,
+      "rich_count": 189,
+      "stub_count": 1,
+      "path": "guides/limbus-company"
+    },
+    {
       "id": "lo2",
       "name": "Last Origin 2",
       "name_zh": "Last Origin 2",

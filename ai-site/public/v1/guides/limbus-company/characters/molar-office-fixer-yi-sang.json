@@ -1,0 +1,106 @@
+{
+  "id": "molar-office-fixer-yi-sang",
+  "name": "Molar Office Fixer Yi Sang",
+  "name_zh": null,
+  "name_en": "Molar Office Fixer Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "00",
+  "role": "Discard Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Stay Calm",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 58. Atk Weight 1. If this Skill is Discarded, gain +4 Tremor Count [On Use] Gain +2 Tremor Count At 5+ Tremor Count, gain Coin Power +1 1 [On Hit] Inflict +2 Tremor Count",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Gamble",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Blunt. Skill Power 4. Coins 1. Coin Power 12. Offense Level 62. Atk Weight 1. If this Skill is Discarded, gain +4 Tremor Count [On Use] Discard the Skill of lowest rank in all of this unit's Skill Slots 1 [On Hit] Inflict +3 Tremor Count [On Hit] At 5+ Tremor Count, Burst Tremor. Reduce target's Tremor Count by 2",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Grinding the Molars",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 65. Atk Weight 1. [On Use] Discard the Skill of lowest rank in all of this unit's Skill Slots [On Use] Spend 10 Tremor Count to gain Coin Power +2 1 [On Hit] Inflict 4 Tremor [On Hit] If the Skill spent Tremor Count, Burst Tremor 2 [On Hit] Inflict 2 Defense Level Down [On Hit] If the Skill spent Tremor Count, Burst Tremor",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 10. Coins 1. Coin Power 5. Offense Level 60. Atk Weight 1. [On Use] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+      "attack_type": "-"
+    },
+    {
+      "name": "In Times Like These",
+      "type": "passive",
+      "summary": "x3 Sloth [Owned]. Upon Burst Tremor on an enemy, inflict 1 Defense Level Down per 4 Stagger Threshold raised (Max 5 per 1 enemy every turn) Cleaning Up the Mess x3 Sloth [Owned] When 1 ally with the lowest Max HP Bursts Tremor on an enemy, inflict 1 Defense Level Down per 4 Stagger Threshold raised (Max 3 per 1 enemy every turn) Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/molar-office-fixer-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "molar-office-fixer-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/molar-office-fixer-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:molar-office-fixer-yi-sang",
+  "released": "21/September/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "4-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Review"
+    },
+    "level": 60
+  },
+  "review": "Due to him utilizing the discard mechanic, Molar Yi Sang is an pretty solid ID for tremor teams, being able to inflict good Tremor Count for the team. His clashes are all pretty average though and damage is also on the lower end.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/molar-office-fixer-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Yi Sang / Discard Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/molar-office-fixer-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

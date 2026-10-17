@@ -1,0 +1,108 @@
+{
+  "id": "the-ring-pointillist-student-outis",
+  "name": "The Ring Pointillist Student Outis",
+  "name_zh": null,
+  "name_en": "The Ring Pointillist Student Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "00",
+  "role": "Bleed Burn Haste Rupture Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Dotting",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. If the target has 6+ Bleed, Clash Power +1 If the target has 10+ Bleed, Coin Power +1 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Sanguine Painting",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 5. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. If the target has 6+ Bleed, Clash Power +2 1 [On Hit] 40% chance to Reuse Coin. +20% more chance to Reuse Coin for every type of negative effect on the target (2 times max per Skill) [On Hit] +1 Inflict Bleed Count When Reusing Coin with this unit's Coin Effects, inflict +1 more Bleed Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Artwork Inspection",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. If the target has 6+ Bleed, Coin Power +1 Deal +12.5% more damage for every type of negative effect on the target (max 50%) [On Use] Apply 1 Haste next turn to 2 allies adjacent to this unit on the Dashboard 1 [On Hit] Inflict 3 Bleed [On Hit] Inflict 3 Potency of 1 of the following effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random. [After Attack] If the target is Staggered or defeated, apply 1 Pierce DMG Up next turn to 1 other ally with the highest SP. If the affected ally is a member of the Ring, apply 1 Pierce Power Up as well",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 4. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. [On Use] If the target has 10+ Bleed, Coin Power +7",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Multitude of Dots",
+      "type": "passive",
+      "summary": "x4 Lust [Owned]. Combat Start: Inflict 2 Potency of 1 of the following effects on 2 enemies with the least types of negative effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random. (In Focused Encounters, Parts) Rough Sketch x4 Lust [Owned] 1 ally with the least SP heals 4 SP when defeating an enemy with Bleed Heal 1 additional SP for every type of negative effect on the target. (max 4. 3 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-ring-pointillist-student-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-ring-pointillist-student-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-ring-pointillist-student-outis",
+  "released": "16/May/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "205",
+    "speed": "3-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Welcome back Kurokumo Hong Lu!! This ID is quite literally Kurokumo Hong Lu but without all of his drawbacks and even better infliction. This ID rolls on average 11/13/16 without conditionals, she benefits a lot from bleed so it's highly recommended that you inflict and maintain count so you can at the very least stack bleed on the enemy. With all of her conditional considered her skills become 14/15/18 which is all average numbers for a 2*. What makes her kit extremely strong and compariable to Kurokumo Hong Lu is her S2 ability, is that she can reuse her 2nd coin 2 times which allows her to deal 60 damage and inflict a total of 5 Bleed Count on the enemy. Any type of debuff counts for her reuse ability, for example Gaze, Nails, Bleed, Offense Level Down, Defense Level Down, etc, and she only needs 3 different debuffs to gurantee her S2's reroll. Her S3 is on the slouchier side, where i",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Outis / Bleed Burn Haste Rupture Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-ring-pointillist-student-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

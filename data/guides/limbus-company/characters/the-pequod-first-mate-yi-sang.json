@@ -1,0 +1,108 @@
+{
+  "id": "the-pequod-first-mate-yi-sang",
+  "name": "The Pequod First Mate Yi Sang",
+  "name_zh": null,
+  "name_en": "The Pequod First Mate Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "00",
+  "role": "Bind Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Impale",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Gain +2 Poise Count 1 [On Hit] Inflict 1 Bind next turn [On Hit] Inflict 2 Bleed",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Relentless Stabbing",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Gain +2 Poise Count At 5+ Poise, Clash Power +3 1 [On Hit] Gain 2 Poise 2 [On Hit] Inflict 1 Bleed [On Crit] Reuse this Coin (3 times max)",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Ambush",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. [On Use] Gain 5 Poise At 7+ Poise, Coin Power +1 1 [On Hit] Gain +2 Poise Count 2 [On Hit] Inflict 4 Bleed [On Crit] Inflict 6 Bleed Count",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 57. Atk Weight 1",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "The First Mate's Harpoon",
+      "type": "passive",
+      "summary": "x4 Pride [Owned]. On Crit, inflict 2 more Bleed with a Skill (6 times per turn) The First Mate's Acumen x4 Pride [Owned] On Crit, 1 ally with the most Poise inflict 2 additional Bleed with a Skill (6 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-pequod-first-mate-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-pequod-first-mate-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-pequod-first-mate-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-pequod-first-mate-yi-sang",
+  "released": "07/December/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-7",
+    "defense": "57",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Pequod Yi Sang is an ID that’s best used in the Mirror Dungeons, although can see some use in content like Story and Railway. His clashes aren’t particularly the best, but from the poise he gains with his Skills 1 and 2, he can build up poise fairly well and then dump it all into his Skill 2, which can roll up to 5 coins for a final skill power of 24. The main downside with this ID is that it can take a fair amount of turns for him to get up to the point where his Skill 2 always crits and you get the most value with it. Otherwise, it’s up to RNG whether or not he deals that much damage. Another thing to note for this ID is that Pequod Yi Sang is REALLY good for Bleed Teams. He inflicts a lot of bleed potency with his passive and allows for great bleed sustain by inflicting +6 Bleed Count on crits with his Skill 3.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-pequod-first-mate-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Yi Sang / Bind Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-pequod-first-mate-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

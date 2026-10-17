@@ -1,0 +1,107 @@
+{
+  "id": "the-ring-pointillist-student-yi-sang",
+  "name": "The Ring Pointillist Student Yi Sang",
+  "name_zh": null,
+  "name_en": "The Ring Pointillist Student Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Burn Rupture Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Paint Over",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Pierce. Skill Power 2. Coins 3. Coin Power 3. Offense Level 63. Atk Weight 1. If the target has 6+ Bleed, Clash Power +1 1 [Heads Hit] Inflict +2 Count for 1 of the following effects: Burn, Bleed, Tremor, Rupture, or Sinking. Effect selected at random 2 [On Hit] Inflict 2 Bleed",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Sanguine Pointillism",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 8. Coins 1. Coin Power 8. Offense Level 63. Atk Weight 1. Clash Power +1 for every 3 Bleed on target (max 2) Coin Power +1 for every 3 Bleed Count on target (max 2) 1 [On Hit] 40% chance to Reuse Coin, +20% more chance to Reuse Coin for every type of negative effect on the target (2 times max per Skill) [On Hit] Inflict +1 Bleed Count [On Hit] Inflict +3 Count for 1 of the following effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random.",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Hematic Coloring",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Pierce. Skill Power 3. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Clash Power +1 for every 3 Bleed on target (max 2) Coin Power +1 for every 3 Bleed Count on target (max 2) 1 [On Hit] Inflict +1 Bleed Count. If the target has 3+ types of negative effects, inflict +2 additional Bleed Count [On Hit] Inflict +3 Count for 1 of the following effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random. 2 [On Hit] Inflict 1 Bleed. If the target has 3+ types of negative effects, inflict 2 additional Bleed [On Hit] Inflict 2 Potency for 1 of the following effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random. 3 Deal +25% more damage for every type of negative effect on target (max 125%) [After Attack] If the target is Staggered or Defeated, inflict 2 Potency of 1 of the following effects on 2 enemies with the least negative effects: Burn, Bleed, Rupture, Tremor, or Sinking. Effect selected at random.",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Beat the Brush",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 61. Atk Weight 1. Base Power +1 for every 1 Bleed on target (Max 10)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Assignment Evaluation",
+      "type": "passive",
+      "summary": "x4 Lust [Owned]. On Hit, if the target has 4+ Bleed, heal 2 SP Heal 1 additional SP for every type of negative effect on the target. (max 3) If this unit's SP is at max, gain 2 Offense Level Up next turn when this unit heals SP with this effect. (This Passive activates 4 times max per turn) Practices on Aesthetics x4 Lust [Owned] 1 ally with the least SP heals 2 SP On Hit for every type of negative effect on the target (max 6) If the target has Bleed, heal 3 additional SP (This Passive activates 2 times max per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-ring-pointillist-student-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-ring-pointillist-student-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-ring-pointillist-student-yi-sang",
+  "released": "16/May/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Born 2024, Welcome back Suddenly One Day. Ring Yi Sang is an ID that utilizes negative status effects, meaning, he shines in Mirror Dungeon due to the amount of status effects the game mode has. Although without them he is still very good and can be put into any team. Ring Yi Sang skills normally roll 11 on S1, 16 on S2, and 15 on S3, but with conditions fulfilled numbers go up to 12/20/25 respectively. His passive helps him gain sanity very easily and on max sanity gain up 2 offense level per hit up to 8 offense level which translates to 2 more clash power on all of his skills. Now what counts as Negative Status you ask? In game this can be easily seen as Negative Status is written in a red text on the skills while Buffs are written in yellow on the skills tab meaning something like Cinq's Declared Duel and Butler Ryoshu's B.M. counts toward it. Going back to his kit, the reason why he",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-ring-pointillist-student-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Status Specialist S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Bleed Burn Rupture Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-ring-pointillist-student-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

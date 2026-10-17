@@ -1,0 +1,112 @@
+{
+  "id": "lcb-sinner-hong-lu",
+  "name": "LCB Sinner Hong Lu",
+  "name_zh": null,
+  "name_en": "LCB Sinner Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "0",
+  "role": "Rupture Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Downward Cleave",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 4. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. 1 [On Hit] Inflict 2 Sinking",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Dual Strike",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Slash. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If user took no damage last turn, Coin Power +1 1 [On Hit] Inflict 2 Sinking 2 [On Hit] Inflict 2 Rupture",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Whirlwind",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 6. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +2 If user took no damage last turn 1 [Heads Hit] Inflict 2 Attack Power Down [On Hit] Inflict 2 Sinking [On Hit] Inflict 2 Rupture",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Evade · . -. Skill Power 2. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1",
+      "attack_type": "-"
+    },
+    {
+      "name": "Entertainment",
+      "type": "passive",
+      "summary": "x2 Sloth [Res]. Heal 6 SP next turn."
+    },
+    {
+      "name": "Frivolous Jokes",
+      "type": "support",
+      "summary": "x5 Sloth [Owned]. At the start of combat phase, the ally with the lowest SP heals 6 SP."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcb-sinner-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcb-sinner-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcb-sinner-hong-lu",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "LCB Hong Lu has good clashing power and damage. With his easy to activate passive he can get to max sanity very fast.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "0 / Hong Lu / Rupture Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcb-sinner-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

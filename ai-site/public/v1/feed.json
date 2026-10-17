@@ -4,7 +4,7 @@
     "timezone": "Asia/Shanghai",
     "generated_at": "2026-09-27T16:40:11+08:00",
     "source": "digest+radar (real items only; never invented)",
-    "count": 34,
+    "count": 38,
     "note": "Includes 2026-09-29 cited BD2 notice and Nikke MINIKKE brief. Other rows unchanged."
   },
   "items": [
@@ -281,6 +281,38 @@
       "platform": "gamekee",
       "published_at": null,
       "source": "gamekee"
+    },
+    {
+      "title": "2026, Oct. 15th Scheduled Update Notice",
+      "url": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+      "game_id": "limbus-company",
+      "platform": "official",
+      "published_at": "2026-10-12T09:14:56.000Z",
+      "source": "official"
+    },
+    {
+      "title": "2026.10.15 (KST) New Identity Target Extraction",
+      "url": "https://store.steampowered.com/news/app/1973530/view/1846018067932619",
+      "game_id": "limbus-company",
+      "platform": "official",
+      "published_at": "2026-10-09T08:59:12.000Z",
+      "source": "official"
+    },
+    {
+      "title": "2026, Oct. 1st Scheduled Update Notice",
+      "url": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
+      "game_id": "limbus-company",
+      "platform": "official",
+      "published_at": "2026-09-28T08:59:21.000Z",
+      "source": "official"
+    },
+    {
+      "title": "New Content - Mirror of Sisyphe",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940410",
+      "game_id": "limbus-company",
+      "platform": "official",
+      "published_at": "2026-10-12T09:14:48.000Z",
+      "source": "official"
     }
   ]
 }

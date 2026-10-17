@@ -1,0 +1,108 @@
+{
+  "id": "the-one-who-grips-faust",
+  "name": "The One Who Grips Faust",
+  "name_zh": null,
+  "name_en": "The One Who Grips Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Nails Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cackle",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Pierce. Skill Power 4. Coins 2. Coin Power 3. Offense Level 64. Atk Weight 1. [Clash Win] Target loses 3 SP 1 [On Hit] Inflict 1 Nails 2 [On Hit] Inflict 2 Bleed",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "The Gripping",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. 1 [On Hit] Inflict 2 Nails 2 [On Hit] Inflict 3 Nails 3 [Heads Hit] Inflict 1 Paralyze next turn [On Hit] Inflict Gaze next turn",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Execution",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Blunt. Skill Power 6. Coins 3. Coin Power 2. Offense Level 64. Atk Weight 1. On kill, heal all allies for 10 SP and apply 1 Pierce DMG Up and Blunt DMG Up. 1 [On Hit] Inflict 2 Nails 2 [Heads Hit] Inflict 2 Nails 3 +70% Damage to targets with 5+ Nails",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Such Filth",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. [On Evade] Target loses 3 SP",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Whistles",
+      "type": "passive",
+      "summary": "x4 Lust [Res]. At the start of the combat phase, heal 2 allies with the lowest SP for 15 SP. If the ally is from N Corp also apply 2 Fanatic. Whispers x3 Lust [Res] At the start of the combat phase, heal the ally with the lowest SP for 15 SP. If the ally is from N Corp also apply 2 Fanatic."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-one-who-grips-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-one-who-grips-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-one-who-grips-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-one-who-grips-faust",
+  "released": "23/March/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "4-7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "N Faust is an ID that's really good with supporting other units by giving the Gaze debuff. If ran on a team that has a lot of lust, she can also support by providing a teamwide SP heal. Outside of that there's nothing significant with N Faust. Notable E.G.O Synergies: Hex Nail - N Corp Faust fuels Hex Nail nicely and this + Gaze can be a lot of damage boost in a proper team. Fluid Sac - N Corp Faust fuels this E.G.O. partially which makes it available for use more often.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-one-who-grips-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Support B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Bleed Nails Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-one-who-grips-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "liu-association-south-section-5-hong-lu",
+  "name": "Liu Association South Section 5 Hong Lu",
+  "name_zh": null,
+  "name_en": "Liu Association South Section 5 Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "00",
+  "role": "Burn",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Warm Up",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] Heal 3 SP 1 [On Hit] Inflict 1 Burn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Flowing Flame",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 6. Coins 2. Coin Power 2. Offense Level 60. Atk Weight 1. If target has 6+ Burn Count, Coin Power +2 1 [On Hit] Inflict 1 Burn; if target already has Burn, inflict 1 more 2 [On Hit] Inflict +1 Burn count; at 30+ SP inflict 1 more, at 45+ SP inflict 2 more",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Crimson Blaze Fist",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 5. Coins 2. Coin Power 6. Offense Level 60. Atk Weight 1. If target has 6+ Burn Count, Coin Power +1 1 [On Hit] Inflict 1 Burn; if target already has Burn, inflict +1 Burn Count 2 [Heads Hit] Heal 6 SP [On Hit] If target has 6+ Burn Count, raise Stagger Threshold by 30% of damage dealt",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 62. Atk Weight 1",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Flaring Up",
+      "type": "passive",
+      "summary": "x4 Wrath [Owned]. At 30+ SP, inflict +1 Burn Count with the effects of attack skills/coins. Isn't It Warm? x4 Wrath [Owned] 1 ally with the highest SP inflicts +1 Burn Count with the effects of attack skills/coins."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-5-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "liu-association-south-section-5-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/liu-association-south-section-5-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:liu-association-south-section-5-hong-lu",
+  "released": "06/April/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "3-6",
+    "defense": "61",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "An ID that specializes in burn count application. Unfortunately he is held back by his mostly below average clashing power and because of that he is mostly benched as his support passive is very good in a burn team. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/liu-association-south-section-5-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Hong Lu / Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/liu-association-south-section-5-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

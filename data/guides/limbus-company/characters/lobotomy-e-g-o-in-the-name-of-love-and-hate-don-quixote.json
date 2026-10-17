@@ -1,0 +1,119 @@
+{
+  "id": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+  "name": "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Charge Rupture Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "By Manager Esquire's Orders, I Am Here!",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Consume 5 Love/Hate Count on self to gain +1 Coin Power [On Use] Coin Power +1 for every 2 Love/Hate (max 2) [On Use] Gain +3 Love/Hate Count 1 [On Hit] Gain +3 Love/Hate [On Hit] Inflict 3 Rupture",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Where are... the villains...?",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 12. Coins 2. Coin Power -4. Offense Level 63. Atk Weight 1. Deal +5% damage for every Hysteria on self (max 15%) [On Use] Consume 5 Love/Hate Count on self to gain Base Power +1 [On Use] Base Power +1 for every 2 Love/Hat e on self (max 2) [On Use] Gain 3 Love/Hate Count [On Use] Lose 5 SP 1 [On Hit] Gain +3 Love/Hate Count [On Hit] Inflict 3 Sinking",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "With Love! Hyah!",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 6. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. [On Use] Deal +10% damage for every Love/Hate on self (max 50%) [On Use] Consume 6 Love/Hate Count on self to gain Coin Power +1 [On Use] Gain +5 Love/Hate Count 1 [On Hit] Gain +4 Love/Hate Count 2 [On Hit] Inflict 2 Rupture [On Hit] Inflict Mark of Villainy against the main target next turn",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Get out of my head...",
+      "type": "skill4",
+      "summary": "Skill 4 · Envy. Blunt. Skill Power 15. Coins 2. Coin Power -6. Offense Level 64. Atk Weight 1. Base Power +1 for every Hysteria on self (max 2) - At 3 Hysteria, gain +1 Atk Weight - Deal -50% damage against sub-targets [On Use] Consume 6 Love/Hate Count on self to gain Base Power +1 [On Use] Gain +5 Love/Hate Count [On Use] Lose 8 SP 1 [On Hit] Gain +3 Love/Hate Count 2 [On Hit] Inflict 2 Sinking [On Hit] Inflict Mark of Villainy against the main target next turn",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Arcana Beats!! / Minor Arcana Slave!!!",
+      "type": "skill5",
+      "summary": "Skill 5 · . Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Deal +30% damage for every Magical Arcana on self (max 90%) [On Use] At 3+ Love/Hate deal +(Love/Hate x 20)% Damage (max 100%) [On Use] At 3+ Love/Hate, gain Base Power +2 [On Use] Consume Love/Hate Count to gain Coin power (Coin Power +1 for every 5 Count consumed, max 4) [On Use] Gain +6 Love/Hate Count [After Attack] Gain 1 Magical Arcana 1 Unbreakable Coin 2 Unbreakable Coin [On Hit without Cracking] Inflict 2 Rupture 3 Unbreakable Coin [On Hit without Cracking] Inflict 2 Rupture",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Reversed Beats / Reversed Arcana Slave",
+      "type": "skill6",
+      "summary": "Skill 6 · . Blunt. Skill Power 20. Coins 3. Coin Power -6. Offense Level 65. Atk Weight 1. This Skill deals -50% damage against sub-targets [On Use] Consume all Hysteria; gain Clash Power +1 for every Stack consumed (max 3) [On Use] Consume Love/Hate Count to gain Clash Power (Clash Power +1 for every 5 Count consumed, max 4) [On Use] Deal +24% damage for every Love/Hate on self (max 120%) [Before Attack] Consume all Magical Arcana on self; gain +1 Atk Weight for every Stack consumed (max 3) - If this Skill consumed 3 Hysteria, gain +1 Atk Weight [Before Attack] If this Skill only has a single target (for Focused Encounters, a Part), deal +(20 x (Atk Weight - 1))% damage (max 80%) [Before Attack] Base Power -6 for every Cracked Coin (max -18) [Turn End] If this unit isn't at -45 SP, and is at less than 0 SP, heal 10 SP. Heal more SP the lower this unit's SP value is from 0 (2SP healed for every missing SP, max 50 SP) [On Use] Lose 10 SP 1 Unbreakable Coin 2 Unbreakable Coin [On Hit without Cracking] Inflict 2 Sinking 3 Unbreakable Coin [On Hit without Cracking] Inflict 2 Sinking",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Rapid Chant",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 2. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. [Clashable Guard] [On Use] +1 Base Power for every Hysteria (max 3) [On Use] Gain +4 Love/Hate Count 1 Unbreakable Coin"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+  "released": "17/July/2025",
+  "page_updated": "06/October/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The very adorable Love and Hate, Don Quixote, is a powerful Identity with a unique take on functionality in regards to Plus Coin and Negative Coin IDs, being among the first of IDs to be a hybrid of both. Love and Hate Don Quixote is a unique ID that, depending on whether she has positive or negative Sanity, she’ll use Plus Coins and Negative Coins respectively. Don’s kit may seem daunting at first, but it is actually easy to understand, which we’ll go over now. To begin Don’s plethora of different keywords, let’s start with the ones core to her kit, and move on from there. Firstly, “ Love/Hate” is her Unique Charge that gets applied on Encounter Start. This status behaves exactly like how normal Charge does, including the way some effects interact with Charge Potency/Count. Don’s “Magical Girl of Love / Queen of Hatred” Passive allows her to deal +2% damage for every Love/Hate Potency,",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Charge Rupture Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote，页内 Last updated 06/October/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

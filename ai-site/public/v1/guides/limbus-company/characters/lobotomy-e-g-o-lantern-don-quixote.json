@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-lantern-don-quixote",
+  "name": "Lobotomy E.G.O::Lantern Don Quixote",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Lantern Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "I Shall Nibble Thee",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 5. Coins 1. Coin Power 7. Offense Level 59. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn 1 [On Hit] Inflict +2 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Flashing Lure",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Slash. Skill Power 4. Coins 3. Coin Power 3. Offense Level 59. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn [On Use] If the target has 6+ Rupture, gain Coin Power +1 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture 3 [On Hit] Inflict 2 Rupture [On Hit] If the target less than 2 Rupture Count, inflict +3 Rupture Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Whirlwind Om-Nom-Nom",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 4. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] Gain +5 Aggro to this Skill Slot next turn [On Use] If the target has 6+ Rupture, gain Coin Power +1 1 [On Hit] Inflict +3 Rupture Count 2 [On Hit] Heal 15 HP. Heal by 50% more HP when reusing Coin. [On Hit] Heal additional HP based on Rupture on target (2 HP healed per 1 Rupture. Max 40). At 50%- HP, reuse Coin once",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Chattering Teeth",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 64. Atk Weight 1. [On Use] If the target has 6+ Rupture, gain Final Power +3 [Skill End] Heal HP equal to remaining Shield HP (Once per turn. Max Heal amount: 10% of Max HP)",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Om Nom Nom",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. If this unit's Skill Slot has Aggro, gain Clash Power +1 Heal 6 HP every time this unit hits enemies that targeted this unit with an Attack Skill in the Chaining Phase (For Abnormalities, each Part is calculated separately"
+    },
+    {
+      "name": "Illumilantern",
+      "type": "support",
+      "summary": "x5 Gluttony [Owned]. The ally with the highest Aggro Skill Slot heals 4 HP every time they hit an enemy that targets this unit (Does not apply to units without Aggro)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-lantern-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-lantern-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-lantern-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-lantern-don-quixote",
+  "released": "11/January/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-6",
+    "defense": "64",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "A tank with Rupture application. Her way of tanking is by making use of the self sustain she gets from hitting enemies who are trying to attack her in the Chaining Phase, This makes her very strong in focused fight but inconsistent in non-focused fight. Surprisingly she is either count positive or neutral unless S3 rerolls, If you have no Rupture Count her S2 inflicts 4 Count although if you already have Rupture Count you may wanna get atleast 4 Rupture Count as her Rupture Count application is on the last coin. Other than that she has average clashing power with conditions fulfilled Notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-lantern-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Don Quixote / Aggro Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-lantern-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

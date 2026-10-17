@@ -1,0 +1,108 @@
+{
+  "id": "t-corp-class-3-vdcu-staff-outis",
+  "name": "T Corp. Class 3 VDCU Staff Outis",
+  "name_zh": null,
+  "name_en": "T Corp. Class 3 VDCU Staff Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Bind Haste Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Prepare to Collect",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Tremor Count [On Use] If target has 6+ Tremor, Coin Power +1 1 [On Hit] Inflict +1 Tremor Count 2 [On Hit] Inflict +1 Tremor Count",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "T Corp. Microcavity Module",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Blunt. Skill Power 3. Coins 3. Coin Power 5. Offense Level 63. Atk Weight 1. [On Use] Gain +4 Tremor Count [On Use] If target has 6+ Tremor, Coin Power +1 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 2 Tremor [On Hit] If target has 10+ Tremor, consume 4 Tremor on target to apply +2 Tremor Count to both the target and self 3 If target is in either Amplitude Conversion or Amplitude Entanglement states, this Coin deals +60% damage [On Hit] If target isn't in either Amplitude Conversion or Amplitude Entanglement states, consume 3 Tremor Count on self to trigger Amplitude Conversion into Tremor - Chain [On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1)",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "T-3 Collector Mace Max Activation",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. If target is in either Amplitude Conversion or Amplitude Entanglement states, deal +30% damage If target has Time Moratorium, deal +30% damage [On Use] Coin Power +1 for every 6 Tremor on target (max 2) [On Use] If target has Bind, Clash Power +1 [After Attack] Lose Borrowed Time on self [After Attack] Gain Violent Collections (once per Encounter) 1 [On Hit] Inflict +2 Tremor Count [On Hit] Consume up to 3 Tremor on target - Gain +(Tremor consumed x 2) Tremor Count - Inflict (Tremor consumed - 1) Bind next turn 2 [On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; then, reduce the target's Tremor Count by 1 3 [Coin Start] Consume all Tremor Count on self - Coin Power +1 for every 4 Tremor Count consumed (max 5) - Deal +2% damage for every 1 Tremor Count consumed (max 100%) [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If this unit has Borrowed Time, trigger Tremor Burst [On Hit] If this unit has Borrowed Time, inflict 2 Time Moratorium",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Borrowed Time - Microcavity",
+      "type": "defense",
+      "summary": "Defense Guard · Sloth. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. Clashable Guard [Combat Start] If this unit is not in a Borrowed Time state, gain 4 Borrowed Time at Turn End (once per turn) [Clash Win] Apply +2 Tremor Count to both the target and self [Clash Lose] Gain +4 Tremor Count 1 Unbreakable Coin",
+      "sin": "Sloth",
+      "attack_type": "-"
+    },
+    {
+      "name": "Golden Time - Microcavity",
+      "type": "passive",
+      "summary": "x5 Sloth [Owned]. Turn End: If this unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger. (once per Encounter) If this unit has Borrowed Time, its Skills gain Final Power +1 Expeditious Execution of Official Duties x5 Sloth [Owned] 1 ally with the fastest Speed deals +10% damage when attacking a Staggered target."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-vdcu-staff-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "t-corp-class-3-vdcu-staff-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/t-corp-class-3-vdcu-staff-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:t-corp-class-3-vdcu-staff-outis",
+  "released": "31/July/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "216",
+    "speed": "4-7",
+    "defense": "62",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "T. Corp Outis is a Tremor-centric Identity who doesn't feel like a Season 6 identity due to her skill rolls and reliance on being in “Borrowed Time” state. Without being in “Borrowed Time” state, Outis’s skills will roll less than the majority of the Identities released before her. So let's look at her skills without factoring “Borrowed Time” status for now. - Skill 1 - Prepare to Collect - 2 Coins - Base roll 11 - Max roll 13 - Decent Tremor Count gain and infliction as far as skill 1 goes, but max roll leaves a bit to be desired. - Skill 2 - T Corp. Microcavity Module - 3 Coins - Base roll 18 - Max roll 21 - Decent Tremor application and gain while also triggering Amplitude Conversion into Tremor - Chain, which helps with Clashing. - Skill 3 - T-3 Collector Mace Max Activation - 3 Coins - Base roll 17 - Max roll 23 - This skill allows Outis to convert Borrowed Time to Violent Collectio",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-vdcu-staff-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Bind Haste Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/t-corp-class-3-vdcu-staff-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

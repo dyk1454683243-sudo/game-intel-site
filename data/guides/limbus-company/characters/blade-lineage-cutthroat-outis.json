@@ -1,0 +1,113 @@
+{
+  "id": "blade-lineage-cutthroat-outis",
+  "name": "Blade Lineage Salsu Outis",
+  "name_zh": null,
+  "name_en": "Blade Lineage Salsu Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "00",
+  "role": "Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Draw of the Sword",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 4. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. At 5+ Poise, Coin Power +1 1 [On Hit] Gain 4 Poise",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Acupuncture",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 5. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [Clash Win] Gain +2 Poise Count 1 [Heads Hit] Gain 2 Slash DMG Up next turn",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Decisive dive",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 6. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If target's HP is below 50%, Final Power +2 1 [On Crit] Raise first stagger treshold by 20% of damage dealt",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. At 6+ Poise, Coin Power +3",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Levelheaded",
+      "type": "passive",
+      "summary": "x2 Pride [Res]. Deal +20% damage to targets below 25% HP."
+    },
+    {
+      "name": "Double Tap",
+      "type": "support",
+      "summary": "x4 Pride [Owned]. 1 ally with the highest SP deals +30% damage to enemies below 25% HP."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/blade-lineage-cutthroat-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "blade-lineage-cutthroat-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/blade-lineage-cutthroat-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:blade-lineage-cutthroat-outis",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "2-5",
+    "defense": "60",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Can’t maintain poise on her own with very low coin rolls and her skills have barely any value whatsoever. Notable E.G.O. Synergy: Sunshower- helps with maintaining poise, but usually not worth it since you have to use it every so often just for that poise count",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/blade-lineage-cutthroat-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Outis / Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/blade-lineage-cutthroat-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

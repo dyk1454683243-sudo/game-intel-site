@@ -1,0 +1,113 @@
+{
+  "id": "lcb-sinner-ryoshu",
+  "name": "LCB Sinner Ryoshu",
+  "name_zh": null,
+  "name_en": "LCB Sinner Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "0",
+  "role": "Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Paint",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 4. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. 1 [On Hit] Gain 2 Poise next turn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Splatter",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Slash. Skill Power 4. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. 1 If target previously took damage this turn, deal +30% damage 2 If target previously took damage this turn, deal +30% damage",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Brushstroke",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 5. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. [Combat Start] Gain 2 Slash DMG Up 1 [On Hit] Gain 2 Poise next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Gluttony. -. Skill Power 2. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Indiscriminate Art",
+      "type": "passive",
+      "summary": "x3 Gluttony [Res]. Deal and take +25% damage."
+    },
+    {
+      "name": "Hustle",
+      "type": "support",
+      "summary": "x3 Gluttony [Res]. 1 ally with the lowest Max HP deals and takes +20% damage."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcb-sinner-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcb-sinner-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcb-sinner-ryoshu",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-6",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "LCB Ryoshu has average clashing power and damage for a base ID. Her passive is good although it has a risky drawback. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "0 / Ryōshū / Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcb-sinner-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lcb-sinner-don-quixote",
+  "name": "LCB Sinner Don Quixote",
+  "name_zh": null,
+  "name_en": "LCB Sinner Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "0",
+  "role": "Haste",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Joust",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 4. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. [Clash Win] Gain 2 Haste next turn",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Galloping Tilt",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 4. Coins 1. Coin Power 12. Offense Level 62. Atk Weight 1. [Clash Win] Gain 2 Attack Power Up next turn 1 [Heads Hit] Inflict 2 Bleed",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "For Justice!",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 3. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. Coin Power +2 at 10+ Speed 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed 3 [On Hit] Inflict +2 Bleed Count",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. -. Skill Power 2. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "x5 Lust [Owned]",
+      "type": "support",
+      "summary": "1 ally with the highest SP deals +10% Pierce damage."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcb-sinner-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcb-sinner-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcb-sinner-don-quixote",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Base Don has okay clashing power for a base ID. The only problem is that her s3 requirement is really hard to achieve on her own since you need to win clashes with s1’s low rolls No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "0 / Don Quixote / Haste"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcb-sinner-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

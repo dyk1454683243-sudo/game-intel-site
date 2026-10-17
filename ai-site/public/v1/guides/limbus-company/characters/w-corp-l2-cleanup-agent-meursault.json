@@ -1,0 +1,112 @@
+{
+  "id": "w-corp-l2-cleanup-agent-meursault",
+  "name": "W Corp. L2 Cleanup Agent Meursault",
+  "name_zh": null,
+  "name_en": "W Corp. L2 Cleanup Agent Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Charge Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rip",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 5. Coins 1. Coin Power 6. Offense Level 60. Atk Weight 1. [On Use] Gain 2 Slash Protection Gain +3 Charge Count 1 [On Hit] Gain +3 Charge Count",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Energy Cycle",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 5. Coins 3. Coin Power 2. Offense Level 60. Atk Weight 1. If at 5+ Charge Count, Coin Power +1 1 [Heads Hit] Inflict 2 Rupture 2 [Heads Hit] Inflict 2 Rupture 3 [On Hit] Inflict 3 Rupture [On Hit] Spend 3 Charge Count to inflict 2 Slash Fragility",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Energy Current",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 5. Coins 4. Coin Power 2. Offense Level 60. Atk Weight 1. At 5+ Charge Count, Coin Power +1 1 [On Hit] Spend 2 Charge Count to inflict 2 Defense Down 2 [On Hit] Spend 2 Charge Count to inflict 2 Defense Down 3 [On Hit] Spend 2 Charge Count to inflict 2 Defense Down 4 [On Hit] Spend 2 Charge Count to inflict 2 Defense Down",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 12. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. [Combat Start] Gain +2 Charge Count",
+      "attack_type": "-"
+    },
+    {
+      "name": "Enduring Spirit",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. When attacked, gain +1 Charge Count (Up to 6 times). After losing a clash, gain +1 Charge Count (Up to 6 times, counted independently of hits taken)"
+    },
+    {
+      "name": "Taciturn",
+      "type": "support",
+      "summary": "x4 Envy [Owned]. 1 ally with the lowest Speed inflicts +1 Rupture."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l2-cleanup-agent-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l2-cleanup-agent-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l2-cleanup-agent-meursault",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "4-8",
+    "defense": "64",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Main debuffer for a charge team. Although he needs a lot of help generating the charge for his skills. W Meursault is an ID that's capable of inflicting up to 8 Defense Level Down on S3, which is a good 20% damage increase. W Meursault struggles a lot with clashes without charge to provide him coin power, additionally he requires Uptie 4 to be realistically viable in a large number of content. Notable E.G.O Synergies: Regret - Due to W Meursault having S2 with 3 coins and S3 with 4 coins, Regret boosts clash and damage of W Meursault massively, in a way potentially putting him rather in damage dealer category and would put him higher in Support category.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Charge Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l2-cleanup-agent-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

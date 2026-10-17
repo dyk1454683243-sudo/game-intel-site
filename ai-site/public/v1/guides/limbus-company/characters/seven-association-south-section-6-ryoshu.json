@@ -1,0 +1,113 @@
+{
+  "id": "seven-association-south-section-6-ryoshu",
+  "name": "Seven Association South Section 6 Ryoshu",
+  "name_zh": null,
+  "name_en": "Seven Association South Section 6 Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "00",
+  "role": "Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Slash",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Blunt. Skill Power 4. Coins 1. Coin Power 8. Offense Level 65. Atk Weight 1. 1 [On Hit] Inflict 2 Rupture",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Upper Slash",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 1. Coin Power 14. Offense Level 65. Atk Weight 1. Skill Power +2 Against units with Slash Fragility. [Clash Win] Gain 1 Attack Power Up next turn. 1 [On Hit] Inflict 2 Defense Down",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Swash",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 4. Coins 3. Coin Power 5. Offense Level 65. Atk Weight 1. [Clash Win] This skill applies 2 additional stacks of Slash Fragility 1 [On Hit] Inflict 3 Slash Fragility next turn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Slash. Skill Power 8. Coins 1. Coin Power 4. Offense Level 65. Atk Weight 1. 1 [On Hit] Inflict 1 Slash Fragility",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "C.I.H.",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. Deal +10% Slash damage this turn."
+    },
+    {
+      "name": "Ice Breaker",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. 1 ally with the lowest Max HP inflicts +1 Rupture. Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "seven-association-south-section-6-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/seven-association-south-section-6-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:seven-association-south-section-6-ryoshu",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "193",
+    "speed": "3-7",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Direct upgrade from Base Ryoshu and even more so. She is incredibly good at clashing at Uptie 4, and works extremely well in all content. Her S3 inflicts a lot of Slash Fragility, so she is essential to setting up nukes on teams where most of the damage is slash. Notable E.G.O Synergies: 4th Match Flame - While Seven Ryoshu can not fuel this E.G.O. while in the proper team, it can enhance damage and clash of this ID",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ryōshū / Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/seven-association-south-section-6-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

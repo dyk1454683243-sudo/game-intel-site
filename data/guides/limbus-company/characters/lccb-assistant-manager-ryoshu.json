@@ -1,0 +1,108 @@
+{
+  "id": "lccb-assistant-manager-ryoshu",
+  "name": "LCCB Assistant Manager Ryoshu",
+  "name_zh": null,
+  "name_en": "LCCB Assistant Manager Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "00",
+  "role": "Ammo Poise Rupture Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Shove",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 5. Coins 1. Coin Power 5. Offense Level 61. Atk Weight 1. [On Use] Gain 2 Poise Count At 7+ Poise, Coin Power +1 1 [On Crit] Target loses 8 SP",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "T.N.",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. At 7+ Poise, Coin Power +1 1 [On Hit] Gain 2 Poise [On Crit] Inflict 2 Offense Level Down 2 [On Hit] Gain 1 Poise [On Crit] Inflict 1 Offense Level Down",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "O.O.F",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 4. Coins 3. Coin Power 3. Offense Level 63. Atk Weight 1. [On Use] Gain 4 Poise Gain +1 Coin Power for every 7 Poise on self (Max 2) 1 [On Crit] Gain 1 Poise Count 2 [On Crit] Gain 1 Poise Count 3 Spend 1 Ammo [On Crit] Double the application of Tremor & Rupture Potency and Count [On Hit] Inflict 4 Tremor and +2 Tremor Count [On Hit] Inflict 4 Rupture and +2 Rupture Count [On Hit] Burst Tremor",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 63. Atk Weight 1",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "A S.B.",
+      "type": "passive",
+      "summary": "x2 Gluttony [Owned]. - Always Active: Being encounters with 7 Ammo - If this unit has 7+ Poise at Turn End, heal 8 SP. - If this unit already has max SP upon meeting the above condition, gain 1 Poise next turn. The Lucky Cig x4 Pride [Owned] - If 1 ally with the least Ammo uses a Skill that spends Ammo, gain 3 Poise (ocne per turn; does not apply to allies without Ammo) - If 1 ally with the least Ammo uses up their last Ammo with a skill, deal 50% of the skill's damage as bonus damage to that Skill's target at Attack End."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lccb-assistant-manager-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lccb-assistant-manager-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lccb-assistant-manager-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lccb-assistant-manager-ryoshu",
+  "released": "16/November/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "4-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Jack of all trades master of none except she's horrible at it. The problem with her is that she uses poise as an enabler for other status effects while having NONE of it. She also has the problem of not being able to maintain her poise count consistently without a second slot, which her entire kit relies on, due to wanting to crit. The only saving grace for her is the effect of her skill 3, which can inflict 8 potency and 4 count of Tremor and Rupture while also bursting Tremor but unfortunately, without critting on the last coin, she will only inflict 4 potency and 2 count for Tremor and Rupture. Additionally, her skill 3 is the only skill that inflicts Tremor and Rupture, making her not that good of a status support. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lccb-assistant-manager-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ryōshū / Ammo Poise Rupture Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lccb-assistant-manager-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

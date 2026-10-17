@@ -1,0 +1,113 @@
+{
+  "id": "w-corp-l3-cleanup-agent-ryoshu",
+  "name": "W Corp. L3 Cleanup Agent Ryoshu",
+  "name_zh": null,
+  "name_en": "W Corp. L3 Cleanup Agent Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Barrier Charge Haste",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "E.C.",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 3. Coin Power 2. Offense Level 65. Atk Weight 1. At 10+ Charge Count, deal +10% damage At 15+ Charge Count, deal additional +10% damage 1 [On Hit] Gain +2 Charge Count 2 [On Hit] Gain +2 Charge Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Leap",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 2. Coins 3. Coin Power 5. Offense Level 65. Atk Weight 1. [On Use] Gain +7 Charge Count At 10+ Charge Count, gain +1 Coin Power At 15+ Charge Count, gain addditional +1 Coin Power 1 [On Hit] At 10+ Charge Count, inflict 2 Slash Fragility 2 [On Hit] If target's HP is below 30%, deal +30% damage [On Kill] Gain 3 Haste next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "D.D.E.D.R.",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 3. Coins 4. Coin Power 2. Offense Level 65. Atk Weight 1. [On Use] When between 7~14 Charge Count, Consume all Charge Count, And consume 3 x (15 - Charge Count Consumed)% HP to gain +5 Coin Power [On Use] Consume 15 Charge Count to gain +5 Coin Power 1 [Heads Hit] The Final Coin deals +10% damage 2 [Heads Hit] The Final Coin deals +10% damage 3 [Heads Hit] The Final Coin deals +10% damage 4 [On Kill] If the skill consumed 15 Charge Count upon use, apply 7 Charge Barrier to self and 1 random ally",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Charged Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 56. Atk Weight 1. Base Power +1 per 5 Charge Count (Max 3)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Dimensional Demon Edge",
+      "type": "passive",
+      "summary": "x5 Pride [Owned]. Upon defeating an enemy, gain +3 Charge Count (3 times per turn)"
+    },
+    {
+      "name": "Dimensional Refraction Edge - Type: Blade Mk7",
+      "type": "support",
+      "summary": "x5 Pride [Owned]. When an ally with the lowest Max HP defeats an enemy, they gain +3 Charge Count (Once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l3-cleanup-agent-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l3-cleanup-agent-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l3-cleanup-agent-ryoshu",
+  "released": "24/August/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-6",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "W Ryoshu is a Charge ID who is even more versatile and flexible than W Don. Her S1 is pretty unremarkle, rolling up to 9 and dealing up to 25 damage with 15+ Charge, but her S2 makes up for all of that with it rolling up to 17 when it doesn't have any charge and 23 with 15+ charge. It also inflicts 2 Slash Fragility on top of that and even more bonus damage on it's 3rd coin when the target has low HP. Finally, her S3 is W Don's Rip Space but can be used with at least 7 charge, although she takes a chunk of damage depending on how much charge you're missing from the 15 charge the skill demands, so healing in the form of passives and E.G.O is recommended. If you've spent 15 charge when using the skill, it also refunds back to you and gives another ally 7 Charge if you kill the enemy on it's last coin. Notable E.G.O Synergies: Blind Obsession allows this ID to gain a lot of charge in a sing",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Barrier Charge Haste"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l3-cleanup-agent-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

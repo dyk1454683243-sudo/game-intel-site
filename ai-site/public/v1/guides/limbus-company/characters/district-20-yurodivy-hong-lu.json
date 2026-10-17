@@ -1,0 +1,111 @@
+{
+  "id": "district-20-yurodivy-hong-lu",
+  "name": "District 20 Yurodivy Hong Lu",
+  "name_zh": null,
+  "name_en": "District 20 Yurodivy Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Deduction Start",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Gain +2 Tremor Count At 6+ Tremor Count, Coin Power +1 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Gain +2 Tremor Count",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Morph Cane Technique",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] If target has 6+ Tremor, Clash Power +1 [On Use] Gain +3 Tremor Count At 5+ Tremor Count, Coin Power +1 1 [On Hit] Gain +3 Tremor Count 2 [On Hit] Inflict 3 Tremor 3 [On Hit] If the target has 6+ Tremor, trigger Tremor Burst; then, reduce Tremor Count by 1",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "You're the Culprit!",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 3. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. [On Use] Clash Power +1 for every 6 Tremor on target (max 2) [On Use] At less than 15 Tremor Count on self, consume 10 Tremor Count to gain Coin Power +2 [On Use] Consume 15 Tremor Count on self to gain Coin Power +3 1 [On Hit] If this skill consumed Tremor Count on use, trigger Amplitude Entanglement into Tremor - Reverb 2 [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 3 [On Hit] If this skill consumed 10+ Tremor Count on Skill Use, trigger Tremor Burst; then, reduce target's Tremor Count by 1 4 [On Hit] If this skill consumed 10+ Tremor Count on Skill Use, trigger Tremor Burst; then, reduce target's Tremor Count by 1 - If this unit consumed less than 15 Tremor Count, trigger Tremor Burst on self after activating the above effect",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Wait?!",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 10. Coins 1. Coin Power 4. Offense Level 60. Atk Weight -. [On Use] Gain 2x (Tremor Count on target) as Shield HP (max 13)"
+    },
+    {
+      "name": "Vibroweld Morph-combat Cane (Unauthorized Invention)",
+      "type": "passive",
+      "summary": "x6 Sloth [Owned]. Turn End; gain Damage Up next turn equal to the number of times this unit triggered Tremor Burst this turn (max 3)"
+    },
+    {
+      "name": "In the Culprit's Shoes",
+      "type": "support",
+      "summary": "x3 Sloth [Res]. When #1 Deployed Identity triggers Tremor Burst with Skill and Coin effects, 25% chance to trigger an additional Tremor Burst (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "district-20-yurodivy-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/district-20-yurodivy-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:district-20-yurodivy-hong-lu",
+  "released": "13/June/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Charge ID disguised as tremor, Instead of applying a lot of tremor on the enemy instead he applies tremor count to himself as a way to function. He shines in Tremor team but as a standalone ID, he is still good as he doesn't rely on the enemy having tremor aside from clash power, and well his unique mechanic you don't lose out on much. His normal rolls are 11/16/15 but once his conditions are fulfilled it becomes 13/20/29, those conditions however normally take 2 turns to fulfill. His s3 rolls can vary between 25 and 29 if you are unlucky to get it as the last skill in the skill pools. His passive is just a generic damage up for each time he inflicts a tremor burst last turn which his s2 inflicts one and s3 inflicts three. His support passive on the other hand can be great but why would you bench him when you are running a tremor team. Now let's talk about his skill 3 it consumes a minim",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/district-20-yurodivy-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

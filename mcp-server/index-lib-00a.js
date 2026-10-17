@@ -209,6 +209,14 @@ const DEFAULT_WATCHLIST = {
     official_site: "https://astraeoratio.plaync.com/zh-tw/index",
     official_api: "asora_official",
   },
+  "limbus-company": {
+    name: "Limbus Company",
+    name_zh: "边狱公司",
+    gamekee_alias: "limbus",
+    keywords: ["Limbus Company", "边狱公司", "림버스 컴퍼니", "LimbusCompany"],
+    steam_appid: 1973530,
+    official_url: "https://store.steampowered.com/news/app/1973530",
+  },
 };
 
 const DEFAULT_SOURCES = {

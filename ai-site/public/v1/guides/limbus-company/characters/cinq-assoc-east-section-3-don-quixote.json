@@ -1,0 +1,103 @@
+{
+  "id": "cinq-assoc-east-section-3-don-quixote",
+  "name": "Cinq Assoc. East Section 3 Don Quixote",
+  "name_zh": null,
+  "name_en": "Cinq Assoc. East Section 3 Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Burn Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fa Jin",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [On Use] Gain +3 Poise Count 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Burn [On Crit] Inflict +1 Burn Count",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Virescent Flame Palm",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [Clash Win] Gain 3 Poise - Gain additional Poise Count equal to Nerve Strike - Don Quixote on the target 1 [On Hit] Gain +2 Poise Count 2 [On Hit] Inflict 2 Burn 3 [On Hit] Inflict 2 Burn [On Hit] Inflict 1 Defense Level Down for every 6 Burn on the target (max 5, once per turn) - Inflict additional Defense Level Down equal to Nerve Strike - Don Quixote on the target",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Prithee, let this be an enlightening bout",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Deal +15% more damage for every Nerve Strike - Don Quixote on the target (max 45%) If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [Clash Win] Gain 5 Poise - If the target has Nerve Strike - Don Quixote, gain 3 additional Poise 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Burn 3 [On Hit] Inflict 2 Burn 4 Deal (Poise on self + Burn on the target)% more damage on Critical Hit (max 50%) [On Hit] If the tareget has Nerve Strike - Don Quixote, inflict 3 Defense Level Down",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Thou'rt in dire need of a lesson in table manners!",
+      "type": "defense",
+      "summary": "Defense Evade · Wrath. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, gain +1 Coin Power for every 2 Speed difference (max 2)",
+      "sin": "Wrath",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-assoc-east-section-3-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-assoc-east-section-3-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-assoc-east-section-3-don-quixote",
+  "released": "06/March/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-7",
+    "defense": "62",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Cinq Assoc. East Section 3] Don Quixote is the first true ID that utilizes Burn and Poise together while also utilizing the Speed and Duel aspect of the Cinq faction. Cinq East Don’s main strength lies in focused encounters where she can stack “Nerve Strike - Don Quixote”. “Nerve Strike - Don Quixote” is a status that is split into 3 stacks and is inflicted on her last Base Skill hit if her Passive is active. It increases by 1 every time Cinq Don attacks the target with the status. - 1x Stack: Gain Clash Power +1 - 2x Stack: Gain Base Power +1 - 3x Stack: Gain Clash Power +1 and Base Power +1 Aside from these she also gains more Crit Damage from this status. While it may sound powerful, it has the same problem as Cinq Meursault, albeit less problematic as you are forced to target only one enemy/part to get the full benefits, which may not be an option always. As such, the skill overview",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Burn Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-assoc-east-section-3-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

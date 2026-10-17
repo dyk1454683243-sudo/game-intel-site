@@ -29,10 +29,11 @@ const WATCH = {
   asora: { name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   miraesi: { name: "Invisible Future", name_zh: "미래시" },
   lo2: { name: "Last Origin 2", name_zh: "Last Origin 2" },
+  "limbus-company": { name: "Limbus Company", name_zh: "边狱公司" },
 };
 
 /** Games whose non-stub cards must carry a conclusion (`summary`) row. */
-const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2"]);
+const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2", "limbus-company"]);
 
 function rmrf(p) {
   if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true });
@@ -263,6 +264,15 @@ function exportGame(game, asOf) {
     if (CONCLUSION_GAMES.has(game)) {
       indexRow.portrait = typeof c.portrait === "string" && c.portrait ? c.portrait : null;
     }
+    if (c.sinner && typeof c.sinner === "object" && c.sinner.id) {
+      indexRow.sinner = {
+        id: c.sinner.id,
+        name_en: c.sinner.name_en || "",
+        name_zh: c.sinner.name_zh || "",
+        order: Number(c.sinner.order) || 0,
+      };
+    }
+    if (c.rarity) indexRow.rarity = c.rarity;
     indexChars.push(indexRow);
   }
 

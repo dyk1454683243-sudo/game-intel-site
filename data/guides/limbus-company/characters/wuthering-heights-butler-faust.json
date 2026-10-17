@@ -1,0 +1,108 @@
+{
+  "id": "wuthering-heights-butler-faust",
+  "name": "Wuthering Heights Butler Faust",
+  "name_zh": null,
+  "name_en": "Wuthering Heights Butler Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "00",
+  "role": "Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Confiscation",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] If the target has 6+ Sinking, Coin Power +1 1 [On Hit] Inflict 2 Sinking",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Interloper Reception",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 4. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. [On Use] If the target has 5+ Sinking, Clash Power +1 [On Use] If the target has 3+ Sinking Count, Coin Power +1 1 [On Hit] Inflict +3 Sinking Count",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Reception Arts 4: Heartseal",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 4. Coin Power 2. Offense Level 64. Atk Weight 1. [On Use] If the target has 5+ Sinking Count, Coin Power +2 1 [On Hit] Inflict +3 Sinking Count 2 [On Hit] Inflict 2 Echoes of the Manor next turn [On Hit] If the target has Echoes of the Manor, inflict +3 Sinking Count",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Hunting Plans",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 7. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. [On Use] If the target has 10+ Sinking, Coin Power +7",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Butler Style Response",
+      "type": "passive",
+      "summary": "x4 Gloom [Owned]. - Clash Win: inflict 1 Sinking on target (3 times per turn) - If the target has Echoes of the Manor, inflict 3 Sinking instead Anticipatory Training x4 Gloom [Owned] When 1 ally with the least SP hits an enemy with 5+ Sinking, the ally heals 3 SP On Hit (4 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-butler-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "wuthering-heights-butler-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/wuthering-heights-butler-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:wuthering-heights-butler-faust",
+  "released": "04/April/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "238",
+    "speed": "4-6",
+    "defense": "59",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Wuthering Heights Butler Faust is a Sinking Support ID with great Sinking application and passable clashes. In a Sinking Team, where she should be used generally, her clashes go up to 11/17/20 which is good clashes for a 00 ID. On top of that, Faust is not only Sinking Count positive on most of her skills, but also her Sinking Potency application is pretty good thanks to her easy to access passive. Wuthering Heights Butler Faust can also inflict Echoes of the Manor on her S3 but Manor is rather lackluster effect and should be treated as a bonus, rather than something to be relied on. For a Sinking Team, Wuthering Heights Butler Faust is an all around great ID for stacking Sinking Count on an enemy, helping the team maintain a high Sinking Potency. Notable E.G.O. Synergies: Fluid Sac – Wuthering Heights Butler Faust fuels Fluid Sac partially and grants access to it to Sinking team without",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-butler-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Faust / Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/wuthering-heights-butler-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

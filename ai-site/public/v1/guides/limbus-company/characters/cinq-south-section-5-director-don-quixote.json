@@ -1,0 +1,113 @@
+{
+  "id": "cinq-south-section-5-director-don-quixote",
+  "name": "Cinq Association South Section 5 Director Don Quixote",
+  "name_zh": null,
+  "name_en": "Cinq Association South Section 5 Director Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Bind Haste",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Remise",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 4. Coins 2. Coin Power 3. Offense Level 64. Atk Weight 1. At 7+ Speed, Coin Power +2 [Clash Win] Gain 1 Haste next turn 1 [Hit after Clash Win] Inflict 1 Bind next turn",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Fleche",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 5. Coins 2. Coin Power 5. Offense Level 64. Atk Weight 1. [On Use] Gain 2 Haste next turn [Clash Win] Deal more damage based on Clash count (5% per Clash count, Max 50%) 1 [On Hit] Inflict 1 Bind next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Salut!",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 6. Coins 2. Coin Power 6. Offense Level 64. Atk Weight 1. At 10+ Speed, Coin Power +3 [Clash Win] Deal more damage based on Clash count (10% per Clash count, Max 100%) 1 [On Hit] Declare Duel - Don Quixote 2 [On Kill] Heal 15 SP",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Defensive",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. [On Evade] Target loses 3 SP",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "A Noble Duel",
+      "type": "passive",
+      "summary": "x3 Pride [Res]. If Speed of all allies is higher than Speed of all enemies, this unit deals more damage based on the Speed difference between it and the slowest enemy. (6% per 1 point of difference, Max 30%)"
+    },
+    {
+      "name": "Dueling Request",
+      "type": "support",
+      "summary": "x3 Pride [Res]. If Speed of all allies is higher than Speed of all enemies, the fastest ally deals more damage based on the Speed difference between it and the slowest enemy. (3% per 1 point of difference, Max 15%)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-5-director-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-south-section-5-director-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-south-section-5-director-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-south-section-5-director-don-quixote",
+  "released": "20/July/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "209",
+    "speed": "4-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Cinq Don by far has the most niche and hardest playstyles in the game, while also having the least payoff for that playstyle ever. Yes, even moreso than Sunshower Heathcliff. Her overall clashes lean on the more average side of things while also having an extremely fast speed range. Unfortunately the entire playstyle is clashing with the enemy as often as possible while also being extremely fast, that in of itself being extremely inconsistent to the point where it's unreasonable because to reach her max potential in terms of dealing damage to the enemy, she must clash with the enemy 10 times at maximum which is very, very rng dependant.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-5-director-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Bind Haste"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-south-section-5-director-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

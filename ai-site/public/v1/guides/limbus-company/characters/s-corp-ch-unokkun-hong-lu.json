@@ -1,0 +1,105 @@
+{
+  "id": "s-corp-ch-unokkun-hong-lu",
+  "name": "S Corp. Ch'unokkun Hong Lu",
+  "name_zh": null,
+  "name_en": "S Corp. Ch'unokkun Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Bind Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Constricting Ohra Bonds",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 2. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (max 2) [On Use] If target has Trussed [Hong Lu], Final Power +1 [On Use] Gain +3 Poise Count 1 [On Hit] Gain 4 Poise [On Hit] Inflict +2 Bleed Count 2 [On Hit] Inflict 2 Bleed 3 [On Hit] Inflict 1 Bind next turn [On Hit] If target has Trussed [Hong Lu], inflict Trussed [Hong Lu]",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Avulsion Slash",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (max 2) [On Use] If target has Trussed [Hong Lu], Final Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain 3 Poise [On Hit] Inflict 2 Bleed 2 [On Hit] If target has 2+ Trussed [Hong Lu], consume 1 Trussed [Hong Lu] on target to Reuse this Coin (once per skill) [On Crit] Inflict 1 Avulsion Wound [Reuse - On Hit] Gain 2 Haste next turn [Reuse - On Hit] Activate Bleed on target. Target loses 1 Bleed Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Hunter's Scouring",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight -. [On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (max 2) [On Use] If target has Avulsion Wound, deal +20% damage [On Use] If target has Trussed [Hong Lu], convert all Coins in this Skill to Unbreakable Coins, gain Final Power +1, and the final Coin applies the following On Hit: - Inflict +2 Bleed Count - Inflict 1 Attack Power Down next turn [On Use] Gain 5 Poise [On Use] Gain +3 Poise Count [On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (max 2) [On Use] If target has Trussed [Hong Lu], Final Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Inflict 1 Bind next turn [On Hit] If target does not have Trussed [Hong Lu], inflict Trussed [Hong Lu] 2 [On Hit] Inflict +2 Bleed Count 3 [On Hit] Inflict 2 Bleed 4 Deal +50% damage on Critical Hit [On Hit] Inflict 3 Bleed [On Hit] Inflict 1 Avulsion Wound [On Crit] Inflict 1 Avulsion Wound [On Crit] Inflict 1 Pride Fragility next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Throwing the Ohra Bond",
+      "type": "skill4",
+      "summary": "Skill 4 · Pride. Skill Power 5. Coins 1. Coin Power 8. Offense Level 62. Atk Weight 1. [Clashable Counter] [On Use] At 6+ (Poise on self + Bleed on target), Clash Power +2 [On Use] Gain 5 Poise [Clash Win] Gain +3 Poise Count 1 Unbreakable Coin [On Hit] Inflict Trussed [Hong Lu] [On Hit without Cracking] Inflict 1 Bleed",
+      "sin": "Pride"
+    },
+    {
+      "name": "Scouring Hunterband [推刷巾]",
+      "type": "passive",
+      "summary": "x3 Pride [Res]. If this unit's Speed is faster than the target's, deal +(Speed difference x 2)% damage (max 10%) - If target is Trussed [Hong Lu], double the above damage increase effect (max 20%) Combat Start: Deal +5% damage for every ally that has a Slash Pride Skill equipped this turn (max 30%) Spiteful Pursuit xOwned 5 [?] When 1 ally with the earliest Deployment order attacks an enemy that has Bind, deal 10% damage"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/s-corp-ch-unokkun-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "s-corp-ch-unokkun-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/s-corp-ch-unokkun-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:s-corp-ch-unokkun-hong-lu",
+  "released": "11/June/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "258",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal"
+    },
+    "level": 60
+  },
+  "review": "Ch’unokkun Hong Lu is a promising Bleed and Poise ID that introduces the new status “Trussed”, which entails targeting a specific unit who has the Trussed status for more damage on them as well as debuff infliction. To begin with his kit, we will first start with Hong Lu’s unique effects and his two passives. - Trussed [Hong Lu]- will make the person inflicted with it have 2 less min and max speed and take +10% Pride damage. This effect would only decay on turn end when the inflictor did not hit the enemy with this status and when the inflictor leaves the battlefield or inflicts it onto another enemy. You can stack this effect up to 3 times.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/s-corp-ch-unokkun-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Status Specialist S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Bind Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/s-corp-ch-unokkun-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-hornet-alteration-meursault",
+  "name": "Lobotomy E.G.O::Hornet (Alteration) Meursault",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Hornet (Alteration) Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Bleed Burn",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Warning Shot",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. Deal +5% damage for every 5 Spore on target (max 30%) [Before Use] At max Spore Round [Base], inflict 1 Pierce Fragility On Hit (once per turn) [On Use] Coin Power +1 for every 6 (Burn + Bleed) on target (max 2) 1 Spend 1 Spore Round [Base] [On Hit] Inflict 2 Burn 2 Spend 1 Spore Round [Base] [On Hit] Inflict 2 Bleed",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "E.G.O Alteration - Buckshot",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 2. Deal -50% damage against sub-targets Deal +15% damage for every 5 Spore on target (max 45%) [On Use] If the main target has 6+ (Burn + Bleed), Coin Power +1 [On Use] If this unit has Loyalty Pheromone, Clash Power +1 [On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coin s, beginning with the final Coin [Attack End] At 1 or fewer Spore Round [Base], Reload [Germination] 1 Spend 1 Spore Round [Buckshot] [On Hit] Inflict +1 Burn Count 2 Spend 1 Spore Round [Buckshot] [On Hit] Inflict +2 Bleed Count 3 Spend 1 Spore Round [Buckshot] [On Hit] Inflict +1 Burn Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Field Test - Dust Spark",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 65. Atk Weight 2. Deal +50% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, the part) Deal +10% damage for every 5 Spore on target (max 30%) [Before Use] At 2 or fewer Spore Round [Base], consume 6 SP to gain 3 Spore Round [Base] [On Use] Coin Power +1 for every 6 (Burn + Bleed) on the main target (max 3) [On Use] If this unit has Loyalty Pheromone, Clash Power +1 [On Use] Convert Coins equal to Loyalty Pheromone into Unbreakable Coin s, beginning with the 3rd Coin [On Use] At 3 Loyalty Pheromone, gain Atk Weight +1 [Attack End] Reload [Germination] 1 This Coin hits only a single Target (prioritizes the main target) Spend 1 Spore Round [Base] [On Hit] Inflict 3 Burn 2 This Coin hits only a single Target (prioritizes the main target) Spend 1 Spore Round [Base] [On Hit] Inflict 2 Bleed 3 This Coin hits only a single Target (prioritizes the main target) Spend 1 Spore Round [Base] [On Hit] Inflict 2 Bleed 4 Unbreakable Coin Spend 1 Spore Round [Buckshot] Deal -50% damage against sub-targets This Coin Deals +5% damage for every Loyalty Pheromone on self (max 15%) [On Hit without Cracking] If target's Spore is at max Stack, activate the following: - Deal (Burn Potency x Spore Stack / 10) Wrath damage (rounded down) - Dealing Wrath damage with this effect counts as activating Burn - Target loses 1 Burn Count - Spore on target expires [On Hit] Inflict +1 Burn Count and +2 Bleed Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Spore Germination",
+      "type": "defense",
+      "summary": "Defense Evade · Wrath. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. [Combat Start] Reload [Germination] (once per turn [On Evade Use] Coin Power +1 for every 6 (Burn + Bleed) on the attacker (max 3) [On Evade] Heal 10 HP (once per turn) - If this unit has Loyalty Pheromone, heal an additional 5 HP for every Stack",
+      "sin": "Wrath",
+      "attack_type": "-"
+    },
+    {
+      "name": "Spore Diffusion",
+      "type": "passive",
+      "summary": "x3 Wrath [Owned]. On Kill against targets with Spore, gain the following effects: - Inflict double the Spore for the next turn - On Kill with a Base Attack Skill, gain (Spore Round the Skill spends / 2) Spore Round (rounded up; once per Skill)"
+    },
+    {
+      "name": "Worker Bee",
+      "type": "support",
+      "summary": "x4 Wrath [Res]. Ally Pierce Base Attack Skill End: The said ally heals HP equal to 10% of HP damage dealt with the attack (2 times per Encounter) - For this turn, if all Base Attack Skills equipped on allied Skill Slots are Pierce Skills, all allies heal 10 SP at Turn End"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-hornet-alteration-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-hornet-alteration-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-hornet-alteration-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-hornet-alteration-meursault",
+  "released": "05/March/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "223",
+    "speed": "4-8",
+    "defense": "60",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Lobotomy EGO: Hornet Meursault, who will be referred to as Hornet Meursault for the rest of this review, is a Damage Dealer ID from the 7th Walpurgisnacht who primarily specializes in Burn, with a few slivers of Bleed Infliction just for flavor. Starting with his unique effect, which he has plenty of: - Spore is a status that gives Burn Count for every 3 stacks, with a maximum of 3 Burn Count on turn end and 1 Bind next turn. This status does not decay on turn end. - Spore Round [Base] inflicts 2 Spore when spent, while Spore Round [Buckshot] inflicts 3 Spore when spent. His entire mechanic revolves around these two types of Unique Ammo. - Loyalty Pheromone is a buff that stacks up to 3 times, with each stack giving one status of Protection, Haste, Clash Power Up, respectively. Hornet Meursault has two passives, which do the following: The first passive is always active, lets him start w",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-hornet-alteration-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Ammo Bleed Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-hornet-alteration-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

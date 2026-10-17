@@ -4,7 +4,8 @@
   "name_zh": "边狱公司",
   "platforms": [
     "steam",
-    "pc"
+    "pc",
+    "mobile"
   ],
   "tags": [
     "gacha",
@@ -14,12 +15,25 @@
     {
       "label": "Steam",
       "url": "https://store.steampowered.com/app/1973530/"
+    },
+    {
+      "label": "Steam News",
+      "url": "https://store.steampowered.com/news/app/1973530"
+    },
+    {
+      "label": "Prydwen identities",
+      "url": "https://www.prydwen.gg/limbus-company/identities"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/limbus/"
     }
   ],
   "steam_appid": 1973530,
-  "stub": true,
-  "watchlist": false,
-  "note": "Catalog stub — Steam store link only; no invented scores",
-  "as_of": "2026-09-27",
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/limbus-company/",
+  "note": "12 名罪人，卡面是人格（Identity）而不是罪人本身。移动端见 Steam 2026-10-15 更新公告里的 Google Play / App Store / Steam。",
+  "as_of": "2026-10-17",
   "timezone": "Asia/Shanghai"
 }

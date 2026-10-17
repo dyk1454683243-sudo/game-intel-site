@@ -1,0 +1,101 @@
+{
+  "id": "rosespanner-workshop-fixer-meursault",
+  "name": "Rosespanner Workshop Fixer Meursault",
+  "name_zh": null,
+  "name_en": "Rosespanner Workshop Fixer Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "00",
+  "role": "Charge Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Saddled Tasks",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 4. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. If target has 5+ Tremor Count, Coin Power +2 1 [Heads Hit] Inflict 2 Tremor [On Hit] Inflict 2 Tremor",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Forced Break",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If target has 7+ Tremor Count, Final Power +1 1 [Heads Hit] Inflict 2 Tremor [On Hit] Inflict 3 Tremor 2 [Heads Hit] If target has a 5+ Tremor, inflict 1 Attack Power Down next turn",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Finishing Runup",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 4. Coins 4. Coin Power 2. Offense Level 61. Atk Weight 1. If target has 10+ Tremor Count, Coin Power +1 1 [Heads Hit] Gain 1 Charge Count [On Hit] Inflict 1 Tremor 2 [Heads Hit] Gain 2 Charge Count [On Hit] Inflict 2 Tremor 3 [Heads Hit] Gain 2 Charge Count/i> [On Hit] Inflict 3 Tremor 4 [On Hit] Burst Tremor. When bursting Tremor, reduce Tremor Count by 3, then spend all Charge to further raise Stagger Threshold by (Charge Count x 5)% (Max 50%).",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 60. Atk Weight 1",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "rosespanner-workshop-fixer-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/rosespanner-workshop-fixer-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:rosespanner-workshop-fixer-meursault",
+  "released": "01/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "238",
+    "speed": "3-8",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "An ID that's mainly focused on Tremor. Rosespanner Meursault only really shines in teams with Tremor, as you can only access the extra Coin Power he has on his skills. It also doesn't help that almost all of his coins require Heads Hit so there will be times where he just won't be able to do anything. His Coin Values are not that great either. Notable E.G.O Synergies: Regret - Fixes clashing and damage issue of Rosespanner Meursault, making him more reliable to use",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Meursault / Charge Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/rosespanner-workshop-fixer-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

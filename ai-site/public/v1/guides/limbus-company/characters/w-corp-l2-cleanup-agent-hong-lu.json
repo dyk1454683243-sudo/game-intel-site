@@ -1,0 +1,113 @@
+{
+  "id": "w-corp-l2-cleanup-agent-hong-lu",
+  "name": "W Corp. L2 Cleanup Agent Hong Lu",
+  "name_zh": null,
+  "name_en": "W Corp. L2 Cleanup Agent Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "00",
+  "role": "Barrier Charge Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Energy Cycle",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] Gain +4 Charge Count 1 [On Hit] Gain +1 Charge Count 2 [On Hit] Gain +1 Charge Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Cleanup Support",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 6. Coins 2. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] Gain +3 Charge Count Clash Power +2 when Shielded 1 [On Hit] Gain +3 Charge Count 2 [On Hit] At 5+ Charge Count, gain 1 Charge Barrier next turn for every 5 Charge Count (Max 4)",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Deploy Charge Barrier",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] At 10+ Charge Count, consume all Charge Count to apply (Consumed Charge Count / 2) Charge Barrier (Rounded Down) to 2 allies with the lowest HP percentage. 1 [On Hit] Inflict 5 Rupture [On Hit] Gain 2 Charge Barrier next turn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 62. Atk Weight 1. [On Use] Gain 3 Charge Barrier (3 times per turn)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Cleanup Mastery",
+      "type": "passive",
+      "summary": "x3 Pride [Owned]. If at 5+ Charge Count at the start of combat phase, gain 2 Haste. At 10+ Charge Count, gain 1 additional Haste."
+    },
+    {
+      "name": "Train Cleanup Manual",
+      "type": "support",
+      "summary": "x3 Pride [Owned]. An ally with the lowest Speed gains 2 Haste next turn if at 5+ Charge Count at the start of the combat phase"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l2-cleanup-agent-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l2-cleanup-agent-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l2-cleanup-agent-hong-lu",
+  "released": "24/August/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-6",
+    "defense": "62",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "W Hong Lu is a charge support who also can tank a bit. Although he has no aggro or other defensive capabilities other than Charge Barrier. W Hong Lu is not that great with clashing but is extremely helpful in his utility to charge teams. Other than that, he lacks in damage and is generally not that helpful in teams that aren't focused around charge. Notable E.G.O Synergies: Dimensional Shredder - Helps with own charge gain and a bit of rupture application but main benefit comes from W Hong Lu speed that allows him to setup up to 3 fragile for the entire team easily.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l2-cleanup-agent-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Hong Lu / Barrier Charge Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l2-cleanup-agent-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

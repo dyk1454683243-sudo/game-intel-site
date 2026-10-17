@@ -1,0 +1,103 @@
+{
+  "id": "r-b-chef-de-cuisine-ryoshu",
+  "name": "R.B. Chef de Cuisine Ryoshu",
+  "name_zh": null,
+  "name_en": "R.B. Chef de Cuisine Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Bind Bleed Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "P.C.",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 4. Coins 2. Coin Power 3. Offense Level 63. Atk Weight 1. 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Gain 2 Appetite",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "I.H.",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 3. Coins 3. Coin Power 5. Offense Level 63. Atk Weight 1. [On Use] Gain 1 Appetite 1 [On Hit] Inflict 1 Bind next turn 2 [Heads Hit] Inflict 2 Bleed 3 [On Hit] If target has Bleed or Paralyze, inflict 4 HP Healing Down next turn",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "I Can Cook Anything",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 3. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Boosts damage by 5% of the target's missing HP (max 20). 1 [Heads Hit] The final Coin deals +10% damage 2 [Heads Hit] The final Coin deals +5% damage 3 [Heads Hit] The final Coin deals +5% damage",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "F.I. in Sight",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. [On Evade] Gain 1 Haste next turn",
+      "sin": "Lust",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/r-b-chef-de-cuisine-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "r-b-chef-de-cuisine-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/r-b-chef-de-cuisine-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:r-b-chef-de-cuisine-ryoshu",
+  "released": "20/April/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Even thought she fell off quite a bit she is still a good ID as she can be put into any team while also having decent damage, average clashing power and a potential nuke on s3 as long as they are not slash resistant or lust resistant. If anything else her support passive is also a good healing source Notable E.G.O. Synergies: Both Red Eyes E.G.O. - Both Red Eyes E.G.O. are very good for boostling damage from slash attacks and provide some decent utility",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/r-b-chef-de-cuisine-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Bind Bleed Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/r-b-chef-de-cuisine-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

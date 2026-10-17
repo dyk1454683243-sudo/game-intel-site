@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-sunshower-heathcliff",
+  "name": "Lobotomy E.G.O::Sunshower Heathcliff",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Sunshower Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Paralyze Rupture Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Umbrella Thwack",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Blunt. Skill Power 6. Coins 3. Coin Power -2. Offense Level 62. Atk Weight 1. [On Use] Gain +1 Sinking Count [Clash Lose] Gain 3 Sinking 1 [On Hit] Inflict 2 Sinking. [On Tails Hit] Inflict +2 Sinking Count",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Puddle Stomp",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 10. Coins 4. Coin Power -3. Offense Level 63. Atk Weight 1. [On Use] When below -15 SP, the skill gains Final Power +3 [On Use] When below -25 SP, Final Power +2 1 [Tails Hit] Inflict 3 Rupture 2 [Tails Hit] Inflict 3 Rupture 3 Spend 5 Sinking to deal 20% more damage. [Tails Hit] Burst Tremor",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Spread Out!",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Pierce. Skill Power 18. Coins 3. Coin Power -7. Offense Level 63. Atk Weight 1. [On Use] Gain 6 Sinking and +3 Sinking Count 1 [Tails Hit] Inflict 1 Paralyze next turn 2 [On Hit] Inflict 5 Rupture. [Tails Hit] Inflict 1 Fragile next turn",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Warning",
+      "type": "defense",
+      "summary": "Defense Counter · Wrath. Pierce. Skill Power 10. Coins 2. Coin Power -5. Offense Level 65. Atk Weight 1. [On Use] Gain 5 Sinking 1 [Tails Hit] Gain 1 Paralyze next turn 2 [On Hit] Inflict 5 Sinking. [On Hit] Inflict 5 Rupture",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Rain of Tears",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. At the start of the combat phase, spend 1 Sinking Count and lose SP by the current amount of Sinking Before being hit by an attack, gain Protection equals to this unit's Sinking. (Up to 5 Protection can be gained per turn) When hit, gain 1 Blunt DMG Up next turn. (3 per turn)"
+    },
+    {
+      "name": "Ragged Umbrella",
+      "type": "support",
+      "summary": "x3 Envy [Owned]. 1 ally with the least SP loses 10 SP when hit by an attack and gains 1 Blunt DMG Up next turn. (Once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sunshower-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-sunshower-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-sunshower-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-sunshower-heathcliff",
+  "released": "08/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "264",
+    "speed": "3-5",
+    "defense": "62",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Sunshower Heathcliff is an awkward case. He loses SP on losing clashes and on Uptie 4 his S1 also applies sinking on him on Clash Lost, which is good, however, his sanity management is still tricky to play around. Uptie 4 did not help him much, outside of boosting his S2 when Heath is on -25 SP or lower. Unfortunately, Uptie 4 did not help much in terms of making him more rewarding to use and still requires a team built around him to function properly. Notable E.G.O. Synergies: AEDD - Solo fuels it and boost Sunshower Heath's survivability Ya Śūnyatā Tad Rūpam - Allows him to solo clear Mirror Dungeon with no issues that other IDs might have.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sunshower-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Paralyze Rupture Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-sunshower-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -226,6 +226,31 @@
           "description": "Verified source URLs for the conclusion bar"
         }
       }
+    },
+    "sinner": {
+      "type": "object",
+      "description": "Limbus Company: the sinner this Identity card belongs to. Game and follow pages group by sinner.id. Other games omit it.",
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string" },
+        "name_en": { "type": "string" },
+        "name_zh": { "type": "string" },
+        "order": { "type": "integer" },
+        "source": { "type": "string" }
+      }
+    },
+    "sin_affinities": {
+      "type": "array",
+      "description": "Limbus Company sin resource counts copied from the identity page. Do not invent a count.",
+      "items": {
+        "type": "object",
+        "required": ["sin"],
+        "additionalProperties": true,
+        "properties": {
+          "sin": { "type": "string" },
+          "count": { "type": "integer" }
+        }
+      }
     }
   }
 }

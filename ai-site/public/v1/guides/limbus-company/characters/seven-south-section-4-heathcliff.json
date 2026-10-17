@@ -1,0 +1,110 @@
+{
+  "id": "seven-south-section-4-heathcliff",
+  "name": "Seven Assoc. South Section 4 Heathcliff",
+  "name_zh": null,
+  "name_en": "Seven Assoc. South Section 4 Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "00",
+  "role": "Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Intuition",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If target has 6+ Rupture, Coin Power +1 1 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict 1 Rupture",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "The Wrap—Up",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 6. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. [Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict 3 Defense Level Down next turn [On Hit] Inflict +2 Rupture Count",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Forensics",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 4. Coins 4. Coin Power 2. Offense Level 61. Atk Weight 1. If target has 6+ Rupture, Coin Power +1 1 [On Hit] Inflict +3 Rupture Count 2 [Heads Hit] Inflict 1 Rupture 3 [Heads Hit] Inflict 1 Rupture 4 [Heads Hit] Inflict 1 Rupture [On Kill] Inflict +2 Rupture Count against the enemy with the lowest Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 8. Coins 1. Coin Power 8. Offense Level 59. Atk Weight 1"
+    },
+    {
+      "name": "Instictive Read",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. When attacking a target with a damage type the target is \"Fatal\" to (Resistance>x1.5), inflict +1 more Rupture with skill effects If 4 or more surviving units, including this unit, are Seven Association Fixers, additional +1 more Rupture."
+    },
+    {
+      "name": "Connect The Dots",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. 1 ally with the highest Max HP inflicts +1 more Rupture with Skill effects when attacking a target with a damage type that target is \"Fatal\" (Resistance>x1.5) to. If the ally is Seven Association Fixer, additional +1 more Rupture"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "seven-south-section-4-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/seven-south-section-4-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:seven-south-section-4-heathcliff",
+  "released": "07/September/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "238",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Seven South Section 4] Heathcliff shines in Rupture teams, same case with 7 Faust. He is capable of inflicting a good amount of rupture himself. Rupture teams require a really high amount of investment to work, so he suffers mostly the same problem 7 Faust has where unless you have a fully dedicated Rupture team, you're better off not using this ID. No notable E.G.O. synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Heathcliff / Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/seven-south-section-4-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

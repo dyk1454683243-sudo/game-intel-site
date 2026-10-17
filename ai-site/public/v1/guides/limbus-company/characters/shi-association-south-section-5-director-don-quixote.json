@@ -1,0 +1,113 @@
+{
+  "id": "shi-association-south-section-5-director-don-quixote",
+  "name": "Shi Association South Section 5 Director Don Quixote",
+  "name_zh": null,
+  "name_en": "Shi Association South Section 5 Director Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "00",
+  "role": "Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Catch Breath",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 4. Coins 1. Coin Power 7. Offense Level 63. Atk Weight 1. [On Use] Gain 2 Haste next turn 1 [On Hit] Gain 3 Poise next turn",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Dual Strike",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] At less than 50% HP, gain 4 Haste next turn 1 [On Hit] Gain 2 Poise next turn 2 [On Hit] Gain 3 Haste next turn",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Overbreathe",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 4. Coins 1. Coin Power 21. Offense Level 63. Atk Weight 1. At 10+ Speed, Skill Power +5",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Wrath. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1",
+      "sin": "Wrath",
+      "attack_type": "-"
+    },
+    {
+      "name": "Prepared Mind",
+      "type": "passive",
+      "summary": "x3 Wrath [Res]. Gain Haste by (Wrath Res. / 3) next turn."
+    },
+    {
+      "name": "Divide in Two",
+      "type": "support",
+      "summary": "x5 Wrath [Owned]. 1 ally with the highest speed deals +10% Slash damage."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-director-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "shi-association-south-section-5-director-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/shi-association-south-section-5-director-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:shi-association-south-section-5-director-don-quixote",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "3-6",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Shi Don is exceptionally good at clashing against enemies that roll high, and doesn't need to rely on her gimmick of being at or below 50% HP to work perfectly fine. She isn't really good with damage as well either but clashing is always plenty valuable. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/shi-association-south-section-5-director-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Don Quixote / Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/shi-association-south-section-5-director-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

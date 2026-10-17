@@ -1,0 +1,107 @@
+{
+  "id": "heishou-pack-you-branch-sinclair",
+  "name": "Heishou Pack - You Branch Sinclair",
+  "name_zh": null,
+  "name_en": "Heishou Pack - You Branch Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Burn Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Oh, Let the Smell of Burning Blood...",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 2. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] If target has 6+ (Burn + Rupture), Coin Power +1 1 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Rupture Count [Heads Hit] Inflict 1 Burn Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "...Fuel My Rampage",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] If target has 6+ (Burn + Rupture), Coin Power +1 1 [On Hit] Inflict 1 Rupture, [Heads Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict 1 Burn Count [Heads Hit] Inflict 1 Rupture Count 3 [Heads Hit] If this unit has Bloodflame, or if this unit has less than 50% HP, Reuse this Coin (once per Skill) [Heads Hit] Deal (10% of this Coin's final damage) bonus Wrath damage",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Bloodflame Massacre",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. Unfocused Volley Deal +1% damage for every2^ (missing HP percentage on target + missing HP percentage on self) (max 50%) [Combat Start] If this unit has Bloodflame, or if this unit has less than 50% HP, convert all Coins to Unbreakable Coin [On Use] Gain 1 Bloodflame [On Use] Coin Power +1 for every 6 (Burn + Rupture) on target (max 2) [On Use] Clash Power +1 for every 20% missing HP on self (max 2) [Clash Lose] Apply 2 Burn to target and self 1 2 [On Hit] Inflict +1 Burn Count [Heads Hit] Inflict +1 Rupture Count 3 [On Hit] Inflict 1 Burn [Heads Hit] Inflict 1 Rupture [Heads Hit] Deal (10% of this Coin's final damage) bonus Gluttony damage 4 [On Hit] Inflict 2 Burn [Heads Hit] Inflict 2 Rupture [Heads Hit] Deal (20% of this Coin's final damage) bonus Gluttony damage",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rooster's Deathstrike",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Slash. Skill Power 5. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Clashable Counter] [On Use] Gain 3 Bloodflame next turn [On Use] If target has 10+ (Burn + Rupture), Base Power +1 [On Use] If this unit has Bloodflame, Coin Power +1 [On Use] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%) [Clash Lose] Apply 2 Burn to target and self 1 [On Hit] Inflict 1 Rupture Count 2 [On Hit] Inflict 1 Burn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Let's Get Battle-drunk",
+      "type": "passive",
+      "summary": "x3 Wrath [Owned] x3 Gluttony [Owned]. On Hit against targets with 7+ Rupture, (highest Reson. x 15)% chance to inflict 1 Burn (4 times per turn) Combat End: if this unit has Burn, gain 1 Bloodflame, 1 Wrath DMG Up, and 1 Gluttony DMG Up at the next Turn Start Combat Start: gain 1 Offense Level Up and Defense Level Up for every 20% missing HP on self (max 3) Bloodflame Blade x3 Wrath [Owned] x3 Gluttony [Owned] When an ally with the fastest Speed inflicts Burn or Rupture Potency with their Skills, inflict 1 Burn and Rupture Potency (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-you-branch-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-you-branch-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-you-branch-sinclair",
+  "released": "28/August/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "225",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Heishou Pack You branch Sinclair is a Rupture Burn hybrid ID that has quite an interesting role due to his specifics in the kit. Bear in mind that this ID is very restrictive in team building. It also requires E.G.O. usage for additional Rupture Count generation, though not necessary in good team builds. He is very Count negative, and the trade-off to this is to yield huge amounts of damage through multiple Coins and his various passives. Let’s start to break his kit down through his passives, the First Passive, “Gamefowl, gives the ID “Lord of Hongyuan Hong Lu” Exalted Command interaction, which when it targets Sinclair gives Hong Lu the following effect: “When using a Skill to inflict Rupture Potency or Count, inflict 1 Burn (3 times per turn.) Sinclair also cannot be staggered or fall below 1 HP due to Burn damage, and he will gain 3 Bloodflame in the same turn he substitutes or retur",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Burn Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-you-branch-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

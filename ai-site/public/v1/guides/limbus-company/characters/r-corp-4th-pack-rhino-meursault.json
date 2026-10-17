@@ -1,0 +1,112 @@
+{
+  "id": "r-corp-4th-pack-rhino-meursault",
+  "name": "R Corp. 4th Pack Rhino Meursault",
+  "name_zh": null,
+  "name_en": "R Corp. 4th Pack Rhino Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bleed Charge",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Weighty Bash",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Blunt. Skill Power 5. Coins 1. Coin Power 6. Offense Level 60. Atk Weight 1. At 10+ Charge Count, Final Power +1 At 7+ Speed, deal +25% Damage [On Use] Gain +2 Charge Count 1 [On Hit] Gain +2 Charge Count",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Demolish",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 5. Coins 3. Coin Power 3. Offense Level 60. Atk Weight 1. At 7+ Speed, inflict +1 Bleed Count with this Skill [On Use] Gain +4 Charge Count 1 [On Hit] Gain +4 Charge Count 2 [Heads Hit] Inflict +1 Bleed Count 3 [On Hit] Inflict +1 Bleed Count",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rhino Ram",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 6. Coins 3. Coin Power 3. Offense Level 60. Atk Weight 1. [On Use] At 10+ Charge Count, Coin Power +2 1 [On Hit] Inflict +1 Bleed Count [On Hit] Spend 2 Charge Count to inflict +1 Bleed Count [On Hit] Spend 3 Charge Count to inflict +1 Bleed Count 2 [On Hit] Inflict +1 Bleed Count [On Hit] Spend 2 Charge Count to inflict +1 Bleed Count [On Hit] Spend 3 Charge Count to inflict +1 Bleed Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Bioelectricity Induction",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. [On Use] If attacked while shielded, gain +2 Charge Count (Max 10 per turn)",
+      "attack_type": "-"
+    },
+    {
+      "name": "Activate rrR-#4 Suit Pressurization",
+      "type": "passive",
+      "summary": "x5 Envy [Owned]. At the end of the turn, gain +2 Max Speed per 5 Charge Count next turn. (Max 6) At the start of the turn, if at 5+ Charge Count, gain 3 Aggro to this unit's rightmost slot."
+    },
+    {
+      "name": "Maneuver Training",
+      "type": "support",
+      "summary": "x5 Envy [Owned]. At the end of the turn, 1 ally with the highest Charge Count gains Max Speed +1 (Capped at 3) per Charge Count next turn."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rhino-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "r-corp-4th-pack-rhino-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/r-corp-4th-pack-rhino-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:r-corp-4th-pack-rhino-meursault",
+  "released": "13/July/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "275",
+    "speed": "3-5",
+    "defense": "65",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "R Corp Meursault is a tank that specialises in bleed count application who is also very fast. His clashing and damage are average, especially his Skill 3 needs the 10+ charge requirement to do anything. While he has Aggro and decent tank stats, his bleed count application is what sets him apart from other tank IDs that can take a hit way better than him. Notable E.G.O. Synergies Regret - Fixes R Meur clashing issues massively on top of boosting his damage a bit",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rhino-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Aggro Bleed Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/r-corp-4th-pack-rhino-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "full-stop-office-fixer-heathcliff",
+  "name": "Full-Stop Office Fixer Heathcliff",
+  "name_zh": null,
+  "name_en": "Full-Stop Office Fixer Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Fragile Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Return Fire",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Poise Count [On Use] Gain 2 Haste next turn (once per turn) 1 Spend 1 Ammo [On Hit] Gain +1 Poise Count 2 Spend 1 Ammo 3 Spend 1 Ammo",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Headshot",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 10. Coins 1. Coin Power 12. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, deal +10% more damage for every 1 Speed difference (max 50%) [On Use] Gain 3 Poise and +2 Poise Count [On Use] Gain 2 Haste next turn (once per turn) 1 Spend 1 Ammo +50% Damage on Critical Hit [On Hit] Inflict 1 Pierce Fragility (2 times per turn) [On Crit] Inflict 1 Pierce Fragility next turn (once per turn)",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Goin' for the Bullseye",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 12. Coins 1. Coin Power 14. Offense Level 64. Atk Weight 1. [Before Use] If this unit has Ammo - Atelier Logic, activate 'AL-HV Pulverisation Round' instead If this unit's Speed is faster than the target's, deal +10% more damage for every 1 Speed difference (max 50%) [On Use] Gain 5 Poise [On Use] Consume all Concentration[Sniper] on self, gain (value consumed x 2) Poise Potency, and deal +(value consumed x 12.5)% more damage [After Attack] Gain +2 Poise Count 1 Spend 1 Ammo +80% Damage on Critical Hit +(the target's Pierce Res. x 50)% Damage on Critical Hit [On Crit] At more than 30 Poise Potency, consume up to 10 of Poise Potency over 30 to deal +(Poise Potency consumed x 10)% more damage",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "AL-HV Pulverisation Round",
+      "type": "skill4",
+      "summary": "Skill 4 · Pride. Pierce. Skill Power 15. Coins 1. Coin Power 18. Offense Level 66. Atk Weight 1. If this unit's Speed is faster than the target's, deal +10% more damage for every 1 Speed difference (max 50%) [On Use] Gain 5 Poise [On Use] Consume all Concentration[Sniper] on self, gain (value consumed x 2) Poise Potency, and deal +(value consumed x 25)% more damage [After Attack] Gain +5 Poise Count 1 Spend 1 Ammo - Atelier Logic +130% Damage on Critical Hit +(the target's Pierce Res. x 50)% Damage on Critical Hit [On Crit] At more than 30 Poise Potency, consume up to 10 of Poise Potency over 30 to deal +(Poise Potency consumed x 10)% more damage",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Combat Poise",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. Turn Start: At 0 Ammo, this Skill activates as 'Taking Cover' instead [On Use] If Full-Stop Office Rep. Hong Lu is on the field, request Melee Support from that unit (once per turn) [On Evade] Gain 3 Poise (3 times per turn) [Turn End] Gain 1 Concentration[Sniper] next turn (once per turn)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Taking Cover",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. Skill Power 2. Coins 1. Coin Power 8. Offense Level 63. Atk Weight 1. [Clashable Guard] [On Use] If Full-Stop Office Rep. Hong Lu is on the field, request Melee Support from that unit (once per turn) [Clash Win] Inflict 1 Pierce Resist Down (once per turn) [Turn End] Gain 1 Concentration[Sniper] next turn (once per turn) 1 Unbreakable Coin",
+      "sin": "Pride"
+    },
+    {
+      "name": "Spotter",
+      "type": "support",
+      "summary": "x5 Pride [Owned]. 1 ally with the least Ammo gains +2 Poise Count when using a Skill that consumes Ammo. - If the said ally is a Full-Stop Office Identity, or if they have less than 5 Poise Count, gain +4 Poise Count instead (once per turn; does not apply to units without Ammo)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/full-stop-office-fixer-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "full-stop-office-fixer-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/full-stop-office-fixer-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:full-stop-office-fixer-heathcliff",
+  "released": "09/January/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "208",
+    "speed": "3-8",
+    "defense": "59",
+    "resistances": {
+      "slash": "Normall",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Full-Stop Heathcliff (FS Heathcliff) is the winner of the 5th Walpurgisnacht Event, dishing out great damage by himself constantly. He is unique among the Ammo archetype, as when he runs out of Ammo, he retreats from combat, similar to Devyat Identities. When he returns, he will reload and recover all his Ammo, except for his Special Ammo. This makes it so that running out of Ammo during a particularly long fight isn’t as bad as a consequence. FS Heathcliff starts with 10 Ammo, which forces you to play around when you spend that Ammo to get full use out of FS Heathcliff before he retreats. Luckily enough, if you activate his Passive and just use his Defensive Skills to preserve Ammo, he will gain 10 Poise Potency, Haste, 1 Pierce Power Up, and apply 3 Poise Potency to an ally, with additional Poise Potency coming from the Evade maxing out at 9. Aside from that, FS Heathcliff can gain Con",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/full-stop-office-fixer-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Ammo Fragile Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/full-stop-office-fixer-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "kurokumo-clan-captain-ishmael",
+  "name": "Kurokumo Clan Captain Ishmael",
+  "name_zh": null,
+  "name_en": "Kurokumo Clan Captain Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Fragile",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Clean Up",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target (max 2) Deal +10% more damage for every type of negative effect on the target (max 30%) 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 2 Bleed [On Hit] Inflict 1 Offense Level Down",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sharpened Blade",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target (max 2) Deal +10% more damage for every type of negative effect on the target (max 50%) [Combat Start] On 2 other allied Kurokumo Clan Identities with the fastest Speed: apply 2 Damage Up (once per turn) - If there are 6+ Kurokumo Clan units, including this unit, apply 4 Damage Up to 5 allies instead 1 [On Hit] Inflict 2 Bleed [Heads Hit] Inflict 1 Slash Fragility - if there are 6+ Kurokumo Clan units, including this unit, inflict 2 Fragile instead 2 [On Hit] Inflict 2 Bleed Count [On Hit] Gain 1 Slash Power Up next turn (2 times per turn)",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Ink Over",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target (max 2) [On Kill] Gain 2 Slash Power Up next turn (once per turn) 1 [On Hit] Inflict +2 Bleed Count 2 [On Hit] Inflict 3 Bleed 3 Deal +10% more damage for every type of negative effect on the target (max 100%) [On Hit] Activate Bleed on the target 3 times; then, reduce their Bleed Count by 3",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Scattering Slash",
+      "type": "defense",
+      "summary": "Defense Evade · Lust. Skill Power 4. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. [Combat Start] Gain 1 Protection (once per turn) [Combat Start] On (2 + highest Reson.) allied Kurokumo Clan Identities, including this unit, with the fastest Speed: apply 2 Defense Power Up (once per turn)",
+      "sin": "Lust"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-captain-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "kurokumo-clan-captain-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/kurokumo-clan-captain-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:kurokumo-clan-captain-ishmael",
+  "released": "06/February/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "230",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Kurokumo Ishmael is the unlikely savior of the Kurokumo Team, and her effectiveness in buffing all Kurokumo units is so good, enough to be better than the Blade Lineage Team in some aspects. Be it building up extremely high amounts of Bleed to proc all at once, or turning every single skill played by a Kurokumo unit into unbreakable coins, which are just negative coins but better. To begin this review, we will go over Kurokumo Ishmael’s Passive, “Gathering Dark Clouds.” At 3+ Lust Resonance, gains Dark Cloud Blade which gives Ishmael 1 Slash Power and inflict 1 Bleed On Hit with Slash Skills on Combat Start. Additionally, apply 1 Dark Cloud to Kurokumo Clan Identities adjacent to this unit on the Dashboard, which converts all of their Base Attack Skill Coins used this turn to Unbreakable Coins, prevents damage from Staggering those units until the end of their Skills, and inflict +1 more",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-captain-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ishmael / Bleed Fragile"
+  },
+  "verified": "Prydwen /limbus-company/identities/kurokumo-clan-captain-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

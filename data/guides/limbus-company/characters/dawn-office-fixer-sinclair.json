@@ -1,0 +1,114 @@
+{
+  "id": "dawn-office-fixer-sinclair",
+  "name": "Dawn Office Fixer Sinclair",
+  "name_zh": null,
+  "name_en": "Dawn Office Fixer Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Burn",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fierce Charge",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Slash. Skill Power 3. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. 1 [On Hit] Inflict 2 Burn [Heads Hit] When in a Volatile E.G.O. state, Reuse Coin (once per Skill)",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sunset Blade",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Slash. Skill Power 5. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. If the target has 4+ Burn, Clash Power +1 [On Use] When in a Volatile E.G.O state, consume 5 SP [Before Attack] When in a Volatile E.G.O state, Atk Weight +1 - At 45 SP, Atk Weight +2 instead [After Attack] When in a Volatile E.G.O, consume 5 SP 1 [On Hit] Inflict +1 Burn Count 2 [On Hit] Inflict +1 Burn Count 3 [On Hit] Inflict +1 Burn Count",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Stigmatize",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Pierce. Skill Power 4. Coins 2. Coin Power 7. Offense Level 63. Atk Weight 1. Coin Power +1 for every 7 Burn on target (max 2) When in a Volatile E.G.O state, activate Blazing Strike instead [Clash Win] Heal 10 SP [Clash Lose] Lose 10 SP 1 [On Hit] Inflict 3 Burn 2 [On Hit] Inflict 3 Burn",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Blazing Strike",
+      "type": "skill4",
+      "summary": "Skill 4 · Wrath. Slash. Skill Power 13. Coins 1. Coin Power 15. Offense Level 65. Atk Weight 1. Coin Power+2 for every 4 (sum of Burn Potency on all enemies) (max 8) [Clash Win] Heal 10 SP [Clash Lose] Lose 30 SP Deal +10% more damage for every Wrath Reson. (max 60%) If at 4+ highest Wrath A-Reson., deal +20% more damage for every Wrath Reson. instead (Max 120%) [After Attack] Lose 15 SP 1 Deal +4% more damage for every 1 Burn on target (max 120%) [On Hit] If the target has 10+ Burn, inflict 2 Burn against (# of highest Reson.) random enemies - If the above Reson. was a Wrath Reson., inflict +1 Burn Count as well [On Hit] Inflict 10 Burn [On Kill] Randomly inflict Burn Potency of the defeated target between all enemies (max 10. In Focused Encounters, between all Parts)",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rue",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 60. Atk Weight 1. When in a Volatile E.G.O state, Base Power +1 for every 2 Burn on target (max 20)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Unstable Shell of Ego",
+      "type": "passive",
+      "summary": "Turn Start: At 40 SP, consume 20 SP to enter the Volatile E.G.O::Waxen Pinion state. (this 'Turn Start' effect does not activate repeatedly) If 2+ allies are defeated in a single turn, and if this unit's SP isn't at -45 at Turn End, reset SP to 20; then, enter the Volatile E.G.O::Waxen Pinion state. If this unit gets Staggered due to damage or raised Stagger Threshold when entering the Volatile E.G.O state, recover from Stagger. If the Stagger is something that cannot be naturally recovered from, this unit does not enter the Volatile E.G.O state. Gain Volatile Passion while in the Volatile E.G.O state. Turn Start: At 0 or less SP, exit the Volatile E.G.O::Waxen Pinion state.. Stigma Workshop Weaponry / Passion x5 Wrath [Owned] This unit inflicts +1 more Burn Potency and Count with its Skills (activates 6 times per turn) When in a Volatile E.G.O state, and at 0+ SP, gain Coin Power +(SP/20). At 45 SP, gain Coin Power +3 instead. Flaring Brand x3 Wrath [Res] When the #1 Sinner to be Deployed Heads Hits, inflict +1 Burn Count (4 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/dawn-office-fixer-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "dawn-office-fixer-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/dawn-office-fixer-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:dawn-office-fixer-sinclair",
+  "released": "02/May/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Let’s look at what Sinclair was before his Dawn allies. His clashes were underwhelming, damage non-existent aside from S3-2, which by modern standards is still non-existent. His main strengths were Burn infliction and AoE access for s2. His rolls were quite decent, but S1 was underwhelming in that regard. His main flaw was SP management, since after turn 4, he has basically been doomed to lose clashes randomly due to very low SP. Now, what did his 2 allies change? Faust provided him with rolls and damage upscale, making his S1 less underwhelming to use for clash due to heightened standards, making his S2 really strong in terms of damage, and basically made his S3-2 damage on the same level, if not higher than HoS Ryoshu’s S3-1. Alongside it, he started activating Burn on his AoE skill 2, making it one of the best skills that the Burn team has. Overall, without Faust, he is as bad as he w",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/dawn-office-fixer-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Damage Dealer SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/dawn-office-fixer-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

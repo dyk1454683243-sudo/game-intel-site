@@ -1,0 +1,113 @@
+{
+  "id": "cinq-south-section-4-director-sinclair",
+  "name": "Cinq South Section 4 Director Sinclair",
+  "name_zh": null,
+  "name_en": "Cinq South Section 4 Director Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Fragile Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Remise",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is higher than the target's by 2 or more, gain Coin Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain 1 Haste next turn 2 [On Hit] Gain 1 Haste next turn",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Engagement",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 2) [Clash Win] Gain 2 Poise Count 1 [On Hit] Gain 1 Poise Count 2 [On Hit] Gain 1 Poise Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Contre Attaque",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 3) [Clash Win] Consume 10 Poise Count. Gain Poise Equal to Poise Count consumed. Against targets with Declared Duel - Sinclair, gain Poise equal to (Poise Count consumed x 2) instead. [Clash Win] If this unit conducted a Single Combat with the target Slot's Attack Skill, inflict 1 Fragile on Hit (Twice Per Turn) 1 [On Hit] Inflict Declared Duel - Sinclair 2 +50% Damage on Critical Hit",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Défensive",
+      "type": "defense",
+      "summary": "Defense Evade · Gluttony. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Slumbering Bloodlust",
+      "type": "passive",
+      "summary": "x5 Pride [Owned]. - Turn End: Gain +2 Max Speed next turn for every 5 Poise Count (Max 6) - Combat Start: If Speed of all allies is higher is higher than Speed of all enemies, gain 1 Pierce Dmg Up"
+    },
+    {
+      "name": "Too slow",
+      "type": "support",
+      "summary": "x3 Pride [Res]. The fastest ally, On Evade, gains 1 Haste next turn (Max 5)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-director-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-south-section-4-director-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-south-section-4-director-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-south-section-4-director-sinclair",
+  "released": "21/December/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "4-8",
+    "defense": "60",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Cinq South Section 4 Director] Sinclair is a really good damage dealer and clasher on top of being really fast. His numbers are great, easy to setup and satisfactory to look at, and he can even setup 2 Fragile on enemies before the rest of the team acts, boosting overall team damage. His skill rolls are dependent on his speed, in which he very easily gains and is already extremely fast as an ID. He rolls 11 on S1, 16 on S2, and 17 on S3 without conditionals, but when he massively outspeeds the enemy, his S2 and S3 turns into 22 and 26 respectively, which is a major boost to his damage. He has the issue of having his Poise part of the kit working only in Mirror Dungeon and his passive, Max Speed per Poise Count, being also mostly Mirror Dungeon exclusive. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-director-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Fragile Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-south-section-4-director-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

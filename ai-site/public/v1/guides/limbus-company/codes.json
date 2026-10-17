@@ -1,0 +1,14 @@
+{
+  "game": "limbus-company",
+  "as_of": "2026-10-17",
+  "checked": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "timezone_note": "官方公告写 KST。Asia/Seoul 与 KST 同为 UTC+9，没有夏令时。",
+  "sources": [
+    "https://coupon.limbuscompany.site/",
+    "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+    "https://twinfinite.net/codes/limbus-company-codes/"
+  ],
+  "note": "2026-10-17 核对：官方兑换站 coupon.limbuscompany.site 只是输入页，页面没有公布码。Steam 2026-10-15 更新公告第 5 页写的是维护补偿 Lunacy x300，进游戏邮箱领取，不是兑换码。Twinfinite 于 2026-10-15 写当前没有可用公开码，也没有列出过期码字符串。本文件不收录出处里没有写出的码。",
+  "codes": []
+}

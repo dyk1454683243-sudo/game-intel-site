@@ -1,0 +1,108 @@
+{
+  "id": "n-corp-mittelhammer-rodion",
+  "name": "N Corp. Mittelhammer Rodion",
+  "name_zh": null,
+  "name_en": "N Corp. Mittelhammer Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "00",
+  "role": "Bleed Haste Nails Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Devoted Hammering",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. 1 [On Hit] Inflict 1 Bleed [On Hit] If target has Nails, inflict 1 Nails 2 [On Hit] Inflict 1 Bleed [On Hit] If target has Nails, inflict 1 Nails",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Zealous Purge",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 6. Coins 2. Coin Power 2. Offense Level 63. Atk Weight 1. [Clash Win] Gain 1 Fanatic next turn 1 [On Hit] Inflict 1 Nails next turn 2 [On Hit] Inflict 1 Paralyze next turn",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Ironclad Retribution",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 4. Coins 4. Coin Power 2. Offense Level 63. Atk Weight 1. If this unit is Fanatic, deal +15% damage Deal 5% damage for each N Corp. ally present in the party 1 [Heads Hit] Inflict 1 Bleed 2 [Heads Hit] Inflict 2 Bleed",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Wrath. Pierce. Skill Power 7. Coins 1. Coin Power 6. Offense Level 63. Atk Weight 1. 1 [On Hit] Inflict 1 Nails",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Joy of Execution",
+      "type": "passive",
+      "summary": "x5 Wrath [Owned]. After an enemy is defeated, gain 1 Haste and 1 Damage Up next turn. If this unit defeated an enemy, also gain 1 Fanatic. (Once per turn). Rising Faith x3 Wrath [Owned] After an enemy is defeated, apply 1 Haste and 1 Damage Up to the ally with the highest SP. (Once per turn)."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "n-corp-mittelhammer-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/n-corp-mittelhammer-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:n-corp-mittelhammer-rodion",
+  "released": "09/March/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "As rest of N Corp IDs, Rodion really only works in N Corp Team and even then, her clash and damage are horrible. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Rodion / Bleed Haste Nails Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/n-corp-mittelhammer-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "kurokumo-clan-wakashu-heathcliff",
+  "name": "Kurokumo Clan Wakashu Heathcliff",
+  "name_zh": null,
+  "name_en": "Kurokumo Clan Wakashu Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Bleed",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Lenticular Rend",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target [On Use] Gain 2 Defense Power Up next turn (once per turn) 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Offense Level Down",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Stormcloud",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target (max 2) [On Use] Gain 1 Defense Power Up next turn (once per turn) 1 [On Hit] Inflict 2 Bleed [Heads Hit] Inflict 1 Slash Fragility 2 [On Hit] Inflict +2 Bleed Count [On Hit] Inflict 1 Attack Power Down (2 times per turn)",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Thundercleave",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. Coin Power +1 for every 6 Bleed on the target (max 2) [Combat Start] Gain 1 Cumulus Wall next turn [On Use] Gain 1 Defense Power Up next turn (once per turn) [Clash Win] Gain 1 Dark Cloud Blade next turn (once per turn) 1 [On Hit] Inflict 2 Bleed [On Hit] The Final Coin deals +10% more damage 2 [On Hit] Inflict 1 Slash Fragility [On Hit] The Final Coin deals +10% more damage 3 Deal +10% more damage for every type of negative effect on target (max 100%) [On Hit] Inflict 6 Bleed",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rules of the Backstreets",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Slash. Skill Power 4. Coins 1. Coin Power 5. Offense Level 64. Atk Weight 1. [Clashable Counter] If Kurokumo Clan Captain Ishmael is on the field, activate the following: - Convert all Coins in this Skill into Unbreakable Coin s - Final Power +4 to this Skill upon Clash Lose Deal +10% more damage for every type of negative effect on the target (max 100%) [On Use] If this unit has Cumulus Wall, unconditionally activate all Reuse effects on this Skill's Coins 1 [On Hit] Inflict 2 Bleed [On Hit] If this unit has Dark Cloud Blade Reuse Coin once (once per skill) [On Hit] If this unit has Battle Ready, Reuse Coin once (once per skill)",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "kurokumo-clan-wakashu-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/kurokumo-clan-wakashu-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:kurokumo-clan-wakashu-heathcliff",
+  "released": "06/February/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "261",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Finally, we can hit Jun with his own medicine. Kurokumo Heathcliff or KK Heathcliff for short is a unique ID with a revenge mechanic, where he will launch an unopposed attack against an enemy who damaged another ally. First, let’s talk about his unique mechanic which is his Passive. The Battle Ready Passive lets him gain 1 Slash Power Up if an ally from the Kurokumo faction dies (not stackable) and the Battle Ready status effect when 3 allies from the Kurokumo faction are defeated which gives 1 Slash Power Up, 3 Slash Damage Up, and +1 to Bleed infliction for both Potency and Count. The 1 Slash Power Up is nice especially in chain battles as you can just put a level 1 Kurokumo ID and let them die without much consequence and get a replacement. The Battle Ready status on the other hand can elevate KK Heathcliff’s value by a LOT but unless it is on purpose you won’t be seeing it much. Now",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Bleed"
+  },
+  "verified": "Prydwen /limbus-company/identities/kurokumo-clan-wakashu-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

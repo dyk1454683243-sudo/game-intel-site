@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+  "name": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Bind Bleed Charge",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Both of You, Shut Up",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Blunt. Skill Power 4. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. At 7+ Red Eyes, Coin Power +1 Ar 7+ Penitence, Clash Power +2 1 [On Hit] Gain 3 Penitence [Heads Hit] Gain 1 Penitence 2 [On Hit] Gain 2 Red Eyes [On Hit] Inflict 1 Bleed",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "S.F. / S.H.",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If the sum of Red Eyes and Penitence is 15 or higher, Coin Power +1 If the target has 6+ Bleed, Coin Power +1 1 [On Hit] Gain 4 Penitence 2 [On Hit] Gain 3 Red Eyes [On Hit] Inflict 2 Bleed 3 [On Hit] Gain Red Eyes equal to (Bleed on target / 2) (max 3) [Heads Hit Hit] At 7+ Red Eyes, gain 1 Haste next turn (2 times per turn)",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Skullbuster",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [Before Use] If Red Eyes and Penitence are both at 15+, activate 'Serious Skullbuster' instead If this unit's Speed is faster than the target's, Coin Power +1 [On Use] At max SP, Clash Power +2 and Coin Power +1 - [After Attack] If this effect activated, lose 15 SP 1 [On Hit] Gain 7 Red Eyes [On Hit] Gain 7 Penitence [On Hit] Inflict 3 Bleed 2 [Heads Hit] Gain 2 Penitence 3 [On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence / 2)% of each unit's Max HP [On Hit] Heal self and 1 ally with the least SP by (Penitence - 10) SP (min 0)",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Serious Skullbuster",
+      "type": "skill4",
+      "summary": "Skill 4 · Lust. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. [On Use] Consume all Red Eyes and Penitence on self - Coin Power +1 for every 5 Red Eyes consumed (max 4) - Base Power +1 for every 5 Penitence consumed (max 4) [After Attack] Lose 15 SP and gain 'Only Ashes Remain' next turn 1 [On Hit] Inflict Bleed equal to (Red Eyes consumed - 15) on target (max 5) 2 Deal 4% more damage for every Red Eyes and Penitence consumed (max 160%) [On Hit] Heal self and 1 ally with the lowest HP percentage by (Penitence consumed)% of each unit's Max HP Heal X additional ally for every 2 Highest Reson. (max 2 more allies) [On Hit] Heal self and 1 ally with the least SP by (Penitence consumed - 5) SP Heal X additional ally for every 2 highest Reson. (max 2 more allies) [On Hit] Inflict 3 Bind and 2 Attack Power Down next turn (once per turn)",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Mealtime, Bedtime",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. 1 [On Hit] Gain 2 Red Eyes (once per turn) At less than 7 Red Eyes, gain +1 additional Red Eyes 2 [On Hit] Gain 2 Penitence At less than 7 Penitence, gain +1 additional Penitence",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Eat and Sleep",
+      "type": "support",
+      "summary": "x3 Envy [Res]. Combat Start: - 1 ally with the lowest HP percentage heals 3 HP - 1 ally with the least SP heals 3 SP"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-red-eyes-and-penitence-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+  "released": "05/September/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "209",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal"
+    },
+    "level": 60
+  },
+  "review": "[Lobotomy E.G.O:: Red Eyes & Penitence] Ryoshu, or simply \"Red Eyes Ryoshu,\" is a Charge ID with a lot of utility in her kit. Let's explore her skills first - but keep in mind that her Skill 3 possesses an enhanced variant (we’ll refer to it as Skill 3-1 for clarity in the review). Before we look at her skills, lets go over her mechanics first! Her unique charges, “Penitence” and “Red Eyes,” do not expire over time. Instead of gaining Charge Count, her passive randomly converts them into either “Penitence” or “Red Eyes”. If her second passive is active, she gains an additional charge of “Red Eyes” for each hit against an enemy with Bleed status. Do note that her own Bleed is on the later part of Coin, preventing her from gaining any extra Charge from it. For “Penitence”, charges can be gained via two methods: Hitting an enemy while having 20+ SP, or receiving a hit from an enemy. Each Ch",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Tank C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Bind Bleed Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-red-eyes-and-penitence-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

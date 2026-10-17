@@ -1,0 +1,113 @@
+{
+  "id": "multicrack-office-fixer-heathcliff",
+  "name": "MultiCrack Office Fixer Heathcliff",
+  "name_zh": null,
+  "name_en": "MultiCrack Office Fixer Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "00",
+  "role": "Charge",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "40S-2 Activation",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] Consume 5 Charge Count to gain Coin Power +1 1 [On Hit] Gain +2 Charge Count 2 [On Hit] Gain +2 Charge Count",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Photoelectric Mark",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] At 5~9 Charge Count, consume 2(10 - current Charge Count)% HP to raise Charge Count to 10 [On Use] Consume 10 Charge Count to gain Coin Power +2 1 [On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down 2 [On Hit] If this unit consumed Charge Count, inflict 2 Defense Level Down 3 [On Hit] Inflict 2 HP Healing Down [On Hit] Inflict Photoelectricity equal to Charge (max 3)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Photoelectric Harpoon",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 5. Coins 4. Coin Power 2. Offense Level 62. Atk Weight 1. Coin Power +1 for every 2 Charge on self (max 2) 1 [On Hit] Gain +7 Charge Count 2 [On Hit] Gain +(Charge x 3) Charge Count (max 9)n 3 [On Hit] Inflict Photoelectricity equal to Charge (max 3) [On Hit] Inflict 1 Blunt Fragility for every 2 Charge (max 2)",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Charge",
+      "type": "defense",
+      "summary": "Defense Guard · Envy. -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 62. Atk Weight 1. [On Use] Gain +3 Charge Count (2 times per turn)",
+      "sin": "Envy",
+      "attack_type": "-"
+    },
+    {
+      "name": "Charge Model L37",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter Turn End: At 2+ Charge, gain 1 Haste next turn Turn End: At 3+ Charge, gain 1 additional Haste and 1 Clash Power Up next turn"
+    },
+    {
+      "name": "Charging Module Installation",
+      "type": "support",
+      "summary": "x7 Envy [Owned]. 1 Deployed ally: Max Charge Count +5 (When conditions are met, this effect will remain activated until the start of the next turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/multicrack-office-fixer-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "multicrack-office-fixer-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/multicrack-office-fixer-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:multicrack-office-fixer-heathcliff",
+  "released": "08/August/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "4-7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Pierce",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Multicrack Heathcliff is quite the crackhead ID. So let’s start off with his skills! - Skill 1, 40S-2 Activation – 2 Coin Skill, Base Roll – 11, Conditionals Met – 13. - Skill 2, Photoelectric Mark – 3 Coin Skill, Base Roll – 13, Conditionals Met – 19. Inflicts Defense Level and HP Healing Down. Can Inflict \"Photoelectricity\". This skill costs 10 Charge Count to use, if you're below it, it'll cost some health to use it instead. - Skill 3, Photoelectric Harpoon – 4 Coin Skill, Base Roll – 13, Conditionals Met – 21. (Although you will rarely see his S3 roll 21, as it requires 4 Charge Potency). Can Inflict \"Photoelectricity\". He also gains 1 Clash Power at 3+ Charge Potency. His S3 is massive help in gaining him Charges, similar to Multicrack Faust, allowing him to gain at least 10 Charges. This skill can also inflict Blunt Fragility for every 2 Charge Potency he has. Now what makes this I",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/multicrack-office-fixer-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Heathcliff / Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/multicrack-office-fixer-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

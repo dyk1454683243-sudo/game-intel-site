@@ -1,0 +1,108 @@
+{
+  "id": "liu-assoc-south-section-4-ryoshu",
+  "name": "Liu Assoc. South Section 4 Ryoshu",
+  "name_zh": null,
+  "name_en": "Liu Assoc. South Section 4 Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "00",
+  "role": "Burn",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "All-out War",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If the target has 6+ Burn, Clash Power +1 If the target has 10+ Burn, Coin Power +1 1 [On Hit] Inflict 1 Burn 2 [Heads Hit] Inflict 1 Burn [On Hit] Inflict 1 Burn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Fiery Knifehand",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. If the target has 6+ Burn, Clash Power +1 If the target has 6+ Burn, Coin Power +1 1 [On Hit] Inflict 2 Burn 2 [On Hit] If the target has 6+ Burn, deal +50% damage",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Flame Cleave",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 4. Coins 4. Coin Power 2. Offense Level 63. Atk Weight 1. If the target has 6+ Burn, Clash Power +1 If the target has 6+ Burn, Coin Power +1 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Burn 3 [On Hit] Inflict 1 Burn 4 [On Hit] If the target has 10+ Burn, deal +40% damage",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Wrath. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 59. Atk Weight 1",
+      "sin": "Wrath",
+      "attack_type": "-"
+    },
+    {
+      "name": "Flame Spread",
+      "type": "passive",
+      "summary": "x4 Wrath [Owned]. When this unit defeats an enemy with Burn, apply 4 Burn to 2 random enemies with no Burn or with the least Burn Potency. (Once Per Turn). - In Focused Encounters, to 2 random Parts Spread Flame x4 Wrath [Owned] When 1 ally with the lowest Speed defeats an enemy with Burn, inflict 3 Burn to 2 random enemies (Once per turn) - In Focused Encounters, on 2 random Parts"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "liu-assoc-south-section-4-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/liu-assoc-south-section-4-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:liu-assoc-south-section-4-ryoshu",
+  "released": "07/March/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "3-7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Liu Assoc. South Section 4 Ryoshu Liu Ryoshu is a decent burn ID, focused on dealing damage first and applying burn potency at the same time. While at the base, her rolls might not be impressive at all, taking into consideration the fact that burn is the easiest status to maintain on the enemies, her conditional coin power-ups and clash power-ups won’t be hard to activate. While her Skill 1 being of gluttony sin seems awkward at first, is good to have to fuel any other additional E.G.O. you may have equipped at the time. Worth noting, unlike previous Liu IDs, Ryoshu has no blunt damage-dealing skills, instead has two slash and one pierce damage-dealing skills, covering Liu's weakness of facing enemies who are blunt resistant. E.G.O. Synergies Forest of the Flames – Burn plus fragility is always welcome and it is easily fueled in the burn team Red Eyes – Unlike previous Liu IDs, Ryoshu ha",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ryōshū / Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/liu-assoc-south-section-4-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

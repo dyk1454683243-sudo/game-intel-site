@@ -1,0 +1,106 @@
+{
+  "id": "cinq-assoc-west-section-3-meursault",
+  "name": "Cinq Assoc. West Section 3 Meursault",
+  "name_zh": null,
+  "name_en": "Cinq Assoc. West Section 3 Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Haste Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Allez",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 3 Speed difference; max 2) [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency with its effects, but does not consume Rupture Count On Hit [On Use] Gain +2 Poise Count 1 [On Hit] Gain +1 Poise Count 2 [On Hit] Inflict 1 Rupture [On Hit] If this unit's Speed is faster than the target's, inflict Rupture equal to their Speed difference (max 3)",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Fente",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Potency or Count with its effects, but does not consume Rupture Count On Hit [Clash Win] Gain +2 Poise Count 1 [On Hit] Gain +2 Poise Count 2 [On Hit] Gain 2 Poise 3 [On Hit] If this unit does not inflict Rupture, +5% Damage on Critical Hit for every Rupture Potency and Count it would have inflicted [On Hit] Inflict 4 Rupture [On Hit] At 7+ Speed, inflict +2 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Salut",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 3) [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not consume Rupture Count On Hit [Clash Win] Gain 5 Poise - If the target has Focused Attack - Meursault, gain 5 additional Poise 1 [Hit after Clash Win] The final Coin deals +10% more damage 2 [Hit after Clash Win] The final Coin deals +10% more damage 3 Deal +20% more damage for every Focused Attack - Meursault on the Slot +30% Damage on Critical Hit - Deal +2% Damage on Critical Hit for every Rupture on the target (max 30%) [After Attack] If this Coin defeated the target or destroyed the Part, Reuse this Skill once against a random target (does not activate on Reuse)",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Défensive",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. [On Use] If this unit's Speed is faster than the target's by 3 or more, Coin Power +2",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Duel Livestream",
+      "type": "passive",
+      "summary": "x2 Pride [Owned] x2 Gluttony [Owned]. Gain 1 Haste next turn for every 3 Poise Potency on self at Turn End (max 2) On Hit with base Attack Skills: on the Slot it hit last, inflict Focused Attack - Meursault next turn. (once per Skill) If this unit attacked the Slot with Focused Attack - Meursault and defeated its owner or broke the Part, heal 7 SP One Step Ahead x3 Pride [Res] The fastest ally, on Clash Win, gains 1 Haste next turn (2 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-west-section-3-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-assoc-west-section-3-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-assoc-west-section-3-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-assoc-west-section-3-meursault",
+  "released": "10/October/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Cinq Association West Meursault or Cinq Meursault for short is a mixed bag of an ID having both Poise and Rupture. Like other Cinq IDs, his kit mainly focuses on having high Speed. Before we go over his Skills, let’s first get his unique mechanic out of the way. His Passive, if active, allows him to gain Haste for every 3 Poise Potency for a max of 2. During Focused Encounter (fights where you manually target your skills), every time he hits something with a Skill, he inflicts a status called “Focused Attack - Meursault” which can only be triggered once per skill. This status can massively improve his numbers depending on the stack count, with each skill hit on the same target slot increasing the stack count by one for a maximum of 3. The benefits he gains from “Focused Attack - Meursault” stacks are as follows: - 1x Stack: Gain Clash Power +1 - 2x Stack: Gain Base Power +1 - 3x Stack: G",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-west-section-3-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Haste Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-assoc-west-section-3-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

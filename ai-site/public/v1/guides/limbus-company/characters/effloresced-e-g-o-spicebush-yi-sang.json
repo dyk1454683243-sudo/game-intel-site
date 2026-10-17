@@ -1,0 +1,108 @@
+{
+  "id": "effloresced-e-g-o-spicebush-yi-sang",
+  "name": "Effloresced E.G.O::Spicebush Yi Sang",
+  "name_zh": null,
+  "name_en": "Effloresced E.G.O::Spicebush Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sprouting Bud",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Pierce. Skill Power 3. Coins 3. Coin Power 2. Offense Level 64. Atk Weight 1. [On Use] Gain 3 Tremor Count 1 [On Hit] Inflict +1 Sinking Count next turn 2 [On Hit] Inflict +2 Sinking Count next turn",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Moment's Floral Breeze",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] Spend 6 Tremor Count to turn this into an AoE skill with 3 Atk Weight If main target has 6+ Sinking Count, Coin Power +1 1 [On Hit] Inflict 2 Sinking next turn 2 [On Hit] Inflict 2 Sinking next turn 3 [On Hit] Inflict 2 Sinking next turn",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Bloodsteeped Scent",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 6. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. [Clash Lose] Lose 20 SP [On Use] Gain 6 Tremor Count 1 [On Hit] Inflict +1 Sinking Count 2 [On Hit] Inflict +1 Sinking Count 3 [On Hit] If target has 6+ Sinking, cause Sinking Deluge, [On Hit] If user has 10 Tremor Count, deal 40% of the damage dealt as bonus damage",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Scattering Aroma",
+      "type": "defense",
+      "summary": "Defense Evade · Sloth. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1. [On Evade] Inflict 1 Sinking",
+      "sin": "Sloth",
+      "attack_type": "-"
+    },
+    {
+      "name": "Full Bloom",
+      "type": "passive",
+      "summary": "x4 Sloth [Owned]. When attacking 2 or more targets at once, deal 30% more damage Pungent Spring Breeze x3 Sloth [Res] 1 ally with the least SP deal 10% more damage when attacking 2 or more targets at once"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/effloresced-e-g-o-spicebush-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "effloresced-e-g-o-spicebush-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/effloresced-e-g-o-spicebush-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:effloresced-e-g-o-spicebush-yi-sang",
+  "released": "15/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "56",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Core of sinking teams, he inflicts a decent amount of sinking while also having both good amount of coins and rolls. His S2 can turn into aoe with enough tremor making him inflict a total of 18 sinking potency. His bread and butter lies within his S3 which causes Sinking Deluge that can potentially send the enemy into a shadow realm with emotional damage if they have high sinking potency and count. Notable E.G.O. Synergy: Sunshower - he can make use of the sloth dmg amp while also having synergy with his passive allowing him to deal more damage with it.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/effloresced-e-g-o-spicebush-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/effloresced-e-g-o-spicebush-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

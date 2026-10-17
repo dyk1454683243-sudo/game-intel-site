@@ -1,0 +1,103 @@
+{
+  "id": "n-corp-mittelhammer-don-quixote",
+  "name": "N Corp. Mittelhammer Don Quixote",
+  "name_zh": null,
+  "name_en": "N Corp. Mittelhammer Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "00",
+  "role": "Nails Paralyze Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rightful Purge",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. 1 [Heads Hit] Inflict 2 Nails [On Hit] Inflict 1 Tremor 2 [On Hit] Inflict 2 Tremor",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Enacment!",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 4. Coins 1. Coin Power 12. Offense Level 61. Atk Weight 1. 1 [On Hit] Burst Tremor; +30% Damage to targets with 5+ Nails",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Fanatical Judgement",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 5. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. 1 [On Hit] Inflict 2 Nails 2 [Heads Hit] Inflict 2 Nails [On Hit] Inflict +1 Tremor Count 3 [Heads Hit] If target has 5+ Nails, inflict Attack Power Down next turn [Heads Hit] If target has 5+ Nails, inflict 2 Paralyze next turn [On Hit] Inflict +1 Tremor Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 10. Coins 1. Coin Power 5. Offense Level 63. Atk Weight 1",
+      "sin": "Lust",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "n-corp-mittelhammer-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/n-corp-mittelhammer-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:n-corp-mittelhammer-don-quixote",
+  "released": "04/May/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "2-5",
+    "defense": "61",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "N Corp Don is an identity that really shines only in the N Corp team with other Identities from the same faction, other than that, she does not offset much. She is as average as it gets. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/n-corp-mittelhammer-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Don Quixote / Nails Paralyze Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/n-corp-mittelhammer-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

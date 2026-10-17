@@ -1,0 +1,113 @@
+{
+  "id": "multicrack-office-rep-faust",
+  "name": "MultiCrack Office Rep Faust",
+  "name_zh": null,
+  "name_en": "MultiCrack Office Rep Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Charge",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "40Y-3 Activation",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Consume 5 Charge Count to gain Coin Power +2 1 [On Hit] Gain +3 Charge Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Charge Countercurrent",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. [On Use] At 5~9 Charge Count, consume 2(10 - current Charge Count)% HP to raise Charge Count to 10 [On Use] Consume 10 Charge Count to gain Coin Power +2 1 At +3 Reson. including this Skill, consume all Charge Count on self and deal +(Charge +4)% more damage for every Charge Count consumed by this Skill (max 180%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "40Y-3 Charge",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Coin Power +1 for every Charge (max 4) 1 [On Hit] Gain +(Charge +5) Charge Count (max 8) 2 [On Hit] Gain +(Charge +5) Charge Count (max 8) 3 At 3+ Charge, deal +8% more damage for every Charge (max 40%) [On Hit] Inflict 1 Envy Fragility next turn - At 2+ Charge, inflict 1 additional Envy Fragility",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Charge",
+      "type": "defense",
+      "summary": "Defense Guard · Envy. -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 60. Atk Weight 1. [On Use] Gain +4 Charge Count (2 times per turn)",
+      "sin": "Envy",
+      "attack_type": "-"
+    },
+    {
+      "name": "Electrocurrent Dismantling",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. Gain 1 Charge every time this unit consumes 10 cumulative Charge Count in this Encounter At 2+ Charge, deal +(Charge x 3)% more damage (max 15%) - If the target is at less than 50% HP, deal +(Charge x 5)% additionally increased damage (max 25%) On Kill, this unit and 2 allies with the least Charge Count gain Charge Count equal to (Charge + 2) (max 5, prioritizes allies that consume or gain Charge)"
+    },
+    {
+      "name": "Auxiliary Dismantling Current",
+      "type": "support",
+      "summary": "x5 Envy [Owned]. When 1 ally with the least Charge Count kills an enemy, the ally gains +3 Charge Count (once per turn, prioritizes allies that consume or gain Charge)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/multicrack-office-rep-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "multicrack-office-rep-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/multicrack-office-rep-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:multicrack-office-rep-faust",
+  "released": "08/August/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Multicrack Faust is also quite the cracked ID. Her primary strength lies behind the fact that she is a Charge ID, who permanently scales in the fight, the longer it takes, dealing massive damage with her Skill 2 and 3. Let’s move on to her skills! - Skill 1, 40Y-3 Activation – 2 Coin Skill, Base Roll – 11, Conditionals Met – 15. - Skill 2, Charge Countercurrent – 3 Coin Skill, Base Roll – 16, Conditionals Met – 22. This skill costs 10 Charge Count to use, if you're below it, it'll cost some health to use it instead. Her S2 in general rolls pretty high for Damage, but if you can get the 3+ Resonance conditional off her 3rd Coin, that coin deals up to 180% additional damage shooting the skill damage through the roof. As with just 20 Charge Count and 1 Charge Potency, you would already gain +100% damage with 3rd Coin, with higher count hitting the cap quite easily. - Skill 3, 40Y-3 Charge –",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/multicrack-office-rep-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/multicrack-office-rep-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

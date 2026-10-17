@@ -1,0 +1,113 @@
+{
+  "id": "blade-lineage-salsu-don-quixote",
+  "name": "Blade Lineage Salsu Don Quixote",
+  "name_zh": null,
+  "name_en": "Blade Lineage Salsu Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "00",
+  "role": "Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Draw of the Sword",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. At 5+ Poise on self, Coin Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain 1 Poise 2 [On Hit] Gain 1 Poise",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Blade Arc",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Slash. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. At 7+ Poise on self, Coin Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain 2 Poise 2 [On Crit] To 1 ally either with no Poise or with the least Poise Potency, apply 2 Poise If the affected ally is from the Blade Lineage, apply 2 additional Poise",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Fare Thee Well",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Slash. Skill Power 4. Coins 3. Coin Power 3. Offense Level 64. Atk Weight 1. At 10+ Poise on self, Coin Power +1 [On Use] Gain 5 Poise 1 [Heads Hit] The final Coin deals +10% damage 2 [Heads Hit] The final Coin deals +10% damage 3 +30% Damage on Critical Hit [On Crit] To 2 allies either with no Poise or with the least Poise Count, apply 2 Poise Count. If the affected ally is from the Blade Lineage, apply 2 additional Poise Count [After Attack] If the target is defeated, apply 1 Slash DMG Up to self and 1 random other ally next turn",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Collective Breathing",
+      "type": "passive",
+      "summary": "x2 Pride [Res]. When this unit gains Poise Potency with its own Skill or Coin effects: give 1 Poise Potency to 1 ally with no Poise or with the least Poise Potency (5 times max)"
+    },
+    {
+      "name": "Nightly Stroll",
+      "type": "support",
+      "summary": "x3 Pride [Owned]. 1 ally with the least Poise gains 2 more Poise Potency when gaining Poise Potency with its own Skill or Coin effects. (2 timex max. Does not apply to allies without Poise)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "blade-lineage-salsu-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/blade-lineage-salsu-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:blade-lineage-salsu-don-quixote",
+  "released": "22/February/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "217",
+    "speed": "4-8",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "A good welfare ID. She has okay damage output and clashing power of 13/16/16. She shines in a Blade Lineage team consisting of Blade Lineage Meursault and at least 1 more Blade Lineage ID. Her main use is giving poise to other Blade Lineage IDs with the least poise making them more consistent in critting and maintaining it. With said team she essentially makes the rest of them ramps poise much faster to the point of being able to maintain poise outside of MD and making them viable when paired with Blade Lineage Meursault. Notable E.G.O. Synergies Wishing Cairn - Can help with Poise ramp-up, especially in mob battles",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Support B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Don Quixote / Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/blade-lineage-salsu-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "the-house-of-spiders-the-ring-apprentice-faust",
+  "name": "The House of Spiders: The Ring Apprentice Faust",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Ring Apprentice Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bind Bleed Charge",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Butcher - Ribs",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. Iron Maiden exclusive Skill [On Use] Clash Power +1 for every type of negative effect on target (max 2) [On Use] Final Power +1 for every 4 Bleed on target (max 3) 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2 Defense Level Down next turn (once per turn) [On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Butcher - Ribs",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. The Self Unbound - Flow State exclusive Skill Deal +10% damage for every type of negative effect on target (max 30%) [On Use] Final Power +1 for every 4 Bleed on target (max 3) 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2 Defense Level Down next turn (once per turn) [On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Fascia Hungers",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. Iron Maiden exclusive Skill [On Use] Clash Power +1 for every type of negative effect on target (max 2) [On Use] Final Power +1 for every 4 Bleed on target (max 4) [On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain the following effects: - Clash Power +1 - Convert the final Coin on this Skill to Unbreakable Coin 1 [On Hit] Inflict +2 Bleed Count 2 [On Hit] Inflict 1 Bind next turn (once per turn) 3 [On Hit] Gain +4 Corpus Ingredient Count",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Time for Your Meal, Fascia",
+      "type": "skill4",
+      "summary": "Skill 4 · . Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. The Self Unbound - Flow State exclusive Skill Deal +10% damage for every type of negative effect on target (max 30%) [On Use] Final Power +1 for every 4 Bleed on target (max 4) [On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain the following effects: - Clash Power +1 - Convert the final Coin on this Skill to Unbreakable Coin 1 [On Hit] Inflict +2 Bleed Count 2 [On Hit] Inflict 1 Bind next turn (once per turn) [On Hit] Gain 1 Haste next turn (once per turn) 3 [On Hit] Gain +4 Corpus Ingredient Count",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Repressed Flesh",
+      "type": "skill5",
+      "summary": "Skill 5 · Lust. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Iron Maiden exclusive Skill [On Use] Final Power +1 for every 4 Bleed on target (max 3) [On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count to gain the following effects: - Final Power +2 - Deal +3% damage for every Corpus Ingredient Count consumed 1 [On Hit] Inflict 4 Bleed 2 [On Hit] Inflict 1 Bind next turn (once per turn) 3 [On Hit] Inflict 1 Damage Down next turn (once per turn) 4 Deal +5% damage for every type of negative effect on target (max 30%) [On Hit] Inflict +1 Bleed Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Liberation of the Repressed Flesh",
+      "type": "skill6",
+      "summary": "Skill 6 · . Skill Power 4. Coins 4. Coin Power 3. Offense Level 65. The Self Unbound - Flow State exclusive Skill [On Use] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part) [On Use] Final Power +1 for every 4 Bleed on the main target (max 3) [On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count and gain the following effects: - Final Power +2 - Deal +1% damage for every Corpus Ingredient Count consumed - At 3+/5+ Corpus Ingredient, gain +1/+2 Atk Weight - Convert all Coins on this Skill to Unbreakable Coin s 1 [On Hit] Inflict 4 Bleed 2 [On Hit] Inflict 1 Bind next turn (once per turn) [On Hit] Gain 1 Haste next turn (once per turn) 3 [On Hit] Inflict 1 Damage Down next turn (once per turn) [On Hit] Gain 1 Slash DMG Up next turn (once per turn) 4 Deal +5% damage for every type of negative effect on target (max 30%) [On Hit] Inflict +1 Bleed Count"
+    },
+    {
+      "name": "Exhibition Arrangements",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. Skill Power 4. Coins 1. Coin Power 10. Offense Level 65. Atk Weight 1. Clashable Guard Iron Maiden exclusive Skill [Clash Win] Inflict +2 Bleed Count on the attacker (2 times per turn) [Clash Win] Deal Pierce damage equal to (Bleed Potency on the attacker x 2) (max damage: 30) 1 Unbreakable Coin",
+      "sin": "Lust"
+    },
+    {
+      "name": "The Exhibition Begins",
+      "type": "defense",
+      "summary": "Defense Evade · . Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. The Self Unbound - Flow State exclusive Skill [Combat Start] Gain 1 Assist Defense (once per turn [On Evade] Inflict 1 Bind next turn against the attacker (once per turn) [On Evade] Gain 1 Haste next turn (once per turn)"
+    },
+    {
+      "name": "No Acts of Vandalism Allowed.",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Clashable Counter] The Self Unbound - Flow State exclusive Skill Assist Defense exclusive Skill Deal +10% damage for every type of negative effect on target (max 30%) [On Use] Coin Power +1 for every 6 Bleed on target (max 2) [On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain the following effects: - Clash Power +1 - Convert the final Coin on this Skill to Unbreakable Coin 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2",
+      "sin": "Lust"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-apprentice-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-ring-apprentice-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-ring-apprentice-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-ring-apprentice-faust",
+  "released": "02/April/2026",
+  "page_updated": "08/October/2026",
+  "combat": {
+    "max_hp": "283",
+    "speed": "3-6",
+    "defense": "62",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Review"
+    },
+    "level": 60
+  },
+  "review": "The House of Spiders: The Ring Apprentice Faust is a Charge-based Bleed Identity who REALLY wants to be fielded alongside The House of Spiders: The Ring Nursefather Hong Lu for maximum efficiency, in a similar fashion to Full Stop Duo. First, she has a total of 5 unique statuses: - Corpus Ingredients is a unique Charge that works the same way as a normal Charge does. - Iron Maiden is the state she will be in during the first few turns, giving Aggro, Protection, Defense Level Up and Shield. Lastly, when Ring Faust is hit, it deals damage to attackers and inflicts 2 Bleed Count for each skill with a maximum of 6 Bleed Count each turn. This state allows her to sponge some hits with low consequences for the first few turns, especially when Sanity is not at maxed yet. - Artwork: Fascia, obtained upon spending 10 Corpus Ingredients, allows her to switch state and gain bonuses, up to 2 Base Pow",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-apprentice-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Aggro Bind Bleed Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-ring-apprentice-faust，页内 Last updated 08/October/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

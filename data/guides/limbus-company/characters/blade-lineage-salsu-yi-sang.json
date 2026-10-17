@@ -1,0 +1,112 @@
+{
+  "id": "blade-lineage-salsu-yi-sang",
+  "name": "Blade Lineage Salsu Yi Sang",
+  "name_zh": null,
+  "name_en": "Blade Lineage Salsu Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Striker's Stance",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride · Slash · Skill Power 6 · Coins 1 · Coin Power 7 · Offense Level 65 · Atk Weight 1. [On Use] Gain +2 Poise Count 1 [On Hit] Gain 3 Poise next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Heel Turn",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath · Slash · Skill Power 7 · Coins 2 · Coin Power 2 · Offense Level 65 · Atk Weight 1. [Clash Win] Gain +2 Poise Count next turn",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Flank Trust",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy · Slash · Skill Power 8 · Coins 3 · Coin Power 2 · Offense Level 65 · Atk Weight 1. [On Use] Gain 2 Poise 1 [Heads Hit] Gain 2 Poise next turn 2 +70% Damage on Critical Hit",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Pride · Slash · Skill Power 10 · Coins 1 · Coin Power 8 · Offense Level 65 · Atk Weight 1. 1 Deal 70% damage on Critical Hit",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Poised",
+      "type": "passive",
+      "summary": "x4 Pride [Owned]. On clash win, gain +1 Poise Count. Coin Power +1 for every 5 Poise Count (Max 3)"
+    },
+    {
+      "name": "Bestow",
+      "type": "support",
+      "summary": "x3 Pride [Owned]. 1 ally with the highest SP gains +1 Poise Count from skills."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "blade-lineage-salsu-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/blade-lineage-salsu-yi-sang_full.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang",
+  "portrait_via": "prydwen-identity:blade-lineage-salsu-yi-sang",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "56",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Normal"
+    },
+    "level": 60
+  },
+  "review": "Blade Lineage Yi Sang is very consistent at maintaining both his poise count and potency while also having a high clashing power for every few poise count at Uptie 4. Although he will need time to ramp up, he becomes a clashing monster once Poise is there.\n Him not having much potency gain actually helps him because you would want to keep that count high to maintain his coin power.\n No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/blade-lineage-salsu-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

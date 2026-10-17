@@ -1,0 +1,103 @@
+{
+  "id": "lobotomy-e-g-o-sloshing-ishmael",
+  "name": "Lobotomy E.G.O::Sloshing Ishmael",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Sloshing Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Rupture Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "It's Heavy...!",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 4. Coins 1. Coin Power 6. Offense Level 59. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn [Clash Lose] Inflict 2 Tremor and 2 Rupture 1 [Heads Hit] Inflict 1 Tremor [On Hit] Inflict +1 Tremor Count",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "It's Churning...!",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn [Clash Lose] Inflict 3 Tremor and 3 Rupture 1 [On Hit] Inflict 1 Tremor 2 [On Hit] Inflict 2 Tremor",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Corrosive Splash",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Blunt. Skill Power 6. Coins 1. Coin Power 16. Offense Level 59. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn [Clash Lose] Inflict 5 Tremor and 5 Rupture 1 [On Hit] Burst Tremor [On Hit] Reduce Tremor Count by 4 [On Hit] After bursting Tremor, inflict 5 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn",
+      "sin": "Gloom",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sloshing-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-sloshing-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-sloshing-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-sloshing-ishmael",
+  "released": "15/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "276",
+    "speed": "2-7",
+    "defense": "65",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Very, very bad tank at Uptie 3 and needs Uptie 4 to work, but even then all U4 gives her, is applying Tremor and Rupture on losing clashes. She is meant to take damage with her tanky stats and shield every turn, but unfortunately, nearly all other tanks currently are better at tanking, Tremor is a bad status to focus on (and if Slosh Ishmael wins a clash somehow, she will sabotage the Tremor) and Rupture is still having its own issues. Thread and Shards requirement is real with Uptie 4 and using it on trying to make Sloshing Ishmael work might seem like a waste. If you need a tank, there are better options. She either does not provide anything to the team or hinders it actively. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-sloshing-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ishmael / Aggro Rupture Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-sloshing-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

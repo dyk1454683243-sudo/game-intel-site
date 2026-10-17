@@ -1,0 +1,107 @@
+{
+  "id": "r-corp-4th-pack-rabbit-heathcliff",
+  "name": "R Corp. 4th Pack Rabbit Heathcliff",
+  "name_zh": null,
+  "name_en": "R Corp. 4th Pack Rabbit Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Bleed Charge Fragile Haste Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Graze the Grass",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Pierce. Skill Power 4. Coins 3. Coin Power 2. Offense Level 65. Atk Weight 1. 1 Spend 1 Ammo 2 Spend 1 Ammo 3 [On Hit] Gain +3 Charge Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Concentrated Fire",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Pierce. Skill Power 4. Coins 4. Coin Power 2. Offense Level 65. Atk Weight 1. Coin Power +1 at 6+ Speed 1 Spend 1 Ammo. [On Hit] Inflict 1 Bleed 2 Spend 1 Ammo. [On Hit] Inflict 1 Bleed 3 Spend 1 Ammo. [On Hit] Inflict 1 Bleed",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Quick Suppression",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Pierce. Skill Power 3. Coins 5. Coin Power 2. Offense Level 65. Atk Weight 1. Coin Power +2 at 6 Speed 1 Spend 1 Ammo. [On Hit] Inflict 2 Fragile 2 Spend 1 Ammo. [On Hit] Inflict 2 Fragile 3 [On Hit] Inflict 1 Rupture 4 [On Hit] Inflict 2 Rupture 5 [On Hit] Inflict 3 Rupture",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · . -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 58. Atk Weight 1. [On Use] Gain +1 Charge Count",
+      "attack_type": "-"
+    },
+    {
+      "name": "Raring to Graze",
+      "type": "passive",
+      "summary": "x3 Wrath [Res]. Gain (Wrath Res.) Charge Count next turn. At 5+ Charge Count, gain 1 Haste and Attack Power Up. Always Activate: At the start of the stage, gain +3 Ammo Doggedness x5 Wrath [Owned] 1 ally with the highest speed deals 10%+ Pierce damage. Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rabbit-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "r-corp-4th-pack-rabbit-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/r-corp-4th-pack-rabbit-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:r-corp-4th-pack-rabbit-heathcliff",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "56",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The fall of the king. The only thing R heathcliff has that others don’t is quick suppression, Now quick suppression is still very powerful as it gives the enemy 4 fragile this combined with the amount of ways he can get 6+ speed such as bodysack in prior turns can allow him to act first which in turn make everyone in the team do 40% more damage to the enemy, This makes him top tier in contents where you want faster clears. Unfortunately his other skills sucks as they actually roll below average without condition which half the time you’re not gonna be at 6+ speed unless you get lucky or get haste. He also wants a fast clear as the moment he runs out of ammo he becomes useless which takes atleast 6-8 turns if he is uptie 4. While quick suppression does alot of damage and give other sinners alot of damage his other skills just cannot keep up. Notable E.G.O. Synergies Bodysack - Base E.G.O.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-rabbit-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Support A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Ammo Bleed Charge Fragile Haste Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/r-corp-4th-pack-rabbit-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

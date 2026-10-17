@@ -1,0 +1,112 @@
+{
+  "id": "dawn-office-rep-gregor",
+  "name": "Dawn Office Rep Gregor",
+  "name_zh": null,
+  "name_en": "Dawn Office Rep Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Burn Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Flash of Sunup",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight -. [On Use] Final Power +1 for every 4 (Burn + Tremor) on target (max 3) [On Use] At 20+ Light of Daybreak, this Skill gains an extra Coin 2 as an Unbreakable Coin 1 [On Hit] Inflict 1 Burn Inflict +2 Tremor Count 2 [On Hit] Inflict 1 Burn",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sunset Blade",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight -. [On Use] Final Power +1 for every 4 (Burn + Tremo r) on target (max 4) [On Use] At 20+ Light of Daybreak, gain the following effects: - This Skill gains an extra Coin 3 as an Unbreakable Coin - On Hit using the extra Coin, trigger Tremor Burst; then, reduce target's Tremor Count by 1 1 [On Hit] Inflict 2 Burn 2 [On Hit] Inflict 1 Burn [On Hit] Inflict 1 Tremor 3 [On Hit] Inflict +1 Burn Count [On Hit] Inflict +1 Tremor Count",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Dawnsplitter",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight -. Deal +(Burn on self + Burn on target)% damage (max 30%) [Combat Start] Apply 2 Protection on 2 other random allies (prioritize allies that do not have Protection; among them, prioritize Dawn Office allies) [Before Use] At 30 Light of Daybreak, activate \"Crack of Dawn\" instead (once per turn) [On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2) [On Use] At 20+ Light of Daybreak, activate the following effects: - Final Power +1 - Convert all Coins in this Skill into Unbreakable Coins - On final Coin Hit, activate Burn on target; then, reduce target's Burn Count by 1 [Attack End] Apply 1 Dawnherald next turn on all allies - At 20+ Light of Daybreak, apply 1 additional Dawnherald 1 [On Hit] Inflict 3 Burn 2 [On Hit] Inflict 2 Tremor 3 [On Hit] Inflict +2 Burn Count [On Hit] Inflict +2 Tremor Count 4 [On Hit] Trigger Amplitude Conversion into Tremor - Scorch [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Crack of Dawn",
+      "type": "skill4",
+      "summary": "Skill 4 · . Slash. Skill Power 5. Coins 4. Coin Power 4. Offense Level 64. Atk Weight 3. Deal +75% damage for every excess Atk Weight beyond the # of actual targets (for Focused Encounters, Parts) [On Use] Apply 2 Protection next turn on 2 random allies (prioritize allies that do not have Protection; among them, prioritize Dawn Office allies) [On Use] At 15+ Burn, Coin Power +1 [On Use] Coin Power +1 for every 6 (Burn + Tremo r) on the main target (max 2) [Attack End] Activate the following effects: - Apply 3 Dawnherald next turn on all allies - Consume up to 15 Burn on self and heal (15 + Burn consumed)% HP - Consume all Light of Daybreak on self 1 Unbreakable Coin [On Hit] Inflict +3 Burn Count [On Hit] Inflict +3 Burn Tremor 2 Unbreakable Coin [On Hit] Inflict 5 Tremor 3 Unbreakable Coin [On Hit] Inflict 5 Burn 4 [On Hit] Trigger Amplitude Conversion into Tremor - Scorch [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Activete Burn on target; then, reduce target's Burn Count by 1",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guardian",
+      "type": "defense",
+      "summary": "Defense Counter · . Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. [Clashable Counter] [Combat Start] Gain 1 Assist Defense (once per turn) [Before Use] At 30 Light of Daybreak, activate \"Crack of Dawn\" instead (once per turn) [On Use] Gain 5 Light of Daybreak (once per turn) [On Use] Final Power +1 for every 4 (Burn + Tremor) on target (max 2) [Clash Win] Lose 2 Burn Count (once per turn) [Skill End] Lose 5 Burn Potency (once per turn) 1 [On Hit] Inflict 1 Burn [On Hit] Inflict 1 Tremor 2 [On Hit] Inflict +1 Burn Count"
+    },
+    {
+      "name": "Heat Haze",
+      "type": "skill6",
+      "summary": "Skill 6 · . Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Clashable Counter] Assist Defense exclusive Skill [On Use] Gain 5 Light of Daybreak (once per turn) [On Use] Gain 2 Protection (once per turn) [On Use] Coin Power +1 for every 6 (Burn + Tremor) on target (max 2) [On Use] At 20+ Light of Daybreak, or if this unit used \"Crack of Dawn\" Skill this turn, convert all Coins in this Skill into Unbreakable Coins 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Tremor"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/dawn-office-rep-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "dawn-office-rep-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/dawn-office-rep-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:dawn-office-rep-gregor",
+  "released": "09/July/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "271",
+    "speed": "4-6",
+    "defense": "64",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Dawn Gregor is a Walpurgis Night exclusive Burn tremor ID with strong support capabilities. Unlike his other 2 Dawn teammates, his offensive capabilities are quite lacking, yet he still deserves some attention for his strong status effect infliction. Let’s take a closer look at his kit. Starting with his unique effects, he has quite a few of those. - Light of Daybreak - His unique stacks are just like Dawn Faust. However, aside from S3-2 usage, they also enhance his Burn infliction and give him extra coins for S1 and S2. Can gain up to 20 stacks per turn with a max stack of 30 (hard-capping rotation of S3-2 to 4 turns if he is alone, 3 turns if 1 Dawn Office ally is present, 2 turns if 2 are present). Max effectiveness will be at 20 for infliction and extra coins. He also starts Burning himself due to stacks, but it doesn’t matter much aside from healing purposes since he has Burn damage",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/dawn-office-rep-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Burn Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/dawn-office-rep-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

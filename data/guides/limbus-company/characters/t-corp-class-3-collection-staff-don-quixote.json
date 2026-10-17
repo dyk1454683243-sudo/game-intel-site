@@ -1,0 +1,106 @@
+{
+  "id": "t-corp-class-3-collection-staff-don-quixote",
+  "name": "T Corp. Class 3 Collection Staff Don Quixote",
+  "name_zh": null,
+  "name_en": "T Corp. Class 3 Collection Staff Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bind Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Let Us Prepare To Collect",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] Gain +2 Tremor Count [On Use] Gain Clash Power +1 for every 6 Tremor on target (max 2) [On Use] Gain +3 Aggro to this Skill Slot next turn 1 [On Hit] Gain +4 Aggro to this Skill Slot next turn 2 [On Hit] Inflict 2 Tremor",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "T Corp. Accelerated Amputor",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] Gain +3 Tremor Count [On Use] Clash Power +1 for every 6 Tremor on target (max 2) 1 [On Hit] Consume up to 3 Tremor on target, and gain double the amount consumed as Tremor Count on self Inflict (Tremor Consumed -1) Bind next turn 2 [On Hit] Inflict 3 Tremor 3 [On Hit] If this Skill's Coin effects consumed Tremor on target, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "I Command Thee, Halt",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 60. Atk Weight 1. [On Use] Clash Power +1 for every 6 Tremor on target (max 2) [On Use] If the target has Bind, gain Clash Power +1 [On Use] Consume 10 Tremor Count on self to gain Coin Power +2 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 3 Tremor 3 [On Hit] If the target has 10+ Tremor, consume 10 Tremor on target and inflict 2 Time Moratorium - If this unit is in a Borrowed Time state, this effect does not consume the target's Tremor [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If the target's Speed is slower than this unit's, trigger Amplitude Conversion into Tremor - Chain",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I Shall Summon the Time",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 62. Atk Weight 1. [Combat Start] If this unit is not in a Borrowed Time state, gain 4 Borrowed Time at Turn End (once per turn) [On Use] For this turn: when hit by an enemy, inflict 3 Tremor on target next turn (6 times per turn)",
+      "attack_type": "-"
+    },
+    {
+      "name": "Golden Time - Extracting",
+      "type": "passive",
+      "summary": "x5 Sloth [Owned]. - Turn End: If this unit's HP is between 10% ~ 20%, instantly heal 80% of this unit's max HP, and recover from Stagger. (once per Encounter) - When this unit loses Borrowed Time, gain +8 Aggro to one of this unit's Skill Slots next turn T Corp. Physics Distortion Field x3 Sloth [Owned] When 1 ally with the slowest Speed takes damage from enemies with Tremor, take -10% less damage"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-collection-staff-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "t-corp-class-3-collection-staff-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/t-corp-class-3-collection-staff-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:t-corp-class-3-collection-staff-don-quixote",
+  "released": "27/June/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "291",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "T Corp Don, an extremely exceptional tank when it comes to her sheer versatility, utility, and tankiness. She has a very high HP pool, her passive allows her to heal 80% of her health back if left on 24-48 HP (Level 45), and she has pretty fast speeds. She also has extremely high clashes which gets even further boosted by her Borrowed Time state, which also boosts her speed as well. Borrowed Time also works extremely well with her passive, as when it expires, she's normally down to 1 speed due to the bind but also gains 8 aggro on a slot to still tank and use her guard to get Borrowed Time back. You have to spend one dead turn though to set it up, so it's recommended to use the guard when you have nothing but S1s or turn 1 to set up a nuke with her S3. What makes her truly stand out as a tank is the debuff she inflicts onto the enemy with her S3, Time Moratorium, which stores the damage",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/t-corp-class-3-collection-staff-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Aggro Bind Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/t-corp-class-3-collection-staff-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

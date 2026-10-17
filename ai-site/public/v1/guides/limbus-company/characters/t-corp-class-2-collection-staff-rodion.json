@@ -1,0 +1,105 @@
+{
+  "id": "t-corp-class-2-collection-staff-rodion",
+  "name": "T Corp. Class 2 Collection Staff Rodion",
+  "name_zh": null,
+  "name_en": "T Corp. Class 2 Collection Staff Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "00",
+  "role": "Bind Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Prepare to Collect",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Tremor Count [On Use] Clash Power +1 for every 6 Tremor on target (max 2) 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Gain +1 Tremor Count [Hit after Clash Win] Inflict +1 Tremor Count",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "T Corp. Martial Suppression",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. Deal +5% more damage for every Bind on target (max 15%) [On Use] Gain +2 Tremor Count [On Use] Clash Power +1 for every 6 Tremor on target (max 2) 1 [On Hit] Gain +2 Tremor Count [Hit after Clash Win] Inflict +3 Tremor Count 2 [On Hit] Inflict 1 Bind next turn [On Hit] If the target has 6+ Tremor, inflict 1 Bind next turn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Execute Collections",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 2. Coins 4. Coin Power 3. Offense Level 61. Atk Weight 1. Deal +5% more damage for every Bind on target (max 20%) [On Use] If the target has 8+ Tremor, Clash Power +2 [On Use] Consume 8 Tremor Count on self to gain Coin Power +1 1 [On Hit] Inflict +3 Tremor Count 2 [On Hit] Inflict 1 Tremor 3 [On Hit] Inflict 2 Tremor 4 [On Hit] Inflict 1 Bind next turn [On Hit] If this unit consumed Tremor Count on Skill use, inflict 2 Bind next turn [On Hit] If this unit is in a Borrowed Time state, inflict 2 Time Moratorium [On Hit] Trigger Tremor Burst; then reduce target's Tremor Count by 1",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Borrow Time",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 15. Coins 1. Coin Power 4. Offense Level 62. Atk Weight 1. 1 [Combat Start] If this unit is not in a Borrowed Time state, gain 3 Borrowed Time at Turn End (once per turn) [On Use] For this turn: when hit by an enemy, inflict 2 Tremor on target next turn (6 times per turn)"
+    },
+    {
+      "name": "Golden Time - Standoff",
+      "type": "passive",
+      "summary": "x5 Sloth [Owned]. Turn End: if this unit's HP is between 16% ~ 20%, instantly heal up to 60% of Max HP, and recover from Stagger. (once per Encounter) When clashing against targets with Time Moratorium, Clash Power +2 Take -10% less damage from targets with Time Moratorium T Corp. Martial Arts x3 Sloth [Res] To 1 ally with the fastest Speed: Clash Power +1 when Clashing against targets with 5+ Tremor"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/t-corp-class-2-collection-staff-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "t-corp-class-2-collection-staff-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/t-corp-class-2-collection-staff-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:t-corp-class-2-collection-staff-rodion",
+  "released": "27/June/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "264",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Rosespanner powercreep. T Corp Rodion is an ID that does a lot of things, but firstly her numbers go from 11/14/14. This may not be impressive at first but on conditionals - Borrowed Time and Time Moratorium - this can go up to 17/20/24 which is already above average. Now Borrowed Time can be triggered by using the defensive skills, meaning you will have 1 dead turn where you won't do anything in exchange for Haste and Clash Power up for 2 turns (turn end subtraction). But also Fragile which can make her be shredded cheese in certain fights when you cannot Clash or overwhelmed with numbers. With the one dead turn in mind, it is ideal to use a guard on turns where you are forced to use s1 to not lose out on the value. Her Tremor application is actually good and she also gains more damage based on bind on target - but without another source, she can only get up to 5~15%. Now moving on to h",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/t-corp-class-2-collection-staff-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Rodion / Bind Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/t-corp-class-2-collection-staff-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

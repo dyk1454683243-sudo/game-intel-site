@@ -1,0 +1,108 @@
+{
+  "id": "wuthering-heights-chief-butler-outis",
+  "name": "Wuthering Heights Chief Butler Outis",
+  "name_zh": null,
+  "name_en": "Wuthering Heights Chief Butler Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Knocking",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] If the target has 5+ Sinking, Coin Power +1 1 [On Hit] Inflict 2 Sinking",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Dusting",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] If the target has 5+ Sinking, Coin Power +1 [Clash Win] Inflict +2 Sinking Count 1 [On Hit] Inflict 3 Sinking 2 [On Hit] Inflict 2 Sinking",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "As Mistress Commands",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. [On Use] If the target has 7+ Sinking, Coin Power +1 [Clash Win] Inflict +3 Sinking Count 1 [On Hit] Inflict 3 Echoes of the Manor next turn [On Hit] If the target has Echoes of the Manor, inflict Gloom Affinity damage equal to Sinking Potency on target (Max 30)",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Insolent Fool...!",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 57. Atk Weight 1. [On Evade] Inflict 1 Sinking (6 times per turn)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "The Mistress' Voice...!",
+      "type": "passive",
+      "summary": "x3 Gloom [Res]. When clashing against targets with less than 0 SP, Clash Power +1 and deal +20% more damage, - Deal +30% more damage against targets with Echoes of the Manor - When winning a Clash without losing a single Coin, heal 10 SP. If this unit is already at max SP, gain 3 Offense Level Up next turn (2 times per turn) Butler Training x4 Gloom [Owned] Clash Power +1 to 1 ally with the most SP when clashing against targets with less than -25 SP"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-chief-butler-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "wuthering-heights-chief-butler-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/wuthering-heights-chief-butler-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:wuthering-heights-chief-butler-outis",
+  "released": "28/March/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "57",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Butler Outis is a rather unique Sinking ID, where all of her Coins are Sinking net negative on all of her Skills. Her Sinking Count primarily comes from winning Clashes with her Skill 2 and Skill 3. While the numbers on her Skills are on the lower end, her Passive gives a plethora of good buffs to boost her damage and Clash numbers. Her main selling point is the unique status she inflicts, \"Echoes of the Manor”, which when applied to the enemy, has a 50% chance to inflict +1 Sinking Count when inflicted with Sinking Potency or Count from any Skill or Coin effects. This allows any Sinking IDs to become net neutral or even net positive with their Skills. Of course, this doesn’t always work, but it's extremely useful to have for a Sinking team if you lack an E.G.O. like Rime Shank. Furthermore, when a unit with this status is inflicted with Panic, it gets a unique Panic type named \"Echoes o",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/wuthering-heights-chief-butler-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/wuthering-heights-chief-butler-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

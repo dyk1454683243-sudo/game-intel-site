@@ -1,0 +1,113 @@
+{
+  "id": "cinq-south-section-4-outis",
+  "name": "Cinq South Section 4 Outis",
+  "name_zh": null,
+  "name_en": "Cinq South Section 4 Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Bind Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Marche",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 59. Atk Weight 1. [On Use] Gain 2 Haste next turn [On Use] This Skill Slot gains 3 Aggro next turn 1 [On Hit] Gain 1 Poise Count 2 [On Hit] Gain 1 Poise Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Punition",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 4. Coins 2. Coin Power 5. Offense Level 59. Atk Weight 1. If this unit's Speed is higher than the target's, Coin Power +2 [On Use] Gain +2 Poise Count [On Use] This Skill Slot gains 4 Aggro next turn 1 [On Hit] Gain 2 Poise 2 [On Hit] Inflict 2 Bind next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Balestra Fente",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 8. Coins 1. Coin Power 14. Offense Level 59. Atk Weight 1. At 7+ Poise, Final Power +4 [Clash Win] Gain Poise equal to the number of Clashes (Max 10) 1 [On Hit] Inflict Declared Duel - Outis [On Hit] Inflict 2 Haste next turn to 2 slowest allies [On Crit] +70% Damage on Critical Hit",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Retraite",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 5. Coins 1. Coin Power 10. Offense Level 65. Atk Weight 1. If this unit's Speed is higher than the target's, Coin Power +1 for every Speed difference (Coin Power +1 for every 1 Speed difference; Max 3) [On Evade] Gain 1 Poise (Max 10)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Redirect",
+      "type": "passive",
+      "summary": "x3 Pride [Owned]. On Evade, gain 1 Haste next turn; lower this unit's Stagger Treshold by 5 (Max 3)"
+    },
+    {
+      "name": "Mentor's Counsel",
+      "type": "support",
+      "summary": "x3 Pride [Res]. - If the fastest ally's Speed is higher than the Speed of all enemies, the fastest ally gain Clash Power +1 - If the said ally is a Cinq Association Fixer, they deal +10% Pierce Damage"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-south-section-4-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-south-section-4-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-south-section-4-outis",
+  "released": "21/December/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-7",
+    "defense": "63",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "A dodge tank, She encourages you to play defensive skill and rewards you for it. Although she already has good speed. Her skill and passive has speed manipulations allowing her to buff her coin power both on skills and dodge. Her third skill allows you to gain poise potency based on number of clashes, letting her crit and do decent damage with S3 Her downside is that shes pretty much a dead unit if her dodges lands on tails, but because of being able to lower her stagger threshold she allows some room for mistakes. Notable E.G.O Synergy Sunshower Outis - This ego is litteraly made for her. She gets better poise generation and helps with survivability if her dodges doesn’t connect",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-south-section-4-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Outis / Aggro Bind Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-south-section-4-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "blade-lineage-salsu-faust",
+  "name": "Blade Lineage Salsu Faust",
+  "name_zh": null,
+  "name_en": "Blade Lineage Salsu Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Bind Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Moonlit Blade Dance",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 3. Coins 3. Coin Power 2. Offense Level 61. Atk Weight 1. At 5+ Poise, Coin Power +1 [On Use] Gain +2 Poise Count 1 [Heads Hit] Gain 1 Poise 2 [On Crit] Inflict 1 Red Plum Blossom",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Acupunture",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. At 7+ Poise, Coin Power +1 [On Use] Gain +2 Poise Count 1 [On Hit] Gain +2 Poise Count +30% Damage on Critical Hit 2 [On Hit] Inflict 1 Bind next turn [On Crit] Inflict 2 Red Plum Blossom",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Red Plum Blossoms Scatter",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 5. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. Deal +3% more damage for every Red Plum Blossom on target Coin Power +1 for every 7 Poise on self (Max 3) [Clash Win] Consume half the Poise Count on self, then gain Poise equal to the Poise Count consumed. (Max 10) This Skill does not consume Red Plum Blossom On Crit 1 [On Crit] Inflict 5 Red Plum Blossom [On Crit] If the target has 10 Red Plum Blossom, inflict 1 Slash Fragility 2 [On Crit] Inflict 5 Red Plum Blossom [On Crit] If the target has 10 Red Plum Blossom, inflict 1 Slash Fragility",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Redirect",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] For every 4 Poise on self, gain Final Power +1 (Max 5)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Sanguine Plum Blossoms",
+      "type": "passive",
+      "summary": "x4 Pride [Owned]. On Crit: Inflict 1 Red Plum Blossom. If the target has 10 Red Plum Blossom, inflict 1 Defense Level Down instead (6 times max) Lingering Bladepoint x4 Pride [Owned] When the ally first deployed in the pre-battle team setup Critically hits with a Slash type Skill, inflict 1 Defense Level Down (3 times max per 1 enemy per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "blade-lineage-salsu-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/blade-lineage-salsu-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:blade-lineage-salsu-faust",
+  "released": "22/February/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "226",
+    "speed": "3-8",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "A Poise ID with some bleed application on top. To start she wants to crit as much as possible yet barely has any poise potency gain which makes her very inconsistent. But in a Blade Lineage team, she can pop off very easily with the amount of poise gain support, making her S tier with it. Now onto her plum mechanics, it is a debuff that increases the chance to receive critical damage and enhances the damage while also inflicting bleed potency although this last part only works on critting. Plum count is reduced regardless if the attack was a crit or not. In a bleed team, the only IDs that can effectively make use of it are pirate Gregor, KK Rodion, and Faust herself. In a Blade Lineage team, the extra crit chance and damage are nice but you would barely have any count to keep up the bleed potency Moving on to her coin rolls, she can roll 9/16/17 but gets extra power based on poise potenc",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Support B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Bind Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/blade-lineage-salsu-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

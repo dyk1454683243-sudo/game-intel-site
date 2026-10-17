@@ -1,0 +1,120 @@
+{
+  "id": "lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+  "name": "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bang. Bang.",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (max 2) 1 Spend 1 Bullet - Solitude [On Hit] Inflict +2 Sinking Count 2 Spend 1 Bullet - Solitude [On Hit] Inflict 3 Tremor",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Stories that Never Cease",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 9. Coins 3. Coin Power 1. Offense Level 63. Atk Weight 3. [Unclashable] Unfocused Volley When this Skill inflicts Solitude, if the target has Solitude this turn, or will be inflicted with Solitude next turn, trigger Tremor Burst instead; then, reduce target's Tremor Count by 1 1 [On Hit] Inflict +1 Sinking Count [On Hit] Inflict 2 Solitude next turn 2 [On Hit] Inflict 2 Tremor [On Hit] Inflict 2 Solitude next turn 3 [On Hit] Inflict 2 Tremor [On Hit] Inflict 2 Solitude next turn",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Blossoming Fragrance in the Void",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (max 2) [On Use] Deal +1% damage for every Faint Aroma on target 1 Spend 1 Bullet - Solitude [On Hit] Inflict +3 Sinking Count 2 [On Hit] Inflict 3 Faint Aroma [On Hit] Inflict +2 Tremor Count 3 [On Hit] Inflict 3 Faint Aroma [On Hit] Inflict +2 Tremor Count",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Full Bloom",
+      "type": "skill4",
+      "summary": "Skill 4 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Tremor + Sinking) on target (max 2) [On Use] Deal +1% damage for every Faint Aroma on target 1 [On Hit] Inflict 1 Faint Aroma [On Hit] Inflict +3 Sinking Count 2 [On Hit] Inflict 1 Faint Aroma [On Hit] Inflict 4 Sinking 3 [On Hit] Inflict 2 Faint Aroma [On Hit] Inflict 2 Tremor [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Deal Gloom damage equal to Sinking on target",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Magnificent End",
+      "type": "skill5",
+      "summary": "Skill 5 · Gloom. Pierce. Skill Power 12. Coins 1. Coin Power 7. Offense Level 65. Atk Weight 3. [Unclashable] External effects cannot trigger this Skill to be Reused Deal +30% damage for every excess Atk Weight beyond the number of actual targets (in Focused Encounters, the Part) [On Use] Final Power +1 for every 5 (sum of Faint Aroma on all targets) (max 6) [Attack End] Lose all Petals on self 1 [On Hit] Inflict 5 Faint Aroma [On Hit] Inflict 3 Sinking [On Hit] Inflict 3 Tremor [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Deal Gloom damage equal to Sinking on target",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "A.A.T.",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. [Turn End] Gain 10 Petals (once per turn) [Turn End] Gain 2 Fragile and 2 Attack Power Up next turn (once per turn)",
+      "sin": "Gloom"
+    },
+    {
+      "name": "Spring's Genesis",
+      "type": "support",
+      "summary": "x3 Sloth [Res]. When the ally with the fastest Speed hits an enemy with a Skill that inflicts Sinking Potency, Count, or 'Unique Sinking', inflict 2 Tremor and trigger Tremor Burst; then, reduce target's Tremor Count by 1 (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+  "released": "05/March/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "205",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "An unexpectedly strong unit released on the 8th Walpurgisnacht. [Lobotomy E.G.O::Faint Aroma & Solitude] Ryōshū is a versatile Sinking unit and is suitable for all 3 Yi Sang-based archetypes with good Tremor potential. She has a lot on her plate, so let’s look closer at what she does. Starting with her unique effects, she has plenty of them. - Faint Aroma is her main debuff; her skillset revolves around it. It is applied whenever the enemy takes damage. It gets spread on Tremor bursts. On max stack, it triggers a Tremor Burst and makes the enemy take Gloom damage based on the Sinking stack. Consider it a mini Sinking Deluge. - Petals is a self-stacking buff that is gained on dodge and through infliction of Faint Aroma. It gives 1 - 3 Offense Level and uses her S3-2 as an Additional Attack when it gets to 30 stacks, after which it is spent. - Solitude is a debuff that is applied through S",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Ammo Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

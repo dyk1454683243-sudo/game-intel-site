@@ -1,0 +1,107 @@
+{
+  "id": "the-priest-of-la-manchaland-gregor",
+  "name": "The Priest of La Manchaland Gregor",
+  "name_zh": null,
+  "name_en": "The Priest of La Manchaland Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bleed Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sacrifice for the Family",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Coin Power +1 for every 6 Bleed on the target (max 2) [On Use] Gain 10 Bleed - At 50%+ HP, gain additional 10 Bleed 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict 1 Rupture [On Hit] Gain 3 Bloodied Hand",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Suffocating Guilt",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Coin Power +1 for every 6 Bleed on the target (max 2) [On Use] Gain 10 Bleed [On Use] At 5+ Ailing Heart, consume up to 60 Bloodfeast; then, gain 1 Bloodied Hand for every 6 Bloodfeast consumed - At less than 5+ Ailing Heart, gain 10 Bleed and 3 Bloodied Hand 1 [On Hit] Inflict 2 Bleed Count 2 [On Hit] Inflict 1 Rupture [On Hit] Gain 3 Bloodied Hand",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "The Unforgivable Sin",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 3. On Hit with this Skill: heal 50% of the HP damage dealt (max 100 per Skill) [On Use] Deal +1.5% more damage for every 1% missing HP on self (max 90%) [On Use] If the target has 6+ Bleed, Coin Power +1 [On Use] Consume every excess Stack of Bloodied Hand past 10 Stack to gain the following effects: - Heal (Stacks consumed x 3) HP on self - If this unit consumed 10+ Stack, Coin Power +1 - If this unit consumed 20+ Stack, Reuse the final Coin [On Use] Gain 10 Bleed [After Attack] Heal 10% HP on self 1 [On Hit] Gain 3 Bloodied Hand 2 [On Hit] Inflict +2 Bleed Count [On Hit] Inflict +2 Rupture Count 3 [On Hit] Inflict 2 Bleed [On Hit] Inflict 2 Rupture",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Faded Patience",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 65. Atk Weight -. [Combat Start] At 40%+ HP, gain 5 Bleed and activate Bleed up to 3 times on self (once per turn; lose Bleed Count equal to the number of times it was activated) [Combat Start] At less than 40% HP, consume up to 20 Bloodfeast and heal the same value as HP (once per turn) [Combat Start] Gain 3 Ailing Heart (once per turn)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Bloodfeast",
+      "type": "passive",
+      "summary": "If this unit is on field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of Bleed damage collectively received by every unit. When this unit enters the field, the sleeping blood drenching the battlefield will surface.. Self-destructive Dedication x5 Lust [Owned] Turn End: heal (10 - Ailing Heart) SP for the ally with the least SP (excluding: self or allies that are Panicked or Corroded) In this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn. (once per Encounter) Don Quixote Hardblood Arts 6: Whip x3 Lust [Res] 1 ally with the lowest HP percentage heals 3 HP On Hit (3 times per turn) - If the target hit by the said ally had Bleed, heal 3 additional HP"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-priest-of-la-manchaland-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-priest-of-la-manchaland-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-priest-of-la-manchaland-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-priest-of-la-manchaland-gregor",
+  "released": "31/October/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "313",
+    "speed": "4-6",
+    "defense": "65",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal"
+    },
+    "level": 60
+  },
+  "review": "Priest Gregor is a unique Tank in the game, that also serves as an excellent support for any ID that utilizes Bloodfeast in their kit. As of writing this review, he possesses the highest HP in the game. His primary gimmick is gaining Bleed while also healing back all of the damage gained from Bleed, which makes him a self-sustaining tank. First, let us start with his unique mechanics before breaking down Priest Gregor’s skills. Priest Gregor utilizes both Bloodied Hand and Ailing Heart. Bloodied Hand has 3 stages Here is a breakdown of what each stage of Bloodied Hand does: - At Stage 2 (10+ Bloodied Hand) - Gain 1 Offense Level Up for every 10 stacks of Bloodied Hand. - At Stage 3 (20+ Bloodied Hand) - Gain 1 Offense Level Up for every 10 stacks of Bloodied Hand. On Hit with Base Skills, additionally inflict 1 Rupture and 1 Bleed. His second unique mechanic is Ailing Heart. It is a perm",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-priest-of-la-manchaland-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Aggro Bleed Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-priest-of-la-manchaland-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

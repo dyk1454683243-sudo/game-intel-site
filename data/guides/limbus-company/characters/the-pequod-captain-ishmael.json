@@ -1,0 +1,112 @@
+{
+  "id": "the-pequod-captain-ishmael",
+  "name": "The Pequod Captain Ishmael",
+  "name_zh": null,
+  "name_en": "The Pequod Captain Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Burn Poise",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "To Me!",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] Apply 2 Defense Level Up to 2 allies adjacent to this unit on the Dashboard [On Use] Next turn, the leftmost Skill Slot of 1 other ally with the highest Max HP gains +(Highest Reson.) Aggro (Once per turn) - At 4+ highest A-Reson., apply 1 Protection to the ally next turn when they gain Aggro (Once per turn) 1 [On Hit] Inflict 2 Bleed",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Pursue Them to the End!",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] Apply 3 Offense Level Up to 2 allies adjacent to this unit on the Dashboard [On Use] Every Reson. of the highest Reson. adds 20% chance that this unit orders the ally on its immediate right (on the Dashboard) to use Assist Attack this turn. - At 4+ highest A-Reson., apply 2 'Damage Up' to the ally - At 4+ Pride A-Reson., apply 2 additional Pride Power Up 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict 1 Burn",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Harpoon of Obsession",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Deal more damage based on the target's missing HP (+0.3% damage per 1% missing HP, max +30%) Coin Power +1 for every 5 Bleed on target (Max 2) [After Attack] If the target is Staggered or defeated, (1+(Highest A-Reson./2)) allies with the least SP heal 10 SP, gain 2 Poise, and gain +4 Poise Count. (4 times max. Max # of allies that can be healed: 4) 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2 Bleed 3 [On Hit] Inflict +1 Burn Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Do Not Fear",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 57. Atk Weight 1. [On Use] Heal 5 SP for 2 allies adjacent to this unit on the Dashboard (2 times max)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Captain of the Pequod",
+      "type": "passive",
+      "summary": "x3 Pride [Res]. - After Attack: if the target is defeated after this unit's attack, - Gain 4 Poise, +2 Poise Count. Then, gain Overheated Gas Harpoon next turn. 2 other allies with the least SP heal 7 SP and gain 4 Poise. If the allies are from The Pequod, heal an additional 5 SP. Then, once per turn, apply 1 Pierce Power Up next turn. Hour of the Hunt If the target is a , deal +10% damage"
+    },
+    {
+      "name": "Captain's Orders",
+      "type": "support",
+      "summary": "x3 Pride [Res]. After Attack: 1 ally with the highest SP gains 2 Poise and +2 Poise Count when the target is defeated after that unit's attack (2 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-pequod-captain-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-pequod-captain-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-pequod-captain-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-pequod-captain-ishmael",
+  "released": "08/February/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "206",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Captain Ishmael is a very interesting Support ID. Very good and strong, a lot of going on in her kit but she has issues in her design that make her finicky to use and team build around. Let’s focus on good things first. Skill 1 rolls 12 with +3 offense level which is already above average. On top of that, S1 buffs Defense Level, grants aggro, and at any 4+ A-Resonance, grants 1 Protection. This offers small, but decent damage reduction for an ally adjacent to her on the board. Skill 2 rolls 16 with 48 offense, which is average but this skill offers 3 Offense Level Up to 2 allies adjacent to her on board (Equals to 1 clash power), at 4+ highest A-Resonance grants 2 Damage Up AND at 4+ Pride A-Resonance, grants 2 Pride Power Up. All those buffs can boost damage, especially when skills are of the Pride Sin affinity. On top of it all, with high enough Resonance, S2 will activate Assist Attac",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-pequod-captain-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Support B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ishmael / Bleed Burn Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-pequod-captain-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

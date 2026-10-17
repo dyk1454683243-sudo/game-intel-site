@@ -1,0 +1,112 @@
+{
+  "id": "district-20-yurodivy-ryoshu",
+  "name": "District 20 Yurodivy Ryoshu",
+  "name_zh": null,
+  "name_en": "District 20 Yurodivy Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "00",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Got a Screw Loose?",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Tremor Count [On Use] At 4+ Tremor Count, Clash Power +2 1 [On Hit] Gain Tremor Count equal to Tremor Count on target (max 4) 2 [On Hit] Inflict +2 Tremor Count",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Compression Wind-up Spanner",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 4. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Tremor Count [On Use] At 4+ Tremor Count, Clash Power +1 At 4+ Tremor Count, Coin Power +1 1 [On Hit] Inflict +1 Tremor Count 2 [On Hit] Consume Tremor Count on self, and inflict the same amount of Tremor Count on target (max 5)",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Percussive Maintenance",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Pierce. Skill Power 4. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Tremor Count Consume 8 Tremor Count on self to gain Coin Power +1 If the target has 6+ Tremor, Coin Power +1 1 [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 2 Tremor 3 [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 7. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. [On Use] Gain 2 x (Tremor Count on self) as Shield HP (max 10)",
+      "attack_type": "-"
+    },
+    {
+      "name": "N.O.",
+      "type": "passive",
+      "summary": "x3 Sloth [Res]. - When an ally Staggers an enemy with an attack: follow up with Skill 1 against the Staggered enemy. (once per Turn) - If multiple enemies are Staggered at once, target the enemy with the least HP (for Abnormalities, target the Abnormality with the least HP; then, target the Part with the least HP). - When using Skill 1 with this effect, this unit gains +1 more Tremor Count from its Coin effects, and triggers a Tremor Burst with the last Coin On Hit"
+    },
+    {
+      "name": "The A.I.",
+      "type": "support",
+      "summary": "x4 Sloth [Owned]. 1 Deployed ally gains +1 more Tremor Count from their Skill or Coin effects (2 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "district-20-yurodivy-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/district-20-yurodivy-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:district-20-yurodivy-ryoshu",
+  "released": "13/June/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "215",
+    "speed": "4-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Pretty okay Tremor ID. Yurodivy Ryoshu's clashing is absolutely abysmal without her conditionals, those clashes being 11/13/13, which can prove problematic since she can gain a lot of Tremor Count with her S1 (maximum of 6), which fulfills all conditionals of her S2, but also consumes at maximum 5 Tremor Count, so it'll be harder to reach her S3 conditional. Although with those conditionals, they rest at an okay 13/17/19. All in all she's pretty clunky to use on field and would be an absolute nightmare to use in fights where the enemy has actually competent rolling skills. Most of usefulness does come from her passiveness, which even then would only mostly be good in mob fights that, again, she'd struggle in. Her support passive is great for Yurodivy Hong Lu though.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/district-20-yurodivy-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Ryōshū / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/district-20-yurodivy-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

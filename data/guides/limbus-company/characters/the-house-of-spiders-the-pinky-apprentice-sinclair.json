@@ -1,0 +1,117 @@
+{
+  "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+  "name": "The House of Spiders: The Pinky Apprentice Sinclair",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Pinky Apprentice Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Chainstrike [連擊]",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Poise Count [On Use] Coin Power +1 for every 6 Poise on self (max 2) 1 [On Hit] Gain 2 Poise 2 [On Hit] Gain 2 Poise [On Hit] inflict +2 Bleed Count [On Hit] Gain 1 Haste next turn (once per turn) [On Crit - Heads Hit] Gain 1 Haste next turn (once per turn)",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Nameless Slash [無名斬]",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 6. Coins 2. Coin Power 5. Offense Level 63. Atk Weight 3. Unfocused Volley [On Use] Base Power +1 for every 6 Poise on self (max 2) 1 [On Hit] Gain 3 Poise [On Hit] Gain +1 Poise Count 2 Deal +10% damage on Critical Hit [On Hit] Gain +1 Poise Count [On Hit] Inflict 2 Bleed [On Crit - Heads Hit] Reuse this Coin (once per Skill) [Reuse - Heads Hit] At 10+ Moonlit Azure Blade, Reuse this Coin (once per Skill)",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Fallstar Slayer [落星一殺]",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 8. Coins 1. Coin Power 14. Offense Level 65. Atk Weight 1. Deal +50% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part) [On Use] At 20 Moonlit Azure Blade, convert all Coins of this Skill into Unbreakable Coins [On Use] Coin Power +1 for every 4 Poise on self (max 5) [On Use] Base Power +1 for every 4 Moonlit Azure Blade on self (max 5) [On Use] Gain 7 Poise [Before Attack] Atk Weight +1 for every 10 Moonlit Azure Blade on self (max 2) [After Attack] Consume 5 Moonlit Azure Blade for every Atk Weight gained due to this Skill's effect 1 Deal +70% damage on Critical Hit [On Hit] Inflict 5 Bleed [On Crit - Heads Hit] Deal (25% of this Coin's final damage) Slash damage",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Defend [守]",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. Skill Power 3. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. Turn Start: At 25+ Poise, change this Skill to 'Swerve [回]' [Combat Start] Gain 8 Poise (once per turn) [Combat Start] Gain +2 Poise Count (once per turn) 1 Unbreakable Coin",
+      "sin": "Pride"
+    },
+    {
+      "name": "Swerve -回-",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. Skill Power 4. Coins 1. Coin Power 10. Offense Level 63. Atk Weight 1. [Combat Start] Gain Shield equal to Moonlit Azure Blade Stack (once per turn) [Combat Start] Gain +4 Poise Count (once per turn) [On Evade] Gain Crit DMG Up next turn (max 2 times per turn)",
+      "sin": "Pride"
+    },
+    {
+      "name": "The Orthodox Blade [整劍]",
+      "type": "passive",
+      "summary": "x2 Pride [Res]. Combat Start: Gain ((Pride Reson. / 2) + 1) Poise (max 4, rounded down) Combat End: At 20+ Poise, gain +1 Poise Count"
+    },
+    {
+      "name": "Tranquility [靜念]",
+      "type": "support",
+      "summary": "x2 Pride [Res]. The ally with the fastest Speed heals 5 SP and gains 5 Shield when starting combat with a Defense Skill equipped"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-pinky-apprentice-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-pinky-apprentice-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-pinky-apprentice-sinclair",
+  "released": "05/February/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The Pinky apprentice Sinclair is the first Poise self-sufficient ID we’ve gotten in a long time, ever since the Full-Stop Duo. However, his pros do not end here, as on top of that, he has one of the highest raw Physical Damage in the game at the moment of his release. Let’s dive into his kit! Starting with his passives, which he has 2 of. The first one is an always active passive, granting him his unique effect “Moonlit Azure Blade” on turn end. This unique effect allows him to gain Shield, Crit DMG Up and enhance his skills. On top of that, if he only used Defensive Skills, on combat start, he will heal 5 SP and gain 1 Slash Power Up next turn. This effect strongly synergises with his Defensive Skill effects. The second passive requires 2 Pride Res to activate, allowing him to ramp up his Poise Potency gain until he reaches 20, after which he will switch to generate Count, making him ne",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-pinky-apprentice-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-pinky-apprentice-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

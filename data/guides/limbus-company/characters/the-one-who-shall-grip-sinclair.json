@@ -1,0 +1,103 @@
+{
+  "id": "the-one-who-shall-grip-sinclair",
+  "name": "The One Who Shall Grip Sinclair",
+  "name_zh": null,
+  "name_en": "The One Who Shall Grip Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Burn",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Coerced Judgement",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 8. Coins 2. Coin Power -2. Offense Level 64. Atk Weight 1. [On use] Lose 7 SP 1 [Tails Hit] Gain 1 Fanatic next turn [On Hit] Inflict 3 Burn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Amoral Enacment",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 16. Coins 4. Coin Power -4. Offense Level 65. Atk Weight 1. [On Use] Lose 10 SP If this unit is Fanatic, deal +10% damage 1 [Tails Hit] Inflict 2 Burn [On Hit] Inflict 1 Burn 2 [Tails Hit] Inflict 2 Burn [On Hit] Inflict 1 Burn 3 [Tails Hit] Inflict +1 Burn Count [On Hit] Inflict 2 Bleed",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Self-destructive Purge",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 30. Coins 3. Coin Power -12. Offense Level 65. Atk Weight 1. [On use] Lose 15 SP. - If this unit is Fanatic, deal +15% damage. - If target is a , deal +10% damage. 1 [On Hit] Raise Stagger Threshold by 50% of damage dealt 2 [On Hit] If target has +5 Bleed inflict 7 Burn [On Kill] Gain 1 Blunt Power Up next turn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Enough...",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 17. Coins 1. Coin Power -7. Offense Level 62. Atk Weight 1. [Combat Start] Heal 5~10 SP",
+      "sin": "Pride",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-one-who-shall-grip-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-one-who-shall-grip-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-one-who-shall-grip-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-one-who-shall-grip-sinclair",
+  "released": "04/May/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "3-8",
+    "defense": "56",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "No longer the King of Damage. N Sinclair requires planning and sanity management to properly utilize, but is not really hard to just drop into a team and winrate your way to victory. In Mirror Dungeons though his performance is severely hampered with the amount of higher level enemies in the dungeon, making it hard to maintain his Sanity and by extension, his damage. Outside from that, he works in pretty much all forms of content and can be put onto any team without any drawbacks. No Notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-one-who-shall-grip-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Bleed Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-one-who-shall-grip-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

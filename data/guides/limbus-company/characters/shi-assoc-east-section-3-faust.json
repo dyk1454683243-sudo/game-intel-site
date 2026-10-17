@@ -1,0 +1,113 @@
+{
+  "id": "shi-assoc-east-section-3-faust",
+  "name": "Shi Assoc. East Section 3 Faust",
+  "name_zh": null,
+  "name_en": "Shi Assoc. East Section 3 Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cleave",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 4. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] At 4+ (Poise on self + Bleed on target), Coin Power +1 [On Use] Gain 2 Poise 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 2 Bleed",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Positioning Maneuver",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Clash Power +1 for every 4 (Poise on self + Bleed on target) (max 4) [On Use] Deal +11% damage for every 4 Pois e on self (max 44%) [On Use] Deal +11% damage for every Arrow - Shi spent (max 44%) [On Use] Gain +1 Poise Count 1 [On Hit] Inflict +2 Bleed Count 2 [On Hit] Gain 2 Poise 3 [On Hit] Inflict 2 Bleed",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Glimmering Bow [弓閃]",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 4 (Poise on self + Bleed on target) (max 2) [On Use] Deal +11% damage for every 4 Poise on self (max 44%) [On Use] Deal +11% damage for every Arrow - Shi spent (max 44%) [On Use] Gain +2 Poise Count 1 [On Hit] Gain 2 Poise [On Crit] Gain +1 Poise Count 2 [On Hit] Inflict +2 Bleed Count [On Crit] Inflict +1 Bleed Count 3 [On Hit] Inflict 4 Bleed 4 [On Crit] Inflict 2 Defensee Level Down next turn (once per turn)",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Bow's Glimmer [閃弓]",
+      "type": "skill4",
+      "summary": "Skill 4 · Lust. Pierce. Skill Power 4. Coins 1. Coin Power 4. Offense Level 65. Atk Weight 1. External effects cannot trigger this Skill to be Reused Deal +48% damage for every Target Aim (max 144%) Deal +48% damage on Critical Hit for every Target Aim (max 144%) - At 4 Target Aim, instead of the two above effects, deal +444% damage on Critical Hit [On Use] Base Power +2 for every 4 Poise on self (max 10) [On Use] Coin Power +4 for every Target Aim (max 10) [On Use] Gain 5 Poise for every Target Aim [After Attack] Lose ((Target Aim - 1) x 5) Poise [After Attack] Remove Ready to Loose and Target Aim from self 1 [On Hit] Inflict 1 Lodged Arrow; once inflicted, lose 1 Arrow - Shi [On Kill] Gain 1 Liferender [On Crit Kill Against Enemy] Gain +4 Poise Count",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Unfold Bowblade [弓刀]",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. Skill Power 14. Coins 1. Coin Power 4. Offense Level 61. Atk Weight 1. If this unit does not have Arrow - Shi, activate \"Evade\" instead [Combat Start] If this unit is about to use \"Bow's Glimmer\", use \"Evade\" instead [Combat Start] If this unit has Ready to Loose, gain (60 / Target Aim Stack) Shield for the turn (once per turn) [Turn End] If this unit has Ready to Loose, and did not use an Attack Skill this turn, gain 1 Target Aim next turn (once per turn) [Turn End] If this unit does not have Ready to Loose, and has 1+ Arrow - Shi, gain 1 of each Ready to Loose and Target Aim next turn (once per turn)",
+      "sin": "Lust"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · . Skill Power 4. Coins 1. Coin Power 10. Offense Level 61. Atk Weight 1. [On Evade] Gain +1 Poise Count (3 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/shi-assoc-east-section-3-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "shi-assoc-east-section-3-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/shi-assoc-east-section-3-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:shi-assoc-east-section-3-faust",
+  "released": "09/October/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "229",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The Archer class really is made up of Archers. Shi Faust is the first-ever Shi ID released after launch, with a mix of Poise and Bleed. Her gimmick is to use a Defensive Skill to charge up her bow and unleash it to deal damage. An in-depth explanation for this will be given later on. To start her Passive, she does the following: - If she is in the “Ready to Loose” state, it will convert any base attack skill into Skill 3-2. Keep in mind that any Skill converted from this will gain both power and damage boost based on Skill level. “Ready to Loose” status just makes it so that Shi Faust is unable to be staggered through normal means and cannot trigger any form of Assist Attack. This status will also be removed if an E.G.O Skill was equipped. - However, if she has 4 “Target Aim” while Skill 3 is neither on the dashboard nor is the upcoming skill, the Defensive Skill will be counted as Skill",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/shi-assoc-east-section-3-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/shi-assoc-east-section-3-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

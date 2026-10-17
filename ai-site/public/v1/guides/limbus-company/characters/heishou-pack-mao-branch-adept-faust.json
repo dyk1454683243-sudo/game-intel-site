@@ -1,0 +1,124 @@
+{
+  "id": "heishou-pack-mao-branch-adept-faust",
+  "name": "Heishou Pack - Mao Branch Adept Faust",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Mao Branch Adept Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Bind Haste Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Blinkstep",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If target has 4+ Rupture, Coin Power +! [Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict +1 Rupture Count [On Hit] At 10+ Speed, Reuse Coin once (once per Skill)",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Clearing the Path, My Lord",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's, deal +(Speed difference x Tianjiu Star's Blade on self)% damage (max 50%) If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If target has 4+ Rupture, Coin Power +1 [On Use] Gain 2 Haste next turn (once per turn) [Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict +1 Rupture If the target has Deathrite [Haste] or Deathrite [Fissure] deal +50% damage",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Traceless to Sight and Sound Alike.",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the target's, deal +(Speed difference x Rupture Potency on target)% damage (max 50%) If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [Combat Start] Gain 1 Assist Defense (once per turn) [Before Use] At 10+ Tianjiu Star's Blade, activate 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead [On Use] If target has 15+ Rupture, gain Coin Power [On Use] Gain 3 Strider [Mao] [Clash Win] Inflict +2 Rupture Count 1 [On Hit] Inflict +1 Rupture Count [On Hit] Inflict Deathrite[Haste] 2 [On Hit] Inflict 1 Rupture 3 At 10+ Speed, deal +30% damage [On Hit] Inflict 3 Rupture [On Hit] At 10+ Speed, Reuse Coin once (once per Skill) [Reuse - On Hit] Inflict Deathrite[Haste]",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation",
+      "type": "skill4",
+      "summary": "Skill 4 · Gluttony. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. If this unit's Speed is faster than the target's, deal +(Speed difference x Rupture Potency on target)% damage (max 50%) If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin +1 for every 2 Speed Difference; max 2) [On Use] Coin Power +1 for every 10 Rupture on target (max 2) [On Use] At 10+ Speed, gain 20 Poise; if this unit has less than 4 Poise Count, raise Poise Count up to 4 [On Use] Gain 3 Strider [Mao] [Clash Win] Inflict +2 Rupture Count [After Attack] Consume 10 Tianjiu Star's Blade 1 [On Hit] Inflict +1 Rupture Count [On Hit] Inflict Deathrite[Fissure] [On Hit] Inflict Deathrite[Haste] 2 [On Hit] Inflict 1 Rupture 3 At 10+ Speed, deal +30% damage [On Hit] Inflict 3 Rupture [On Hit] At 10+ Speed, Reuse Coin once (once per Skill) [Reuse - On Hit] Inflict Deathrite[Fissure] [Reuse - On Hit] Inflict Deathrite[Haste]",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "It Shall be Done.",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Skill Power 5. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Combat Start] Gain 1 Assist Defense [On Use] This Skill gains +1 Offense Level for every 10% HP this unit has cumulatively lost in this Encounter [On Use] Gain 3 Strider [Mao] [On Use] If this unit's Speed is faster than the target's by 2 or more, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2) 1 [On Hit] Inflict +1 Rupture 2 [On Hit] Inflict +1 Rupture",
+      "sin": "Gluttony"
+    },
+    {
+      "name": "Swiftfeet Protection",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. Clashable Guard Exclusive Skill for Assist Defense [Before Use] At 10+ Tianjiu Star's Blade, activates 'Ascendant Heishou - Mao Technique: Cloudsplitting Manifestation' instead [On Use] This Skill gains +1 Defense Level for every 10% HP this unit has cumulatively lost in this Encounter (max 6; based on max HP at the time of activation) [On Use] Cannot be Staggered by damage until this Skill ends [On Use] Gain 2 Protection 1 [Unbreakable Coin]",
+      "sin": "Gluttony"
+    },
+    {
+      "name": "Heishou Mutation [Mao] / Mao Branch Adept",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. If this unit's Speed is faster than the target's, deal +2% more damage for every 1 Speed difference (max 10%) Gain 1 Tianjiu Star's Blade every time an ally activates a Deathrite effect (5 times per turn) - If this unit triggered a Deathrite effect, gain 1 additional Tianjiu Star's Blade When activating the Assist Defense effect, gain 5 Tianjiu Star's Blade"
+    },
+    {
+      "name": "Blinkblade",
+      "type": "support",
+      "summary": "x4 Gluttony [Res]. When 1 ally with the fastest Speed inflict Rupture damage, gain 1 Offense Level Up next turn (3 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-adept-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-mao-branch-adept-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-mao-branch-adept-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-mao-branch-adept-faust",
+  "released": "22/May/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "267",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Heishou Faust is similar to the Mao Branch IDs in that she gains a lot of haste and is a very stable applicator of Rupture through Deathrite. First things first, alongside Deathrite [Haste], Heishou Faust has Deathrite [Fissure], which is inflicted on her Skill 3-1. What it does is that when Rupture is triggered while the target has Deathrite, it inflicts Bind next turn. When the effect activates, if the target is to gain 3 or more Bind next turn, 2 Stacks of Deathrite [Fissure] will be lost instead of gaining Bind. When the stack reaches 0, the target will take Gluttony damage equal to Rupture Potency on self. Additionally, thanks to Heishou Faust’s passive, when the Deathrite [Fissure] Stack drops to 0 and expires, the target will gain Mark of Decay, which will be removed at Turn End. This status makes the target take +10% more damage from Gluttony Skills and +10% more damage from Deat",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-adept-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SSS；梯度表 Damage Dealer SSS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Bind Haste Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-mao-branch-adept-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

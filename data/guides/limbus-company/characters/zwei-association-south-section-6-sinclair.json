@@ -1,0 +1,107 @@
+{
+  "id": "zwei-association-south-section-6-sinclair",
+  "name": "Zwei Association South Section 6 Sinclair",
+  "name_zh": null,
+  "name_en": "Zwei Association South Section 6 Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Baton",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 4. Coins 1. Coin Power 6. Offense Level 58. Atk Weight 1. [Clash Lose] Gain 2 Protection 1 [On Hit] Inflict 2 Tremor",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Supress",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 6. Coins 2. Coin Power 2. Offense Level 58. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn [Clash Lose] Inflict 6 Tremor 1 [On Hit] Inflict 6 Tremor [On Hit] Inflict 2 Damage Down next turn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Strong Strike",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 7. Coins 1. Coin Power 13. Offense Level 58. Atk Weight 1. [On Use] Apply 1 Protection to the ally with the least HP next turn [On Use] Gain +10 Aggro to this skill slot next turn 1 [On Hit] Trigger Tremor Burst [On Hit] If target has 5+ Tremor upon Tremor Burst, gain 2 Protection next turn [On Hit] Inflict 2 Blunt Fragility",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 12. Coins 1. Coin Power 6. Offense Level 65. Atk Weight 1. [On Use] Gain +4 Aggro to this Skill Slot next turn",
+      "attack_type": "-"
+    },
+    {
+      "name": "Your Shield",
+      "type": "passive",
+      "summary": "x2 Gloom [Res]. At the start of combat phase, apply 2 Defense Power Up and 1 Protection to allies adjacent to this unit on the Dashboard. Stubbornness x4 Gloom [Owned] 1 ally with the lowest HP takes -10% damage."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-6-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "zwei-association-south-section-6-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/zwei-association-south-section-6-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:zwei-association-south-section-6-sinclair",
+  "released": "28/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "271",
+    "speed": "2-4",
+    "defense": "63",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Uptie 4 is a must. Zwei Sinclair is a tank ID that focuses on Tremor, but he isn't very good at inflicting tremor at all. He can help other team members survive better with his protection from passive skills and can take a beating when needed thanks to aggro. That's just about it.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-6-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Sinclair / Aggro Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/zwei-association-south-section-6-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}
