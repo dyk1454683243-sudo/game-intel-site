@@ -1,0 +1,153 @@
+{
+  "game": "arknights-endfield",
+  "as_of": "2026-10-17",
+  "timezone_note": "当期和上一期寻访以官网公告为准。server time 同时对应 UTC+8（Asia）和 UTC-5（Americas / Europe），见 3839。不合成单一偏移。",
+  "sources": [
+    "https://endfield.gryphline.com/en-us/news/9560",
+    "https://endfield.gryphline.com/en-us/news/4489",
+    "https://endfield.gryphline.com/en-us/news/2652",
+    "https://endfield.gryphline.com/en-us/news/3839"
+  ],
+  "version": {
+    "name": "[Sanctuary of Ink]",
+    "maintenance_asia": "Oct. 15, 2026 at 06:00 – Oct. 15, 2026 at 12:00 (UTC+8)",
+    "maintenance_americas_europe": "Oct. 14, 2026 at 17:00 – Oct. 14, 2026 at 23:00 (UTC-5)",
+    "source": "https://endfield.gryphline.com/en-us/news/9560",
+    "note": "9560 没有写出数字版本号 1.6。Prydwen 角色页的 Update tracker 把同期评审写成 Patch 1.6。"
+  },
+  "banners": [
+    {
+      "id": "endfield-rejuvenation-si",
+      "name": "[Rejuvenation] Chartered Headhunting",
+      "name_zh": "特许寻访 Rejuvenation",
+      "kind": "chartered_headhunting",
+      "status": "current",
+      "up": [
+        "Si"
+      ],
+      "up_characters": [
+        {
+          "id": "si",
+          "name": "祀",
+          "label": "Si"
+        }
+      ],
+      "start_text": "After [Sanctuary of Ink] version update",
+      "end_text": "Nov. 5, 2026 at 11:59 (server time)",
+      "start": "2026-10-15",
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/4489",
+      "note": "4489 与 9560 都写 Rate-UP 6★ operator [Si]。开始日取 9560 的 Asia Server 维护日 Oct. 15, 2026（UTC+8）；结束钟点公告只写 server time。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-seal-of-jade",
+      "name": "[Seal of Jade Issue] Arsenal Issue",
+      "kind": "arsenal_issue",
+      "status": "current",
+      "up": [
+        "Jade Vessel (Greatsword)"
+      ],
+      "up_characters": [],
+      "start_text": "Opens after [Sanctuary of Ink] version update",
+      "end_text": "ends after 3 [Chartered Headhunting] banners (starting from [Rejuvenation])",
+      "start": "2026-10-15",
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/2652",
+      "note": "武器池，Rate-UP 是 6★ weapon，不是干员。结束条件公告没有写成钟点。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-ancestral-spring-tangtang",
+      "name": "[Ancestral Spring Flows Anew] RE-Factor Headhunting #1",
+      "kind": "refactor_headhunting",
+      "status": "upcoming",
+      "up": [
+        "Tangtang"
+      ],
+      "up_characters": [
+        {
+          "id": "tangtang",
+          "name": "汤汤",
+          "label": "Tangtang"
+        }
+      ],
+      "start_text": "Oct. 29, 2026 at 12:00 (server time)",
+      "end_text": "Nov. 19, 2026 at 11:59 (server time)",
+      "start": null,
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "note": "写在 9560 的 New Headhunting 第 3 条。核对日 2026-10-17 还没到开始日，标 upcoming。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-tender-sprig",
+      "name": "[Tender Sprig Issue] RE-Factor Issue #1",
+      "kind": "refactor_issue",
+      "status": "upcoming",
+      "up": [
+        "Brigand's Calling (Handcannon)"
+      ],
+      "up_characters": [],
+      "start_text": "Oct. 29, 2026 at 12:00 (server time)",
+      "end_text": "Nov. 19, 2026 at 11:59 (server time)",
+      "start": null,
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "note": "武器池。写在 9560 的 New Headhunting 第 4 条。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-resplendent-yvonne",
+      "name": "[Resplendent Spectrum] RE-Factor Headhunting #1",
+      "kind": "refactor_headhunting",
+      "status": "ended",
+      "up": [
+        "Yvonne"
+      ],
+      "up_characters": [
+        {
+          "id": "yvonne",
+          "name": "伊冯",
+          "label": "Yvonne"
+        }
+      ],
+      "start_text": "Sept. 24, 2026 at 12:00 (server time)",
+      "end_text": "Before version update and maintenance",
+      "start": null,
+      "end": "2026-10-15",
+      "source": "https://endfield.gryphline.com/en-us/news/3839",
+      "note": "3839 写结束于 version update and maintenance。9560 的 Asia Server 维护从 Oct. 15, 2026 at 06:00 (UTC+8) 开始。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-tag-artist",
+      "name": "[Tag Artist Issue] RE-Factor Issue #1",
+      "kind": "refactor_issue",
+      "status": "ended",
+      "up": [
+        "Artzy Tyrannical (Handcannon)"
+      ],
+      "up_characters": [],
+      "start_text": "Sept. 24, 2026 at 12:00 (server time)",
+      "end_text": "Before version update and maintenance",
+      "start": null,
+      "end": "2026-10-15",
+      "source": "https://endfield.gryphline.com/en-us/news/3839",
+      "note": "与 Resplendent Spectrum 同一则公告的武器池。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-17"
+    }
+  ]
+}

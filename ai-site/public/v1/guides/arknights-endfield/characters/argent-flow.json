@@ -1,0 +1,42 @@
+{
+  "id": "argent-flow",
+  "name": "明河",
+  "name_zh": "明河",
+  "name_en": "Argent Flow",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "近卫",
+  "rarity": "6星",
+  "element": "电磁",
+  "weapon": null,
+  "skills": [],
+  "skill_prio": [],
+  "attributes": null,
+  "teams": {},
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.prydwen.gg/arknights-endfield/characters/argent-flow"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "minghe"
+  ],
+  "prydwen_slug": "argent-flow",
+  "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/argent-flow_card.webp",
+  "portrait_source": "https://www.prydwen.gg/arknights-endfield/characters/argent-flow",
+  "portrait_via": "prydwen-character:argent-flow",
+  "summary": {
+    "position": "6星 / 近卫 / 电磁",
+    "stub": true,
+    "caveat": "身份来自官网干员列表。技能正文未见可靠出处，不写强度档。",
+    "sources": [
+      "https://endfield.hypergryph.com/operator",
+      "https://endfield.gryphline.com/en-us/operator"
+    ]
+  },
+  "note": "官网干员页有身份。GameKee 图鉴和已抓到的 Prydwen 角色页都没有技能正文。",
+  "verified": "官网干员列表"
+}

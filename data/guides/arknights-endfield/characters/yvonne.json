@@ -1,0 +1,170 @@
+{
+  "id": "yvonne",
+  "name": "伊冯",
+  "name_zh": "伊冯",
+  "name_en": "Yvonne",
+  "aliases": [
+    "伊馮"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "突击",
+  "rarity": "6星",
+  "element": "寒冷",
+  "weapon": "手铳",
+  "skills": [
+    {
+      "name": "雀跃扳机",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成寒冷伤害。作为主控干员时，重击会造成17点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成寒冷伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量寒冷伤害并恢复一定技力。"
+    },
+    {
+      "name": "冰冰弹·β型",
+      "type": "battle",
+      "summary": "向前发射一颗制冷弹。制冷弹碰到敌人后会发生爆炸，造成寒冷伤害。命中处于寒冷附着或自然附着的敌人时，消耗掉目标身上所有的法术附着，对其强制施加冻结，并基于消耗的层数造成寒冷伤害。\n战技成功施加冻结后，会基于消耗的层数，额外获得终结技能量，命中多名目标时仅获得1次。"
+    },
+    {
+      "name": "速冻仔·υ37",
+      "type": "combo",
+      "summary": "当主控干员对处于冻结状态的敌人造成重击时可以发动。\n立即在敌人旁部署一个速冻仔，速冻仔会不断施放能量攻击周围的敌人，造成寒冷伤害并持续向中心牵引。\n持续时间结束后，速冻仔自爆，对周围敌人强制施加冻结并造成寒冷伤害。\n连携技成功命中敌人后，会额外获得终结技能量，命中多名目标时仅获得1次。"
+    },
+    {
+      "name": "冷冻射手",
+      "type": "ultimate",
+      "summary": "立即部署小嘀嗒进行辅助，并切换至主控干员。\n在接下来一定时间内，伊冯的普通攻击会得到强化，每次普通攻击都会增加自己的暴击率。当叠加至最大层数后，自身暴击伤害增加。持续时间结束前的最后一次普通攻击会变为重击，造成大量寒冷伤害。\n如果敌人处于冻结状态，额外造成一次寒冷伤害后，消耗其冻结状态。"
+    },
+    {
+      "name": "科技连击",
+      "type": "talent",
+      "summary": "1阶描述：战技冰冰弹·β型成功施加冻结后，下一次普通攻击直接施放重击。\n2阶描述：战技冰冰弹·β型成功施加冻结后，下一次普通攻击直接施放重击，且此次重击造成的伤害+50%。"
+    },
+    {
+      "name": "冰点",
+      "type": "talent",
+      "summary": "1阶描述：对处于寒冷附着状态的敌人造成的暴击伤害+10%；对处于冻结状态的敌人效果加倍。\n2阶描述：对处于寒冷附着状态的敌人造成的暴击伤害+20%；对处于冻结状态的敌人效果加倍。"
+    },
+    {
+      "name": "菌类颜料提取·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，菌类质料的培养速度提升20%"
+    },
+    {
+      "name": "菌类颜料提取·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，菌类质料的培养速度提升30%"
+    },
+    {
+      "name": "时尚达人·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "时尚达人·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，舱室内干员心情消耗降低18%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "智识",
+    "secondary": "敏捷",
+    "stats": {
+      "力量": {
+        "1": "8",
+        "90": "79"
+      },
+      "敏捷": {
+        "1": "14",
+        "90": "123"
+      },
+      "智识": {
+        "1": "24",
+        "90": "170"
+      },
+      "意志": {
+        "1": "10",
+        "90": "101"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "307"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/690798.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Perlica · Team #2：伊冯 / 赛希 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/perlica ，as_of 2026-06-14）",
+      "Prydwen · Tangtang · Team #1：伊冯 / 赛希 / 汤汤 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/tangtang ，as_of 2026-06-14）",
+      "Prydwen · Gilberta · Team #1：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/gilberta ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #1：伊冯 / 赛希 / 汤汤 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #2：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #3：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #4：伊冯 / 赛希 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #5：伊冯 / 赛希 / 艾尔黛拉 / 昼雪（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #6：伊冯 / 赛希 / 萤石 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Xaihi · Team #1：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/xaihi ，as_of 2026-06-14）",
+      "Prydwen · Alesh · Team #2：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/alesh ，as_of 2026-06-14）",
+      "Prydwen · Snowshine · Team #1：伊冯 / 赛希 / 艾尔黛拉 / 昼雪（https://www.prydwen.gg/arknights-endfield/characters/snowshine ，as_of 2026-06-14）",
+      "Prydwen · Estella · Team #2：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/estella ，as_of 2026-06-14）",
+      "Prydwen · Fluorite · Team #1：伊冯 / 萤石 / 赛希 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/fluorite ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/690798.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+    "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+    "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+    "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+    "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+    "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+    "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+    "https://www.prydwen.gg/arknights-endfield/characters/estella",
+    "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "yvonne"
+  ],
+  "prydwen_slug": "yvonne",
+  "gamekee_content_id": 690798,
+  "gamekee_entry_id": 202705,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466058143_1779466033064_qqjf2vi1y0_25f96ob470.jpg",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202705",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+    "umbral_monument": "T0.5",
+    "role": "Damage"
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument Damage T0.5",
+    "position": "6星 / 突击 / 寒冷 / 手铳",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+      "https://www.gamekee.com/zmd/690798.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+      "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+      "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+      "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+      "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+      "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+      "https://www.prydwen.gg/arknights-endfield/characters/estella",
+      "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
+    ]
+  },
+  "verified": "GameKee zmd/690798；官网干员列表；Prydwen /characters/yvonne"
+}

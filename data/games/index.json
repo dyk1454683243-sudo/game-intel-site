@@ -156,16 +156,17 @@
       "name_zh": "明日方舟：终末地",
       "platforms": [
         "steam",
-        "pc"
+        "pc",
+        "mobile",
+        "ps5"
       ],
       "tags": [
         "gacha",
         "action",
-        "rpg",
-        "upcoming"
+        "rpg"
       ],
-      "stub": true,
-      "watchlist": false,
+      "stub": false,
+      "watchlist": true,
       "steam_appid": 4732690,
       "path": "games/arknights-endfield"
     },

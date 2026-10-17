@@ -1,0 +1,101 @@
+{
+  "id": "si",
+  "name": "祀",
+  "name_zh": "祀",
+  "name_en": "Si",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "辅助",
+  "rarity": "6星",
+  "element": "寒冷",
+  "weapon": "双手剑",
+  "skills": [
+    {
+      "name": "Artistic Urge",
+      "type": "basic",
+      "summary": "BASIC ATTACK: An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+    },
+    {
+      "name": "Brushwork Realm",
+      "type": "battle",
+      "summary": "SP Cost: 100 Si deals Cryo DMG and applies Artful Intent, Immobilization, and Cryo Infliction (or Heat Infliction if a Heat element operator is in Team Position 01) on the target. After a target with Artful Intent takes DMG, part of the DMG taken is recorded. When the duration of Artful Intent ends, it bursts and deals Fixed DMG equal to the DMG recorded. After casting the skill, Si's battle skill is temporarily changed to Initial Stroke. Initial Stroke: Costs 15 SP. Si pulls an Inksoul from a target with Artful Intent. All DMG dealt and effects applied to the Inksoul will also be dealt to its host (the said target). The Inksoul lasts as long as the remaining duration of Artful Intent. After casting the skill, Si's battle skill is temporarily changed to Final Stroke. Final Stroke: Costs no SP. Makes the Inksoul disappear early. When disappearing, the Inksoul will move to its host and trigger a burst like the ending burst of Artful Intent. When dealing DMG or applying effects to both the Inksoul and the host, only 1 instance of the DMG or effect is dealt/applied. If the host is defeated during the Inksoul's duration, it will link to another enemy in combat and apply Artful Intent to it. This does not reset the duration of Artful Intent. If a target with Artful Intent is defeated without having its Inksoul drawn out of it, the defeated target will drop an Inksoul at its location."
+    },
+    {
+      "name": "Fully Envisioned",
+      "type": "combo",
+      "summary": "Cooldown: 15s Si summons an Ink Lung that deals Cryo DMG. This DMG is based on the highest stacks of Arts Infliction consumed or absorbed from a single target. Trigger: When an enemy's Cryo Infliction or Heat Infliction is consumed or absorbed."
+    },
+    {
+      "name": "No One Spoils the Fun",
+      "type": "ultimate",
+      "summary": "Energy cost: 80 Si summons a Giant Ink Lung from her painting that deals Cryo DMG and grants temporary Cryo Amp and Heat Amp to the entire team."
+    },
+    {
+      "name": "Ware is the Geist",
+      "type": "base",
+      "summary": "Assign to Reception Room to grant operator clue collecting efficiency +20/30%."
+    },
+    {
+      "name": "Ink Spirit Aide",
+      "type": "base",
+      "summary": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18%."
+    },
+    {
+      "name": "Proxy's Patronage",
+      "type": "talent",
+      "summary": "Ultimate skill No One Spoils the Fun improved: After casting, Team Position 01 operator's combo skill cooldown length -10/20s."
+    },
+    {
+      "name": "Unsoiled Brush",
+      "type": "talent",
+      "summary": "When the Inksoul disappears, allied operators gain 15/30% Haste for 5s."
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "level": 90,
+    "stats": {
+      "Strength": "117",
+      "Agility": "100",
+      "Intellect": "179",
+      "Will": "100"
+    },
+    "source": "https://www.prydwen.gg/arknights-endfield/characters/si",
+    "as_of": "2026-10-16",
+    "note": "只收录 Prydwen Attributes (level 90) 里写出的四项数字。页面没有在文本里标出主属性/副属性颜色，不补。"
+  },
+  "teams": {},
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.prydwen.gg/arknights-endfield/characters/si"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "jsspsi"
+  ],
+  "prydwen_slug": "si",
+  "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/si_card.webp",
+  "portrait_source": "https://www.prydwen.gg/arknights-endfield/characters/si",
+  "portrait_via": "prydwen-character:si",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-16",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/si",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 辅助 / 寒冷 / 双手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-10-16。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/si",
+      "https://endfield.hypergryph.com/operator"
+    ]
+  },
+  "verified": "官网干员列表；Prydwen /characters/si"
+}

@@ -1,0 +1,599 @@
+{
+  "game": "arknights-endfield",
+  "name": "Arknights: Endfield",
+  "name_zh": "明日方舟：终末地",
+  "as_of": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "character_count": 34,
+  "rich_count": 33,
+  "stub_count": 1,
+  "conclusion_stub_count": 0,
+  "links": {
+    "banners": "/v1/guides/arknights-endfield/banners.json",
+    "codes": "/v1/guides/arknights-endfield/codes.json"
+  },
+  "characters": [
+    {
+      "id": "akekuri",
+      "name": "秋栗",
+      "name_zh": "秋栗",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/689624.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+        "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+        "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/489672.png"
+    },
+    {
+      "id": "alesh",
+      "name": "阿列什",
+      "name_zh": "阿列什",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691025.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/272991.png"
+    },
+    {
+      "id": "antal",
+      "name": "安塔尔",
+      "name_zh": "安塔尔",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691015.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/antal",
+        "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/arclight",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/10456.png"
+    },
+    {
+      "id": "arcane",
+      "name": "诀",
+      "name_zh": "诀",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/713249.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+        "https://www.prydwen.gg/arknights-endfield/characters/typhoeus"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_204/h_284/1161192/2026/7/28/52970278mtcwj770.png"
+    },
+    {
+      "id": "arclight",
+      "name": "弧光",
+      "name_zh": "弧光",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691042.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/arclight",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+        "https://www.prydwen.gg/arknights-endfield/characters/liino"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/222375.png"
+    },
+    {
+      "id": "ardelia",
+      "name": "艾尔黛拉",
+      "name_zh": "艾尔黛拉",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690792.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "https://www.prydwen.gg/arknights-endfield/characters/antal",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+        "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/851863.png"
+    },
+    {
+      "id": "argent-flow",
+      "name": "明河",
+      "name_zh": "明河",
+      "stub": true,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.prydwen.gg/arknights-endfield/characters/argent-flow"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/argent-flow_card.webp"
+    },
+    {
+      "id": "avywenna",
+      "name": "艾维文娜",
+      "name_zh": "艾维文娜",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691016.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/arclight"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/641179.png"
+    },
+    {
+      "id": "camille",
+      "name": "卡缪",
+      "name_zh": "卡缪",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/706132.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466053239_1779465953422_0qh2u88kcm_e7qw7u3z3u.jpg"
+    },
+    {
+      "id": "catcher",
+      "name": "卡契尔",
+      "name_zh": "卡契尔",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691066.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/catcher"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/642824.png"
+    },
+    {
+      "id": "chen-qianyu",
+      "name": "陈千语",
+      "name_zh": "陈千语",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691012.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember",
+        "https://www.prydwen.gg/arknights-endfield/characters/catcher"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/833197.png"
+    },
+    {
+      "id": "da-pan",
+      "name": "大潘",
+      "name_zh": "大潘",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691028.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember",
+        "https://www.prydwen.gg/arknights-endfield/characters/catcher"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/555001.png"
+    },
+    {
+      "id": "ember",
+      "name": "余烬",
+      "name_zh": "余烬",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691008.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/21/89276.png"
+    },
+    {
+      "id": "endministrator",
+      "name": "管理员",
+      "name_zh": "管理员",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691003.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/endministrator",
+        "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember",
+        "https://www.prydwen.gg/arknights-endfield/characters/catcher",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/301464.png"
+    },
+    {
+      "id": "estella",
+      "name": "埃特拉",
+      "name_zh": "埃特拉",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691061.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/710511.png"
+    },
+    {
+      "id": "fluorite",
+      "name": "萤石",
+      "name_zh": "萤石",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691058.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/320251.png"
+    },
+    {
+      "id": "gilberta",
+      "name": "洁尔佩塔",
+      "name_zh": "洁尔佩塔",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691006.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/typhoeus",
+        "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/arclight",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille",
+        "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/75509.png"
+    },
+    {
+      "id": "laevatain",
+      "name": "莱万汀",
+      "name_zh": "莱万汀",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690817.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "https://www.prydwen.gg/arknights-endfield/characters/antal",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/647159.png"
+    },
+    {
+      "id": "last-rite",
+      "name": "别礼",
+      "name_zh": "别礼",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690770.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/612903.png"
+    },
+    {
+      "id": "lifeng",
+      "name": "黎风",
+      "name_zh": "黎风",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690826.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember",
+        "https://www.prydwen.gg/arknights-endfield/characters/catcher"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/78405.png"
+    },
+    {
+      "id": "liino",
+      "name": "梨诺",
+      "name_zh": "梨诺",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.prydwen.gg/arknights-endfield/characters/liino",
+        "https://www.prydwen.gg/arknights-endfield/characters/typhoeus",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/liino_card.webp"
+    },
+    {
+      "id": "mi-fu",
+      "name": "弭弗",
+      "name_zh": "弭弗",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/706131.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466055604_1779465855633_2u0jh77olr_5sb8vddgms.jpg"
+    },
+    {
+      "id": "perlica",
+      "name": "佩丽卡",
+      "name_zh": "佩丽卡",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691010.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+        "https://www.prydwen.gg/arknights-endfield/characters/typhoeus",
+        "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/arclight",
+        "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+        "https://www.prydwen.gg/arknights-endfield/characters/liino",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/703916.png"
+    },
+    {
+      "id": "pogranichnik",
+      "name": "骏卫",
+      "name_zh": "骏卫",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690760.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille",
+        "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+        "https://www.prydwen.gg/arknights-endfield/characters/ember"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/351067.png"
+    },
+    {
+      "id": "purrchena",
+      "name": "噗切娜",
+      "name_zh": "噗切娜",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.prydwen.gg/arknights-endfield/characters/purrchena"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/purrchena_card.webp"
+    },
+    {
+      "id": "rossi",
+      "name": "洛茜",
+      "name_zh": "洛茜",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/695986.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+        "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+        "https://www.prydwen.gg/arknights-endfield/characters/camille",
+        "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/9/878914.png"
+    },
+    {
+      "id": "si",
+      "name": "祀",
+      "name_zh": "祀",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.prydwen.gg/arknights-endfield/characters/si"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/si_card.webp"
+    },
+    {
+      "id": "snowshine",
+      "name": "昼雪",
+      "name_zh": "昼雪",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691038.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/844230.png"
+    },
+    {
+      "id": "tangtang",
+      "name": "汤汤",
+      "name_zh": "汤汤",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/695980.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+        "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+        "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/12/729791.png"
+    },
+    {
+      "id": "typhoeus",
+      "name": "提弗洛斯",
+      "name_zh": "提弗洛斯",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.prydwen.gg/arknights-endfield/characters/typhoeus"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/typhoeus_card.webp"
+    },
+    {
+      "id": "wulfgard",
+      "name": "狼卫",
+      "name_zh": "狼卫",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691048.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "https://www.prydwen.gg/arknights-endfield/characters/antal",
+        "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/26676.png"
+    },
+    {
+      "id": "xaihi",
+      "name": "赛希",
+      "name_zh": "赛希",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/691040.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+        "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+        "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella",
+        "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/152298.png"
+    },
+    {
+      "id": "yvonne",
+      "name": "伊冯",
+      "name_zh": "伊冯",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/690798.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "https://www.prydwen.gg/arknights-endfield/characters/tangtang",
+        "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+        "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+        "https://www.prydwen.gg/arknights-endfield/characters/estella",
+        "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466058143_1779466033064_qqjf2vi1y0_25f96ob470.jpg"
+    },
+    {
+      "id": "zhuang-fangyi",
+      "name": "庄方宜",
+      "name_zh": "庄方宜",
+      "stub": false,
+      "sources": [
+        "https://endfield.hypergryph.com/operator",
+        "https://endfield.gryphline.com/en-us/operator",
+        "https://www.gamekee.com/zmd/701601.html",
+        "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+        "https://www.prydwen.gg/arknights-endfield/characters/liino"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/3/20/219941.png"
+    }
+  ]
+}

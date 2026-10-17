@@ -1,0 +1,156 @@
+{
+  "id": "wulfgard",
+  "name": "狼卫",
+  "name_zh": "狼卫",
+  "name_en": "Wulfgard",
+  "aliases": [
+    "狼衛"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "术师",
+  "rarity": "5星",
+  "element": "灼热",
+  "weapon": "手铳",
+  "skills": [
+    {
+      "name": "多重连射",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多4段攻击，造成灼热伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成灼热伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量灼热伤害并恢复一定技力。"
+    },
+    {
+      "name": "灼热弹痕",
+      "type": "battle",
+      "summary": "对目标进行连射，造成少量灼热伤害，最后一次射击施加灼热附着。如果目标处于燃烧或导电状态，则不再施加灼热附着，而是消耗该状态并追加一次射击，造成大量灼热伤害。"
+    },
+    {
+      "name": "爆裂手雷·β型",
+      "type": "combo",
+      "summary": "当有敌人被施加法术附着时可以发动.\n向目标所在位置扔出一颗爆裂手雷，手雷落地后爆炸，对附近范围的敌人造成灼热伤害并施加灼热附着。"
+    },
+    {
+      "name": "狼之怒",
+      "type": "ultimate",
+      "summary": "进行快速射击并施放狼之怒攻击附近敌人，造成5次灼热伤害并强制施加燃烧。"
+    },
+    {
+      "name": "灼热獠牙",
+      "type": "talent",
+      "summary": "1阶描述：每次施加燃烧后，获得灼热獠牙状态，持续10秒，该状态无法叠加。状态持续期间，自身造成的灼热伤害+20%。\n2阶描述：每次施加燃烧后，获得灼热獠牙状态，持续10秒，该状态无法叠加。状态持续期间，自身造成的灼热伤害+30%。"
+    },
+    {
+      "name": "节制准则",
+      "type": "talent",
+      "summary": "1阶描述：战技灼热弹痕成功消耗法术异常时，返还5点技力。\n2阶描述：战技灼热弹痕成功消耗法术异常时，返还10点技力。"
+    },
+    {
+      "name": "狼群的技巧·α",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，干员经验素材的生产效率提升10%"
+    },
+    {
+      "name": "狼群的技巧·β",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，干员经验素材的生产效率提升20%"
+    },
+    {
+      "name": "荒野卓识·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，矿物质料的培养速度提升20%"
+    },
+    {
+      "name": "荒野卓识·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，矿物质料的培养速度提升30%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "力量",
+    "secondary": "敏捷",
+    "stats": {
+      "力量": {
+        "1": "19",
+        "90": "155"
+      },
+      "敏捷": {
+        "1": "10",
+        "90": "92"
+      },
+      "智识": {
+        "1": "9",
+        "90": "89"
+      },
+      "意志": {
+        "1": "14",
+        "90": "107"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "282"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/691048.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Laevatain · Team #1：莱万汀 / 狼卫 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Laevatain · Team #3：莱万汀 / 狼卫 / 秋栗 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Antal · Team #1：莱万汀 / 安塔尔 / 狼卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/antal ，as_of 2026-06-14）",
+      "Prydwen · Rossi · Team #1：洛茜 / 狼卫 / 管理员 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Rossi · Team #2：洛茜 / 狼卫 / 管理员 / 佩丽卡（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Perlica · Team #4：狼卫 / 佩丽卡 / 安塔尔 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/perlica ，as_of 2026-06-14）",
+      "Prydwen · Wulfgard · Team #1：莱万汀 / 安塔尔 / 狼卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/wulfgard ，as_of 2026-08-14）",
+      "Prydwen · Wulfgard · Team #2：佩丽卡 / 安塔尔 / 狼卫 / 弧光（https://www.prydwen.gg/arknights-endfield/characters/wulfgard ，as_of 2026-08-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/691048.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+    "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+    "https://www.prydwen.gg/arknights-endfield/characters/antal",
+    "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+    "https://www.prydwen.gg/arknights-endfield/characters/perlica"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "wulfgard"
+  ],
+  "prydwen_slug": "wulfgard",
+  "gamekee_content_id": 691048,
+  "gamekee_entry_id": 202716,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/26676.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202716",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-08-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+    "umbral_monument": "T1",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T1",
+    "position": "5星 / 术师 / 灼热 / 手铳",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-08-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+      "https://www.gamekee.com/zmd/691048.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+      "https://www.prydwen.gg/arknights-endfield/characters/antal",
+      "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+      "https://www.prydwen.gg/arknights-endfield/characters/perlica"
+    ]
+  },
+  "verified": "GameKee zmd/691048；官网干员列表；Prydwen /characters/wulfgard"
+}

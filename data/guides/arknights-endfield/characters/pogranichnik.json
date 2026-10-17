@@ -1,0 +1,167 @@
+{
+  "id": "pogranichnik",
+  "name": "骏卫",
+  "name_zh": "骏卫",
+  "name_en": "Pogranichnik",
+  "aliases": [
+    "駿衛"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "先锋",
+  "rarity": "6星",
+  "element": "物理",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "全面攻势",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成物理伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "粉碎阵线",
+      "type": "battle",
+      "summary": "对前方范围的敌人进行两段斩击，造成物理伤害并施加碎甲，同时基于消耗的破防层数恢复技力，命中多名目标时仅恢复1次。"
+    },
+    {
+      "name": "盈月邀击",
+      "type": "combo",
+      "summary": "当有敌人被猛击或者碎甲消耗破防层数后可以发动。 根据消耗的最高破防层数，对敌人进行相同段数的斩击（最多3段），造成物理伤害并恢复一定技力，每一击的伤害和技力恢复效果都更强。\n若消耗4层破防，第3段斩击将获得强化。"
+    },
+    {
+      "name": "盾卫旗队，上前",
+      "type": "ultimate",
+      "summary": "以目标为中心，召唤四名盾卫向目标进军，并将进军途中的敌人往目标方向推动，造成物理伤害的同时生成5点铁誓。当有敌人受到物理异常效果或骏卫的连携技伤害后，消耗1点铁誓召唤一名盾卫对其发动袭扰，造成物理伤害并恢复一定技力。当消耗的铁誓是最后一点时，四名盾卫发动决胜，对其造成大量物理伤害并恢复大量技力。"
+    },
+    {
+      "name": "活着的旗帜",
+      "type": "talent",
+      "summary": "1阶描述：战斗中，通过自身技能每恢复80点技力后，获得持续20秒的士气激昂。\n士气激昂效果：攻击力+4%，源石技艺强度+4。 该效果最多叠加3层，每层单独计算时间。\n2阶描述：战斗中，通过自身技能每恢复80点技力后，获得持续20秒的士气激昂。\n士气激昂效果：攻击力+8%，源石技艺强度+8。 该效果最多叠加3层，每层单独计算时间。"
+    },
+    {
+      "name": "战术教导",
+      "type": "talent",
+      "summary": "1阶描述：当任意干员触发终结技盾卫旗队，上前的后续效果后，也会获得持续5秒的士气激昂。 需要激活天赋活着的旗帜。\n2阶描述：当任意干员触发终结技盾卫旗队，上前的后续效果后，也会获得持续10秒的士气激昂。 需要激活天赋活着的旗帜。"
+    },
+    {
+      "name": "先利其器·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，武器经验素材的生产效率提升20%"
+    },
+    {
+      "name": "先利其器·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，武器经验素材的生产效率提升30%"
+    },
+    {
+      "name": "鼓舞士气·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "鼓舞士气·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，舱室内干员心情消耗降低18%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "意志",
+    "secondary": "敏捷",
+    "stats": {
+      "力量": {
+        "1": "12",
+        "90": "101"
+      },
+      "敏捷": {
+        "1": "13",
+        "90": "110"
+      },
+      "智识": {
+        "1": "10",
+        "90": "97"
+      },
+      "意志": {
+        "1": "12",
+        "90": "173"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5495"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "321"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/690760.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Pogranichnik · Team #1：大潘 / 骏卫 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/pogranichnik ，as_of 2026-06-14）",
+      "Prydwen · Pogranichnik · Team #2：骏卫 / 黎风 / 陈千语 / 大潘（https://www.prydwen.gg/arknights-endfield/characters/pogranichnik ，as_of 2026-06-14）",
+      "Prydwen · Pogranichnik · Team #3：骏卫 / 黎风 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/pogranichnik ，as_of 2026-06-14）",
+      "Prydwen · Chen Qianyu · Team #1：管理员 / 骏卫 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu ，as_of 2026-06-14）",
+      "Prydwen · Chen Qianyu · Team #3：骏卫 / 黎风 / 陈千语 / 大潘（https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu ，as_of 2026-06-14）",
+      "Prydwen · Chen Qianyu · Team #4：骏卫 / 黎风 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu ，as_of 2026-06-14）",
+      "Prydwen · Lifeng · Team #3：黎风 / 骏卫 / 陈千语 / 大潘（https://www.prydwen.gg/arknights-endfield/characters/lifeng ，as_of 2026-06-14）",
+      "Prydwen · Lifeng · Team #4：黎风 / 骏卫 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/lifeng ，as_of 2026-06-14）",
+      "Prydwen · Camille · Team #2：卡缪 / 弭弗 / 洛茜 / 骏卫（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）",
+      "Prydwen · Da Pan · Team #2：大潘 / 骏卫 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/da-pan ，as_of 2026-06-14）",
+      "Prydwen · Da Pan · Team #4：大潘 / 黎风 / 陈千语 / 骏卫（https://www.prydwen.gg/arknights-endfield/characters/da-pan ，as_of 2026-06-14）",
+      "Prydwen · Mi Fu · Team #1：弭弗 / 陈千语 / 骏卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #2：弭弗 / 洛茜 / 骏卫 / 秋栗（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #3：弭弗 / 陈千语 / 骏卫 / 黎风（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Ember · Team #3：管理员 / 骏卫 / 陈千语 / 余烬（https://www.prydwen.gg/arknights-endfield/characters/ember ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/690760.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+    "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+    "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+    "https://www.prydwen.gg/arknights-endfield/characters/camille",
+    "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+    "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+    "https://www.prydwen.gg/arknights-endfield/characters/ember"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "pogranichnik"
+  ],
+  "prydwen_slug": "pogranichnik",
+  "gamekee_content_id": 690760,
+  "gamekee_entry_id": 202702,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/351067.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202702",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 先锋 / 物理 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+      "https://www.gamekee.com/zmd/690760.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+      "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+      "https://www.prydwen.gg/arknights-endfield/characters/camille",
+      "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+      "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+      "https://www.prydwen.gg/arknights-endfield/characters/ember"
+    ]
+  },
+  "verified": "GameKee zmd/690760；官网干员列表；Prydwen /characters/pogranichnik"
+}

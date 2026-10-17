@@ -1,0 +1,157 @@
+{
+  "id": "akekuri",
+  "name": "秋栗",
+  "name_zh": "秋栗",
+  "name_en": "Akekuri",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "先锋",
+  "rarity": "4星",
+  "element": "灼热",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "进取剑锋",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多4段攻击，造成物理伤害。作为主控干员时，重击会造成17点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "热情迸发",
+      "type": "battle",
+      "summary": "向前方挥斩，造成灼热伤害并施加灼热附着。"
+    },
+    {
+      "name": "快闪冲击",
+      "type": "combo",
+      "summary": "当有敌人失衡，或触发失衡节点时可以发动。 进行来回2段突刺，每段造成物理伤害，并恢复一定技力。"
+    },
+    {
+      "name": "小队，集结！",
+      "type": "ultimate",
+      "summary": "进入持续施法状态，发射3枚集结信号弹，每次发射恢复一定技力。"
+    },
+    {
+      "name": "胜利喝彩",
+      "type": "talent",
+      "summary": "1阶描述：每10点智识会使连携技快闪冲击的技力恢复量+1.0%，最多提高50%。\n2阶描述：每10点智识会使连携技快闪冲击的技力恢复量+1.5%，最多提高75%。"
+    },
+    {
+      "name": "心流时间",
+      "type": "talent",
+      "summary": "1阶描述：施放终结技小队，集结！期间，获得连击。"
+    },
+    {
+      "name": "咖啡或茶·α",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，舱室内干员心情消耗降低10%"
+    },
+    {
+      "name": "咖啡或茶·β",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "破冰游戏·β",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，舱室内干员心情消耗降低10%"
+    },
+    {
+      "name": "破冰游戏·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，舱室内干员心情消耗降低14%"
+    }
+  ],
+  "skill_prio": [
+    "Off Field: Ultimate > Combo Skill > Basic Attack > Battle Skill"
+  ],
+  "attributes": {
+    "primary": "敏捷",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "13",
+        "90": "106"
+      },
+      "敏捷": {
+        "1": "15",
+        "90": "135"
+      },
+      "智识": {
+        "1": "12",
+        "90": "103"
+      },
+      "意志": {
+        "1": "9",
+        "90": "104"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "306"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/689624.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Laevatain · Team #2：莱万汀 / 秋栗 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Laevatain · Team #3：莱万汀 / 狼卫 / 秋栗 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Arcane · Team #1：诀 / 汤汤 / 赛希 / 秋栗（https://www.prydwen.gg/arknights-endfield/characters/arcane ，as_of 2026-08-16）",
+      "Prydwen · Purrchena · Team #1：洛茜 / 佩丽卡 / 秋栗 / 噗切娜（https://www.prydwen.gg/arknights-endfield/characters/purrchena ，as_of 2026-10-15）",
+      "Prydwen · Avywenna · Team #3：艾维文娜 / 秋栗 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/avywenna ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #2：弭弗 / 洛茜 / 骏卫 / 秋栗（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Akekuri · Team #1：莱万汀 / 秋栗 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/akekuri ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/689624.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+    "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+    "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+    "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+    "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+    "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "akekuri"
+  ],
+  "prydwen_slug": "akekuri",
+  "gamekee_content_id": 689624,
+  "gamekee_entry_id": 202723,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/489672.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202723",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+    "umbral_monument": "T0.5",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0.5",
+    "position": "4星 / 先锋 / 灼热 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+      "https://www.gamekee.com/zmd/689624.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+      "https://www.prydwen.gg/arknights-endfield/characters/arcane",
+      "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+      "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+      "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+    ]
+  },
+  "verified": "GameKee zmd/689624；官网干员列表；Prydwen /characters/akekuri"
+}

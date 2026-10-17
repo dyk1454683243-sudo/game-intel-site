@@ -1,0 +1,153 @@
+{
+  "id": "rossi",
+  "name": "洛茜",
+  "name_zh": "洛茜",
+  "name_en": "Rossi",
+  "aliases": [
+    "洛西"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "近卫",
+  "rarity": "6星",
+  "element": "物理",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "沸腾狼血",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成物理伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "血红之影",
+      "type": "battle",
+      "summary": "冲向目标，造成物理伤害并施加击飞。\n若目标已经拥有破防，则会额外释放狼之珀冲向目标，造成灼热伤害。"
+    },
+    {
+      "name": "燎影时刻",
+      "type": "combo",
+      "summary": "当有敌人同时处于破防和法术附着状态时可以发动。\n洛茜的连携技可连续发动两次，第一次会对目标造成物理伤害。 第二次将消耗目标全部的法术附着，对其造成基于消耗层数的物理伤害并造成一次击飞，同时在一段时间内提升自身的暴击率和暴击伤害。\n当第二次连携技精准衔接时，可以额外施加1层破防。"
+    },
+    {
+      "name": "“利爪”奇袭",
+      "type": "ultimate",
+      "summary": "挥动披风迅捷戳击，在短时间内对目标造成多段灼热伤害，之后使用匕首进行两段斩击，造成大量灼热伤害并施加灼热附着。\n本次技能将在暴击时造成更高的暴击伤害。"
+    },
+    {
+      "name": "斫痕",
+      "type": "talent",
+      "summary": "1阶描述：战技的狼之珀造成伤害后，会对目标施加爪印斫痕状态，持续15秒，该效果无法叠加。 爪印斫痕持续期间，目标每秒受到洛茜攻击力25.0%的物理伤害，且受到的物理伤害和灼热伤害+6.0%。\n2阶描述：战技的狼之珀造成伤害后，会对目标施加爪印斫痕状态，持续25秒，该效果无法叠加。 爪印斫痕持续期间，目标每秒受到洛茜攻击力30.0%的物理伤害，且受到的物理伤害和灼热伤害+12.0%。"
+    },
+    {
+      "name": "沸血",
+      "type": "talent",
+      "summary": "1阶描述：洛茜对处于爪印斫痕状态的敌人施放技能造成暴击伤害时，会额外触发一次攻击力12.0%的灼热伤害，并且为自身回复[智识×0.04]点生命值。若目标同时处于燃烧状态，则上述伤害和治疗效果提升至1.5倍。\n2阶描述：洛茜对处于爪印斫痕状态的敌人施放技能造成暴击伤害时，会额外触发一次攻击力24.0%的灼热伤害，并且为自身回复[智识×0.08]点生命值。若目标同时处于燃烧状态，则上述伤害和治疗效果提升至1.5倍。"
+    },
+    {
+      "name": "氏族的礼仪·β",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "氏族的礼仪·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，舱室内干员心情消耗降低18%"
+    },
+    {
+      "name": "狩猎嗅觉·β",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，干员收集线索的效率提升20%"
+    },
+    {
+      "name": "狩猎嗅觉·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，干员收集线索的效率提升30%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "敏捷",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "9",
+        "90": "97"
+      },
+      "敏捷": {
+        "1": "33",
+        "90": "228"
+      },
+      "智识": {
+        "1": "14",
+        "90": "118"
+      },
+      "意志": {
+        "1": "9",
+        "90": "89"
+      },
+      "生命": {
+        "1": "545",
+        "90": "5980"
+      },
+      "攻击力": {
+        "1": "84",
+        "90": "2282"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/695986.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Rossi · Team #1：洛茜 / 狼卫 / 管理员 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Rossi · Team #2：洛茜 / 狼卫 / 管理员 / 佩丽卡（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Purrchena · Team #1：洛茜 / 佩丽卡 / 秋栗 / 噗切娜（https://www.prydwen.gg/arknights-endfield/characters/purrchena ，as_of 2026-10-15）",
+      "Prydwen · Camille · Team #2：卡缪 / 弭弗 / 洛茜 / 骏卫（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）",
+      "Prydwen · Camille · Team #3：卡缪 / 洛茜 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #2：弭弗 / 洛茜 / 骏卫 / 秋栗（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #4：弭弗 / 洛茜 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/695986.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+    "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+    "https://www.prydwen.gg/arknights-endfield/characters/camille",
+    "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "rossi"
+  ],
+  "prydwen_slug": "rossi",
+  "gamekee_content_id": 695986,
+  "gamekee_entry_id": 209404,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/9/878914.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:209404",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 近卫 / 物理 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+      "https://www.gamekee.com/zmd/695986.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+      "https://www.prydwen.gg/arknights-endfield/characters/camille",
+      "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
+    ]
+  },
+  "verified": "GameKee zmd/695986；官网干员列表；Prydwen /characters/rossi"
+}
