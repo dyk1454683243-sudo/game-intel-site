@@ -6,7 +6,7 @@
     "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
   },
   "ok": true,
-  "count": 8,
+  "count": 7,
   "digests": [
     {
       "game": "hw",
@@ -264,32 +264,6 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
-        }
-      ]
-    },
-    {
-      "game": "zenless-zone-zero",
-      "name": "绝区零",
-      "alias": "zzz",
-      "ok": true,
-      "count": 2,
-      "sources": [
-        "official"
-      ],
-      "items": [
-        {
-          "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目｜情报总览",
-          "url": "https://zenless.hoyoverse.com/zh-tw/news/166644",
-          "source": "official",
-          "date": "2026-10-09T20:15:00+08:00",
-          "summary": "官方新闻 2026/10/09。正文写全新代理人「菲欧妮」「赛维里安」即将登场，并写特别节目兑换码于 10月11日 23:59:59（UTC+8）失效。上下半调频钟点在该公告配图，不在正文。"
-        },
-        {
-          "title": "3.2版本限时频道（下期）",
-          "url": "https://zenless.hoyoverse.com/zh-tw/news/166475",
-          "source": "official",
-          "date": "2026-09-28T12:15:00+08:00",
-          "summary": "官方公告写本期调频时间为 2026/09/30 12:00 - 2026/10/20 14:59（伺服器时间），限定 S 级为洛克茜（风·击破）与普罗米娅（冰·异常）。"
         }
       ]
     }
