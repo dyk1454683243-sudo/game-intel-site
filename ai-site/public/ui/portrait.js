@@ -1,5 +1,5 @@
 /**
- * Character portrait URLs for hw / nikke / bd2 / reverse-1999.
+ * Character portrait URLs for hw / nikke / bd2 / reverse-1999 / arknights-endfield / zenless-zone-zero.
  *
  * GameKee list icons live on cdnimg-v2.gamekee.com. That host returns HTTP 567
  * unless the request Referer is on gamekee.com, so a browser on this site cannot
@@ -20,6 +20,10 @@ const RULES = Object.freeze([
   { host: "cdn.prydwen.gg", prefix: "/images/nikke/characters/" },
   { host: "cdn.prydwen.gg", prefix: "/images/re1999/characters/" },
   { host: "cdn.prydwen.gg", prefix: "/images/re1999/generic/" },
+  { host: "cdn.prydwen.gg", prefix: "/images/arknights-endfield/characters/" },
+  { host: "cdn.prydwen.gg", prefix: "/images/limbus-company/characters/" },
+  { host: "cdn.prydwen.gg", prefix: "/images/zenless-zone-zero/characters/" },
+  { host: "cdn.prydwen.gg", prefix: "/images/wuthering-waves/characters/" },
 ]);
 
 const MAX_BYTES = 3 * 1024 * 1024;

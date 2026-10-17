@@ -74,7 +74,7 @@ test("cited teams fill only empty cards and keep the source on the line", () => 
 });
 
 test("hw nikke and bd2 guide indexes link banners and codes", () => {
-  for (const game of ["hw", "nikke", "bd2", "arknights-endfield"]) {
+  for (const game of ["hw", "nikke", "bd2", "arknights-endfield", "zenless-zone-zero"]) {
     const index = JSON.parse(fs.readFileSync(path.join(publicGuides, game, "index.json"), "utf8"));
     assert.equal(index.links.banners, `/v1/guides/${game}/banners.json`);
     assert.equal(index.links.codes, `/v1/guides/${game}/codes.json`);

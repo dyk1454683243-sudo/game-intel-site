@@ -30,10 +30,14 @@ const WATCH = {
   miraesi: { name: "Invisible Future", name_zh: "미래시" },
   lo2: { name: "Last Origin 2", name_zh: "Last Origin 2" },
   "reverse-1999": { name: "Reverse: 1999", name_zh: "重返未来：1999" },
+  "arknights-endfield": { name: "Arknights: Endfield", name_zh: "明日方舟：终末地" },
+  "limbus-company": { name: "Limbus Company", name_zh: "边狱公司" },
+  "zenless-zone-zero": { name: "Zenless Zone Zero", name_zh: "绝区零" },
+  "wuthering-waves": { name: "Wuthering Waves", name_zh: "鸣潮" },
 };
 
 /** Games whose non-stub cards must carry a conclusion (`summary`) row. */
-const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2", "reverse-1999"]);
+const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2", "reverse-1999", "arknights-endfield", "limbus-company", "zenless-zone-zero", "wuthering-waves"]);
 
 function rmrf(p) {
   if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true });
@@ -264,6 +268,15 @@ function exportGame(game, asOf) {
     if (CONCLUSION_GAMES.has(game)) {
       indexRow.portrait = typeof c.portrait === "string" && c.portrait ? c.portrait : null;
     }
+    if (c.sinner && typeof c.sinner === "object" && c.sinner.id) {
+      indexRow.sinner = {
+        id: c.sinner.id,
+        name_en: c.sinner.name_en || "",
+        name_zh: c.sinner.name_zh || "",
+        order: Number(c.sinner.order) || 0,
+      };
+    }
+    if (c.rarity) indexRow.rarity = c.rarity;
     indexChars.push(indexRow);
   }
 

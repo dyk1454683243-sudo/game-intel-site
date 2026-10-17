@@ -122,6 +122,60 @@
       "gamekee_alias": "reverse1999",
       "steam_appid": 3092660,
       "official_url": "https://re.bluepoch.com/"
+    },
+    {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "name_zh": "明日方舟：终末地",
+      "keywords": [
+        "明日方舟：终末地",
+        "终末地",
+        "Arknights: Endfield",
+        "Endfield"
+      ],
+      "gamekee_alias": "zmd",
+      "official_url": "https://endfield.gryphline.com/en-us/news",
+      "steam_appid": 4732690
+    },
+    {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "name_zh": "边狱公司",
+      "keywords": [
+        "Limbus Company",
+        "边狱公司",
+        "림버스 컴퍼니",
+        "LimbusCompany"
+      ],
+      "gamekee_alias": "limbus",
+      "steam_appid": 1973530,
+      "official_url": "https://store.steampowered.com/news/app/1973530"
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "name_zh": "绝区零",
+      "keywords": [
+        "绝区零",
+        "绝區零",
+        "Zenless Zone Zero",
+        "ZZZ"
+      ],
+      "gamekee_alias": "zzz",
+      "official_url": "https://zenless.hoyoverse.com/zh-tw/news",
+      "steam_appid": 4162040
+    },
+    {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "name_zh": "鸣潮",
+      "keywords": [
+        "鸣潮",
+        "Wuthering Waves"
+      ],
+      "gamekee_alias": "mc",
+      "official_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news",
+      "steam_appid": 3513350
     }
   ]
 }
