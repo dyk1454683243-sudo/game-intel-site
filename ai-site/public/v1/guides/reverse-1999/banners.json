@@ -1,0 +1,399 @@
+{
+  "game": "reverse-1999",
+  "as_of": "2026-10-17",
+  "timezone_note": "国服条目来自认证账号「重返未来：1999官方微博」在新浪新闻的可访问镜像。正文写了月/日和钟点，没有写年份和时区。下面的 start/end 用帖文发布时间所在的 2026 年，不补 UTC+8。国际服条目来自 Bluepoch 的 Steam 公告，正文写了 UTC-5。国服 4.0 与国际服 3.8 不是同一套卡池。",
+  "sources": [
+    "https://re.bluepoch.com/",
+    "https://www.sina.cn/news/detail/5354222569918675.html",
+    "https://www.sina.cn/news/detail/5346614941583269.html",
+    "https://www.sina.cn/news/detail/5354225087024686.html",
+    "https://www.sina.cn/news/detail/5346617458427845.html",
+    "https://www.sina.cn/news/detail/5352803225567718.html",
+    "https://www.sina.cn/news/detail/5346974812604161.html",
+    "https://www.sina.cn/news/detail/5347820388221101.html",
+    "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818"
+  ],
+  "banners": [
+    {
+      "id": "cn-2026-10-15-drake",
+      "name": "存在之火",
+      "kind": "limited",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "德雷克（兽，6星）",
+        "空脑袋（木，5星）",
+        "沙丝绒（兽，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "drake",
+          "name": "德雷克",
+          "label": "德雷克（兽）"
+        },
+        {
+          "id": "loggerhead",
+          "name": "空脑袋",
+          "label": "空脑袋（木）"
+        },
+        {
+          "id": "desert-flannel",
+          "name": "沙丝绒",
+          "label": "沙丝绒（兽）"
+        }
+      ],
+      "start_text": "10/15 5:00",
+      "end_text": "11/5 4:59",
+      "start": "2026-10-15T05:00:00",
+      "end": "2026-11-05T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5354222569918675.html",
+      "as_of": "2026-10-17",
+      "note": "国服 4.0 下半。帖文写活动征集现已开启，属于限时角色征集，与同类型保底共享，首个 10 次征集内必得 5 星或以上。镜像页标注微博认证：重返未来：1999官方微博，发布时间 2026-10-15 10:00。"
+    },
+    {
+      "id": "cn-2026-09-24-huntsworn-lilya",
+      "name": "不渝者的领航",
+      "kind": "limited",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "狩勋女巫红弩箭（星，6星）",
+        "小叶尼塞（星，5星）",
+        "婴儿蓝（星，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "huntsworn-lilya",
+          "name": "狩勋女巫红弩箭",
+          "label": "狩勋女巫红弩箭（星）"
+        },
+        {
+          "id": "yenisei",
+          "name": "小叶尼塞",
+          "label": "小叶尼塞（星）"
+        },
+        {
+          "id": "baby-blue",
+          "name": "婴儿蓝",
+          "label": "婴儿蓝（星）"
+        }
+      ],
+      "start_text": "9/24 10:00",
+      "end_text": "11/5 4:59",
+      "start": "2026-09-24T10:00:00",
+      "end": "2026-11-05T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5346614941583269.html",
+      "as_of": "2026-10-17",
+      "note": "国服 4.0 巡游限定征集。保底单独累积，活动结束后清零。帖文另写新增 4 星格林杜尔可在该征集获取，没有把格林杜尔写成概率 UP。官网 https://re.bluepoch.com/ 写当前版本 4.0.0，更新时间 2026.09.24。帖文发布时间 2026-09-24 10:10。"
+    },
+    {
+      "id": "cn-2026-10-15-lake",
+      "name": "湖心追述",
+      "kind": "select",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "曲娘",
+        "天使娜娜",
+        "露西",
+        "梁月",
+        "诺谛卡"
+      ],
+      "up_characters": [
+        {
+          "id": "jiu-niangzi",
+          "name": "曲娘"
+        },
+        {
+          "id": "anjo-nala",
+          "name": "天使娜娜"
+        },
+        {
+          "id": "lucy",
+          "name": "露西"
+        },
+        {
+          "id": "liang-yue",
+          "name": "梁月"
+        },
+        {
+          "id": "nautika",
+          "name": "诺谛卡"
+        }
+      ],
+      "start_text": "10/15 5:00",
+      "end_text": "11/5 4:59",
+      "start": "2026-10-15T05:00:00",
+      "end": "2026-11-05T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5354225087024686.html",
+      "as_of": "2026-10-17",
+      "note": "限定复刻自选征集。自选 1 名六星往期限定角色，选择后可更换。up 是帖文「自选范围」，不是同时概率 UP。"
+    },
+    {
+      "id": "cn-2026-09-24-ripple",
+      "name": "湖的涟漪",
+      "kind": "select",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "37",
+        "百夫长",
+        "远旅",
+        "伊索尔德",
+        "J",
+        "星锑"
+      ],
+      "up_characters": [
+        {
+          "id": "37",
+          "name": "37"
+        },
+        {
+          "id": "centurion",
+          "name": "百夫长"
+        },
+        {
+          "id": "voyager",
+          "name": "远旅"
+        },
+        {
+          "id": "isolde",
+          "name": "伊索尔德"
+        },
+        {
+          "id": "j",
+          "name": "J"
+        },
+        {
+          "id": "regulus",
+          "name": "星锑"
+        }
+      ],
+      "start_text": "9/24 10:00",
+      "end_text": "11/5 4:59",
+      "start": "2026-09-24T10:00:00",
+      "end": "2026-11-05T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5346617458427845.html",
+      "as_of": "2026-10-17",
+      "note": "自选 1 名六星。首次获得 6 星必为所选角色，仅限一次。up 是帖文「自选范围」。"
+    },
+    {
+      "id": "cn-2026-10-13-kiperina",
+      "name": "零重力漫游",
+      "kind": "rotation",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "库珀花环（星，6星）",
+        "命名日（岩，5星）",
+        "讣告人（岩，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "kiperina",
+          "name": "库珀花环",
+          "label": "库珀花环（星）"
+        },
+        {
+          "id": "name-day",
+          "name": "命名日",
+          "label": "命名日（岩）"
+        },
+        {
+          "id": "necrologist",
+          "name": "讣告人",
+          "label": "讣告人（岩）"
+        }
+      ],
+      "start_text": "10/13 5:00",
+      "end_text": "10/27 4:59",
+      "start": "2026-10-13T05:00:00",
+      "end": "2026-10-27T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5352803225567718.html",
+      "as_of": "2026-10-17",
+      "note": "轮换征集，属于限时角色征集，保底与同类共享。帖文写将于「往昔应我声」结束后开启。"
+    },
+    {
+      "id": "cn-2026-09-25-beryl",
+      "name": "命运亦需捧场",
+      "kind": "rerun",
+      "status": "ended",
+      "server": "cn",
+      "up": [
+        "贝丽尔（智，6星）",
+        "恐怖通（岩，5星）",
+        "坎吉拉（木，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "beryl",
+          "name": "贝丽尔",
+          "label": "贝丽尔（智）"
+        },
+        {
+          "id": "horropedia",
+          "name": "恐怖通",
+          "label": "恐怖通（岩）"
+        },
+        {
+          "id": "kanjira",
+          "name": "坎吉拉",
+          "label": "坎吉拉（木）"
+        }
+      ],
+      "start_text": "9/25 5:00",
+      "end_text": "10/15 4:59",
+      "start": "2026-09-25T05:00:00",
+      "end": "2026-10-15T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5346974812604161.html",
+      "as_of": "2026-10-17",
+      "note": "巡游限定复刻。保底单独累积，结束后清零。"
+    },
+    {
+      "id": "cn-2026-09-29-everecho",
+      "name": "往昔应我声",
+      "kind": "rotation",
+      "status": "ended",
+      "server": "cn",
+      "up": [
+        "回声谣（岩，6星）",
+        "数羊羔（灵，5星）",
+        "邓肯先生（兽，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "barbara",
+          "name": "数羊羔",
+          "label": "数羊羔（灵）"
+        },
+        {
+          "id": "mr-duncan",
+          "name": "邓肯先生",
+          "label": "邓肯先生（兽）"
+        }
+      ],
+      "start_text": "9/29 5:00",
+      "end_text": "10/13 4:59",
+      "start": "2026-09-29T05:00:00",
+      "end": "2026-10-13T04:59:00",
+      "timezone": null,
+      "source": "https://www.sina.cn/news/detail/5347820388221101.html",
+      "as_of": "2026-10-17",
+      "note": "六星回声谣没有挂角色 id：公告没有给英文名，现有角色卡里没有同名 id。数羊羔、邓肯先生按卡上的中文名对上。"
+    },
+    {
+      "id": "global-2026-10-15-cornerstone",
+      "name": "The Future's Foundation",
+      "kind": "limited",
+      "status": "current",
+      "server": "global",
+      "up": [
+        "Cornerstone (Mineral, 6-star)",
+        "Diggers (Plant, 5-star)",
+        "Desert Flannel (Beast, 5-star)"
+      ],
+      "up_characters": [
+        {
+          "id": "cornerstone",
+          "name": "Cornerstone",
+          "label": "Cornerstone (Mineral)"
+        },
+        {
+          "id": "diggers",
+          "name": "Diggers",
+          "label": "Diggers (Plant)"
+        },
+        {
+          "id": "desert-flannel",
+          "name": "Desert Flannel",
+          "label": "Desert Flannel (Beast)"
+        }
+      ],
+      "start_text": "2026-10-15 05:00 (UTC-5)",
+      "end_text": "2026-11-05 04:59 (UTC-5)",
+      "start": "2026-10-15T05:00:00-05:00",
+      "end": "2026-11-05T04:59:00-05:00",
+      "timezone": "UTC-5",
+      "source": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+      "as_of": "2026-10-17",
+      "note": "国际服 Ver. 3.8 The Temporal Scale 的下半限时角色池。不是国服「存在之火」。"
+    },
+    {
+      "id": "global-2026-09-24-everecho",
+      "name": "Speak and the Past Will Echo",
+      "kind": "limited",
+      "status": "ended",
+      "server": "global",
+      "up": [
+        "Everecho (Mineral, 6-star)",
+        "Bkornblume (Plant, 5-star)",
+        "Dikke (Beast, 5-star)"
+      ],
+      "up_characters": [
+        {
+          "id": "everecho",
+          "name": "Everecho",
+          "label": "Everecho (Mineral)"
+        },
+        {
+          "id": "bkornblume",
+          "name": "Bkornblume",
+          "label": "Bkornblume (Plant)"
+        },
+        {
+          "id": "dikke",
+          "name": "Dikke",
+          "label": "Dikke (Beast)"
+        }
+      ],
+      "start_text": "After the version update on 2026-09-24",
+      "end_text": "2026-10-15 04:59 (UTC-5)",
+      "start": "2026-09-24",
+      "end": "2026-10-15T04:59:00-05:00",
+      "timezone": "UTC-5",
+      "source": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+      "as_of": "2026-10-17",
+      "note": "国际服 3.8 上半。开始句只写版本更新之后，没有另写钟点。"
+    },
+    {
+      "id": "global-2026-09-24-first-drop",
+      "name": "The First Drop of Rain",
+      "kind": "standard",
+      "status": "current",
+      "server": "global",
+      "up": [
+        "Semmelweis",
+        "Mercuria",
+        "A Knight"
+      ],
+      "up_characters": [
+        {
+          "id": "semmelweis",
+          "name": "Semmelweis"
+        },
+        {
+          "id": "mercuria",
+          "name": "Mercuria"
+        },
+        {
+          "id": "a-knight",
+          "name": "A Knight"
+        }
+      ],
+      "start_text": "After the version update on 2026-09-24",
+      "end_text": null,
+      "start": "2026-09-24",
+      "end": null,
+      "timezone": null,
+      "source": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+      "as_of": "2026-10-17",
+      "note": "国际服常驻池更换：Jessica、Melania、Druvis III 换成 Semmelweis、Mercuria、A Knight。公告没有写结束时间，也没有在这一句重复 UTC-5。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "corvus",
+  "name": "告死鸟",
+  "name_zh": "告死鸟",
+  "name_en": "Corvus",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 额外行动 电能",
+  "rarity": "6星",
+  "element": "智",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "电弧绞线",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，对目标造成200%精神创伤，使自身获得2层【电弧光】，命中时赋予目标1层【断裂点】"
+    },
+    {
+      "name": "玫瑰色裂纹",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，使敌方目标进入【高温焊合】状态，使自身进入【缝合】状态，持续2回合； 如果目标已处于【高温焊合】状态，使自身获得2层【电弧光】，赋予目标1层【断裂点】"
+    },
+    {
+      "name": "将飞逝缝入永恒",
+      "type": "ultimate",
+      "summary": "单体攻击，对目标造成700%精神创伤，赋予目标1层【断裂点】，触发1次【暴力缝合】"
+    },
+    {
+      "name": "向前去",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：退出【涌动电场lv3】时，每2层【电弧光】转化为1层【电能】与2层【颤动电弧】"
+    },
+    {
+      "name": "向前去",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "向前去",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：【高温焊合】目标退场时，为生命百分比最低的敌方（优先首领目标）赋予【高温焊合】，使其获得相同层数【断裂点】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Add Two Shots Of Vodka (Dynamo, Raid)：告死鸟 / 纸信圈儿 / Rhiannon | 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%91%8A%E6%AD%BB%E9%B8%9F",
+    "https://www.prydwen.gg/re1999/characters/corvus",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "告死鸟",
+  "prydwen_slug": "corvus",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/corvus_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:corvus",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 告死鸟 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Damage dealer",
+    "tags": "Dynamo, Raid",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Damage dealer；Dynamo, Raid）",
+    "position": "6星 / 智 / 精神 / 输出 额外行动 电能",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%91%8A%E6%AD%BB%E9%B8%9F"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

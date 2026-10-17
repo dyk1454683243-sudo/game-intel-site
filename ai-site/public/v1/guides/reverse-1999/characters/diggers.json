@@ -1,0 +1,85 @@
+{
+  "id": "diggers",
+  "name": "挖掘艺术",
+  "name_zh": "挖掘艺术",
+  "name_en": "Diggers",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "削弱 控制 护盾",
+  "rarity": "5星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "和平至上",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "泡泡主义",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体削弱，使敌方全体现实防御、精神防御降低15%，持续2回合"
+    },
+    {
+      "name": "合上眼，美梦将至",
+      "type": "ultimate",
+      "summary": "单体攻击，造成450%精神创伤；使其陷入【噩梦】状态1回合，若敌方处于【属性削弱】【状态异常】【控制】，则该效果持续2回合"
+    },
+    {
+      "name": "美好游行",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使挖掘艺术获得自身最大生命*33%的护盾，持续3回合（最多触发1次）"
+    },
+    {
+      "name": "美好游行",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "美好游行",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，其他友方也将获得挖掘艺术最大生命*33%的护盾，持续3回合（最多触发1次）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%8C%96%E6%8E%98%E8%89%BA%E6%9C%AF",
+    "https://www.prydwen.gg/re1999/characters/diggers",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "挖掘艺术",
+  "prydwen_slug": "diggers",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/diggers_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:diggers",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 挖掘艺术 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Debuff）",
+    "position": "5星 / 木 / 精神 / 削弱 控制 护盾",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%8C%96%E6%8E%98%E8%89%BA%E6%9C%AF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

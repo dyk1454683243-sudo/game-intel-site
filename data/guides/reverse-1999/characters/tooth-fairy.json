@@ -1,0 +1,91 @@
+{
+  "id": "tooth-fairy",
+  "name": "牙仙",
+  "name_zh": "牙仙",
+  "name_en": "Tooth Fairy",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗 削弱 净化",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "空牙床",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成150%精神创伤；攻击后赋予目标1层【明昧】，持续1回合"
+    },
+    {
+      "name": "安眠曲",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体回复使用者攻击*80%生命；本次治疗暴击率提升30%"
+    },
+    {
+      "name": "坏齿舞曲",
+      "type": "ultimate",
+      "summary": "单体攻击，造成500%精神创伤；本次攻击暴击率提升30%；暴击后，将净化己方全体【属性削弱】【状态异常】【控制】"
+    },
+    {
+      "name": "乳牙收藏家",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，立刻获得3颗【乳牙】；队伍内任意成员主动使用角色咒语时，收集1颗【乳牙】。回合开始时，消耗5颗【乳牙】使敌方全体抗暴率、暴击防御降低15%，持续1回合（乳牙不足无法触发）"
+    },
+    {
+      "name": "乳牙收藏家",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，治疗率提升10%"
+    },
+    {
+      "name": "乳牙收藏家",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：触发【乳牙】的属性削弱效果时，我方全体回复10%已损失生命；进入战斗时，额外获得2颗【乳牙】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Vegan Impromptu (Plant)：Paper Heron / 牙仙 / Rhiannon / 库珀花环（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A+ · Burnt Out Gifted Kids (Starpromptu)：芭卡洛儿 / 阿莱夫 / Rhiannon | 牙仙 / 库珀花环（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%89%99%E4%BB%99",
+    "https://www.prydwen.gg/re1999/characters/tooth-fairy",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "牙仙",
+  "prydwen_slug": "tooth-fairy",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/tooth-fairy_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:tooth-fairy",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 牙仙 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Support",
+    "tags": "E1 Impromptu, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Support；E1 Impromptu, Debuff）",
+    "position": "6星 / 星 / 精神 / 治疗 削弱 净化",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%89%99%E4%BB%99"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

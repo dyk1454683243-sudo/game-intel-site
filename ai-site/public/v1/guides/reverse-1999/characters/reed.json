@@ -1,0 +1,44 @@
+{
+  "id": "reed",
+  "name": "Reed",
+  "name_en": "Reed",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "element": "木",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/re1999/characters/reed",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "reed",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/reed_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:reed",
+  "note": "Prydwen 角色列表有这名角色的名字、灵感图标和立绘。BWIKI「神秘学家」分类没有同名页，咒语不编造。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Support",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Support；Buff）",
+    "position": "木",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://www.prydwen.gg/re1999/characters/reed"
+    ],
+    "stub": true,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方）。这张卡没有可引用的咒语正文，技能保持空白。"
+  }
+}

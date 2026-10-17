@@ -1,0 +1,79 @@
+{
+  "id": "white-rum",
+  "name": "白朗姆",
+  "name_zh": "白朗姆",
+  "name_en": "White Rum",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制 位移",
+  "rarity": "4星",
+  "element": "智",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "左舷开火",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：对敌方全体造成80%现实伤害，之后自身向后位移1位"
+    },
+    {
+      "name": "跳帮预备",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，进入【跳帮作战】状态；若此时已处于【跳帮作战】状态则额外获得1点激情"
+    },
+    {
+      "name": "驶向大海？驶向天空！",
+      "type": "ultimate",
+      "summary": "群体攻击，只有在【跳帮作战】状态下才能释放；前进到最前方，对敌方全体造成200%现实伤害，并使其陷入【眩晕】状态，持续1回合;本次攻击每前进1位伤害提升15%,若前进不少于3位，则本次攻击无视目标50%的眩晕抗性"
+    },
+    {
+      "name": "私掠许可",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：受到位移时，每向后位移1位，赋予自身1层【激昂】，每向前位移1位，赋予自身1层【坚固】"
+    },
+    {
+      "name": "私掠许可",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%99%BD%E6%9C%97%E5%A7%86",
+    "https://www.prydwen.gg/re1999/characters/white-rum",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "白朗姆",
+  "prydwen_slug": "white-rum",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/white-rum_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:white-rum",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 白朗姆 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Sub Carry",
+    "tags": "Control, Shift",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Sub Carry；Control, Shift）",
+    "position": "4星 / 智 / 现实 / 输出 控制 位移",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%99%BD%E6%9C%97%E5%A7%86"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

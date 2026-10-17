@@ -1,0 +1,79 @@
+{
+  "id": "bette",
+  "name": "贝蒂",
+  "name_zh": "贝蒂",
+  "name_en": "Bette",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 护盾",
+  "rarity": "3星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "经典镜头",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "充足戏份",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，使己方单体现实防御、精神防御提升25%，受到伤害降低25%，持续2回合"
+    },
+    {
+      "name": "每一次的选角",
+      "type": "ultimate",
+      "summary": "单体增强，使目标己方获得使用者攻击*100%的【护盾】，并进入【咒语强化Ⅱ】状态；持续2回合"
+    },
+    {
+      "name": "励志故事",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：使用至终的仪式后，其他激情最低的友方激情+1"
+    },
+    {
+      "name": "励志故事",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E8%92%82",
+    "https://www.prydwen.gg/re1999/characters/bette",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "贝蒂",
+  "prydwen_slug": "bette",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/bette_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:bette",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 贝蒂 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Upgrade",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Upgrade）",
+    "position": "3星 / 岩 / 现实 / 辅助 护盾",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E8%92%82"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

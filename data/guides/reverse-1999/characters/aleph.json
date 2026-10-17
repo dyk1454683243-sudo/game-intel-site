@@ -1,0 +1,90 @@
+{
+  "id": "aleph",
+  "name": "阿莱夫",
+  "name_zh": "阿莱夫",
+  "name_en": "Aleph",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 启示 爆发",
+  "rarity": "6星",
+  "element": "智",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "权力规训",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成100%精神创伤，进入【连续行动Ⅰ】状态1回合，攻击后消耗2点灵光，使本回合的即兴咒语攻击次数+1"
+    },
+    {
+      "name": "理想宣言",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体获得1层【答案】，持续3回合；消耗2点灵光，额外获得1层【答案】"
+    },
+    {
+      "name": "全知全能的映射",
+      "type": "ultimate",
+      "summary": "自我吟诵，阿莱夫【记忆】本回合主动使用的前2张普通咒语并进入【超忆症】状态1回合"
+    },
+    {
+      "name": "有问必答的顾问",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方队伍消耗灵光时将累计【启示】；灵光上限+2；每回合开始时灵光+4；处于【答案】状态下的角色主动使用咒语攻击时，阿莱夫将消耗1点灵光使本回合即兴咒语的1次攻击命中时会使敌方陷入【解读】状态"
+    },
+    {
+      "name": "有问必答的顾问",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "有问必答的顾问",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：自身每次消耗灵光后，有25%概率回复1点灵光"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A+ · Burnt Out Gifted Kids (Starpromptu)：芭卡洛儿 / 阿莱夫 / Rhiannon | 牙仙 / 库珀花环（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%98%BF%E8%8E%B1%E5%A4%AB",
+    "https://www.prydwen.gg/re1999/characters/aleph",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "阿莱夫",
+  "prydwen_slug": "aleph",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/aleph_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:aleph",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 阿莱夫 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Support",
+    "tags": "Impromptu, Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Support；Impromptu, Buff）",
+    "position": "6星 / 智 / 精神 / 辅助 启示 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%98%BF%E8%8E%B1%E5%A4%AB"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

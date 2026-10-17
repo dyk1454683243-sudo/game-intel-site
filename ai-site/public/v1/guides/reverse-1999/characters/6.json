@@ -1,0 +1,91 @@
+{
+  "id": "6",
+  "name": "6",
+  "name_zh": "6",
+  "name_en": "Six",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 削弱 净化",
+  "rarity": "6星",
+  "element": "智",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "律与戒",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对2名敌方造成120%精神创伤；攻击后随机赋予目标【减益集合】中的2种效果，持续2回合；灵光4点及以下时，使自身灵光+1"
+    },
+    {
+      "name": "职与责",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，净化目标随机2种【属性削弱】【状态异常】【控制】；并随机赋予目标【增益集合】中的2种效果，持续2回合；灵光5点及以上时，消耗5点灵光，使目标进入【咒语强化Ⅰ】状态2回合"
+    },
+    {
+      "name": "亘古亘今的启示",
+      "type": "ultimate",
+      "summary": "单体攻击，造成700%精神创伤；灵光6点及以上时，消耗6点灵光，若目标每处于1种【属性削弱】【状态异常】【控制】，对其额外提升75%精神创伤，最多额外提升4次"
+    },
+    {
+      "name": "知识的崇奉",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：灵光上限+1；回合结束时，任意1名己方成员处于4种及以上【属性提升】【状态增益】【反制】时，使自身灵光+1；攻击处于【属性削弱】【状态异常】【控制】的目标时，造成伤害提升16%"
+    },
+    {
+      "name": "知识的崇奉",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "知识的崇奉",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：释放至终的仪式前，随机赋予敌方全体【减益集合】中的2种效果，持续2回合；每回合开始时，随机赋予己方全体【增益集合】中的1种效果，持续2回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Hi, Welcome To Chili's (FUA)：北方哨歌 / 纸信圈儿 / 6 | Rhiannon | Lorentz Butterfly / J | 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/6",
+    "https://www.prydwen.gg/re1999/characters/6",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "6",
+  "prydwen_slug": "6",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/6_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:6",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 6 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Support",
+    "tags": "E1 Buff, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Support；E1 Buff, Debuff）",
+    "position": "6星 / 智 / 精神 / 辅助 削弱 净化",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/6"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

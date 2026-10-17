@@ -1,0 +1,85 @@
+{
+  "id": "brimley",
+  "name": "宽檐帽",
+  "name_zh": "宽檐帽",
+  "name_en": "Brimley",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 驱散 额外行动",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "保持移动！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体伤害，对2名敌方造成120%精神创伤，攻击后自身获得1层【骑术】，若自身【骑术】层数等于3，则会消耗所有【骑术】使处于【同乘】状态的单位使用其1阶咒语2一次（每回合最多触发1次）"
+    },
+    {
+      "name": "上马！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，使目标获得2回合【同乘】；场上同时仅能存在1个【同乘】增益"
+    },
+    {
+      "name": "我们走！伙计！",
+      "type": "ultimate",
+      "summary": "群体伤害，对敌方全体造成300%精神创伤，攻击后使目标降低20%现实防御，持续3回合；随后使处于【同乘】状态的单位使用其1阶咒语1一次"
+    },
+    {
+      "name": "戴头冲锋",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：释放【上马！】时，额外驱散目标的随机2种【属性削弱】【状态异常】【控制】"
+    },
+    {
+      "name": "戴头冲锋",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "戴头冲锋",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：其他友方额外行动后，使自身获得1层【骑术】（每回合最多触发1次）；处于【同乘】状态的单位每行动3次后，使自身回复1点激情（每回合最多触发1次）；"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%AE%BD%E6%AA%90%E5%B8%BD",
+    "https://www.prydwen.gg/re1999/characters/brimley",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "宽檐帽",
+  "prydwen_slug": "brimley",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/brimley_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:brimley",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 宽檐帽 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": "EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry；EA）",
+    "position": "5星 / 岩 / 精神 / 辅助 驱散 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%AE%BD%E6%AA%90%E5%B8%BD"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

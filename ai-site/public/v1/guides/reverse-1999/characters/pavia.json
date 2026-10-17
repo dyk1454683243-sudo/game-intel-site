@@ -1,0 +1,79 @@
+{
+  "id": "pavia",
+  "name": "狼群",
+  "name_zh": "狼群",
+  "name_en": "Pavia",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 自愈",
+  "rarity": "4星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "脏东西",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤；若自身当前生命高于50%，则额外造成50%精神创伤"
+    },
+    {
+      "name": "可怜虫",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成135%精神创伤；若自身当前生命低于50%，则额外造成40%精神创伤"
+    },
+    {
+      "name": "比我更吵的家伙们",
+      "type": "ultimate",
+      "summary": "单体攻击，造成400%精神创伤；使自身进入【自愈】状态3回合，回合开始时回复25%已损失生命"
+    },
+    {
+      "name": "一件大好事",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：每当其他友方退场时，造成伤害、暴击率、抗暴率提升10%，受到伤害降低10%"
+    },
+    {
+      "name": "一件大好事",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8B%BC%E7%BE%A4",
+    "https://www.prydwen.gg/re1999/characters/pavia",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "狼群",
+  "prydwen_slug": "pavia",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pavia_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:pavia",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 狼群 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer）",
+    "position": "4星 / 兽 / 精神 / 输出 自愈",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8B%BC%E7%BE%A4"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

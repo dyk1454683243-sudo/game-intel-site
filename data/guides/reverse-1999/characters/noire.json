@@ -1,0 +1,90 @@
+{
+  "id": "noire",
+  "name": "菲林士多",
+  "name_zh": "菲林士多",
+  "name_en": "Noire",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 额外行动",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "剪切视线",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤，攻击前，将其他敌方持有的【状态异常】聚焦至攻击目标身上"
+    },
+    {
+      "name": "特技镜头",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤，攻击后，自身获得4层【鬼才灵感】；本次攻击可额外触发1次【聚光灯】的状态附加效果"
+    },
+    {
+      "name": "戏剧性时刻",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成450%精神创伤，目标每持有1种/层【状态异常】，提升100%精神创伤/3%穿透率，最多提升500%精神创伤/30%穿透率；自身每持有1层【鬼才灵感】，有6%概率重复释放1次本咒语，【鬼才灵感】达到8层时，额外提升40%概率；每重复释放一次本咒语，消耗5层【鬼才灵感】"
+    },
+    {
+      "name": "微缩片场",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，对敌方当前生命百分比最高单位施加【聚光灯】，持续1回合"
+    },
+    {
+      "name": "微缩片场",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "微缩片场",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：其他单位获得【聚光灯】时，自身激情+1，获得2层【鬼才灵感】，最多叠加10层"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%8F%B2%E6%9E%97%E5%A3%AB%E5%A4%9A",
+    "https://www.prydwen.gg/re1999/characters/noire",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "菲林士多",
+  "prydwen_slug": "noire",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/noire_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:noire",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 菲林士多 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "E1 Ult, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；E1 Ult, Debuff）",
+    "position": "6星 / 木 / 精神 / 输出 爆发 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%8F%B2%E6%9E%97%E5%A3%AB%E5%A4%9A"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

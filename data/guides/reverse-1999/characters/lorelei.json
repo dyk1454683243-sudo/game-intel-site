@@ -1,0 +1,85 @@
+{
+  "id": "lorelei",
+  "name": "罗蕾莱",
+  "name_zh": "罗蕾莱",
+  "name_en": "Lorelei",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出",
+  "rarity": "5星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "在岸边",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对2名敌人造成120%的精神创伤，命中后赋予目标1层【虚弱】"
+    },
+    {
+      "name": "越洋通话",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体暴击创伤提升25%，受创减免提升15%，持续2回合"
+    },
+    {
+      "name": "歌儿正漂流",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%精神创伤，释放时己方咒语区每存在1张指定类型咒语，本次攻击获得加成 攻击类咒语：额外造成20%精神创伤 增益类咒语：暴击率提高10% 减益类咒语：穿透率提高20%"
+    },
+    {
+      "name": "随心颂",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，根据己方咒语区最多的咒语类型，产生以下效果1回合 攻击类咒语：己方全体造成伤害提升15% 增益类咒语：己方全体暴击率提升15% 减益类咒语：敌方全体造成伤害降低15%"
+    },
+    {
+      "name": "随心颂",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "随心颂",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：使用至终的仪式后，若本次攻击发生暴击,则使自身激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%BD%97%E8%95%BE%E8%8E%B1",
+    "https://www.prydwen.gg/re1999/characters/lorelei",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "罗蕾莱",
+  "prydwen_slug": "lorelei",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lorelei_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:lorelei",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 罗蕾莱 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Support",
+    "tags": "Buff, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Support；Buff, AP+）",
+    "position": "5星 / 星 / 精神 / 辅助 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%BD%97%E8%95%BE%E8%8E%B1"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

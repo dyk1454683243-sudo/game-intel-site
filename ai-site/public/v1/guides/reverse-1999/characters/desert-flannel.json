@@ -1,0 +1,85 @@
+{
+  "id": "desert-flannel",
+  "name": "沙丝绒",
+  "name_zh": "沙丝绒",
+  "name_en": "Desert Flannel",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "混合双打！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%现实创伤；若自身处于【状态增益】【反制】，则本次攻击暴击率、暴击创伤提升25%"
+    },
+    {
+      "name": "唯一家人！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：自我反制，赋予自身1层【波拉比】和1层【爆发力】"
+    },
+    {
+      "name": "哔哔啵啵，波拉比！",
+      "type": "ultimate",
+      "summary": "群体治疗，回复己方全体使用者攻击*100%生命，并赋予己方全体2层【爆发力】，额外赋予己方兽灵感角色2层【气势】"
+    },
+    {
+      "name": "牧人之人",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：处于【状态增益】【反制】时，暴击率提升15%"
+    },
+    {
+      "name": "牧人之人",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "牧人之人",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，己方场上每存在1名【兽】灵感角色，使自身激情+1（最多触发1次）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%B2%99%E4%B8%9D%E7%BB%92",
+    "https://www.prydwen.gg/re1999/characters/desert-flannel",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "沙丝绒",
+  "prydwen_slug": "desert-flannel",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/desert-flannel_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:desert-flannel",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 沙丝绒 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Support",
+    "tags": "Beast, Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Support；Beast, Buff）",
+    "position": "5星 / 兽 / 现实 / 辅助 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%B2%99%E4%B8%9D%E7%BB%92"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

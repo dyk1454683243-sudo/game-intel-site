@@ -1,0 +1,49 @@
+{
+  "id": "coppelia",
+  "name": "Coppélia",
+  "name_en": "Coppélia",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "element": "岩",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Bop It, Twist It (Conduit)：Coppélia / The Twins / Rhiannon | Hedone / Everecho（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://www.prydwen.gg/re1999/characters/coppelia",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "coppelia",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/coppelia_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:coppelia",
+  "note": "Prydwen 角色列表有这名角色的名字、灵感图标和立绘。BWIKI「神秘学家」分类没有同名页，咒语不编造。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Sub Carry",
+    "tags": "Conduit, Mineral",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Sub Carry；Conduit, Mineral）",
+    "position": "岩",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://www.prydwen.gg/re1999/characters/coppelia"
+    ],
+    "stub": true,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方）。这张卡没有可引用的咒语正文，技能保持空白。"
+  }
+}

@@ -1,0 +1,1714 @@
+{
+  "game": "reverse-1999",
+  "name": "Reverse: 1999",
+  "name_zh": "重返未来：1999",
+  "as_of": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "character_count": 137,
+  "rich_count": 117,
+  "stub_count": 20,
+  "conclusion_stub_count": 1,
+  "links": {
+    "banners": "/v1/guides/reverse-1999/banners.json",
+    "codes": "/v1/guides/reverse-1999/codes.json"
+  },
+  "characters": [
+    {
+      "id": "37",
+      "name": "37",
+      "name_zh": "37",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/37",
+        "https://www.prydwen.gg/re1999/characters/37",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/37_card.webp"
+    },
+    {
+      "id": "6",
+      "name": "6",
+      "name_zh": "6",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/6",
+        "https://www.prydwen.gg/re1999/characters/6",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/6_card.webp"
+    },
+    {
+      "id": "a-knight",
+      "name": "未锈铠",
+      "name_zh": "未锈铠",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%9C%AA%E9%94%88%E9%93%A0",
+        "https://www.prydwen.gg/re1999/characters/a-knight",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/a-knight_card.webp"
+    },
+    {
+      "id": "aleph",
+      "name": "阿莱夫",
+      "name_zh": "阿莱夫",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%98%BF%E8%8E%B1%E5%A4%AB",
+        "https://www.prydwen.gg/re1999/characters/aleph",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/aleph_card.webp"
+    },
+    {
+      "id": "alexios",
+      "name": "阿利克西欧斯",
+      "name_zh": "阿利克西欧斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%88%A9%E5%85%8B%E8%A5%BF%E6%AC%A7%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/alexios",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/alexios_card.webp"
+    },
+    {
+      "id": "alien-t",
+      "name": "星之眼",
+      "name_zh": "星之眼",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%98%9F%E4%B9%8B%E7%9C%BC",
+        "https://www.prydwen.gg/re1999/characters/alien-t",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/alien-t_card.webp"
+    },
+    {
+      "id": "an-an-lee",
+      "name": "泥鯭的士",
+      "name_zh": "泥鯭的士",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B3%A5%E9%AF%AD%E7%9A%84%E5%A3%AB",
+        "https://www.prydwen.gg/re1999/characters/an-an-lee",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/an-an-lee_card.webp"
+    },
+    {
+      "id": "anjo-nala",
+      "name": "天使娜娜",
+      "name_zh": "天使娜娜",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%A4%A9%E4%BD%BF%E5%A8%9C%E5%A8%9C",
+        "https://www.prydwen.gg/re1999/characters/anjo-nala",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/anjo-nala_card.webp"
+    },
+    {
+      "id": "apple",
+      "name": "APPLe",
+      "name_zh": "APPLe",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/APPLe",
+        "https://www.prydwen.gg/re1999/characters/apple",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/apple_card.webp"
+    },
+    {
+      "id": "argus",
+      "name": "阿尔古斯",
+      "name_zh": "阿尔古斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%B0%94%E5%8F%A4%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/argus",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/argus_card.webp"
+    },
+    {
+      "id": "avgust",
+      "name": "Avgust",
+      "name_zh": "Avgust",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/avgust",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/avgust_card.webp"
+    },
+    {
+      "id": "avksiviy",
+      "name": "阿夫西维",
+      "name_zh": "阿夫西维",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%A4%AB%E8%A5%BF%E7%BB%B4"
+      ],
+      "portrait": null
+    },
+    {
+      "id": "baby-blue",
+      "name": "婴儿蓝",
+      "name_zh": "婴儿蓝",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%A9%B4%E5%84%BF%E8%93%9D",
+        "https://www.prydwen.gg/re1999/characters/baby-blue",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/baby-blue_card.webp"
+    },
+    {
+      "id": "balloon-party",
+      "name": "气球派对",
+      "name_zh": "气球派对",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B0%94%E7%90%83%E6%B4%BE%E5%AF%B9",
+        "https://www.prydwen.gg/re1999/characters/balloon-party",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/balloon-party_card.webp"
+    },
+    {
+      "id": "barbara",
+      "name": "数羊羔",
+      "name_zh": "数羊羔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%95%B0%E7%BE%8A%E7%BE%94",
+        "https://www.prydwen.gg/re1999/characters/barbara",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/barbara_card.webp"
+    },
+    {
+      "id": "barcarola",
+      "name": "芭卡洛儿",
+      "name_zh": "芭卡洛儿",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8A%AD%E5%8D%A1%E6%B4%9B%E5%84%BF",
+        "https://www.prydwen.gg/re1999/characters/barcarola",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/barcarola_card.webp"
+    },
+    {
+      "id": "beryl",
+      "name": "贝丽尔",
+      "name_zh": "贝丽尔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E4%B8%BD%E5%B0%94",
+        "https://www.prydwen.gg/re1999/characters/beryl",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/beryl_card.webp"
+    },
+    {
+      "id": "bette",
+      "name": "贝蒂",
+      "name_zh": "贝蒂",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E8%92%82",
+        "https://www.prydwen.gg/re1999/characters/bette",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/bette_card.webp"
+    },
+    {
+      "id": "bkornblume",
+      "name": "柏林以东",
+      "name_zh": "柏林以东",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%9F%8F%E6%9E%97%E4%BB%A5%E4%B8%9C",
+        "https://www.prydwen.gg/re1999/characters/bkornblume",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/bkornblume_card.webp"
+    },
+    {
+      "id": "blonney",
+      "name": "金蜜儿",
+      "name_zh": "金蜜儿",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%87%91%E8%9C%9C%E5%84%BF",
+        "https://www.prydwen.gg/re1999/characters/blonney",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/blonney_card.webp"
+    },
+    {
+      "id": "brimley",
+      "name": "宽檐帽",
+      "name_zh": "宽檐帽",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%AE%BD%E6%AA%90%E5%B8%BD",
+        "https://www.prydwen.gg/re1999/characters/brimley",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/brimley_card.webp"
+    },
+    {
+      "id": "brume",
+      "name": "灰调蓝",
+      "name_zh": "灰调蓝",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%81%B0%E8%B0%83%E8%93%9D",
+        "https://www.prydwen.gg/re1999/characters/brume",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/brume_card.webp"
+    },
+    {
+      "id": "buddy-fairchild",
+      "name": "嚼嚼松果",
+      "name_zh": "嚼嚼松果",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%9A%BC%E5%9A%BC%E6%9D%BE%E6%9E%9C",
+        "https://www.prydwen.gg/re1999/characters/buddy-fairchild",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/buddy-fairchild_card.webp"
+    },
+    {
+      "id": "bunny-bunny",
+      "name": "芭妮芭妮",
+      "name_zh": "芭妮芭妮",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8A%AD%E5%A6%AE%E8%8A%AD%E5%A6%AE",
+        "https://www.prydwen.gg/re1999/characters/bunny-bunny",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/bunny-bunny_card.webp"
+    },
+    {
+      "id": "centurion",
+      "name": "百夫长",
+      "name_zh": "百夫长",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%99%BE%E5%A4%AB%E9%95%BF",
+        "https://www.prydwen.gg/re1999/characters/centurion",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/centurion_card.webp"
+    },
+    {
+      "id": "charlie",
+      "name": "夏利",
+      "name_zh": "夏利",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%A4%8F%E5%88%A9",
+        "https://www.prydwen.gg/re1999/characters/charlie",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/charlie_card.webp"
+    },
+    {
+      "id": "charon",
+      "name": "卡戎",
+      "name_zh": "卡戎",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E6%88%8E",
+        "https://www.prydwen.gg/re1999/characters/charon",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/charon_card.webp"
+    },
+    {
+      "id": "cheng-heguang",
+      "name": "Cheng Heguang",
+      "name_zh": "Cheng Heguang",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/cheng-heguang",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/cheng-heguang_card.webp"
+    },
+    {
+      "id": "click",
+      "name": "喀嚓喀嚓",
+      "name_zh": "喀嚓喀嚓",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%96%80%E5%9A%93%E5%96%80%E5%9A%93",
+        "https://www.prydwen.gg/re1999/characters/click",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/click_card.webp"
+    },
+    {
+      "id": "coppelia",
+      "name": "Coppélia",
+      "name_zh": "Coppélia",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/coppelia",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/coppelia_card.webp"
+    },
+    {
+      "id": "cornerstone",
+      "name": "Cornerstone",
+      "name_zh": "Cornerstone",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/cornerstone",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/cornerstone_card.webp"
+    },
+    {
+      "id": "corvus",
+      "name": "告死鸟",
+      "name_zh": "告死鸟",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%91%8A%E6%AD%BB%E9%B8%9F",
+        "https://www.prydwen.gg/re1999/characters/corvus",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/corvus_card.webp"
+    },
+    {
+      "id": "cristallo",
+      "name": "铅玻璃",
+      "name_zh": "铅玻璃",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%93%85%E7%8E%BB%E7%92%83",
+        "https://www.prydwen.gg/re1999/characters/cristallo",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/cristallo_card.webp"
+    },
+    {
+      "id": "darley-clatter",
+      "name": "哒哒达利",
+      "name_zh": "哒哒达利",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%93%92%E5%93%92%E8%BE%BE%E5%88%A9",
+        "https://www.prydwen.gg/re1999/characters/darley-clatter",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/darley-clatter_card.webp"
+    },
+    {
+      "id": "desert-flannel",
+      "name": "沙丝绒",
+      "name_zh": "沙丝绒",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B2%99%E4%B8%9D%E7%BB%92",
+        "https://www.prydwen.gg/re1999/characters/desert-flannel",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/desert-flannel_card.webp"
+    },
+    {
+      "id": "diggers",
+      "name": "挖掘艺术",
+      "name_zh": "挖掘艺术",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%8C%96%E6%8E%98%E8%89%BA%E6%9C%AF",
+        "https://www.prydwen.gg/re1999/characters/diggers",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/diggers_card.webp"
+    },
+    {
+      "id": "dikke",
+      "name": "帕米埃",
+      "name_zh": "帕米埃",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%B8%95%E7%B1%B3%E5%9F%83",
+        "https://www.prydwen.gg/re1999/characters/dikke",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/dikke_card.webp"
+    },
+    {
+      "id": "door",
+      "name": "门",
+      "name_zh": "门",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%97%A8",
+        "https://www.prydwen.gg/re1999/characters/door",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/door_card.webp"
+    },
+    {
+      "id": "drake",
+      "name": "德雷克",
+      "name_zh": "德雷克",
+      "stub": true,
+      "sources": [
+        "https://www.sina.cn/news/detail/5354222569918675.html"
+      ],
+      "portrait": null
+    },
+    {
+      "id": "druvis-iii",
+      "name": "槲寄生",
+      "name_zh": "槲寄生",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%A7%B2%E5%AF%84%E7%94%9F",
+        "https://www.prydwen.gg/re1999/characters/druvis-iii",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/druvis-iii_card.webp"
+    },
+    {
+      "id": "eagle",
+      "name": "小春雀儿",
+      "name_zh": "小春雀儿",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%B0%8F%E6%98%A5%E9%9B%80%E5%84%BF",
+        "https://www.prydwen.gg/re1999/characters/eagle",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/eagle_card.webp"
+    },
+    {
+      "id": "enigma",
+      "name": "Enigma",
+      "name_zh": "Enigma",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/enigma",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/enigma_card.webp"
+    },
+    {
+      "id": "erick",
+      "name": "埃里克",
+      "name_zh": "埃里克",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%9F%83%E9%87%8C%E5%85%8B",
+        "https://www.prydwen.gg/re1999/characters/erick",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/erick_card.webp"
+    },
+    {
+      "id": "eternity",
+      "name": "温妮弗雷德",
+      "name_zh": "温妮弗雷德",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B8%A9%E5%A6%AE%E5%BC%97%E9%9B%B7%E5%BE%B7",
+        "https://www.prydwen.gg/re1999/characters/eternity",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/eternity_card.webp"
+    },
+    {
+      "id": "everecho",
+      "name": "Everecho",
+      "name_zh": "Everecho",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/everecho",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/everecho_card.webp"
+    },
+    {
+      "id": "ezio-auditore",
+      "name": "艾吉奥·奥迪托雷",
+      "name_zh": "艾吉奥·奥迪托雷",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%89%BE%E5%90%89%E5%A5%A5%C2%B7%E5%A5%A5%E8%BF%AA%E6%89%98%E9%9B%B7",
+        "https://www.prydwen.gg/re1999/characters/ezio-auditore",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ezio-auditore_card.webp"
+    },
+    {
+      "id": "ezra-theodore",
+      "name": "爱兹拉",
+      "name_zh": "爱兹拉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%88%B1%E5%85%B9%E6%8B%89",
+        "https://www.prydwen.gg/re1999/characters/ezra-theodore",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ezra-theodore_card.webp"
+    },
+    {
+      "id": "fatutu",
+      "name": "图图石子",
+      "name_zh": "图图石子",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%9B%BE%E5%9B%BE%E7%9F%B3%E5%AD%90",
+        "https://www.prydwen.gg/re1999/characters/fatutu",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/fatutu_card.webp"
+    },
+    {
+      "id": "flutterpage",
+      "name": "纸信圈儿",
+      "name_zh": "纸信圈儿",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BA%B8%E4%BF%A1%E5%9C%88%E5%84%BF",
+        "https://www.prydwen.gg/re1999/characters/flutterpage",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/flutterpage_card.webp"
+    },
+    {
+      "id": "getian",
+      "name": "葛天",
+      "name_zh": "葛天",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%91%9B%E5%A4%A9",
+        "https://www.prydwen.gg/re1999/characters/getian",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/getian_card.webp"
+    },
+    {
+      "id": "glyndwr",
+      "name": "格林杜尔",
+      "name_zh": "格林杜尔",
+      "stub": true,
+      "sources": [
+        "https://www.sina.cn/news/detail/5346614941583269.html",
+        "https://www.prydwen.gg/re1999/characters/glyndwr",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.sina.cn/news/detail/5346250041065917.html"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/generic/1790561727161-fa910f68e6098cd100fac940534b214a.webp"
+    },
+    {
+      "id": "hedone",
+      "name": "Hedone",
+      "name_zh": "Hedone",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/hedone",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/hedone_card.webp"
+    },
+    {
+      "id": "hissabeth",
+      "name": "冷周六",
+      "name_zh": "冷周六",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%86%B7%E5%91%A8%E5%85%AD",
+        "https://www.prydwen.gg/re1999/characters/hissabeth",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/hissabeth_card.webp"
+    },
+    {
+      "id": "horropedia",
+      "name": "恐怖通",
+      "name_zh": "恐怖通",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%81%90%E6%80%96%E9%80%9A",
+        "https://www.prydwen.gg/re1999/characters/horropedia",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/horropedia_card.webp"
+    },
+    {
+      "id": "huntsworn-lilya",
+      "name": "狩勋女巫红弩箭",
+      "name_zh": "狩勋女巫红弩箭",
+      "stub": true,
+      "sources": [
+        "https://www.sina.cn/news/detail/5346614941583269.html",
+        "https://www.prydwen.gg/re1999/characters/huntsworn-lilya",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/generic/1790556990490-d5ff60d920079bda5bfbcfc6b119bc6b.webp"
+    },
+    {
+      "id": "igor",
+      "name": "伊戈尔",
+      "name_zh": "伊戈尔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%BC%8A%E6%88%88%E5%B0%94",
+        "https://www.prydwen.gg/re1999/characters/igor",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/igor_card.webp"
+    },
+    {
+      "id": "isolde",
+      "name": "伊索尔德",
+      "name_zh": "伊索尔德",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%BC%8A%E7%B4%A2%E5%B0%94%E5%BE%B7",
+        "https://www.prydwen.gg/re1999/characters/isolde",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/isolde_card.webp"
+    },
+    {
+      "id": "j",
+      "name": "J",
+      "name_zh": "J",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/J",
+        "https://www.prydwen.gg/re1999/characters/j",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/j_card.webp"
+    },
+    {
+      "id": "jessica",
+      "name": "洁西卡",
+      "name_zh": "洁西卡",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B4%81%E8%A5%BF%E5%8D%A1",
+        "https://www.prydwen.gg/re1999/characters/jessica",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/jessica_card.webp"
+    },
+    {
+      "id": "jiu-niangzi",
+      "name": "曲娘",
+      "name_zh": "曲娘",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%9B%B2%E5%A8%98",
+        "https://www.prydwen.gg/re1999/characters/jiu-niangzi",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/jiu-niangzi_card.webp"
+    },
+    {
+      "id": "john-titor",
+      "name": "约翰·提托",
+      "name_zh": "约翰·提托",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BA%A6%E7%BF%B0%C2%B7%E6%8F%90%E6%89%98",
+        "https://www.prydwen.gg/re1999/characters/john-titor",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/john-titor_card.webp"
+    },
+    {
+      "id": "kaalaa-baunaa",
+      "name": "伽菈波那",
+      "name_zh": "伽菈波那",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%BC%BD%E8%8F%88%E6%B3%A2%E9%82%A3",
+        "https://www.prydwen.gg/re1999/characters/kaalaa-baunaa",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kaalaa-baunaa_card.webp"
+    },
+    {
+      "id": "kakania",
+      "name": "卡卡尼亚",
+      "name_zh": "卡卡尼亚",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E5%8D%A1%E5%B0%BC%E4%BA%9A",
+        "https://www.prydwen.gg/re1999/characters/kakania",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kakania_card.webp"
+    },
+    {
+      "id": "kanjira",
+      "name": "坎吉拉",
+      "name_zh": "坎吉拉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%9D%8E%E5%90%89%E6%8B%89",
+        "https://www.prydwen.gg/re1999/characters/kanjira",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kanjira_card.webp"
+    },
+    {
+      "id": "kassandra",
+      "name": "卡珊德拉",
+      "name_zh": "卡珊德拉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89",
+        "https://www.prydwen.gg/re1999/characters/kassandra",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kassandra_card.webp"
+    },
+    {
+      "id": "kiperina",
+      "name": "库珀花环",
+      "name_zh": "库珀花环",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%BA%93%E7%8F%80%E8%8A%B1%E7%8E%AF",
+        "https://www.prydwen.gg/re1999/characters/kiperina",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kiperina_card.webp"
+    },
+    {
+      "id": "la-source",
+      "name": "拉拉泉",
+      "name_zh": "拉拉泉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%8B%89%E6%8B%89%E6%B3%89",
+        "https://www.prydwen.gg/re1999/characters/la-source",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/la-source_card.webp"
+    },
+    {
+      "id": "leilani",
+      "name": "莉拉妮",
+      "name_zh": "莉拉妮",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8E%89%E6%8B%89%E5%A6%AE",
+        "https://www.prydwen.gg/re1999/characters/leilani",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/leilani_card.webp"
+    },
+    {
+      "id": "liang-yue",
+      "name": "梁月",
+      "name_zh": "梁月",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%A2%81%E6%9C%88",
+        "https://www.prydwen.gg/re1999/characters/liang-yue",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/liang-yue_card.webp"
+    },
+    {
+      "id": "lilya",
+      "name": "红弩箭",
+      "name_zh": "红弩箭",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E5%BC%A9%E7%AE%AD",
+        "https://www.prydwen.gg/re1999/characters/lilya",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lilya_card.webp"
+    },
+    {
+      "id": "loggerhead",
+      "name": "空脑袋",
+      "name_zh": "空脑袋",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%A9%BA%E8%84%91%E8%A2%8B",
+        "https://www.prydwen.gg/re1999/characters/loggerhead",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/loggerhead_card.webp"
+    },
+    {
+      "id": "lopera",
+      "name": "洛佩拉",
+      "name_zh": "洛佩拉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B4%9B%E4%BD%A9%E6%8B%89",
+        "https://www.prydwen.gg/re1999/characters/lopera",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lopera_card.webp"
+    },
+    {
+      "id": "lorelei",
+      "name": "罗蕾莱",
+      "name_zh": "罗蕾莱",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BD%97%E8%95%BE%E8%8E%B1",
+        "https://www.prydwen.gg/re1999/characters/lorelei",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lorelei_card.webp"
+    },
+    {
+      "id": "lorentz-butterfly",
+      "name": "Lorentz Butterfly",
+      "name_zh": "Lorentz Butterfly",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/lorentz-butterfly",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lorentz-butterfly_card.webp"
+    },
+    {
+      "id": "lucy",
+      "name": "露西",
+      "name_zh": "露西",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%9C%B2%E8%A5%BF",
+        "https://www.prydwen.gg/re1999/characters/lucy",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lucy_card.webp"
+    },
+    {
+      "id": "marcus",
+      "name": "马库斯",
+      "name_zh": "马库斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%A9%AC%E5%BA%93%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/marcus",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/marcus_card.webp"
+    },
+    {
+      "id": "marsha",
+      "name": "玛尔纱",
+      "name_zh": "玛尔纱",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E5%B0%94%E7%BA%B1",
+        "https://www.prydwen.gg/re1999/characters/marsha",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/marsha_card.webp"
+    },
+    {
+      "id": "matilda",
+      "name": "玛蒂尔达",
+      "name_zh": "玛蒂尔达",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E8%92%82%E5%B0%94%E8%BE%BE",
+        "https://www.prydwen.gg/re1999/characters/matilda",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/matilda_card.webp"
+    },
+    {
+      "id": "medicine-pocket",
+      "name": "兔毛手袋",
+      "name_zh": "兔毛手袋",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%85%94%E6%AF%9B%E6%89%8B%E8%A2%8B",
+        "https://www.prydwen.gg/re1999/characters/medicine-pocket",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/medicine-pocket_card.webp"
+    },
+    {
+      "id": "melania",
+      "name": "梅兰妮",
+      "name_zh": "梅兰妮",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%A2%85%E5%85%B0%E5%A6%AE",
+        "https://www.prydwen.gg/re1999/characters/melania",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/melania_card.webp"
+    },
+    {
+      "id": "mercuria",
+      "name": "环状水星",
+      "name_zh": "环状水星",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8E%AF%E7%8A%B6%E6%B0%B4%E6%98%9F",
+        "https://www.prydwen.gg/re1999/characters/mercuria",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mercuria_card.webp"
+    },
+    {
+      "id": "mesmer-jr",
+      "name": "小梅斯梅尔",
+      "name_zh": "小梅斯梅尔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%B0%8F%E6%A2%85%E6%96%AF%E6%A2%85%E5%B0%94",
+        "https://www.prydwen.gg/re1999/characters/mesmer-jr",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mesmer-jr_card.webp"
+    },
+    {
+      "id": "moldir",
+      "name": "莫莉德尔",
+      "name_zh": "莫莉德尔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8E%AB%E8%8E%89%E5%BE%B7%E5%B0%94",
+        "https://www.prydwen.gg/re1999/characters/moldir",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/moldir_card.webp"
+    },
+    {
+      "id": "mondlicht",
+      "name": "红斗篷",
+      "name_zh": "红斗篷",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E6%96%97%E7%AF%B7",
+        "https://www.prydwen.gg/re1999/characters/mondlicht",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mondlicht_card.webp"
+    },
+    {
+      "id": "mr-duncan",
+      "name": "邓肯先生",
+      "name_zh": "邓肯先生",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%82%93%E8%82%AF%E5%85%88%E7%94%9F",
+        "https://www.prydwen.gg/re1999/characters/mr-duncan",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mr-duncan_card.webp"
+    },
+    {
+      "id": "ms-moissan",
+      "name": "莫桑女士",
+      "name_zh": "莫桑女士",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8E%AB%E6%A1%91%E5%A5%B3%E5%A3%AB",
+        "https://www.prydwen.gg/re1999/characters/ms-moissan",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ms-moissan_card.webp"
+    },
+    {
+      "id": "ms-newbabel",
+      "name": "新巴别塔",
+      "name_zh": "新巴别塔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%96%B0%E5%B7%B4%E5%88%AB%E5%A1%94",
+        "https://www.prydwen.gg/re1999/characters/ms-newbabel",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ms-newbabel_card.webp"
+    },
+    {
+      "id": "ms-radio",
+      "name": "无线电小姐",
+      "name_zh": "无线电小姐",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%97%A0%E7%BA%BF%E7%94%B5%E5%B0%8F%E5%A7%90",
+        "https://www.prydwen.gg/re1999/characters/ms-radio",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ms-radio_card.webp"
+    },
+    {
+      "id": "ms-stranger",
+      "name": "Ms. Stranger",
+      "name_zh": "Ms. Stranger",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/ms-stranger",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ms-stranger_card.webp"
+    },
+    {
+      "id": "name-day",
+      "name": "命名日",
+      "name_zh": "命名日",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%91%BD%E5%90%8D%E6%97%A5",
+        "https://www.prydwen.gg/re1999/characters/name-day",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/name-day_card.webp"
+    },
+    {
+      "id": "narcissus",
+      "name": "Narcissus",
+      "name_zh": "Narcissus",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/narcissus",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/narcissus_card.webp"
+    },
+    {
+      "id": "nautika",
+      "name": "诺谛卡",
+      "name_zh": "诺谛卡",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%AF%BA%E8%B0%9B%E5%8D%A1",
+        "https://www.prydwen.gg/re1999/characters/nautika",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/nautika_card.webp"
+    },
+    {
+      "id": "necrologist",
+      "name": "讣告人",
+      "name_zh": "讣告人",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%AE%A3%E5%91%8A%E4%BA%BA",
+        "https://www.prydwen.gg/re1999/characters/necrologist",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/necrologist_card.webp"
+    },
+    {
+      "id": "nick-bottom",
+      "name": "尼克·波顿",
+      "name_zh": "尼克·波顿",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%B0%BC%E5%85%8B%C2%B7%E6%B3%A2%E9%A1%BF",
+        "https://www.prydwen.gg/re1999/characters/nick-bottom",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/nick-bottom_card.webp"
+    },
+    {
+      "id": "noire",
+      "name": "菲林士多",
+      "name_zh": "菲林士多",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8F%B2%E6%9E%97%E5%A3%AB%E5%A4%9A",
+        "https://www.prydwen.gg/re1999/characters/noire",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/noire_card.webp"
+    },
+    {
+      "id": "nora",
+      "name": "NORA",
+      "name_zh": "NORA",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/nora",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/nora_card.webp"
+    },
+    {
+      "id": "oliver-fog",
+      "name": "雾行者",
+      "name_zh": "雾行者",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%9B%BE%E8%A1%8C%E8%80%85",
+        "https://www.prydwen.gg/re1999/characters/oliver-fog",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/oliver-fog_card.webp"
+    },
+    {
+      "id": "onion",
+      "name": "洋葱头",
+      "name_zh": "洋葱头",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%B4%8B%E8%91%B1%E5%A4%B4",
+        "https://www.prydwen.gg/re1999/characters/onion",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/onion_card.webp"
+    },
+    {
+      "id": "paper-heron",
+      "name": "Paper Heron",
+      "name_zh": "Paper Heron",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/paper-heron",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/paper-heron_card.webp"
+    },
+    {
+      "id": "pavia",
+      "name": "狼群",
+      "name_zh": "狼群",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8B%BC%E7%BE%A4",
+        "https://www.prydwen.gg/re1999/characters/pavia",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pavia_card.webp"
+    },
+    {
+      "id": "pickles",
+      "name": "皮克勒斯",
+      "name_zh": "皮克勒斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%9A%AE%E5%85%8B%E5%8B%92%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/pickles",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pickles_card.webp"
+    },
+    {
+      "id": "pioneer",
+      "name": "先驱者",
+      "name_zh": "先驱者",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%85%88%E9%A9%B1%E8%80%85",
+        "https://www.prydwen.gg/re1999/characters/pioneer",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pioneer_card.webp"
+    },
+    {
+      "id": "poltergeist",
+      "name": "吵闹鬼",
+      "name_zh": "吵闹鬼",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%90%B5%E9%97%B9%E9%AC%BC",
+        "https://www.prydwen.gg/re1999/characters/poltergeist",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/poltergeist_card.webp"
+    },
+    {
+      "id": "rabies",
+      "name": "爱宠",
+      "name_zh": "爱宠",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%88%B1%E5%AE%A0",
+        "https://www.prydwen.gg/re1999/characters/rabies",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/rabies_card.webp"
+    },
+    {
+      "id": "ramona",
+      "name": "Ramona",
+      "name_zh": "Ramona",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/ramona",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ramona_card.webp"
+    },
+    {
+      "id": "recoleta",
+      "name": "虚构集",
+      "name_zh": "虚构集",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%99%9A%E6%9E%84%E9%9B%86",
+        "https://www.prydwen.gg/re1999/characters/recoleta",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/recoleta_card.webp"
+    },
+    {
+      "id": "reed",
+      "name": "Reed",
+      "name_zh": "Reed",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/reed",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/reed_card.webp"
+    },
+    {
+      "id": "regulus",
+      "name": "星锑",
+      "name_zh": "星锑",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+        "https://www.prydwen.gg/re1999/characters/regulus",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/regulus_card.webp"
+    },
+    {
+      "id": "rhiannon",
+      "name": "Rhiannon",
+      "name_zh": "Rhiannon",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/rhiannon",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/rhiannon_card.webp"
+    },
+    {
+      "id": "rubuska",
+      "name": "野树莓",
+      "name_zh": "野树莓",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%87%8E%E6%A0%91%E8%8E%93",
+        "https://www.prydwen.gg/re1999/characters/rubuska",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/rubuska_card.webp"
+    },
+    {
+      "id": "satsuki",
+      "name": "五色月",
+      "name_zh": "五色月",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%BA%94%E8%89%B2%E6%9C%88",
+        "https://www.prydwen.gg/re1999/characters/satsuki",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/satsuki_card.webp"
+    },
+    {
+      "id": "semmelweis",
+      "name": "塞梅尔维斯",
+      "name_zh": "塞梅尔维斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%A1%9E%E6%A2%85%E5%B0%94%E7%BB%B4%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/semmelweis",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/semmelweis_card.webp"
+    },
+    {
+      "id": "sentinel",
+      "name": "玛丽安娜",
+      "name_zh": "玛丽安娜",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E5%AE%89%E5%A8%9C",
+        "https://www.prydwen.gg/re1999/characters/sentinel",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sentinel_card.webp"
+    },
+    {
+      "id": "shamane",
+      "name": "鬃毛沙砾",
+      "name_zh": "鬃毛沙砾",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E9%AC%83%E6%AF%9B%E6%B2%99%E7%A0%BE",
+        "https://www.prydwen.gg/re1999/characters/shamane",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/shamane_card.webp"
+    },
+    {
+      "id": "silverwing-eagle",
+      "name": "Silverwing Eagle",
+      "name_zh": "Silverwing Eagle",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/silverwing-eagle",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/silverwing-eagle_card.webp"
+    },
+    {
+      "id": "sonetto",
+      "name": "十四行诗",
+      "name_zh": "十四行诗",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8D%81%E5%9B%9B%E8%A1%8C%E8%AF%97",
+        "https://www.prydwen.gg/re1999/characters/sonetto",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sonetto_card.webp"
+    },
+    {
+      "id": "sotheby",
+      "name": "苏芙比",
+      "name_zh": "苏芙比",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%8B%8F%E8%8A%99%E6%AF%94",
+        "https://www.prydwen.gg/re1999/characters/sotheby",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sotheby_card.webp"
+    },
+    {
+      "id": "spathodea",
+      "name": "可燃点",
+      "name_zh": "可燃点",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8F%AF%E7%87%83%E7%82%B9",
+        "https://www.prydwen.gg/re1999/characters/spathodea",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/spathodea_card.webp"
+    },
+    {
+      "id": "sputnik",
+      "name": "斯普特尼克",
+      "name_zh": "斯普特尼克",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E6%96%AF%E6%99%AE%E7%89%B9%E5%B0%BC%E5%85%8B",
+        "https://www.prydwen.gg/re1999/characters/sputnik",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sputnik_card.webp"
+    },
+    {
+      "id": "sweetheart",
+      "name": "玛丽莲",
+      "name_zh": "玛丽莲",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E8%8E%B2",
+        "https://www.prydwen.gg/re1999/characters/sweetheart",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sweetheart_card.webp"
+    },
+    {
+      "id": "tennant",
+      "name": "坦南特",
+      "name_zh": "坦南特",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%9D%A6%E5%8D%97%E7%89%B9",
+        "https://www.prydwen.gg/re1999/characters/tennant",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/tennant_card.webp"
+    },
+    {
+      "id": "the-fool",
+      "name": "弄臣",
+      "name_zh": "弄臣",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%BC%84%E8%87%A3",
+        "https://www.prydwen.gg/re1999/characters/the-fool",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/the-fool_card.webp"
+    },
+    {
+      "id": "the-twins",
+      "name": "The Twins",
+      "name_zh": "The Twins",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/re1999/characters/the-twins",
+        "https://www.prydwen.gg/re1999/characters",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/the-twins_card.webp"
+    },
+    {
+      "id": "tooth-fairy",
+      "name": "牙仙",
+      "name_zh": "牙仙",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%89%99%E4%BB%99",
+        "https://www.prydwen.gg/re1999/characters/tooth-fairy",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/tooth-fairy_card.webp"
+    },
+    {
+      "id": "ttt",
+      "name": "TTT",
+      "name_zh": "TTT",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/TTT",
+        "https://www.prydwen.gg/re1999/characters/ttt",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ttt_card.webp"
+    },
+    {
+      "id": "tuesday",
+      "name": "蓝手帕",
+      "name_zh": "蓝手帕",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%93%9D%E6%89%8B%E5%B8%95",
+        "https://www.prydwen.gg/re1999/characters/tuesday",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/tuesday_card.webp"
+    },
+    {
+      "id": "twins-sleep",
+      "name": "丽莎&路易斯",
+      "name_zh": "丽莎&路易斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%B8%BD%E8%8E%8E%26%E8%B7%AF%E6%98%93%E6%96%AF",
+        "https://www.prydwen.gg/re1999/characters/twins-sleep",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/twins-sleep_card.webp"
+    },
+    {
+      "id": "ulrich",
+      "name": "乌尔里希",
+      "name_zh": "乌尔里希",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E4%B9%8C%E5%B0%94%E9%87%8C%E5%B8%8C",
+        "https://www.prydwen.gg/re1999/characters/ulrich",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ulrich_card.webp"
+    },
+    {
+      "id": "ulu",
+      "name": "和平乌鲁",
+      "name_zh": "和平乌鲁",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%92%8C%E5%B9%B3%E4%B9%8C%E9%B2%81",
+        "https://www.prydwen.gg/re1999/characters/ulu",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ulu_card.webp"
+    },
+    {
+      "id": "vila",
+      "name": "维拉",
+      "name_zh": "维拉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%BB%B4%E6%8B%89",
+        "https://www.prydwen.gg/re1999/characters/vila",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/vila_card.webp"
+    },
+    {
+      "id": "voyager",
+      "name": "远旅",
+      "name_zh": "远旅",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E8%BF%9C%E6%97%85",
+        "https://www.prydwen.gg/re1999/characters/voyager",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/voyager_card.webp"
+    },
+    {
+      "id": "white-rum",
+      "name": "白朗姆",
+      "name_zh": "白朗姆",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%99%BD%E6%9C%97%E5%A7%86",
+        "https://www.prydwen.gg/re1999/characters/white-rum",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/white-rum_card.webp"
+    },
+    {
+      "id": "willow",
+      "name": "笃笃骨",
+      "name_zh": "笃笃骨",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E7%AC%83%E7%AC%83%E9%AA%A8",
+        "https://www.prydwen.gg/re1999/characters/willow",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/willow_card.webp"
+    },
+    {
+      "id": "windsong",
+      "name": "北方哨歌",
+      "name_zh": "北方哨歌",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%8C%97%E6%96%B9%E5%93%A8%E6%AD%8C",
+        "https://www.prydwen.gg/re1999/characters/windsong",
+        "https://www.prydwen.gg/re1999/team-tier-list",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/windsong_card.webp"
+    },
+    {
+      "id": "winter",
+      "name": "冬",
+      "name_zh": "冬",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%86%AC",
+        "https://www.prydwen.gg/re1999/characters/winter",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/winter_card.webp"
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "name_zh": "X",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/X",
+        "https://www.prydwen.gg/re1999/characters/x",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/x_card.webp"
+    },
+    {
+      "id": "yenisei",
+      "name": "小叶尼塞",
+      "name_zh": "小叶尼塞",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/reverse1999/%E5%B0%8F%E5%8F%B6%E5%B0%BC%E5%A1%9E",
+        "https://www.prydwen.gg/re1999/characters/yenisei",
+        "https://www.prydwen.gg/re1999/tier-list"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/re1999/characters/yenisei_card.webp"
+    }
+  ]
+}

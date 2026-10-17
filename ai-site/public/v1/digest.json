@@ -3,10 +3,10 @@
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。2026-10-17：追加 reverse-1999 三条官方标题，其余游戏未重抓。"
   },
   "ok": true,
-  "count": 7,
+  "count": 8,
   "digests": [
     {
       "game": "hw",
@@ -264,6 +264,36 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
+        }
+      ]
+    },
+    {
+      "game": "reverse-1999",
+      "name": "重返未来：1999",
+      "alias": "reverse1999",
+      "ok": true,
+      "count": 3,
+      "sources": [
+        "official"
+      ],
+      "items": [
+        {
+          "title": "4.0版本「应门者」现已开启",
+          "url": "https://re.bluepoch.com/",
+          "source": "official",
+          "summary": "官网写当前版本 4.0.0，更新时间 2026.09.24。页面标题是 2026箱中巡游庆典·4.0版本「应门者」。"
+        },
+        {
+          "title": "【存在之火】德雷克概率 UP",
+          "url": "https://www.sina.cn/news/detail/5354222569918675.html",
+          "source": "official",
+          "summary": "认证官方微博写六星兽灵感德雷克受邀概率 UP，时间 10/15 5:00-11/5 4:59，五星为空脑袋（木）和沙丝绒（兽）。帖文没有写时区。"
+        },
+        {
+          "title": "Ver. 3.8 [The Temporal Scale] is Available",
+          "url": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+          "source": "official",
+          "summary": "国际服 Steam 公告的下半是 The Future's Foundation，2026-10-15 05:00 至 2026-11-05 04:59 (UTC-5)，六星 Cornerstone。这不是国服 4.0 的德雷克池。"
         }
       ]
     }

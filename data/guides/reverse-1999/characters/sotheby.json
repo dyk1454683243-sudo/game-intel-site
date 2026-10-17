@@ -1,0 +1,85 @@
+{
+  "id": "sotheby",
+  "name": "苏芙比",
+  "name_zh": "苏芙比",
+  "name_en": "Sotheby",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "中毒 治疗 输出",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "三倍用量！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对2名敌方造成80%现实创伤；命中时使其陷入【中毒】状态2回合，每回合结束时，对其造成使用者攻击*30%的本源创伤"
+    },
+    {
+      "name": "浓缩精华！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体进入【愈合】状态2回合，每回合开始时，回复使用者攻击*50%生命"
+    },
+    {
+      "name": "把它们统统混合！",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成350%现实创伤；立即结算场上全体角色【中毒】【愈合】效果"
+    },
+    {
+      "name": "天才淑女～",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：【三倍用量！】施加的【中毒】状态持续回合+1"
+    },
+    {
+      "name": "天才淑女～",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，治疗率提升10%"
+    },
+    {
+      "name": "天才淑女～",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：【浓缩精华！】施加【愈合】状态前，将先结算己方全体现有的【愈合】状态"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%8B%8F%E8%8A%99%E6%AF%94",
+    "https://www.prydwen.gg/re1999/characters/sotheby",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "苏芙比",
+  "prydwen_slug": "sotheby",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sotheby_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:sotheby",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 苏芙比 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Survival",
+    "tags": "E1 Poison",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Survival；E1 Poison）",
+    "position": "6星 / 木 / 现实 / 中毒 治疗 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%8B%8F%E8%8A%99%E6%AF%94"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

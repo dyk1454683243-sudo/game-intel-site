@@ -1,0 +1,85 @@
+{
+  "id": "necrologist",
+  "name": "讣告人",
+  "name_zh": "讣告人",
+  "name_en": "Necrologist",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "及时道别",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "与棺同行",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "逝者们的低语",
+      "type": "ultimate",
+      "summary": "群体增强，赋予其他友方1层【祷言】，且造成伤害提升30%，持续3回合；若目标已拥有【祷言】，则立刻回复使用者攻击*100%生命"
+    },
+    {
+      "name": "黑鸢尾",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，自身进入【祷言】状态（最多触发1次）"
+    },
+    {
+      "name": "黑鸢尾",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "黑鸢尾",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：每当己方有【祷言】消失时，回复自身攻击*50%的生命"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%AE%A3%E5%91%8A%E4%BA%BA",
+    "https://www.prydwen.gg/re1999/characters/necrologist",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "讣告人",
+  "prydwen_slug": "necrologist",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/necrologist_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:necrologist",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 讣告人 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Support",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Support；Buff）",
+    "position": "5星 / 岩 / 精神 / 辅助 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%AE%A3%E5%91%8A%E4%BA%BA"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

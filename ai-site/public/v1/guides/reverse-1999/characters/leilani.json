@@ -1,0 +1,79 @@
+{
+  "id": "leilani",
+  "name": "莉拉妮",
+  "name_zh": "莉拉妮",
+  "name_en": "Leilani",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出",
+  "rarity": "3星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "一句招呼",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%现实创伤；若目标处于【属性削弱】【状态异常】【控制】中，则额外造成40%现实创伤"
+    },
+    {
+      "name": "仔细打量",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；若目标当前生命低于50%，则额外造成60%现实创伤"
+    },
+    {
+      "name": "夏威夷弓箭艺术",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%现实创伤；使其他友方激情+1"
+    },
+    {
+      "name": "迅速熟络",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使己方全体激情+1，并使自身额外激情+1（最多触发1次）"
+    },
+    {
+      "name": "迅速熟络",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%8E%89%E6%8B%89%E5%A6%AE",
+    "https://www.prydwen.gg/re1999/characters/leilani",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "莉拉妮",
+  "prydwen_slug": "leilani",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/leilani_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:leilani",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 莉拉妮 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": "Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry；Moxie）",
+    "position": "3星 / 兽 / 现实 / 辅助 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%8E%89%E6%8B%89%E5%A6%AE"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

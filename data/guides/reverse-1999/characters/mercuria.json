@@ -1,0 +1,91 @@
+{
+  "id": "mercuria",
+  "name": "环状水星",
+  "name_zh": "环状水星",
+  "name_en": "Mercuria",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出 调阶",
+  "rarity": "6星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "他者的喧嚷",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，对敌方造成160%的精神创伤，使生命最低己方单体回复使用者攻击*50%的生命；行动区每有1张2/3阶咒语，额外造成30%/50%精神创伤，上限250%"
+    },
+    {
+      "name": "自我的聚焦",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体暴击率提升20%，持续2回合；自身额外获得4层【宇宙能量】，持续2回合"
+    },
+    {
+      "name": "赠予夜的晨星",
+      "type": "ultimate",
+      "summary": "群体攻击，驱散敌方全体随机2种【属性提升】【状态增益】后，对其造成400%精神创伤，并使己方全体获得【调阶】状态，持续2回合"
+    },
+    {
+      "name": "漫长行迹",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，获得8层【宇宙能量】，持续2回合；我方角色使用1/2/3阶咒语后，分别叠加2/3/4层，上限25层。 进入战斗时，每有1名自然灵感队友，自身激情+1，上限3点"
+    },
+    {
+      "name": "漫长行迹",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击力提升5%"
+    },
+    {
+      "name": "漫长行迹",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，携带9层及以上【宇宙能量】时，使己方全体暴击创伤提升30%，持续1回合；16层及以上时，额外使己方全体术法威力提升20%，持续2回合。 每回合结束时，回合内若己方角色使用2张及以上3阶咒语时，自身激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8E%AF%E7%8A%B6%E6%B0%B4%E6%98%9F",
+    "https://www.prydwen.gg/re1999/characters/mercuria",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "环状水星",
+  "prydwen_slug": "mercuria",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mercuria_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:mercuria",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 环状水星 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Sub Carry",
+    "tags": "E1 Buff, AP+, Upgrade",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Sub Carry；E1 Buff, AP+, Upgrade）",
+    "position": "6星 / 灵 / 精神 / 辅助 输出 调阶",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8E%AF%E7%8A%B6%E6%B0%B4%E6%98%9F"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

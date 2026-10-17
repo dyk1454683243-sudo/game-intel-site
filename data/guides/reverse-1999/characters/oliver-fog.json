@@ -1,0 +1,79 @@
+{
+  "id": "oliver-fog",
+  "name": "雾行者",
+  "name_zh": "雾行者",
+  "name_en": "Oliver Fog",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 防御",
+  "rarity": "4星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "撑伞之时",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；本次攻击吸血率提升30%"
+    },
+    {
+      "name": "十分钟后",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，赋予己方全体1层【坚固】；现实防御、精神防御提升10%，持续2回合"
+    },
+    {
+      "name": "意料之中的无用功",
+      "type": "ultimate",
+      "summary": "单体攻击，造成450%现实创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "雾的归处",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当回合结束时，失去15%当前生命，获得本次失去生命*150%的护盾，持续至己方下一回合开始前；当自身拥有护盾时，受到伤害降低20%"
+    },
+    {
+      "name": "雾的归处",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，现实防御、精神防御提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%9B%BE%E8%A1%8C%E8%80%85",
+    "https://www.prydwen.gg/re1999/characters/oliver-fog",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "雾行者",
+  "prydwen_slug": "oliver-fog",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/oliver-fog_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:oliver-fog",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 雾行者 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Buff）",
+    "position": "4星 / 星 / 现实 / 辅助 防御",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%9B%BE%E8%A1%8C%E8%80%85"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

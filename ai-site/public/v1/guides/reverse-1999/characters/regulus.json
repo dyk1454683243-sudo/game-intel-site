@@ -1,0 +1,85 @@
+{
+  "id": "regulus",
+  "name": "星锑",
+  "name_zh": "星锑",
+  "name_en": "Regulus",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 辅助",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "洗洗耳朵",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "晒晒眼睛",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成150%精神创伤"
+    },
+    {
+      "name": "狂欢与不眠夜",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%精神创伤；使己方全体进入【躁动摇滚】状态1回合"
+    },
+    {
+      "name": "听听新玩意",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当本回合未主动使用过咒语，回合结束进入【躁动的心】状态"
+    },
+    {
+      "name": "听听新玩意",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "听听新玩意",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：当【躁动的心】消失时，激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91",
+    "https://www.prydwen.gg/re1999/characters/regulus",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "星锑",
+  "prydwen_slug": "regulus",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/regulus_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:regulus",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 星锑 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Support",
+    "tags": "E1 Impromptu, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Support；E1 Impromptu, AP+）",
+    "position": "6星 / 星 / 精神 / 输出 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%98%9F%E9%94%91"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

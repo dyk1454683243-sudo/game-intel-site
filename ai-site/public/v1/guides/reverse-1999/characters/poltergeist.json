@@ -1,0 +1,79 @@
+{
+  "id": "poltergeist",
+  "name": "吵闹鬼",
+  "name_zh": "吵闹鬼",
+  "name_en": "Poltergeist",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "防御 削弱",
+  "rarity": "4星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "恶作剧",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "贴耳话",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "阳光并不温柔",
+      "type": "ultimate",
+      "summary": "自我反制，进入【嘲讽】状态，受到伤害降低20%，受创回复提升20%，持续3回合；同时进入【隐蔽】状态1回合"
+    },
+    {
+      "name": "好孩子",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，进入【隐蔽】状态2回合（最多触发1次）"
+    },
+    {
+      "name": "好孩子",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受创回复提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%90%B5%E9%97%B9%E9%AC%BC",
+    "https://www.prydwen.gg/re1999/characters/poltergeist",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "吵闹鬼",
+  "prydwen_slug": "poltergeist",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/poltergeist_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:poltergeist",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 吵闹鬼 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Survival",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Survival）",
+    "position": "4星 / 灵 / 精神 / 防御 削弱",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%90%B5%E9%97%B9%E9%AC%BC"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

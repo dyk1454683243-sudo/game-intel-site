@@ -1,0 +1,90 @@
+{
+  "id": "brume",
+  "name": "灰调蓝",
+  "name_zh": "灰调蓝",
+  "name_en": "Brume",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 额外行动 电能",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "长途规划",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Adaptive、Adaptive、Adaptive、Attack、Attack、Channel、Channel）：临场应变，在1阶【即兴之旅】和【长途规划】中选择1个释放"
+    },
+    {
+      "name": "真相吐息",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使自身获得10层【热电效应】，使己方全体获得【真实淬炼】，持续2回合； 持有【真实淬炼】的己方每次攻击命中时赋予目标2层【伪装熔解】，持续2回合，若本次攻击为额外行动，额外赋予2层"
+    },
+    {
+      "name": "壮举皆因形势所迫",
+      "type": "ultimate",
+      "summary": "单体攻击，对目标造成750%精神创伤，使自身获得10层【热电效应】，令己方全体【真实淬炼】持续回合+1，攻击后赋予目标10层【燃烧】与【逃票乘客】，持续1回合"
+    },
+    {
+      "name": "英雄要素",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，灰调蓝获得5层【热电效应】； 己方全体每向电场中注入20层【电能】，灰调蓝获得5层【热电效应】； 敌人每被施加3层燃烧，灰调蓝获得2层【热电效应】"
+    },
+    {
+      "name": "英雄要素",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "英雄要素",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，灰调蓝赋予自身【晶体压电】，持续3回合； 灰调蓝每获得15层【热电效应】，使自身获得5层【电能】，激情+1； 单次【宝石蓄能】吟诵期间，若至少消耗了40层【热电效应】，在最后追加释放一次【终点结价】，每超出10层【热电效应】，【终点结价】额外造成200%精神创伤，至多额外造成400%精神创伤"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · I'm In Me Mum's Car Brume Brume：Enigma / 卡戎 / 纸信圈儿 | 天使娜娜 / 灰调蓝（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%81%B0%E8%B0%83%E8%93%9D",
+    "https://www.prydwen.gg/re1999/characters/brume",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "灰调蓝",
+  "prydwen_slug": "brume",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/brume_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:brume",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 灰调蓝 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "Dynamo, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；Dynamo, EA）",
+    "position": "6星 / 兽 / 精神 / 输出 额外行动 电能",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%81%B0%E8%B0%83%E8%93%9D"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "narcissus",
+  "name": "Narcissus",
+  "name_en": "Narcissus",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "element": "兽",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Daddy? Do I LOOK- (Ultimate)：伊戈尔 / 洛佩拉 / 莫莉德尔 | Rhiannon | 纸信圈儿 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · Washing Me And My Clothes (Ultimate)：虚构集 | Ms. Stranger / 莫莉德尔 / Rhiannon | 葛天 / Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Art of Himejoshing Out (Bloodtithe)：诺谛卡 / 塞梅尔维斯 / Rhiannon | 莫莉德尔 / 野树莓 | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Give Me Your Damn Money (Ultimate)：艾吉奥·奥迪托雷 / 卡珊德拉 / 葛天 / J | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://www.prydwen.gg/re1999/characters/narcissus",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "narcissus",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/narcissus_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:narcissus",
+  "note": "Prydwen 角色列表有这名角色的名字、灵感图标和立绘。BWIKI「神秘学家」分类没有同名页，咒语不编造。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Survival",
+    "tags": "3.9 Buff, Ult",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Survival；3.9 Buff, Ult）",
+    "position": "兽",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://www.prydwen.gg/re1999/characters/narcissus"
+    ],
+    "stub": true,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方）。这张卡没有可引用的咒语正文，技能保持空白。"
+  }
+}

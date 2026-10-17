@@ -1,0 +1,91 @@
+{
+  "id": "druvis-iii",
+  "name": "槲寄生",
+  "name_zh": "槲寄生",
+  "name_en": "Druvis III",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制 辅助",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "风入林",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "露渐白",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "林间，静默将至",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成400%精神创伤；命中时使主目标陷入【石化】1回合"
+    },
+    {
+      "name": "木秀于林",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当自身处于【属性提升】【状态增益】时，造成伤害提升20%"
+    },
+    {
+      "name": "木秀于林",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "木秀于林",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，己方【木】灵感角色进入【生生不息】状态（最多触发1次）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · B · You Have Been Stopped (Petrify)：冷周六 / 槲寄生 / 洁西卡 / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%A7%B2%E5%AF%84%E7%94%9F",
+    "https://www.prydwen.gg/re1999/characters/druvis-iii",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "槲寄生",
+  "prydwen_slug": "druvis-iii",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/druvis-iii_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:druvis-iii",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 槲寄生 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Support",
+    "tags": "E2 Plant, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Support；E2 Plant, Debuff）",
+    "position": "6星 / 木 / 精神 / 输出 控制 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%A7%B2%E5%AF%84%E7%94%9F"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "sentinel",
+  "name": "玛丽安娜",
+  "name_zh": "玛丽安娜",
+  "name_en": "Sentinel",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 辅助 薪血",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "偿罪",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成130%现实创伤，本攻击为一次【伏罪】，攻击后使自身获得2层【新伤】，若为主动攻击，还将使【薪血】+1"
+    },
+    {
+      "name": "长夜守望",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，获得【你当忏悔】与6层【惊惧子弹】，若行动前不处于【你当忏悔】状态，获得2层【监视】；消耗1点薪血，使自身前方相邻友方也获得6层【惊惧子弹】"
+    },
+    {
+      "name": "垂怜之下皆沉默",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%现实创伤，本攻击为一次【伏罪】，该咒语不占己方咒语获取数量上限； 每有1层【新伤】，【伏罪】系数提升2%； 移除所有【新伤】，每层【新伤】回复自身5%已损失生命值"
+    },
+    {
+      "name": "祈祷于烈日下",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方队伍损失生命时将累计【薪血】； 己方全体持有【惊惧子弹】时，暴击率提升30%； 己方全体攻击触发【惊惧子弹】时，创伤加成提升，相当于持有者最大生命值的0.25%，并且溢出暴击率80%转化为暴击创伤"
+    },
+    {
+      "name": "祈祷于烈日下",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "祈祷于烈日下",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：攻击触发子弹时有50%概率触发效果：若自身激情小于5，激情+1，否则获得1层【新伤】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E5%AE%89%E5%A8%9C",
+    "https://www.prydwen.gg/re1999/characters/sentinel",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "玛丽安娜",
+  "prydwen_slug": "sentinel",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sentinel_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:sentinel",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 玛丽安娜 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Sub Carry",
+    "tags": "Bloodtithe, Bullet",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Sub Carry；Bloodtithe, Bullet）",
+    "position": "6星 / 岩 / 现实 / 输出 辅助 薪血",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E5%AE%89%E5%A8%9C"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "x",
+  "name": "X",
+  "name_zh": "X",
+  "name_en": "X",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "驱散 输出 控制",
+  "rarity": "5星",
+  "element": "智",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "极与负极",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "咖啡或茶",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "极简与繁复之间",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%现实创伤；命中时使其激情-2"
+    },
+    {
+      "name": "副作用之用",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：每当驱散敌方【属性提升】【状态增益】时，使其陷入【缄默】状态1回合；驱散敌方【反制】时，使其陷入【缄默】状态2回合"
+    },
+    {
+      "name": "副作用之用",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "副作用之用",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：释放至终的仪式后，使敌方陷入【心神不宁】状态，持续1回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/X",
+    "https://www.prydwen.gg/re1999/characters/x",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "X",
+  "prydwen_slug": "x",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/x_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:x",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI X 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Dispel, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Dispel, Debuff）",
+    "position": "5星 / 智 / 现实 / 驱散 输出 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/X"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

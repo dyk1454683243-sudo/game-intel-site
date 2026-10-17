@@ -1,0 +1,79 @@
+{
+  "id": "winter",
+  "name": "冬",
+  "name_zh": "冬",
+  "name_en": "Зима",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 控制",
+  "rarity": "4星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "雀",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "纸",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体造成伤害提升15%，受创回复提升15%，持续2回合"
+    },
+    {
+      "name": "诗，远岛，风",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%精神创伤；并使主目标被命中时陷入【封印】状态2回合"
+    },
+    {
+      "name": "岛",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击时，若自身生命高于50%，则穿透率提升10%；被攻击时，若自身生命低于50%，则受到伤害降低10%"
+    },
+    {
+      "name": "岛",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%86%AC",
+    "https://www.prydwen.gg/re1999/characters/winter",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "冬",
+  "prydwen_slug": "winter",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/winter_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:winter",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 英文名 Зима 与 Prydwen 列表显示名相同，slug 是 winter。",
+  "verified": "BWIKI 冬 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Buff）",
+    "position": "4星 / 木 / 精神 / 辅助 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%86%AC"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

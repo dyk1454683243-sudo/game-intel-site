@@ -1,0 +1,90 @@
+{
+  "id": "rubuska",
+  "name": "野树莓",
+  "name_zh": "野树莓",
+  "name_en": "Rubuska",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗 辅助 薪血",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "午夜恶作剧",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，失去10%当前生命，造成120%现实创伤，本攻击为一次【伏罪】； 使己方全体【影子玩伴】的【影子行头】增加，增加值相当于使用者最大生命的3%"
+    },
+    {
+      "name": "影子护卫队",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体回复25%已损失生命+使用者最大生命*20%的生命，无法暴击； 使己方全体【影子玩伴】的【影子行头】增加，增加值相当于使用者当前生命的4%"
+    },
+    {
+      "name": "胜利属于“野树莓一世”！",
+      "type": "ultimate",
+      "summary": "单体增强，使目标进入【影子盛宴】状态，持续1回合；使己方全体回复使用者最大生命*10%的生命"
+    },
+    {
+      "name": "快乐魔笛手",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：野树莓在场时，赋予己方全体【影子玩伴】； 每当任意己方的【影子行头】到达上限，野树莓激情+1； 自身溢出的激情会被临时存储，回合结束时若自身激情空余时补充，最多储存3点激情"
+    },
+    {
+      "name": "快乐魔笛手",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，最大生命提升5%"
+    },
+    {
+      "name": "快乐魔笛手",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，赋予己方全体【野树莓一世的恩典】； 任意己方受到攻击后，野树莓为己方全体回复自身最大生命*12%的生命，无法暴击，每回合最多触发3次"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Art of Himejoshing Out (Bloodtithe)：诺谛卡 / 塞梅尔维斯 / Rhiannon | 莫莉德尔 / 野树莓 | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%87%8E%E6%A0%91%E8%8E%93",
+    "https://www.prydwen.gg/re1999/characters/rubuska",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "野树莓",
+  "prydwen_slug": "rubuska",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/rubuska_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:rubuska",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 野树莓 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Survival",
+    "tags": "Bloodtithe",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Survival；Bloodtithe）",
+    "position": "6星 / 岩 / 现实 / 治疗 辅助 薪血",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%87%8E%E6%A0%91%E8%8E%93"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

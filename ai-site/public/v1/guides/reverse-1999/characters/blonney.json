@@ -1,0 +1,85 @@
+{
+  "id": "blonney",
+  "name": "金蜜儿",
+  "name_zh": "金蜜儿",
+  "name_en": "Blonney",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发",
+  "rarity": "5星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "狂笑之兔",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；本次攻击暴击率、暴击创伤提升25%"
+    },
+    {
+      "name": "电锯惊魂",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "粉浆电影",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%现实创伤，本次攻击暴击率提升20%"
+    },
+    {
+      "name": "怪物设计师",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：使用至终的仪式后，自身暴击率、暴击创伤提升20%，持续2回合"
+    },
+    {
+      "name": "怪物设计师",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "怪物设计师",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：使用至终的仪式后，暴击率、暴击创伤额外提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%87%91%E8%9C%9C%E5%84%BF",
+    "https://www.prydwen.gg/re1999/characters/blonney",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "金蜜儿",
+  "prydwen_slug": "blonney",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/blonney_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:blonney",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 金蜜儿 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer）",
+    "position": "5星 / 星 / 现实 / 输出 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%87%91%E8%9C%9C%E5%84%BF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

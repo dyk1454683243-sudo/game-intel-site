@@ -1,0 +1,85 @@
+{
+  "id": "melania",
+  "name": "梅兰妮",
+  "name_zh": "梅兰妮",
+  "name_en": "Melania",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "乘隙而入",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤；若处于【巧手神偷】状态下，额外偷取1激情"
+    },
+    {
+      "name": "发条鼠患",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤；本次攻击吸血率提升20%；若处于【巧手神偷】状态下，自身激情+1，并额外提升30%吸血率"
+    },
+    {
+      "name": "荒唐的目击证词",
+      "type": "ultimate",
+      "summary": "单体攻击，造成650%精神创伤；赋予自身1层【巧手神偷】"
+    },
+    {
+      "name": "优等生",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：每次释放至终的仪式后，赋予自身1层【既定计划】"
+    },
+    {
+      "name": "优等生",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "优等生",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：释放至终的仪式后，额外赋予自身1层【既定计划】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%A2%85%E5%85%B0%E5%A6%AE",
+    "https://www.prydwen.gg/re1999/characters/melania",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "梅兰妮",
+  "prydwen_slug": "melania",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/melania_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:melania",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 梅兰妮 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Support",
+    "tags": "E1 Ult, Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Support；E1 Ult, Buff）",
+    "position": "6星 / 兽 / 精神 / 输出 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%A2%85%E5%85%B0%E5%A6%AE"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

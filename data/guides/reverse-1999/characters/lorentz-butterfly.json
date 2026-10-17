@@ -1,0 +1,51 @@
+{
+  "id": "lorentz-butterfly",
+  "name": "Lorentz Butterfly",
+  "name_en": "Lorentz Butterfly",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "element": "智",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Hi, Welcome To Chili's (FUA)：北方哨歌 / 纸信圈儿 / 6 | Rhiannon | Lorentz Butterfly / J | 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://www.prydwen.gg/re1999/characters/lorentz-butterfly",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lorentz-butterfly",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lorentz-butterfly_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:lorentz-butterfly",
+  "note": "Prydwen 角色列表有这名角色的名字、灵感图标和立绘。BWIKI「神秘学家」分类没有同名页，咒语不编造。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Sub Carry",
+    "tags": "Glow, Rewrite",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Sub Carry；Glow, Rewrite）",
+    "position": "智",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://www.prydwen.gg/re1999/characters/lorentz-butterfly"
+    ],
+    "stub": true,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方）。这张卡没有可引用的咒语正文，技能保持空白。"
+  }
+}

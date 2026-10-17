@@ -1,0 +1,90 @@
+{
+  "id": "marcus",
+  "name": "马库斯",
+  "name_zh": "马库斯",
+  "name_en": "Marcus",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "精读课",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "于灯火中",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：群体攻击，对2名敌人造成130%精神创伤；若目标处于【标注】状态下，则额外造成30%精神创伤"
+    },
+    {
+      "name": "向更远处回望",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%精神创伤；若目标处于【标注】状态下，则额外造成200%精神创伤；自身获得1层【筹备·马库斯】；使自身灵光+2"
+    },
+    {
+      "name": "翻阅此页",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：灵光上限+1； 回合开始时，若没有敌方处于【标注】状态，则赋予敌方单体【标注】（优先首领目标）； 回合开始时，若自身灵光大于等于2，则消耗尽可能多的灵光提升自身随机咒语的阶次：1阶提升至2阶、2阶提升至3阶分别消耗2、3点灵光，优先提升低阶咒语"
+    },
+    {
+      "name": "翻阅此页",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "翻阅此页",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：战斗开始时，自身灵光+1； 回合开始时，自身灵光+1； 战斗开始时，己方包括3名或以上的木、灵、智灵感角色时，自身获得【精读】，当场上角色灵感不满足条件时，移除【精读】效果"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%A9%AC%E5%BA%93%E6%96%AF",
+    "https://www.prydwen.gg/re1999/characters/marcus",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "马库斯",
+  "prydwen_slug": "marcus",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/marcus_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:marcus",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 马库斯 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Damage dealer",
+    "tags": "E1 Upgrade",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Damage dealer；E1 Upgrade）",
+    "position": "6星 / 木 / 精神 / 输出 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%A9%AC%E5%BA%93%E6%96%AF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

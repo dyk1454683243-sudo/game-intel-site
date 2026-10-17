@@ -1,0 +1,79 @@
+{
+  "id": "pioneer",
+  "name": "先驱者",
+  "name_zh": "先驱者",
+  "name_en": "Pioneer",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 护盾 位移",
+  "rarity": "3星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "差异化竞争",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，对目标造成200%精神创伤，之后使自身向前位移1位"
+    },
+    {
+      "name": "成交致礼",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：自我反制，使自身获得【嘲讽】，现实防御、精神防御提升25%，持续2回合，之后使自身向后位移1位"
+    },
+    {
+      "name": "一处窗扇或桥梁",
+      "type": "ultimate",
+      "summary": "单体增强，使目标获得先驱者最大生命*50%的护盾2回合，先驱者与目标交换站位，使目标获得换位后对应站位的【流动推销员】增益，并使该增益持续回合+1"
+    },
+    {
+      "name": "流动推销员",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时及受到位移后，根据自身所处站位，获得不同增益： 1号位：【热忱之选】、2号位：【促销方案】、3号位：【风险管理】、4号位：【售后服务】"
+    },
+    {
+      "name": "流动推销员",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%85%88%E9%A9%B1%E8%80%85",
+    "https://www.prydwen.gg/re1999/characters/pioneer",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "先驱者",
+  "prydwen_slug": "pioneer",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pioneer_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:pioneer",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 先驱者 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": "Shift",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry；Shift）",
+    "position": "3星 / 灵 / 精神 / 辅助 护盾 位移",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%85%88%E9%A9%B1%E8%80%85"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

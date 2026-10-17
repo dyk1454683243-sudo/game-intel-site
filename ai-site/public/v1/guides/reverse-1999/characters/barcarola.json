@@ -1,0 +1,90 @@
+{
+  "id": "barcarola",
+  "name": "芭卡洛儿",
+  "name_zh": "芭卡洛儿",
+  "name_en": "Barcarola",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 辅助 启示",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "琶音的连缀",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤，攻击后消耗2点灵光，使本回合【即兴咒语】攻击次数+1，当己方处于【四重奏】的角色大于等于3时，使【即兴咒语】攻击次数额外+1"
+    },
+    {
+      "name": "心迹的倾洒",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤，攻击后消耗2点灵光，使本回合【即兴咒语】造成伤害提升20%，当己方处于【四重奏】的角色大于等于3时，使【即兴咒语】造成伤害额外提升20%"
+    },
+    {
+      "name": "海风交响诗",
+      "type": "ultimate",
+      "summary": "单体增强，延长己方全体的【四重奏】状态1回合，使目标友方和自身进入【四重奏】状态5回合，若已处于该状态则延长至5回合；之后回复所有处于该状态己方角色3点灵光；自身激情+1，并为本回合的【即兴咒语】额外计入8点【启示】"
+    },
+    {
+      "name": "一人乐队",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方队伍消耗灵光时将累计【启示】，芭卡洛儿使【启示】分配给攻击类咒语的概率更高；进入战斗时，累计3点【启示】；灵光上限+1，每回合开始时，芭卡洛儿灵光+4，队伍成员主动使用攻击类咒语后，芭卡洛儿灵光+1"
+    },
+    {
+      "name": "一人乐队",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "一人乐队",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，使自身造成伤害提升，相当于5%+2.5%*已累计的【启示】，持续1回合；【即兴咒语】变为星灵感，且【即兴咒语】1回合内每攻击1次后，暴击率提升7.5%，暴击创伤提升7.5%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A+ · Burnt Out Gifted Kids (Starpromptu)：芭卡洛儿 / 阿莱夫 / Rhiannon | 牙仙 / 库珀花环（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%8A%AD%E5%8D%A1%E6%B4%9B%E5%84%BF",
+    "https://www.prydwen.gg/re1999/characters/barcarola",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "芭卡洛儿",
+  "prydwen_slug": "barcarola",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/barcarola_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:barcarola",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 芭卡洛儿 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Sub Carry",
+    "tags": "Impromptu, Star",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Sub Carry；Impromptu, Star）",
+    "position": "6星 / 星 / 精神 / 输出 辅助 启示",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%8A%AD%E5%8D%A1%E6%B4%9B%E5%84%BF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "kaalaa-baunaa",
+  "name": "伽菈波那",
+  "name_zh": "伽菈波那",
+  "name_en": "Black Dwarf",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 追击",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "体术吟咏",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%精神创伤；主动释放后获得1颗【土星】，每携带1颗穿透率+6%；【行星】上限为3"
+    },
+    {
+      "name": "古法观星",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成135%精神创伤；主动释放后获得1颗【火星】，每携带1颗吸血率+6%；【行星】上限为3"
+    },
+    {
+      "name": "独一的圆满",
+      "type": "ultimate",
+      "summary": "单体攻击，移除所有【行星】后，造成600%精神创伤，获得2颗【盈月】，每携带1颗术法威力+6%；【行星】上限为3"
+    },
+    {
+      "name": "移星之学",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：【行星】被移除时，根据类型获得【土星占卜】【火星占卜】【盈月占卜】中的1种效果"
+    },
+    {
+      "name": "移星之学",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "移星之学",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：使用至终的仪式后，根据移除数量最多的【行星】获得1种效果。 移除【土星】数量为1/2/3颗及以上时：立即释放1/2/3阶的【体术吟咏】追击目标； 移除【火星】数量为1/2/3颗及以上时：立即释放1/2/3阶的【古法观星】追击目标； 移除【盈月】数量为1/2颗时：使自身进入【咒语强化Ⅱ】状态1/2回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E4%BC%BD%E8%8F%88%E6%B3%A2%E9%82%A3",
+    "https://www.prydwen.gg/re1999/characters/kaalaa-baunaa",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "伽菈波那",
+  "prydwen_slug": "kaalaa-baunaa",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kaalaa-baunaa_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:kaalaa-baunaa",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 英文名栏写 Black Dwarf。Prydwen 角色列表里唯一的 Mineral Kaalaa Baunaa 用 slug kaalaa-baunaa。",
+  "verified": "BWIKI 伽菈波那 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Damage dealer",
+    "tags": "E1 EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Damage dealer；E1 EA）",
+    "position": "6星 / 岩 / 精神 / 输出 爆发 追击",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E4%BC%BD%E8%8F%88%E6%B3%A2%E9%82%A3"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

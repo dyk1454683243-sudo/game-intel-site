@@ -1,0 +1,79 @@
+{
+  "id": "erick",
+  "name": "埃里克",
+  "name_zh": "埃里克",
+  "name_en": "Erick",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 驱散",
+  "rarity": "4星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "沉重战斧",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "木质龙船",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%现实创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "荣耀归于维京主",
+      "type": "ultimate",
+      "summary": "单体攻击，驱散目标【属性提升】【状态增益】【反制】，造成450%现实创伤；并使其陷入【缴械】1回合"
+    },
+    {
+      "name": "凯旋儿歌",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当敌方退场时，使己方全体造成伤害提升10%，持续2回合"
+    },
+    {
+      "name": "凯旋儿歌",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%9F%83%E9%87%8C%E5%85%8B",
+    "https://www.prydwen.gg/re1999/characters/erick",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "埃里克",
+  "prydwen_slug": "erick",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/erick_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:erick",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 埃里克 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Debuff）",
+    "position": "4星 / 星 / 现实 / 输出 驱散",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%9F%83%E9%87%8C%E5%85%8B"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

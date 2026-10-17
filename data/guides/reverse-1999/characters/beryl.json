@@ -1,0 +1,90 @@
+{
+  "id": "beryl",
+  "name": "贝丽尔",
+  "name_zh": "贝丽尔",
+  "name_en": "Beryl",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 额外行动 余辉",
+  "rarity": "6星",
+  "element": "智",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "晶状体之灾",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成200%精神创伤；攻击时若目标【光晕】层数少于20或没有其他敌人，赋予目标4层【光晕】；否则对其他敌方目标赋予相当于目标50%层数的【光晕】"
+    },
+    {
+      "name": "无惊喜一刻",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：自我增强，使自身获得3层【预见】"
+    },
+    {
+      "name": "波光粼粼之夜",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成600%精神创伤，攻击前将敌方全体持有的【光晕】层数根据当前生命值重新排序，不超过【光晕】最大层数"
+    },
+    {
+      "name": "多重折射",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，贝丽尔获得【上层折射】； 从第2回合开始，回合开始时，贝丽尔生成1张预备咒语【各色流溢】"
+    },
+    {
+      "name": "多重折射",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "多重折射",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，贝丽尔使自身激情+1，使【余辉】+20； 回合结束时，若【余辉】大于等于60，贝丽尔使自身激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E4%B8%BD%E5%B0%94",
+    "https://www.prydwen.gg/re1999/characters/beryl",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "贝丽尔",
+  "prydwen_slug": "beryl",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/beryl_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:beryl",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 贝丽尔 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "Glow, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；Glow, EA）",
+    "position": "6星 / 智 / 精神 / 输出 额外行动 余辉",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%B4%9D%E4%B8%BD%E5%B0%94"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

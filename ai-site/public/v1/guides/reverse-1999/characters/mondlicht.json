@@ -1,0 +1,79 @@
+{
+  "id": "mondlicht",
+  "name": "红斗篷",
+  "name_zh": "红斗篷",
+  "name_en": "Mondlicht",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出",
+  "rarity": "4星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "一发银弹",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%现实创伤；若目标当前生命高于50%，则额外造成50%现实创伤"
+    },
+    {
+      "name": "一场挥舞",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%现实创伤；若目标当前生命低于50%，则额外造成50%现实创伤"
+    },
+    {
+      "name": "比大坏狼更可怕",
+      "type": "ultimate",
+      "summary": "单体攻击，造成450%现实创伤；回复本次造成伤害*50%生命"
+    },
+    {
+      "name": "猎手本能",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗及之后的每3回合，装备1颗【银质子弹】"
+    },
+    {
+      "name": "猎手本能",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E6%96%97%E7%AF%B7",
+    "https://www.prydwen.gg/re1999/characters/mondlicht",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "红斗篷",
+  "prydwen_slug": "mondlicht",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mondlicht_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:mondlicht",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 红斗篷 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Bullet",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Bullet）",
+    "position": "4星 / 岩 / 现实 / 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E6%96%97%E7%AF%B7"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

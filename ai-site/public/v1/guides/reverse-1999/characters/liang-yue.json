@@ -1,0 +1,93 @@
+{
+  "id": "liang-yue",
+  "name": "梁月",
+  "name_zh": "梁月",
+  "name_en": "Liang",
+  "aliases": [
+    "Liang Yue"
+  ],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 额外行动 免疫",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "驱祟在外",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤，己方全体【驱厉】延长1回合； 若自身处于【强梁既出】状态下，主动使用该咒语额外获得1个【宣威】"
+    },
+    {
+      "name": "守福于内",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，赋予目标【除厄·壹】，持续1回合，重复赋予回合数可叠加 若自身处于【强梁既出】状态下，主动使用该咒语额外获得1个【安众】"
+    },
+    {
+      "name": "雷电急call-0305",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%现实创伤；赋予己方全体1回合【免疫】，6层【驱厉】持续2回合；使自身获得【强梁既出】，持续3回合，若已处于该状态则延长至3回合"
+    },
+    {
+      "name": "方相传人",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：处于【强梁既出】状态下，主动使用受到强梁影响的咒语后，获得【宣威】或【安众】，主动使用处于叠加区域的咒语后，获得半个【宣威】与半个【安众】； 获得总计6个【宣威】与【安众】时，消耗总计6个【宣威】与【安众】，根据数量比例释放不同类型的【八灵震慴】： 【宣威】数量更多时，释放【八灵震慴·虎】； 【安众】数量更多时，释放【八灵震慴·影】； 两者数量相同时，释放【八灵震慴·疾】； 每消耗1个【宣威】或者【安众】，赋予己方全体1层【驱厉】，持续2回合； 【强梁既出】结束时，清空【宣威】与【安众】；梁月每有1层【神行】，转化为3层【驱厉】"
+    },
+    {
+      "name": "方相传人",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "方相传人",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，使自身激情+3"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Liang Yue - Freestyle Nuo Dance Teacher：梁月 / 纸信圈儿 / Rhiannon | Cheng Heguang | 洛佩拉 / 玛尔纱 | J | Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · I Thought You Were American (FUA)：天使娜娜 / 梁月 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%A2%81%E6%9C%88",
+    "https://www.prydwen.gg/re1999/characters/liang-yue",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "梁月",
+  "prydwen_slug": "liang-yue",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/liang-yue_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:liang-yue",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 页内原文写有 “Number 007405, Liang Yue”。",
+  "verified": "BWIKI 梁月 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "E1 EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；E1 EA）",
+    "position": "6星 / 星 / 现实 / 输出 额外行动 免疫",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%A2%81%E6%9C%88"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

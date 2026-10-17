@@ -1,0 +1,85 @@
+{
+  "id": "sweetheart",
+  "name": "玛丽莲",
+  "name_zh": "玛丽莲",
+  "name_en": "Sweetheart",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "一颗哑弹",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "一阵轻风",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成135%现实创伤；若目标处于【属性削弱】【状态异常】【控制】中，则额外造成30%现实创伤"
+    },
+    {
+      "name": "今夜，一场好梦",
+      "type": "ultimate",
+      "summary": "单体攻击，造成400%现实创伤；命中时使其现实防御、精神防御降低20%，持续3回合；陷入【眩晕】状态1回合"
+    },
+    {
+      "name": "一声低吟",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：受到攻击时，赋予对方1层【入迷】，持续2回合；受到异性攻击时，额外赋予1层【入迷】，持续2回合"
+    },
+    {
+      "name": "一声低吟",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "一声低吟",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：攻击命中时，赋予目标1层【入迷】，持续2回合；若为异性，则额外赋予其1层"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E8%8E%B2",
+    "https://www.prydwen.gg/re1999/characters/sweetheart",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "玛丽莲",
+  "prydwen_slug": "sweetheart",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sweetheart_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:sweetheart",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 玛丽莲 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Debuff）",
+    "position": "5星 / 兽 / 现实 / 输出 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E4%B8%BD%E8%8E%B2"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

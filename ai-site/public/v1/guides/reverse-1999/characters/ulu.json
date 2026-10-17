@@ -1,0 +1,85 @@
+{
+  "id": "ulu",
+  "name": "和平乌鲁",
+  "name_zh": "和平乌鲁",
+  "name_en": "Ulu",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 输出 燃烧",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "开幕仪式",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%精神创伤；若目标陷入【燃烧】状态，则本次攻击穿透率提高25%"
+    },
+    {
+      "name": "跃动的心",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对2名敌方造成120%精神创伤；攻击后赋予目标1层【燃烧】"
+    },
+    {
+      "name": "不灭的火，滚烫的心",
+      "type": "ultimate",
+      "summary": "群体增强，使己方全体造成伤害提升15%，受到伤害降低15%，持续3回合；若敌方全体共计携带15层及以上【燃烧】，则提升伤害效果翻倍"
+    },
+    {
+      "name": "火崇拜",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击处于【燃烧】状态的敌人后，回复己方全体已损失生命的8%，每回合最多触发1次"
+    },
+    {
+      "name": "火崇拜",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    },
+    {
+      "name": "火崇拜",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，赋予敌方全体3层【燃烧】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%92%8C%E5%B9%B3%E4%B9%8C%E9%B2%81",
+    "https://www.prydwen.gg/re1999/characters/ulu",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "和平乌鲁",
+  "prydwen_slug": "ulu",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ulu_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:ulu",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 和平乌鲁 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Burn, Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Burn, Buff）",
+    "position": "5星 / 岩 / 精神 / 辅助 输出 燃烧",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%92%8C%E5%B9%B3%E4%B9%8C%E9%B2%81"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

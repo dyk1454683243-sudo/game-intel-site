@@ -1,0 +1,90 @@
+{
+  "id": "nautika",
+  "name": "诺谛卡",
+  "name_zh": "诺谛卡",
+  "name_en": "Nautika",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 薪血 应变",
+  "rarity": "6星",
+  "element": "灵",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "冰芯钻探",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "白曚预警",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体造成伤害提升15%，受到伤害减少15%，持续2回合"
+    },
+    {
+      "name": "神圣之尤伊克",
+      "type": "ultimate",
+      "summary": "自我吟诵，使自身进入【生祭】状态1回合（不占己方咒语获取数量上限）"
+    },
+    {
+      "name": "仿神体",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：行动后，自身获得1层【暖意】"
+    },
+    {
+      "name": "仿神体",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：己方任意角色损失生命时将累计【薪血】;进入战斗时，自身失去50%当前生命，使【薪血】/【薪血上限】+8 自身不会因为失去生命效果使自身生命低于15%; 激情点替换为信仰，【薪血】每次增加时，信仰+1，信仰到达8时可以释放至终的仪式"
+    },
+    {
+      "name": "仿神体",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：处于【地母加护】状态下【薪血】每增加8点时，释放1次【地母之口】； 回合开始时，若自身未携带【复还】，消耗4点【薪血】获得【复还】，每次触发后下次消耗【薪血】+4"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Art of Himejoshing Out (Bloodtithe)：诺谛卡 / 塞梅尔维斯 / Rhiannon | 莫莉德尔 / 野树莓 | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%AF%BA%E8%B0%9B%E5%8D%A1",
+    "https://www.prydwen.gg/re1999/characters/nautika",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "诺谛卡",
+  "prydwen_slug": "nautika",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/nautika_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:nautika",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 诺谛卡 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Damage dealer",
+    "tags": "E1 Bloodtithe, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Damage dealer；E1 Bloodtithe, EA）",
+    "position": "6星 / 灵 / 现实 / 输出 薪血 应变",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%AF%BA%E8%B0%9B%E5%8D%A1"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "balloon-party",
+  "name": "气球派对",
+  "name_zh": "气球派对",
+  "name_en": "Balloon Party",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗 防御",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "皮纳塔塔",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；若自身拥有【派对气球】或【纯真气球】，则本次攻击穿透率提升50%"
+    },
+    {
+      "name": "咳咳怪人",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Counter、Counter）：群体治疗，使己方全体回复25%已损失生命"
+    },
+    {
+      "name": "好孩子、坏大人",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%现实创伤；使己方全体获得1个【纯真气球】和1个【派对气球】；并回复生命百分比最低的己方单体10%已损失生命值"
+    },
+    {
+      "name": "嘭嘭气球们",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，获得1个【派对气球】（最多触发3次）"
+    },
+    {
+      "name": "嘭嘭气球们",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，治疗率提升10%"
+    },
+    {
+      "name": "嘭嘭气球们",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：当回合开始获得【派对气球】的效果，变为永久"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%B0%94%E7%90%83%E6%B4%BE%E5%AF%B9",
+    "https://www.prydwen.gg/re1999/characters/balloon-party",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "气球派对",
+  "prydwen_slug": "balloon-party",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/balloon-party_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:balloon-party",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 气球派对 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Survival",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Survival）",
+    "position": "5星 / 岩 / 现实 / 治疗 防御",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%B0%94%E7%90%83%E6%B4%BE%E5%AF%B9"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

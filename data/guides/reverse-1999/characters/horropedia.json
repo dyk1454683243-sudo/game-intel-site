@@ -1,0 +1,85 @@
+{
+  "id": "horropedia",
+  "name": "恐怖通",
+  "name_zh": "恐怖通",
+  "name_en": "Horropedia",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 驱散 削弱",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "逻辑使然",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "彩球杂耍",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%精神创伤；若目标不处于【属性提升】【状态增益】，则额外造成60%精神创伤"
+    },
+    {
+      "name": "双胞胎诡计",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%精神创伤，攻击后赋予目标1层【忧惧】"
+    },
+    {
+      "name": "跳跃式惊吓",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：释放2阶及以上【逻辑使然】时，额外驱散目标所有【反制】"
+    },
+    {
+      "name": "跳跃式惊吓",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    },
+    {
+      "name": "跳跃式惊吓",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：释放2阶及以上咒语时，造成伤害提升20%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%81%90%E6%80%96%E9%80%9A",
+    "https://www.prydwen.gg/re1999/characters/horropedia",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "恐怖通",
+  "prydwen_slug": "horropedia",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/horropedia_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:horropedia",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 恐怖通 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": "Dispel",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry；Dispel）",
+    "position": "5星 / 岩 / 精神 / 输出 驱散 削弱",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%81%90%E6%80%96%E9%80%9A"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

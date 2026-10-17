@@ -1,0 +1,85 @@
+{
+  "id": "shamane",
+  "name": "鬃毛沙砾",
+  "name_zh": "鬃毛沙砾",
+  "name_en": "Shamane",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 削弱",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "见习舞术",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "通灵之媒",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体削弱，使敌方全体受到伤害提升10%，现实防御、精神防御降低15%，持续2回合"
+    },
+    {
+      "name": "万物之灵的旨意",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%现实创伤；对主目标暴击率提升20%且溢出暴击率转化为暴击创伤，额外造成250%现实创伤"
+    },
+    {
+      "name": "古老的智慧",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击时目标每有1种【属性削弱】状态，造成伤害提升8%，最高24%；进入战斗时，获得2层【自然的庇护】"
+    },
+    {
+      "name": "古老的智慧",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "古老的智慧",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：每2回合开始时，获得1层【自然的庇护】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%AC%83%E6%AF%9B%E6%B2%99%E7%A0%BE",
+    "https://www.prydwen.gg/re1999/characters/shamane",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "鬃毛沙砾",
+  "prydwen_slug": "shamane",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/shamane_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:shamane",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 鬃毛沙砾 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Support",
+    "tags": "E1 Ult, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Support；E1 Ult, Debuff）",
+    "position": "6星 / 兽 / 现实 / 输出 爆发 削弱",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%AC%83%E6%AF%9B%E6%B2%99%E7%A0%BE"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

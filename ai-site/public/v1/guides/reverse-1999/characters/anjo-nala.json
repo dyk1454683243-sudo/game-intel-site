@@ -1,0 +1,91 @@
+{
+  "id": "anjo-nala",
+  "name": "天使娜娜",
+  "name_zh": "天使娜娜",
+  "name_en": "Anjo Nala",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制 爆发",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "餍足的一餐",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成180%精神创伤，命中时使其陷入【倾心】2回合，若天使娜娜处于【欢颂】状态，则使【欢颂】剩余回合-1；攻击时目标每处于一种【状态异常】影响下，额外造成40%精神创伤"
+    },
+    {
+      "name": "双生的魅影",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，进入【欢颂】状态7回合，吟诵结束时释放【天使的邀约】。若使用时已处于【欢颂】状态，则使【欢颂】持续回合-1"
+    },
+    {
+      "name": "坠入美梦尽头",
+      "type": "ultimate",
+      "summary": "自我吟诵，天使娜娜及缔约者均进入吟诵状态1回合，下回合开始时，扣除缔约者50%当前生命，缔约者和天使娜娜先后释放自身至终的仪式（吟诵时缔约者和天使娜娜均无法行动） 天使娜娜释放群体攻击，随机赋予敌方全体【减益集合】中的2种效果后，造成500%精神创伤，敌方全体每有一种【状态异常】，额外造成60%精神创伤"
+    },
+    {
+      "name": "缔约誓词",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：战斗开始时选择一个其他友方进行【缔约】，根据目标的灵感确定【缔约】的类型，天使娜娜和缔约者互相根据对方的属性获得属性加成 灵智【灵与肉】：攻击、最大生命的4% 兽木【骨与血】：暴击创伤、现实防御的8% 岩星【形与影】：暴击率，精神防御的8% 天使娜娜的激情上限变为12（获取至终的仪式所需的激情变为8） 缔约者无法获得及使用仪式 缔约者获得激情时，改为使天使娜娜获得激情"
+    },
+    {
+      "name": "缔约誓词",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "缔约誓词",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：缔约者主动使用咒语后，若天使娜娜处于【欢颂】状态下，则使【欢颂】持续回合-1，并根据契约类型触发额外效果 【灵与肉】：天使娜娜对敌方血量百分比最低的单位追加使用一阶【餍足的一餐】 【骨与血】：天使娜娜额外获得1点激情 【形与影】：天使娜娜使用1次【天使的邀约】，每回合最多2次"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · I'm In Me Mum's Car Brume Brume：Enigma / 卡戎 / 纸信圈儿 | 天使娜娜 / 灰调蓝（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · I Thought You Were American (FUA)：天使娜娜 / 梁月 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%A4%A9%E4%BD%BF%E5%A8%9C%E5%A8%9C",
+    "https://www.prydwen.gg/re1999/characters/anjo-nala",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "天使娜娜",
+  "prydwen_slug": "anjo-nala",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/anjo-nala_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:anjo-nala",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 天使娜娜 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Sub Carry",
+    "tags": "E1 Ult, EA, Flex",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Sub Carry；E1 Ult, EA, Flex）",
+    "position": "6星 / 兽 / 精神 / 输出 控制 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%A4%A9%E4%BD%BF%E5%A8%9C%E5%A8%9C"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

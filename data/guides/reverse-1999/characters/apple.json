@@ -1,0 +1,79 @@
+{
+  "id": "apple",
+  "name": "APPLe",
+  "name_zh": "APPLe",
+  "name_en": "APPLe",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 治疗",
+  "rarity": "4星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "彩色的白",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "等量的光",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成150%精神创伤；使生命最低的己方单体回复使用者攻击*40%生命"
+    },
+    {
+      "name": "一些微小的成就",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%精神创伤；为生命百分比最低的己方单体回复使用者攻击*100%生命"
+    },
+    {
+      "name": "葡萄酒",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当回合开始时，回复己方全体各自8%已损失生命"
+    },
+    {
+      "name": "葡萄酒",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，治疗率提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/APPLe",
+    "https://www.prydwen.gg/re1999/characters/apple",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "APPLe",
+  "prydwen_slug": "apple",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/apple_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:apple",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI APPLe 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry）",
+    "position": "4星 / 星 / 精神 / 输出 治疗",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/APPLe"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

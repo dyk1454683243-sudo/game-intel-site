@@ -1,0 +1,79 @@
+{
+  "id": "alien-t",
+  "name": "星之眼",
+  "name_zh": "星之眼",
+  "name_en": "aliEn T",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "防御 控制",
+  "rarity": "3星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "被捕获者",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；若目标当前生命高于50%，则额外造成60%现实创伤"
+    },
+    {
+      "name": "无恶意者",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：自我反制，进入【嘲讽】状态，且受到伤害降低40%；持续1回合"
+    },
+    {
+      "name": "未来星际大战·序",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成200%现实创伤；命中时使其陷入【缴械】【缄默】状态1回合"
+    },
+    {
+      "name": "不要理睬！",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，进入【嘲讽】状态，同时获得星之眼现实防御*300%的护盾，持续2回合（最多触发1次）"
+    },
+    {
+      "name": "不要理睬！",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%98%9F%E4%B9%8B%E7%9C%BC",
+    "https://www.prydwen.gg/re1999/characters/alien-t",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "星之眼",
+  "prydwen_slug": "alien-t",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/alien-t_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:alien-t",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 星之眼 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Control",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Control）",
+    "position": "3星 / 星 / 现实 / 防御 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%98%9F%E4%B9%8B%E7%9C%BC"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}
