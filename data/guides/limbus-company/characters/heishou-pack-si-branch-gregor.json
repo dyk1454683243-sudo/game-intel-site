@@ -1,0 +1,112 @@
+{
+  "id": "heishou-pack-si-branch-gregor",
+  "name": "Heishou Pack - Si Branch Gregor",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Si Branch Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Snake Fang",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 10 (sum of this unit's Poise Potency and target's Rupture Potency) (max 2) [On Use] Gain +2 Poise Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture [On Crit] If this unit has Serpent Arm, inflict +1 Rupture Count",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Blindsiding Cleave",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 10 (sum of this unit's Poise Potency and target's Rupture Potency) (max 2) [Clash Win] Inflict +2 Rupture Count [Clash Win] Gain +2 Poise Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture 3 [On Hit] Inflict 2 Rupture [On Hit] At 30+ Poise, consume 10 Poise on self to Reuse Coin once (1 time max) [On Hit] Inflict Deathrite [Venom] [On Crit] Gain 1 Serpent Arm",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Serpentshear Puncturing Arm",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Pierce. Skill Power 8. Coins 1. Coin Power 14. Offense Level 64. Atk Weight 1. [On Use] Coin Power +1 for every 8 (sum of this unit's Poise Potency and target's Rupture Potency) (max 4) - If this unit has Serpent Arm, Coin Power +1 for every 5 (sum of this unit's Poise Potency and target's Rupture Potency) instead (max 6) [On Use] Gain 3 Serpent Arm [Clash Win] If the target has 5+ Rupture, gain 5 Poise 1 Deal +10% damage for every (Poise Potency on self + Rupture Potency on target) (max 200%) If this unit has Serpent Arm, deal +100% Damage on Critical Hit [On Hit] Reduce Deathrite [Venom] on target by 2 [On Crit] Reduce Deathrite [Venom] on target by 3 [On Crit] Inflict +2 Rupture Count [On Hit] Inflict Deathrite [Venom]",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Reverse Kick",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. Clashable Guard [Combat Start] Gain 3 Serpent Arm next turn [On Use] At 10+ Poise, Coin Power +1 1 Unbreakable Coin",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Heishou Mutation [Si]",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. If target has Deathrite [Venom], deal +5% damage for every Serpent Arm on self (max 15%) If this unit reduced the target's Deathrite [Venom] down to 0 Stack, gain 1 Pierce DMG Up next turn (max 2)"
+    },
+    {
+      "name": "Like a Serpent: Flexible, Elastic, and Unpredictable",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. If this unit is killed in this Encounter: every turn, at Combat Start, apply 2 Poise to the Substituting Identity of the earliest Deployment order"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-si-branch-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-si-branch-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-si-branch-gregor",
+  "released": "15/May/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Si Gregor is a hybrid user of Rupture and Poise; however, unlike Cinq Meursault, he prefers to be in a Poise team instead, as he will provide and gain more there. Let’s first talk about his unique statuses, starting with Serpent Arm which he gains from his Defensive Skill, Skill 2 and Skill 3. At turn end, it gives Gregor 3 Poise Potency and 2 Poise Count.If the target is affected with Rupture he will gain an additional 5 Poise Potency on base skill use. This status can stack up to 3 times and is reduced by 1 at turn end. His Second mechanic is Deathrite [Venom]. It is inflicted upon using Skill 2 and 3. It inflicts 1 Offense Level Down and 1 Defense Level Down upon getting Rupture triggered by a critical hit (up to 3 times per turn). Just like Deathrite [Haste] it also triggers Rupture when it hits 0 based on the Potency. This effect is quite abysmal when combined with the horrible cond",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-si-branch-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

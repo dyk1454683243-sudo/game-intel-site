@@ -1,0 +1,107 @@
+{
+  "id": "zwei-south-section-5-rodion",
+  "name": "Zwei Assoc. South Section 5 Rodion",
+  "name_zh": null,
+  "name_en": "Zwei Assoc. South Section 5 Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Fragile Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Careful Obstruction",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 4. Coins 2. Coin Power 2. Offense Level 58. Atk Weight 1. [On Use] Gain +2 Aggro to this Skill Slot next turn [Clash Lose] Gain +2 Poise Count 1 [On Hit] Gain +1 Poise Count 2 [On Hit] Gain +1 Poise Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Focused Defense",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Blunt. Skill Power 6. Coins 2. Coin Power 4. Offense Level 58. Atk Weight 1. [On Use] At 15+ Shield, gain +2 Poise Count [On Use] Gain +4 Aggro to this Skill Slot next turn [On Use] Gain +2 Poise Count 1 [On Hit] Gain +2 Poise Count",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Subdue Threat",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 5. Coins 3. Coin Power 2. Offense Level 58. Atk Weight 1. At 15+ Shield, Coin Power +2 1 [On Crit] Inflict 1 Fragile next turn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 63. Atk Weight 1. [On Use] Gain +5 Aggro to this Skill Slot next turn",
+      "attack_type": "-"
+    },
+    {
+      "name": "Designated Protection",
+      "type": "support",
+      "summary": "x3 Wrath [Res]. At the start of the combat phase, 1 ally with the lowest HP percentage gains 1 shield per 1 Poise Count next turn. (Max 10)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/zwei-south-section-5-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "zwei-south-section-5-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/zwei-south-section-5-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:zwei-south-section-5-rodion",
+  "released": "13/July/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "271",
+    "speed": "2-4",
+    "defense": "63",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Even with Uptie 4, Zwei Rodion is just not worth using. Her shield gained from having poise is way too small to even be considered tanky, she provides no team utility, no debuffs besides fragility on crit which is useless because she can't even gain poise potency, no team buffs, and her passives are not even good. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/zwei-south-section-5-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Rodion / Aggro Fragile Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/zwei-south-section-5-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

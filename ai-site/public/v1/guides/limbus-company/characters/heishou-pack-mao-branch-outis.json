@@ -1,0 +1,112 @@
+{
+  "id": "heishou-pack-mao-branch-outis",
+  "name": "Heishou Pack - Mao Branch Outis",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Mao Branch Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Haste Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Blinkstep",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 4. Coins 2. Coin Power 3. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If the target has 4+ Rupture, Coin Power +1 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture [On Hit] At 10+ Speed, Reuse Coin once (once per Skill)",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Performing Kill",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If the target has 4+ Rupture, Coin Power +1 [On Unopposed Attack] Inflict +1 Rupture Count 1 [On Hit] Inflict +1 Rupture Count Gain 1 Haste next turn (2 times per turn) 2 At 10+ Speed, deal +30% more damage [On Hit] Inflict +1 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Cursewrit Butcherblade",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. If this unit's Speed is faster than the target's, deal +(Speed difference x Rupture Potency on target)% more damage (max 50%) If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [On Use] If the target has 15+ Rupture, Coin Power +1 [On Use] Gain 3 Strider【Mao】 [On Unopposed Attack] Inflict +2 Rupture Count 1 [On Hit] Inflict 1 Rupture [On Hit] Inflict Deathrite[Haste] 2 [On Hit] Inflict 1 Rupture 3 [On Hit] Inflict 1 Rupture [On Hit] At 10+ Speed, deal +30% more damage [On Hit] At 10+ Speed, Reuse Coin once (once per Skill) [Reuse - On Hit] Inflict Deathrite[Haste]",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Partial Heishou Mutation",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Slash. Skill Power 5. Coins 1. Coin Power 7. Offense Level 60. Atk Weight 1. [Clashable Counter] [On Use] Gain 3 Strider【Mao】 [On Use] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2) 1 [On Hit] Inflict +1 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Heishou Mutation [Mao]",
+      "type": "passive",
+      "summary": "x3 Gluttony [Owned]. If this unit has Strider【Mao】 and the target has Deathrite【Haste】, deal +5% more damage for every Strider【Mao】 (max 15%)"
+    },
+    {
+      "name": "A Husk of Hares",
+      "type": "support",
+      "summary": "x3 Gluttony [Res]. 1 ally with the fastest Speed: when attacking targets with Rupture, deal +10% more damage Gain 1 Haste next turn (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-mao-branch-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-mao-branch-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-mao-branch-outis",
+  "released": "20/March/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "209",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Heishou Pack is their name and Speed is their game. The Heishou Pack - Mao Branch are units that gain massive Speed and inflict a debuff, which is immensely helpful in maintaining Rupture Count. Heishou Pack Outis, specifically, is Heishou Pack Ryoshu’s partner and while both of them work very well independently, having both on a single team helps a lot to maintain Rupture Count on an enemy with their unique debuff. The main gimmick of Heishou Pack - Mao Branch Outis comes from its S3 and Counter, where upon using either of those, she will gain 3 Strider [Mao]. Strider[Mao] simply gives the unit 5 Haste for 3 entire turns, which single-handedly increases Outis’ Speed range from 4-7 to 9-12 instead. Next is Deathrite [Haste], which is inflicted only from Outis’ S3. What it does is that when Rupture is triggered on a target by an attack from a unit with 10+ Speed, it loses 1 Stack and the",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Haste Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-mao-branch-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

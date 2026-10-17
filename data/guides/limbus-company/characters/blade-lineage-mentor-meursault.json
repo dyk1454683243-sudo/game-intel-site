@@ -1,0 +1,113 @@
+{
+  "id": "blade-lineage-mentor-meursault",
+  "name": "Blade Lineage Mentor Meursault",
+  "name_zh": null,
+  "name_en": "Blade Lineage Mentor Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bleed Paralyze Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Draw of the Sword",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. At 5+ Poise, Coin Power +1 [Combat Start] Apply 1 Sword of the Homeland - Rending to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fastest, 2 times max) - If there are 6 or more allies Blade Lineage Identitites in the Encounter, apply 2 instead [On Use] Gain +2 Poise Count 1 [On Hit] Gain 1 Poise 2 [On Hit] Gain 1 Poise",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Acupuncture",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 3. Coins 3. Coin Power 5. Offense Level 63. Atk Weight 1. At 7+ Poise, Coin Power +1 [Combat Start] Apply 1 Sword of the Homeland - Penetrating to (highest A-Reson.) other Blade Lineage allies in ascending order of Speeds (slowest to fasest, 2 times max) - If there are 6 or more allied Blade Lineage Indentities in the Encounter, apply 2 instead [On Use] Gain +3 Poise Count [Clash Win] Gain 1 Slash Power Up next turn 1 [On Hit] Gain 3 Poise 3 +60% Damage on Critical Hit",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Yield My Flesh",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 20. Coins 1. Coin Power -8. Offense Level 60. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Until this Skill ends, this unit cannot be Staggered from taking damage [Clash Win] Gain 5 Poise [Clash Lose] After getting hit, use 'To Claim Their Bones' Skill [On Crit] Deal +3% more damage on Critical Hit for every Poise Potency on self (Max 75%) +30% Damage on Critical Hit Deal +0.5% more damage per 1% missing HP on self (Max 25%)",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "To Claim Their Bones",
+      "type": "defense",
+      "summary": "Defense Counter · Pride. Slash. Skill Power 4. Coins 4. Coin Power 4. Offense Level 65. Atk Weight 1. [Before Attack] For every 7 Poise on self, Atk Weight +1 (Max +2) [On Use] Until this Skill ends, this unit cannot be Staggered from taking damage [On Use] Deal +2% more damage on Critical Hit for every Poise Potency on self (Max 50%) +30% Damage on Critical Hit Deal +0.5% more damage for every 1% missing HP on self (Max 25%) If this Skill targets only a single enemy, deal +100% more damage (In Focused Encounters, a single Part) 1 [On Hit] Inflict 3 Bleed [On Hit] Inflict 5 Paralyze next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Overthrow",
+      "type": "defense",
+      "summary": "Defense Counter · . Skill Power 8. Coins 1. Coin Power 10. Offense Level 65. Atk Weight 1. [On Use] Gain 1 Slash Power Up next turn (1 time max) Deal +0.5% more damage per 1% missing HP on self (Max 25%) 1 [On Hit] Gain 2 Poise"
+    },
+    {
+      "name": "Swordplay of the Homeland",
+      "type": "passive",
+      "summary": "x3 Pride [Res]. In this encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn (Once per Encounter) When this unit gains Poise Potency/Count with its own Skill or Coin effects: give 1 Poise Potency and +1 Poise Count to 2 other Blade Lineage allies with no Poise or with the least Poise - If there are 6 or more Blade Lineage allies participating in this Encounter, give 2 Poise Potency and +2 Poise Count instead Combat Start: Apply Swordplay of the Homeland buff to all other Blade Lineage allies Swordplay of the Homeland x5 Pride [Owned] Combat Start: 1 ally with the most Poise deals +15% damage on Critical Hit"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/blade-lineage-mentor-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "blade-lineage-mentor-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/blade-lineage-mentor-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:blade-lineage-mentor-meursault",
+  "released": "22/February/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "246",
+    "speed": "4-6",
+    "defense": "63",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Blade Lineage Meursault used to be a “Godsent” ID, got powercrept afterwards, and now, thanks to Shadow-vested Bladesinger [着影揮刀] E.G.O and actually competent Blade Lineage Identity, which is LCD OSIR Team Ishmael, he claims his way to “relevance” again. Said E.G.O. makes him a double-status ID, which is mostly relevant for MD. More importantly, it boosts his damage and rolls into “current standards” as of the day of the review. Of course, he won’t match the damage of House of Spiders Yi Sang or Outis, but at least it is sitting on a respectable level. Unfortunately for him, Blade Lineage did not get a “buff” as a whole. While E.G.O buffs BL to a certain degree, their kits did not age well, and it shows. The only Blade Lineage ID that can benefit somehow from the new Meursault E.G.O is Blade Lineage Yi Sang, who already had decent rolls, but now those got even higher. So while damage is",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/blade-lineage-mentor-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Aggro Bleed Paralyze Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/blade-lineage-mentor-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

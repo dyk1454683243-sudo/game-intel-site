@@ -1,0 +1,113 @@
+{
+  "id": "seven-south-section-4-faust",
+  "name": "Seven Assoc. South Section 4 Faust",
+  "name_zh": null,
+  "name_en": "Seven Assoc. South Section 4 Faust",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "faust",
+    "name_en": "Faust",
+    "name_zh": "浮士德",
+    "order": 2,
+    "source": "https://www.gamekee.com/limbus/585793.html"
+  },
+  "rarity": "000",
+  "role": "Haste Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Predictive Analysis",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 4. Coins 2. Coin Power 3. Offense Level 63. Atk Weight 1. Coin Power +1 for every 3 Rupture on target (Max 2) 1 [On Hit] Inflict 3 Rupture",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Dissect Target",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Coin Power +1 for every 6 Rupture on target (Max 2) [Clash Win] Inflict 3 Rupture Count 1 [On Hit] Inflict 3 Rupture 2 [On Hit] If target has 6+ Rupture, inflict Weakness Analyzed next turn",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Profiling",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] Deal +10% damage for every 3 Rupture on target (Max 50%) [Clash Win] Inflict +2 Rupture Count 1 [On Hit] Inflict 3 Rupture 2 [After Attack] If target is Staggered or defeated, gain 1 Haste and 1 Slash Power Up next turn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Let's Wrap It Up",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 58. Atk Weight 1. [On Use] Gain 1 Haste next turn (3 times per turn)",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Before The Tea Cools",
+      "type": "passive",
+      "summary": "x3 Gluttony [Owned]. When attacking with a damage type the target is \"Weak\" or \"Fatal\" (Resistance>x1) to, gain 1 Poise for each Rupture on target before the attack (Max 20 per turn)"
+    },
+    {
+      "name": "Seven Association Tea Time",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. 1 ally with the fastest Speed deals more damage based on the target's Rupture when attacking with a damage type the target is \"Weak\" or \"Fatal\" (Resistance>x1) to (1.5% per 1 Rupture, Max 15%). If the ally is a Seven Association Fixer, deals further increased damage (+0.5% per 1 Rupture; Max 5%)."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-faust",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585793.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "seven-south-section-4-faust",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/seven-south-section-4-faust_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:seven-south-section-4-faust",
+  "released": "07/September/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "220",
+    "speed": "4-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The damage dealer of rupture. Instead of maintaining rupture she focuses on having high clash power and damage boasting from 10/16/17 to a whopping 14/22/17, Unfortunately her s3 does not gain any coin power boost instead it gets a dmg boost depending on the amount of rupture on target. All of this in exchange of having negative rupture count on both s1 and s3 while s2 being neutral count meaning you’re gonna have to pay attention to the rupture count the enemy has as she can easily demolish them No particular E.G.O Synergies. Due to the fact that Fluid Sac Faust E.G.O. is arguably the best E.G.O. in game, it is always worth having",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/seven-south-section-4-faust",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585793.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Faust / Haste Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/seven-south-section-4-faust，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

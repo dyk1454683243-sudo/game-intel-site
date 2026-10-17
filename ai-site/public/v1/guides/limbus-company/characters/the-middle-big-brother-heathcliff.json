@@ -1,0 +1,106 @@
+{
+  "id": "the-middle-big-brother-heathcliff",
+  "name": "The Middle Big Brother Heathcliff",
+  "name_zh": null,
+  "name_en": "The Middle Big Brother Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bleed Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Kicking",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 2. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. If target has 6+ (Burn + Bleed), Coin Power +1 [On Use] If target has Vengeance Mark, Final Power +1 [On Use] Gain +3 Aggro to this Skill Slot next turn 1 [On Hit] Lower user's Stagger Treshold by 5 If target has Vengeance Mark, heal 3 SP 2 [On Hit] Inflict 2 Bleed [On Hit] Inflict 1 Burn 3 [On Hit] Inflict 2 Bleed [On Hit] Inflict 2 Burn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Watch Your Back!",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If target has 6+ (Burn + Bleed), Coin Power +1 [Combat Start] Apply 2 Offense Level Up on allies adjacent to this unit on the Dashboard [Combat Start] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down) [On Use] If target has Vengeance Mark, Final Power +2 [On Use] Gain +5 Aggro to this Slot next turn 1 [On Hit] Inflict +3 Bleed Count [On Hit] Inflict +1 Burn Count 2 [On Hit] Inflict 2 Bleed 3 [On Hit] Inflict 2 Paralyze [On Hit] Inflict 3 Burn",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "MY HAIR COUPOOOOOOOOOOONS!!!!",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 10. Coins 1. Coin Power 12. Offense Level 65. Atk Weight 1. Final Power +1 for every 4 (Burn + Bleed) on the main target (max 3) Final Power +1 for every 2 Envy Reson. (max 3 [Combat Start] This Skill gains (highest Reson.) Offense Level (max 6) [On Use] If the main target has Vengeance Mark, Final Power +2 [On Use] At 6+ Envy A-Reson., gain +1 Atk Weight [On Use] At 20+ Book of Vengeance [Heathcliff], gain +1 Atk Weight [On Use] Deal +60% for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part) [On Kill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (max 6 per turn) 1 Unbreakable Coin [On Hit] Inflict 5 Bleed [On Hit] Inflict 5 Burn [On Hit] Deal (Envy Reson. x 5)% of this Coin's final damage as Blunt bonus damage (max 30%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "COMPLETE AND TOTAL EXTERMINATION!!",
+      "type": "skill4",
+      "summary": "Skill 4 · Envy. Blunt. Skill Power 16. Coins 1. Coin Power 10. Offense Level 66. Atk Weight 3. External effects cannot trigger this Skill to be Reused Deal +1% damage for every 1% missing HP on self (max 30%) Final Power +1 for every 4 (Burn + Bleed) on the main target (max 5) [Combat Start] This Skill gains (highest Reson.) Offense Level (max 6) [On Use] If the main target has Vengeance Mark, Final Power +3 [On Use] At 20+ Book of Vengeance [Heathcliff], gain +1 Atk Weight [On Use] Deal +60% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounter, the Part) [On Kill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (max 4) [Attack End] Consume 15 Vengeance Tatto o on self 1 Unbreakable Coin If target is Staggered, deal +20% damage [On Hit] Inflict 5 Bleed [On Hit] Inflict 5 Burn [On Hit] Inflict 5 Tremor [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Deal (Envy Reson. x 7)% of this Coin's final damage as Blunt bonus damage (max 42%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Payback",
+      "type": "defense",
+      "summary": "Defense Counter · . Skill Power 5. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] At 6+ sum of Envy A-Reson., use \"MY HAIR COUPOOOOOOOOOOONS!!!!\" Skill as Counter (Activates from the Leftmost Skill Slot. Activates 2 times per turn) [Combat Start] Heal (Envy Reson. + 3) SP for 3 of The Middle-faction allies that have the lowest SP (including this unit; once per turn, max 10 SP; excluding allies at -40 or lower SP) [Combat Start] Gain 25% of missing HP as Shield (once per turn) 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 2 Bleed"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-middle-big-brother-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-middle-big-brother-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-middle-big-brother-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-middle-big-brother-heathcliff",
+  "released": "30/April/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "282",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The middle Big Brother, or, for short, Ricardo Heathcliff, is a brand-new addition to the Envy resonance team, an infamous archetype known for its rather heated discussions. Regardless of that, let’s look into what Ricardo Heathcliff brings to the team and dig into the truth about the Envy team's future. Starting with his passives, he has three. The first 2 are free and always active and we can divide them into 2 categories. The first Passive revolves around his S3-2 and extra S3-1 whenever he gets into the field. On top of that, allies that are being hit inflict Vendetta Mark and give Book of Vengeance stacks for Heathcliff. This part of his kit literally plays itself, so there is no need for extra explanation. The other part of his free passives provides a lot of QoL additions for Middle faction members, making them take less damage and neglecting any stagger at 4+ Envy RES as long as",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-middle-big-brother-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Support SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Aggro Bleed Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-middle-big-brother-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

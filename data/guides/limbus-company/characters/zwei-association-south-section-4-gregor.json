@@ -1,0 +1,106 @@
+{
+  "id": "zwei-association-south-section-4-gregor",
+  "name": "Zwei Association South Section 4 Gregor",
+  "name_zh": null,
+  "name_en": "Zwei Association South Section 4 Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Haste",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Standoff",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 4. Coins 2. Coin Power 3. Offense Level 60. Atk Weight 1. [On Use] Gain 2 Defense Level Up [Clash Lose] Gain shield by (5* Defense Level Up on self); Gain 2 Defense Level Up next turn 1 [On Hit] Gain 2 Haste next turn",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Flexible Suppression",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 3. Coins 4. Coin Power 3. Offense Level 60. Atk Weight 1. [On Use] Gain 3 Defense Level Up [On Use] Gain +3 Aggro to this Skill Slot next turn At 6+ Defense Level Up, Clash Power +1 1 [On Hit] Gain 1 Defense Level Up 2 [On Hit] Gain 1 Defense Level Up 3 [On Hit] At 6+ Defense Level Up, deal +40% damage",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guardian",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 5. Coins 3. Coin Power 3. Offense Level 60. Atk Weight 1. [On Use] Apply 2 Defense Power Up and 3 Defense Level Up to all allies. Coin Power +1 per 6 Defense Level Up (Max 3) At 10+ Defense Level Up, deal +50% damage 1 [On Hit] Apply 3 Defense Level Up to all allies next turn",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "The Best Defense",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. [Combat Start] Gain shield by (2* Defense Level Up on self) [On Use] Gain +5 Aggro to this Skill Slot next turn",
+      "attack_type": "-"
+    },
+    {
+      "name": "Combat Shield",
+      "type": "passive",
+      "summary": "x5 Sloth [Owned]. If targeted by 2 or more attacks at the start of the combat phase, gain 2 Defense Level Up. If at 50% or less HP at the start of the combat phase, gain 3 Defense Level Up. Your Shield x5 Sloth [Owned] If 1 ally with the highest Max HP is targeted by 2 or more attacks, gain 3 Defense Level Up."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-4-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "zwei-association-south-section-4-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/zwei-association-south-section-4-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:zwei-association-south-section-4-gregor",
+  "released": "10/August/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "270",
+    "speed": "4-8",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Zwei Gregor is a tank that unfortunately doesn't really shine much as the other tanks in this game in terms of damage and tankiness, but is still reliable enough to be used when you don't have many other tanking options. He enhances the survivability for the entire team and can effectively tank nuke attacks like Talisman Doll's big nuke attack. He is also exceptionally versatile.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/zwei-association-south-section-4-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Tank C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Aggro Haste"
+  },
+  "verified": "Prydwen /limbus-company/identities/zwei-association-south-section-4-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

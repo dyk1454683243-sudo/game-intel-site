@@ -1,0 +1,108 @@
+{
+  "id": "firefist-office-survivor-gregor",
+  "name": "Firefist Office Survivor Gregor",
+  "name_zh": null,
+  "name_en": "Firefist Office Survivor Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Burn",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Flamethrow",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 3 Burn on the target (max 2) 1 [On Hit] Inflict 2 Burn 2 [On Hit] Consume 15 District 12 Fuel to inflict +2 Burn Count",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I'll burn away every last drop of your filthy blood",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Coin Power +1 for every 6 Burn on the target (max 2) Coins that consumed District 12 Fuel deal +15% more damage - When in Overheated Fuel state, deal +30% more damage instead 1 [On Hit] Inflict 2 Burn [On Hit] Consume 10 District 12 Fuel to inflict 2 Burn against 2 targets with the least Burn Potency 2 [On Hit] Inflict +2 Burn Count [On Hit] Consume 10 District 12 Fuel to inflict +1 Burn Count against 2 targets with the least Burn Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Firefist",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. Coin Power +1 for every 3 Burn Count on the target (max 2) [On Use] Base Power +1 for every 6 Burn on the target (max 3) [On Use] Consume up to 25 District 12 Fuel and deal +2% more damage for every District 12 Fuel consumed (max 50%) - When in Overheated Fuel state, deal +4% more damage for every District 12 Fuel consumed (max 100%) [After Attack] If the target is defeated, of if this Skill consumed District 12 Fuel, gain 2 Blunt DMG Up next turn 1 [On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count 2 [On Hit] If District 12 Fuel was consumed, inflict 2 Burn and +1 Burn Count 3 [On Hit] Deal +2% more damage for every District 12 Fuel consumed by this Skill (max 50%) - When in Overheated Fuel, deal +4% more damage for every District 12 Fuel consumed instead (max 100%)",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I have to keep going for big sis",
+      "type": "defense",
+      "summary": "Defense Counter · Gloom. Blunt. Skill Power 9. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. [Clashable Counter] [Combat Start] Gain 100 District 12 Fuel 1 [On Hit] Inflict 1 Burn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I'm the only survivor…",
+      "type": "passive",
+      "summary": "x3 Wrath [Res]. Deal +0.2% more damage for every District 12 Fuel and Overheated Fuel this unit consumed in this Encounter (max 40%) - If the main target is a , , or if the sum of Burn and Burn Count is 30+, deal +0.3% more damage instead (max 60%) At 1+ District 12 Fuel or Overheated Fuel, if this unit Staggers or defeats enemies with Burn, inflict +2 Burn Count against 2 random enemies without Burn or with the least Burn Count (once per turn) - For Focused Encounters, on Parts I hope they're from our Office… x3 Wrath [Res] 1 ally with the fastest Speed: On Hit, deal +5% more Wrath Damage for every 6 Burn on the target (max 20%)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/firefist-office-survivor-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "firefist-office-survivor-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/firefist-office-survivor-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:firefist-office-survivor-gregor",
+  "released": "06/March/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "259",
+    "speed": "4-6",
+    "defense": "63",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Firefist Office Survivor] Gregor is a straightforward, simple, and strong Burn-centric ID. Gregor starts encounters with a resource called “District 12 Fuel” that can turn into “Overheating Fuel” and both are consumed by his skills to do more damage (and I mean a lot more damage) or spread Burn. But before going further, let's talk about skills: - Skill 1 - Flamethrow - Max roll 15 - 2 Coins - Simple skill 1 that applies Burn Potency and Count. - Skill 2 - I'll burn away every last drop of your filthy blood - Max roll 20 - 2 Coins - When consuming Fuel, this skill does decent damage on top of spreading Burn Potency and Burn Count around. - Skill 3 - Firefist - Max roll 24 - 3 Coins - A very high damage skill that also provides Blunt Dmg Up to boost damage for the next turn and is very easy to activate. - Defensive Skill - Clashable Counter - Max roll 16 - 1 coin - This is the most notab",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/firefist-office-survivor-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/firefist-office-survivor-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

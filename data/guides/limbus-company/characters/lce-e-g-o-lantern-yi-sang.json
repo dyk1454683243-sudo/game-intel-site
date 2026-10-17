@@ -1,0 +1,112 @@
+{
+  "id": "lce-e-g-o-lantern-yi-sang",
+  "name": "LCE E.G.O::Lantern Yi Sang",
+  "name_zh": null,
+  "name_en": "LCE E.G.O::Lantern Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Though it must...",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Blunt. Skill Power 4. Coins 2. Coin Power 3. Offense Level 60. Atk Weight 1. [Combat Start] On Clash Lose, gain Final Power equal to the number of Skills targeting this unit (max 3) [On Use] Gain +3 Aggro next turn [On Use] If the target has 15+ Rupture and 3+ Rupture Count: this Skill does not inflict Rupture with its effects [Clash Lose] Rupture Potency inflicted by this Skill +2 1 Unbreakable Coin [On Hit] Inflict 1 Ruputre 2 Unbreakable Coin [On Hit] Inflict 1 Ruputre",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "when juxtaposed with...",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 8. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. [Combat Start] On Clash Lose, gain (# of Skills targeting this unit x 2) Final Power (max 6) [On Use] Gain +4 Aggro next turn [On Use] If the target has 15+ Rupture and 3+ Rupture Count: this Skill does not inflict Rupture Count with its effects [Clash Lose] Rupture Count inflicted by this Skill +2 1 Unbreakable Coin [On Hit] Inflict +2 Ruputre Count 2 >",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "the idiosyncrasies...",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Blunt. Skill Power 16. Coins 3. Coin Power -5. Offense Level 65. Atk Weight 1. Deal +0.8% more damage for every 1% missing HP on self [Combat Start] Base Power +1 for every Skill that targets this unit (max 3) [On Use] Gain 3 Fairy Lure (once per turn) [On Use] Gain +8 Aggro next turn [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its effects; instead, gain Base Power +1 [After Attack] Heal 30 SP 1 [On Hit] Inflict +3 Rupture Count [On Hit] Inflict 2 Bind 2 [On Hit] Inflict 1 Rupture 3 [On Hit] Inflict 1 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Yet, the degree...",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Blunt. Skill Power 10. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. [Combat Start] Gain 3 Fairy Lure (once per turn) [On Use] Gain +8 Aggro next turn [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Count with its effects; instead, gain Base Power +3 1 [On Hit] Inflict +2 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "This is reflected...",
+      "type": "passive",
+      "summary": "x3 Gluttony [Owned]. On death, inflict 5 Rupture and +3 Rupture Count against the target that attacked this unit last; then, gain 2 E.G.O resources for 4 least-owned E.G.O resources. - If no one attacked this unit, or if an ally killed this unit, inflict 5 Rupture and +3 Rupture Count against the enemy with the least Rupture Count - If this unit is in a Fairy Lure state, inflict double the Rupture potency with this effect"
+    },
+    {
+      "name": "E.G.O disintegration...",
+      "type": "support",
+      "summary": "x5 Gluttony [Owned]. When 1 ally with the least HP is killed, gain 2 E.G.O resources for the 2 E.G.O least-owned E.G.O resources"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-lantern-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lce-e-g-o-lantern-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lce-e-g-o-lantern-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lce-e-g-o-lantern-yi-sang",
+  "released": "23/January/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Lantern Yi Sang is an ID that was made to die. He functionally provides no benefits from staying alive, and the Rupture he can inflict from his skill is extremely limited due to the conditional that he cannot inflict Rupture at all if the enemy has 15+ Rupture Potency and 3+ Rupture Count. His clashes and damage both also suck, as he’s made with the sole purpose of losing clashes. This would make this ID utterly awful for new players and one that must be avoided at all costs. However when you eventually unlock Chain Battles and have more access to teams and ego, Lantern Yi Sang does see some value to him, and this comes from his Passive. On death, Lantern Yi Sang will inflict 5 Rupture Potency and 3 Rupture Count against the target that attacked him last, and you gain 2 E.G.O Resources for the 4 least-owned resources which is huge for Railway runs, giving you a very nice boost in free re",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-lantern-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Yi Sang / Aggro Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/lce-e-g-o-lantern-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

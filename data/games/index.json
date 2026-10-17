@@ -875,14 +875,15 @@
       "name_zh": "边狱公司",
       "platforms": [
         "steam",
-        "pc"
+        "pc",
+        "mobile"
       ],
       "tags": [
         "gacha",
         "rpg"
       ],
-      "stub": true,
-      "watchlist": false,
+      "stub": false,
+      "watchlist": true,
       "steam_appid": 1973530,
       "path": "games/limbus-company"
     },

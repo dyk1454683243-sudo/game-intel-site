@@ -1,0 +1,108 @@
+{
+  "id": "r-b-sous-chef-gregor",
+  "name": "R.B. Sous-chef Gregor",
+  "name_zh": null,
+  "name_en": "R.B. Sous-chef Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "00",
+  "role": "Bind Bleed Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Keep It Fresh",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 4. Coins 2. Coin Power 2. Offense Level 61. Atk Weight 1. If target has 4+ Bind, deal +30% damage 1 [On Hit] Inflict 1 Paralyze If target has Bleed, inflict 1 Paralyze next turn 2 [On Hit] Inflict 1 Bleed",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "You Fresh Enough?",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 6. Coins 1. Coin Power 8. Offense Level 60. Atk Weight 1. If user's speed is higher than target's by 3+, Coin Power +3 1 [On Hit] Inflict +2 Bleed Count Inflict 2 Bind next turn",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Butcher Viand",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 5. Coins 4. Coin Power 1. Offense Level 63. Atk Weight 1. If target has 10+ Bleed Count, Coin Power +1 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Paralyze 3 [On Hit] Inflict 1 Paralyze 4 [On Hit] Heal HP based on target's Bleed (Max 20%)",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 62. Atk Weight 1",
+      "sin": "Lust",
+      "attack_type": "-"
+    },
+    {
+      "name": "Packed Pies",
+      "type": "passive",
+      "summary": "x4 Lust [Owned]. Heal 8 HP at the start of the combat phase. Culinary Aid x5 Lust [Owned] At the start of the combat phase, the ally with the lowest HP heals 5 HP. Boosts the healing of R.B. Chef de Cuisine Ryōshū Passive (Rustle Up) by 5."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/r-b-sous-chef-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "r-b-sous-chef-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/r-b-sous-chef-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:r-b-sous-chef-gregor",
+  "released": "20/April/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "238",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Even at Uptie 4, R.B. Gregor does not offer much. His power scales with enemies being slower than him and enemies having Bleed but even with those online, he underperforms compared to other bleed identities. He has so many effects but those barely matter. Not worth Uptie 4, his passive is only better than Base Gregor’s if you are using R.B. Ryoshu. Collection purposes.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/r-b-sous-chef-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Gregor / Bind Bleed Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/r-b-sous-chef-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

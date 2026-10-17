@@ -1,0 +1,116 @@
+{
+  "id": "lce-e-g-o-dimension-shredder-yi-sang",
+  "name": "LCE E.G.O::Dimension Shredder Yi Sang",
+  "name_zh": null,
+  "name_en": "LCE E.G.O::Dimension Shredder Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Charge Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Dimensional Slice",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Slash. Skill Power 6. Coins 1. Coin Power 7. Offense Level 63. Atk Weight -. [On Use] Final Power +1 for every 6 (Charge Count on self + Rupture and Dimensional Rift on target) (max 3) [On Use] Consume 2 Charge Count to gain Coin Power +1 1 [On Hit] Gain +6 Charge Count [On Hit] Inflict 2 Rupture [On Hit] Consume 1 Dimensional Castaway to Reuse this Coin (once per Skill)",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Consecutive Dimensional Slice",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight -. [On Use] Final Power +1 for every 6 (Rupture + Dimensional Rift) on target (max 3) [On Use] Consume 5 Charge Count to gain Final Power +2 [On Use] At 3+ Charge Potency, Coin Power +1 1 [On Hit] Gain +6 Charge Count [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 2 Rupture [On Hit] Inflict 1 Dimensional Rift [On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (max 20%)",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rip Space",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight -. [Before Use] At 15+ Charge Count, activate \"Four-dimensional Refraction Time Series Severance\" instead [On Use] At 7~14 Charge Count: - Consume all Charge Count and gain Coin Power +1 for every 7 Charge Count consumed (max 2) [On Use] Final Power +1 for every 6 (Rupture + Dimensional Rift) on target (max 4 [On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions 1 [On Hit] Gain +1 Charge Count [On Hit] Inflict 1 Rupture 2 [On Hit] Gain +1 Charge Count [On Hit] Inflict 1 Rupture 3 [On Hit] Inflict 1 Rupture [On Hit] Inflict 2 Dimensional Rift [On Hit] Deal Slash damage equal to (Charge Potency on self x 4)% of this Coin's final damage (max 20%)",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Four-dimensional Refraction Time Series Severance",
+      "type": "skill4",
+      "summary": "Skill 4 · . Slash. Skill Power 5. Coins 3. Coin Power 3. Offense Level 65. Atk Weight 4. Unfocused Volley [On Use] Final Power +1 for every 6 (Rupture + Dimensional Rift) on the main target (max 3) [On Use] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions [On Use] Consume 15 Charge Count to gain Final Power +1 and Coin Power +2 1 [On Hit] Gain 1 Quadricolor Dimensions [On Hit] Inflict 1 Rupture [On Hit] Deal Slash damage equal to 5% of this Coin's final damage to all targets 2 [On Hit] Gain 1 Quadricolor Dimensions [On Hit] Inflict 1 Rupture [On Hit] Deal Slash damage equal to 5% of this Coin's final damage to all targets 3 [On Hit] Gain 1 Quadricolor Dimensions [On Hit] Inflict 1 Rupture [On Hit] Deal Slash damage equal to 5% of this Coin's final damage to all targets 4 [On Hit] Gain +1 Charge Count [On Hit] Inflict 2 Rupture [On Hit] Deal Slash damage equal to 5% of this Coin's final damage to all targets [On Hit] At 5+ Charge Potency, Reuse this Coin (once per Skill)",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sidestep",
+      "type": "defense",
+      "summary": "Defense Evade · . Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. [Combat Start] Gain Charge Barrier equal to Charge Potency on self (once per turn; max 5) [Combat Start] Gain 1 Dimensional Castaway and 1 Quadricolor Dimensions (once per turn) - At 3+ Charge Potency, gain 1 additional Stack of the above effects [Combat Start] At fewer than 7 Charge Count, consume (7 - Charge Count on self)% HP to gain up to 7 Charge Count (this unit's HP cannot drop to 0 due to this effect; rounded down [Combat Start] At more than 15 Charge Count, consume up to 10 surplus Charge Count and apply the following effects: - Heal (Charg e Count consumed)% HP - Gain (Charge Count consumed / 3) Haste next turn (rounded down)"
+    },
+    {
+      "name": "VelocityAndCoordinatesAndVelocity",
+      "type": "passive",
+      "summary": "x4 Envy [Owned]. If this unit's Speed is faster than the target's, deal +(Speed difference x Charge Potency on self)% damage (max 20%) Turn End: Gain (Charge Potency on self / 2) Haste next turn (max 2; rounded down)"
+    },
+    {
+      "name": "LetManOutrunEvenTheRayOfLight",
+      "type": "support",
+      "summary": "x3 Envy [Owned]. When 1 ally with the fastest Speed uses a Skill that gains or consumes Charge Count, gain 1 Haste next turn (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-dimension-shredder-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lce-e-g-o-dimension-shredder-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lce-e-g-o-dimension-shredder-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lce-e-g-o-dimension-shredder-yi-sang",
+  "released": "23/July/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "242",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Sometimes you look at certain Identities, and they make you wonder: What was going on in the Designer’s head? After so many powerful and interesting Identities in Season 7, we are now at such a moment with mediocrity incarnate, the new charge Rupture Identity [LCE E.G.O::Dimension Shredder Yi Sang]. Let's look at the new effects, passives, and skills first to get a broader picture. - Dimensional Castaway - A status that gives Yi Sang a shield before he is hit. It is mostly for Yi Sang to follow up after an ally’s attack with his Skill 1. - Quadricolor Dimensions - This buff might as well be called poor man’s shin. Yi Sang gains 1 stack after a follow-up attack, evade, and after using either Skill 3-1 or Skill 3-2. Ordered by the number of stacks, it is a simple 1 Offense Level, 2 Defense Level, +1 Charge Count from skills, and a meager 20% dmg buff is all that Quadricolor Dimensions does",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-dimension-shredder-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Charge Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/lce-e-g-o-dimension-shredder-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

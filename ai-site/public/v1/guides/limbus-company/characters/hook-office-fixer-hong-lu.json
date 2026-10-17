@@ -1,0 +1,103 @@
+{
+  "id": "hook-office-fixer-hong-lu",
+  "name": "Hook Office Fixer Hong Lu",
+  "name_zh": null,
+  "name_en": "Hook Office Fixer Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "00",
+  "role": "Bleed Haste",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Track",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. At 2+ Haste, Final Power +1 1 [On Hit] Inflict 1 Bleed [Heads hit] Inflict +1 Bleed Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Goin' First",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 4. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. At 6+ Speed, Coin Power +1 [On Use] Gain 2 Haste next turn 1 [Heads Hit] Inflict 1 Bleed 2 [Heads Hit] Inflict 1 Bleed 3 [On Hit] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 4)",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Rampage",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 4. Coins 4. Coin Power 2. Offense Level 63. Atk Weight 1. At 6+ Speed, Coin Power +1 Deal more damage based on target's missing HP (+0.5% damage per 1% missing HP) 1 [Heads Hit] Heal 1 SP per Bleed on target (Max 10) 2 [On Hit] Inflict 1 Bleed 3 [On Hit] Inflict 2 Bleed",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Quickness",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. If target has 7+ Bleed, gain +2 Coin Power [On Evade] Gain 1 Haste next turn (3 times per turn)",
+      "sin": "Pride",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/hook-office-fixer-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "hook-office-fixer-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/hook-office-fixer-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:hook-office-fixer-hong-lu",
+  "released": "26/October/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "211",
+    "speed": "3-7",
+    "defense": "57",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Hook me up ho - anyways Hook Hong Lu is a very selfish ID. He is very reliant on his speed, other than his s3 his damage is very mediocre. His bleed application is not even worth mentioning. Good early pick for mirror dungeon hard runs. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/hook-office-fixer-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Hong Lu / Bleed Haste"
+  },
+  "verified": "Prydwen /limbus-company/identities/hook-office-fixer-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

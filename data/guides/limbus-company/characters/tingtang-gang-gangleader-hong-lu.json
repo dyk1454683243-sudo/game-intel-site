@@ -1,0 +1,108 @@
+{
+  "id": "tingtang-gang-gangleader-hong-lu",
+  "name": "Tingtang Gang Gangleader Hong Lu",
+  "name_zh": null,
+  "name_en": "Tingtang Gang Gangleader Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Bleed",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Throat Slit",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 5. Coins 1. Coin Power 8. Offense Level 63. Atk Weight 1. 1 [Heads Hit] Inflict 4 Bleed",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Shank",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 3. Coins 3. Coin Power 5. Offense Level 63. Atk Weight 1. If target has 7+ Bleed, deal 20% damage 1 [Heads Hit] Damage +3 2 [Heads Hit] Damage +3 3 [Heads Hit] If target has less than 25% HP, use this Coin an additional time if target survives. Heads: +50% Damage for this Coin [Reuse - Heads Hit] +50% Damage for this Coin",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Mutilate",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 5. Coins 1. Coin Power 25. Offense Level 63. Atk Weight 1. [On Kill] Use this skill 1 more time 1 [Heads Hit] Damage +7 2 [Reuse - Heads Hit] +100% Damage for this Coin [Reuse - Heads Hit] If target has 10+ Bleed, deal 50% damage",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Evade",
+      "type": "defense",
+      "summary": "Defense Evade · Gluttony. -. Skill Power 2. Coins 1. Coin Power 14. Offense Level 60. Atk Weight 1. If target has 5+ Bleed, Coin Power +2 [On Evade] Heal 3 SP",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Gaiety",
+      "type": "passive",
+      "summary": "x2 Gluttony [Res]. Heal (2x Gluttony Res.) SP next turn. Gambit x5 Gluttony [Owned] 1 ally with the highest SP deals +20% damage with Heads Coins Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/tingtang-gang-gangleader-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "tingtang-gang-gangleader-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/tingtang-gang-gangleader-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:tingtang-gang-gangleader-hong-lu",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "3-6",
+    "defense": "62",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Tingtang Hong Lu is an ID that wants to roll heads and only heads. All of his skills consist of doing really good bonus damage if they hit heads and a really big cutdown on enemies that are at low health. His Uptie 4 only makes him scale with bleed on target, which might turn him into a pretty insane DPS on a bleed team if it becomes a good choice to run. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/tingtang-gang-gangleader-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Bleed"
+  },
+  "verified": "Prydwen /limbus-company/identities/tingtang-gang-gangleader-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

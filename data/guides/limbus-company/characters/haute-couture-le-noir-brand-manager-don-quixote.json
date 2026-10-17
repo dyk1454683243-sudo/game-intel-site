@@ -1,0 +1,113 @@
+{
+  "id": "haute-couture-le-noir-brand-manager-don-quixote",
+  "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
+  "name_zh": null,
+  "name_en": "Haute Couture::Le Noir Brand Manager Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Charge Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cometh the Nail",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 3. Coins 1. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Final Power +1 for every 4 (Tremor Potency + Promised Nail on target (max 3) [On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage [On Use] Apply +4 Charge Count on self and 1 other \"Le Noir\" allied Identity that has the lowest Charge Count (once per turn) 1 [On Hit] Inflict +2 Tremor Count 2 [On Hit] Gain +6 Preservation Count",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Judgment!",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 6. Coins 1. Coin Power 4. Offense Level 62. Atk Weight 1. [Unclashable] This Skill has the following properties: - Does not trigger Defense Skills - External effects cannot trigger this Skill to be Reused - Target's HP cannot be reduced below 1 until this Skill ends [On Use] Final Power +1 for every 4 (Tremor Potency + Promised Nail) on target (max 3) [On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage 1 [On Hit] Inflict 1 Promised Nail [On Hit] Inflict 4 Tremor",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Summoneth the Nail",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 6. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. [On Use] Final Power +1 for every 4 (Tremor Potency + Promised Nail) on target (max 3) [On Use] At 3+ Preservation Potency, Coin Power +1 and deal +30% damage [Before Attack] The final Coin gains Final Power +1 for every highest Reson. (max 4) 1 [On Hit] Inflict 1Promised Nail [On Hit] Inflict 4 Tremor 2 [On Hit] Gain +8 Preservation Count [On Hit] Inflict +3 Tremor Count [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count 1",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I Sever Thine Advent!",
+      "type": "skill4",
+      "summary": "Skill 4 · . Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [Combat Start] Gain 3 Sanctum of Conservation (once per turn [Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up on self and 1 other \"Le Noir\" allied Identity with the fastest Speed (once per turn) [On Use] Coin Power +1 for every 6 (Tremor Potency + Promised Nail) on target (max 2) [On Use] At 3+ Preservation Potency, Coin Power +1 and deal +40% damage [Before Attack] The final Coin gains Final Power +1 for every highest Reson. (max 4) 1 [On Hit] Inflict 1 1Promised Nail [On Hit] Inflict 4 Tremor 2 [On Hit] Inflict +3 Tremor Count 3 [On Hit] Gain +4 Preservation Count [On Hit] Trigger Amplitude Conversion into Tremor - Conversation [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "With Each Smite, I Sever Thine Advent!",
+      "type": "skill5",
+      "summary": "Skill 5 · . Blunt. Skill Power 6. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 3. This Skill counts as an Attack Skill even when it activates instead of a Defense Skill; this Skill is unaffected by Defense Power-changing effects, and is instead affected by Attack Power-changing effects [Combat Start] Apply 2 Offense Level Up and 2 Defense Level Up on all \"Le Noir\" allied Identities (once per turn [On Use] Coin Power +1 for every 6 total sum of (Tremor Potency + Promised Nail) on all targets (max 2) [On Use] At 3+ Preservation Potency, Coin Power +1 [On Use] Deal +50% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, Parts) [Before Attack] The final Coin gains Final Power +2 for every highest Reson. (max 8) [Attack End] Consume all Blessing of the Blessing of the Obsidian God 1 [On Hit] Inflict 1 1Promised Nail [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 1 1Promised Nail [On Hit] Inflict 2 Tremor 3 [On Hit] Inflict +3 Tremor Count [On Hit] Gain +4 Preservation Count [On Hit] Trigger Amplitude Conversion into Tremor - Conservation [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Aplly the following effects on target depending on its respective Promised Nail Stack - If target has 3+ Promised Nail, trigger Tremor Burst; then, reduce target's Tremor Count 1 - Deal Sloth damage equal to (Promised Nail on target x 3)% of this Coin's final damage (max 90%) - Consume all Promised Nail on target",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Witness Ye in Silence",
+      "type": "defense",
+      "summary": "Defense Counter · . Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 64. Atk Weight 1. [Combat Start] Gain 3 Sanctum of Conservation (once per turn [Combat Start] Heal 6 SP on self and 1 other \"Le Noir\" allied Identity that has the lowest SP (once per turn) [Combat Start] Apply the following effects depending on Blessing of the Obsidian God on self - At 100 Blessing of the Obsidian God, activate \"With Each Smite, I Sever Thine Advent!\" instead (once per turn; can activate for Unopposed Attacks) - At fewer than 100 Blessing of the Obsidian God, gain Shield equal to (Blessing of the Obsidian God / 10)% of this unit's max HP (once per turn) [Combat Start] Gain +4 Preservation Count [On Use] Coin Power +1 for every 6 (Tremor Potency + Promised Nail) on target (max 2) [On Use] At 3+ Preservation Potency, Coin Power +1 and deal +20% damage 1 [On Hit] Inflict 1 Promised Nail [On Hit] Inflict +2 Tremor Count 2 [On Hit] Gain +4 Preservation Count",
+      "attack_type": "Blunt"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/haute-couture-le-noir-brand-manager-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "haute-couture-le-noir-brand-manager-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/haute-couture-le-noir-brand-manager-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:haute-couture-le-noir-brand-manager-don-quixote",
+  "released": "01/October/2026",
+  "page_updated": "05/October/2026",
+  "combat": {
+    "max_hp": "286",
+    "speed": "4-7",
+    "defense": "69",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal"
+    },
+    "level": 60
+  },
+  "review": "Haute Couture: Le Noir Brand Manager Don Quixote is a Charge-Tremor Identity that focuses on supporting fellow Le Noir Identities with various buffs and effects, and this Identity introduces yet another Tremor type, namely Tremor - Conservation. Let's talk about the new effects first. - Tremor - Conservation - Weaker Tremor - Reverb at first, but once the attacker has enough Charge AND is a Le Noir Identity, then it is stronger. However, without Le Noir Identities bursting Tremor - Conservation, it will be gone very, very fast unless a specific team has been made and piloted, which is not for everybody since if Tremor Burst is triggered by NON Le Noir Identities, additional Count will be consumed. - Promised Nail - Effect inflicted by Haute Couture::Le Noir Brand Manager Don Quixote’s skills. Once per burst, once per skill, it will do, at best, a whopping 10 bonus sloth damage per stack.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/haute-couture-le-noir-brand-manager-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Support S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Charge Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/haute-couture-le-noir-brand-manager-don-quixote，页内 Last updated 05/October/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

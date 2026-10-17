@@ -1,0 +1,95 @@
+{
+  "id": "cinq-assoc-east-section-3-hong-lu",
+  "name": "Cinq Assoc. East Section 3 Hong Lu",
+  "name_zh": null,
+  "name_en": "Cinq Assoc. East Section 3 Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Burn Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fa Jin",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Pierce. Skill Power 6. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's by 2 or more, Coin Power +1 [On Use] Clash Power +1 for every 6 (Poise on self + Burn on target) (max 2) [On Use] If target does not have Nerve Strike - Hong Lu, Clash Power +1 [On Use] Gain +3 Poise Count 1 [On Hit] Inflict 1 Burn [On Hit] If target has 3+ Nerve Strike - Hong Lu, Reuse this Coin (once per Skill) [Reuse - On Hit] Inflict 1 Burn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Virescent Flame Palm",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 6. Coins 2. Coin Power 5. Offense Level 62. Atk Weight -. If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [On Use] At 6+ (Poise on self + Burn on target), Final Power +1 [Clash Win] Gain 3 Poise - Gain Poise Count equal to Nerve Strike - Hong Lu on target 1 [On Hit] Gain +6 Poise Count [On Hit] Inflict 2 Burn 2 [On Hit] Inflict +1 Burn Count [On Hit] If target has 2+ Nerve Strike - Hong Lu, Reeuse this Coin (once per Skill) [Reuse - On Hit] Inflict Defense Level Down equal to Nerve Strike - Hong Lu on target (once per turn)",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Take the Hit to the Last Blow, Please?",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight -. If this unit's Speed is faster than the target's by 2 or more, Coin Power +1 [On Use] At 6+ (Poise on self + Burn on target), Coin Power +1 [Clash Win] Gain 5 Poise - Gain Poise Count equal to Nerve Strike - Hong Lu on target 1 [On Hit] Inflict 2 Burn 2 [On Hit] Inflict 2 Burn 3 [On Hit] Deal +(Poise on self + Burn on target)% damage on Critical Hit (max 30%) [On Hit] Inflict +1 Burn Count [On Crit] Inflict 2 Defense Level Down (2 times per turn) [On Hit] If target has Nerve Strike - Hong Lu, Reuse this Coin (once per skill) [Reuse - On Hit] Deal Wrath damage equal to (Burn on target x 2)% of this Coin's final damage (max 40%)",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "cinq-assoc-east-section-3-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/cinq-assoc-east-section-3-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:cinq-assoc-east-section-3-hong-lu",
+  "released": "20/August/2026",
+  "page_updated": "28/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-7",
+    "defense": "62",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Remember Cinq East Don? Now here comes the marginally cooler Cinq East Don. Like Cinq East Don, Cinq East Hong Lu’s kit revolves around stacking “Nerve Strike” by focusing on one target at a time while using Burn and Poise as a complement. Starting with his 2 unique statuses: - Witnessed - Eastern Cinq - Buff that grants Offense Level based on the stacks, giving an extra Poise Potency on 2+ stacks and Poise Count at 3+ stacks. - Nerve Strike - Hong Lu - Debuff that gives Hong Lu either clash power, base power, or both, in that order based on the number of stacks when hitting the target with this debuff. Do remember that this debuff will conflict with other Cinq East IDs (currently only Cinq East Don). Meaning they will not benefit from their own effect if they have a different name than the one currently inflicted, although the stack will persist when inflicted with a new one to not puni",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/cinq-assoc-east-section-3-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Burn Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/cinq-assoc-east-section-3-hong-lu，页内 Last updated 28/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

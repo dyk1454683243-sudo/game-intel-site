@@ -1,0 +1,110 @@
+{
+  "id": "fanghunt-office-fixer-hong-lu",
+  "name": "Fanghunt Office Fixer Hong Lu",
+  "name_zh": null,
+  "name_en": "Fanghunt Office Fixer Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "00",
+  "role": "Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Slam",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If the target has 6+ Rupture, Coin Power +1 1 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict 1 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Bonecrusher",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. If the target has 6+ Rupture, Coin Power +1 [On Use] If the target has 15+ Rupture and 3+ Rupture Count: this Skill does not inflict Rupture or Rupture Count; instead, gain Coin Power +1 - If the target is a or a , gain an additional Coin Power +1 [Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict +1 Rupture Count [Heads Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict +2 Rupture [On Hit] Inflict 2 HP Healing Down next turn",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "A Cheerful Hunt's End",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 63. Atk Weight 1. If the target has 6+ Rupture, Coin Power +1 [On Use] If the target has 15+ Rupture and 3+ Rupture Count: this Skill does not inflict Rupture or Rupture Count; instead, gain Coin Power +1 - If the target is a or a , gain an additional Coin Power +1 [Clash Win] Inflict +2 Rupture Count 1 [Heads Hit] Inflict 1 Rupture 2 [Heads Hit] Inflict 2 Rupture 3 [On Hit] If the target has 15+ Rupture, or has less than 30% HP, Reuse this Coin (once per SKill)",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Emergency Styptics",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 10. Coins 1. Coin Power 4. Offense Level 60. Atk Weight 1. [Combat Start] Lose 2 Bleed Potency on self (3 times per turn. If Bleed Potency drops to 0 or less, the Bleed effect expires)"
+    },
+    {
+      "name": "How to Hunt Cheerfully",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. If the target is a , , or if the target has 10+ Rupture, deal +10% more damage On Skill Use, if this unit has Bleed, inflict 3 Rupture On Hit (2 times per turn)"
+    },
+    {
+      "name": "Bloodfiend Hunting Manual - Styptics",
+      "type": "support",
+      "summary": "x5 Gluttony [Owned]. Combat Start: 1 ally with the highest sum of Bleed Potency and Count loses 2 Bleed Count When 1 ally with the fastest Speed hits an enemy with Rupture, inflict 1 Defense Level Down (2 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/fanghunt-office-fixer-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "fanghunt-office-fixer-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/fanghunt-office-fixer-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:fanghunt-office-fixer-hong-lu",
+  "released": "17/October/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "3-6",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "FangHunt Hong Lu is a Rupture ID that becomes stronger when facing a Bloodfiend or a Bloodbag enemy. This makes him excellent in Canto 7 and Murder on the Warp Express event as most enemies there are Bloodfiends and Bloodbags. First, let’s talk about his Passive which when active gives him a 10% damage boost. The second part of the Passive allows him to inflict 3 Rupture Potency on hit if he has self Bleed. While this can act as a mini Talisman like Red Sheet Sinclair, do note that it requires self Bleed which means taking a hit from a Skill with Bleed Count or against enemies that inflict Bleed Passively. Furthermore, this is capped at 2 times per turn meaning a second Slot and Skill 3 won’t benefit at all from the Passive. Now, let’s take a look at his Skills - Skill 1 - Slam - 2 Coin skill, Base roll - 11, Conditionals met - 13. Inflicts up to 4 Rupture Potency. A generic Skill 1 with",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/fanghunt-office-fixer-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Hong Lu / Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/fanghunt-office-fixer-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

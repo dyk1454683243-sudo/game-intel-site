@@ -1,0 +1,113 @@
+{
+  "id": "twinhook-pirates-first-mate-gregor",
+  "name": "Twinhook Pirates First Mate Gregor",
+  "name_zh": null,
+  "name_en": "Twinhook Pirates First Mate Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Negotiation Start",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Pierce. Skill Power 4. Coins 2. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] Gain 3 Poise If target has 7+ Bleed, Coin Power +1 1 [On Hit] Gain +1 Poise Count [On Crit] Inflict 2 Bleed 2 [On Crit] Inflict 2 Bleed",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Unilateral Business",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Coin Power +1 for every 7 Bleed on target (Max 2) [On Use] Gain +3 Poise Count 1 [On Hit] Gain 4 Poise [On Crit] Inflict 2 Bleed 2 [On Hit] Inflict 3 Bleed [On Crit] Inflict 2 Bleed +50% Damage on Critical Hit",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Foregone Conclusion",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 5. Coins 2. Coin Power 6. Offense Level 65. Atk Weight 1. [On Use] Gain 1 Poise for every 3 Bleed on target (Max 10) Gain Coin Power +1 for every 7 Poise on self (Max +3) 1 [On Crit] Inflict 2 Bleed Count 2 Spend 1 Ammo +100% Damage on Critical Hit [On Kill] Gain 1 Plus Coin Boost next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Take a Breather",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 57. Atk Weight 1. [On Evade] Gain 1 Poise (Max 5 per turn)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Bullets are Pricey",
+      "type": "passive",
+      "summary": "x2 Pride [Owned]. - Always Active: Begin encounters with 7 Ammo - On Heads Hit against target with Bleed, gain Unjust Enrichment. (Max 4) - If a Coin that uses Ammo hits, consumes all Unjust Enrichment and deal (25 x Unjust Enrichment consumed)% of damage dealt as bonus damage. - If this unit Critical Hits when out of Ammo, consume all Unjust Enrichment and deal (5 x Unjust Enrichment consumed)% of damage dealt as bonus damage"
+    },
+    {
+      "name": "New Breathing Hole",
+      "type": "support",
+      "summary": "x4 Pride [Owned]. If 1 ally with the most Poise defeats an enemy, gain 1 Pierce DMG Up next turn. (Once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/twinhook-pirates-first-mate-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "twinhook-pirates-first-mate-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/twinhook-pirates-first-mate-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:twinhook-pirates-first-mate-gregor",
+  "released": "16/November/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "57",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Being an ID that combines Poise and Bleed, Twinhook Gregor benefits a lot from being in a team that supports poise gain and inflicts a lot of bleed. His skill 3, if his passive is stacked and the second coin of this skill crits, he has enough burst damage to rival W Ryoshu's damage. However, this can only be consistent if Gregor has 2 skill slots available and he will struggle with making that damage consistent. He is a great DPS but suffers from limited support for the statuses he is using in his kit. No notable E.G.O. synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/twinhook-pirates-first-mate-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Ammo Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/twinhook-pirates-first-mate-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

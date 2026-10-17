@@ -1,0 +1,106 @@
+{
+  "id": "heishou-pack-si-branch-rodion",
+  "name": "Heishou Pack - Si Branch Rodion",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Si Branch Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Serpent Glint",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Coin Power +1 for every 10 (sum of this unit's Poise Potency and target's Rupture Potency) (max 2) [On Use] Gain +2 Poise Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture [On Crit] If this unit has Serpent Arm, inflict 2 Rupture",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Snake Fang",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 10 (sum of this unit's Poise Potency and target's Rupture Potency) (max 2) [Clash Win] Inflict +2 Rupture Count [Clash Win] Gain +2 Poise Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict +1 Rupture Count 3 [On Hit] At 30+ Poise, consume 10 Poise on self to Reuse Coin once (1 time max) [On Hit] Inflict Deathrite [Venom] [On Crit] Gain 1 Serpent Arm",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Serpent's Mortal Flurry",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 3. [Unfocused Volley] [On Use] Coin Power +1 for every 10 (sum of this unit's Poise Potency and the main target's Rupture Potency) (max 2) [On Use] Gain Clash Power equal to Serpent Arm on self [On Use] Gain 3 Serpent Arm [Clash Win] Inflict +1 Rupture Count on all targets 1 [On Hit] Gain +2 Poise Count 2 [On Hit] Gain 2 Poise 3 [On Hit] Inflict +1 Rupture Count [On Crit] Reduce Deathrite [Venom] on target by 1 [On Crit] Reuse this Coin once (2 times per Skill)",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Reverse Kick",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. Skill Power 3. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. Clashable Guard [Combat Start] Gain 3 Serpent Arm next turn [On Use] At 10+ Poise Count, Coin Power +1 1 Unbreakable Coin",
+      "sin": "Gluttony"
+    },
+    {
+      "name": "Heishou Mutation [Si]",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. If this unit has Serpent Arm, deal +5% damage If target has Deathrite [Venom], deal +5% damage Intravascular Venom x4 Gluttony [Owned] When 1 ally with the fastest Speed inflicts Rupture damage to an enemy, inflict 1 Offense Level Down and 1 Defense Level Down next turn (once per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-si-branch-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-si-branch-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-si-branch-rodion",
+  "released": "15/May/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Si Rodion is a hybrid user of Poise and Rupture; and just like Si Gregor, she is more suited for Poise teams, as her “addition” to the Rupture team is lackluster. Let’s first talk about her unique statuses, starting with Serpent Arm which she gains from her Defensive Skill, Skill 2 and Skill 3. At turn end, it gives Rodion 3 Poise Potency and 2 Poise Count.If the target is affected with Rupture she will gain an additional 5 Poise Potency on base skill use. This status can stack up to 3 times and is reduced by 1 at turn end. Her Second mechanic is Deathrite [Venom]. It is inflicted upon using Skill 2 and 3. It inflicts 1 Offense Level Down and 1 Defense Level Down upon getting Rupture triggered by a critical hit (up to 3 times per turn). Just like Deathrite [Haste] it also triggers Rupture when it hits 0 based on the Potency. This effect is quite abysmal when combined with the horrible co",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-si-branch-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-si-branch-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

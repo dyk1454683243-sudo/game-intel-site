@@ -1,0 +1,128 @@
+{
+  "id": "full-stop-office-rep-hong-lu",
+  "name": "Full-Stop Office Rep Hong Lu",
+  "name_zh": null,
+  "name_en": "Full-Stop Office Rep Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Bind Fragile Poise",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Take the Shot",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Pierce. Skill Power 3. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Poise Count 1 Spend 1 Ammo 2 Spend 1 Ammo [On Hit] Gain 2 Poise 3 Spend 1 Ammo Gain 2 Poise",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Melee Support",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 5. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. +20% Damage on Critical Hit [On Use] Gain +2 Poise Count 1 [On Hit] Gain 1 Poise 2 [On Hit] Gain 1 Poise",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Target Marked",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. Base Power +1 for every Ammo about to be spent by this Skill [On Use] If Full-Stop Office Fixer Heathcliff is on the field, every Reson. of the highest Reson. adds 25% chance that this unit activates Target Spotted [On Use] Gain +3 Poise Count 1 [On Hit] Gain 2 Poise 2 Spend up to 3 Ammo Deal +(Ammo spent x 10)% more damage +(Ammo spent x 10)% Damage on Critical Hit 3 +20% Damage on Critical Hit [On Hit] Inflict 1 Bind next turn [On Hit] Inflict 1 Attack Power Down next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Combo: Target Marked",
+      "type": "skill4",
+      "summary": "Skill 4 · Gloom. Pierce. Skill Power 4. Coins 4. Coin Power 4. Offense Level 63. Atk Weight 1. Base Power +1 for every Ammo about to be spent by this Skill [On Use] Gain +3 Poise Count [Clash Lose] Final Power +5 1 [On Hit] Gain 2 Poise 2 Spend up to 3 Ammo Deal +(Ammo spent x 10)% more damage +(Ammo spent x 10)% Damage on Critical Hit 3 +20% Damage on Critical Hit [On Hit] Inflict 1 Bind next turn [On Hit] Inflict 1 Attack Power Down next turn 4 Unbreakable Coin +30% Damage on Critical Hit",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Full-Stop to Life",
+      "type": "skill5",
+      "summary": "Skill 5 · Pride. Pierce. Skill Power 7. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Base Power +1 for every Ammo about to be spent by this Skill [On Use] If Full-Stop Office Fixer Heathcliff is on the field, activate Target Spotted [On Use] Gain 5 Poise [Clash Win] Gain +2 Poise Count 1 Spend 1 Ammo Deal +(Ammo spent x 15)% more damage [On Hit] Raise the target's Stagger Treshold by 15% of damage dealt 2 Spend up to 2 Ammo Deal +(Ammo spent x 15)% more damage [On Hit] Raise the target's Stagger Treshold by 15% of damage dealt 3 If target is Staggered, +30% Damage on Critical Hit [On Hit] Inflict 2 Bind next turn [On Hit] Inflict 2 Pierce Fragility",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Combo: Full-Stop to Life",
+      "type": "skill6",
+      "summary": "Skill 6 · Pride. Pierce. Skill Power 7. Coins 4. Coin Power 4. Offense Level 64. Atk Weight 1. Base Power +1 for every Ammo about to be spent by this Skill [On Use] Gain 5 Poise [Clash Win] Gain +2 Poise Count [Clash Lose] Final Power +5 1 Spend 1 Ammo Deal +(Ammo spent x 15)% more damage [On Hit] Raise the target's Stagger Treshold by 15% of damage dealt 2 Spend up to 2 Ammo Deal +(Ammo spent x 15)% more damage [On Hit] Raise the target's Stagger Treshold by 15% of damage dealt 3 If target is Staggered, +30% Damage on Critical Hit [On Hit] Inflict 2 Bind next turn [On Hit] Inflict 2 Pierce Fragility 4 Unbreakable Coin +50% Damage on Critical Hit Deal +(the target's Pierce Res. x 50)% more damage",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Combat Poise",
+      "type": "defense",
+      "summary": "Defense Evade · . Skill Power 4. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. Turn Start: at 0 Ammo, activate 'Beyond the Shadow' instead [On Evade] Gain 1 Poise (5 times per turn)"
+    },
+    {
+      "name": "Beyond the Shadow",
+      "type": "defense",
+      "summary": "Defense Counter · Pride. Skill Power 5. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [Clashable Counter] +20% Damage on Critical Hit [On Use] Gain +2 Poise Count [Turn End] Reload (once per Encounter) 1 [On Hit] Gain +1 Poise 2 [On Hit] Gain +1 Poise",
+      "sin": "Pride"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/full-stop-office-rep-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "full-stop-office-rep-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/full-stop-office-rep-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:full-stop-office-rep-hong-lu",
+  "released": "09/January/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Full Stop Office Rep] Hong Lu or FS Hong Lu for short is an Ammo and Poise-centric Identity whose main gimmick is mutually beneficial cooperation with [Full Stop Office Fixer] Heathcliff or FS Heathcliff. While FS Heathcliff is on the field after FS Hong Lu uses either his Skill 2 or 3, FS Heathcliff will follow it up with unopposed Skill 2 against the same target or a random enemy, in case the target dies to FS Hong Lu. Furthermore, when FS Heathcliff uses his Evade, FS Hong Lu follows up with Special Skill 1 against the enemy who attacked FS Heathcliff. As such, when combined, both FS Hong Lu and FS Heathcliff will output a lot of damage in a very short amount of turns. But that is not all, as when FS Heathcliff runs out of ammo and retreats, FS Hong Lu’s Skill 2 and 3 will be enhanced. FS Hong Lu also has an interesting passive called “Concentration”. Usually, when Ammo Identity runs",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/full-stop-office-rep-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Ammo Bind Fragile Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/full-stop-office-rep-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

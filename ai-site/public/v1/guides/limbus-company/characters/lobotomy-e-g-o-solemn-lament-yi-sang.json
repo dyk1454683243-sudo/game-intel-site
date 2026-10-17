@@ -1,0 +1,107 @@
+{
+  "id": "lobotomy-e-g-o-solemn-lament-yi-sang",
+  "name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Haste Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Celebration for the Departed",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. At 10+ value of The Living & The Departed, Clash Power +1 If the sum of the target's Sinking and both Butterfly is 6 or higher, Coin Power +1 [Clash Win] Inflict +2 Sinking Count 1 Consume 1 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed consumed 2 Consume 1 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed consumed",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Solemn Lament for the Living",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight 1. At 10+ The Living & The Departed, Clash Power +1 Coin Power +1 for every 6 value of the sum of the target's Sinking and both Butterfly (max 2) [Clash Win] Inflict +1 Sinking Count [After Attack] Gain (highest Reson.) The Living & The Departed (max 6) - If the said Reson. was an A-Reson. gain (highest Reson. x 2) The Living & The Departed (max 12) - If the said Reson. was at 4+ A-Reson., Reload instead 1 Consume 5 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed Consumed 2 Consume 1 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed Consumed",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Goodbye Now, A Sorrow In You",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 65. Atk Weight 1. Base Power +1 for every 5 value of The Living & The Departed on the target (max 4) Coin Power +1 for every 6 value of the sum of the target's Sinking and both Butterfly (max 2) [Clash Win] Inflict +3 Sinking Count [After Attack] Reload 1 Consume 1 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed consumed 2 Consume 6 of The Living & The Departed [On Hit] Inflict Butterfly equal to The Living & The Departed consumed 3 Consume all of The Living & The Departed on self [On Hit] Inflict Butterfly equal to The Living & The Departed consumed [On Hit] Deal +4% more damage for every value of The Living & The Departed consumed by this Skill 4 [On Hit] Inflict Gloom Damage equal to 'All' Butterfly values on the target 'All' = The sum of both The Living and The Departed on the target",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "FromTheCoffinAButterflyTakesFlight",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 61. Atk Weight 1. [Combat Start] Reload [Combat Start] Gain Shield equal to (the sum of both Butterfly on the selected target)% HP. (max 20% per turn",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Fire.IShallFire.",
+      "type": "passive",
+      "summary": "x3 Gloom [Res]. After Attack: if this unit killed the target with its Skill, Reload When this unit gains The Living & The Departed, gain 2 Haste next turn (once per turn) Hand of Salvation x6 Gloom [Owned] When and ally hits with an Attack Skill: consume 2 Sinking on the target to inflict them with 1 Butterfly (3 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-solemn-lament-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-solemn-lament-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-solemn-lament-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-solemn-lament-yi-sang",
+  "released": "05/September/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-8",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Solemn Lament Yi Sang brings a constant source of Butterfly to the table of a Sinking Team while boasting a relatively high damage output himself. His unique Ammo, known as \"The Living & The Departed\" (distinct from Butterfly), where ammo is divided into Potency (The Living) and Count (The Departed), with their combined total maxing out at 20. Whether Potency or Count is consumed would be randomly determined. Some attacks would fully cancel if both ammos run out, leading to an immediate reload. During the reload process, Yi Sang consumes SP, based on the current amount of The Living + The Departed (Ammo) you have, subtracted by 30, and then divided by 2. When gaining ammo back, you will either get The Living or The Departed based on ID’s current SP. If SP ≥ 0, 30% chance to gain The Living and a 70% chance to gain The Departed and vice-versa, if SP < 0. Probability is calculated separate",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-solemn-lament-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Ammo Haste Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-solemn-lament-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -464,6 +464,8 @@ a.char-row.char-stub {
   background: color-mix(in srgb, var(--stub-bg) 55%, transparent);
 }
 .char-list .row-title { font-weight: 650; }
+.sinner-group { margin: 1rem 0 1.25rem; }
+.sinner-group h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
 
 .portrait {
   width: 48px;

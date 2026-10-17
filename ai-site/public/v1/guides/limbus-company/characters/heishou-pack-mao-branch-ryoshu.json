@@ -1,0 +1,112 @@
+{
+  "id": "heishou-pack-mao-branch-ryoshu",
+  "name": "Heishou Pack - Mao Branch Ryoshu",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Mao Branch Ryoshu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Haste Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Blinkstep",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight -. If this unit's Speed is faster than the target's by 3 or more, Coin Power+1 [On Use] If the target has 4+ Rupture, Coin Power +1 [On Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Rupture Count [On Hit] At 10+ Speed, Reuse Coin once (once per Skill)",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "As Written",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 2. Coin Power 6. Offense Level 62. Atk Weight -. If this unit's Speed is faster than the target's, deal (Speed difference x Rupture Potency on the target)% more damage (max 50%) If this unit's Speed is faster than the target's by 3 or more, Coin Power +1 [On Use] If the target has 4+ Rupture, Coin Power +1 [On Use] Gain 2 Haste next turn (once per turn) [Clash Win] Inflict +1 Rupture Count 1 [On Hit] Inflict 1 Rupture At 10+ Speed, inflict +1 Rupture Count 2 At 10+ Speed, deal +30% more damage [On Hit] Inflict 1 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "I'll gut you with a curse-engraved blade",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight -. If this unit's Speed is faster than the target's, deal (Speed difference x Rupture Potency on the target)% more damage (max 50%) If this unit's Speed is faster than the target's, gain Coin Power based on Speed difference (Coin Power +1 for every 2 Speed difference; max 2) [On Use] If the target has 15+ Rupture, Coin Power +1 [On Use] Gain 3 Strider[Mao] [Clash Win] Inflict +2 Rupture Count 1 [On Hit] Inflict +1 Rupture Count [On Hit] Inflict +1 Deathrite[Haste] 2 [On Hit] Inflict 1 Rupture 3 At 10+ Speed, deal +30% more damage [On Hit] Inflict 3 Rupture [On Hit] At 10+ Speed, Reuse Coin once (once per Skill) [Reuse - On Hit] Inflict Deathrite[Haste]",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Strider. Unleashed. Heh",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Slash. Skill Power 5. Coins 1. Coin Power 8. Offense Level 61. Atk Weight -. [Clashable Counter] [On Use] Gain 3 Strider[Mao] [On Use] If this unit's Speed is faster than the target's, gain Base Power based on Speed difference (Base Power +1 for every 2 Speed difference; max 2) 1 [On Hit] Inflict +1 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Heishou Mutation [Mao]",
+      "type": "passive",
+      "summary": "x3 Gluttony [Owned]. If the unit has Strider[Mao], deal +5% more damage If the target has Deathrite[Haste], deal +5% more damage"
+    },
+    {
+      "name": "Partial Heishou Mutation Training",
+      "type": "support",
+      "summary": "x5 Gluttony [Owned]. Turn End: 1 ally with the fastest Speed gain 2 Haste next turn"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-ryoshu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-mao-branch-ryoshu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-mao-branch-ryoshu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-mao-branch-ryoshu",
+  "released": "20/March/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "209",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Wow, it's hard to believe that they powercrept Shi Don. Heishou Pack - Mao Branch Ryoshu or Heishou Ryoshu for short is an ID that utilizes Rupture and Haste to deal damage while also maintaining a neutral Rupture Count. Usually, Heishou Ryoshu is paired with Heishou Outis to make full use of their unique debuff, but she can also work independently. Heishou Ryoshu has a unique status that can be gained by using her Skill 3 or Defensive Skill, gaining 3 Strider [Mao] upon use. What it does is give 5 Haste next turn for a total of 3 turns which bumps up her speed range from 4-7 to 9-12 which is just a slap in the face for Cinq IDs. The downside is that you need 10+ Speed to make full use of her kit. So without another source of Haste, she has a 25% chance of not being able to utilize her kit. She also has a unique debuff called Deathrite [Haste]. What it does is if Rupture is activated by",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-mao-branch-ryoshu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Haste Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-mao-branch-ryoshu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

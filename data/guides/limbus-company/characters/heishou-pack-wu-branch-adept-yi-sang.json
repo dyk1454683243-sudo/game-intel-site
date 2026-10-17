@@ -1,0 +1,117 @@
+{
+  "id": "heishou-pack-wu-branch-adept-yi-sang",
+  "name": "Heishou Pack - Wu Branch Adept Yi Sang",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Wu Branch Adept Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Bind Haste Rupture Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gluttony",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cut Down and Trample",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. If this unit's Speed is faster than the target's, Coin Power +1 [On Use] If target has 5+ (Rupture + Tremor), Coin Power +1 [Clash Win] Inflict 1 Bind next turn (2 times per turn) 1 [On Hit] Inflict 2 Rupture 2 [On Hit] Inflict +1 Rupture Count [On Hit] Inflict 2 Tremor",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Crescent Blade Strike [月刀擊]",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Slash. Skill Power 4. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. If this unit's Speed is faster than the target's: - Coin Power +1 - If this unit's Speed is faster than the target's by 2 or more, deal +(Linebreaker on self x 20)% damage (max 100%) [On Use] Coin Power +1 for every 5 (Rupture + Tremor) on target (max 2) [On Use] Gain 2 Haste next turn (once per turn) 1 [On Hit] Inflict +2 Rupture Count [On Hit] Inflict 3 Tremor 2 [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If target does not have Deathrite, inflict 1 Concussion [On Hit] If target has Deathrite, inflict 3 Rupture",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Cavalry's Vanguard Charge",
+      "type": "skill3",
+      "summary": "Skill 3 · Gluttony. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If this unit's Speed is faster than the target's: - Final Power +1 - Deal +(Linebreaker on self x 20)% damage (max 80%) Deal +(Shield HP on self x 2)% damage (max 50%) [Before Use] At 5 Linebreaker, consume all of it to activate 'Obsidian Stormrider's Crescent Decapitator' instead [On Use] Gain 3 Strider【Wu】 [On Use] Coin Power +1 for every 5 (Rupture + Tremor) on target (max 2) [On Use] At 3+ Linebreaker, convert all Coins to Unbreakable Coins 1 [On Hit] Inflict 2 Rupture [On Hit] Inflict 2 Tremor 2 [On Hit] Inflict 1 Bind next turn - At 3+ Linebreaker, inflict additional 1 Bind [On Hit] Inflict +1 Tremor Count 3 [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] At 2+ Strider【Wu】, inflict 2 Concussion",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Obsidian Stormrider's Crescent Decapitator [黑風馬脚月斬]",
+      "type": "skill4",
+      "summary": "Skill 4 · Gluttony. Slash. Skill Power 5. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. If this unit's Speed is faster than the target's, Final Power +1 [On Use] Apply 1 Commanding Cry to all other allies next turn (once per turn) [On Use] Gain 3 Strider【Wu】 [On Use] Coin Power +1 for every 5 (Rupture + Tremor) on target (max 2) [Clash Win] If this unit's Speed is faster than the target's, deal +50% damage [Clash Win] Inflict 1 Concussion against the main target 1 Unbreakable Coin [On Hit] Inflict 3 Rupture [On Hit] Inflict 4 Tremor 2 Unbreakable Coin [On Hit] Inflict +2 Rupture Count [On Hit] Inflict +2 Tremor Count 3 Unbreakable Coin [On Hit] Inflict 1 Concussion 4 Unbreakable Coin [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Preparation Afore the Charge",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. Skill Power 3. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. Clashable Guard [Combat Start] Gain 3 Strider【Wu】 next turn [Turn End] Remove 1 random removable negative effect applied to self (once per turn) 1 Unbreakable Coin",
+      "sin": "Gluttony"
+    },
+    {
+      "name": "Obsidian Stormrider [黑風馬脚]",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. Gain 1 Linebreaker when meeting one of the following conditions: - Attack Start: when this unit's Speed is faster than the target's by 2 or more - When this unit triggers Tremor Burst twice with its Skills (including E.G.O Skills) - When this unit wins a Clash while having Strider【Wu】 ※ Only 3 Linebreaker can be gained per turn; cannot gain Linebreaker with the Skill \"Obsidian Stormrider's Crescent Decapitator\" When this unit has Shield, gain (Shield HP / 10) Defense Level (max 5; rounded down)"
+    },
+    {
+      "name": "Obsidian exoskeleton shall rend and protect my flesh",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. Apply the following effect to 1 ally with the highest max HP - Combat Start: gain (affected unit's Speed difference between this turn and last turn x 2) Defense Level (max 5; if the affected unit was not an Active participant last turn, use its minimum base Speed value to calculate) - Combat Start: if the affected unit is at less than 50% HP, and if the Speed difference between this turn and last turn is 3 or higher, heal 50 HP (once per Encounter)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wu-branch-adept-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-wu-branch-adept-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-wu-branch-adept-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-wu-branch-adept-yi-sang",
+  "released": "28/August/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "271",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Review"
+    },
+    "level": 60
+  },
+  "review": "Heishou pack Adept Horse Sang is yet another hybrid Rupture ID and this time, he has Tremor as his secondary status effect. To start, he is quite tanky due to his innately high Defense level and HP, on top of having shields, Defense Level Up, and Protection. He has several unique effects that buff his allies, making him a good addition to the team, if not for him being Count Negative therefore preventing the same. However, unlike Sinclair, with whom he was released, Uma Sang has access to Dimensional Shredder E.G.O., allowing him to be Count Positive completely. His Built-in Passive - The Steed’s Houndlike Loyalty, makes him interact with 2 other IDs- Lord Hong Lu and Hierarch Ishmael. The first buff, Exalted Command for the Lord Hong Lu gives him the ability to use Tremor Burst on every skill without reducing the target’s count, making him one of the most frequent bursting IDs in the ga",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wu-branch-adept-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Support A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Bind Haste Rupture Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-wu-branch-adept-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

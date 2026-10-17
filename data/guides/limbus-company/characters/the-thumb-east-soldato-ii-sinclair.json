@@ -1,0 +1,113 @@
+{
+  "id": "the-thumb-east-soldato-ii-sinclair",
+  "name": "The Thumb East Soldato II Sinclair",
+  "name_zh": null,
+  "name_en": "The Thumb East Soldato II Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Ammo Burn Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Adherence to Propriety",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Gain Coin Power for every 6 (sum of Burn and Tremor on target) (max 2) [On Use] If target has 'Unique Tremor' as Tremor, Clash Power +1 1 [On Hit] Inflict +1 Tremor Count 2 [On Hit] Inflict 1 Tremor",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Respect the Thumb",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] Coin Power +1 for every 6 (sum of Burn and Tremor on target) (max 2) [On Use] Deal +10% damage for every 4 (sum of Burn and Tremor on target) (max 30%) [On Use] If target has 10+ 'Unique Tremor', Base Power +2 1 [On Hit] Inflict 2 Tremor [On Hit] Inflict +1 Tremor Count 2 [On Hit] If target has 10+ Tremor - Scorch, inflict +2 Burn Count [On Hit] If target has 6+ Tremor, trigger Tremor Burst; then reduce target's Tremor Count by 1",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Thruster Compression",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. [On Use] Coin Power +1 for every 8 (sum of Burn and Tremor on target) (max 2) [On Use] At 3+ Scorch Propellant Ammo, Base Power +3, deal +30% damage, and convert the Coins to Unbreakable Coins 1 Spend 1 Scorch Propellant Ammo If this unit spent Scorch Propellant Ammo due to this Coin's effect, deal +25% damage [On Hit] Inflict +1 Tremor Count [On Hit] Inflict +3 Burn Count [On Hit] Trigger Amplitude Conversion into Tremor - Scorch 2 Spend 1 Scorch Propellant Ammo If this unit spent Scorch Propellant Ammo due to this Coin's effect, deal +25% damage [On Hit] Inflict +1 Tremor Count [On Hit] Inflict 3 Burn 3 Spend 1 Scorch Propellant Ammo If this unit spent Scorch Propellant Ammo due to this Coin's effect, deal +25% damage [On Hit] Inflict +1 Tremor Count [On Hit] Inflict 4 Burn [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If this unit spent Scorch Propellant Ammo, trigger Tremor Burst; then, reduce target's Tremor [On Hit] If this unit spent 3 Scorch Propellant Ammo, trigger Tremor Burst; then, reduce target's Tremor",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Ferrous Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 9. Coins 1. Coin Power 6. Offense Level 63. Atk Weight 1. Inflict 2 Tremor against the Attacker when hit as long as this unit has remaining Shield (4 times per turn)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Ammunition Tribute",
+      "type": "passive",
+      "summary": "x3 Pride [Res]. When the 1 ally Identity with the fastest Deployment order among those using Ammo finishes their attack, if their current Ammo count is fewer than half (rounded up), spend Scorch Propellant Ammo on self equal to the total Ammo count the affected unit spent, and supply them with the same amount of Ammo as Scorch Propellant Ammo this unit just spent. (can spend up to 5 Ammunition) (once per Encounter) - If the Ammo receiving Identity is a Thumb Identity of a higher rank, supply 1 additional Ammo they use - If the Ammo receiving Identity has separate values for Potency and Count, they will be supplied at random. - If either Potency or Count is maxed out, supply whichever is not maxed."
+    },
+    {
+      "name": "Reloader",
+      "type": "support",
+      "summary": "x4 Pride [Res]. When the 1 ally Identity with the fastest Deployment order among those using Ammo finishes their attack, if their current Ammo count is fewer than half (rounded up), regain half of the maximum Ammo capacity (rounded up; once per Encounter; max Ammo regained: 5) - If the Ammo receiving Identity has separate values for Potency and Count, they will gain them at random - If either Potency or Count of Ammo is maxed out, gain whichever is not maxed - This effect does not activate if there are no Identities that use Ammo"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-thumb-east-soldato-ii-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-thumb-east-soldato-ii-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-thumb-east-soldato-ii-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-thumb-east-soldato-ii-sinclair",
+  "released": "19/June/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "257",
+    "speed": "4-6",
+    "defense": "60",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "The Thumb East Soldato II Sinclair gives us the long awaited Tremor Identity with the previous Tremor Identity being released over 9 months ago. The Thumb IDs not only fulfill the long anticipation for a strong Tremor Identities but they are also strong Burn Identity hybrids that are flexible in both teams and have quite the synergy with them. Thumb Sinclair is more of a Tremor unit, though his application is not great, but unique in a sense that he is one of the few IDs, along with Capo Meursault, that can apply both Tremor Potency and Count on the same skill. He has a unique mechanic where he can not only replenish Ammo for other IDs but provides decent damage buffs to himself on top. He is a solid unit on his own that works well even without Capo Meur. His first Passive Bayonets gives him 15 Ammo on turn start, provides him Damage Up next turn upon spending his Ammo by either using se",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-thumb-east-soldato-ii-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Status Specialist S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Ammo Burn Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-thumb-east-soldato-ii-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

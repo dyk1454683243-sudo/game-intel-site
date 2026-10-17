@@ -1,0 +1,1909 @@
+{
+  "_meta": {
+    "game": "limbus-company",
+    "as_of": "2026-10-17",
+    "note": "Prydwen identity slug and display name. Sinner Chinese names are not aliases: one sinner has many identities."
+  },
+  "aliases": {
+    "blade-lineage-salsu-yi-sang": {
+      "id": "blade-lineage-salsu-yi-sang",
+      "name": "Blade Lineage Salsu Yi Sang",
+      "kind": "character"
+    },
+    "Blade Lineage Salsu Yi Sang": {
+      "id": "blade-lineage-salsu-yi-sang",
+      "name": "Blade Lineage Salsu Yi Sang",
+      "kind": "character"
+    },
+    "dieci-assoc-south-section-4-yi-sang": {
+      "id": "dieci-assoc-south-section-4-yi-sang",
+      "name": "Dieci Assoc. South Section 4 Yi Sang",
+      "kind": "character"
+    },
+    "Dieci Assoc. South Section 4 Yi Sang": {
+      "id": "dieci-assoc-south-section-4-yi-sang",
+      "name": "Dieci Assoc. South Section 4 Yi Sang",
+      "kind": "character"
+    },
+    "effloresced-e-g-o-spicebush-yi-sang": {
+      "id": "effloresced-e-g-o-spicebush-yi-sang",
+      "name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "kind": "character"
+    },
+    "Effloresced E.G.O::Spicebush Yi Sang": {
+      "id": "effloresced-e-g-o-spicebush-yi-sang",
+      "name": "Effloresced E.G.O::Spicebush Yi Sang",
+      "kind": "character"
+    },
+    "heishou-pack-wu-branch-adept-yi-sang": {
+      "id": "heishou-pack-wu-branch-adept-yi-sang",
+      "name": "Heishou Pack - Wu Branch Adept Yi Sang",
+      "kind": "character"
+    },
+    "Heishou Pack - Wu Branch Adept Yi Sang": {
+      "id": "heishou-pack-wu-branch-adept-yi-sang",
+      "name": "Heishou Pack - Wu Branch Adept Yi Sang",
+      "kind": "character"
+    },
+    "lcb-sinner-yi-sang": {
+      "id": "lcb-sinner-yi-sang",
+      "name": "LCB Sinner Yi Sang",
+      "kind": "character"
+    },
+    "LCB Sinner Yi Sang": {
+      "id": "lcb-sinner-yi-sang",
+      "name": "LCB Sinner Yi Sang",
+      "kind": "character"
+    },
+    "lce-e-g-o-dimension-shredder-yi-sang": {
+      "id": "lce-e-g-o-dimension-shredder-yi-sang",
+      "name": "LCE E.G.O::Dimension Shredder Yi Sang",
+      "kind": "character"
+    },
+    "LCE E.G.O::Dimension Shredder Yi Sang": {
+      "id": "lce-e-g-o-dimension-shredder-yi-sang",
+      "name": "LCE E.G.O::Dimension Shredder Yi Sang",
+      "kind": "character"
+    },
+    "lce-e-g-o-lantern-yi-sang": {
+      "id": "lce-e-g-o-lantern-yi-sang",
+      "name": "LCE E.G.O::Lantern Yi Sang",
+      "kind": "character"
+    },
+    "LCE E.G.O::Lantern Yi Sang": {
+      "id": "lce-e-g-o-lantern-yi-sang",
+      "name": "LCE E.G.O::Lantern Yi Sang",
+      "kind": "character"
+    },
+    "liu-association-south-section-3-yi-sang": {
+      "id": "liu-association-south-section-3-yi-sang",
+      "name": "Liu Association South Section 3 Yi Sang",
+      "kind": "character"
+    },
+    "Liu Association South Section 3 Yi Sang": {
+      "id": "liu-association-south-section-3-yi-sang",
+      "name": "Liu Association South Section 3 Yi Sang",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-solemn-lament-yi-sang": {
+      "id": "lobotomy-e-g-o-solemn-lament-yi-sang",
+      "name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Solemn Lament Yi Sang": {
+      "id": "lobotomy-e-g-o-solemn-lament-yi-sang",
+      "name": "Lobotomy E.G.O::Solemn Lament Yi Sang",
+      "kind": "character"
+    },
+    "molar-office-fixer-yi-sang": {
+      "id": "molar-office-fixer-yi-sang",
+      "name": "Molar Office Fixer Yi Sang",
+      "kind": "character"
+    },
+    "Molar Office Fixer Yi Sang": {
+      "id": "molar-office-fixer-yi-sang",
+      "name": "Molar Office Fixer Yi Sang",
+      "kind": "character"
+    },
+    "n-corp-e-g-o-fell-bullet-yi-sang": {
+      "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+      "name": "N Corp. E.G.O:: Fell Bullet Yi Sang",
+      "kind": "character"
+    },
+    "N Corp. E.G.O:: Fell Bullet Yi Sang": {
+      "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+      "name": "N Corp. E.G.O:: Fell Bullet Yi Sang",
+      "kind": "character"
+    },
+    "seven-association-south-section-6-yi-sang": {
+      "id": "seven-association-south-section-6-yi-sang",
+      "name": "Seven Association South Section 6 Yi Sang",
+      "kind": "character"
+    },
+    "Seven Association South Section 6 Yi Sang": {
+      "id": "seven-association-south-section-6-yi-sang",
+      "name": "Seven Association South Section 6 Yi Sang",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-index-nursefather-yi-sang": {
+      "id": "the-house-of-spiders-the-index-nursefather-yi-sang",
+      "name": "The House of Spiders: The Index Nursefather Yi Sang",
+      "kind": "character"
+    },
+    "The House of Spiders: The Index Nursefather Yi Sang": {
+      "id": "the-house-of-spiders-the-index-nursefather-yi-sang",
+      "name": "The House of Spiders: The Index Nursefather Yi Sang",
+      "kind": "character"
+    },
+    "the-pequod-first-mate-yi-sang": {
+      "id": "the-pequod-first-mate-yi-sang",
+      "name": "The Pequod First Mate Yi Sang",
+      "kind": "character"
+    },
+    "The Pequod First Mate Yi Sang": {
+      "id": "the-pequod-first-mate-yi-sang",
+      "name": "The Pequod First Mate Yi Sang",
+      "kind": "character"
+    },
+    "the-ring-pointillist-student-yi-sang": {
+      "id": "the-ring-pointillist-student-yi-sang",
+      "name": "The Ring Pointillist Student Yi Sang",
+      "kind": "character"
+    },
+    "The Ring Pointillist Student Yi Sang": {
+      "id": "the-ring-pointillist-student-yi-sang",
+      "name": "The Ring Pointillist Student Yi Sang",
+      "kind": "character"
+    },
+    "w-corp-l3-cleanup-agent-yi-sang": {
+      "id": "w-corp-l3-cleanup-agent-yi-sang",
+      "name": "W Corp. L3 Cleanup Agent Yi Sang",
+      "kind": "character"
+    },
+    "W Corp. L3 Cleanup Agent Yi Sang": {
+      "id": "w-corp-l3-cleanup-agent-yi-sang",
+      "name": "W Corp. L3 Cleanup Agent Yi Sang",
+      "kind": "character"
+    },
+    "blade-lineage-salsu-faust": {
+      "id": "blade-lineage-salsu-faust",
+      "name": "Blade Lineage Salsu Faust",
+      "kind": "character"
+    },
+    "Blade Lineage Salsu Faust": {
+      "id": "blade-lineage-salsu-faust",
+      "name": "Blade Lineage Salsu Faust",
+      "kind": "character"
+    },
+    "dawn-office-fixer-faust": {
+      "id": "dawn-office-fixer-faust",
+      "name": "Dawn Office Fixer Faust",
+      "kind": "character"
+    },
+    "Dawn Office Fixer Faust": {
+      "id": "dawn-office-fixer-faust",
+      "name": "Dawn Office Fixer Faust",
+      "kind": "character"
+    },
+    "heishou-pack-mao-branch-adept-faust": {
+      "id": "heishou-pack-mao-branch-adept-faust",
+      "name": "Heishou Pack - Mao Branch Adept Faust",
+      "kind": "character"
+    },
+    "Heishou Pack - Mao Branch Adept Faust": {
+      "id": "heishou-pack-mao-branch-adept-faust",
+      "name": "Heishou Pack - Mao Branch Adept Faust",
+      "kind": "character"
+    },
+    "lcb-sinner-faust": {
+      "id": "lcb-sinner-faust",
+      "name": "LCB Sinner Faust",
+      "kind": "character"
+    },
+    "LCB Sinner Faust": {
+      "id": "lcb-sinner-faust",
+      "name": "LCB Sinner Faust",
+      "kind": "character"
+    },
+    "lce-e-g-o-ardor-blossom-star-faust": {
+      "id": "lce-e-g-o-ardor-blossom-star-faust",
+      "name": "LCE E.G.O::Ardor Blossom Star Faust",
+      "kind": "character"
+    },
+    "LCE E.G.O::Ardor Blossom Star Faust": {
+      "id": "lce-e-g-o-ardor-blossom-star-faust",
+      "name": "LCE E.G.O::Ardor Blossom Star Faust",
+      "kind": "character"
+    },
+    "lobotomy-corp-remnant-faust": {
+      "id": "lobotomy-corp-remnant-faust",
+      "name": "Lobotomy Corp. Remnant Faust",
+      "kind": "character"
+    },
+    "Lobotomy Corp. Remnant Faust": {
+      "id": "lobotomy-corp-remnant-faust",
+      "name": "Lobotomy Corp. Remnant Faust",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-regret-faust": {
+      "id": "lobotomy-e-g-o-regret-faust",
+      "name": "Lobotomy E.G.O::Regret Faust",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Regret Faust": {
+      "id": "lobotomy-e-g-o-regret-faust",
+      "name": "Lobotomy E.G.O::Regret Faust",
+      "kind": "character"
+    },
+    "multicrack-office-rep-faust": {
+      "id": "multicrack-office-rep-faust",
+      "name": "MultiCrack Office Rep Faust",
+      "kind": "character"
+    },
+    "MultiCrack Office Rep Faust": {
+      "id": "multicrack-office-rep-faust",
+      "name": "MultiCrack Office Rep Faust",
+      "kind": "character"
+    },
+    "seven-south-section-4-faust": {
+      "id": "seven-south-section-4-faust",
+      "name": "Seven Assoc. South Section 4 Faust",
+      "kind": "character"
+    },
+    "Seven Assoc. South Section 4 Faust": {
+      "id": "seven-south-section-4-faust",
+      "name": "Seven Assoc. South Section 4 Faust",
+      "kind": "character"
+    },
+    "shi-assoc-east-section-3-faust": {
+      "id": "shi-assoc-east-section-3-faust",
+      "name": "Shi Assoc. East Section 3 Faust",
+      "kind": "character"
+    },
+    "Shi Assoc. East Section 3 Faust": {
+      "id": "shi-assoc-east-section-3-faust",
+      "name": "Shi Assoc. East Section 3 Faust",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-ring-apprentice-faust": {
+      "id": "the-house-of-spiders-the-ring-apprentice-faust",
+      "name": "The House of Spiders: The Ring Apprentice Faust",
+      "kind": "character"
+    },
+    "The House of Spiders: The Ring Apprentice Faust": {
+      "id": "the-house-of-spiders-the-ring-apprentice-faust",
+      "name": "The House of Spiders: The Ring Apprentice Faust",
+      "kind": "character"
+    },
+    "the-index-proselyte-paper-slip-faust": {
+      "id": "the-index-proselyte-paper-slip-faust",
+      "name": "The Index Proselyte: Paper Slip Faust",
+      "kind": "character"
+    },
+    "The Index Proselyte: Paper Slip Faust": {
+      "id": "the-index-proselyte-paper-slip-faust",
+      "name": "The Index Proselyte: Paper Slip Faust",
+      "kind": "character"
+    },
+    "the-one-who-grips-faust": {
+      "id": "the-one-who-grips-faust",
+      "name": "The One Who Grips Faust",
+      "kind": "character"
+    },
+    "The One Who Grips Faust": {
+      "id": "the-one-who-grips-faust",
+      "name": "The One Who Grips Faust",
+      "kind": "character"
+    },
+    "w-corp-l2-cleanup-agent-faust": {
+      "id": "w-corp-l2-cleanup-agent-faust",
+      "name": "W Corp. L2 Cleanup Agent Faust",
+      "kind": "character"
+    },
+    "W Corp. L2 Cleanup Agent Faust": {
+      "id": "w-corp-l2-cleanup-agent-faust",
+      "name": "W Corp. L2 Cleanup Agent Faust",
+      "kind": "character"
+    },
+    "wuthering-heights-butler-faust": {
+      "id": "wuthering-heights-butler-faust",
+      "name": "Wuthering Heights Butler Faust",
+      "kind": "character"
+    },
+    "Wuthering Heights Butler Faust": {
+      "id": "wuthering-heights-butler-faust",
+      "name": "Wuthering Heights Butler Faust",
+      "kind": "character"
+    },
+    "zwei-association-south-section-4-faust": {
+      "id": "zwei-association-south-section-4-faust",
+      "name": "Zwei Association South Section 4 Faust",
+      "kind": "character"
+    },
+    "Zwei Association South Section 4 Faust": {
+      "id": "zwei-association-south-section-4-faust",
+      "name": "Zwei Association South Section 4 Faust",
+      "kind": "character"
+    },
+    "blade-lineage-salsu-don-quixote": {
+      "id": "blade-lineage-salsu-don-quixote",
+      "name": "Blade Lineage Salsu Don Quixote",
+      "kind": "character"
+    },
+    "Blade Lineage Salsu Don Quixote": {
+      "id": "blade-lineage-salsu-don-quixote",
+      "name": "Blade Lineage Salsu Don Quixote",
+      "kind": "character"
+    },
+    "cinq-assoc-east-section-3-don-quixote": {
+      "id": "cinq-assoc-east-section-3-don-quixote",
+      "name": "Cinq Assoc. East Section 3 Don Quixote",
+      "kind": "character"
+    },
+    "Cinq Assoc. East Section 3 Don Quixote": {
+      "id": "cinq-assoc-east-section-3-don-quixote",
+      "name": "Cinq Assoc. East Section 3 Don Quixote",
+      "kind": "character"
+    },
+    "cinq-south-section-5-director-don-quixote": {
+      "id": "cinq-south-section-5-director-don-quixote",
+      "name": "Cinq Association South Section 5 Director Don Quixote",
+      "kind": "character"
+    },
+    "Cinq Association South Section 5 Director Don Quixote": {
+      "id": "cinq-south-section-5-director-don-quixote",
+      "name": "Cinq Association South Section 5 Director Don Quixote",
+      "kind": "character"
+    },
+    "haute-couture-le-noir-brand-manager-don-quixote": {
+      "id": "haute-couture-le-noir-brand-manager-don-quixote",
+      "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
+      "kind": "character"
+    },
+    "Haute Couture::Le Noir Brand Manager Don Quixote": {
+      "id": "haute-couture-le-noir-brand-manager-don-quixote",
+      "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
+      "kind": "character"
+    },
+    "heishou-pack-wei-branch-don-quixote": {
+      "id": "heishou-pack-wei-branch-don-quixote",
+      "name": "Heishou Pack - Wei Branch Don Quixote",
+      "kind": "character"
+    },
+    "Heishou Pack - Wei Branch Don Quixote": {
+      "id": "heishou-pack-wei-branch-don-quixote",
+      "name": "Heishou Pack - Wei Branch Don Quixote",
+      "kind": "character"
+    },
+    "lcb-sinner-don-quixote": {
+      "id": "lcb-sinner-don-quixote",
+      "name": "LCB Sinner Don Quixote",
+      "kind": "character"
+    },
+    "LCB Sinner Don Quixote": {
+      "id": "lcb-sinner-don-quixote",
+      "name": "LCB Sinner Don Quixote",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote": {
+      "id": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+      "name": "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote": {
+      "id": "lobotomy-e-g-o-in-the-name-of-love-and-hate-don-quixote",
+      "name": "Lobotomy E.G.O::In the Name of Love and Hate Don Quixote",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-lantern-don-quixote": {
+      "id": "lobotomy-e-g-o-lantern-don-quixote",
+      "name": "Lobotomy E.G.O::Lantern Don Quixote",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Lantern Don Quixote": {
+      "id": "lobotomy-e-g-o-lantern-don-quixote",
+      "name": "Lobotomy E.G.O::Lantern Don Quixote",
+      "kind": "character"
+    },
+    "n-corp-mittelhammer-don-quixote": {
+      "id": "n-corp-mittelhammer-don-quixote",
+      "name": "N Corp. Mittelhammer Don Quixote",
+      "kind": "character"
+    },
+    "N Corp. Mittelhammer Don Quixote": {
+      "id": "n-corp-mittelhammer-don-quixote",
+      "name": "N Corp. Mittelhammer Don Quixote",
+      "kind": "character"
+    },
+    "shi-association-south-section-5-director-don-quixote": {
+      "id": "shi-association-south-section-5-director-don-quixote",
+      "name": "Shi Association South Section 5 Director Don Quixote",
+      "kind": "character"
+    },
+    "Shi Association South Section 5 Director Don Quixote": {
+      "id": "shi-association-south-section-5-director-don-quixote",
+      "name": "Shi Association South Section 5 Director Don Quixote",
+      "kind": "character"
+    },
+    "t-corp-class-3-collection-staff-don-quixote": {
+      "id": "t-corp-class-3-collection-staff-don-quixote",
+      "name": "T Corp. Class 3 Collection Staff Don Quixote",
+      "kind": "character"
+    },
+    "T Corp. Class 3 Collection Staff Don Quixote": {
+      "id": "t-corp-class-3-collection-staff-don-quixote",
+      "name": "T Corp. Class 3 Collection Staff Don Quixote",
+      "kind": "character"
+    },
+    "the-index-proxy-effloresced-e-g-o-procuration-don-quixote": {
+      "id": "the-index-proxy-effloresced-e-g-o-procuration-don-quixote",
+      "name": "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote",
+      "kind": "character"
+    },
+    "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote": {
+      "id": "the-index-proxy-effloresced-e-g-o-procuration-don-quixote",
+      "name": "The Index Proxy - Effloresced E.G.O::Procuration Don Quixote",
+      "kind": "character"
+    },
+    "the-manager-of-la-manchaland-don-quixote": {
+      "id": "the-manager-of-la-manchaland-don-quixote",
+      "name": "The Manager of La Manchaland Don Quixote",
+      "kind": "character"
+    },
+    "The Manager of La Manchaland Don Quixote": {
+      "id": "the-manager-of-la-manchaland-don-quixote",
+      "name": "The Manager of La Manchaland Don Quixote",
+      "kind": "character"
+    },
+    "the-middle-little-sister-don-quixote": {
+      "id": "the-middle-little-sister-don-quixote",
+      "name": "The Middle Little Sister Don Quixote",
+      "kind": "character"
+    },
+    "The Middle Little Sister Don Quixote": {
+      "id": "the-middle-little-sister-don-quixote",
+      "name": "The Middle Little Sister Don Quixote",
+      "kind": "character"
+    },
+    "w-corp-l3-cleanup-agent-don-quixote": {
+      "id": "w-corp-l3-cleanup-agent-don-quixote",
+      "name": "W Corp. L3 Cleanup Agent Don Quixote",
+      "kind": "character"
+    },
+    "W Corp. L3 Cleanup Agent Don Quixote": {
+      "id": "w-corp-l3-cleanup-agent-don-quixote",
+      "name": "W Corp. L3 Cleanup Agent Don Quixote",
+      "kind": "character"
+    },
+    "blade-of-the-house-of-spiders-ryoshu": {
+      "id": "blade-of-the-house-of-spiders-ryoshu",
+      "name": "Blade of the House of Spiders Ryoshu",
+      "kind": "character"
+    },
+    "Blade of the House of Spiders Ryoshu": {
+      "id": "blade-of-the-house-of-spiders-ryoshu",
+      "name": "Blade of the House of Spiders Ryoshu",
+      "kind": "character"
+    },
+    "district-20-yurodivy-ryoshu": {
+      "id": "district-20-yurodivy-ryoshu",
+      "name": "District 20 Yurodivy Ryoshu",
+      "kind": "character"
+    },
+    "District 20 Yurodivy Ryoshu": {
+      "id": "district-20-yurodivy-ryoshu",
+      "name": "District 20 Yurodivy Ryoshu",
+      "kind": "character"
+    },
+    "drifting-blade-of-hongyuan-ry-shu": {
+      "id": "drifting-blade-of-hongyuan-ry-shu",
+      "name": "Drifting Blade of Hongyuan Ryōshū",
+      "kind": "character"
+    },
+    "Drifting Blade of Hongyuan Ryōshū": {
+      "id": "drifting-blade-of-hongyuan-ry-shu",
+      "name": "Drifting Blade of Hongyuan Ryōshū",
+      "kind": "character"
+    },
+    "edgar-family-chief-butler-ryoshu": {
+      "id": "edgar-family-chief-butler-ryoshu",
+      "name": "Edgar Family Chief Butler Ryoshu",
+      "kind": "character"
+    },
+    "Edgar Family Chief Butler Ryoshu": {
+      "id": "edgar-family-chief-butler-ryoshu",
+      "name": "Edgar Family Chief Butler Ryoshu",
+      "kind": "character"
+    },
+    "haute-couture-le-noir-footwear-hall-ryoshu": {
+      "id": "haute-couture-le-noir-footwear-hall-ryoshu",
+      "name": "Haute Couture::Le Noir Footwear Hall Ryoshu",
+      "kind": "character"
+    },
+    "Haute Couture::Le Noir Footwear Hall Ryoshu": {
+      "id": "haute-couture-le-noir-footwear-hall-ryoshu",
+      "name": "Haute Couture::Le Noir Footwear Hall Ryoshu",
+      "kind": "character"
+    },
+    "heishou-pack-mao-branch-ryoshu": {
+      "id": "heishou-pack-mao-branch-ryoshu",
+      "name": "Heishou Pack - Mao Branch Ryoshu",
+      "kind": "character"
+    },
+    "Heishou Pack - Mao Branch Ryoshu": {
+      "id": "heishou-pack-mao-branch-ryoshu",
+      "name": "Heishou Pack - Mao Branch Ryoshu",
+      "kind": "character"
+    },
+    "kurokumo-clan-wakashu-ryoshu": {
+      "id": "kurokumo-clan-wakashu-ryoshu",
+      "name": "Kurokumo Clan Wakashu Ryoshu",
+      "kind": "character"
+    },
+    "Kurokumo Clan Wakashu Ryoshu": {
+      "id": "kurokumo-clan-wakashu-ryoshu",
+      "name": "Kurokumo Clan Wakashu Ryoshu",
+      "kind": "character"
+    },
+    "lcb-sinner-ryoshu": {
+      "id": "lcb-sinner-ryoshu",
+      "name": "LCB Sinner Ryoshu",
+      "kind": "character"
+    },
+    "LCB Sinner Ryoshu": {
+      "id": "lcb-sinner-ryoshu",
+      "name": "LCB Sinner Ryoshu",
+      "kind": "character"
+    },
+    "lccb-assistant-manager-ryoshu": {
+      "id": "lccb-assistant-manager-ryoshu",
+      "name": "LCCB Assistant Manager Ryoshu",
+      "kind": "character"
+    },
+    "LCCB Assistant Manager Ryoshu": {
+      "id": "lccb-assistant-manager-ryoshu",
+      "name": "LCCB Assistant Manager Ryoshu",
+      "kind": "character"
+    },
+    "liu-assoc-south-section-4-ryoshu": {
+      "id": "liu-assoc-south-section-4-ryoshu",
+      "name": "Liu Assoc. South Section 4 Ryoshu",
+      "kind": "character"
+    },
+    "Liu Assoc. South Section 4 Ryoshu": {
+      "id": "liu-assoc-south-section-4-ryoshu",
+      "name": "Liu Assoc. South Section 4 Ryoshu",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu": {
+      "id": "lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+      "name": "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu": {
+      "id": "lobotomy-e-g-o-faint-aroma-and-solitude-ryoshu",
+      "name": "Lobotomy E.G.O::Faint Aroma & Solitude Ryoshu",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-red-eyes-and-penitence-ryoshu": {
+      "id": "lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+      "name": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu": {
+      "id": "lobotomy-e-g-o-red-eyes-and-penitence-ryoshu",
+      "name": "Lobotomy E.G.O::Red Eyes & Penitence Ryoshu",
+      "kind": "character"
+    },
+    "n-corp-e-g-o-contempt-awe-ry-shu": {
+      "id": "n-corp-e-g-o-contempt-awe-ry-shu",
+      "name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "kind": "character"
+    },
+    "N Corp. E.G.O::Contempt, Awe Ryōshū": {
+      "id": "n-corp-e-g-o-contempt-awe-ry-shu",
+      "name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+      "kind": "character"
+    },
+    "r-b-chef-de-cuisine-ryoshu": {
+      "id": "r-b-chef-de-cuisine-ryoshu",
+      "name": "R.B. Chef de Cuisine Ryoshu",
+      "kind": "character"
+    },
+    "R.B. Chef de Cuisine Ryoshu": {
+      "id": "r-b-chef-de-cuisine-ryoshu",
+      "name": "R.B. Chef de Cuisine Ryoshu",
+      "kind": "character"
+    },
+    "seven-association-south-section-6-ryoshu": {
+      "id": "seven-association-south-section-6-ryoshu",
+      "name": "Seven Association South Section 6 Ryoshu",
+      "kind": "character"
+    },
+    "Seven Association South Section 6 Ryoshu": {
+      "id": "seven-association-south-section-6-ryoshu",
+      "name": "Seven Association South Section 6 Ryoshu",
+      "kind": "character"
+    },
+    "w-corp-l3-cleanup-agent-ryoshu": {
+      "id": "w-corp-l3-cleanup-agent-ryoshu",
+      "name": "W Corp. L3 Cleanup Agent Ryoshu",
+      "kind": "character"
+    },
+    "W Corp. L3 Cleanup Agent Ryoshu": {
+      "id": "w-corp-l3-cleanup-agent-ryoshu",
+      "name": "W Corp. L3 Cleanup Agent Ryoshu",
+      "kind": "character"
+    },
+    "blade-lineage-mentor-meursault": {
+      "id": "blade-lineage-mentor-meursault",
+      "name": "Blade Lineage Mentor Meursault",
+      "kind": "character"
+    },
+    "Blade Lineage Mentor Meursault": {
+      "id": "blade-lineage-mentor-meursault",
+      "name": "Blade Lineage Mentor Meursault",
+      "kind": "character"
+    },
+    "cinq-assoc-west-section-3-meursault": {
+      "id": "cinq-assoc-west-section-3-meursault",
+      "name": "Cinq Assoc. West Section 3 Meursault",
+      "kind": "character"
+    },
+    "Cinq Assoc. West Section 3 Meursault": {
+      "id": "cinq-assoc-west-section-3-meursault",
+      "name": "Cinq Assoc. West Section 3 Meursault",
+      "kind": "character"
+    },
+    "dead-rabbits-boss-meursault": {
+      "id": "dead-rabbits-boss-meursault",
+      "name": "Dead Rabbits Boss Meursault",
+      "kind": "character"
+    },
+    "Dead Rabbits Boss Meursault": {
+      "id": "dead-rabbits-boss-meursault",
+      "name": "Dead Rabbits Boss Meursault",
+      "kind": "character"
+    },
+    "dieci-assoc-south-section-4-director-meursault": {
+      "id": "dieci-assoc-south-section-4-director-meursault",
+      "name": "Dieci Assoc. South Section 4 Director Meursault",
+      "kind": "character"
+    },
+    "Dieci Assoc. South Section 4 Director Meursault": {
+      "id": "dieci-assoc-south-section-4-director-meursault",
+      "name": "Dieci Assoc. South Section 4 Director Meursault",
+      "kind": "character"
+    },
+    "lcb-sinner-meursault": {
+      "id": "lcb-sinner-meursault",
+      "name": "LCB Sinner Meursault",
+      "kind": "character"
+    },
+    "LCB Sinner Meursault": {
+      "id": "lcb-sinner-meursault",
+      "name": "LCB Sinner Meursault",
+      "kind": "character"
+    },
+    "liu-association-south-section-6-meursault": {
+      "id": "liu-association-south-section-6-meursault",
+      "name": "Liu Association South Section 6 Meursault",
+      "kind": "character"
+    },
+    "Liu Association South Section 6 Meursault": {
+      "id": "liu-association-south-section-6-meursault",
+      "name": "Liu Association South Section 6 Meursault",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-hornet-alteration-meursault": {
+      "id": "lobotomy-e-g-o-hornet-alteration-meursault",
+      "name": "Lobotomy E.G.O::Hornet (Alteration) Meursault",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Hornet (Alteration) Meursault": {
+      "id": "lobotomy-e-g-o-hornet-alteration-meursault",
+      "name": "Lobotomy E.G.O::Hornet (Alteration) Meursault",
+      "kind": "character"
+    },
+    "n-corp-grosshammer-meursault": {
+      "id": "n-corp-grosshammer-meursault",
+      "name": "N Corp. Groẞhammer Meursault",
+      "kind": "character"
+    },
+    "N Corp. Groẞhammer Meursault": {
+      "id": "n-corp-grosshammer-meursault",
+      "name": "N Corp. Groẞhammer Meursault",
+      "kind": "character"
+    },
+    "r-corp-4th-pack-rhino-meursault": {
+      "id": "r-corp-4th-pack-rhino-meursault",
+      "name": "R Corp. 4th Pack Rhino Meursault",
+      "kind": "character"
+    },
+    "R Corp. 4th Pack Rhino Meursault": {
+      "id": "r-corp-4th-pack-rhino-meursault",
+      "name": "R Corp. 4th Pack Rhino Meursault",
+      "kind": "character"
+    },
+    "rosespanner-workshop-fixer-meursault": {
+      "id": "rosespanner-workshop-fixer-meursault",
+      "name": "Rosespanner Workshop Fixer Meursault",
+      "kind": "character"
+    },
+    "Rosespanner Workshop Fixer Meursault": {
+      "id": "rosespanner-workshop-fixer-meursault",
+      "name": "Rosespanner Workshop Fixer Meursault",
+      "kind": "character"
+    },
+    "the-middle-little-brother-meursault": {
+      "id": "the-middle-little-brother-meursault",
+      "name": "The Middle Little Brother Meursault",
+      "kind": "character"
+    },
+    "The Middle Little Brother Meursault": {
+      "id": "the-middle-little-brother-meursault",
+      "name": "The Middle Little Brother Meursault",
+      "kind": "character"
+    },
+    "the-prince-of-la-manchaland-meursault": {
+      "id": "the-prince-of-la-manchaland-meursault",
+      "name": "The Prince of La Manchaland Meursault",
+      "kind": "character"
+    },
+    "The Prince of La Manchaland Meursault": {
+      "id": "the-prince-of-la-manchaland-meursault",
+      "name": "The Prince of La Manchaland Meursault",
+      "kind": "character"
+    },
+    "the-ring-fauvist-student-meursault": {
+      "id": "the-ring-fauvist-student-meursault",
+      "name": "The Ring Fauvist Student Meursault",
+      "kind": "character"
+    },
+    "The Ring Fauvist Student Meursault": {
+      "id": "the-ring-fauvist-student-meursault",
+      "name": "The Ring Fauvist Student Meursault",
+      "kind": "character"
+    },
+    "the-thumb-east-capo-iiii-meursault": {
+      "id": "the-thumb-east-capo-iiii-meursault",
+      "name": "The Thumb East Capo IIII Meursault",
+      "kind": "character"
+    },
+    "The Thumb East Capo IIII Meursault": {
+      "id": "the-thumb-east-capo-iiii-meursault",
+      "name": "The Thumb East Capo IIII Meursault",
+      "kind": "character"
+    },
+    "w-corp-l2-cleanup-agent-meursault": {
+      "id": "w-corp-l2-cleanup-agent-meursault",
+      "name": "W Corp. L2 Cleanup Agent Meursault",
+      "kind": "character"
+    },
+    "W Corp. L2 Cleanup Agent Meursault": {
+      "id": "w-corp-l2-cleanup-agent-meursault",
+      "name": "W Corp. L2 Cleanup Agent Meursault",
+      "kind": "character"
+    },
+    "cinq-assoc-east-section-3-hong-lu": {
+      "id": "cinq-assoc-east-section-3-hong-lu",
+      "name": "Cinq Assoc. East Section 3 Hong Lu",
+      "kind": "character"
+    },
+    "Cinq Assoc. East Section 3 Hong Lu": {
+      "id": "cinq-assoc-east-section-3-hong-lu",
+      "name": "Cinq Assoc. East Section 3 Hong Lu",
+      "kind": "character"
+    },
+    "dieci-assoc-south-section-4-hong-lu": {
+      "id": "dieci-assoc-south-section-4-hong-lu",
+      "name": "Dieci Assoc. South Section 4 Hong Lu",
+      "kind": "character"
+    },
+    "Dieci Assoc. South Section 4 Hong Lu": {
+      "id": "dieci-assoc-south-section-4-hong-lu",
+      "name": "Dieci Assoc. South Section 4 Hong Lu",
+      "kind": "character"
+    },
+    "district-20-yurodivy-hong-lu": {
+      "id": "district-20-yurodivy-hong-lu",
+      "name": "District 20 Yurodivy Hong Lu",
+      "kind": "character"
+    },
+    "District 20 Yurodivy Hong Lu": {
+      "id": "district-20-yurodivy-hong-lu",
+      "name": "District 20 Yurodivy Hong Lu",
+      "kind": "character"
+    },
+    "fanghunt-office-fixer-hong-lu": {
+      "id": "fanghunt-office-fixer-hong-lu",
+      "name": "Fanghunt Office Fixer Hong Lu",
+      "kind": "character"
+    },
+    "Fanghunt Office Fixer Hong Lu": {
+      "id": "fanghunt-office-fixer-hong-lu",
+      "name": "Fanghunt Office Fixer Hong Lu",
+      "kind": "character"
+    },
+    "full-stop-office-rep-hong-lu": {
+      "id": "full-stop-office-rep-hong-lu",
+      "name": "Full-Stop Office Rep Hong Lu",
+      "kind": "character"
+    },
+    "Full-Stop Office Rep Hong Lu": {
+      "id": "full-stop-office-rep-hong-lu",
+      "name": "Full-Stop Office Rep Hong Lu",
+      "kind": "character"
+    },
+    "hook-office-fixer-hong-lu": {
+      "id": "hook-office-fixer-hong-lu",
+      "name": "Hook Office Fixer Hong Lu",
+      "kind": "character"
+    },
+    "Hook Office Fixer Hong Lu": {
+      "id": "hook-office-fixer-hong-lu",
+      "name": "Hook Office Fixer Hong Lu",
+      "kind": "character"
+    },
+    "k-corp-class-3-excision-staff-hong-lu": {
+      "id": "k-corp-class-3-excision-staff-hong-lu",
+      "name": "K Corp. Class 3 Excision Staff Hong Lu",
+      "kind": "character"
+    },
+    "K Corp. Class 3 Excision Staff Hong Lu": {
+      "id": "k-corp-class-3-excision-staff-hong-lu",
+      "name": "K Corp. Class 3 Excision Staff Hong Lu",
+      "kind": "character"
+    },
+    "kurokumo-clan-wakashu-hong-lu": {
+      "id": "kurokumo-clan-wakashu-hong-lu",
+      "name": "Kurokumo Clan Wakashu Hong Lu",
+      "kind": "character"
+    },
+    "Kurokumo Clan Wakashu Hong Lu": {
+      "id": "kurokumo-clan-wakashu-hong-lu",
+      "name": "Kurokumo Clan Wakashu Hong Lu",
+      "kind": "character"
+    },
+    "lcb-sinner-hong-lu": {
+      "id": "lcb-sinner-hong-lu",
+      "name": "LCB Sinner Hong Lu",
+      "kind": "character"
+    },
+    "LCB Sinner Hong Lu": {
+      "id": "lcb-sinner-hong-lu",
+      "name": "LCB Sinner Hong Lu",
+      "kind": "character"
+    },
+    "liu-association-south-section-5-hong-lu": {
+      "id": "liu-association-south-section-5-hong-lu",
+      "name": "Liu Association South Section 5 Hong Lu",
+      "kind": "character"
+    },
+    "Liu Association South Section 5 Hong Lu": {
+      "id": "liu-association-south-section-5-hong-lu",
+      "name": "Liu Association South Section 5 Hong Lu",
+      "kind": "character"
+    },
+    "r-corp-4th-pack-reindeer-hong-lu": {
+      "id": "r-corp-4th-pack-reindeer-hong-lu",
+      "name": "R Corp. 4th Pack Reindeer Hong Lu",
+      "kind": "character"
+    },
+    "R Corp. 4th Pack Reindeer Hong Lu": {
+      "id": "r-corp-4th-pack-reindeer-hong-lu",
+      "name": "R Corp. 4th Pack Reindeer Hong Lu",
+      "kind": "character"
+    },
+    "s-corp-ch-unokkun-hong-lu": {
+      "id": "s-corp-ch-unokkun-hong-lu",
+      "name": "S Corp. Ch'unokkun Hong Lu",
+      "kind": "character"
+    },
+    "S Corp. Ch'unokkun Hong Lu": {
+      "id": "s-corp-ch-unokkun-hong-lu",
+      "name": "S Corp. Ch'unokkun Hong Lu",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-ring-nursefather-hong-lu": {
+      "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+      "name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "kind": "character"
+    },
+    "The House of Spiders: The Ring Nursefather Hong Lu": {
+      "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+      "name": "The House of Spiders: The Ring Nursefather Hong Lu",
+      "kind": "character"
+    },
+    "the-lord-of-hongyuan-hong-lu": {
+      "id": "the-lord-of-hongyuan-hong-lu",
+      "name": "The Lord of Hongyuan Hong Lu",
+      "kind": "character"
+    },
+    "The Lord of Hongyuan Hong Lu": {
+      "id": "the-lord-of-hongyuan-hong-lu",
+      "name": "The Lord of Hongyuan Hong Lu",
+      "kind": "character"
+    },
+    "tingtang-gang-gangleader-hong-lu": {
+      "id": "tingtang-gang-gangleader-hong-lu",
+      "name": "Tingtang Gang Gangleader Hong Lu",
+      "kind": "character"
+    },
+    "Tingtang Gang Gangleader Hong Lu": {
+      "id": "tingtang-gang-gangleader-hong-lu",
+      "name": "Tingtang Gang Gangleader Hong Lu",
+      "kind": "character"
+    },
+    "w-corp-l2-cleanup-agent-hong-lu": {
+      "id": "w-corp-l2-cleanup-agent-hong-lu",
+      "name": "W Corp. L2 Cleanup Agent Hong Lu",
+      "kind": "character"
+    },
+    "W Corp. L2 Cleanup Agent Hong Lu": {
+      "id": "w-corp-l2-cleanup-agent-hong-lu",
+      "name": "W Corp. L2 Cleanup Agent Hong Lu",
+      "kind": "character"
+    },
+    "full-stop-office-fixer-heathcliff": {
+      "id": "full-stop-office-fixer-heathcliff",
+      "name": "Full-Stop Office Fixer Heathcliff",
+      "kind": "character"
+    },
+    "Full-Stop Office Fixer Heathcliff": {
+      "id": "full-stop-office-fixer-heathcliff",
+      "name": "Full-Stop Office Fixer Heathcliff",
+      "kind": "character"
+    },
+    "heishou-pack-you-branch-adept-heathcliff": {
+      "id": "heishou-pack-you-branch-adept-heathcliff",
+      "name": "Heishou Pack - You Branch Adept Heathcliff",
+      "kind": "character"
+    },
+    "Heishou Pack - You Branch Adept Heathcliff": {
+      "id": "heishou-pack-you-branch-adept-heathcliff",
+      "name": "Heishou Pack - You Branch Adept Heathcliff",
+      "kind": "character"
+    },
+    "kurokumo-clan-wakashu-heathcliff": {
+      "id": "kurokumo-clan-wakashu-heathcliff",
+      "name": "Kurokumo Clan Wakashu Heathcliff",
+      "kind": "character"
+    },
+    "Kurokumo Clan Wakashu Heathcliff": {
+      "id": "kurokumo-clan-wakashu-heathcliff",
+      "name": "Kurokumo Clan Wakashu Heathcliff",
+      "kind": "character"
+    },
+    "lcb-sinner-heathcliff": {
+      "id": "lcb-sinner-heathcliff",
+      "name": "LCB Sinner Heathcliff",
+      "kind": "character"
+    },
+    "LCB Sinner Heathcliff": {
+      "id": "lcb-sinner-heathcliff",
+      "name": "LCB Sinner Heathcliff",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-sunshower-heathcliff": {
+      "id": "lobotomy-e-g-o-sunshower-heathcliff",
+      "name": "Lobotomy E.G.O::Sunshower Heathcliff",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Sunshower Heathcliff": {
+      "id": "lobotomy-e-g-o-sunshower-heathcliff",
+      "name": "Lobotomy E.G.O::Sunshower Heathcliff",
+      "kind": "character"
+    },
+    "multicrack-office-fixer-heathcliff": {
+      "id": "multicrack-office-fixer-heathcliff",
+      "name": "MultiCrack Office Fixer Heathcliff",
+      "kind": "character"
+    },
+    "MultiCrack Office Fixer Heathcliff": {
+      "id": "multicrack-office-fixer-heathcliff",
+      "name": "MultiCrack Office Fixer Heathcliff",
+      "kind": "character"
+    },
+    "n-corp-kleinhammer-heathcliff": {
+      "id": "n-corp-kleinhammer-heathcliff",
+      "name": "N Corp. Kleinhammer Heathcliff",
+      "kind": "character"
+    },
+    "N Corp. Kleinhammer Heathcliff": {
+      "id": "n-corp-kleinhammer-heathcliff",
+      "name": "N Corp. Kleinhammer Heathcliff",
+      "kind": "character"
+    },
+    "oeufi-assoc-south-section-3-heathcliff": {
+      "id": "oeufi-assoc-south-section-3-heathcliff",
+      "name": "Öufi Assoc. South Section 3 Heathcliff",
+      "kind": "character"
+    },
+    "Öufi Assoc. South Section 3 Heathcliff": {
+      "id": "oeufi-assoc-south-section-3-heathcliff",
+      "name": "Öufi Assoc. South Section 3 Heathcliff",
+      "kind": "character"
+    },
+    "r-corp-4th-pack-rabbit-heathcliff": {
+      "id": "r-corp-4th-pack-rabbit-heathcliff",
+      "name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "kind": "character"
+    },
+    "R Corp. 4th Pack Rabbit Heathcliff": {
+      "id": "r-corp-4th-pack-rabbit-heathcliff",
+      "name": "R Corp. 4th Pack Rabbit Heathcliff",
+      "kind": "character"
+    },
+    "seven-south-section-4-heathcliff": {
+      "id": "seven-south-section-4-heathcliff",
+      "name": "Seven Assoc. South Section 4 Heathcliff",
+      "kind": "character"
+    },
+    "Seven Assoc. South Section 4 Heathcliff": {
+      "id": "seven-south-section-4-heathcliff",
+      "name": "Seven Assoc. South Section 4 Heathcliff",
+      "kind": "character"
+    },
+    "shi-association-south-section-5-heathcliff": {
+      "id": "shi-association-south-section-5-heathcliff",
+      "name": "Shi Association South Section 5 Heathcliff",
+      "kind": "character"
+    },
+    "Shi Association South Section 5 Heathcliff": {
+      "id": "shi-association-south-section-5-heathcliff",
+      "name": "Shi Association South Section 5 Heathcliff",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-thumb-apprentice-heathcliff": {
+      "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+      "name": "The House of Spiders: The Thumb Apprentice Heathcliff",
+      "kind": "character"
+    },
+    "The House of Spiders: The Thumb Apprentice Heathcliff": {
+      "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+      "name": "The House of Spiders: The Thumb Apprentice Heathcliff",
+      "kind": "character"
+    },
+    "the-middle-big-brother-heathcliff": {
+      "id": "the-middle-big-brother-heathcliff",
+      "name": "The Middle Big Brother Heathcliff",
+      "kind": "character"
+    },
+    "The Middle Big Brother Heathcliff": {
+      "id": "the-middle-big-brother-heathcliff",
+      "name": "The Middle Big Brother Heathcliff",
+      "kind": "character"
+    },
+    "the-pequod-harpooner-heathcliff": {
+      "id": "the-pequod-harpooner-heathcliff",
+      "name": "The Pequod Harpooner Heathcliff",
+      "kind": "character"
+    },
+    "The Pequod Harpooner Heathcliff": {
+      "id": "the-pequod-harpooner-heathcliff",
+      "name": "The Pequod Harpooner Heathcliff",
+      "kind": "character"
+    },
+    "w-corp-l4-cleanup-agent-cca-heathcliff": {
+      "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+      "name": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+      "kind": "character"
+    },
+    "W Corp. L4 Cleanup Agent - CCA Heathcliff": {
+      "id": "w-corp-l4-cleanup-agent-cca-heathcliff",
+      "name": "W Corp. L4 Cleanup Agent - CCA Heathcliff",
+      "kind": "character"
+    },
+    "wild-hunt-heathcliff": {
+      "id": "wild-hunt-heathcliff",
+      "name": "Wild Hunt Heathcliff",
+      "kind": "character"
+    },
+    "Wild Hunt Heathcliff": {
+      "id": "wild-hunt-heathcliff",
+      "name": "Wild Hunt Heathcliff",
+      "kind": "character"
+    },
+    "edgar-family-butler-ishmael": {
+      "id": "edgar-family-butler-ishmael",
+      "name": "Edgar Family Butler Ishmael",
+      "kind": "character"
+    },
+    "Edgar Family Butler Ishmael": {
+      "id": "edgar-family-butler-ishmael",
+      "name": "Edgar Family Butler Ishmael",
+      "kind": "character"
+    },
+    "family-hierarch-candidate-ishmael": {
+      "id": "family-hierarch-candidate-ishmael",
+      "name": "Family Hierarch Candidate Ishmael",
+      "kind": "character"
+    },
+    "Family Hierarch Candidate Ishmael": {
+      "id": "family-hierarch-candidate-ishmael",
+      "name": "Family Hierarch Candidate Ishmael",
+      "kind": "character"
+    },
+    "haute-couture-boutique-du-rouge-ishmael": {
+      "id": "haute-couture-boutique-du-rouge-ishmael",
+      "name": "Haute Couture::Boutique du Rouge Ishmael",
+      "kind": "character"
+    },
+    "Haute Couture::Boutique du Rouge Ishmael": {
+      "id": "haute-couture-boutique-du-rouge-ishmael",
+      "name": "Haute Couture::Boutique du Rouge Ishmael",
+      "kind": "character"
+    },
+    "jeongs-office-rep-ishmael": {
+      "id": "jeongs-office-rep-ishmael",
+      "name": "Jeong's Office Rep Ishmael",
+      "kind": "character"
+    },
+    "Jeong's Office Rep Ishmael": {
+      "id": "jeongs-office-rep-ishmael",
+      "name": "Jeong's Office Rep Ishmael",
+      "kind": "character"
+    },
+    "kurokumo-clan-captain-ishmael": {
+      "id": "kurokumo-clan-captain-ishmael",
+      "name": "Kurokumo Clan Captain Ishmael",
+      "kind": "character"
+    },
+    "Kurokumo Clan Captain Ishmael": {
+      "id": "kurokumo-clan-captain-ishmael",
+      "name": "Kurokumo Clan Captain Ishmael",
+      "kind": "character"
+    },
+    "lcb-sinner-ishmael": {
+      "id": "lcb-sinner-ishmael",
+      "name": "LCB Sinner Ishmael",
+      "kind": "character"
+    },
+    "LCB Sinner Ishmael": {
+      "id": "lcb-sinner-ishmael",
+      "name": "LCB Sinner Ishmael",
+      "kind": "character"
+    },
+    "lccb-assistant-manager-ishmael": {
+      "id": "lccb-assistant-manager-ishmael",
+      "name": "LCCB Assistant Manager Ishmael",
+      "kind": "character"
+    },
+    "LCCB Assistant Manager Ishmael": {
+      "id": "lccb-assistant-manager-ishmael",
+      "name": "LCCB Assistant Manager Ishmael",
+      "kind": "character"
+    },
+    "lcd-osir-team-ishmael": {
+      "id": "lcd-osir-team-ishmael",
+      "name": "LCD OSIR Team Ishmael",
+      "kind": "character"
+    },
+    "LCD OSIR Team Ishmael": {
+      "id": "lcd-osir-team-ishmael",
+      "name": "LCD OSIR Team Ishmael",
+      "kind": "character"
+    },
+    "liu-south-section-4-ishmael": {
+      "id": "liu-south-section-4-ishmael",
+      "name": "Liu Assoc. South Section 4 Ishmael",
+      "kind": "character"
+    },
+    "Liu Assoc. South Section 4 Ishmael": {
+      "id": "liu-south-section-4-ishmael",
+      "name": "Liu Assoc. South Section 4 Ishmael",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-sloshing-ishmael": {
+      "id": "lobotomy-e-g-o-sloshing-ishmael",
+      "name": "Lobotomy E.G.O::Sloshing Ishmael",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Sloshing Ishmael": {
+      "id": "lobotomy-e-g-o-sloshing-ishmael",
+      "name": "Lobotomy E.G.O::Sloshing Ishmael",
+      "kind": "character"
+    },
+    "r-corp-4th-pack-reindeer-ishmael": {
+      "id": "r-corp-4th-pack-reindeer-ishmael",
+      "name": "R Corp. 4th Pack Reindeer Ishmael",
+      "kind": "character"
+    },
+    "R Corp. 4th Pack Reindeer Ishmael": {
+      "id": "r-corp-4th-pack-reindeer-ishmael",
+      "name": "R Corp. 4th Pack Reindeer Ishmael",
+      "kind": "character"
+    },
+    "shi-association-south-section-5-ishmael": {
+      "id": "shi-association-south-section-5-ishmael",
+      "name": "Shi Association South Section 5 Ishmael",
+      "kind": "character"
+    },
+    "Shi Association South Section 5 Ishmael": {
+      "id": "shi-association-south-section-5-ishmael",
+      "name": "Shi Association South Section 5 Ishmael",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-middle-apprentice-ishmael": {
+      "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+      "name": "The House of Spiders: The Middle Apprentice Ishmael",
+      "kind": "character"
+    },
+    "The House of Spiders: The Middle Apprentice Ishmael": {
+      "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+      "name": "The House of Spiders: The Middle Apprentice Ishmael",
+      "kind": "character"
+    },
+    "the-pequod-captain-ishmael": {
+      "id": "the-pequod-captain-ishmael",
+      "name": "The Pequod Captain Ishmael",
+      "kind": "character"
+    },
+    "The Pequod Captain Ishmael": {
+      "id": "the-pequod-captain-ishmael",
+      "name": "The Pequod Captain Ishmael",
+      "kind": "character"
+    },
+    "totally-not-molar-boatworks-fixer-ishmael": {
+      "id": "totally-not-molar-boatworks-fixer-ishmael",
+      "name": "Molar Boatworks Fixer Ishmael",
+      "kind": "character"
+    },
+    "Molar Boatworks Fixer Ishmael": {
+      "id": "totally-not-molar-boatworks-fixer-ishmael",
+      "name": "Molar Boatworks Fixer Ishmael",
+      "kind": "character"
+    },
+    "zwei-assoc-west-section-3-ishmael": {
+      "id": "zwei-assoc-west-section-3-ishmael",
+      "name": "Zwei. Assoc. West Section 3 Ishmael",
+      "kind": "character"
+    },
+    "Zwei. Assoc. West Section 3 Ishmael": {
+      "id": "zwei-assoc-west-section-3-ishmael",
+      "name": "Zwei. Assoc. West Section 3 Ishmael",
+      "kind": "character"
+    },
+    "devyat-assoc-north-section-3-rodion": {
+      "id": "devyat-assoc-north-section-3-rodion",
+      "name": "Devyat' Assoc. North Section 3 Rodion",
+      "kind": "character"
+    },
+    "Devyat' Assoc. North Section 3 Rodion": {
+      "id": "devyat-assoc-north-section-3-rodion",
+      "name": "Devyat' Assoc. North Section 3 Rodion",
+      "kind": "character"
+    },
+    "dieci-south-section-4-rodion": {
+      "id": "dieci-south-section-4-rodion",
+      "name": "Dieci Assoc. South Section 4 Rodion",
+      "kind": "character"
+    },
+    "Dieci Assoc. South Section 4 Rodion": {
+      "id": "dieci-south-section-4-rodion",
+      "name": "Dieci Assoc. South Section 4 Rodion",
+      "kind": "character"
+    },
+    "haute-couture-alteration-shop-rodion": {
+      "id": "haute-couture-alteration-shop-rodion",
+      "name": "Haute Couture::Alteration Shop Rodion",
+      "kind": "character"
+    },
+    "Haute Couture::Alteration Shop Rodion": {
+      "id": "haute-couture-alteration-shop-rodion",
+      "name": "Haute Couture::Alteration Shop Rodion",
+      "kind": "character"
+    },
+    "heishou-pack-si-branch-rodion": {
+      "id": "heishou-pack-si-branch-rodion",
+      "name": "Heishou Pack - Si Branch Rodion",
+      "kind": "character"
+    },
+    "Heishou Pack - Si Branch Rodion": {
+      "id": "heishou-pack-si-branch-rodion",
+      "name": "Heishou Pack - Si Branch Rodion",
+      "kind": "character"
+    },
+    "kurokumo-clan-wakashu-rodion": {
+      "id": "kurokumo-clan-wakashu-rodion",
+      "name": "Kurokumo Clan Wakashu Rodion",
+      "kind": "character"
+    },
+    "Kurokumo Clan Wakashu Rodion": {
+      "id": "kurokumo-clan-wakashu-rodion",
+      "name": "Kurokumo Clan Wakashu Rodion",
+      "kind": "character"
+    },
+    "lcb-sinner-rodion": {
+      "id": "lcb-sinner-rodion",
+      "name": "LCB Sinner Rodion",
+      "kind": "character"
+    },
+    "LCB Sinner Rodion": {
+      "id": "lcb-sinner-rodion",
+      "name": "LCB Sinner Rodion",
+      "kind": "character"
+    },
+    "lccb-assistant-manager-rodion": {
+      "id": "lccb-assistant-manager-rodion",
+      "name": "LCCB Assistant Manager Rodion",
+      "kind": "character"
+    },
+    "LCCB Assistant Manager Rodion": {
+      "id": "lccb-assistant-manager-rodion",
+      "name": "LCCB Assistant Manager Rodion",
+      "kind": "character"
+    },
+    "liu-assoc-south-section-4-director-rodion": {
+      "id": "liu-assoc-south-section-4-director-rodion",
+      "name": "Liu Assoc. South Section 4 Director Rodion",
+      "kind": "character"
+    },
+    "Liu Assoc. South Section 4 Director Rodion": {
+      "id": "liu-assoc-south-section-4-director-rodion",
+      "name": "Liu Assoc. South Section 4 Director Rodion",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion": {
+      "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+      "name": "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion": {
+      "id": "lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
+      "name": "Lobotomy E.G.O::The Sword Sharpened with Tears Rodion",
+      "kind": "character"
+    },
+    "n-corp-mittelhammer-rodion": {
+      "id": "n-corp-mittelhammer-rodion",
+      "name": "N Corp. Mittelhammer Rodion",
+      "kind": "character"
+    },
+    "N Corp. Mittelhammer Rodion": {
+      "id": "n-corp-mittelhammer-rodion",
+      "name": "N Corp. Mittelhammer Rodion",
+      "kind": "character"
+    },
+    "r-corp-4th-pack-reindeer-rodion": {
+      "id": "r-corp-4th-pack-reindeer-rodion",
+      "name": "R Corp. 4th Pack Reindeer Rodion",
+      "kind": "character"
+    },
+    "R Corp. 4th Pack Reindeer Rodion": {
+      "id": "r-corp-4th-pack-reindeer-rodion",
+      "name": "R Corp. 4th Pack Reindeer Rodion",
+      "kind": "character"
+    },
+    "rosespanner-workshop-rep-rodion": {
+      "id": "rosespanner-workshop-rep-rodion",
+      "name": "Rosespanner Workshop Rep. Rodion",
+      "kind": "character"
+    },
+    "Rosespanner Workshop Rep. Rodion": {
+      "id": "rosespanner-workshop-rep-rodion",
+      "name": "Rosespanner Workshop Rep. Rodion",
+      "kind": "character"
+    },
+    "t-corp-class-2-collection-staff-rodion": {
+      "id": "t-corp-class-2-collection-staff-rodion",
+      "name": "T Corp. Class 2 Collection Staff Rodion",
+      "kind": "character"
+    },
+    "T Corp. Class 2 Collection Staff Rodion": {
+      "id": "t-corp-class-2-collection-staff-rodion",
+      "name": "T Corp. Class 2 Collection Staff Rodion",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-thumb-nursefather-rodion": {
+      "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+      "name": "The House of Spiders: The Thumb Nursefather Rodion",
+      "kind": "character"
+    },
+    "The House of Spiders: The Thumb Nursefather Rodion": {
+      "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+      "name": "The House of Spiders: The Thumb Nursefather Rodion",
+      "kind": "character"
+    },
+    "the-princess-of-la-manchaland-rodion": {
+      "id": "the-princess-of-la-manchaland-rodion",
+      "name": "The Princess of La Manchaland Rodion",
+      "kind": "character"
+    },
+    "The Princess of La Manchaland Rodion": {
+      "id": "the-princess-of-la-manchaland-rodion",
+      "name": "The Princess of La Manchaland Rodion",
+      "kind": "character"
+    },
+    "the-ring-fauvist-docent-rodion": {
+      "id": "the-ring-fauvist-docent-rodion",
+      "name": "The Ring Fauvist Docent Rodion",
+      "kind": "character"
+    },
+    "The Ring Fauvist Docent Rodion": {
+      "id": "the-ring-fauvist-docent-rodion",
+      "name": "The Ring Fauvist Docent Rodion",
+      "kind": "character"
+    },
+    "zwei-south-section-5-rodion": {
+      "id": "zwei-south-section-5-rodion",
+      "name": "Zwei Assoc. South Section 5 Rodion",
+      "kind": "character"
+    },
+    "Zwei Assoc. South Section 5 Rodion": {
+      "id": "zwei-south-section-5-rodion",
+      "name": "Zwei Assoc. South Section 5 Rodion",
+      "kind": "character"
+    },
+    "blade-lineage-salsu-sinclair": {
+      "id": "blade-lineage-salsu-sinclair",
+      "name": "Blade Lineage Salsu Sinclair",
+      "kind": "character"
+    },
+    "Blade Lineage Salsu Sinclair": {
+      "id": "blade-lineage-salsu-sinclair",
+      "name": "Blade Lineage Salsu Sinclair",
+      "kind": "character"
+    },
+    "boatworks-fixer-sinclair": {
+      "id": "boatworks-fixer-sinclair",
+      "name": "Molar Boatworks Fixer Sinclair",
+      "kind": "character"
+    },
+    "Molar Boatworks Fixer Sinclair": {
+      "id": "boatworks-fixer-sinclair",
+      "name": "Molar Boatworks Fixer Sinclair",
+      "kind": "character"
+    },
+    "cinq-south-section-4-director-sinclair": {
+      "id": "cinq-south-section-4-director-sinclair",
+      "name": "Cinq South Section 4 Director Sinclair",
+      "kind": "character"
+    },
+    "Cinq South Section 4 Director Sinclair": {
+      "id": "cinq-south-section-4-director-sinclair",
+      "name": "Cinq South Section 4 Director Sinclair",
+      "kind": "character"
+    },
+    "dawn-office-fixer-sinclair": {
+      "id": "dawn-office-fixer-sinclair",
+      "name": "Dawn Office Fixer Sinclair",
+      "kind": "character"
+    },
+    "Dawn Office Fixer Sinclair": {
+      "id": "dawn-office-fixer-sinclair",
+      "name": "Dawn Office Fixer Sinclair",
+      "kind": "character"
+    },
+    "devyat-assoc-north-section-3-sinclair": {
+      "id": "devyat-assoc-north-section-3-sinclair",
+      "name": "Devyat Assoc. North Section 3 Sinclair",
+      "kind": "character"
+    },
+    "Devyat Assoc. North Section 3 Sinclair": {
+      "id": "devyat-assoc-north-section-3-sinclair",
+      "name": "Devyat Assoc. North Section 3 Sinclair",
+      "kind": "character"
+    },
+    "haute-couture-the-crimson-god-of-le-rouge-sinclair": {
+      "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+      "name": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+      "kind": "character"
+    },
+    "Haute Couture::The Crimson God of Le Rouge Sinclair": {
+      "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+      "name": "Haute Couture::The Crimson God of Le Rouge Sinclair",
+      "kind": "character"
+    },
+    "heishou-pack-you-branch-sinclair": {
+      "id": "heishou-pack-you-branch-sinclair",
+      "name": "Heishou Pack - You Branch Sinclair",
+      "kind": "character"
+    },
+    "Heishou Pack - You Branch Sinclair": {
+      "id": "heishou-pack-you-branch-sinclair",
+      "name": "Heishou Pack - You Branch Sinclair",
+      "kind": "character"
+    },
+    "lcb-sinner-sinclair": {
+      "id": "lcb-sinner-sinclair",
+      "name": "LCB Sinner Sinclair",
+      "kind": "character"
+    },
+    "LCB Sinner Sinclair": {
+      "id": "lcb-sinner-sinclair",
+      "name": "LCB Sinner Sinclair",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-red-sheet-sinclair": {
+      "id": "lobotomy-e-g-o-red-sheet-sinclair",
+      "name": "Lobotomy E.G.O::Red Sheet Sinclair",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Red Sheet Sinclair": {
+      "id": "lobotomy-e-g-o-red-sheet-sinclair",
+      "name": "Lobotomy E.G.O::Red Sheet Sinclair",
+      "kind": "character"
+    },
+    "los-mariachis-jefe-sinclair": {
+      "id": "los-mariachis-jefe-sinclair",
+      "name": "Los Mariachis Jefe Sinclair",
+      "kind": "character"
+    },
+    "Los Mariachis Jefe Sinclair": {
+      "id": "los-mariachis-jefe-sinclair",
+      "name": "Los Mariachis Jefe Sinclair",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-pinky-apprentice-sinclair": {
+      "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+      "name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "kind": "character"
+    },
+    "The House of Spiders: The Pinky Apprentice Sinclair": {
+      "id": "the-house-of-spiders-the-pinky-apprentice-sinclair",
+      "name": "The House of Spiders: The Pinky Apprentice Sinclair",
+      "kind": "character"
+    },
+    "the-middle-little-brother-sinclair": {
+      "id": "the-middle-little-brother-sinclair",
+      "name": "The Middle Little Brother Sinclair",
+      "kind": "character"
+    },
+    "The Middle Little Brother Sinclair": {
+      "id": "the-middle-little-brother-sinclair",
+      "name": "The Middle Little Brother Sinclair",
+      "kind": "character"
+    },
+    "the-one-who-shall-grip-sinclair": {
+      "id": "the-one-who-shall-grip-sinclair",
+      "name": "The One Who Shall Grip Sinclair",
+      "kind": "character"
+    },
+    "The One Who Shall Grip Sinclair": {
+      "id": "the-one-who-shall-grip-sinclair",
+      "name": "The One Who Shall Grip Sinclair",
+      "kind": "character"
+    },
+    "the-thumb-east-soldato-ii-sinclair": {
+      "id": "the-thumb-east-soldato-ii-sinclair",
+      "name": "The Thumb East Soldato II Sinclair",
+      "kind": "character"
+    },
+    "The Thumb East Soldato II Sinclair": {
+      "id": "the-thumb-east-soldato-ii-sinclair",
+      "name": "The Thumb East Soldato II Sinclair",
+      "kind": "character"
+    },
+    "zwei-assoc-west-section-3-sinclair": {
+      "id": "zwei-assoc-west-section-3-sinclair",
+      "name": "Zwei Assoc. West Section 3 Sinclair",
+      "kind": "character"
+    },
+    "Zwei Assoc. West Section 3 Sinclair": {
+      "id": "zwei-assoc-west-section-3-sinclair",
+      "name": "Zwei Assoc. West Section 3 Sinclair",
+      "kind": "character"
+    },
+    "zwei-association-south-section-6-sinclair": {
+      "id": "zwei-association-south-section-6-sinclair",
+      "name": "Zwei Association South Section 6 Sinclair",
+      "kind": "character"
+    },
+    "Zwei Association South Section 6 Sinclair": {
+      "id": "zwei-association-south-section-6-sinclair",
+      "name": "Zwei Association South Section 6 Sinclair",
+      "kind": "character"
+    },
+    "blade-lineage-cutthroat-outis": {
+      "id": "blade-lineage-cutthroat-outis",
+      "name": "Blade Lineage Salsu Outis",
+      "kind": "character"
+    },
+    "Blade Lineage Salsu Outis": {
+      "id": "blade-lineage-cutthroat-outis",
+      "name": "Blade Lineage Salsu Outis",
+      "kind": "character"
+    },
+    "cinq-south-section-4-outis": {
+      "id": "cinq-south-section-4-outis",
+      "name": "Cinq South Section 4 Outis",
+      "kind": "character"
+    },
+    "Cinq South Section 4 Outis": {
+      "id": "cinq-south-section-4-outis",
+      "name": "Cinq South Section 4 Outis",
+      "kind": "character"
+    },
+    "g-corp-head-manager-outis": {
+      "id": "g-corp-head-manager-outis",
+      "name": "G Corp. Head Manager Outis",
+      "kind": "character"
+    },
+    "G Corp. Head Manager Outis": {
+      "id": "g-corp-head-manager-outis",
+      "name": "G Corp. Head Manager Outis",
+      "kind": "character"
+    },
+    "heishou-pack-mao-branch-outis": {
+      "id": "heishou-pack-mao-branch-outis",
+      "name": "Heishou Pack - Mao Branch Outis",
+      "kind": "character"
+    },
+    "Heishou Pack - Mao Branch Outis": {
+      "id": "heishou-pack-mao-branch-outis",
+      "name": "Heishou Pack - Mao Branch Outis",
+      "kind": "character"
+    },
+    "lca-udjat-vanguard-team-3-leader-outis": {
+      "id": "lca-udjat-vanguard-team-3-leader-outis",
+      "name": "LCA Udjat Vanguard Team 3 Leader Outis",
+      "kind": "character"
+    },
+    "LCA Udjat Vanguard Team 3 Leader Outis": {
+      "id": "lca-udjat-vanguard-team-3-leader-outis",
+      "name": "LCA Udjat Vanguard Team 3 Leader Outis",
+      "kind": "character"
+    },
+    "lcb-sinner-outis": {
+      "id": "lcb-sinner-outis",
+      "name": "LCB Sinner Outis",
+      "kind": "character"
+    },
+    "LCB Sinner Outis": {
+      "id": "lcb-sinner-outis",
+      "name": "LCB Sinner Outis",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-magic-bullet-outis": {
+      "id": "lobotomy-e-g-o-magic-bullet-outis",
+      "name": "Lobotomy E.G.O::Magic Bullet Outis",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Magic Bullet Outis": {
+      "id": "lobotomy-e-g-o-magic-bullet-outis",
+      "name": "Lobotomy E.G.O::Magic Bullet Outis",
+      "kind": "character"
+    },
+    "molar-office-fixer-outis": {
+      "id": "molar-office-fixer-outis",
+      "name": "Molar Office Fixer Outis",
+      "kind": "character"
+    },
+    "Molar Office Fixer Outis": {
+      "id": "molar-office-fixer-outis",
+      "name": "Molar Office Fixer Outis",
+      "kind": "character"
+    },
+    "seven-association-south-section-6-director-outis": {
+      "id": "seven-association-south-section-6-director-outis",
+      "name": "Seven Assoc. South Section 6 Director Outis",
+      "kind": "character"
+    },
+    "Seven Assoc. South Section 6 Director Outis": {
+      "id": "seven-association-south-section-6-director-outis",
+      "name": "Seven Assoc. South Section 6 Director Outis",
+      "kind": "character"
+    },
+    "t-corp-class-3-vdcu-staff-outis": {
+      "id": "t-corp-class-3-vdcu-staff-outis",
+      "name": "T Corp. Class 3 VDCU Staff Outis",
+      "kind": "character"
+    },
+    "T Corp. Class 3 VDCU Staff Outis": {
+      "id": "t-corp-class-3-vdcu-staff-outis",
+      "name": "T Corp. Class 3 VDCU Staff Outis",
+      "kind": "character"
+    },
+    "the-barber-of-la-manchaland-outis": {
+      "id": "the-barber-of-la-manchaland-outis",
+      "name": "The Barber of La Manchaland Outis",
+      "kind": "character"
+    },
+    "The Barber of La Manchaland Outis": {
+      "id": "the-barber-of-la-manchaland-outis",
+      "name": "The Barber of La Manchaland Outis",
+      "kind": "character"
+    },
+    "the-house-of-spiders-the-middle-nursefather-outis": {
+      "id": "the-house-of-spiders-the-middle-nursefather-outis",
+      "name": "The House of Spiders: The Middle Nursefather Outis",
+      "kind": "character"
+    },
+    "The House of Spiders: The Middle Nursefather Outis": {
+      "id": "the-house-of-spiders-the-middle-nursefather-outis",
+      "name": "The House of Spiders: The Middle Nursefather Outis",
+      "kind": "character"
+    },
+    "the-ring-pointillist-student-outis": {
+      "id": "the-ring-pointillist-student-outis",
+      "name": "The Ring Pointillist Student Outis",
+      "kind": "character"
+    },
+    "The Ring Pointillist Student Outis": {
+      "id": "the-ring-pointillist-student-outis",
+      "name": "The Ring Pointillist Student Outis",
+      "kind": "character"
+    },
+    "w-corp-l3-cleanup-captain-outis": {
+      "id": "w-corp-l3-cleanup-captain-outis",
+      "name": "W Corp. L3 Cleanup Captain Outis",
+      "kind": "character"
+    },
+    "W Corp. L3 Cleanup Captain Outis": {
+      "id": "w-corp-l3-cleanup-captain-outis",
+      "name": "W Corp. L3 Cleanup Captain Outis",
+      "kind": "character"
+    },
+    "wuthering-heights-chief-butler-outis": {
+      "id": "wuthering-heights-chief-butler-outis",
+      "name": "Wuthering Heights Chief Butler Outis",
+      "kind": "character"
+    },
+    "Wuthering Heights Chief Butler Outis": {
+      "id": "wuthering-heights-chief-butler-outis",
+      "name": "Wuthering Heights Chief Butler Outis",
+      "kind": "character"
+    },
+    "dawn-office-rep-gregor": {
+      "id": "dawn-office-rep-gregor",
+      "name": "Dawn Office Rep Gregor",
+      "kind": "character"
+    },
+    "Dawn Office Rep Gregor": {
+      "id": "dawn-office-rep-gregor",
+      "name": "Dawn Office Rep Gregor",
+      "kind": "character"
+    },
+    "edgar-family-heir-gregor": {
+      "id": "edgar-family-heir-gregor",
+      "name": "Edgar Family Heir Gregor",
+      "kind": "character"
+    },
+    "Edgar Family Heir Gregor": {
+      "id": "edgar-family-heir-gregor",
+      "name": "Edgar Family Heir Gregor",
+      "kind": "character"
+    },
+    "firefist-office-survivor-gregor": {
+      "id": "firefist-office-survivor-gregor",
+      "name": "Firefist Office Survivor Gregor",
+      "kind": "character"
+    },
+    "Firefist Office Survivor Gregor": {
+      "id": "firefist-office-survivor-gregor",
+      "name": "Firefist Office Survivor Gregor",
+      "kind": "character"
+    },
+    "g-corp-manager-corporal-gregor": {
+      "id": "g-corp-manager-corporal-gregor",
+      "name": "G Corp. Manager Corporal Gregor",
+      "kind": "character"
+    },
+    "G Corp. Manager Corporal Gregor": {
+      "id": "g-corp-manager-corporal-gregor",
+      "name": "G Corp. Manager Corporal Gregor",
+      "kind": "character"
+    },
+    "heishou-pack-si-branch-gregor": {
+      "id": "heishou-pack-si-branch-gregor",
+      "name": "Heishou Pack - Si Branch Gregor",
+      "kind": "character"
+    },
+    "Heishou Pack - Si Branch Gregor": {
+      "id": "heishou-pack-si-branch-gregor",
+      "name": "Heishou Pack - Si Branch Gregor",
+      "kind": "character"
+    },
+    "kurokomo-clan-captain-gregor": {
+      "id": "kurokomo-clan-captain-gregor",
+      "name": "Kurokumo Clan Captain Gregor",
+      "kind": "character"
+    },
+    "Kurokumo Clan Captain Gregor": {
+      "id": "kurokomo-clan-captain-gregor",
+      "name": "Kurokumo Clan Captain Gregor",
+      "kind": "character"
+    },
+    "lcb-sinner-gregor": {
+      "id": "lcb-sinner-gregor",
+      "name": "LCB Sinner Gregor",
+      "kind": "character"
+    },
+    "LCB Sinner Gregor": {
+      "id": "lcb-sinner-gregor",
+      "name": "LCB Sinner Gregor",
+      "kind": "character"
+    },
+    "lce-e-g-o-aedd-gregor": {
+      "id": "lce-e-g-o-aedd-gregor",
+      "name": "LCE E.G.O::AEDD Gregor",
+      "kind": "character"
+    },
+    "LCE E.G.O::AEDD Gregor": {
+      "id": "lce-e-g-o-aedd-gregor",
+      "name": "LCE E.G.O::AEDD Gregor",
+      "kind": "character"
+    },
+    "liu-association-south-section-6-gregor": {
+      "id": "liu-association-south-section-6-gregor",
+      "name": "Liu Assoc. South Section 6 Gregor",
+      "kind": "character"
+    },
+    "Liu Assoc. South Section 6 Gregor": {
+      "id": "liu-association-south-section-6-gregor",
+      "name": "Liu Assoc. South Section 6 Gregor",
+      "kind": "character"
+    },
+    "lobotomy-e-g-o-lamp-gregor": {
+      "id": "lobotomy-e-g-o-lamp-gregor",
+      "name": "Lobotomy E.G.O::Lamp Gregor",
+      "kind": "character"
+    },
+    "Lobotomy E.G.O::Lamp Gregor": {
+      "id": "lobotomy-e-g-o-lamp-gregor",
+      "name": "Lobotomy E.G.O::Lamp Gregor",
+      "kind": "character"
+    },
+    "night-awls-capitano-gregor": {
+      "id": "night-awls-capitano-gregor",
+      "name": "Night Awls Capitano Gregor",
+      "kind": "character"
+    },
+    "Night Awls Capitano Gregor": {
+      "id": "night-awls-capitano-gregor",
+      "name": "Night Awls Capitano Gregor",
+      "kind": "character"
+    },
+    "r-b-sous-chef-gregor": {
+      "id": "r-b-sous-chef-gregor",
+      "name": "R.B. Sous-chef Gregor",
+      "kind": "character"
+    },
+    "R.B. Sous-chef Gregor": {
+      "id": "r-b-sous-chef-gregor",
+      "name": "R.B. Sous-chef Gregor",
+      "kind": "character"
+    },
+    "rosespanner-workshop-fixer-gregor": {
+      "id": "rosespanner-workshop-fixer-gregor",
+      "name": "Rosespanner Workshop Fixer Gregor",
+      "kind": "character"
+    },
+    "Rosespanner Workshop Fixer Gregor": {
+      "id": "rosespanner-workshop-fixer-gregor",
+      "name": "Rosespanner Workshop Fixer Gregor",
+      "kind": "character"
+    },
+    "the-priest-of-la-manchaland-gregor": {
+      "id": "the-priest-of-la-manchaland-gregor",
+      "name": "The Priest of La Manchaland Gregor",
+      "kind": "character"
+    },
+    "The Priest of La Manchaland Gregor": {
+      "id": "the-priest-of-la-manchaland-gregor",
+      "name": "The Priest of La Manchaland Gregor",
+      "kind": "character"
+    },
+    "twinhook-pirates-first-mate-gregor": {
+      "id": "twinhook-pirates-first-mate-gregor",
+      "name": "Twinhook Pirates First Mate Gregor",
+      "kind": "character"
+    },
+    "Twinhook Pirates First Mate Gregor": {
+      "id": "twinhook-pirates-first-mate-gregor",
+      "name": "Twinhook Pirates First Mate Gregor",
+      "kind": "character"
+    },
+    "zwei-association-south-section-4-gregor": {
+      "id": "zwei-association-south-section-4-gregor",
+      "name": "Zwei Association South Section 4 Gregor",
+      "kind": "character"
+    },
+    "Zwei Association South Section 4 Gregor": {
+      "id": "zwei-association-south-section-4-gregor",
+      "name": "Zwei Association South Section 4 Gregor",
+      "kind": "character"
+    }
+  }
+}

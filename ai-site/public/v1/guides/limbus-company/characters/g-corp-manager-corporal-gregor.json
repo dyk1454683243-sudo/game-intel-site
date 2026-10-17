@@ -1,0 +1,108 @@
+{
+  "id": "g-corp-manager-corporal-gregor",
+  "name": "G Corp. Manager Corporal Gregor",
+  "name_zh": null,
+  "name_en": "G Corp. Manager Corporal Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "000",
+  "role": "Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Hack",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 4. Coins 2. Coin Power 3. Offense Level 65. Atk Weight 1. [Clash Win] +40% damage If target has 5+ Rupture, Coin Power +1 1 [On Hit] Heal 50% of damage dealt",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Dismember",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Slash. Skill Power 6. Coins 1. Coin Power 10. Offense Level 65. Atk Weight 1. If target has 5+ Rupture, deal +50% damage 1 [On Hit] Inflict 5 Rupture [On Hit] Heal 50% of damage dealt",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Eviscerate",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 4. Coins 4. Coin Power 2. Offense Level 65. Atk Weight 1. If target has 5+ Rupture, Coin Power +1 1 [On Hit] Deal 30% of damage dealt as bonus damage if target has Rupture 2 [On Hit] Deal 30% of damage dealt as bonus damage if target has Rupture 3 [On Hit] Deal 30% of damage dealt as bonus damage if target has Rupture 4 [On Hit] Heal by 100% of damage dealt",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 60. Atk Weight 1",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Emergency Rations",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. At less than 25% HP, heal by 5% of Max HP after winning a clash. Gene Code G-3 x4 Gluttony [Owned] The ally with the lowest HP heals 5 HP after winning a clash"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/g-corp-manager-corporal-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "g-corp-manager-corporal-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/g-corp-manager-corporal-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:g-corp-manager-corporal-gregor",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "3-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Cockroach. Literally, he is very tanky although in the form of constant self healing which may cause him to be staggered considering low defensive stats. At least getting back HP is not hard. His s3 is kind of weird since he barely has any rupture count application so all he can do is just damage and self heal. Like almost every gregor IDs his support passive is really good allowing you to heal every turn this time in the form of gluttony and it is better than the others if said sinners have 2 slots.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/g-corp-manager-corporal-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Gregor / Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/g-corp-manager-corporal-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

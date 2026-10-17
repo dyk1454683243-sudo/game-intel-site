@@ -1,0 +1,113 @@
+{
+  "id": "lcb-sinner-ishmael",
+  "name": "LCB Sinner Ishmael",
+  "name_zh": null,
+  "name_en": "LCB Sinner Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "0",
+  "role": "Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Loggerhead",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 4. Coins 1. Coin Power 7. Offense Level 59. Atk Weight 1. 1 [On Hit] Inflict +1 Tremor Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Slide",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 6. Coins 1. Coin Power 9. Offense Level 59. Atk Weight 1. [Clash Win] Inflict 3 Defense Power Down 1 [On Hit] Inflict 3 Tremor",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Shield Bash",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 8. Coins 1. Coin Power 12. Offense Level 59. Atk Weight 1. 1 [On Hit] Burst Tremor; Inflict 1 Blunt Fragility",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Wrath. -. Skill Power 7. Coins 1. Coin Power 3. Offense Level 60. Atk Weight 1",
+      "sin": "Wrath",
+      "attack_type": "-"
+    },
+    {
+      "name": "Last-ditch Struggle",
+      "type": "passive",
+      "summary": "x3 Wrath [Owned]. At less than 25% HP, gain +1 clash Power in a clash."
+    },
+    {
+      "name": "Determination to Survive",
+      "type": "support",
+      "summary": "x6 Wrath [Owned]. 1 ally with the lowest HP and less than 50% of max HP gains +1 clash Power in a clash."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcb-sinner-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcb-sinner-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcb-sinner-ishmael",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "239",
+    "speed": "5-8",
+    "defense": "60",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Can clash, can fuel Snagharpoon E.G.O. but that is all Ishmael has to offer. Her passives are horrible and won’t see much use outside of maybe using them for Shi Heathcliff or Shi Don Identities, but that is really all. Notable E.G.O. Synergy Snagharpoon - can help even more with clash and cripple enemy speed",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "0 / Ishmael / Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcb-sinner-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

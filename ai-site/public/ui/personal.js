@@ -234,10 +234,19 @@ export function namesFromIndexAndAliases(id, indexDoc, aliasDocs) {
     }
   }
   const aliases = [...names].sort((a, b) => [...b].length - [...a].length).slice(0, 24);
+  const sinner = row && row.sinner && typeof row.sinner === "object" && row.sinner.id
+    ? {
+        id: String(row.sinner.id),
+        name_en: row.sinner.name_en ? String(row.sinner.name_en) : "",
+        name_zh: row.sinner.name_zh ? String(row.sinner.name_zh) : "",
+        order: Number(row.sinner.order) || 0,
+      }
+    : null;
   return {
     name: (row && row.name) || "",
     name_zh: (row && row.name_zh) || "",
     aliases,
+    sinner,
   };
 }
 
@@ -529,12 +538,14 @@ export function buildPersonal({
   const highlightBanners = banners.filter((row) => row.matched.length);
   const codesNew = codes.filter((row) => row.marks.includes("new"));
   const codesExpiring = codes.filter((row) => row.marks.includes("expiring"));
-  const labels = { games: {}, chars: {} };
+  const labels = { games: {}, chars: {}, char_sinner: {} };
   const labelGames = new Set([...list.games, ...list.chars.map((row) => row.game)]);
   for (const game of labelGames) labels.games[game] = gameLabel(digest, game);
   for (const row of list.chars) {
     const info = namesByKey[`${row.game}:${row.id}`] || {};
-    labels.chars[`${row.game}:${row.id}`] = info.name_zh || info.name || row.id;
+    const key = `${row.game}:${row.id}`;
+    labels.chars[key] = info.name_zh || info.name || row.id;
+    if (info.sinner) labels.char_sinner[key] = info.sinner;
   }
   const query = canonicalQuery(list);
   const hasFollows = list.games.length > 0 || list.chars.length > 0;

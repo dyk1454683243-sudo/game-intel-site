@@ -1,0 +1,128 @@
+{
+  "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+  "name": "The House of Spiders: The Ring Nursefather Hong Lu",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Ring Nursefather Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Bind Bleed Charge",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Anatomize",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Deal +10% damage for every type of negative effects on target (max 30%) [On Use] Final Power +1 for every 4 Bleed on target (max 3) 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2 Defense Level Down next turn (once per turn) [On Hit] Gain 2 Defense Level Up next turn (once per turn)",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "My, How We Love the Flesh and the Blood",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 1. Coin Power 4. Offense Level 63. Atk Weight 1. [Indiscriminate] [Unclashable] This Skill has the following properties: - Does not trigger Defense Skills - External effects cannot trigger this Skill to be Reused - Its attack does not hit [On Use] Apply 6 Offense Level Up on target",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Gather Ingredient - Blood-bathed Object",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Deal +10% damage for every type of negative effect on target (max 30%) [On Use] Final Power +1 for every 4 Bleed on target (max 4) [On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain the following effects: - Clash Power +1 - Convert the final Coin on this Skill to Unbreakable Coin 1 [On Hit] Inflict +2 Bleed Count 2 [On Hit] Inflict 1 Bind next turn (once per turn) [On Hit] Gain 1 Haste next turn (once per turn) 3 [On Hit] Gain +4 Corpus Ingredient Count [On Hit] If target has 5+ types of negative effects, use 'Installation Art no. 3: Improvised Ribcage' Skill against the target (once per turn)",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Installation Art no. 3: Improvised Ribcage",
+      "type": "skill4",
+      "summary": "Skill 4 · Envy. Pierce. Skill Power 5. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Unclashable] This Skill does not trigger Defense Skills [On Use] Consume 4 Corpus Ingredient Count 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Deal +10% damage for every type of negative effect on target (max 50%) [On Hit] Deal 5 SP damage [On Hit] Heal 5 SP on self [On Hit] Inflict Corpuse Theater",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Tibia's Melody - Anatomization of the Unanatomized by the Anatomized",
+      "type": "skill5",
+      "summary": "Skill 5 · Lust. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. [On Use] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part) [On Use] Final Power +1 for every 4 Bleed on the main target (max 3) [On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count and gain the following effects: - Final Power +2 - Deal +1% damage for every Corpus Ingredient Count consumed - At 3+/5+ Corpus Ingredient, gain +1/+2 Atk Weight - Convert all Coins on this Skill to Unbreakable Coin s 1 [On Hit] Inflict 4 Bleed 2 [On Hit] Inflict 1 Bind next turn (once per turn) [On Hit] Gain 1 Haste next turn (once per turn) 3 [On Hit] Inflict 1 Damage Down next turn (once per turn) [On Hit] Gain 1 Slash DMG Up next turn (once per turn) 4 Deal +5% damage for every type of negative effect on target (max 30%) [On Hit] Inflict +1 Bleed Count",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Closing Time - Installation Art no. 1: Your Flesh and Bones as the Gallery's Seats",
+      "type": "skill6",
+      "summary": "Skill 6 · Lust. Slash. Skill Power 3. Coins 5. Coin Power 4. Offense Level 65. Atk Weight 1. [On Use] Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part) - When attacking just 1 target, deal +100% additional damage [On Use] At 10+ Corpus Ingredient Count, consume up to 20 Corpus Ingredient Count and gain the following effects: - Final Power +2 - Deal +1% damage for every Corpus Ingredient Count consumed - At 3+/5+ Corpus Ingredient, gain +1/+2 Atk Weight [Attack End] For all Identities in The Ring faction, heal 10 SP and apply Somatic Frisson-inspiring Melody 1 Unbreakable Coin [On Hit] Inflict 3 Bleed 2 Unbreakable Coin [On Hit] Inflict 1 Bind next turn (once per turn) [On Hit] Gain 1 Haste next turn (once per turn) 3 Unbreakable Coin [On Hit] Inflict 1 Damage Down next turn (once per turn) [On Hit] Gain 1 Slash DMG Up next turn (once per turn) 4 Unbreakable Coin Inflict +1 Bleed Count 5 Unbreakable Coin Deal +5% damage for every type of negative effect on target (max 30%) [On Hit] Inflict 5 Burn [On Hit] Inflict Corpus Theater",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Curating the Exhibition",
+      "type": "defense",
+      "summary": "Defense Evade · . Skill Power 4. Coins 1. Coin Power 10. Offense Level 62. Atk Weight 1. [Combat Start] Gain 1 Assist Defense (once per turn) [On Evade] Inflict 1 Bind next turn against the attacker (once per turn) [On Evade] Gain 1 Haste next turn (once per turn)"
+    },
+    {
+      "name": "Please. Vandalism is Prohibited.",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Skill Power 4. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Clashable Counter] Assist Defense exclusive Skill Deal +10% damage for every type of negative effect on target (max 30%) [On Use] Coin Power +1 for every 6 Bleed on target (max 2) [On Use] At 10+ Corpus Ingredient Count, consume 5 Corpus Ingredient Count to gain the following effects: - Clash Power +1 - Convert the final Coin on this Skill to Unbreakable Coin 1 [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 2",
+      "sin": "Lust"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-nursefather-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-ring-nursefather-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-ring-nursefather-hong-lu",
+  "released": "02/April/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "248",
+    "speed": "4-7",
+    "defense": "62",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Normal",
+      "blunt": "Fatal"
+    },
+    "level": 60
+  },
+  "review": "The House of Spiders: The Ring Nursefather Hong Lu is an interesting Bleed and Charge Identity who synergises with The House of Spiders: The Ring Apprentice Faust Identity and to a certain degree, with other Ring faction Identities. First, he has a total of 5 unique statuses: - Corpus Ingredients is a unique Charge that works the same way as a normal Charge does. - Viewing the Tableau starts at 21 stacks upon Encounter start, loses 2 stacks on turn end and gives Ring Hong Lu 2 Protection if The Ring Apprentice Faust is on the field. More of this status will be explained in the passive section. - Artwork: Tibia, obtained upon spending 10 Corpus Ingredients, allows him to switch state and gain bonuses, up to 3 Base Power, additional +1 Potency and Count for Bleed infliction and 10% damage. These buffs are gained based on Corpus Ingredients Potency. - Corpus Theater randomly grants the unit",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-ring-nursefather-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Support SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Bind Bleed Charge"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-ring-nursefather-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

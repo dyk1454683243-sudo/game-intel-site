@@ -1,0 +1,102 @@
+{
+  "id": "kurokomo-clan-captain-gregor",
+  "name": "Kurokumo Clan Captain Gregor",
+  "name_zh": null,
+  "name_en": "Kurokumo Clan Captain Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "00",
+  "role": "Bleed",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Lenticular Rend",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 5. Coins 1. Coin Power 5. Offense Level 61. Atk Weight 1. [On Use] If the target has 7+ Bleed, Clash Power +2 [Clash Win] Inflict 1 Bleed 1 [Heads Hit] Inflict +1 Bleed Count",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Shadow Cloud",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Blunt. Skill Power 5. Coins 2. Coin Power 5. Offense Level 62. Atk Weight 1. [On Use] If the target has 7+ Bleed, Clash Power +2 1 [Heads Hit] Inflict 2 Bleed 2 [On Hit] Inflict 1 Offense Level Down [On Hit] If the target has 7+ Bleed, inflict 1 Attack Power Down next turn",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Shadowcloud Shattercleave",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 4. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] If the target has 7+ Bleed, Clash Power +1 [On Use] If the target has 10+ Bleed, Coin Power +1 1 [On Hit] Inflict 1 Offense Level Down [On Hit] If the target has 7+ Bleed, inflict 1 Offense Level Down next turn 2 < [On Hit] Inflict 1 Offense Level Down [On Hit] If the target has 7+ Bleed, inflict 1 Offense Level Down next turn 3 [Heads Hit] Inflict 3 Bleed [On Hit] If the target has 7+ Bleed, inflict 1 Plus Coin Drop next turn",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Lust. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 61. Atk Weight 1",
+      "sin": "Lust",
+      "attack_type": "-"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/kurokomo-clan-captain-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "kurokomo-clan-captain-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/kurokomo-clan-captain-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:kurokomo-clan-captain-gregor",
+  "released": "22/February/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "On his own, [Kurokumo Clan Captain] Gregor doesn’t do much of anything, with all around lackluster damage and just passable clashing capability. The debuffs he inflicts are also very forgettable as the Plus Coin Drop from his S3 is the only notable debuff from his entire kit. With [Kurokumo Clan Captain] Ishmael, he doesn’t get much better. While he does benefit from her support by gaining Unbreakable Coins and becoming immune to Stagger when Ishmael’s passive is activated but aside from there there’s absolutely nothing particularly notable about Gregor.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/kurokomo-clan-captain-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Support C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Gregor / Bleed"
+  },
+  "verified": "Prydwen /limbus-company/identities/kurokomo-clan-captain-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "zwei-assoc-west-section-3-sinclair",
+  "name": "Zwei Assoc. West Section 3 Sinclair",
+  "name_zh": null,
+  "name_en": "Zwei Assoc. West Section 3 Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "00",
+  "role": "Aggro Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Suppressing.",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Gain 2 Defense Level Up [On Use] If the target has 4+ Tremor Count, Clash Power +2 [Clash Win] Gain +3 Tremor Count 1 [Hit after Clash Win] Inflict +2 Tremor Count 2 [On Hit] Gain 2 Defense Level Up next turn",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Combat Preparation",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 4. Coins 2. Coin Power 5. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Gain 1 Defense Level Up for every 2 Tremor Count on self (max 3) [On Use] At 4+ Defense Level Up, Coin Power +1 [Clash Win] Gain +3 Tremor Count 1 [Hit after Clash Win] On 2 other allies with the lowest HP percentage, apply 2 Defense Level Up next turn 2 [On Hit] On 2 other allies with Defense Level Up, apply ((Defense Level Up on the ally)/2) Offense Level Up next turn (once per turn, max 3)",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Fence",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] Gain 1 Defense Level Up for every 2 Tremor Count on self [On Use] Coin Power +1 for every 3 Defense Level Up on self (max 3) 1 [On Hit] On 1 other ally with the lowest HP percentage, apply 4 Defense Level Up next turn 2 b>[On Hit] Consume up to 8 Tremor Count on self, and inflict the same amount of Tremor Count on target [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Zwei Knight's Greatsword Form - Guard",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 2. Coins 1. Coin Power 9. Offense Level 60. Atk Weight 1. [Combat Start] Gain +5 Aggro to this Skill Slot next turn [On Use] Gain +3 Tremor Count (once per turn) [Clash Win] Trigger Tremor Burst 1 Unbreakable Coin"
+    },
+    {
+      "name": "Begin Protection Mission",
+      "type": "passive",
+      "summary": "x5 Sloth [Owned]. At Combat Start, gain Defense Level Up equal to Tremor Count on self (max 5) Contract Target Protection x4 Sloth [Owned] Turn End: apply 1 Haste and 3 Defense Level Up to 1 ally with the lowest HP percentage next turn"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "zwei-assoc-west-section-3-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/zwei-assoc-west-section-3-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:zwei-assoc-west-section-3-sinclair",
+  "released": "10/October/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "264",
+    "speed": "3-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Zwei Assoc. West Section 3 Sinclair is a severely downgraded version of Zwei West Ishmael. He neither gains enough Tremor Count to fully utilize his Defense Level Up gain nor does he have any of the benefits of Defensive Stance. Regardless, he is still beneficial to the team by spreading around Defense Level Up which is helpful to both Zwei Gregor and Zwei Ishmael, and it buffs both of their damage very well by providing them both with Offense Level Up. Additionally, this ID is a great source of Tremor Count through its S3. Let’s begin with Clashable Guard, it’s a carbon copy of Zwei Ishmael’s but with lower numbers, limited Tremor Count gain (3 count - once per turn) and can trigger Tremor Burst. (For more information, you can check our Advanced Combat Mechanics guide). Moving onto his skills: - Skill 1 - Suppressing - 2 Coin Skill, Base Roll – 11, Conditionals Met – 13 in Clash Power.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Tank C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Sinclair / Aggro Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/zwei-assoc-west-section-3-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

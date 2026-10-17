@@ -1,0 +1,113 @@
+{
+  "id": "totally-not-molar-boatworks-fixer-ishmael",
+  "name": "Molar Boatworks Fixer Ishmael",
+  "name_zh": null,
+  "name_en": "Molar Boatworks Fixer Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "000",
+  "role": "Fragile Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ready to Crush",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 3. Offense Level 63. Atk Weight 1. [On Use] Gain +3 Tremor Count 1 [On Hit] Gain +3 Tremor Count 2 [On Hit] Inflict +2 Sinking Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Explosive Blast",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 5. Coins 2. Coin Power 5. Offense Level 63. Atk Weight 1. At 5+ Tremor Count, Coin Power +1 1 [On Hit] Inflict +3 Tremor Count; Gain +2 Tremor Count 2 [On Hit] Inflict 6 Sinking; Inflict 4 Defense Level Down next turn",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Risky Judgement",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 3. Coins 3. Coin Power 5. Offense Level 65. Atk Weight 1. Coin Power +1 for every 5 Tremor Count on self (Max 2) If target has 6+ Sinking, deal +40% damage 1 [On Hit] Inflict +5 Sinking Count 2 [On Hit] Inflict 3 Sinking; Spend 5 Tremor Count to inflict 1 Fragile next turn 3 [On Hit] Inflict 3 Sinking; Spend 5 Tremor Count to inflict 2 Fragile next turn",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Nimble Steps",
+      "type": "defense",
+      "summary": "Defense Evade · Pride. -. Skill Power 10. Coins 1. Coin Power 4. Offense Level 58. Atk Weight 1. [On Use] Gain 2 Rupture Protection (6 times per turn)",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Crushin' Crabs",
+      "type": "passive",
+      "summary": "x3 Pride [Owned]. On hit against a target with Tremor, inflict +1 Sinking Count"
+    },
+    {
+      "name": "Crab Driver",
+      "type": "support",
+      "summary": "x4 Pride [Owned]. When an ally with the lowest Max HP hits with Heads Coins, they inflict +1 Sinking Count when inflicting Tremor Count to their targets with Coin effects."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/totally-not-molar-boatworks-fixer-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "totally-not-molar-boatworks-fixer-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/totally-not-molar-boatworks-fixer-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:totally-not-molar-boatworks-fixer-ishmael",
+  "released": "27/July/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "214",
+    "speed": "3-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "This ID has insanely impressive sinking synergy and can inflict great debuffs alongside it. Being an ID that self-applies tremor to spend it on skills later, it does take a bit for this ID to ramp up, but when it does she can inflict up to 3 fragile next turn and if she has an extra slot, 4 defense level next turn which makes her universally insane to set up nukes with. No notable E.G.O. Synergies",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/totally-not-molar-boatworks-fixer-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ishmael / Fragile Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/totally-not-molar-boatworks-fixer-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

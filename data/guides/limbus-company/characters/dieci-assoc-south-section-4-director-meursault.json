@@ -1,0 +1,108 @@
+{
+  "id": "dieci-assoc-south-section-4-director-meursault",
+  "name": "Dieci Assoc. South Section 4 Director Meursault",
+  "name_zh": null,
+  "name_en": "Dieci Assoc. South Section 4 Director Meursault",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "meursault",
+    "name_en": "Meursault",
+    "name_zh": "默尔索",
+    "order": 5,
+    "source": "https://www.gamekee.com/limbus/585801.html"
+  },
+  "rarity": "000",
+  "role": "Discard Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Studious Dedication",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. Gain (Insight x 5% of Max HP) Shield if this Skill is Discarded [On Use] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots [On Use] Gain (Insight - 1) Clash Power (max 2) [Clash Win] Gain 2 Erudition (once per turn) 1 [On Hit] Inflict +2 Sinking Count",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Moment of Erudition",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 1. Deal +5% more damage for every Insight on self (max 15%) [Combat Start] Apply Erudition equal to Insight on self to 2 random allies and on self (prioritizes allies with Discard that has the least Erudition) [On Use] Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots [On Use] Coin Power +1 for every 6 Sinking on target (max 2) 1 [On Hit] Inflict Sinking equal to (Insight x 2)",
+      "sin": "Sloth",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Scorch Knowledge",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Deal +5% more damage for every Insight (max 45%) [On Use] Coin Power +1 for every 6 Sinking on target (max 2) [Before Attack] Consume all Erudition on self and gain the same value as additional Insight [After Attack] At 4+ Insight, reset value to 1 (if this Skill defeats an enemy, reset value to 3 instead) 1 [On Hit] Inflict Sinking Potency/Count equal to Insight value against the target (how much of that Sinking Potency or Count is randomly determined)",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Fixated Study",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 64. Atk Weight 1. [On Use] Discard 1 Skill of the highest rank in all of this unit's Skill Slots [On Use] Gain +6 Aggro to this Skill Slot next turn",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Study Hall",
+      "type": "passive",
+      "summary": "x2 Gloom [Res]. Every time other allies Discard a Skill, apply 1 Erudition to the ally and self (once per Skill, 3 times per turn) Turn End: next turn, gain Pierce DMG Up and Blunt DMG Up equal to the number of other allies that Discarded Skills (max 3) Diligent Learning x5 Gloom [Owned] When 1 ally with the highest max HP Discards a Skill, gain (5 x Discarded Skill rank)% of the max HP as Shield (once per turn) If the ally has Insight, multiply the above Shield value by 1.5"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-director-meursault",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585801.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "dieci-assoc-south-section-4-director-meursault",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/dieci-assoc-south-section-4-director-meursault_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:dieci-assoc-south-section-4-director-meursault",
+  "released": "11/July/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-6",
+    "defense": "62",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Dieci Assoc. South Section 4 Director Meursault is an Identity focused on supporting mostly other Dieci Identities with a new effect called Erudition and trying to do damage at the same time. Unfortunately, what he offers is not something that Dieci Identities needs or could benefit from in a case or two. Let's start with rolls on the skills. At the base, Dieci Meursault rolls 10 / 16 / 17. Not very impressive values for a 000 rarity Identity. However, when certain conditions are fulfilled, those rolls (in a clash) go up to 13 / 21 / 24 and those values are good. Dieci Meursault's main gimmick is a status called Erudition that he can apply to himself and his allies. Said status grants shields when allies discard skills and once per turn boosts their clash power by 1. While Erudition is fine in itself, its benefits are either redundant or not applicable. For example, Dieci Rodion already",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-director-meursault",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585801.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Meursault / Discard Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/dieci-assoc-south-section-4-director-meursault，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

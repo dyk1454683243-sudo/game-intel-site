@@ -1,0 +1,114 @@
+{
+  "id": "devyat-assoc-north-section-3-sinclair",
+  "name": "Devyat Assoc. North Section 3 Sinclair",
+  "name_zh": null,
+  "name_en": "Devyat Assoc. North Section 3 Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Haste Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Courier Trunk - Decay Hammer",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 10 Courier Trunk - Sinclair on self or 6 Rupture on the target (max 2) [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture Count with its On Hit effects; instead, it inflicts 2 Defense Level Down 1 [On Hit] Gain 1 Courier Trunk - Sinclair If this unit has less than 15 Courier Trunk - Sinclair, gain 1 additional Courier Trunk - Sinclair 2 [On Hit] Inflict +2 Rupture Count At 15 Courier Trunk - Sinclair, inflict +1 additional Rupture Count",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Courier Trunk - Demolition Gadget",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. Coin Power +1 based on Courier Trunk - Sinclair on self or for every 6 Rupture on the target (max 2) [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its On Hit effects; instead, it inflicts 2 Defense Level Down (once per coin) [On Use] At 30- Courier Trunk - Sinclair, gain 1 Haste next turn (once per turn) 1 [On Hit] Gain 1 Courier Trunk - Sinclair If this unit has less than 15 Courier Trunk - Sinclair, gain 2 additional Courier Trunk - Sinclair 2 [On Hit] Inflict 2 Rupture At 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count 3 [On Hit] Inflict 3 Rupture At 15+ Courier Trunk - Sinclair, inflict +2 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Poludnitsa... I trust you!",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. Coin Power +1 for every 10 Courier Trunk - Sinclair on self or for every 6 Rupture on the target (max 2) [On Use] If the target has 15+ Rupture and 3+ Rupture Count, this Skill does not inflict Rupture or Rupture Count with its On Hit effects; instead, the final Coin gains +4 Coin Power [On Use] If the target has 15+ Rupture, deal +4% more damage for every Courier Trunk - Sinclair (max 120%) 1 [On Hit] Inflict +1 Rupture Count Inflict +1 additional Rupture Count for every 10 Courier Trunk - Sinclair 2 [On Hit] Inflict 3 Rupture Inflict +1 additional Rupture for every 8 Courier Trunk - Sinclair 3 [On Hit] If this Skill's effect to raise its final Coin Power did not activate, gain 2 Haste next turn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Courier Assistance & Crisis Control System",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Blunt. Skill Power 9. Coins 1. Coin Power 7. Offense Level 63. Atk Weight 1. [Combat Start] At 15+ Courier Trunk - Sinclair, activate 'W-wait, I need to do some maintenance…!' instead (once per turn) [Combat Start] If this Skill is to be activated, gain (Courier Trunk - Sinclair)% of this unit's max HP as Shield (max 25%, once per turn)",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "W-wait, I need to do some maintenance...!",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Blunt. Skill Power 9. Coins 1. Coin Power 7. Offense Level 63. Atk Weight 1. [Combat Start] If this Skill is to be activated, gain (Courier Trunk - Sinclair)% of this unit's max HP as Shield (max 25%, once per turn) [Turn End] Activate Strategic R&R Mode",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "A moment, please…!",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. Turn Start: At 6+ Speed, or if this unit has Haste, gain (Courier Trunk - Sinclair)% of this unit's max HP as Shield (max 20%) Upon Retreat, apply 1 Clash Power Up to 2 allies next turn (prioritizes Substituted units first, then in Deployment order) - Lasts for 1 additional turn for every 15 Courier Trunk - Sinclair on self (2 more turns max) Speedy Courier x6 Gluttony [Owned] When 1 ally with the fastest Speed hits an enemy with Rupture, inflict 1 Defense Level Down On Hit (3 times per enemy per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "devyat-assoc-north-section-3-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/devyat-assoc-north-section-3-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:devyat-assoc-north-section-3-sinclair",
+  "released": "28/November/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "216",
+    "speed": "3-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The Rupture of FangHunt Hong Lu, the kit of Devyat Rodion, and the Blunt of The One Who Shall Grip Sinclair, all of this to create the perfect 00 ID in disguise. Now you may be wondering why? It is because of his Rupture application being paired with conditionals that not only stop inflicting Rupture but continue its consumption. Adding on to the woes, with no Damage% buffs from Courier Trunk - Sinclair (which Devyat Rodion has access to) makes him barely better or even worse than The One Who Shall Grip Sinclair in some cases. And if that wasn’t enough already, he also has the Devyat timer mechanic. Well, that's enough ranting, now let’s move on to his unique mechanic. Devyat Sinclair gains 3 Stacks of Courier Trunk - Sinclair at every turn start, up to 2 on Skill 1 and up to 3 on Skill 2. This gives him various effects based on stack count: - 10+ Stacks - Increases his minimum and maxim",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Haste Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/devyat-assoc-north-section-3-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+  "name": "The House of Spiders: The Middle Apprentice Ishmael",
+  "name_zh": null,
+  "name_en": "The House of Spiders: The Middle Apprentice Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Burn",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Totally Badass Ass-kicking",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If target has 6+ (Burn + Bleed), Coin Power +1 [On Use] Heal 5 SP 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Deal 5 Blunt bonus damage [On Hit] If this unit has Middle Styled Augmentation Tattoos, inflict +1 Bleed Count",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Crossing Dervish",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If target has 6+ (Burn + Bleed), Coin Power +1 [Combat Start] This Skill gains Offense Level by (highest Reson. / 2) (max 3; rounded down) - If there was an A-Reson. in the Reson. chain, double the amount of Offense Level gained from the above effect [On Use] Gain +5 Aggro to this Slot next turn [On Use] If this unit has Thermal Blades, On Hit with 1st and 2nd Coins, inflict Burn by the base amount of Bleed this Skill inflicts 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict +1 Bleed Count 3 [On Hit] Deal 5 Blunt bonus damage [On Hit] If this unit has Middle Styled Augmentation Tattoos, inflict 1 Paralyze and 1 Bind next turn (2 times per turn)",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Violet~ Breaking Slam",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. If target has 6+ (Burn + Bleed), Coin Power +1 [Combat Start] This Skill gains Offense Level by (highest Reson. / 2) (max 3; rounded down) - If there was an A-Reson. in the Reson. chain, double the amount of Offense Level gained from the above effect [On Use] If this unit has Thermal Blades, On Hit with 1st, 2nd, and 4th Coins, inflict Burn by the base amount of Bleed this Skill inflicts [On Use] Final Power +1 for every 5 The Middle - Grudge on self (max 3) [After Attack] Consume all The Middle - Grudge on self [After Attack] If this Skill was activated as a Counter Skill, gain 1 Blunt DMG Up next turn (once per turn) 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict +2 Bleed Count 3 [On Hit] Deal (Envy Reson. x 5)% of this Coin's final damage as Slash bonus Damage (max 30%) [On Hit] Inflict 1 Bleed",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I'll Get You Back for This, Man",
+      "type": "defense",
+      "summary": "Defense Counter · . Blunt. Skill Power 4. Coins 2. Coin Power 5. Offense Level 64. Atk Weight 1. [Combat Start] At 6+ sum of Envy A-Reson., use 'Violet~ Breaking Slam' as Counter (Activates from the leftmost Skill Slot. Activates 2 times per turn) [Combat Start] Gain 25% of missing HP as Shield (once per turn) 1 [On Hit] Lower user's Stagger Treshold by 6 2 [On Hit] Inflict 1 Bleed",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "The Middle Never Forgets, Y'know?",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. Turn End: Inflict Vengeance Mark to the enemy that dealt the most Skill damage to an ally this turn Every time this unit is hit by an enemy, gain 2 The Middle - Grudge (2 times per turn) When an other The Middle-faction ally is hit by an enemy, gain 1 The Middle - Grudge (once per turn per Identity) - If target that attacked this unit or an ally has Vengeance Mark, gain 1 more The Middle - Grudge - Combat Start: If the Dashboard has Envy A-Reson., double the amount of The Middle - Grudge gained this turn Gain 1 The Middle Styled Augmentation Tattoos every time this unit consumes 5 The Middle - Grudge (2 times per turn) Combat Start: If this unit does not have Thermal Blades, and at 3+ Envy Reson., gain 2 Thermal Blades next turn Combat Start: If this unit has Thermal Blades, gain (Envy Reson. / 3) Thermal Blades at Turn End (max 2) Hey, Are Ya Into Fixers, Too? x3 Envy [Res] Clash Power +1 for #1 Deployed Identity's Base Attack Skills (once per turn) If the Dashboard has Envy A-Reson., #1 Deployed Identity deals +10% damage with Base Skills"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-apprentice-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-house-of-spiders-the-middle-apprentice-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-house-of-spiders-the-middle-apprentice-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-house-of-spiders-the-middle-apprentice-ishmael",
+  "released": "22/January/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "275",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The Middle Apprentice Ishmael (Shortened to Middle Ishmael from now on) makes for a solid side grade to Middle Sinclair, even outperforming him in some cases. Middle Ishmael, like all other Middle units, emphasizes Envy Resonance to gain massive amounts of Offense Level while also gaining access to her S3 through her counter when there is 6+ Envy A-Resonance. Going over Middle Ishmael’s passive first, she has three unique effects that will be elaborated upon later as they become relevant: - Firstly, we’ll go over “The Middle - Grudge”: Every time an enemy hits Middle Ishmael, she will gain 2 “The Middle - Grudge” up to 2 times per turn. When another ally who has the tag “The Middle” is hit by an enemy, she will gain 1 “The Middle - Grudge” once per turn per Identity. Additionally, if the target that attacked the enemy has Vengeance Mark, Middle Ishmael will gain 1 more “The Middle - Grud",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-house-of-spiders-the-middle-apprentice-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ishmael / Bleed Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-house-of-spiders-the-middle-apprentice-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

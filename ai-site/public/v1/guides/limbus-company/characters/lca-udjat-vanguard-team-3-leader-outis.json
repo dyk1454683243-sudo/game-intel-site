@@ -1,0 +1,107 @@
+{
+  "id": "lca-udjat-vanguard-team-3-leader-outis",
+  "name": "LCA Udjat Vanguard Team 3 Leader Outis",
+  "name_zh": null,
+  "name_en": "LCA Udjat Vanguard Team 3 Leader Outis",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "outis",
+    "name_en": "Outis",
+    "name_zh": "奥提斯",
+    "order": 11,
+    "source": "https://www.gamekee.com/limbus/585565.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Ammo Sinking Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Sloth",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Khopesh Swordplay",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Aggro to this Skill Slot next turn [On Use] Coin Power +1 for every 6 (Sinking + Tremor) on target (max 2) [On Use] If this unit has The Udjat [Vanguard], Clash Power +1 [Clash Win] Inflict 2 Sheut Fracture 1 [On Hit] Inflict +1 Sinking Count [On Hit] Inflict +1 Tremor Count 2 [On Hit] Gain 1 Protection",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Mirage Incision",
+      "type": "skill2",
+      "summary": "Skill 2 · Sloth. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Gain +5 Aggro to this Skill Slot next turn [On Use] Coin Power +1 for every 6 (Sinking + Tremor) on target (max 2) [On Use] If this unit has The Udjat [Vanguard], Clash Power +1 and deal +30% damage [Clash Win] Inflict 2 Sheut Fracture 1 [On Hit] Inflict +2 Sinking Count 2 [On Hit] Inflict +1 Tremor Count 3 [On Hit] Inflict 2 Sinking [On Hit] Inflict 2 Tremor [On Hit] Gain 1 Protection next turn",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "The Vanguard will See it Done",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 6. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If this unit has The Udjat [Vanguard], deal +50% damage [On Use] Gain +8 Aggro to this Skill Slot next turn [On Use] At 6+ (Sinking + Tremor) on target, Coin Power +1 [On Use] Base Power +1 for every LCA Fracture Round about to be spent by this Skill [After Attack] Gain 2 Protection next turn (once per turn) [After Attack] At 2 or fewer LCA Fracture Round, Reload (5 times per Encounter) 1 Spend 2 LCA Fracture Round Deal +(LCA Fracture Round spent x 30)% damage [On Hit] Inflict +2 Sinking Count [On Hit] Inflict +2 Tremor Count next turn 2 [On Hit] Inflict 2 Sinking [On Hit] Inflict 3 Blue Sand next turn [On Hit] Inflict 1 Gloom Resist Down (once per turn) 3 Spend 2 LCA Fracture Round Deal +(LCA Fracture Round spent x 30)% damage [On Hit] Inflict 2 Sinking Count [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1 [On Hit] If target has SP, trigger Tremor Burst; then, reduce target's Tremor Count by 1 If target has less than 0 SP, inflict 1 Gloom Fragility (once per turn)",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Composure",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 15. Coins 1. Coin Power 5. Offense Level 65. Atk Weight 1. When hit while this unit has Shield, inflict 3 Sinking against the attacker (3 times per turn) [On Use] If this unit has The Udjat [Vanguard], gain 1 Protection (once per turn) [On Use] For every Protection on self, gain Shield equal to 5% of this unit's max HP (max 15%; once per turn)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Vanguard Team",
+      "type": "passive",
+      "summary": "x3 Gloom [Res]. Deal +5% damage for every Protection on self (max 15%) Combat Start: gain 2 The Udjat [Vanguard] Eagle Eye x3 Gloom [Res] Combat Start: apply 1 Protection next turn to 1 ally with the lowest HP percentage"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lca-udjat-vanguard-team-3-leader-outis",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585565.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lca-udjat-vanguard-team-3-leader-outis",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lca-udjat-vanguard-team-3-leader-outis_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lca-udjat-vanguard-team-3-leader-outis",
+  "released": "31/December/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "244",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "One of the two IDs from which season 7 has started. As a Tremor-Sinking Hybrid, she is leaning more towards the Sinking unit category by providing more utility to Gloom-oriented damage than the Sloth one. Contrary to expectations, she is not spectacular and merely serves as an alternative for the Sinking team, rather than a direct upgrade. To explain this, let’s look into her kit. Starting with her unique effects, she has 3 of them - \"The Udjat [Vanguard]\" essentially gives some protection, 3 Haste, and makes the enemy roll worse. Some skills would perform better if Outis has this effect.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lca-udjat-vanguard-team-3-leader-outis",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585565.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Support S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Outis / Aggro Ammo Sinking Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/lca-udjat-vanguard-team-3-leader-outis，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

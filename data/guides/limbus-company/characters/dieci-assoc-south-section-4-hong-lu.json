@@ -1,0 +1,108 @@
+{
+  "id": "dieci-assoc-south-section-4-hong-lu",
+  "name": "Dieci Assoc. South Section 4 Hong Lu",
+  "name_zh": null,
+  "name_en": "Dieci Assoc. South Section 4 Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": "Discard Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Expend Knowledge",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 5. Coins 1. Coin Power 5. Offense Level 52. Atk Weight 1. [On Use] Discard 1 Skill of the highest rank in all of this unit's Skill Slots [On Use] Clash Power +(Insight - 1) 1 [Heads Hit] Inflict +1 Sinking Count [On Use] Reuse Coin (Insight - 1) times",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Unveil",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 47. Atk Weight 1. [On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots [On Use] Coin Power +(Insight -1) 1 [On Hit] Inflict 4 Sinking",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Cyclical Knowledge",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Blunt. Skill Power 5. Coins 3. Coin Power 3. Offense Level 54. Atk Weight 1. [On Use] At +2 Insight, Coin Power +(Insight) [On Use] Deal +3% more damage per Sinking on target (Max 30%) 1 [On Hit] Inflict +4 Sinking Count [After Attack] If target is Staggered or defeated, heal 10 SP",
+      "sin": "Sloth",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guiding Steps",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 47. Atk Weight 1. [On Use] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Peering Through a Key",
+      "type": "passive",
+      "summary": "x3 Gloom [Res]. When Discarding a Skill, gain ' Damage Up' equal to the Discarded Skill Rank. (Max 3 per turn) When other allies Discard a Skill, and if the ally's Discarded Skill Rank is higher than this unit's Insight value, this unit gains +1 Insight Enlightenment x4 Gloom [Owned] After Attack: If the target is in staggered or defeated state by an attack from 1 ally with the least SP, the ally heals 7 SP"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "dieci-assoc-south-section-4-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/dieci-assoc-south-section-4-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:dieci-assoc-south-section-4-hong-lu",
+  "released": "25/January/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "230",
+    "speed": "3 - 7",
+    "defense": "59",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Dieci Hong Lu is a Sinking Damage Dealing ID that works in an incredibly different way compared to all of the other IDs in the game. His Skill 1 scales off of the amount of insight he has and his game plan is to keep and maintain high insight at all times whenever possible. This can be done with a technique called \"Insight Locking\" where you use his defense skill on his slots so you won't discard anything, making his insight stay at 3 at all times to maximize his damage Other than that, whenever he comes online, this Identity has some pretty good clashes, S2 and S3 roll up to 22 and 23. His damage is only pretty decent, although because he doesn't want to discard, he gets none of the benefits from discarding and when you're locking his insight, you can't use his defensive skill and you're stuck with the skill that will appear on the dashboard, so if he gets an S1 into hopeless or struggl",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Hong Lu / Discard Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/dieci-assoc-south-section-4-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

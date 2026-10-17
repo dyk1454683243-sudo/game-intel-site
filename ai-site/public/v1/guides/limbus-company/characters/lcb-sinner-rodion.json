@@ -1,0 +1,108 @@
+{
+  "id": "lcb-sinner-rodion",
+  "name": "LCB Sinner Rodion",
+  "name_zh": null,
+  "name_en": "LCB Sinner Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "0",
+  "role": "Bleed",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Strike Down",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 4. Coins 1. Coin Power 7. Offense Level 60. Atk Weight 1. 1 [On Hit] Inflict 2 Bleed",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Axe Combo",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 4. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict 2 Bleed [Heads Hit] Inflict +1 Bleed Count",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Slay",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 4. Coin Power 2. Offense Level 60. Atk Weight 1. Skill Power +1 at lower than 0 SP. 1 [Heads Hit] Inflict 1 Bleed 2 [Heads Hit] Inflict 1 Bleed 3 [Heads Hit] Inflict 1 Bleed 4 [On Hit] Deal +20% Damage if target has +6 Bleed",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Wrath. Slash. Skill Power 7. Coins 1. Coin Power 4. Offense Level 60. Atk Weight 1",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Split Evil",
+      "type": "passive",
+      "summary": "x5 Wrath [Owned]. On hit, inflict 1 Bleed at a 50% chance. Gambler x5 Wrath [Owned] 1 ally with the highest HP deals +20% damage with Heads Coins."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcb-sinner-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcb-sinner-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcb-sinner-rodion",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "239",
+    "speed": "2-5",
+    "defense": "60",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "She has okay bleed application and top tier passive. Other than that she is really bad. There is pretty much no reason to have her on the field.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "0 / Rodion / Bleed"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcb-sinner-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

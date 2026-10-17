@@ -1,0 +1,107 @@
+{
+  "id": "r-corp-4th-pack-reindeer-rodion",
+  "name": "R Corp. 4th Pack Reindeer Rodion",
+  "name_zh": null,
+  "name_en": "R Corp. 4th Pack Reindeer Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Charge Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Energy Strike - 'That's What You Get For Giving Us Holiday Shifts!'",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Deal +12.5% damage for every Charge (Max 50%) At 2+ Charge, Coin Power +1 At 5+ Charge Count, Coin Power +1 [Clash Lose] Gain 4 Sinking and gain +4 Charge Count 1 [On Hit] Inflict 1 Sinking [On Hit] Gain +3 Charge Count 2 [On Hit] Inflict 1 Sinking Count [On Hit] Gain +2 Charge Count",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Concentration - 'Burst and Pop with Christmas Colors!'",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 2. Coin Power 6. Offense Level 61. Atk Weight 2. Deal +15% damage for every Charge (max 60%) Coin Power +1 for every 5 Charge Count (max 2) [Clash Lose] Gain 5 Sinking and gain +5 Charge Count 1 [On Hit] Inflict 2 Sinking and +2 Sinking Count [On Hit] Gain +6 Charge Count 2 [On Hit] At less then 8 Charge Count, gain 5 Sinking and gain +4 Charge Count [On Hit] At 8+ Charge Count, consume 4 Charge Count and inflict 1 Blunt Fragility next turn (once per turn)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Mind Whip - 'Ahaha... Look, Everyone! We're the Fireworks this Christmas!'",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Deal +10% damage for every Charge (max 40%) [On Use] At 5~9 Charge Count, - Gain 5 Sinking and gain 5 Charge Count - This Skill gains the following attributes: [Indiscriminate] Unfocused Volley and Atk Weight +1 [Before Use] At 3+ Charge, this Skill does not gain the [Indiscriminate] effect [On Use] At 10+ Charge Count, consume all Charge Count to gain the following: - Coin Power +2 - Deal +12% damage for every 1 excess Charge Count consumed past 10 (max 60%) 1 [On Hit] Inflict +3 Sinking Count [On Hit] Raise Stagger Treshhold by 10% of damage dealt - At 3+ Charge, raise Stagger Treshold by 20% of damage dealt instead 2 [On Hit] Inflict 1 Sinking [On Hit] Raise Stagger Treshhold by 10% of damage dealt 3 [On Hit] Inflict 1 Sinking [On Hit] Raise Stagger Treshhold by 10% of damage dealt 4 [On Hit] Inflict 1 Sinking [On Hit] Raise Stagger Treshhold by 10% of damage dealt",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Energy Condensation - 'Haha! Everybody's Sparkling and Glittering!'",
+      "type": "defense",
+      "summary": "Defense Guard · . -. Skill Power 10. Coins 1. Coin Power 5. Offense Level 62. Atk Weight 1. [On Use] At 5+ Charge Count, Base Power +2 [On Use] Gain +3 Charge Count (2 times per turn)",
+      "attack_type": "-"
+    },
+    {
+      "name": "Jolly Antlers",
+      "type": "passive",
+      "summary": "x2 Gloom [Owned] x2 Envy [Owned]. Gain +1 Charge every time this unit consumes 10 cumulative Charge Count this encounter When using a Base Attack Skill that inflicts Sinking Potency, if the main target does not have Sinking, this unit gains 5 Sinking and doubles the amount of Sinking Potency the Skill applies(once per turn; in Focused Encounters, the part) At less than 35% HP, Base Attack Skills gain Final Power +1 Carol of Dying Comrades x4 Gloom [Owned] 1 ally with the lowest SP: Skills that consume Charge or Unique Charge and have effects that inflict Sinking against enemies deal +10% damage (except E.G.O skills)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-reindeer-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "r-corp-4th-pack-reindeer-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/r-corp-4th-pack-reindeer-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:r-corp-4th-pack-reindeer-rodion",
+  "released": "19/December/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "230",
+    "speed": "3-7",
+    "defense": "61",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Fatal",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "R Corp. 4th Pack Reindeer Rodion, like the rest of the Reindeer IDs, is a Charge Sinking Identity who can deal consistent high damage across all her skills once ramped up. Reindeer Rodion’s Passive is probably the most interesting part of her kit. If the enemy does not have any Sinking on them, Rodion will inflict twice the amount of Sinking Potency, leading to a bit more damage and enemy SP loss, especially in a team where she is the only Sinking applier (Envy / Middle team). Additionally, while she is below 35% HP, all her skills get +1 Final Power, helping with clashing at Death’s Door. Next, let's talk about her skills: - Skill 1 - Energy Strike - 'That's What You Get For Giving Us Holiday Shifts!' - 2 Coins - Min roll 11 - Max roll 15 - Decent damage when ramped up due to 50% bonus damage and due to [Clash Lose] condition, Rodion can obtain Charge Count consistently, even if bad Coi",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/r-corp-4th-pack-reindeer-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Charge Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/r-corp-4th-pack-reindeer-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

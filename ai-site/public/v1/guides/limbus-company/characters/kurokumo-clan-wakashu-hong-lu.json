@@ -1,0 +1,108 @@
+{
+  "id": "kurokumo-clan-wakashu-hong-lu",
+  "name": "Kurokumo Clan Wakashu Hong Lu",
+  "name_zh": null,
+  "name_en": "Kurokumo Clan Wakashu Hong Lu",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "00",
+  "role": "Bleed Paralyze",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Sloth",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cleave",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Slash. Skill Power 4. Coins 1. Coin Power 7. Offense Level 60. Atk Weight 1. 1 [On Hit] Inflict 3 Bleed",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Cloud Cutter",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Slash. Skill Power 5. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. [Before Attack] If target has less than 4 Bleed Count, use Coin 1 and 2 an additional time 1 [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict 1 Bleed",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Cloudburst",
+      "type": "skill3",
+      "summary": "Skill 3 · Sloth. Slash. Skill Power 7. Coins 3. Coin Power 2. Offense Level 60. Atk Weight 1. [Combat Start] The skill applies 1 additional stacks of Bleed and Paralyze 1 [Heads Hit] Inflict 2 Bleed 2 [Heads Hit] Inflict 2 Bleed 3 [On Hit] Inflict 5 Paralyze",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Sloth. -. Skill Power 9. Coins 1. Coin Power 3. Offense Level 62. Atk Weight 1",
+      "sin": "Sloth",
+      "attack_type": "-"
+    },
+    {
+      "name": "Hēiyúndào",
+      "type": "passive",
+      "summary": "x3 Lust [Res]. The last Coin in the last skill in the chain inflicts 3 Bleed. Syndicate Payback x4 Lust [Owned] 1 ally with the highest Speed inflicts +1 Bleed."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-hong-lu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585802.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "kurokumo-clan-wakashu-hong-lu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/kurokumo-clan-wakashu-hong-lu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:kurokumo-clan-wakashu-hong-lu",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "3-7",
+    "defense": "61",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Kurokumo Clan Wakashu] Hong Lu is an identity when used alone, shines until the end of Canto 3 and then starts to fall off the more you progress through the story, which is mostly due to his low clashing power. However, when paired in a team with [Kurokumo Clan Captain] Ishmael, Hong Lu, like the rest of the standard Kurokumo IDs, gets a noticeable boost not only in terms of damage but also in terms of Bleed infliction. Kurokumo Hong Lu with buffs from [Kurokumo Clan Captain] Ishmael turns into one of the better Bleed Potency applicators in the game.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-hong-lu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585802.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Hong Lu / Bleed Paralyze"
+  },
+  "verified": "Prydwen /limbus-company/identities/kurokumo-clan-wakashu-hong-lu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

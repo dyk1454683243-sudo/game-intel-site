@@ -1,0 +1,113 @@
+{
+  "id": "lobotomy-e-g-o-red-sheet-sinclair",
+  "name": "Lobotomy E.G.O::Red Sheet Sinclair",
+  "name_zh": null,
+  "name_en": "Lobotomy E.G.O::Red Sheet Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "00",
+  "role": "Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Pride",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Magnify Wound",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 5. Coins 1. Coin Power 5. Offense Level 60. Atk Weight 1. 1 [On Hit] Inflict 2 Rupture [On Hit] If target has 5+ Rupture, gain 1 Talisman",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Proliferating Talismans",
+      "type": "skill2",
+      "summary": "Skill 2 · Pride. Blunt. Skill Power 4. Coins 3. Coin Power 3. Offense Level 60. Atk Weight 1. 1 [On Hit] Gain 1 Talisman [On Hit] If target has Rupture, gain 1 Talisman 2 [On Hit] Gain 1 Talisman [On Hit] If target has Rupture, gain 1 Talisman 3 [On Hit] Gain 1 Talisman [On Hit] If target has Rupture, gain 1 Talisman",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Rupturing Talisman",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 5. Coins 2. Coin Power 6. Offense Level 60. Atk Weight 1. 1 [On Hit] Spend 5 Talisman on self [On Hit] Give 5 Talisman 2 [On Hit] If target has Talisman, inflict +3 Rupture Count",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 61. Atk Weight 1. [On Use] Gain 1 Talisman",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Unfixing Talismans",
+      "type": "passive",
+      "summary": "x3 Gluttony [Res]. On hit, if the target had Rupture, gain 1 Talisman"
+    },
+    {
+      "name": "Wishing Talisman",
+      "type": "support",
+      "summary": "x4 Gluttony [Res]. At the start of the combat phase, give (Highest Reson. *2) Talisman to the ally with the most HP."
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-sheet-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lobotomy-e-g-o-red-sheet-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lobotomy-e-g-o-red-sheet-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lobotomy-e-g-o-red-sheet-sinclair",
+  "released": "29/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "238",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "After the nerf, Red Sheet Sinclair is a liability on the field, and his support passive does not provide much to the team. Talisman, as a status itself, has been changed forthe worse. Before, you were getting X rupture potency on self based on X talisman on you while being hit. The core of that is still the same, but now you get X/2 rupture on self, rounded down, and reduce talisman stacks by 1. In other words, if you apply 5 talismans on the target, you will provide your team with a total of 7 rupture potency before the stack expires, 10 potency if you manage to apply 6 talisman stacks. Is there a practical use for all of mentioned above? Definitely no. If you have no spare count to consume, you cannot get any stacks of talisman, then his sole purpose of using s3 and just dying (luckily, he was de-leveled just for you) cannot be physically fulfilled. The single use you can find for him",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-red-sheet-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Status Specialist D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Sinclair / Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/lobotomy-e-g-o-red-sheet-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

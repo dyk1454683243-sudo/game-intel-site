@@ -1,0 +1,111 @@
+{
+  "id": "heishou-pack-you-branch-adept-heathcliff",
+  "name": "Heishou Pack - You Branch Adept Heathcliff",
+  "name_zh": null,
+  "name_en": "Heishou Pack - You Branch Adept Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Burn Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Wrath",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Peck-em",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Slash. Skill Power 2. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. [On Use] If target has 6+ (Burn + Rupture), Coin Power +1 [On Use] Clash Power +1 for every 10 Burn on self (max 2) [Clash Start] Apply 1 Burn and +1 Burn Count to target and self 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Burn [Heads Hit] Inflict +1 Rupture Count",
+      "sin": "Envy",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Mutilating Talons",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Slash. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] If target has 6+ (Burn + Rupture), Coin Power +1 [On Use] Clash Power +1 for every 10 Burn on self (max 2) [Clash Start] Apply 1 Burn and +1 Burn Count to target and self 1 [On Hit] Inflict 1 Rupture [Heads Hit] Inflict +1 Burn Count 2 [On Hit] Inflict 1 Burn [Heads Hit] Inflict +1 Rupture Count 3 [On Hit] Gain 3 Burn and +1 Burn Count [On Hit] Deal ((Burn on self x 2)% of this Coin's final damage) Wrath damage (max 20%) [Heads Hit] If this unit has Bloodflame [血炎], or tif this unit has less than 50% HP, Reuse this Coin (once per Skill)",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Bloodflame Massacre [血炎亂舞]",
+      "type": "skill3",
+      "summary": "Skill 3 · Wrath. Slash. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 3. Unfocused Volley Deal +1.5% damage for every X Burn on self (max 30%) [Combat Start] If this unit has Bloodflame [血炎], or if this unit has less than 50% HP, convert all Coins to Unbreakable Coin s [Before Use] At 20 Battleblood Instinct, activate \"Rooster's Rampaging Blades Under the Ensanguined Heaven\" instead [On Use] Gain 3 Bloodflame [血炎] [On Use] Coin Power +1 for every 6 (Burn + Rupture) on target (max 2) [On Use] Clash Power +1 for every 20% missing HP on self (max 3) [After Attack] Gain +2 Burn Count 1 [On Hit] Apply 2 Burn to target and self [Heads Hit] At 50%+ HP, take Burn damage by Burn Potency on self 2 [On Hit] Apply 2 Burn to target and self [Heads Hit] At X%+ HP, take Burn damage by Burn Potency on self 3 [On Hit] Apply 2 Burn to target and self [Heads Hit] At X%+ HP, take Burn damage by Burn Potency on self 4 [On Hit] Inflict +3 Rupture Count [On Hit] Deal ((Burn on self + Burn on the main target)% of this Coin's final damage) Gluttony damage against all targets (max 20%)",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀]",
+      "type": "skill4",
+      "summary": "Skill 4 · . Skill Power 5. Coins 4. Coin Power 3. Offense Level 65. Atk Weight 3. Unfocused Volley Deal +3% damage for every X Burn on self (max 60%) Deal +1% damage for every 2% (missing HP percentage on target + missing HP percentage on self) (max 50%) [On Use] Gain 3 Bloodflame [血炎] [On Use] Coin Power +1 for every 6 (Burn + Rupture) on the main target (max 2) [On Use] Clash Power +1 for every 20% missing HP on self (max 3) [Clash Win] Gain 10 Burn [After Attack] Consume all Battleblood Instinct [After Attack] At more than 20 Burn, consume up to 25 excess Burn and heal (Burn consumed x 2)% HP 1 Unbreakable Coin [On Hit] Inflict +2 Rupture Count 2 Unbreakable Coin [On Hit] Inflict +2 Burn Count 3 Unbreakable Coin [On Hit] Inflict 2 Rupture 4 Unbreakable Coin [On Hit] Inflict 2 Burn [On Hit] If this unit has 20+ Burn, or if this unit has less than 50% HP, Reuse this Coin (once per Skill) [On Hit] Deal (20% of this Coin's final damage) Wrath damage against all targets - If this is the final Coin, heal HP equal to the damage it dealt"
+    },
+    {
+      "name": "More Grub for Us",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Skill Power 5. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Clashable Counter] [On Use] Gain 3 Bloodflame [血炎] next turn [On Use] If target has 10+ (Burn + Rupture), Base Power +1 [On Use] If this unit has Bloodflame [血炎], Coin Power +1 [On Use] This Skill deals +1% damage for every 3% HP this unit cumulatively lost in this Encounter (max 30%) [Clash Start] Gain +3 Burn Count (once per turn) 1 [On Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict 1 Burn",
+      "sin": "Gluttony"
+    },
+    {
+      "name": "Bloody Storm of Blades",
+      "type": "passive",
+      "summary": "x5 Gluttony [Owned]. Combat Start: gain 1 Offense Level Up and 1 Defense Level Up for every 20% missing HP on self (max 3) Gain Battleblood Instinct when meeting one of the following conditions: (10 per turn) - Gain 3 at Clash Start - Gain 1 when this unit hits with a Base Attack Skill or when this unit takes Burn damage At less than 50% HP, gain 1 more Battleblood Instinct - Gain 5 On Kill Backed Against a River x3 Wrath [Owned] x3 Gluttony [Owned] Turn End: if an ally with the lowest current HP percentage has less than 50% HP, that unit gains 1 Clash Power Up next turn"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-adept-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-you-branch-adept-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-you-branch-adept-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-you-branch-adept-heathcliff",
+  "released": "20/November/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "You Branch Adept Heathcliff is an upgraded version of You Branch Sinclair, being an adept and all. His gameplay loop is to deal damage while burning himself down, as he gets rewarded for having low HP, essentially a berserker ID. As usual, we will start with his always active Passive, which does the following: - Exalted command effect for Lord of Hongyuan Hong Lu, which gives extra Wrath damage on Gluttony base skills for the Heishou Bolus Contamination effect. - Cannot be staggered or drop below 1 HP due to Burn damage. - Gains Burn Count and Bloodflame on Substitute or Returns In. Bloodflame allows Heathcliff to inflict more Burn and Rupture Potency with base skills and SP heal upon staggering or killing an enemy. However, if he is at max SP, it will instead be Offense Level Up and Haste. - Safety belt to prevent Heathcliff from dropping below 1 HP once, and heal based on Burn Potency",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-adept-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Burn Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-you-branch-adept-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "w-corp-l3-cleanup-agent-yi-sang",
+  "name": "W Corp. L3 Cleanup Agent Yi Sang",
+  "name_zh": null,
+  "name_en": "W Corp. L3 Cleanup Agent Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Barrier Bind Charge Haste Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Sloth",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Dimensional Slit",
+      "type": "skill1",
+      "summary": "Skill 1 · Sloth. Slash. Skill Power 5. Coins 1. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] Gain +2 Charge Count At 10+ Charge Count, Coin Power +2 1 [On Hit] Gain +2 Charge Count [On Hit] Inflict 2 Rupture",
+      "sin": "Sloth",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Energy Cycle",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Pierce. Skill Power 5. Coins 2. Coin Power 5. Offense Level 63. Atk Weight 1. [On Use] Gain +7 Charge Count At 10+ Charge Count, Coin Power +1 1 [On Hit] Inflict 1 Bind next turn 2 [On Hit] Inflict 3 Rupture [On Hit] At 10+ Charge Count, Inflict 3 Rupture and +2 Rupture Count",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Dimensional Rift",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. [On Use] At 15- Charge Count, consume 10 Charge Count and gain +1 Coin Power [On Use] Consume 15 Charge Count to gain +2 Coin Power [Before Attack] If 15 Charge Count has been consumed, inflict +3 Rupture Count 1 [Heads Hit] Inflict 1 Rupture 2 [Heads Hit] Inflict 1 Rupture 3 [On Hit] Inflict 3 Rupture for every 5 Charge Count consumed by the Skill (Max 9) [On Hit] If the Skill consumed 15 Charge Count upon use, inflict 2 Dimensional Rift [On Kill] Gain 5 Charge Barrier",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Hollow Dimension",
+      "type": "defense",
+      "summary": "Defense Evade · Gloom. -. Skill Power 4. Coins 1. Coin Power 10. Offense Level 60. Atk Weight 1. Base Power +1 per 5 Charge Count (Max 2) [On Evade] +1 Potency when applying Rupture for the first time with a Skill effect next turn (Max +3 per turn)",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Emptied Thought",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. - At Turn End, gain 1 Haste per 5 Charge Count on self next turn. (Max 3) - If this unit's Skill consumed Charge Count, apply 3 Charge Barrier to 1 ally with the lowest HP percentage"
+    },
+    {
+      "name": "Cleanup Demonstration",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. 1 Ally with the highest Charge Count deals more damage against targets with Rupture based on Rupture on target. (1.5% per Rupture. Max +15% damage)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "w-corp-l3-cleanup-agent-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/w-corp-l3-cleanup-agent-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:w-corp-l3-cleanup-agent-yi-sang",
+  "released": "09/November/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "3-7",
+    "defense": "58",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "A charge based rupture ID. His clashes on s2 is average but s3 can reach above average if the conditions are fulfilled. Without a certain charge count he is count negative although once the conditions are fulfilled which for s2 is 10 charge and s3 with 15 charge he inflicts 3 potency with count neutral and 11 potency with 2 count positive respectively. He also gets haste every 5 charge which allows him to inflict count first before everybody else procs it. Another thing to note is that once he uses s3 the benefits mentioned above also disappears as his charge count is lower now. But that is where the EGO Dimension shredder shines as it allows him to gain 4 charges passively and makes all of his skills count neutral without condition, Of course you need to have higher speed but with yi sang’s passive and speed range this is not a problem Notable E.G.O Synergies: Dimensional Shredder - Mak",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/w-corp-l3-cleanup-agent-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Barrier Bind Charge Haste Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/w-corp-l3-cleanup-agent-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

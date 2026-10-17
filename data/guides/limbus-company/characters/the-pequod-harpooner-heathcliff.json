@@ -1,0 +1,101 @@
+{
+  "id": "the-pequod-harpooner-heathcliff",
+  "name": "The Pequod Harpooner Heathcliff",
+  "name_zh": null,
+  "name_en": "The Pequod Harpooner Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Stalk Prey",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain 4 Poise Count [On Use] Gain +5 Aggro to this Skill Slot next turn 1 [On Hit] Inflict 2 Bleed",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Snagharpoon",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +5 Aggro to this Skill Slot next turn [On Use] Gain 1 Poise for every 3 Bleed on target (Max 10) 1 [On Crit] Inflict Bleed Count equal to 1/3 of Bleed Potency on target (Max 10)",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Sever Knot",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. At 3+ Envy Reson., Clash +1 At 4+ Envy Reson., Coin Power +1 At 6+ Envy A-Reson., Coin Power 1 1 [On Hit] Inflict 1 Bleed [On Hit] At 75%- HP, inflict 1 Bleed [On Hit] At 50%- HP, inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed [On Hit] At 75%- HP, inflict 1 Bleed [On Hit] At 50%- HP, inflict 1 Bleed 3 [On Crit] +50% Damage on Critical Hit",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Payback",
+      "type": "defense",
+      "summary": "Defense Counter · . Pierce. Skill Power 5. Coins 2. Coin Power 4. Offense Level 65. Atk Weight 1. [On Use] Gain +5 Aggro to this Skill Slot next turn [Combat Start] Gain 1 Defense Level Up for every Poise on self (Max 10)",
+      "attack_type": "Pierce"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-pequod-harpooner-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-pequod-harpooner-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-pequod-harpooner-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-pequod-harpooner-heathcliff",
+  "released": "07/December/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "304",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff.",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Pequod Heathcliff is an absolute monster of a tank ID. Beginning with the second part of his passive, he deals 1% more damage for every 1% HP he’s missing. Pequod Heathcliff has Max HP of 235, so he will deal 1% more damage for every 2.35 HP missing. This doesn’t have a cap either, so once you get him to low health, he’ll always just be a damage dealing monster. Pequod Heathcliff also has 1 Stagger Threshold, which is located at 80% HP, making it extremely easy to get his passive going and once it’s passed you’ll never need to worry about him staggering again. Going into the first part of Pequod Heathcliff’s passive, he can gain an extremely large amount of Offense Level Up and Defense Level Up, and the best part is that you can even use his counter, which is also incredibly strong, to get his passive going. Pequod Heathcliff has a lot of other gimmicks going for him, but they don’t have",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-pequod-harpooner-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Heathcliff / Aggro Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-pequod-harpooner-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

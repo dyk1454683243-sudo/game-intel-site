@@ -1,0 +1,124 @@
+{
+  "id": "n-corp-e-g-o-contempt-awe-ry-shu",
+  "name": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+  "name_zh": null,
+  "name_en": "N Corp. E.G.O::Contempt, Awe Ryōshū",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Contemptuous Thing",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] If target has Gaze or Contempt, Clash Power +1 [On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (max 2) 1 [On Hit] Inflict +1 Tremor Count [On Hit] Inflict +1 Bleed Count 2 [On Hit] Inflict 1 Gaze",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Be Awed",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] If target has Gaze or Contempt, Clash Power +1 [On Use] Coin Power +1 for every 6 (Bleed + Tremor) on target (max 2) 1 [On Hit] Inflict 2 Tremor [On Hit] Inflict 2 Bleed 2 Unbreakable Coin [On Hit] Inflict +1 Tremor Count [On Hit] Inflict +1 Bleed Count [On Hit] Inflict 2 Gaze [On Hit] If target has 3+ Tremor Count, trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Awe, Contempt",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 5. Coins 3. Coin Power 4. Offense Level 65. Atk Weight 1. If target has Gaze, this Skill inflicts +2 more Bleed and Tremor potency [Before Use] At 7+ (sum of Gaze on all enemies), or at 1+ (sum of Contempt on all enemies), activate 'Gaze of Awe Cascading Beneath Contempt' instead [On Use] Coin Power +1 for every 8 (Bleed + Tremor) on target (max 2) [On Use] Deal +1% damage for every (Bleed + Tremor) on target (max 40%) 1 [On Hit] Inflict 2 Tremor [On Hit] Inflict 2 Bleed 2 [On Hit] Inflict +1 Tremor Count [On Hit] Inflict +1 Bleed Count 3 Unbreakable Coin Deal +10% damage for every 1 Gaze on target (max 70%) [On Hit] Inflict 3 Gaze [On Hit without Cracking] Trigger Amplitude Conversion into Tremor - Hemorrhage [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Cascading Gaze of Awe Underneath Contempt",
+      "type": "skill4",
+      "summary": "Skill 4 · Lust. Pierce. Skill Power 14. Coins 1. Coin Power 14. Offense Level 65. Atk Weight 3. External effects cannot trigger this Skill to be Reused Prioritizes targeting enemies with Gaze or Contempt as sub-targets - Deals -50% damage against Sub-targets If there is just a single target, deal +200% damage (for Focused Encounters, a Part) [On Use] Coin Power +1 for every 4 (Bleed + Tremor) on the main target (max 4) [On Use] Deal +2% damage for every (Bleed + Tremor) on the main target (max 100%) [On Use] Deal +10% damage for every 1 (sum of Gaze on all attack targets) (max 70%) [After Attack] Consumes Gaze or Contempt on all targets that were hit 1 Unbreakable Coin If target has Contempt, deal +235% damage [On Hit] Inflict 4 Tremor and +2 Tremor Count [On Hit] Inflict 4 Bleed and +2 Bleed Count [On Hit] Trigger Amplitude Conversion into Tremor - Hemorrhage [On Hit] Trigger Tremor Burst; then, reduce target's Tremor Count by 1",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "I Shall Fire / Anytime",
+      "type": "skill5",
+      "summary": "Skill 5 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 7. Offense Level 65. Atk Weight 2. [Combat Start] Prioritizes N Corp. E.G.O::Contempt, Awe Ryōshū [Combat Start] Gain +1 Atk Weight for every 3 Torn Memory on self (max 2) [On Use] Coin Power +1 for every 5 Poise on self (max 2) [On Use] Base Power +1 for every 3 Poise Count on self (max 2) [On Use] Gain 1 Poise for every Torn Memory on self (max 7) [After Attack] Lose (Torn Memory on self x 2) SP (max 14) [After Attack] If this unit has 7 Torn Memory at Combat Start, lose them all and heal 20 SP on self 1 Unbreakable Coin This Coin deals damage only against main target 2 Unbreakable Coin This Coin deals damage only against sub-targets - If the first Coin wasn't a Critical Hit, and if N Corp. E.G.O::Contempt, Awe Ryōshū survived, 1 random sub-target takes damage Deal +40% Damage for every Torn Memory on self (max 280%) +5% Damage on Critical Hit for every Poise Potency (max 50%) +10% Damage on Critical Hit for every Torn Memory on self (max 70%) Deal +1% damage for every 1% missing HP on the main target (max 100%) [On Hit] Inflict 5 Bleed and +2 Bleed Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "To Grasp",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 10. Coins 1. Coin Power 5. Offense Level 58. Atk Weight 1. [Combat Start] If this unit does not have Contempt of the Gaze, and at 7+ (sum of Gaze on all enemies) or 1+ (sum of Contempt on all enemies), gain Contempt of the Gaze (once per turn) [On Use] If this unit has Contempt of the Gaze, Final Power +10 [On Use] When hit while using this Skill, inflict +1 Bleed Count against the attacker (3 times per turn)"
+    },
+    {
+      "name": "Let me show everyone something very interesting",
+      "type": "passive",
+      "summary": "Combat Start: N Corp. E.G.O::Fell Bullet Yi Sang's 'Target Readjustment Fire' Skill gains the following effects:. - Before using the Skill, if N Corp. E.G.O::Contempt, Awe Ryōshū has Contempt of the Gaze and can use her base Skills, use 'I Shall Fire / Anytime' against Ryōshū (once per turn; 'I Shall Fire / Anytime' reflects Yi Sang's Uptie Tier) - Before using the Skill, if the Skill's main target isn't N Corp. E.G.O::Contempt, Awe Ryōshū, and if she can use her base Skills, Ryōshū uses her Skill 1 as an unopposed Attack against the main target (once per turn; [Indiscriminate]; Skill 1 deals -50% damage; the Skill does not kill the main target) @#$'s Hand I Let Slip x2 Lust [Res] On Hit against enemies, inflict 2 Gaze (once per turn per enemy) - If this unit has Gaze of Contempt, inflict +1 more Gaze When hit by an enemy, inflict 1 Gaze against the attacker (once per Skill; 3 times per turn) - If this unit has Contempt of the Gaze: when hit by the attacker's final Coin, inflict (20% of the damage dealt by that final Coin) Sloth damage (max 20 per Skill; max 60 per turn) If this unit used its Base Attack Skills to consume Gaze or Contempt on an enemy: Next turn, gain ((enemy's Gaze consumed/2) + (enemy's Contempt consumed x 3)) Gaze of Contempt (6 per turn; rounded down)"
+    },
+    {
+      "name": "It flows and cries",
+      "type": "support",
+      "summary": "x3 Lust [Res]. If the ally with the earliest Deployment order hits an enemy with its attack, inflict 1 Bleed (once per enemy per turn) - If target has Bleed, inflict +1 Bleed Count as well If the ally with the earliest Deployment order is hit by an enemy, inflict 1 Tremor against the attacker (3 times per turn) - If the attacker has Tremor, inflict +1 Tremor Count as well"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-contempt-awe-ry-shu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "n-corp-e-g-o-contempt-awe-ry-shu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/n-corp-e-g-o-contempt-awe-ry-shu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:n-corp-e-g-o-contempt-awe-ry-shu",
+  "released": "11/September/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Well, well, well, if it isn’t the N Corp Bums. Contempt Awe Ryoshu is quite the interesting identity with a mix of Tremor and Bleed, while also having a plethora of status effects to not only help with damage dealing but also make her tanky. Before we start, let’s start with her unique status effects: - Gaze makes the bearer take 10% additional damage and deal 10% less damage from and against Ryoshu per stack (Max 7 stacks). On the death of the bearer, this status transfers to the enemy with the least Gaze stacks and turns into Contempt stack at the next turn. - Contempt makes the bearer take 50% additional damage and deal 50% less damage from and against Ryoshu. On the death of the bearer, this status transfers to the enemy with the least Contempt stacks and turns into 7 Gaze stacks at the next turn. - Gaze of Contempt (not to be confused with Gaze) increases damage dealt by 7% for each",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-contempt-awe-ry-shu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Bleed Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/n-corp-e-g-o-contempt-awe-ry-shu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,406 @@
+{
+  "game": "limbus-company",
+  "as_of": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "timezone_note": "公告写 KST。Asia/Seoul 与 UTC+9 同一偏移，没有夏令时。起止时间来自 Steam 公告图片里的文字，不是另行推算。",
+  "sources": [
+    "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+    "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
+    "https://store.steampowered.com/news/app/1973530/view/1844115010500798",
+    "https://store.steampowered.com/news/app/1973530/view/1843481262701165"
+  ],
+  "banners": [
+    {
+      "id": "limbus-2026-10-15-haute-couture-sinclair",
+      "name": "New Identity Target Extraction: Haute Couture::The Crimson God of Le Rouge Sinclair",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "Haute Couture::The Crimson God of Le Rouge Sinclair"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-the-crimson-god-of-le-rouge-sinclair",
+          "name": "Haute Couture::The Crimson God of Le Rouge Sinclair"
+        }
+      ],
+      "start": "2026-10-15T12:00:00+09:00",
+      "end": "2026-10-29T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+      "as_of": "2026-10-17",
+      "note": "公告原文：(10/15 12:00 ~ 10/29 10:00 (KST))。3★ 概率提升。KST 与 Asia/Seoul 同为 UTC+9，无夏令时。维护结束时间为同公告第 1 页 12:00。"
+    },
+    {
+      "id": "limbus-2026-10-15-ishmael",
+      "name": "Target Extraction: Ishmael",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "Haute Couture::Boutique du Rouge Ishmael",
+        "LCD OSIR Team Ishmael",
+        "The House of Spiders: The Middle Apprentice Ishmael",
+        "Family Hierarch Candidate Ishmael",
+        "Kurokumo Clan Captain Ishmael",
+        "Zwei West Section 3 Ishmael",
+        "The Pequod Captain Ishmael",
+        "Molar Boatworks Fixer Ishmael",
+        "Liu South Section 4 Ishmael",
+        "R Corp. 4th Pack Reindeer Ishmael",
+        "Edgar Family Butler Ishmael",
+        "Lobotomy E.G.O::Sloshing Ishmael",
+        "LCCB Assistant Manager Ishmael",
+        "Shi South Section 5 Ishmael",
+        "LCB Sinner Ishmael"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-boutique-du-rouge-ishmael",
+          "name": "Haute Couture::Boutique du Rouge Ishmael"
+        },
+        {
+          "id": "lcd-osir-team-ishmael",
+          "name": "LCD OSIR Team Ishmael"
+        },
+        {
+          "id": "the-house-of-spiders-the-middle-apprentice-ishmael",
+          "name": "The House of Spiders: The Middle Apprentice Ishmael"
+        },
+        {
+          "id": "family-hierarch-candidate-ishmael",
+          "name": "Family Hierarch Candidate Ishmael"
+        },
+        {
+          "id": "kurokumo-clan-captain-ishmael",
+          "name": "Kurokumo Clan Captain Ishmael"
+        },
+        {
+          "id": "zwei-assoc-west-section-3-ishmael",
+          "name": "Zwei. Assoc. West Section 3 Ishmael"
+        },
+        {
+          "id": "the-pequod-captain-ishmael",
+          "name": "The Pequod Captain Ishmael"
+        },
+        {
+          "id": "totally-not-molar-boatworks-fixer-ishmael",
+          "name": "Molar Boatworks Fixer Ishmael"
+        },
+        {
+          "id": "liu-south-section-4-ishmael",
+          "name": "Liu Assoc. South Section 4 Ishmael"
+        },
+        {
+          "id": "r-corp-4th-pack-reindeer-ishmael",
+          "name": "R Corp. 4th Pack Reindeer Ishmael"
+        },
+        {
+          "id": "edgar-family-butler-ishmael",
+          "name": "Edgar Family Butler Ishmael"
+        },
+        {
+          "id": "lobotomy-e-g-o-sloshing-ishmael",
+          "name": "Lobotomy E.G.O::Sloshing Ishmael"
+        },
+        {
+          "id": "lccb-assistant-manager-ishmael",
+          "name": "LCCB Assistant Manager Ishmael"
+        },
+        {
+          "id": "shi-association-south-section-5-ishmael",
+          "name": "Shi Association South Section 5 Ishmael"
+        },
+        {
+          "id": "lcb-sinner-ishmael",
+          "name": "LCB Sinner Ishmael"
+        }
+      ],
+      "start": "2026-10-15T12:00:00+09:00",
+      "end": "2026-10-29T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+      "as_of": "2026-10-17",
+      "note": "同一页还列了 E.G.O，不写入人格 id：HE Christmas Nightmare Ishmael、Ardor Blossom Star Ishmael；TETH Bygone Days Ishmael。"
+    },
+    {
+      "id": "limbus-2026-10-15-the-ring",
+      "name": "Target Extraction: The Ring",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "The Ring Fauvist Docent Rodion",
+        "The Ring Fauvist Student Meursault",
+        "The House of Spiders: The Ring Nursefather Hong Lu",
+        "The House of Spiders: The Ring Apprentice Faust",
+        "The Ring Pointillist Student Yi Sang",
+        "The Ring Pointillist Student Outis"
+      ],
+      "up_characters": [
+        {
+          "id": "the-ring-fauvist-docent-rodion",
+          "name": "The Ring Fauvist Docent Rodion"
+        },
+        {
+          "id": "the-ring-fauvist-student-meursault",
+          "name": "The Ring Fauvist Student Meursault"
+        },
+        {
+          "id": "the-house-of-spiders-the-ring-nursefather-hong-lu",
+          "name": "The House of Spiders: The Ring Nursefather Hong Lu"
+        },
+        {
+          "id": "the-house-of-spiders-the-ring-apprentice-faust",
+          "name": "The House of Spiders: The Ring Apprentice Faust"
+        },
+        {
+          "id": "the-ring-pointillist-student-yi-sang",
+          "name": "The Ring Pointillist Student Yi Sang"
+        },
+        {
+          "id": "the-ring-pointillist-student-outis",
+          "name": "The Ring Pointillist Student Outis"
+        }
+      ],
+      "start": "2026-10-15T12:00:00+09:00",
+      "end": "2026-10-29T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "limbus-2026-10-01-don-quixote",
+      "name": "New Identity Target Extraction: Haute Couture::Le Noir Brand Manager Don Quixote",
+      "kind": "target_extraction",
+      "status": "ended",
+      "up": [
+        "Haute Couture::Le Noir Brand Manager Don Quixote"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-le-noir-brand-manager-don-quixote",
+          "name": "Haute Couture::Le Noir Brand Manager Don Quixote"
+        }
+      ],
+      "start": "2026-10-01T12:00:00+09:00",
+      "end": "2026-10-15T06:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
+      "as_of": "2026-10-17",
+      "note": "公告原文：(10/1 12:00 ~ 10/15 06:00 (KST))。3★。同页补了一条此前漏写的 E.G.O [TETH] Move-in Reg. Gregor，属于 Gregor 目标提取，不是这条人格。"
+    },
+    {
+      "id": "limbus-2026-10-01-gregor",
+      "name": "Target Extraction: Gregor",
+      "kind": "target_extraction",
+      "status": "ended",
+      "up": [
+        "LCE E.G.O::AEDD Gregor",
+        "Lobotomy E.G.O::Lamp Gregor",
+        "Heishou Pack - Si Branch Gregor",
+        "Firefist Office Survivor Gregor",
+        "The Priest of La Manchaland Gregor",
+        "Edgar Family Heir Gregor",
+        "Twinhook Pirates First Mate Gregor",
+        "Zwei South Section 4 Gregor",
+        "G Corp. Manager Corporal Gregor",
+        "Kurokumo Clan Captain Gregor",
+        "Rosespanner Workshop Fixer Gregor",
+        "R.B. Sous-chef Gregor",
+        "Liu South Section 6 Gregor",
+        "LCB Sinner Gregor"
+      ],
+      "up_characters": [
+        {
+          "id": "lce-e-g-o-aedd-gregor",
+          "name": "LCE E.G.O::AEDD Gregor"
+        },
+        {
+          "id": "lobotomy-e-g-o-lamp-gregor",
+          "name": "Lobotomy E.G.O::Lamp Gregor"
+        },
+        {
+          "id": "heishou-pack-si-branch-gregor",
+          "name": "Heishou Pack - Si Branch Gregor"
+        },
+        {
+          "id": "firefist-office-survivor-gregor",
+          "name": "Firefist Office Survivor Gregor"
+        },
+        {
+          "id": "the-priest-of-la-manchaland-gregor",
+          "name": "The Priest of La Manchaland Gregor"
+        },
+        {
+          "id": "edgar-family-heir-gregor",
+          "name": "Edgar Family Heir Gregor"
+        },
+        {
+          "id": "twinhook-pirates-first-mate-gregor",
+          "name": "Twinhook Pirates First Mate Gregor"
+        },
+        {
+          "id": "zwei-association-south-section-4-gregor",
+          "name": "Zwei Association South Section 4 Gregor"
+        },
+        {
+          "id": "g-corp-manager-corporal-gregor",
+          "name": "G Corp. Manager Corporal Gregor"
+        },
+        {
+          "id": "kurokomo-clan-captain-gregor",
+          "name": "Kurokumo Clan Captain Gregor"
+        },
+        {
+          "id": "rosespanner-workshop-fixer-gregor",
+          "name": "Rosespanner Workshop Fixer Gregor"
+        },
+        {
+          "id": "r-b-sous-chef-gregor",
+          "name": "R.B. Sous-chef Gregor"
+        },
+        {
+          "id": "liu-association-south-section-6-gregor",
+          "name": "Liu Assoc. South Section 6 Gregor"
+        },
+        {
+          "id": "lcb-sinner-gregor",
+          "name": "LCB Sinner Gregor"
+        }
+      ],
+      "start": "2026-10-01T12:00:00+09:00",
+      "end": "2026-10-15T06:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
+      "as_of": "2026-10-17",
+      "note": "E.G.O 不写入人格 id：WAW Garden of Thorns Gregor；HE Christmas Nightmare Gregor；TETH Lantern Gregor、Move-in Reg. Gregor。"
+    },
+    {
+      "id": "limbus-2026-09-24-rodion",
+      "name": "New Identity Target Extraction: Haute Couture::Alteration Shop Rodion",
+      "kind": "target_extraction",
+      "status": "ended",
+      "up": [
+        "Haute Couture::Alteration Shop Rodion"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-alteration-shop-rodion",
+          "name": "Haute Couture::Alteration Shop Rodion"
+        }
+      ],
+      "start": "2026-09-24T12:00:00+09:00",
+      "end": "2026-10-08T06:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1844115010500798",
+      "as_of": "2026-10-17",
+      "note": "公告原文：(9/24 12:00 ~ 10/8 06:00 (KST))。"
+    },
+    {
+      "id": "limbus-2026-09-17-haute-couture",
+      "name": "New Identity Target Extraction: Haute Couture Le Noir Footwear Hall Ryōshū and Boutique du Rouge Ishmael",
+      "kind": "target_extraction",
+      "status": "ended",
+      "up": [
+        "Haute Couture::Le Noir Footwear Hall Ryōshū",
+        "Haute Couture::Boutique du Rouge Ishmael"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-le-noir-footwear-hall-ryoshu",
+          "name": "Haute Couture::Le Noir Footwear Hall Ryoshu"
+        },
+        {
+          "id": "haute-couture-boutique-du-rouge-ishmael",
+          "name": "Haute Couture::Boutique du Rouge Ishmael"
+        }
+      ],
+      "start": "2026-09-17T12:00:00+09:00",
+      "end": "2026-10-01T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1843481262701165",
+      "as_of": "2026-10-17",
+      "note": "公告日期写成 26/9/17 12:00 ~ 26/10/1 10:00 (KST)，与同页礼包的 26. 09. 24 一样用两位年份。"
+    },
+    {
+      "id": "limbus-2026-09-17-meursault",
+      "name": "Target Extraction: Meursault",
+      "kind": "target_extraction",
+      "status": "ended",
+      "up": [
+        "The Ring Fauvist Student Meursault",
+        "The Prince of La Manchaland Meursault",
+        "The Thumb East Capo IIII Meursault",
+        "Cinq West Section 3 Meursault",
+        "Dieci South Section 4 Director Meursault",
+        "Blade Lineage Mentor Meursault",
+        "R Corp. 4th Pack Rhino Meursault",
+        "N Corp. Großhammer Meursault",
+        "W Corp. L2 Cleanup Agent Meursault",
+        "Dead Rabbits Boss Meursault",
+        "Rosespanner Workshop Fixer Meursault",
+        "Liu Assoc. South Section 6 Meursault",
+        "LCB Sinner Meursault"
+      ],
+      "up_characters": [
+        {
+          "id": "the-ring-fauvist-student-meursault",
+          "name": "The Ring Fauvist Student Meursault"
+        },
+        {
+          "id": "the-prince-of-la-manchaland-meursault",
+          "name": "The Prince of La Manchaland Meursault"
+        },
+        {
+          "id": "the-thumb-east-capo-iiii-meursault",
+          "name": "The Thumb East Capo IIII Meursault"
+        },
+        {
+          "id": "cinq-assoc-west-section-3-meursault",
+          "name": "Cinq Assoc. West Section 3 Meursault"
+        },
+        {
+          "id": "dieci-assoc-south-section-4-director-meursault",
+          "name": "Dieci Assoc. South Section 4 Director Meursault"
+        },
+        {
+          "id": "blade-lineage-mentor-meursault",
+          "name": "Blade Lineage Mentor Meursault"
+        },
+        {
+          "id": "r-corp-4th-pack-rhino-meursault",
+          "name": "R Corp. 4th Pack Rhino Meursault"
+        },
+        {
+          "id": "n-corp-grosshammer-meursault",
+          "name": "N Corp. Groẞhammer Meursault"
+        },
+        {
+          "id": "w-corp-l2-cleanup-agent-meursault",
+          "name": "W Corp. L2 Cleanup Agent Meursault"
+        },
+        {
+          "id": "dead-rabbits-boss-meursault",
+          "name": "Dead Rabbits Boss Meursault"
+        },
+        {
+          "id": "rosespanner-workshop-fixer-meursault",
+          "name": "Rosespanner Workshop Fixer Meursault"
+        },
+        {
+          "id": "liu-association-south-section-6-meursault",
+          "name": "Liu Association South Section 6 Meursault"
+        },
+        {
+          "id": "lcb-sinner-meursault",
+          "name": "LCB Sinner Meursault"
+        }
+      ],
+      "start": "2026-09-17T12:00:00+09:00",
+      "end": "2026-10-08T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/1843481262701165",
+      "as_of": "2026-10-17",
+      "note": "公告写持续到 Oct. 8th，共 3 周。E.G.O 不写入人格 id：WAW Crushbound Past Meursault；HE Shadow-vested Bladesinger Meursault、Pursuance Meursault。对不上唯一人格 id 的名字留在 up，不写入 up_characters。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "the-middle-little-brother-sinclair",
+  "name": "The Middle Little Brother Sinclair",
+  "name_zh": null,
+  "name_en": "The Middle Little Brother Sinclair",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "sinclair",
+    "name_en": "Sinclair",
+    "name_zh": "辛克莱尔",
+    "order": 10,
+    "source": "https://www.gamekee.com/limbus/585810.html"
+  },
+  "rarity": "000",
+  "role": "Aggro Barrier Bleed",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Is it You?!",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If target has 6+ Bleed, Coin Power +1 [On Use] Gain +5 Aggro to this Skill Slot next turn [On Use] Heal 5 SP on self - At max SP, gain Clash Power +1 instead 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Payback with Interesst",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. If target has 6+ Bleed, Coin Power +1 [On Use] Gain +5 Aggro to this Skill Slot next turn [Combat Start] This Skill gains (highest Reson. / 2) Offense level (max 3, rounded down) - If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect 1 [On Hit] Inflict 2 Bleed 2 At 3+ Reson. that includes this Skill, deal +20% more damage",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Write 'em all down",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight 1. Deal +1% more damage for every 1 Book of Vengeance [Sinclair] (max 30%) Coin Power +1 for every 6 Bleed on target (max 2) [Combat Start] This Skill gains (highest Reson. / 2) Offense Level (max 3, rounded down) - If the said Reson. includes an A-Reson., double the Offense Level gained from the above effect 1 [On Hit] Inflict 4 Bleed 2 Deal +5% more damage for every Reson. that includes this Skill (max 30%) Deal +15% more damage for every 10 Book of Vengeance [Sinclair] (max 45%)",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Warmup in the East",
+      "type": "defense",
+      "summary": "Defense Counter · Envy. Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 65. Atk Weight 1. [Combat Start] Skill behavior changes based on the sum of Envy A-Reson.: - At 4+ sum of A-Reson., use 'Payback with Interest' as Counter - At 6+ sum of A-Reson., use 'Write 'em all down' as Counter (Activates from the leftmost Skill Slot. Activates 2 times per turn) [Combat Start] Gain 30% of missing HP as Shield (once per turn) 1 [On Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "The Middle Never Forgets",
+      "type": "passive",
+      "summary": "x3 Envy [Owned]. When hit by an enemy, inflicts 5 Vendetta Mark against the attacker (or Part) (once per turn) When an other ally is hit by an enemy, inflict 2 Vendetta Mark against the attacker (or Part) (once per turn per Identity - If the said ally is from Middle, inflict 3 additional Vendetta Mark After Attacking with Base Attack Skills or Counter Skills, consume all Vendetta Mark on the target - Every time the target consumes Vendetta Mark, gain Book of Vengeance [Sinclair] equal to the amount consumed We've Got Your Back x5 Envy [Owned] Combat Start: 1 ally with the least current HP perecntage gains 2 Defense Level Up - If the said ally is from the Middle, also gains 2 Offense Level Up"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-middle-little-brother-sinclair",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585810.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-middle-little-brother-sinclair",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-middle-little-brother-sinclair_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-middle-little-brother-sinclair",
+  "released": "03/April/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "275",
+    "speed": "4-6",
+    "resistances": {
+      "slash": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The Middle Little Brother Sinclair is the long awaited sequel to the controversial Middle Little Sister Don. For clarification, he does not fix any of the problems Middle Don has, but he does benefit from having Middle Don on his team. Similar to Middle Don, most of Sinclair's damage comes out of his Counters. At 4 + Sum of Envy Absolute Resonance his S2 turns into a Counter Skill and similarly at 6 + Sum, his S3 does the same. Middle Sinclair’s main gimmick revolves around getting as many Envy A-Res as you possibly can, and his team building revolves around having other sinners who have an abundance of Envy skills. However, he also has unique debuffs and buffs that puts him above Middle Don by default. The debuff is called “Vendetta Mark” which is inflicted through Middle Sinclair’s passive when an enemy hits either him or any of his allies. 5 stacks of “Vendetta Mark” gets inflicted on",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-middle-little-brother-sinclair",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585810.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Sinclair / Aggro Barrier Bleed"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-middle-little-brother-sinclair，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

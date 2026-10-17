@@ -1,0 +1,120 @@
+{
+  "id": "the-ring-fauvist-docent-rodion",
+  "name": "The Ring Fauvist Docent Rodion",
+  "name_zh": null,
+  "name_en": "The Ring Fauvist Docent Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Vehement Overpainting",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Blunt. Skill Power 6. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. Deal +5% damage for every type of negative effect on target (max 15%) If target has Palette Vibrante, deal +20% damage [On Use] Clash Power +1 and Final Power +1 for every 4 (Bleed + Sinking) on target (max 2) 1 If target has 4+ types of negative effect, Reuse this Coin (max once) [On Hit] Inflict +1 Bleed Count [On Hit] Inflict 1 Sinking [On Hit] Inflict 1 Mauled Color [Rouge]",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Expression of Primary Colors",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Blunt. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. Deal +20% damage for every type of negative effect on target (max 60%) If target has Palette Vibrante, deal +20% damage If target has 2+ types of Mauled Color, deal +20% damage [On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (max 2) [On Use] Coin Power +1 for every 2 types of negative effects on target (max 3) 1 [On Hit] Inflict 2 Bleed [On Hit] Inflict 1 Mauled Color [Rouge] 2 [On Hit] Inflict +2 Sinking Count [On Hit] Inflict 3 Mauled Color [Blue] [On Hit] If target has 5+ types of negative effect, inflict 1 Touche Hardie",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Le Fauvisme - Déchaînement Brutal",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. Deal +20% damage for every type of negative effect on target (max 60%) If target has Palette Vibrante, deal +20% damage [Before Use] If target has 6+ types of negative effect, activate as \"Burst Forth the Pulsing Crimson under Your Skin\" (once per turn) [On Use] Coin Power +1 for every 4 (Bleed + Sinking) on target (max 2) 1 [On Hit] Inflict 2 Bleed [On Hit] Inflict 1 Mauled Color [Rogue] 2 [On Hit] Inflict +2 Bleed Count [On Hit] Inflict 1 Mauled Color [Rogue] 3 [On Hit] Inflict 2 Sinking [On Hit] Inflict 3 Mauled Color [Bleu] 4 [On Hit] Inflict +2 Bleed Count [On Hit] If target has 5+ types of negative effect, inflict 1 Touche Hardie next turn [On Hit] Inflict 1 Touche Hardie",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Burst Forth the Pulsing Crimson under Your Skin",
+      "type": "skill4",
+      "summary": "Skill 4 · Lust. Blunt. Skill Power 5. Coins 4. Coin Power 3. Offense Level 64. Atk Weight 1. Deal +15% damage for every type of negative effect on target (max 90%) If target has Palette Vibrante, deal +40% damage [On Use] Coin Power +1 for every 4 (Bleed + Sinking) on the main target (max 2) 1 Unbreakable Coin [On Hit] Inflict 3 Bleed [On Hit] Inflict 1 Mauled Color [Rogue] 2 Unbreakable Coin [On Hit] Inflict +2 Bleed Count [On Hit] Inflict 1 Mauled Color [Rogue] 3 Unbreakable Coin [On Hit] Inflict 3 Sinking [On Hit] Inflict 4 Mauled Color [Bleu] 4 Unbreakable Coin This Coin hits all targets of the attack [On Hit] Inflict 2 Touche Hardie",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Trimming the Medium",
+      "type": "defense",
+      "summary": "Defense Counter · . Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [Clashable Counter] If target has Palette Vibrante, deal +20% damage [Before Use] If this unit does not have Réflexion and if target has 3+ types of negative effect, activate as \"Critique\" [On Use] Final Power +1 for every 4 (Bleed + Sinking) on target (max 2) 1 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Mauled Color [Rouge] - If target does not have Mauled Color [Rouge], inflict 1 additional Mauled Color [Rouge] 2 [On Hit] Inflict 1 Sinking [On Hit] Inflict 1 Mauled Color [Bleu] - If target does not have Mauled Color [Bleu], inflict 1 additional Mauled Color [Bleu]",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Critique",
+      "type": "defense",
+      "summary": "Defense Counter · Lust. Blunt. Skill Power 5. Coins 1. Coin Power 4. Offense Level 63. Atk Weight 1. [Clashable Counter] Deal +10% damage for every type of negative effect on target (max 40%) If target has Palette Vibrante, deal +30% damage [On Use] If target has Palette Vibrante, gain 2 Clash Power Up [On Use] If target has 4+ (Bleed + Sinking), Final Power +3 [On Use] Clash Power +2 for every 2 types of negative effect on target (max 6) [Skill End] Gain 2 Réflexion 1 Reuse this Coin for every 3 types of negative effect on target (max 2 times) [On Hit] Inflict 1 Bleed (once per Skill) [On Hit] Inflict 1 Sinking (once per Skill) [On Hit] Randomly inflict 1 Mauled Color [Rouge] or 1 Mauled Color [Bleu] [On Hit] If this Coin is the 3rd Coin used, inflict 1 Touche Hardie",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Needs a Rougher Touch for this Part…!",
+      "type": "passive",
+      "summary": "x2 Lust [Res]. Inflict +1 more Mauled Color [Rouge], Mauled Color [Bleu], and Touche Hardie Nice and Slow, Don't Let It Break… x3 Lust [Res] Apply the following effects to the Identity with the earliest Deployment order: - If Lust Reson. is of an odd number, inflict +1 more Bleed Potency - If Lust Reson. is of an even number, inflict +1 more Sinking Potency - If the said Identity is in The Ring faction, it gains 1 Offense Level Up or 1 Defense Level Up at Combat Start"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-docent-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "the-ring-fauvist-docent-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/the-ring-fauvist-docent-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:the-ring-fauvist-docent-rodion",
+  "released": "16/April/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "227",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Pierce RES",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "The Ring Fauvist Docent Rodion (shortened to Ring Rodion) is a Bleed-centric ID with a touch of Sinking that utilizes the main gimmick of The Ring, which is to inflict as many unique negative status effects onto the enemy as possible. This is supported by the effects that the Fauvist brings, which are: - Mauled Color [Rouge] - This effect inflicts bonus Bleed Potency on hit (three maximum) and up to 2 Defense Level Down at the end of turns. - Mauled Color [Bleu] - This effect does effectively the same as Rouge, but the enemy gains Sinking Potency instead. Instead of Defense Level Down, this effect will make the target lose 5 SP as well. - Touche Hardie - This effect will make the target take +10% HP and SP damage from Bleed and Sinking effects, for a maximum of 20% bonus damage on both. - Palette Vibrante - This effect comes from Rodion’s passive when Mauled Colors [Rouge] & [Bleu], as w",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/the-ring-fauvist-docent-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Bleed Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/the-ring-fauvist-docent-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

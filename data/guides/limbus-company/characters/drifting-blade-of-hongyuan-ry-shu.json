@@ -1,0 +1,107 @@
+{
+  "id": "drifting-blade-of-hongyuan-ry-shu",
+  "name": "Drifting Blade of Hongyuan Ryōshū",
+  "name_zh": null,
+  "name_en": "Drifting Blade of Hongyuan Ryōshū",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ryoshu",
+    "name_en": "Ryōshū",
+    "name_zh": "良秀",
+    "order": 4,
+    "source": "https://www.gamekee.com/limbus/585796.html"
+  },
+  "rarity": "000",
+  "role": "Poise Rupture",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Hey, Back Off",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Pierce. Skill Power 6. Coins 1. Coin Power 7. Offense Level 61. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (max 2) [On Use] Gain +1 Poise Count [On Unopposed Attack] Inflict +1 Rupture Count 1 [On Hit] Inflict 2 Rupture [On Crit] Inflict 1 Rupture",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Engraved in Flesh and Bone [銘肌鏤骨]",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (max 2) [On Use] Gain +2 Poise Count 1 [On Hit] Inflict +2 Rupture Count 2 [On Hit] Gain Poise equal to ((Rupture on target / 5) + 2) (max 6; rounded down) 3 +20% Damage on Critical Hit [On Hit] Inflict 2 Rupture [On Hit] Inflict 1 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Aiding Strike [加斥我援]",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 65. Atk Weight 1. [On Use] Gain 2 Protector's Stance [On Use] If target has 3+ types of negative effects, Final Power +1 [On Use] Coin Power +1 for every 6 (Poise on self + Rupture on target) (max 2) [On Use] Gain +3 Poise Count [On Use] Gain 3 Poise 1 [On Hit] Inflict +2 Rupture Count 2 [On Hit] Inflict 1 Rupture [On Crit] Inflict 1 Rupture 3 [On Hit] Inflict 1 Rupture [On Crit] Inflict 1 Rupture 4 [Coin Start] Deal +2% damage on Critical Hit for every (Poise on self + Rupture on target (max 120%) [On Hit] Inflict 2 Rupture",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Sentinel",
+      "type": "defense",
+      "summary": "Defense Guard · Pride. -. Skill Power 3. Coins 1. Coin Power 10. Offense Level 64. Atk Weight 1. [Combat Start] Gain 2 Protector's Stance [On Use] This Skill gains +1 Defense Level for every 10% HP this unit cumulatively lost in this Encounter (max 6; based on max HP at the time of activation) [Clash Win] Gain Poise by Rupture on target (max 5; once per turn) 1 Unbreakable Coin",
+      "sin": "Pride",
+      "attack_type": "-"
+    },
+    {
+      "name": "Drifter",
+      "type": "support",
+      "summary": "x3 Gluttony [Owned] x3 Pride [Owned]. Combat Start: The ally with the earliest Deployment order gains 1 Shield for every Poise on self (max 10)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/drifting-blade-of-hongyuan-ry-shu",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585796.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "drifting-blade-of-hongyuan-ry-shu",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/drifting-blade-of-hongyuan-ry-shu_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:drifting-blade-of-hongyuan-ry-shu",
+  "released": "04/December/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-7",
+    "defense": "62",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "First things first, to address the elephant in the room, is she be… No, she is way worse than Mao Ryoshu: a significantly worse Rupture application and poorer team synergy for practically the same amount of damage output. Aside from the obvious comparison with her better alternative, she is quite average. She is somewhat tanky, does mediocre damage by Poise unit standards, and has barely working Poise generation without her unique effect. With that in mind, let’s take a look at the new Ryoshu kit. First, let’s look into her always active Passive: - Her entire gimmick revolves around hitting twice per turn with additional Skill 1. When the first ally hits the enemy, she follows up with her generic count neutral single Coin Skill 1 that barely does any damage. - Whenever she is substituted into the battlefield, she will gain 2 stacks of her “Protector’s stance” unique effect. - She will be",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/drifting-blade-of-hongyuan-ry-shu",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585796.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Support S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ryōshū / Poise Rupture"
+  },
+  "verified": "Prydwen /limbus-company/identities/drifting-blade-of-hongyuan-ry-shu，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

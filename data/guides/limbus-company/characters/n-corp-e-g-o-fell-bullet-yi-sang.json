@@ -1,0 +1,112 @@
+{
+  "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+  "name": "N Corp. E.G.O:: Fell Bullet Yi Sang",
+  "name_zh": null,
+  "name_en": "N Corp. E.G.O:: Fell Bullet Yi Sang",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "yi-sang",
+    "name_en": "Yi Sang",
+    "name_zh": "李箱",
+    "order": 1,
+    "source": "https://www.gamekee.com/limbus/585110.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "See Through Defenses",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Blunt. Skill Power 5. Coins 1. Coin Power 6. Offense Level 61. Atk Weight 1. [On Use] Deal +15% damage for every Torn Memory on self (max 105%) [On Use] Coin Power +1 for every 5 Poise on self (max 2) [On Use] Base Power +1 for every Poise Count on self (max 2) [On Use] Gain +2 Poise Count and 1 Torn Memory 1 [On Hit] Gain +1 Poise Count [On Crit] Inflict +1 Bleed Count",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Punch Through",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Pierce. Skill Power 4. Coins 2. Coin Power 6. Offense Level 63. Atk Weight 1. [On Use] Deal +15% damage for every Torn Memory on self (max 105%) [On Use] Coin Power +1 for every 5 Poise on self (max 2) [On Use] Gain 2 Poise 1 [On Hit] Gain 2 Poise [On Crit] Inflict 2 Bleed 2 Unbreakable Coin [On Hit] Gain 2 Poise [On Hit] Gain 1 Torn Memory [On Crit] Inflict 2 Bleed [On Crit] Gain 2 Torn Memory",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Target Readjustment Fire",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Pierce. Skill Power 4. Coins 2. Coin Power 7. Offense Level 65. Atk Weight 2. [Combat Start] Targets the unit with the least HP - At 7 Torn Memory, primarily targets among allies as the main target [Combat Start] Gain +1 Atk Weight for every 3 Torn Memory on self (max 2) [On Use] Coin Power +1 for every 5 Poise on self (max 2) [On Use] Base Power +1 for every 3 Poise Count on self (max 2) [On Use] Gain 1 Poise for every Torn Memory on self (max 7) [After attack] Lose (Torn Memory on self x 2) SP (max 14) [After Attack] If this unit has 7 Torn Memory at Combat Start, lose them all - If this unit last all Torn Memory, and if an ally is killed, heal 20 SP on self 1 Unbreakable Coin This Coin deals damage only against the main target If the main target is an ally, activate the following effects: - The main target's Pierce Resistance becomes Fatal against this attack - Deal + 7% damage for every Torn Memory on self (max 49%) - +3% Damage on Critial Hit for every Poise on self (max 60%) 2 Unbreakable Coin This Coin deals damage only against the sub-targets - However, if the main target was an enemy, deal damage against the main target - If the first Coin failed to kill an ally, 1 random sub-target takes damage Deal +20% damage for every Torn Memory on self (max 140%) - If the first Coin killed an ally, deal +40$ damage for every Torn Memory on self instead (max 280%) +5% Damage on Critical Hit for every Poise Potency (max 50%) +10% Damage on Critical Hit for every Torn Memory on self (max 70%) Deal +(HP percentage the first Coin removed from the main target)% damage (max 100%) [On Hit] Inflict 3 Bleed - If the first Coin killed an ally, inflict 5 Bleed and +2 Bleed Count instead",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Front Line Support",
+      "type": "defense",
+      "summary": "Defense Counter · Pride. Pierce. Skill Power 5. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. [Clashable Counter] [On Use] Coin Power +1 for every 2 Poise on self (max 3) [On Use] Gain 2 Torn Memory 1 [On Hit] Gain 2 Poise [On Hit] Gain 2 Poise Count",
+      "sin": "Pride",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Fell Bullet",
+      "type": "passive",
+      "summary": "x6 Pride [Owned]. If this unit killed an allied unit with its attack, gain Fell Bullet for the next turn (including with this unit's 'E.G.O Corrosion' and attacks against allies) If this unit uses its E.G.O 'Fell Bullet' and consumes Torn Memory; next turn, gain Torn Memory equal to the amount of it consumed by the end of the last turn."
+    },
+    {
+      "name": "Designated Target",
+      "type": "support",
+      "summary": "x4 Pride [Res]. When the ally with the slowest Speed attacked an ally: After attack, gain 1 Damage Up next turn (2 times per turn) - If the attacked ally is killed by this attack, gain 1 Damage Up for the whole Encounter instead (max 2 per Stage per Identity) - Can gain only up to 2 Damage Up from the above effect"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-fell-bullet-yi-sang",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585110.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "n-corp-e-g-o-fell-bullet-yi-sang",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/n-corp-e-g-o-fell-bullet-yi-sang_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:n-corp-e-g-o-fell-bullet-yi-sang",
+  "released": "03/July/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "203",
+    "speed": "4-7",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[N Corp. E.G.O::Fell Bullet] Yi Sang is an interesting Poise-centric Identity who utilizes an effect called “Torn Memory” - which was previously used only in a certain E.G.O. This shines the most when a plan and team is made in mind before the fight, as his most damaging skill requires killing an Ally for the ideal outcome. “Torn Memory” is a resource that is spent by Yi Sang’s Skill 3 and it is gained in a small amount from his Skill 1 & Skill 2 second Coins as well as his Defensive skill. If Yi Sang scores a Critical Hit on Skill 1 and Skill 2, “Torn Memory” gain will be increased. To start off, he has 2 Combat Passives. The First Passive is for maintaining Torn Memory, which would otherwise fade away at the end of the Turn, preventing it from stacking. Second Passive activates if Yi Sang kills an Ally, thus providing him with a buff called “Fell Bullet” which increases his damage a li",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/n-corp-e-g-o-fell-bullet-yi-sang",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585110.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Yi Sang / Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/n-corp-e-g-o-fell-bullet-yi-sang，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

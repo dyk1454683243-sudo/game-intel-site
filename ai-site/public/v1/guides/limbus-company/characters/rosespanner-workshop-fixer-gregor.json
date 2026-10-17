@@ -1,0 +1,113 @@
+{
+  "id": "rosespanner-workshop-fixer-gregor",
+  "name": "Rosespanner Workshop Fixer Gregor",
+  "name_zh": null,
+  "name_en": "Rosespanner Workshop Fixer Gregor",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "gregor",
+    "name_en": "Gregor",
+    "name_zh": "格里高尔",
+    "order": 12,
+    "source": "https://www.gamekee.com/limbus/585811.html"
+  },
+  "rarity": "00",
+  "role": "Charge Rupture Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Gluttony",
+      "count": 3
+    },
+    {
+      "sin": "Envy",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rev Up",
+      "type": "skill1",
+      "summary": "Skill 1 · Gluttony. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [On Use] Gain +2 Charge Count 1 [On Use] Inflict 2 Rupture [On Hit] If target has 5+ Tremor Count, inflict 3 Rupture",
+      "sin": "Gluttony",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Grease Chains",
+      "type": "skill2",
+      "summary": "Skill 2 · Envy. Pierce. Skill Power 4. Coins 1. Coin Power 12. Offense Level 61. Atk Weight 1. [On Use] Gain +3 Charge Count 1 [On Hit] Inflict +2 Tremor Count [On Hit] Inflict +2 Rupture Count.",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Let's Grind 'Em",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Slash. Skill Power 4. Coins 3. Coin Power 3. Offense Level 61. Atk Weight 1. If target has 5+ Tremor Count, Coin Power +1 1 [On Hit] Burst Tremor; then reduce Tremor Count by 2; Spend up to 4 Charge to inflict Rupture Count equal to Charge Count spent 2 [On Hit] Inflict 1 Rupture [On Hit] If target is staggered, deal 10% more damage [On Hit] If target has 5+ Tremor Count, Inflict 3 Rupture 3 [On Hit] Inflict 1 Rupture [On Hit] If target is Staggered, deal 10% more damage [On Hit] If target has 5+ Tremor Count, inflict 3 Rupture",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gluttony. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 59. Atk Weight 1",
+      "sin": "Gluttony",
+      "attack_type": "-"
+    },
+    {
+      "name": "Sawblade Fired Up",
+      "type": "passive",
+      "summary": "x4 Gluttony [Owned]. Inflict +1 Rupture to target with Tremor"
+    },
+    {
+      "name": "Sawblade Maintenance",
+      "type": "support",
+      "summary": "x4 Gluttony [Owned]. 1 ally with the lowest Speed inflicts +1 Rupture to targets with Tremor Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-gregor",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585811.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "rosespanner-workshop-fixer-gregor",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/rosespanner-workshop-fixer-gregor_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:rosespanner-workshop-fixer-gregor",
+  "released": "08/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "212",
+    "speed": "4-6",
+    "defense": "58",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Slash",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Good at clashing and really good at helping to maintain Rupture. Rosespanner Gregor is good at maintaining his charge for his S3, although he does need atleast one other tremor unit to get his full potential. Really only used in Rupture teams, not much good anywhere else. Notable E.G.O Synergies: AEDD - Fuels the E.G.O. that is arguably irreplaceable in Rupture Team as it can easily provide a lot of count that rupture IDs struggle with applying.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-fixer-gregor",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585811.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Status Specialist C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Gregor / Charge Rupture Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/rosespanner-workshop-fixer-gregor，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

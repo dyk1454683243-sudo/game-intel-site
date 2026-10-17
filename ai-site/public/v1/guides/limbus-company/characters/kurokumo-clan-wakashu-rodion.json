@@ -1,0 +1,103 @@
+{
+  "id": "kurokumo-clan-wakashu-rodion",
+  "name": "Kurokumo Clan Wakashu Rodion",
+  "name_zh": null,
+  "name_en": "Kurokumo Clan Wakashu Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Poise",
+  "sin_affinities": [
+    {
+      "sin": "Gloom",
+      "count": 3
+    },
+    {
+      "sin": "Lust",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sharpened Blade",
+      "type": "skill1",
+      "summary": "Skill 1 · Gloom. Slash. Skill Power 5. Coins 1. Coin Power 6. Offense Level 62. Atk Weight 1. At 4+ Poise, Coin Powe r +3 1 [On Hit] Gain 4 Poise",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Scattering Slash",
+      "type": "skill2",
+      "summary": "Skill 2 · Lust. Slash. Skill Power 6. Coins 2. Coin Power 3. Offense Level 62. Atk Weight 1. [On Use] Gain +2 Poise count At 5+ Poise, Coin Power +2 1 [On Hit] Gain 2 Poise [On Hit] Inflict 2 Bleed 2 [On Hit] Gain 3 Poise [On Hit] Inflict 3 Bleed",
+      "sin": "Lust",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Sky-clearing Cut",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 7. Coins 1. Coin Power 18. Offense Level 62. Atk Weight 1. If target has 6+ Bleed, double the crit chance At 10+ Poise, +100% Critical Damage 1 [On Crit] Inflict 10 Bleed",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Pride. Slash. Skill Power 9. Coins 1. Coin Power 6. Offense Level 62. Atk Weight 1. [On Use] Gain 1 Protection [On Use] Gain +2 Poise Count",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "kurokumo-clan-wakashu-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/kurokumo-clan-wakashu-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:kurokumo-clan-wakashu-rodion",
+  "released": "27/February/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "264",
+    "speed": "2-5",
+    "defense": "62",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "[Kurokumo Clan Wakashu] Rodion is an ID with a combination of Poise and Bleed based skills. She possesses an okay clashing power and Bleed infliction if the conditions are fulfilled, but unfortunately, she lacks in both damage and Poise generation. Without support from others, her only way to fully utilize her Skill 3 is to use her Skill 2 twice in a row before using it and that assumes you don’t Crit twice. [Kurokumo Captain Clan Captain] Ishmael does not help much as what Kuro Rodion lacks is Poise generation. While skills always hitting is nice, unfortunately that is where it ends with this ID.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/kurokumo-clan-wakashu-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Bleed Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/kurokumo-clan-wakashu-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

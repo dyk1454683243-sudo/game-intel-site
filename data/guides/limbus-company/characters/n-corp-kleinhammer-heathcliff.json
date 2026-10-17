@@ -1,0 +1,108 @@
+{
+  "id": "n-corp-kleinhammer-heathcliff",
+  "name": "N Corp. Kleinhammer Heathcliff",
+  "name_zh": null,
+  "name_en": "N Corp. Kleinhammer Heathcliff",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "00",
+  "role": "Bleed Nails",
+  "sin_affinities": [
+    {
+      "sin": "Envy",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Gawky Nailing",
+      "type": "skill1",
+      "summary": "Skill 1 · Envy. Pierce. Skill Power 3. Coins 2. Coin Power 4. Offense Level 60. Atk Weight 1. 1 [Heads Hit] Inflict 1 Nails next turn [Tails Hit] Inflict 1 Bleed 2 [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Nails",
+      "sin": "Envy",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Puri...fy!",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Blunt. Skill Power 6. Coins 1. Coin Power 8. Offense Level 60. Atk Weight 1. [Clash Win] Heal 5 SP 1 [Heads Hit] Inflict 2 Plus Coin Drop next turn",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Infirm Retribution",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 60. Atk Weight 1. 1 [Heads Hit] Deal bonus damage by 10% damage dealt 2 [Heads Hit] Deal bonus damage by 10% damage dealt 3 [Heads Hit] Deal bonus damage by 10% damage dealt",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Guard",
+      "type": "defense",
+      "summary": "Defense Guard · Gloom. -. Skill Power 8. Coins 1. Coin Power 8. Offense Level 62. Atk Weight 1",
+      "sin": "Gloom",
+      "attack_type": "-"
+    },
+    {
+      "name": "Bugger...",
+      "type": "passive",
+      "summary": "x2 Envy [Owned]. When an ally is defeated, lose 10 SP and gain 1 Blunt Power Up next turn. If 4 or more surviving units in the team, including this unit, are from N Corp, Coin Power +1. Cantillation x4 Lust [Res] 1 ally with the highest Speed inflicts additional +1 Nails. Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/n-corp-kleinhammer-heathcliff",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585803.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "n-corp-kleinhammer-heathcliff",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/n-corp-kleinhammer-heathcliff_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:n-corp-kleinhammer-heathcliff",
+  "released": "23/March/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "232",
+    "speed": "3-7",
+    "defense": "61",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "N Corp Heathcliff is a very interesting ID for the wrong reasons. His clashes are average even when placed on an N Corp Team and the Plus Coin Drop he inflicts are quite useful but he has nothing much else to offer.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/n-corp-kleinhammer-heathcliff",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585803.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "00 / Heathcliff / Bleed Nails"
+  },
+  "verified": "Prydwen /limbus-company/identities/n-corp-kleinhammer-heathcliff，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

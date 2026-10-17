@@ -1,0 +1,118 @@
+{
+  "id": "lcd-osir-team-ishmael",
+  "name": "LCD OSIR Team Ishmael",
+  "name_zh": null,
+  "name_en": "LCD OSIR Team Ishmael",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "ishmael",
+    "name_en": "Ishmael",
+    "name_zh": "以实玛利",
+    "order": 8,
+    "source": "https://www.gamekee.com/limbus/585805.html"
+  },
+  "rarity": "000",
+  "role": "Bleed Haste Poise",
+  "sin_affinities": [
+    {
+      "sin": "Wrath",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Pride",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rending Arts",
+      "type": "skill1",
+      "summary": "Skill 1 · Wrath. Slash. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. [On Use] At 5+ Poise, Coin Power +1 [On Use] Clash Power +1 for every 5 Bleed on target (max 2) [On Use] At 3+ Haste, Clash Power +1 [On Use] Gain +2 Poise Count [Attack End] If this unit has Haste, gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire (once per turn) 1 [On Hit] Gain 2 Poise 2 [On Hit] Gain 2 Poise [On Hit] Inflict 1 Bleed [On Hit] If this unit has Dokkaebi Arms and 3+ Haste, Reuse this Coin (once per turn)",
+      "sin": "Wrath",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Acupuncture",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Slash. Skill Power 3. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] At 5+ Poise, Coin Power +1 [On Use] Clash Power +1 for every 5 Bleed on target (max 2) [On Use] At 3+ Haste, Clash Power +2 [On Use] Gain +3 Poise Count [Attack End] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (max 2, once per turn) 1 [On Hit] Gain 2 Poise [On Hit] Inflict 1 Bleed 2 [On Hit] Gain 2 Poise [On Hit] Inflict 1 Bleed 3 [On Hit] Gain +1 Bleed Count [On Hit] Inflict 1 Bleed [On Hit] If this unit has Dokkaebi Arms and 3+ Haste, Reuse this Coin (once per turn) [On Crit] Gain 2 Haste next turn (once per turn)",
+      "sin": "Gloom",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "To Claim Their Bones",
+      "type": "skill3",
+      "summary": "Skill 3 · Pride. Slash. Skill Power 5. Coins 2. Coin Power 4. Offense Level 63. Atk Weight 1. [Unclashable] This Skill does not trigger Defense Skills Deal +0.5% damage for every 1% missing HP on self (max 20%) Deal +3% damage on Critical Hit for every Haste on self (max 15%) [On Use] Deal +1% damage for every Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire on self (max 15%) [On Use] Deal +1.5% damage on Critical Hit for every Poise on self (max 30%) 1 [On Hit] Gain 3 Poise [On Hit] Inflict 1 Slash Fragility 2 [On Hit] Inflict 2 Bleed [On Hit] Inflict 1 Paralyze next turn",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Lucent Rippling Flame",
+      "type": "skill4",
+      "summary": "Skill 4 · Pride. Slash. Skill Power 5. Coins 3. Coin Power 4. Offense Level 64. Atk Weight -. Deal +1.5% damage on Critical Hit for every Poise on self (max 30%) [On Use] Final Power +1 for every 2 Haste on self (max 2) [On Use] Coin Power +1 for every 6 (Poise on self + Bleed on target) (max 2) [On Use] At 10+ Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire, convert all Coins into Unbreakable Coin [On Use] Gain 3 Poise [On Use] Gain 2 Haste next turn (once per turn) [Attack End] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire for every Haste on self (max 3, once per turn) 1 [On Hit] Gain +3 Poise Count [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire 2 [On Hit] Gain 2 Poise [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire 3 Deal +2% damage on Critical Hit for every Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire on self (max 20%) [On Hit] Inflict 1 Bleed [On Hit] Inflict 1 Slash Fragility (once per turn) [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire",
+      "sin": "Pride",
+      "attack_type": "Slash"
+    },
+    {
+      "name": "Even the Balance - Lucent Rippling Flame",
+      "type": "skill5",
+      "summary": "Skill 5 · . Skill Power 5. Coins 4. Coin Power 3. Offense Level 64. [Unclashable] This Skill does not trigger Defense Skills Deal +1.5% damage on Critical Hit for every Poise on self (max 30%) Deal +5% damage on Critical Hit for every Haste on self (max 25%) [On Use] Gain +3 Poise Count [Attack End] Consume all Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire on self 1 [On Hit] Gain 3 Poise Count [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire 2 [On Hit] Inflict 1 Bleed [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire 3 [On Hit] Inflict 1 Bleed [On Crit] Gain 1 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire 4 At more than 15 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire deal +5% damage on Critical Hit for every excess Stack (max 25%) [On Hit] Inflict 1 Bleed [On Crit] At 5+ Haste, Reuse this Coin (once per Skill)"
+    },
+    {
+      "name": "I'll Light the Path Forward",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 5. Coins 1. Coin Power 8. Offense Level 62. Atk Weight 1. Clashable Guard [Combat Start] Gain 1 Assist Defense (once per turn) [On Use] Gain 2 Haste next turn (once per turn) [On Use] Gain +2 Poise Count (once per turn) [Clash Win] Gain 3 Poise [Skill End] If this unit has Haste, gain 2 Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire (once per turn) 1 Unbreakable Coin"
+    },
+    {
+      "name": "Observing the Stones on the Board",
+      "type": "defense",
+      "summary": "Defense Guard · . Skill Power 4. Coins 1. Coin Power 9. Offense Level 62. Atk Weight 1. Clashable Guard [Assist Defense] Exclusive Skill [On Use] Heal 5 SP on target this unit guarded using Assist Defense [On Use] Gain 3 Poise 1 Unbreakable Coin"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/lcd-osir-team-ishmael",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585805.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lcd-osir-team-ishmael",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/lcd-osir-team-ishmael_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:lcd-osir-team-ishmael",
+  "released": "11/June/2026",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "263",
+    "speed": "4-6",
+    "defense": "63",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Blunt RES",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "With the release of the new Intervalo, the expansion of the blade lineage team has occurred with the addition of Ishmael and new Meursault E.G.O. With it, Mentor finally became less dependent on his blade lineage allies and became a perfect addition to his new teammate. Let’s look into her kit. Starting off with her 4 unique status: - Mook Workshop - Ye - Mainly used to activate S3-2. By itself, this effect provides up to 1 Dmg Up at 10 stacks, up to 3 Haste at 15 stacks, and makes you lose clash with clashable guards. This effect is needed for her second passive, which makes her use s2-2 one clashable guard’s clash lose while she has three Haste. - Bearing of a Salsu - Gives Offense Level based on stacks, 2 Poise Potency on hit. This status can go up to 3 stacks and loses one upon Blade Lineage ally death. Pretty ironic when she doesn’t even count as a Salsu. - Swordplay of the Homeland",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/lcd-osir-team-ishmael",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585805.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame SS；梯度表 Damage Dealer SS",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Ishmael / Bleed Haste Poise"
+  },
+  "verified": "Prydwen /limbus-company/identities/lcd-osir-team-ishmael，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

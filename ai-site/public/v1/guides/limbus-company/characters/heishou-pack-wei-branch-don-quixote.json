@@ -1,0 +1,113 @@
+{
+  "id": "heishou-pack-wei-branch-don-quixote",
+  "name": "Heishou Pack - Wei Branch Don Quixote",
+  "name_zh": null,
+  "name_en": "Heishou Pack - Wei Branch Don Quixote",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "don-quixote",
+    "name_en": "Don Quixote",
+    "name_zh": "堂吉诃德",
+    "order": 3,
+    "source": "https://www.gamekee.com/limbus/585794.html"
+  },
+  "rarity": "000",
+  "role": "Rupture Sinking",
+  "sin_affinities": [
+    {
+      "sin": "Lust",
+      "count": 3
+    },
+    {
+      "sin": "Gluttony",
+      "count": 2
+    },
+    {
+      "sin": "Gloom",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Breakthrough",
+      "type": "skill1",
+      "summary": "Skill 1 · Lust. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. If target has Shattermark, deal +25% damage Coin Power +1 for every 6 (Rupture + Sinking) on target (max 2) 1 [On Hit] Inflict +1 Rupture Count [On Hit] Inflict +1 Sinking Count 2 [On Hit] Inflict 1 Rupture [On Hit] Inflict 1 Sinking",
+      "sin": "Lust",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Seize the Momentum, Shatter the Wall",
+      "type": "skill2",
+      "summary": "Skill 2 · Gluttony. Blunt. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 (Rupture + Sinking) on target (max 2) [Combat Start] If this unit has Burgeoning of Horns [發角], convert the last Coin of this Skill into Unbreakable Coin; the last Coin deals +5% damage for every Burgeoning of Horns [發角] (max 15%) 1 [On Hit] Inflict +1 Rupture Count 2 [On Hit] Inflict +1 Sinking Count 3 [On Hit] Inflict 2 Rupture [On Hit] Inflict 2 Sinking [On Hit] Deal Slash damage equal to 10% of this Coin's final damage for evert Burgeoning of Horns [發角] Stack on this unit (max 30%)",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Crushing Horns [破碎角]",
+      "type": "skill3",
+      "summary": "Skill 3 · Gloom. Blunt. Skill Power 4. Coins 4. Coin Power 3. Offense Level 63. Atk Weight 1. Coin Power +1 every 6 (Rupture + Sinking) on target (max 2) [Combat Start] If this unit has Burgeoning of Horns [發角], convert all Coins of this Skill into Unbreakable Coin and deal +10% damage for every Burgeoning of Horns [發角] Stack on this unit (max 30%) [On Use] Gain 3 Burgeoning of Horns [發角] 1 [On Hit] Inflict +2 Rupture Count [On Hit] Inflict +2 Sinking Count 2 [On Hit] Inflict 2 Rupture [On Hit] Inflict 2 Sinking 3 - If target has any of the Panic changing effects, +10% damage for every Stack (max 30%) [On Hit] Deal (25% of this Coin's final damage) Slash damage - If target has Shattermark, strengthen this effect and deal (50% of this Coin's final damage) Slash damage instead [On Hit] Inflict Shattermark next turn - If target has any of the Panic changing effects, inflict +3 Sinking Count (once per turn)",
+      "sin": "Gloom",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "I shall crush all that standeth in our way",
+      "type": "defense",
+      "summary": "Defense Counter · Gluttony. Blunt. Skill Power 5. Coins 2. Coin Power 4. Offense Level 61. Atk Weight 1. [Clashable Counter] Final Power +1 for every X (Rupture + Sinking) on target [On Use] Gain 3 Burgeoning of Horns [發角] next turn 1 [On Hit] Inflict 1 Rupture 2 [On Hit] Inflict 1 Sinking",
+      "sin": "Gluttony",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Lament of the Lost Sheep [亡羊之嘆]",
+      "type": "passive",
+      "summary": "Upon activating Exalted Command with this unit, The Lord of Hongyuan Hong Lu gains the following effect via Heishou Bolus Contamination [黑獸丸染]:. - Inflict 1 Sinking upon inflicting Rupture Potency or Count by using a Skill (3 times per turn) On the turn this unit Substituted or Returned to the field, gain 3 Burgeoning of Horns [發角]"
+    },
+    {
+      "name": "Explosive Battering Ram",
+      "type": "passive",
+      "summary": "x3 Gluttony [Owned] x3 Gloom [Owned]. Deal (-Target's SP/3)% more damage against targets at less than 0 SP (max 15%, rounded down) Deal +1% damage for every 2 (Rupture + Sinking) on target (max 15%) - Double this effect and max value against targets without SP If this unit has Burgeoning of Horns [發角], the last coin of this unit's Base Skills deals +15% damage - When attacking Skill Slot equipped with a Defensive skill, the last Coin deals +30% damage instead - When Clashing with a Clashable Guard Skill, Clash Power +3 Flesh-Rending Horn Growth x3 Gluttony [Owned] x3 Gloom [Owned] Ally with the fastest Speed: On Hit with a Base Attack Skill against enemies with 2+ Rupture Count or Sinking Count, inflict 1 Defense Level Down (2 times per turn)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wei-branch-don-quixote",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585794.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "heishou-pack-wei-branch-don-quixote",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/heishou-pack-wei-branch-don-quixote_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:heishou-pack-wei-branch-don-quixote",
+  "released": "20/November/2025",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "251",
+    "speed": "4-7",
+    "defense": "63",
+    "resistances": {
+      "slash": "Ineff.",
+      "pierce": "Fatal",
+      "blunt": "Review"
+    },
+    "level": 60
+  },
+  "review": "Wei Branch Don Quixote is a Rupture/Sinking Hybrid ID who utilizes her unique debuff, Shattermark, to change the Panic Type of the opponent and/or make them weaker in accordance with whether or not they have SP to lose, making use of the Sinking on Don’s kit. Beginning with Heishou Don’s Passives, we will start with the one that’s always active. - When activating Exalted Command, Lord Hong Lu gets the following effect when his S3 targets Don: Inflict 1 Sinking upon inflicting Rupture Potency or Count by using a Skill up to 3 times per turn. - When Heishou Don is Substituted In or Returned to the Field after retreating, she’ll gain 3 of her unique status: “Burgeoning of Horns.” Next, we will go over Heishou Don’s standard Passive, which activates upon owning 3 Gluttony and 3 Gloom Sin Affinities: - Heishou Don will deal a percentage damage equal to the negative integer of the target’s SP",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/heishou-pack-wei-branch-don-quixote",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585794.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame S+；梯度表 Damage Dealer S+",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Don Quixote / Rupture Sinking"
+  },
+  "verified": "Prydwen /limbus-company/identities/heishou-pack-wei-branch-don-quixote，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "liu-assoc-south-section-4-director-rodion",
+  "name": "Liu Assoc. South Section 4 Director Rodion",
+  "name_zh": null,
+  "name_en": "Liu Assoc. South Section 4 Director Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Burn",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Wrath",
+      "count": 2
+    },
+    {
+      "sin": "Lust",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Flaming Fists",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 3. Coins 2. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 3 Burn on target (Max 2) 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Burn",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Fiery Knifehand-Combust",
+      "type": "skill2",
+      "summary": "Skill 2 · Wrath. Pierce. Skill Power 4. Coins 3. Coin Power 4. Offense Level 62. Atk Weight 1. Coin Power +1 for every 6 Burn on target (Max 2) 1 [On Hit] Inflict 1 Burn Count 2 [On Hit] Inflict 1 Burn Count 3 [Heads Hit] Inflict 1 Burn Count [On Hit] If target has 6+ Burn Count, apply 3 Burn to 2 targets with no Burn or with the least Burn Count",
+      "sin": "Wrath",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Pinpoint Blitz",
+      "type": "skill3",
+      "summary": "Skill 3 · Lust. Pierce. Skill Power 4. Coins 4. Coin Power 3. Offense Level 62. Atk Weight 1. If the target has 6+ Burn, Coin Power +1 If the target has 6+ Burn and Burn Count, deal +30% more Damage 1 [On Hit] Inflict 1 Burn 2 [On Hit] Inflict 1 Burn 3 [On Hit] Inflict 2 Burn 4 [On Hit] Inflict Wrath Affinity damage equal to Burn Potency on target. (Max 30) Reduce Target's Burn Count by 2",
+      "sin": "Lust",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Counter",
+      "type": "defense",
+      "summary": "Defense Counter · Wrath. Blunt. Skill Power 9. Coins 1. Coin Power 7. Offense Level 62. Atk Weight 1. 1 [On Hit] Inflict 1 Burn",
+      "sin": "Wrath",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Burning Passion",
+      "type": "passive",
+      "summary": "x3 Wrath [Res]. Deal +10% more damage for every 6 Burn Potency on target (Max 30%) Combat Start: If all enemies have 6+ Burn Potency, apply 1 Wrath DMG Up to (highest Wrath A-Reson.) allies in Deployment order - In Focused Encounters, the above activates when all enemy Parts have 6+ Burn Potency - If the ally is a Liu Association Fixer, apply 1 Attack Power Up Passionate Cheer x6 Wrath [Owned] 1 ally with the least SP deal +5% Pierce damage for every 6 Burn Potency on target On Hit (Max 15%)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-director-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "liu-assoc-south-section-4-director-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/liu-assoc-south-section-4-director-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:liu-assoc-south-section-4-director-rodion",
+  "released": "07/March/2024",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "243",
+    "speed": "3-7",
+    "defense": "60",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Similar to Liu Ishmael, Liu Rodion is a DPS ID who benefits from Burn stacking. She has very high rolling numbers on Skills, although this comes with a requirement of having Burn stacks, which is relatively easy to do in a Burn focused team. Furthermore, due to how Burn works, she can maintain these numbers easily, although she will need some time to ramp up Burn stacks initially. Outside of Burn teams, she is quite weak. Now let us take a look at her skills - Skill 1 - Flaming Fists - 2 Coin Skill, Base Roll – 11, Conditionals Met –15. - Skill 2 - Fiery Knifehand-Combust - 3 Coin Skill, Base Roll – 16, Conditionals Met – 22. - Skill 3 - Pinpoint Blitz - 4 Coin Skill, Base Roll – 16, Conditionals Met – 20. Deals 30% Additional Damage and up to 30 Wrath Damage on the last Coin. Her Passive grants her a 30% Damage gain which is very easy to activate in a Burn team. Furthermore, she grants",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/liu-assoc-south-section-4-director-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Burn"
+  },
+  "verified": "Prydwen /limbus-company/identities/liu-assoc-south-section-4-director-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}

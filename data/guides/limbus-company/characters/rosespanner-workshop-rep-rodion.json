@@ -1,0 +1,112 @@
+{
+  "id": "rosespanner-workshop-rep-rodion",
+  "name": "Rosespanner Workshop Rep. Rodion",
+  "name_zh": null,
+  "name_en": "Rosespanner Workshop Rep. Rodion",
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "rodion",
+    "name_en": "Rodion",
+    "name_zh": "罗佳",
+    "order": 9,
+    "source": "https://www.gamekee.com/limbus/585809.html"
+  },
+  "rarity": "000",
+  "role": "Charge Tremor",
+  "sin_affinities": [
+    {
+      "sin": "Pride",
+      "count": 3
+    },
+    {
+      "sin": "Gloom",
+      "count": 2
+    },
+    {
+      "sin": "Envy",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rev Up",
+      "type": "skill1",
+      "summary": "Skill 1 · Pride. Blunt. Skill Power 4. Coins 2. Coin Power 3. Offense Level 63. Atk Weight 1. [On Use] Gain +2 Charge Count 1 [Heads Hit] Inflict 1 Tremor [On Hit] Gain 4 Charge Count 2 [On Hit] Inflict 1 Tremor Count",
+      "sin": "Pride",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Vibration Compression",
+      "type": "skill2",
+      "summary": "Skill 2 · Gloom. Pierce. Skill Power 6. Coins 2. Coin Power 3. Offense Level 63. Atk Weight 1. If target has 10+ Tremor Count, Coin Power +1 1 [On Hit] Inflict 1 Tremor Count 2 [On Hit] Inflict 2 Tremor. At 3+ Charge Count, reuse this Coin if it lands Heads (up to 2 times). Inflict 2 more Tremor each time the coin is reused. If the Coin is reused twice, Burst Tremor after inflicting it. After bursting Tremor, reduce Tremor Count by 1.",
+      "sin": "Gloom",
+      "attack_type": "Pierce"
+    },
+    {
+      "name": "Let's Rack Up Some Scores",
+      "type": "skill3",
+      "summary": "Skill 3 · Envy. Blunt. Skill Power 5. Coins 3. Coin Power 4. Offense Level 63. Atk Weight 1. [On Use] Gain +6 Charge Count 1 [On Hit] Inflict 2 Tremor Count 2 [Heads Hit] Inflict 2 Tremor [On Hit] Burst Tremor. After bursting Tremor, reduce Tremor Count by 1. 3 [On Hit] Burst Tremor. After bursting Tremor, reduce Tremor Count by 1. [On Hit] If target is Staggered, deal 25% damage dealt as bonus damage.",
+      "sin": "Envy",
+      "attack_type": "Blunt"
+    },
+    {
+      "name": "Preheat",
+      "type": "defense",
+      "summary": "Defense Guard · Sloth. -. Skill Power 10. Coins 1. Coin Power 6. Offense Level 60. Atk Weight 1. [Combat Start] Gain +2 Charge Count",
+      "sin": "Sloth",
+      "attack_type": "-"
+    },
+    {
+      "name": "Here's to Getting Off Early~",
+      "type": "passive",
+      "summary": "x4 Pride [Owned]. When Bursting Tremor, spend 3 Charge Count to further increase the Stagger Threshold by 40%. After Bursting Tremor gains 1 Haste and 1 Blunt DMG Up next turn."
+    },
+    {
+      "name": "Resonant Spanner",
+      "type": "support",
+      "summary": "x4 Pride [Owned]. When 1 ally with the lowest Speed burst Tremor, increase the Stagger Threshold raise by 20%. Stats (At level 60)"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-rep-rodion",
+    "https://www.prydwen.gg/limbus-company/identities",
+    "https://www.gamekee.com/limbus/585809.html",
+    "https://www.prydwen.gg/limbus-company/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "rosespanner-workshop-rep-rodion",
+  "portrait": "https://cdn.prydwen.gg/images/limbus-company/characters/rosespanner-workshop-rep-rodion_mid.webp",
+  "portrait_source": "https://www.prydwen.gg/limbus-company/identities",
+  "portrait_via": "prydwen-list:rosespanner-workshop-rep-rodion",
+  "released": "01/June/2023",
+  "page_updated": "16/September/2026",
+  "combat": {
+    "max_hp": "224",
+    "speed": "3-6",
+    "resistances": {
+      "slash": "Fatal",
+      "pierce": "Blunt RES",
+      "blunt": "Ineff."
+    },
+    "level": 60
+  },
+  "review": "Rosespanner Rodion is a self-sufficent Charge Tremor ID that can work on just about any team. Her S2 is extremely good when conditions are met and her S3 has some really good damage potential if the enemy is already staggered. Her Tremor and Tremor Bursts doesn't matter too much if run on a team that isn't running Tremor, but that's something mostly irrelevant. Notable E.G.O. Synergy: Rime Shank - While not really a Sinking ID, Rosespanner Rodion fuels it decently and can substitute Dieci Rodion in sinking teams.",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/limbus-company/identities/rosespanner-workshop-rep-rodion",
+      "https://www.prydwen.gg/limbus-company/identities",
+      "https://www.gamekee.com/limbus/585809.html",
+      "https://www.prydwen.gg/limbus-company/tier-list"
+    ],
+    "tier": "Prydwen 角色页 Endgame B；梯度表 Status Specialist B",
+    "stub": false,
+    "caveat": "强度只转写 Prydwen 角色页 Endgame 字母和/或梯度表分栏，编辑向，不是官方档。不编造抽取结论。",
+    "position": "000 / Rodion / Charge Tremor"
+  },
+  "verified": "Prydwen /limbus-company/identities/rosespanner-workshop-rep-rodion，页内 Last updated 16/September/2026；名单 https://www.prydwen.gg/limbus-company/identities（Last updated 08/October/2026）"
+}
