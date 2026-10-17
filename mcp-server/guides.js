@@ -21,7 +21,6 @@ export const WATCHLIST_GAMES = [
   "asora",
   "miraesi",
   "lo2",
-  "limbus-company",
 ];
 
 export function guidesRoot(dataDir) {
@@ -201,7 +200,7 @@ function formatGuideCard(g, card, topic) {
       nicknames: card.nicknames || [],
     };
   }
-  const full = {
+  return {
     ...base,
     role: card.role || null,
     rarity: card.rarity || null,
@@ -214,11 +213,6 @@ function formatGuideCard(g, card, topic) {
     aliases: card.aliases || [],
     nicknames: card.nicknames || [],
   };
-  if (card.sinner && typeof card.sinner === "object") full.sinner = card.sinner;
-  if (Array.isArray(card.sin_affinities) && card.sin_affinities.length) {
-    full.sin_affinities = card.sin_affinities;
-  }
-  return full;
 }
 
 export function guide(dataDir, { game, q, id, topic } = {}) {
