@@ -1,0 +1,87 @@
+{
+  "id": "phoebe",
+  "name": "菲比",
+  "name_zh": "菲比",
+  "name_en": "Phoebe",
+  "aliases": [
+    "Phoebe"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "衍射",
+  "weapon": "音感仪",
+  "skills": [
+    {
+      "name": "光辉降落",
+      "summary": "普攻 释放圣辉，进行最多3段的连续攻击，造成衍射伤害。 重击 消耗耐力攻击目标，造成衍射伤害。 空中攻击 消耗耐力，乘着手杖向下俯冲，滑翔并进行攻击，造成衍射伤害。 空中重击 消耗耐力，乘着手杖往前滑翔一段距离。 空中闪避或使用钩索后可以重新施放。 闪避反击 成功闪避时，一定时间内短按普攻，将会攻击目标，造成衍射伤害。 ·菲比处于【镜之环】内时，替换为夏弥尔之星·闪避反击。",
+      "type": "basic"
+    },
+    {
+      "name": "追寻光芒之所",
+      "summary": "在目标位置召唤【镜之环】，并使命中的目标停滞 2 秒，造成衍射伤害。同一个【镜之环】最多可对 12 个目标施加停滞效果。施放后一定时间内短按共鸣技能，可传送至【镜之环】位置，造成衍射伤害。 距离【镜之环】过远时无法传送。 【镜之环】 【镜之环】持续 30 秒；菲比召唤新的【镜之环】时，会移除之前的【镜之环】。 菲比处于【镜之环】外时，普攻、闪避反击命中【镜之环】时会折射圣辉，对【镜之环】内目标造成衍射伤害，并将命中的目标牵引至【镜之环】中央，此次伤害为普攻伤害。每 0.5 秒可触发一次。 菲比处于【镜之环】内时，普攻替换为普攻夏弥尔之星，进行最多 3 段的连续攻击，造成衍射伤害，此次伤害为普攻伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "启明之誓愿",
+      "summary": "菲比将手中的光辉凝聚为启明之镜，用力敲碎，造成衍射伤害。 赦罪状态：伤害倍率提升 255% 。 告解状态：为命中的目标附加 8 层【光噪效应】。",
+      "type": "liberation"
+    },
+    {
+      "name": "交错星辉的祝祷",
+      "summary": "若菲比【祈愿】满时，可消耗所有【祈愿】，选择两个技能中的一个施放： 重击圣祷赦罪：长按普攻，造成衍射伤害，为命中的目标附加 1 层【光噪效应】，进入更擅长输出的赦罪状态。 共鸣技能显明告解：长按共鸣技能，造成衍射伤害，为命中的目标附加 1 层【光噪效应】，进入更擅长运用【光噪效应】的告解状态。 赦罪状态、告解状态不能同时存在，进入新状态时将取代旧状态。 未消耗完所有【福音】时，无法施放重击圣祷赦罪、共鸣技能显明告解。 消耗完所有【福音】时，不会退出赦罪或告解状态。 重击·星辉 若菲比拥有【福音】，施放普攻第 3 段或闪避反击时，下一次重击替换为重击星辉。 消耗 30 点【福音】，造成衍射伤害。 赦罪状态：施放时所消耗的【福音】减少 15 点，命中的目标拥有【光噪效应】时，伤害加深 256% 。 告解状态：为命中的目标附加 5 层【光噪效应】。 【祈愿】获取规则 【祈愿】上限 120 点。 随时间持续获得，每秒获得 5 点。 【福音】获取规则 【福音】上限 60 点。 施放重击圣祷赦罪、共鸣技能显明告解时，回复 60 点",
+      "type": "forte"
+    },
+    {
+      "name": "金色恩典",
+      "summary": "击退附近目标并造成衍射伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "倾听之心",
+      "summary": "对周围的目标造成总计菲比攻击 528.41% 的衍射伤害。 赦罪状态：伤害倍率提升 255% 。 告解状态：队伍中登场角色获得默祷效果：使一定范围内的目标衍射伤害抗性减少 10% ，【光噪效应】伤害加深 100% 。目标身上的【光噪效应】触发伤害后，【光噪效应】下一次造成伤害的周期延长 50% 。效果持续 30 秒，若菲比进入赦罪状态则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/648290.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/phoebe"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 648290,
+  "gamekee_entry_id": 175852,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/2/6/97064.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:175852",
+  "prydwen_slug": "phoebe",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/phoebe",
+      "https://www.gamekee.com/mc/648290.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 衍射 / 音感仪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/phoebe",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

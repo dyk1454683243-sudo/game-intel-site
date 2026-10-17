@@ -1,0 +1,88 @@
+{
+  "id": "chixia",
+  "name": "炽霞",
+  "name_zh": "炽霞",
+  "name_en": "Chixia",
+  "aliases": [
+    "Chixia"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "热熔",
+  "weapon": "佩枪",
+  "skills": [
+    {
+      "name": "砰砰",
+      "summary": "普攻 进行最多4段连续射击，造成热熔伤害。 重击 进入瞄准状态，可以进行更强力的射击。 蓄力完成后攻击目标，造成热熔伤害。 空中攻击 消耗耐力，在空中进行连续攻击，造成热熔伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成热熔伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "咻咻斗意",
+      "summary": "燃起斗志对目标进行高速连射，造成热熔伤害。 咻咻斗意初始拥有2次可使用次数。",
+      "type": "skill"
+    },
+    {
+      "name": "炽烈焰火",
+      "summary": "体内热流涌现，对附近目标进行快速射击，造成热熔伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "英魂炽火流",
+      "summary": "念共鸣技能·咔咔压制 长按共鸣技能咻咻斗意，进入咔咔压制状态，在该状态下： 持续消耗【热压弹】攻击目标，造成热熔伤害，此次伤害为共鸣技能伤害； 短按普攻，将会施放第 4 段普攻攻击目标，造成热熔伤害，此次伤害为普攻伤害，并退出咔咔压制； 若短按普攻时已消耗 30 发【热压弹】，将会施放共鸣技能轰轰，并退出咔咔压制； 当【热压弹】消耗完毕后，退出咔咔压制。 共鸣技能·轰轰 造成热熔伤害，此次伤害为共鸣技能伤害。 热压弹获取规则 【热压弹】容量上限 60 发。 固有技能灼热弹匣可将【热压弹】容量上限扩充 10 发。 常态攻击砰砰命中目标时，可积攒【热压弹】。 施放变奏技能堂堂登场时，可积攒【热压弹】。 施放共鸣技能咻咻斗意时，可积攒【热压弹】。",
+      "type": "forte"
+    },
+    {
+      "name": "堂堂登场",
+      "summary": "飒爽登场，对目标进行快速射击，造成热熔伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "跃焰",
+      "summary": "以技能目标为中心，释放冲击波，对范围内的目标造成炽霞 530.00% 攻击的热熔伤害。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622939.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/chixia"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622939,
+  "gamekee_entry_id": 150334,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/811556.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150334",
+  "prydwen_slug": "chixia",
+  "summary": {
+    "tier": "Prydwen DPS [S6]：Tower of Adversity T4 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/chixia",
+      "https://www.gamekee.com/mc/622939.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 热熔 / 佩枪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/chixia",
+    "rows": [
+      {
+        "role": "DPS [S6]",
+        "tower": "T4",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

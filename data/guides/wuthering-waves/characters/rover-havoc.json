@@ -1,0 +1,92 @@
+{
+  "id": "rover-havoc",
+  "name": "漂泊者·湮灭",
+  "name_zh": "漂泊者·湮灭",
+  "name_en": "Rover (Havoc)",
+  "aliases": [
+    "漂泊者-男-湮灭",
+    "漂泊者",
+    "漂泊者-女-湮灭",
+    "Rover (Havoc)"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "湮灭",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "裁羽弑音",
+      "summary": "普攻 进行最多 5 段的连续攻击，造成湮灭伤害。 重击 消耗耐力攻击目标，造成湮灭伤害。 施放重击后一定时间内短按普攻，将会施放第 4 段普攻。 空中攻击 消耗耐力进行空中下落攻击，造成湮灭伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "行刃",
+      "summary": "化音成羽造成湮灭伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "临渊死寂",
+      "summary": "聚拢回响于掌间，攻击前方的目标，造成湮灭伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "永夜开明",
+      "summary": "灭音 【暗流】充满时，长按普攻将会施放灭音攻击目标，造成湮灭伤害，此次伤害为重击伤害。 暗涌状态 施放灭音后，进入暗涌状态，在该状态下: 普攻替换为强化普攻，可进行最多 5 段的连续攻击，造成湮灭伤害: 重击替换为强化重击; 施放强化重击后短按普攻，将会施放重击鸣刃攻击目标，造成湮灭伤害，此次伤害为重击伤害; 施放重击鸣刃后短按普攻，将会施放第 3 段强化普攻攻击目标，造成湮灭伤害; 共鸣技能行刃替换为共鸣技能破命，化音为刃攻击目标，造成湮灭伤害。 暗流获取规则 【暗流】上限 100 点。 常态攻击裁羽弑音命中目标时，可积攒【暗流】。 施放共鸣技能行刃时，可积攒【暗流】。 施放共鸣技能破命时，可积攒【暗流】。 施放变奏技能化刹时，可积攒【暗流】。",
+      "type": "forte"
+    },
+    {
+      "name": "化刹",
+      "summary": "攻击目标，造成湮灭伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "唤声",
+      "summary": "召唤湮灭场攻击目标，每2秒对湮灭场范围内的目标造成143.3%攻击的湮灭伤害，持续6秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Res. Skill",
+    "Basic Attack",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/624135.html",
+    "https://www.gamekee.com/mc/624136.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 624135,
+  "gamekee_entry_id": 151310,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/5/5/313084.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:151310",
+  "prydwen_slug": "rover-havoc",
+  "summary": {
+    "tier": "Prydwen DPS [S6]：Tower of Adversity T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc",
+      "https://www.gamekee.com/mc/624135.html",
+      "https://www.gamekee.com/mc/624136.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 湮灭 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc",
+    "rows": [
+      {
+        "role": "DPS [S6]",
+        "tower": "T4"
+      }
+    ]
+  }
+}

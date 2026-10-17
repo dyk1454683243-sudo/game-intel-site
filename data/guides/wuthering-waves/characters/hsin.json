@@ -1,0 +1,82 @@
+{
+  "id": "hsin",
+  "name": "心",
+  "name_zh": "心",
+  "name_en": "Hsin",
+  "aliases": [
+    "Hsin"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Electro",
+  "weapon": "Rectifier",
+  "skills": [
+    {
+      "name": "Manifold Bloom",
+      "type": "basic",
+      "summary": "Basic Attack - Answering Form - While in Answering Form, perform up to 4 consecutive attacks, dealing Electro DMG. Heavy Attack - Answering Form - While in Answering Form, consume STA to deal Electro DMG. - After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2. Mid-air Attack - Answering Form - While in Answering Form and in mid-air, press Normal Attack to cast the skill at the cost of STA, dealing Electro DMG. - Afte…"
+    },
+    {
+      "name": "Heartward by Moon",
+      "type": "skill",
+      "summary": "Resonance Skill - Answering Form - While in Answering Form, press Resonance Skill to deal Electro DMG. - After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 4. Can be cast in mid-air. - If Hsin moves while on the ground within a short time after casting this skill, She turns into the Moon Fox. - While turned into the Moon Fox and out of combat, Hsin gains Dustless Tread. With Dustless Tread, Hsin can enter the target'…"
+    },
+    {
+      "name": "Nexus Alight",
+      "type": "liberation",
+      "summary": "Formshift - Casting Heavy Attack - Answering Form: Realm Wanderer unlocks Formshift. - Cast Formshift to unfurl the Manifold Sanctum. Hsin turns into Illumining Form, unlocking a new set of combat abilities, and enters the Heart Manifest state. - Can be cast in mid-air close to the ground. - While in Illumining Form, engaging in quest dialogue, performing a environmental interaction with an animation, or using a Utility switches Hsin back to Answering Form to perform the cor…"
+    },
+    {
+      "name": "Forms Turn, Heart Abides",
+      "type": "forte",
+      "summary": "Forms Born of Heart - While in Answering Form, Hsin can gain and consume Answering Heart. - While in Illumining Form, Hsin can gain and consume Illumining Heart. Heavy Attack - Answering Form: Realm Wanderer - While in Answering Form, when Hsin's Answering Heart reaches 100 points, Heavy Attack - Answering Form is replaced with Heavy Attack - Answering Form: Realm Wanderer. - Hold Normal Attack to cast the skill at the cost of STA and 100 points of Answering Heart. Hsin is i…"
+    },
+    {
+      "name": "Tune Break: Rectifier",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target. Tides of Succession While in Resonance Mode - Unison, when Hsin casts Intro Skill - Answering Form: Manifold Unison or Intro Skill - Illumining Form: Manifold Unison, Her ATK is increased by 50% for 8s. Switching to another Resonator or Resonance Mode ends this effect. While in Resonance Mode - Electro Flare, after Resonators in the team inflict Electro Flare, Hsin gains 25% Electro DM…"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/hsin",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5481",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5497"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/hsin",
+  "portrait_via": "prydwen-character:hsin",
+  "prydwen_slug": "hsin",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/hsin",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5481",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5497"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Electro / Rectifier"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/hsin",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T0.5"
+      }
+    ]
+  }
+}

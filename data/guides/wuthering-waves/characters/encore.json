@@ -1,0 +1,88 @@
+{
+  "id": "encore",
+  "name": "安可",
+  "name_zh": "安可",
+  "name_en": "Encore",
+  "aliases": [
+    "Encore"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "热熔",
+  "weapon": "音感仪",
+  "skills": [
+    {
+      "name": "羊咩出击",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成热熔伤害。 普攻·咩咩 在普攻第 4 段攻击后一定时间内短按普攻，将会攻击目标，造成热熔伤害。 重击 消耗耐力攻击目标，造成热熔伤害。 空中攻击 消耗耐力进行空中下落攻击，造成热熔伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成热熔伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "热力羊咩",
+      "summary": "热力羊咩 召唤白咩与黑咩，以高温射线攻击目标，造成热熔伤害。 热情欢迎式 在施放热力羊咩后一定时间内，短按共鸣技能，将会施放热情欢迎式攻击目标，造成热熔伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "黑咩大暴走",
+      "summary": "黑咩大暴走 安可无力压制黑咩，暴走黑咩出现并开始攻击目标。 普攻·黑咩·胡闹 黑咩大暴走期间，普攻替换为黑咩·胡闹，进行最多 4 段的连续攻击，造成热熔伤害，此次伤害为普攻伤害。 黑咩·重击 黑咩大暴走期间，重击替换为黑咩·重击，消耗耐力攻击目标，造成热熔伤害，此次伤害为重击伤害。 共鸣技能·黑咩·狂热 黑咩大暴走期间，热力羊咩转换为黑咩·狂热，以失控的火焰攻击目标，造成热熔伤害，此次伤害为共鸣技能伤害。 黑咩·闪避反击 黑咩大暴走期间，成功闪避后一定时间内短按普攻，将会攻击目标，造成热熔伤害，此次伤害为普攻伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "黑白羊咩",
+      "summary": "共鸣解放·白咩·失控之炎 施放重击时，若安可攒满【失序值】，安可会消耗所有的【失序值】进入失序状态，处于失序状态时安可受到伤害降低 70% ，切换角色不会中断失序状态。 失序状态结束后，施放失控之炎，造成热熔伤害，此次伤害为共鸣解放伤害。 共鸣解放·黑咩·暴走之炎 黑咩大暴走期间，施放重击时，若安可攒满【失序值】，安可会消耗所有的【失序值】进入黑咩失序状态，处于黑咩失序状态时安可受到伤害降低 70% ，切换角色不会中断黑咩失序状态。 黑咩失序状态结束后，施放暴走之炎，造成热熔伤害，此次伤害为共鸣解放伤害。 失序值获取规则 【失序值】上限 100 点。 常态攻击羊咩出击命中目标时，回复【失序值】。 共鸣技能热力羊咩命中目标时，回复【失序值】。 共鸣技能热情欢迎式命中目标时，回复【失序值】。 变奏技能咩咩帮手命中目标时，回复【失序值】。 共鸣解放黑咩大暴走持续期间命中目标时，回复【失序值】。",
+      "type": "forte"
+    },
+    {
+      "name": "咩咩帮手",
+      "summary": "咩咩帮手 与黑咩一起从天而降，攻击目标，造成热熔伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "热场",
+      "summary": "热场 以技能目标为中心，生成半径 3 米的地炎。地炎将持续灼烧范围内的目标，每 1.5 秒后造成安可 176.76% 攻击的热熔伤害，持续 6 秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Res. Skill",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622950.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/encore"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622950,
+  "gamekee_entry_id": 150328,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/606097.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150328",
+  "prydwen_slug": "encore",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T3 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/encore",
+      "https://www.gamekee.com/mc/622950.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 热熔 / 音感仪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/encore",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "game": "wuthering-waves",
+  "as_of": "2026-10-17",
+  "timezone": null,
+  "timezone_note": "卡池公告写「伺服器時間」，没有写 UTC 偏移。同版本维护公告（5474）的维护钟点是 UTC+8，不套到卡池时刻上。3.7下半复刻名单以二手站互相矛盾，未收录洛瑟菈/琳奈等待定名单。",
+  "sources": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5474",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5432"
+  ],
+  "banners": [
+    {
+      "id": "ww-37-xin",
+      "name": "但願長圓如此夜",
+      "kind": "resonator",
+      "status": "current",
+      "up": [
+        "心",
+        "卜靈",
+        "桃祈",
+        "釉瑚"
+      ],
+      "up_characters": [
+        {
+          "id": "hsin",
+          "name": "心"
+        },
+        {
+          "id": "buling",
+          "name": "卜靈"
+        },
+        {
+          "id": "taoqi",
+          "name": "桃祈"
+        },
+        {
+          "id": "youhu",
+          "name": "釉瑚"
+        }
+      ],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17",
+      "note": "5星UP为心。开始钟点公告写「3.7版本更新後」。维护公告 5474 写维护窗口 2026-09-30 04:00–11:00（UTC+8），这里不把 UTC+8 写进卡池时刻。"
+    },
+    {
+      "id": "ww-37-chisa",
+      "name": "曙暮一線之間",
+      "kind": "resonator",
+      "status": "current",
+      "up": [
+        "千咲",
+        "卜靈",
+        "桃祈",
+        "釉瑚"
+      ],
+      "up_characters": [
+        {
+          "id": "chisa",
+          "name": "千咲"
+        },
+        {
+          "id": "buling",
+          "name": "卜靈"
+        },
+        {
+          "id": "taoqi",
+          "name": "桃祈"
+        },
+        {
+          "id": "youhu",
+          "name": "釉瑚"
+        }
+      ],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17",
+      "note": "同一则第一期公告写明5星UP为千咲。"
+    },
+    {
+      "id": "ww-37-iuno",
+      "name": "漫於盈缺時軸",
+      "kind": "resonator",
+      "status": "current",
+      "up": [
+        "尤諾",
+        "卜靈",
+        "桃祈",
+        "釉瑚"
+      ],
+      "up_characters": [
+        {
+          "id": "iuno",
+          "name": "尤諾"
+        },
+        {
+          "id": "buling",
+          "name": "卜靈"
+        },
+        {
+          "id": "taoqi",
+          "name": "桃祈"
+        },
+        {
+          "id": "youhu",
+          "name": "釉瑚"
+        }
+      ],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17",
+      "note": "同一则第一期公告写明5星UP为尤諾。"
+    },
+    {
+      "id": "ww-37-weapon-yunque",
+      "name": "玉闕玄華",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "玉闕玄華"
+      ],
+      "up_characters": [],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "ww-37-weapon-tanqie",
+      "name": "曇切",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "曇切"
+      ],
+      "up_characters": [],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "ww-37-weapon-wanwu",
+      "name": "萬物持存的註釋",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "萬物持存的註釋"
+      ],
+      "up_characters": [],
+      "start": "2026-09-30",
+      "start_text": "3.7版本更新後",
+      "end": "2026-10-22T09:59:00",
+      "end_text": "2026年10月22日09:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "ww-37-suoming",
+      "name": "余心所向九死未悔",
+      "kind": "resonator",
+      "status": "upcoming",
+      "up": [
+        "鎖暝"
+      ],
+      "up_characters": [
+        {
+          "id": "suoming",
+          "name": "鎖暝"
+        }
+      ],
+      "start": null,
+      "end": null,
+      "timezone": null,
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
+      "as_of": "2026-10-17",
+      "note": "3.7版本內容說明写鎖暝可通过该角色活动唤取获得，正文没有写这期唤取的起止钟点。不采用二手站的3.7下半复刻名单。"
+    },
+    {
+      "id": "ww-37-weapon-chenming",
+      "name": "沉冥",
+      "kind": "weapon",
+      "status": "upcoming",
+      "up": [
+        "沉冥"
+      ],
+      "up_characters": [],
+      "start": null,
+      "end": null,
+      "timezone": null,
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
+      "as_of": "2026-10-17",
+      "note": "3.7版本內容說明写可通过「沉冥」武器活动唤取获得，正文没有写这期唤取的起止钟点。"
+    },
+    {
+      "id": "ww-36-hiyuki",
+      "name": "雪色所映千般未來",
+      "kind": "resonator",
+      "status": "ended",
+      "up": [
+        "緋雪",
+        "莫特斐",
+        "秋水",
+        "淵武"
+      ],
+      "up_characters": [
+        {
+          "id": "hiyuki",
+          "name": "緋雪"
+        },
+        {
+          "id": "mortefi",
+          "name": "莫特斐"
+        },
+        {
+          "id": "aalto",
+          "name": "秋水"
+        },
+        {
+          "id": "yuanwu",
+          "name": "淵武"
+        }
+      ],
+      "start": "2026-09-10T10:00:00",
+      "start_text": "2026年9月10日10:00（伺服器時間）",
+      "end": "2026-09-29T11:59:00",
+      "end_text": "2026年9月29日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5432",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "ww-36-mornye",
+      "name": "縱使星光於無窮遠",
+      "kind": "resonator",
+      "status": "ended",
+      "up": [
+        "莫寧",
+        "莫特斐",
+        "秋水",
+        "淵武"
+      ],
+      "up_characters": [
+        {
+          "id": "mornye",
+          "name": "莫寧"
+        },
+        {
+          "id": "mortefi",
+          "name": "莫特斐"
+        },
+        {
+          "id": "aalto",
+          "name": "秋水"
+        },
+        {
+          "id": "yuanwu",
+          "name": "淵武"
+        }
+      ],
+      "start": "2026-09-10T10:00:00",
+      "start_text": "2026年9月10日10:00（伺服器時間）",
+      "end": "2026-09-29T11:59:00",
+      "end_text": "2026年9月29日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5432",
+      "as_of": "2026-10-17"
+    },
+    {
+      "id": "ww-36-shenfu",
+      "name": "身赴三途",
+      "kind": "resonator",
+      "status": "ended",
+      "up": [],
+      "up_characters": [],
+      "start": "2026-09-10T10:00:00",
+      "start_text": "2026年9月10日10:00（伺服器時間）",
+      "end": "2026-09-29T11:59:00",
+      "end_text": "2026年9月29日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5432",
+      "as_of": "2026-10-17",
+      "note": "标题把「身赴三途」和另外两期角色唤取放在同一时段。正文没有写出这期的5星UP名字，所以 up 留空。"
+    }
+  ]
+}

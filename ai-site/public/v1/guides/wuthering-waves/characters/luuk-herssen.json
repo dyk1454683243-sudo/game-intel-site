@@ -1,0 +1,98 @@
+{
+  "id": "luuk-herssen",
+  "name": "陆·赫斯",
+  "name_zh": "陆·赫斯",
+  "name_en": "Luuk Herssen",
+  "aliases": [
+    "Luuk Herssen"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Spectro",
+  "weapon": "Gauntlets",
+  "skills": [
+    {
+      "name": "Such is Light",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 4 consecutive attacks, dealing Spectro DMG. - Hurl out a whirling blade on Stage 3, which disappears when Luuk Herssen casts other skills that can deal damage or leaves the field. Heavy Attack - Consume STA to jump into the air, dealing Spectro DMG. Mid-air Attack - Perform up to 4 consecutive attacks in mid-air, dealing Spectro DMG. Stage 4 is a Plunging Attack at the cost of STA. - Press Normal Attack or Jump to perform Basic Attack Stage 2 and…"
+    },
+    {
+      "name": "Reunion of All the Fallen",
+      "type": "skill",
+      "summary": "Golden Reflux - Flash toward the target and deal Spectro DMG. Inflict Tune Strain - Shifting on the target hit for 25s. - Golden Reflux has 2 charges. - Can be cast in mid-air. Aureole of Execution - Casting Basic Attack Stage 4 or Mid-air Attack Stage 3 replaces Resonance Skill with Aureole of Execution, which deals Basic Attack DMG and inflicts Tune Strain - Shifting on the target hit for 25s. - Aureole of Execution has 3 forms, including Aureole of Execution: Ring, Aureol…"
+    },
+    {
+      "name": "Rewritten in Winter's Margins",
+      "type": "liberation",
+      "summary": "Deal Spectro DMG, considered Basic Attack DMG. Can be cast in mid-air."
+    },
+    {
+      "name": "Spark from the Frost",
+      "type": "forte",
+      "summary": "Mid-air Attack - Gavel of Earthshaker - When the Solid-State Ichor of Resonance Skill Aureole of Execution: Glare is hurled out, press Normal Attack in mid-air to cast Mid-air Attack - Gavel of Earthshaker. - Slam down from the air to detonate the Ichor Deposit, dealing Spectro DMG (considered Basic Attack DMG) and recovering all STA. - Mid-air Attack - Gavel of Earthshaker is no longer available when Resonance Liberation Rewritten in Winter's Margins is cast or Luuk Herssen…"
+    },
+    {
+      "name": "Silent Debate of Light",
+      "type": "forte",
+      "summary": "Luuk Herssen can inflict Tune Strain - Shifting on targets. Luuk Herssen can respond to Tune Strain - Interfered. When responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Luuk Herssen's Tune Break Boost increases his total DMG against the target by 0.12%. While Luuk Herssen is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by 1. When the target's Off-Tune Level is full, Luuk He…"
+    },
+    {
+      "name": "Pulses Under the Snow",
+      "type": "inherent",
+      "summary": "When Resonators in the team directly damage and defeat targets, if the targets are affected by Tune Strain - Interfered: - If Luuk Herssen has no Perpetuating Daytime, gain stacks of Perpetuating Daytime equal to the stacks of Tune Strain - Interfered. - If Luuk Herssen already has Perpetuating Daytime, and the target's stacks of Tune Strain - Interfered exceed the current stacks of Perpetuating Daytime, increase Perpetuating Daytime's stacks to match the target's Tune Strai…"
+    },
+    {
+      "name": "Uncaused Diagnosis",
+      "type": "inherent",
+      "summary": "When Luuk Herssen's skills directly damage targets affected by Tune Strain - Interfered, every 10 points of Tune Break Boost he has Amplifies this instance of damage by 5%, up to 30%. After any nearby Resonator in the team inflicts Tune Strain - Shifting on the enemies or deals Tune Break DMG, Luuk Herssen's ATK increases by 25% for 20s."
+    },
+    {
+      "name": "Bow to the Last Light",
+      "type": "outro",
+      "summary": "Deal Spectro DMG equal to 500% of Luuk Herssen's ATK."
+    }
+  ],
+  "skill_prio": [
+    "Res. Skill",
+    "Res. Liberation",
+    "Basic Attack",
+    "Forte Circuit",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4277",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4302"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/luuk-herssen_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+  "portrait_via": "prydwen-character:luuk-herssen",
+  "prydwen_slug": "luuk-herssen",
+  "summary": {
+    "tier": "Prydwen DPS [S0] Value：Tower of Adversity T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4277",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4302"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / Spectro / Gauntlets"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+    "rows": [
+      {
+        "role": "DPS [S0] Value",
+        "tower": "T0.5",
+        "value": true
+      }
+    ]
+  }
+}

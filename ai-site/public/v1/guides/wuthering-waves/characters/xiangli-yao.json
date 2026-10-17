@@ -1,0 +1,97 @@
+{
+  "id": "xiangli-yao",
+  "name": "相里要",
+  "name_zh": "相里要",
+  "name_en": "Xiangliyao",
+  "aliases": [
+    "Xiangliyao"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "导电",
+  "weapon": "臂铠",
+  "skills": [
+    {
+      "name": "常态攻击: 问难",
+      "summary": "普攻 进行最多 5 段连续攻击，造成导电伤害。 重击 消耗耐力攻击目标，造成导电伤害。 空中攻击 消耗耐力进行空中下落攻击，造成导电伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成导电伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "共鸣技能: 基本推衍",
+      "summary": "攻击目标，造成导电伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "共鸣解放: 思维矩阵",
+      "summary": "攻击目标，造成导电伤害，并进入洞见状态。 在洞见状态下： ·获得 3 个幻方，施放共鸣技能万方法则时消耗 1 个幻方，消耗完所有幻方时结束洞见状态； ·普攻和重击替换为普攻枢机·勘破，进行最多 3 段连续攻击，造成导电伤害； ·共鸣技能基本推衍替换为共鸣技能一相万殊，造成导电伤害； ·闪避反击替换为闪避反击·知无定形，此次伤害为共鸣解放伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "共鸣回路: 察类明故",
+      "summary": "共鸣技能·应刃 当【演算效能】达到 100 点时，共鸣技能基本推衍替换为应刃； 施放共鸣技能应刃时，消耗 100 点【演算效能】，攻击目标，造成导电伤害，此次伤害为共鸣解放伤害。 共鸣技能·万方法则 共鸣解放洞见状态期间，当【超算效能】达到 5 点时，共鸣技能一相万殊替换为万方法则； 施放共鸣技能万方法则时，消耗 5 点【超算效能】，攻击目标，造成导电伤害，此次伤害为共鸣解放伤害。 空中攻击·解裂重构 施放共鸣技能万方法则或共鸣技能一相万殊后一定时间内短按普攻，将消耗耐力施放空中攻击解裂重构，造成导电伤害，此次伤害为共鸣解放伤害。 【演算效能】获取规则 上限 100 点。 常态攻击问难命中目标时，回复【演算效能】。 共鸣技能基本推衍命中目标时，回复【演算效能】。 超算效能获取规则 上限 5 点。 共鸣解放洞见期间： 普攻枢机·勘破第 1 段命中目标时，回复 1 点【超算效能】。 普攻枢机·勘破第 2 、 3 段命中目标时，回复 2 点【超算效能】。 施放共鸣技能一相万殊时，回复 2 点【超算效能】。 空中攻击解裂重构命中目标时，回复 3 点【超…",
+      "type": "forte"
+    },
+    {
+      "name": "固有技能: 睿知",
+      "summary": "施放共鸣技能时，导电伤害加成提升 5% ，持续 8 秒，可叠加 4 层。",
+      "type": "inherent"
+    },
+    {
+      "name": "固有技能: 潜心",
+      "summary": "共鸣解放洞见期间抗打断能力提升。",
+      "type": "inherent"
+    },
+    {
+      "name": "变奏技能: 正理",
+      "summary": "攻击目标，造成导电伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "延奏技能: 链式",
+      "summary": "下一位登场角色普攻命中目标时，相里要将攻击目标，造成相里要 237.63% 攻击的导电伤害，持续 8 秒，每 2 秒可触发 1 次，最多可触发 3 次。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Res. Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/627625.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 627625,
+  "gamekee_entry_id": 154781,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_194/50074/479972/2025/0/2/386734.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:154781",
+  "prydwen_slug": "xiangli-yao",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T3 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao",
+      "https://www.gamekee.com/mc/627625.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 导电 / 臂铠"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

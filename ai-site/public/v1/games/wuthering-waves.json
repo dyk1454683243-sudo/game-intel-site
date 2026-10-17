@@ -15,12 +15,25 @@
     {
       "label": "Steam",
       "url": "https://store.steampowered.com/app/3513350/"
+    },
+    {
+      "label": "Official news",
+      "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/mc/"
+    },
+    {
+      "label": "Prydwen",
+      "url": "https://www.prydwen.gg/wuthering-waves/characters"
     }
   ],
   "steam_appid": 3513350,
-  "stub": true,
-  "watchlist": false,
-  "note": "Catalog stub — Steam store link only; no invented scores",
-  "as_of": "2026-09-27",
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/wuthering-waves/",
+  "note": "Watchlist + resonator guides. Skills from GameKee mc atlas or Prydwen. Banners from Kuro notices only.",
+  "as_of": "2026-10-17",
   "timezone": "Asia/Shanghai"
 }

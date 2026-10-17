@@ -1,0 +1,86 @@
+{
+  "id": "taoqi",
+  "name": "桃祈",
+  "name_zh": "桃祈",
+  "name_en": "Taoqi",
+  "aliases": [
+    "Taoqi"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "湮灭",
+  "weapon": "长刃",
+  "skills": [
+    {
+      "name": "重器藏锋",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成湮灭伤害。 重击 消耗耐力，造成湮灭伤害。 若长按普攻，则进入磐岩守势状态。 磐岩守势 桃祈受到的伤害降低 35% ； 若磐岩守势期间桃祈受到攻击，将会自动施放后发制人； 磐岩守势持续 3 秒后，将会自动施放后发制人； 在施放共鸣技能磐岩护壁时若受到攻击，将会自动施放后发制人。 后发制人 攻击目标，造成湮灭伤害。 空中攻击 消耗耐力进行空中下落攻击，造成湮灭伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "固若金汤",
+      "summary": "固若金汤 对周围的目标造成湮灭伤害，回复桃祈生命值，同时生成 3 个【磐岩护壁】。 若在施放固若金汤期间受到攻击，将会自动施放普攻后发制人。 磐岩护壁 当队伍中登场角色受到攻击时，消耗 1 个【磐岩护壁】，降低此次受到的伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "不动如山",
+      "summary": "不动如山 对目标发动一次基于桃祈防御力的攻击，造成湮灭伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "攻防转换",
+      "summary": "御反之隙 拥有【刚柔化势】时，施放重击后发制人或变奏技能携攻守阵后一定时间内，短按普攻，可施放御反之隙。 进行最多 3 段的连续攻击，造成湮灭伤害，此次伤害为普攻伤害。 御反之隙命中目标时消耗 1 点【刚柔化势】，同时获得护盾。 在施放变奏技能携攻守阵后使用普攻，可直接施放御反之隙。 刚柔化势获取规则 【刚柔化势】上限 3 点。 第 4 段普攻会消耗桃祈所有的【磐岩护壁】，并获得同等数量的【刚柔化势】。 磐岩护壁持续期间，队伍中登场角色受到攻击时，消耗 1 个【磐岩护壁】，回复【刚柔化势】。 磐岩护壁结束后，会消耗剩余的【磐岩护壁】，并获得等同数量的【刚柔化势】。",
+      "type": "forte"
+    },
+    {
+      "name": "携攻守阵",
+      "summary": "携攻守阵 攻击目标，造成湮灭伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "千钧",
+      "summary": "千钧 下一位登场角色（或附近队伍中激活延奏技能的角色）共鸣技能伤害加深 38% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Skill",
+    "Res. Liberation",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/623015.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/taoqi"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 623015,
+  "gamekee_entry_id": 150383,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/300293.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150383",
+  "prydwen_slug": "taoqi",
+  "summary": {
+    "tier": "Prydwen Hybrid [S6]：Tower of Adversity T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/taoqi",
+      "https://www.gamekee.com/mc/623015.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 湮灭 / 长刃"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/taoqi",
+    "rows": [
+      {
+        "role": "Hybrid [S6]",
+        "tower": "T4"
+      }
+    ]
+  }
+}

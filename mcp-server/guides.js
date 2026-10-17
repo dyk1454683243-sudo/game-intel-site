@@ -21,6 +21,7 @@ export const WATCHLIST_GAMES = [
   "asora",
   "miraesi",
   "lo2",
+  "wuthering-waves",
 ];
 
 export function guidesRoot(dataDir) {

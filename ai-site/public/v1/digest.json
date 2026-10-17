@@ -3,10 +3,10 @@
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。 2026-10-17：wuthering-waves 追加 3 条库洛官方公告，不重抓其他游戏。"
   },
   "ok": true,
-  "count": 7,
+  "count": 8,
   "digests": [
     {
       "game": "hw",
@@ -264,6 +264,39 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
+        }
+      ]
+    },
+    {
+      "game": "wuthering-waves",
+      "name": "鸣潮",
+      "alias": "mc",
+      "ok": true,
+      "count": 3,
+      "sources": [
+        "official"
+      ],
+      "items": [
+        {
+          "title": "共鳴者展示 | 鎖暝",
+          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
+          "date": "2026-10-17",
+          "source": "official",
+          "summary": "官方繁中公告标题为「共鳴者展示 | 鎖暝」，startTime 2026-10-17 11:00。正文是图片，不补图里没有写出的句子。"
+        },
+        {
+          "title": "【3.7版本】[角色/武器活動喚取・第一期]",
+          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+          "date": "2026-09-29",
+          "source": "official",
+          "summary": "公告写「但願長圓如此夜」「曙暮一線之間」「漫於盈缺時軸」角色喚取，以及「玉闕玄華」「曇切」「萬物持存的註釋」武器喚取。時段為 3.7版本更新後至 2026年10月22日09:59（伺服器時間）。5星UP分別為心、千咲、尤諾。"
+        },
+        {
+          "title": "「鏡鎖妄世，心照紅塵」3.7版本內容說明",
+          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
+          "date": "2026-09-30",
+          "source": "official",
+          "summary": "內容說明列出5星共鳴者「心」（導電 | 音感儀）和「鎖暝」（導電 | 迅刀）。鎖暝可透過「余心所向九死未悔」獲得。這一段沒有寫該喚取的起止鐘點。"
         }
       ]
     }

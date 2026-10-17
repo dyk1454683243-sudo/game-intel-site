@@ -1,0 +1,77 @@
+{
+  "id": "chisa",
+  "name": "千咲",
+  "name_zh": "千咲",
+  "name_en": "Chisa",
+  "aliases": [
+    "Chisa"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Havoc",
+  "weapon": "Broadblade",
+  "skills": [
+    {
+      "name": "Reign of Silence",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 2 consecutive attacks, dealing Havoc DMG. - Press Normal Attack shortly after casting Basic Attack Stage 2 to cast Rending Lunge. Rending Lunge - Deal Havoc DMG. - Press Normal Attack shortly after casting this skill on the ground to cast Death Snip. - Use Normal Attack shortly after casting this skill in mid-air to cast Hanging Finality. Death Snip - Open the scissors, dealing Havoc DMG. After a while, the scissors snip, dealing Havoc DMG and re…"
+    },
+    {
+      "name": "Fractured Composition",
+      "type": "skill",
+      "summary": "Eye of Unraveling - Stagnate and deal Havoc DMG. - While not in Chainsaw Mode, after casting this skill, press Normal Attack on the ground or use Normal Attack in mid-air to cast Rending Lunge. This effect is removed when Chisa enters Chainsaw Mode. - While in Chainsaw Mode and on the ground, press Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2. - Can be cast in mid-air. Serrated Loop - While on the ground and Ring of Chainsaw is full, Resonan…"
+    },
+    {
+      "name": "Moment of Nihility",
+      "type": "liberation",
+      "summary": "Deal Havoc DMG and recover HP for all nearby Resonators in the team. Casting this skill sends Chisa into Woven Myriad - Convergence for 15s. While not in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2. Can be cast in mid-air close to the ground. Woven Myriad - Convergence - The DMG Multipliers of Sawring - Blitz, Chainsaw Mode - Dodge Counter, and Sawring - Eradication are increased by 120%. - The bonus DMG Multiplier for Saw…"
+    },
+    {
+      "name": "Sight of Unraveling - Oblivion",
+      "type": "forte",
+      "summary": "Unseen Snare - Chisa inflicts Unseen Snare on the target for 30s in the following 4 ways: - Hitting a target with Resonance Skill. - Hitting a target within a certain period of time after casting Serrated Loop. - Hitting a target with Dodge Counter - Eye of Unraveling: Retraction. - Locking on to a target. - When targets marked by Unseen Snare take direct damage from Resonators, Chisa inflicts 1 stack of Havoc Bane on them. This effect can be triggered up to once every 2s. T…"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/chisa",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5515",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5498"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chisa_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/chisa",
+  "portrait_via": "prydwen-character:chisa",
+  "prydwen_slug": "chisa",
+  "summary": {
+    "tier": "Prydwen Support [S0]：Tower of Adversity T0",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/chisa",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5515",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5498"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Havoc / Broadblade"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/chisa",
+    "rows": [
+      {
+        "role": "Support [S0]",
+        "tower": "T0"
+      }
+    ]
+  }
+}

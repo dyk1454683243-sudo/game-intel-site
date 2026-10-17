@@ -1,0 +1,88 @@
+{
+  "id": "qingxiao",
+  "name": "清宵",
+  "name_zh": "清宵",
+  "name_en": "Qingxiao",
+  "aliases": [
+    "Qingxiao"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Aero",
+  "weapon": "Sword",
+  "skills": [
+    {
+      "name": "Strings to Steel",
+      "type": "basic",
+      "summary": "Basic Attack - Stringblade - Press repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG. - Basic Attack - Stringblade Stage 1 and Basic Attack - Stringblade Stage 4 are in Sheathed Stance. - Basic Attack - Stringblade Stage 2 and Basic Attack - Stringblade Stage 3 are in Drawn Stance. Heavy Attack - Stringblade - When Qin Heart and Sword Cadence are full, Heavy Attack - Stringblade becomes available. - Hold Normal Attack to consume STA an…"
+    },
+    {
+      "name": "Severing Note",
+      "type": "skill",
+      "summary": "Severing Note: Judgement - Deal Aero DMG. During this skill, gain 45 points of Qin Heart. - While not in the Ephemeral Transcendence state, press or hold Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 4. Severing Note: Ascendant - While casting Basic Attack - Stringblade Stage 2, Basic Attack - Stringblade Stage 3, or Dodge Counter - Stringblade, Resonance Skill is replaced by Severing Note: Ascendant. - Deal Aero DMG. -…"
+    },
+    {
+      "name": "Billows Beneath Heaven",
+      "type": "liberation",
+      "summary": "Deal Aero DMG. Can be cast in mid-air close to the ground."
+    },
+    {
+      "name": "Formless Heart Sword",
+      "type": "forte",
+      "summary": "Ephemeral Transcendence - While Qingxiao is in the Ephemeral Transcendence state, Basic Attack - Ephemeral Transcendence and Dodge Counter - Ephemeral Transcendence become available. Basic Attack - Ephemeral Transcendence - Press repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG. - Before Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by 100%. - Can be cast in mid-…"
+    },
+    {
+      "name": "Draw and Sunder",
+      "type": "forte",
+      "summary": "Qingxiao inflicts Tune Strain - Shifting on the target after dealing damage with skills. Each skill can only trigger this once for the same target. Qingxiao can respond to Tune Strain - Interfered. Responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, every point of Qingxiao's Tune Break Boost increases the total DMG Qingxiao deals to that target by 0.12%. While Qingxiao is in the team, the max stack limit of Tune Strain - Interfer…"
+    },
+    {
+      "name": "Sea of Thought, World of Dust",
+      "type": "inherent",
+      "summary": "Upon entering combat, gain 1 stack of Gathered Mind. After damage dealt directly by Resonators in the team defeats a target inflicted with the Mindlock effect: - If Qingxiao does not have the Gathered Mind effect, gain Gathered Mind with stacks equal to the target's Mindlock stacks. - If Qingxiao already has Gathered Mind and the target's Mindlock stacks are no fewer than Qingxiao's Gathered Mind stacks, Qingxiao's Gathered Mind stacks will be matched to the target's Mindloc…"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5294"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qingxiao_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+  "portrait_via": "prydwen-character:qingxiao",
+  "prydwen_slug": "qingxiao",
+  "summary": {
+    "tier": "Prydwen DPS [S0] Value：Tower of Adversity T1",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5294"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / Aero / Sword"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+    "rows": [
+      {
+        "role": "DPS [S0] Value",
+        "tower": "T1",
+        "value": true
+      }
+    ]
+  }
+}

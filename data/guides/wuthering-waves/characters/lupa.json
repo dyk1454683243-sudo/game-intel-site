@@ -1,0 +1,77 @@
+{
+  "id": "lupa",
+  "name": "露帕",
+  "name_zh": "露帕",
+  "name_en": "Lupa",
+  "aliases": [
+    "Lupa"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "热熔",
+  "weapon": "长刃",
+  "skills": [
+    {
+      "name": "Flaming Star",
+      "type": "basic",
+      "summary": "Basic Attack Perform up to 4 consecutive attacks, dealing Fusion DMG. - After Basic Attack Stage 3, press Normal Attack in the right time to cast Mid-air Attack Stage 1. - After Dodge Counter, Basic Attack Starfall, Resonance Skill Shewolf's Hunt, or Resonance Skill Feral Fang, press Normal Attack in time to cast Basic Attack Stage 2. Heavy Attack Consume STA to attack the target, dealing Fusion DMG. Heavy Attack - Wolf's Gnawing When Wolflame reaches 50 points, Heavy Attack…"
+    },
+    {
+      "name": "Shewolf's Hunt",
+      "type": "skill",
+      "summary": "Lupa hurls her Wildfire Banner at the target, dealing Fusion DMG and restoring 15 points of Wolflame. Mark the target for 8s. After performing Resonance Skill Shewolf's Hunt, Lupa can perform Feral Fang within a certain period of time. Can be performed in mid-air close to the ground. Hold Resonance Skill to leap into the air, then press Normal Attack in time to cast Mid-air Attack Stage 1. Resonance Skill - Feral Fang Lupa locks onto a target, dealing Fusion DMG and restorin…"
+    },
+    {
+      "name": "Fire-Kissed Glory",
+      "type": "liberation",
+      "summary": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores 100 points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker. Can be performed in mid-air close to the ground. Performing this skill strengthens all Resonators in the team. Within 35s: - All Resonators in the team gain Pack Hunt effect. - If the active Resonator is hit or launched into the air, they immediately recover and are considered…"
+    },
+    {
+      "name": "Ignis Lupa",
+      "type": "forte",
+      "summary": "Wildfire Banner Lupa's ATK is increased by 12% for 8s when performing the following actions: - Casting Resonance Skill Feral Fang. - Casting Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, or Mid-air Attack - Firestrike. - Casting Resonance Liberation Fire-Kissed Glory. - Casting Dance With the Wolf and Dance With the Wolf: Climax. Resonance Skill - Dance With the Wolf When Wolfaith reaches 2 points, Resonance Skill is replaced with Dance With the Wolf. Performing…"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Intro Skill",
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/667741.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/lupa"
+  ],
+  "stub": false,
+  "as_of": "2026-10-10",
+  "gamekee_content_id": 667741,
+  "gamekee_entry_id": 189612,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_159/50074/103682/2025/5/24/922704.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:189612",
+  "prydwen_slug": "lupa",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0]：Tower of Adversity T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/lupa",
+      "https://www.gamekee.com/mc/667741.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 热熔 / 长刃"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-10",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/lupa",
+    "rows": [
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T0.5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "lucilla",
+  "name": "洛瑟菈",
+  "name_zh": "洛瑟菈",
+  "name_en": "Lucilla",
+  "aliases": [
+    "Lucilla"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Glacio",
+  "weapon": "Rectifier",
+  "skills": [
+    {
+      "name": "Snapshot",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 3 consecutive attacks, dealing Glacio DMG. - While casting Basic Attack Stage 3, hold Normal Attack to deploy Focus Ring. A cursor will move around the Focus Ring. - Releasing the Normal Attack button when the cursor falls outside of Perfect Focus will trigger Basic Attack Stage 3 - Unremarkable, dealing Glacio DMG and restoring Trace. - Releasing the Normal Attack button when the cursor falls within Perfect Focus will trigger Basic Attack Stage…"
+    },
+    {
+      "name": "Phantom Frame",
+      "type": "skill",
+      "summary": "Pull in nearby targets, dealing Glacio DMG. While casting this skill, hold Resonance Skill to deploy Focus Ring. A cursor will move around the Focus Ring. - Releasing the Resonance Skill button when the cursor falls outside of Perfect Focus will trigger Compensate, dealing Glacio DMG and restoring Trace. - Releasing the Resonance Skill button when the cursor falls within Perfect Focus will trigger Spotlight, dealing increased Glacio DMG and restoring additional Trace. If Luc…"
+    },
+    {
+      "name": "Clear As Day",
+      "type": "liberation",
+      "summary": "Lucilla's holds up to 0 Resonance Energy. Clear As Day consumes no Resonance Energy. Clear As Day unlocks when Lucilla holds all 3 Photos. - Deal Glacio DMG and enter Reminiscence: - When in Resonance Mode - Glacio Chafe, the DMG dealt is considered Basic Attack DMG. Casting this skill grants Lucilla 30% Basic Attack DMG Bonus for 10s. - When in Resonance Mode - Echo, the DMG dealt is considered Echo Skill DMG. Casting this skill grants Lucilla 30% Echo Skill DMG Bonus for 1…"
+    },
+    {
+      "name": "Memory Palace",
+      "type": "forte",
+      "summary": "Déjà Vu - While casting Resonance Liberation - Clear As Day, Lucilla grants the following enhancements based on her Resonance Mode: - When in Resonance Mode - Glacio Chafe, gain 4 stacks of Film Roll for 30s, stacking up 4 times. All stacks are removed when the duration ends. - When in Resonance Mode - Echo, gain 1 stack of Zoom for 30s. Max 1 stack, which is removed when the duration ends. - The above effects end early when Lucilla switches Resonance Mode. Film Roll - When…"
+    },
+    {
+      "name": "Tune Break: Rectifier",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target."
+    },
+    {
+      "name": "Slow Motion",
+      "type": "inherent",
+      "summary": "When Focus Ring is deployed, Lucilla slows targets within her shot. While casting Resonance Skill - Spotlight, Lucilla grants the following enhancements based on her Resonance Mode: - When in Resonance Mode - Glacio Chafe, Glacio RES of targets within a certain range around the active Resonator is reduced by 8% for 30s. If an enemy falls to Glacio Chafe DMG during this time, it counts as caused by the nearest active Resonator. - When in Resonance Mode - Echo, Resonators in t…"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Res. Skill",
+    "Forte Circuit",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4869",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4870"
+  ],
+  "stub": false,
+  "as_of": "2026-10-10",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucilla_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+  "portrait_via": "prydwen-character:lucilla",
+  "prydwen_slug": "lucilla",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4869",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4870"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "5★ / Glacio / Rectifier"
+  }
+}

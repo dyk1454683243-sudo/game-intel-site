@@ -1,0 +1,88 @@
+{
+  "id": "baizhi",
+  "name": "白芷",
+  "name_zh": "白芷",
+  "name_en": "Baizhi",
+  "aliases": [
+    "Baizhi"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "冷凝",
+  "weapon": "音感仪",
+  "skills": [
+    {
+      "name": "应许",
+      "summary": "普攻 指挥忧昙进行最多4段的连续攻击，造成冷凝伤害。 重击 持续消耗耐力，牵引忧昙攻击目标，造成冷凝伤害。重击期间可控制忧昙进行移动。 空中攻击 消耗耐力，在空中召唤忧昙进行下落攻击，造成冷凝伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成冷凝伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "应急预案",
+      "summary": "呼唤忧昙攻击目标，造成冷凝伤害，并立即为附近队伍中所有角色回复生命值。",
+      "type": "skill"
+    },
+    {
+      "name": "刹那合弥",
+      "summary": "刹那合弥 召唤忧昙瞬间为附近队伍中所有角色回复生命值，并依次产生4段频隙回响。 频隙回响 频隙回响会跟随队伍中登场角色，每2.5秒会消耗1段频隙回响攻击目标，命中目标时造成冷凝伤害，并以命中点为中心，为附近队伍中在场角色回复生命值。",
+      "type": "liberation"
+    },
+    {
+      "name": "溯生环复",
+      "summary": "忧昙 与白芷存在精神连接、能响应其意愿的回音生物，继承白芷的全部属性。白芷闪避时，忧昙会回到白芷身边。、 念意 通过施放重击或共鸣技能应急预案时，消耗所有【念意】，持续为附近队伍中所有角色回复生命值，每消耗 1 点【念意】则回复 1 次生命值，每次回复间隔 2 秒。 重击消耗【念意】时，白芷额外回复协奏能量和共鸣能量。 共鸣技能应急预案消耗【念意】时，白芷额外回复协奏能量。 念意获取规则 【念意】上限 4 点。 普攻命中目标时，获得 1 点【念意】。",
+      "type": "forte"
+    },
+    {
+      "name": "覆雪流盈",
+      "summary": "白芷召唤忧昙，进行1次俯冲攻击，造成冷凝伤害，并为附近队伍中所有角色回复生命值。",
+      "type": "intro"
+    },
+    {
+      "name": "命源输送",
+      "summary": "持续为下一位登场角色（或附近队伍中激活延奏技能的角色）回复生命值，每 3 秒回复白芷 1.54% 生命上限的生命值，持续 30 秒。受到此治疗效果时，角色全伤害加深 15% ，持续 6 秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Res. Skill",
+    "Forte Circuit",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622951.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622951,
+  "gamekee_entry_id": 150333,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/840337.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150333",
+  "prydwen_slug": "baizhi",
+  "summary": {
+    "tier": "Prydwen Support [S6]：Tower of Adversity T3 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
+      "https://www.gamekee.com/mc/622951.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 冷凝 / 音感仪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
+    "rows": [
+      {
+        "role": "Support [S6]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

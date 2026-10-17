@@ -1,0 +1,87 @@
+{
+  "id": "jianxin",
+  "name": "鉴心",
+  "name_zh": "鉴心",
+  "name_en": "Jianxin",
+  "aliases": [
+    "Jianxin"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "气动",
+  "weapon": "臂铠",
+  "skills": [
+    {
+      "name": "风仪拳术",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成气动伤害。 重击 消耗耐力攻击目标，造成气动伤害。 空中攻击 消耗耐力，从空中快速下落使出腿技，造成气动伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成气动伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "静气循行",
+      "summary": "静气循行 应急预案按住共鸣技能，进入架势姿态。 行气反击 在架势姿态中受到攻击时，免疫此次伤害并施放行气反击，造成气动伤害。 降气反击 在架势姿态中松开共鸣技能，将会中断架势姿态并施放降气反击，造成气动伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "涤净力场",
+      "summary": "涤净力场 制造强力风场，持续将风场范围内的目标牵引至风场中央并造成气动伤害，风场消失时会炸裂，并对风场范围内的所有目标再造成一次气动伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "涤净力场",
+      "summary": "忧昙重击·混元气旋 当【气】达到上限时，按住普攻，将会施放混元气旋，进入运气状态。 运气状态 鉴心的抗打断能力提升，受到伤害降低 50% ； 持续消耗【气】，并持续施放运气攻击附近的目标，造成气动伤害； 随着运气状态时间推移，鉴心逐渐达到不同周天，达到不同周天时： 未达到小周天：获得运气 1 层的护盾。中断运气状态时，施放冲拳攻击目标，造成气动伤害； 小周天：获得运气 2 层的护盾，并震气攻击目标，造成气动伤害。中断运气状态时，施放推手攻击目标，造成气动伤害； 大周天·内：获得运气 3 层的护盾，并震气攻击目标，造成气动伤害。中断运气状态时，施放推手攻击目标，造成气动伤害； 大周天·外：获得运气 4 层的护盾，并震气攻击目标，造成气动伤害； 松开普攻时，中断运气状态，并消耗所有【气】； 消耗完所有【气】时，结束运气状态； 运气状态结束时，根据周天阶段再次获得对应周天的护盾； 重击·混元气旋所获得的护盾持续期间，每 6 秒回复一次队伍中登场角色的生命值； 气获取规则 【气】上限 120 点。 常态攻击风仪拳术命中目标时，获得【气】。 施放共鸣技能…",
+      "type": "forte"
+    },
+    {
+      "name": "掌息之要",
+      "summary": "掌息之要 牵引范围内的目标，造成气动伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "化境",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）共鸣解放伤害加深 38% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622943.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/jianxin"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622943,
+  "gamekee_entry_id": 150326,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/485017.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150326",
+  "prydwen_slug": "jianxin",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0] Value：Tower of Adversity T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/jianxin",
+      "https://www.gamekee.com/mc/622943.html"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / 气动 / 臂铠"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/jianxin",
+    "rows": [
+      {
+        "role": "Hybrid [S0] Value",
+        "tower": "T4",
+        "value": true
+      }
+    ]
+  }
+}

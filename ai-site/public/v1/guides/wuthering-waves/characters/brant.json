@@ -1,0 +1,102 @@
+{
+  "id": "brant",
+  "name": "布兰特",
+  "name_zh": "布兰特",
+  "name_en": "Brant",
+  "aliases": [
+    "Brant"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "热熔",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "船长的狂想演出",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成热熔伤害。 重击 消耗耐力攻击目标，造成热熔伤害。 重击·狂想即兴 消耗耐力攻击目标，造成热熔伤害。 ·施放普攻第 2 段或第 4 段后，长按普攻，可以释放重击·狂想即兴。 ·施放空中攻击第 4 段后，短按普攻，可以施放重击·狂想即兴。 空中攻击 进行最多 4 段连续攻击，造成热熔伤害。空中攻击第 1 段或第 2 段按下普攻时，布兰特向目标发起钩索冲荡，触及目标后会向目标发起攻击，若在动作持续期间松开普攻，则会在攻击命中目标后向后空翻；若持续按住，则会持续攻击目标，持续时间结束后，向后空翻。空中攻击第 3 段攻击后会向后空翻。空中攻击每次空翻后，按下普攻可施放下一段空中攻击，空翻可重置空中闪避次数。 ·若空中攻击第 1 段钩索冲荡未触及目标，则向前进行一次斩击，造成热熔伤害。 ·若空中攻击第 1 段或第 2 段钩索冲荡触及目标，但是发起攻击未命中目标，则会短暂悬停后下落。 闪避反击 成功闪避后，一定时间内短按普攻，将会攻击目标，造成热熔伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "起锚！",
+      "summary": "布兰特将自己弹飞至空中，并对范围内的目标造成热熔伤害。处于空中时，若【喝彩】未充满，共鸣技能起锚！替换为空中下落攻击 空中下落攻击 消耗耐力进行空中下落攻击，造成热熔伤害，此次伤害为普攻伤害。 ·空中攻击第 1 段钩索冲荡未触及目标，向前斩击后，可以短按普攻施放空中下落攻击。 ·空中攻击第 1 段或第 2 段钩索冲荡触及目标，但是发起攻击未命中后，可以在悬停期间短按普攻施放空中下落攻击。",
+      "type": "skill"
+    },
+    {
+      "name": "直到世界尽头",
+      "summary": "对范围内的目标造成热熔伤害，并回复附近队伍所有角色的生命值，施放结束后进入燃焰状态。 可以在空中施放。 燃焰 常态攻击、共鸣技能起锚！命中时获取【喝彩】效率提升 100% 。共鸣回路戏中人生替换为「我」的人生。 「我」的人生 布兰特基于共鸣效率获得额外攻击：当自身共鸣效率大于 150% 时，每超过 1% 的共鸣效率计算为 20 点攻击提升，上限为 2600 。",
+      "type": "liberation"
+    },
+    {
+      "name": "海中戏剧",
+      "summary": "戏中人生 布兰特基于共鸣效率获得额外攻击：当自身共鸣效率大于 150% 时，每超过 1% 的共鸣效率计算为 12 点攻击提升，上限为 1560 。 涛声喝彩 当【喝彩】达到 25 、 50 、 75 、 100 点后，会回复附近队伍所有角色的生命值。 火焰归亡曲 当【喝彩】充满，共鸣技能起锚！替换为火焰归亡曲。 施放火焰归亡曲时，消耗全部【喝彩】，造成热熔伤害，此次伤害为普攻伤害，并获得护盾。若在燃焰状态中施放，则在火焰归亡曲结束后失去燃焰状态。 喝彩获取规则 【喝彩】上限 100 点。 常态攻击命中目标时，获得【喝彩】。 变奏技能命中目标时，获得【喝彩】。 共鸣技能命中目标时，获得【喝彩】。",
+      "type": "forte"
+    },
+    {
+      "name": "固有技能-领航之焰",
+      "summary": "涛声喝彩的治疗量提升 20% 。",
+      "type": "inherent"
+    },
+    {
+      "name": "固有技能-迎海投火的决意",
+      "summary": "布兰特空中攻击抗打断提升，热熔伤害加成提升 15% 。",
+      "type": "inherent"
+    },
+    {
+      "name": "为我！",
+      "summary": "攻击目标，造成热熔伤害，并获得幕间掌声效果。 幕间掌声 下一次空中攻击从第 2 段开始，提前落地后或切换至其他角色失去该效果。",
+      "type": "intro"
+    },
+    {
+      "name": "航向确定！",
+      "summary": "下一位登场角色热熔伤害加深 20% ，共鸣技能伤害加深 25% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Liberation",
+    "Intro Skill",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/648714.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/brant"
+  ],
+  "stub": false,
+  "as_of": "2026-10-10",
+  "gamekee_content_id": 648714,
+  "gamekee_entry_id": 176337,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/572308.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:176337",
+  "prydwen_slug": "brant",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T2 / Whimpering Wastes T4；Hybrid [S0]：Tower of Adversity T1.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/brant",
+      "https://www.gamekee.com/mc/648714.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 热熔 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-10",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/brant",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T2",
+        "whimpering": "T4"
+      },
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T1.5"
+      }
+    ]
+  }
+}

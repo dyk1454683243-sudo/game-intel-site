@@ -1,0 +1,75 @@
+{
+  "id": "mortefi",
+  "name": "莫特斐",
+  "name_zh": "莫特斐",
+  "name_en": "Mortefi",
+  "aliases": [
+    "Mortefi"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "热熔",
+  "weapon": "佩枪",
+  "skills": [
+    {
+      "name": "即兴发挥",
+      "summary": "普攻 使用双枪和火焰对目标进行最多4段的连续攻击，造成热熔伤害。 重击 进入瞄准状态，可以进行更强力的射击。 蓄力完成后攻击目标，造成热熔伤害。 空中攻击 消耗耐力，在空中进行连续攻击，造成热熔伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成热熔伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "激昂变奏",
+      "summary": "向正前方打出高速火焰闪电，造成热熔伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "暴烈终曲",
+      "summary": "造成热熔伤害，并为队伍中所有角色附加浮翼狂想。 浮翼狂想 队伍中登场角色的普攻命中目标时，进行协同攻击，打出 1 发加强音； 队伍中登场角色的重击命中目标时，进行协同攻击，打出 2 发加强音； 每 0.35 秒可进行 1 次协同攻击。 加强音 造成热熔伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "怒火赋格",
+      "summary": "共鸣技能·怒火赋格 莫特斐的【怒气值】到达 100 时，共鸣技能替换为怒火赋格。 施放怒火赋格时，消耗所有【怒气值】，用力打出高速火焰闪电，造成热熔伤害，此次伤害视为共鸣技能伤害。 怒气值获取规则 【怒气值】上限 100 点。 常态攻击即兴发挥命中目标时，回复【怒气值】。 变奏技能不协和音命中目标时，回复【怒气值】。 共鸣技能激昂变奏命中目标时，回复【怒气值】。 施放激昂变奏后 5 秒内，常态攻击即兴发挥命中目标时，额外回复【怒气值】。",
+      "type": "forte"
+    },
+    {
+      "name": "不协和音",
+      "summary": "攻击目标，造成热熔伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "怒意移调",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）重击伤害加深 38% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/623023.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 623023,
+  "gamekee_entry_id": 150381,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/778983.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150381",
+  "prydwen_slug": "mortefi",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/mc/623023.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "4★ / 热熔 / 佩枪"
+  }
+}

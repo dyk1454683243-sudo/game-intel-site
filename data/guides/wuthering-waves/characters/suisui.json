@@ -1,0 +1,92 @@
+{
+  "id": "suisui",
+  "name": "穗穗",
+  "name_zh": "穗穗",
+  "name_en": "Suisui",
+  "aliases": [
+    "Suisui"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Glacio",
+  "weapon": "Rectifier",
+  "skills": [
+    {
+      "name": "Unraveled Spring",
+      "type": "basic",
+      "summary": "Basic Attack - Zephyr Stance - Press repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit. Mid-air Attack - Zephyr Stance - Consume STA to perform Plunging Attack, dealing Glacio DMG. Dodge Counter - Zephyr Stance - Press Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit. - Press Normal Attack shortly after casting this skill to per…"
+    },
+    {
+      "name": "Vernal Screen",
+      "type": "skill",
+      "summary": "Resonance Skill - Zephyr Stance - While in Zephyr Stance and Cloud Breath is not full, press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath. - Can be cast in mid-air close to the ground. - This skill shares a Cooldown with Resonance Skill - Drizzle Stance. Awakening Spring - While in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awake…"
+    },
+    {
+      "name": "Song of Thoroughfare",
+      "type": "liberation",
+      "summary": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters. Ceaseless Landscape grants all nearby Resonators in the team the following enhancements: - Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative…"
+    },
+    {
+      "name": "Lambent Gold",
+      "type": "forte",
+      "summary": "Zephyr Stance - Suisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills. Drizzle Stance - Entering Drizzle Stance clears all Floral Epistle. During Drizzle Stance: - Suisui unlocks new combat moves and restores Floral Epistle through certain skills. - Suisui gains increased resistance to interruption. - Press Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attac…"
+    },
+    {
+      "name": "Tune Break: Rectifier",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target. Sky Over Water Consuming Enrichment grants the Resonator 10 stacks of Spring's Birth, up to 10 stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by 62 + 0.34% of Suisui's Max HP at the cost of 1 stack of Spring's Birth every 2s. When Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore 18 points of C…"
+    },
+    {
+      "name": "Tinkling Jade",
+      "type": "intro",
+      "summary": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target."
+    },
+    {
+      "name": "Rippling Waters",
+      "type": "outro",
+      "summary": "Resonators in the team gain 25% All DMG Amplification for 30s. Suisui enters Roaming Transcendent when Ceaseless Landscape is active. Suisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed: 0 Floral Epistle consumed: - All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption. At least 200 Floral Epistle co…"
+    }
+  ],
+  "skill_prio": [
+    "Intro Skill",
+    "Forte Circuit",
+    "Res. Skill",
+    "Res. Liberation",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5197",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5200"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suisui_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+  "portrait_via": "prydwen-character:suisui",
+  "prydwen_slug": "suisui",
+  "summary": {
+    "tier": "Prydwen Support [S0]：Whimpering Wastes T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5197",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5200"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Glacio / Rectifier"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+    "rows": [
+      {
+        "role": "Support [S0]",
+        "whimpering": "T0.5"
+      }
+    ]
+  }
+}

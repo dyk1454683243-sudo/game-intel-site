@@ -1,0 +1,87 @@
+{
+  "id": "yinlin",
+  "name": "吟霖",
+  "name_zh": "吟霖",
+  "name_en": "Yinlin",
+  "aliases": [
+    "Yinlin"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "导电",
+  "weapon": "音感仪",
+  "skills": [
+    {
+      "name": "悬丝华刃舞",
+      "summary": "普攻 控制人偶“悬丝”，进行最多 4 段的连续攻击，造成导电伤害。 重击 消耗耐力操纵人偶“悬丝”攻击目标，造成导电伤害。 空中攻击 消耗耐力，操控人偶“悬丝”进行空中下落攻击，造成导电伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成导电伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "磁殛咆哮",
+      "summary": "磁殛咆哮 人偶“悬丝”对目标造成导电伤害，并使吟霖进入共鸣技能磁殛状态。 磁殛状态 普攻和闪避反击命中目标时，触发 1 次磁殛爆发； 每段普攻和闪避反击仅可触发 1 次磁殛爆发，最多可触发 4 次。 磁殛爆发 攻击所有携带共鸣回路缚罪标记的目标，造成导电伤害。 召雷磁爆 施放共鸣技能磁殛咆哮后一定时间内，短按共鸣技能，将会施放召雷磁爆攻击目标，造成导电伤害。 若一定时间内没有施放共鸣技能召雷磁爆或者切换至其他角色，则技能进入冷却状态。",
+      "type": "skill"
+    },
+    {
+      "name": "破天雷灭击",
+      "summary": "破天雷灭击 指挥“悬丝”引下天雷，轰击敌人，造成大范围导电伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "千面魅影",
+      "summary": "千面魅影 当吟霖【审判值】满时，重击将替换为千面魅影，消耗所有【审判值】攻击目标，造成导电伤害，命中携带缚罪标记的目标时，缚罪标记被替换为惩罚印记，持续 18 秒。 缚罪标记 常态攻击悬丝华刃舞、共鸣解放破天雷灭击或变奏技能狂雷飓风命中目标时，附加缚罪标记。 吟霖离场时缚罪标记消失。 惩罚印记 携带惩罚印记的目标受到伤害时会降下审判之雷，对所有携带惩罚印记的目标造成导电伤害，每秒最多可触发 1 次。 审判值 【审判值】上限 100 点。 常态攻击悬丝华刃舞命中目标时，回复【审判值】。 施放共鸣技能磁殛咆哮时，回复【审判值】。 共鸣技能磁殛爆发命中目标时，回复【审判值】。 施放共鸣技能召雷磁爆时，回复【审判值】。",
+      "type": "forte"
+    },
+    {
+      "name": "狂雷飓风",
+      "summary": "狂雷飓风 利用人偶“悬丝”进行攻击，造成大范围的导电伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "策电",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）导电伤害加深 20% ，共鸣解放伤害加深 25% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/624258.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/yinlin"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 624258,
+  "gamekee_entry_id": 151516,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/5/6/189377.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:151516",
+  "prydwen_slug": "yinlin",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0]：Tower of Adversity T3 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/yinlin",
+      "https://www.gamekee.com/mc/624258.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 导电 / 音感仪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/yinlin",
+    "rows": [
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

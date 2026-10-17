@@ -1,0 +1,102 @@
+{
+  "id": "rover-aero",
+  "name": "漂泊者·气动",
+  "name_zh": "漂泊者·气动",
+  "name_en": "Rover (Aero)",
+  "aliases": [
+    "漂泊者-气动-女",
+    "漂泊者",
+    "Rover (Aero)"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "气动",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "刻雾裁风",
+      "summary": "普攻 进行最多4段的连续攻击，造成 气动伤害 。 重击 消耗耐力攻击目标，造成 气动伤害 。 · 施放后短时间内短按 普攻 ，可直接施放 普攻第3段 。 重击·绞息 施放 普攻第3段 、 闪避反击 或 重击 后一定时间内长按 普攻 ，将会施放 重击·绞息 攻击目标，消耗耐力，造成 气动伤害 。 空中攻击 消耗耐力进行 空中下落攻击 ，造成 气动伤害 。 · 落地后一段时间内短按 普攻 ，会施放 普攻第4段 。 · 【弦风息】 达到上限时，落地后一段时间内短按 普攻 ，会施放 共鸣技能· 缥缈无相 。 闪避反击 成功闪避后一定时间内短按 普攻 ，将会攻击目标，造成 气动伤害 。",
+      "type": "basic"
+    },
+    {
+      "name": "共鸣技能·裂象",
+      "summary": "苍息破象 腾空进行斩击，造成 气动伤害 。 碧霄断行 处于空中时，短按 共鸣技能 ，造成 气动伤害 。命中目标后，移除目标全部 【光噪效应】 、 【虚湮效应】 、 【聚爆效应】 、 【霜渐效应】 、 【电磁效应】 ，每移除1层对应状态，便为目标附加1层 【风蚀效应】 。",
+      "type": "skill"
+    },
+    {
+      "name": "共鸣解放·万象归墟",
+      "summary": "解放风瞳，造成 气动伤害 ，并回复附近队伍中所有角色的生命值。 可以在低空中施放 。",
+      "type": "liberation"
+    },
+    {
+      "name": "共鸣回路·风息流转",
+      "summary": "空中攻击·抃风儛润 进行下述3种操作时，可施放该技能攻击目标，最多进行2段的连续攻击，造成 气动伤害 ，回复附近队伍中所有角色的生命值。此次伤害为 共鸣技能伤害 。 · 施放 共鸣技能·苍息破象 后一定时间内短按 普攻 。 · 施放 变奏技能 后一定时间内短按 普攻 。 · 施放 重击·绞息 后一定时间内短按 普攻 。 施放 空中攻击·抃风儛润 期间，可长按 普攻 施放常态攻击 空中攻击 。 共鸣技能·缥缈无相 【弦风息】 达到上限时， 共鸣技能·苍息破象 替换为 共鸣技能·缥缈无相 ，最多进行2段的连续攻击，每段消耗60点特殊能量，造成 气动伤害 ，此次伤害为 共鸣技能伤害 。 施放第1段攻击后一定时间内，若切换至其他角色，将自动施放第2段攻击。 【弦风息】 获取规则 【弦风息】 上限120点。 空中攻击·抃风儛润 每段命中时，获得25点 【弦风息】 。 施放 变奏技能 时，获得20点 【弦风息】 。 普攻第3段 、 普攻第4段 、 闪避反击 命中时，获得10点 【弦风息】 。",
+      "type": "forte"
+    },
+    {
+      "name": "固有技能-空渡浮尘",
+      "summary": "施放 变奏技能·狂岚未尽 时，攻击提升20%，持续10秒。",
+      "type": "inherent"
+    },
+    {
+      "name": "固有技能-无垠之风",
+      "summary": "共鸣解放·万象归墟 治疗量提升20%。",
+      "type": "inherent"
+    },
+    {
+      "name": "变奏技能·狂岚未尽",
+      "summary": "攻击目标，造成 气动伤害 。",
+      "type": "intro"
+    },
+    {
+      "name": "延奏技能·流风回响",
+      "summary": "附近队伍中所有角色获得 蚀境象 ，持续30秒。 蚀境象状态 下： · 攻击命中后，使目标 【风蚀效应】 层数上限增加3层，持续10秒。该效果无法叠加。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/664652.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/2295",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/2305"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 664652,
+  "gamekee_entry_id": 188685,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_158/h_212/50074/769711/2025/5/2/991188.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:188685",
+  "prydwen_slug": "rover-aero",
+  "summary": {
+    "tier": "Prydwen Support [S6]：Tower of Adversity T1.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",
+      "https://www.gamekee.com/mc/664652.html",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/2295",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/2305"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 气动 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",
+    "rows": [
+      {
+        "role": "Support [S6]",
+        "tower": "T1.5"
+      }
+    ]
+  }
+}

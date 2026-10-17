@@ -1,0 +1,98 @@
+{
+  "id": "lynae",
+  "name": "琳奈",
+  "name_zh": "琳奈",
+  "name_en": "Lynae",
+  "aliases": [
+    "Lynae"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Spectro",
+  "weapon": "Pistols",
+  "skills": [
+    {
+      "name": "Chroma Drift",
+      "type": "basic",
+      "summary": "Basic Attack - Press or hold Normal Attack to perform up to 3 consecutive attacks, dealing Spectro DMG. Mid-air Attack - Consume STA to perform Plunging Attack, dealing Spectro DMG. Dodge Counter - Press Normal Attack right after a successful Dodge to attack the target, dealing Spectro DMG. Spark Collision - With full Overflow in the Optical Sampling Stage, hold Normal Attack to enter a charging state. - During this state, 15 points of Overflow will be converted to 12.5% of…"
+    },
+    {
+      "name": "Lynae-Style Palettes",
+      "type": "skill",
+      "summary": "- Press Resonance Skill to deal Spectro DMG. - While in Kaleidoscopic Parade, hold Resonance Skill to attack the target, dealing Spectro DMG and exiting the Kaleidoscopic Parade. - Press Normal Attack within a certain time after this skill to cast Basic Attack Stage 2. - Lynae-Style Palettes and Additive Color share a cooldown. Additive Color - During Kaleidoscopic Parade, press Resonance Skill on the ground to attack the target, dealing Spectro DMG. - Within a certain time…"
+    },
+    {
+      "name": "Prismatic Overblast",
+      "type": "liberation",
+      "summary": "Deal Spectro DMG. Casting this skill grants all nearby Resonators in the team 24% All DMG Bonus that lasts for 30s. Basic Attack - To a Vivid Tomorrow! Press Normal Attack within a certain time after casting Resonance Liberation - Prismatic Overblast to cast Basic Attack - To a Vivid Tomorrow!, dealing Spectro DMG."
+    },
+    {
+      "name": "Chromaticity Modeling",
+      "type": "forte",
+      "summary": "Optical Sampling Stage - Lynae is in Optical Sampling Stage by default. While in this state, Overflow recovers during certain skills. Kaleidoscopic Parade - Casting Basic Attack - Spark Collision sends Lynae into Kaleidoscopic Parade. In this state, Lynae continuously recovers Lumiflow while moving on the ground or casting certain skills. Lynae will not Walk during this state, and her Running and Sprinting will be replaced by the faster Free Skating and Speed Skating. Basic…"
+    },
+    {
+      "name": "Spectral Analysis",
+      "type": "forte",
+      "summary": "- Lynae can inflict Tune Rupture - Shifting or Tune Strain - Shifting on targets. - Lynae can respond to Tune Rupture - Interfered and Tune Strain - Interfered. - Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Tune Rupture - Interfered state, Lynae casts Tune Rupture Response - Spectral Analysis. Each target can be damaged by this skill up to once every 8s. - Responding to Tune Strain - Interfered: For each stack…"
+    },
+    {
+      "name": "Colors Never Fade!",
+      "type": "inherent",
+      "summary": "After casting Basic Attack - Visual Impact, Lynae leaves Spray Paint on the ground and continuously inflicts Photochromic Flux on targets within the Spray Paint for 5s, triggered once every 2s. When Spray Paint is on the ground, switching to another Resonance Mode doesn't affect the Photochromic Flux effects inflicted by the Spray Paint. With Lynae in the team, the expedition motorbike's Energy Tank expands by 600 points. Lynae enters Kaleidoscopic Parade automatically while…"
+    },
+    {
+      "name": "Time to Show Some Colors!",
+      "type": "intro",
+      "summary": "Deal Spectro DMG, inflicting Photochromic Flux on targets hit. While in Optical Sampling Stage, casting this skill recovers 100 points of Overflow."
+    },
+    {
+      "name": "Let's Hit the Road!",
+      "type": "outro",
+      "summary": "Attack the target and deal 100% Spectro DMG. The next incoming Resonator gain 15% All DMG Amplification and 25% Resonance Liberation DMG Amplification for 14s or until they are switched out. Lynae leaves the Kaleidoscopic Parade state upon casting Outro Skill."
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3828",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3842"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lynae_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+  "portrait_via": "prydwen-character:lynae",
+  "prydwen_slug": "lynae",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0]：Tower of Adversity T0 / Whimpering Wastes T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3828",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/3842"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Spectro / Pistols"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+    "rows": [
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T0",
+        "whimpering": "T0.5"
+      }
+    ]
+  }
+}
