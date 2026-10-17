@@ -56,7 +56,12 @@
   "skill_prio": [
     "固有技能>常态攻击>共鸣解放>共鸣回路>大攻击/大暴击＞变奏技能>共鸣技能"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1: Best Team 主位：弗洛洛 / 洛瑟菈 / 仇远（https://www.prydwen.gg/wuthering-waves/characters/phrolova ，as_of 2026-10-10）",
+      "Prydwen · Team #2: Alternative Teams 主位：弗洛洛 / 西格莉卡 / 仇远（https://www.prydwen.gg/wuthering-waves/characters/phrolova ，as_of 2026-10-10）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/668158.html",
     "https://www.prydwen.gg/wuthering-waves/characters/phrolova"

@@ -50,7 +50,12 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：安可 / 露帕 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/encore ，as_of 2026-10-05）",
+      "Prydwen · Best Team (Dual DPS) 主位：安可 / 长离 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/encore ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622950.html",
     "https://www.prydwen.gg/wuthering-waves/characters/encore"

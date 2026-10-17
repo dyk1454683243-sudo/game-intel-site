@@ -50,10 +50,17 @@
     "Basic Attack",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team (Jinhsi)：今汐 / 灯灯 / 维里奈（https://www.prydwen.gg/wuthering-waves/characters/lumi ，as_of 2026-10-05）",
+      "Prydwen · Quickswap Team 主位：今汐 / 布兰特 / 维里奈（https://www.prydwen.gg/wuthering-waves/characters/jinhsi ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622919.html",
-    "https://www.prydwen.gg/wuthering-waves/characters/verina"
+    "https://www.prydwen.gg/wuthering-waves/characters/verina",
+    "https://www.prydwen.gg/wuthering-waves/characters/lumi",
+    "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
   ],
   "stub": false,
   "as_of": "2026-10-05",
@@ -67,7 +74,9 @@
     "tier": "Prydwen Support [S0]：Tower of Adversity T0.5",
     "sources": [
       "https://www.prydwen.gg/wuthering-waves/characters/verina",
-      "https://www.gamekee.com/mc/622919.html"
+      "https://www.gamekee.com/mc/622919.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/lumi",
+      "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
     ],
     "stub": false,
     "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",

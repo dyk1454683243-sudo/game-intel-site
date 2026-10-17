@@ -70,12 +70,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Burn：The Thumb East Capo IIII Meursault / LCE E.G.O::Ardor Blossom Star Faust / Liu Assoc. South Section 4 Director Rodion / Dawn Office Fixer Sinclair / Lobotomy E.G.O::Magic Bullet Outis / Firefist Office Survivor Gregor / Liu Association South Section 3 Yi Sang / Shi Association South Section 5 Director Don Quixote / Liu Assoc. South Section 4 Ryoshu / Liu Assoc. South Section 4 Ishmael / LCB Sinner Hong Lu / Shi Association South Section 5 Heathcliff（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585565.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -102,7 +107,8 @@
       "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-magic-bullet-outis",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585565.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Status Specialist A",
     "stub": false,

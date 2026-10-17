@@ -49,7 +49,12 @@
     "Res. Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：凌阳 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/lingyang ，as_of 2026-10-05）",
+      "Prydwen · F2P Team 主位：凌阳 / 散华 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/lingyang ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622987.html",
     "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
@@ -67,8 +72,21 @@
       "https://www.gamekee.com/mc/622987.html",
       "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
     ],
-    "stub": true,
-    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
-    "position": "5★ / 冷凝 / 臂铠"
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 冷凝 / 臂铠",
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T3 / Whimpering Wastes T4"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/lingyang",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
   }
 }

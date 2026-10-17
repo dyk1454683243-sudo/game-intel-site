@@ -50,7 +50,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team：清宵 / 达妮娅 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/qingxiao ，as_of 2026-10-05）",
+      "Prydwen · Lynae Team 主位：清宵 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/qingxiao ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",

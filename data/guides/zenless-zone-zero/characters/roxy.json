@@ -29,5 +29,30 @@
   "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp",
   "portrait_source": "https://www.prydwen.gg/zenless/characters/roxy",
   "portrait_via": "prydwen-character:roxy",
-  "wiki_revised": "2026-10-05"
+  "wiki_revised": "2026-10-05",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/zenless/characters/roxy"
+    ],
+    "position": "S / 风 / 击破 / 罗斯凯利法·弗林特工坊",
+    "tier": "Prydwen Support：Endgame Modes T0.5",
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。只收录页面写明的栏目，不把 Endgame Modes 拆成别的模式，也不编造抽卡结论。"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-30",
+    "url": "https://www.prydwen.gg/zenless/characters/roxy",
+    "rows": [
+      {
+        "role": "Support",
+        "modes": [
+          {
+            "label": "Endgame Modes",
+            "grade": "T0.5"
+          }
+        ]
+      }
+    ]
+  }
 }

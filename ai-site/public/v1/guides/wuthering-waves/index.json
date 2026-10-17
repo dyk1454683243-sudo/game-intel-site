@@ -7,7 +7,7 @@
   "character_count": 61,
   "rich_count": 59,
   "stub_count": 2,
-  "conclusion_stub_count": 13,
+  "conclusion_stub_count": 0,
   "links": {
     "banners": "/v1/guides/wuthering-waves/banners.json",
     "codes": "/v1/guides/wuthering-waves/codes.json"
@@ -45,7 +45,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/mc/674296.html",
-        "https://www.prydwen.gg/wuthering-waves/characters/augusta"
+        "https://www.prydwen.gg/wuthering-waves/characters/augusta",
+        "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/753406.png",
       "rarity": "5★"
@@ -57,7 +58,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/mc/622951.html",
-        "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
+        "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
+        "https://www.gamekee.com/mc/623202.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/840337.png",
       "rarity": "4★"
@@ -554,7 +556,8 @@
       "sources": [
         "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
-        "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5011",
+        "https://www.prydwen.gg/wuthering-waves/characters/buling"
       ],
       "portrait": null,
       "rarity": "5★"
@@ -667,7 +670,9 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/mc/622919.html",
-        "https://www.prydwen.gg/wuthering-waves/characters/verina"
+        "https://www.prydwen.gg/wuthering-waves/characters/verina",
+        "https://www.prydwen.gg/wuthering-waves/characters/lumi",
+        "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/184874.png",
       "rarity": "5★"
@@ -764,7 +769,8 @@
       "stub": false,
       "sources": [
         "https://www.gamekee.com/mc/627615.html",
-        "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
+        "https://www.prydwen.gg/wuthering-waves/characters/zhezhi",
+        "https://www.prydwen.gg/wuthering-waves/characters/youhu"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_155/50074/103682/2024/7/19/104945.png",
       "rarity": "5★"

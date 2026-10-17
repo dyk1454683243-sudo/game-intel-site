@@ -60,7 +60,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1: Best Team 主位：景燃 / 尤诺 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/iuno ，as_of 2026-10-05）",
+      "Prydwen · Team #2: Main DPS Iuno 主位：尤诺 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/iuno ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/674303.html",
     "https://www.prydwen.gg/wuthering-waves/characters/iuno"

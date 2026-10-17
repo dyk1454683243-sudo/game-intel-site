@@ -53,7 +53,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team：赞妮 / 菲比 / 漂泊者·衍射（https://www.prydwen.gg/wuthering-waves/characters/rover-spectro ，as_of 2026-10-05）",
+      "Prydwen · Quickswap Phoebe Team：菲比 / 长离 / 漂泊者·衍射（https://www.prydwen.gg/wuthering-waves/characters/rover-spectro ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622983.html",
     "https://www.gamekee.com/mc/622984.html",

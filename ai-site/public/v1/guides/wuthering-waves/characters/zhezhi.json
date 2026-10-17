@@ -56,10 +56,16 @@
   "skill_prio": [
     "共鸣解放>共鸣回路>共鸣技能＞变奏技能＞常态攻击"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：珂莱塔 / 折枝 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/zhezhi ，as_of 2026-10-05）",
+      "Prydwen · Zhezhi Team：凌阳 / 折枝 / 釉瑚（https://www.prydwen.gg/wuthering-waves/characters/youhu ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/627615.html",
-    "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
+    "https://www.prydwen.gg/wuthering-waves/characters/zhezhi",
+    "https://www.prydwen.gg/wuthering-waves/characters/youhu"
   ],
   "stub": false,
   "as_of": "2026-10-05",
@@ -72,10 +78,24 @@
   "summary": {
     "sources": [
       "https://www.gamekee.com/mc/627615.html",
-      "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
+      "https://www.prydwen.gg/wuthering-waves/characters/zhezhi",
+      "https://www.prydwen.gg/wuthering-waves/characters/youhu"
     ],
-    "stub": true,
-    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
-    "position": "5★ / 冷凝 / 音感仪"
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 冷凝 / 音感仪",
+    "tier": "Prydwen Hybrid [S0]：Tower of Adversity T3 / Whimpering Wastes T4"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/zhezhi",
+    "rows": [
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T3",
+        "whimpering": "T4"
+      }
+    ]
   }
 }

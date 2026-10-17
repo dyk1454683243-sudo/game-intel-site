@@ -40,7 +40,12 @@
     "Basic Attack",
     "Res. Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #3: Chixia Best Team：炽霞 / 布兰特 / 露帕（https://www.prydwen.gg/wuthering-waves/characters/lupa ，as_of 2026-10-10）",
+      "Prydwen · Team #1: Best Team 主位：景燃 / 露帕 / 莫特斐（https://www.prydwen.gg/wuthering-waves/characters/lupa ，as_of 2026-10-10）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/667741.html",
     "https://www.prydwen.gg/wuthering-waves/characters/lupa"

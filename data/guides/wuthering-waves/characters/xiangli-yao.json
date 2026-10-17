@@ -59,7 +59,12 @@
     "Res. Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：相里要 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao ，as_of 2026-10-05）",
+      "Prydwen · Budget Team 主位：相里要 / 鉴心 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/627625.html",
     "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao"

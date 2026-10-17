@@ -70,12 +70,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Beginner Team：LCB Sinner Heathcliff / LCB Sinner Hong Lu / LCB Sinner Outis / LCB Sinner Faust / LCB Sinner Don Quixote / LCB Sinner Meursault / LCB Sinner Rodion / LCB Sinner Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）",
+      "Prydwen · Tremor - Reverb：The Lord of Hongyuan Hong Lu / Heishou Pack - Wu Branch Adept Yi Sang / T Corp. Class 2 Collection Staff Rodion / LCCB Assistant Manager Ishmael / Molar Office Fixer Outis / District 20 Yurodivy Ryoshu / Heishou Pack - Mao Branch Adept Faust / T Corp. Class 3 Collection Staff Don Quixote / LCB Sinner Meursault / LCB Sinner Heathcliff / Molar Boatworks Fixer Sinclair / G Corp. Manager Corporal Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-heathcliff",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585803.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -102,7 +108,8 @@
       "https://www.prydwen.gg/limbus-company/identities/lcb-sinner-heathcliff",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585803.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame D；梯度表 Damage Dealer D",
     "stub": false,

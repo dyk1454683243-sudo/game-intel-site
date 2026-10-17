@@ -49,7 +49,12 @@
     "Res. Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Main DPS Iuno 主位：尤诺 / 吟霖 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/yinlin ，as_of 2026-10-05）",
+      "Prydwen · Jinhsi Team 主位：今汐 / 吟霖 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/yinlin ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/624258.html",
     "https://www.prydwen.gg/wuthering-waves/characters/yinlin"

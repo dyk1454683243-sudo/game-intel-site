@@ -55,7 +55,12 @@
     "Res. Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：西格莉卡 / 仇远 / 夏空（https://www.prydwen.gg/wuthering-waves/characters/qiuyuan ，as_of 2026-10-10）",
+      "Prydwen · Phrolova Team 主位：弗洛洛 / 洛瑟菈 / 仇远（https://www.prydwen.gg/wuthering-waves/characters/qiuyuan ，as_of 2026-10-10）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/qiuyuan",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3470",

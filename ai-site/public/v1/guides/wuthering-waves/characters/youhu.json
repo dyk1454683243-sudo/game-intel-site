@@ -60,7 +60,12 @@
     "Basic Attack",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team：卡卡罗 / 吟霖 / 釉瑚（https://www.prydwen.gg/wuthering-waves/characters/youhu ，as_of 2026-10-05）",
+      "Prydwen · Zhezhi Team：凌阳 / 折枝 / 釉瑚（https://www.prydwen.gg/wuthering-waves/characters/youhu ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/632075.html",
     "https://www.prydwen.gg/wuthering-waves/characters/youhu"

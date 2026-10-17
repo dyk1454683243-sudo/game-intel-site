@@ -60,7 +60,12 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：椿 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/camellya ，as_of 2026-10-05）",
+      "Prydwen · Alternative Team 主位：椿 / 丹瑾 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/camellya ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/636238.html",
     "https://www.prydwen.gg/wuthering-waves/characters/camellya"
@@ -78,8 +83,21 @@
       "https://www.gamekee.com/mc/636238.html",
       "https://www.prydwen.gg/wuthering-waves/characters/camellya"
     ],
-    "stub": true,
-    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
-    "position": "5★ / 湮灭 / 迅刀"
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 湮灭 / 迅刀",
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T3 / Whimpering Wastes T3"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/camellya",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T3",
+        "whimpering": "T3"
+      }
+    ]
   }
 }

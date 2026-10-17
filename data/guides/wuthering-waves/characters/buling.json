@@ -55,7 +55,12 @@
     "Intro Skill",
     "Res. Liberation"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team：心 / 漂泊者·导电 / 卜灵（https://www.prydwen.gg/wuthering-waves/characters/buling ，as_of 2026-10-05）",
+      "Prydwen · Alternative Teams 主位：弗洛洛 / 坎特蕾拉 / 卜灵（https://www.prydwen.gg/wuthering-waves/characters/buling ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/buling",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3701",

@@ -33,7 +33,12 @@
   "weapon": "忍者之力",
   "element": "水冷",
   "manufacturer": "极乐净土",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · All · Water Mayhem：小美人鱼 / 皇冠 / 鲁德米拉：冬日之主 / Helm (Treasure) / 德尔塔：怪盗忍者（https://www.prydwen.gg/nikke/characters/delta-ninja-thief ，as_of 2026-10-18）",
+      "Prydwen · PVP · All · The Ol' Biscuit Special：德尔塔：怪盗忍者 / 饼干 / 小红帽 / 特蕾娜 / 爱蜜莉雅（https://www.prydwen.gg/nikke/characters/delta-ninja-thief ，as_of 2026-10-18）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/delta-ninja-thief",
     "https://www.gamekee.com/nikke/680619.html",

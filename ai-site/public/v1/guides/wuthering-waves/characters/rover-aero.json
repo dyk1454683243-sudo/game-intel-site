@@ -61,7 +61,12 @@
     "Res. Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：卡提希娅 / 夏空 / 漂泊者·气动（https://www.prydwen.gg/wuthering-waves/characters/rover-aero ，as_of 2026-10-05）",
+      "Prydwen · Main DPS Iuno Team 主位：尤诺 / 夏空 / 漂泊者·气动（https://www.prydwen.gg/wuthering-waves/characters/rover-aero ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/664652.html",
     "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",

@@ -60,7 +60,11 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：露西 / 蕾贝卡 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/lucy ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/lucy",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4784",

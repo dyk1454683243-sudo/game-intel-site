@@ -70,12 +70,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Charge：MultiCrack Office Rep Faust / Lobotomy E.G.O::In the Name of Love and Hate Don Quixote / W Corp. L3 Cleanup Agent Ryoshu / W Corp. L4 Cleanup Agent - CCA Heathcliff / W Corp. L3 Cleanup Captain Outis / R Corp. 4th Pack Reindeer Hong Lu / Lobotomy E.G.O::The Sword Sharpened with Tears Rodion / LCB Sinner Yi Sang / The Middle Little Brother Meursault / R Corp. 4th Pack Reindeer Ishmael / Los Mariachis Jefe Sinclair / LCB Sinner Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）",
+      "Prydwen · Envy-Resonance：The Middle Little Brother Sinclair / The Middle Little Brother Meursault / R Corp. 4th Pack Reindeer Rodion / Lobotomy E.G.O::In the Name of Love and Hate Don Quixote / The House of Spiders: The Middle Apprentice Ishmael / MultiCrack Office Rep Faust / R Corp. 4th Pack Reindeer Hong Lu / LCB Sinner Yi Sang / LCB Sinner Heathcliff / Lobotomy E.G.O::Red Eyes & Penitence Ryoshu / W Corp. L3 Cleanup Captain Outis / R.B. Sous-chef Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/multicrack-office-rep-faust",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585793.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -102,7 +108,8 @@
       "https://www.prydwen.gg/limbus-company/identities/multicrack-office-rep-faust",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585793.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
     "stub": false,
