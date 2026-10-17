@@ -4,7 +4,7 @@
  */
 import { portraitImgSrc } from "./portrait.js";
 
-export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2", "arknights-endfield"]);
+export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2"]);
 
 export const WATCH_ORDER = Object.freeze([
   { id: "hw", name: "Horizon Walker", name_zh: "地平线行者" },
@@ -14,7 +14,6 @@ export const WATCH_ORDER = Object.freeze([
   { id: "asora", name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   { id: "miraesi", name: "Invisible Future", name_zh: "미래시" },
   { id: "lo2", name: "Last Origin 2", name_zh: "Last Origin 2" },
-  { id: "arknights-endfield", name: "Arknights: Endfield", name_zh: "明日方舟：终末地" },
 ]);
 
 const NAV = [
@@ -612,7 +611,7 @@ ${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · $
     .join("");
   const meta = watchlist && watchlist.meta;
   return `<h1>观察名单</h1>
-<p class="lede">地平线行者、NIKKE、棕色尘埃2、终末地有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
+<p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
 <div class="stack">${cards}</div>
@@ -801,7 +800,7 @@ export function renderCharacter(gameId, card, opts = {}) {
     return `<article class="sheet sheet-stub"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)}</p>
 ${depthBanner("stub", "尚无深耕")}
 <h1>尚无深耕</h1>
-<p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）、明日方舟：终末地（arknights-endfield）。</p>
+<p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）。</p>
 <p class="flags">${flag("尚无深耕", "gap")}</p>
 ${requested ? `<p class="follow-row">${followButton("char", id, requested)}</p>` : ""}</article>`;
   }

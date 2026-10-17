@@ -3,10 +3,10 @@
     "generated_at": "2026-09-28T01:43:18+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。 2026-10-17：追加终末地 Sanctuary of Ink 公告一条，其余游戏未重抓。"
+    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
   },
   "ok": true,
-  "count": 8,
+  "count": 7,
   "digests": [
     {
       "game": "hw",
@@ -264,25 +264,6 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
-        }
-      ]
-    },
-    {
-      "game": "arknights-endfield",
-      "name": "明日方舟：终末地",
-      "alias": "zmd",
-      "ok": true,
-      "count": 1,
-      "sources": [
-        "official"
-      ],
-      "items": [
-        {
-          "title": "[Sanctuary of Ink] Version Update Notes",
-          "url": "https://endfield.gryphline.com/en-us/news/9560",
-          "date": "2026-10-15T01:00:00.000Z",
-          "source": "official",
-          "summary": "官网公告：Asia Server 于 Oct. 15, 2026 06:00–12:00（UTC+8）维护，版本名为 [Sanctuary of Ink]。新干员是 6★ Si 与 Argent Flow。特许寻访 [Rejuvenation] 的 Rate-UP 是 Si，写到 Nov. 5, 2026 11:59（server time）。公告没有写数字版本号 1.6。"
         }
       ]
     }
