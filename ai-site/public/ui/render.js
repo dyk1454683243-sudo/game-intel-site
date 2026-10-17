@@ -4,7 +4,7 @@
  */
 import { portraitImgSrc } from "./portrait.js";
 
-export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2", "limbus-company"]);
+export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2"]);
 
 export const WATCH_ORDER = Object.freeze([
   { id: "hw", name: "Horizon Walker", name_zh: "地平线行者" },
@@ -14,7 +14,6 @@ export const WATCH_ORDER = Object.freeze([
   { id: "asora", name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   { id: "miraesi", name: "Invisible Future", name_zh: "미래시" },
   { id: "lo2", name: "Last Origin 2", name_zh: "Last Origin 2" },
-  { id: "limbus-company", name: "Limbus Company", name_zh: "边狱公司" },
 ]);
 
 const NAV = [
@@ -169,10 +168,7 @@ export function filterCharacters(chars, q, aliasesById) {
   if (!query) return list;
   return list.filter((card) => {
     const extra = (aliasesById && aliasesById[card.id]) || [];
-    const sinner = card.sinner && typeof card.sinner === "object" ? card.sinner : {};
-    const hay = [card.id, card.name, card.name_zh, sinner.id, sinner.name, sinner.name_en, sinner.name_zh, ...extra]
-      .join("\n")
-      .toLowerCase();
+    const hay = [card.id, card.name, card.name_zh, ...extra].join("\n").toLowerCase();
     return hay.includes(query);
   });
 }
@@ -512,11 +508,7 @@ function renderBanners(doc) {
 
 function renderCodes(doc) {
   const rows = doc && Array.isArray(doc.codes) ? doc.codes : [];
-  if (!rows.length) {
-    const note = doc && typeof doc.note === "string" ? doc.note.trim() : "";
-    if (!note) return "";
-    return `<h2>兑换码</h2><p class="rule">${esc(note)}</p>`;
-  }
+  if (!rows.length) return "";
   const items = rows
     .map((row) => {
       const label = CODE_STATUS[row.status] || row.status || "";
@@ -545,36 +537,19 @@ export function renderGame(game, extras = {}) {
     const chars = (guideIndex && guideIndex.characters) || [];
     const filtered = filterCharacters(chars, q, aliasesById);
     const count = guideIndex && guideIndex.character_count != null ? guideIndex.character_count : chars.length;
-    const rowHtml = (card) => {
-      const name = card.name_zh || card.name || card.id;
-      const stub = card.stub === true ? ` ${flag("stub", "stub")}` : "";
-      const tone = card.stub === true ? "char-stub" : "char-deep";
-      return `<li><a class="char-row ${tone}" href="${esc(characterHref(game.id, card.id))}">${portraitTag(card)}<span><span class="row-title">${esc(name)}</span> <code>${esc(card.id)}</code>${stub}</span></a></li>`;
-    };
-    const grouped = filtered.some((card) => card.sinner && card.sinner.id);
-    const unit = game.id === "limbus-company" ? "人格" : "角色";
-    let listHtml = `<p class="meta">深耕目录为空</p>`;
-    if (filtered.length && !grouped) listHtml = `<ul class="char-list">${filtered.map(rowHtml).join("")}</ul>`;
-    if (filtered.length && grouped) {
-      const groups = new Map();
-      for (const card of filtered) {
-        const sinner = card.sinner && card.sinner.id ? card.sinner : { id: "", name_zh: "未分组", order: 999 };
-        if (!groups.has(sinner.id)) groups.set(sinner.id, { ...sinner, cards: [] });
-        groups.get(sinner.id).cards.push(card);
-      }
-      listHtml = [...groups.values()]
-        .sort((a, b) => (Number(a.order) || 999) - (Number(b.order) || 999) || String(a.name_zh || a.id).localeCompare(String(b.name_zh || b.id), "zh"))
-        .map((group) => {
-          const title = group.name_zh || group.name_en || group.name || group.id || "未分组";
-          return `<section class="sinner-group"><h3>${esc(title)}${group.id ? ` <code>${esc(group.id)}</code>` : ""}</h3><ul class="char-list">${group.cards.map(rowHtml).join("")}</ul></section>`;
-        })
-        .join("");
-    }
-    deepBlock = `<h2>${unit}</h2>
-<p class="rule">图鉴只对观察名单里已深耕的游戏开放。角色卡来自 <code>/v1/guides/${esc(game.id)}/</code>，页内是结论、技能养成、配队、出处、立绘。${grouped ? "边狱公司以人格为卡，并按罪人分组。" : ""}</p>
-<form id="filters" role="search"><label>搜索${unit} <input id="q" name="q" type="search" value="${esc(q)}" placeholder="角色名、别名或 id" autocomplete="off"/></label></form>
+    const rows = filtered
+      .map((card) => {
+        const name = card.name_zh || card.name || card.id;
+        const stub = card.stub === true ? ` ${flag("stub", "stub")}` : "";
+        const tone = card.stub === true ? "char-stub" : "char-deep";
+        return `<li><a class="char-row ${tone}" href="${esc(characterHref(game.id, card.id))}">${portraitTag(card)}<span><span class="row-title">${esc(name)}</span> <code>${esc(card.id)}</code>${stub}</span></a></li>`;
+      })
+      .join("");
+    deepBlock = `<h2>角色</h2>
+<p class="rule">图鉴只对观察名单里已深耕的游戏开放。角色卡来自 <code>/v1/guides/${esc(game.id)}/</code>，页内是结论、技能养成、配队、出处、立绘。</p>
+<form id="filters" role="search"><label>搜索角色 <input id="q" name="q" type="search" value="${esc(q)}" placeholder="角色名、别名或 id" autocomplete="off"/></label></form>
 <p class="meta">${esc(count)} 名，显示 ${filtered.length} 名</p>
-${listHtml}`;
+${rows ? `<ul class="char-list">${rows}</ul>` : `<p class="meta">深耕目录为空</p>`}`;
   }
   const tone = deep ? "sheet sheet-deep" : "sheet sheet-stub";
   const pools = deep ? `${renderBanners(extras.banners)}${renderCodes(extras.codes)}` : "";
@@ -636,7 +611,7 @@ ${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · $
     .join("");
   const meta = watchlist && watchlist.meta;
   return `<h1>观察名单</h1>
-<p class="lede">地平线行者、NIKKE、棕色尘埃2、边狱公司有角色深耕。边狱公司按罪人分组。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
+<p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
 <div class="stack">${cards}</div>
@@ -679,45 +654,6 @@ function portraitTag(card, large) {
     return `<span class="${cls} placeholder" role="img" aria-label="${esc(name)}，无头像">无图</span>`;
   }
   return `<img class="${cls}" src="${esc(src)}" alt="${esc(name)}" loading="lazy" decoding="async"/>`;
-}
-
-function renderIdentityFacts(card) {
-  const parts = [];
-  const sinner = card.sinner && typeof card.sinner === "object" ? card.sinner : null;
-  if (sinner && (sinner.id || sinner.name_zh || sinner.name_en)) {
-    const label = sinner.name_zh || sinner.name_en || sinner.id;
-    const src = safeHttpUrl(sinner.source);
-    parts.push(
-      `<p><span class="k">罪人</span> ${esc(label)}${sinner.id ? ` <code>${esc(sinner.id)}</code>` : ""}${src ? ` ${link(src, "罪人出处")}` : ""}</p>`
-    );
-  }
-  if (Array.isArray(card.sin_affinities) && card.sin_affinities.length) {
-    const line = card.sin_affinities
-      .map((row) => `${row.sin || ""}${row.count != null ? ` ×${row.count}` : ""}`.trim())
-      .filter(Boolean)
-      .join(" · ");
-    if (line) parts.push(`<p><span class="k">罪孽属性</span> ${esc(line)}</p>`);
-  }
-  const combat = card.combat && typeof card.combat === "object" && !Array.isArray(card.combat) ? card.combat : null;
-  if (combat) {
-    const bits = [];
-    if (combat.level) bits.push(`Lv${combat.level}`);
-    if (combat.max_hp) bits.push(`HP ${combat.max_hp}`);
-    if (combat.speed) bits.push(`速度 ${combat.speed}`);
-    if (combat.defense) bits.push(`防御 ${combat.defense}`);
-    const res = combat.resistances && typeof combat.resistances === "object" ? combat.resistances : null;
-    if (res) {
-      const labels = [
-        ["slash", "斩"],
-        ["pierce", "突"],
-        ["blunt", "打"],
-      ];
-      const shown = labels.filter(([key]) => res[key]).map(([key, label]) => `${label} ${res[key]}`);
-      if (shown.length) bits.push(shown.join(" / "));
-    }
-    if (bits.length) parts.push(`<p><span class="k">面板</span> ${esc(bits.join(" · "))}</p>`);
-  }
-  return parts.join("");
 }
 
 function portraitCite(card) {
@@ -864,7 +800,7 @@ export function renderCharacter(gameId, card, opts = {}) {
     return `<article class="sheet sheet-stub"><p class="crumbs">${link("/watchlist/", "观察名单")} / ${link(gameHref(id), gameLabel)}</p>
 ${depthBanner("stub", "尚无深耕")}
 <h1>尚无深耕</h1>
-<p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）、边狱公司（limbus-company）。</p>
+<p class="rule">角色深耕只开放给地平线行者（hw）、胜利女神：NIKKE（nikke）、棕色尘埃2（bd2）。</p>
 <p class="flags">${flag("尚无深耕", "gap")}</p>
 ${requested ? `<p class="follow-row">${followButton("char", id, requested)}</p>` : ""}</article>`;
   }
@@ -897,11 +833,9 @@ ${marks.length ? `<p class="flags">${marks.join(" ")}</p>` : ""}
 <p class="meta">${esc([en, nick ? `别名 ${nick}` : "", card.as_of ? `as_of ${card.as_of}` : ""].filter(Boolean).join(" · "))}</p>
 ${card.verified ? `<p class="meta">核对：${esc(card.verified)}</p>` : ""}
 ${portraitCite(card)}
-${renderIdentityFacts(card)}
 </div></div>
 ${gapBanner(card)}
 <section><h2>结论</h2>${renderStrength(card)}</section>
-${typeof card.review === "string" && card.review.trim() ? `<section><h2>评述</h2><p>${esc(card.review)}</p></section>` : ""}
 <section><h2>服装</h2>${renderCostumes(card)}</section>
 <section><h2>技能养成</h2>${renderSkills(card)}</section>
 ${renderTeams(card)}
@@ -958,28 +892,19 @@ export function renderMe(doc, opts = {}) {
     })
     .filter(Boolean)
     .join("");
-  const loose = [];
-  const sinnerGroups = new Map();
-  for (const row of follows.chars || []) {
-    const gid = safeId(row && row.game);
-    const cid = safeId(row && row.id);
-    if (!gid || !cid) continue;
-    const key = `${gid}:${cid}`;
-    const name = (labels.chars && labels.chars[key]) || cid;
-    const li = `<li>${link(characterHref(gid, cid), name)} <code>${esc(key)}</code> ${followButton("char", gid, cid, true)}</li>`;
-    const sinner = labels.char_sinner && labels.char_sinner[key];
-    if (sinner && sinner.id) {
-      if (!sinnerGroups.has(sinner.id)) sinnerGroups.set(sinner.id, { ...sinner, items: [] });
-      sinnerGroups.get(sinner.id).items.push(li);
-    } else loose.push(li);
-  }
-  const chars = loose.join("");
-  const sinnerHtml = [...sinnerGroups.values()]
-    .sort((a, b) => (Number(a.order) || 999) - (Number(b.order) || 999) || String(a.name_zh || a.id).localeCompare(String(b.name_zh || b.id), "zh"))
-    .map((group) => `<h3>${esc(group.name_zh || group.name_en || group.id)} <code>${esc(group.id)}</code></h3><ul class="follow-list">${group.items.join("")}</ul>`)
+  const chars = (follows.chars || [])
+    .map((row) => {
+      const gid = safeId(row && row.game);
+      const cid = safeId(row && row.id);
+      if (!gid || !cid) return "";
+      const key = `${gid}:${cid}`;
+      const name = (labels.chars && labels.chars[key]) || cid;
+      return `<li>${link(characterHref(gid, cid), name)} <code>${esc(key)}</code> ${followButton("char", gid, cid, true)}</li>`;
+    })
+    .filter(Boolean)
     .join("");
-  const listHtml = games || chars || sinnerHtml
-    ? `${games ? `<h2>游戏</h2><ul class="follow-list">${games}</ul>` : ""}${chars || sinnerHtml ? `<h2>角色</h2>${chars ? `<ul class="follow-list">${chars}</ul>` : ""}${sinnerHtml}` : ""}`
+  const listHtml = games || chars
+    ? `${games ? `<h2>游戏</h2><ul class="follow-list">${games}</ul>` : ""}${chars ? `<h2>角色</h2><ul class="follow-list">${chars}</ul>` : ""}`
     : `<p class="meta">还没有关注。打开游戏页或角色卡，点「关注」。</p>`;
   const bannerHtml = bannerHits.length
     ? `<ul>${bannerHits.map(personalBannerItem).join("")}</ul>`
@@ -1077,7 +1002,7 @@ export function renderForAi() {
 <li>人读页与 <code>/v1</code> 同步</li>
 </ol>
 <p>MCP 只读已发布数据。新写走公开投稿口 <a href="/claims/"><code>POST /v1/claims</code></a>（公开，不需要密钥；https <code>sources</code> 必填），或走仓库里的导出管线。不另开私有 MCP 写通道。</p>
-<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。深耕图鉴有 hw、nikke、bd2、limbus-company。CDK 不在本站。</p>
+<p class="rule">不编造评分、价格、档位。出处外链在人读页上始终可见。深耕图鉴只有 hw、nikke、bd2。CDK 不在本站。</p>
 <h2>各页对应的 /v1</h2>
 <p>人读页只消费已发布 JSON，不另造第二套库。</p>
 <dl class="facts">
@@ -1086,7 +1011,7 @@ export function renderForAi() {
 <dt>观察名单</dt><dd><code>/v1/watchlist.json</code> · <code>/v1/games/index.json</code> · <code>/v1/guides/index.json</code></dd>
 <dt>我的关注</dt><dd>浏览器 <code>localStorage</code>。分享用 <code>/me/?games=&amp;chars=</code> 或订阅码 <code>gi1.</code>。机器读 <code>GET /v1/personal</code>、<code>/v1/personal.atom</code>，MCP 工具 <code>personal_digest</code>。服务端不保存名单。</dd>
 <dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code>、别名、<code>banners.json</code> 与 <code>codes.json</code>。</dd>
-<dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，hw / nikke / bd2 / limbus-company。边狱公司的卡是人格，带 <code>sinner</code>，游戏页和关注列表按罪人分组。</dd>
+<dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，仅 hw / nikke / bd2。</dd>
 <dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>
 <dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。</dd>
 <dt>草图</dt><dd><code>/sketches/</code> 不读 JSON。</dd>

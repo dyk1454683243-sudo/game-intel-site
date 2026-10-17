@@ -6,7 +6,7 @@
     "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。其余标题未重抓。"
   },
   "ok": true,
-  "count": 8,
+  "count": 7,
   "digests": [
     {
       "game": "hw",
@@ -264,43 +264,6 @@
           "title": "阿索拉：星之祈愿",
           "url": "https://www.taptap.cn/app/855697",
           "source": "taptap"
-        }
-      ]
-    },
-    {
-      "game": "limbus-company",
-      "name": "Limbus Company",
-      "name_zh": "边狱公司",
-      "alias": "limbus",
-      "ok": true,
-      "count": 4,
-      "sources": [
-        "official"
-      ],
-      "items": [
-        {
-          "title": "2026, Oct. 15th Scheduled Update Notice",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-          "date": "2026-10-12T09:14:56.000Z",
-          "source": "official"
-        },
-        {
-          "title": "2026.10.15 (KST) New Identity Target Extraction",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1846018067932619",
-          "date": "2026-10-09T08:59:12.000Z",
-          "source": "official"
-        },
-        {
-          "title": "2026, Oct. 1st Scheduled Update Notice",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
-          "date": "2026-09-28T08:59:21.000Z",
-          "source": "official"
-        },
-        {
-          "title": "New Content - Mirror of Sisyphe",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940410",
-          "date": "2026-10-12T09:14:48.000Z",
-          "source": "official"
         }
       ]
     }
