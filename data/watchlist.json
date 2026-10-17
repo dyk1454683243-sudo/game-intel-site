@@ -95,18 +95,5 @@
     "official_url": "https://astraeoratio.plaync.com/zh-tw/index",
     "official_site": "https://astraeoratio.plaync.com/zh-tw/index",
     "official_api": "asora_official"
-  },
-  "zenless-zone-zero": {
-    "name": "Zenless Zone Zero",
-    "name_zh": "绝区零",
-    "gamekee_alias": "zzz",
-    "keywords": [
-      "绝区零",
-      "绝區零",
-      "Zenless Zone Zero",
-      "ZZZ"
-    ],
-    "official_url": "https://zenless.hoyoverse.com/zh-tw/news",
-    "steam_appid": 4162040
   }
 }
