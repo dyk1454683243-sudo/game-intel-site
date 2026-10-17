@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Developers · game-intel</title>
+  <meta name="description" content="Public read API and remote MCP. The contract below is the published bilingual note."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://game-intel-ai.dyk1454683243.workers.dev/en/developers/"/>
+  <link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/developers/"/>
+  <link rel="alternate" hreflang="en" href="https://game-intel-ai.dyk1454683243.workers.dev/developers/"/>
+  <link rel="alternate" hreflang="ja" href="https://game-intel-ai.dyk1454683243.workers.dev/developers/"/>
+  <link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/developers/"/>
+  <meta property="og:site_name" content="game-intel"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Developers · game-intel"/>
+  <meta property="og:description" content="Public read API and remote MCP. The contract below is the published bilingual note."/>
+  <meta property="og:url" content="https://game-intel-ai.dyk1454683243.workers.dev/en/developers/"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:locale:alternate" content="zh_CN"/>
+  <meta property="og:locale:alternate" content="ja_JP"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Developers · game-intel"/>
+  <meta name="twitter:description" content="Public read API and remote MCP. The contract below is the published bilingual note."/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://game-intel-ai.dyk1454683243.workers.dev/#website","name":"game-intel","url":"https://game-intel-ai.dyk1454683243.workers.dev/","inLanguage":["zh-CN","en","ja"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://game-intel-ai.dyk1454683243.workers.dev/en/"},{"@type":"ListItem","position":2,"name":"Developers","item":"https://game-intel-ai.dyk1454683243.workers.dev/developers/"}],"inLanguage":"en"}]}</script>
+  <link rel="stylesheet" href="/ui/app.css"/>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#111}
+    a{color:#06c} code{background:#f4f4f4;padding:.1em .35em;border-radius:4px}
+    .stub{color:#a60}.rich{color:#070} ul{padding-left:1.2rem}
+    .meta{color:#666;font-size:.9rem} table{border-collapse:collapse;width:100%}
+    td,th{border:1px solid #ddd;padding:.4rem .55rem;text-align:left}
+    .tag{display:inline-block;background:#eef2f7;border-radius:4px;padding:.05em .4em;margin:0 .2em .2em 0;font-size:.85rem}
+    .wl{font-weight:600}
+    .lang-switch{display:flex;gap:.5rem;margin:0 0 1rem}
+    .lang-switch a[aria-current="true"]{font-weight:700}
+    .conclusion{background:#f7fafc;border:1px solid #c8d6e5;border-radius:8px;padding:.75rem 1rem;margin:1rem 0}
+    .conclusion h2{font-size:1rem;margin:0 0 .5rem;color:#234}
+    .conclusion dl{margin:0;display:grid;grid-template-columns:7.5em 1fr;gap:.35rem .75rem}
+    .conclusion dt{font-weight:600;color:#456}
+    .conclusion dd{margin:0}
+    .conclusion .srcs{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem .75rem}
+    .conclusion .srcs a{font-size:.85rem}
+  </style>
+</head>
+<body>
+<nav class="lang-switch" aria-label="Language"><a href="/developers/" hreflang="zh-CN" lang="zh-CN">中文</a><a href="/developers/" hreflang="en" lang="en" aria-current="true">English</a><a href="/developers/" hreflang="ja" lang="ja">日本語</a></nav>
+<header class="top"><a class="brand" href="/en/">game-intel</a><nav aria-label="Primary"><a href="/en/">Home</a>
+<a href="/en/catalog/">Catalog</a>
+<a href="/en/watchlist/">Watchlist</a>
+<a href="/en/me/">Following</a>
+<a href="/en/claims/">Claims</a>
+<a href="/en/for-ai/">For AI</a>
+<a href="/developers/" aria-current="page">Developers</a></nav></header>
+<p>The sections below are the published bilingual contract. Paths, limits, and examples are unchanged.</p>
+<main id="main">
+  <h1>开发者 / Developers</h1>
+  <p class="lede">公开只读 API 和远程 MCP。匿名可调用。事实以已发布 JSON 里的 https 出处为准。</p>
+  <p lang="en">Public read API and remote MCP. Anonymous calls are allowed. A fact is only as strong as the https source stored on that JSON row.</p>
+  <p>Base <code>https://game-intel-ai.dyk1454683243.workers.dev</code></p>
+  <p>契约 / Contract: <a href="/v1/openapi.json"><code>/v1/openapi.json</code></a>（OpenAPI 3.1，与 <a href="/openapi.json"><code>/openapi.json</code></a> 相同）。给代理的路由说明 / Agent map: <a href="/llms.txt"><code>/llms.txt</code></a>。健康检查 / Health: <a href="/v1/health"><code>GET /v1/health</code></a>。</p>
+
+  <h2>端点 / Endpoints</h2>
+  <p>完整路径和响应 schema 在 OpenAPI 里。下面是常用的一组。静态 JSON 带 <code>ETag</code> 和 <code>Cache-Control: public, max-age=300</code>。<code>If-None-Match</code> 返回 304。响应头 <code>X-API-Version: 1</code>。已发布 JSON 正文不另包一层。</p>
+  <p lang="en">The OpenAPI document lists every path and response schema. Static JSON sends <code>ETag</code> and <code>Cache-Control: public, max-age=300</code>. <code>If-None-Match</code> returns 304. Header <code>X-API-Version: 1</code>. Published JSON bodies are not wrapped.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>方法</th><th>路径</th><th>说明 / What</th></tr></thead>
+    <tbody>
+      <tr><td>GET</td><td><code>/v1/health</code></td><td>进程活着即 200。<code>rate_limit</code> 为 <code>degraded</code> 时限流绑定还没配上，请求仍然放行。Liveness. A missing rate-limit binding does not fail the check.</td></tr>
+      <tr><td>GET</td><td><code>/v1/games/index.json</code></td><td>游戏目录。Directory. <code>/v1/games/{id}.json</code> 是单条。</td></tr>
+      <tr><td>GET</td><td><code>/v1/catalog-aliases.json</code></td><td>目录别名 → id。不是角色别名。Catalog nicknames, not character nicknames.</td></tr>
+      <tr><td>GET</td><td><code>/v1/feed.json</code> <code>/v1/digest.json</code> <code>/v1/radar.json</code></td><td>已发布标题、分游戏摘要、新作雷达。空数组是合法结果。Headlines, per-game digest, new-game radar. An empty array is valid.</td></tr>
+      <tr><td>GET</td><td><code>/v1/watchlist.json</code> <code>/v1/calendar.json</code></td><td>观察名单和日程。<code>meta.fixture: true</code> 是示例。Watchlist and calendar.</td></tr>
+      <tr><td>GET</td><td><code>/v1/guides/{game}/banners.json</code></td><td>卡池。名称、UP、时间只来自文件。Banners. Do not invent UP names or times.</td></tr>
+      <tr><td>GET</td><td><code>/v1/guides/{game}/codes.json</code></td><td>兑换码。本接口不代领。<code>expired</code> 和 <code>expiry_not_stated</code> 不要当成可用。Codes. This API does not redeem them.</td></tr>
+      <tr><td>GET</td><td><code>/v1/guides/{game}/characters/{id}.json</code></td><td>角色卡。非 stub 带 https <code>sources</code> 和 <code>as_of</code>。Character card.</td></tr>
+      <tr><td>GET</td><td><code>/v1/personal</code></td><td>无状态个人摘要。查询 <code>games</code>、<code>chars</code>（<code>game:id</code>）或分享码 <code>code=gi1.…</code>。不保存名单。Atom：<code>/v1/personal.atom</code>。Stateless personal digest. Nothing is stored.</td></tr>
+      <tr><td>GET / POST</td><td><code>/v1/claims.json</code> <code>/v1/claims</code></td><td>投稿镜像。POST 不需要密钥，沿用原有 KV 限额（每 IP 每小时 10 条，每天 100 条）。列出的行在人工复核前不可信。Claims stay keyless. Listed rows are untrusted.</td></tr>
+      <tr><td>POST</td><td><code>/mcp</code></td><td>只读 Streamable HTTP MCP。发现文档 <a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>。</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>八款深耕 / Eight deep games</h2>
+  <p>这八款有角色卡、卡池和兑换码。star、asora、miraesi、lo2 仍是薄条目。These eight have character cards, banners, and codes. star, asora, miraesi, and lo2 stay thin.</p>
+  <ul>
+    <li>hw 地平线行者 — <a href="/v1/guides/hw/banners.json">banners</a> · <a href="/v1/guides/hw/codes.json">codes</a></li>
+    <li>nikke 胜利女神：NIKKE — <a href="/v1/guides/nikke/banners.json">banners</a> · <a href="/v1/guides/nikke/codes.json">codes</a></li>
+    <li>bd2 棕色尘埃2 — <a href="/v1/guides/bd2/banners.json">banners</a> · <a href="/v1/guides/bd2/codes.json">codes</a></li>
+    <li>reverse-1999 重返未来：1999 — <a href="/v1/guides/reverse-1999/banners.json">banners</a> · <a href="/v1/guides/reverse-1999/codes.json">codes</a></li>
+    <li>arknights-endfield 明日方舟：终末地 — <a href="/v1/guides/arknights-endfield/banners.json">banners</a> · <a href="/v1/guides/arknights-endfield/codes.json">codes</a></li>
+    <li>limbus-company 边狱公司 — <a href="/v1/guides/limbus-company/banners.json">banners</a> · <a href="/v1/guides/limbus-company/codes.json">codes</a></li>
+    <li>zenless-zone-zero 绝区零 — <a href="/v1/guides/zenless-zone-zero/banners.json">banners</a> · <a href="/v1/guides/zenless-zone-zero/codes.json">codes</a></li>
+    <li>wuthering-waves 鸣潮 — <a href="/v1/guides/wuthering-waves/banners.json">banners</a> · <a href="/v1/guides/wuthering-waves/codes.json">codes</a></li>
+  </ul>
+
+  <h2>试用 / Try it</h2>
+  <pre>curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/health
+curl -sS -D - -o /dev/null https://game-intel-ai.dyk1454683243.workers.dev/v1/guides/nikke/banners.json
+curl -sS "https://game-intel-ai.dyk1454683243.workers.dev/v1/personal?games=hw&amp;chars=hw:ai_mi_li_ya"
+curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/guides/bd2/codes.json \
+  -H 'X-API-Key: YOUR_KEY'</pre>
+  <p>把上一次响应的 <code>ETag</code> 放进 <code>If-None-Match</code>，正文没变时得到 304。Send the previous <code>ETag</code> as <code>If-None-Match</code> to get 304 when the body is unchanged.</p>
+
+  <h2>限额与可选密钥 / Limits and an optional key</h2>
+  <p>不带密钥就能读。<code>/v1</code> 和 <code>/mcp</code> 按调用方限流：匿名每 IP 每 60 秒 120 次；带有效密钥每密钥每 60 秒 1200 次。计数按 Cloudflare 节点，不是全球总和。超限是 HTTP 429，带 <code>Retry-After: 60</code>，正文是</p>
+  <p lang="en">Reads work with no key. <code>/v1</code> and <code>/mcp</code> are limited per caller: 120 requests per 60 seconds per IP when anonymous, 1200 per 60 seconds per key when a valid key is sent. Counters are per Cloudflare location, not a global total. Over the limit is HTTP 429 with <code>Retry-After: 60</code> and this body:</p>
+  <pre>{ "ok": false, "error": "rate_limited", "message": "…", "api_version": "1", "status": 429, "tier": "anonymous", "limit": 120, "retry_after": 60 }</pre>
+  <p>密钥放在 Worker secret <code>GAME_INTEL_API_KEYS</code>（逗号分隔）。仓库里没有真实密钥。没配置这个 secret 时，不要带密钥，否则是 401 <code>invalid_api_key</code>。绑定还没发布时，Worker 放行请求，不返回 500。<code>GET /v1/health</code> 的 <code>rate_limit</code> 会写成 <code>degraded</code>。</p>
+  <p lang="en">Keys live in the Worker secret <code>GAME_INTEL_API_KEYS</code> (comma-separated). No real key is in the repo. Until that secret is set, omit the key; a presented key is HTTP 401 <code>invalid_api_key</code>. If the rate-limit bindings are not deployed yet, requests are allowed and do not 500. <code>GET /v1/health</code> then reports <code>rate_limit: "degraded"</code>.</p>
+  <p>请求头用 <code>X-API-Key: YOUR_KEY</code> 或 <code>Authorization: Bearer YOUR_KEY</code>。这不是 <code>CLAIMS_API_KEY</code>。<code>POST /v1/claims</code> 忽略这两个密钥，也走原来的 KV 限额，错误正文仍是 <code>{ok:false,error,scope,limit}</code>。</p>
+  <p lang="en"><code>POST /v1/claims</code> ignores both secrets and keeps its existing KV limiter. Its error body is unchanged.</p>
+  <p>其他闸门错误统一为 <code>{ok:false, error, message, api_version, status}</code>。MCP 协议错误仍是 JSON-RPC。<code>/mcp</code> 的 HTTP 429 用上面的 JSON。</p>
+  <p lang="en">Other gate errors use <code>{ok:false, error, message, api_version, status}</code>. MCP protocol errors stay JSON-RPC. HTTP 429 on <code>/mcp</code> uses the gate JSON.</p>
+
+  <h2>MCP</h2>
+  <p>先读 <a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>，再向 <code>/mcp</code> 发 JSON-RPC POST。工具只读已发布 JSON，包括八款深耕的 <code>list_banners</code>、<code>list_codes</code> 和 <code>personal_digest</code>。描述是中英双语。</p>
+  <p lang="en">Read <code>/.well-known/mcp.json</code>, then POST JSON-RPC to <code>/mcp</code>. Tools are read-only, including <code>list_banners</code>, <code>list_codes</code>, and <code>personal_digest</code> for the eight deep games. Descriptions are bilingual.</p>
+
+  <h3>Cursor</h3>
+  <p><code>~/.cursor/mcp.json</code> 或项目里的 <code>.cursor/mcp.json</code>。</p>
+  <pre>{
+  "mcpServers": {
+    "game-intel": {
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev/mcp"
+    }
+  }
+}</pre>
+  <p>有密钥时加上 <code>"headers": { "X-API-Key": "YOUR_KEY" }</code>。With a key, add that headers object.</p>
+
+  <h3>Claude Desktop</h3>
+  <p>支持远程 HTTP 的版本，写在 <code>claude_desktop_config.json</code>。Builds that speak remote HTTP:</p>
+  <pre>{
+  "mcpServers": {
+    "game-intel": {
+      "type": "http",
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev/mcp"
+    }
+  }
+}</pre>
+  <p>只支持 stdio 的旧版本可以用 mcp-remote。Older stdio-only builds can use mcp-remote:</p>
+  <pre>{
+  "mcpServers": {
+    "game-intel": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://game-intel-ai.dyk1454683243.workers.dev/mcp"]
+    }
+  }
+}</pre>
+
+  <h3>通用 Streamable HTTP / Generic client</h3>
+  <pre>curl -sS https://game-intel-ai.dyk1454683243.workers.dev/mcp \
+  -H 'content-type: application/json' \
+  -H 'accept: application/json, text/event-stream' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"curl","version":"0"}}}'</pre>
+  <p>接着 <code>notifications/initialized</code>，再 <code>tools/list</code> 和 <code>tools/call</code>。现代协议 <code>2026-07-28</code> 还要带上与 body 一致的 <code>MCP-Protocol-Version</code>、<code>Mcp-Method</code>、<code>Mcp-Name</code>。Then send <code>notifications/initialized</code>, <code>tools/list</code>, and <code>tools/call</code>. Protocol <code>2026-07-28</code> also requires those headers to match the body.</p>
+
+  <h2>出处 / Sources</h2>
+  <ul>
+    <li>两条链接冲突时：官方（Steam 新闻、发行商、商店页）优先于评测站（Prydwen、Inven、GameKee 测评、巴哈、TapTap），再优先于论坛。When two links disagree: official, then review sites, then forums.</li>
+    <li>JSON 里没有的判断，说「未见可靠出处」，不要补。If the JSON does not support a claim, say so. Do not fill the gap.</li>
+    <li>引用时带上该行的 <code>url</code> 或 <code>sources</code>，以及 <code>as_of</code>。不要改写成没有出处的数字、价格或概率。Quote the stored URL and <code>as_of</code>. Do not turn a row into a number, price, or rate that was not published.</li>
+    <li><code>stub: true</code> 是身份或不完整卡，不是结论。A stub is an identity or an incomplete card, not a conclusion.</li>
+    <li><code>POST /v1/claims</code> 的行是投稿，不是已复核事实。Claim rows are submissions, not reviewed facts.</li>
+  </ul>
+
+  <h2>授权与署名 / License and attribution</h2>
+  <p>本仓库代码以 <a href="https://github.com/dyk1454683243-sudo/game-intel-site/blob/main/LICENSE">MIT License</a> 授权。MIT 只覆盖这些程序和文档，不覆盖游戏名、立绘、评测正文或别人站点上的页面。</p>
+  <p lang="en">Code in this repository is MIT. That license covers the program and these docs. It does not cover game titles, portraits, review prose, or pages on someone else's site.</p>
+  <ul>
+    <li>转述一条 JSON 时保留 <code>sources</code>（或 <code>source</code> / <code>url</code>）和 <code>as_of</code>，并链回本 API 或那条 https 出处。When you repeat a row, keep its source URL and <code>as_of</code>, and link this API or that https source.</li>
+    <li>不要去掉出处后再把句子说成你自己的结论。Do not strip the citation and present the sentence as your own finding.</li>
+    <li>立绘走 <code>/v1/portrait</code> 只是为了在本站显示允许的图。再发布图片要遵守图片所在站点的条款。The portrait proxy only displays allowlisted images here. Republishing those bytes follows the host site's terms.</li>
+    <li>兑换码是已发布的对照表，不是代领服务。Codes are a published list, not a redeem service.</li>
+  </ul>
+</main>
+<hr/>
+<p class="meta">game-intel · Asia/Shanghai</p>
+</body>
+</html>

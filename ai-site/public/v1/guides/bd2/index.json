@@ -2,7 +2,7 @@
   "game": "bd2",
   "name": "Brown Dust 2",
   "name_zh": "棕色尘埃2",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "character_count": 87,
   "rich_count": 87,
@@ -22,7 +22,8 @@
         "https://www.gamekee.com/zsca2/593578.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/851901.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/851901.png",
+      "rarity": "3星"
     },
     {
       "id": "achila",
@@ -32,7 +33,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/718485.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/7/25/01625875mt8fju53.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/7/25/01625875mt8fju53.png",
+      "rarity": "5星"
     },
     {
       "id": "ai_li_jie",
@@ -43,7 +45,8 @@
         "https://www.gamekee.com/zsca2/593626.html",
         "https://www.gamekee.com/zsca2/646162.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/120117.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/120117.png",
+      "rarity": "5星"
     },
     {
       "id": "ai_li_si",
@@ -53,7 +56,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/624137.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/771189.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/771189.png",
+      "rarity": "5星"
     },
     {
       "id": "ai_ma",
@@ -64,7 +68,8 @@
         "https://www.gamekee.com/zsca2/593580.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/860822.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/860822.png",
+      "rarity": "3星"
     },
     {
       "id": "ai_ni_er",
@@ -75,7 +80,8 @@
         "https://www.gamekee.com/zsca2/593632.html",
         "https://www.gamekee.com/zsca2/640590.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/363265.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/363265.png",
+      "rarity": "5星"
     },
     {
       "id": "ai_rui_ke",
@@ -85,7 +91,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593614.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/82892.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/82892.png",
+      "rarity": "5星"
     },
     {
       "id": "an_de_lu",
@@ -95,7 +102,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593635.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/732700.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/732700.png",
+      "rarity": "4星"
     },
     {
       "id": "an_jie_li_ka",
@@ -106,7 +114,8 @@
         "https://www.gamekee.com/zsca2/597740.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/605722.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/605722.png",
+      "rarity": "5星"
     },
     {
       "id": "an_na_ta_xi_ya",
@@ -116,7 +125,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593623.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/572761.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/572761.png",
+      "rarity": "5星"
     },
     {
       "id": "ao_er_shi_ta_yin",
@@ -127,7 +137,8 @@
         "https://www.gamekee.com/zsca2/593587.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/445033.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/445033.png",
+      "rarity": "5星"
     },
     {
       "id": "ban_ta_na",
@@ -138,7 +149,8 @@
         "https://www.gamekee.com/zsca2/602076.html",
         "https://www.gamekee.com/zsca2/645460.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/423156.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/423156.png",
+      "rarity": "5星"
     },
     {
       "id": "bei_na_ka",
@@ -149,7 +161,8 @@
         "https://www.gamekee.com/zsca2/625113.html",
         "https://www.gamekee.com/zsca2/642168.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/850774.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/850774.png",
+      "rarity": "5星"
     },
     {
       "id": "bi_a_te_li_si",
@@ -160,7 +173,8 @@
         "https://www.gamekee.com/zsca2/593613.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/785656.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/785656.png",
+      "rarity": "3星"
     },
     {
       "id": "blade",
@@ -171,7 +185,8 @@
         "https://www.gamekee.com/zsca2/648133.html",
         "https://www.gamekee.com/zsca2/648123.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/875658.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/875658.png",
+      "rarity": "5星"
     },
     {
       "id": "celia",
@@ -182,7 +197,8 @@
         "https://www.gamekee.com/zsca2/593569.html",
         "https://www.gamekee.com/zsca2/650131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/589849.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/589849.png",
+      "rarity": "5星"
     },
     {
       "id": "da_fei",
@@ -193,7 +209,8 @@
         "https://www.gamekee.com/zsca2/607173.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/258688.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/258688.png",
+      "rarity": "5星"
     },
     {
       "id": "dalian",
@@ -203,7 +220,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/678559.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/29/153750.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/29/153750.png",
+      "rarity": "5星"
     },
     {
       "id": "diana",
@@ -214,7 +232,8 @@
         "https://www.gamekee.com/zsca2/603227.html",
         "https://www.gamekee.com/zsca2/609774.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/385216.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/385216.png",
+      "rarity": "5星"
     },
     {
       "id": "e_er_bi_si",
@@ -229,7 +248,8 @@
         "https://browndust2.miraheze.org/wiki/Elpis/Hand_of_Salvation",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/217442.png",
+      "rarity": "4星"
     },
     {
       "id": "elf_archer",
@@ -239,7 +259,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/660211.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/407389.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/407389.png",
+      "rarity": "5星"
     },
     {
       "id": "fu_lei_de",
@@ -250,7 +271,8 @@
         "https://www.gamekee.com/zsca2/593194.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/803065.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/803065.png",
+      "rarity": "3星"
     },
     {
       "id": "ge_lei",
@@ -260,7 +282,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593582.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/970049.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/970049.png",
+      "rarity": "5星"
     },
     {
       "id": "glansheit",
@@ -270,7 +293,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/611786.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/526840.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/526840.png",
+      "rarity": "5星"
     },
     {
       "id": "goblin_slayer",
@@ -281,7 +305,8 @@
         "https://www.gamekee.com/zsca2/660204.html",
         "https://www.gamekee.com/zsca2/660135.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/403638.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/403638.png",
+      "rarity": "5星"
     },
     {
       "id": "granade",
@@ -291,7 +316,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/689646.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/0/13/244767.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/0/13/244767.png",
+      "rarity": "5星"
     },
     {
       "id": "hai_lun_na",
@@ -302,7 +328,8 @@
         "https://www.gamekee.com/zsca2/593630.html",
         "https://www.gamekee.com/zsca2/644624.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/610507.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/610507.png",
+      "rarity": "5星"
     },
     {
       "id": "hikage",
@@ -313,7 +340,8 @@
         "https://www.gamekee.com/zsca2/637920.html",
         "https://www.gamekee.com/zsca2/637867.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/183515.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/183515.png",
+      "rarity": "5星"
     },
     {
       "id": "holy_ustia",
@@ -324,7 +352,8 @@
         "https://www.gamekee.com/zsca2/626508.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/281148.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/281148.png",
+      "rarity": "5星"
     },
     {
       "id": "ikaros",
@@ -334,7 +363,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/701014.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/3/7/639581.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/3/7/639581.png",
+      "rarity": "5星"
     },
     {
       "id": "izumo_tenka",
@@ -344,7 +374,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/720262.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/8/07197398mtsh0rw3.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/8/07197398mtsh0rw3.png",
+      "rarity": "5星"
     },
     {
       "id": "jie_deng",
@@ -354,7 +385,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593638.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/19112.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/19112.png",
+      "rarity": "4星"
     },
     {
       "id": "jie_ni_si",
@@ -365,7 +397,8 @@
         "https://www.gamekee.com/zsca2/603226.html",
         "https://www.gamekee.com/zsca2/668707.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/370556.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/370556.png",
+      "rarity": "5星"
     },
     {
       "id": "jun_te",
@@ -377,7 +410,8 @@
         "https://www.gamekee.com/zsca2/614967.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/467009.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/467009.png",
+      "rarity": "3星"
     },
     {
       "id": "ka_sen",
@@ -388,7 +422,8 @@
         "https://www.gamekee.com/zsca2/593599.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/465581.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/465581.png",
+      "rarity": "3星"
     },
     {
       "id": "ke_lai",
@@ -399,7 +434,8 @@
         "https://www.gamekee.com/zsca2/593645.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/40835.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/40835.png",
+      "rarity": "4星"
     },
     {
       "id": "ke_lei_xi_ya",
@@ -409,7 +445,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/600786.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/224172.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/224172.png",
+      "rarity": "5星"
     },
     {
       "id": "la_de_er",
@@ -420,7 +457,8 @@
         "https://www.gamekee.com/zsca2/593531.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/170495.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/170495.png",
+      "rarity": "5星"
     },
     {
       "id": "la_fei_na",
@@ -431,7 +469,8 @@
         "https://www.gamekee.com/zsca2/593625.html",
         "https://www.gamekee.com/zsca2/593518.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/728991.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/728991.png",
+      "rarity": "5星"
     },
     {
       "id": "lai_ke_li_si",
@@ -441,7 +480,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593624.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/982460.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/982460.png",
+      "rarity": "5星"
     },
     {
       "id": "lai_wei_ya",
@@ -453,7 +493,8 @@
         "https://www.gamekee.com/zsca2/635245.html",
         "https://www.gamekee.com/zsca2/593518.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/803385.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/803385.png",
+      "rarity": "5星"
     },
     {
       "id": "lei_la",
@@ -463,7 +504,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593657.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/285156.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/285156.png",
+      "rarity": "4星"
     },
     {
       "id": "lei_nan_te",
@@ -474,7 +516,8 @@
         "https://www.gamekee.com/zsca2/593575.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/519039.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/519039.png",
+      "rarity": "3星"
     },
     {
       "id": "levita",
@@ -486,7 +529,8 @@
         "https://www.gamekee.com/zsca2/651002.html",
         "https://www.gamekee.com/zsca2/646865.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/593234.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/593234.png",
+      "rarity": "5星"
     },
     {
       "id": "li_di_ya",
@@ -497,7 +541,8 @@
         "https://www.gamekee.com/zsca2/593595.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/570673.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/570673.png",
+      "rarity": "3星"
     },
     {
       "id": "li_xi_an",
@@ -510,7 +555,8 @@
         "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
         "https://browndust2.miraheze.org/wiki/Lisianne/Wandering_Priest"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/969823.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/969823.png",
+      "rarity": "4星"
     },
     {
       "id": "li_ya_te_li_si",
@@ -521,7 +567,8 @@
         "https://www.gamekee.com/zsca2/593608.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/914813.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/914813.png",
+      "rarity": "5星"
     },
     {
       "id": "li_zi_nei",
@@ -532,7 +579,8 @@
         "https://www.gamekee.com/zsca2/593607.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/678419.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/678419.png",
+      "rarity": "3星"
     },
     {
       "id": "lu_ban_xi_ya",
@@ -544,7 +592,8 @@
         "https://www.gamekee.com/zsca2/640150.html",
         "https://www.gamekee.com/zsca2/644616.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/729325.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/729325.png",
+      "rarity": "5星"
     },
     {
       "id": "lu_ke_lei_qi_ya",
@@ -555,7 +604,8 @@
         "https://www.gamekee.com/zsca2/593653.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/897702.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/897702.png",
+      "rarity": "4星"
     },
     {
       "id": "luo_an",
@@ -566,7 +616,8 @@
         "https://www.gamekee.com/zsca2/621763.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/99242.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/99242.png",
+      "rarity": "5星"
     },
     {
       "id": "luo_qi_xi",
@@ -576,7 +627,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/622875.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/452236.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/452236.png",
+      "rarity": "5星"
     },
     {
       "id": "ma_li_ya",
@@ -589,7 +641,8 @@
         "https://browndust2.miraheze.org/wiki/Maria/Archmage",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/131036.png",
+      "rarity": "3星"
     },
     {
       "id": "mammonile",
@@ -599,7 +652,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/698749.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/2/24/816382.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/2/24/816382.png",
+      "rarity": "5星"
     },
     {
       "id": "micaela",
@@ -611,7 +665,8 @@
         "https://www.gamekee.com/zsca2/641154.html",
         "https://www.gamekee.com/zsca2/633839.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/387701.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/387701.png",
+      "rarity": "5星"
     },
     {
       "id": "mo_fei_ya",
@@ -623,7 +678,8 @@
         "https://www.gamekee.com/zsca2/657320.html",
         "https://www.gamekee.com/zsca2/632311.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/731117.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/731117.png",
+      "rarity": "5星"
     },
     {
       "id": "na_luo_da_si",
@@ -633,7 +689,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/607899.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/967284.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/967284.png",
+      "rarity": "5星"
     },
     {
       "id": "nei_bu_li_si",
@@ -644,7 +701,8 @@
         "https://www.gamekee.com/zsca2/625800.html",
         "https://www.gamekee.com/zsca2/636873.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/240970.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/240970.png",
+      "rarity": "5星"
     },
     {
       "id": "nevendaria",
@@ -654,7 +712,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/707171.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/50118/497891/2026/5/3/1780473290619_1780473249196_gusx84cisa_pg2b8hhscm.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/50118/497891/2026/5/3/1780473290619_1780473249196_gusx84cisa_pg2b8hhscm.png",
+      "rarity": "5星"
     },
     {
       "id": "oliver",
@@ -664,7 +723,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/670435.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/867824.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/867824.png",
+      "rarity": "5星"
     },
     {
       "id": "palette",
@@ -674,7 +734,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/697006.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/2/10/6852.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2026/2/10/6852.png",
+      "rarity": "5星"
     },
     {
       "id": "priestess",
@@ -685,7 +746,8 @@
         "https://www.gamekee.com/zsca2/660218.html",
         "https://www.gamekee.com/zsca2/660124.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/50030.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/50030.png",
+      "rarity": "5星"
     },
     {
       "id": "rou",
@@ -695,7 +757,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593586.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/989678.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/989678.png",
+      "rarity": "5星"
     },
     {
       "id": "rubia",
@@ -705,7 +768,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593601.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/486526.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/486526.png",
+      "rarity": "5星"
     },
     {
       "id": "rui_bi_tai_ya",
@@ -716,7 +780,8 @@
         "https://www.gamekee.com/zsca2/620949.html",
         "https://www.gamekee.com/zsca2/667869.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/752494.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/752494.png",
+      "rarity": "5星"
     },
     {
       "id": "sai_er",
@@ -728,7 +793,8 @@
         "https://www.gamekee.com/zsca2/639603.html",
         "https://www.gamekee.com/zsca2/639248.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/735967.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/735967.png",
+      "rarity": "5星"
     },
     {
       "id": "sha_he_la_cha_de",
@@ -740,7 +806,8 @@
         "https://www.gamekee.com/zsca2/652497.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/219283.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/219283.png",
+      "rarity": "5星"
     },
     {
       "id": "sha_mei",
@@ -751,7 +818,8 @@
         "https://www.gamekee.com/zsca2/593648.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/414888.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/414888.png",
+      "rarity": "4星"
     },
     {
       "id": "sonia",
@@ -761,7 +829,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/676671.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/527764.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/527764.png",
+      "rarity": "5星"
     },
     {
       "id": "sword_maiden",
@@ -772,7 +841,8 @@
         "https://www.gamekee.com/zsca2/662553.html",
         "https://www.gamekee.com/zsca2/662354.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/152274.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/152274.png",
+      "rarity": "5星"
     },
     {
       "id": "sylvia",
@@ -783,7 +853,8 @@
         "https://www.gamekee.com/zsca2/593588.html",
         "https://www.gamekee.com/zsca2/598941.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/307184.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/307184.png",
+      "rarity": "5星"
     },
     {
       "id": "tai_rui_si",
@@ -794,7 +865,8 @@
         "https://www.gamekee.com/zsca2/593606.html",
         "https://www.gamekee.com/zsca2/631518.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/426720.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/426720.png",
+      "rarity": "5星"
     },
     {
       "id": "tir",
@@ -804,7 +876,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/678097.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/23/802657.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/23/802657.png",
+      "rarity": "5星"
     },
     {
       "id": "utage",
@@ -814,7 +887,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/637919.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/842157.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/842157.png",
+      "rarity": "5星"
     },
     {
       "id": "uzen_kyoka",
@@ -824,7 +898,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/720274.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/8/81662922mtsh0pj6.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/8/81662922mtsh0pj6.png",
+      "rarity": "5星"
     },
     {
       "id": "wei_er_ni",
@@ -837,7 +912,8 @@
         "https://dotgg.gg/brown-dust-2/brown-dust-2-mirror-wars-pvp-tier-list-march-2025/",
         "https://browndust2.miraheze.org/wiki/Bernie/Righteous_Raider_Girl"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/858890.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/858890.png",
+      "rarity": "4星"
     },
     {
       "id": "wei_ge",
@@ -848,7 +924,8 @@
         "https://www.gamekee.com/zsca2/593602.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/609707.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/609707.png",
+      "rarity": "3星"
     },
     {
       "id": "wei_lian_ming_na",
@@ -860,7 +937,8 @@
         "https://www.gamekee.com/zsca2/666735.html",
         "https://www.gamekee.com/zsca2/655079.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/765782.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/765782.png",
+      "rarity": "5星"
     },
     {
       "id": "xin_xi_ya",
@@ -872,7 +950,8 @@
         "https://www.gamekee.com/zsca2/614967.html",
         "https://browndust2.miraheze.org/wiki/Cynthia/Warmth_within_the_Severe_Cold"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/148256.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/148256.png",
+      "rarity": "3星"
     },
     {
       "id": "yamashiro_ren",
@@ -882,7 +961,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/721512.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/18/45063794mu6nrgzz.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50118/images/w_279/h_429/497891/2026/8/18/45063794mu6nrgzz.png",
+      "rarity": "5星"
     },
     {
       "id": "yi_ke_li_pu_si",
@@ -892,7 +972,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593603.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/15368.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/15368.png",
+      "rarity": "5星"
     },
     {
       "id": "ying_ge_li_de",
@@ -904,7 +985,8 @@
         "https://www.gamekee.com/zsca2/614967.html",
         "http://cymmina.gamependium.com/browndust2/teams.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/921546.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/921546.png",
+      "rarity": "3星"
     },
     {
       "id": "you_li",
@@ -915,7 +997,8 @@
         "https://www.gamekee.com/zsca2/606610.html",
         "https://www.gamekee.com/zsca2/593518.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/799776.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/799776.png",
+      "rarity": "5星"
     },
     {
       "id": "you_si_ti_ya",
@@ -925,7 +1008,8 @@
       "sources": [
         "https://www.gamekee.com/zsca2/593571.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/823565.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/823565.png",
+      "rarity": "5星"
     },
     {
       "id": "yozakura",
@@ -936,7 +1020,8 @@
         "https://www.gamekee.com/zsca2/637922.html",
         "https://www.gamekee.com/zsca2/637871.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/52457.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/52457.png",
+      "rarity": "5星"
     },
     {
       "id": "yukiizumi",
@@ -947,7 +1032,8 @@
         "https://www.gamekee.com/zsca2/638795.html",
         "https://www.gamekee.com/zsca2/638736.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/206892.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/206892.png",
+      "rarity": "5星"
     },
     {
       "id": "zhu_li",
@@ -958,7 +1044,8 @@
         "https://www.gamekee.com/zsca2/593604.html",
         "https://www.gamekee.com/zsca2/614967.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/123688.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/123688.png",
+      "rarity": "3星"
     }
   ]
 }

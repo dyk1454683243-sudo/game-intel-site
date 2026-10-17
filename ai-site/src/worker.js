@@ -23,6 +23,7 @@ import {
 } from "./public-limit.js";
 import { personalAtom } from "../public/ui/personal.js";
 import { servePortrait } from "../public/ui/portrait.js";
+import { localeById, stripLocale, wantsHtmlNotFound } from "../public/ui/i18n.js";
 
 const DISCOVERY_PATHS = new Set([
   "/.well-known/mcp.json",
@@ -100,6 +101,11 @@ export async function handleRequest(request, env) {
       if (!response || response.status === 404) return apiError(404, "not_found");
     } else if (env.ASSETS && typeof env.ASSETS.fetch === "function") {
       response = await env.ASSETS.fetch(effective);
+      if (response && response.status === 404 && wantsHtmlNotFound(path)) {
+        response = await htmlNotFound(effective, env);
+      }
+    } else if (wantsHtmlNotFound(path)) {
+      response = await htmlNotFound(effective, env);
     } else {
       return new Response("Not found", { status: 404 });
     }
@@ -112,6 +118,34 @@ export async function handleRequest(request, env) {
     return new Response(null, { status: response.status, headers: response.headers });
   }
   return response;
+}
+
+async function htmlNotFound(request, env) {
+  const url = new URL(request.url);
+  const { lang } = stripLocale(url.pathname);
+  const locale = localeById(lang);
+  const file = locale.prefix ? `${locale.prefix}/404.html` : "/404.html";
+  const headers = {
+    "content-type": "text/html; charset=utf-8",
+    "cache-control": "no-store",
+    "x-content-type-options": "nosniff",
+  };
+  if (env && env.ASSETS && typeof env.ASSETS.fetch === "function") {
+    try {
+      const page = await env.ASSETS.fetch(new Request(new URL(file, url.origin)));
+      if (page && page.status === 200) {
+        return new Response(await page.text(), { status: 404, headers });
+      }
+    } catch {
+      /* use the small fallback below */
+    }
+  }
+  const title = lang === "en" ? "Page not found" : lang === "ja" ? "ページがない" : "找不到页面";
+  const home = locale.prefix ? `${locale.prefix}/` : "/";
+  return new Response(
+    `<!DOCTYPE html><html lang="${locale.htmlLang}"><head><meta charset="utf-8"><title>${title}</title></head><body><h1>${title}</h1><p><a href="${home}">game-intel</a></p></body></html>`,
+    { status: 404, headers }
+  );
 }
 
 export async function route(request, env) {

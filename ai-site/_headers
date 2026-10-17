@@ -36,3 +36,69 @@
   Content-Type: application/json; charset=utf-8
   Cache-Control: public, max-age=3600
   Access-Control-Allow-Origin: *
+
+# Static UI assets. /v1 JSON keeps the headers above and the worker's ETag path.
+/ui/*
+  Cache-Control: public, max-age=86400
+
+/sketches/sketch.css
+  Cache-Control: public, max-age=86400
+
+/games/*
+  Cache-Control: public, max-age=600
+
+/guides/*
+  Cache-Control: public, max-age=600
+
+/en/*
+  Cache-Control: public, max-age=600
+
+/ja/*
+  Cache-Control: public, max-age=600
+
+/catalog/*
+  Cache-Control: public, max-age=600
+
+/watchlist/*
+  Cache-Control: public, max-age=600
+
+/game/*
+  Cache-Control: public, max-age=600
+
+/character/*
+  Cache-Control: public, max-age=600
+
+/me/*
+  Cache-Control: public, max-age=600
+
+/for-ai/*
+  Cache-Control: public, max-age=600
+
+/sketches/*
+  Cache-Control: public, max-age=3600
+
+/index.html
+  Cache-Control: public, max-age=600
+
+/404.html
+  Cache-Control: public, max-age=300
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/sitemap-zh.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/sitemap-en.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/sitemap-ja.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=3600

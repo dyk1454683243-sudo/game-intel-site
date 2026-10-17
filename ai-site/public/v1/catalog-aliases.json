@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-27",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "note": "Nickname → catalog id. Resolve: look up the alias key, read id, then GET /v1/games/{id}.json. Character nicknames stay on /v1/guides/{game}/aliases.json. Not a second catalog.",
   "count": 201,

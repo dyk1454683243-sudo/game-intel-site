@@ -1,6 +1,7 @@
 import { formatShanghai, shanghaiYmd } from "./time.js";
 import { isSlug } from "./public-json.js";
 import { renderClaims, renderFrame } from "../public/ui/render.js";
+import { renderHeadTags, seoModel } from "../public/ui/seo.js";
 
 /**
  * Public POST /v1/claims abuse caps. No API key.
@@ -211,14 +212,24 @@ export async function listClaims(env) {
 }
 
 export function claimsHtml(mirror) {
-  const body = renderFrame("claims", renderClaims(mirror));
+  const body = renderFrame("claims", renderClaims(mirror), { path: "/claims/" });
+  const head = renderHeadTags(seoModel({
+    lang: "zh-CN",
+    title: "核对墙 · game-intel",
+    description: "带 https 出处的投稿镜像。未经人工核对之前不可信。",
+    pathname: "/claims/",
+    crumbs: [
+      { name: "首页", path: "/" },
+      { name: "核对墙", path: "/claims/" },
+    ],
+  }));
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="color-scheme" content="light dark"/>
-  <title>核对墙 · game-intel</title>
+  ${head}
   <link rel="stylesheet" href="/ui/app.css"/>
 </head>
 <body>
