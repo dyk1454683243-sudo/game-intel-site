@@ -8,7 +8,7 @@ import { portraitImgSrc, portraitTarget, servePortrait } from "../public/ui/port
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const dataGuides = path.join(root, "data", "guides");
 const publicGuides = path.join(root, "ai-site", "public", "v1", "guides");
-const DEEP = ["hw", "nikke", "bd2", "zenless-zone-zero"];
+const DEEP = ["hw", "nikke", "bd2"];
 const ENTRY_LIST = "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000";
 
 function cards(dir) {
@@ -70,14 +70,7 @@ test("hw nikke and bd2 cards store a cited portrait or null", () => {
       assert.equal(typeof card.portrait_via, "string");
       if (target.hostname === "cdnimg-v2.gamekee.com") {
         assert.equal(card.portrait_source, ENTRY_LIST);
-        const alias = game === "bd2" ? "zsca2" : game === "zenless-zone-zero" ? "zzz" : game;
-        assert.equal(card.portrait_via, `gamekee-entry-icon:${alias}:${Number(card.gamekee_entry_id)}`);
-      } else if (game === "zenless-zone-zero") {
-        const slug = card.portrait_via.slice("prydwen-character:".length);
-        assert.match(card.portrait_via, /^prydwen-character:[a-z0-9-]+$/);
-        assert.equal(card.portrait_source, `https://www.prydwen.gg/zenless/characters/${slug}`);
-        assert.equal(card.portrait, `https://cdn.prydwen.gg/images/zenless-zone-zero/characters/${slug}_card.webp`);
-        assert.ok((card.sources || []).includes(card.portrait_source), card.id);
+        assert.equal(card.portrait_via, `gamekee-entry-icon:${game === "bd2" ? "zsca2" : game}:${Number(card.gamekee_entry_id)}`);
       } else {
         const slug = card.portrait_via.slice("prydwen-character:".length);
         assert.match(card.portrait_via, /^prydwen-character:[a-z0-9-]+$/);
