@@ -1,0 +1,131 @@
+{
+  "id": "koleda",
+  "name": "珂蕾妲",
+  "name_zh": "珂蕾妲",
+  "name_en": "Koleda Belobog",
+  "aliases": [
+    "珂蕾妲·贝洛伯格"
+  ],
+  "nicknames": [
+    "社长",
+    "小不点"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "S",
+  "element": "火",
+  "faction": "白祇重工",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "砸扁，粉碎",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的打击，造成物理伤害。 当珂蕾妲拥有「熔炉升温」效果时，能够在第二段攻击后发动强化「普通攻击」，消耗「熔炉升温」效果并造成大量火属性伤害； 当珂蕾妲与本同时出战时，会由双方配合发动协同攻击，进一步提升招式的威力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "走着瞧",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "给我颤抖",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行打击，造成物理伤害。"
+    },
+    {
+      "name": "别小看我",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 向前方敌人发动打击并引发爆炸，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "爆破！铁锤时间",
+      "type": "special",
+      "summary": "点按特殊技发动： 对前方进行打击井引发爆炸，造成火属性伤害； 若衔接在「普通攻击」第二、第四段或「强化普通攻击」后，则能够快速发动招式，直接引发爆炸； 当珂蕾妲与本同时出战，并衔接在「强化普通攻击」后快速发动招式时，会由双方配合发动协同攻击，进一步提升招式的威力； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "沸腾熔炉",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 对前方进行打击并引发强力爆炸，造成大量火属性伤害，并获得「熔炉升温」效果； 若衔接在「普通攻击」第二、第四段或「强化普通攻击」后，则能够快速发动招式，直接引发爆炸； 当珂蕾妲与本同时出战，并衔接在「强化普通攻击」后快速发动招式时，会由双方配合发动协同攻击，进一步提升招式的威力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "天崩-地裂",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 在前方大范围区域发动强力爆炸，造成大量火属性伤害，并获得「熔炉升温」效果； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "锤进地心",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 在前方大范围区域发动强力爆炸，造成大量火属性伤害，并获得「熔炉升温」效果； 当珂蕾妲与本同时出战，并衔接在「强化普通攻击」后快速发动招式时，会由双方配合发动协同攻击，进一步提升招式的威力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "让我来",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 向前方敌人发动打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "护身锤",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "锤钟",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按支援技发动： 对前方敌人发动突进打击，造成火属性伤害，并获得「熔炉升温」效果； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "爆破锤",
+      "type": "core",
+      "summary": "珂蕾妲发动「强化特殊技」，或消耗「熔炉升温」发动强化「普通攻击」时，招式造成的失衡值提升30%。（此处数据为初始数据）"
+    },
+    {
+      "name": "白祇管理学",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 珂蕾妲发动「强化特殊技」引发爆炸命中敌人时，对目标施加减益效果；当目标陷入失衡状态后，全队「连携技」对其造成的伤害提升35%，最多叠加2层，失衡状态结束时该效果重置。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技>连携技=闪避>普通攻击>支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 常规配队：克拉蕾 / 珂蕾妲 / 丽娜（https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 替代可选：耀嘉音 / 伊芙琳 / 珂蕾妲（https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：「11号」 / 珂蕾妲 / 露西（https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用高配：可琳 / 珂蕾妲 / 丽娜（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E7%8F%82%E8%95%BE%E5%A6%B2",
+    "https://www.prydwen.gg/zenless/characters/koleda",
+    "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+    "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+    "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+    "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+    "https://www.gamekee.com/zzz/621043.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "koleda",
+  "verified": "BWIKI「珂蕾妲」图鉴 wikitext，页面修订 2026-08-19",
+  "gamekee_content_id": 621043,
+  "gamekee_entry_id": 148537,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/503317.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148537",
+  "summary": {
+    "position": "S / 火 / 击破 / 白祇重工",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E7%8F%82%E8%95%BE%E5%A6%B2",
+      "https://www.prydwen.gg/zenless/characters/koleda",
+      "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+      "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+      "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+      "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+      "https://www.gamekee.com/zzz/621043.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-19"
+}

@@ -21,6 +21,7 @@ export const WATCHLIST_GAMES = [
   "asora",
   "miraesi",
   "lo2",
+  "zenless-zone-zero",
 ];
 
 export function guidesRoot(dataDir) {

@@ -1,0 +1,122 @@
+{
+  "id": "pulchra",
+  "name": "波可娜",
+  "name_zh": "波可娜",
+  "name_en": "Pulchra Fellini",
+  "aliases": [
+    "波可娜·费雷尼"
+  ],
+  "nicknames": [
+    "波喵"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "A",
+  "element": "物理",
+  "faction": "卡吕冬之子",
+  "attack_type": "斩击",
+  "skills": [
+    {
+      "name": "捷击",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多三段的攻击，造成物理伤害；"
+    },
+    {
+      "name": "跃击",
+      "type": "basic",
+      "summary": "长按普通攻击发动： 向前跃进并发动连续斩击，造成物理伤害；"
+    },
+    {
+      "name": "翻正反射",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "先下手为强",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方突进斩击，造成物理伤害。"
+    },
+    {
+      "name": "睚眦必报",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动突刺并衔接快速斩击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "噬爪",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方快速来回穿刺，造成物理伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "噬爪·瞬步",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方多次来回穿刺，造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "嗨，想不到吧",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 向前方发动蓄力射击，造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "噢，游戏时间",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 向前方大范围敌人发动强力射击，造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "雇佣合同·保镖业务",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动突刺并衔接快速斩击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "单独计价",
+      "type": "assist",
+      "summary": "发动「回避支援」后，点按普通攻击发动： 向前腾空跃起后开枪射击，造成物理伤害； 招式发动时，将消耗1点「支援点数」，使自身进入「猎步」状态； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "猎手本能",
+      "type": "core",
+      "summary": "波可娜发动「强化特殊技」、「支援突击」、「连携技」、「终结技」时，将会进入「猎步」状态，使自身造成的失衡值提升15%，持续6秒；切换至其他角色后，若波可娜仍处于「猎步」状态下，则其持续时间会改为切换回波可娜时；进入「猎步」状态后，自身为当前操作中的角色时，波可娜重击命中敌人，能够触发队伍中上一位角色的「快速支援」。（此处数据为初始数据）"
+    },
+    {
+      "name": "业务搭档",
+      "type": "additional",
+      "summary": "队伍中存在「强攻」角色或阵营相同的角色时触发： 波可娜发动「特殊技：噬爪·噩梦袭影」、「强化特殊技」、「支援突击」、「连携技」、「终结技」命中敌人时，将对敌人施加「困迹」效果，持续15秒；被施加「困迹」效果后，所有单位发动「追加攻击」对目标造成的伤害提升30%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 可选替代2：零号·安比 / 波可娜 / 耀嘉音（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用高配：可琳 / 波可娜 / 露西（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%B3%A2%E5%8F%AF%E5%A8%9C",
+    "https://www.prydwen.gg/zenless/characters/pulchra",
+    "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+    "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+    "https://www.gamekee.com/zzz/651187.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "pulchra",
+  "verified": "BWIKI「波可娜」图鉴 wikitext，页面修订 2026-07-08",
+  "gamekee_content_id": 651187,
+  "gamekee_entry_id": 178356,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_340/h_571/50270/103682/2025/2/13/521030.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:178356",
+  "summary": {
+    "position": "A / 物理 / 击破 / 卡吕冬之子",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%B3%A2%E5%8F%AF%E5%A8%9C",
+      "https://www.prydwen.gg/zenless/characters/pulchra",
+      "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+      "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+      "https://www.gamekee.com/zzz/651187.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-07-08"
+}

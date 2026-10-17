@@ -1,0 +1,32 @@
+{
+  "id": "phoenix",
+  "name": "菲欧妮",
+  "name_zh": "菲欧妮",
+  "name_en": "Phoenix",
+  "aliases": [
+    "菲欧妮·蕾法爱菈"
+  ],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "异常",
+  "rarity": "S",
+  "element": "火",
+  "faction": "坎卜斯黑枝",
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
+    "https://www.prydwen.gg/zenless/characters/phoenix"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "phoenix",
+  "verified": "BWIKI「菲欧妮」图鉴 wikitext，页面修订 2026-09-22",
+  "note": "BWIKI 该页技能模板没有写具体效果。属性、稀有度和阵营来自同一页图鉴。不编造技能。",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/phoenix",
+  "portrait_via": "prydwen-character:phoenix",
+  "wiki_revised": "2026-09-22"
+}

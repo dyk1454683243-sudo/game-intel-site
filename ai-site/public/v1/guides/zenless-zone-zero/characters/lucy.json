@@ -1,0 +1,132 @@
+{
+  "id": "lucy",
+  "name": "露西",
+  "name_zh": "露西",
+  "name_en": "Lucy",
+  "aliases": [
+    "露西亚娜·奥克希斯·提奥多·德·蒙特夫"
+  ],
+  "nicknames": [
+    "大小姐",
+    "金丝姬哀歌"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "支援",
+  "rarity": "A",
+  "element": "火",
+  "faction": "卡吕冬之子",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "淑女的球棍",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的打击，造成物理伤害和火属性伤害； 当露西发动【普通攻击】第四段时，场上的亲卫队小猪会一起发动【亲卫队小猪：回旋挥击！】。"
+    },
+    {
+      "name": "亲卫队小猪:抄家伙!",
+      "type": "basic",
+      "summary": "战斗中，亲卫队小猪会随机使用棒球棍、拳套、弹弓，自动对敌人发动攻击，造成物理伤害。"
+    },
+    {
+      "name": "坏球！",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "豪勇猪突!",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行快速打击，造成物理伤害。"
+    },
+    {
+      "name": "撩牙折转!",
+      "type": "dodge",
+      "summary": "极限闪避时，点按普通攻击发动： 对前方敌人发动打击，造成火属性伤害 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "安打!",
+      "type": "special",
+      "summary": "点按特殊技发动：将亲卫队小猪召回井击出【平直球】，亲卫队小猪命中敌人或墙壁时引发爆炸，造成火属性伤害。 长按特殊技发动：将亲卫队小猪召回井击出【高飞球】，亲卫队小猪从空中落地时引发爆炸，造成火属性伤害。"
+    },
+    {
+      "name": "全垒打!",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 将亲卫队小猪召回井击出【平直球】，亲卫队小猪命中敌人或墙壁时引发爆炸，造成大量火属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发[快速支援]。 能量足够时，长按强化特殊技发动： 将亲卫队小猪召回井击出【高飞球】，亲卫队小猪从空中落地时引发爆炸，造成大量火属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发【快速支援】。 加油！ 发动【强化特殊技】后，亲卫队小猪引发爆炸时，将为所有友方角色、邦布和亲卫队小猪施加【加油！】状态。【加油！】状态下，友方单位的攻击力提升，提升数值等同于露西13.8%初始攻击力+44点，最高不超过600点。击出【平直球】时，【加油！】状态持续10秒，击出【高飞球】时，【加油！】状态持续15秒，重复触发时刷新持续时间。"
+    },
+    {
+      "name": "大满贯!",
+      "type": "chain",
+      "summary": "触发【连携技】时，选择对应角色发动： 露西起跳将场上亲卫队小猪打出，对前方大范围敌人造成大量火属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发【快速支援】。"
+    },
+    {
+      "name": "再见全垒打!",
+      "type": "ultimate",
+      "summary": "喧响等级达到【极】时，点按连携技发动： 将所有亲卫队小猪依次打出，对前方大范围敌人造成大量火属性伤害； 招式发动时，队伍中其他角色回复10点能量，下一名换入前场的角色额外回复20点能量； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发【快速支援】。"
+    },
+    {
+      "name": "触身球!",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 对前方敌人发动打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "安全上垒!",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点接支援技发动： 招架敌人的攻击，累积大量失衡值； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "触垒得分!",
+      "type": "assist",
+      "summary": "发动【招架支援】后，点按普通攻击发动： 对前方敌人发动打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "赤鬣亲卫队",
+      "type": "core",
+      "summary": "当露西发动【特殊技】或【强化特殊技】时，亲卫队小猪会加入战斗井呼叫出另外两只亲卫队小猪；亲卫队小猪可以继承露西的攻击力、冲击力和异常精通；【加油！】对亲卫队小猪的增益效果提升至原本的140%（初始）/200%（满级），并使亲卫队小猪的攻击频率提升。"
+    },
+    {
+      "name": "击「球」准备!",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发: 亲卫队小猪可以继承露西的暴击率和暴击伤害。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：强化特殊技>核心技>支援技>普通攻击>连携技>闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 替换：耀嘉音 / 伊芙琳 / 露西（https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 替换：妮可 / 伊芙琳 / 露西（https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 队伍1：露西 / 雅 / 柳（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：露西 / 雅 / 柏妮思（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：雅 / 派派 / 露西（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳扳凯：露西 / 妮可 / 柳（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E9%9C%B2%E8%A5%BF",
+    "https://www.prydwen.gg/zenless/characters/lucy",
+    "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E6%9F%B3"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lucy",
+  "verified": "BWIKI「露西」图鉴 wikitext，页面修订 2026-08-19",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucy_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/lucy",
+  "portrait_via": "prydwen-character:lucy",
+  "summary": {
+    "position": "A / 火 / 支援 / 卡吕冬之子",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E9%9C%B2%E8%A5%BF",
+      "https://www.prydwen.gg/zenless/characters/lucy",
+      "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E6%9F%B3"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-19"
+}

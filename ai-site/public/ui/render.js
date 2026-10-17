@@ -1,15 +1,16 @@
 /**
  * Pure HTML renderers for the human UI. No DOM, no invented tiers or pull advice.
- * Non-deep games stay identity-only. Deep character cards are hw / nikke / bd2.
+ * Non-deep games stay identity-only. Deep character cards are hw / nikke / bd2 / zenless-zone-zero.
  */
 import { portraitImgSrc } from "./portrait.js";
 
-export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2"]);
+export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2", "zenless-zone-zero"]);
 
 export const WATCH_ORDER = Object.freeze([
   { id: "hw", name: "Horizon Walker", name_zh: "地平线行者" },
   { id: "nikke", name: "NIKKE", name_zh: "胜利女神：NIKKE" },
   { id: "bd2", name: "Brown Dust 2", name_zh: "棕色尘埃2" },
+  { id: "zenless-zone-zero", name: "Zenless Zone Zero", name_zh: "绝区零" },
   { id: "star", name: "Azure Star Origin", name_zh: "蓝色星原：旅谣" },
   { id: "asora", name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   { id: "miraesi", name: "Invisible Future", name_zh: "미래시" },
@@ -611,7 +612,7 @@ ${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · $
     .join("");
   const meta = watchlist && watchlist.meta;
   return `<h1>观察名单</h1>
-<p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
+<p class="lede">地平线行者、NIKKE、棕色尘埃2、绝区零有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
 <div class="stack">${cards}</div>
@@ -636,6 +637,7 @@ function hasCostumePull(card) {
 function profileBits(card, summary) {
   const bits = [];
   if (card.rarity) bits.push(`稀有度 ${card.rarity}`);
+  if (card.faction) bits.push(`阵营 ${card.faction}`);
   if (card.element) bits.push(`属性 ${card.element}`);
   if (card.attack_type) bits.push(`攻击 ${card.attack_type}`);
   if (card.burst) bits.push(`爆裂 ${card.burst}`);

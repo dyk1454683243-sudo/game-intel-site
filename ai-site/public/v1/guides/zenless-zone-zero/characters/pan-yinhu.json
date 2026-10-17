@@ -1,0 +1,119 @@
+{
+  "id": "pan-yinhu",
+  "name": "潘引壶",
+  "name_zh": "潘引壶",
+  "name_en": "Pan Yinhu",
+  "aliases": [],
+  "nicknames": [
+    "熊猫"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "防护",
+  "rarity": "A",
+  "element": "物理",
+  "faction": "云岿山",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "极意连打",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的体术攻击，造成物理伤害。"
+    },
+    {
+      "name": "身轻如燕",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "热油鼎盛",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前发动快速体术攻击，造成物理伤害。"
+    },
+    {
+      "name": "移峰倒海",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动体术攻击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "爆音点穴指",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前释放体术并丢出鞭炮，造成物理伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "贴山震脉靠",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 「强化特殊技：贴山震脉靠」向前方进行强力打击，造成物理伤害； 招式发动时将获得3点「破劲」，当招式命中敌人时，将触发队伍中上一位角色的「快速支援」； 通过此次「快速支援」上场的代理人将会获得核心被动提供的贯穿力加成，潘引壶会在换人后留在场上自动释放「特殊技：断脉破穴手」直至「破劲」耗尽后下场； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "锅气灌顶",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 坐上「铁锅」快速旋转冲撞，对路径上敌人造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "满汉全席！",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 施展术法将气劲凝作炒饭掀出，对敌人造成大量物理伤害，为全队角色回复160.0点生命值，并为全队角色施加8秒持续回复生命值的效果，每秒恢复0.9%生命值； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "抬头见喜",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动体术攻击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "见敌卸甲",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "借势打势",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动体术攻击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "脉中乾坤",
+      "type": "core",
+      "summary": "潘引壶发动「强化特殊技：贴山震脉靠」命中敌人触发「快速支援」的一段时间内，通过「快速支援」或「连携技」入场的下一位代理人将会获得「通窍」效果。该效果提供潘引壶初始攻击力9%的贯穿力提升，持续25秒。该效果提供的贯穿力最多不超过540点。（此处数据为初始数据）"
+    },
+    {
+      "name": "食铁纳金",
+      "type": "additional",
+      "summary": "队伍中存在「命破」角色或与自身阵营相同的角色时触发： 潘引壶发动「特殊技：断脉破穴手」命中敌人时对敌人施加「气绝」效果，使所有单位对其造成的伤害提升20%，「特殊技：断脉破穴手」命中敌人时将分别对敌人造成10秒「气绝」效果。该效果不可叠加，招式重复命中相同敌人时，该效果时长可延长。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 常规配队：仪玄 / 潘引壶 / 橘福福（https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 常规配队：仪玄 / 潘引壶 / 青衣（https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 仪玄 / 潘引壶（https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%BD%98%E5%BC%95%E5%A3%B6",
+    "https://www.prydwen.gg/zenless/characters/pan-yinhu",
+    "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+    "https://www.gamekee.com/zzz/665379.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "pan-yinhu",
+  "verified": "BWIKI「潘引壶」图鉴 wikitext，页面修订 2026-08-13",
+  "gamekee_content_id": 665379,
+  "gamekee_entry_id": 188960,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_594/h_739/50270/103682/2025/5/6/531880.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:188960",
+  "summary": {
+    "position": "A / 物理 / 防护 / 云岿山",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%BD%98%E5%BC%95%E5%A3%B6",
+      "https://www.prydwen.gg/zenless/characters/pan-yinhu",
+      "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+      "https://www.gamekee.com/zzz/665379.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-13"
+}

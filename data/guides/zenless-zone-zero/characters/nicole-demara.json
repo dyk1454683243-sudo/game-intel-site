@@ -1,0 +1,137 @@
+{
+  "id": "nicole-demara",
+  "name": "妮可",
+  "name_zh": "妮可",
+  "name_en": "Nicole Demara",
+  "aliases": [
+    "妮可·德玛拉"
+  ],
+  "nicknames": [
+    "老大"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "支援",
+  "rarity": "A",
+  "element": "以太",
+  "faction": "狡兔屋",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "普通攻击：狡兔连打",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多三段的打击，造成物理伤害。"
+    },
+    {
+      "name": "普通攻击：为所欲为",
+      "type": "basic",
+      "summary": "发动「特殊技」、「强化特殊技」、「连携技」、「终结技」等招式后，能够上弹并强化「普通攻击」与「冲刺攻击」，提升子弹的威力。"
+    },
+    {
+      "name": "闪避：脱兔",
+      "type": "dodge",
+      "summary": "点按闪避发动： 快速的冲刺闪避； 招式发动期间拥有无敌效果； 拖曳摇杆发动闪避时，长按闪避，可以在闪避中途上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "冲刺攻击：惊喜开箱",
+      "type": "dodge",
+      "summary": "拖曳摇杆发动闪避后，点按普通攻击发动： 向对应方向冲刺，并对身周敌人进行打击，造成物理伤害； 未拖曳摇杆发动闪避后，点按普通攻击发动： 向后躲避，并对前方敌人发动远程打击，造成物理伤害； 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "闪避反击：牵制炮击",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 向后躲避，并对前方敌人发动远程打击，造成以太伤害； 招式发动期间拥有无敌效果； 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "快速支援：救急炮击",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 向后闪避，并对前方敌人发动远程打击，造成以太伤害； 招式发动期间拥有无敌效果； 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "招架支援：狡兔出手！",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：趁虚而入",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 向前方突进后对敌人发动炮击，造成以太属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：糖衣炮弹",
+      "type": "special",
+      "summary": "点按特殊技发动： 对前方敌人发动远程打击，造成以太伤害； 招式发动期间抗打断等级提升； 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "强化特殊技：夹心糖衣炮弹",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 对前方敌人发动强力远程打击，并在目标处生成能量场，持续牵引敌人，造成以太伤害； 长按强化特殊技可以进行蓄力，在炮口生成小型能量场，持续消耗能量并对近处的敌人造成额外伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」; 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "连携技：高价以太爆弹",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方小范围敌人发动强力远程打击，并在目标处生成能量场，持续牵引周围敌人，造成以太伤害。 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」; 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "终结技：特制以太榴弹",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方小范围敌人发动强力远程打击，并在目标处生成能量场，持续牵引周围敌人，造成以太伤害。 招式发动时，队伍中其他角色回复10点能量，下一名换入前场的角色额外回复20点能量； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」; 招式发动后自动上弹并强化「普通攻击」与「冲刺攻击」，最多触发8次。"
+    },
+    {
+      "name": "核心被动：机关箱",
+      "type": "core",
+      "summary": "妮可在「特殊技」、「强化特殊技」、「连携技」、「终结技」等招式中，上弹并强化「普通攻击」与「冲刺攻击」；强化子弹或能量场命中敌人时，目标的防御力降低20%，持续3.5秒。"
+    },
+    {
+      "name": "额外能力：狡兔三窟",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 妮可通过「核心被动：机关箱」对敌人施加减益效果时，所有单位对目标造成的以太伤害额外提升25%，持续3.5秒。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技>连携技>支援技>普通攻击=闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 可选替代：零号·安比 / 「扳机」 / 妮可（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 零号·安比 / 妮可（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 伊芙琳 / 妮可（https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 替换：妮可 / 伊芙琳 / 露西（https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 雅 / 妮可（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 悠真 / 妮可（https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E5%A6%AE%E5%8F%AF",
+    "https://www.prydwen.gg/zenless/characters/nicole-demara",
+    "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+    "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+    "https://www.gamekee.com/zzz/621035.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "nicole-demara",
+  "verified": "BWIKI「妮可」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 621035,
+  "gamekee_entry_id": 148529,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/243655.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148529",
+  "summary": {
+    "position": "A / 以太 / 支援 / 狡兔屋",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E5%A6%AE%E5%8F%AF",
+      "https://www.prydwen.gg/zenless/characters/nicole-demara",
+      "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+      "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+      "https://www.gamekee.com/zzz/621035.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}

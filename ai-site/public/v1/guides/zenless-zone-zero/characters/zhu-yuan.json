@@ -1,0 +1,123 @@
+{
+  "id": "zhu-yuan",
+  "name": "朱鸢",
+  "name_zh": "朱鸢",
+  "name_en": "Zhu Yuan",
+  "aliases": [],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "S",
+  "element": "以太",
+  "faction": "治安局·刑侦特勤组",
+  "attack_type": "穿透",
+  "skills": [
+    {
+      "name": "不许动！",
+      "type": "basic",
+      "summary": "「突击模式」 点按普通攻击发动： 交替使用体术、手枪和以太鹿弹，向前方进行至多五段的攻击，造成物理伤害和以太伤害； 第四、第五段攻击命中敌人时，获得1枚「强化霰弹」，同一招式中最多获得1枚； 四招式发动期间，拖曳摇杆并点按普通攻击，可以发动「冲刺攻击：火力奇袭」，向对应方向调整身位； 「突击模式」下，长按普通攻击时，将会切换攻击方式，进入「压制模式」。"
+    },
+    {
+      "name": "请勿抵抗",
+      "type": "basic",
+      "summary": "「压制模式」 长按普通攻击发动： 使用霰弹枪向前方进行至多三段的穿透射击，造成物理伤害； 开火时若拥有「强化霰弹」，则会消耗1枚「强化霰弹」，造成大量以太伤害； 招式发动期间，拖曳摇杆可以发动「冲刺攻击：火力压制」，向对应方向调整身位； 「压制模式」下，松开普通攻击时，将会切换攻击方式，回到「突击模式」。"
+    },
+    {
+      "name": "滑步",
+      "type": "dodge",
+      "summary": "点按闪避发动： 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "火力奇袭",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 使用手枪进行射击，造成以太伤害。"
+    },
+    {
+      "name": "火力压制",
+      "type": "dodge",
+      "summary": "「压制模式」 在「普通攻击：请勿抵抗」发动期间，拖曳摇杠发动： 使用霰弹枪进行穿透射击，造成物理伤害； 开火时若拥有「强化霰弹」，则会消耗1枚「强化霰弹」，造成大量以太伤害。"
+    },
+    {
+      "name": "火力震慑",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 使用以太鹿弹对前方敌人发动射击，造成以太伤害； 招式发动时，获得1枚「强化霰弹」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "鹿弹射击",
+      "type": "special",
+      "summary": "点按特殊技发动： 使用以太鹿弹对前方敌人发动射击，造成以太伤害，连续点按特殊技，可以重复射击三次； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "全弹连射",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 使用以太鹿弹进行连续射击，造成大量以太伤害； 招式发动时，获得3枚「强化霰弹」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "歼灭模式",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动：使用完全变形武器进行饱和攻击，发射直线激光和追踪导弹，造成大量以太伤害招式发动时，获得3枚「强化霰弹」招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "歼灭模式MAX",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 使用完全变形武器进行饱和攻击，发射直线激光和追踪导弹，造成大量以太伤害； 招式发动时，获得3枚「强化霰弹」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "掩护射击",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 使用以太鹿弹对前方敌人发动射击，造成以太伤害； 招式发动时，获得1枚「强化霰弹」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "自卫还击",
+      "type": "assist",
+      "summary": "发动「回避支援」后，点按普通攻击发动： 交替使用体术和霰弹枪进行攻击，造成物理伤害和以太伤害； 招式发动时，获得3枚「强化霰弹」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特种弹药",
+      "type": "core",
+      "summary": "朱鸢在「压制模式」下,消耗「强化霰弹」进行攻击时,招式造成的伤害提升20%,攻击处于失衡状态下的敌人时,该增益效果额外提升20%;进入战场时,朱鸢立刻获得6枚「强化霰弹」。（此处数据为初始数据）"
+    },
+    {
+      "name": "武装协同",
+      "type": "additional",
+      "summary": "队伍中存在「支援」角色或与自身阵营相同的角色时触发： 朱鸢发动「强化特殊技」「连携技」或「终结技」时,自身暴击率提升30%,持续10秒。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技=普通攻击>连携技=强化特殊技>闪避=支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 配队表：朱鸢 / 青衣 / 妮可（https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 队伍2：耀嘉音 / 朱鸢 / 「扳机」（https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 朱鸢 / 妮可（https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 平民队：朱鸢 / 露西 / 妮可（https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+    "https://www.prydwen.gg/zenless/characters/zhu-yuan",
+    "https://www.gamekee.com/zzz/622121.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "zhu-yuan",
+  "verified": "BWIKI「朱鸢」图鉴 wikitext，页面修订 2026-07-28",
+  "gamekee_content_id": 622121,
+  "gamekee_entry_id": 149287,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_542/h_747/50270/43758/2024/4/13/13878.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:149287",
+  "summary": {
+    "position": "S / 以太 / 强攻 / 治安局·刑侦特勤组",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+      "https://www.prydwen.gg/zenless/characters/zhu-yuan",
+      "https://www.gamekee.com/zzz/622121.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-07-28"
+}

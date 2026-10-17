@@ -1,0 +1,805 @@
+{
+  "game": "zenless-zone-zero",
+  "name": "Zenless Zone Zero",
+  "name_zh": "绝区零",
+  "as_of": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "character_count": 62,
+  "rich_count": 57,
+  "stub_count": 5,
+  "conclusion_stub_count": 57,
+  "links": {
+    "banners": "/v1/guides/zenless-zone-zero/banners.json",
+    "codes": "/v1/guides/zenless-zone-zero/codes.json"
+  },
+  "characters": [
+    {
+      "id": "alice",
+      "name": "爱丽丝",
+      "name_zh": "爱丽丝",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%88%B1%E4%B8%BD%E4%B8%9D",
+        "https://www.prydwen.gg/zenless/characters/alice",
+        "https://wiki.biligame.com/zzz/%E7%AE%80"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/alice_card.webp"
+    },
+    {
+      "id": "anby-demara",
+      "name": "安比",
+      "name_zh": "安比",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%AE%89%E6%AF%94",
+        "https://www.prydwen.gg/zenless/characters/anby-demara",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E7%8C%AB%E5%8F%88",
+        "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+        "https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C",
+        "https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9",
+        "https://www.gamekee.com/zzz/621038.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/459055.png"
+    },
+    {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "name_zh": "零号·安比",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+        "https://www.prydwen.gg/zenless/characters/anby-demara-soldier-0",
+        "https://www.gamekee.com/zzz/651020.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_452/h_737/50270/103682/2025/2/12/334194.png"
+    },
+    {
+      "id": "anton",
+      "name": "安东",
+      "name_zh": "安东",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C",
+        "https://www.prydwen.gg/zenless/characters/anton",
+        "https://www.gamekee.com/zzz/621034.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/986897.png"
+    },
+    {
+      "id": "aria",
+      "name": "爱芮",
+      "name_zh": "爱芮",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%88%B1%E8%8A%AE",
+        "https://www.prydwen.gg/zenless/characters/aria",
+        "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/aria_card.webp"
+    },
+    {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "name_zh": "耀嘉音",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%80%80%E5%98%89%E9%9F%B3",
+        "https://www.prydwen.gg/zenless/characters/astra-yao",
+        "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E7%88%B1%E4%B8%BD%E4%B8%9D"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/astra-yao_card.webp"
+    },
+    {
+      "id": "banyue",
+      "name": "般岳",
+      "name_zh": "般岳",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%88%AC%E5%B2%B3",
+        "https://www.prydwen.gg/zenless/characters/banyue"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/banyue_card.webp"
+    },
+    {
+      "id": "ben",
+      "name": "本",
+      "name_zh": "本",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%9C%AC",
+        "https://www.prydwen.gg/zenless/characters/ben",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://www.gamekee.com/zzz/621040.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/782127.png"
+    },
+    {
+      "id": "billy-kid",
+      "name": "比利",
+      "name_zh": "比利",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9",
+        "https://www.prydwen.gg/zenless/characters/billy-kid",
+        "https://www.gamekee.com/zzz/621041.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/583803.png"
+    },
+    {
+      "id": "billy-starlight",
+      "name": "星徽·比利",
+      "name_zh": "星徽·比利",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%98%9F%E5%BE%BD%C2%B7%E6%AF%94%E5%88%A9",
+        "https://www.prydwen.gg/zenless/characters/billy-starlight"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/billy-starlight_card.webp"
+    },
+    {
+      "id": "burnice",
+      "name": "柏妮思",
+      "name_zh": "柏妮思",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%9F%8F%E5%A6%AE%E6%80%9D",
+        "https://www.prydwen.gg/zenless/characters/burnice",
+        "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://wiki.biligame.com/zzz/%E7%AE%80",
+        "https://www.gamekee.com/zzz/638742.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_514/h_746/50270/103682/2024/9/16/878870.png"
+    },
+    {
+      "id": "caesar",
+      "name": "凯撒",
+      "name_zh": "凯撒",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%87%AF%E6%92%92",
+        "https://www.prydwen.gg/zenless/characters/caesar",
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://www.gamekee.com/zzz/636427.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_378/h_527/50270/103682/2024/8/23/239136.png"
+    },
+    {
+      "id": "cissia",
+      "name": "希希芙",
+      "name_zh": "希希芙",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%B8%8C%E5%B8%8C%E8%8A%99",
+        "https://www.prydwen.gg/zenless/characters/cissia",
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/cissia_card.webp"
+    },
+    {
+      "id": "claret",
+      "name": "克拉蕾",
+      "name_zh": "克拉蕾",
+      "stub": true,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+        "https://www.prydwen.gg/zenless/characters/claret"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/claret_card.webp"
+    },
+    {
+      "id": "corin",
+      "name": "可琳",
+      "name_zh": "可琳",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+        "https://www.prydwen.gg/zenless/characters/corin",
+        "https://www.gamekee.com/zzz/621033.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/159206.png"
+    },
+    {
+      "id": "dialyn",
+      "name": "琉音",
+      "name_zh": "琉音",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%90%89%E9%9F%B3",
+        "https://www.prydwen.gg/zenless/characters/dialyn",
+        "https://wiki.biligame.com/zzz/%E7%8C%AB%E5%8F%88"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/dialyn_card.webp"
+    },
+    {
+      "id": "ellen",
+      "name": "艾莲",
+      "name_zh": "艾莲",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+        "https://www.prydwen.gg/zenless/characters/ellen",
+        "https://www.gamekee.com/zzz/621044.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/287225.png"
+    },
+    {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "name_zh": "伊芙琳",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+        "https://www.prydwen.gg/zenless/characters/evelyn",
+        "https://www.gamekee.com/zzz/649983.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_448/h_804/50270/103682/2025/1/17/399366.png"
+    },
+    {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "name_zh": "格莉丝",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+        "https://www.prydwen.gg/zenless/characters/grace-howard",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://www.gamekee.com/zzz/621039.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/489480.png"
+    },
+    {
+      "id": "harumasa",
+      "name": "悠真",
+      "name_zh": "悠真",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+        "https://www.prydwen.gg/zenless/characters/harumasa",
+        "https://www.gamekee.com/zzz/643326.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_507/h_743/50270/103682/2024/11/17/472709.png"
+    },
+    {
+      "id": "hugo",
+      "name": "雨果",
+      "name_zh": "雨果",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
+        "https://www.prydwen.gg/zenless/characters/hugo"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/hugo_card.webp"
+    },
+    {
+      "id": "jane-doe",
+      "name": "简",
+      "name_zh": "简",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%AE%80",
+        "https://www.prydwen.gg/zenless/characters/jane-doe"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/jane-doe_card.webp"
+    },
+    {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "name_zh": "橘福福",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%A9%98%E7%A6%8F%E7%A6%8F",
+        "https://www.prydwen.gg/zenless/characters/ju-fufu",
+        "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://www.gamekee.com/zzz/667882.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_463/h_747/50270/103682/2025/5/25/756098.png"
+    },
+    {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "name_zh": "珂蕾妲",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%8F%82%E8%95%BE%E5%A6%B2",
+        "https://www.prydwen.gg/zenless/characters/koleda",
+        "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+        "https://www.gamekee.com/zzz/621043.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/503317.png"
+    },
+    {
+      "id": "lighter",
+      "name": "莱特",
+      "name_zh": "莱特",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%8E%B1%E7%89%B9",
+        "https://www.prydwen.gg/zenless/characters/lighter",
+        "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+        "https://www.gamekee.com/zzz/641514.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_465/h_819/50270/103682/2024/10/26/544298.png"
+    },
+    {
+      "id": "lucia",
+      "name": "卢西娅",
+      "name_zh": "卢西娅",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%8D%A2%E8%A5%BF%E5%A8%85",
+        "https://www.prydwen.gg/zenless/characters/lucia"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucia_card.webp"
+    },
+    {
+      "id": "lucy",
+      "name": "露西",
+      "name_zh": "露西",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E9%9C%B2%E8%A5%BF",
+        "https://www.prydwen.gg/zenless/characters/lucy",
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucy_card.webp"
+    },
+    {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "name_zh": "莱卡恩",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%8E%B1%E5%8D%A1%E6%81%A9",
+        "https://www.prydwen.gg/zenless/characters/lycaon",
+        "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+        "https://www.gamekee.com/zzz/621030.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/568259.png"
+    },
+    {
+      "id": "manato",
+      "name": "真斗",
+      "name_zh": "真斗",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%9C%9F%E6%96%97",
+        "https://www.prydwen.gg/zenless/characters/manato"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/manato_card.webp"
+    },
+    {
+      "id": "miyabi",
+      "name": "雅",
+      "name_zh": "雅",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://www.prydwen.gg/zenless/characters/miyabi",
+        "https://www.gamekee.com/zzz/643286.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_502/h_743/50270/103682/2024/11/17/313516.png"
+    },
+    {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "name_zh": "南宫羽",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%8D%97%E5%AE%AB%E7%BE%BD",
+        "https://www.prydwen.gg/zenless/characters/nangong-yu"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nangong-yu_card.webp"
+    },
+    {
+      "id": "nekomata",
+      "name": "猫又",
+      "name_zh": "猫又",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%8C%AB%E5%8F%88",
+        "https://www.prydwen.gg/zenless/characters/nekomata",
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+        "https://www.gamekee.com/zzz/621042.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/480463.png"
+    },
+    {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "name_zh": "妮可",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%A6%AE%E5%8F%AF",
+        "https://www.prydwen.gg/zenless/characters/nicole-demara",
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E8%8A%99%E7%90%B3",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+        "https://www.gamekee.com/zzz/621035.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/243655.png"
+    },
+    {
+      "id": "norma",
+      "name": "诺姆",
+      "name_zh": "诺姆",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%AF%BA%E5%A7%86",
+        "https://www.prydwen.gg/zenless/characters/norma"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/norma_card.webp"
+    },
+    {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "name_zh": "奥菲丝&「鬼火」",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+        "https://www.prydwen.gg/zenless/characters/orphie-and-magus",
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/orphie-and-magus_card.webp"
+    },
+    {
+      "id": "pan-yinhu",
+      "name": "潘引壶",
+      "name_zh": "潘引壶",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%BD%98%E5%BC%95%E5%A3%B6",
+        "https://www.prydwen.gg/zenless/characters/pan-yinhu",
+        "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+        "https://www.gamekee.com/zzz/665379.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_594/h_739/50270/103682/2025/5/6/531880.png"
+    },
+    {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "name_zh": "菲欧妮",
+      "stub": true,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
+        "https://www.prydwen.gg/zenless/characters/phoenix"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp"
+    },
+    {
+      "id": "piper",
+      "name": "派派",
+      "name_zh": "派派",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE",
+        "https://www.prydwen.gg/zenless/characters/piper",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://www.gamekee.com/zzz/626123.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_322/h_411/50270/43637/2024/6/3/413782.png"
+    },
+    {
+      "id": "promeia",
+      "name": "普罗米娅",
+      "name_zh": "普罗米娅",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%99%AE%E7%BD%97%E7%B1%B3%E5%A8%85",
+        "https://www.prydwen.gg/zenless/characters/promeia"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/promeia_card.webp"
+    },
+    {
+      "id": "pulchra",
+      "name": "波可娜",
+      "name_zh": "波可娜",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%B3%A2%E5%8F%AF%E5%A8%9C",
+        "https://www.prydwen.gg/zenless/characters/pulchra",
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+        "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+        "https://www.gamekee.com/zzz/651187.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_340/h_571/50270/103682/2025/2/13/521030.png"
+    },
+    {
+      "id": "pyrois",
+      "name": "佩洛伊斯",
+      "name_zh": "佩洛伊斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E4%BD%A9%E6%B4%9B%E4%BC%8A%E6%96%AF",
+        "https://www.prydwen.gg/zenless/characters/pyrois"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pyrois_card.webp"
+    },
+    {
+      "id": "qingyi",
+      "name": "青衣",
+      "name_zh": "青衣",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E9%9D%92%E8%A1%A3",
+        "https://www.prydwen.gg/zenless/characters/qingyi",
+        "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+        "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://www.gamekee.com/zzz/631454.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_583/h_740/50270/103682/2024/7/13/948247.png"
+    },
+    {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "name_zh": "蕾米埃尔",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94",
+        "https://www.prydwen.gg/zenless/characters/remielle"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/remielle_card.webp"
+    },
+    {
+      "id": "rina",
+      "name": "丽娜",
+      "name_zh": "丽娜",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E4%B8%BD%E5%A8%9C",
+        "https://www.prydwen.gg/zenless/characters/rina",
+        "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://www.gamekee.com/zzz/621032.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/588218.png"
+    },
+    {
+      "id": "roxy",
+      "name": "洛克茜",
+      "name_zh": "洛克茜",
+      "stub": true,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%B4%9B%E5%85%8B%E8%8C%9C",
+        "https://www.prydwen.gg/zenless/characters/roxy"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp"
+    },
+    {
+      "id": "seed",
+      "name": "「席德」",
+      "name_zh": "「席德」",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+        "https://www.prydwen.gg/zenless/characters/seed",
+        "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/seed_card.webp"
+    },
+    {
+      "id": "seth",
+      "name": "赛斯",
+      "name_zh": "赛斯",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%B5%9B%E6%96%AF",
+        "https://www.prydwen.gg/zenless/characters/seth",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://wiki.biligame.com/zzz/%E7%AE%80",
+        "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+        "https://www.gamekee.com/zzz/634638.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_359/h_505/50270/103682/2024/8/5/142527.png"
+    },
+    {
+      "id": "severian",
+      "name": "赛维里安",
+      "name_zh": "赛维里安",
+      "stub": true,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%B5%9B%E7%BB%B4%E9%87%8C%E5%AE%89",
+        "https://www.prydwen.gg/zenless/characters/severian"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/severian_card.webp"
+    },
+    {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "name_zh": "希格莉德",
+      "stub": true,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%B8%8C%E6%A0%BC%E8%8E%89%E5%BE%B7",
+        "https://www.prydwen.gg/zenless/characters/sigrid"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp"
+    },
+    {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "name_zh": "「11号」",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+        "https://www.prydwen.gg/zenless/characters/soldier-11",
+        "https://www.gamekee.com/zzz/621031.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/171743.png"
+    },
+    {
+      "id": "soukaku",
+      "name": "苍角",
+      "name_zh": "苍角",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%8B%8D%E8%A7%92",
+        "https://www.prydwen.gg/zenless/characters/soukaku",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+        "https://www.gamekee.com/zzz/621045.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/52716.png"
+    },
+    {
+      "id": "sunna",
+      "name": "千夏",
+      "name_zh": "千夏",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%8D%83%E5%A4%8F",
+        "https://www.prydwen.gg/zenless/characters/sunna"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sunna_card.webp"
+    },
+    {
+      "id": "trigger",
+      "name": "「扳机」",
+      "name_zh": "「扳机」",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E6%89%B3%E6%9C%BA%E3%80%8D",
+        "https://www.prydwen.gg/zenless/characters/trigger",
+        "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+        "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+        "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/trigger_card.webp"
+    },
+    {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "name_zh": "柚叶",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%9F%9A%E5%8F%B6",
+        "https://www.prydwen.gg/zenless/characters/ukinami-yuzuha",
+        "https://wiki.biligame.com/zzz/%E7%88%B1%E4%B8%BD%E4%B8%9D",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://wiki.biligame.com/zzz/%E7%AE%80"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ukinami-yuzuha_card.webp"
+    },
+    {
+      "id": "velina",
+      "name": "维琳娜",
+      "name_zh": "维琳娜",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%BB%B4%E7%90%B3%E5%A8%9C",
+        "https://www.prydwen.gg/zenless/characters/velina",
+        "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/velina_card.webp"
+    },
+    {
+      "id": "vivian",
+      "name": "薇薇安",
+      "name_zh": "薇薇安",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E8%96%87%E8%96%87%E5%AE%89",
+        "https://www.prydwen.gg/zenless/characters/vivian",
+        "https://wiki.biligame.com/zzz/%E7%88%B1%E4%B8%BD%E4%B8%9D",
+        "https://wiki.biligame.com/zzz/%E9%9B%85",
+        "https://wiki.biligame.com/zzz/%E6%9F%B3"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/vivian_card.webp"
+    },
+    {
+      "id": "yanagi",
+      "name": "柳",
+      "name_zh": "柳",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%9F%B3",
+        "https://www.prydwen.gg/zenless/characters/yanagi",
+        "https://www.gamekee.com/zzz/640043.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_678/h_758/50270/103682/2024/10/6/313772.png"
+    },
+    {
+      "id": "ye-shunguang",
+      "name": "叶瞬光",
+      "name_zh": "叶瞬光",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E5%8F%B6%E7%9E%AC%E5%85%89",
+        "https://www.prydwen.gg/zenless/characters/ye-shunguang"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ye-shunguang_card.webp"
+    },
+    {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "name_zh": "伊德海莉",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E4%BC%8A%E5%BE%B7%E6%B5%B7%E8%8E%89",
+        "https://www.prydwen.gg/zenless/characters/yidhari"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yidhari_card.webp"
+    },
+    {
+      "id": "yixuan",
+      "name": "仪玄",
+      "name_zh": "仪玄",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+        "https://www.prydwen.gg/zenless/characters/yixuan",
+        "https://www.gamekee.com/zzz/665375.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_413/h_743/50270/103682/2025/5/6/500349.png"
+    },
+    {
+      "id": "zhao",
+      "name": "照",
+      "name_zh": "照",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E7%85%A7",
+        "https://www.prydwen.gg/zenless/characters/zhao"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/zhao_card.webp"
+    },
+    {
+      "id": "zhu-yuan",
+      "name": "朱鸢",
+      "name_zh": "朱鸢",
+      "stub": false,
+      "sources": [
+        "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+        "https://www.prydwen.gg/zenless/characters/zhu-yuan",
+        "https://www.gamekee.com/zzz/622121.html"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_542/h_747/50270/43758/2024/4/13/13878.png"
+    }
+  ]
+}

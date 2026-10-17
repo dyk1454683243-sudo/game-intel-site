@@ -29,10 +29,11 @@ const WATCH = {
   asora: { name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   miraesi: { name: "Invisible Future", name_zh: "미래시" },
   lo2: { name: "Last Origin 2", name_zh: "Last Origin 2" },
+  "zenless-zone-zero": { name: "Zenless Zone Zero", name_zh: "绝区零" },
 };
 
 /** Games whose non-stub cards must carry a conclusion (`summary`) row. */
-const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2"]);
+const CONCLUSION_GAMES = new Set(["hw", "nikke", "bd2", "zenless-zone-zero"]);
 
 function rmrf(p) {
   if (fs.existsSync(p)) fs.rmSync(p, { recursive: true, force: true });

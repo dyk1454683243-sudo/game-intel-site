@@ -1,0 +1,120 @@
+{
+  "id": "billy-kid",
+  "name": "比利",
+  "name_zh": "比利",
+  "name_en": "Billy Kid",
+  "aliases": [
+    "比利·奇德"
+  ],
+  "nicknames": [
+    "星徽骑士",
+    "火力型地域压制用高智慧战术素体"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "A",
+  "element": "物理",
+  "faction": "狡兔屋",
+  "attack_type": "穿透",
+  "skills": [
+    {
+      "name": "火力全开",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 对前方敌人发动穿透攻击，造成物理伤害。 连点或长按时，可以进入蹲姿射击，延长射击的持续时间。 蹲姿射击途中拖曳摇杆时，可以发动翻滚射击，调整身位并造成物理伤害。 蹲姿射击途中停止连点或松开长按时，对前方敌人发动终结射击，造成物理伤害。"
+    },
+    {
+      "name": "好险好险",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "星-徽-制-裁",
+      "type": "dodge",
+      "summary": "拖曳摇杆发动「闪避」后，点按普通攻击发动： 向周围大范围区域进行穿透攻击，造成物理伤害。 未拖曳摇杆发动闪避后，点按普通攻击发动： 向前方直线区域进行穿透攻击，造成物理伤害。"
+    },
+    {
+      "name": "公平决斗",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动穿透攻击，造成物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "乖乖站好",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方直线区域进行至多三段的穿透攻击，造成物理伤害。 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "清场时间",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方直线区域进行强力穿透攻击，造成大量物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "星徽荣耀幻影",
+      "type": "chain",
+      "summary": "触发[连携技]时，选择对应角色发动： 对周围大范围敌人发动强力穿透攻击，造成大量物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "星徽在此闪耀",
+      "type": "ultimate",
+      "summary": "喧响等级达到[极]时，点按连携技发动： 对周围大范围敌人发动强力穿透攻击，造成大量物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "星徽-同伴之力",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 对前方敌人发动穿透攻击，造成物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "要害射击",
+      "type": "assist",
+      "summary": "发动「回避支援」后，点按普通攻击发动： 对前方大范围敌人发动穿透攻击，造成物理伤害。 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "稳定据枪",
+      "type": "core",
+      "summary": "比利在「普通攻击」中进入蹲姿射击后，自身造成的伤害提升25%，进行移动、回到待机、被击退或被击飞时增益效果结束。"
+    },
+    {
+      "name": "骑士战队",
+      "type": "additional",
+      "summary": "队伍中包含与自身属性或阵营相同的角色时触发： 比利发动「连携技」后，下次发动「终结技」时，招式造成的伤害提升50%，最多叠加2次，发动「终结技」后效果重置。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技=连携技=强化特殊技>普通攻击=闪避>支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 配队表：青衣 / 妮可 / 比利（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 比凯青：青衣 / 凯撒 / 比利（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 比凯青：比利 / 「扳机」 / 耀嘉音（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 妮可 / 比利（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 比露妮：露西 / 妮可 / 比利（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：妮可 / 比利 / 安比（https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9",
+    "https://www.prydwen.gg/zenless/characters/billy-kid",
+    "https://www.gamekee.com/zzz/621041.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "billy-kid",
+  "verified": "BWIKI「比利」图鉴 wikitext，页面修订 2026-07-31",
+  "gamekee_content_id": 621041,
+  "gamekee_entry_id": 148535,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/583803.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148535",
+  "summary": {
+    "position": "A / 物理 / 强攻 / 狡兔屋",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9",
+      "https://www.prydwen.gg/zenless/characters/billy-kid",
+      "https://www.gamekee.com/zzz/621041.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-07-31"
+}

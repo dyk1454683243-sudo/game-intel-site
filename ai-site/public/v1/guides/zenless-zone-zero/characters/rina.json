@@ -1,0 +1,135 @@
+{
+  "id": "rina",
+  "name": "丽娜",
+  "name_zh": "丽娜",
+  "name_en": "Alexandrina Sebastian",
+  "aliases": [
+    "亚历山德丽娜·莎芭丝缇安"
+  ],
+  "nicknames": [
+    "女仆长"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "支援",
+  "rarity": "S",
+  "element": "电",
+  "faction": "维多利亚家政",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "普通攻击：痛打呆子",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 指派杜苏拉和安娜塔莎发动至多四段的攻击，造成物理伤害和电属性伤害； 在杜苏拉和安娜塔莎攻击期间，丽娜执行其他行动，不会打断「普通攻击」的连击段数。"
+    },
+    {
+      "name": "普通攻击：赶走傻瓜",
+      "type": "basic",
+      "summary": "长按普攻或特殊技发动： 召回杜苏拉和安娜塔莎，在身边回旋后进行范围攻击，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "闪避：抚平裙摆",
+      "type": "dodge",
+      "summary": "点按闪避发动： 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冲刺攻击：突然惊吓",
+      "type": "dodge",
+      "summary": "拖曳摇杆发动闪避后，点按普通攻击发动： 指派杜苏拉和安娜塔莎发动穿透攻击，造成物理伤害。"
+    },
+    {
+      "name": "闪避反击：邦布回魂",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 指派杜苏拉和安娜塔莎，向前方旋转飞出并触发爆炸，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：二拍的阿勒芒德",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 指派杜苏拉和安娜塔莎，向前方旋转飞出并触发爆炸，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "回避支援：三拍的库朗特",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 回避敌人的攻击，并触发「极限视域」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：四拍的加沃特",
+      "type": "assist",
+      "summary": "发动「回避支援」后，点按普通攻击发动： 指派杜苏拉和安娜塔莎，向前方持续推进并生成涡旋电场，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：砸扁笨蛋",
+      "type": "special",
+      "summary": "点按特殊技发动： 指派安娜塔莎发动下砸攻击，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "强化特殊技：笨蛋消失魔法",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 指派安娜塔莎发动持续下砸攻击，造成大量电属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」。"
+    },
+    {
+      "name": "连携技：侍者守则",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 指派杜苏拉和安娜塔莎，向前方持续推进并生成球形电场，造成大量电属性伤害； 杜苏拉和安娜塔莎在推进期间无法响应「普通攻击」、「冲刺攻击」、「特殊技」或「强化特殊技」的指令，但可以通过发动「普通攻击：赶走傻瓜」将其召回丽娜身边； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」。"
+    },
+    {
+      "name": "终结技：女王的侍从们",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 指派杜苏拉和安娜塔莎，向前方持续推进并发动高速回旋，造成大量电属性伤害； 杜苏拉和安娜塔莎在推进期间无法响应「普通攻击」、「冲刺攻击」、「特殊技」或「强化特殊技」的指令，但可以通过发动「普通攻击：赶走傻瓜」将其召回丽娜身边； 招式发动时，队伍中其他角色回复10点能量，下一名换入前场的角色额外回复20点能量； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发「快速支援」。"
+    },
+    {
+      "name": "核心被动：迷你毁灭拍档",
+      "type": "core",
+      "summary": "指派杜苏拉或安娜塔莎进行攻击时，队伍中其他角色的穿透率随丽娜自身的穿透率提升，提升效果等同于丽娜25%穿透率+6%，最高提升30%，杜苏拉和安娜塔莎均返回丽娜身边后，对应增益效果结束。"
+    },
+    {
+      "name": "额外能力：完美舞会",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 队伍中任意角色对敌人施加[感电]效果时，该效果的持续时间提升3秒；场上存在处于[感电]状态下的敌人时，全队电属性伤害提升10%。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技>连携技>普通攻击>支援技=闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 常规配队：克拉蕾 / 珂蕾妲 / 丽娜（https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 队伍1：丽娜 / 雅 / 柳（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：丽娜 / 雅 / 格莉丝（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳妮耀：柳 / 「扳机」 / 丽娜（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳妮耀：丽娜 / 妮可 / 柳（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳丽妮：露西 / 丽娜 / 柳（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E4%B8%BD%E5%A8%9C",
+    "https://www.prydwen.gg/zenless/characters/rina",
+    "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E6%9F%B3",
+    "https://www.gamekee.com/zzz/621032.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "rina",
+  "verified": "BWIKI「丽娜」图鉴 wikitext，页面修订 2026-08-12",
+  "gamekee_content_id": 621032,
+  "gamekee_entry_id": 148526,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/588218.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148526",
+  "summary": {
+    "position": "S / 电 / 支援 / 维多利亚家政",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E4%B8%BD%E5%A8%9C",
+      "https://www.prydwen.gg/zenless/characters/rina",
+      "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E6%9F%B3",
+      "https://www.gamekee.com/zzz/621032.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-12"
+}

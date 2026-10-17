@@ -1,0 +1,139 @@
+{
+  "id": "anton",
+  "name": "安东",
+  "name_zh": "安东",
+  "name_en": "Anton Ivanov",
+  "aliases": [
+    "安东·伊万诺夫"
+  ],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "A",
+  "element": "电",
+  "faction": "白祇重工",
+  "attack_type": "穿透",
+  "skills": [
+    {
+      "name": "普通攻击：热血上工操",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的攻击，造成物理伤害； 第四段攻击为「打桩攻击」。"
+    },
+    {
+      "name": "普通攻击：热血上工操（爆发状态）",
+      "type": "basic",
+      "summary": "「爆发状态」下，点按普通攻击发动： 向前方进行至多三段的混合攻击，造成大量电属性伤害； 在第二段「电钻攻击」和第三段「打桩攻击」期间，连点或长按普通攻击可以延长招式的持续时间。"
+    },
+    {
+      "name": "闪避：动起来",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冲刺攻击：硬碰硬",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行撞击，造成物理伤害。"
+    },
+    {
+      "name": "闪避反击：回敬拳击",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动连续重拳，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "闪避反击：过载钻击（爆发状态）",
+      "type": "dodge",
+      "summary": "「爆发状态」下，触发「极限闪避」后，点按普通攻击发动： 对前方敌人使用「电钻攻击」，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：并肩作战",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动连续重拳，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：援护钻击（爆发状态）",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动「电钻攻击」，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "招架支援：钢腕",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：极限突进",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动「电钻攻击」并以「打桩攻击」收尾，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：兄弟，转起来",
+      "type": "special",
+      "summary": "点按特殊技发动： 对前方直线区域内敌人发动「打桩攻击」，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "强化特殊技：兄弟，突破天际！",
+      "type": "special",
+      "summary": "能量足够时，若点按强化特殊技发动： 对前方直线区域内敌人发动多段「打桩攻击」，造成大量电属性伤害； 招式发动期间拥有无敌效果； 招式发动后，安东将进入「爆发状态」；在「爆发状态」下，安东会使用更加强力的招式，造成大量电属性伤害，并随招式命中目标，逐渐消耗能量，持续至能量耗尽。"
+    },
+    {
+      "name": "特殊技：爆发钻击（爆发状态）",
+      "type": "special",
+      "summary": "「爆发状态」下，点按特殊技发动： 对前方敌人发动「打桩攻击」，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "连携技：转转转！",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方地面进行大范围「打桩攻击」，对区域内的敌人造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "终结技：转转转转转！",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方地面进行大范围「打桩攻击」，对区域内的敌人造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "核心被动：兄弟齐心！",
+      "type": "core",
+      "summary": "安东发动「打桩攻击」时，招式造成的伤害提升14%，发动「电钻攻击」时，招式造成的伤害提升23.3%。"
+    },
+    {
+      "name": "额外能力：通力合作",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发； 安东进入「爆发状态」后，每触发4次暴击，下一次攻击命中处于「感电」状态下的敌人时，能够额外结算一次「感电」伤害，伤害效果等同于原来的45%，0.5秒内最多触发一次。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>支援技>连携技>普通攻击>闪避=特殊技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 高配：安东 / 「扳机」 / 耀嘉音（https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 高配：安东 / 安比 / 妮可（https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 安东 / 妮可（https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C",
+    "https://www.prydwen.gg/zenless/characters/anton",
+    "https://www.gamekee.com/zzz/621034.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "anton",
+  "verified": "BWIKI「安东」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 621034,
+  "gamekee_entry_id": 148528,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/986897.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148528",
+  "summary": {
+    "position": "A / 电 / 强攻 / 白祇重工",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E5%AE%89%E4%B8%9C",
+      "https://www.prydwen.gg/zenless/characters/anton",
+      "https://www.gamekee.com/zzz/621034.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}

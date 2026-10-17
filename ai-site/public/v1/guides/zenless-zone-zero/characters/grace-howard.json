@@ -1,0 +1,124 @@
+{
+  "id": "grace-howard",
+  "name": "格莉丝",
+  "name_zh": "格莉丝",
+  "name_en": "Grace Howard",
+  "aliases": [
+    "格莉丝·霍华德"
+  ],
+  "nicknames": [
+    "铁魔女"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "异常",
+  "rarity": "S",
+  "element": "电",
+  "faction": "白祇重工",
+  "attack_type": "穿透",
+  "skills": [
+    {
+      "name": "高压射钉",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的攻击，造成物理伤害和电属性伤害； 在「普通攻击」期间向侧方拖曳摇杆，可以发动垫步射击，调整身位并造成物理伤害； 格莉丝在「普通攻击」期间发动[特殊技]、「强化特殊技」、「闪避」、[冲刺攻击]、「闪避反击」时，不会打断「普通攻击」的连击段数。"
+    },
+    {
+      "name": "安全条款",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "突击检查",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方滑铲扫射，造成物理伤害。"
+    },
+    {
+      "name": "违章处罚",
+      "type": "dodge",
+      "summary": "触发[极限闪避]后，点按普通攻击发动： 对敌人投掷一颗手雷，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "工程清障",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方投掷一颗手雷，造成电属性伤害； 发动招式时，可以拖曳摇杆，向对应方向调整身位； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "超规工程清障",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 腾空跃起，并向前方投掷两颗手雷，造成大量电属性伤害； 发动招式时，可以拖曳摇杆，向对应方向调整身位； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "协作施工",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 向空中抛出三颗手雷，随后扫射将其引爆，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "工程爆破请勿接近",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 丢出一枚特制的手雷，其在空中爆炸后会分裂成四颗更小的手雷，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "事故解决方案",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 对敌人投掷一颗手雷，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速风险响应",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按点按支援技发动： 回避敌人的攻击，并触发[极限视域]； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "反击电针",
+      "type": "assist",
+      "summary": "发动「回避支援」后，点按普通攻击发动： 对前方敌人发动回旋扫射并投掷手雷，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "预驱动撞针",
+      "type": "core",
+      "summary": "格莉丝发动「普通攻击」或「冲刺攻击」命中敌人并造成物理伤害时，获得一层「电能」(上限8层)；「电能」层数到达上限后，发动「特殊技」或[强化特殊技]时，消耗所有「电能」，使招式聚积的电属性异常积蓄值提升65%。（此处数据为初始数据）"
+    },
+    {
+      "name": "技术支持班组",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 格莉丝发动「强化特殊技」命中敌人时，目标下次被施加「感电」效果时，该次「感电」伤害提升18%，最多叠加2层，同一招式内每个敌人最多触发一次效果，「感电」状态结束时效果重置。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技=连携技>普通攻击=闪避=支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 格莉丝 / 妮可（https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：丽娜 / 格莉丝 / 赛斯（https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：格莉丝 / 薇薇安 / 露西（https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：丽娜 / 雅 / 格莉丝（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+    "https://www.prydwen.gg/zenless/characters/grace-howard",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://www.gamekee.com/zzz/621039.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "grace-howard",
+  "verified": "BWIKI「格莉丝」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 621039,
+  "gamekee_entry_id": 148531,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/489480.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148531",
+  "summary": {
+    "position": "S / 电 / 异常 / 白祇重工",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+      "https://www.prydwen.gg/zenless/characters/grace-howard",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://www.gamekee.com/zzz/621039.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}

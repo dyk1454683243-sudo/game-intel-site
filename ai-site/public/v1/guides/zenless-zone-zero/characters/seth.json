@@ -1,0 +1,133 @@
+{
+  "id": "seth",
+  "name": "赛斯",
+  "name_zh": "赛斯",
+  "name_en": "Seth Lowell",
+  "aliases": [
+    "赛斯·洛威尔"
+  ],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "防护",
+  "rarity": "A",
+  "element": "电",
+  "faction": "治安局·刑侦特勤组",
+  "attack_type": "斩击",
+  "skills": [
+    {
+      "name": "普通攻击：雷霆击",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的攻击，造成物理伤害和电属性伤害。"
+    },
+    {
+      "name": "普通攻击：雷霆击-感电",
+      "type": "basic",
+      "summary": "「意气」高于75%时，长按普通攻击发动： 消耗75%「意气」向前方发动持续攻击，随后发动终结一击，造成电属性伤害； 终结一击命中敌人时，将触发队伍上一位角色的「快速支援」； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "闪避：避障",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冲刺攻击：电光突袭",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前进行盾冲攻击，造成物理伤害； 招式发动期间受到的伤害降低40%。"
+    },
+    {
+      "name": "闪避反击：以退为进",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动快速的下砸斩击，造成电属性伤害； 招式发动后，长按特殊技衔接「强化特殊技：电光盾冲-高伏特」时，能够以更快的速度完成蓄力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：武力支援",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动快速的下砸斩击，造成电属性伤害； 招式发动后，长按特殊技衔接「强化特殊技:电光盾冲-高伏特」时，能够以更快的速度完成蓄力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "招架支援：迅雷盾",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 招式发动时，会为自身累积25%「意气」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：治安裁决",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 向前方发动突刺攻击，随后进行两次横扫斩击，造成电属性伤害； 招式命中敌人时，将触发队伍上一位角色的「快速支援」； 招式发动后，长按特殊技衔接「强化特殊技:电光盾冲-高伏特」时，能够以更快的速度完成蓄力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：电光盾冲",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方发动两次盾击，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "强化特殊技：电光盾冲-高伏特",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方发动连续斩击，造成大量电属性伤害； 长按强化特殊技可以进行蓄力，蓄力完成后赛斯将向前方突进，发动高量级的连续斩击，造成大量电属性伤害； 招式发动时，会为自身积攒75%「意气」; 招式蓄力期间抗打断等级提升，受到的伤害降低40%； 连续斩击期间拥有无敌效果。"
+    },
+    {
+      "name": "连携技：最终制裁",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 向前方进行连续斩击，造成大量电属性伤害； 招式发动后，会为自身累积75%「意气」; 招式发动后，长按特殊技衔接「强化特殊技:电光盾冲-高伏特」时，能够以更快的速度完成蓄力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "终结技：正义必胜",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 向前方进行连续上挑攻击，随后发动终结一击，造成大量电属性伤害； 招式发动时，会为自身累积75%「意气」，额外恢复3点支援点数； 招式发动后，长按特殊技衔接「强化特殊技:电光盾冲-高伏特」时，能够以更快的速度完成蓄力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "核心被动：守望者",
+      "type": "core",
+      "summary": "赛斯发动「强化特殊技:电光盾冲-高伏特」时，会获得等同于自身40%初始攻击力的护盾「匪石之盾」，最高不超过3000点，持续25秒，10秒内最多触发一次；队伍内其他角色通过「普通攻击:雷霆击-感电」或「支援突击:治安裁决」所触发的「快速支援」或「连携技」入场时，会为该队友提供等同于赛斯40%初始攻击力的护盾「匪石之盾」，最高不超过3000点，持续25秒，10秒内最多触发一次；拥有「匪石之盾」时，持有者的异常精通提升50点。"
+    },
+    {
+      "name": "额外能力：扫除帮手",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发； 赛斯发动「连携技：最终制裁」命中敌人或在「普通攻击:雷霆击-感电」中发动终结一击命中敌人时，目标的全属性积蓄抗性降低20%，持续20秒。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>支援技>强化特殊技=普通攻击>连携技>闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 柳丽露：丽娜 / 柳 / 赛斯（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 简妮耀：耀嘉音 / 简 / 赛斯（https://wiki.biligame.com/zzz/%E7%AE%80 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 简妮耀：简 / 赛斯 / 丽娜（https://wiki.biligame.com/zzz/%E7%AE%80 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 简妮耀：简 / 赛斯 / 凯撒（https://wiki.biligame.com/zzz/%E7%AE%80 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 简赛耀：简 / 赛斯 / 露西（https://wiki.biligame.com/zzz/%E7%AE%80 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：丽娜 / 格莉丝 / 赛斯（https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E8%B5%9B%E6%96%AF",
+    "https://www.prydwen.gg/zenless/characters/seth",
+    "https://wiki.biligame.com/zzz/%E6%9F%B3",
+    "https://wiki.biligame.com/zzz/%E7%AE%80",
+    "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+    "https://www.gamekee.com/zzz/634638.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "seth",
+  "verified": "BWIKI「赛斯」图鉴 wikitext，页面修订 2026-08-13",
+  "gamekee_content_id": 634638,
+  "gamekee_entry_id": 163267,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_359/h_505/50270/103682/2024/8/5/142527.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:163267",
+  "summary": {
+    "position": "A / 电 / 防护 / 治安局·刑侦特勤组",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E8%B5%9B%E6%96%AF",
+      "https://www.prydwen.gg/zenless/characters/seth",
+      "https://wiki.biligame.com/zzz/%E6%9F%B3",
+      "https://wiki.biligame.com/zzz/%E7%AE%80",
+      "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
+      "https://www.gamekee.com/zzz/634638.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-13"
+}

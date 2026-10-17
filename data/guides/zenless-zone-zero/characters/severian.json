@@ -1,0 +1,32 @@
+{
+  "id": "severian",
+  "name": "赛维里安",
+  "name_zh": "赛维里安",
+  "name_en": "Severian Lowell",
+  "aliases": [
+    "赛维里安·洛威尔"
+  ],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "S",
+  "element": "风",
+  "faction": "都市秩序部",
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E8%B5%9B%E7%BB%B4%E9%87%8C%E5%AE%89",
+    "https://www.prydwen.gg/zenless/characters/severian"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "severian",
+  "verified": "BWIKI「赛维里安」图鉴 wikitext，页面修订 2026-09-22",
+  "note": "BWIKI 该页技能模板没有写具体效果。属性、稀有度和阵营来自同一页图鉴。不编造技能。",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/severian_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/severian",
+  "portrait_via": "prydwen-character:severian",
+  "wiki_revised": "2026-09-22"
+}

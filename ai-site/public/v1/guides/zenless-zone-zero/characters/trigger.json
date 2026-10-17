@@ -1,0 +1,131 @@
+{
+  "id": "trigger",
+  "name": "「扳机」",
+  "name_zh": "「扳机」",
+  "name_en": "Trigger",
+  "aliases": [],
+  "nicknames": [
+    "「卡戎」"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "S",
+  "element": "电",
+  "faction": "防卫军·奥波勒斯小队",
+  "attack_type": "穿透",
+  "skills": [
+    {
+      "name": "冷膛射击",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的射击，前三段造成物理伤害，第四段造成电属性伤害。"
+    },
+    {
+      "name": "协奏狙杀",
+      "type": "basic",
+      "summary": "「扳机」拥有「绝意」值后，队伍中其他操作中的角色，发动「普通攻击」、「冲刺攻击」、「闪避反击」、「特殊技」、「快速支援」命中敌人时触发： 围绕目标敌人，连续发动两次快速射击，造成电属性伤害； 招式发动时，消耗3点「绝意」值； 招式发动期间拥有无敌效果； 「普通攻击：协奏狙杀」为「追加攻击」； 全队3秒内最多触发1次「普通攻击：协奏狙杀」。"
+    },
+    {
+      "name": "魂隐",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "怨魂返",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 快速举枪射击，造成物理伤害。"
+    },
+    {
+      "name": "极魂罚",
+      "type": "dodge",
+      "summary": "触发[极限闪避]后，点按普通攻击发动： 转身回旋并对前方敌人发动快速射击，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "幽闪",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方发动突进斩击，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "幽闪花葬",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方发动突进斩击，并在跃起后向地面追加一段强力射击，造成大量电属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发队伍中上一位角色的「快速支援」； 招式命中敌人时，「扳机」将进入「协战状态」，期间队伍中其他操作中的角色，发动任意攻击命中敌人时，即可触发「普通攻击：协奏狙杀」，无需消耗「绝意」值，且没有冷却时间的限制，持续8秒，可触发4次，重复进入「协战状态」时延长持续时间，并获得可触发次数，最多持续20秒，可触发10次。"
+    },
+    {
+      "name": "冥河之引",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 向前方连续发动强力射击，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冥府挽歌",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方大范围敌人发动强力射击，造成大量电属性伤害； 招式发动期间拥有无敌效果； 招式命中敌人时，将触发队伍中上一位角色的「快速支援」； 招式命中敌人时，「扳机」将进入「协战状态」，期间队伍中其他操作中的角色，发动任意攻击命中敌人时，即可触发「普通攻击：协奏狙杀」，无需消耗「绝意」值，且没有冷却时间的限制，持续12秒，可触发6次，重复进入「协战状态」时延长持续时间，并获得可触发次数，最多持续20秒，可触发10次。"
+    },
+    {
+      "name": "冷枪援护",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 转身回旋并对前方敌人发动快速射击，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "死线偏移",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "殛雷穿心",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动连续斩击，随后落地蓄力并追加一段强力射击，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "破隙幽瞳",
+      "type": "core",
+      "summary": "「扳机」发动「追加攻击」命中敌人时，目标的失衡易伤倍率提升20%，持续5秒，通过这种途径施加的失衡易伤倍率提升效果，在目标未进入失衡状态时亦可生效。（此处数据为初始数据）"
+    },
+    {
+      "name": "灵目银灯",
+      "type": "additional",
+      "summary": "队伍中存在「强攻」角色或与自身属性相同的角色时触发： 「扳机」的暴击率高于40%时，每超过1%暴击率会使自身发动[追加攻击]造成的失衡值提升1.5%，最多提升75%。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技=普通攻击>强化特殊技=连携技>闪避=支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 安扳队：零号·安比 / 「扳机」 / 奥菲丝&「鬼火」（https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选阵容：「席德」 / 「扳机」 / 猫又（https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 常规配队：耀嘉音 / 仪玄 / 「扳机」（https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：零号·安比 / 「扳机」 / 耀嘉音（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选替代：零号·安比 / 「扳机」 / 妮可（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选替代：零号·安比 / 「扳机」 / 凯撒（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E3%80%8C%E6%89%B3%E6%9C%BA%E3%80%8D",
+    "https://www.prydwen.gg/zenless/characters/trigger",
+    "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+    "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+    "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+    "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "trigger",
+  "verified": "BWIKI「「扳机」」图鉴 wikitext，页面修订 2025-09-09",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/trigger_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/trigger",
+  "portrait_via": "prydwen-character:trigger",
+  "summary": {
+    "position": "S / 电 / 击破 / 防卫军·奥波勒斯小队",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E3%80%8C%E6%89%B3%E6%9C%BA%E3%80%8D",
+      "https://www.prydwen.gg/zenless/characters/trigger",
+      "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D",
+      "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
+      "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+      "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2025-09-09"
+}
