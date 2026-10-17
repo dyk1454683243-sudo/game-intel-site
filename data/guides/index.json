@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-16",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -65,15 +65,6 @@
       "rich_count": 0,
       "stub_count": 0,
       "path": "guides/star"
-    },
-    {
-      "id": "wuthering-waves",
-      "name": "Wuthering Waves",
-      "name_zh": "鸣潮",
-      "character_count": 61,
-      "rich_count": 59,
-      "stub_count": 2,
-      "path": "guides/wuthering-waves"
     }
   ]
 }
