@@ -2,7 +2,7 @@
   "game": "zenless-zone-zero",
   "name": "Zenless Zone Zero",
   "name_zh": "绝区零",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "character_count": 62,
   "rich_count": 57,
@@ -23,7 +23,8 @@
         "https://www.prydwen.gg/zenless/characters/alice",
         "https://wiki.biligame.com/zzz/%E7%AE%80"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/alice_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/alice_card.webp",
+      "rarity": "S"
     },
     {
       "id": "anby-demara",
@@ -40,7 +41,8 @@
         "https://wiki.biligame.com/zzz/%E6%AF%94%E5%88%A9",
         "https://www.gamekee.com/zzz/621038.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/459055.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/459055.png",
+      "rarity": "A"
     },
     {
       "id": "anby-demara-soldier-0",
@@ -52,7 +54,8 @@
         "https://www.prydwen.gg/zenless/characters/anby-demara-soldier-0",
         "https://www.gamekee.com/zzz/651020.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_452/h_737/50270/103682/2025/2/12/334194.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_452/h_737/50270/103682/2025/2/12/334194.png",
+      "rarity": "S"
     },
     {
       "id": "anton",
@@ -64,7 +67,8 @@
         "https://www.prydwen.gg/zenless/characters/anton",
         "https://www.gamekee.com/zzz/621034.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/986897.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/986897.png",
+      "rarity": "A"
     },
     {
       "id": "aria",
@@ -76,7 +80,8 @@
         "https://www.prydwen.gg/zenless/characters/aria",
         "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/aria_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/aria_card.webp",
+      "rarity": "S"
     },
     {
       "id": "astra-yao",
@@ -90,7 +95,8 @@
         "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
         "https://wiki.biligame.com/zzz/%E7%88%B1%E4%B8%BD%E4%B8%9D"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/astra-yao_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/astra-yao_card.webp",
+      "rarity": "S"
     },
     {
       "id": "banyue",
@@ -101,7 +107,8 @@
         "https://wiki.biligame.com/zzz/%E8%88%AC%E5%B2%B3",
         "https://www.prydwen.gg/zenless/characters/banyue"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/banyue_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/banyue_card.webp",
+      "rarity": "S"
     },
     {
       "id": "ben",
@@ -114,7 +121,8 @@
         "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
         "https://www.gamekee.com/zzz/621040.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/782127.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/782127.png",
+      "rarity": "A"
     },
     {
       "id": "billy-kid",
@@ -126,7 +134,8 @@
         "https://www.prydwen.gg/zenless/characters/billy-kid",
         "https://www.gamekee.com/zzz/621041.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/583803.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/583803.png",
+      "rarity": "A"
     },
     {
       "id": "billy-starlight",
@@ -137,7 +146,8 @@
         "https://wiki.biligame.com/zzz/%E6%98%9F%E5%BE%BD%C2%B7%E6%AF%94%E5%88%A9",
         "https://www.prydwen.gg/zenless/characters/billy-starlight"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/billy-starlight_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/billy-starlight_card.webp",
+      "rarity": "S"
     },
     {
       "id": "burnice",
@@ -153,7 +163,8 @@
         "https://wiki.biligame.com/zzz/%E7%AE%80",
         "https://www.gamekee.com/zzz/638742.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_514/h_746/50270/103682/2024/9/16/878870.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_514/h_746/50270/103682/2024/9/16/878870.png",
+      "rarity": "S"
     },
     {
       "id": "caesar",
@@ -168,7 +179,8 @@
         "https://wiki.biligame.com/zzz/%E6%9F%B3",
         "https://www.gamekee.com/zzz/636427.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_378/h_527/50270/103682/2024/8/23/239136.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_378/h_527/50270/103682/2024/8/23/239136.png",
+      "rarity": "S"
     },
     {
       "id": "cissia",
@@ -180,7 +192,8 @@
         "https://www.prydwen.gg/zenless/characters/cissia",
         "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/cissia_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/cissia_card.webp",
+      "rarity": "S"
     },
     {
       "id": "claret",
@@ -191,7 +204,8 @@
         "https://wiki.biligame.com/zzz/%E5%85%8B%E6%8B%89%E8%95%BE",
         "https://www.prydwen.gg/zenless/characters/claret"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/claret_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/claret_card.webp",
+      "rarity": "S"
     },
     {
       "id": "corin",
@@ -203,7 +217,8 @@
         "https://www.prydwen.gg/zenless/characters/corin",
         "https://www.gamekee.com/zzz/621033.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/159206.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/159206.png",
+      "rarity": "A"
     },
     {
       "id": "dialyn",
@@ -215,7 +230,8 @@
         "https://www.prydwen.gg/zenless/characters/dialyn",
         "https://wiki.biligame.com/zzz/%E7%8C%AB%E5%8F%88"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/dialyn_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/dialyn_card.webp",
+      "rarity": "S"
     },
     {
       "id": "ellen",
@@ -227,7 +243,8 @@
         "https://www.prydwen.gg/zenless/characters/ellen",
         "https://www.gamekee.com/zzz/621044.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/287225.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/287225.png",
+      "rarity": "S"
     },
     {
       "id": "evelyn",
@@ -239,7 +256,8 @@
         "https://www.prydwen.gg/zenless/characters/evelyn",
         "https://www.gamekee.com/zzz/649983.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_448/h_804/50270/103682/2025/1/17/399366.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_448/h_804/50270/103682/2025/1/17/399366.png",
+      "rarity": "S"
     },
     {
       "id": "grace-howard",
@@ -252,7 +270,8 @@
         "https://wiki.biligame.com/zzz/%E9%9B%85",
         "https://www.gamekee.com/zzz/621039.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/489480.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/489480.png",
+      "rarity": "S"
     },
     {
       "id": "harumasa",
@@ -264,7 +283,8 @@
         "https://www.prydwen.gg/zenless/characters/harumasa",
         "https://www.gamekee.com/zzz/643326.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_507/h_743/50270/103682/2024/11/17/472709.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_507/h_743/50270/103682/2024/11/17/472709.png",
+      "rarity": "S"
     },
     {
       "id": "hugo",
@@ -275,7 +295,8 @@
         "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
         "https://www.prydwen.gg/zenless/characters/hugo"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/hugo_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/hugo_card.webp",
+      "rarity": "S"
     },
     {
       "id": "jane-doe",
@@ -286,7 +307,8 @@
         "https://wiki.biligame.com/zzz/%E7%AE%80",
         "https://www.prydwen.gg/zenless/characters/jane-doe"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/jane-doe_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/jane-doe_card.webp",
+      "rarity": "S"
     },
     {
       "id": "ju-fufu",
@@ -300,7 +322,8 @@
         "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
         "https://www.gamekee.com/zzz/667882.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_463/h_747/50270/103682/2025/5/25/756098.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_463/h_747/50270/103682/2025/5/25/756098.png",
+      "rarity": "S"
     },
     {
       "id": "koleda",
@@ -316,7 +339,8 @@
         "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
         "https://www.gamekee.com/zzz/621043.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/503317.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/503317.png",
+      "rarity": "S"
     },
     {
       "id": "lighter",
@@ -333,7 +357,8 @@
         "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
         "https://www.gamekee.com/zzz/641514.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_465/h_819/50270/103682/2024/10/26/544298.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_465/h_819/50270/103682/2024/10/26/544298.png",
+      "rarity": "S"
     },
     {
       "id": "lucia",
@@ -344,7 +369,8 @@
         "https://wiki.biligame.com/zzz/%E5%8D%A2%E8%A5%BF%E5%A8%85",
         "https://www.prydwen.gg/zenless/characters/lucia"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucia_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucia_card.webp",
+      "rarity": "S"
     },
     {
       "id": "lucy",
@@ -358,7 +384,8 @@
         "https://wiki.biligame.com/zzz/%E9%9B%85",
         "https://wiki.biligame.com/zzz/%E6%9F%B3"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucy_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/lucy_card.webp",
+      "rarity": "A"
     },
     {
       "id": "lycaon",
@@ -373,7 +400,8 @@
         "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
         "https://www.gamekee.com/zzz/621030.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/568259.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/568259.png",
+      "rarity": "S"
     },
     {
       "id": "manato",
@@ -384,7 +412,8 @@
         "https://wiki.biligame.com/zzz/%E7%9C%9F%E6%96%97",
         "https://www.prydwen.gg/zenless/characters/manato"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/manato_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/manato_card.webp",
+      "rarity": "A"
     },
     {
       "id": "miyabi",
@@ -396,7 +425,8 @@
         "https://www.prydwen.gg/zenless/characters/miyabi",
         "https://www.gamekee.com/zzz/643286.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_502/h_743/50270/103682/2024/11/17/313516.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_502/h_743/50270/103682/2024/11/17/313516.png",
+      "rarity": "S"
     },
     {
       "id": "nangong-yu",
@@ -407,7 +437,8 @@
         "https://wiki.biligame.com/zzz/%E5%8D%97%E5%AE%AB%E7%BE%BD",
         "https://www.prydwen.gg/zenless/characters/nangong-yu"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nangong-yu_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/nangong-yu_card.webp",
+      "rarity": "S"
     },
     {
       "id": "nekomata",
@@ -420,7 +451,8 @@
         "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D",
         "https://www.gamekee.com/zzz/621042.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/480463.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/480463.png",
+      "rarity": "S"
     },
     {
       "id": "nicole-demara",
@@ -436,7 +468,8 @@
         "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
         "https://www.gamekee.com/zzz/621035.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/243655.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/243655.png",
+      "rarity": "A"
     },
     {
       "id": "norma",
@@ -447,7 +480,8 @@
         "https://wiki.biligame.com/zzz/%E8%AF%BA%E5%A7%86",
         "https://www.prydwen.gg/zenless/characters/norma"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/norma_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/norma_card.webp",
+      "rarity": "S"
     },
     {
       "id": "orphie-and-magus",
@@ -459,7 +493,8 @@
         "https://www.prydwen.gg/zenless/characters/orphie-and-magus",
         "https://wiki.biligame.com/zzz/%E3%80%8C%E5%B8%AD%E5%BE%B7%E3%80%8D"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/orphie-and-magus_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/orphie-and-magus_card.webp",
+      "rarity": "S"
     },
     {
       "id": "pan-yinhu",
@@ -472,7 +507,8 @@
         "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
         "https://www.gamekee.com/zzz/665379.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_594/h_739/50270/103682/2025/5/6/531880.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_594/h_739/50270/103682/2025/5/6/531880.png",
+      "rarity": "A"
     },
     {
       "id": "phoenix",
@@ -483,7 +519,8 @@
         "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
         "https://www.prydwen.gg/zenless/characters/phoenix"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp",
+      "rarity": "S"
     },
     {
       "id": "piper",
@@ -497,7 +534,8 @@
         "https://wiki.biligame.com/zzz/%E6%9F%B3",
         "https://www.gamekee.com/zzz/626123.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_322/h_411/50270/43637/2024/6/3/413782.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_322/h_411/50270/43637/2024/6/3/413782.png",
+      "rarity": "A"
     },
     {
       "id": "promeia",
@@ -508,7 +546,8 @@
         "https://wiki.biligame.com/zzz/%E6%99%AE%E7%BD%97%E7%B1%B3%E5%A8%85",
         "https://www.prydwen.gg/zenless/characters/promeia"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/promeia_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/promeia_card.webp",
+      "rarity": "S"
     },
     {
       "id": "pulchra",
@@ -522,7 +561,8 @@
         "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
         "https://www.gamekee.com/zzz/651187.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_340/h_571/50270/103682/2025/2/13/521030.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_340/h_571/50270/103682/2025/2/13/521030.png",
+      "rarity": "A"
     },
     {
       "id": "pyrois",
@@ -533,7 +573,8 @@
         "https://wiki.biligame.com/zzz/%E4%BD%A9%E6%B4%9B%E4%BC%8A%E6%96%AF",
         "https://www.prydwen.gg/zenless/characters/pyrois"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pyrois_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/pyrois_card.webp",
+      "rarity": "S"
     },
     {
       "id": "qingyi",
@@ -551,7 +592,8 @@
         "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
         "https://www.gamekee.com/zzz/631454.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_583/h_740/50270/103682/2024/7/13/948247.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_583/h_740/50270/103682/2024/7/13/948247.png",
+      "rarity": "S"
     },
     {
       "id": "remielle",
@@ -562,7 +604,8 @@
         "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94",
         "https://www.prydwen.gg/zenless/characters/remielle"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/remielle_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/remielle_card.webp",
+      "rarity": "S"
     },
     {
       "id": "rina",
@@ -577,7 +620,8 @@
         "https://wiki.biligame.com/zzz/%E6%9F%B3",
         "https://www.gamekee.com/zzz/621032.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/588218.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/588218.png",
+      "rarity": "S"
     },
     {
       "id": "roxy",
@@ -588,7 +632,8 @@
         "https://wiki.biligame.com/zzz/%E6%B4%9B%E5%85%8B%E8%8C%9C",
         "https://www.prydwen.gg/zenless/characters/roxy"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp",
+      "rarity": "S"
     },
     {
       "id": "seed",
@@ -600,7 +645,8 @@
         "https://www.prydwen.gg/zenless/characters/seed",
         "https://wiki.biligame.com/zzz/%E5%A5%A5%E8%8F%B2%E4%B8%9D%26%E3%80%8C%E9%AC%BC%E7%81%AB%E3%80%8D"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/seed_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/seed_card.webp",
+      "rarity": "S"
     },
     {
       "id": "seth",
@@ -615,7 +661,8 @@
         "https://wiki.biligame.com/zzz/%E6%A0%BC%E8%8E%89%E4%B8%9D",
         "https://www.gamekee.com/zzz/634638.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_359/h_505/50270/103682/2024/8/5/142527.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_359/h_505/50270/103682/2024/8/5/142527.png",
+      "rarity": "A"
     },
     {
       "id": "severian",
@@ -626,7 +673,8 @@
         "https://wiki.biligame.com/zzz/%E8%B5%9B%E7%BB%B4%E9%87%8C%E5%AE%89",
         "https://www.prydwen.gg/zenless/characters/severian"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/severian_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/severian_card.webp",
+      "rarity": "S"
     },
     {
       "id": "sigrid",
@@ -637,7 +685,8 @@
         "https://wiki.biligame.com/zzz/%E5%B8%8C%E6%A0%BC%E8%8E%89%E5%BE%B7",
         "https://www.prydwen.gg/zenless/characters/sigrid"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp",
+      "rarity": "S"
     },
     {
       "id": "soldier-11",
@@ -649,7 +698,8 @@
         "https://www.prydwen.gg/zenless/characters/soldier-11",
         "https://www.gamekee.com/zzz/621031.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/171743.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/171743.png",
+      "rarity": "S"
     },
     {
       "id": "soukaku",
@@ -663,7 +713,8 @@
         "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
         "https://www.gamekee.com/zzz/621045.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/52716.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/52716.png",
+      "rarity": "A"
     },
     {
       "id": "sunna",
@@ -674,7 +725,8 @@
         "https://wiki.biligame.com/zzz/%E5%8D%83%E5%A4%8F",
         "https://www.prydwen.gg/zenless/characters/sunna"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sunna_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sunna_card.webp",
+      "rarity": "S"
     },
     {
       "id": "trigger",
@@ -689,7 +741,8 @@
         "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
         "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/trigger_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/trigger_card.webp",
+      "rarity": "S"
     },
     {
       "id": "ukinami-yuzuha",
@@ -704,7 +757,8 @@
         "https://wiki.biligame.com/zzz/%E6%9F%B3",
         "https://wiki.biligame.com/zzz/%E7%AE%80"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ukinami-yuzuha_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ukinami-yuzuha_card.webp",
+      "rarity": "S"
     },
     {
       "id": "velina",
@@ -716,7 +770,8 @@
         "https://www.prydwen.gg/zenless/characters/velina",
         "https://wiki.biligame.com/zzz/%E8%95%BE%E7%B1%B3%E5%9F%83%E5%B0%94"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/velina_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/velina_card.webp",
+      "rarity": "S"
     },
     {
       "id": "vivian",
@@ -730,7 +785,8 @@
         "https://wiki.biligame.com/zzz/%E9%9B%85",
         "https://wiki.biligame.com/zzz/%E6%9F%B3"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/vivian_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/vivian_card.webp",
+      "rarity": "S"
     },
     {
       "id": "yanagi",
@@ -742,7 +798,8 @@
         "https://www.prydwen.gg/zenless/characters/yanagi",
         "https://www.gamekee.com/zzz/640043.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_678/h_758/50270/103682/2024/10/6/313772.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_678/h_758/50270/103682/2024/10/6/313772.png",
+      "rarity": "S"
     },
     {
       "id": "ye-shunguang",
@@ -753,7 +810,8 @@
         "https://wiki.biligame.com/zzz/%E5%8F%B6%E7%9E%AC%E5%85%89",
         "https://www.prydwen.gg/zenless/characters/ye-shunguang"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ye-shunguang_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/ye-shunguang_card.webp",
+      "rarity": "S"
     },
     {
       "id": "yidhari",
@@ -764,7 +822,8 @@
         "https://wiki.biligame.com/zzz/%E4%BC%8A%E5%BE%B7%E6%B5%B7%E8%8E%89",
         "https://www.prydwen.gg/zenless/characters/yidhari"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yidhari_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/yidhari_card.webp",
+      "rarity": "S"
     },
     {
       "id": "yixuan",
@@ -776,7 +835,8 @@
         "https://www.prydwen.gg/zenless/characters/yixuan",
         "https://www.gamekee.com/zzz/665375.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_413/h_743/50270/103682/2025/5/6/500349.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_413/h_743/50270/103682/2025/5/6/500349.png",
+      "rarity": "S"
     },
     {
       "id": "zhao",
@@ -787,7 +847,8 @@
         "https://wiki.biligame.com/zzz/%E7%85%A7",
         "https://www.prydwen.gg/zenless/characters/zhao"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/zhao_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/zhao_card.webp",
+      "rarity": "S"
     },
     {
       "id": "zhu-yuan",
@@ -799,7 +860,8 @@
         "https://www.prydwen.gg/zenless/characters/zhu-yuan",
         "https://www.gamekee.com/zzz/622121.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_542/h_747/50270/43758/2024/4/13/13878.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_542/h_747/50270/43758/2024/4/13/13878.png",
+      "rarity": "S"
     }
   ]
 }

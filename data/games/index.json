@@ -1,11 +1,31 @@
 {
-  "as_of": "2026-09-27",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "note": "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
   "count": 84,
-  "watchlist_count": 8,
-  "stub_count": 80,
+  "watchlist_count": 12,
+  "stub_count": 76,
   "games": [
+    {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "name_zh": "明日方舟：终末地",
+      "platforms": [
+        "steam",
+        "pc",
+        "mobile",
+        "ps5"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 4732690,
+      "path": "games/arknights-endfield"
+    },
     {
       "id": "asora",
       "name": "Astrae Oratio",
@@ -57,6 +77,24 @@
       "watchlist": true,
       "steam_appid": 3279780,
       "path": "games/hw"
+    },
+    {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "name_zh": "边狱公司",
+      "platforms": [
+        "steam",
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 1973530,
+      "path": "games/limbus-company"
     },
     {
       "id": "lo2",
@@ -115,6 +153,24 @@
       "path": "games/nikke"
     },
     {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "name_zh": "重返未来：1999",
+      "platforms": [
+        "steam",
+        "pc",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 3092660,
+      "path": "games/reverse-1999"
+    },
+    {
       "id": "star",
       "name": "Azure Star Origin",
       "name_zh": "蓝色星原：旅谣",
@@ -130,6 +186,44 @@
       "watchlist": true,
       "steam_appid": null,
       "path": "games/star"
+    },
+    {
+      "id": "wuthering-waves",
+      "name": "Wuthering Waves",
+      "name_zh": "鸣潮",
+      "platforms": [
+        "steam",
+        "pc"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 3513350,
+      "path": "games/wuthering-waves"
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "name_zh": "绝区零",
+      "platforms": [
+        "steam",
+        "pc",
+        "ps5",
+        "mobile"
+      ],
+      "tags": [
+        "gacha",
+        "action",
+        "rpg"
+      ],
+      "stub": false,
+      "watchlist": true,
+      "steam_appid": 4162040,
+      "path": "games/zenless-zone-zero"
     },
     {
       "id": "ananta",
@@ -149,26 +243,6 @@
       "watchlist": false,
       "steam_appid": 4814120,
       "path": "games/ananta"
-    },
-    {
-      "id": "arknights-endfield",
-      "name": "Arknights: Endfield",
-      "name_zh": "明日方舟：终末地",
-      "platforms": [
-        "steam",
-        "pc",
-        "mobile",
-        "ps5"
-      ],
-      "tags": [
-        "gacha",
-        "action",
-        "rpg"
-      ],
-      "stub": false,
-      "watchlist": true,
-      "steam_appid": 4732690,
-      "path": "games/arknights-endfield"
     },
     {
       "id": "armored-core-vi",
@@ -870,24 +944,6 @@
       "path": "games/lies-of-p"
     },
     {
-      "id": "limbus-company",
-      "name": "Limbus Company",
-      "name_zh": "边狱公司",
-      "platforms": [
-        "steam",
-        "pc",
-        "mobile"
-      ],
-      "tags": [
-        "gacha",
-        "rpg"
-      ],
-      "stub": false,
-      "watchlist": true,
-      "steam_appid": 1973530,
-      "path": "games/limbus-company"
-    },
-    {
       "id": "metaphor-refantazio",
       "name": "Metaphor: ReFantazio",
       "name_zh": "暗喻幻想：ReFantazio",
@@ -1116,24 +1172,6 @@
       "watchlist": false,
       "steam_appid": 1174180,
       "path": "games/red-dead-redemption-2"
-    },
-    {
-      "id": "reverse-1999",
-      "name": "Reverse: 1999",
-      "name_zh": "重返未来：1999",
-      "platforms": [
-        "steam",
-        "pc",
-        "mobile"
-      ],
-      "tags": [
-        "gacha",
-        "rpg"
-      ],
-      "stub": false,
-      "watchlist": true,
-      "steam_appid": 3092660,
-      "path": "games/reverse-1999"
     },
     {
       "id": "rimworld",
@@ -1503,44 +1541,6 @@
       "watchlist": false,
       "steam_appid": 2277560,
       "path": "games/wuchang-fallen-feathers"
-    },
-    {
-      "id": "wuthering-waves",
-      "name": "Wuthering Waves",
-      "name_zh": "鸣潮",
-      "platforms": [
-        "steam",
-        "pc"
-      ],
-      "tags": [
-        "gacha",
-        "action",
-        "rpg"
-      ],
-      "stub": false,
-      "watchlist": true,
-      "steam_appid": 3513350,
-      "path": "games/wuthering-waves"
-    },
-    {
-      "id": "zenless-zone-zero",
-      "name": "Zenless Zone Zero",
-      "name_zh": "绝区零",
-      "platforms": [
-        "steam",
-        "pc",
-        "ps5",
-        "mobile"
-      ],
-      "tags": [
-        "gacha",
-        "action",
-        "rpg"
-      ],
-      "stub": false,
-      "watchlist": true,
-      "steam_appid": 4162040,
-      "path": "games/zenless-zone-zero"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "game": "arknights-endfield",
   "name": "Arknights: Endfield",
   "name_zh": "明日方舟：终末地",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "character_count": 34,
   "rich_count": 33,
@@ -29,7 +29,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/489672.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/489672.png",
+      "rarity": "4星"
     },
     {
       "id": "alesh",
@@ -47,7 +48,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
         "https://www.prydwen.gg/arknights-endfield/characters/estella"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/272991.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/272991.png",
+      "rarity": "5星"
     },
     {
       "id": "antal",
@@ -66,7 +68,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
         "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/10456.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/10456.png",
+      "rarity": "4星"
     },
     {
       "id": "arcane",
@@ -80,7 +83,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/arcane",
         "https://www.prydwen.gg/arknights-endfield/characters/typhoeus"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_204/h_284/1161192/2026/7/28/52970278mtcwj770.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_204/h_284/1161192/2026/7/28/52970278mtcwj770.png",
+      "rarity": "6星"
     },
     {
       "id": "arclight",
@@ -99,7 +103,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
         "https://www.prydwen.gg/arknights-endfield/characters/liino"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/222375.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/222375.png",
+      "rarity": "5星"
     },
     {
       "id": "ardelia",
@@ -127,7 +132,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
         "https://www.prydwen.gg/arknights-endfield/characters/estella"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/851863.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/851863.png",
+      "rarity": "6星"
     },
     {
       "id": "argent-flow",
@@ -139,7 +145,8 @@
         "https://endfield.gryphline.com/en-us/operator",
         "https://www.prydwen.gg/arknights-endfield/characters/argent-flow"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/argent-flow_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/argent-flow_card.webp",
+      "rarity": "6星"
     },
     {
       "id": "avywenna",
@@ -155,7 +162,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
         "https://www.prydwen.gg/arknights-endfield/characters/arclight"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/641179.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/641179.png",
+      "rarity": "5星"
     },
     {
       "id": "camille",
@@ -168,7 +176,8 @@
         "https://www.gamekee.com/zmd/706132.html",
         "https://www.prydwen.gg/arknights-endfield/characters/camille"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466053239_1779465953422_0qh2u88kcm_e7qw7u3z3u.jpg"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466053239_1779465953422_0qh2u88kcm_e7qw7u3z3u.jpg",
+      "rarity": "6星"
     },
     {
       "id": "catcher",
@@ -181,7 +190,8 @@
         "https://www.gamekee.com/zmd/691066.html",
         "https://www.prydwen.gg/arknights-endfield/characters/catcher"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/642824.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/642824.png",
+      "rarity": "4星"
     },
     {
       "id": "chen-qianyu",
@@ -201,7 +211,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/ember",
         "https://www.prydwen.gg/arknights-endfield/characters/catcher"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/833197.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/833197.png",
+      "rarity": "5星"
     },
     {
       "id": "da-pan",
@@ -219,7 +230,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/ember",
         "https://www.prydwen.gg/arknights-endfield/characters/catcher"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/555001.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/555001.png",
+      "rarity": "5星"
     },
     {
       "id": "ember",
@@ -232,7 +244,8 @@
         "https://www.gamekee.com/zmd/691008.html",
         "https://www.prydwen.gg/arknights-endfield/characters/ember"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/21/89276.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/21/89276.png",
+      "rarity": "6星"
     },
     {
       "id": "endministrator",
@@ -255,7 +268,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/catcher",
         "https://www.prydwen.gg/arknights-endfield/characters/estella"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/301464.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/301464.png",
+      "rarity": "6星"
     },
     {
       "id": "estella",
@@ -271,7 +285,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/alesh",
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/710511.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/710511.png",
+      "rarity": "4星"
     },
     {
       "id": "fluorite",
@@ -285,7 +300,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
         "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/320251.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/320251.png",
+      "rarity": "4星"
     },
     {
       "id": "gilberta",
@@ -310,7 +326,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
         "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/75509.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/75509.png",
+      "rarity": "6星"
     },
     {
       "id": "laevatain",
@@ -326,7 +343,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
         "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/647159.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/647159.png",
+      "rarity": "6星"
     },
     {
       "id": "last-rite",
@@ -341,7 +359,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/perlica",
         "https://www.prydwen.gg/arknights-endfield/characters/ardelia"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/612903.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/612903.png",
+      "rarity": "6星"
     },
     {
       "id": "lifeng",
@@ -361,7 +380,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/ember",
         "https://www.prydwen.gg/arknights-endfield/characters/catcher"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/78405.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/78405.png",
+      "rarity": "6星"
     },
     {
       "id": "liino",
@@ -375,7 +395,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/typhoeus",
         "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/liino_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/liino_card.webp",
+      "rarity": "6星"
     },
     {
       "id": "mi-fu",
@@ -389,7 +410,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
         "https://www.prydwen.gg/arknights-endfield/characters/camille"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466055604_1779465855633_2u0jh77olr_5sb8vddgms.jpg"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466055604_1779465855633_2u0jh77olr_5sb8vddgms.jpg",
+      "rarity": "6星"
     },
     {
       "id": "perlica",
@@ -416,7 +438,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/liino",
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/703916.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/703916.png",
+      "rarity": "5星"
     },
     {
       "id": "pogranichnik",
@@ -435,7 +458,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
         "https://www.prydwen.gg/arknights-endfield/characters/ember"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/351067.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/351067.png",
+      "rarity": "6星"
     },
     {
       "id": "purrchena",
@@ -447,7 +471,8 @@
         "https://endfield.gryphline.com/en-us/operator",
         "https://www.prydwen.gg/arknights-endfield/characters/purrchena"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/purrchena_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/purrchena_card.webp",
+      "rarity": "5星"
     },
     {
       "id": "rossi",
@@ -463,7 +488,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/camille",
         "https://www.prydwen.gg/arknights-endfield/characters/mi-fu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/9/878914.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/9/878914.png",
+      "rarity": "6星"
     },
     {
       "id": "si",
@@ -475,7 +501,8 @@
         "https://endfield.gryphline.com/en-us/operator",
         "https://www.prydwen.gg/arknights-endfield/characters/si"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/si_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/si_card.webp",
+      "rarity": "6星"
     },
     {
       "id": "snowshine",
@@ -489,7 +516,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
         "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/844230.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/844230.png",
+      "rarity": "5星"
     },
     {
       "id": "tangtang",
@@ -505,7 +533,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
         "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/12/729791.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/2/12/729791.png",
+      "rarity": "6星"
     },
     {
       "id": "typhoeus",
@@ -517,7 +546,8 @@
         "https://endfield.gryphline.com/en-us/operator",
         "https://www.prydwen.gg/arknights-endfield/characters/typhoeus"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/typhoeus_card.webp"
+      "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/typhoeus_card.webp",
+      "rarity": "6星"
     },
     {
       "id": "wulfgard",
@@ -534,7 +564,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/rossi",
         "https://www.prydwen.gg/arknights-endfield/characters/perlica"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/26676.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/26676.png",
+      "rarity": "5星"
     },
     {
       "id": "xaihi",
@@ -558,7 +589,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/estella",
         "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/152298.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/152298.png",
+      "rarity": "5星"
     },
     {
       "id": "yvonne",
@@ -579,7 +611,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/estella",
         "https://www.prydwen.gg/arknights-endfield/characters/fluorite"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466058143_1779466033064_qqjf2vi1y0_25f96ob470.jpg"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466058143_1779466033064_qqjf2vi1y0_25f96ob470.jpg",
+      "rarity": "6星"
     },
     {
       "id": "zhuang-fangyi",
@@ -593,7 +626,8 @@
         "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
         "https://www.prydwen.gg/arknights-endfield/characters/liino"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/3/20/219941.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/3/20/219941.png",
+      "rarity": "6星"
     }
   ]
 }

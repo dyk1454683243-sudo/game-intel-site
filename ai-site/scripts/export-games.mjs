@@ -9,6 +9,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { openApiDocument } from "../src/openapi.js";
+import { displayGameName, getLang, localizePath, tx, withLang } from "../public/ui/i18n.js";
+import { staticDocument } from "../public/ui/seo.js";
+import { buildLocalizedSite } from "./site-seo.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -67,30 +70,21 @@ function shanghaiIso() {
   return `${g("year")}-${g("month")}-${g("day")}T${g("hour")}:${g("minute")}:${g("second")}+08:00`;
 }
 
-function htmlPage(title, body) {
-  return `<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>${esc(title)}</title>
-  <style>
-    body{font-family:system-ui,sans-serif;max-width:880px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#111}
-    a{color:#06c} code{background:#f4f4f4;padding:.1em .35em;border-radius:4px}
-    .stub{color:#a60}.rich{color:#070} ul{padding-left:1.2rem}
-    .meta{color:#666;font-size:.9rem} table{border-collapse:collapse;width:100%}
-    td,th{border:1px solid #ddd;padding:.4rem .55rem;text-align:left}
-    .tag{display:inline-block;background:#eef2f7;border-radius:4px;padding:.05em .4em;margin:0 .2em .2em 0;font-size:.85rem}
-    .wl{font-weight:600}
-  </style>
-</head>
-<body>
-${body}
-<hr/>
-<p class="meta">game-intel games · Asia/Shanghai · dual-publish from <code>data/games/</code></p>
-</body>
-</html>
-`;
+function htmlPage(pathname, title, description, crumbs, body, videoGame) {
+  return staticDocument({
+    lang: getLang(),
+    title,
+    description,
+    pathname,
+    crumbs,
+    body,
+    videoGame,
+  });
+}
+
+function gamesDir(lang) {
+  if (lang === "zh-CN") return OUT_HTML;
+  return path.join(OUT_PUBLIC, lang === "ja" ? "ja" : "en", "games");
 }
 
 function loadGames() {
@@ -351,6 +345,8 @@ function main() {
 
   rmrf(OUT_V1);
   rmrf(OUT_HTML);
+  rmrf(path.join(OUT_PUBLIC, "en", "games"));
+  rmrf(path.join(OUT_PUBLIC, "ja", "games"));
   mkdirp(OUT_V1);
   mkdirp(OUT_HTML);
   mkdirp(OUT_SCHEMA);
@@ -379,27 +375,56 @@ function main() {
     const sources = (card.sources || [])
       .map((s) => `<li><a href="${esc(s.url)}" rel="noopener">${esc(s.label || s.url)}</a></li>`)
       .join("\n");
-    const guides =
-      card.guides_path
-        ? `<p>攻略：<a href="${esc(card.guides_path)}">${esc(card.guides_path)}</a></p>`
-        : "";
-    const body = `<p><a href="/">首页</a> · <a href="/catalog/">目录</a> · <a href="/watchlist/">关注</a> · <a href="./index.html">静态目录</a></p>
-<h1>${esc(card.name_zh || card.name)} <code>${esc(card.id)}</code></h1>
-<p class="meta">${esc(card.name)}${card.watchlist ? " · <strong>watchlist</strong>" : ""}</p>
-<p class="${card.stub ? "stub" : "rich"}">${card.stub ? "stub — 仅身份与真实链接，无编造评分" : "非 stub — 有攻略覆盖"}</p>
-<p>平台：${platforms || "—"}</p>
-<p>标签：${tags || "—"}</p>
+    for (const lang of ["zh-CN", "en", "ja"]) {
+      withLang(lang, () => {
+        const guideHref = card.guides_path ? localizePath(card.guides_path.endsWith("/") ? card.guides_path : `${card.guides_path}/`) : "";
+        const guides = card.guides_path
+          ? `<p>${esc(tx("攻略：", "Guides: ", "ガイド："))}<a href="${esc(guideHref || card.guides_path)}">${esc(card.guides_path)}</a></p>`
+          : "";
+        const shown = lang === "zh-CN" ? card.name_zh || card.name : displayGameName(card) || card.name;
+        const pathname = localizePath(`/games/${card.id}.html`);
+        const title = `${shown} · game-intel`;
+        const description = tx(
+          `${shown} 的静态身份页。平台、标签和出处来自已发布数据，不编造评分或价格。`,
+          `${shown}: static identity page. Platforms, tags, and sources come from published data. No invented scores or prices.`,
+          `${shown} の静的な身元ページ。プラットフォーム、タグ、出典は公開データ。点数や価格は作らない。`
+        );
+        const otherName = [card.name_zh, card.name]
+          .map((value) => (typeof value === "string" ? value.trim() : ""))
+          .find((value) => value && value !== shown);
+        const metaBits = [otherName ? esc(otherName) : "", card.watchlist ? "<strong>watchlist</strong>" : ""].filter(Boolean).join(" · ");
+        const body = `<p><a href="${esc(localizePath("/"))}">${esc(tx("首页", "Home", "ホーム"))}</a> · <a href="${esc(localizePath("/catalog/"))}">${esc(tx("目录", "Catalog", "カタログ"))}</a> · <a href="${esc(localizePath("/watchlist/"))}">${esc(tx("观察名单", "Watchlist", "ウォッチリスト"))}</a> · <a href="./index.html">${esc(tx("静态目录", "Static index", "静的索引"))}</a></p>
+<h1>${esc(shown)} <code>${esc(card.id)}</code></h1>
+${metaBits ? `<p class="meta">${metaBits}</p>` : ""}
+<p class="${card.stub ? "stub" : "rich"}">${esc(card.stub ? tx("stub — 仅身份与真实链接，无编造评分", "stub — identity and real links only, no invented scores", "stub。身元と実在のリンクだけ。点数は作らない") : tx("非 stub — 有攻略覆盖", "Not a stub — guides exist", "stub ではない。ガイドがある"))}</p>
+<p>${esc(tx("平台：", "Platforms: ", "プラットフォーム："))}${platforms || "—"}</p>
+<p>${esc(tx("标签：", "Tags: ", "タグ："))}${tags || "—"}</p>
 ${card.steam_appid != null ? `<p>Steam AppID：<code>${esc(card.steam_appid)}</code></p>` : ""}
 ${guides}
-<h2>来源</h2>
+<h2>${esc(tx("来源", "Sources", "出典"))}</h2>
 ${sources ? `<ul>${sources}</ul>` : "<p class=\"meta\">no sources</p>"}
 ${card.note ? `<p class="meta">${esc(card.note)}</p>` : ""}
 <p class="meta">JSON: <a href="/v1/games/${esc(card.id)}.json"><code>/v1/games/${esc(card.id)}.json</code></a></p>`;
-    fs.writeFileSync(
-      path.join(OUT_HTML, `${card.id}.html`),
-      htmlPage(`${card.name_zh || card.name} · game-intel`, body),
-      "utf8"
-    );
+        const dir = gamesDir(lang);
+        mkdirp(dir);
+        fs.writeFileSync(
+          path.join(dir, `${card.id}.html`),
+          htmlPage(
+            pathname,
+            title,
+            description,
+            [
+              { name: tx("首页", "Home", "ホーム"), path: localizePath("/") },
+              { name: tx("游戏目录", "Games", "ゲーム"), path: localizePath("/games/") },
+              { name: shown, path: pathname },
+            ],
+            body,
+            card
+          ),
+          "utf8"
+        );
+      });
+    }
 
     summaries.push({
       id: card.id,
@@ -434,20 +459,40 @@ ${card.note ? `<p class="meta">${esc(card.note)}</p>` : ""}
       return `<tr class="${s.watchlist ? "wl" : ""}"><td><a href="${esc(s.id)}.html">${esc(s.id)}</a></td><td>${esc(s.name)}</td><td>${esc(s.name_zh || "")}</td><td class="${cls}">${s.stub ? "stub" : "guides"}</td><td>${wl}</td></tr>`;
     })
     .join("\n");
-  fs.writeFileSync(
-    path.join(OUT_HTML, "index.html"),
-    htmlPage(
-      "game-intel 游戏目录",
-      `<h1>游戏目录 Games</h1>
+  for (const lang of ["zh-CN", "en", "ja"]) {
+    withLang(lang, () => {
+      const pathname = localizePath("/games/");
+      const title = tx("game-intel 游戏目录", "game-intel games", "game-intel ゲーム");
+      const description = tx(
+        "静态游戏目录。身份和链接来自已发布数据。",
+        "Static game directory. Identity and links come from published data.",
+        "静的なゲーム目録。身元とリンクは公開データ。"
+      );
+      const body = `<h1>${esc(tx("游戏目录 Games", "Games", "ゲーム"))}</h1>
 <p class="meta">as_of ${esc(asOf)} · ${summaries.length} games · watchlist ${index.watchlist_count} · stub ${index.stub_count}</p>
 <p>AI index: <a href="/v1/games/index.json"><code>/v1/games/index.json</code></a> · Feed: <a href="/v1/feed.json"><code>/v1/feed.json</code></a></p>
-<p><a href="/">人类首页</a> · <a href="/catalog/">目录检索</a> · <a href="/watchlist/">关注</a> · <a href="/guides/index.html">攻略 Guides</a></p>
-<table><thead><tr><th>id</th><th>name</th><th>中文</th><th>status</th><th>watchlist</th></tr></thead><tbody>
+<p><a href="${esc(localizePath("/"))}">${esc(tx("人类首页", "Home", "ホーム"))}</a> · <a href="${esc(localizePath("/catalog/"))}">${esc(tx("目录检索", "Catalog", "カタログ"))}</a> · <a href="${esc(localizePath("/watchlist/"))}">${esc(tx("观察名单", "Watchlist", "ウォッチリスト"))}</a> · <a href="${esc(localizePath("/guides/index.html"))}">${esc(tx("攻略 Guides", "Guides", "ガイド"))}</a></p>
+<table><thead><tr><th>id</th><th>name</th><th>${esc(tx("中文", "中文", "中文"))}</th><th>status</th><th>watchlist</th></tr></thead><tbody>
 ${rows}
-</tbody></table>`
-    ),
-    "utf8"
-  );
+</tbody></table>`;
+      const dir = gamesDir(lang);
+      mkdirp(dir);
+      fs.writeFileSync(
+        path.join(dir, "index.html"),
+        htmlPage(
+          pathname,
+          title,
+          description,
+          [
+            { name: tx("首页", "Home", "ホーム"), path: localizePath("/") },
+            { name: tx("游戏目录", "Games", "ゲーム"), path: pathname },
+          ],
+          body
+        ),
+        "utf8"
+      );
+    });
+  }
 
   const feed = buildFeed(games, asOf);
   writeJson(FEED_OUT, feed);
@@ -455,6 +500,7 @@ ${rows}
   writeJson(ALIAS_OUT, catalogAliases);
 
   writeHomePages(games, feed, asOf);
+  buildLocalizedSite(OUT_PUBLIC, SITE);
 
   // Keep root ai-site copies in sync for editors
   for (const f of ["index.html", "index.md"]) {

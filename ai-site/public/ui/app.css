@@ -193,6 +193,28 @@ img { max-width: 100%; }
   font-weight: 650;
 }
 .top nav a[aria-current="page"]:hover { color: var(--accent-ink); }
+.lang-switch {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 0.15rem;
+}
+.lang-switch a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 0.65rem;
+  color: var(--muted);
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 0.92rem;
+}
+.lang-switch a:hover { color: var(--text); background: color-mix(in srgb, var(--line) 65%, transparent); }
+.lang-switch a[aria-current="true"] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 650;
+}
 
 main {
   width: min(var(--content), calc(100% - 2rem));

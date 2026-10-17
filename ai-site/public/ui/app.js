@@ -23,17 +23,34 @@ import {
   parseFollows,
   toggleFollow,
 } from "./personal.js";
+import {
+  displayCharacterName,
+  displayGameName,
+  getLang,
+  localizePath,
+  setLang,
+  tx,
+} from "./i18n.js";
+import { renderHeadTags, seoModel } from "./seo.js";
 
 const app = document.getElementById("app");
 const view = (document.body && document.body.dataset.view) || "home";
+setLang(document.documentElement.lang || (document.body && document.body.dataset.lang) || "zh-CN");
 const FOLLOW_KEY = "game-intel.follows.v1";
-const FOLLOW_ERRORS = {
-  bad_follow: "订阅里有无法识别的 id。只接受小写字母、数字、下划线和连字符。",
-  bad_code: "订阅码无法解析。",
-  too_many_games: "关注的游戏太多（最多 24 部）。",
-  too_many_chars: "关注的角色太多（最多 48 名）。",
-  empty: "先贴上订阅码、链接，或游戏 id。",
-};
+function followError(code) {
+  const table = {
+    bad_follow: tx(
+      "订阅里有无法识别的 id。只接受小写字母、数字、下划线和连字符。",
+      "A follow id is not recognized. Use lowercase letters, digits, underscores, and hyphens.",
+      "購読に読めない id がある。小文字、数字、アンダースコア、ハイフンだけ。"
+    ),
+    bad_code: tx("订阅码无法解析。", "The share code could not be read.", "購読コードを読めない。"),
+    too_many_games: tx("关注的游戏太多（最多 24 部）。", "Too many games (24 max).", "ゲームが多すぎる（最大 24）。"),
+    too_many_chars: tx("关注的角色太多（最多 48 名）。", "Too many characters (48 max).", "キャラが多すぎる（最大 48）。"),
+    empty: tx("先贴上订阅码、链接，或游戏 id。", "Paste a share code, a link, or a game id.", "購読コード、リンク、またはゲーム id を貼る。"),
+  };
+  return table[code] || tx("没能更新关注。", "Could not update follows.", "フォローを更新できなかった。");
+}
 const cache = {};
 const published = {};
 let keepFocus = null;
@@ -56,18 +73,69 @@ function readOpts(search) {
 async function getJson(path) {
   const res = await fetch(path, { headers: { accept: "application/json" } });
   if (!res.ok) {
-    const error = new Error(`无法读取 ${path}（${res.status}）`);
+    const error = new Error(tx(
+      `无法读取 ${path}（${res.status}）`,
+      `Could not read ${path} (${res.status})`,
+      `${path} を読めない（${res.status}）`
+    ));
     error.path = path;
     throw error;
   }
   return res.json();
 }
 
-function paint(html, title) {
+function currentPath() {
+  return `${location.pathname}${location.search}`;
+}
+
+function applySeo(model) {
+  if (!model) return;
+  document.title = model.title;
+  document.documentElement.lang = model.htmlLang;
+  const head = document.head;
+  for (const sel of [
+    'meta[name="description"]',
+    'meta[name="robots"]',
+    'link[rel="canonical"]',
+    'link[rel="alternate"][hreflang]',
+    'meta[property^="og:"]',
+    'meta[name^="twitter:"]',
+    'script[type="application/ld+json"]',
+  ]) {
+    for (const node of [...head.querySelectorAll(sel)]) node.remove();
+  }
+  const holder = document.createElement("template");
+  holder.innerHTML = renderHeadTags(model);
+  for (const node of [...holder.content.children]) {
+    if (node.tagName === "TITLE") continue;
+    head.appendChild(node);
+  }
+}
+
+function pageSeo(title, description, crumbs, videoGame) {
+  const url = new URL(location.href);
+  return seoModel({
+    lang: getLang(),
+    title,
+    description,
+    pathname: url.pathname,
+    search: url.search,
+    crumbs,
+    videoGame,
+  });
+}
+
+function crumbHome() {
+  return { name: tx("首页", "Home", "ホーム"), path: localizePath("/") };
+}
+
+function paint(html, seo) {
   const prev = keepFocus;
   keepFocus = null;
-  app.innerHTML = renderFrame(view, html);
-  if (title) document.title = title;
+  const path = currentPath();
+  app.innerHTML = renderFrame(view, html, { path });
+  if (seo && typeof seo === "object") applySeo(seo);
+  else if (typeof seo === "string" && seo) document.title = seo;
   syncFollowButtons();
   const shareUrl = document.getElementById("share-url");
   if (shareUrl && shareUrl.value.startsWith("/")) {
@@ -103,7 +171,7 @@ function saveFollows(follows) {
       JSON.stringify({ v: 1, games: follows.games, chars: follows.chars })
     );
   } catch {
-    meNote = "这台浏览器拒绝写入本地名单。";
+    meNote = tx("这台浏览器拒绝写入本地名单。", "This browser refused to store the list.", "このブラウザはリストの保存を拒んだ。");
   }
 }
 
@@ -117,7 +185,11 @@ function syncFollowButtons() {
         : follows.chars.some((row) => row.game === button.dataset.game && row.id === button.dataset.id);
     button.setAttribute("aria-pressed", on ? "true" : "false");
     if (button.closest("#main") && view === "me") continue;
-    button.textContent = kind === "game" ? (on ? "已关注这部游戏" : "关注这部游戏") : on ? "已关注这个角色" : "关注这个角色";
+    button.textContent = kind === "game"
+      ? (on ? tx("已关注这部游戏", "Following this game", "このゲームをフォロー中") : tx("关注这部游戏", "Follow this game", "このゲームをフォロー"))
+      : on
+        ? tx("已关注这个角色", "Following this character", "このキャラをフォロー中")
+        : tx("关注这个角色", "Follow this character", "このキャラをフォロー");
   }
 }
 
@@ -175,15 +247,31 @@ async function showHome() {
     radarError = error.message;
   }
   if (!digest && !radar) {
-    paint(renderError(digestError || radarError || "无法读取摘要与雷达"));
+    paint(renderError(digestError || radarError || tx("无法读取摘要与雷达", "Could not read the brief or radar", "摘要とレーダーを読めない")));
     return;
   }
-  paint(renderHome({ digest, radar, digestError, radarError, today: shanghaiToday() }), "首页 · game-intel");
+  paint(renderHome({ digest, radar, digestError, radarError, today: shanghaiToday() }), pageSeo(
+    tx("首页 · game-intel", "Home · game-intel", "ホーム · game-intel"),
+    tx(
+      "今日情报摘要。人从观察名单继续，AI 读同一份已发布的 /v1 JSON。",
+      "Today's intel brief. People continue from the watchlist. AI reads the same published /v1 JSON.",
+      "今日の情報摘要。人はウォッチリストへ。AI は同じ公開 /v1 JSON を読む。"
+    ),
+    [crumbHome()]
+  ));
 }
 
 async function showCatalog() {
   cache.catalog = await getJson("/v1/games/index.json");
-  paint(renderCatalog(cache.catalog, readOpts(params())), "目录 · game-intel");
+  paint(renderCatalog(cache.catalog, readOpts(params())), pageSeo(
+    tx("目录 · game-intel", "Catalog · game-intel", "カタログ · game-intel"),
+    tx(
+      "游戏目录。stub 身份卡只展示名称、平台、标签、出处和 steam_appid。",
+      "Game catalog. Stub identity cards show the stored name, platforms, tags, sources, and steam_appid.",
+      "ゲーム目録。stub の身元カードは名前、プラットフォーム、タグ、出典、steam_appid だけ。"
+    ),
+    [crumbHome(), { name: tx("目录", "Catalog", "カタログ"), path: localizePath("/catalog/") }]
+  ));
 }
 
 async function showWatchlist() {
@@ -192,13 +280,25 @@ async function showWatchlist() {
     getJson("/v1/games/index.json"),
     getJson("/v1/guides/index.json"),
   ]);
-  paint(renderWatchlist({ watchlist, catalog, guides }), "观察名单 · game-intel");
+  paint(renderWatchlist({ watchlist, catalog, guides }), pageSeo(
+    tx("观察名单 · game-intel", "Watchlist · game-intel", "ウォッチリスト · game-intel"),
+    tx(
+      "观察名单上的游戏。已深耕的有角色图鉴，其余只保留身份。",
+      "Games on the watchlist. Guides exist only where they were already published. The rest stay identity-only.",
+      "ウォッチリストのゲーム。深掘りがあるものだけ役割図鑑。ほかは身元だけ。"
+    ),
+    [crumbHome(), { name: tx("观察名单", "Watchlist", "ウォッチリスト"), path: localizePath("/watchlist/") }]
+  ));
 }
 
 async function showGame() {
   const id = safeId(params().get("id"));
   if (!id) {
-    paint(renderError("缺少或无效的游戏 id"), "游戏 · game-intel");
+    paint(renderError(tx("缺少或无效的游戏 id", "Missing or invalid game id", "ゲーム id がないか無効")), pageSeo(
+      tx("游戏 · game-intel", "Game · game-intel", "ゲーム · game-intel"),
+      tx("缺少游戏 id。", "Missing game id.", "ゲーム id がない。"),
+      [crumbHome(), { name: tx("游戏", "Game", "ゲーム"), path: localizePath("/game/") }]
+    ));
     return;
   }
   const game = await getJson(`/v1/games/${encodeURIComponent(id)}.json`);
@@ -245,8 +345,21 @@ async function showGame() {
       })
   );
   await Promise.all(jobs);
-  const title = `${game.name_zh || game.name || id} · game-intel`;
-  paint(renderGame(game, gameExtras(params().get("q") || "")), title);
+  const titleName = displayGameName(game) || id;
+  paint(renderGame(game, gameExtras(params().get("q") || "")), pageSeo(
+    `${titleName} · game-intel`,
+    tx(
+      `${titleName} 的身份卡。平台、标签和出处来自已发布 JSON，不编造评分或价格。`,
+      `${titleName}: identity card. Platforms, tags, and sources come from published JSON. No invented scores or prices.`,
+      `${titleName} の身元カード。プラットフォーム、タグ、出典は公開 JSON。点数や価格は作らない。`
+    ),
+    [
+      crumbHome(),
+      { name: tx("目录", "Catalog", "カタログ"), path: localizePath("/catalog/") },
+      { name: titleName, path: currentPath() },
+    ],
+    game
+  ));
 }
 
 function gameExtras(q) {
@@ -266,21 +379,51 @@ async function showCharacter() {
   const game = safeId(params().get("game"));
   const id = safeId(params().get("id"));
   if (!game || !id) {
-    paint(renderError("缺少或无效的角色地址"), "角色 · game-intel");
+    paint(renderError(tx("缺少或无效的角色地址", "Missing or invalid character address", "キャラのアドレスがないか無効")), pageSeo(
+      tx("角色 · game-intel", "Character · game-intel", "キャラクター · game-intel"),
+      tx("缺少角色地址。", "Missing character address.", "キャラのアドレスがない。"),
+      [crumbHome(), { name: tx("角色", "Character", "キャラクター"), path: localizePath("/character/") }]
+    ));
     return;
   }
   if (!isDeep(game)) {
-    paint(renderCharacter(game, null, { id }), "尚无深耕 · game-intel");
+    paint(renderCharacter(game, null, { id }), pageSeo(
+      tx("尚无深耕 · game-intel", "No guides yet · game-intel", "深掘りなし · game-intel"),
+      tx("这个游戏还没有角色深耕。", "This game has no character guides yet.", "このゲームに役割ガイドはまだない。"),
+      [crumbHome(), { name: tx("观察名单", "Watchlist", "ウォッチリスト"), path: localizePath("/watchlist/") }]
+    ));
     return;
   }
   const card = await getJson(
     `/v1/guides/${encodeURIComponent(game)}/characters/${encodeURIComponent(id)}.json`
   );
-  paint(renderCharacter(game, card), `${card.name_zh || card.name || id} · game-intel`);
+  const titleName = displayCharacterName(card) || id;
+  paint(renderCharacter(game, card), pageSeo(
+    `${titleName} · game-intel`,
+    tx(
+      `${titleName} 的角色卡。技能、结论和配队保持已发布原文，不另译成新的事实。`,
+      `${titleName}. Skills, conclusions, and teams stay in the published language.`,
+      `${titleName}。スキル、結論、編成は公開された原文のまま。`
+    ),
+    [
+      crumbHome(),
+      { name: tx("观察名单", "Watchlist", "ウォッチリスト"), path: localizePath("/watchlist/") },
+      { name: displayGameName({ id: game, name: game }) || game, path: localizePath(`/game/?id=${encodeURIComponent(game)}`) },
+      { name: titleName, path: currentPath() },
+    ]
+  ));
 }
 
 function showForAi() {
-  paint(renderForAi(), "给 AI · game-intel");
+  paint(renderForAi(), pageSeo(
+    tx("给 AI · game-intel", "For AI · game-intel", "AI 向け · game-intel"),
+    tx(
+      "人和 AI 读同一份已发布数据。MCP、OpenAPI、llms.txt。",
+      "People and AI read the same published data. MCP, OpenAPI, and llms.txt.",
+      "人と AI は同じ公開データを読む。MCP、OpenAPI、llms.txt。"
+    ),
+    [crumbHome(), { name: tx("给 AI", "For AI", "AI 向け"), path: localizePath("/for-ai/") }]
+  ));
 }
 
 async function showMe() {
@@ -295,26 +438,50 @@ async function showMe() {
       code: search.get("code") || "",
     });
     if (!parsed.ok) {
-      paint(renderError(FOLLOW_ERRORS[parsed.error] || "订阅无法导入"), "我的关注 · game-intel");
+      paint(renderError(followError(parsed.error)), pageSeo(
+        tx("我的关注 · game-intel", "Following · game-intel", "フォロー · game-intel"),
+        tx("关注名单留在这台浏览器。", "The follow list stays in this browser.", "フォローはこのブラウザに残る。"),
+        [crumbHome(), { name: tx("我的关注", "Following", "フォロー"), path: localizePath("/me/") }]
+      ));
       return;
     }
     follows = parsed.follows;
     saveFollows(follows);
     imported = true;
-    history.replaceState(null, "", "/me/");
+    history.replaceState(null, "", localizePath("/me/"));
   }
   const doc = await assemblePersonal(follows, readPublished, shanghaiToday());
   const note = meNote;
   meNote = "";
-  paint(renderMe(doc, { imported, note }), "我的关注 · game-intel");
+  paint(renderMe(doc, { imported, note }), pageSeo(
+    tx("我的关注 · game-intel", "Following · game-intel", "フォロー · game-intel"),
+    tx(
+      "按这台浏览器里的关注列表过滤已发布的 feed、digest、卡池和兑换码。名单不上传。",
+      "Filters published feed, digest, banners, and codes by the follow list in this browser. The list is not uploaded.",
+      "このブラウザのフォローで、公開済みの feed、digest、ガチャ、コードを絞る。リストは送らない。"
+    ),
+    [crumbHome(), { name: tx("我的关注", "Following", "フォロー"), path: localizePath("/me/") }]
+  ));
 }
 
 async function showClaims() {
   try {
     const mirror = await getJson("/v1/claims.json");
-    paint(renderClaims(mirror), "核对墙 · game-intel");
+    paint(renderClaims(mirror), pageSeo(
+      tx("核对墙 · game-intel", "Claims · game-intel", "照合 · game-intel"),
+      tx(
+        "带 https 出处的投稿镜像。未经人工核对之前不可信。",
+        "Mirror of submissions that include an https source. Untrusted until a person checks them.",
+        "https 出典つき投稿のミラー。人が確認するまで信頼できない。"
+      ),
+      [crumbHome(), { name: tx("核对墙", "Claims", "照合"), path: localizePath("/claims/") }]
+    ));
   } catch (error) {
-    paint(renderClaims({ claims: [], error: error.message }), "核对墙 · game-intel");
+    paint(renderClaims({ claims: [], error: error.message }), pageSeo(
+      tx("核对墙 · game-intel", "Claims · game-intel", "照合 · game-intel"),
+      tx("核对墙暂时读不到镜像。", "The claims mirror could not be read.", "照合ミラーを読めない。"),
+      [crumbHome(), { name: tx("核对墙", "Claims", "照合"), path: localizePath("/claims/") }]
+    ));
   }
 }
 
@@ -335,7 +502,11 @@ function onFilter(event) {
       search.set(key, value);
     }
     writeSearch(search);
-    paint(renderCatalog(cache.catalog, readOpts(search)), "目录 · game-intel");
+    paint(renderCatalog(cache.catalog, readOpts(search)), pageSeo(
+      tx("目录 · game-intel", "Catalog · game-intel", "カタログ · game-intel"),
+      tx("游戏目录。", "Game catalog.", "ゲーム目録。"),
+      [crumbHome(), { name: tx("目录", "Catalog", "カタログ"), path: currentPath() }]
+    ));
   }
   if (view === "game" && cache.game) {
     const search = new URLSearchParams();
@@ -387,7 +558,7 @@ async function onFollowClick(button) {
   try {
     await followClick(button);
   } catch (error) {
-    setFollowStatus(error.message || "没能更新关注。");
+    setFollowStatus(error.message || tx("没能更新关注。", "Could not update follows.", "フォローを更新できなかった。"));
   }
 }
 
@@ -397,24 +568,28 @@ async function followClick(button) {
     const el = document.getElementById(action === "copy-url" ? "share-url" : "share-code");
     const value = el ? el.value : "";
     if (!value || value === "/me/") {
-      setFollowStatus("名单是空的。先关注一部游戏或一个角色。");
+      setFollowStatus(tx("名单是空的。先关注一部游戏或一个角色。", "The list is empty. Follow a game or a character first.", "リストは空。先にゲームかキャラをフォロー。"));
       return;
     }
     try {
       await navigator.clipboard.writeText(value);
-      setFollowStatus("已复制。打开链接的人会导入这份名单，服务端不保存。");
+      setFollowStatus(tx(
+        "已复制。打开链接的人会导入这份名单，服务端不保存。",
+        "Copied. Opening the link imports this list. The server does not store it.",
+        "コピーした。リンクを開くとそのリストを読み込む。サーバーは保存しない。"
+      ));
     } catch {
       if (el) {
         el.focus();
         el.select();
       }
-      setFollowStatus("无法自动复制，内容已选中。");
+      setFollowStatus(tx("无法自动复制，内容已选中。", "Could not copy automatically. The text is selected.", "自動コピーできない。テキストは選択済み。"));
     }
     return;
   }
   if (action === "clear") {
     saveFollows({ games: [], chars: [] });
-    meNote = "已清空这台浏览器里的关注。";
+    meNote = tx("已清空这台浏览器里的关注。", "Cleared the follows in this browser.", "このブラウザのフォローを消した。");
     await showMe();
     return;
   }
@@ -422,12 +597,14 @@ async function followClick(button) {
   if (!kind) return;
   const toggled = toggleFollow(loadFollows(), kind, button.dataset.game, button.dataset.id);
   if (!toggled.ok) {
-    setFollowStatus(FOLLOW_ERRORS[toggled.error] || "没能更新关注。");
+    setFollowStatus(followError(toggled.error));
     return;
   }
   saveFollows(toggled.follows);
   if (view === "me") {
-    meNote = kind === "game" ? "已更新关注的游戏。" : "已更新关注的角色。";
+    meNote = kind === "game"
+      ? tx("已更新关注的游戏。", "Updated the followed games.", "フォロー中のゲームを更新した。")
+      : tx("已更新关注的角色。", "Updated the followed characters.", "フォロー中のキャラを更新した。");
     await showMe();
     return;
   }
@@ -438,11 +615,11 @@ async function onFollowImport(form) {
   const raw = String(new FormData(form).get("code") || "");
   const parsed = importFollowText(raw);
   if (!parsed.ok) {
-    setFollowStatus(FOLLOW_ERRORS[parsed.error] || "没能导入。");
+    setFollowStatus(followError(parsed.error));
     return;
   }
   saveFollows(parsed.follows);
-  meNote = "已导入。名单只保存在这台浏览器。";
+  meNote = tx("已导入。名单只保存在这台浏览器。", "Imported. The list stays in this browser.", "読み込んだ。リストはこのブラウザだけ。");
   await showMe();
 }
 

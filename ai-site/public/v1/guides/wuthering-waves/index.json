@@ -2,7 +2,7 @@
   "game": "wuthering-waves",
   "name": "Wuthering Waves",
   "name_zh": "鸣潮",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "character_count": 61,
   "rich_count": 59,
@@ -22,7 +22,8 @@
         "https://www.gamekee.com/mc/623035.html",
         "https://www.prydwen.gg/wuthering-waves/characters/aalto"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/942552.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/942552.png",
+      "rarity": "4★"
     },
     {
       "id": "aemeath",
@@ -34,7 +35,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4139",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4140"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/aemeath_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/aemeath_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "augusta",
@@ -45,7 +47,8 @@
         "https://www.gamekee.com/mc/674296.html",
         "https://www.prydwen.gg/wuthering-waves/characters/augusta"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/753406.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/753406.png",
+      "rarity": "5★"
     },
     {
       "id": "baizhi",
@@ -56,7 +59,8 @@
         "https://www.gamekee.com/mc/622951.html",
         "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/840337.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/840337.png",
+      "rarity": "4★"
     },
     {
       "id": "brant",
@@ -67,7 +71,8 @@
         "https://www.gamekee.com/mc/648714.html",
         "https://www.prydwen.gg/wuthering-waves/characters/brant"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/572308.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/572308.png",
+      "rarity": "5★"
     },
     {
       "id": "buling",
@@ -79,7 +84,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3701",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/3699"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/buling_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/buling_full.webp",
+      "rarity": "4★"
     },
     {
       "id": "calcharo",
@@ -90,7 +96,8 @@
         "https://www.gamekee.com/mc/622978.html",
         "https://www.prydwen.gg/wuthering-waves/characters/calcharo"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/313861.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/313861.png",
+      "rarity": "5★"
     },
     {
       "id": "camellya",
@@ -101,7 +108,8 @@
         "https://www.gamekee.com/mc/636238.html",
         "https://www.prydwen.gg/wuthering-waves/characters/camellya"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_198/50074/479972/2025/0/2/990586.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_198/50074/479972/2025/0/2/990586.png",
+      "rarity": "5★"
     },
     {
       "id": "cantarella",
@@ -112,7 +120,8 @@
         "https://www.gamekee.com/mc/650239.html",
         "https://www.prydwen.gg/wuthering-waves/characters/cantarella"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/78184.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/78184.png",
+      "rarity": "5★"
     },
     {
       "id": "carlotta",
@@ -123,7 +132,8 @@
         "https://www.gamekee.com/mc/641993.html",
         "https://www.prydwen.gg/wuthering-waves/characters/carlotta"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_159/50074/103682/2025/1/18/874807.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_159/50074/103682/2025/1/18/874807.png",
+      "rarity": "5★"
     },
     {
       "id": "cartethyia",
@@ -134,7 +144,8 @@
         "https://www.gamekee.com/mc/667732.html",
         "https://www.prydwen.gg/wuthering-waves/characters/cartethyia"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_158/50074/103682/2025/5/24/307634.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_158/50074/103682/2025/5/24/307634.png",
+      "rarity": "5★"
     },
     {
       "id": "changli",
@@ -145,7 +156,8 @@
         "https://www.gamekee.com/mc/624700.html",
         "https://www.prydwen.gg/wuthering-waves/characters/changli"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/6/22/518723.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/6/22/518723.png",
+      "rarity": "5★"
     },
     {
       "id": "chisa",
@@ -157,7 +169,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5515",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5498"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chisa_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chisa_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "chixia",
@@ -168,7 +181,8 @@
         "https://www.gamekee.com/mc/622939.html",
         "https://www.prydwen.gg/wuthering-waves/characters/chixia"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/811556.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/811556.png",
+      "rarity": "4★"
     },
     {
       "id": "ciaccona",
@@ -179,7 +193,8 @@
         "https://www.gamekee.com/mc/657085.html",
         "https://www.prydwen.gg/wuthering-waves/characters/ciaccona"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/351109.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/351109.png",
+      "rarity": "5★"
     },
     {
       "id": "danjin",
@@ -190,7 +205,8 @@
         "https://www.gamekee.com/mc/623008.html",
         "https://www.prydwen.gg/wuthering-waves/characters/danjin"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/521716.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/521716.png",
+      "rarity": "4★"
     },
     {
       "id": "denia",
@@ -202,7 +218,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5319",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5315"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/denia_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/denia_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "encore",
@@ -213,7 +230,8 @@
         "https://www.gamekee.com/mc/622950.html",
         "https://www.prydwen.gg/wuthering-waves/characters/encore"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/606097.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/606097.png",
+      "rarity": "5★"
     },
     {
       "id": "galbrena",
@@ -225,7 +243,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3333",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/3363"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/galbrena_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/galbrena_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "hiyuki",
@@ -237,7 +256,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5420",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5429"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hiyuki_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hiyuki_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "hsin",
@@ -249,7 +269,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5481",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5497"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "iuno",
@@ -260,7 +281,8 @@
         "https://www.gamekee.com/mc/674303.html",
         "https://www.prydwen.gg/wuthering-waves/characters/iuno"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/369851.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/369851.png",
+      "rarity": "5★"
     },
     {
       "id": "jianxin",
@@ -271,7 +293,8 @@
         "https://www.gamekee.com/mc/622943.html",
         "https://www.prydwen.gg/wuthering-waves/characters/jianxin"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/485017.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/485017.png",
+      "rarity": "5★"
     },
     {
       "id": "jingran",
@@ -283,7 +306,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5405",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5399"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jingran_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jingran_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "jinhsi",
@@ -294,7 +318,8 @@
         "https://www.gamekee.com/mc/624686.html",
         "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_158/50074/86082/2024/5/28/856827.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_158/50074/86082/2024/5/28/856827.png",
+      "rarity": "5★"
     },
     {
       "id": "jiyan",
@@ -305,7 +330,8 @@
         "https://www.gamekee.com/mc/622932.html",
         "https://www.prydwen.gg/wuthering-waves/characters/jiyan"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/801384.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/801384.png",
+      "rarity": "5★"
     },
     {
       "id": "lily",
@@ -315,7 +341,8 @@
       "sources": [
         "https://www.prydwen.gg/wuthering-waves/characters/lily"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lily_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lily_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "lingyang",
@@ -326,7 +353,8 @@
         "https://www.gamekee.com/mc/622987.html",
         "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/445667.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/445667.png",
+      "rarity": "5★"
     },
     {
       "id": "lucilla",
@@ -338,7 +366,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4869",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4870"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucilla_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucilla_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "lucy",
@@ -350,7 +379,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4784",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4800"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucy_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucy_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "lumi",
@@ -361,7 +391,8 @@
         "https://www.gamekee.com/mc/636239.html",
         "https://www.prydwen.gg/wuthering-waves/characters/lumi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_159/50074/103682/2024/8/23/851495.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_159/50074/103682/2024/8/23/851495.png",
+      "rarity": "4★"
     },
     {
       "id": "lupa",
@@ -372,7 +403,8 @@
         "https://www.gamekee.com/mc/667741.html",
         "https://www.prydwen.gg/wuthering-waves/characters/lupa"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_159/50074/103682/2025/5/24/922704.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_159/50074/103682/2025/5/24/922704.png",
+      "rarity": "5★"
     },
     {
       "id": "luuk-herssen",
@@ -384,7 +416,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4277",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4302"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/luuk-herssen_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/luuk-herssen_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "lynae",
@@ -396,7 +429,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3828",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/3842"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lynae_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lynae_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "mornye",
@@ -408,7 +442,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5424",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5437"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/mornye_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/mornye_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "mortefi",
@@ -419,7 +454,8 @@
         "https://www.gamekee.com/mc/623023.html",
         "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/778983.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/778983.png",
+      "rarity": "4★"
     },
     {
       "id": "phoebe",
@@ -430,7 +466,8 @@
         "https://www.gamekee.com/mc/648290.html",
         "https://www.prydwen.gg/wuthering-waves/characters/phoebe"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/2/6/97064.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/2/6/97064.png",
+      "rarity": "5★"
     },
     {
       "id": "phrolova",
@@ -441,7 +478,8 @@
         "https://www.gamekee.com/mc/668158.html",
         "https://www.prydwen.gg/wuthering-waves/characters/phrolova"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/5/24/447800.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/5/24/447800.png",
+      "rarity": "5★"
     },
     {
       "id": "qingxiao",
@@ -453,7 +491,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5294"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qingxiao_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qingxiao_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "qiuyuan",
@@ -465,7 +504,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3470",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/3479"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qiuyuan_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qiuyuan_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "rebecca",
@@ -477,7 +517,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4782",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4799"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rebecca_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rebecca_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "roccia",
@@ -488,7 +529,8 @@
         "https://www.gamekee.com/mc/642005.html",
         "https://www.prydwen.gg/wuthering-waves/characters/roccia"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_157/50074/103682/2025/1/18/701882.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_157/50074/103682/2025/1/18/701882.png",
+      "rarity": "5★"
     },
     {
       "id": "rover-aero",
@@ -501,7 +543,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/2295",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/2305"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_158/h_212/50074/769711/2025/5/2/991188.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_158/h_212/50074/769711/2025/5/2/991188.png",
+      "rarity": "5★"
     },
     {
       "id": "rover-electro",
@@ -513,7 +556,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
       ],
-      "portrait": null
+      "portrait": null,
+      "rarity": "5★"
     },
     {
       "id": "rover-havoc",
@@ -525,7 +569,8 @@
         "https://www.gamekee.com/mc/624136.html",
         "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/5/5/313084.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/5/5/313084.png",
+      "rarity": "5★"
     },
     {
       "id": "rover-spectro",
@@ -537,7 +582,8 @@
         "https://www.gamekee.com/mc/622984.html",
         "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/887278.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/887278.png",
+      "rarity": "5★"
     },
     {
       "id": "sanhua",
@@ -548,7 +594,8 @@
         "https://www.gamekee.com/mc/622934.html",
         "https://www.prydwen.gg/wuthering-waves/characters/sanhua"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/597537.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/597537.png",
+      "rarity": "4★"
     },
     {
       "id": "sigrika",
@@ -560,7 +607,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4382",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/4410"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/sigrika_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/sigrika_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "suisui",
@@ -572,7 +620,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5197",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5200"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suisui_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suisui_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "suoming",
@@ -584,7 +633,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5625"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "taoqi",
@@ -595,7 +645,8 @@
         "https://www.gamekee.com/mc/623015.html",
         "https://www.prydwen.gg/wuthering-waves/characters/taoqi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/300293.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/300293.png",
+      "rarity": "4★"
     },
     {
       "id": "the-shorekeeper",
@@ -606,7 +657,8 @@
         "https://www.gamekee.com/mc/632074.html",
         "https://www.prydwen.gg/wuthering-waves/characters/the-shorekeeper"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_144/h_197/50074/479972/2025/0/2/10201.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_144/h_197/50074/479972/2025/0/2/10201.png",
+      "rarity": "5★"
     },
     {
       "id": "verina",
@@ -617,7 +669,8 @@
         "https://www.gamekee.com/mc/622919.html",
         "https://www.prydwen.gg/wuthering-waves/characters/verina"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/184874.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/184874.png",
+      "rarity": "5★"
     },
     {
       "id": "xiangli-yao",
@@ -628,7 +681,8 @@
         "https://www.gamekee.com/mc/627625.html",
         "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_194/50074/479972/2025/0/2/386734.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_194/50074/479972/2025/0/2/386734.png",
+      "rarity": "5★"
     },
     {
       "id": "yangyang",
@@ -639,7 +693,8 @@
         "https://www.gamekee.com/mc/622979.html",
         "https://www.prydwen.gg/wuthering-waves/characters/yangyang"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/498733.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/498733.png",
+      "rarity": "4★"
     },
     {
       "id": "yangyang-xuanling",
@@ -651,7 +706,8 @@
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5002",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5007"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang-xuanling_full.webp"
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang-xuanling_full.webp",
+      "rarity": "5★"
     },
     {
       "id": "yinlin",
@@ -662,7 +718,8 @@
         "https://www.gamekee.com/mc/624258.html",
         "https://www.prydwen.gg/wuthering-waves/characters/yinlin"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/5/6/189377.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/5/6/189377.png",
+      "rarity": "5★"
     },
     {
       "id": "youhu",
@@ -673,7 +730,8 @@
         "https://www.gamekee.com/mc/632075.html",
         "https://www.prydwen.gg/wuthering-waves/characters/youhu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_158/50074/103682/2024/7/19/414052.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_158/50074/103682/2024/7/19/414052.png",
+      "rarity": "4★"
     },
     {
       "id": "yuanwu",
@@ -684,7 +742,8 @@
         "https://www.gamekee.com/mc/623009.html",
         "https://www.prydwen.gg/wuthering-waves/characters/yuanwu"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/769723.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/769723.png",
+      "rarity": "4★"
     },
     {
       "id": "zani",
@@ -695,7 +754,8 @@
         "https://www.gamekee.com/mc/657081.html",
         "https://www.prydwen.gg/wuthering-waves/characters/zani"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/747264.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/747264.png",
+      "rarity": "5★"
     },
     {
       "id": "zhezhi",
@@ -706,7 +766,8 @@
         "https://www.gamekee.com/mc/627615.html",
         "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_155/50074/103682/2024/7/19/104945.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_155/50074/103682/2024/7/19/104945.png",
+      "rarity": "5★"
     }
   ]
 }

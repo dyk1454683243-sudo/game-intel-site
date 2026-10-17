@@ -2,7 +2,7 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-18",
   "timezone": "Asia/Shanghai",
   "character_count": 233,
   "rich_count": 233,
@@ -24,7 +24,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/2b/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/401833.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/401833.png",
+      "rarity": "SSR"
     },
     {
       "id": "a2",
@@ -38,7 +39,8 @@
         "https://nikke.gg/characters/a2/",
         "https://www.gamekee.com/nikke/668164.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/720180.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/720180.png",
+      "rarity": "SSR"
     },
     {
       "id": "ada-wong",
@@ -52,7 +54,8 @@
         "https://nikke.gg/characters/ada/",
         "https://www.gamekee.com/nikke/677996.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/25/817769.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/25/817769.png",
+      "rarity": "SSR"
     },
     {
       "id": "ade",
@@ -65,7 +68,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/ade/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/2/524440.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/2/524440.png",
+      "rarity": "SSR"
     },
     {
       "id": "ade-agent-bunny",
@@ -79,7 +83,8 @@
         "https://nikke.gg/characters/ade-agent-bunny/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/5/530047.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/5/530047.png",
+      "rarity": "SSR"
     },
     {
       "id": "admi",
@@ -92,7 +97,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/admi/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/258582.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/258582.png",
+      "rarity": "SSR"
     },
     {
       "id": "ai-se-er",
@@ -104,7 +110,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/ether/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/668734.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/668734.png",
+      "rarity": "SR"
     },
     {
       "id": "aigis",
@@ -116,7 +123,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/aigis/"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/aigis.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/aigis.webp",
+      "rarity": "SR"
     },
     {
       "id": "alice",
@@ -130,7 +138,8 @@
         "https://nikke.gg/characters/alice/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/65002.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/65002.png",
+      "rarity": "SSR"
     },
     {
       "id": "alice-wonderland-bunny",
@@ -143,7 +152,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/alice-wonderland-bunny/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/3/230740.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/3/230740.png",
+      "rarity": "SSR"
     },
     {
       "id": "anchor",
@@ -156,7 +166,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/anchor/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/565557.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/565557.png",
+      "rarity": "SR"
     },
     {
       "id": "anchor-innocent-maid",
@@ -171,7 +182,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/647705.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/7/643681.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/7/643681.png",
+      "rarity": "SSR"
     },
     {
       "id": "anis",
@@ -185,7 +197,8 @@
         "https://nikke.gg/characters/anis/",
         "https://www.gamekee.com/nikke/702871.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/621341.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/621341.png",
+      "rarity": "SR"
     },
     {
       "id": "anis-star",
@@ -199,7 +212,8 @@
         "https://nikke.gg/characters/anis-star/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/24/610046.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/24/610046.png",
+      "rarity": "SSR"
     },
     {
       "id": "aqua-marine-helm",
@@ -213,7 +227,8 @@
         "https://nikke.gg/characters/helm-aquamarine/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/947173.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/947173.png",
+      "rarity": "SSR"
     },
     {
       "id": "arcana",
@@ -228,7 +243,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/663037.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/19/646332.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/19/646332.png",
+      "rarity": "SSR"
     },
     {
       "id": "arcana-fortune-mate",
@@ -242,7 +258,8 @@
         "https://nikke.gg/characters/arcana-fortune-mate/",
         "https://www.gamekee.com/nikke/698188.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/2/20/852854.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/2/20/852854.png",
+      "rarity": "SSR"
     },
     {
       "id": "aria",
@@ -255,7 +272,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/aria/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_159/h_207/1253/43637/2022/7/4/537237.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_159/h_207/1253/43637/2022/7/4/537237.png",
+      "rarity": "SSR"
     },
     {
       "id": "ark-ranger-black",
@@ -269,7 +287,8 @@
         "https://nikke.gg/characters/ark-ranger-black/",
         "https://www.gamekee.com/nikke/708429.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/5/12/04337199mqamwi8j.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/5/12/04337199mqamwi8j.png",
+      "rarity": "SSR"
     },
     {
       "id": "asuka-shikinami-langley",
@@ -283,7 +302,8 @@
         "https://nikke.gg/characters/asuka/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/969221.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/969221.png",
+      "rarity": "SSR"
     },
     {
       "id": "asuka-shikinami-langley-wille",
@@ -297,7 +317,8 @@
         "https://nikke.gg/characters/asuka-wille/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/368055.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/368055.png",
+      "rarity": "SSR"
     },
     {
       "id": "avistar",
@@ -310,7 +331,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/avistar/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/29/328442.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/29/328442.png",
+      "rarity": "SSR"
     },
     {
       "id": "bay",
@@ -323,7 +345,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/bay/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/15/664314.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/15/664314.png",
+      "rarity": "SSR"
     },
     {
       "id": "bay-goddess-mary",
@@ -338,7 +361,8 @@
         "https://www.prydwen.gg/nikke/characters/guillotine-winter-slayer",
         "https://www.prydwen.gg/nikke/characters/phantom"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/5/16/499321.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/5/16/499321.png",
+      "rarity": "SSR"
     },
     {
       "id": "bay-treasure",
@@ -352,7 +376,8 @@
         "https://www.prydwen.gg/nikke/characters/anis-star",
         "https://www.prydwen.gg/nikke/characters/dorothy-serendipity"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/bay-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/bay-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "belorta",
@@ -365,7 +390,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/belorta/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/159787.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/159787.png",
+      "rarity": "SR"
     },
     {
       "id": "belorta-pumpkin-witch",
@@ -383,7 +409,8 @@
         "https://www.gamekee.com/nikke/722928.html",
         "https://forum.gamer.com.tw/C.php?bsn=36390&snA=23011"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/9/8/94897384muzcnooa.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/9/8/94897384muzcnooa.png",
+      "rarity": "SSR"
     },
     {
       "id": "biscuit",
@@ -398,7 +425,8 @@
         "https://www.prydwen.gg/nikke/characters/laplace-ultimate-hero",
         "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/1/23/822522.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/1/23/822522.png",
+      "rarity": "SSR"
     },
     {
       "id": "blanc",
@@ -412,7 +440,8 @@
         "https://nikke.gg/characters/blanc/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/19/535689.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/19/535689.png",
+      "rarity": "SSR"
     },
     {
       "id": "blue-ocean-neon",
@@ -425,7 +454,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/neon-blue-ocean/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/5/16/672030.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/5/16/672030.png",
+      "rarity": "SSR"
     },
     {
       "id": "bready",
@@ -439,7 +469,8 @@
         "https://nikke.gg/characters/bready/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/31/701752.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/31/701752.png",
+      "rarity": "SSR"
     },
     {
       "id": "brid",
@@ -453,7 +484,8 @@
         "https://nikke.gg/characters/brid/",
         "https://www.gamekee.com/nikke/684721.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/969645.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/969645.png",
+      "rarity": "SSR"
     },
     {
       "id": "brid-silent-track",
@@ -467,7 +499,8 @@
         "https://nikke.gg/characters/brid-silent-track/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/11/65222.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/11/65222.png",
+      "rarity": "SSR"
     },
     {
       "id": "centi",
@@ -481,7 +514,8 @@
         "https://nikke.gg/characters/centi/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/6236.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/6236.png",
+      "rarity": "SSR"
     },
     {
       "id": "centi-treasure",
@@ -494,7 +528,8 @@
         "https://nikke.gg/characters/centi/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/centi-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/centi-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "chime",
@@ -507,7 +542,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/chime/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/6/400372.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/6/400372.png",
+      "rarity": "SSR"
     },
     {
       "id": "chisato-nishikigi",
@@ -522,7 +558,8 @@
         "https://www.prydwen.gg/nikke/characters/centi-treasure",
         "https://www.prydwen.gg/nikke/characters/flora-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/12/651534.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/12/651534.png",
+      "rarity": "SSR"
     },
     {
       "id": "cinderella",
@@ -536,7 +573,8 @@
         "https://nikke.gg/characters/cinderella/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_231/h_300/1253/4408/2025/3/17/295657.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_231/h_300/1253/4408/2025/3/17/295657.png",
+      "rarity": "SSR"
     },
     {
       "id": "cinderella-crystal-wave",
@@ -550,7 +588,8 @@
         "https://nikke.gg/characters/cinderella-crystal-wave/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/3/96321370mr4pzinj.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/3/96321370mr4pzinj.png",
+      "rarity": "SSR"
     },
     {
       "id": "claire-redfield",
@@ -563,7 +602,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/claire/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/28/111883.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/28/111883.png",
+      "rarity": "SR"
     },
     {
       "id": "clay",
@@ -577,7 +617,8 @@
         "https://nikke.gg/characters/clay/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/24/235196.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/24/235196.png",
+      "rarity": "SSR"
     },
     {
       "id": "cocoa",
@@ -590,7 +631,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/cocoa/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/0/31/591006.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/0/31/591006.png",
+      "rarity": "SSR"
     },
     {
       "id": "crow",
@@ -603,7 +645,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/crow/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/190418.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/190418.png",
+      "rarity": "SSR"
     },
     {
       "id": "crown",
@@ -618,7 +661,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/645499.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/25/388609.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/25/388609.png",
+      "rarity": "SSR"
     },
     {
       "id": "crust",
@@ -632,7 +676,8 @@
         "https://nikke.gg/characters/crust/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/3/17/185020.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/3/17/185020.png",
+      "rarity": "SSR"
     },
     {
       "id": "d",
@@ -646,7 +691,8 @@
         "https://nikke.gg/characters/d/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/3/13/439758.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/3/13/439758.png",
+      "rarity": "SSR"
     },
     {
       "id": "d-killer-wife",
@@ -660,7 +706,8 @@
         "https://nikke.gg/characters/d-killer-wife/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/11/509448.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/11/509448.png",
+      "rarity": "SSR"
     },
     {
       "id": "delta",
@@ -674,7 +721,8 @@
         "https://nikke.gg/characters/delta/",
         "https://www.gamekee.com/nikke/679867.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/325509.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/325509.png",
+      "rarity": "SR"
     },
     {
       "id": "delta-ninja-thief",
@@ -687,7 +735,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/delta-ninja-thief/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/9/21/462375.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/9/21/462375.png",
+      "rarity": "SSR"
     },
     {
       "id": "diesel",
@@ -702,7 +751,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/684606.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/508514.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/508514.png",
+      "rarity": "SSR"
     },
     {
       "id": "diesel-treasure",
@@ -715,7 +765,8 @@
         "https://nikke.gg/characters/diesel/?treasure=true",
         "https://www.prydwen.gg/nikke/characters/d-killer-wife"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/diesel-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/diesel-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "diesel-winter-sweets",
@@ -729,7 +780,8 @@
         "https://nikke.gg/characters/diesel-winter-sweets/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/5/17667.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/5/17667.png",
+      "rarity": "SSR"
     },
     {
       "id": "dolla",
@@ -743,7 +795,8 @@
         "https://nikke.gg/characters/dolla/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/308653.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/308653.png",
+      "rarity": "SSR"
     },
     {
       "id": "dorothy",
@@ -758,7 +811,8 @@
         "https://www.gamekee.com/nikke/670224.html",
         "https://www.gamekee.com/nikke/645163.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/3/27/987509.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/3/27/987509.png",
+      "rarity": "SSR"
     },
     {
       "id": "dorothy-serendipity",
@@ -772,7 +826,8 @@
         "https://nikke.gg/characters/dorothy-serendipity/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/18/68872.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/18/68872.png",
+      "rarity": "SSR"
     },
     {
       "id": "drake",
@@ -786,7 +841,8 @@
         "https://nikke.gg/characters/drake/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/943813.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/943813.png",
+      "rarity": "SSR"
     },
     {
       "id": "drake-great-villain",
@@ -799,7 +855,8 @@
         "https://www.gamekee.com/nikke/719599.html",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/3/05857786mtlchmr3.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/3/05857786mtlchmr3.png",
+      "rarity": "SSR"
     },
     {
       "id": "drake-treasure",
@@ -813,7 +870,8 @@
         "https://www.prydwen.gg/nikke/characters/sugar-treasure",
         "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/drake-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/drake-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "e-h",
@@ -826,7 +884,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/e-h/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/2/6/684922.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/2/6/684922.png",
+      "rarity": "SSR"
     },
     {
       "id": "ein",
@@ -840,7 +899,8 @@
         "https://nikke.gg/characters/ein/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/29/838398.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/29/838398.png",
+      "rarity": "SSR"
     },
     {
       "id": "elegg",
@@ -854,7 +914,8 @@
         "https://nikke.gg/characters/elegg/",
         "https://www.gamekee.com/nikke/671143.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/26/770157.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/26/770157.png",
+      "rarity": "SSR"
     },
     {
       "id": "elegg-boom-and-shock",
@@ -868,7 +929,8 @@
         "https://nikke.gg/characters/elegg-boom-and-shock/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/24/259858.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/24/259858.png",
+      "rarity": "SSR"
     },
     {
       "id": "emilia",
@@ -883,7 +945,8 @@
         "https://www.prydwen.gg/nikke/characters/privaty-treasure",
         "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/537729.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/537729.png",
+      "rarity": "SSR"
     },
     {
       "id": "emma",
@@ -897,7 +960,8 @@
         "https://nikke.gg/characters/emma/",
         "https://www.gamekee.com/nikke/673303.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/88875.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/88875.png",
+      "rarity": "SSR"
     },
     {
       "id": "emma-tactical-upgrade",
@@ -911,7 +975,8 @@
         "https://nikke.gg/characters/emma-tactical-upgrade/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/11/448236.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/11/448236.png",
+      "rarity": "SSR"
     },
     {
       "id": "epinel",
@@ -925,7 +990,8 @@
         "https://nikke.gg/characters/epinel/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/921049.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/921049.png",
+      "rarity": "SSR"
     },
     {
       "id": "ether",
@@ -938,7 +1004,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/ether/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/20/00367755mt1978mn.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/20/00367755mt1978mn.png",
+      "rarity": "SR"
     },
     {
       "id": "eunhwa",
@@ -951,7 +1018,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/eunhwa/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/273380.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/273380.png",
+      "rarity": "SSR"
     },
     {
       "id": "eunhwa-tactical-upgrade",
@@ -965,7 +1033,8 @@
         "https://nikke.gg/characters/eunhwa-tactical-upgrade/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/14/407020.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/14/407020.png",
+      "rarity": "SSR"
     },
     {
       "id": "eve",
@@ -979,7 +1048,8 @@
         "https://nikke.gg/characters/eve/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/386431.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/386431.png",
+      "rarity": "SSR"
     },
     {
       "id": "exia",
@@ -993,7 +1063,8 @@
         "https://nikke.gg/characters/exia/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/790186.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/790186.png",
+      "rarity": "SSR"
     },
     {
       "id": "exia-treasure",
@@ -1006,7 +1077,8 @@
         "https://nikke.gg/characters/exia/?treasure=true",
         "https://www.prydwen.gg/nikke/characters/ein"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/exia-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/exia-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "flora",
@@ -1020,7 +1092,8 @@
         "https://nikke.gg/characters/flora/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/25/116606.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/25/116606.png",
+      "rarity": "SSR"
     },
     {
       "id": "flora-treasure",
@@ -1033,7 +1106,8 @@
         "https://nikke.gg/characters/flora/?treasure=true",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/flora-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/flora-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "folkwang",
@@ -1046,7 +1120,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/folkwang/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/48828.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/48828.png",
+      "rarity": "SSR"
     },
     {
       "id": "frima",
@@ -1059,7 +1134,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/frima/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/24359.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/24359.png",
+      "rarity": "SSR"
     },
     {
       "id": "frima-treasure",
@@ -1073,7 +1149,8 @@
         "https://www.prydwen.gg/nikke/characters/chisato-nishikigi",
         "https://www.prydwen.gg/nikke/characters/ein"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/frima-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/frima-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "grave",
@@ -1087,7 +1164,8 @@
         "https://nikke.gg/characters/grave/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/5/646530.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/5/646530.png",
+      "rarity": "SSR"
     },
     {
       "id": "guillotine",
@@ -1101,7 +1179,8 @@
         "https://nikke.gg/characters/guillotine/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/114608.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/114608.png",
+      "rarity": "SSR"
     },
     {
       "id": "guillotine-winter-slayer",
@@ -1115,7 +1194,8 @@
         "https://nikke.gg/characters/guillotine-winter-slayer/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/298329.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/298329.png",
+      "rarity": "SSR"
     },
     {
       "id": "guilty",
@@ -1129,7 +1209,8 @@
         "https://nikke.gg/characters/guilty/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/3316.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/3316.png",
+      "rarity": "SSR"
     },
     {
       "id": "guilty-mighty-bunny",
@@ -1143,7 +1224,8 @@
         "https://nikke.gg/tier-list/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/17/87122519mu5dns6v.png",
+      "rarity": "SSR"
     },
     {
       "id": "harran",
@@ -1156,7 +1238,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/harran/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/126887.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/126887.png",
+      "rarity": "SSR"
     },
     {
       "id": "helm",
@@ -1170,7 +1253,8 @@
         "https://nikke.gg/characters/helm/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/28/8230.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/28/8230.png",
+      "rarity": "SSR"
     },
     {
       "id": "helm-treasure",
@@ -1184,7 +1268,8 @@
         "https://www.gamekee.com/nikke/700085.html",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/helm-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/helm-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "himeno",
@@ -1197,7 +1282,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/himeno/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/1/23/48573.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/1/23/48573.png",
+      "rarity": "SR"
     },
     {
       "id": "idoll-flower",
@@ -1210,7 +1296,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/idoll-flower/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/342376.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/342376.png",
+      "rarity": "R"
     },
     {
       "id": "idoll-ocean",
@@ -1223,7 +1310,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/idoll-ocean/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/239493.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/239493.png",
+      "rarity": "R"
     },
     {
       "id": "idoll-sun",
@@ -1236,7 +1324,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/idoll-sun/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/971335.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/971335.png",
+      "rarity": "R"
     },
     {
       "id": "innocent-dayss-snow-white",
@@ -1249,7 +1338,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/snow-white-innocent-days/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/6/545788.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/6/545788.png",
+      "rarity": "SSR"
     },
     {
       "id": "isabel",
@@ -1263,7 +1353,8 @@
         "https://nikke.gg/characters/isabel/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/182220.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/182220.png",
+      "rarity": "SSR"
     },
     {
       "id": "jackal",
@@ -1278,7 +1369,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/9/653492.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/9/653492.png",
+      "rarity": "SSR"
     },
     {
       "id": "ji-jia-xie-fu-di",
@@ -1288,7 +1380,8 @@
       "sources": [
         "https://www.gamekee.com/nikke/684097.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/374156.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/374156.png",
+      "rarity": "R"
     },
     {
       "id": "jill-valentine",
@@ -1301,7 +1394,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/jill/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/29/394368.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/29/394368.png",
+      "rarity": "SSR"
     },
     {
       "id": "julia",
@@ -1314,7 +1408,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/julia/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/893725.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/893725.png",
+      "rarity": "SSR"
     },
     {
       "id": "julia-treasure",
@@ -1326,7 +1421,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/julia/?treasure=true"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/julia-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/julia-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "k",
@@ -1340,7 +1436,8 @@
         "https://nikke.gg/characters/k/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/3/123982.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/3/123982.png",
+      "rarity": "SSR"
     },
     {
       "id": "ke-la-wu",
@@ -1352,7 +1449,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/crow/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/29538.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/29538.png",
+      "rarity": "SSR"
     },
     {
       "id": "kilo",
@@ -1365,7 +1463,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/kilo/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/28/377875.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/3/28/377875.png",
+      "rarity": "SSR"
     },
     {
       "id": "kurumi",
@@ -1378,7 +1477,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/kurumi/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/28/822190.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/28/822190.png",
+      "rarity": "SR"
     },
     {
       "id": "label",
@@ -1392,7 +1492,8 @@
         "https://nikke.gg/characters/label/",
         "https://www.prydwen.gg/nikke/characters/snow-crane"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/16/618292.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/16/618292.png",
+      "rarity": "SSR"
     },
     {
       "id": "laplace",
@@ -1405,7 +1506,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/laplace/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/10/21/46079.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/10/21/46079.png",
+      "rarity": "SSR"
     },
     {
       "id": "laplace-treasure",
@@ -1419,7 +1521,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/laplace-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/laplace-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "laplace-ultimate-hero",
@@ -1434,7 +1537,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/76919549mrylbcnv.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/76919549mrylbcnv.png",
+      "rarity": "SSR"
     },
     {
       "id": "leona",
@@ -1448,7 +1552,8 @@
         "https://nikke.gg/characters/leona/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/15/849751.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/15/849751.png",
+      "rarity": "SSR"
     },
     {
       "id": "li-ta",
@@ -1461,7 +1566,8 @@
         "https://nikke.gg/characters/liter/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/455781.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/455781.png",
+      "rarity": "SSR"
     },
     {
       "id": "liberalio",
@@ -1475,7 +1581,8 @@
         "https://nikke.gg/characters/liberalio/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/6/238459.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/6/238459.png",
+      "rarity": "SSR"
     },
     {
       "id": "lily",
@@ -1488,7 +1595,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/lily/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/8264.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/5/18/8264.png",
+      "rarity": "SR"
     },
     {
       "id": "liter",
@@ -1502,7 +1610,8 @@
         "https://nikke.gg/characters/liter/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/3/27/379549.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/3/27/379549.png",
+      "rarity": "SSR"
     },
     {
       "id": "ludmilla",
@@ -1515,7 +1624,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/ludmilla/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/931256.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/931256.png",
+      "rarity": "SSR"
     },
     {
       "id": "ludmilla-winter-owner",
@@ -1529,7 +1639,8 @@
         "https://nikke.gg/characters/ludmilla-winter-owner/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/11/11/998853.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/11/11/998853.png",
+      "rarity": "SSR"
     },
     {
       "id": "maiden",
@@ -1543,7 +1654,8 @@
         "https://nikke.gg/characters/maiden/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/750510.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/750510.png",
+      "rarity": "SSR"
     },
     {
       "id": "maiden-ice-rose",
@@ -1557,7 +1669,8 @@
         "https://nikke.gg/characters/maiden-ice-rose/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/305462.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/11/12/305462.png",
+      "rarity": "SSR"
     },
     {
       "id": "makima",
@@ -1571,7 +1684,8 @@
         "https://nikke.gg/characters/makima/",
         "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/1/23/123381.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/1/23/123381.png",
+      "rarity": "SSR"
     },
     {
       "id": "mana",
@@ -1586,7 +1700,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/0/17/919940.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/0/17/919940.png",
+      "rarity": "SSR"
     },
     {
       "id": "marciana",
@@ -1600,7 +1715,8 @@
         "https://nikke.gg/characters/marciana/",
         "https://www.gamekee.com/nikke/710844.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/656896.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/656896.png",
+      "rarity": "SSR"
     },
     {
       "id": "marciana-marine-study",
@@ -1614,7 +1730,8 @@
         "https://nikke.gg/characters/marciana-marine-study/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/7/93309727mraf1s67.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/7/93309727mraf1s67.png",
+      "rarity": "SSR"
     },
     {
       "id": "mari-makinami-illustrious",
@@ -1627,7 +1744,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mari/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_231/h_300/1253/4408/2025/3/18/843526.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_231/h_300/1253/4408/2025/3/18/843526.png",
+      "rarity": "SR"
     },
     {
       "id": "mary",
@@ -1641,7 +1759,8 @@
         "https://nikke.gg/characters/mary/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/567788.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/567788.png",
+      "rarity": "SSR"
     },
     {
       "id": "mast",
@@ -1655,7 +1774,8 @@
         "https://nikke.gg/characters/mast/",
         "https://www.prydwen.gg/nikke/characters/label"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/13/724288.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/13/724288.png",
+      "rarity": "SSR"
     },
     {
       "id": "mast-romantic-maid",
@@ -1670,7 +1790,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/647134.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/7/390407.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/7/390407.png",
+      "rarity": "SSR"
     },
     {
       "id": "maxwell",
@@ -1684,7 +1805,8 @@
         "https://nikke.gg/characters/maxwell/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/478656.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/478656.png",
+      "rarity": "SSR"
     },
     {
       "id": "maxwell-ordinary-mechanic",
@@ -1699,7 +1821,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/93435910mrylbg14.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/6/24/93435910mrylbg14.png",
+      "rarity": "SSR"
     },
     {
       "id": "mica",
@@ -1712,7 +1835,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mica/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/732607.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/732607.png",
+      "rarity": "SR"
     },
     {
       "id": "mica-snow-buddy",
@@ -1725,7 +1849,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mica-snow-buddy/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/11/22/456564.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/11/22/456564.png",
+      "rarity": "SSR"
     },
     {
       "id": "mihara",
@@ -1738,7 +1863,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mihara/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/4/361815.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/4/361815.png",
+      "rarity": "SR"
     },
     {
       "id": "mihara-bonding-chain",
@@ -1752,7 +1878,8 @@
         "https://nikke.gg/characters/mihara-bonding-chain/",
         "https://www.gamekee.com/nikke/721995.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/282296.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/282296.png",
+      "rarity": "SSR"
     },
     {
       "id": "milk",
@@ -1765,7 +1892,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/milk/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/548627.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/548627.png",
+      "rarity": "SSR"
     },
     {
       "id": "milk-blooming-bunny",
@@ -1779,7 +1907,8 @@
         "https://nikke.gg/characters/milk-blooming-bunny/",
         "https://www.gamekee.com/nikke/676187.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/11/844496.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/8/11/844496.png",
+      "rarity": "SSR"
     },
     {
       "id": "milk-treasure",
@@ -1791,7 +1920,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/milk/?treasure=true"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/milk-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/milk-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "mint",
@@ -1805,7 +1935,8 @@
         "https://nikke.gg/characters/mint/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/1253/4408/2026/4/15/769563.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/1253/4408/2026/4/15/769563.png",
+      "rarity": "SSR"
     },
     {
       "id": "miracle-fairy-anne",
@@ -1820,7 +1951,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/291028.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/291028.png",
+      "rarity": "SSR"
     },
     {
       "id": "miranda",
@@ -1834,7 +1966,8 @@
         "https://nikke.gg/characters/miranda/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/104442.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/104442.png",
+      "rarity": "SSR"
     },
     {
       "id": "miranda-treasure",
@@ -1847,7 +1980,8 @@
         "https://nikke.gg/characters/miranda/?treasure=true",
         "https://www.gamekee.com/nikke/721995.html"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/miranda-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/miranda-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "misato-katsuragi",
@@ -1859,7 +1993,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/misato/"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/misato-katsuragi.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/misato-katsuragi.webp",
+      "rarity": "SR"
     },
     {
       "id": "mo-li",
@@ -1871,7 +2006,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mori/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/459992.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/459992.png",
+      "rarity": "SSR"
     },
     {
       "id": "modernia",
@@ -1884,7 +2020,8 @@
         "https://nikke.gg/characters/modernia/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/modernia.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/modernia.webp",
+      "rarity": "SSR"
     },
     {
       "id": "moran",
@@ -1898,7 +2035,8 @@
         "https://nikke.gg/characters/moran/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/15/971316.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/15/971316.png",
+      "rarity": "SSR"
     },
     {
       "id": "moran-treasure",
@@ -1911,7 +2049,8 @@
         "https://nikke.gg/characters/moran/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/moran-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/moran-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "mori",
@@ -1923,7 +2062,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mori/"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/mori.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/mori.webp",
+      "rarity": "SSR"
     },
     {
       "id": "n102",
@@ -1937,7 +2077,8 @@
         "https://nikke.gg/characters/n102/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/932460.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/932460.png",
+      "rarity": "SR"
     },
     {
       "id": "naga",
@@ -1951,7 +2092,8 @@
         "https://nikke.gg/characters/naga/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/366685.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/366685.png",
+      "rarity": "SSR"
     },
     {
       "id": "nayuta",
@@ -1966,7 +2108,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/681486.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/9/31/427110.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/9/31/427110.png",
+      "rarity": "SSR"
     },
     {
       "id": "neon",
@@ -1981,7 +2124,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/702875.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/193067.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/193067.png",
+      "rarity": "SR"
     },
     {
       "id": "neon-vision-eye",
@@ -1995,7 +2139,8 @@
         "https://nikke.gg/characters/neon-vision-eye/",
         "https://nikke.gg/meta/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/29/468730.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/29/468730.png",
+      "rarity": "SSR"
     },
     {
       "id": "nero",
@@ -2009,7 +2154,8 @@
         "https://nikke.gg/characters/nero/",
         "https://www.prydwen.gg/nikke/characters/anis-star"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/7/308378.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/6/7/308378.png",
+      "rarity": "SSR"
     },
     {
       "id": "neve",
@@ -2023,7 +2169,8 @@
         "https://nikke.gg/characters/neve/",
         "https://www.prydwen.gg/nikke/characters/leona"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/187868.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/187868.png",
+      "rarity": "SR"
     },
     {
       "id": "nihilister",
@@ -2036,7 +2183,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/nihilister/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/4/644473.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/4/644473.png",
+      "rarity": "SSR"
     },
     {
       "id": "noah",
@@ -2051,7 +2199,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/centi-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/880362.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/880362.png",
+      "rarity": "SSR"
     },
     {
       "id": "noir",
@@ -2065,7 +2214,8 @@
         "https://nikke.gg/characters/noir/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/19/479166.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/4/19/479166.png",
+      "rarity": "SSR"
     },
     {
       "id": "noise",
@@ -2080,7 +2230,8 @@
         "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade",
         "https://www.prydwen.gg/nikke/characters/anchor-innocent-maid"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/515916.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/515916.png",
+      "rarity": "SSR"
     },
     {
       "id": "novel",
@@ -2093,7 +2244,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/novel/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/479357.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/479357.png",
+      "rarity": "SSR"
     },
     {
       "id": "pascal",
@@ -2106,7 +2258,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/pascal/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/849095.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/6/849095.png",
+      "rarity": "SR"
     },
     {
       "id": "pepper",
@@ -2121,7 +2274,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/47776.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/47776.png",
+      "rarity": "SSR"
     },
     {
       "id": "phantom",
@@ -2136,7 +2290,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/d-killer-wife"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/466930.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/466930.png",
+      "rarity": "SSR"
     },
     {
       "id": "phantom-treasure",
@@ -2149,7 +2304,8 @@
         "https://nikke.gg/characters/phantom/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/phantom-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/phantom-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "poli",
@@ -2163,7 +2319,8 @@
         "https://nikke.gg/characters/poli/",
         "https://www.prydwen.gg/nikke/characters/biscuit"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/448895.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/448895.png",
+      "rarity": "SSR"
     },
     {
       "id": "poli-treasure",
@@ -2175,7 +2332,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/poli/?treasure=true"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/poli-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/poli-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "power",
@@ -2188,7 +2346,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/power/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/1/21/620280.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/1/21/620280.png",
+      "rarity": "SSR"
     },
     {
       "id": "prika",
@@ -2203,7 +2362,8 @@
         "https://www.gamekee.com/nikke/682131.html",
         "https://www.gamekee.com/nikke/706500.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/1253/4408/2026/4/29/1780050486488_1780050349776_dt5g4ombtc_5b61rwstd2.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/1253/4408/2026/4/29/1780050486488_1780050349776_dt5g4ombtc_5b61rwstd2.png",
+      "rarity": "SSR"
     },
     {
       "id": "privaty",
@@ -2217,7 +2377,8 @@
         "https://nikke.gg/characters/privaty/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/69007.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/69007.png",
+      "rarity": "SSR"
     },
     {
       "id": "privaty-treasure",
@@ -2230,7 +2391,8 @@
         "https://nikke.gg/characters/privaty/?treasure=true",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/privaty-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/privaty-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "privaty-unkind-maid",
@@ -2244,7 +2406,8 @@
         "https://nikke.gg/characters/privaty-unkind-maid/",
         "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/2/371020.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/1/2/371020.png",
+      "rarity": "SSR"
     },
     {
       "id": "product-08",
@@ -2257,7 +2420,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/product-08/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/446193.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/446193.png",
+      "rarity": "R"
     },
     {
       "id": "product-12",
@@ -2270,7 +2434,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/product-12/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/664604.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/664604.png",
+      "rarity": "R"
     },
     {
       "id": "product-23",
@@ -2283,7 +2448,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/product-23/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/721376.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/721376.png",
+      "rarity": "R"
     },
     {
       "id": "queen-makoto",
@@ -2297,7 +2463,8 @@
         "https://nikke.gg/characters/queen-makoto/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/14/15028282mssktdnr.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/14/15028282mssktdnr.png",
+      "rarity": "SSR"
     },
     {
       "id": "quency",
@@ -2310,7 +2477,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/quency/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/332657.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/332657.png",
+      "rarity": "SSR"
     },
     {
       "id": "quency-escape-queen",
@@ -2324,7 +2492,8 @@
         "https://nikke.gg/characters/quency-escape-queen/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/449924.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/23/449924.png",
+      "rarity": "SSR"
     },
     {
       "id": "quiry",
@@ -2339,7 +2508,8 @@
         "https://www.prydwen.gg/nikke/characters/helm-treasure",
         "https://www.prydwen.gg/nikke/characters/milk-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/9/23/964371.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/9/23/964371.png",
+      "rarity": "SSR"
     },
     {
       "id": "ram",
@@ -2352,7 +2522,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/ram/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/236258.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/236258.png",
+      "rarity": "SR"
     },
     {
       "id": "rapi",
@@ -2366,7 +2537,8 @@
         "https://nikke.gg/characters/rapi/",
         "https://www.gamekee.com/nikke/645112.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/138205.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/138205.png",
+      "rarity": "SR"
     },
     {
       "id": "rapi-red-hood",
@@ -2380,7 +2552,8 @@
         "https://nikke.gg/characters/rapi-red-hood/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/0/2/90588.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/0/2/90588.png",
+      "rarity": "SSR"
     },
     {
       "id": "rapunzel",
@@ -2395,7 +2568,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/vesti-tactical-upgrade"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/951208.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/951208.png",
+      "rarity": "SSR"
     },
     {
       "id": "rapunzel-pure-grace",
@@ -2408,7 +2582,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/rapunzel-pure-grace/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/5/110080.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/10/5/110080.png",
+      "rarity": "SSR"
     },
     {
       "id": "raven",
@@ -2421,7 +2596,8 @@
         "https://nikke.gg/characters/raven/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/raven.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/raven.webp",
+      "rarity": "SSR"
     },
     {
       "id": "red-hood",
@@ -2436,7 +2612,8 @@
         "https://www.gamekee.com/nikke/700085.html",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/6/702095.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/6/702095.png",
+      "rarity": "SSR"
     },
     {
       "id": "rei",
@@ -2449,7 +2626,8 @@
         "https://nikke.gg/characters/rei/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rei.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rei.webp",
+      "rarity": "SSR"
     },
     {
       "id": "rei-ayanami",
@@ -2463,7 +2641,8 @@
         "https://nikke.gg/characters/rei-ayanami/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/153028.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/153028.png",
+      "rarity": "SSR"
     },
     {
       "id": "rei-ayanami-tentative-name",
@@ -2477,7 +2656,8 @@
         "https://nikke.gg/characters/rei-ayanami-tentative-name/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/974404.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/974404.png",
+      "rarity": "SSR"
     },
     {
       "id": "rem",
@@ -2491,7 +2671,8 @@
         "https://nikke.gg/characters/rem/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/968956.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/2/25/968956.png",
+      "rarity": "SSR"
     },
     {
       "id": "rosanna",
@@ -2505,7 +2686,8 @@
         "https://nikke.gg/characters/rosanna/",
         "https://www.prydwen.gg/nikke/characters/mihara-bonding-chain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/5/758854.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/5/758854.png",
+      "rarity": "SSR"
     },
     {
       "id": "rosanna-chic-ocean",
@@ -2520,7 +2702,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/436770.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/436770.png",
+      "rarity": "SSR"
     },
     {
       "id": "rosanna-treasure",
@@ -2533,7 +2716,8 @@
         "https://nikke.gg/characters/rosanna/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rosanna-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/rosanna-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "rouge",
@@ -2547,7 +2731,8 @@
         "https://nikke.gg/characters/rouge/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/20/374933.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/8/20/374933.png",
+      "rarity": "SSR"
     },
     {
       "id": "rumani",
@@ -2562,7 +2747,8 @@
         "https://www.prydwen.gg/nikke/characters/ark-ranger-black",
         "https://www.prydwen.gg/nikke/characters/privaty-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/9/18/856152.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/9/18/856152.png",
+      "rarity": "SSR"
     },
     {
       "id": "rupee",
@@ -2575,7 +2761,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/rupee/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/558882.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/558882.png",
+      "rarity": "SSR"
     },
     {
       "id": "sakura",
@@ -2588,7 +2775,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/sakura/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/2/29/749516.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/2/29/749516.png",
+      "rarity": "SSR"
     },
     {
       "id": "sakura-bloom-in-summer",
@@ -2602,7 +2790,8 @@
         "https://nikke.gg/characters/sakura-bloom-in-summer/",
         "https://www.prydwen.gg/nikke/characters/ark-ranger-black"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/903652.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/6/5/903652.png",
+      "rarity": "SSR"
     },
     {
       "id": "sakura-suzuhara",
@@ -2615,7 +2804,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/sakura-suzuhara/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/372063.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/1/24/372063.png",
+      "rarity": "SR"
     },
     {
       "id": "scarlet",
@@ -2629,7 +2819,8 @@
         "https://nikke.gg/characters/scarlet/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/935524.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/935524.png",
+      "rarity": "SSR"
     },
     {
       "id": "scarlet-black-shadow",
@@ -2643,7 +2834,8 @@
         "https://nikke.gg/characters/scarlet-black-shadow/",
         "https://www.gamekee.com/nikke/647737.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/2/232983.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/2/232983.png",
+      "rarity": "SSR"
     },
     {
       "id": "shen-fa",
@@ -2655,7 +2847,8 @@
         "https://www.gamekee.com/nikke/645119.html",
         "https://www.gamekee.com/nikke/666751.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/236746/2022/11/27/67879.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/236746/2022/11/27/67879.png",
+      "rarity": "SSR"
     },
     {
       "id": "shu-en",
@@ -2665,7 +2858,8 @@
       "sources": [
         "https://www.gamekee.com/nikke/619532.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2024/3/9/295205.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2024/3/9/295205.png",
+      "rarity": "R"
     },
     {
       "id": "signal",
@@ -2679,7 +2873,8 @@
         "https://nikke.gg/characters/signal/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/116225.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/116225.png",
+      "rarity": "SSR"
     },
     {
       "id": "sin",
@@ -2693,7 +2888,8 @@
         "https://nikke.gg/characters/sin/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/738031.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/0/10/738031.png",
+      "rarity": "SSR"
     },
     {
       "id": "sin-rapid-bunny",
@@ -2707,7 +2903,8 @@
         "https://www.prydwen.gg/nikke/characters/sin-swift-bunny",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/8/24/69554058muexujh6.png",
+      "rarity": "SSR"
     },
     {
       "id": "siren",
@@ -2721,7 +2918,8 @@
         "https://nikke.gg/characters/little-mermaid/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/905701.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/4/6/905701.png",
+      "rarity": "SSR"
     },
     {
       "id": "snow-crane",
@@ -2735,7 +2933,8 @@
         "https://nikke.gg/characters/snow-crane/",
         "https://www.gamekee.com/nikke/701044.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/10/603129.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/3/10/603129.png",
+      "rarity": "SSR"
     },
     {
       "id": "snow-white",
@@ -2749,7 +2948,8 @@
         "https://nikke.gg/characters/snow-white/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/619677.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/619677.png",
+      "rarity": "SSR"
     },
     {
       "id": "snow-white-heavy-arms",
@@ -2763,7 +2963,8 @@
         "https://nikke.gg/characters/snow-white-heavy-arms/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/31/291657.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/11/31/291657.png",
+      "rarity": "SSR"
     },
     {
       "id": "soda",
@@ -2777,7 +2978,8 @@
         "https://nikke.gg/characters/soda/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/0/31/852435.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/0/31/852435.png",
+      "rarity": "SSR"
     },
     {
       "id": "soda-twinkling-bunny",
@@ -2792,7 +2994,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/sugar-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/3/311477.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/5/3/311477.png",
+      "rarity": "SSR"
     },
     {
       "id": "soldier-eg",
@@ -2806,7 +3009,8 @@
         "https://nikke.gg/characters/soldier-eg/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/937852.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/937852.png",
+      "rarity": "R"
     },
     {
       "id": "soldier-fa",
@@ -2820,7 +3024,8 @@
         "https://nikke.gg/characters/soldier-fa/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/454134.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/454134.png",
+      "rarity": "R"
     },
     {
       "id": "soldier-ow",
@@ -2833,7 +3038,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/soldier-ow/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/108034.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/7/4/108034.png",
+      "rarity": "R"
     },
     {
       "id": "soline",
@@ -2846,7 +3052,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/soline/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/190751.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/190751.png",
+      "rarity": "SSR"
     },
     {
       "id": "soline-frost-ticket",
@@ -2860,7 +3067,8 @@
         "https://nikke.gg/characters/soline-frost-ticket/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/933895.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/10/26/933895.png",
+      "rarity": "SSR"
     },
     {
       "id": "sora",
@@ -2873,7 +3081,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/sora/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/7/113922.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/6/7/113922.png",
+      "rarity": "SSR"
     },
     {
       "id": "sparkling-summer-anis",
@@ -2887,7 +3096,8 @@
         "https://nikke.gg/characters/anis-sparkling-summer/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/219410.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/7/7/219410.png",
+      "rarity": "SSR"
     },
     {
       "id": "sugar",
@@ -2901,7 +3111,8 @@
         "https://nikke.gg/characters/sugar/",
         "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/141962.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/141962.png",
+      "rarity": "SSR"
     },
     {
       "id": "sugar-treasure",
@@ -2914,7 +3125,8 @@
         "https://nikke.gg/characters/sugar/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/sugar-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/sugar-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "takina-inoue",
@@ -2928,7 +3140,8 @@
         "https://nikke.gg/characters/takina/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/26/175858.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/1/26/175858.png",
+      "rarity": "SSR"
     },
     {
       "id": "tia",
@@ -2942,7 +3155,8 @@
         "https://nikke.gg/characters/tia/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/538464.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/8/22/538464.png",
+      "rarity": "SSR"
     },
     {
       "id": "tove",
@@ -2956,7 +3170,8 @@
         "https://nikke.gg/characters/tove/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/27/965556.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2023/10/27/965556.png",
+      "rarity": "SSR"
     },
     {
       "id": "tove-treasure",
@@ -2969,7 +3184,8 @@
         "https://nikke.gg/characters/tove/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/tove-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/tove-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "trina",
@@ -2984,7 +3200,8 @@
         "https://www.prydwen.gg/nikke/teams-database",
         "https://www.prydwen.gg/nikke/characters/drake-great-villain"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/18/437251.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/18/437251.png",
+      "rarity": "SSR"
     },
     {
       "id": "trony",
@@ -2997,7 +3214,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/trony/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/4/16/567313.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/4/16/567313.png",
+      "rarity": "SSR"
     },
     {
       "id": "velvet",
@@ -3012,7 +3230,8 @@
         "https://nikke.gg/meta/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/30/513311.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2026/0/30/513311.png",
+      "rarity": "SSR"
     },
     {
       "id": "vesti",
@@ -3026,7 +3245,8 @@
         "https://nikke.gg/characters/vesti/",
         "https://www.gamekee.com/nikke/674827.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/769951.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/769951.png",
+      "rarity": "SSR"
     },
     {
       "id": "vesti-tactical-upgrade",
@@ -3040,7 +3260,8 @@
         "https://nikke.gg/characters/vesti-tactical-upgrade/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/21/729883.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/7/21/729883.png",
+      "rarity": "SSR"
     },
     {
       "id": "viper",
@@ -3053,7 +3274,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/viper/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/31/434605.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2025/2/31/434605.png",
+      "rarity": "SSR"
     },
     {
       "id": "viper-treasure",
@@ -3067,7 +3289,8 @@
         "https://www.prydwen.gg/nikke/characters/phantom-treasure",
         "https://www.prydwen.gg/nikke/characters/drake-treasure"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/viper-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/viper-treasure.webp",
+      "rarity": "SSR"
     },
     {
       "id": "volume",
@@ -3081,7 +3304,8 @@
         "https://nikke.gg/characters/volume/",
         "https://www.prydwen.gg/nikke/characters/rosanna-chic-ocean"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_159/h_207/1253/43637/2022/7/4/344271.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_159/h_207/1253/43637/2022/7/4/344271.png",
+      "rarity": "SSR"
     },
     {
       "id": "winter-shopper-rupee",
@@ -3095,7 +3319,8 @@
         "https://nikke.gg/characters/rupee-winter-shopper/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/976022.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2022/11/6/976022.png",
+      "rarity": "SSR"
     },
     {
       "id": "xie-fu-di",
@@ -3105,7 +3330,8 @@
       "sources": [
         "https://www.gamekee.com/nikke/589285.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/3/21/726589.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/4408/2023/3/21/726589.png",
+      "rarity": "R"
     },
     {
       "id": "yan",
@@ -3119,7 +3345,8 @@
         "https://nikke.gg/characters/yan/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/675453.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/675453.png",
+      "rarity": "SSR"
     },
     {
       "id": "yukiko",
@@ -3133,7 +3360,8 @@
         "https://nikke.gg/characters/yukiko/",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/20/08644008mt196eto.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_310/h_402/4408/2026/7/20/08644008mt196eto.png",
+      "rarity": "SSR"
     },
     {
       "id": "yulha",
@@ -3147,7 +3375,8 @@
         "https://nikke.gg/characters/yulha/",
         "https://www.prydwen.gg/nikke/characters/zwei"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/251875.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_259/1253/43637/2022/10/2/251875.png",
+      "rarity": "SSR"
     },
     {
       "id": "yuni",
@@ -3160,7 +3389,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/yuni/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/981454.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/43637/2022/7/4/981454.png",
+      "rarity": "SSR"
     },
     {
       "id": "zhen-li",
@@ -3172,7 +3402,8 @@
         "https://nikke.gg/tier-list/",
         "https://nikke.gg/characters/mari/"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/527815.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/26/527815.png",
+      "rarity": "SSR"
     },
     {
       "id": "zwei",
@@ -3186,7 +3417,8 @@
         "https://nikke.gg/characters/zwei/",
         "https://www.gamekee.com/nikke/682131.html"
       ],
-      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/12/75880.png"
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/7/12/75880.png",
+      "rarity": "SSR"
     },
     {
       "id": "zwei-treasure",
@@ -3199,7 +3431,8 @@
         "https://nikke.gg/characters/zwei/?treasure=true",
         "https://www.prydwen.gg/nikke/teams-database"
       ],
-      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/zwei-treasure.webp"
+      "portrait": "https://cdn.prydwen.gg/images/nikke/characters/zwei-treasure.webp",
+      "rarity": "SSR"
     }
   ]
 }
