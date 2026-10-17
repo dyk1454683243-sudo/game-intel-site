@@ -18,7 +18,6 @@ export const GAMEKEE_IMAGE_HEADERS = Object.freeze({
 
 const RULES = Object.freeze([
   { host: "cdn.prydwen.gg", prefix: "/images/nikke/characters/" },
-  { host: "cdn.prydwen.gg", prefix: "/images/wuthering-waves/characters/" },
 ]);
 
 const MAX_BYTES = 3 * 1024 * 1024;
@@ -39,8 +38,8 @@ export function portraitTarget(raw) {
     const sized = url.pathname.startsWith("/wiki2.0/pro/") && url.pathname.includes("/images/");
     if (!legacy && !sized) return null;
   } else {
-    const rule = RULES.find((row) => row.host === url.hostname && url.pathname.startsWith(row.prefix));
-    if (!rule) return null;
+    const rule = RULES.find((row) => row.host === url.hostname);
+    if (!rule || !url.pathname.startsWith(rule.prefix)) return null;
   }
   if (url.pathname.includes("..") || url.pathname.includes("//") || url.pathname.includes("\\")) return null;
   if (!/\.(png|jpe?g|webp|gif)$/i.test(url.pathname)) return null;
