@@ -123,8 +123,25 @@
       "https://wiki.biligame.com/zzz/%E9%9B%85",
       "https://wiki.biligame.com/zzz/%E6%9F%B3"
     ],
-    "stub": true,
-    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。只收录页面写明的栏目，不把 Endgame Modes 拆成别的模式，也不编造抽卡结论。",
+    "tier": "Prydwen Anomaly DPS：Endgame Modes T1"
   },
-  "wiki_revised": "2026-07-31"
+  "wiki_revised": "2026-07-31",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-30",
+    "url": "https://www.prydwen.gg/zenless/characters/vivian",
+    "rows": [
+      {
+        "role": "Anomaly DPS",
+        "modes": [
+          {
+            "label": "Endgame Modes",
+            "grade": "T1"
+          }
+        ]
+      }
+    ]
+  }
 }

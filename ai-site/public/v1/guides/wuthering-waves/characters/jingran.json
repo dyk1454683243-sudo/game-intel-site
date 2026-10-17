@@ -50,7 +50,12 @@
     "Basic Attack",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：景燃 / 尤诺 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/jingran ，as_of 2026-10-05）",
+      "Prydwen · F2P Team 主位：景燃 / 蕾贝卡 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/jingran ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/jingran",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5405",

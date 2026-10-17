@@ -53,7 +53,12 @@
     "Basic Attack",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：漂泊者·湮灭 / 洛可可 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/rover-havoc ，as_of 2026-10-05）",
+      "Prydwen · Cantarella Alternative 主位：漂泊者·湮灭 / 坎特蕾拉 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/rover-havoc ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/624135.html",
     "https://www.gamekee.com/mc/624136.html",

@@ -60,7 +60,12 @@
     "Intro Skill",
     "Res. Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Lynae + Mornye 主位：爱弥斯 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/mornye ，as_of 2026-10-05）",
+      "Prydwen · Tune Strain Team 主位：清宵 / 达妮娅 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/mornye ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/mornye",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5424",

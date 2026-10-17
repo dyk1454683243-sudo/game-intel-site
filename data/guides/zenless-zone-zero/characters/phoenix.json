@@ -28,5 +28,14 @@
   "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp",
   "portrait_source": "https://www.prydwen.gg/zenless/characters/phoenix",
   "portrait_via": "prydwen-character:phoenix",
-  "wiki_revised": "2026-09-22"
+  "wiki_revised": "2026-09-22",
+  "summary": {
+    "position": "S / 火 / 异常 / 坎卜斯黑枝",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
+      "https://www.prydwen.gg/zenless/characters/phoenix"
+    ],
+    "stub": true,
+    "caveat": "2026-10-10 复核该角色 Prydwen 页，Ratings 没有写出 T 档。技能模板仍没有具体效果。不编造强度或技能。"
+  }
 }

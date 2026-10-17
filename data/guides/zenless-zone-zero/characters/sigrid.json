@@ -31,5 +31,30 @@
   "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp",
   "portrait_source": "https://www.prydwen.gg/zenless/characters/sigrid",
   "portrait_via": "prydwen-character:sigrid",
-  "wiki_revised": "2026-09-09"
+  "wiki_revised": "2026-09-09",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/zenless/characters/sigrid"
+    ],
+    "position": "S / 冰 / 强攻 / 罗斯凯利法·空域巡戍局",
+    "tier": "Prydwen Crit DPS：Endgame Modes T0",
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。只收录页面写明的栏目，不把 Endgame Modes 拆成别的模式，也不编造抽卡结论。"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-30",
+    "url": "https://www.prydwen.gg/zenless/characters/sigrid",
+    "rows": [
+      {
+        "role": "Crit DPS",
+        "modes": [
+          {
+            "label": "Endgame Modes",
+            "grade": "T0"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -60,7 +60,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：爱弥斯 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/lynae ，as_of 2026-10-05）",
+      "Prydwen · Alternative Liberation Teams 主位：绯雪 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/lynae ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/lynae",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3828",

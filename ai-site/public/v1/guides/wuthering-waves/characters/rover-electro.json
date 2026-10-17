@@ -60,11 +60,17 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：心 / 漂泊者·导电 / 穗穗（https://www.prydwen.gg/wuthering-waves/characters/rover-electro ，as_of 2026-10-05）",
+      "Prydwen · Best Team：心 / 漂泊者·导电 / 卜灵（https://www.prydwen.gg/wuthering-waves/characters/buling ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
-    "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5011",
+    "https://www.prydwen.gg/wuthering-waves/characters/buling"
   ],
   "stub": false,
   "as_of": "2026-10-05",
@@ -73,10 +79,24 @@
     "sources": [
       "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
       "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
-      "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5011",
+      "https://www.prydwen.gg/wuthering-waves/characters/buling"
     ],
-    "stub": true,
-    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
-    "position": "5★ / Electro / Sword"
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Electro / Sword",
+    "tier": "Prydwen Hybrid [S2]：Tower of Adversity T1 / Whimpering Wastes T1"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
+    "rows": [
+      {
+        "role": "Hybrid [S2]",
+        "tower": "T1",
+        "whimpering": "T1"
+      }
+    ]
   }
 }

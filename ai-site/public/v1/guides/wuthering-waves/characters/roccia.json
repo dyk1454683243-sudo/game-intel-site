@@ -60,7 +60,12 @@
     "Intro Skill",
     "Res. Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team：弗洛洛 / 坎特蕾拉 / 洛可可（https://www.prydwen.gg/wuthering-waves/characters/roccia ，as_of 2026-10-05）",
+      "Prydwen · Camellya Team 主位：椿 / 洛可可 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/roccia ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/642005.html",
     "https://www.prydwen.gg/wuthering-waves/characters/roccia"

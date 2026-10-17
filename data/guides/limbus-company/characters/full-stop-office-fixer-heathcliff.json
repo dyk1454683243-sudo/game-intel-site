@@ -78,12 +78,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Poise - Fullstops：Blade Lineage Mentor Meursault / Drifting Blade of Hongyuan Ryōshū / The House of Spiders: The Index Nursefather Yi Sang / The House of Spiders: The Pinky Apprentice Sinclair / Full-Stop Office Rep Hong Lu / Full-Stop Office Fixer Heathcliff / The Index Proxy - Effloresced E.G.O::Procuration Don Quixote / Blade Lineage Salsu Faust / The Pequod Captain Ishmael / Kurokumo Clan Wakashu Rodion / Blade Lineage Salsu Outis / LCB Sinner Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/full-stop-office-fixer-heathcliff",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585803.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -110,7 +115,8 @@
       "https://www.prydwen.gg/limbus-company/identities/full-stop-office-fixer-heathcliff",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585803.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
     "stub": false,

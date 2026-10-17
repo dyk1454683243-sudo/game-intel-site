@@ -60,10 +60,16 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1 - Best Team 主位：奥古斯塔 / 尤诺 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/augusta ，as_of 2026-10-05）",
+      "Prydwen · Alternative Heavy Attack Teams 主位：奥古斯塔 / 莫特斐 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/mortefi ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/674296.html",
-    "https://www.prydwen.gg/wuthering-waves/characters/augusta"
+    "https://www.prydwen.gg/wuthering-waves/characters/augusta",
+    "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
   ],
   "stub": false,
   "as_of": "2026-10-05",
@@ -77,7 +83,8 @@
     "tier": "Prydwen DPS [S0]：Tower of Adversity T1",
     "sources": [
       "https://www.prydwen.gg/wuthering-waves/characters/augusta",
-      "https://www.gamekee.com/mc/674296.html"
+      "https://www.gamekee.com/mc/674296.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
     ],
     "stub": false,
     "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",

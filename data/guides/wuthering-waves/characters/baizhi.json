@@ -50,10 +50,16 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "GameKee · 低配：忌炎 / 莫特斐 / 白芷（https://www.gamekee.com/mc/623202.html ，as_of 2024-11-12）",
+      "GameKee · 低配：渊武 / 吟霖 / 白芷（https://www.gamekee.com/mc/623202.html ，as_of 2024-11-12）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622951.html",
-    "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
+    "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
+    "https://www.gamekee.com/mc/623202.html"
   ],
   "stub": false,
   "as_of": "2026-10-05",
@@ -67,7 +73,8 @@
     "tier": "Prydwen Support [S6]：Tower of Adversity T3 / Whimpering Wastes T4",
     "sources": [
       "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
-      "https://www.gamekee.com/mc/622951.html"
+      "https://www.gamekee.com/mc/622951.html",
+      "https://www.gamekee.com/mc/623202.html"
     ],
     "stub": false,
     "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",

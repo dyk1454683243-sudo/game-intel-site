@@ -60,7 +60,12 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1: Best Team 主位：珂莱塔 / 琳奈 / 莫宁（https://www.prydwen.gg/wuthering-waves/characters/carlotta ，as_of 2026-10-08）",
+      "Prydwen · Team #2: F2P Team 主位：珂莱塔 / 桃祈 / 维里奈（https://www.prydwen.gg/wuthering-waves/characters/carlotta ，as_of 2026-10-08）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/641993.html",
     "https://www.prydwen.gg/wuthering-waves/characters/carlotta"

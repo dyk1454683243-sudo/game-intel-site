@@ -33,7 +33,12 @@
   "weapon": "/",
   "element": "铁甲",
   "manufacturer": "反常",
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bossing · Iron · Snow White + Miranda Variation：Miranda (Treasure) / 美里 / 白雪公主 / Helm (Treasure) / 朵拉（https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious ，as_of 2026-10-18）",
+      "Prydwen · Bossing · Electric · God of thunder：灰姑娘 / 露姬 / 阿妮斯：闪耀夏日 / 美里 / 梅登：冰玫瑰（https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious ，as_of 2026-10-18）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/nikke/characters/mari-makinami-illustrious",
     "https://www.gamekee.com/nikke/655996.html",

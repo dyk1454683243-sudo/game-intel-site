@@ -50,7 +50,12 @@
     "Basic Attack",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：珂莱塔 / 秧秧 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/yangyang ，as_of 2026-10-05）",
+      "Prydwen · Budget Expert Team 主位：相里要 / 秧秧 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/yangyang ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622979.html",
     "https://www.prydwen.gg/wuthering-waves/characters/yangyang"

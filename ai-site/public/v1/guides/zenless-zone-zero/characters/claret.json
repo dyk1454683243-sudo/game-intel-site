@@ -56,5 +56,30 @@
   "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/claret_card.webp",
   "portrait_source": "https://www.prydwen.gg/zenless/characters/claret",
   "portrait_via": "prydwen-character:claret",
-  "wiki_revised": "2026-10-07"
+  "wiki_revised": "2026-10-07",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/zenless/characters/claret"
+    ],
+    "position": "S / 电 / 锋御 / 罗斯凯利法·弗林特工坊",
+    "tier": "Prydwen Crit DPS：Endgame Modes T0",
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。只收录页面写明的栏目，不把 Endgame Modes 拆成别的模式，也不编造抽卡结论。"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-09-30",
+    "url": "https://www.prydwen.gg/zenless/characters/claret",
+    "rows": [
+      {
+        "role": "Crit DPS",
+        "modes": [
+          {
+            "label": "Endgame Modes",
+            "grade": "T0"
+          }
+        ]
+      }
+    ]
+  }
 }

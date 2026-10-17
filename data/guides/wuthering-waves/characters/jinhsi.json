@@ -56,7 +56,12 @@
   "skill_prio": [
     "共鸣回路>共鸣解放>变奏技能＞共鸣技能=常态攻击"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：今汐 / 心 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/jinhsi ，as_of 2026-10-05）",
+      "Prydwen · Quickswap Team 主位：今汐 / 布兰特 / 维里奈（https://www.prydwen.gg/wuthering-waves/characters/jinhsi ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/624686.html",
     "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"

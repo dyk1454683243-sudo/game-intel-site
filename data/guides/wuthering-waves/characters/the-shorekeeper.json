@@ -56,7 +56,12 @@
   "skill_prio": [
     "变奏技能>共鸣技能>共鸣解放＞共鸣回路＞常态攻击"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Carlotta Team：珂莱塔 / 折枝 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/the-shorekeeper ，as_of 2026-10-10）",
+      "Prydwen · Zani Team：赞妮 / 菲比 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/the-shorekeeper ，as_of 2026-10-10）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/632074.html",
     "https://www.prydwen.gg/wuthering-waves/characters/the-shorekeeper"

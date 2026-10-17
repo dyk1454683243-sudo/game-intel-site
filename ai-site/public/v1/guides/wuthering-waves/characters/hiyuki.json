@@ -50,7 +50,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：绯雪 / 洛瑟菈 / 穗穗（https://www.prydwen.gg/wuthering-waves/characters/hiyuki ，as_of 2026-10-05）",
+      "Prydwen · Alternative Teams 主位：绯雪 / 吟霖 / 穗穗（https://www.prydwen.gg/wuthering-waves/characters/hiyuki ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5420",

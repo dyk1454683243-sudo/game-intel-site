@@ -7,7 +7,7 @@
   "character_count": 62,
   "rich_count": 57,
   "stub_count": 5,
-  "conclusion_stub_count": 57,
+  "conclusion_stub_count": 0,
   "links": {
     "banners": "/v1/guides/zenless-zone-zero/banners.json",
     "codes": "/v1/guides/zenless-zone-zero/codes.json"

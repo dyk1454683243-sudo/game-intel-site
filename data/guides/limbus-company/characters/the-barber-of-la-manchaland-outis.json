@@ -65,12 +65,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Bleed：The Manager of La Manchaland Don Quixote / The Princess of La Manchaland Rodion / The Prince of La Manchaland Meursault / The Barber of La Manchaland Outis / Kurokumo Clan Captain Ishmael / Kurokumo Clan Wakashu Heathcliff / The Ring Pointillist Student Yi Sang / The One Who Grips Faust / Kurokumo Clan Wakashu Hong Lu / Blade Lineage Salsu Sinclair / The Priest of La Manchaland Gregor / Kurokumo Clan Wakashu Ryoshu（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/the-barber-of-la-manchaland-outis",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585565.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -97,7 +102,8 @@
       "https://www.prydwen.gg/limbus-company/identities/the-barber-of-la-manchaland-outis",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585565.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
     "stub": false,

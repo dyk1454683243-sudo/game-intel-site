@@ -50,7 +50,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team (DPS)：秋水 / 夏空 / 漂泊者·气动（https://www.prydwen.gg/wuthering-waves/characters/aalto ，as_of 2026-10-05）",
+      "Prydwen · Best Team (Hybrid) 主位：忌炎 / 秋水 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/aalto ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/623035.html",
     "https://www.prydwen.gg/wuthering-waves/characters/aalto"

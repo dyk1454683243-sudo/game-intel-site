@@ -60,7 +60,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #2: Alternative Teams 主位：卡提希娅 / 漂泊者·气动 / 千咲（https://www.prydwen.gg/wuthering-waves/characters/cartethyia ，as_of 2026-10-05）",
+      "Prydwen · Team #1 主位：卡提希娅 / 夏空 / 千咲（https://www.prydwen.gg/wuthering-waves/characters/cartethyia ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/667732.html",
     "https://www.prydwen.gg/wuthering-waves/characters/cartethyia"

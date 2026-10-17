@@ -60,7 +60,12 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1: Best Team 主位：赞妮 / 菲比 / 漂泊者·衍射（https://www.prydwen.gg/wuthering-waves/characters/zani ，as_of 2026-10-05）",
+      "Prydwen · Team #2: Premium Alternatives 主位：赞妮 / 夏空 / 漂泊者·衍射（https://www.prydwen.gg/wuthering-waves/characters/zani ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/657081.html",
     "https://www.prydwen.gg/wuthering-waves/characters/zani"

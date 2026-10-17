@@ -102,12 +102,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Sinking - Deluge：Effloresced E.G.O::Spicebush Yi Sang / Jeong's Office Rep Ishmael / Lobotomy E.G.O::The Sword Sharpened with Tears Rodion / Wild Hunt Heathcliff / LCA Udjat Vanguard Team 3 Leader Outis / Wuthering Heights Butler Faust / W Corp. L3 Cleanup Agent Don Quixote / District 20 Yurodivy Ryoshu / LCB Sinner Meursault / LCB Sinner Hong Lu / Los Mariachis Jefe Sinclair / LCB Sinner Gregor（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）",
+      "Prydwen · Sinking - Butterfly：Lobotomy E.G.O::Solemn Lament Yi Sang / Jeong's Office Rep Ishmael / Lobotomy E.G.O::The Sword Sharpened with Tears Rodion / Wild Hunt Heathcliff / LCA Udjat Vanguard Team 3 Leader Outis / Lobotomy E.G.O::Lamp Gregor / The Index Proxy - Effloresced E.G.O::Procuration Don Quixote / Wuthering Heights Butler Faust / LCB Sinner Meursault / LCB Sinner Hong Lu / Los Mariachis Jefe Sinclair / Edgar Family Chief Butler Ryoshu（https://www.prydwen.gg/limbus-company/team-database/ ，as_of 2026-05-22）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585809.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://www.prydwen.gg/limbus-company/team-database/"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -133,7 +139,8 @@
       "https://www.prydwen.gg/limbus-company/identities/lobotomy-e-g-o-the-sword-sharpened-with-tears-rodion",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585809.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://www.prydwen.gg/limbus-company/team-database/"
     ],
     "tier": "Prydwen 角色页 Endgame SS；梯度表 Status Specialist SS",
     "stub": false,

@@ -50,7 +50,12 @@
     "Intro Skill",
     "Res. Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Team #1: Best Team：西格莉卡 / 仇远 / 夏空（https://www.prydwen.gg/wuthering-waves/characters/ciaccona ，as_of 2026-10-10）",
+      "Prydwen · Team #3: Jiyan Iuno Dual DPS：忌炎 / 尤诺 / 夏空（https://www.prydwen.gg/wuthering-waves/characters/ciaccona ，as_of 2026-10-10）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/657085.html",
     "https://www.prydwen.gg/wuthering-waves/characters/ciaccona"

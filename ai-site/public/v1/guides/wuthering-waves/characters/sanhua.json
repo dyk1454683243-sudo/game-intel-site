@@ -50,7 +50,12 @@
     "Intro Skill",
     "Basic Attack"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：椿 / 散华 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/sanhua ，as_of 2026-10-05）",
+      "Prydwen · Budget Havoc Rover Team 主位：漂泊者·湮灭 / 散华 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/sanhua ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622934.html",
     "https://www.prydwen.gg/wuthering-waves/characters/sanhua"

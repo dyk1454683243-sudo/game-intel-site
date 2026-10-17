@@ -50,7 +50,12 @@
     "Res. Skill",
     "Intro Skill"
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Prydwen · Best Team 主位：炽霞 / 布兰特 / 露帕（https://www.prydwen.gg/wuthering-waves/characters/chixia ，as_of 2026-10-05）",
+      "Prydwen · Brant Dual DPS Team 主位：布兰特 / 炽霞 / 守岸人（https://www.prydwen.gg/wuthering-waves/characters/chixia ，as_of 2026-10-05）"
+    ]
+  },
   "sources": [
     "https://www.gamekee.com/mc/622939.html",
     "https://www.prydwen.gg/wuthering-waves/characters/chixia"
