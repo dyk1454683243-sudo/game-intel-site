@@ -1,0 +1,157 @@
+{
+  "id": "alesh",
+  "name": "阿列什",
+  "name_zh": "阿列什",
+  "name_en": "Alesh",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "先锋",
+  "rarity": "5星",
+  "element": "寒冷",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "基本挥竿法",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成物理伤害。作为主控干员时，重击会造成17点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "非常规路亚",
+      "type": "battle",
+      "summary": "勾起冰块砸击面前的敌人，对目标造成物理伤害。命中处于寒冷附着状态的目标时，消耗掉目标身上所有寒冷附着，对其强制施加冻结，并基于消耗层数恢复技力，命中多名目标时仅恢复1次。"
+    },
+    {
+      "name": "凿孔底钓术",
+      "type": "combo",
+      "summary": "当附近目标的法术异常或源石结晶被消耗时可以发动。\n在敌人脚下开洞垂钓，造成物理伤害，并恢复一定技力，有一定概率能钓出珍鳞，大幅增加伤害并额外恢复技力。"
+    },
+    {
+      "name": "大鳞，上钩！",
+      "type": "ultimate",
+      "summary": "钓起超乎想象的大鳞砸击面前的所有敌人，造成大范围的寒冷伤害，施加寒冷附着并恢复一定技力，每击败一个目标将额外恢复一定技力。"
+    },
+    {
+      "name": "闪冻锁鲜",
+      "type": "talent",
+      "summary": "1阶描述：附近有敌人被冻结或被附着源石结晶后，自身获得3点终结技能量.自身造成冻结触发上述效果时，额外获得6点终结技能量。该效果每3秒内最多触发一次。\n2阶描述：附近有敌人被冻结或被附着源石结晶后，自身获得4点终结技能量。自身造成冻结触发上述效果时，额外获得8点终结技能量。该效果每3秒内最多触发一次。"
+    },
+    {
+      "name": "钓鳞老手",
+      "type": "talent",
+      "summary": "1阶描述：每10点智识会使连携技凿孔底钓术钓起珍鳞的概率+0.2%，最多+30%。\n2阶描述：每10点智识会使连携技凿孔底钓术钓起珍鳞的概率+0.5%，最多+30%。"
+    },
+    {
+      "name": "悠闲垂钓·α",
+      "type": "base",
+      "summary": "1阶描述：进驻总控中枢时，所有干员心情恢复提升8%"
+    },
+    {
+      "name": "悠闲垂钓·β",
+      "type": "base",
+      "summary": "2阶描述：进驻总控中枢时，所有干员心情恢复提升12%"
+    },
+    {
+      "name": "钓友情报网·α",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，干员收集到线索1——联盟工团的概率小幅提升（进驻即生效，同类不可叠加）"
+    },
+    {
+      "name": "钓友情报网·β",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，干员收集到线索1——联盟工团的概率提升（进驻即生效，同类不可叠加）"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "力量",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "20",
+        "90": "152"
+      },
+      "敏捷": {
+        "1": "9",
+        "90": "92"
+      },
+      "智识": {
+        "1": "14",
+        "90": "121"
+      },
+      "意志": {
+        "1": "11",
+        "90": "86"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "296"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/691025.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Gilberta · Team #1：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/gilberta ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #2：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Yvonne · Team #3：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Xaihi · Team #1：伊冯 / 赛希 / 阿列什 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/xaihi ，as_of 2026-06-14）",
+      "Prydwen · Alesh · Team #1：管理员 / 埃特拉 / 阿列什 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/alesh ，as_of 2026-06-14）",
+      "Prydwen · Alesh · Team #2：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/alesh ，as_of 2026-06-14）",
+      "Prydwen · Mi Fu · Team #5：弭弗 / 陈千语 / 埃特拉 / 阿列什（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Estella · Team #1：管理员 / 埃特拉 / 阿列什 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/estella ，as_of 2026-06-14）",
+      "Prydwen · Estella · Team #2：伊冯 / 赛希 / 阿列什 / 埃特拉（https://www.prydwen.gg/arknights-endfield/characters/estella ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/691025.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+    "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+    "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+    "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+    "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+    "https://www.prydwen.gg/arknights-endfield/characters/estella"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "alesh"
+  ],
+  "prydwen_slug": "alesh",
+  "gamekee_content_id": 691025,
+  "gamekee_entry_id": 202710,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/272991.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202710",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+    "umbral_monument": "T1",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T1",
+    "position": "5星 / 先锋 / 寒冷 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+      "https://www.gamekee.com/zmd/691025.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+      "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+      "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+      "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+      "https://www.prydwen.gg/arknights-endfield/characters/estella"
+    ]
+  },
+  "verified": "GameKee zmd/691025；官网干员列表；Prydwen /characters/alesh"
+}

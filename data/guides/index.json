@@ -4,6 +4,15 @@
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
     {
+      "id": "arknights-endfield",
+      "name": "Arknights: Endfield",
+      "name_zh": "明日方舟：终末地",
+      "character_count": 34,
+      "rich_count": 33,
+      "stub_count": 1,
+      "path": "guides/arknights-endfield"
+    },
+    {
       "id": "asora",
       "name": "Astrae Oratio",
       "name_zh": "阿索拉：星之祈愿",

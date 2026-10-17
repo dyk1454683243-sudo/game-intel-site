@@ -1,0 +1,161 @@
+{
+  "id": "endministrator",
+  "name": "管理员",
+  "name_zh": "管理员",
+  "name_en": "Endministrator",
+  "aliases": [
+    "管理員"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "近卫",
+  "rarity": "6星",
+  "element": "物理",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "毁伤序列",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成物理伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "构成序列",
+      "type": "battle",
+      "summary": "使用源石技艺冲击前方一定范围内的敌人，造成物理伤害和猛击。"
+    },
+    {
+      "name": "锁闭序列",
+      "type": "combo",
+      "summary": "当小队内其他干员的连携技造成伤害时可以发动。\n冲到敌人身边，对其造成物理伤害，并附着源石结晶，在一段时间内将其封印。施加物理异常和破防会消耗源石结晶并额外造成物理伤害。"
+    },
+    {
+      "name": "轰击序列",
+      "type": "ultimate",
+      "summary": "使用源石技艺轰击地面，对前方扇形范围内的敌人造成大量物理伤害。如果敌人身上附着源石结晶，则消耗源石结晶并额外造成一次物理伤害。"
+    },
+    {
+      "name": "本质瓦解",
+      "type": "talent",
+      "summary": "1阶描述：当敌人附着的源石结晶被消耗后，自身攻击力+15%，持续15秒，该效果无法叠加。\n2阶描述：当敌人附着的源石结晶被消耗后，自身攻击力+30%，持续15秒，该效果无法叠加。"
+    },
+    {
+      "name": "现实静滞",
+      "type": "talent",
+      "summary": "1阶描述：附着源石结晶的敌人受到的物理伤害+10%。\n2阶描述：附着源石结晶的敌人受到的物理伤害+20%。"
+    },
+    {
+      "name": "图标",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，舱室内干员心情消耗降低10%。"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "敏捷",
+    "secondary": "力量",
+    "stats": {
+      "力量": {
+        "1": "15",
+        "90": "119"
+      },
+      "敏捷": {
+        "1": "14",
+        "90": "135"
+      },
+      "智识": {
+        "1": "10",
+        "90": "93"
+      },
+      "意志": {
+        "1": "11",
+        "90": "103"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "306"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/691003.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Rossi · Team #1：洛茜 / 狼卫 / 管理员 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Rossi · Team #2：洛茜 / 狼卫 / 管理员 / 佩丽卡（https://www.prydwen.gg/arknights-endfield/characters/rossi ，as_of 2026-06-14）",
+      "Prydwen · Pogranichnik · Team #3：骏卫 / 黎风 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/pogranichnik ，as_of 2026-06-14）",
+      "Prydwen · Chen Qianyu · Team #1：管理员 / 骏卫 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu ，as_of 2026-06-14）",
+      "Prydwen · Chen Qianyu · Team #4：骏卫 / 黎风 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu ，as_of 2026-06-14）",
+      "Prydwen · Ardelia · Team #1：黎风 / 管理员 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/ardelia ，as_of 2026-06-14）",
+      "Prydwen · Lifeng · Team #1：管理员 / 黎风 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/lifeng ，as_of 2026-06-14）",
+      "Prydwen · Lifeng · Team #4：黎风 / 骏卫 / 陈千语 / 管理员（https://www.prydwen.gg/arknights-endfield/characters/lifeng ，as_of 2026-06-14）",
+      "Prydwen · Da Pan · Team #3：大潘 / 管理员 / 陈千语 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/da-pan ，as_of 2026-06-14）",
+      "Prydwen · Alesh · Team #1：管理员 / 埃特拉 / 阿列什 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/alesh ，as_of 2026-06-14）",
+      "Prydwen · Ember · Team #1：管理员 / 黎风 / 陈千语 / 余烬（https://www.prydwen.gg/arknights-endfield/characters/ember ，as_of 2026-06-14）",
+      "Prydwen · Ember · Team #3：管理员 / 骏卫 / 陈千语 / 余烬（https://www.prydwen.gg/arknights-endfield/characters/ember ，as_of 2026-06-14）",
+      "Prydwen · Catcher · Team #1：管理员 / 黎风 / 陈千语 / 卡契尔（https://www.prydwen.gg/arknights-endfield/characters/catcher ，as_of 2026-06-14）",
+      "Prydwen · Estella · Team #1：管理员 / 埃特拉 / 阿列什 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/estella ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/691003.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/endministrator",
+    "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+    "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+    "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+    "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+    "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+    "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+    "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+    "https://www.prydwen.gg/arknights-endfield/characters/ember",
+    "https://www.prydwen.gg/arknights-endfield/characters/catcher",
+    "https://www.prydwen.gg/arknights-endfield/characters/estella"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "endministrator2",
+    "endministrator1"
+  ],
+  "prydwen_slug": "endministrator",
+  "gamekee_content_id": 691003,
+  "gamekee_entry_id": 202701,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/301464.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202701",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-07-15",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/endministrator",
+    "umbral_monument": "T1",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T1",
+    "position": "6星 / 近卫 / 物理 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-07-15。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/endministrator",
+      "https://www.gamekee.com/zmd/691003.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/rossi",
+      "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+      "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+      "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+      "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+      "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+      "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+      "https://www.prydwen.gg/arknights-endfield/characters/ember",
+      "https://www.prydwen.gg/arknights-endfield/characters/catcher",
+      "https://www.prydwen.gg/arknights-endfield/characters/estella"
+    ]
+  },
+  "note": "官网干员列表有 endministrator1 与 endministrator2 两张立绘，职业、属性、星级相同，收成一张干员卡。",
+  "verified": "GameKee zmd/691003；官网干员列表；Prydwen /characters/endministrator"
+}

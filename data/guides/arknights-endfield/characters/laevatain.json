@@ -1,0 +1,152 @@
+{
+  "id": "laevatain",
+  "name": "莱万汀",
+  "name_zh": "莱万汀",
+  "name_en": "Laevatain",
+  "aliases": [
+    "萊萬汀"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "突击",
+  "rarity": "6星",
+  "element": "灼热",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "燃烬",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成灼热伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成灼热伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量灼热伤害并恢复一定技力。"
+    },
+    {
+      "name": "焚灭",
+      "type": "battle",
+      "summary": "召唤熔核碎片持续攻击前方敌人，造成灼热伤害。如果命中敌人，会获得1层熔火。\n如果施放时已拥有4层熔火，则最后会消耗所有层数，对大范围内敌人追加1次攻击，造成灼热伤害并强制施加短暂的燃烧。追加攻击命中敌人会额外获得终结技能量。\n终结技期间，战技效果增强。"
+    },
+    {
+      "name": "沸腾",
+      "type": "combo",
+      "summary": "当有敌人进入燃烧或腐蚀状态时可以发动。\n让所有处于燃烧或腐蚀状态的敌人脚下喷出火焰，对其造成灼热伤害。\n如果命中敌人，会获得1层熔火。\n每命中1个敌人，还会额外获得终结技能量。"
+    },
+    {
+      "name": "黄昏",
+      "type": "ultimate",
+      "summary": "召唤烈焰魔剑并切换为主控角色。\n一段时间内，普通攻击得到强化，烈焰魔剑会协同莱万汀发动攻击，每次攻击造成灼热伤害。\n此外，普通攻击第3段会施加灼热附着。"
+    },
+    {
+      "name": "灼心",
+      "type": "talent",
+      "summary": "1阶描述：主控干员重击或处决命中后，莱万汀会吸收周围敌人的灼热附着。\n每吸收一层灼热附着，自身获得一层熔火，最多叠加4层。\n达到4层后，莱万汀造成的伤害无视敌人10点灼热抗性，持续20秒。\n附近敌人被击败时，身上的灼热附着也会被吸收。\n2阶描述：主控干员重击或处决命中后，莱万汀会吸收周围敌人的灼热附着。\n每吸收一层灼热附着，自身获得一层熔火，最多叠加4层。\n达到4层后，莱万汀造成的伤害无视敌人15点灼热抗性，持续20秒。\n附近敌人被击败时，身上的灼热附着也会被吸收。"
+    },
+    {
+      "name": "复燃",
+      "type": "talent",
+      "summary": "1阶描述：当生命值低于40%时，获得90%庇护，并每秒回复5%最大生命值，持续4秒。该效果每120秒最多触发一次。\n2阶描述：当生命值低于40%时，获得90%庇护，并每秒回复5%最大生命值，持续8秒。该效果每120秒最多触发一次。"
+    },
+    {
+      "name": "记忆熔炉·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，干员经验素材的生产效率提升20%"
+    },
+    {
+      "name": "记忆熔炉·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，干员经验素材的生产效率提升30%"
+    },
+    {
+      "name": "不熄炎火·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "不熄炎火·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，舱室内干员心情消耗降低18%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "智识",
+    "secondary": "力量",
+    "stats": {
+      "力量": {
+        "1": "14",
+        "90": "121"
+      },
+      "敏捷": {
+        "1": "10",
+        "90": "96"
+      },
+      "智识": {
+        "1": "22",
+        "90": "177"
+      },
+      "意志": {
+        "1": "9",
+        "90": "86"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "318"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/690817.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Laevatain · Team #1：莱万汀 / 狼卫 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Laevatain · Team #2：莱万汀 / 秋栗 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Laevatain · Team #3：莱万汀 / 狼卫 / 秋栗 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/laevatain ，as_of 2026-06-26）",
+      "Prydwen · Antal · Team #1：莱万汀 / 安塔尔 / 狼卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/antal ，as_of 2026-06-14）",
+      "Prydwen · Wulfgard · Team #1：莱万汀 / 安塔尔 / 狼卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/wulfgard ，as_of 2026-08-14）",
+      "Prydwen · Akekuri · Team #1：莱万汀 / 秋栗 / 安塔尔 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/akekuri ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/690817.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+    "https://www.prydwen.gg/arknights-endfield/characters/antal",
+    "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+    "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "laevatain"
+  ],
+  "prydwen_slug": "laevatain",
+  "gamekee_content_id": 690817,
+  "gamekee_entry_id": 202706,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/647159.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202706",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-26",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+    "umbral_monument": "T0.5",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0.5",
+    "position": "6星 / 突击 / 灼热 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-26。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+      "https://www.gamekee.com/zmd/690817.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/antal",
+      "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+      "https://www.prydwen.gg/arknights-endfield/characters/akekuri"
+    ]
+  },
+  "verified": "GameKee zmd/690817；官网干员列表；Prydwen /characters/laevatain"
+}

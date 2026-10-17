@@ -1,0 +1,101 @@
+{
+  "game": "arknights-endfield",
+  "as_of": "2026-10-17",
+  "checked": "2026-10-17",
+  "timezone_note": "GameKee 过期单元格和 BWIKI 兑换时间都没有时区。BWIKI 的 1/22–1/29 没有年份。不把两页拼成同一个码的有效期。",
+  "sources": [
+    "https://www.gamekee.com/zmd/691172.html",
+    "https://wiki.biligame.com/zmd/%E5%85%91%E6%8D%A2%E7%A0%81"
+  ],
+  "note": "GameKee 页标题写「可用的兑换码」，表内单元格写「已过期」。BWIKI 另有一串码，其中 RETURENOFALL 与 GameKee 的 RETURNOFALL 差一个字母，两边都按原文保留。本文件没有在游戏内兑换。",
+  "codes": [
+    {
+      "code": "ENDFIELD4PC",
+      "rewards": "1.3万折金票、2高级作战记录、2武器检查套组",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "ENDFIELDGIFT",
+      "rewards": "150嵌晶玉、1万折金票、20中级作战记录、20武器检查单元",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "ALLFIELD",
+      "rewards": "嵌晶玉1500、折金票6000、初级作战记录30、武器检查单元30、协议棱柱5、协议圆盘5、存续的痕迹1",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "RETURNOFALL",
+      "rewards": "嵌晶玉500、折金票6000、初级作战记录30、武器检查单元30、协议棱柱5、协议圆盘5",
+      "expires": null,
+      "expires_text": null,
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "TAPTAP0122",
+      "rewards": "taptap头像框、5中级作战记录、10初级作战记录、5协议棱柱、10武器单元",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "DOUYIN0122",
+      "rewards": "抖音头像框、5中级作战记录、10初级作战记录、5协议棱柱、10武器单元",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "BILIBILI0122",
+      "rewards": "bilibili头像框、5中级作战记录、10初级作战记录、5协议棱柱、10武器单元",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "expired",
+      "note": "GameKee 表格「是否过期」单元格写「已过期」。该页 updated_at 的 UTC 日期是 2026-01-30。 BWIKI 同一码写兑换时间「1/22 公测开启后 ~ 1/29 23:59」，没有年份和时区。",
+      "source": "https://www.gamekee.com/zmd/691172.html",
+      "checked": "2026-10-17"
+    },
+    {
+      "code": "RETURENOFALL",
+      "rewards": "嵌金玉*500 折金票*6000 初级作战记录*30 武器检查单元*30 协议棱柱*5 协议圆盘*5",
+      "expires": null,
+      "expires_text": "1/22 公测开启后 ~ 1/29 23:59",
+      "timezone": null,
+      "status": "window_stated_without_year",
+      "note": "BWIKI 原文。GameKee 表里没有这串字符。 兑换时间没有写年份和时区，不换算成绝对时间。",
+      "source": "https://wiki.biligame.com/zmd/%E5%85%91%E6%8D%A2%E7%A0%81",
+      "checked": "2026-10-17"
+    }
+  ]
+}

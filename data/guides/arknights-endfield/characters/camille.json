@@ -1,0 +1,142 @@
+{
+  "id": "camille",
+  "name": "卡缪",
+  "name_zh": "卡缪",
+  "name_en": "Camille",
+  "aliases": [
+    "卡繆"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "先锋",
+  "rarity": "6星",
+  "element": "灼热",
+  "weapon": "长柄武器",
+  "skills": [
+    {
+      "name": "歃血涤罪",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成灼热伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成灼热伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量灼热伤害并恢复一定技力。"
+    },
+    {
+      "name": "驱火焚影",
+      "type": "battle",
+      "summary": "召唤衔火血翼飞向敌人，对小范围敌人造成灼热伤害并施加灼热附着。随后衔火血翼将在目标周围盘桓一段时间，期间对目标施加#虚弱#和灼热脆弱。目标被击败时，衔火血翼会飞向附近的另一个敌人，对目标造成灼热伤害，施加灼热附着、#虚弱#和灼热脆弱。 衔火血翼盘桓的敌人被卡缪的连携技命中时，将在短暂延迟后发生一次爆裂，受到额外的灼热伤害。"
+    },
+    {
+      "name": "锥心之棘",
+      "type": "combo",
+      "summary": "当有敌人的灼热附着被消耗或吸收后可以发动。 来回穿梭，造成灼热伤害并恢复一定技力。"
+    },
+    {
+      "name": "猩红坠雨",
+      "type": "ultimate",
+      "summary": "卡缪飞向空中，落下枪雨并衔接横扫攻击，对命中的目标造成灼热伤害并施加灼热附着，同时恢复一定技力。 施放后一段时间内下一次战技会被替换为#追猎#，追猎视为连携技，不消耗技力。"
+    },
+    {
+      "name": "追罪之人",
+      "type": "talent",
+      "summary": "1阶描述：连携技锥心之棘效果加强：当命中衔火血翼盘桓的敌人时，回复自身[30+智识×0.15]点生命值并获得连击，持续15秒，施放追猎时目标无需被盘桓，即可触发上述效果。\n2阶描述：连携技锥心之棘效果加强：当命中衔火血翼盘桓的敌人时，回复自身[60(+30.00)+智识×0.3(+0.15)]点生命值并获得连击，持续15秒，施放追猎时目标无需被盘桓，即可触发上述效果。"
+    },
+    {
+      "name": "血涌苏生",
+      "type": "talent",
+      "summary": "1阶描述：每当通过技能回复自身生命值时，获得灼热伤害+2%，持续40秒，小队内其他干员获得该效果的25%。该效果最多叠加5层。如果自身生命值已满，每次触发可获得2**层效果。\n2阶描述：每当通过技能回复自身生命值时，获得灼热伤害+4%(+2.00%)，持续40秒，小队内其他干员获得该效果的25%。该效果最多叠加5层。 如果自身生命值已满，每次触发可获得2**层效果。"
+    },
+    {
+      "name": "血晶层析·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，晶植质料的培养速度提升20%"
+    },
+    {
+      "name": "血晶层析·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，晶植质料的培养速度提升30%"
+    },
+    {
+      "name": "看护人手册·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，武器经验素材的生产效率提升10%。"
+    },
+    {
+      "name": "看护人手册·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，武器经验素材的生产效率提升20%。"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "敏捷",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "13",
+        "90": "102"
+      },
+      "敏捷": {
+        "1": "17",
+        "90": "160"
+      },
+      "智识": {
+        "1": "14",
+        "90": "129"
+      },
+      "意志": {
+        "1": "11",
+        "90": "92"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5494"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "315"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/706132.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Camille · Team #2：卡缪 / 弭弗 / 洛茜 / 骏卫（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）",
+      "Prydwen · Camille · Team #3：卡缪 / 洛茜 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/706132.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/camille"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "camille"
+  ],
+  "prydwen_slug": "camille",
+  "gamekee_content_id": 706132,
+  "gamekee_entry_id": 216690,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466053239_1779465953422_0qh2u88kcm_e7qw7u3z3u.jpg",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:216690",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-08-16",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/camille",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 先锋 / 灼热 / 长柄武器",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-08-16。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/camille",
+      "https://www.gamekee.com/zmd/706132.html"
+    ]
+  },
+  "verified": "GameKee zmd/706132；官网干员列表；Prydwen /characters/camille"
+}

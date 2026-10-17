@@ -1,0 +1,146 @@
+{
+  "id": "mi-fu",
+  "name": "弭弗",
+  "name_zh": "弭弗",
+  "name_en": "Mi Fu",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "近卫",
+  "rarity": "6星",
+  "element": "物理",
+  "weapon": "双手剑",
+  "skills": [
+    {
+      "name": "剑行拳意",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多4段攻击，造成物理伤害。作为主控干员时，重击会造成25点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成物理伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量物理伤害并恢复一定技力。"
+    },
+    {
+      "name": "清波三艺",
+      "type": "battle",
+      "summary": "连续施放可最多施放3段不同招式，初始战技为断云。\n断云：消耗100技力，施放后返还50技力。从拳套中发射出拘束索，对目标及其附近敌人造成物理伤害并尝试将其拉取至自身附近。施放后战技在一段时间内替换为追形。\n追形：消耗50技力。朝前方连续挥拳造成物理伤害，最后一拳额外造成猛击。如果本次猛击消耗的最大破防层数不少于3层，战技在一段时间内替换为开天。\n开天：消耗50技力，朝前方范围造成大量物理伤害。本次伤害类型不属于战技伤害，而是视为猛击伤害。"
+    },
+    {
+      "name": "拳出无悔",
+      "type": "combo",
+      "summary": "当有敌人达到3层及以上破防时可以发动。\n使用上勾拳痛击前方的敌人，对其造成物理伤害，同时施加一定时间的物理脆弱。施放后战技在一段时间内替换为追形。"
+    },
+    {
+      "name": "绝心",
+      "type": "ultimate",
+      "summary": "短暂蓄力后朝前方冲刺，对身前目标强制造成击飞，随后将其砸向地面造成物理伤害。施放后战技在一段时间内替换为追形。"
+    },
+    {
+      "name": "冷面无情",
+      "type": "talent",
+      "summary": "1阶描述：战技开天命中时，若目标处于物理脆弱或失衡状态，伤害倍率提升至原本的1.1倍。\n2阶描述：战技开天命中时，若目标处于物理脆弱或失衡状态，伤害倍率提升至原本的1.2倍。"
+    },
+    {
+      "name": "怒意留心",
+      "type": "talent",
+      "summary": "1阶描述：施放连携技后获得15%最大生命值的护盾，持续期间更难被打断，持续10秒。\n该效果每60秒最多触发一次。\n2阶描述：放连携技后获得30%最大生命值的护盾，持续期间更难被打断，持续10秒。\n该效果每60秒最多触发一次。"
+    },
+    {
+      "name": "暗桩眼线·α",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，干员收集到线索3——宏山科学院的概率小幅提升（进驻即生效，同类不可叠加）"
+    },
+    {
+      "name": "暗桩眼线·β",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，干员收集到线索3——宏山科学院的概率提升（进驻即生效，同类不可叠加）"
+    },
+    {
+      "name": "草药偏方·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，菌类质料的培养速度提升20%"
+    },
+    {
+      "name": "草药偏方·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，菌类质料的培养速度提升30%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "力量",
+    "secondary": "意志",
+    "stats": {
+      "力量": {
+        "1": "32",
+        "90": "173"
+      },
+      "敏捷": {
+        "1": "10",
+        "90": "92"
+      },
+      "智识": {
+        "1": "9",
+        "90": "90"
+      },
+      "意志": {
+        "1": "14",
+        "90": "119"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5495"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "315"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/706131.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Camille · Team #2：卡缪 / 弭弗 / 洛茜 / 骏卫（https://www.prydwen.gg/arknights-endfield/characters/camille ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #1：弭弗 / 陈千语 / 骏卫 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #2：弭弗 / 洛茜 / 骏卫 / 秋栗（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #3：弭弗 / 陈千语 / 骏卫 / 黎风（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #4：弭弗 / 洛茜 / 佩丽卡 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）",
+      "Prydwen · Mi Fu · Team #5：弭弗 / 陈千语 / 埃特拉 / 阿列什（https://www.prydwen.gg/arknights-endfield/characters/mi-fu ，as_of 2026-08-16）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/706131.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+    "https://www.prydwen.gg/arknights-endfield/characters/camille"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "mifu"
+  ],
+  "prydwen_slug": "mi-fu",
+  "gamekee_content_id": 706131,
+  "gamekee_entry_id": 216691,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50248/images/w_300/h_418/50248/103682/2026/4/23/1779466055604_1779465855633_2u0jh77olr_5sb8vddgms.jpg",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:216691",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-08-16",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 近卫 / 物理 / 双手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-08-16。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/mi-fu",
+      "https://www.gamekee.com/zmd/706131.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/camille"
+    ]
+  },
+  "verified": "GameKee zmd/706131；官网干员列表；Prydwen /characters/mi-fu"
+}

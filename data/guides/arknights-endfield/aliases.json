@@ -1,0 +1,644 @@
+{
+  "_meta": {
+    "game": "arknights-endfield",
+    "as_of": "2026-10-17",
+    "note": "官网中英名、繁中名（与简体不同时）和 BWIKI 重定向。不编外号。"
+  },
+  "aliases": {
+    "si": {
+      "id": "si",
+      "name": "祀",
+      "kind": "character"
+    },
+    "祀": {
+      "id": "si",
+      "name": "祀",
+      "kind": "character"
+    },
+    "Si": {
+      "id": "si",
+      "name": "祀",
+      "kind": "character"
+    },
+    "argent-flow": {
+      "id": "argent-flow",
+      "name": "明河",
+      "kind": "character"
+    },
+    "明河": {
+      "id": "argent-flow",
+      "name": "明河",
+      "kind": "character"
+    },
+    "Argent Flow": {
+      "id": "argent-flow",
+      "name": "明河",
+      "kind": "character"
+    },
+    "endministrator": {
+      "id": "endministrator",
+      "name": "管理员",
+      "kind": "character"
+    },
+    "管理员": {
+      "id": "endministrator",
+      "name": "管理员",
+      "kind": "character"
+    },
+    "Endministrator": {
+      "id": "endministrator",
+      "name": "管理员",
+      "kind": "character"
+    },
+    "管理員": {
+      "id": "endministrator",
+      "name": "管理员",
+      "kind": "character"
+    },
+    "perlica": {
+      "id": "perlica",
+      "name": "佩丽卡",
+      "kind": "character"
+    },
+    "佩丽卡": {
+      "id": "perlica",
+      "name": "佩丽卡",
+      "kind": "character"
+    },
+    "Perlica": {
+      "id": "perlica",
+      "name": "佩丽卡",
+      "kind": "character"
+    },
+    "佩麗卡": {
+      "id": "perlica",
+      "name": "佩丽卡",
+      "kind": "character"
+    },
+    "chen-qianyu": {
+      "id": "chen-qianyu",
+      "name": "陈千语",
+      "kind": "character"
+    },
+    "陈千语": {
+      "id": "chen-qianyu",
+      "name": "陈千语",
+      "kind": "character"
+    },
+    "Chen Qianyu": {
+      "id": "chen-qianyu",
+      "name": "陈千语",
+      "kind": "character"
+    },
+    "陳千語": {
+      "id": "chen-qianyu",
+      "name": "陈千语",
+      "kind": "character"
+    },
+    "typhoeus": {
+      "id": "typhoeus",
+      "name": "提弗洛斯",
+      "kind": "character"
+    },
+    "提弗洛斯": {
+      "id": "typhoeus",
+      "name": "提弗洛斯",
+      "kind": "character"
+    },
+    "Typhoeus": {
+      "id": "typhoeus",
+      "name": "提弗洛斯",
+      "kind": "character"
+    },
+    "purrchena": {
+      "id": "purrchena",
+      "name": "噗切娜",
+      "kind": "character"
+    },
+    "噗切娜": {
+      "id": "purrchena",
+      "name": "噗切娜",
+      "kind": "character"
+    },
+    "Purrchena": {
+      "id": "purrchena",
+      "name": "噗切娜",
+      "kind": "character"
+    },
+    "arcane": {
+      "id": "arcane",
+      "name": "诀",
+      "kind": "character"
+    },
+    "诀": {
+      "id": "arcane",
+      "name": "诀",
+      "kind": "character"
+    },
+    "Arcane": {
+      "id": "arcane",
+      "name": "诀",
+      "kind": "character"
+    },
+    "訣": {
+      "id": "arcane",
+      "name": "诀",
+      "kind": "character"
+    },
+    "李织烟": {
+      "id": "arcane",
+      "name": "诀",
+      "kind": "character"
+    },
+    "liino": {
+      "id": "liino",
+      "name": "梨诺",
+      "kind": "character"
+    },
+    "梨诺": {
+      "id": "liino",
+      "name": "梨诺",
+      "kind": "character"
+    },
+    "Liino": {
+      "id": "liino",
+      "name": "梨诺",
+      "kind": "character"
+    },
+    "梨諾": {
+      "id": "liino",
+      "name": "梨诺",
+      "kind": "character"
+    },
+    "mi-fu": {
+      "id": "mi-fu",
+      "name": "弭弗",
+      "kind": "character"
+    },
+    "弭弗": {
+      "id": "mi-fu",
+      "name": "弭弗",
+      "kind": "character"
+    },
+    "Mi Fu": {
+      "id": "mi-fu",
+      "name": "弭弗",
+      "kind": "character"
+    },
+    "camille": {
+      "id": "camille",
+      "name": "卡缪",
+      "kind": "character"
+    },
+    "卡缪": {
+      "id": "camille",
+      "name": "卡缪",
+      "kind": "character"
+    },
+    "Camille": {
+      "id": "camille",
+      "name": "卡缪",
+      "kind": "character"
+    },
+    "卡繆": {
+      "id": "camille",
+      "name": "卡缪",
+      "kind": "character"
+    },
+    "zhuang-fangyi": {
+      "id": "zhuang-fangyi",
+      "name": "庄方宜",
+      "kind": "character"
+    },
+    "庄方宜": {
+      "id": "zhuang-fangyi",
+      "name": "庄方宜",
+      "kind": "character"
+    },
+    "Zhuang Fangyi": {
+      "id": "zhuang-fangyi",
+      "name": "庄方宜",
+      "kind": "character"
+    },
+    "莊方宜": {
+      "id": "zhuang-fangyi",
+      "name": "庄方宜",
+      "kind": "character"
+    },
+    "tangtang": {
+      "id": "tangtang",
+      "name": "汤汤",
+      "kind": "character"
+    },
+    "汤汤": {
+      "id": "tangtang",
+      "name": "汤汤",
+      "kind": "character"
+    },
+    "Tangtang": {
+      "id": "tangtang",
+      "name": "汤汤",
+      "kind": "character"
+    },
+    "湯湯": {
+      "id": "tangtang",
+      "name": "汤汤",
+      "kind": "character"
+    },
+    "rossi": {
+      "id": "rossi",
+      "name": "洛茜",
+      "kind": "character"
+    },
+    "洛茜": {
+      "id": "rossi",
+      "name": "洛茜",
+      "kind": "character"
+    },
+    "Rossi": {
+      "id": "rossi",
+      "name": "洛茜",
+      "kind": "character"
+    },
+    "洛西": {
+      "id": "rossi",
+      "name": "洛茜",
+      "kind": "character"
+    },
+    "laevatain": {
+      "id": "laevatain",
+      "name": "莱万汀",
+      "kind": "character"
+    },
+    "莱万汀": {
+      "id": "laevatain",
+      "name": "莱万汀",
+      "kind": "character"
+    },
+    "Laevatain": {
+      "id": "laevatain",
+      "name": "莱万汀",
+      "kind": "character"
+    },
+    "萊萬汀": {
+      "id": "laevatain",
+      "name": "莱万汀",
+      "kind": "character"
+    },
+    "yvonne": {
+      "id": "yvonne",
+      "name": "伊冯",
+      "kind": "character"
+    },
+    "伊冯": {
+      "id": "yvonne",
+      "name": "伊冯",
+      "kind": "character"
+    },
+    "Yvonne": {
+      "id": "yvonne",
+      "name": "伊冯",
+      "kind": "character"
+    },
+    "伊馮": {
+      "id": "yvonne",
+      "name": "伊冯",
+      "kind": "character"
+    },
+    "gilberta": {
+      "id": "gilberta",
+      "name": "洁尔佩塔",
+      "kind": "character"
+    },
+    "洁尔佩塔": {
+      "id": "gilberta",
+      "name": "洁尔佩塔",
+      "kind": "character"
+    },
+    "Gilberta": {
+      "id": "gilberta",
+      "name": "洁尔佩塔",
+      "kind": "character"
+    },
+    "潔爾佩塔": {
+      "id": "gilberta",
+      "name": "洁尔佩塔",
+      "kind": "character"
+    },
+    "ardelia": {
+      "id": "ardelia",
+      "name": "艾尔黛拉",
+      "kind": "character"
+    },
+    "艾尔黛拉": {
+      "id": "ardelia",
+      "name": "艾尔黛拉",
+      "kind": "character"
+    },
+    "Ardelia": {
+      "id": "ardelia",
+      "name": "艾尔黛拉",
+      "kind": "character"
+    },
+    "艾爾黛拉": {
+      "id": "ardelia",
+      "name": "艾尔黛拉",
+      "kind": "character"
+    },
+    "ember": {
+      "id": "ember",
+      "name": "余烬",
+      "kind": "character"
+    },
+    "余烬": {
+      "id": "ember",
+      "name": "余烬",
+      "kind": "character"
+    },
+    "Ember": {
+      "id": "ember",
+      "name": "余烬",
+      "kind": "character"
+    },
+    "餘燼": {
+      "id": "ember",
+      "name": "余烬",
+      "kind": "character"
+    },
+    "last-rite": {
+      "id": "last-rite",
+      "name": "别礼",
+      "kind": "character"
+    },
+    "别礼": {
+      "id": "last-rite",
+      "name": "别礼",
+      "kind": "character"
+    },
+    "Last Rite": {
+      "id": "last-rite",
+      "name": "别礼",
+      "kind": "character"
+    },
+    "別禮": {
+      "id": "last-rite",
+      "name": "别礼",
+      "kind": "character"
+    },
+    "lifeng": {
+      "id": "lifeng",
+      "name": "黎风",
+      "kind": "character"
+    },
+    "黎风": {
+      "id": "lifeng",
+      "name": "黎风",
+      "kind": "character"
+    },
+    "Lifeng": {
+      "id": "lifeng",
+      "name": "黎风",
+      "kind": "character"
+    },
+    "黎風": {
+      "id": "lifeng",
+      "name": "黎风",
+      "kind": "character"
+    },
+    "pogranichnik": {
+      "id": "pogranichnik",
+      "name": "骏卫",
+      "kind": "character"
+    },
+    "骏卫": {
+      "id": "pogranichnik",
+      "name": "骏卫",
+      "kind": "character"
+    },
+    "Pogranichnik": {
+      "id": "pogranichnik",
+      "name": "骏卫",
+      "kind": "character"
+    },
+    "駿衛": {
+      "id": "pogranichnik",
+      "name": "骏卫",
+      "kind": "character"
+    },
+    "alesh": {
+      "id": "alesh",
+      "name": "阿列什",
+      "kind": "character"
+    },
+    "阿列什": {
+      "id": "alesh",
+      "name": "阿列什",
+      "kind": "character"
+    },
+    "Alesh": {
+      "id": "alesh",
+      "name": "阿列什",
+      "kind": "character"
+    },
+    "arclight": {
+      "id": "arclight",
+      "name": "弧光",
+      "kind": "character"
+    },
+    "弧光": {
+      "id": "arclight",
+      "name": "弧光",
+      "kind": "character"
+    },
+    "Arclight": {
+      "id": "arclight",
+      "name": "弧光",
+      "kind": "character"
+    },
+    "avywenna": {
+      "id": "avywenna",
+      "name": "艾维文娜",
+      "kind": "character"
+    },
+    "艾维文娜": {
+      "id": "avywenna",
+      "name": "艾维文娜",
+      "kind": "character"
+    },
+    "Avywenna": {
+      "id": "avywenna",
+      "name": "艾维文娜",
+      "kind": "character"
+    },
+    "艾維文娜": {
+      "id": "avywenna",
+      "name": "艾维文娜",
+      "kind": "character"
+    },
+    "da-pan": {
+      "id": "da-pan",
+      "name": "大潘",
+      "kind": "character"
+    },
+    "大潘": {
+      "id": "da-pan",
+      "name": "大潘",
+      "kind": "character"
+    },
+    "Da Pan": {
+      "id": "da-pan",
+      "name": "大潘",
+      "kind": "character"
+    },
+    "snowshine": {
+      "id": "snowshine",
+      "name": "昼雪",
+      "kind": "character"
+    },
+    "昼雪": {
+      "id": "snowshine",
+      "name": "昼雪",
+      "kind": "character"
+    },
+    "Snowshine": {
+      "id": "snowshine",
+      "name": "昼雪",
+      "kind": "character"
+    },
+    "晝雪": {
+      "id": "snowshine",
+      "name": "昼雪",
+      "kind": "character"
+    },
+    "wulfgard": {
+      "id": "wulfgard",
+      "name": "狼卫",
+      "kind": "character"
+    },
+    "狼卫": {
+      "id": "wulfgard",
+      "name": "狼卫",
+      "kind": "character"
+    },
+    "Wulfgard": {
+      "id": "wulfgard",
+      "name": "狼卫",
+      "kind": "character"
+    },
+    "狼衛": {
+      "id": "wulfgard",
+      "name": "狼卫",
+      "kind": "character"
+    },
+    "xaihi": {
+      "id": "xaihi",
+      "name": "赛希",
+      "kind": "character"
+    },
+    "赛希": {
+      "id": "xaihi",
+      "name": "赛希",
+      "kind": "character"
+    },
+    "Xaihi": {
+      "id": "xaihi",
+      "name": "赛希",
+      "kind": "character"
+    },
+    "賽希": {
+      "id": "xaihi",
+      "name": "赛希",
+      "kind": "character"
+    },
+    "akekuri": {
+      "id": "akekuri",
+      "name": "秋栗",
+      "kind": "character"
+    },
+    "秋栗": {
+      "id": "akekuri",
+      "name": "秋栗",
+      "kind": "character"
+    },
+    "Akekuri": {
+      "id": "akekuri",
+      "name": "秋栗",
+      "kind": "character"
+    },
+    "antal": {
+      "id": "antal",
+      "name": "安塔尔",
+      "kind": "character"
+    },
+    "安塔尔": {
+      "id": "antal",
+      "name": "安塔尔",
+      "kind": "character"
+    },
+    "Antal": {
+      "id": "antal",
+      "name": "安塔尔",
+      "kind": "character"
+    },
+    "安塔爾": {
+      "id": "antal",
+      "name": "安塔尔",
+      "kind": "character"
+    },
+    "catcher": {
+      "id": "catcher",
+      "name": "卡契尔",
+      "kind": "character"
+    },
+    "卡契尔": {
+      "id": "catcher",
+      "name": "卡契尔",
+      "kind": "character"
+    },
+    "Catcher": {
+      "id": "catcher",
+      "name": "卡契尔",
+      "kind": "character"
+    },
+    "卡契爾": {
+      "id": "catcher",
+      "name": "卡契尔",
+      "kind": "character"
+    },
+    "estella": {
+      "id": "estella",
+      "name": "埃特拉",
+      "kind": "character"
+    },
+    "埃特拉": {
+      "id": "estella",
+      "name": "埃特拉",
+      "kind": "character"
+    },
+    "Estella": {
+      "id": "estella",
+      "name": "埃特拉",
+      "kind": "character"
+    },
+    "fluorite": {
+      "id": "fluorite",
+      "name": "萤石",
+      "kind": "character"
+    },
+    "萤石": {
+      "id": "fluorite",
+      "name": "萤石",
+      "kind": "character"
+    },
+    "Fluorite": {
+      "id": "fluorite",
+      "name": "萤石",
+      "kind": "character"
+    },
+    "螢石": {
+      "id": "fluorite",
+      "name": "萤石",
+      "kind": "character"
+    }
+  }
+}

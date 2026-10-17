@@ -209,6 +209,14 @@ const DEFAULT_WATCHLIST = {
     official_site: "https://astraeoratio.plaync.com/zh-tw/index",
     official_api: "asora_official",
   },
+  "arknights-endfield": {
+    name: "Arknights: Endfield",
+    name_zh: "明日方舟：终末地",
+    gamekee_alias: "zmd",
+    keywords: ["明日方舟：终末地", "终末地", "Arknights: Endfield", "Endfield"],
+    official_url: "https://endfield.gryphline.com/en-us/news",
+    steam_appid: 4732690,
+  },
 };
 
 const DEFAULT_SOURCES = {

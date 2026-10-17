@@ -8,7 +8,7 @@ import { portraitImgSrc, portraitTarget, servePortrait } from "../public/ui/port
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const dataGuides = path.join(root, "data", "guides");
 const publicGuides = path.join(root, "ai-site", "public", "v1", "guides");
-const DEEP = ["hw", "nikke", "bd2"];
+const DEEP = ["hw", "nikke", "bd2", "arknights-endfield"];
 const ENTRY_LIST = "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000";
 
 function cards(dir) {
@@ -69,15 +69,17 @@ test("hw nikke and bd2 cards store a cited portrait or null", () => {
       assert.match(card.portrait_source, /^https:\/\/\S+$/);
       assert.equal(typeof card.portrait_via, "string");
       if (target.hostname === "cdnimg-v2.gamekee.com") {
+        const alias = { hw: "hw", nikke: "nikke", bd2: "zsca2", "arknights-endfield": "zmd" }[game];
         assert.equal(card.portrait_source, ENTRY_LIST);
-        assert.equal(card.portrait_via, `gamekee-entry-icon:${game === "bd2" ? "zsca2" : game}:${Number(card.gamekee_entry_id)}`);
+        assert.equal(card.portrait_via, `gamekee-entry-icon:${alias}:${Number(card.gamekee_entry_id)}`);
       } else {
         const slug = card.portrait_via.slice("prydwen-character:".length);
+        const site = game === "arknights-endfield" ? "arknights-endfield" : "nikke";
         assert.match(card.portrait_via, /^prydwen-character:[a-z0-9-]+$/);
-        assert.equal(card.portrait_source, `https://www.prydwen.gg/nikke/characters/${slug}`);
+        assert.equal(card.portrait_source, `https://www.prydwen.gg/${site}/characters/${slug}`);
         assert.ok(
-          card.portrait === `https://cdn.prydwen.gg/images/nikke/characters/${slug}.webp` ||
-            card.portrait === `https://cdn.prydwen.gg/images/nikke/characters/${slug}_card.webp`,
+          card.portrait === `https://cdn.prydwen.gg/images/${site}/characters/${slug}.webp` ||
+            card.portrait === `https://cdn.prydwen.gg/images/${site}/characters/${slug}_card.webp`,
           card.id
         );
         assert.ok(

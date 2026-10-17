@@ -1,0 +1,146 @@
+{
+  "id": "fluorite",
+  "name": "萤石",
+  "name_zh": "萤石",
+  "name_en": "Fluorite",
+  "aliases": [
+    "螢石"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "术师",
+  "rarity": "4星",
+  "element": "自然",
+  "weapon": "手铳",
+  "skills": [
+    {
+      "name": "独门射击法",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多4段攻击，造成自然伤害。作为主控干员时，重击会造成15点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成自然伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量自然伤害并恢复一定技力。"
+    },
+    {
+      "name": "小惊喜",
+      "type": "battle",
+      "summary": "踢出自制炸弹将其黏附在目标身上，并施加缓速，短暂延迟后爆炸对范围内的敌人造成自然伤害并施加自然附着。\n若黏附目标被击败则自制炸弹提前爆炸。\n场上同时只能存在一个自制炸弹。"
+    },
+    {
+      "name": "免费赠礼",
+      "type": "combo",
+      "summary": "当敌人进入2层及以上寒冷附着或自然附着时可以发动。\n射击目标敌人，引发一次特殊爆炸，造成自然伤害并施加该法术附着。"
+    },
+    {
+      "name": "巅峰闹剧",
+      "type": "ultimate",
+      "summary": "萤石以弧形轨迹高速运动并向弧内目标快速射击，造成4段自然伤害，若命中目标身上粘有自制炸弹，则立刻将其引爆并提升爆炸伤害及范围。\n若最后一段伤害命中处于2层及以上寒冷附着或自然附着的目标，则再次施加该法术附着。"
+    },
+    {
+      "name": "落井下石爱好者",
+      "type": "talent",
+      "summary": "1阶描述：萤石对处于缓速状态的目标造成的伤害+10% 。\n2阶描述：萤石对处于缓速状态的目标造成的伤害+20%。"
+    },
+    {
+      "name": "捉摸不定",
+      "type": "talent",
+      "summary": "1阶描述：有20%的概率免疫法术伤害，之后使自身攻击力+10%，持续10秒，该效果无法叠加。\n2阶描述：有20%的概率免疫法术伤害，之后使自身攻击力+20%，持续10秒，该效果无法叠加。"
+    },
+    {
+      "name": "荒芜行者·α",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，矿物质料的培养速度提升10%"
+    },
+    {
+      "name": "荒芜行者·β",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，矿物质料的培养速度提升20%"
+    },
+    {
+      "name": "知人所想·β",
+      "type": "base",
+      "summary": "1阶描述：进驻总控中枢时，所有干员心情恢复提升12%"
+    },
+    {
+      "name": "知人所想·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻总控中枢时，所有干员心情恢复提升16%"
+    }
+  ],
+  "skill_prio": [
+    "Off Field: Basic Attack >= Combo Skill > Ultimate > Battle Skill"
+  ],
+  "attributes": {
+    "primary": "敏捷",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "14",
+        "90": "88"
+      },
+      "敏捷": {
+        "1": "15",
+        "90": "161"
+      },
+      "智识": {
+        "1": "12",
+        "90": "110"
+      },
+      "意志": {
+        "1": "10",
+        "90": "88"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "291"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/691058.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Yvonne · Team #6：伊冯 / 赛希 / 萤石 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/yvonne ，as_of 2026-06-14）",
+      "Prydwen · Fluorite · Team #1：伊冯 / 萤石 / 赛希 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/fluorite ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/691058.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
+    "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "fluorite"
+  ],
+  "prydwen_slug": "fluorite",
+  "gamekee_content_id": 691058,
+  "gamekee_entry_id": 202720,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/320251.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202720",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
+    "umbral_monument": "T1.5",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T1.5",
+    "position": "4星 / 术师 / 自然 / 手铳",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
+      "https://www.gamekee.com/zmd/691058.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/yvonne"
+    ]
+  },
+  "verified": "GameKee zmd/691058；官网干员列表；Prydwen /characters/fluorite"
+}

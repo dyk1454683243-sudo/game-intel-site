@@ -1,0 +1,149 @@
+{
+  "id": "last-rite",
+  "name": "别礼",
+  "name_zh": "别礼",
+  "name_en": "Last Rite",
+  "aliases": [
+    "別禮"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "突击",
+  "rarity": "6星",
+  "element": "寒冷",
+  "weapon": "双手剑",
+  "skills": [
+    {
+      "name": "严霜之舞",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多4段攻击，造成寒冷伤害。作为主控干员时，重击会造成25点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成寒冷伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量寒冷伤害并恢复一定技力。"
+    },
+    {
+      "name": "塞什卡的秘传",
+      "type": "battle",
+      "summary": "对主控干员的武器进行低温灌注，并返还一定技力。\n一段时间内，当前主控干员接下来的1次重击会生成别礼的幻影，对目标进行追击，造成寒冷伤害，施加寒冷附着。\n主控干员为别礼时，施放该战技不会中断普通攻击。"
+    },
+    {
+      "name": "噬冬",
+      "type": "combo",
+      "summary": "当有敌人进入3层及以上寒冷附着状态时可以发动。\n在目标敌人身上凝结冰锥，随后将其斩碎，消耗敌人身上的所有寒冷附着，对其造成基于其寒冷附着层数的寒冷伤害，并且根据消耗的层数获得终结技能量。"
+    },
+    {
+      "name": "临终别礼",
+      "type": "ultimate",
+      "summary": "披着霜铠，凝结冰镰，对前方进行三次斩击，该状态下免疫所有伤害。\n每次斩击造成大量寒冷伤害。\n别礼只能从自身的战技、连携技中获得终结技能量。"
+    },
+    {
+      "name": "低温症",
+      "type": "talent",
+      "summary": "1阶描述：当别礼消耗任何法术附着后，对该目标施加寒冷脆弱，效果为被消耗的法术附着层数×2%，持续15秒，该效果无法叠加。\n2阶描述：当别礼消耗任何法术附着后，对该目标施加寒冷脆弱，效果为被消耗的法术附着层数×4%，持续15秒，该效果无法叠加。"
+    },
+    {
+      "name": "低温脆性",
+      "type": "talent",
+      "summary": "1阶描述：终结技临终别礼造成伤害时，如果敌人处于寒冷脆弱状态，将其寒冷脆弱的效果视为原本的1.2倍。\n2阶描述：终结技临终别礼造成伤害时，如果敌人处于寒冷脆弱状态，将其寒冷脆弱的效果视为原本的1.5倍。"
+    },
+    {
+      "name": "墓地园艺·β",
+      "type": "base",
+      "summary": "1阶描述：进驻培养舱时，晶植质料的培养速度提升20%"
+    },
+    {
+      "name": "墓地园艺·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻培养舱时，晶植质料的培养速度提升30%"
+    },
+    {
+      "name": "王庭盛名·α",
+      "type": "base",
+      "summary": "1阶描述：进驻会客室时，干员收集到线索7——塞什卡的概率小幅提升（进驻即生效，同类不可叠加)"
+    },
+    {
+      "name": "王庭盛名·β",
+      "type": "base",
+      "summary": "2阶描述：进驻会客室时，干员收集到线索7——塞什卡的概率提升（进驻即生效，同类不可叠加)"
+    }
+  ],
+  "skill_prio": [
+    "Main Field: Combo Skill >= Ultimate >= Basic Attack > Battle Skill"
+  ],
+  "attributes": {
+    "primary": "力量",
+    "secondary": "意志",
+    "stats": {
+      "力量": {
+        "1": "22",
+        "90": "149"
+      },
+      "敏捷": {
+        "1": "9",
+        "90": "100"
+      },
+      "智识": {
+        "1": "9",
+        "90": "90"
+      },
+      "意志": {
+        "1": "16",
+        "90": "105"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5270"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "319"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/690770.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Perlica · Team #3：别礼 / 赛希 / 艾尔黛拉 / 佩丽卡（https://www.prydwen.gg/arknights-endfield/characters/perlica ，as_of 2026-06-14）",
+      "Prydwen · Last Rite · Team #1：别礼 / 赛希 / 汤汤 / 佩丽卡（https://www.prydwen.gg/arknights-endfield/characters/last-rite ，as_of 2026-06-14）",
+      "Prydwen · Ardelia · Team #2：别礼 / 佩丽卡 / 赛希 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/ardelia ，as_of 2026-06-14）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/690770.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+    "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+    "https://www.prydwen.gg/arknights-endfield/characters/ardelia"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "lastrite"
+  ],
+  "prydwen_slug": "last-rite",
+  "gamekee_content_id": 690770,
+  "gamekee_entry_id": 202703,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/0/16/612903.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:202703",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-06-14",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+    "umbral_monument": "T0.5",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0.5",
+    "position": "6星 / 突击 / 寒冷 / 双手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-06-14。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+      "https://www.gamekee.com/zmd/690770.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+      "https://www.prydwen.gg/arknights-endfield/characters/ardelia"
+    ]
+  },
+  "verified": "GameKee zmd/690770；官网干员列表；Prydwen /characters/last-rite"
+}

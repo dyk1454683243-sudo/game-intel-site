@@ -1,0 +1,105 @@
+{
+  "id": "purrchena",
+  "name": "噗切娜",
+  "name_zh": "噗切娜",
+  "name_en": "Purrchena",
+  "aliases": [],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "重装",
+  "rarity": "5星",
+  "element": "物理",
+  "weapon": "单手剑",
+  "skills": [
+    {
+      "name": "DESSERT! HAVE SOME!",
+      "type": "basic",
+      "summary": "BASIC ATTACK: An attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 21 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Stagger ed enemy becomes a finisher that deals massive Physical DMG and recovers some SP."
+    },
+    {
+      "name": "I'M NOT SLEEPING!",
+      "type": "battle",
+      "summary": "SP Cost: 100 Purrchena raises up her shield to block an attack and immediately returns some SP. While Purrchena's shield is up, she grants Protection to herself and nearby operators. During the battle skill, the first successful block extends the shield up duration and returns additional SP. After casting, Purrchena's battle skill is temporarily changed to LEAVE MY FRIENDS ALONE!. LEAVE MY FRIENDS ALONE!: Purrchena headbutts a target in front of her to deal Nature DMG and apply Nature Infliction. Protection granted during shield-raising is reduced after every blocked attack."
+    },
+    {
+      "name": "CAKE OR \"PREZZIE\"",
+      "type": "combo",
+      "summary": "Cooldown: 22s Throws a Giftbox at the controlled operator. The Giftbox opens after a short delay, granting HP Treatment to nearby operators, randomly revealing one of the following items, and triggering the effects of the revealed item: - Bomb: Deals Physical DMG and additional Stagger to enemies in the area of effect (AOE). - Handicraft: Continuously pulls in nearby enemies and deals Physical DMG. - Yummy Dessert: Grants HP Treatment to the controlled operator. The attribute of Will increases the amount of HP treatment. Trigger: When the controlled operator is attacked."
+    },
+    {
+      "name": "NAUGHTY IS BANNED!",
+      "type": "ultimate",
+      "summary": "Energy cost: 100 Purrchena opens 3 Big Feline's Prezzies. Each Big Feline's Prezzie randomly reveals a Bomb or a piece of Handicraft. There is a chance that the Prezzie reveals Ambassador's Special that applies Arts Susceptibility and deals Physical DMG as well as additional Stagger to enemies."
+    },
+    {
+      "name": "Brand Ambassador",
+      "type": "base",
+      "summary": "Assign to Reception Room to grant operators a small Clue 2/Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)"
+    },
+    {
+      "name": "Desserts for the Debrief",
+      "type": "base",
+      "summary": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20/30%."
+    },
+    {
+      "name": "Your sorry came LATE!",
+      "type": "talent",
+      "summary": "Battle skill I'M NOT SLEEPING! improved: After successfully blocking an enemy attack for the first time, the skill gives 6/10 additional Ultimate Energy. Chance for Ambassador's Special of the next ultimate NAUGHTY IS BANNED! is increased by 10%. This effect can reach 3 stacks."
+    },
+    {
+      "name": "Ambassador's Duty",
+      "type": "talent",
+      "summary": "When deployed in battle, all Max HP operators in the team take 50% less DMG from the next hit taken. For each operator, this effect can only trigger once every 180/90s."
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "level": 90,
+    "stats": {
+      "Strength": "168",
+      "Agility": "93",
+      "Intellect": "89",
+      "Will": "113"
+    },
+    "source": "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+    "as_of": "2026-10-15",
+    "note": "只收录 Prydwen Attributes (level 90) 里写出的四项数字。页面没有在文本里标出主属性/副属性颜色，不补。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Purrchena · Team #1：洛茜 / 佩丽卡 / 秋栗 / 噗切娜（https://www.prydwen.gg/arknights-endfield/characters/purrchena ，as_of 2026-10-15）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.prydwen.gg/arknights-endfield/characters/purrchena"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "purrche"
+  ],
+  "prydwen_slug": "purrchena",
+  "portrait": "https://cdn.prydwen.gg/images/arknights-endfield/characters/purrchena_card.webp",
+  "portrait_source": "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+  "portrait_via": "prydwen-character:purrchena",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-15",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+    "umbral_monument": "T1.5",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T1.5",
+    "position": "5星 / 重装 / 物理 / 单手剑",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-10-15。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/purrchena",
+      "https://endfield.hypergryph.com/operator"
+    ]
+  },
+  "verified": "官网干员列表；Prydwen /characters/purrchena"
+}

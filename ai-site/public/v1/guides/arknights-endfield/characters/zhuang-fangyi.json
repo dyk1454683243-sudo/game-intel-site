@@ -1,0 +1,146 @@
+{
+  "id": "zhuang-fangyi",
+  "name": "庄方宜",
+  "name_zh": "庄方宜",
+  "name_en": "Zhuang Fangyi",
+  "aliases": [
+    "莊方宜"
+  ],
+  "nicknames": [],
+  "game": "arknights-endfield",
+  "role": "突击",
+  "rarity": "6星",
+  "element": "电磁",
+  "weapon": "施术单元",
+  "skills": [
+    {
+      "name": "疾电法",
+      "type": "basic",
+      "summary": "普通攻击：对敌人进行至多5段攻击，造成电磁伤害。作为主控干员时，重击会造成18点失衡。\n下落攻击：处于空中时使用普通攻击，会下落并攻击附近敌人，造成电磁伤害。\n处决攻击：附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量电磁伤害并恢复一定技力。"
+    },
+    {
+      "name": "惊霆诀",
+      "type": "battle",
+      "summary": "#消耗#目标的导电状态，使本次战技伤害倍率提高，并生成相当于所消耗导电的异常等级+1柄青霆剑，若现存的青霆剑少于3柄，即使未#消耗#目标的导电状态仍能生成1柄青霆剑。\n随后引导附近的青霆剑依次雷击目标，造成电磁伤害并额外获得终结技能量，最后一次雷击造成6倍伤害。\n一次战技最多生成3柄青霆剑。"
+    },
+    {
+      "name": "一息万变",
+      "type": "combo",
+      "summary": "主控干员的重击或处决，命中处于电磁附着状态的敌人后可以发动。\n构造息雷阵法攻击敌人，造成电磁伤害。命中处于电磁附着的敌人时，消耗其电磁附着，强制施加导电，并基于消耗的层数额外获得终结技能量。\n若强制施加导电时，敌人已处于导电状态，则所施加导电的异常等级+1。"
+    },
+    {
+      "name": "万钧风雷",
+      "type": "ultimate",
+      "summary": "进入天理合真状态： 普通攻击得到强化。自身行动更不容易被打断。\n战技惊霆诀伤害倍率提高，伤害范围扩大，最后一次雷击命中时施加电磁附着。\n连携技一息万变对一定范围内的敌人生效，伤害倍率提高，冷却恢复速度提升至原本的4倍。\n首次施放战技惊霆诀不消耗技力与导电，若存在目标，则无论其是否处于导电状态，必定生成3柄青霆剑。"
+    },
+    {
+      "name": "天地造化",
+      "type": "talent",
+      "summary": "1阶描述：施放战技惊霆诀时对自身施加9.0%电磁增幅，持续5秒。\n战技的雷击命中时使该效果+1.0%。 每次施放战技惊霆诀时，该电磁增幅效果重置。\n2阶描述：施放战技惊霆诀时对自身施加18.0%电磁增幅，持续5秒。\n战技的雷击命中时使该效果+2.0%。 每次施放战技惊霆诀时，该电磁增幅效果重置。"
+    },
+    {
+      "name": "承天之佑",
+      "type": "talent",
+      "summary": "1阶描述：有9.0%的概率免疫受到的伤害，附近每存在1柄青霆剑，此概率+1.0%。\n触发伤害免疫效果后，回复自身9.0%最大生命值，每99秒最多回复1次生命值。\n2阶描述：有9.0%的概率免疫受到的伤害，附近每存在1柄青霆剑，此概率+1.0%。\n触发伤害免疫效果后，回复自身18.0%最大生命值，每99秒最多回复1次生命值。"
+    },
+    {
+      "name": "管代经验·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，舱室内干员心情消耗降低14%"
+    },
+    {
+      "name": "管代经验·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，舱室内干员心情消耗降低18%"
+    },
+    {
+      "name": "天师养气法·β",
+      "type": "base",
+      "summary": "1阶描述：进驻制造舱时，干员经验素材的生产效率提升20%"
+    },
+    {
+      "name": "天师养气法·γ",
+      "type": "base",
+      "summary": "2阶描述：进驻制造舱时，干员经验素材的生产效率提升30%"
+    }
+  ],
+  "skill_prio": [],
+  "attributes": {
+    "primary": "意志",
+    "secondary": "智识",
+    "stats": {
+      "力量": {
+        "1": "10",
+        "90": "99"
+      },
+      "敏捷": {
+        "1": "10",
+        "90": "99"
+      },
+      "智识": {
+        "1": "17",
+        "90": "123"
+      },
+      "意志": {
+        "1": "24",
+        "90": "184"
+      },
+      "生命": {
+        "1": "500",
+        "90": "5495"
+      },
+      "攻击力": {
+        "1": "30",
+        "90": "326"
+      }
+    },
+    "source": "https://www.gamekee.com/zmd/701601.html",
+    "as_of": "2026-10-17",
+    "note": "数值取 GameKee 图鉴各属性「数值」行的 Lv.1 与最后一列（表头为 Lv.90）。主/副来自该行的「主」「副」单元格。"
+  },
+  "teams": {
+    "comp": [
+      "Prydwen · Zhuang Fangyi · Team #1：庄方宜 / 佩丽卡 / 弧光 / 梨诺（https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi ，as_of 2026-08-17）",
+      "Prydwen · Zhuang Fangyi · Team #2：庄方宜 / 佩丽卡 / 弧光 / 洁尔佩塔（https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi ，as_of 2026-08-17）",
+      "Prydwen · Zhuang Fangyi · Team #4：庄方宜 / 佩丽卡 / 弧光 / 艾尔黛拉（https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi ，as_of 2026-08-17）",
+      "Prydwen · Liino · Team #1：庄方宜 / 佩丽卡 / 弧光 / 梨诺（https://www.prydwen.gg/arknights-endfield/characters/liino ，as_of 2026-09-02）"
+    ]
+  },
+  "sources": [
+    "https://endfield.hypergryph.com/operator",
+    "https://endfield.gryphline.com/en-us/operator",
+    "https://www.gamekee.com/zmd/701601.html",
+    "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+    "https://www.prydwen.gg/arknights-endfield/characters/liino"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "official_keys": [
+    "zhuangfy"
+  ],
+  "prydwen_slug": "zhuang-fangyi",
+  "gamekee_content_id": 701601,
+  "gamekee_entry_id": 213184,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_152/h_212/50248/103682/2026/3/20/219941.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zmd:213184",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-08-17",
+    "url": "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+    "umbral_monument": "T0",
+    "role": null
+  },
+  "summary": {
+    "tier": "Prydwen Umbral Monument T0",
+    "position": "6星 / 突击 / 电磁 / 施术单元",
+    "stub": false,
+    "caveat": "档位是 Prydwen 角色页 Gallery/Ratings 里紧挨 Umbral Monument 的字母。页面 Last updated 2026-08-17。评审向，非官方。不把装备或武器条目里的 T 级当成角色档。",
+    "sources": [
+      "https://www.prydwen.gg/arknights-endfield/characters/zhuang-fangyi",
+      "https://www.gamekee.com/zmd/701601.html",
+      "https://www.prydwen.gg/arknights-endfield/characters/liino"
+    ]
+  },
+  "verified": "GameKee zmd/701601；官网干员列表；Prydwen /characters/zhuang-fangyi"
+}
