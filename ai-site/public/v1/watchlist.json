@@ -109,20 +109,6 @@
       "official_url": "https://astraeoratio.plaync.com/zh-tw/index",
       "official_site": "https://astraeoratio.plaync.com/zh-tw/index",
       "official_api": "asora_official"
-    },
-    {
-      "id": "limbus-company",
-      "name": "Limbus Company",
-      "name_zh": "边狱公司",
-      "keywords": [
-        "Limbus Company",
-        "边狱公司",
-        "림버스 컴퍼니",
-        "LimbusCompany"
-      ],
-      "gamekee_alias": "limbus",
-      "steam_appid": 1973530,
-      "official_url": "https://store.steampowered.com/news/app/1973530"
     }
   ]
 }
