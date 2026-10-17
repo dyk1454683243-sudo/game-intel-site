@@ -5,13 +5,13 @@ Base URL (hosted): https://game-intel-ai.dyk1454683243.workers.dev
 Game entities dual-published from `data/games/` → `/v1/games/{id}.json` and `/games/{id}.html`.
 Guide cards dual-published from `data/guides/`.
 `v1/digest|radar|calendar-hw` from best-effort MCP/CLI export.
-OpenAPI: /openapi.json (public GET map, plus public POST /v1/claims; no API key).
-Remote MCP: GET /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Tools read published JSON. They do not scrape HTML.
+OpenAPI 3.1: /v1/openapi.json (same document as /openapi.json). Developer page (中文 + English): /developers/ — endpoints, curl, MCP clients, sources, and attribution.
+Remote MCP: GET /.well-known/mcp.json (same AI Catalog as /.well-known/ai-catalog.json). Connect at /mcp. Tools read published JSON. They do not scrape HTML. list_banners, list_codes, and personal_digest cover the eight deep games.
 
 ## Depth / 目录宽、深耕窄
 
 - Light catalog (`stub: true`, `watchlist: false`): identity only — `id`, `name`, `name_zh`, `platforms`, `tags`, `sources[{label,url}]`, `steam_appid`, `note`, `as_of`, `timezone`. No character cards.
-- Watchlist deep dive: full character cards only for watchlist games. Today hw, nikke, bd2 have guides. star, asora, miraesi, lo2 stay thin until a card has https sources.
+- Watchlist deep dive: full character cards, banners, and codes for eight games — hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. star, asora, miraesi, lo2 stay thin until a card has https sources.
 - Do not invent Metacritic, prices, player counts, skill numbers, or gacha rates. Human HTML and JSON are the same facts.
 
 ## Sources / 出处
@@ -29,6 +29,17 @@ On a thin item, quote 1–2 sentences already stored and cite `url`.
 4. Live headlines are only /v1/digest.json, /v1/feed.json, /v1/radar.json, /v1/calendar.json. Empty arrays or `meta.fixture: true` mean no item.
 5. Sourced claims: POST /v1/claims with no API key. Required: statement text, https source URLs, and game_id. Read GET /v1/claims.json and /claims/index.html. There is no review queue; listed rows are untrusted until a human checks them. No key on GET.
 6. Redeem codes stay on game-welfare. This site does not serve CDK, Discourse, ads, or billing.
+
+## Public access / 对外访问
+
+- `GET /v1/health` returns `{ok:true, api_version:"1", rate_limit}`. `rate_limit` is `degraded` when the Worker rate-limit bindings are missing; the request is still allowed.
+- Worker responses send `X-API-Version: 1`. Published JSON bodies stay as exported. Health and gate errors include `api_version`.
+- Anonymous calls are allowed. Optional key: `X-API-Key` or `Authorization: Bearer`. The Worker secret `GAME_INTEL_API_KEYS` is a comma-separated list and is not in this repo. An unrecognized key is HTTP 401 `{ok:false,error:"invalid_api_key",message,api_version,status}`. Omitting the key uses the anonymous tier.
+- Public limiter, only when the bindings exist: anonymous 120 requests per 60 seconds per IP, keyed 1200 per 60 seconds per key. Counters are per Cloudflare location. HTTP 429 sends `Retry-After: 60` and `{ok:false,error:"rate_limited",api_version,status,tier,limit,retry_after}`.
+- `POST /v1/claims` does not use this key and does not use this limiter. Its KV limits are unchanged (10 per IP per Asia/Shanghai hour, 100 per day). `CLAIMS_API_KEY` is not required and is not read. Claims 429 body stays `{ok:false,error:"rate_limited",scope,limit}`.
+- Static `/v1/*.json` is cacheable (`Cache-Control: public, max-age=300`) and sends `ETag`. `If-None-Match` returns 304.
+- Gate errors: `{ok:false, error, message, api_version, status}`. MCP protocol errors stay JSON-RPC. HTTP 429 on `/mcp` uses the gate body.
+- Human page: /developers/.
 
 ## Routes
 
@@ -105,7 +116,7 @@ Rate limit uses Workers KV binding `CLAIMS`, Asia/Shanghai: 10 posts per IP per 
 Cadence: on submit. Humans: /claims/index.html.
 
 ### MCP
-GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` returns this file. Other tools map to the GET routes above.
+GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` returns this file. `list_banners`, `list_codes`, and `personal_digest` cover the eight deep games. Other tools map to the GET routes above. Client setup is on /developers/.
 
 ## Human pages
 
@@ -113,9 +124,10 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 
 - / — digest summary + radar glance (`/v1/digest.json`, `/v1/radar.json`)
 - /catalog/ — search and filter the game directory
-- /watchlist/ — hw, nikke, bd2, star (星原), asora (阿索拉), miraesi (미래시), lo2
-- /game/?id= — identity card (name, platforms, tags, sources, steam_appid). Games other than hw / nikke / bd2 show 尚无深耕 and do not invent tier or pull advice.
-- /character/?game=&id= — strength, costume, skills, and source links. Only hw, nikke, bd2. A 关注 button writes that character into localStorage.
+- /watchlist/ — hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves, plus thin rows star (星原), asora (阿索拉), miraesi (미래시), lo2
+- /game/?id= — identity card (name, platforms, tags, sources, steam_appid). Games outside the eight deep ids show 尚无深耕 and do not invent tier or pull advice.
+- /character/?game=&id= — strength, costume, skills, and source links. Deep games: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. A 关注 button writes that character into localStorage.
+- /developers/ — Chinese and English notes for the public API and remote MCP.
 - /me/ — personal view. Follow list is localStorage plus a shareable `/me/?games=&chars=` link or `gi1.` code. The page filters feed, digest, banners, and codes in the browser and does not send the list to the server.
 
 `export-games` copies `ai-site/public/ui/home.html` onto `/`. Static dual-publish HTML remains:
@@ -131,7 +143,8 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 
 ## Schemas and contract
 
-- /openapi.json — OpenAPI 3.0
+- /v1/openapi.json — OpenAPI 3.1 (same document as /openapi.json)
+- /developers/ — curl, MCP client config, source rules, attribution
 - /schema/game.schema.json — stub vs watchlist is documented on the schema
 - /schema/games-index.schema.json
 - /schema/feed.schema.json
@@ -152,6 +165,6 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 ## Notes
 
 - Content-Type: application/json for /v1/*, /schema/*, and /openapi.json
-- No authentication on public GET routes or on POST /v1/claims
+- Public GET routes work without a key. A valid `GAME_INTEL_API_KEYS` entry raises the /v1 and /mcp limit. POST /v1/claims stays keyless.
 - Re-export: `npm run export-guides && npm run export-games` (export-guides refuses non-stub cards that lack sources, as_of, or — for hw/nikke/bd2 — a summary row)
 - `ai-site/llms.txt` is the source of published /llms.txt. `export-games` copies it; do not hand-edit `ai-site/public/llms.txt`.

@@ -1,104 +1,1199 @@
 {
-  "openapi": "3.0.3",
+  "openapi": "3.1.0",
+  "jsonSchemaDialect": "https://json-schema.org/draft/2020-12/schema",
   "info": {
-    "title": "game-intel site",
-    "version": "0.1.0",
-    "description": "Public read surface. POST /v1/claims is public (no API key): statement, https source URLs, and game_id are required; 10 posts per IP per hour and 100 per Asia/Shanghai day; body max 16384 bytes. Submitted claims are untrusted until reviewed (no pending queue). Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json."
+    "title": "game-intel",
+    "version": "1",
+    "summary": "Public read API and remote MCP for published game-intel JSON.",
+    "description": "Anonymous reads are allowed. An optional API key (X-API-Key or Authorization: Bearer) raises the /v1 and /mcp limit. Anonymous: 120 requests per 60 seconds per IP. Key: 1200 per 60 seconds per key. Limits are enforced only when the Worker rate-limit bindings exist, and counters are per Cloudflare location. Over limit: HTTP 429 and Retry-After. A presented key that is not in the GAME_INTEL_API_KEYS secret is HTTP 401. The secret is not in the repository. POST /v1/claims ignores that key and keeps its own KV limiter (10 per IP per Asia/Shanghai hour, 100 per day). CLAIMS_API_KEY is not required. Responses send X-API-Version: 1. Published JSON bodies are not wrapped. Health and gate errors include api_version. Gate errors are {ok:false, error, message, api_version, status}. Claims submission errors keep their existing body. MCP protocol errors stay JSON-RPC. Deep games / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. Banners and codes keep the source URL and an explicit status. Do not invent rates, prices, or skill numbers. Source priority: official > review sites > forums. If the JSON does not support a claim, say 未见可靠出处. MIT covers this site's code. Facts, names, and portraits stay attributed to the https sources stored on each row. Developer page: /developers/."
   },
   "servers": [
     {
-      "url": "https://game-intel-ai.dyk1454683243.workers.dev"
+      "url": "https://game-intel-ai.dyk1454683243.workers.dev",
+      "description": "Hosted Worker"
+    }
+  ],
+  "security": [
+    {},
+    {
+      "apiKey": []
+    },
+    {
+      "bearer": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "meta"
+    },
+    {
+      "name": "catalog"
+    },
+    {
+      "name": "intel"
+    },
+    {
+      "name": "guides"
+    },
+    {
+      "name": "personal"
+    },
+    {
+      "name": "claims"
+    },
+    {
+      "name": "mcp"
     }
   ],
   "paths": {
-    "/.well-known/mcp.json": {
+    "/v1/health": {
       "get": {
-        "summary": "MCP discovery (AI Catalog alias of /.well-known/ai-catalog.json)",
+        "operationId": "getHealth",
+        "summary": "Liveness. Does not check KV. 健康检查，不依赖 KV。",
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": true
+                  "$ref": "#/components/schemas/Health"
                 }
               }
             }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
           }
         }
       }
     },
-    "/.well-known/ai-catalog.json": {
+    "/v1/openapi.json": {
       "get": {
-        "summary": "MCP AI Catalog",
+        "operationId": "getOpenApi",
+        "summary": "This OpenAPI 3.1 document.",
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": true
+                  "$ref": "#/components/schemas/OpenApiDocument"
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "/mcp/server-card": {
-      "get": {
-        "summary": "MCP server card",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/llms.txt": {
-      "get": {
-        "summary": "Agent route map",
-        "responses": {
-          "200": {
-            "description": "text/markdown"
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
           }
         }
       }
     },
     "/openapi.json": {
       "get": {
-        "summary": "This document",
+        "operationId": "getOpenApiAlias",
+        "summary": "Same document as /v1/openapi.json.",
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": true
+                  "$ref": "#/components/schemas/OpenApiDocument"
                 }
               }
             }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/games/index.json": {
+      "get": {
+        "operationId": "getGamesIndex",
+        "summary": "Game catalog index. Stubs are identity-only. 游戏目录。",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GamesIndex"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/games/{id}.json": {
+      "get": {
+        "operationId": "getGame",
+        "summary": "One game entity.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Slug id.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Game"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/catalog-aliases.json": {
+      "get": {
+        "operationId": "getCatalogAliases",
+        "summary": "Catalog nickname → game id. Not character aliases. 目录别名。",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CatalogAliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/feed.json": {
+      "get": {
+        "operationId": "getFeed",
+        "summary": "Cross-game headlines already present in digest or radar.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Feed"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/watchlist.json": {
+      "get": {
+        "operationId": "getWatchlist",
+        "summary": "Watchlist. meta.fixture true is sample data. 观察名单。",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Watchlist"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/digest.json": {
+      "get": {
+        "operationId": "getDigest",
+        "summary": "Per-game headlines. Best-effort daily. 摘要。",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Digest"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/radar.json": {
+      "get": {
+        "operationId": "getRadar",
+        "summary": "New-game / CBT scan. Not a second catalog. 新作雷达。",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Radar"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/calendar.json": {
+      "get": {
+        "operationId": "getCalendar",
+        "summary": "Dated events.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Calendar"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/calendar-hw.json": {
+      "get": {
+        "operationId": "getCalendarHw",
+        "summary": "Horizon Walker calendar export.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Calendar"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/index.json": {
+      "get": {
+        "operationId": "getGuidesIndex",
+        "summary": "Which games have guide cards.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuidesIndex"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/index.json": {
+      "get": {
+        "operationId": "getGuideGame",
+        "summary": "Character index for one game, plus banners and codes links.",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "path",
+            "required": true,
+            "description": "Game id. Deep coverage / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuideGameIndex"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/aliases.json": {
+      "get": {
+        "operationId": "getGuideAliases",
+        "summary": "Character nicknames for one game.",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "path",
+            "required": true,
+            "description": "Game id. Deep coverage / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/nikke/aliases.p1.json": {
+      "get": {
+        "operationId": "getNikkeAliasesP1",
+        "summary": "NIKKE alias part 1 of 4.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/nikke/aliases.p2.json": {
+      "get": {
+        "operationId": "getNikkeAliasesP2",
+        "summary": "NIKKE alias part 2 of 4.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/nikke/aliases.p3.json": {
+      "get": {
+        "operationId": "getNikkeAliasesP3",
+        "summary": "NIKKE alias part 3 of 4.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/nikke/aliases.p4.json": {
+      "get": {
+        "operationId": "getNikkeAliasesP4",
+        "summary": "NIKKE alias part 4 of 4.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Aliases"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/characters/{id}.json": {
+      "get": {
+        "operationId": "getCharacter",
+        "summary": "Character card. Non-stub rows include https sources and as_of.",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "path",
+            "required": true,
+            "description": "Game id. Deep coverage / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Slug id.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CharacterCard"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/banners.json": {
+      "get": {
+        "operationId": "getBanners",
+        "summary": "Banners / 卡池. Deep games: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. Do not invent UP names or times.",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "path",
+            "required": true,
+            "description": "Game id. Deep coverage / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Banners"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/{game}/codes.json": {
+      "get": {
+        "operationId": "getCodes",
+        "summary": "Redeem codes / 兑换码. Deep games: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. expired and expiry_not_stated are not live. This API does not redeem.",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "path",
+            "required": true,
+            "description": "Game id. Deep coverage / 深耕: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Codes"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/hw/dopamine-auto.json": {
+      "get": {
+        "operationId": "getDopamineAuto",
+        "summary": "Horizon Walker dopamine-auto teams.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DopamineAuto"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/guides/hw/modes/dopamine-auto.json": {
+      "get": {
+        "operationId": "getDopamineAutoMode",
+        "summary": "Same dopamine-auto document under modes/.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DopamineAuto"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/personal": {
+      "get": {
+        "operationId": "getPersonal",
+        "summary": "Stateless personal digest. Stores nothing. 无状态个人摘要，不保存名单。",
+        "parameters": [
+          {
+            "name": "games",
+            "in": "query",
+            "required": false,
+            "description": "Comma-separated game ids, max 24. Ignored when code is set. 逗号分隔的游戏 id，最多 24 个。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "chars",
+            "in": "query",
+            "required": false,
+            "description": "Comma-separated game:id, max 48. Ignored when code is set. 逗号分隔的 game:id，最多 48 个。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "required": false,
+            "description": "Share code gi1.… When present, games and chars are ignored. 分享码。出现时忽略 games 和 chars。",
+            "schema": {
+              "type": "string",
+              "pattern": "^gi1[.:][A-Za-z0-9_-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Personal"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/v1/personal.atom": {
+      "get": {
+        "operationId": "getPersonalAtom",
+        "summary": "Atom feed for the same personal filter.",
+        "parameters": [
+          {
+            "name": "games",
+            "in": "query",
+            "required": false,
+            "description": "Comma-separated game ids, max 24. Ignored when code is set. 逗号分隔的游戏 id，最多 24 个。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "chars",
+            "in": "query",
+            "required": false,
+            "description": "Comma-separated game:id, max 48. Ignored when code is set. 逗号分隔的 game:id，最多 48 个。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "code",
+            "in": "query",
+            "required": false,
+            "description": "Share code gi1.… When present, games and chars are ignored. 分享码。出现时忽略 games 和 chars。",
+            "schema": {
+              "type": "string",
+              "pattern": "^gi1[.:][A-Za-z0-9_-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "application/atom+xml",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/atom+xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
           }
         }
       }
     },
     "/v1/claims.json": {
       "get": {
-        "summary": "Public claims mirror (untrusted until reviewed)",
+        "operationId": "getClaims",
+        "summary": "Public claims mirror. Rows are untrusted until a human reviews them. 投稿镜像，未经复核不可信。",
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
@@ -106,24 +1201,61 @@
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "/claims/index.html": {
-      "get": {
-        "summary": "Human claims mirror",
-        "responses": {
-          "200": {
-            "description": "text/html"
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
           }
         }
       }
     },
     "/v1/claims": {
+      "get": {
+        "operationId": "getClaimsAlias",
+        "summary": "Same JSON as /v1/claims.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimsIndex"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      },
       "post": {
-        "summary": "Submit a sourced claim (public, no API key)",
-        "description": "No Authorization header. Requires statement (1–2000 chars), 1–8 https sources, and game_id. Rejects javascript:, data:, http:, empty, IP literals, localhost, and placeholder hosts (example.com and similar). Body max 16384 bytes. Rate limit: 10 per IP per Asia/Shanghai hour and 100 per calendar day globally (Workers KV binding CLAIMS). New rows are untrusted public submissions; there is no pending queue. GET /v1/claims.json stays read-only.",
+        "operationId": "postClaim",
+        "summary": "Submit a sourced claim. No API key. Claims rate limit is unchanged.",
+        "description": "No API key. Authorization and X-API-Key are ignored and do not change the quota. Requires statement (1–2000 chars), 1–8 https sources, and game_id. Body max 16384 bytes. Rate limit is the existing CLAIMS KV limiter: 10 posts per IP per Asia/Shanghai hour and 100 per calendar day. This limiter is not the public /v1 read limiter. Stored rows are untrusted until a human reviews them. There is no pending queue.",
+        "security": [],
         "requestBody": {
           "required": true,
           "content": {
@@ -136,33 +1268,56 @@
         },
         "responses": {
           "201": {
-            "description": "Stored. Untrusted until a human reviews it."
+            "description": "Stored. Untrusted until a human reviews it.",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimCreated"
+                }
+              }
+            }
           },
           "400": {
-            "description": "Missing or invalid statement, game_id, or source"
+            "description": "Missing or invalid statement, game_id, or source.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimsError"
+                }
+              }
+            }
           },
           "413": {
-            "description": "Body too large (max 16384 bytes)"
+            "description": "Body too large (max 16384 bytes).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimsError"
+                }
+              }
+            }
           },
           "429": {
-            "description": "Rate limited (10 per IP per hour, or 100 per day globally)"
+            "description": "Claims limiter: 10 per IP per hour, or 100 per day. Body keeps scope and limit. Not the public read limiter.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClaimsError"
+                }
+              }
+            }
           },
           "503": {
-            "description": "Claims KV binding not configured"
-          }
-        }
-      }
-    },
-    "/v1/games/index.json": {
-      "get": {
-        "summary": "Game catalog index. Updates on publish. Stubs are identity-only.",
-        "responses": {
-          "200": {
-            "description": "OK",
+            "description": "Claims KV binding is not configured.",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/GamesIndex"
+                  "$ref": "#/components/schemas/ClaimsError"
                 }
               }
             }
@@ -170,342 +1325,2885 @@
         }
       }
     },
-    "/v1/games/{id}.json": {
+    "/v1/portrait": {
       "get": {
-        "summary": "One game entity. stub true = name, platforms, tags, sources, steam_appid.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Game"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/catalog-aliases.json": {
-      "get": {
-        "summary": "Catalog nickname map. Look up alias → id → /v1/games/{id}.json. Not character aliases.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CatalogAliases"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/feed.json": {
-      "get": {
-        "summary": "Recent intel items from real digest and radar rows. Rebuilds on catalog export.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Feed"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/watchlist.json": {
-      "get": {
-        "summary": "Watchlist for deep guides. Best-effort daily.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Watchlist"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/digest.json": {
-      "get": {
-        "summary": "Digest headlines. Best-effort daily.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Digest"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/calendar.json": {
-      "get": {
-        "summary": "Event calendar. Best-effort daily.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Calendar"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/calendar-hw.json": {
-      "get": {
-        "summary": "HW calendar. Best-effort daily.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Calendar"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/radar.json": {
-      "get": {
-        "summary": "New-game radar. Best-effort daily. Not a second catalog.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/index.json": {
-      "get": {
-        "summary": "Guide coverage",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/GuidesIndex"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/{game}/index.json": {
-      "get": {
-        "summary": "Character list for one game",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/{game}/aliases.json": {
-      "get": {
-        "summary": "Nickname map",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Aliases"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/{game}/characters/{id}.json": {
-      "get": {
-        "summary": "Character card. Non-stub requires sources and as_of.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CharacterCard"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/{game}/banners.json": {
-      "get": {
-        "summary": "Current and recent banners for one game. Times and UP names stay with their source.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/guides/{game}/codes.json": {
-      "get": {
-        "summary": "Redeem codes with rewards, expiry, source, and checked date. Expired rows stay marked.",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "additionalProperties": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v1/personal": {
-      "get": {
-        "summary": "Stateless personal digest. Query games (comma-separated ids) and chars (comma-separated game:id), or code=gi1.… . Filters published feed, digest, banners, and codes. Stores nothing.",
+        "operationId": "getPortrait",
+        "summary": "Proxy one allowlisted portrait image. 只代理允许的立绘 URL。",
         "parameters": [
-          { "name": "games", "in": "query", "schema": { "type": "string" } },
-          { "name": "chars", "in": "query", "schema": { "type": "string" } },
-          { "name": "code", "in": "query", "schema": { "type": "string" } }
+          {
+            "name": "u",
+            "in": "query",
+            "required": true,
+            "description": "Absolute https image URL on an allowlisted host. Query strings are rejected.",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
-            "description": "OK",
+            "description": "Image bytes.",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
             "content": {
-              "application/json": {
-                "schema": { "$ref": "#/components/schemas/Personal" }
+              "image/png": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "image/jpeg": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "image/webp": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              },
+              "image/gif": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
               }
             }
           },
-          "400": { "description": "Bad follow list" }
-        }
-      }
-    },
-    "/v1/personal.atom": {
-      "get": {
-        "summary": "Atom feed for the same /v1/personal filter. Stores nothing.",
-        "parameters": [
-          { "name": "games", "in": "query", "schema": { "type": "string" } },
-          { "name": "chars", "in": "query", "schema": { "type": "string" } },
-          { "name": "code", "in": "query", "schema": { "type": "string" } }
-        ],
-        "responses": {
-          "200": { "description": "application/atom+xml" },
-          "400": { "description": "Bad follow list" }
-        }
-      }
-    },
-    "/v1/guides/hw/dopamine-auto.json": {
-      "get": {
-        "summary": "HW dopamine auto teams",
-        "responses": {
-          "200": {
-            "description": "OK",
+          "400": {
+            "description": "rejected_url. text/plain, not the JSON error body.",
             "content": {
-              "application/json": {
+              "text/plain": {
                 "schema": {
-                  "type": "object",
-                  "additionalProperties": true
+                  "type": "string"
                 }
               }
             }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "405": {
+            "description": "POST is rejected."
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLlms",
+        "summary": "Agent route map.",
+        "responses": {
+          "200": {
+            "description": "text/plain",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/developers/": {
+      "get": {
+        "operationId": "getDevelopers",
+        "summary": "Developer page (Chinese and English).",
+        "responses": {
+          "200": {
+            "description": "text/html",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/developers/index.html": {
+      "get": {
+        "operationId": "getDevelopersIndex",
+        "summary": "Same developer page.",
+        "responses": {
+          "200": {
+            "description": "text/html",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/.well-known/mcp.json": {
+      "get": {
+        "operationId": "getMcpCatalog",
+        "summary": "MCP discovery. Same document as /.well-known/ai-catalog.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AiCatalog"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/.well-known/ai-catalog.json": {
+      "get": {
+        "operationId": "getAiCatalog",
+        "summary": "MCP AI Catalog.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AiCatalog"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/mcp/server-card": {
+      "get": {
+        "operationId": "getServerCard",
+        "summary": "MCP server card.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServerCard"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/server-card": {
+      "get": {
+        "operationId": "getServerCardAlias",
+        "summary": "MCP server card alias.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServerCard"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/mcp": {
+      "post": {
+        "operationId": "postMcp",
+        "summary": "Read-only MCP streamable HTTP. Tools include list_banners, list_codes, and personal_digest.",
+        "description": "Streamable HTTP JSON-RPC. Protocol errors stay JSON-RPC. HTTP 401 and 429 from the public gate use the unified Error body, not a JSON-RPC envelope. Tools are read-only and include list_banners, list_codes, and personal_digest for the eight deep games.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JsonRpcRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC result.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonRpcResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "JSON-RPC parse or protocol error."
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "403": {
+            "description": "Origin not allowed."
+          },
+          "405": {
+            "description": "GET is not an SSE stream. Use POST."
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/claims/index.html": {
+      "get": {
+        "operationId": "getClaimsHtml",
+        "summary": "Human claims mirror.",
+        "responses": {
+          "200": {
+            "description": "text/html",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/aliases.schema.json": {
+      "get": {
+        "operationId": "getSchema_aliases_schema_json",
+        "summary": "JSON Schema aliases.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/calendar.schema.json": {
+      "get": {
+        "operationId": "getSchema_calendar_schema_json",
+        "summary": "JSON Schema calendar.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/catalog-aliases.schema.json": {
+      "get": {
+        "operationId": "getSchema_catalog_aliases_schema_json",
+        "summary": "JSON Schema catalog-aliases.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/character-card.schema.json": {
+      "get": {
+        "operationId": "getSchema_character_card_schema_json",
+        "summary": "JSON Schema character-card.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/claim.schema.json": {
+      "get": {
+        "operationId": "getSchema_claim_schema_json",
+        "summary": "JSON Schema claim.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/claims-index.schema.json": {
+      "get": {
+        "operationId": "getSchema_claims_index_schema_json",
+        "summary": "JSON Schema claims-index.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/digest.schema.json": {
+      "get": {
+        "operationId": "getSchema_digest_schema_json",
+        "summary": "JSON Schema digest.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/feed.schema.json": {
+      "get": {
+        "operationId": "getSchema_feed_schema_json",
+        "summary": "JSON Schema feed.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/game.schema.json": {
+      "get": {
+        "operationId": "getSchema_game_schema_json",
+        "summary": "JSON Schema game.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/games-index.schema.json": {
+      "get": {
+        "operationId": "getSchema_games_index_schema_json",
+        "summary": "JSON Schema games-index.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/guides-index.schema.json": {
+      "get": {
+        "operationId": "getSchema_guides_index_schema_json",
+        "summary": "JSON Schema guides-index.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/personal.schema.json": {
+      "get": {
+        "operationId": "getSchema_personal_schema_json",
+        "summary": "JSON Schema personal.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
+    "/schema/watchlist.schema.json": {
+      "get": {
+        "operationId": "getSchema_watchlist_schema_json",
+        "summary": "JSON Schema watchlist.schema.json.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
           }
         }
       }
     }
   },
   "components": {
+    "securitySchemes": {
+      "apiKey": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key",
+        "description": "Optional. Higher /v1 and /mcp limit. Not used by POST /v1/claims."
+      },
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Optional. Same keys as X-API-Key. Not used by POST /v1/claims."
+      }
+    },
+    "headers": {
+      "ApiVersion": {
+        "description": "Public API version.",
+        "schema": {
+          "type": "string",
+          "const": "1"
+        },
+        "required": true
+      },
+      "ETag": {
+        "description": "Strong validator for GET JSON and other 200 responses.",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "AllowOrigin": {
+        "schema": {
+          "type": "string",
+          "const": "*"
+        }
+      },
+      "RetryAfter": {
+        "description": "Seconds to wait. Equals the rate-limit period.",
+        "schema": {
+          "type": "integer",
+          "const": 60
+        }
+      }
+    },
+    "responses": {
+      "InvalidKey": {
+        "description": "A key was sent and it is not in GAME_INTEL_API_KEYS.",
+        "headers": {
+          "X-API-Version": {
+            "$ref": "#/components/headers/ApiVersion"
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "RateLimited": {
+        "description": "Public limiter. Retry-After is 60. Not used for POST /v1/claims.",
+        "headers": {
+          "Retry-After": {
+            "$ref": "#/components/headers/RetryAfter"
+          },
+          "X-API-Version": {
+            "$ref": "#/components/headers/ApiVersion"
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "No published document at this path.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    },
     "schemas": {
+      "Error": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "ok",
+          "error",
+          "message",
+          "api_version",
+          "status"
+        ],
+        "properties": {
+          "ok": {
+            "const": false
+          },
+          "error": {
+            "type": "string",
+            "examples": [
+              "rate_limited",
+              "invalid_api_key",
+              "not_found",
+              "method_not_allowed"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "api_version": {
+            "const": "1"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "tier": {
+            "enum": [
+              "anonymous",
+              "key"
+            ]
+          },
+          "limit": {
+            "type": "integer"
+          },
+          "retry_after": {
+            "type": "integer"
+          }
+        }
+      },
+      "ClaimsError": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "ok",
+          "error"
+        ],
+        "description": "Existing claims submission error. Unchanged. 429 includes scope and limit.",
+        "properties": {
+          "ok": {
+            "const": false
+          },
+          "error": {
+            "type": "string"
+          },
+          "scope": {
+            "enum": [
+              "ip",
+              "day"
+            ]
+          },
+          "limit": {
+            "type": "integer"
+          },
+          "max_bytes": {
+            "type": "integer"
+          }
+        }
+      },
+      "Health": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "api_version",
+          "service",
+          "timezone",
+          "openapi",
+          "developers",
+          "mcp",
+          "rate_limit"
+        ],
+        "properties": {
+          "ok": {
+            "const": true
+          },
+          "api_version": {
+            "const": "1"
+          },
+          "service": {
+            "const": "game-intel"
+          },
+          "timezone": {
+            "const": "Asia/Shanghai"
+          },
+          "openapi": {
+            "const": "/v1/openapi.json"
+          },
+          "developers": {
+            "const": "/developers/"
+          },
+          "mcp": {
+            "const": "/mcp"
+          },
+          "rate_limit": {
+            "enum": [
+              "active",
+              "partial",
+              "degraded"
+            ],
+            "description": "degraded means a rate-limit binding is missing and requests are allowed."
+          }
+        }
+      },
+      "OpenApiDocument": {
+        "type": "object",
+        "additionalProperties": true,
+        "description": "This document."
+      },
+      "JsonSchemaDocument": {
+        "type": "object",
+        "additionalProperties": true
+      },
       "ClaimInput": {
-        "$ref": "/schema/claim.schema.json"
+        "title": "game-intel sourced claim",
+        "description": "Public POST /v1/claims body. No API key. statement, sources, and game_id are required. sources must be https URLs with a real host (not javascript:, data:, http:, empty, IP literals, localhost, or placeholder hosts such as example.com). Caps: statement 2000 chars, 1–8 sources, each URL ≤ 500, body ≤ 16384 bytes. Rate limit: 10 per IP per Asia/Shanghai hour and 100 per calendar day globally.",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "statement",
+          "sources",
+          "game_id"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000,
+            "description": "Alias of statement"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 8,
+            "items": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          },
+          "game_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+          },
+          "game": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$",
+            "description": "Alias of game_id. The API accepts either."
+          },
+          "character_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+          },
+          "character": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "submitter": {
+            "type": "string",
+            "maxLength": 80
+          }
+        }
       },
       "ClaimsIndex": {
-        "$ref": "/schema/claims-index.schema.json"
+        "title": "game-intel claims mirror",
+        "description": "Read-only mirror of public claim submissions. There is no pending/approved queue. Rows are untrusted until a human reviews them. list_claims returns this same list.",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "count",
+          "timezone",
+          "claims"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "timezone": {
+            "type": "string",
+            "const": "Asia/Shanghai"
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "statement",
+                "sources",
+                "as_of",
+                "submitted_at",
+                "timezone"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "statement": {
+                  "type": "string"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "game_id": {
+                  "type": "string"
+                },
+                "character_id": {
+                  "type": "string"
+                },
+                "as_of": {
+                  "type": "string"
+                },
+                "submitted_at": {
+                  "type": "string"
+                },
+                "timezone": {
+                  "type": "string"
+                },
+                "submitter": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "ClaimCreated": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "claim"
+        ],
+        "properties": {
+          "ok": {
+            "const": true
+          },
+          "claim": {
+            "$ref": "#/components/schemas/StoredClaim"
+          }
+        }
+      },
+      "StoredClaim": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "id",
+          "statement",
+          "sources",
+          "game_id",
+          "as_of",
+          "submitted_at",
+          "timezone"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "game_id": {
+            "type": "string"
+          },
+          "character_id": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "submitted_at": {
+            "type": "string"
+          },
+          "timezone": {
+            "const": "Asia/Shanghai"
+          },
+          "submitter": {
+            "type": "string"
+          }
+        }
       },
       "Game": {
-        "$ref": "/schema/game.schema.json"
-      },
-      "CatalogAliases": {
-        "$ref": "/schema/catalog-aliases.schema.json"
+        "title": "game-intel game entity",
+        "description": "Light catalog rows (stub true, watchlist false) store identity only: name, platforms, tags, sources, steam_appid. Character guide cards are published only for watchlist games. Do not invent scores, prices, or player counts. If a fact has no https source, say 未见可靠出处. When sources disagree: official > review sites > forums.",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "platforms",
+          "stub",
+          "as_of",
+          "timezone"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Stable slug, e.g. hw / balatro"
+          },
+          "name": {
+            "type": "string",
+            "description": "Canonical display name (usually EN / official)"
+          },
+          "name_zh": {
+            "type": "string",
+            "description": "Optional Chinese display name"
+          },
+          "platforms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "steam",
+                "pc",
+                "ps5",
+                "xbox",
+                "switch",
+                "mobile",
+                "other"
+              ]
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "e.g. gacha|indie|aaa|rpg|roguelike|…"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "url"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            },
+            "description": "https only (Steam store and/or official site). Never invent. When citing, official > review sites > forums."
+          },
+          "steam_appid": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Steam AppID when known; omit or null if unknown"
+          },
+          "stub": {
+            "type": "boolean",
+            "description": "true = light catalog identity only (no character card, no scores). false = watchlist game that may have guides."
+          },
+          "watchlist": {
+            "type": "boolean",
+            "description": "true = deep-dive watch list (character cards may exist). false = directory stub."
+          },
+          "guides_path": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Human guides path when coverage exists, e.g. /guides/hw/"
+          },
+          "as_of": {
+            "type": "string",
+            "description": "Asia/Shanghai date YYYY-MM-DD"
+          },
+          "timezone": {
+            "type": "string",
+            "const": "Asia/Shanghai"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
       },
       "GamesIndex": {
-        "$ref": "/schema/games-index.schema.json"
+        "title": "game-intel games catalog index",
+        "description": "Directory index. Stub rows are identity-only. Character cards are not listed here; they live under /v1/guides for watchlist games.",
+        "type": "object",
+        "required": [
+          "as_of",
+          "timezone",
+          "games"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "as_of": {
+            "type": "string"
+          },
+          "timezone": {
+            "type": "string",
+            "const": "Asia/Shanghai"
+          },
+          "note": {
+            "type": "string",
+            "description": "Catalog rule: stub true = name/platforms/tags/sources/steam_appid only. Unverified facts: 未见可靠出处."
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "watchlist_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "stub_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "stub"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "platforms": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "stub": {
+                  "type": "boolean"
+                },
+                "watchlist": {
+                  "type": "boolean"
+                },
+                "steam_appid": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "path": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "CatalogAliases": {
+        "title": "game-intel catalog aliases",
+        "description": "Nickname → catalog id. Resolve the alias, then GET /v1/games/{id}.json. Character nicknames are /v1/guides/{game}/aliases.json, not this file.",
+        "type": "object",
+        "required": [
+          "timezone",
+          "aliases"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "as_of": {
+            "type": "string"
+          },
+          "timezone": {
+            "type": "string",
+            "const": "Asia/Shanghai"
+          },
+          "note": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "aliases": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "lang": {
+                  "type": "string",
+                  "enum": [
+                    "zh",
+                    "en",
+                    "ko",
+                    "ja",
+                    "other"
+                  ]
+                }
+              }
+            }
+          }
+        }
       },
       "Feed": {
-        "$ref": "/schema/feed.schema.json"
+        "title": "game-intel cross-platform feed",
+        "type": "object",
+        "required": [
+          "meta",
+          "items"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "meta": {
+            "type": "object",
+            "required": [
+              "as_of",
+              "timezone"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "as_of": {
+                "type": "string"
+              },
+              "timezone": {
+                "type": "string",
+                "const": "Asia/Shanghai"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "game_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "platform": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
       },
       "Watchlist": {
-        "$ref": "/schema/watchlist.schema.json"
+        "title": "game-intel watchlist",
+        "type": "object",
+        "required": [
+          "meta",
+          "games"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "meta": {
+            "type": "object",
+            "required": [
+              "fixture",
+              "generated_at",
+              "timezone",
+              "source"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "fixture": {
+                "type": "boolean"
+              },
+              "generated_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "timezone": {
+                "type": "string",
+                "const": "Asia/Shanghai"
+              },
+              "source": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "name_zh",
+                "keywords"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "keywords": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "gamekee_alias": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "official_url": {
+                  "type": "string"
+                },
+                "official_site": {
+                  "type": "string"
+                },
+                "official_api": {
+                  "type": "string"
+                },
+                "steam_appid": {
+                  "type": [
+                    "integer",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
+        }
       },
       "Digest": {
-        "$ref": "/schema/digest.schema.json"
+        "title": "game-intel digest",
+        "type": "object",
+        "required": [
+          "meta",
+          "digests"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "meta": {
+            "type": "object",
+            "required": [
+              "fixture",
+              "generated_at",
+              "timezone",
+              "source"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "fixture": {
+                "type": "boolean"
+              },
+              "generated_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "timezone": {
+                "type": "string",
+                "const": "Asia/Shanghai"
+              },
+              "source": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "digests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "game",
+                "name",
+                "name_zh",
+                "ok",
+                "count",
+                "items"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "game": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "ok": {
+                  "type": "boolean"
+                },
+                "count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "title",
+                      "url",
+                      "source"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "title": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "is_new": {
+                        "type": "boolean"
+                      },
+                      "summary": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       },
       "Calendar": {
-        "$ref": "/schema/calendar.schema.json"
+        "title": "game-intel calendar",
+        "type": "object",
+        "required": [
+          "meta",
+          "as_of",
+          "count",
+          "events"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "meta": {
+            "type": "object",
+            "required": [
+              "fixture",
+              "generated_at",
+              "timezone",
+              "source"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "fixture": {
+                "type": "boolean"
+              },
+              "generated_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "timezone": {
+                "type": "string",
+                "const": "Asia/Shanghai"
+              },
+              "source": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "game",
+                "name",
+                "type",
+                "title",
+                "start",
+                "end",
+                "note",
+                "url",
+                "source",
+                "confidence"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "game": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "banner",
+                    "event",
+                    "maintenance",
+                    "collab",
+                    "login",
+                    "other"
+                  ]
+                },
+                "title": {
+                  "type": "string"
+                },
+                "start": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "end": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "note": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "high"
+                  ]
+                },
+                "precision": {
+                  "type": "string",
+                  "enum": [
+                    "month"
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
       },
       "GuidesIndex": {
-        "$ref": "/schema/guides-index.schema.json"
+        "title": "game-intel guides index",
+        "type": "object",
+        "required": [
+          "as_of",
+          "games"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "as_of": {
+            "type": "string",
+            "description": "Asia/Shanghai date or month, e.g. 2026-09-18"
+          },
+          "timezone": {
+            "type": "string",
+            "const": "Asia/Shanghai"
+          },
+          "note": {
+            "type": "string"
+          },
+          "games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "name_zh",
+                "character_count"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "character_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "rich_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "stub_count": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "has_aliases": {
+                  "type": "boolean"
+                },
+                "has_modes": {
+                  "type": "boolean"
+                },
+                "path": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
       },
       "CharacterCard": {
-        "$ref": "/schema/character-card.schema.json"
+        "title": "game-intel character guide card",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "game"
+        ],
+        "additionalProperties": true,
+        "allOf": [
+          {
+            "if": {
+              "not": {
+                "required": [
+                  "stub"
+                ],
+                "properties": {
+                  "stub": {
+                    "const": true
+                  }
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "sources",
+                "as_of"
+              ],
+              "properties": {
+                "sources": {
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 8
+                  }
+                },
+                "as_of": {
+                  "type": "string",
+                  "minLength": 4,
+                  "description": "Asia/Shanghai date or month the card was verified, e.g. 2026-09"
+                }
+              }
+            },
+            "description": "Non-stub cards (stub absent or false) must cite sources and as_of."
+          }
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "description": "Canonical display name (usually ZH)"
+          },
+          "name_zh": {
+            "type": "string"
+          },
+          "name_en": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nicknames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "game": {
+            "type": "string"
+          },
+          "role": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "summary": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "skill_prio": {
+            "type": "array",
+            "description": "Cited 加点 / 练度 lines. Empty when the source does not state an order or level.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "stigmata": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": true
+          },
+          "weapon": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "teams": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": true,
+            "description": "Short cited 配队 notes. HW dopamine_auto is A/B/C from the auto roster. HW mode cells story, rift_45, dopamine, spec_ops, union, training are √ or × from the GameKee 适用场合表. comp is an array of verbatim sentences. A BD2 costume name key is that costume's 测评 line. Empty object when no sentence was published."
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 8
+            },
+            "description": "Verified source URLs (GameKee / Prydwen / Bahamut). Required when stub is not true."
+          },
+          "stub": {
+            "type": "boolean",
+            "description": "true = placeholder; do not invent skills"
+          },
+          "note": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string",
+            "minLength": 4,
+            "description": "Required on non-stub cards. Asia/Shanghai date or month."
+          },
+          "verified": {
+            "type": "string"
+          },
+          "gamekee_content_id": {
+            "type": [
+              "integer",
+              "string",
+              "null"
+            ]
+          },
+          "gamekee_entry_id": {
+            "type": [
+              "integer",
+              "string",
+              "null"
+            ]
+          },
+          "portrait": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Public https portrait for hw, nikke, and bd2. null when no cited image loaded. GameKee entry icons are cdnimg-v2.gamekee.com; a Nikke card with no icon may use a cdn.prydwen.gg image that appears on a Prydwen page already in sources."
+          },
+          "portrait_source": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "URL the portrait was read from. GameKee cards cite /v1/entry/list. Prydwen fallbacks cite that character page. null when portrait is null."
+          },
+          "portrait_via": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Which field supplied the URL, e.g. gamekee-entry-icon:hw:163036 or prydwen-character:biscuit. null when portrait is null."
+          },
+          "summary": {
+            "type": "object",
+            "description": "Human+AI conclusion line. Required on non-stub HW/NIKKE/BD2 cards at export. summary.stub true = thin evidence (no invented tier/pull). Omit on skill stubs.",
+            "additionalProperties": true,
+            "required": [
+              "sources"
+            ],
+            "properties": {
+              "tier": {
+                "type": "string",
+                "description": "Verified strength line, e.g. GameKee T度. Do not invent."
+              },
+              "position": {
+                "type": "string",
+                "description": "Catalog class/element/rarity when no verified tier exists."
+              },
+              "pull": {
+                "type": "string",
+                "description": "Pull advice copied from a cited source. No invented numbers."
+              },
+              "skip": {
+                "type": "string",
+                "description": "What not to chase, only when a source says so."
+              },
+              "caveat": {
+                "type": "string",
+                "description": "Honest limit of the conclusion (missing tier list, no pull text)."
+              },
+              "stub": {
+                "type": "boolean",
+                "description": "true = conclusion incomplete; do not treat tier/pull as verified."
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 8
+                },
+                "description": "Verified source URLs for the conclusion bar"
+              }
+            }
+          },
+          "sinner": {
+            "type": "object",
+            "description": "Limbus Company: the sinner this Identity card belongs to. Game and follow pages group by sinner.id. Other games omit it.",
+            "additionalProperties": true,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name_en": {
+                "type": "string"
+              },
+              "name_zh": {
+                "type": "string"
+              },
+              "order": {
+                "type": "integer"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          },
+          "sin_affinities": {
+            "type": "array",
+            "description": "Limbus Company sin resource counts copied from the identity page. Do not invent a count.",
+            "items": {
+              "type": "object",
+              "required": [
+                "sin"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "sin": {
+                  "type": "string"
+                },
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
       },
       "Aliases": {
-        "$ref": "/schema/aliases.schema.json"
+        "title": "game-intel guide aliases",
+        "type": "object",
+        "required": [
+          "aliases"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "_meta": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "game": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "as_of": {
+                "type": "string"
+              }
+            }
+          },
+          "aliases": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "kind"
+              ],
+              "additionalProperties": true,
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "character",
+                    "stigmata_set",
+                    "mode",
+                    "other"
+                  ]
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
       },
       "Personal": {
-        "$ref": "/schema/personal.schema.json"
+        "title": "game-intel personal digest",
+        "description": "Stateless filter of published feed, digest, banners, and codes. The server does not store the games or chars list.",
+        "type": "object",
+        "required": [
+          "ok",
+          "stateless",
+          "stored",
+          "follows",
+          "highlights",
+          "feed",
+          "digest",
+          "banners",
+          "codes"
+        ],
+        "additionalProperties": true,
+        "properties": {
+          "ok": {
+            "type": "boolean"
+          },
+          "stateless": {
+            "const": true
+          },
+          "stored": {
+            "const": false
+          },
+          "follows": {
+            "type": "object",
+            "required": [
+              "games",
+              "chars"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "games": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "chars": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "game",
+                    "id"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "game": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "highlights": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "banners": {
+                "type": "array"
+              },
+              "codes_new": {
+                "type": "array"
+              },
+              "codes_expiring": {
+                "type": "array"
+              }
+            }
+          },
+          "feed": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "digest": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "banners": {
+            "type": "array"
+          },
+          "codes": {
+            "type": "array"
+          }
+        }
+      },
+      "GuideGameIndex": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "game",
+          "as_of",
+          "characters"
+        ],
+        "properties": {
+          "game": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_zh": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "timezone": {
+            "type": "string"
+          },
+          "character_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "links": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "banners": {
+                "type": "string"
+              },
+              "codes": {
+                "type": "string"
+              }
+            }
+          },
+          "characters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "stub": {
+                  "type": "boolean"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Banners": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "game",
+          "as_of",
+          "banners"
+        ],
+        "properties": {
+          "game": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "timezone_note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "banners": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string",
+                  "description": "Known values include current, upcoming, ended."
+                },
+                "up": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "up_characters": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "label": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "start": {
+                  "type": "string"
+                },
+                "end": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "as_of": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Codes": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "game",
+          "as_of",
+          "codes"
+        ],
+        "properties": {
+          "game": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "checked": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "redeem_url": {
+            "type": "string",
+            "description": "Publisher page, when one was published. This API does not redeem."
+          },
+          "codes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "rewards": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string",
+                  "description": "Known values: active, reported_working, listed_permanent, expired, expiry_not_stated, window_stated_without_year. Do not treat expired or expiry_not_stated as live."
+                },
+                "expires": {},
+                "source": {
+                  "type": "string"
+                },
+                "checked": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Radar": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "ok": {
+            "type": "boolean"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "why": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "DopamineAuto": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "id",
+          "game",
+          "teams"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "game": {
+            "const": "hw"
+          },
+          "name": {
+            "type": "string"
+          },
+          "as_of": {
+            "type": "string"
+          },
+          "teams": {
+            "type": "array"
+          }
+        }
+      },
+      "AiCatalog": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "specVersion",
+          "entries"
+        ],
+        "properties": {
+          "specVersion": {
+            "const": "1.0"
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "identifier",
+                "type",
+                "url"
+              ],
+              "properties": {
+                "identifier": {
+                  "type": "string"
+                },
+                "type": {
+                  "const": "application/mcp-server-card+json"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "ServerCard": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "name",
+          "version",
+          "title",
+          "description",
+          "remotes"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "websiteUrl": {
+            "type": "string"
+          },
+          "remotes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "type",
+                "url"
+              ],
+              "properties": {
+                "type": {
+                  "const": "streamable-http"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "supportedProtocolVersions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "JsonRpcRequest": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "jsonrpc",
+          "method"
+        ],
+        "properties": {
+          "jsonrpc": {
+            "const": "2.0"
+          },
+          "id": {},
+          "method": {
+            "type": "string"
+          },
+          "params": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      },
+      "JsonRpcResponse": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "jsonrpc": {
+            "const": "2.0"
+          },
+          "id": {},
+          "result": {},
+          "error": {}
+        }
       }
     }
   }

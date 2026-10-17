@@ -31,7 +31,7 @@ export async function readJson(env, origin, pathname) {
 }
 
 export function resolvePublicPath(pathname) {
-  if (pathname === "/llms.txt" || pathname === "/openapi.json") return pathname;
+  if (pathname === "/llms.txt" || pathname === "/openapi.json" || pathname === "/v1/openapi.json") return pathname;
   if (pathname === "/v1/games/index.json") return pathname;
   if (pathname === "/v1/catalog-aliases.json") return pathname;
   if (pathname === "/v1/digest.json") return pathname;
@@ -42,6 +42,7 @@ export function resolvePublicPath(pathname) {
   if (pathname === "/v1/calendar-hw.json") return pathname;
   if (pathname === "/v1/guides/index.json") return pathname;
   if (pathname === "/v1/guides/hw/dopamine-auto.json") return pathname;
+  if (pathname === "/v1/guides/hw/modes/dopamine-auto.json") return pathname;
 
   let m = pathname.match(/^\/v1\/games\/([a-z0-9][a-z0-9_-]{0,63})\.json$/);
   if (m && isSlug(m[1])) return pathname;

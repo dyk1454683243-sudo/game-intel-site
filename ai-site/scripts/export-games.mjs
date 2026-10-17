@@ -8,6 +8,7 @@ import "./require-node22.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { openApiDocument } from "../src/openapi.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -236,7 +237,8 @@ function writeHomePages(games, feed, asOf) {
 | \`/catalog/\` | Human catalog search |
 | \`/watchlist/\` | Human watchlist |
 | \`/game/?id=\` | Identity card. Non-deep games show 尚无深耕 |
-| \`/character/?game=&id=\` | Deep character card (hw, nikke, bd2 only) |
+| \`/character/?game=&id=\` | Deep character card (hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves) |
+| \`/developers/\` | Public API notes (中文 + English), curl, and MCP client config |
 | \`/me/\` | Personal follows. List stays in the browser |
 | \`/v1/personal\` | Stateless filter. Query games and chars. Stores nothing |
 | \`/v1/personal.atom\` | Atom for the same filter |
@@ -249,7 +251,7 @@ function writeHomePages(games, feed, asOf) {
 | \`/v1/calendar.json\` / \`calendar-hw.json\` | Calendar |
 | \`/v1/radar.json\` | New-game radar |
 | \`/schema/*.schema.json\` | JSON Schema draft-07 |
-| \`/openapi.json\` | OpenAPI 3.0 map of public GET \`/v1\` plus POST \`/v1/claims\` |
+| \`/v1/openapi.json\` | OpenAPI 3.1 (same document as \`/openapi.json\`) |
 | \`/llms.txt\` | Agent discovery map |
 | \`/.well-known/mcp.json\` | MCP discovery (AI Catalog alias) |
 | \`/mcp\` | Read-only remote MCP (streamable HTTP) |
@@ -261,7 +263,7 @@ function writeHomePages(games, feed, asOf) {
 - \`stub: true\` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
 - Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
-- Human UI v0 reads \`/v1\` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
+- Human UI reads \`/v1\` in the browser. Full character cards are the eight deep games. Other games stay identity-only and show 尚无深耕. Developer notes: \`/developers/\`.
 - Guides remain under \`/guides/*\` and \`/v1/guides/*\` (unchanged contract).
 - Non-stub character cards require \`sources\` + \`as_of\`. HW/NIKKE/BD2 also require \`summary\` (conclusion). \`summary.stub: true\` means the conclusion is incomplete.
 - POST \`/v1/claims\` is public (no API key). Every claim needs statement text, an https source, and \`game_id\`. GET \`/v1/claims.json\` lists those rows; they are untrusted until reviewed.
@@ -277,117 +279,9 @@ Catalog export as_of ${asOf}. Feed items: ${feed.meta.count}.
     process.exit(1);
   }
   fs.copyFileSync(llmsSrc, path.join(OUT_PUBLIC, "llms.txt"));
-  writeJson(path.join(OUT_PUBLIC, "openapi.json"), openApiDoc());
-}
-
-function openApiDoc() {
-  const json = { "application/json": { schema: { type: "object", additionalProperties: true } } };
-  const get = (summary, schema) => ({
-    get: {
-      summary,
-      responses: {
-        "200": {
-          description: "OK",
-          content: schema
-            ? { "application/json": { schema: { $ref: schema } } }
-            : json,
-        },
-      },
-    },
-  });
-  return {
-    openapi: "3.0.3",
-    info: {
-      title: "game-intel site",
-      version: "0.1.0",
-      description:
-        "Public read surface. POST /v1/claims is public (no API key): statement, https source URLs, and game_id are required; 10 posts per IP per hour and 100 per Asia/Shanghai day; body max 16384 bytes. Submitted claims are untrusted until reviewed (no pending queue). Catalog stubs are identity only (name, platforms, tags, sources, steam_appid); character cards are watchlist-only. Catalog updates on publish; digest and radar are best-effort daily. Source priority: official > review sites > forums. Non-stub character cards include sources and as_of. HW/NIKKE/BD2 cards include summary; summary.stub true means the conclusion is incomplete. GET routes have no auth. Remote MCP discovery is /.well-known/mcp.json.",
-    },
-    servers: [{ url: "https://game-intel-ai.dyk1454683243.workers.dev" }],
-    paths: {
-      "/.well-known/mcp.json": get("MCP discovery (AI Catalog alias of /.well-known/ai-catalog.json)"),
-      "/.well-known/ai-catalog.json": get("MCP AI Catalog"),
-      "/mcp/server-card": get("MCP server card"),
-      "/llms.txt": { get: { summary: "Agent route map", responses: { "200": { description: "text/markdown" } } } },
-      "/openapi.json": get("This document"),
-      "/v1/claims.json": get("Public claims mirror (untrusted until reviewed)", "#/components/schemas/ClaimsIndex"),
-      "/claims/index.html": { get: { summary: "Human claims mirror", responses: { "200": { description: "text/html" } } } },
-      "/v1/claims": {
-        post: {
-          summary: "Submit a sourced claim (public, no API key)",
-          description:
-            "No Authorization header. Requires statement (1–2000 chars), 1–8 https sources, and game_id. Rejects javascript:, data:, http:, empty, IP literals, localhost, and placeholder hosts (example.com and similar). Body max 16384 bytes. Rate limit: 10 per IP per Asia/Shanghai hour and 100 per calendar day globally (Workers KV binding CLAIMS). New rows are untrusted public submissions; there is no pending queue. GET /v1/claims.json stays read-only.",
-          requestBody: {
-            required: true,
-            content: {
-              "application/json": { schema: { $ref: "#/components/schemas/ClaimInput" } },
-            },
-          },
-          responses: {
-            "201": { description: "Stored. Untrusted until a human reviews it." },
-            "400": { description: "Missing or invalid statement, game_id, or source" },
-            "413": { description: "Body too large (max 16384 bytes)" },
-            "429": { description: "Rate limited (10 per IP per hour, or 100 per day globally)" },
-            "503": { description: "Claims KV binding not configured" },
-          },
-        },
-      },
-      "/v1/games/index.json": get("Game catalog index. Updates on publish. Stubs are identity-only.", "#/components/schemas/GamesIndex"),
-      "/v1/games/{id}.json": get("One game entity. stub true = name, platforms, tags, sources, steam_appid.", "#/components/schemas/Game"),
-      "/v1/catalog-aliases.json": get(
-        "Catalog nickname map. Look up alias → id → /v1/games/{id}.json. Not character aliases.",
-        "#/components/schemas/CatalogAliases"
-      ),
-      "/v1/feed.json": get("Recent intel items from real digest and radar rows. Rebuilds on catalog export.", "#/components/schemas/Feed"),
-      "/v1/watchlist.json": get("Watchlist for deep guides. Best-effort daily.", "#/components/schemas/Watchlist"),
-      "/v1/digest.json": get("Digest headlines. Best-effort daily.", "#/components/schemas/Digest"),
-      "/v1/calendar.json": get("Event calendar. Best-effort daily.", "#/components/schemas/Calendar"),
-      "/v1/calendar-hw.json": get("HW calendar. Best-effort daily.", "#/components/schemas/Calendar"),
-      "/v1/radar.json": get("New-game radar. Best-effort daily. Not a second catalog."),
-      "/v1/guides/index.json": get("Guide coverage", "#/components/schemas/GuidesIndex"),
-      "/v1/guides/{game}/index.json": get("Character list for one game"),
-      "/v1/guides/{game}/aliases.json": get("Nickname map", "#/components/schemas/Aliases"),
-      "/v1/guides/{game}/characters/{id}.json": get(
-        "Character card. Non-stub requires sources and as_of.",
-        "#/components/schemas/CharacterCard"
-      ),
-      "/v1/guides/hw/dopamine-auto.json": get("HW dopamine auto teams"),
-      "/v1/guides/{game}/banners.json": get("Current and recent banners for one game. Times and UP names stay with their source."),
-      "/v1/guides/{game}/codes.json": get("Redeem codes with rewards, expiry, source, and checked date. Expired rows stay marked."),
-      "/v1/personal": get(
-        "Stateless personal digest. Query games (comma-separated ids) and chars (comma-separated game:id), or code=gi1.… . Filters published feed, digest, banners, and codes. Stores nothing.",
-        "#/components/schemas/Personal"
-      ),
-      "/v1/personal.atom": {
-        get: {
-          summary: "Atom feed for the same /v1/personal filter. Stores nothing.",
-          parameters: [
-            { name: "games", in: "query", schema: { type: "string" } },
-            { name: "chars", in: "query", schema: { type: "string" } },
-            { name: "code", in: "query", schema: { type: "string" } },
-          ],
-          responses: { "200": { description: "application/atom+xml" } },
-        },
-      },
-    },
-    components: {
-      schemas: {
-        ClaimInput: { $ref: "/schema/claim.schema.json" },
-        ClaimsIndex: { $ref: "/schema/claims-index.schema.json" },
-        Game: { $ref: "/schema/game.schema.json" },
-        CatalogAliases: { $ref: "/schema/catalog-aliases.schema.json" },
-        GamesIndex: { $ref: "/schema/games-index.schema.json" },
-        Feed: { $ref: "/schema/feed.schema.json" },
-        Watchlist: { $ref: "/schema/watchlist.schema.json" },
-        Digest: { $ref: "/schema/digest.schema.json" },
-        Calendar: { $ref: "/schema/calendar.schema.json" },
-        GuidesIndex: { $ref: "/schema/guides-index.schema.json" },
-        CharacterCard: { $ref: "/schema/character-card.schema.json" },
-        Aliases: { $ref: "/schema/aliases.schema.json" },
-        Personal: { $ref: "/schema/personal.schema.json" },
-      },
-    },
-  };
+  const spec = openApiDocument();
+  writeJson(path.join(OUT_PUBLIC, "openapi.json"), spec);
+  writeJson(path.join(OUT_PUBLIC, "v1", "openapi.json"), spec);
 }
 
 function aliasLang(text) {

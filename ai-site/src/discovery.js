@@ -23,7 +23,7 @@ export const MODERN_PROTOCOL = "2026-07-28";
 export const LEGACY_PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26"];
 
 export const SERVER_DESCRIPTION =
-  "Read-only mirror of public game-intel JSON (guides, digest, radar, games). personal_digest filters that JSON for a games and chars list and stores nothing.";
+  "Read-only mirror of public game-intel JSON (guides, digest, radar, games, banners, codes). personal_digest filters that JSON for a games and chars list and stores nothing. See /developers/.";
 
 const SCHEMA =
   "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json";

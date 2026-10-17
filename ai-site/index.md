@@ -15,7 +15,8 @@
 | `/catalog/` | Human catalog search |
 | `/watchlist/` | Human watchlist |
 | `/game/?id=` | Identity card. Non-deep games show 尚无深耕 |
-| `/character/?game=&id=` | Deep character card (hw, nikke, bd2 only) |
+| `/character/?game=&id=` | Deep character card (hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves) |
+| `/developers/` | Public API notes (中文 + English), curl, and MCP client config |
 | `/me/` | Personal follows. List stays in the browser |
 | `/v1/personal` | Stateless filter. Query games and chars. Stores nothing |
 | `/v1/personal.atom` | Atom for the same filter |
@@ -28,7 +29,7 @@
 | `/v1/calendar.json` / `calendar-hw.json` | Calendar |
 | `/v1/radar.json` | New-game radar |
 | `/schema/*.schema.json` | JSON Schema draft-07 |
-| `/openapi.json` | OpenAPI 3.0 map of public GET `/v1` plus POST `/v1/claims` |
+| `/v1/openapi.json` | OpenAPI 3.1 (same document as `/openapi.json`) |
 | `/llms.txt` | Agent discovery map |
 | `/.well-known/mcp.json` | MCP discovery (AI Catalog alias) |
 | `/mcp` | Read-only remote MCP (streamable HTTP) |
@@ -40,6 +41,6 @@
 - `stub: true` on a non-watchlist row = name / platforms / tags / sources / steam_appid only. Character cards are watchlist-only.
 - Source priority: official > review sites > forums. If unverified, say 未见可靠出处.
 - Watchlist games first on human pages.
-- Human UI v0 reads `/v1` in the browser. Full character cards are hw / nikke / bd2 only. Other games stay identity-only and show 尚无深耕.
+- Human UI reads `/v1` in the browser. Full character cards are the eight deep games. Other games stay identity-only and show 尚无深耕. Developer notes: `/developers/`.
 - Guides remain under `/guides/*` and `/v1/guides/*` (unchanged contract).
 - Non-stub character cards require `sources` + `as_of`. HW/NIKKE/BD2 also require `summary` (conclusion). `summary.stub: true` means the conclusion is incomplete.
