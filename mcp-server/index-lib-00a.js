@@ -209,14 +209,6 @@ const DEFAULT_WATCHLIST = {
     official_site: "https://astraeoratio.plaync.com/zh-tw/index",
     official_api: "asora_official",
   },
-  "wuthering-waves": {
-    name: "Wuthering Waves",
-    name_zh: "鸣潮",
-    gamekee_alias: "mc",
-    keywords: ["鸣潮", "Wuthering Waves"],
-    official_url: "https://wutheringwaves.kurogames.com/zh-tw/main/news",
-    steam_appid: 3513350,
-  },
 };
 
 const DEFAULT_SOURCES = {
