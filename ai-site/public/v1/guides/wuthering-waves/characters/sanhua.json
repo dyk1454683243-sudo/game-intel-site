@@ -1,0 +1,88 @@
+{
+  "id": "sanhua",
+  "name": "散华",
+  "name_zh": "散华",
+  "name_en": "Sanhua",
+  "aliases": [
+    "Sanhua"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "冷凝",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "寒光",
+      "summary": "普攻 进行最多5段的连续攻击，造成冷凝伤害 重击 消耗耐力发动攻击，造成冷凝伤害 空中攻击 消耗耐力进行空中下落攻击，造成冷凝伤害 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成冷凝伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "朔雪永冻",
+      "summary": "造成冷凝伤害，剑气会留下 1 道【冰棱】",
+      "type": "skill"
+    },
+    {
+      "name": "焦瞑冻土",
+      "summary": "造成冷凝伤害，并形成1道[冰川]",
+      "type": "liberation"
+    },
+    {
+      "name": "无明心音",
+      "summary": "重击·爆裂 按住普攻时，指针将会移动，若指针在【冰痕】区域时松开普攻，散华将施放重击爆裂攻击目标，造成冷凝伤害，此次伤害为重击伤害。 冰绽 重击爆裂会引爆攻击范围内的【冰棘】、【冰棱】和【冰川】，造成冷凝伤害，冰绽造成的伤害为共鸣技能伤害。 冰痕区域扩大规则 每拥有 1 层【透视】都会扩大【冰痕】区域，最多可拥有 2 层【透视】。 施放第 5 段普攻时，获得 1 层【透视】。 施放变奏技能凛刺时，获得 1 层【透视】。 施放共鸣技能朔雪永冻时，获得 1 层【透视】。 施放共鸣解放焦冻土时，获得 2 层【透视】。 施放重击爆裂时，移除所有【透视】。",
+      "type": "forte"
+    },
+    {
+      "name": "凛刺",
+      "summary": "挥刀坠击 ，造成冷凝伤害，留下1道【冰棘】。",
+      "type": "intro"
+    },
+    {
+      "name": "凛絜",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）普攻伤害加深38%，效果持续14秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622934.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/sanhua"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622934,
+  "gamekee_entry_id": 150335,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/597537.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150335",
+  "prydwen_slug": "sanhua",
+  "summary": {
+    "tier": "Prydwen Hybrid [S6]：Tower of Adversity T2 / Whimpering Wastes T3",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/sanhua",
+      "https://www.gamekee.com/mc/622934.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 冷凝 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/sanhua",
+    "rows": [
+      {
+        "role": "Hybrid [S6]",
+        "tower": "T2",
+        "whimpering": "T3"
+      }
+    ]
+  }
+}

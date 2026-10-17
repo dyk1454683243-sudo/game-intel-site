@@ -1,0 +1,88 @@
+{
+  "id": "calcharo",
+  "name": "卡卡罗",
+  "name_zh": "卡卡罗",
+  "name_en": "Calcharo",
+  "aliases": [
+    "Calcharo"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "导电",
+  "weapon": "长刃",
+  "skills": [
+    {
+      "name": "猎犬剑技·獠牙撕扯",
+      "summary": "普攻 最多进行 4 段攻击，造成导电伤害。 重击 消耗耐力攻击目标，造成导电伤害。 空中攻击 消耗耐力进行空中下落攻击，造成导电伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成导电伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "灭杀指令",
+      "summary": "进行最多 3 段攻击，造成导电伤害。 若切换至其他角色或者一定时间内没有施放共鸣技能灭杀指令，则技能进入冷却状态。 共鸣技能灭杀指令不会打断普攻段数。",
+      "type": "skill"
+    },
+    {
+      "name": "幻影蚀刻",
+      "summary": "幻影蚀刻 攻击目标，造成导电伤害，并进入杀戮武装状态。状态结束后，卡卡罗下次变奏技能替换为变奏技能「必要的手段」，造成导电伤害，此次伤害为变奏技能伤害。 杀戮武装 - 普攻将变为普攻猎犬剑技·狂噬影狱； - 重击的伤害提升，此次伤害为共鸣解放伤害； - 闪避反击的伤害提升，此次伤害为共鸣解放伤害。 普攻·猎犬剑技·狂噬影狱 进行最多 5 段的连续攻击，造成导电伤害，此次伤害为普攻伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "猎杀使命",
+      "summary": "重击·「仁慈」 持有 3 点【残忍】时，重击替换为重击「仁慈」。 施放重击「仁慈」时，消耗 3 点【残忍】，造成导电伤害，此次伤害为重击伤害，并额外回复共鸣能量和协奏能量。 残忍的获取规则 【残忍】上限 3 点。 共鸣解放杀戮武装状态下，无法获得【残忍】。 共鸣技能灭杀指令命中目标时，获得 1 点【残忍】。 重击·「死告」 持有 5 点【杀意】时，普攻替换为重击「死告」。 施放重击「死告」时，消耗 5 点【杀意】，造成导电伤害，此次伤害为共鸣解放伤害，并额外回复共鸣能量和协奏能量。 【杀意】的获取规则 共鸣解放杀戮武装状态下，特殊能量替换为【杀意】。 【杀意】上限 5 点。 普攻猎犬剑技·狂噬影狱命中目标时，回复 1 点【杀意】。",
+      "type": "forte"
+    },
+    {
+      "name": "全境通缉",
+      "summary": "攻击目标，造成导电伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "掠影奇袭",
+      "summary": "卡卡罗召唤猎杀影支援共鸣者，挥刀肃清前方的目标。猎杀影的攻击将造成卡卡罗 195.98%+391.96% 攻击的导电伤害。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622978.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/calcharo"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622978,
+  "gamekee_entry_id": 150327,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/313861.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150327",
+  "prydwen_slug": "calcharo",
+  "summary": {
+    "tier": "Prydwen DPS [S0] Value：Tower of Adversity T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/calcharo",
+      "https://www.gamekee.com/mc/622978.html"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / 导电 / 长刃"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/calcharo",
+    "rows": [
+      {
+        "role": "DPS [S0] Value",
+        "tower": "T4",
+        "value": true
+      }
+    ]
+  }
+}

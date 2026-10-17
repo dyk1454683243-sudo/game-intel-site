@@ -1,0 +1,93 @@
+{
+  "id": "buling",
+  "name": "卜灵",
+  "name_zh": "卜灵",
+  "name_en": "Buling",
+  "aliases": [
+    "Buling"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "Electro",
+  "weapon": "Rectifier",
+  "skills": [
+    {
+      "name": "Hexagram Calls, Lightning Falls",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 4 consecutive attacks, dealing Electro DMG. Heavy Attack - Mountain Over Thunder - Hold Normal Attack to consume the highlighted Trigram - Mountain and Trigram - Thunder from left to right and cast Heavy Attack - Mountain Over Thunder, dealing Electro DMG. Heavy Attack - Thunder Over Mountain - Hold Normal Attack to consume the highlighted Trigram - Thunder and Trigram - Mountain from left to right and cast Heavy Attack - Thunder Over Mountain, d…"
+    },
+    {
+      "name": "In Shadow Thunder Stirs",
+      "type": "skill",
+      "summary": "Attack the target, dealing Electro DMG and continuously pulling in nearby targets. - Right after casting Resonance Skill, press Normal Attack to perform Basic Attack Stage 4."
+    },
+    {
+      "name": "Flashing Thunder Spell",
+      "type": "liberation",
+      "summary": "Attack the target, dealing Electro DMG."
+    },
+    {
+      "name": "Thunder Begets Life",
+      "type": "forte",
+      "summary": "Yin-Yang Balance - When Buling obtains Minor Yin and Minor Yang, she enters the Yin-Yang Balance state, replacing her Resonance Liberation - Flashing Thunder Spell with Resonance Liberation - Flashing Thunder Spell: Harmony. Flashing Thunder Spell - Harmony - Attack the target, dealing Electro DMG and generating a Five Thunders Spell Array at the target area. The array deals Electro DMG and inflicts 2 stacks of Electro Flare on all targets within it every 2s, lasting for 24s…"
+    },
+    {
+      "name": "Time Arrives, Evil Declines",
+      "type": "inherent",
+      "summary": "Buling gains 25% Healing Bonus when restoring HP for Resonators with less than 50% HP."
+    },
+    {
+      "name": "Earthly Immortal is Here!",
+      "type": "inherent",
+      "summary": "Targets damaged by Intro Skill - Summon and Smite obtain 4 stacks of Electro Flare. This effect is triggered once every 10s. Summon and Smite Attack the target, dealing Electro DMG and healing all nearby Resonators in the team."
+    },
+    {
+      "name": "Exorcism Spell",
+      "type": "outro",
+      "summary": "Heal the active Resonator in the team by 18% of Buling's ATK per second for 16s. All nearby Resonators in the team have their DMG Amplified by 15% for 30s."
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill",
+    "Res. Liberation"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/buling",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3701",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3699"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/buling_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/buling",
+  "portrait_via": "prydwen-character:buling",
+  "prydwen_slug": "buling",
+  "summary": {
+    "tier": "Prydwen Support [S6]：Tower of Adversity T1.5 / Whimpering Wastes T1.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/buling",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3701",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/3699"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / Electro / Rectifier"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/buling",
+    "rows": [
+      {
+        "role": "Support [S6]",
+        "tower": "T1.5",
+        "whimpering": "T1.5"
+      }
+    ]
+  }
+}

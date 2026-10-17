@@ -1,0 +1,78 @@
+{
+  "id": "aemeath",
+  "name": "爱弥斯",
+  "name_zh": "爱弥斯",
+  "name_en": "Aemeath",
+  "aliases": [
+    "Aemeath"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Fusion",
+  "weapon": "Sword",
+  "skills": [
+    {
+      "name": "Infinity Calibration",
+      "type": "basic",
+      "summary": "Basic Attack - Aemeath - Perform up to 4 consecutive attacks, dealing Fusion DMG. Heavy Attack - Aemeath - Hold Normal Attack to charge the attack by consuming STA, release to cast Heavy Attack - Aemeath: Charged I, dealing Fusion DMG. - Hold Normal Attack longer to cast Heavy Attack - Aemeath: Charged II, dealing higher Fusion DMG. - When in Instant Response, Heavy Attack - Aemeath: Charged II charges more quickly. Casting Heavy Attack - Aemeath: Charged II, Heavy Attack -…"
+    },
+    {
+      "name": "Shared Voyage",
+      "type": "skill",
+      "summary": "Form Switch - Aemeath can switch forms between herself and her Mech. The Mech inherits Aemeath's Stats and unlocks new moves. - Aemeath automatically casts Basic Attack - Stage 1 upon casting Form Switch. - While in the Mech form, Aemeath casts Mid-air Attack automatically upon casting Form Switch in mid-air. Sync Strike: Armament Merge - Press Resonance Skill shortly after casting Basic Attack - Aemeath Stage 2, 3 & 4, Heavy Attack - Aemeath, or Dodge Counter - Aemeath to c…"
+    },
+    {
+      "name": "Towards the Daybreak",
+      "type": "liberation",
+      "summary": "Heavenfall Edict - Overdrive - Deal Fusion DMG. Switch into Mech form after casting this skill. - Can be cast in mid-air close to the ground. - Casting this skill grants the following effects: - Enter Stardust Resonance for 30s. - Enter Heavenfall Edict: Unbound for 60s. - Press Normal Attack shortly after casting this skill to cast Basic Attack - Mech Stage 2. - Press Resonance Skill to perform Resonance Skill Form Switch shortly after casting this skill to cast Basic Attac…"
+    },
+    {
+      "name": "To Sculpt the Silence",
+      "type": "forte",
+      "summary": "Seraphic Duo - When casting Basic Attack - Aemeath Stage 4 or Basic Attack - Mech Stage 4, enter Seraphic Duo for 5s. Resonance Skill - Seraphic Duet: Overture - When Aemeath is in Seraphic Duo and the Synchronization Rate is no less than 100 points, press Resonance Skill to cast Resonance Skill Seraphic Duet: Overture at the cost of 100 points of Synchronization Rate, dealing Fusion DMG, considered Resonance Liberation DMG. - Can be cast in mid-air close to the ground. - Sw…"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Res. Skill",
+    "Basic Attack",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4139",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4140"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/aemeath_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+  "portrait_via": "prydwen-character:aemeath",
+  "prydwen_slug": "aemeath",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T0.5 / Whimpering Wastes T0.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4139",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4140"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Fusion / Sword"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T0.5",
+        "whimpering": "T0.5"
+      }
+    ]
+  }
+}

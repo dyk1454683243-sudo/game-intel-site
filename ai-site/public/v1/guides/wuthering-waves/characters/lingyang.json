@@ -1,0 +1,74 @@
+{
+  "id": "lingyang",
+  "name": "凌阳",
+  "name_zh": "凌阳",
+  "name_en": "Lingyang",
+  "aliases": [
+    "Lingyang"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "冷凝",
+  "weapon": "臂铠",
+  "skills": [
+    {
+      "name": "常态·凛凛威风拳",
+      "summary": "普攻 进行最多 5 段攻击，造成冷凝伤害。 普攻·崩拳·当头咆哮 施放共鸣技能惊跃·郁怒追逃后，普攻第 5 段替换为崩拳·当头咆哮，造成冷凝伤害。 重击 消耗耐力攻击目标，造成冷凝伤害。 空中攻击 消耗耐力进行空中下落攻击，造成冷凝伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成冷凝伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "冲掌·势式相承",
+      "summary": "冲掌·势式相承 攻击目标，造成冷凝伤害。 惊跃·郁怒追逃 第 3 、 4 、 5 段普攻或普攻崩拳·当头咆哮命中目标时，共鸣技能冲掌·势式相承替换为共鸣技能惊跃·郁怒追逃。 在普攻崩拳·当头咆哮后施放共鸣技能惊跃·郁怒追逃，短按普攻，将会施放第 3 段普攻。 凌阳的共鸣技能不会打断普攻循环段数。",
+      "type": "skill"
+    },
+    {
+      "name": "奋进·狮子奋迅，俱足万行",
+      "summary": "奋进·狮子奋迅，俱足万行 攻击目标，造成冷凝伤害，并受到狮子奋迅祝福。 狮子奋迅 凌阳的冷凝伤害加成提升 50% 。",
+      "type": "liberation"
+    },
+    {
+      "name": "形神合一",
+      "summary": "重击·起势·纵地金光 施放重击时，若满【狮魂】，将会施放起势·纵地金光攻击目标，造成冷凝伤害。 空中攻击·登楼·尾坠千斤 在自身【狮魂】未满时，重击后短按普攻，将会施放登楼·尾坠千斤攻击目标，造成冷凝伤害。 行狮 施放重击起势·纵地金光后，进入行狮状态； 施放变奏技能出洞·睡狮蛰醒或共鸣解放奋进·狮子奋迅，俱足万行后，若满【狮魂】，短按普攻可进入行狮状态。 在行狮状态中： - 可在空中进行攻击，若回到地面，施放重击起势·纵地金光可再次回到空中； - 持续消耗【狮魂】，消耗完后将结束行狮状态，行狮状态可维持 5 秒； - 若同时处于共鸣解放狮子奋迅状态，【狮魂】消耗速率降低 50% ，行狮状态最多可延长至 10 秒； - 凌阳的普攻替换为普攻狂态·摇光金狮舞，进行最多 2 段的连续攻击，造成冷凝伤害； - 凌阳的共鸣技能替换为共鸣技能飞身式·翻山越涧，造成冷凝伤害； - 当【狮魂】消耗至 10 点以下时，短按普攻，将会施放普攻凌云式·腿打连环攻击目标，造成冷凝伤害；施放普攻凌云式·腿打连环后，可施放空中攻击登楼·尾坠千斤； - 消耗【狮魂】时回复…",
+      "type": "forte"
+    },
+    {
+      "name": "出洞·睡狮蛰醒",
+      "summary": "凌阳出场造成冷凝伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "留痕·踏雪点星",
+      "summary": "以技能目标为中心，释放冲击波，对范围内的目标造成凌阳 587.94% 攻击的冷凝伤害。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622987.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622987,
+  "gamekee_entry_id": 150329,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/445667.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150329",
+  "prydwen_slug": "lingyang",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/mc/622987.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "5★ / 冷凝 / 臂铠"
+  }
+}

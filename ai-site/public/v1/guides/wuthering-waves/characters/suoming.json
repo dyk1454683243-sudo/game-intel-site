@@ -1,0 +1,38 @@
+{
+  "id": "suoming",
+  "name": "锁暝",
+  "name_zh": "锁暝",
+  "name_en": "Suoming",
+  "aliases": [
+    "Suoming"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Electro",
+  "weapon": "Sword",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/suoming",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5625"
+  ],
+  "stub": true,
+  "as_of": "2026-08-28",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/suoming",
+  "portrait_via": "prydwen-character:suoming",
+  "prydwen_slug": "suoming",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/suoming",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5625"
+    ],
+    "stub": true,
+    "caveat": "未见可靠出处",
+    "position": "5★ / Electro / Sword"
+  }
+}

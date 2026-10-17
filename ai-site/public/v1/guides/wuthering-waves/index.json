@@ -1,0 +1,712 @@
+{
+  "game": "wuthering-waves",
+  "name": "Wuthering Waves",
+  "name_zh": "鸣潮",
+  "as_of": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "character_count": 61,
+  "rich_count": 59,
+  "stub_count": 2,
+  "conclusion_stub_count": 13,
+  "links": {
+    "banners": "/v1/guides/wuthering-waves/banners.json",
+    "codes": "/v1/guides/wuthering-waves/codes.json"
+  },
+  "characters": [
+    {
+      "id": "aalto",
+      "name": "秋水",
+      "name_zh": "秋水",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/623035.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/aalto"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/942552.png"
+    },
+    {
+      "id": "aemeath",
+      "name": "爱弥斯",
+      "name_zh": "爱弥斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4139",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4140"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/aemeath_full.webp"
+    },
+    {
+      "id": "augusta",
+      "name": "奥古斯塔",
+      "name_zh": "奥古斯塔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/674296.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/augusta"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/753406.png"
+    },
+    {
+      "id": "baizhi",
+      "name": "白芷",
+      "name_zh": "白芷",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622951.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/840337.png"
+    },
+    {
+      "id": "brant",
+      "name": "布兰特",
+      "name_zh": "布兰特",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/648714.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/brant"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/572308.png"
+    },
+    {
+      "id": "buling",
+      "name": "卜灵",
+      "name_zh": "卜灵",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/buling",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3701",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3699"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/buling_full.webp"
+    },
+    {
+      "id": "calcharo",
+      "name": "卡卡罗",
+      "name_zh": "卡卡罗",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622978.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/calcharo"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/313861.png"
+    },
+    {
+      "id": "camellya",
+      "name": "椿",
+      "name_zh": "椿",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/636238.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/camellya"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_198/50074/479972/2025/0/2/990586.png"
+    },
+    {
+      "id": "cantarella",
+      "name": "坎特蕾拉",
+      "name_zh": "坎特蕾拉",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/650239.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/cantarella"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/78184.png"
+    },
+    {
+      "id": "carlotta",
+      "name": "珂莱塔",
+      "name_zh": "珂莱塔",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/641993.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/carlotta"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_159/50074/103682/2025/1/18/874807.png"
+    },
+    {
+      "id": "cartethyia",
+      "name": "卡提希娅",
+      "name_zh": "卡提希娅",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/667732.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/cartethyia"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_158/50074/103682/2025/5/24/307634.png"
+    },
+    {
+      "id": "changli",
+      "name": "长离",
+      "name_zh": "长离",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/624700.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/changli"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/6/22/518723.png"
+    },
+    {
+      "id": "chisa",
+      "name": "千咲",
+      "name_zh": "千咲",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/chisa",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5515",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5498"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chisa_full.webp"
+    },
+    {
+      "id": "chixia",
+      "name": "炽霞",
+      "name_zh": "炽霞",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622939.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/chixia"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/811556.png"
+    },
+    {
+      "id": "ciaccona",
+      "name": "夏空",
+      "name_zh": "夏空",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/657085.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/ciaccona"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/351109.png"
+    },
+    {
+      "id": "danjin",
+      "name": "丹瑾",
+      "name_zh": "丹瑾",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/623008.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/danjin"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/521716.png"
+    },
+    {
+      "id": "denia",
+      "name": "达妮娅",
+      "name_zh": "达妮娅",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/denia",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5319",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5315"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/denia_full.webp"
+    },
+    {
+      "id": "encore",
+      "name": "安可",
+      "name_zh": "安可",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622950.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/encore"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/606097.png"
+    },
+    {
+      "id": "galbrena",
+      "name": "嘉贝莉娜",
+      "name_zh": "嘉贝莉娜",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3333",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3363"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/galbrena_full.webp"
+    },
+    {
+      "id": "hiyuki",
+      "name": "绯雪",
+      "name_zh": "绯雪",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5420",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5429"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hiyuki_full.webp"
+    },
+    {
+      "id": "hsin",
+      "name": "心",
+      "name_zh": "心",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/hsin",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5481",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5497"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp"
+    },
+    {
+      "id": "iuno",
+      "name": "尤诺",
+      "name_zh": "尤诺",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/674303.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/iuno"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/529495/2025/7/15/369851.png"
+    },
+    {
+      "id": "jianxin",
+      "name": "鉴心",
+      "name_zh": "鉴心",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622943.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/jianxin"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/485017.png"
+    },
+    {
+      "id": "jingran",
+      "name": "景燃",
+      "name_zh": "景燃",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5405",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5399"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jingran_full.webp"
+    },
+    {
+      "id": "jinhsi",
+      "name": "今汐",
+      "name_zh": "今汐",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/624686.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_158/50074/86082/2024/5/28/856827.png"
+    },
+    {
+      "id": "jiyan",
+      "name": "忌炎",
+      "name_zh": "忌炎",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622932.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/jiyan"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/801384.png"
+    },
+    {
+      "id": "lily",
+      "name": "Lily",
+      "name_zh": "Lily",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/lily"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lily_full.webp"
+    },
+    {
+      "id": "lingyang",
+      "name": "凌阳",
+      "name_zh": "凌阳",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622987.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/445667.png"
+    },
+    {
+      "id": "lucilla",
+      "name": "洛瑟菈",
+      "name_zh": "洛瑟菈",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/lucilla",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4869",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4870"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucilla_full.webp"
+    },
+    {
+      "id": "lucy",
+      "name": "露西",
+      "name_zh": "露西",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4784",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4800"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucy_full.webp"
+    },
+    {
+      "id": "lumi",
+      "name": "灯灯",
+      "name_zh": "灯灯",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/636239.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/lumi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_159/50074/103682/2024/8/23/851495.png"
+    },
+    {
+      "id": "lupa",
+      "name": "露帕",
+      "name_zh": "露帕",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/667741.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/lupa"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_119/h_159/50074/103682/2025/5/24/922704.png"
+    },
+    {
+      "id": "luuk-herssen",
+      "name": "陆·赫斯",
+      "name_zh": "陆·赫斯",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4277",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4302"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/luuk-herssen_full.webp"
+    },
+    {
+      "id": "lynae",
+      "name": "琳奈",
+      "name_zh": "琳奈",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3828",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3842"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lynae_full.webp"
+    },
+    {
+      "id": "mornye",
+      "name": "莫宁",
+      "name_zh": "莫宁",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5424",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5437"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/mornye_full.webp"
+    },
+    {
+      "id": "mortefi",
+      "name": "莫特斐",
+      "name_zh": "莫特斐",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/623023.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/778983.png"
+    },
+    {
+      "id": "phoebe",
+      "name": "菲比",
+      "name_zh": "菲比",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/648290.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/phoebe"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/2/6/97064.png"
+    },
+    {
+      "id": "phrolova",
+      "name": "弗洛洛",
+      "name_zh": "弗洛洛",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/668158.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/phrolova"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/5/24/447800.png"
+    },
+    {
+      "id": "qingxiao",
+      "name": "清宵",
+      "name_zh": "清宵",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5294"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qingxiao_full.webp"
+    },
+    {
+      "id": "qiuyuan",
+      "name": "仇远",
+      "name_zh": "仇远",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/qiuyuan",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3470",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3479"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qiuyuan_full.webp"
+    },
+    {
+      "id": "rebecca",
+      "name": "蕾贝卡",
+      "name_zh": "蕾贝卡",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/rebecca",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4782",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4799"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rebecca_full.webp"
+    },
+    {
+      "id": "roccia",
+      "name": "洛可可",
+      "name_zh": "洛可可",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/642005.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/roccia"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_157/50074/103682/2025/1/18/701882.png"
+    },
+    {
+      "id": "rover-aero",
+      "name": "漂泊者·气动",
+      "name_zh": "漂泊者·气动",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/664652.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/2295",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2305"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_158/h_212/50074/769711/2025/5/2/991188.png"
+    },
+    {
+      "id": "rover-electro",
+      "name": "漂泊者·导电",
+      "name_zh": "漂泊者·导电",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+      ],
+      "portrait": null
+    },
+    {
+      "id": "rover-havoc",
+      "name": "漂泊者·湮灭",
+      "name_zh": "漂泊者·湮灭",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/624135.html",
+        "https://www.gamekee.com/mc/624136.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_118/h_158/50074/86082/2024/5/5/313084.png"
+    },
+    {
+      "id": "rover-spectro",
+      "name": "漂泊者·衍射",
+      "name_zh": "漂泊者·衍射",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622983.html",
+        "https://www.gamekee.com/mc/622984.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/887278.png"
+    },
+    {
+      "id": "sanhua",
+      "name": "散华",
+      "name_zh": "散华",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622934.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/sanhua"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/597537.png"
+    },
+    {
+      "id": "sigrika",
+      "name": "西格莉卡",
+      "name_zh": "西格莉卡",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/sigrika",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4382",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4410"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/sigrika_full.webp"
+    },
+    {
+      "id": "suisui",
+      "name": "穗穗",
+      "name_zh": "穗穗",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5197",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5200"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suisui_full.webp"
+    },
+    {
+      "id": "suoming",
+      "name": "锁暝",
+      "name_zh": "锁暝",
+      "stub": true,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/suoming",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5625"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp"
+    },
+    {
+      "id": "taoqi",
+      "name": "桃祈",
+      "name_zh": "桃祈",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/623015.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/taoqi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/300293.png"
+    },
+    {
+      "id": "the-shorekeeper",
+      "name": "守岸人",
+      "name_zh": "守岸人",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/632074.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/the-shorekeeper"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_144/h_197/50074/479972/2025/0/2/10201.png"
+    },
+    {
+      "id": "verina",
+      "name": "维里奈",
+      "name_zh": "维里奈",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622919.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/verina"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/184874.png"
+    },
+    {
+      "id": "xiangli-yao",
+      "name": "相里要",
+      "name_zh": "相里要",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/627625.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_149/h_194/50074/479972/2025/0/2/386734.png"
+    },
+    {
+      "id": "yangyang",
+      "name": "秧秧",
+      "name_zh": "秧秧",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/622979.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/yangyang"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/498733.png"
+    },
+    {
+      "id": "yangyang-xuanling",
+      "name": "秧秧·玄翎",
+      "name_zh": "秧秧·玄翎",
+      "stub": false,
+      "sources": [
+        "https://www.prydwen.gg/wuthering-waves/characters/yangyang-xuanling",
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5002",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5007"
+      ],
+      "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang-xuanling_full.webp"
+    },
+    {
+      "id": "yinlin",
+      "name": "吟霖",
+      "name_zh": "吟霖",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/624258.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/yinlin"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/5/6/189377.png"
+    },
+    {
+      "id": "youhu",
+      "name": "釉瑚",
+      "name_zh": "釉瑚",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/632075.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/youhu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_158/50074/103682/2024/7/19/414052.png"
+    },
+    {
+      "id": "yuanwu",
+      "name": "渊武",
+      "name_zh": "渊武",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/623009.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/yuanwu"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/769723.png"
+    },
+    {
+      "id": "zani",
+      "name": "赞妮",
+      "name_zh": "赞妮",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/657081.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/zani"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/747264.png"
+    },
+    {
+      "id": "zhezhi",
+      "name": "折枝",
+      "name_zh": "折枝",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/mc/627615.html",
+        "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_155/50074/103682/2024/7/19/104945.png"
+    }
+  ]
+}

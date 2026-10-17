@@ -1,0 +1,87 @@
+{
+  "id": "yuanwu",
+  "name": "渊武",
+  "name_zh": "渊武",
+  "name_en": "Yuanwu",
+  "aliases": [
+    "Yuanwu"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "导电",
+  "weapon": "臂铠",
+  "skills": [
+    {
+      "name": "雷煌拳",
+      "summary": "普攻 进行最多 5 段的连续攻击，造成导电伤害。 重击 消耗耐力攻击目标，造成导电伤害。 空中攻击 消耗耐力进行空中下落攻击，造成导电伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成导电伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "拳震凌武",
+      "summary": "雷之楔 召唤雷之楔，造成导电伤害，并以雷之楔为中心，形成雷池，雷之楔持续 12 秒。 施放共鸣回路万壑雷及共鸣解放寂土重明时会立刻引爆场上的共鸣技能雷之楔，造成导电伤害，此次伤害为共鸣技能伤害。 雷池 队伍中登场角色处于雷池内将持续获得效果：攻击命中目标时，共鸣技能雷之楔会进行协同攻击，造成导电伤害，每 1.2 秒可触发 1 次，该效果持续时间 1.5 秒。",
+      "type": "skill"
+    },
+    {
+      "name": "寂土重明",
+      "summary": "唤醒雷电之力，为附近队伍中所有角色提供共鸣回路雷厉风行状态，持续 10 秒，并全力攻击目标，造成导电伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "沉雷藏锋",
+      "summary": "万壑雷 【锋芒】充满时，长按共鸣技能，将会消耗所有【锋芒】，施放万壑雷，造成导电伤害，并使渊武进入雷厉风行状态。 掀雷 【锋芒】充满时，共鸣技能雷之楔将会施放掀雷，造成导电伤害。 雷厉风行 在雷厉风行状态下的角色抗打断能力提升。 渊武处于该状态下时： 普攻的攻击范围扩大，削减怪物共振度的能力提升； 重击的攻击更为迅猛，削减怪物共振度的能力提升； 闪避反击的攻击更为迅猛，削减怪物共振度的能力提升； 施放重击或成功触发逆势回击后 3 秒内短按普攻，将会施放蹑风追雷攻击目标，造成导电伤害，此次伤害为普攻伤害； 不会回复【锋芒】。 锋芒获取规则 【锋芒】上限 100 点。 场上存在共鸣技能雷之楔时，每秒回复 6 点【锋芒】，渊武不在场时该效果依然生效。 共鸣技能雷之楔协同攻击命中目标时，回复 5 点【锋芒】。",
+      "type": "forte"
+    },
+    {
+      "name": "轰雷",
+      "summary": "攻击目标，造成导电伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "驱雷",
+      "summary": "以技能目标为中心，降落闪电，对命中的敌人造成大量共振值伤害。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Res. Skill",
+    "Forte Circuit",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/623009.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/yuanwu"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 623009,
+  "gamekee_entry_id": 150382,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/769723.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150382",
+  "prydwen_slug": "yuanwu",
+  "summary": {
+    "tier": "Prydwen Support [S6]：Tower of Adversity T4 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/yuanwu",
+      "https://www.gamekee.com/mc/623009.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 导电 / 臂铠"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/yuanwu",
+    "rows": [
+      {
+        "role": "Support [S6]",
+        "tower": "T4",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

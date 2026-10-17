@@ -1,0 +1,85 @@
+{
+  "id": "lumi",
+  "name": "灯灯",
+  "name_zh": "灯灯",
+  "name_en": "Lumi",
+  "aliases": [
+    "Lumi"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "Electro",
+  "weapon": "Broadblade",
+  "skills": [
+    {
+      "name": "Navigation Support",
+      "type": "basic",
+      "summary": "Summon Squeakie to shoot three shots in a row, dealing Electro DMG."
+    },
+    {
+      "name": "Searchlight Service",
+      "type": "skill",
+      "summary": "When in Yellow Light Mode, use Resonance Skill to perform Pounce, which consumes STA to pounce on the target before switching to Red Light Mode."
+    },
+    {
+      "name": "Squeakie Express",
+      "type": "liberation",
+      "summary": "Throw the giant Squeakie at the target, dealing Electro DMG."
+    },
+    {
+      "name": "Signal Light",
+      "type": "forte",
+      "summary": "When Yellow Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Pounce that deals Electro DMG and enter Red Spotlight Mode."
+    },
+    {
+      "name": "Pathfinding",
+      "type": "inherent",
+      "summary": "Gain 10% Electro DMG Bonus when in Red Light Mode."
+    },
+    {
+      "name": "Expediting",
+      "type": "inherent",
+      "summary": "Casting Energized Pounce or Energized Rebound increases ATK by 10% for 5s."
+    },
+    {
+      "name": "Special Delivery",
+      "type": "intro",
+      "summary": "Enter Yellow Light Mode and attack the target, dealing Electro DMG."
+    },
+    {
+      "name": "Escorting",
+      "type": "outro",
+      "summary": "The incoming Resonator has their Resonance Skill DMG Amplified by 38% for 10s or until they are switched out."
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Intro Skill",
+    "Basic Attack"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/636239.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/lumi"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 636239,
+  "gamekee_entry_id": 165348,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_120/h_159/50074/103682/2024/8/23/851495.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:165348",
+  "prydwen_slug": "lumi",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/mc/636239.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/lumi"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "4★ / Electro / Broadblade"
+  }
+}

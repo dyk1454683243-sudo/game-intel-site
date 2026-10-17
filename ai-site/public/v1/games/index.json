@@ -1517,8 +1517,8 @@
         "action",
         "rpg"
       ],
-      "stub": true,
-      "watchlist": false,
+      "stub": false,
+      "watchlist": true,
       "steam_appid": 3513350,
       "path": "games/wuthering-waves"
     },

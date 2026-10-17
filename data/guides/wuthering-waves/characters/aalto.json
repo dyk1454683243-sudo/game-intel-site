@@ -1,0 +1,88 @@
+{
+  "id": "aalto",
+  "name": "秋水",
+  "name_zh": "秋水",
+  "name_en": "Aalto",
+  "aliases": [
+    "Aalto"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "气动",
+  "weapon": "佩枪",
+  "skills": [
+    {
+      "name": "真假参半",
+      "summary": "普攻 进行最多 5 段连续射击，造成气动伤害，普攻第 4 段会向前方扩散出【雾气】，【雾气】持续 1.5 秒。 重击 进入瞄准状态，可以进行更强力的射击。 蓄力完成后攻击目标，造成气动伤害。 空中攻击 消耗耐力，在空中进行连续攻击，造成气动伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成气动伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "移位戏法",
+      "summary": "雾化幻影 施放【雾气】和 1 个【雾化分身】嘲讽周围的目标，分身会继承秋水一定比例生命值，并在幻影周围生成 6 颗【雾化子弹】，造成气动伤害。 雾化子弹 造成气动伤害，此次伤害为共鸣技能伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "雾里观花",
+      "summary": "在面前生成【虚实之门】，造成气动伤害且当攻击穿过【虚实之门】时攻击提升，【虚实之门】持续 10 秒。",
+      "type": "liberation"
+    },
+    {
+      "name": "雾色掩护",
+      "summary": "雾色掩护 当秋水穿过【雾气】或【虚实之门】时，会进入迷雾潜行状态。 迷雾潜行 - 移动速度提升； - 期间可持续消耗【雾滴】，每消耗 1 点【雾滴】，生成 1 颗共鸣技能【雾化子弹】。 雾滴获取规则 【雾滴】上限 6 点。 普攻或空中攻击穿过【雾气】命中目标时，回复 1 点【雾滴】。",
+      "type": "forte"
+    },
+    {
+      "name": "虚晃一枪",
+      "summary": "秋水神出鬼没，进行快速的连续射击，造成气动伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "雾解",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）气动伤害加深 23% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Basic Attack",
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/623035.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/aalto"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 623035,
+  "gamekee_entry_id": 150380,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/942552.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150380",
+  "prydwen_slug": "aalto",
+  "summary": {
+    "tier": "Prydwen Hybrid [S6]：Tower of Adversity T4 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/aalto",
+      "https://www.gamekee.com/mc/623035.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 气动 / 佩枪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/aalto",
+    "rows": [
+      {
+        "role": "Hybrid [S6]",
+        "tower": "T4",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

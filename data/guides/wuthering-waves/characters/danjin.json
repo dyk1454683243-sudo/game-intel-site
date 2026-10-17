@@ -1,0 +1,75 @@
+{
+  "id": "danjin",
+  "name": "丹瑾",
+  "name_zh": "丹瑾",
+  "name_en": "Danjin",
+  "aliases": [
+    "Danjin"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "湮灭",
+  "weapon": "迅刃",
+  "skills": [
+    {
+      "name": "执刃",
+      "summary": "普攻 进行最多 3 段的连续攻击，造成湮灭伤害。 重击 消耗耐力攻击目标，发动连续攻击，造成湮灭伤害。 空中攻击 消耗耐力进行空中下落攻击，造成湮灭伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害。 闪避反击·逐影 闪避反击成功后，丹瑾可使用共鸣技能朱华残章，施放共鸣技能朱蚀。",
+      "type": "basic"
+    },
+    {
+      "name": "朱华残章",
+      "summary": "朱华残章 施放朱华残章时，每次攻击消耗丹瑾生命上限 3% 的生命值；当丹瑾生命低于 1% 时，不消耗生命值。 赤华 攻击目标，造成湮灭伤害。 朱蚀 在第 2 段普攻、闪避反击或变奏技能击雠施放后，短按共鸣技能，可进行最多 2 段的连续攻击，造成湮灭伤害。 第 2 段朱蚀命中时目标时，对目标附加朱蚀之刻。 朱蚀之刻 丹瑾攻击携带朱蚀之刻的目标时，造成的伤害提升 20% 。 烬灭 在第 3 段普攻后短按共鸣技能，可进行最多 3 段的连续攻击，造成湮灭伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "绯红绽放",
+      "summary": "对目标的敌意激增，狂乱中对目标挥舞双刃，进行多段快速连续攻击，及 1 段绯刹爆发攻击，造成湮灭伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "丹心昭瑾",
+      "summary": "忧昙重击·缭乱 【彤华】积攒 60 点以上时，长按普攻，将会消耗所有【彤华】施放缭乱攻击目标，造成湮灭伤害，此次伤害为重击伤害，并回复自身生命值。 若【彤华】积攒至 120 点时，则消耗 120 点【彤华】，此次缭乱和纷落的伤害倍率提升。 重击·纷落 重击缭乱后一定时间内短按普攻，将会施放纷落攻击目标，造成湮灭伤害，此次伤害为重击伤害。 彤华获取规则 【彤华】上限 120 点。 施放共鸣技能朱华残章时，回复【彤华】。",
+      "type": "forte"
+    },
+    {
+      "name": "击雠",
+      "summary": "将战意托于刃上，发动攻击，造成湮灭伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "明晦",
+      "summary": "下一位登场角色（或附近队伍中激活延奏技能的角色）湮灭伤害加深 23% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Skill",
+    "Res. Liberation",
+    "Basic Attack",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/623008.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/danjin"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 623008,
+  "gamekee_entry_id": 150379,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/24/521716.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150379",
+  "prydwen_slug": "danjin",
+  "summary": {
+    "sources": [
+      "https://www.gamekee.com/mc/623008.html",
+      "https://www.prydwen.gg/wuthering-waves/characters/danjin"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "4★ / 湮灭 / 迅刃"
+  }
+}

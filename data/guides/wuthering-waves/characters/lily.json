@@ -1,0 +1,31 @@
+{
+  "id": "lily",
+  "name": "Lily",
+  "name_en": "Lily",
+  "aliases": [],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Spectro",
+  "weapon": "Pistols",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/lily"
+  ],
+  "stub": true,
+  "as_of": "2026-10-08",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lily_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/lily",
+  "portrait_via": "prydwen-character:lily",
+  "prydwen_slug": "lily",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/lily"
+    ],
+    "stub": true,
+    "caveat": "未见可靠出处",
+    "position": "5★ / Spectro / Pistols"
+  }
+}

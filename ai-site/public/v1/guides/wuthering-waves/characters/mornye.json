@@ -1,0 +1,99 @@
+{
+  "id": "mornye",
+  "name": "莫宁",
+  "name_zh": "莫宁",
+  "name_en": "Mornye",
+  "aliases": [
+    "Mornye"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Fusion",
+  "weapon": "Broadblade",
+  "skills": [
+    {
+      "name": "Ground State Calibration",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 4 consecutive attacks, dealing Fusion DMG. Heavy Attack - Consume STA to attack the target, dealing Fusion DMG. Basic Attack - Wide Field Observation Mode - While in Wide Field Observation Mode, Basic Attack is replaced with Basic Attack - Wide Field Observation Mode. - Perform up to 3 consecutive attacks, dealing Fusion DMG. Mid-air Attack - Consume STA to perform Mid-air Plunging Attack, dealing Fusion DMG. Press Normal Attack within a certain…"
+    },
+    {
+      "name": "Resolution",
+      "type": "skill",
+      "summary": "Expectation Error - Heal all nearby Resonators in the team and enter the Parry state, during which DMG taken is reduced by 100% for a time. Switching to another Resonator ends this state immediately. - If attacked while in the Parry state, exit the state and cast Resonance Skill - Optimal Solution. - If not attacked while in the Parry state, press Normal Attack to exit the state and cast Basic Attack Stage 2. Optimal Solution - Stagnate nearby targets and deal Fusion DMG, re…"
+    },
+    {
+      "name": "Critical Protocol",
+      "type": "liberation",
+      "summary": "Attack the targets within the effective range, dealing Fusion DMG. For every 1% of Mornye's Energy Regen exceeding 100%, this skill gains an additional 0.5% Crit. Rate (up to 80%) and 1% Crit. DMG (up to 160%). When casting this skill, if a Syntony Field is present, remove it and generate a High Syntony Field. Can be performed in mid-air. High Syntony Field - High Syntony Field lasts for 25s. - Increases the DEF of all nearby Resonators in the team within the High Syntony Fi…"
+    },
+    {
+      "name": "Mass-Energy Equivalence",
+      "type": "forte",
+      "summary": "Baseline Mode - While in her default Baseline Mode, Mornye gains Rest Mass Energy. Heavy Attack - Geopotential Shift - When Rest Mass Energy reaches 100 points, Heavy Attack is replaced with Heavy Attack - Geopotential Shift. - Cast Heavy Attack - Geopotential Shift to deal Fusion DMG, considered Heavy Attack DMG. Afterward, Mornye jumps into mid-air, consumes all Rest Mass Energy and enters Wide Field Observation Mode. Wide Field Observation Mode - Wide Field Observation Mo…"
+    },
+    {
+      "name": "Decoupling",
+      "type": "forte",
+      "summary": "Mornye can respond to Tune Rupture - Interfered and Tune Strain - Interfered. - Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts Tune Rupture - Interfered, Mornye casts Tune Rupture Response - Particle Jet. Each target can be damaged by this skill up to once every 8s. - Responding to Tune Strain - Interfered: Each stack of Tune Strain - Interfered on the target increases Mornye's total DMG against them. Each point of M…"
+    },
+    {
+      "name": "Boundedness",
+      "type": "inherent",
+      "summary": "Casting Resonance Skill - Expectation Error or Resonance Skill - Distributed Array grants Proof of Boundedness to all Resonators in the team: - Proof of Boundedness lasts for 60s and can be gained once every 5 min. - When the active Resonator takes DMG greater than 30% of their Max HP, they instead take DMG equal to 30% of their Max HP. This effect can trigger up to 3 times. Proof of Boundedness is removed after triggering it 3 times. - When the active Resonator takes a fata…"
+    },
+    {
+      "name": "Convergence",
+      "type": "intro",
+      "summary": "Attack the target to deal Fusion DMG, then jump into mid-air, clearing all Rest Mass Energy and entering Wide Field Observation Mode."
+    },
+    {
+      "name": "Recursion",
+      "type": "outro",
+      "summary": "Resonators in the team gain 25% All DMG Amplification for 30s."
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Basic Attack",
+    "Intro Skill",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5424",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5437"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/mornye_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+  "portrait_via": "prydwen-character:mornye",
+  "prydwen_slug": "mornye",
+  "summary": {
+    "tier": "Prydwen Support [S0] Value：Tower of Adversity T0 / Whimpering Wastes T1",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5424",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5437"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / Fusion / Broadblade"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+    "rows": [
+      {
+        "role": "Support [S0] Value",
+        "tower": "T0",
+        "value": true,
+        "whimpering": "T1"
+      }
+    ]
+  }
+}

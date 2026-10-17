@@ -1,0 +1,99 @@
+{
+  "id": "roccia",
+  "name": "洛可可",
+  "name_zh": "洛可可",
+  "name_en": "Roccia",
+  "aliases": [
+    "Roccia"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "湮灭",
+  "weapon": "臂铠",
+  "skills": [
+    {
+      "name": "佩洛，悠着点",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成湮灭伤害。 重击 消耗耐力，攻击目标，造成湮灭伤害，命中目标时若【想象力】至少有 100 点，则将洛可可送上空中，进入 飞跃幻想 状态。可通过持续按住普攻进行蓄力，蓄力越久能获得越多的【想象力】，蓄力期间若耐力耗尽亦可继续蓄力。蓄力中途松开普攻，或者达到蓄力的最大时间时，会自动施放重击。 空中攻击 消耗耐力进行空中下落攻击，造成湮灭伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "高难度设计",
+      "summary": "洛可可投影出自己脑中的思维风暴，牵引附近目标，造成湮灭伤害，并且把洛可可送上空中，进入 飞跃幻想 状态。",
+      "type": "skill"
+    },
+    {
+      "name": "即兴喜剧，开场",
+      "summary": "洛可可的即兴喜剧开场！对目标造成湮灭伤害，此次伤害为 重击伤害 。 洛可可暴击高于 50% 时，每多出 0.1% 暴击，施放该技能时，使队伍中的角色攻击提升 1 点，持续 30 秒。最高可提升 200 点。",
+      "type": "liberation"
+    },
+    {
+      "name": "道具师的自我修养",
+      "summary": "飞跃幻想 洛可可处于 飞跃幻想 状态时，若至少拥有 100 点【想象力】，可短按普攻，消耗 100 点【想象力】施放普攻 幻想照进现实 。 ·该状态会在洛可可不处于空中状态、或处于后台时解除。 普攻· 幻想照进现实 进行最多 3 段的连续攻击，造成湮灭伤害，此次伤害为 重击伤害 。第 1 段、第 2 段攻击落地后，若【想象力】大于 100 点，会将洛可可送上空中，进入 飞跃幻想 状态。 【想象力】获取规则 【想象力】上限 300 点 常态攻击造成伤害可回复【想象力】。 持续按住普攻进行蓄力可获得【想象力】。 施放共鸣技能 高难度设计 时，回复 100 点【想象力】。 施放变奏技能 佩洛，来帮忙 时，回复 100 点【想象力】。",
+      "type": "forte"
+    },
+    {
+      "name": "固定技能-沉浸式演出",
+      "summary": "施放共鸣技能或重击时，洛可可攻击提升 20% ，持续 12 秒。",
+      "type": "forte"
+    },
+    {
+      "name": "固有技能-无尽引力珍奇箱",
+      "summary": "施放延奏技能后，下一个登场角色的探索工具，替换为【珍奇箱】。 【珍奇箱】 ·使用后以【珍奇箱】为中心牵引周围目标，造成共计100点的湮灭伤害。此次伤害为探索工具伤害。该技能施放时，视为施放声骸技能。 ·【珍奇箱】持续 14 秒，若切换至其他角色则【珍奇箱】提前消失。",
+      "type": "inherent"
+    },
+    {
+      "name": "佩洛，来帮忙",
+      "summary": "攻击目标，造成湮灭伤害。施放该技能后在一定时间内短按普攻，将会施放普攻第 4 段。",
+      "type": "intro"
+    },
+    {
+      "name": "掌声鼓励",
+      "summary": "下一位登场角色湮灭伤害加深 20% ，普攻伤害加深 25% ，效果持续 14 秒，若切换至其他角色则该效果提前结束。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Intro Skill",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/642005.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/roccia"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 642005,
+  "gamekee_entry_id": 170643,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_116/h_157/50074/103682/2025/1/18/701882.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:170643",
+  "prydwen_slug": "roccia",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0] Value：Tower of Adversity T4 / Whimpering Wastes T3",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/roccia",
+      "https://www.gamekee.com/mc/642005.html"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / 湮灭 / 臂铠"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/roccia",
+    "rows": [
+      {
+        "role": "Hybrid [S0] Value",
+        "tower": "T4",
+        "value": true,
+        "whimpering": "T3"
+      }
+    ]
+  }
+}

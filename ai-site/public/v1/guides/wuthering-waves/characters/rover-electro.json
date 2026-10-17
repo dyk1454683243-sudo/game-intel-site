@@ -1,0 +1,82 @@
+{
+  "id": "rover-electro",
+  "name": "漂泊者·导电",
+  "name_zh": "漂泊者·导电",
+  "name_en": "Rover (Electro)",
+  "aliases": [
+    "Rover (Electro)"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Electro",
+  "weapon": "Sword",
+  "skills": [
+    {
+      "name": "Deterrence",
+      "type": "basic",
+      "summary": "Perform up to 4 consecutive attacks, dealing Electro DMG."
+    },
+    {
+      "name": "Thunderclap",
+      "type": "skill",
+      "summary": "Launch the Cloudrift Bolt and grapple towards the target, dealing Electro DMG."
+    },
+    {
+      "name": "Ultimate Tactics",
+      "type": "liberation",
+      "summary": "Launch the Thunder Quietus, dealing Electro DMG."
+    },
+    {
+      "name": "Myriad Omens' Mandate",
+      "type": "forte",
+      "summary": "At max Electric Surge, Resonance Skill is replaced with Resonance Skill Overshock, dealing Electro DMG."
+    },
+    {
+      "name": "Decipher",
+      "type": "inherent",
+      "summary": "Resonance Skill Overshock inflicts 10 stacks of Electro Flare on the target it damages."
+    },
+    {
+      "name": "Regression",
+      "type": "inherent",
+      "summary": "When Resonance Skill Overshock is cast by holding down the button, gain 20% Resonance Skill DMG Bonus for 20s. Thunderous Fury Attack the target, dealing Electro DMG."
+    },
+    {
+      "name": "Thunderous Fury",
+      "type": "intro",
+      "summary": "Attack the target, dealing Electro DMG."
+    },
+    {
+      "name": "Rumbling Thunders",
+      "type": "outro",
+      "summary": "The incoming Resonator gains Electro Core for 20s or until the Resonator is switched out."
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "prydwen_slug": "rover-electro",
+  "summary": {
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/rover-electro",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5025",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5011"
+    ],
+    "stub": true,
+    "caveat": "Prydwen 该页没有可摘的 Tower of Adversity / Whimpering Wastes 梯度，不编造评级。",
+    "position": "5★ / Electro / Sword"
+  }
+}

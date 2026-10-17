@@ -1,0 +1,92 @@
+{
+  "id": "rover-spectro",
+  "name": "漂泊者·衍射",
+  "name_zh": "漂泊者·衍射",
+  "name_en": "Rover (Spectro)",
+  "aliases": [
+    "漂泊者-男-衍射",
+    "漂泊者",
+    "漂泊者-女-衍射",
+    "Rover (Spectro)"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "衍射",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "化声为形",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成衍射伤害。 重击 消耗耐力攻击目标，造成衍射伤害。 重击·鸣奏 第 3 段普攻或重击后，恰当时机短按普攻，将会施放重击鸣奏攻击目标，造成衍射伤害。 重击·余音 重击鸣奏或闪避反击命中目标后短按普攻，将会施放重击余音，攻击目标，造成衍射伤害。 空中攻击 消耗耐力进行空中下落攻击，造成衍射伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会攻击目标，造成衍射伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "浮声千斩",
+      "summary": "向前方发动攻击，造成衍射伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "回响奏鸣",
+      "summary": "聚集衍射能量攻击目标区域，短暂延迟后，目标区域将发生爆炸，造成衍射伤害，附加 6 层【光噪效应】。",
+      "type": "liberation"
+    },
+    {
+      "name": "万物微尘",
+      "summary": "共鸣技能·浮声千斩·旋音 施放共鸣技能时，若【尘微之声】超过 50 点，则消耗 50 点【尘微之声】，施放浮声千斩·旋音，向前方发动回旋攻击，造成衍射伤害，此次伤害为共鸣技能伤害，并附加 2 层【光噪效应】和【微光】效果。 【微光】 携带【微光】的目标，身上【光噪效应】的层数，不会因为【光噪效应】原本的层数减少效果而减少。 共鸣技能·浮声千斩·回声 共鸣技能浮声千斩·旋音结束后，短按普攻，可施放浮声千斩·回声。 向前发动攻击，造成衍射伤害，此次伤害为共鸣技能伤害。 尘微之声获取规则 【尘微之声】上限 100 点。 常态攻击化声为形命中目标时，回复【尘微之声】。 重击余音命中目标时，回复【尘微之声】。 施放变奏技能震声时，回复【尘微之声】。",
+      "type": "forte"
+    },
+    {
+      "name": "震声",
+      "summary": "攻击目标，造成衍射伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "瞬刻",
+      "summary": "以下一位登场角色(或附近队伍中激活延奏技能的角色)为中心，生成停滞区域，持续 3 秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Forte Circuit",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622983.html",
+    "https://www.gamekee.com/mc/622984.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622983,
+  "gamekee_entry_id": 150330,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/887278.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150330",
+  "prydwen_slug": "rover-spectro",
+  "summary": {
+    "tier": "Prydwen Support [S6]：Tower of Adversity T2",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro",
+      "https://www.gamekee.com/mc/622983.html",
+      "https://www.gamekee.com/mc/622984.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / 衍射 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro",
+    "rows": [
+      {
+        "role": "Support [S6]",
+        "tower": "T2"
+      }
+    ]
+  }
+}

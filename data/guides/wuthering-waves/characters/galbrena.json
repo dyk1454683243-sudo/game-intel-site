@@ -1,0 +1,77 @@
+{
+  "id": "galbrena",
+  "name": "嘉贝莉娜",
+  "name_zh": "嘉贝莉娜",
+  "name_en": "Galbrena",
+  "aliases": [
+    "Galbrena"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Fusion",
+  "weapon": "Pistols",
+  "skills": [
+    {
+      "name": "Slayer's Trigger",
+      "type": "basic",
+      "summary": "Basic Attack Perform up to 4 consecutive attacks, dealing Fusion DMG. Basic Attack Stage 1 to 3 DMG are considered as Heavy Attack DMG, and Basic Attack Stage 4 DMG as Echo Skill DMG. Press Normal Attack right after performing Basic Attack Stage 4 to perform Basic Attack Stage 2. Heavy Attack - Volley of Death Consume STA to attack the target and perform up to 3 consecutive attacks, dealing Fusion DMG. Stage 3 DMG is considered as Echo Skill DMG. Press Normal Attack right af…"
+    },
+    {
+      "name": "Edge Transcended",
+      "type": "skill",
+      "summary": "Resonance Skill - Encroach Dash forward and leap into the air. Flip backward upon hitting the target, dealing Fusion DMG, considered Heavy Attack DMG. Resonance Skill - Ascent of Malice Upon reaching 100 points of Sinflame, Resonance Skill is replaced with Resonance Skill - Ascent of Malice. Slash at enemies with her wings, dealing Fusion DMG, considered Heavy Attack DMG. Upon casting this skill: - Galbrena enters Demon Hypostasis. - Sinflame is converted into an equivalent…"
+    },
+    {
+      "name": "Hellfire Absolution",
+      "type": "liberation",
+      "summary": "Attack the target and deal Fusion DMG, considered Echo Skill DMG. Gain 85% DMG Multiplier increase for Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, and Dodge Counter - Purgatory Scourge for 14s while in Demon Hypostasis. Press Normal Attack after casting Resonance Liberation to cast Basic Atttack Stage 2. While in Demon Hypostasis, cast Basic Attack - Seraphic Execution Stage 2 instead. Can be cast in mid-air close t…"
+    },
+    {
+      "name": "Beyond Threshold",
+      "type": "forte",
+      "summary": "Threshold State By default, Galbrena is in Threshold State, and in this state, she accumulates Afterflame and Sinflame. Demon Hypostasis While in Demon Hypostasis, Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Dodge Counter - Blood for Blood, and Resonance Skill - Encroach are replaced with Basic Attack - Seraphic Execution, Heavy Attack - Flamewing Verdict, Mid-air Attack - Hellsent Barrage, Dodge Counter - Purgatory Scourge, and Resonance…"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3333",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3363"
+  ],
+  "stub": false,
+  "as_of": "2026-10-08",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/galbrena_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
+  "portrait_via": "prydwen-character:galbrena",
+  "prydwen_slug": "galbrena",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T1",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3333",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/3363"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Fusion / Pistols"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-08",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T1"
+      }
+    ]
+  }
+}

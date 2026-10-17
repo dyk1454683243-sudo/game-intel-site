@@ -1,0 +1,87 @@
+{
+  "id": "jingran",
+  "name": "景燃",
+  "name_zh": "景燃",
+  "name_en": "Jingran",
+  "aliases": [
+    "Jingran"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Fusion",
+  "weapon": "Broadblade",
+  "skills": [
+    {
+      "name": "Edge of Life and Death",
+      "type": "basic",
+      "summary": "Basic Attack - Drink Soul - While in the Yin Vessel state, perform up to 4 consecutive attacks, dealing Fusion DMG. - Casting Basic Attack - Drink Soul Stage 3 restores 50 points of Qi, dealing Heavy Attack DMG. - Casting Basic Attack - Drink Soul Stage 4 restores 50 points of Qi, dealing Heavy Attack DMG. Basic Attack - Devil's Bane - While in the Yang Font state, perform up to 4 consecutive attacks, dealing Fusion DMG. - Casting Basic Attack - Devil's Bane Stage 3 restores…"
+    },
+    {
+      "name": "Malevolent Encounter",
+      "type": "skill",
+      "summary": "Resonance Skill - Encroaching Yin - While in the Yin Vessel state, Resonance Skill - Encroaching Yin is available, which deals Fusion DMG. - Resonance Skill - Encroaching Yin can be cast in mid-air. Resonance Skill - Scorching Yang - While in the Yang Font state, Resonance Skill - Scorching Yang is available, which deals Fusion DMG. - Resonance Skill - Scorching Yang can be cast in mid-air. Cleanse of Impurity - Casting Resonance Skill - Encroaching Yin or Resonance Skill -…"
+    },
+    {
+      "name": "Burial of Thousand Souls",
+      "type": "liberation",
+      "summary": "Resonance Liberation - Burial of Thousand Souls can be cast in mid-air close to the ground. Attack the target, dealing Fusion DMG, considered Heavy Attack DMG, and granting 100 points of Fire of Life. Gain the following effects after casting this skill: - If Jingran's current HP is above 50% of the Max HP, reduce his current HP to 50% of the Max HP. - Gain 200 points of Qi. - Gain 3 stacks of Wayfarer's Mark. - Enter the Yinghuo state for 15s. Wayfarer's Mark - Max 3 stacks.…"
+    },
+    {
+      "name": "Trace the Vestige",
+      "type": "inherent",
+      "summary": "Upon entering combat, if Jingran's Ghost Shroud is below 25 points, restore it to 25 points. This effect can be triggered once every 4s. When nearby Resonators in the team other than Jingran gain a Shield, Jingran gains 2 points of Ghost Shroud. This effect can be triggered once every 0.5s. Fixation - Upon entering combat, Jingran gains Fixation. This effect can be triggered once every 4s. - Casting Outro Skill - Rising Fortune and Ebbing Evil grants Fixation. - When nearby…"
+    },
+    {
+      "name": "Ghost Shroud",
+      "type": "intro",
+      "summary": "- Max 50 points. - When Jingran gains a Shield, he gains 1 point of Ghost Shroud. This effect can be triggered once every 0.5s."
+    },
+    {
+      "name": "Rising Fortune and Ebbing Evil",
+      "type": "outro",
+      "summary": "Deal Fusion DMG equal to 795% of Jingran's ATK."
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Res. Skill",
+    "Basic Attack",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5405",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5399"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jingran_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+  "portrait_via": "prydwen-character:jingran",
+  "prydwen_slug": "jingran",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T0",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5405",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5399"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Fusion / Broadblade"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T0"
+      }
+    ]
+  }
+}

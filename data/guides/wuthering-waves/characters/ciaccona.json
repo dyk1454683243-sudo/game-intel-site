@@ -1,0 +1,88 @@
+{
+  "id": "ciaccona",
+  "name": "夏空",
+  "name_zh": "夏空",
+  "name_en": "Ciaccona",
+  "aliases": [
+    "Ciaccona"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "气动",
+  "weapon": "佩枪",
+  "skills": [
+    {
+      "name": "四拍的舞曲",
+      "summary": "普攻 进行最多 4 段的连续攻击，造成气动伤害。普攻第 4 段可为命中的目标添加一层【风蚀效应】。 ·使用闪避打断普攻前三段时，一定时间内短按普攻，将会施放对应段数的普攻。 ·普攻第 4 段结束后，夏空会进入音律独奏状态。夏空在主动或被动打断普攻第 4 段或音律独奏状态时，会生成一个合奏音影。 音律独奏 夏空与合奏音影在进入音律独奏状态时能够以自身为中心，使附近队伍中所有角色的气动伤害加成提升 24% ，该效果不可叠加。 合奏音影 场上最多存在 2 个合奏音影。 若夏空的普攻第 4 段被打断，合奏音影将代替夏空完成这次攻击，并进入音律独奏状态。 若夏空的音律独奏状态被打断，合奏音影将代替夏空继续音律独奏状态。 通过共鸣技能生成合奏音影时，除上述两种情况外，合奏音影将代替夏空完成这次攻击，但不进入音律独奏状态。 重击 消耗耐力并跃向空中，攻击目标，造成气动伤害。 瞄准攻击 短按瞄准键，进入瞄准状态，可以进行更强力的射击。 蓄力完成后攻击目标，造成气动伤害，此次伤害为重击伤害。 空中攻击 消耗耐力进行最多 2 段的攻击，造成气动伤害。 施放第 2…",
+      "type": "basic"
+    },
+    {
+      "name": "谐律速奏",
+      "summary": "进行一段位移，对目标造成气动伤害，为命中的目标添加一层【风蚀效应】。 施放后一定时间内短按普攻，将会施放第 2 段普攻。 ·夏空使用共鸣技能打断普攻、重击、空中攻击和音律独奏状态时，可生成一个合奏音影代替夏空完成这次攻击。 ·夏空的共鸣技能可以在空中施放。",
+      "type": "skill"
+    },
+    {
+      "name": "歌者的三重华彩",
+      "summary": "夏空与合奏音影共同演绎即兴的交响诗，对周围目标造成一次气动伤害并进入演绎状态。 演绎状态 演绎状态下，当音波进入判定圈范围时，短按绿色或黄色按钮可生成对应颜色的交响诗·主音，并回复一定协奏能量。 ·演绎状态持续期间，切换至其他角色不会结束演绎状态并可自动生成交响诗·主音，自动生成的主音的颜色由切换角色前最后一个生成的主音的颜色决定。在未通过按钮交互生成交响诗·主音时直接切换至其他角色，默认自动生成绿色的主音。 ·演绎状态持续期间，夏空免疫打断，受到的伤害降低 50% 。 ·演绎状态持续期间，再次短按共鸣解放，或在切换至其他角色后再切换至夏空，可提前结束演绎状态。 ·演绎状态下的合奏音影可触发音律独奏的气动伤害加成提升效果。 交响诗·主音 主音为绿色时：对周围的目标造成气动伤害，并为命中的目标添加一层【风蚀效应】。 主音为黄色时：对周围的目标造成气动伤害，并为命中的目标添加一层【光噪效应】。",
+      "type": "liberation"
+    },
+    {
+      "name": "风与诗乐的交响",
+      "summary": "重击·四拍重奏 持有 3 格【音律】时，夏空的重击替换为重击·四拍重奏， 向前射出重奏音符，造成气动伤害，持续牵引周围的目标，并为命中的目标添加一层【风蚀效应】。 重击·四拍重奏可在低空施放。 【音律】的获取规则 【音律】上限 3 格。 施放普攻第 4 段和变奏技能时，可获得 1 格【音律】。",
+      "type": "forte"
+    },
+    {
+      "name": "携风吟游",
+      "summary": "击退附近目标并造成衍射伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "和声引风",
+      "summary": "队伍中登场角色周围的目标受到风蚀效应的伤害加深 100% ，持续 30 秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Basic Attack",
+    "Forte Circuit",
+    "Intro Skill",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/657085.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/ciaccona"
+  ],
+  "stub": false,
+  "as_of": "2026-10-10",
+  "gamekee_content_id": 657085,
+  "gamekee_entry_id": 183037,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_117/h_158/50074/103682/2025/3/22/351109.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:183037",
+  "prydwen_slug": "ciaccona",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0] Value：Tower of Adversity T1.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/ciaccona",
+      "https://www.gamekee.com/mc/657085.html"
+    ],
+    "stub": false,
+    "caveat": "主梯度在抓到的页面里没有单独的 T 级，这一行只摘同页 Value 梯度，并标明 Value。不把它当成主梯度。不编造抽卡结论。",
+    "position": "5★ / 气动 / 佩枪"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-10",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/ciaccona",
+    "rows": [
+      {
+        "role": "Hybrid [S0] Value",
+        "tower": "T1.5",
+        "value": true
+      }
+    ]
+  }
+}

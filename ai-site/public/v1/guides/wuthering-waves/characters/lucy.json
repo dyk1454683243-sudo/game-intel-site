@@ -1,0 +1,98 @@
+{
+  "id": "lucy",
+  "name": "露西",
+  "name_zh": "露西",
+  "name_en": "Lucy",
+  "aliases": [
+    "Lucy"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Spectro",
+  "weapon": "Pistols",
+  "skills": [
+    {
+      "name": "Basic Attack - Locked Thread",
+      "type": "basic",
+      "summary": "Basic Attack - Perform up to 4 consecutive attacks, dealing Spectro DMG. - Hold Normal Attack right after Basic Attack Stage 1 to continuously attack the targets, dealing Spectro DMG. Hold this skill for a certain amount of time to cast Heavy Attack Stage 1. - Hold Normal Attack shortly after Basic Attack Stage 3 lands to cast Heavy Attack Stage 2. Heavy Attack - Consume STA to lash out against the enemies with Monowire, dealing Spectro DMG. - Hold Normal Attack after Heavy…"
+    },
+    {
+      "name": "Protocol Breach",
+      "type": "skill",
+      "summary": "Resonance Skill - Payload - Cast Resonance Skill - Payload to charge forward, dealing Spectro DMG and inflicting Hack - Shifting. Upon hitting the target, a follow-up attack is automatically triggered, dealing Spectro DMG and activating Resonance Skill - Pulse Interference. If no target is hit during the charge, reduce the skill CD by 70%. If the charge is interrupted or not successfully cast, the skill CD is not reduced. - Press Normal Attack shortly after the follow-up att…"
+    },
+    {
+      "name": "Netrunner",
+      "type": "liberation",
+      "summary": "Resonance Liberation - Netrunner - Lucy deep dives into cyberspace and pulls up the Protocol Interface for 10s. While the Protocol Interface is active, choose up to 7 different Spoofing Program effects, each requiring different RAM costs. Lucy starts with 24 points of RAM. - While in the Protocol Interface, Lucy marks targets within a certain range in her view. Marked targets will be applied with all Spoofing Program effects selected afterwards. Adjust Lucy's view to mark mo…"
+    },
+    {
+      "name": "Depths of Blackwall",
+      "type": "forte",
+      "summary": "Cloud Portal - When not in Algorithm Compaction, Lucy gains TCP upon hitting a target. At 100 points of TCP, Resonance Skill - Payload and Resonance Skill - Pulse Interference are replaced with Resonance Skill - Deadlock. - Casting Resonance Liberation - Netrunner or Resonance Liberation - Old Net Deep Dive clears all TCP. Algorithm Compaction - After casting Resonance Skill - Deadlock, Lucy enters Algorithm Compaction and gains 1 stack of SQL. Her Basic Attack is replaced w…"
+    },
+    {
+      "name": "Data Crash",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, Lucy can cast Tune Break on the target. Responding to Hack - Interfered: when Resonators in the team trigger Tune Break on the target and cause them to be affected by Hack - Interfered, Lucy applies Hack Response - Data Crash on the target. Each target can be inflicted with this effect up to 1 time every 8s."
+    },
+    {
+      "name": "Ghost Cyberware",
+      "type": "inherent",
+      "summary": "When Lucy is the active Resonator in the team, if she takes no damage for 8s, she gains 1 stack of Optical Illusion. Max 1 stack by default. Optical Illusion: When attacked, reduce this instance of DMG by 100%. If Lucy is hit or launched from the attack, she immediately recovers and triggers a successful Dodge if she's on the ground. After this effect is triggered, remove 1 stack of Optical Illusion. Function Cracking When Resonance Skill - Payload, Resonance Skill - Pulse I…"
+    },
+    {
+      "name": "Outdated Hallucination",
+      "type": "intro",
+      "summary": "Attack the target, dealing Spectro DMG and granting Resonators in the team Involuntary Sharing, allowing them to see targets behind obstacles for 25s. Additionally, Involuntary Sharing is enhanced on Rebecca, allowing her to lock onto targets behind obstacles. If Rebecca's turret is on the field, its Overload effect is activated, increasing its DMG dealt for 4s."
+    },
+    {
+      "name": "Countermeasure Program",
+      "type": "outro",
+      "summary": "The incoming Resonator gains 25% Basic Attack DMG Amplification for 14s or until they are switched out. Grants all Resonators in the team Countermeasure Program for 25s. While the effect is active, when an active Resonator in the team other than Lucy inflicts Hack - Shifting, that Resonator gains 20% All DMG Amplification. While the effect is active, when a Resonator in the team other than Lucy is attacked, Lucy grants them 30% DMG Reduction for 3s and Stagnates their attack…"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Basic Attack",
+    "Forte Circuit",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4784",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4800"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lucy_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+  "portrait_via": "prydwen-character:lucy",
+  "prydwen_slug": "lucy",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T1 / Whimpering Wastes T2",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4784",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4800"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Spectro / Pistols"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T1",
+        "whimpering": "T2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "yangyang",
+  "name": "秧秧",
+  "name_zh": "秧秧",
+  "name_en": "Yangyang",
+  "aliases": [
+    "Yangyang"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "4★",
+  "element": "气动",
+  "weapon": "迅刀",
+  "skills": [
+    {
+      "name": "风羽为刃",
+      "summary": "普攻 进行最多 4 段连续攻击，造成气动伤害。 重击 消耗耐力，向前突刺，造成气动伤害。 重击·风吟 重击或闪避反击后一定时间内使用普攻，将会施放重击风吟攻击目标，造成气动伤害。 空中攻击 消耗耐力进行空中下落攻击，造成气动伤害。 闪避反击 成功闪避后一定时间内短按普攻，将会向前突刺，造成气动伤害。",
+      "type": "basic"
+    },
+    {
+      "name": "流风载域",
+      "summary": "使用迅刀划分风场，并将周围的目标牵引至风场中心，造成气动伤害。",
+      "type": "skill"
+    },
+    {
+      "name": "朔风旋涌",
+      "summary": "挥刀制造旋风，将周围的目标牵引至旋风中心，造成气动伤害。",
+      "type": "liberation"
+    },
+    {
+      "name": "覆声裁羽",
+      "summary": "重击·风袭 当秧秧持有 3 声【流响】时，施放重击或闪避反击后可触发风袭，造成气动伤害。 空中攻击·释羽 当秧秧持有 3 声【流响】时，在空中使用普攻，将消耗所有【流响】，发动连续攻击，并自空中俯冲造成气动伤害。 落地后，秧秧将收刀攻击，造成气动伤害，此次伤害为普攻伤害。 流响获取规则 【流响】上限 3 声。 第 4 段普攻命中目标时，获取 1 声【流响】。 重击风吟命中目标时，获取 1 声【流响】。",
+      "type": "forte"
+    },
+    {
+      "name": "湛蓝礼赞",
+      "summary": "使用迅刀击飞目标，造成气动伤害。",
+      "type": "intro"
+    },
+    {
+      "name": "衍息",
+      "summary": "下一位登场角色(或附近队伍中激活延奏技能的角色)回复共鸣能量，每秒回复 4 点共鸣能量，持续 5 秒。",
+      "type": "outro"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Res. Skill",
+    "Forte Circuit",
+    "Basic Attack",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.gamekee.com/mc/622979.html",
+    "https://www.prydwen.gg/wuthering-waves/characters/yangyang"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "gamekee_content_id": 622979,
+  "gamekee_entry_id": 150332,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_240/h_320/50074/43758/2024/4/23/498733.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:mc:150332",
+  "prydwen_slug": "yangyang",
+  "summary": {
+    "tier": "Prydwen Hybrid [S6]：Tower of Adversity T4 / Whimpering Wastes T4",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/yangyang",
+      "https://www.gamekee.com/mc/622979.html"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "4★ / 气动 / 迅刀"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/yangyang",
+    "rows": [
+      {
+        "role": "Hybrid [S6]",
+        "tower": "T4",
+        "whimpering": "T4"
+      }
+    ]
+  }
+}

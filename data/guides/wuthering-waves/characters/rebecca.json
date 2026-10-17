@@ -1,0 +1,93 @@
+{
+  "id": "rebecca",
+  "name": "蕾贝卡",
+  "name_zh": "蕾贝卡",
+  "name_en": "Rebecca",
+  "aliases": [
+    "Rebecca"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Electro",
+  "weapon": "Pistols",
+  "skills": [
+    {
+      "name": "Mix-'n'-Match",
+      "type": "basic",
+      "summary": "Basic Attack - Huntress - Perform up to 3 consecutive attacks, dealing Electro DMG. Heavy Attack - Huntress - Hold Normal Attack to continuously fire at enemies at the cost of STA, dealing Electro DMG, considered Basic Attack DMG. - Hold and then release Normal Attack while Rebecca is not casting Tactical Dodge - Huntress to cast Heavy Attack - Eat Lead!: Huntress Heavy Attack - Eat Lead!: Huntress - Deal Electro DMG. Comin' in Hot! - Huntress - Somersault in mid-air and lan…"
+    },
+    {
+      "name": "Tactical Tweaks",
+      "type": "skill",
+      "summary": "Resonance Skill - It's Big Boomin' Time! - Press Resonance Skill when in the Huntress mode to close the distance and spray lead at enemies, then switch to the Guts mode to blast the target, dealing Electro DMG. Resonance Skill - Come 'n' Get Me! - Press Resonance Skill when in the Guts mode to spray lead at the enemy, then use recoil from shooting the ground to close the distance and switch to Huntress mode to continue the barrage, dealing Electro DMG. - Press or hold Normal…"
+    },
+    {
+      "name": "Party 'til Dawn!",
+      "type": "liberation",
+      "summary": "Switching to Mk. 31 HMG mode generates a field of Stagnation for 9.5s, in which: Rebecca fires the Mk. 31 HMG automatically, dealing Electro DMG, considered Basic Attack DMG, while accumulating Overload. Press or hold Normal Attack or press Resonance Liberation at intervals after Rebecca starts firing to enhance her Mk. 31 HMG's firepower and accumulate Overload faster. This effect can be triggered up to 2 times. - The machine gun will only auto-lock onto the enemy closest t…"
+    },
+    {
+      "name": "Gloves Are Comin' Off!",
+      "type": "forte",
+      "summary": "Switch Gears! - Upon casting Resonance Skill or Intro Skill, Rebecca can freely switch between the Huntress and Guts modes. - The Huntress mode increases Rebecca's Crit. DMG by 30%. - The Guts mode allows Rebecca to ignore 15% of the target's DEF. - By default, Rebecca starts in the Huntress mode. Hack - Shifting - Rebecca inflicts Hack - Shifting upon dealing damage to the targets through the following skills. The same skill can trigger this effect once every 3s: - Intro Sk…"
+    },
+    {
+      "name": "Hack - Meltdown",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, Rebecca can cast Tune Break on the target. Rebecca can inflict Hack - Shifting and respond to Hack - Interfered on targets. Responding to Hack - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Hack - Interfered, Rebecca triggers Hack - Meltdown on the target. Each target can be damaged by this skill up to once every 8s."
+    },
+    {
+      "name": "Tag, You're It!",
+      "type": "inherent",
+      "summary": "ATK is increased by 10% for 12s when A Girl Gets What She Wants! is triggered, or when Heavy Attack - Rat-tat-tat!: Huntress or Heavy Attack - Bang-bang-bang!: Guts is cast, stacking up to 2 times. When a Resonator in the team inflicts Hack - Shifting, their Tune Break Boost is increased by 30 for 30s."
+    },
+    {
+      "name": "Left an Opening!",
+      "type": "inherent",
+      "summary": "Heavy Attack - Rat-tat-tat!: Huntress and Heavy Attack - Bang-bang-bang!: Guts gain increased resistance to interruption. When Rebecca casts Resonance Liberation - Party 'til Dawn!, the ATK of all nearby Resonators in the team is increased by 20% for 30s. My Turn! Yo, It's Big Boomin' Time! - When in the Huntress mode, upon casting Intro Skill, Rebecca approaches the enemy and sprays lead with Huntress, then switches to the Guts mode to blast the target, dealing Electro DMG.…"
+    }
+  ],
+  "skill_prio": [
+    "Forte Circuit",
+    "Res. Liberation",
+    "Basic Attack",
+    "Intro Skill",
+    "Res. Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/rebecca",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4782",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4799"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rebecca_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/rebecca",
+  "portrait_via": "prydwen-character:rebecca",
+  "prydwen_slug": "rebecca",
+  "summary": {
+    "tier": "Prydwen Hybrid [S0]：Tower of Adversity T0.5 / Whimpering Wastes T1.5",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/rebecca",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4782",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4799"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Electro / Pistols"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/rebecca",
+    "rows": [
+      {
+        "role": "Hybrid [S0]",
+        "tower": "T0.5",
+        "whimpering": "T1.5"
+      }
+    ]
+  }
+}

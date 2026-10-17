@@ -1,0 +1,87 @@
+{
+  "id": "hiyuki",
+  "name": "绯雪",
+  "name_zh": "绯雪",
+  "name_en": "Hiyuki",
+  "aliases": [
+    "Hiyuki"
+  ],
+  "nicknames": [],
+  "game": "wuthering-waves",
+  "rarity": "5★",
+  "element": "Glacio",
+  "weapon": "Sword",
+  "skills": [
+    {
+      "name": "Flaming Sakura Blade Art",
+      "type": "basic",
+      "summary": "Basic Attack - Present Self - Press Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Glacio DMG. - Basic Attack - Present Self Stage 3 applies 1 stack of Glacio Chafe on hit. Heavy Attack - Frost Splinter: Present Self - When Dedication reaches 300 points, Heavy Attack - Frost Splinter: Present Self becomes available. - Hold Normal Attack to shoot out 3 arrows one by one at the cost of STA, dealing Glacio DMG, considered Resonance L…"
+    },
+    {
+      "name": "Frostblight",
+      "type": "skill",
+      "summary": "Resonance Skill - Present Self - Deal Glacio DMG. - Casting this skill enhances the next Basic Attack - Present Self Stage 3, which now restores 100 points of Dedication when cast. Switching to another Resonator ends this effect. - Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3. - If Dedication is below 300 points, hold Normal Attack within a certain period after casting this skill to perform Basic Attack -…"
+    },
+    {
+      "name": "Foreclaiming",
+      "type": "liberation",
+      "summary": "Foreclaiming: Inward Vision - Heavy Attack - Foreclaiming: Inward Vision becomes available after casting Frost Splinter: Present Self. - While in Present Self, press Resonance Liberation to cast this skill, dealing Glacio DMG. Upon casting this skill, gain 3 points of Frostharden Iai, remove 300 points of Dedication and Frostheart. Then, enter Foreclaimed Self and restore 50 points of Frostheart. - Foreclaiming: Inward Vision applies 4 stacks of Glacio Chafe on hit. Casting…"
+    },
+    {
+      "name": "Everfrost Dominion",
+      "type": "forte",
+      "summary": "Glacio Bite - While Hiyuki is in the team, Glacio Chafe inflicted by nearby Resonators in the team is converted to Glacio Bite. Every time a new stack of Glacio Bite is inflicted on a target, an instance of Glacio Bite DMG is triggered based on that enemy's current Glacio Bite stack limit. Glacio Bite can be inflicted on frozen targets. Glacio Bite is also considered Glacio Chafe and Glacio Bite DMG is also considered Glacio Chafe DMG. - When Foreclaiming: Inward Vision or B…"
+    },
+    {
+      "name": "Tune Break: Sword",
+      "type": "forte",
+      "summary": "When the target's Off-Tune Level is full, Hiyuki can cast Tune Break on the target. While in Present Self, press or hold Normal Attack shortly after casting Tune Break to cast Basic Attack - Present Self Stage 3. While in Foreclaimed Self, press Normal Attack shortly after casting Tune Break to cast Basic Attack - Foreclaimed Self Stage 3. Fine Snow When a Resonator in the team applies Glacio Chafe or Havoc Bane, Hiyuki gains 1 stack of Snow Rust. Snow Rust stacks up to 3 ti…"
+    },
+    {
+      "name": "Ephemeral Realm",
+      "type": "inherent",
+      "summary": "Once Hiyuki leaves the combat state or recovers after being knocked out, when she stays out of combat for 4s with has fewer than 1 point of Snowforged Blade, restore 1 point. Frostedge Deal Glacio DMG, considered Resonance Liberation DMG, and apply 1 stack of Glacio Chafe on hit. In Present Self, casting this skill restores 200 points of Dedication. Press or hold Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 3. I…"
+    }
+  ],
+  "skill_prio": [
+    "Res. Liberation",
+    "Basic Attack",
+    "Forte Circuit",
+    "Res. Skill",
+    "Intro Skill"
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5420",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5429"
+  ],
+  "stub": false,
+  "as_of": "2026-10-05",
+  "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hiyuki_full.webp",
+  "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
+  "portrait_via": "prydwen-character:hiyuki",
+  "prydwen_slug": "hiyuki",
+  "summary": {
+    "tier": "Prydwen DPS [S0]：Tower of Adversity T0",
+    "sources": [
+      "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5420",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/5429"
+    ],
+    "stub": false,
+    "caveat": "强度摘自该角色 Prydwen 页 Ratings（编辑向，非官方）。页面没写出的那一栏不补。不编造抽卡结论。",
+    "position": "5★ / Glacio / Sword"
+  },
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-05",
+    "url": "https://www.prydwen.gg/wuthering-waves/characters/hiyuki",
+    "rows": [
+      {
+        "role": "DPS [S0]",
+        "tower": "T0"
+      }
+    ]
+  }
+}
