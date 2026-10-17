@@ -1,0 +1,79 @@
+{
+  "id": "la-source",
+  "name": "拉拉泉",
+  "name_zh": "拉拉泉",
+  "name_en": "La Source",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗",
+  "rarity": "3星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "“春日精灵”",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成150%精神创伤"
+    },
+    {
+      "name": "春日精灵",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体回复使用者攻击*80%生命"
+    },
+    {
+      "name": "另一版本的传说",
+      "type": "ultimate",
+      "summary": "单体攻击，造成400%精神创伤；命中时使其激情-2"
+    },
+    {
+      "name": "后悔药",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗后，使攻击最高的敌方陷入【许愿失败】状态，持续3回合（最多触发1次）"
+    },
+    {
+      "name": "后悔药",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受创回复提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%8B%89%E6%8B%89%E6%B3%89",
+    "https://www.prydwen.gg/re1999/characters/la-source",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "拉拉泉",
+  "prydwen_slug": "la-source",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/la-source_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:la-source",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 拉拉泉 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Survival",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Survival）",
+    "position": "3星 / 木 / 精神 / 治疗",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%8B%89%E6%8B%89%E6%B3%89"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

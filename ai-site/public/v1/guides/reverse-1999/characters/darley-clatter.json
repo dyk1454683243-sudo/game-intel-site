@@ -1,0 +1,79 @@
+{
+  "id": "darley-clatter",
+  "name": "哒哒达利",
+  "name_zh": "哒哒达利",
+  "name_en": "Darley Clatter",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助",
+  "rarity": "3星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "哒哒践踏",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "凛凛威风",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成150%精神创伤；使生命最低的己方单体回复使用者攻击*40%生命"
+    },
+    {
+      "name": "始祖的金牌鼓舞",
+      "type": "ultimate",
+      "summary": "群体增强，使其他友方激情+1；创伤加成提升30%，持续3回合；自身回复15%已损失生命"
+    },
+    {
+      "name": "重铸荣光",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：受到攻击后，若自身生命低于50%，则激情+3（最多触发1次）"
+    },
+    {
+      "name": "重铸荣光",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受创回复提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%93%92%E5%93%92%E8%BE%BE%E5%88%A9",
+    "https://www.prydwen.gg/re1999/characters/darley-clatter",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "哒哒达利",
+  "prydwen_slug": "darley-clatter",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/darley-clatter_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:darley-clatter",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 哒哒达利 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Moxie）",
+    "position": "3星 / 兽 / 精神 / 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%93%92%E5%93%92%E8%BE%BE%E5%88%A9"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

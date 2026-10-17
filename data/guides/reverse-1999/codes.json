@@ -1,0 +1,13 @@
+{
+  "game": "reverse-1999",
+  "as_of": "2026-10-17",
+  "checked": "2026-10-17",
+  "timezone_note": "核对日 2026-10-17。下面这些页没有列出可输入的兑换码。游戏内邮件奖励不是兑换码，不写入 codes。",
+  "sources": [
+    "https://www.sina.cn/media/7600886366",
+    "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+    "https://wiki.biligame.com/reverse1999/api.php?action=query&list=search&srsearch=%E5%85%91%E6%8D%A2%E7%A0%81&format=json"
+  ],
+  "codes": [],
+  "note": "新浪镜像上的认证官方微博近期帖，以及国际服 Steam 3.8 公告，都没有兑换码。BWIKI 站内搜索「兑换码」「礼包码」没有页面。GameKee alias reverse1999 的 searchArticle「兑换码」返回空列表。没有码就不编造。"
+}

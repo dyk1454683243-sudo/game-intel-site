@@ -1,0 +1,91 @@
+{
+  "id": "fatutu",
+  "name": "图图石子",
+  "name_zh": "图图石子",
+  "name_en": "Fatutu",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗 驱散 额外行动",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "致裂痕",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成120%精神创伤；攻击后布设3层【象形贝壳】；驱散己方全体1种【属性削弱】【状态异常】【控制】效果"
+    },
+    {
+      "name": "壳中海",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，均分己方全体生命值；使己方全体获得3层【同一串贝壳】；回收全部【象形贝壳】"
+    },
+    {
+      "name": "海风于此告诫",
+      "type": "ultimate",
+      "summary": "单体攻击，造成700%精神创伤，布设全部【象形贝壳】；并使目标陷入【贝壳航标】状态2回合"
+    },
+    {
+      "name": "贝壳项链",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使自身获得8层【象形贝壳】； 布设【象形贝壳】时，20%概率图图石子激情+1； 回收【象形贝壳】时，使己方全体回复回收层数*图图石子攻击*30%生命； 携带【象形贝壳】的敌人退场时，回收该敌人全部【象形贝壳】"
+    },
+    {
+      "name": "贝壳项链",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "贝壳项链",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，额外获得4层【象形贝壳】； 图图石子累计布设或回收7次【象形贝壳】后，对携带【象形贝壳】层数最高的敌人触发一次1阶【致裂痕】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · I Thought You Were American (FUA)：天使娜娜 / 梁月 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%9B%BE%E5%9B%BE%E7%9F%B3%E5%AD%90",
+    "https://www.prydwen.gg/re1999/characters/fatutu",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "图图石子",
+  "prydwen_slug": "fatutu",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/fatutu_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:fatutu",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 图图石子 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Survival",
+    "tags": "Cleanse, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Survival；Cleanse, EA）",
+    "position": "6星 / 岩 / 精神 / 治疗 驱散 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%9B%BE%E5%9B%BE%E7%9F%B3%E5%AD%90"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

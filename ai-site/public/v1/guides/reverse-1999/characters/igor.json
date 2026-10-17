@@ -1,0 +1,90 @@
+{
+  "id": "igor",
+  "name": "伊戈尔",
+  "name_zh": "伊戈尔",
+  "name_en": "Igor",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 激情",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "未逝的昏冥",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成200%现实创伤，使自身激情+1； 攻击后，赋予主目标5层【弹壳碎片】，同时赋予其【重点锁定】，持续1回合"
+    },
+    {
+      "name": "掌夜者",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：从【军械库】中随机获得其中2种【子弹】，每种4层，优先选取当前没有的【子弹】；每拥有1种【子弹】，为自身增加1层【沙盘推演】"
+    },
+    {
+      "name": "蹄声巡弋于冥界",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成900%现实创伤，对主目标额外造成900%现实创伤； 每拥有1种【子弹】，可使本次攻击额外受到8%仪式威力影响； 目标每有1层【弹壳碎片】，可额外造成25%现实创伤，攻击后移除所有目标的【弹壳碎片】； 本次攻击无视闪避"
+    },
+    {
+      "name": "狮鹫军",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方释放至终的仪式时，伊戈尔可获得1点激情； 当队友兽灵感数量为1/2名及以上时，【未逝的昏冥】赋予主目标的【弹壳碎片】额外增加3/5层；友方单体攻击时，额外赋予目标1/2层【弹壳碎片】，释放至终的仪式时，赋予敌方全体3/5层【弹壳碎片】； 若队伍中存在洛佩拉，则洛佩拉额外获得50%暴击创伤，并使洛佩拉在攻击前赋予目标6层燃烧，洛佩拉释放仪式时，分别给自身前方/后方的友方角色分发1层【仪式子弹】/【术法子弹】； 若队伍中存在莫莉德尔，则莫莉德尔和伊戈尔溢出的激情会被临时储存，回合结束时若该角色激情空余时补充，每个角色最多储存5点激情；莫莉德尔释放仪式后，可使莫莉德尔激情+1，伊戈尔激情+2，并额外赋予敌方全体12层【弹壳碎片】"
+    },
+    {
+      "name": "狮鹫军",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "狮鹫军",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，使自身激情+2，其他友方角色每存在一个兽灵感角色，使自身激情+1，上限为2"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Daddy? Do I LOOK- (Ultimate)：伊戈尔 / 洛佩拉 / 莫莉德尔 | Rhiannon | 纸信圈儿 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E4%BC%8A%E6%88%88%E5%B0%94",
+    "https://www.prydwen.gg/re1999/characters/igor",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "伊戈尔",
+  "prydwen_slug": "igor",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/igor_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:igor",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 伊戈尔 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "Ult, Bullet",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；Ult, Bullet）",
+    "position": "6星 / 兽 / 现实 / 输出 爆发 激情",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E4%BC%8A%E6%88%88%E5%B0%94"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

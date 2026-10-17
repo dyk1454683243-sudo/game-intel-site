@@ -1,0 +1,85 @@
+{
+  "id": "baby-blue",
+  "name": "婴儿蓝",
+  "name_zh": "婴儿蓝",
+  "name_en": "Baby Blue",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "削弱 控制",
+  "rarity": "5星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "过家家",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "咳咳剂",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体削弱，使敌方全体造成伤害降低15%，受到伤害提升15%，持续2回合"
+    },
+    {
+      "name": "好朋友与茶话会",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成250%精神创伤；若目标处于【属性削弱】【状态异常】【控制】中，则使其陷入【噩梦】状态1回合"
+    },
+    {
+      "name": "别碰她",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：被精神创伤攻击时，受到伤害降低20%，暴击防御提升20%"
+    },
+    {
+      "name": "别碰她",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，抗暴率提升10%"
+    },
+    {
+      "name": "别碰她",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：受到精神创伤时，赋予对方1层【仙境访客】，持续2回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%A9%B4%E5%84%BF%E8%93%9D",
+    "https://www.prydwen.gg/re1999/characters/baby-blue",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "婴儿蓝",
+  "prydwen_slug": "baby-blue",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/baby-blue_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:baby-blue",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 婴儿蓝 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Mental, Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Mental, Debuff）",
+    "position": "5星 / 星 / 精神 / 削弱 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%A9%B4%E5%84%BF%E8%93%9D"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

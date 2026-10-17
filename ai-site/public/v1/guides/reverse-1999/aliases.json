@@ -1,0 +1,1964 @@
+{
+  "_meta": {
+    "game": "reverse-1999",
+    "note": "Canonical names from BWIKI 神秘学家模板 and Prydwen character slugs. Official Chinese names for 狩勋女巫红弩箭, 格林杜尔 and 德雷克 come from the verified 重返未来1999 Weibo mirror. Ambiguous keys are omitted.",
+    "as_of": "2026-10-17"
+  },
+  "aliases": {
+    "6": {
+      "id": "6",
+      "name": "6",
+      "kind": "character"
+    },
+    "37": {
+      "id": "37",
+      "name": "37",
+      "kind": "character"
+    },
+    "A Knight": {
+      "id": "a-knight",
+      "name": "未锈铠",
+      "kind": "character"
+    },
+    "a-knight": {
+      "id": "a-knight",
+      "name": "未锈铠",
+      "kind": "character"
+    },
+    "Aleph": {
+      "id": "aleph",
+      "name": "阿莱夫",
+      "kind": "character"
+    },
+    "aleph": {
+      "id": "aleph",
+      "name": "阿莱夫",
+      "kind": "character"
+    },
+    "Alexios": {
+      "id": "alexios",
+      "name": "阿利克西欧斯",
+      "kind": "character"
+    },
+    "alexios": {
+      "id": "alexios",
+      "name": "阿利克西欧斯",
+      "kind": "character"
+    },
+    "aliEn T": {
+      "id": "alien-t",
+      "name": "星之眼",
+      "kind": "character"
+    },
+    "alien-t": {
+      "id": "alien-t",
+      "name": "星之眼",
+      "kind": "character"
+    },
+    "An-an Lee": {
+      "id": "an-an-lee",
+      "name": "泥鯭的士",
+      "kind": "character"
+    },
+    "an-an-lee": {
+      "id": "an-an-lee",
+      "name": "泥鯭的士",
+      "kind": "character"
+    },
+    "Anjo Nala": {
+      "id": "anjo-nala",
+      "name": "天使娜娜",
+      "kind": "character"
+    },
+    "anjo-nala": {
+      "id": "anjo-nala",
+      "name": "天使娜娜",
+      "kind": "character"
+    },
+    "APPLe": {
+      "id": "apple",
+      "name": "APPLe",
+      "kind": "character"
+    },
+    "apple": {
+      "id": "apple",
+      "name": "APPLe",
+      "kind": "character"
+    },
+    "Argus": {
+      "id": "argus",
+      "name": "阿尔古斯",
+      "kind": "character"
+    },
+    "argus": {
+      "id": "argus",
+      "name": "阿尔古斯",
+      "kind": "character"
+    },
+    "Avgust": {
+      "id": "avgust",
+      "name": "Avgust",
+      "kind": "character"
+    },
+    "avgust": {
+      "id": "avgust",
+      "name": "Avgust",
+      "kind": "character"
+    },
+    "avksiviy": {
+      "id": "avksiviy",
+      "name": "阿夫西维",
+      "kind": "character"
+    },
+    "Baby Blue": {
+      "id": "baby-blue",
+      "name": "婴儿蓝",
+      "kind": "character"
+    },
+    "baby-blue": {
+      "id": "baby-blue",
+      "name": "婴儿蓝",
+      "kind": "character"
+    },
+    "Balloon Party": {
+      "id": "balloon-party",
+      "name": "气球派对",
+      "kind": "character"
+    },
+    "balloon-party": {
+      "id": "balloon-party",
+      "name": "气球派对",
+      "kind": "character"
+    },
+    "Barbara": {
+      "id": "barbara",
+      "name": "数羊羔",
+      "kind": "character"
+    },
+    "barbara": {
+      "id": "barbara",
+      "name": "数羊羔",
+      "kind": "character"
+    },
+    "Barcarola": {
+      "id": "barcarola",
+      "name": "芭卡洛儿",
+      "kind": "character"
+    },
+    "barcarola": {
+      "id": "barcarola",
+      "name": "芭卡洛儿",
+      "kind": "character"
+    },
+    "Beryl": {
+      "id": "beryl",
+      "name": "贝丽尔",
+      "kind": "character"
+    },
+    "beryl": {
+      "id": "beryl",
+      "name": "贝丽尔",
+      "kind": "character"
+    },
+    "Bette": {
+      "id": "bette",
+      "name": "贝蒂",
+      "kind": "character"
+    },
+    "bette": {
+      "id": "bette",
+      "name": "贝蒂",
+      "kind": "character"
+    },
+    "Bkornblume": {
+      "id": "bkornblume",
+      "name": "柏林以东",
+      "kind": "character"
+    },
+    "bkornblume": {
+      "id": "bkornblume",
+      "name": "柏林以东",
+      "kind": "character"
+    },
+    "Black Dwarf": {
+      "id": "kaalaa-baunaa",
+      "name": "伽菈波那",
+      "kind": "character"
+    },
+    "Blonney": {
+      "id": "blonney",
+      "name": "金蜜儿",
+      "kind": "character"
+    },
+    "blonney": {
+      "id": "blonney",
+      "name": "金蜜儿",
+      "kind": "character"
+    },
+    "Brimley": {
+      "id": "brimley",
+      "name": "宽檐帽",
+      "kind": "character"
+    },
+    "brimley": {
+      "id": "brimley",
+      "name": "宽檐帽",
+      "kind": "character"
+    },
+    "Brume": {
+      "id": "brume",
+      "name": "灰调蓝",
+      "kind": "character"
+    },
+    "brume": {
+      "id": "brume",
+      "name": "灰调蓝",
+      "kind": "character"
+    },
+    "Buddy Fairchild": {
+      "id": "buddy-fairchild",
+      "name": "嚼嚼松果",
+      "kind": "character"
+    },
+    "buddy-fairchild": {
+      "id": "buddy-fairchild",
+      "name": "嚼嚼松果",
+      "kind": "character"
+    },
+    "Bunny Bunny": {
+      "id": "bunny-bunny",
+      "name": "芭妮芭妮",
+      "kind": "character"
+    },
+    "bunny-bunny": {
+      "id": "bunny-bunny",
+      "name": "芭妮芭妮",
+      "kind": "character"
+    },
+    "Centurion": {
+      "id": "centurion",
+      "name": "百夫长",
+      "kind": "character"
+    },
+    "centurion": {
+      "id": "centurion",
+      "name": "百夫长",
+      "kind": "character"
+    },
+    "Changeling": {
+      "id": "jessica",
+      "name": "洁西卡",
+      "kind": "character"
+    },
+    "Charlie": {
+      "id": "charlie",
+      "name": "夏利",
+      "kind": "character"
+    },
+    "charlie": {
+      "id": "charlie",
+      "name": "夏利",
+      "kind": "character"
+    },
+    "Charon": {
+      "id": "charon",
+      "name": "卡戎",
+      "kind": "character"
+    },
+    "charon": {
+      "id": "charon",
+      "name": "卡戎",
+      "kind": "character"
+    },
+    "Cheng Heguang": {
+      "id": "cheng-heguang",
+      "name": "Cheng Heguang",
+      "kind": "character"
+    },
+    "cheng-heguang": {
+      "id": "cheng-heguang",
+      "name": "Cheng Heguang",
+      "kind": "character"
+    },
+    "Click": {
+      "id": "click",
+      "name": "喀嚓喀嚓",
+      "kind": "character"
+    },
+    "click": {
+      "id": "click",
+      "name": "喀嚓喀嚓",
+      "kind": "character"
+    },
+    "coppelia": {
+      "id": "coppelia",
+      "name": "Coppélia",
+      "kind": "character"
+    },
+    "Coppélia": {
+      "id": "coppelia",
+      "name": "Coppélia",
+      "kind": "character"
+    },
+    "Cornerstone": {
+      "id": "cornerstone",
+      "name": "Cornerstone",
+      "kind": "character"
+    },
+    "cornerstone": {
+      "id": "cornerstone",
+      "name": "Cornerstone",
+      "kind": "character"
+    },
+    "Corvus": {
+      "id": "corvus",
+      "name": "告死鸟",
+      "kind": "character"
+    },
+    "corvus": {
+      "id": "corvus",
+      "name": "告死鸟",
+      "kind": "character"
+    },
+    "Cristallo": {
+      "id": "cristallo",
+      "name": "铅玻璃",
+      "kind": "character"
+    },
+    "cristallo": {
+      "id": "cristallo",
+      "name": "铅玻璃",
+      "kind": "character"
+    },
+    "Darley Clatter": {
+      "id": "darley-clatter",
+      "name": "哒哒达利",
+      "kind": "character"
+    },
+    "darley-clatter": {
+      "id": "darley-clatter",
+      "name": "哒哒达利",
+      "kind": "character"
+    },
+    "Desert Flannel": {
+      "id": "desert-flannel",
+      "name": "沙丝绒",
+      "kind": "character"
+    },
+    "desert-flannel": {
+      "id": "desert-flannel",
+      "name": "沙丝绒",
+      "kind": "character"
+    },
+    "Diggers": {
+      "id": "diggers",
+      "name": "挖掘艺术",
+      "kind": "character"
+    },
+    "diggers": {
+      "id": "diggers",
+      "name": "挖掘艺术",
+      "kind": "character"
+    },
+    "Dikke": {
+      "id": "dikke",
+      "name": "帕米埃",
+      "kind": "character"
+    },
+    "dikke": {
+      "id": "dikke",
+      "name": "帕米埃",
+      "kind": "character"
+    },
+    "Door": {
+      "id": "door",
+      "name": "门",
+      "kind": "character"
+    },
+    "door": {
+      "id": "door",
+      "name": "门",
+      "kind": "character"
+    },
+    "Drake": {
+      "id": "drake",
+      "name": "德雷克",
+      "kind": "character"
+    },
+    "drake": {
+      "id": "drake",
+      "name": "德雷克",
+      "kind": "character"
+    },
+    "Druvis III": {
+      "id": "druvis-iii",
+      "name": "槲寄生",
+      "kind": "character"
+    },
+    "druvis-iii": {
+      "id": "druvis-iii",
+      "name": "槲寄生",
+      "kind": "character"
+    },
+    "Eagle": {
+      "id": "eagle",
+      "name": "小春雀儿",
+      "kind": "character"
+    },
+    "eagle": {
+      "id": "eagle",
+      "name": "小春雀儿",
+      "kind": "character"
+    },
+    "Enigma": {
+      "id": "enigma",
+      "name": "Enigma",
+      "kind": "character"
+    },
+    "enigma": {
+      "id": "enigma",
+      "name": "Enigma",
+      "kind": "character"
+    },
+    "Erick": {
+      "id": "erick",
+      "name": "埃里克",
+      "kind": "character"
+    },
+    "erick": {
+      "id": "erick",
+      "name": "埃里克",
+      "kind": "character"
+    },
+    "Eternity": {
+      "id": "eternity",
+      "name": "温妮弗雷德",
+      "kind": "character"
+    },
+    "eternity": {
+      "id": "eternity",
+      "name": "温妮弗雷德",
+      "kind": "character"
+    },
+    "Everecho": {
+      "id": "everecho",
+      "name": "Everecho",
+      "kind": "character"
+    },
+    "everecho": {
+      "id": "everecho",
+      "name": "Everecho",
+      "kind": "character"
+    },
+    "Ezio Auditore": {
+      "id": "ezio-auditore",
+      "name": "艾吉奥·奥迪托雷",
+      "kind": "character"
+    },
+    "ezio-auditore": {
+      "id": "ezio-auditore",
+      "name": "艾吉奥·奥迪托雷",
+      "kind": "character"
+    },
+    "Ezra Theodore": {
+      "id": "ezra-theodore",
+      "name": "爱兹拉",
+      "kind": "character"
+    },
+    "ezra-theodore": {
+      "id": "ezra-theodore",
+      "name": "爱兹拉",
+      "kind": "character"
+    },
+    "Fatutu": {
+      "id": "fatutu",
+      "name": "图图石子",
+      "kind": "character"
+    },
+    "fatutu": {
+      "id": "fatutu",
+      "name": "图图石子",
+      "kind": "character"
+    },
+    "Flutterpage": {
+      "id": "flutterpage",
+      "name": "纸信圈儿",
+      "kind": "character"
+    },
+    "flutterpage": {
+      "id": "flutterpage",
+      "name": "纸信圈儿",
+      "kind": "character"
+    },
+    "Getian": {
+      "id": "getian",
+      "name": "葛天",
+      "kind": "character"
+    },
+    "getian": {
+      "id": "getian",
+      "name": "葛天",
+      "kind": "character"
+    },
+    "glyndwr": {
+      "id": "glyndwr",
+      "name": "格林杜尔",
+      "kind": "character"
+    },
+    "Glyndŵr": {
+      "id": "glyndwr",
+      "name": "格林杜尔",
+      "kind": "character"
+    },
+    "Hedone": {
+      "id": "hedone",
+      "name": "Hedone",
+      "kind": "character"
+    },
+    "hedone": {
+      "id": "hedone",
+      "name": "Hedone",
+      "kind": "character"
+    },
+    "Hissabeth": {
+      "id": "hissabeth",
+      "name": "冷周六",
+      "kind": "character"
+    },
+    "hissabeth": {
+      "id": "hissabeth",
+      "name": "冷周六",
+      "kind": "character"
+    },
+    "Horropedia": {
+      "id": "horropedia",
+      "name": "恐怖通",
+      "kind": "character"
+    },
+    "horropedia": {
+      "id": "horropedia",
+      "name": "恐怖通",
+      "kind": "character"
+    },
+    "Huntsworn Lilya": {
+      "id": "huntsworn-lilya",
+      "name": "狩勋女巫红弩箭",
+      "kind": "character"
+    },
+    "huntsworn-lilya": {
+      "id": "huntsworn-lilya",
+      "name": "狩勋女巫红弩箭",
+      "kind": "character"
+    },
+    "Igor": {
+      "id": "igor",
+      "name": "伊戈尔",
+      "kind": "character"
+    },
+    "igor": {
+      "id": "igor",
+      "name": "伊戈尔",
+      "kind": "character"
+    },
+    "Isolde": {
+      "id": "isolde",
+      "name": "伊索尔德",
+      "kind": "character"
+    },
+    "isolde": {
+      "id": "isolde",
+      "name": "伊索尔德",
+      "kind": "character"
+    },
+    "J": {
+      "id": "j",
+      "name": "J",
+      "kind": "character"
+    },
+    "j": {
+      "id": "j",
+      "name": "J",
+      "kind": "character"
+    },
+    "jessica": {
+      "id": "jessica",
+      "name": "洁西卡",
+      "kind": "character"
+    },
+    "Jiu Niangzi": {
+      "id": "jiu-niangzi",
+      "name": "曲娘",
+      "kind": "character"
+    },
+    "jiu-niangzi": {
+      "id": "jiu-niangzi",
+      "name": "曲娘",
+      "kind": "character"
+    },
+    "Joe": {
+      "id": "j",
+      "name": "J",
+      "kind": "character"
+    },
+    "John Titor": {
+      "id": "john-titor",
+      "name": "约翰·提托",
+      "kind": "character"
+    },
+    "john-titor": {
+      "id": "john-titor",
+      "name": "约翰·提托",
+      "kind": "character"
+    },
+    "kaalaa-baunaa": {
+      "id": "kaalaa-baunaa",
+      "name": "伽菈波那",
+      "kind": "character"
+    },
+    "Kakania": {
+      "id": "kakania",
+      "name": "卡卡尼亚",
+      "kind": "character"
+    },
+    "kakania": {
+      "id": "kakania",
+      "name": "卡卡尼亚",
+      "kind": "character"
+    },
+    "Kanjira": {
+      "id": "kanjira",
+      "name": "坎吉拉",
+      "kind": "character"
+    },
+    "kanjira": {
+      "id": "kanjira",
+      "name": "坎吉拉",
+      "kind": "character"
+    },
+    "Kassandra": {
+      "id": "kassandra",
+      "name": "卡珊德拉",
+      "kind": "character"
+    },
+    "kassandra": {
+      "id": "kassandra",
+      "name": "卡珊德拉",
+      "kind": "character"
+    },
+    "Kiperina": {
+      "id": "kiperina",
+      "name": "库珀花环",
+      "kind": "character"
+    },
+    "kiperina": {
+      "id": "kiperina",
+      "name": "库珀花环",
+      "kind": "character"
+    },
+    "La Source": {
+      "id": "la-source",
+      "name": "拉拉泉",
+      "kind": "character"
+    },
+    "la-source": {
+      "id": "la-source",
+      "name": "拉拉泉",
+      "kind": "character"
+    },
+    "Leilani": {
+      "id": "leilani",
+      "name": "莉拉妮",
+      "kind": "character"
+    },
+    "leilani": {
+      "id": "leilani",
+      "name": "莉拉妮",
+      "kind": "character"
+    },
+    "Liang": {
+      "id": "liang-yue",
+      "name": "梁月",
+      "kind": "character"
+    },
+    "Liang Yue": {
+      "id": "liang-yue",
+      "name": "梁月",
+      "kind": "character"
+    },
+    "liang-yue": {
+      "id": "liang-yue",
+      "name": "梁月",
+      "kind": "character"
+    },
+    "Lilya": {
+      "id": "lilya",
+      "name": "红弩箭",
+      "kind": "character"
+    },
+    "lilya": {
+      "id": "lilya",
+      "name": "红弩箭",
+      "kind": "character"
+    },
+    "Loggerhead": {
+      "id": "loggerhead",
+      "name": "空脑袋",
+      "kind": "character"
+    },
+    "loggerhead": {
+      "id": "loggerhead",
+      "name": "空脑袋",
+      "kind": "character"
+    },
+    "Lopera": {
+      "id": "lopera",
+      "name": "洛佩拉",
+      "kind": "character"
+    },
+    "lopera": {
+      "id": "lopera",
+      "name": "洛佩拉",
+      "kind": "character"
+    },
+    "Lorelei": {
+      "id": "lorelei",
+      "name": "罗蕾莱",
+      "kind": "character"
+    },
+    "lorelei": {
+      "id": "lorelei",
+      "name": "罗蕾莱",
+      "kind": "character"
+    },
+    "Lorentz Butterfly": {
+      "id": "lorentz-butterfly",
+      "name": "Lorentz Butterfly",
+      "kind": "character"
+    },
+    "lorentz-butterfly": {
+      "id": "lorentz-butterfly",
+      "name": "Lorentz Butterfly",
+      "kind": "character"
+    },
+    "Lucy": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "lucy": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "Marcus": {
+      "id": "marcus",
+      "name": "马库斯",
+      "kind": "character"
+    },
+    "marcus": {
+      "id": "marcus",
+      "name": "马库斯",
+      "kind": "character"
+    },
+    "Marsha": {
+      "id": "marsha",
+      "name": "玛尔纱",
+      "kind": "character"
+    },
+    "marsha": {
+      "id": "marsha",
+      "name": "玛尔纱",
+      "kind": "character"
+    },
+    "matilda": {
+      "id": "matilda",
+      "name": "玛蒂尔达",
+      "kind": "character"
+    },
+    "Matilda": {
+      "id": "matilda",
+      "name": "玛蒂尔达",
+      "kind": "character"
+    },
+    "Matilda Bouanich": {
+      "id": "matilda",
+      "name": "玛蒂尔达",
+      "kind": "character"
+    },
+    "Medicine Pocket": {
+      "id": "medicine-pocket",
+      "name": "兔毛手袋",
+      "kind": "character"
+    },
+    "medicine-pocket": {
+      "id": "medicine-pocket",
+      "name": "兔毛手袋",
+      "kind": "character"
+    },
+    "Melania": {
+      "id": "melania",
+      "name": "梅兰妮",
+      "kind": "character"
+    },
+    "melania": {
+      "id": "melania",
+      "name": "梅兰妮",
+      "kind": "character"
+    },
+    "Mercuria": {
+      "id": "mercuria",
+      "name": "环状水星",
+      "kind": "character"
+    },
+    "mercuria": {
+      "id": "mercuria",
+      "name": "环状水星",
+      "kind": "character"
+    },
+    "Mesmer Jr.": {
+      "id": "mesmer-jr",
+      "name": "小梅斯梅尔",
+      "kind": "character"
+    },
+    "mesmer-jr": {
+      "id": "mesmer-jr",
+      "name": "小梅斯梅尔",
+      "kind": "character"
+    },
+    "Moldir": {
+      "id": "moldir",
+      "name": "莫莉德尔",
+      "kind": "character"
+    },
+    "moldir": {
+      "id": "moldir",
+      "name": "莫莉德尔",
+      "kind": "character"
+    },
+    "Mondlicht": {
+      "id": "mondlicht",
+      "name": "红斗篷",
+      "kind": "character"
+    },
+    "mondlicht": {
+      "id": "mondlicht",
+      "name": "红斗篷",
+      "kind": "character"
+    },
+    "mr-duncan": {
+      "id": "mr-duncan",
+      "name": "邓肯先生",
+      "kind": "character"
+    },
+    "Mr. Duncan": {
+      "id": "mr-duncan",
+      "name": "邓肯先生",
+      "kind": "character"
+    },
+    "ms-moissan": {
+      "id": "ms-moissan",
+      "name": "莫桑女士",
+      "kind": "character"
+    },
+    "ms-newbabel": {
+      "id": "ms-newbabel",
+      "name": "新巴别塔",
+      "kind": "character"
+    },
+    "ms-radio": {
+      "id": "ms-radio",
+      "name": "无线电小姐",
+      "kind": "character"
+    },
+    "ms-stranger": {
+      "id": "ms-stranger",
+      "name": "Ms. Stranger",
+      "kind": "character"
+    },
+    "Ms. Moissan": {
+      "id": "ms-moissan",
+      "name": "莫桑女士",
+      "kind": "character"
+    },
+    "Ms. NewBabel": {
+      "id": "ms-newbabel",
+      "name": "新巴别塔",
+      "kind": "character"
+    },
+    "Ms. Radio": {
+      "id": "ms-radio",
+      "name": "无线电小姐",
+      "kind": "character"
+    },
+    "Ms. Stranger": {
+      "id": "ms-stranger",
+      "name": "Ms. Stranger",
+      "kind": "character"
+    },
+    "Name Day": {
+      "id": "name-day",
+      "name": "命名日",
+      "kind": "character"
+    },
+    "name-day": {
+      "id": "name-day",
+      "name": "命名日",
+      "kind": "character"
+    },
+    "Narcissus": {
+      "id": "narcissus",
+      "name": "Narcissus",
+      "kind": "character"
+    },
+    "narcissus": {
+      "id": "narcissus",
+      "name": "Narcissus",
+      "kind": "character"
+    },
+    "Nautika": {
+      "id": "nautika",
+      "name": "诺谛卡",
+      "kind": "character"
+    },
+    "nautika": {
+      "id": "nautika",
+      "name": "诺谛卡",
+      "kind": "character"
+    },
+    "Necrologist": {
+      "id": "necrologist",
+      "name": "讣告人",
+      "kind": "character"
+    },
+    "necrologist": {
+      "id": "necrologist",
+      "name": "讣告人",
+      "kind": "character"
+    },
+    "Nick Bottom": {
+      "id": "nick-bottom",
+      "name": "尼克·波顿",
+      "kind": "character"
+    },
+    "nick-bottom": {
+      "id": "nick-bottom",
+      "name": "尼克·波顿",
+      "kind": "character"
+    },
+    "Noire": {
+      "id": "noire",
+      "name": "菲林士多",
+      "kind": "character"
+    },
+    "noire": {
+      "id": "noire",
+      "name": "菲林士多",
+      "kind": "character"
+    },
+    "NORA": {
+      "id": "nora",
+      "name": "NORA",
+      "kind": "character"
+    },
+    "nora": {
+      "id": "nora",
+      "name": "NORA",
+      "kind": "character"
+    },
+    "Oliver Fog": {
+      "id": "oliver-fog",
+      "name": "雾行者",
+      "kind": "character"
+    },
+    "oliver-fog": {
+      "id": "oliver-fog",
+      "name": "雾行者",
+      "kind": "character"
+    },
+    "ONiON": {
+      "id": "onion",
+      "name": "洋葱头",
+      "kind": "character"
+    },
+    "onion": {
+      "id": "onion",
+      "name": "洋葱头",
+      "kind": "character"
+    },
+    "Paper Heron": {
+      "id": "paper-heron",
+      "name": "Paper Heron",
+      "kind": "character"
+    },
+    "paper-heron": {
+      "id": "paper-heron",
+      "name": "Paper Heron",
+      "kind": "character"
+    },
+    "Pavia": {
+      "id": "pavia",
+      "name": "狼群",
+      "kind": "character"
+    },
+    "pavia": {
+      "id": "pavia",
+      "name": "狼群",
+      "kind": "character"
+    },
+    "Pickles": {
+      "id": "pickles",
+      "name": "皮克勒斯",
+      "kind": "character"
+    },
+    "pickles": {
+      "id": "pickles",
+      "name": "皮克勒斯",
+      "kind": "character"
+    },
+    "Pioneer": {
+      "id": "pioneer",
+      "name": "先驱者",
+      "kind": "character"
+    },
+    "pioneer": {
+      "id": "pioneer",
+      "name": "先驱者",
+      "kind": "character"
+    },
+    "Poltergeist": {
+      "id": "poltergeist",
+      "name": "吵闹鬼",
+      "kind": "character"
+    },
+    "poltergeist": {
+      "id": "poltergeist",
+      "name": "吵闹鬼",
+      "kind": "character"
+    },
+    "Rabies": {
+      "id": "rabies",
+      "name": "爱宠",
+      "kind": "character"
+    },
+    "rabies": {
+      "id": "rabies",
+      "name": "爱宠",
+      "kind": "character"
+    },
+    "Ramona": {
+      "id": "ramona",
+      "name": "Ramona",
+      "kind": "character"
+    },
+    "ramona": {
+      "id": "ramona",
+      "name": "Ramona",
+      "kind": "character"
+    },
+    "Recoleta": {
+      "id": "recoleta",
+      "name": "虚构集",
+      "kind": "character"
+    },
+    "recoleta": {
+      "id": "recoleta",
+      "name": "虚构集",
+      "kind": "character"
+    },
+    "Reed": {
+      "id": "reed",
+      "name": "Reed",
+      "kind": "character"
+    },
+    "reed": {
+      "id": "reed",
+      "name": "Reed",
+      "kind": "character"
+    },
+    "Regulus": {
+      "id": "regulus",
+      "name": "星锑",
+      "kind": "character"
+    },
+    "regulus": {
+      "id": "regulus",
+      "name": "星锑",
+      "kind": "character"
+    },
+    "Rhiannon": {
+      "id": "rhiannon",
+      "name": "Rhiannon",
+      "kind": "character"
+    },
+    "rhiannon": {
+      "id": "rhiannon",
+      "name": "Rhiannon",
+      "kind": "character"
+    },
+    "Rubuska": {
+      "id": "rubuska",
+      "name": "野树莓",
+      "kind": "character"
+    },
+    "rubuska": {
+      "id": "rubuska",
+      "name": "野树莓",
+      "kind": "character"
+    },
+    "Satsuki": {
+      "id": "satsuki",
+      "name": "五色月",
+      "kind": "character"
+    },
+    "satsuki": {
+      "id": "satsuki",
+      "name": "五色月",
+      "kind": "character"
+    },
+    "Semmelweis": {
+      "id": "semmelweis",
+      "name": "塞梅尔维斯",
+      "kind": "character"
+    },
+    "semmelweis": {
+      "id": "semmelweis",
+      "name": "塞梅尔维斯",
+      "kind": "character"
+    },
+    "Sentinel": {
+      "id": "sentinel",
+      "name": "玛丽安娜",
+      "kind": "character"
+    },
+    "sentinel": {
+      "id": "sentinel",
+      "name": "玛丽安娜",
+      "kind": "character"
+    },
+    "Shamane": {
+      "id": "shamane",
+      "name": "鬃毛沙砾",
+      "kind": "character"
+    },
+    "shamane": {
+      "id": "shamane",
+      "name": "鬃毛沙砾",
+      "kind": "character"
+    },
+    "Silverwing Eagle": {
+      "id": "silverwing-eagle",
+      "name": "Silverwing Eagle",
+      "kind": "character"
+    },
+    "silverwing-eagle": {
+      "id": "silverwing-eagle",
+      "name": "Silverwing Eagle",
+      "kind": "character"
+    },
+    "Six": {
+      "id": "6",
+      "name": "6",
+      "kind": "character"
+    },
+    "Sonetto": {
+      "id": "sonetto",
+      "name": "十四行诗",
+      "kind": "character"
+    },
+    "sonetto": {
+      "id": "sonetto",
+      "name": "十四行诗",
+      "kind": "character"
+    },
+    "Sotheby": {
+      "id": "sotheby",
+      "name": "苏芙比",
+      "kind": "character"
+    },
+    "sotheby": {
+      "id": "sotheby",
+      "name": "苏芙比",
+      "kind": "character"
+    },
+    "Spathodea": {
+      "id": "spathodea",
+      "name": "可燃点",
+      "kind": "character"
+    },
+    "spathodea": {
+      "id": "spathodea",
+      "name": "可燃点",
+      "kind": "character"
+    },
+    "Sputnik": {
+      "id": "sputnik",
+      "name": "斯普特尼克",
+      "kind": "character"
+    },
+    "sputnik": {
+      "id": "sputnik",
+      "name": "斯普特尼克",
+      "kind": "character"
+    },
+    "Sweetheart": {
+      "id": "sweetheart",
+      "name": "玛丽莲",
+      "kind": "character"
+    },
+    "sweetheart": {
+      "id": "sweetheart",
+      "name": "玛丽莲",
+      "kind": "character"
+    },
+    "Tennant": {
+      "id": "tennant",
+      "name": "坦南特",
+      "kind": "character"
+    },
+    "tennant": {
+      "id": "tennant",
+      "name": "坦南特",
+      "kind": "character"
+    },
+    "The Fool": {
+      "id": "the-fool",
+      "name": "弄臣",
+      "kind": "character"
+    },
+    "The Twins": {
+      "id": "the-twins",
+      "name": "The Twins",
+      "kind": "character"
+    },
+    "the-fool": {
+      "id": "the-fool",
+      "name": "弄臣",
+      "kind": "character"
+    },
+    "the-twins": {
+      "id": "the-twins",
+      "name": "The Twins",
+      "kind": "character"
+    },
+    "Thirty-seven": {
+      "id": "37",
+      "name": "37",
+      "kind": "character"
+    },
+    "Tooth Fairy": {
+      "id": "tooth-fairy",
+      "name": "牙仙",
+      "kind": "character"
+    },
+    "tooth-fairy": {
+      "id": "tooth-fairy",
+      "name": "牙仙",
+      "kind": "character"
+    },
+    "TTT": {
+      "id": "ttt",
+      "name": "TTT",
+      "kind": "character"
+    },
+    "ttt": {
+      "id": "ttt",
+      "name": "TTT",
+      "kind": "character"
+    },
+    "Tuesday": {
+      "id": "tuesday",
+      "name": "蓝手帕",
+      "kind": "character"
+    },
+    "tuesday": {
+      "id": "tuesday",
+      "name": "蓝手帕",
+      "kind": "character"
+    },
+    "Twins Sleep": {
+      "id": "twins-sleep",
+      "name": "丽莎&路易斯",
+      "kind": "character"
+    },
+    "twins-sleep": {
+      "id": "twins-sleep",
+      "name": "丽莎&路易斯",
+      "kind": "character"
+    },
+    "Ulrich": {
+      "id": "ulrich",
+      "name": "乌尔里希",
+      "kind": "character"
+    },
+    "ulrich": {
+      "id": "ulrich",
+      "name": "乌尔里希",
+      "kind": "character"
+    },
+    "Ulu": {
+      "id": "ulu",
+      "name": "和平乌鲁",
+      "kind": "character"
+    },
+    "ulu": {
+      "id": "ulu",
+      "name": "和平乌鲁",
+      "kind": "character"
+    },
+    "vila": {
+      "id": "vila",
+      "name": "维拉",
+      "kind": "character"
+    },
+    "Voyager": {
+      "id": "voyager",
+      "name": "远旅",
+      "kind": "character"
+    },
+    "voyager": {
+      "id": "voyager",
+      "name": "远旅",
+      "kind": "character"
+    },
+    "White Rum": {
+      "id": "white-rum",
+      "name": "白朗姆",
+      "kind": "character"
+    },
+    "white-rum": {
+      "id": "white-rum",
+      "name": "白朗姆",
+      "kind": "character"
+    },
+    "Willow": {
+      "id": "willow",
+      "name": "笃笃骨",
+      "kind": "character"
+    },
+    "willow": {
+      "id": "willow",
+      "name": "笃笃骨",
+      "kind": "character"
+    },
+    "Windsong": {
+      "id": "windsong",
+      "name": "北方哨歌",
+      "kind": "character"
+    },
+    "windsong": {
+      "id": "windsong",
+      "name": "北方哨歌",
+      "kind": "character"
+    },
+    "winter": {
+      "id": "winter",
+      "name": "冬",
+      "kind": "character"
+    },
+    "X": {
+      "id": "x",
+      "name": "X",
+      "kind": "character"
+    },
+    "x": {
+      "id": "x",
+      "name": "X",
+      "kind": "character"
+    },
+    "yenisei": {
+      "id": "yenisei",
+      "name": "小叶尼塞",
+      "kind": "character"
+    },
+    "Авксивий": {
+      "id": "avksiviy",
+      "name": "阿夫西维",
+      "kind": "character"
+    },
+    "Вила": {
+      "id": "vila",
+      "name": "维拉",
+      "kind": "character"
+    },
+    "Енисей": {
+      "id": "yenisei",
+      "name": "小叶尼塞",
+      "kind": "character"
+    },
+    "Зима": {
+      "id": "winter",
+      "name": "冬",
+      "kind": "character"
+    },
+    "丽莎&路易斯": {
+      "id": "twins-sleep",
+      "name": "丽莎&路易斯",
+      "kind": "character"
+    },
+    "乌尔里希": {
+      "id": "ulrich",
+      "name": "乌尔里希",
+      "kind": "character"
+    },
+    "五色月": {
+      "id": "satsuki",
+      "name": "五色月",
+      "kind": "character"
+    },
+    "伊戈尔": {
+      "id": "igor",
+      "name": "伊戈尔",
+      "kind": "character"
+    },
+    "伊索尔德": {
+      "id": "isolde",
+      "name": "伊索尔德",
+      "kind": "character"
+    },
+    "伽菈波那": {
+      "id": "kaalaa-baunaa",
+      "name": "伽菈波那",
+      "kind": "character"
+    },
+    "先驱者": {
+      "id": "pioneer",
+      "name": "先驱者",
+      "kind": "character"
+    },
+    "兔毛手袋": {
+      "id": "medicine-pocket",
+      "name": "兔毛手袋",
+      "kind": "character"
+    },
+    "冬": {
+      "id": "winter",
+      "name": "冬",
+      "kind": "character"
+    },
+    "冷周六": {
+      "id": "hissabeth",
+      "name": "冷周六",
+      "kind": "character"
+    },
+    "北方哨歌": {
+      "id": "windsong",
+      "name": "北方哨歌",
+      "kind": "character"
+    },
+    "十四行诗": {
+      "id": "sonetto",
+      "name": "十四行诗",
+      "kind": "character"
+    },
+    "卡卡尼亚": {
+      "id": "kakania",
+      "name": "卡卡尼亚",
+      "kind": "character"
+    },
+    "卡戎": {
+      "id": "charon",
+      "name": "卡戎",
+      "kind": "character"
+    },
+    "卡珊德拉": {
+      "id": "kassandra",
+      "name": "卡珊德拉",
+      "kind": "character"
+    },
+    "可燃点": {
+      "id": "spathodea",
+      "name": "可燃点",
+      "kind": "character"
+    },
+    "吵闹鬼": {
+      "id": "poltergeist",
+      "name": "吵闹鬼",
+      "kind": "character"
+    },
+    "告死鸟": {
+      "id": "corvus",
+      "name": "告死鸟",
+      "kind": "character"
+    },
+    "命名日": {
+      "id": "name-day",
+      "name": "命名日",
+      "kind": "character"
+    },
+    "和平乌鲁": {
+      "id": "ulu",
+      "name": "和平乌鲁",
+      "kind": "character"
+    },
+    "哒哒达利": {
+      "id": "darley-clatter",
+      "name": "哒哒达利",
+      "kind": "character"
+    },
+    "喀嚓喀嚓": {
+      "id": "click",
+      "name": "喀嚓喀嚓",
+      "kind": "character"
+    },
+    "嚼嚼松果": {
+      "id": "buddy-fairchild",
+      "name": "嚼嚼松果",
+      "kind": "character"
+    },
+    "图图石子": {
+      "id": "fatutu",
+      "name": "图图石子",
+      "kind": "character"
+    },
+    "坎吉拉": {
+      "id": "kanjira",
+      "name": "坎吉拉",
+      "kind": "character"
+    },
+    "坦南特": {
+      "id": "tennant",
+      "name": "坦南特",
+      "kind": "character"
+    },
+    "埃里克": {
+      "id": "erick",
+      "name": "埃里克",
+      "kind": "character"
+    },
+    "塞梅尔维斯": {
+      "id": "semmelweis",
+      "name": "塞梅尔维斯",
+      "kind": "character"
+    },
+    "夏利": {
+      "id": "charlie",
+      "name": "夏利",
+      "kind": "character"
+    },
+    "天使娜娜": {
+      "id": "anjo-nala",
+      "name": "天使娜娜",
+      "kind": "character"
+    },
+    "婴儿蓝": {
+      "id": "baby-blue",
+      "name": "婴儿蓝",
+      "kind": "character"
+    },
+    "宽檐帽": {
+      "id": "brimley",
+      "name": "宽檐帽",
+      "kind": "character"
+    },
+    "小叶尼塞": {
+      "id": "yenisei",
+      "name": "小叶尼塞",
+      "kind": "character"
+    },
+    "小春雀儿": {
+      "id": "eagle",
+      "name": "小春雀儿",
+      "kind": "character"
+    },
+    "小梅斯梅尔": {
+      "id": "mesmer-jr",
+      "name": "小梅斯梅尔",
+      "kind": "character"
+    },
+    "尼克·波顿": {
+      "id": "nick-bottom",
+      "name": "尼克·波顿",
+      "kind": "character"
+    },
+    "帕米埃": {
+      "id": "dikke",
+      "name": "帕米埃",
+      "kind": "character"
+    },
+    "库珀花环": {
+      "id": "kiperina",
+      "name": "库珀花环",
+      "kind": "character"
+    },
+    "弄臣": {
+      "id": "the-fool",
+      "name": "弄臣",
+      "kind": "character"
+    },
+    "德雷克": {
+      "id": "drake",
+      "name": "德雷克",
+      "kind": "character"
+    },
+    "恐怖通": {
+      "id": "horropedia",
+      "name": "恐怖通",
+      "kind": "character"
+    },
+    "拉拉泉": {
+      "id": "la-source",
+      "name": "拉拉泉",
+      "kind": "character"
+    },
+    "挖掘艺术": {
+      "id": "diggers",
+      "name": "挖掘艺术",
+      "kind": "character"
+    },
+    "数羊羔": {
+      "id": "barbara",
+      "name": "数羊羔",
+      "kind": "character"
+    },
+    "斯普特尼克": {
+      "id": "sputnik",
+      "name": "斯普特尼克",
+      "kind": "character"
+    },
+    "新巴别塔": {
+      "id": "ms-newbabel",
+      "name": "新巴别塔",
+      "kind": "character"
+    },
+    "无线电小姐": {
+      "id": "ms-radio",
+      "name": "无线电小姐",
+      "kind": "character"
+    },
+    "星之眼": {
+      "id": "alien-t",
+      "name": "星之眼",
+      "kind": "character"
+    },
+    "星锑": {
+      "id": "regulus",
+      "name": "星锑",
+      "kind": "character"
+    },
+    "曲娘": {
+      "id": "jiu-niangzi",
+      "name": "曲娘",
+      "kind": "character"
+    },
+    "未锈铠": {
+      "id": "a-knight",
+      "name": "未锈铠",
+      "kind": "character"
+    },
+    "柏林以东": {
+      "id": "bkornblume",
+      "name": "柏林以东",
+      "kind": "character"
+    },
+    "格林杜尔": {
+      "id": "glyndwr",
+      "name": "格林杜尔",
+      "kind": "character"
+    },
+    "梁月": {
+      "id": "liang-yue",
+      "name": "梁月",
+      "kind": "character"
+    },
+    "梅兰妮": {
+      "id": "melania",
+      "name": "梅兰妮",
+      "kind": "character"
+    },
+    "槲寄生": {
+      "id": "druvis-iii",
+      "name": "槲寄生",
+      "kind": "character"
+    },
+    "气球派对": {
+      "id": "balloon-party",
+      "name": "气球派对",
+      "kind": "character"
+    },
+    "沙丝绒": {
+      "id": "desert-flannel",
+      "name": "沙丝绒",
+      "kind": "character"
+    },
+    "泥鯭的士": {
+      "id": "an-an-lee",
+      "name": "泥鯭的士",
+      "kind": "character"
+    },
+    "洁西卡": {
+      "id": "jessica",
+      "name": "洁西卡",
+      "kind": "character"
+    },
+    "洋葱头": {
+      "id": "onion",
+      "name": "洋葱头",
+      "kind": "character"
+    },
+    "洛佩拉": {
+      "id": "lopera",
+      "name": "洛佩拉",
+      "kind": "character"
+    },
+    "温妮弗雷德": {
+      "id": "eternity",
+      "name": "温妮弗雷德",
+      "kind": "character"
+    },
+    "灰调蓝": {
+      "id": "brume",
+      "name": "灰调蓝",
+      "kind": "character"
+    },
+    "爱兹拉": {
+      "id": "ezra-theodore",
+      "name": "爱兹拉",
+      "kind": "character"
+    },
+    "爱宠": {
+      "id": "rabies",
+      "name": "爱宠",
+      "kind": "character"
+    },
+    "牙仙": {
+      "id": "tooth-fairy",
+      "name": "牙仙",
+      "kind": "character"
+    },
+    "狩勋女巫红弩箭": {
+      "id": "huntsworn-lilya",
+      "name": "狩勋女巫红弩箭",
+      "kind": "character"
+    },
+    "狼群": {
+      "id": "pavia",
+      "name": "狼群",
+      "kind": "character"
+    },
+    "玛丽安娜": {
+      "id": "sentinel",
+      "name": "玛丽安娜",
+      "kind": "character"
+    },
+    "玛丽莲": {
+      "id": "sweetheart",
+      "name": "玛丽莲",
+      "kind": "character"
+    },
+    "玛尔纱": {
+      "id": "marsha",
+      "name": "玛尔纱",
+      "kind": "character"
+    },
+    "玛蒂尔达": {
+      "id": "matilda",
+      "name": "玛蒂尔达",
+      "kind": "character"
+    },
+    "环状水星": {
+      "id": "mercuria",
+      "name": "环状水星",
+      "kind": "character"
+    },
+    "白朗姆": {
+      "id": "white-rum",
+      "name": "白朗姆",
+      "kind": "character"
+    },
+    "百夫长": {
+      "id": "centurion",
+      "name": "百夫长",
+      "kind": "character"
+    },
+    "皮克勒斯": {
+      "id": "pickles",
+      "name": "皮克勒斯",
+      "kind": "character"
+    },
+    "空脑袋": {
+      "id": "loggerhead",
+      "name": "空脑袋",
+      "kind": "character"
+    },
+    "笃笃骨": {
+      "id": "willow",
+      "name": "笃笃骨",
+      "kind": "character"
+    },
+    "红弩箭": {
+      "id": "lilya",
+      "name": "红弩箭",
+      "kind": "character"
+    },
+    "红斗篷": {
+      "id": "mondlicht",
+      "name": "红斗篷",
+      "kind": "character"
+    },
+    "约翰·提托": {
+      "id": "john-titor",
+      "name": "约翰·提托",
+      "kind": "character"
+    },
+    "纸信圈儿": {
+      "id": "flutterpage",
+      "name": "纸信圈儿",
+      "kind": "character"
+    },
+    "维拉": {
+      "id": "vila",
+      "name": "维拉",
+      "kind": "character"
+    },
+    "罗蕾莱": {
+      "id": "lorelei",
+      "name": "罗蕾莱",
+      "kind": "character"
+    },
+    "艾吉奥·奥迪托雷": {
+      "id": "ezio-auditore",
+      "name": "艾吉奥·奥迪托雷",
+      "kind": "character"
+    },
+    "芭卡洛儿": {
+      "id": "barcarola",
+      "name": "芭卡洛儿",
+      "kind": "character"
+    },
+    "芭妮芭妮": {
+      "id": "bunny-bunny",
+      "name": "芭妮芭妮",
+      "kind": "character"
+    },
+    "苏芙比": {
+      "id": "sotheby",
+      "name": "苏芙比",
+      "kind": "character"
+    },
+    "莉拉妮": {
+      "id": "leilani",
+      "name": "莉拉妮",
+      "kind": "character"
+    },
+    "莫桑女士": {
+      "id": "ms-moissan",
+      "name": "莫桑女士",
+      "kind": "character"
+    },
+    "莫莉德尔": {
+      "id": "moldir",
+      "name": "莫莉德尔",
+      "kind": "character"
+    },
+    "菲林士多": {
+      "id": "noire",
+      "name": "菲林士多",
+      "kind": "character"
+    },
+    "葛天": {
+      "id": "getian",
+      "name": "葛天",
+      "kind": "character"
+    },
+    "蓝手帕": {
+      "id": "tuesday",
+      "name": "蓝手帕",
+      "kind": "character"
+    },
+    "虚构集": {
+      "id": "recoleta",
+      "name": "虚构集",
+      "kind": "character"
+    },
+    "讣告人": {
+      "id": "necrologist",
+      "name": "讣告人",
+      "kind": "character"
+    },
+    "诺谛卡": {
+      "id": "nautika",
+      "name": "诺谛卡",
+      "kind": "character"
+    },
+    "贝丽尔": {
+      "id": "beryl",
+      "name": "贝丽尔",
+      "kind": "character"
+    },
+    "贝蒂": {
+      "id": "bette",
+      "name": "贝蒂",
+      "kind": "character"
+    },
+    "远旅": {
+      "id": "voyager",
+      "name": "远旅",
+      "kind": "character"
+    },
+    "邓肯先生": {
+      "id": "mr-duncan",
+      "name": "邓肯先生",
+      "kind": "character"
+    },
+    "野树莓": {
+      "id": "rubuska",
+      "name": "野树莓",
+      "kind": "character"
+    },
+    "金蜜儿": {
+      "id": "blonney",
+      "name": "金蜜儿",
+      "kind": "character"
+    },
+    "铅玻璃": {
+      "id": "cristallo",
+      "name": "铅玻璃",
+      "kind": "character"
+    },
+    "门": {
+      "id": "door",
+      "name": "门",
+      "kind": "character"
+    },
+    "阿利克西欧斯": {
+      "id": "alexios",
+      "name": "阿利克西欧斯",
+      "kind": "character"
+    },
+    "阿夫西维": {
+      "id": "avksiviy",
+      "name": "阿夫西维",
+      "kind": "character"
+    },
+    "阿尔古斯": {
+      "id": "argus",
+      "name": "阿尔古斯",
+      "kind": "character"
+    },
+    "阿莱夫": {
+      "id": "aleph",
+      "name": "阿莱夫",
+      "kind": "character"
+    },
+    "雾行者": {
+      "id": "oliver-fog",
+      "name": "雾行者",
+      "kind": "character"
+    },
+    "露西": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "马库斯": {
+      "id": "marcus",
+      "name": "马库斯",
+      "kind": "character"
+    },
+    "鬃毛沙砾": {
+      "id": "shamane",
+      "name": "鬃毛沙砾",
+      "kind": "character"
+    }
+  }
+}

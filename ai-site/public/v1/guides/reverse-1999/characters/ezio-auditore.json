@@ -1,0 +1,92 @@
+{
+  "id": "ezio-auditore",
+  "name": "艾吉奥·奥迪托雷",
+  "name_zh": "艾吉奥·奥迪托雷",
+  "name_en": "Ezio Auditore",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "刺杀 输出 反击",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "行于黑暗",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成400%现实创伤，本次攻击为1次【刺杀】"
+    },
+    {
+      "name": "侍奉光明",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：自我反制，使即将释放攻击类咒语最多的敌方陷入【白袍焦点】状态1回合，之后艾吉奥·奥迪托雷进入【格斗记忆】状态1回合"
+    },
+    {
+      "name": "信仰烙下之时",
+      "type": "ultimate",
+      "summary": "选择1个敌方目标，对其释放【箭矢同心】或【锋刃同心】，一共3次，最后对该目标释放【死亡并非残酷】（释放时不受敌方影响改变攻击目标）"
+    },
+    {
+      "name": "刺客三诫",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：处于【格斗记忆】状态受到攻击时，受到伤害降低15%，若目标处于【白袍焦点】状态，则受到伤害额外降低30%"
+    },
+    {
+      "name": "刺客三诫",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "刺客三诫",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：受到攻击后，若自身的生命低于30%，则解除敌方全体的【白袍焦点】状态并进入【潜行暗杀】状态1回合（每回合最多触发1次） 任意己方攻击触发【刺杀】时，自身获得1层【刺客学徒】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Geneva Suggestions (Poison)：Ramona / 笃笃骨 | 艾吉奥·奥迪托雷 / 蓝手帕 / 维拉 | 玛尔纱（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Give Me Your Damn Money (Ultimate)：艾吉奥·奥迪托雷 / 卡珊德拉 / 葛天 / J | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%89%BE%E5%90%89%E5%A5%A5%C2%B7%E5%A5%A5%E8%BF%AA%E6%89%98%E9%9B%B7",
+    "https://www.prydwen.gg/re1999/characters/ezio-auditore",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "艾吉奥·奥迪托雷",
+  "prydwen_slug": "ezio-auditore",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ezio-auditore_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:ezio-auditore",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 艾吉奥·奥迪托雷 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Sub Carry",
+    "tags": "Ult, EA, Poison",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Sub Carry；Ult, EA, Poison）",
+    "position": "6星 / 星 / 现实 / 刺杀 输出 反击",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%89%BE%E5%90%89%E5%A5%A5%C2%B7%E5%A5%A5%E8%BF%AA%E6%89%98%E9%9B%B7"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

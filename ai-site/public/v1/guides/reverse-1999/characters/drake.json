@@ -1,0 +1,32 @@
+{
+  "id": "drake",
+  "name": "德雷克",
+  "name_zh": "德雷克",
+  "name_en": "Drake",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "rarity": "6星",
+  "element": "兽",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.sina.cn/news/detail/5354222569918675.html"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "note": "国服官方微博「存在之火」写六星兽灵感、受邀概率 UP。Prydwen 角色列表（Last updated 11/October/2026）没有这名角色，咒语不编造。",
+  "verified": "国服官方微博镜像 2026-10-17",
+  "summary": {
+    "position": "6星 / 兽",
+    "stub": true,
+    "caveat": "没有可引用的咒语正文，也不把未出现在单一档位里的角色写成某个梯度。",
+    "sources": [
+      "https://www.sina.cn/news/detail/5354222569918675.html"
+    ]
+  },
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null
+}

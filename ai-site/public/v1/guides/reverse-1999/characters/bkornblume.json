@@ -1,0 +1,85 @@
+{
+  "id": "bkornblume",
+  "name": "柏林以东",
+  "name_zh": "柏林以东",
+  "name_en": "Bkornblume",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "削弱 爆发 控制",
+  "rarity": "5星",
+  "element": "木",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "小心袖口",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成135%现实创伤；若目标处于【属性削弱】【状态异常】【控制】中，则额外造成30%现实创伤"
+    },
+    {
+      "name": "注意墙外",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体削弱，使敌方全体现实防御降低15%，受到伤害提升15%，持续2回合"
+    },
+    {
+      "name": "不请自来的点评者",
+      "type": "ultimate",
+      "summary": "单体攻击，造成550%现实创伤；命中时使其陷入【封印】状态3回合；若目标无法陷入【封印】状态，则使其激情-2"
+    },
+    {
+      "name": "逆流",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当敌方处于【属性削弱】【状态异常】【控制】时，对其造成伤害提升20%"
+    },
+    {
+      "name": "逆流",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "逆流",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：被处于【属性削弱】【状态异常】【控制】的敌方攻击时，受到伤害降低20%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%9F%8F%E6%9E%97%E4%BB%A5%E4%B8%9C",
+    "https://www.prydwen.gg/re1999/characters/bkornblume",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "柏林以东",
+  "prydwen_slug": "bkornblume",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/bkornblume_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:bkornblume",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 柏林以东 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Sub Carry",
+    "tags": "E1 Reality, Control",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Sub Carry；E1 Reality, Control）",
+    "position": "5星 / 木 / 现实 / 削弱 爆发 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%9F%8F%E6%9E%97%E4%BB%A5%E4%B8%9C"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

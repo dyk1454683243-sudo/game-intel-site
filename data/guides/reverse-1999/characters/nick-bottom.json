@@ -1,0 +1,79 @@
+{
+  "id": "nick-bottom",
+  "name": "尼克·波顿",
+  "name_zh": "尼克·波顿",
+  "name_en": "Nick Bottom",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助",
+  "rarity": "4星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "野蔷薇",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "仲夏藤",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，使己方单体现实防御、精神防御提升25%，受到伤害降低25%，持续2回合"
+    },
+    {
+      "name": "森林的悼词",
+      "type": "ultimate",
+      "summary": "单体增强，失去当前生命的99%，净化己方单体的【属性削弱】【状态异常】【控制】；获得本次损失生命*100%的护盾，并进入【夏日一梦】状态；持续3回合"
+    },
+    {
+      "name": "在尘埃中",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：退场时，为当前生命百分比最低的其他友方回复自身最大生命的50%"
+    },
+    {
+      "name": "在尘埃中",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，现实防御、精神防御提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%B0%BC%E5%85%8B%C2%B7%E6%B3%A2%E9%A1%BF",
+    "https://www.prydwen.gg/re1999/characters/nick-bottom",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "尼克·波顿",
+  "prydwen_slug": "nick-bottom",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/nick-bottom_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:nick-bottom",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 尼克·波顿 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Buff）",
+    "position": "4星 / 兽 / 精神 / 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%B0%BC%E5%85%8B%C2%B7%E6%B3%A2%E9%A1%BF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

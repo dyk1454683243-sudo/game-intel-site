@@ -1,0 +1,85 @@
+{
+  "id": "jiu-niangzi",
+  "name": "曲娘",
+  "name_zh": "曲娘",
+  "name_en": "Jiu Niangzi",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 额外行动",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "更尽一杯",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；若自身处于【酒浆】状态，消耗1-3层随机数量的【酒浆】对目标追加1次现实创伤的攻击；每消耗1层【酒浆】，提升60%现实创伤（消耗1/2/3层【酒浆】的概率为20%/40%/40%）"
+    },
+    {
+      "name": "提中之物",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，获得3层【酒浆】和1层【尽兴】，进入【醉意】状态1回合"
+    },
+    {
+      "name": "酒与之外的事故",
+      "type": "ultimate",
+      "summary": "群体攻击，造成350%现实创伤；若敌人数量在3以下时，每少1人，额外造成100%现实创伤，该效果最多提升200%现实创伤；释放前若自身【酒浆】不少于6层，则消耗6层【酒浆】，使本次攻击穿透率提升100%；释放前若自身【酒浆】少于6层，获得6层【酒浆】和2层【尽兴】"
+    },
+    {
+      "name": "存想",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，获得3层【酒浆】；回合结束时，根据己方全体携带【属性提升】【状态增益】【反制】【护盾】【吟诵】的情况获得【酒浆】（每拥有4种不同的以上状态，获得1层【酒浆】，最多获得3层，不足则向下取整）"
+    },
+    {
+      "name": "存想",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "存想",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，若自身处于【酒浆】状态，随机赋予自身【增益集合】中的1种效果，持续2回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%9B%B2%E5%A8%98",
+    "https://www.prydwen.gg/re1999/characters/jiu-niangzi",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "曲娘",
+  "prydwen_slug": "jiu-niangzi",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/jiu-niangzi_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:jiu-niangzi",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 曲娘 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Damage dealer",
+    "tags": "E1 EA, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Damage dealer；E1 EA, AP+）",
+    "position": "6星 / 岩 / 现实 / 输出 爆发 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%9B%B2%E5%A8%98"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

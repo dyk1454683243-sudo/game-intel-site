@@ -1,0 +1,50 @@
+{
+  "id": "ms-stranger",
+  "name": "Ms. Stranger",
+  "name_en": "Ms. Stranger",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "element": "岩",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Washing Me And My Clothes (Ultimate)：虚构集 | Ms. Stranger / 莫莉德尔 / Rhiannon | 葛天 / Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Dynamo Wheelchair (Dynamo)：虚构集 | Ms. Stranger | 露西 / 乌尔里希 | Rhiannon / 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://www.prydwen.gg/re1999/characters/ms-stranger",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "ms-stranger",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ms-stranger_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:ms-stranger",
+  "note": "Prydwen 角色列表有这名角色的名字、灵感图标和立绘。BWIKI「神秘学家」分类没有同名页，咒语不编造。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "Move, Ult",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；Move, Ult）",
+    "position": "岩",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://www.prydwen.gg/re1999/characters/ms-stranger"
+    ],
+    "stub": true,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方）。这张卡没有可引用的咒语正文，技能保持空白。"
+  }
+}

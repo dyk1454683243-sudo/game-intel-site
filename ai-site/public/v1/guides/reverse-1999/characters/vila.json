@@ -1,0 +1,93 @@
+{
+  "id": "vila",
+  "name": "维拉",
+  "name_zh": "维拉",
+  "name_en": "Вила",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 治疗 净化",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "高昂的心",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，使目标获得2回合【慷慨之歌】；若自身处于【鲁萨尔卡】状态下，获得的【慷慨之歌】改为【热忱之歌】；己方同时仅能存在1个慷慨之歌或热忱之歌增益"
+    },
+    {
+      "name": "无言的歌",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：单体治疗，使己方单体回复使用者攻击*100%的生命，并赋予1层【坚固】；若自身处于【鲁萨尔卡】状态下，之后使我方生命百分比最低的角色额外回复使用者攻击*60%的生命2次"
+    },
+    {
+      "name": "那遥远的，光明的",
+      "type": "ultimate",
+      "summary": "群体增强，驱散己方全体【属性削弱】【状态异常】【控制】后，使自身获得3回合【鲁萨尔卡】，同时使己方场上已有的【慷慨之歌】转为【热忱之歌】，并使持续回合数重置；【鲁萨尔卡】状态下不会获得至终的仪式咒语"
+    },
+    {
+      "name": "“我们”",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，激情+1；其他友方每有1名精神创伤类型角色时，激情额外+1，最多计入2名 回合开始时若处于【鲁萨尔卡】状态下，获得1张预备咒语【鼓舞之歌】：使单体目标+1激情、+1灵光（不消耗行动点）"
+    },
+    {
+      "name": "“我们”",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    },
+    {
+      "name": "“我们”",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：若本回合未主动使用咒语，则回合结束时为己方全体回复自身攻击*50%的生命 处于【鲁萨尔卡】状态下，回合结束时为己方全体回复自身攻击*60%的生命"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Geneva Suggestions (Poison)：Ramona / 笃笃骨 | 艾吉奥·奥迪托雷 / 蓝手帕 / 维拉 | 玛尔纱（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Hi, Welcome To Chili's (FUA)：北方哨歌 / 纸信圈儿 / 6 | Rhiannon | Lorentz Butterfly / J | 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · B · You Have Been Stopped (Petrify)：冷周六 / 槲寄生 / 洁西卡 / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%BB%B4%E6%8B%89",
+    "https://www.prydwen.gg/re1999/characters/vila",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "维拉",
+  "prydwen_slug": "vila",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/vila_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:vila",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 英文名是西里尔字母 Вила，对应 Prydwen slug vila。木灵感与 Plant 图标一致。",
+  "verified": "BWIKI 维拉 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Survival",
+    "tags": "E1 Buff, Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Survival；E1 Buff, Moxie）",
+    "position": "6星 / 木 / 精神 / 辅助 治疗 净化",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%BB%B4%E6%8B%89"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

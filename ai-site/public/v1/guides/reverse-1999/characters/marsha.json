@@ -1,0 +1,92 @@
+{
+  "id": "marsha",
+  "name": "玛尔纱",
+  "name_zh": "玛尔纱",
+  "name_en": "Marsha",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "护盾 余辉 辅助",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "克制的美德",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，对目标造成200%现实创伤，攻击命中时赋予目标3层【燃烧】，攻击后赋予自身1层【苦痛代偿】； 攻击时若目标至少拥有8层燃烧，额外造成100%现实创伤"
+    },
+    {
+      "name": "缄默的负重",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体获得玛尔纱攻击*150%的护盾，持续3回合，主动释放时，消耗自身1层【战地急救】，额外提升等同于玛尔纱暴击率*40%的护盾系数，并驱散己方全体1种【属性削弱】【状态异常】；若目标已持有护盾，将此护盾值叠加至原护盾上，叠加的护盾值不超过玛尔纱攻击*650%，并使目标的护盾延长至3回合；持有该护盾的己方角色受创减免提升30%"
+    },
+    {
+      "name": "赠与暴力的谏言",
+      "type": "ultimate",
+      "summary": "群体攻击，赋予自身1层【苦痛代偿】，对敌方全体造成750%现实创伤，攻击命中时赋予目标4层【燃烧】，攻击后消耗至多5层【苦痛代偿】，赋予己方全体相同层数的【修行】，持续3回合"
+    },
+    {
+      "name": "人道援助",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：玛尔纱进入战斗时，使己方全体获得玛尔纱攻击*150%的护盾，持续3回合，持有该护盾的己方角色受创减免提升30%；并根据当前场上己方【余辉】角色数量赋予自身对应的【白昼祷词】； 回合开始时，玛尔纱赋予自身2层【战地急救】，为处于【控制】的己方驱散1种【控制】，赋予其余己方【赦免】，持续1回合"
+    },
+    {
+      "name": "人道援助",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "人道援助",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：每消耗1层【战地急救】，玛尔纱赋予自身1层【苦痛代偿】； 回合开始时，玛尔纱赋予敌方全体3层【燃烧】； 进入战斗后玛尔纱使自身激情+1；每当玛尔纱攻击暴击后，或消耗【战地急救】后，玛尔纱使自身激情+1，每回合最多+2； 自身溢出的激情会被临时存储，回合结束时若自身激情空余时补充，最多储存2点激情"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Liang Yue - Freestyle Nuo Dance Teacher：梁月 / 纸信圈儿 / Rhiannon | Cheng Heguang | 洛佩拉 / 玛尔纱 | J | Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Geneva Suggestions (Poison)：Ramona / 笃笃骨 | 艾吉奥·奥迪托雷 / 蓝手帕 / 维拉 | 玛尔纱（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E5%B0%94%E7%BA%B1",
+    "https://www.prydwen.gg/re1999/characters/marsha",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "玛尔纱",
+  "prydwen_slug": "marsha",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/marsha_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:marsha",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 玛尔纱 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Survival",
+    "tags": "Shield, Cleanse, Glow",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Survival；Shield, Cleanse, Glow）",
+    "position": "6星 / 兽 / 现实 / 护盾 余辉 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E5%B0%94%E7%BA%B1"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

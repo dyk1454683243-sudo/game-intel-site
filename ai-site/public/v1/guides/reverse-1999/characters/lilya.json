@@ -1,0 +1,85 @@
+{
+  "id": "lilya",
+  "name": "红弩箭",
+  "name_zh": "红弩箭",
+  "name_en": "Lilya",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "爆发 输出 追击",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "侧风起飞",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤；暴击时，追加1次80%现实创伤的攻击，该追击视为1次额外行动"
+    },
+    {
+      "name": "钟型摆动",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成150%现实创伤"
+    },
+    {
+      "name": "一点小花招",
+      "type": "ultimate",
+      "summary": "单体攻击，造成700%现实创伤；暴击时，本次攻击吸血率提升15%"
+    },
+    {
+      "name": "载具控制",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：释放至终的仪式时，暴击率提升20%"
+    },
+    {
+      "name": "载具控制",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "载具控制",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：心相基础属性中的暴击率增加效果提升100%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E5%BC%A9%E7%AE%AD",
+    "https://www.prydwen.gg/re1999/characters/lilya",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "红弩箭",
+  "prydwen_slug": "lilya",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/lilya_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:lilya",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 红弩箭 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Damage dealer",
+    "tags": "E1 EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Damage dealer；E1 EA）",
+    "position": "6星 / 星 / 现实 / 爆发 输出 追击",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%BA%A2%E5%BC%A9%E7%AE%AD"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

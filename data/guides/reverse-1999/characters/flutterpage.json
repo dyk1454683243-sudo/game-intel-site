@@ -1,0 +1,98 @@
+{
+  "id": "flutterpage",
+  "name": "纸信圈儿",
+  "name_zh": "纸信圈儿",
+  "name_en": "Flutterpage",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 辅助 额外行动",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "敲，敲",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成150%现实创伤；使自身获得2层【风速】，持续3回合"
+    },
+    {
+      "name": "棉风筝",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成100%现实创伤；使自身获得【连续行动Ⅰ】，持续1回合"
+    },
+    {
+      "name": "长不大的梦想",
+      "type": "ultimate",
+      "summary": "自我吟诵，回复全部灵光，将自身咒语转化为【白鸟的问候】并尽可能地释放； 进入【长不大的梦想】状态3回合，吟诵过程中无法获得激情"
+    },
+    {
+      "name": "“我会飞”",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：任意己方角色行动后，纸信圈儿获得1层【风速】，持续3回合； 回合开始时，纸信圈儿根据自身【风速】层数，获得对应的力场，移除其他的风速力场： 层数大于等于5层时，获得【纸片游行】； 层数大于等于15层时，获得【床单波浪】； 层数大于等于25层时，获得【告别大地】；"
+    },
+    {
+      "name": "“我会飞”",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "“我会飞”",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：灵光上限+2；攻击后，使自身灵光+2 进入战斗时，使自身激情+2，获得10层【风速】，持续2回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Daddy? Do I LOOK- (Ultimate)：伊戈尔 / 洛佩拉 / 莫莉德尔 | Rhiannon | 纸信圈儿 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · I'm In Me Mum's Car Brume Brume：Enigma / 卡戎 / 纸信圈儿 | 天使娜娜 / 灰调蓝（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · Liang Yue - Freestyle Nuo Dance Teacher：梁月 / 纸信圈儿 / Rhiannon | Cheng Heguang | 洛佩拉 / 玛尔纱 | J | Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Add Two Shots Of Vodka (Dynamo, Raid)：告死鸟 / 纸信圈儿 / Rhiannon | 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · He Needs Some Milk (Riposte)：Cornerstone / 纸信圈儿 / Rhiannon | 洛佩拉 | 伊索尔德 / J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Hi, Welcome To Chili's (FUA)：北方哨歌 / 纸信圈儿 / 6 | Rhiannon | Lorentz Butterfly / J | 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · I Thought You Were American (FUA)：天使娜娜 / 梁月 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%BA%B8%E4%BF%A1%E5%9C%88%E5%84%BF",
+    "https://www.prydwen.gg/re1999/characters/flutterpage",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "纸信圈儿",
+  "prydwen_slug": "flutterpage",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/flutterpage_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:flutterpage",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 纸信圈儿 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Support",
+    "tags": "EA, Buff, Shuffle",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Support；EA, Buff, Shuffle）",
+    "position": "6星 / 星 / 现实 / 输出 辅助 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%BA%B8%E4%BF%A1%E5%9C%88%E5%84%BF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

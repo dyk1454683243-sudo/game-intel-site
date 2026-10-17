@@ -3,8 +3,8 @@
   "timezone": "Asia/Shanghai",
   "note": "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
   "count": 84,
-  "watchlist_count": 7,
-  "stub_count": 81,
+  "watchlist_count": 8,
+  "stub_count": 80,
   "games": [
     {
       "id": "asora",
@@ -1121,14 +1121,15 @@
       "name_zh": "重返未来：1999",
       "platforms": [
         "steam",
-        "pc"
+        "pc",
+        "mobile"
       ],
       "tags": [
         "gacha",
         "rpg"
       ],
-      "stub": true,
-      "watchlist": false,
+      "stub": false,
+      "watchlist": true,
       "steam_appid": 3092660,
       "path": "games/reverse-1999"
     },

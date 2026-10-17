@@ -4,7 +4,7 @@
  */
 import { portraitImgSrc } from "./portrait.js";
 
-export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2"]);
+export const DEEP_GAMES = Object.freeze(["hw", "nikke", "bd2", "reverse-1999"]);
 
 export const WATCH_ORDER = Object.freeze([
   { id: "hw", name: "Horizon Walker", name_zh: "地平线行者" },
@@ -14,6 +14,7 @@ export const WATCH_ORDER = Object.freeze([
   { id: "asora", name: "Astrae Oratio", name_zh: "阿索拉：星之祈愿" },
   { id: "miraesi", name: "Invisible Future", name_zh: "미래시" },
   { id: "lo2", name: "Last Origin 2", name_zh: "Last Origin 2" },
+  { id: "reverse-1999", name: "Reverse: 1999", name_zh: "重返未来：1999" },
 ]);
 
 const NAV = [
@@ -612,6 +613,7 @@ ${deep ? `<p><a href="${esc(gameHref(id))}">角色列表${count != null ? ` · $
   const meta = watchlist && watchlist.meta;
   return `<h1>观察名单</h1>
 <p class="lede">地平线行者、NIKKE、棕色尘埃2有角色深耕。阿索拉只有身份卡。星原、미래시、LO2 保留空目录。</p>
+<p class="lede">重返未来：1999有角色深耕。</p>
 ${freshnessNote(meta, shanghaiToday())}
 ${metaLine(meta)}
 <div class="stack">${cards}</div>

@@ -1,0 +1,85 @@
+{
+  "id": "ezra-theodore",
+  "name": "爱兹拉",
+  "name_zh": "爱兹拉",
+  "name_en": "Ezra Theodore",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 护盾 削弱",
+  "rarity": "6星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "看护于躯壳",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，失去15%当前生命，对2名敌方造成30%精神创伤；额外附加自身最大生命*15%的本源创伤，附加的本源创伤可以暴击；种植1株【蜜环菌】，蘑菇最大数量为2"
+    },
+    {
+      "name": "勉励以精神",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，失去15%当前生命，使己方全体获得使用者最大生命*15%的护盾，持续1回合；种植1株【幽灵菇】，蘑菇最大数量为2"
+    },
+    {
+      "name": "全方面关怀",
+      "type": "ultimate",
+      "summary": "群体增强，使其他友方激情和灵光+1；在空余位置种植最大数量的【蜜环菌】后，使所有蘑菇成熟并立即触发效果"
+    },
+    {
+      "name": "真菌循环机",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使自身灵光+2；使用至终的仪式后，使自身灵光+4； 使用普通咒语时，若蘑菇已满且咒语对应蘑菇在场，消耗2灵光，咒语对应蘑菇全部生长1次，成熟则立即触发效果"
+    },
+    {
+      "name": "真菌循环机",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受到伤害降低8%"
+    },
+    {
+      "name": "真菌循环机",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合结束时，每有1株蘑菇，回复自身8%已损失生命，该效果可以暴击； 使用普通咒语时，若蘑菇已满且咒语对应蘑菇不在场，消耗2灵光，使自身激情+1 （自身激情低于5点时才会触发）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%88%B1%E5%85%B9%E6%8B%89",
+    "https://www.prydwen.gg/re1999/characters/ezra-theodore",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "爱兹拉",
+  "prydwen_slug": "ezra-theodore",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/ezra-theodore_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:ezra-theodore",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 爱兹拉 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Survival",
+    "tags": "E1 Dynamo, Shield",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Survival；E1 Dynamo, Shield）",
+    "position": "6星 / 星 / 精神 / 辅助 护盾 削弱",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%88%B1%E5%85%B9%E6%8B%89"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

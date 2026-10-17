@@ -1,0 +1,85 @@
+{
+  "id": "dikke",
+  "name": "帕米埃",
+  "name_zh": "帕米埃",
+  "name_en": "Dikke",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 治疗",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "强权",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "正义",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体回复使用者攻击*60%生命；若目标生命低于50%，则额外回复使用者攻击*30%的生命"
+    },
+    {
+      "name": "出格的审判官",
+      "type": "ultimate",
+      "summary": "单体攻击，净化自身所有【属性削弱】【状态异常】【控制】，并进入【免疫】1回合；对目标造成400%精神创伤，额外造成攻击*100%的本源创伤"
+    },
+    {
+      "name": "公允",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击时，若自身生命百分比高于目标，则攻击提升15%"
+    },
+    {
+      "name": "公允",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "公允",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：攻击时，若自身生命百分比低于目标，则吸血率提升15%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%B8%95%E7%B1%B3%E5%9F%83",
+    "https://www.prydwen.gg/re1999/characters/dikke",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "帕米埃",
+  "prydwen_slug": "dikke",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/dikke_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:dikke",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 帕米埃 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Survival",
+    "tags": null,
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Survival）",
+    "position": "5星 / 兽 / 精神 / 输出 治疗",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%B8%95%E7%B1%B3%E5%9F%83"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

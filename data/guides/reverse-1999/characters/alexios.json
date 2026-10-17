@@ -1,0 +1,85 @@
+{
+  "id": "alexios",
+  "name": "阿利克西欧斯",
+  "name_zh": "阿利克西欧斯",
+  "name_en": "Alexios",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "刺杀 输出",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "“强于阿瑞斯。”",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤；使自身肾上腺素+1"
+    },
+    {
+      "name": "“胜过阿波罗！”",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌人造成120%现实创伤；暴击时，使自身肾上腺素+1"
+    },
+    {
+      "name": "恐惧烧灼之日",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成400%现实创伤，使自身获得1层【伊述之血】，本次攻击为1次【刺杀】"
+    },
+    {
+      "name": "血，抑或哀鸣",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，使自身肾上腺素+1"
+    },
+    {
+      "name": "血，抑或哀鸣",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "血，抑或哀鸣",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：任意己方攻击触发【刺杀】后，使自身肾上腺素+1； 任意己方攻击触发【刺杀】后，若其他友方存在【刺杀】角色，5%概率释放至终的仪式，每回合最多触发1次；若其他友方存在卡珊德拉，概率提升至10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%88%A9%E5%85%8B%E8%A5%BF%E6%AC%A7%E6%96%AF",
+    "https://www.prydwen.gg/re1999/characters/alexios",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "阿利克西欧斯",
+  "prydwen_slug": "alexios",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/alexios_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:alexios",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 阿利克西欧斯 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Ult, Kassandra",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Ult, Kassandra）",
+    "position": "5星 / 兽 / 现实 / 刺杀 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%88%A9%E5%85%8B%E8%A5%BF%E6%AC%A7%E6%96%AF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

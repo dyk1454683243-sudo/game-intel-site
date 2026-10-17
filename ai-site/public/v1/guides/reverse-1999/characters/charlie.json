@@ -1,0 +1,85 @@
+{
+  "id": "charlie",
+  "name": "夏利",
+  "name_zh": "夏利",
+  "name_en": "Charlie",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 驱散",
+  "rarity": "5星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "赐你雷电！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%精神创伤；若自身处于【属性提升】【状态增益】中，则额外造成40%精神创伤"
+    },
+    {
+      "name": "予你风暴！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%精神创伤；若自身当前生命低于50%，则额外造成60%精神创伤"
+    },
+    {
+      "name": "我独立于剧场之上",
+      "type": "ultimate",
+      "summary": "群体攻击，驱散敌方全体所有【属性提升】【状态增益】【反制】后，对其造成300%精神创伤"
+    },
+    {
+      "name": "剧团长",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当回合开始时，若自身生命低于50%，则受到伤害降低20%，暴击防御提升20%，持续1回合"
+    },
+    {
+      "name": "剧团长",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "剧团长",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：当回合开始时，若自身生命高于50%，则造成伤害提升20%，持续1回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%A4%8F%E5%88%A9",
+    "https://www.prydwen.gg/re1999/characters/charlie",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "夏利",
+  "prydwen_slug": "charlie",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/charlie_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:charlie",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 夏利 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Dispel",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Dispel）",
+    "position": "5星 / 星 / 精神 / 输出 驱散",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%A4%8F%E5%88%A9"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

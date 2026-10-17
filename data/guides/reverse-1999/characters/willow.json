@@ -1,0 +1,90 @@
+{
+  "id": "willow",
+  "name": "笃笃骨",
+  "name_zh": "笃笃骨",
+  "name_en": "Willow",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 中毒 爆发",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "鬼婆谏言",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成100%精神创伤；命中时若目标已陷入【中毒】状态，则将1个【中毒】转化成1层持续2回合的【毒咒】，最多转化3个"
+    },
+    {
+      "name": "女巫“谢意”",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成100%精神创伤；命中时若目标已同时陷入【中毒】和【毒咒】状态，则消耗最多2个【中毒】，每消耗1个中毒使目标具有的【毒咒】结算1次（此结算不会减少剩余回合）"
+    },
+    {
+      "name": "于火中，于影中",
+      "type": "ultimate",
+      "summary": "自我吟诵，进入【古老祭祀】状态"
+    },
+    {
+      "name": "步伐变幻",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时，使2个敌方目标陷入2个【中毒】2回合，优先选择拥有【中毒】最多的目标。其他队友对敌方主动使用咒语攻击时，笃笃骨会对其主目标额外施加2个【中毒】2回合，每回合最多触发2次"
+    },
+    {
+      "name": "步伐变幻",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "步伐变幻",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：强化【古老祭祀】的效果：额外使激情上限+5，使用咒语和移动咒语获得的激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S · Geneva Suggestions (Poison)：Ramona / 笃笃骨 | 艾吉奥·奥迪托雷 / 蓝手帕 / 维拉 | 玛尔纱（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%AC%83%E7%AC%83%E9%AA%A8",
+    "https://www.prydwen.gg/re1999/characters/willow",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "笃笃骨",
+  "prydwen_slug": "willow",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/willow_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:willow",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 笃笃骨 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Sub Carry",
+    "tags": "E1 Poison, Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Sub Carry；E1 Poison, Moxie）",
+    "position": "6星 / 木 / 精神 / 输出 中毒 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%AC%83%E7%AC%83%E9%AA%A8"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

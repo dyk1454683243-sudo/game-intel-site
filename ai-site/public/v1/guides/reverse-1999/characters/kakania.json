@@ -1,0 +1,85 @@
+{
+  "id": "kakania",
+  "name": "卡卡尼亚",
+  "name_zh": "卡卡尼亚",
+  "name_en": "Kakania",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "防御 辅助 爆发",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "潜意识",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%精神创伤，额外附加当前【移情】值*180%的本源创伤"
+    },
+    {
+      "name": "联想法",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：单体增强，对自身使用时，回复使用者最大生命*20%的生命；对其他友方使用时，自身失去10%最大生命，使目标获得【心理慰藉】，持续2回合"
+    },
+    {
+      "name": "本我，自我，超我",
+      "type": "ultimate",
+      "summary": "单体攻击，造成400%精神创伤，命中后额外附加当前【移情】值*1000%的本源创伤，清除所有【移情】值；之后开始记录目标承受的所有伤害，回合结束时对目标造成记录值*30%的本源创伤"
+    },
+    {
+      "name": "精神分析学说",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：其他友方受到攻击所承受伤害的50%改由卡卡尼亚承受； 卡卡尼亚受到伤害时，伤害值的10%转为【移情】存储，【移情】最大值为卡卡尼亚最大生命的20%，【移情】达到最大值时，无法再为友方承受伤害"
+    },
+    {
+      "name": "精神分析学说",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，最大生命提高5%"
+    },
+    {
+      "name": "精神分析学说",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：【移情】每达到卡卡尼亚最大生命的3%时，为己方全体回复自身最大生命*10%的生命； 受到治疗时，对敌方全体造成当前【移情】值*100%的本源创伤"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E5%8D%A1%E5%B0%BC%E4%BA%9A",
+    "https://www.prydwen.gg/re1999/characters/kakania",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "卡卡尼亚",
+  "prydwen_slug": "kakania",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kakania_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:kakania",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 卡卡尼亚 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Support",
+    "tags": "AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Support；AP+）",
+    "position": "6星 / 木 / 精神 / 防御 辅助 爆发",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E5%8D%A1%E5%B0%BC%E4%BA%9A"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

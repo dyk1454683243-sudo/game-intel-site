@@ -1,0 +1,101 @@
+{
+  "id": "j",
+  "name": "J",
+  "name_zh": "J",
+  "name_en": "Joe",
+  "aliases": [
+    "Joe"
+  ],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 护盾 反击",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "硬度测试",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，对目标造成180%现实创伤，命中时赋予2层【燃烧】；自身每有1层【燃烧】使己方全体造成伤害提升1%，持续2回合"
+    },
+    {
+      "name": "热处理",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：群体反制，使己方全体获得J攻击*100%的【护盾】2回合，自身每携带1层【燃烧】额外提升3%护盾系数；持有该护盾的我方受到攻击后，J将使用【高温回火】进行反击"
+    },
+    {
+      "name": "飞跃海特街！",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成350%现实创伤，攻击前赋予目标等同于自身携带层数的【燃烧】；本次攻击J不会获得【燃烧】，同时主目标每溢出1层【燃烧】，额外造成10%现实创伤"
+    },
+    {
+      "name": "此身为炉膛",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击时攻击力提升，提升数值等同于自身【燃烧】层数*0.5%，同时使自身【燃烧】结算造成伤害（本次结算不扣除层数）；每次攻击成功施加【燃烧】后，使自身获得相同层数的【燃烧】；自身受到的【燃烧】结算伤害降低50%，且不会因该结算效果使自身生命低于15%"
+    },
+    {
+      "name": "此身为炉膛",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "此身为炉膛",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：自身携带【燃烧】上限提升至35层，同时处于【燃烧】状态时免疫【冰冻】【寒冷】；回合开始时，若自身生命低于50%，驱散自身除【燃烧】外的【属性削弱】【状态异常】后，使自身暴击率提升20%，持续1回合"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Daddy? Do I LOOK- (Ultimate)：伊戈尔 / 洛佩拉 / 莫莉德尔 | Rhiannon | 纸信圈儿 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · I Won't Hesitate B-- (Pursuit)：狩勋女巫红弩箭 / 37 / Rhiannon / J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · Liang Yue - Freestyle Nuo Dance Teacher：梁月 / 纸信圈儿 / Rhiannon | Cheng Heguang | 洛佩拉 / 玛尔纱 | J | Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · He Needs Some Milk (Riposte)：Cornerstone / 纸信圈儿 / Rhiannon | 洛佩拉 | 伊索尔德 / J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Hi, Welcome To Chili's (FUA)：北方哨歌 / 纸信圈儿 / 6 | Rhiannon | Lorentz Butterfly / J | 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Give Me Your Damn Money (Ultimate)：艾吉奥·奥迪托雷 / 卡珊德拉 / 葛天 / J | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · I Thought You Were American (FUA)：天使娜娜 / 梁月 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/J",
+    "https://www.prydwen.gg/re1999/characters/j",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "J",
+  "prydwen_slug": "j",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/j_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:j",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI J 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Survival",
+    "tags": "E1 Shield, Burn, Riposte",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Survival；E1 Shield, Burn, Riposte）",
+    "position": "6星 / 兽 / 现实 / 输出 护盾 反击",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/J"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

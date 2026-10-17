@@ -1,0 +1,85 @@
+{
+  "id": "satsuki",
+  "name": "五色月",
+  "name_zh": "五色月",
+  "name_en": "Satsuki",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制",
+  "rarity": "5星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "束手窃贼",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "伊豆舞女",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "樱花落于漫步之间",
+      "type": "ultimate",
+      "summary": "单体攻击，造成550%精神创伤；命中时赋予其2层【僵硬】"
+    },
+    {
+      "name": "大正侍仆",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，赋予敌方全体1层【僵硬】（最多触发1次）;退场时，使攻击最高的敌方陷入【石化】2回合"
+    },
+    {
+      "name": "大正侍仆",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，穿透率提升10%"
+    },
+    {
+      "name": "大正侍仆",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：攻击处于【僵硬】【石化】状态的敌人时，穿透率提升15%；被拥有【僵硬】的敌人攻击时，受到伤害降低15%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E4%BA%94%E8%89%B2%E6%9C%88",
+    "https://www.prydwen.gg/re1999/characters/satsuki",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "五色月",
+  "prydwen_slug": "satsuki",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/satsuki_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:satsuki",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 五色月 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Control",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Control）",
+    "position": "5星 / 木 / 精神 / 输出 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E4%BA%94%E8%89%B2%E6%9C%88"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

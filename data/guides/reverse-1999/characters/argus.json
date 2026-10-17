@@ -1,0 +1,90 @@
+{
+  "id": "argus",
+  "name": "阿尔古斯",
+  "name_zh": "阿尔古斯",
+  "name_en": "Argus",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 削弱 辅助",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "霰弹礼花",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成160%现实创伤后，使自身进入【咒语强化Ⅰ】状态1回合"
+    },
+    {
+      "name": "目光所指",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体削弱，驱散目标所有【属性提升】【状态增益】后，使目标获得3回合【勘破】；场上同时仅能存在1个【勘破】减益"
+    },
+    {
+      "name": "线索牵引准星",
+      "type": "ultimate",
+      "summary": "单体攻击，对目标造成500%现实创伤；攻击前，若目标处于【勘破】状态下，则提高5层【勘破】层数并重置回合数，且使本次攻击穿透率提高30%，暴击率提高30%"
+    },
+    {
+      "name": "百眼神迹",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：阿尔古斯使用1/2/3阶咒语后，使我方全体造成伤害提高10%/15%/25%，持续2回合"
+    },
+    {
+      "name": "百眼神迹",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "百眼神迹",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：行动区咒语生效前,根据本回合打出咒语的总阶次，追加1张特定阶次的【落葬枪声】进入咒语序列，本次攻击视为额外行动，优先攻击具有【勘破】的目标 3-4:一阶，单体攻击，造成100%现实创伤 5-6:二阶，单体攻击，造成150%现实创伤，自身激情+1 7及以上:三阶，单体攻击，造成300%现实创伤，自身激情+1，本次攻击必定暴击"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%B0%94%E5%8F%A4%E6%96%AF",
+    "https://www.prydwen.gg/re1999/characters/argus",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "阿尔古斯",
+  "prydwen_slug": "argus",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/argus_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:argus",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 阿尔古斯 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Sub Carry",
+    "tags": "E1 Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Sub Carry；E1 Debuff）",
+    "position": "6星 / 木 / 现实 / 输出 削弱 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%B0%94%E5%8F%A4%E6%96%AF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

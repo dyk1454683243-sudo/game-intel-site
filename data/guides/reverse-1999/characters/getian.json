@@ -1,0 +1,91 @@
+{
+  "id": "getian",
+  "name": "葛天",
+  "name_zh": "葛天",
+  "name_en": "Getian",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 削弱 输出",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "另类的骨",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成100%现实创伤；攻击后使目标陷入【骨相】状态2回合"
+    },
+    {
+      "name": "独一的相",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Channel、Channel、Channel）：自我吟诵，使自身进入【识骨】状态；自身灵光+2"
+    },
+    {
+      "name": "我行，我在，故我见",
+      "type": "ultimate",
+      "summary": "群体减益，布设术阵【谶语之域】，持续3回合；使自身灵光+3；并使敌方全体陷入【骨相】状态3回合"
+    },
+    {
+      "name": "相骨之学",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，己方成员有3名及以上现实创伤类型角色时，使自身激情+3（最多触发1次）； 处于【谶语之域】下，葛天释放【诫】攻击时的暴击率、暴击创伤提升20%"
+    },
+    {
+      "name": "相骨之学",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "相骨之学",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，随机使1名敌方陷入【骨相】状态，持续2回合； 回合结束时，处于【谶语之域】下，使自身灵光+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Washing Me And My Clothes (Ultimate)：虚构集 | Ms. Stranger / 莫莉德尔 / Rhiannon | 葛天 / Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Give Me Your Damn Money (Ultimate)：艾吉奥·奥迪托雷 / 卡珊德拉 / 葛天 / J | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%91%9B%E5%A4%A9",
+    "https://www.prydwen.gg/re1999/characters/getian",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "葛天",
+  "prydwen_slug": "getian",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/getian_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:getian",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 葛天 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Support",
+    "tags": "E1 Ult, Array",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Support；E1 Ult, Array）",
+    "position": "6星 / 兽 / 现实 / 辅助 削弱 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%91%9B%E5%A4%A9"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

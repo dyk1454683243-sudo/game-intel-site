@@ -1,0 +1,92 @@
+{
+  "id": "matilda",
+  "name": "玛蒂尔达",
+  "name_zh": "玛蒂尔达",
+  "name_en": "Matilda Bouanich",
+  "aliases": [
+    "Matilda"
+  ],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "削弱 输出",
+  "rarity": "5星",
+  "element": "星",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "天才习作",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "众望瞩目",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤；本次攻击穿透率提升30%"
+    },
+    {
+      "name": "一瞬洞见的预示",
+      "type": "ultimate",
+      "summary": "单体攻击，造成500%精神创伤，本次攻击暴击率提升15%"
+    },
+    {
+      "name": "骄傲之星",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当自身处于【属性提升】【状态增益】时，暴击率提升15%"
+    },
+    {
+      "name": "骄傲之星",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "骄傲之星",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：当自身处于【属性提升】【状态增益】时，受到伤害降低15%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · You're All Going To Hell, Goodbye! (Glow)：贝丽尔 / 伊索尔德 | 玛蒂尔达 / Lorentz Butterfly | 纸信圈儿 / 玛尔纱 | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E8%92%82%E5%B0%94%E8%BE%BE",
+    "https://www.prydwen.gg/re1999/characters/matilda",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "玛蒂尔达",
+  "prydwen_slug": "matilda",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/matilda_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:matilda",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 玛蒂尔达 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Support",
+    "tags": "E2 Beryl, Glow, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Support；E2 Beryl, Glow, EA）",
+    "position": "5星 / 星 / 精神 / 削弱 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E7%8E%9B%E8%92%82%E5%B0%94%E8%BE%BE"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

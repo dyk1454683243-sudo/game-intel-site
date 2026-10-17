@@ -1,0 +1,85 @@
+{
+  "id": "barbara",
+  "name": "数羊羔",
+  "name_zh": "数羊羔",
+  "name_en": "Barbara",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 护盾 治疗",
+  "rarity": "5星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "好梦难成",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对2名敌方造成160%精神创伤，攻击后使目标获得1层【忧惧】"
+    },
+    {
+      "name": "草坪对谈",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体获得自身攻击*120%的护盾，持续2回合"
+    },
+    {
+      "name": "向此处、向此处",
+      "type": "ultimate",
+      "summary": "自我增强，进入【访梦】状态，为己方全体施加自身攻击*250%【护盾】，持续3回合"
+    },
+    {
+      "name": "无菌卧房",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合结束时若本回合未行动，则使己方全体受创减免提高10%，持续1回合"
+    },
+    {
+      "name": "无菌卧房",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，受创回复提升8%"
+    },
+    {
+      "name": "无菌卧房",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时若处于【访梦】状态，则自身回复20%最大生命；之后若自身生命高于90%，则为与自身相邻的友方回复生命，数值等于自身最大生命*15%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%95%B0%E7%BE%8A%E7%BE%94",
+    "https://www.prydwen.gg/re1999/characters/barbara",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "数羊羔",
+  "prydwen_slug": "barbara",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/barbara_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:barbara",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 数羊羔 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "B",
+    "role": "Survival",
+    "tags": "Upgrade, Shuffle",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria B（Survival；Upgrade, Shuffle）",
+    "position": "5星 / 灵 / 精神 / 辅助 护盾 治疗",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%95%B0%E7%BE%8A%E7%BE%94"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

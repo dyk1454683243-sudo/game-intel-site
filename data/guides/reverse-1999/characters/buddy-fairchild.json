@@ -1,0 +1,85 @@
+{
+  "id": "buddy-fairchild",
+  "name": "嚼嚼松果",
+  "name_zh": "嚼嚼松果",
+  "name_en": "Buddy Fairchild",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 激情",
+  "rarity": "5星",
+  "element": "木",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "大自然馈赠",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤，使自身获得2层【友谊徽标】"
+    },
+    {
+      "name": "小动物楷模",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：自我增强，获得5层【友谊徽标】，若【友谊徽标】层数溢出，则额外获得1点激情"
+    },
+    {
+      "name": "极地松子先遣队",
+      "type": "ultimate",
+      "summary": "群体攻击，对所有敌方造成300%现实创伤，消耗所有【友谊徽标】层数，每消耗1层额外造成50%现实创伤，消耗层数大于等于10时，本次攻击必定暴击；攻击后使己方全体造成伤害提升30%，持续3回合"
+    },
+    {
+      "name": "大尾巴中士",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：其他友方释放至终的仪式时，自身获得2层【友谊徽标】"
+    },
+    {
+      "name": "大尾巴中士",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "大尾巴中士",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，若自身具有至少10层【友谊徽标】，则激情+1，且本回合自身释放至终的仪式时无需消耗行动点"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%9A%BC%E5%9A%BC%E6%9D%BE%E6%9E%9C",
+    "https://www.prydwen.gg/re1999/characters/buddy-fairchild",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "嚼嚼松果",
+  "prydwen_slug": "buddy-fairchild",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/buddy-fairchild_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:buddy-fairchild",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 嚼嚼松果 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Damage dealer",
+    "tags": "Ult, Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Damage dealer；Ult, Moxie）",
+    "position": "5星 / 木 / 现实 / 输出 爆发 激情",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%9A%BC%E5%9A%BC%E6%9D%BE%E6%9E%9C"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

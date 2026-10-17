@@ -209,6 +209,14 @@ const DEFAULT_WATCHLIST = {
     official_site: "https://astraeoratio.plaync.com/zh-tw/index",
     official_api: "asora_official",
   },
+  "reverse-1999": {
+    name: "Reverse: 1999",
+    name_zh: "重返未来：1999",
+    gamekee_alias: "reverse1999",
+    keywords: ["Reverse: 1999", "重返未来：1999", "重返未来1999"],
+    steam_appid: 3092660,
+    official_url: "https://re.bluepoch.com/",
+  },
 };
 
 const DEFAULT_SOURCES = {

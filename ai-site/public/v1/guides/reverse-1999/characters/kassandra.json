@@ -1,0 +1,91 @@
+{
+  "id": "kassandra",
+  "name": "卡珊德拉",
+  "name_zh": "卡珊德拉",
+  "name_en": "Kassandra",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "刺杀 输出 辅助",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "阿瑞斯的忿怒",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%现实创伤，使自身肾上腺素+1"
+    },
+    {
+      "name": "阿尔忒弥斯之临",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成150%现实创伤，命中时赋予目标1层【致命伤】"
+    },
+    {
+      "name": "急速刺杀",
+      "type": "ultimate",
+      "summary": "单体攻击，造成750%现实创伤，本次攻击为1次【刺杀】"
+    },
+    {
+      "name": "驯鹰人的直觉",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使自身肾上腺素+1；回合开始时，使自身肾上腺素+1"
+    },
+    {
+      "name": "驯鹰人的直觉",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "驯鹰人的直觉",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：任意己方触发【刺杀】时，使自身获得1层【三神指引】；若其他友方存在【刺杀】角色，使自身额外获得1层【三神指引】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · A · Drinking Game: Addio (Follow-Up)：艾吉奥·奥迪托雷 / 卡珊德拉 | 环状水星 / 纸信圈儿 / J | 图图石子（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Give Me Your Damn Money (Ultimate)：艾吉奥·奥迪托雷 / 卡珊德拉 / 葛天 / J | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89",
+    "https://www.prydwen.gg/re1999/characters/kassandra",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "卡珊德拉",
+  "prydwen_slug": "kassandra",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/kassandra_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:kassandra",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 卡珊德拉 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Sub Carry",
+    "tags": "Ult, EA, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Sub Carry；Ult, EA, AP+）",
+    "position": "6星 / 岩 / 现实 / 刺杀 输出 辅助",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

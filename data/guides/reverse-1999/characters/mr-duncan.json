@@ -1,0 +1,85 @@
+{
+  "id": "mr-duncan",
+  "name": "邓肯先生",
+  "name_zh": "邓肯先生",
+  "name_en": "Mr. Duncan",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 反击 收割",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "致命小调",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成70%现实创伤，攻击血量低于50%的单位，额外附加自身攻击*60%的本源创伤"
+    },
+    {
+      "name": "破烂发明",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：单体反制，自身获得2个【老兵弹组】子弹，同时进入【快速拔枪】状态2回合"
+    },
+    {
+      "name": "一位老兵的致意",
+      "type": "ultimate",
+      "summary": "单体攻击，对1名敌方造成500%现实创伤，自身每拥有1种【子弹】，则额外提升10%暴击率"
+    },
+    {
+      "name": "军旅底蕴",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方单位每触发2次【子弹】，自身获得1层【礼仪】；"
+    },
+    {
+      "name": "军旅底蕴",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击率提升10%"
+    },
+    {
+      "name": "军旅底蕴",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：触发暴击或击败敌方后，己方全体获得【老兵弹组】中的1种子弹； 自身每触发3次暴击，自身激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%82%93%E8%82%AF%E5%85%88%E7%94%9F",
+    "https://www.prydwen.gg/re1999/characters/mr-duncan",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "邓肯先生",
+  "prydwen_slug": "mr-duncan",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/mr-duncan_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:mr-duncan",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 邓肯先生 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Damage dealer",
+    "tags": "Bullet, EA",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Damage dealer；Bullet, EA）",
+    "position": "5星 / 兽 / 现实 / 输出 反击 收割",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E9%82%93%E8%82%AF%E5%85%88%E7%94%9F"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

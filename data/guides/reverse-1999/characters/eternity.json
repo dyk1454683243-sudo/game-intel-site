@@ -1,0 +1,85 @@
+{
+  "id": "eternity",
+  "name": "温妮弗雷德",
+  "name_zh": "温妮弗雷德",
+  "name_en": "Eternity",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 重伤",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "活力手袋",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，失去10%当前生命，造成200%现实创伤；命中时使目标陷入【重伤】状态1回合"
+    },
+    {
+      "name": "古董贝扇",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，失去10%当前生命，对2名敌方造成160%现实创伤"
+    },
+    {
+      "name": "埃克塞特的奇闻",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%现实创伤；本次攻击吸血率提升50%"
+    },
+    {
+      "name": "百岁孤独",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：免疫【流血】【腐蚀】【中毒】；每回合开始时，赋予自身1层【长生之血】：造成伤害提升3%，受创回复提升3%（不可驱散，效果可叠加，最多叠加5层）"
+    },
+    {
+      "name": "百岁孤独",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "百岁孤独",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：强化【长生之血】的效果：造成伤害提升5%，受创回复提升5%；且长生之血叠加5层时变为【永生之血】"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%B8%A9%E5%A6%AE%E5%BC%97%E9%9B%B7%E5%BE%B7",
+    "https://www.prydwen.gg/re1999/characters/eternity",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "温妮弗雷德",
+  "prydwen_slug": "eternity",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/eternity_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:eternity",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 温妮弗雷德 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Support",
+    "tags": "E1 Bloodtithe",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Support；E1 Bloodtithe）",
+    "position": "6星 / 岩 / 现实 / 输出 重伤",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%B8%A9%E5%A6%AE%E5%BC%97%E9%9B%B7%E5%BE%B7"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

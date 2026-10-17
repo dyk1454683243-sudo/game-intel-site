@@ -1,0 +1,85 @@
+{
+  "id": "sonetto",
+  "name": "十四行诗",
+  "name_zh": "十四行诗",
+  "name_en": "Sonetto",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 辅助 控制",
+  "rarity": "5星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "戒律·其五",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "劝勉·其九",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体造成伤害提升15%，受到伤害减少15%，并使自身穿透率提升10%，持续2回合"
+    },
+    {
+      "name": "规章之外的咏叹诗",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%现实创伤；若自身处于【属性提升】【状态增益】中，则本次攻击穿透率提升8%，额外造成100%现实创伤"
+    },
+    {
+      "name": "往诗中找寻",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：当自身处于【属性提升】【状态增益】时，造成伤害提升15%"
+    },
+    {
+      "name": "往诗中找寻",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，现实防御、精神防御提升10%"
+    },
+    {
+      "name": "往诗中找寻",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：当自身处于【属性提升】【状态增益】时，抗暴率、暴击防御提升15%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%8D%81%E5%9B%9B%E8%A1%8C%E8%AF%97",
+    "https://www.prydwen.gg/re1999/characters/sonetto",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "十四行诗",
+  "prydwen_slug": "sonetto",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/sonetto_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:sonetto",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 十四行诗 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Sub Carry",
+    "tags": "Buff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Sub Carry；Buff）",
+    "position": "5星 / 岩 / 现实 / 输出 辅助 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%8D%81%E5%9B%9B%E8%A1%8C%E8%AF%97"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -56,6 +56,15 @@
       "rich_count": 233,
       "stub_count": 0,
       "path": "guides/nikke"
+    },
+    {
+      "id": "reverse-1999",
+      "name": "Reverse: 1999",
+      "name_zh": "重返未来：1999",
+      "character_count": 137,
+      "rich_count": 117,
+      "stub_count": 20,
+      "path": "guides/reverse-1999"
     },
     {
       "id": "star",

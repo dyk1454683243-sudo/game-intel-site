@@ -1,0 +1,92 @@
+{
+  "id": "charon",
+  "name": "卡戎",
+  "name_zh": "卡戎",
+  "name_en": "Charon",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "电能 辅助 额外行动",
+  "rarity": "6星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "来自虚无",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体攻击，对所有敌人造成200%精神创伤；使自身获得20层【休克波】，命中时使目标陷入【惧亡】，持续2回合"
+    },
+    {
+      "name": "逝者谏言",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使自身获得20层【休克波】，使己方全体获得【安魂】，持续2回合"
+    },
+    {
+      "name": "纵使虞美人盛开",
+      "type": "ultimate",
+      "summary": "自我吟诵，使自身激情+1，摧毁咒语区中所有卡戎的【来自虚无】【逝者谏言】，根据咒语阶次，每摧毁一张使自身获得20/30/50层【休克波】； 使自身进入【往日阴影】；在【往日阴影】状态下释放会重置【休克波】消耗计数"
+    },
+    {
+      "name": "颤栗的脑波",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：回合开始时若不处于任意等级的【涌动电场】下时，布设【涌动电场lv1】； 获得【电涌增幅】； 回合结束时，注入至多20点【电能】到【涌动电场】中； 【涌动电场lv3】每溢出1点【电能】时，使自身获得1层【休克波】；己方全体每溢出1点激情时，使自身获得20层【休克波】（与激情存储不同时生效）；任意敌方/己方退场时，使自身获得20/40层【休克波】； 每获得40层【休克波】时，获得1层【颤栗】，持续4回合"
+    },
+    {
+      "name": "颤栗的脑波",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击+5%"
+    },
+    {
+      "name": "颤栗的脑波",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗/任意敌方入场时，使敌方陷入【惧亡】，持续2回合； 进入战斗时，获得20层【电能】与50层【休克波】； 使自身激情+2，每有一名其他灵、智友方，激情+1（最多生效2次）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · I'm In Me Mum's Car Brume Brume：Enigma / 卡戎 / 纸信圈儿 | 天使娜娜 / 灰调蓝（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Add Two Shots Of Vodka (Dynamo, Raid)：告死鸟 / 纸信圈儿 / Rhiannon | 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Dynamo Wheelchair (Dynamo)：虚构集 | Ms. Stranger | 露西 / 乌尔里希 | Rhiannon / 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E6%88%8E",
+    "https://www.prydwen.gg/re1999/characters/charon",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "卡戎",
+  "prydwen_slug": "charon",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/charon_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:charon",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 卡戎 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Support",
+    "tags": "Dynamo, AP+, Shuffle",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Support；Dynamo, AP+, Shuffle）",
+    "position": "6星 / 灵 / 精神 / 电能 辅助 额外行动",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%8D%A1%E6%88%8E"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

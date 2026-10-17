@@ -1,0 +1,93 @@
+{
+  "id": "moldir",
+  "name": "莫莉德尔",
+  "name_zh": "莫莉德尔",
+  "name_en": "Moldir",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "辅助 反击 激情",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "将过往摧毁",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成100%现实创伤；攻击后赋予目标1层【激情萃取】；使自身获得【连续行动Ⅰ】，持续1回合"
+    },
+    {
+      "name": "将明日弥合",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Counter、Counter、Counter）：自我反制，使自身获得2层【战备】；若处于【主见】状态下，使自身获得【攻坚】，否则获得【闪击】，持续1回合"
+    },
+    {
+      "name": "不再迷失的归途者",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成400%现实创伤，使己方全体获得6层【礼仪：暴击创伤】； 若主动释放，额外对敌方全体造成300%现实创伤； 若反击释放，当前每有4层【战备】，额外使己方全体获得1层【礼仪：暴击创伤】；使自身获得【教条】，持续2回合"
+    },
+    {
+      "name": "致“家人”",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：己方全体每消耗1点激情，莫莉德尔获得1层【战备】，持续3回合； 回合开始时： 若至少拥有10层【战备】，使自身获得【主见】，持续1回合； 若至少拥有20层【战备】，使己方全体获得【战备部署】：每有1层【战备】，至终的仪式造成伤害提升2%，持续1回合； 若至少拥有30层【战备】，使己方全体获得【武装整修】，持续1回合"
+    },
+    {
+      "name": "致“家人”",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    },
+    {
+      "name": "致“家人”",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，获得10层【战备】，持续2回合；反击后，使自身激情+1"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Daddy? Do I LOOK- (Ultimate)：伊戈尔 / 洛佩拉 / 莫莉德尔 | Rhiannon | 纸信圈儿 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · Washing Me And My Clothes (Ultimate)：虚构集 | Ms. Stranger / 莫莉德尔 / Rhiannon | 葛天 / Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Art of Himejoshing Out (Bloodtithe)：诺谛卡 / 塞梅尔维斯 / Rhiannon | 莫莉德尔 / 野树莓 | Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%8E%AB%E8%8E%89%E5%BE%B7%E5%B0%94",
+    "https://www.prydwen.gg/re1999/characters/moldir",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "莫莉德尔",
+  "prydwen_slug": "moldir",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/moldir_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:moldir",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 莫莉德尔 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Sub Carry",
+    "tags": "E1 Ult, Moxie, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Sub Carry；E1 Ult, Moxie, AP+）",
+    "position": "6星 / 兽 / 现实 / 辅助 反击 激情",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%8E%AB%E8%8E%89%E5%BE%B7%E5%B0%94"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

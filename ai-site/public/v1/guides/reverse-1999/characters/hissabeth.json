@@ -1,0 +1,92 @@
+{
+  "id": "hissabeth",
+  "name": "冷周六",
+  "name_zh": "冷周六",
+  "name_en": "Hissabeth",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 控制 激情",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "自我吞食者",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成120%精神创伤，对具有【石棉鳞片】的目标额外造成60%精神创伤"
+    },
+    {
+      "name": "无始无终者",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：自我增强，消耗2层【蛇巢】，回合结束时发出2张1阶【嘶嘶！】（不占己方咒语获取数量上限）；若【蛇巢】不足，获得1点激情"
+    },
+    {
+      "name": "0维爆炸的模拟",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成500%精神创伤，命中时使其此回合结束结算的每层【石棉鳞片】本源创伤从20%提升至70%，并在回合结束将所有【石棉鳞片】回收为等量的1阶【嘶嘶！】"
+    },
+    {
+      "name": "问题之蛇",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：战斗开始时获得8层【蛇巢】；回合开始时，若自身有至少1层【蛇巢】，生成1张1阶【嘶嘶！】并扣除1层【蛇巢】，每回合至多触发1次；【嘶嘶！】和至终的仪式不占己方咒语获取数量上限"
+    },
+    {
+      "name": "问题之蛇",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "问题之蛇",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：冷周六攻击携带【石棉鳞片】的敌人时，施加【僵硬】并额外回复1点激情，每回合限1次"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · When Life Gives You Lemons (Status)：菲林士多 / Rhiannon | 莫莉德尔 / 6 | 冷周六 / Narcissus | J（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · A · Benefit From Reading (Upgrade)：马库斯 | 阿尔古斯 / 槲寄生 / 环状水星 | 冷周六 | Lorentz Butterfly / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · B · You Have Been Stopped (Petrify)：冷周六 / 槲寄生 / 洁西卡 / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%86%B7%E5%91%A8%E5%85%AD",
+    "https://www.prydwen.gg/re1999/characters/hissabeth",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "冷周六",
+  "prydwen_slug": "hissabeth",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/hissabeth_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:hissabeth",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 冷周六 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S",
+    "role": "Sub Carry",
+    "tags": "E1 Ult, Debuff, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S（Sub Carry；E1 Ult, Debuff, AP+）",
+    "position": "6星 / 木 / 精神 / 输出 控制 激情",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%86%B7%E5%91%A8%E5%85%AD"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

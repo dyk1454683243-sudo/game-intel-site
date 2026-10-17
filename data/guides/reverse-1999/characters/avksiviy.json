@@ -1,0 +1,72 @@
+{
+  "id": "avksiviy",
+  "name": "阿夫西维",
+  "name_zh": "阿夫西维",
+  "name_en": "Авксивий",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 驱散 治疗",
+  "rarity": "5星",
+  "element": "木",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "致问候！",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌人造成120%精神创伤；之后使自身及前方的友方造成伤害提升10%，持续2回合"
+    },
+    {
+      "name": "祝健康～",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体进入【愈合】状态1回合，每回合开始时，回复使用者攻击*50%生命；之后使自身及后方的友方受创回复提升10%，持续2回合"
+    },
+    {
+      "name": "一笔，又一画",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成300%精神创伤；之后使自身及前方的友方获得1层【激昂】，使自身及后方的友方获得1层【坚固】"
+    },
+    {
+      "name": "葵籽卫队",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗时，使自身前方的友方造成伤害提升10%，使自身后方的友方受到伤害降低10%"
+    },
+    {
+      "name": "葵籽卫队",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "葵籽卫队",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：进入战斗时，自身前方的每个友方使自身攻击提升5%，自身后方的每个友方使自身受到伤害降低8%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%A4%AB%E8%A5%BF%E7%BB%B4"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "阿夫西维",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 这页的英文名没有对上 Prydwen 角色列表里的唯一 slug，id 是英文名的转写。",
+  "verified": "BWIKI 阿夫西维 于 2026-10-17 读取",
+  "summary": {
+    "position": "5星 / 木 / 精神 / 输出 驱散 治疗",
+    "stub": true,
+    "caveat": "Prydwen Overall-Euphoria 梯度页（Last updated 11/October/2026）没有把这名角色放进单一档位，不编造评级，也不写抽卡结论。",
+    "sources": [
+      "https://wiki.biligame.com/reverse1999/%E9%98%BF%E5%A4%AB%E8%A5%BF%E7%BB%B4",
+      "https://www.prydwen.gg/re1999/tier-list"
+    ]
+  },
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "tennant",
+  "name": "坦南特",
+  "name_zh": "坦南特",
+  "name_en": "Tennant",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "护盾 削弱 输出",
+  "rarity": "5星",
+  "element": "兽",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "一颗闪钻",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成200%现实创伤"
+    },
+    {
+      "name": "一束星河",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Buff、Buff、Buff）：群体增强，使己方全体获得使用者攻击*80%的【护盾】，持续1回合；护盾存在时受到伤害降低20%"
+    },
+    {
+      "name": "一颗真诚的心",
+      "type": "ultimate",
+      "summary": "单体攻击，造成550%现实创伤；并装备2颗【钻石子弹】"
+    },
+    {
+      "name": "美好骗局",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：进入战斗后，则立刻释放1阶【一束星河】，并装备1颗【钻石子弹】（最多触发1次）"
+    },
+    {
+      "name": "美好骗局",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "美好骗局",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：回合开始时，若自身生命低于50%，则立刻释放1阶【一束星河】（最多触发1次）"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%9D%A6%E5%8D%97%E7%89%B9",
+    "https://www.prydwen.gg/re1999/characters/tennant",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "坦南特",
+  "prydwen_slug": "tennant",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/tennant_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:tennant",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 坦南特 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "C",
+    "role": "Sub Carry",
+    "tags": "E1 Bullet, Shield",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria C（Sub Carry；E1 Bullet, Shield）",
+    "position": "5星 / 兽 / 现实 / 护盾 削弱 输出",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%9D%A6%E5%8D%97%E7%89%B9"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

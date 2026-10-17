@@ -1,0 +1,79 @@
+{
+  "id": "twins-sleep",
+  "name": "丽莎&路易斯",
+  "name_zh": "丽莎&路易斯",
+  "name_en": "Twins Sleep",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "削弱 控制",
+  "rarity": "3星",
+  "element": "灵",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "前后夹击",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Debuff、Debuff）：单体攻击，造成200%精神创伤"
+    },
+    {
+      "name": "捉鬼游戏",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：群体削弱，赋予敌方全体1层【虚弱】，暴击防御降低20%，持续2回合"
+    },
+    {
+      "name": "好孩子们入梦乡",
+      "type": "ultimate",
+      "summary": "单体攻击，造成450%精神创伤；命中时使其陷入【噩梦】状态1回合"
+    },
+    {
+      "name": "双生催眠",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：每隔1回合，进入【刻印术式】状态，持续1回合"
+    },
+    {
+      "name": "双生催眠",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，攻击提升5%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E4%B8%BD%E8%8E%8E%26%E8%B7%AF%E6%98%93%E6%96%AF",
+    "https://www.prydwen.gg/re1999/characters/twins-sleep",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "丽莎&路易斯",
+  "prydwen_slug": "twins-sleep",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/twins-sleep_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:twins-sleep",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 丽莎&路易斯 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "D",
+    "role": "Support",
+    "tags": "Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria D（Support；Debuff）",
+    "position": "3星 / 灵 / 精神 / 削弱 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E4%B8%BD%E8%8E%8E%26%E8%B7%AF%E6%98%93%E6%96%AF"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

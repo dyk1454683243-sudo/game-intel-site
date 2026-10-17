@@ -1,0 +1,38 @@
+{
+  "id": "glyndwr",
+  "name": "格林杜尔",
+  "name_zh": "格林杜尔",
+  "name_en": "Glyndŵr",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "rarity": "4星",
+  "element": "兽",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.sina.cn/news/detail/5346614941583269.html",
+    "https://www.prydwen.gg/re1999/characters/glyndwr",
+    "https://www.prydwen.gg/re1999/characters",
+    "https://www.sina.cn/news/detail/5346250041065917.html"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "glyndwr",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/generic/1790561727161-fa910f68e6098cd100fac940534b214a.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:glyndwr",
+  "note": "同一条「不渝者的领航」写新增 4 星角色格林杜尔可在该征集获取，没有把它写成概率 UP。新秀登场帖写「格林杜尔 | Glyndŵr」。兽灵感取自 Prydwen 角色列表上的 Beast 图标。帖文没有咒语数值。",
+  "verified": "Prydwen characters index，Last updated 11/October/2026；核对日 2026-10-17",
+  "summary": {
+    "position": "4星 / 兽",
+    "stub": true,
+    "caveat": "没有可引用的咒语正文，也不把未出现在单一档位里的角色写成某个梯度。",
+    "sources": [
+      "https://www.sina.cn/news/detail/5346614941583269.html",
+      "https://www.prydwen.gg/re1999/characters/glyndwr",
+      "https://www.prydwen.gg/re1999/characters"
+    ]
+  }
+}

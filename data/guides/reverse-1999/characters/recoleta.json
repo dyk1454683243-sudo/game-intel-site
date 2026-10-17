@@ -1,0 +1,91 @@
+{
+  "id": "recoleta",
+  "name": "虚构集",
+  "name_zh": "虚构集",
+  "name_en": "Recoleta",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 爆发 激情",
+  "rarity": "6星",
+  "element": "岩",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "字的隐喻",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成100%现实创伤；攻击后赋予目标2层【激情萃取】"
+    },
+    {
+      "name": "词的意象",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌人造成120%现实创伤；若只有1个敌方目标，使自身获得5层【独白】，否则获得5层【群像】"
+    },
+    {
+      "name": "下现实主义迷宫",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成450%现实创伤，对主目标额外造成450%现实创伤，消耗自身全部【独白】【群像】造成额外现实创伤； 释放时消耗全部激情，每额外消耗1点激情，本次攻击仪式威力提升3%，使当前激情最少的其他友方激情+1； 至少额外消耗5点激情时，仪式威力对本次攻击的效果翻倍"
+    },
+    {
+      "name": "自动写作法",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：激情上限+2（获取至终的仪式所需的激情依然为5） 其他友方释放至终的仪式后，自身激情+1，本次至终的仪式每消耗1点激情：该仪式为单体类型/群体类型时，虚构集获得1层【独白】/【群像】"
+    },
+    {
+      "name": "自动写作法",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，暴击创伤提升15%"
+    },
+    {
+      "name": "自动写作法",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：激情上限+3；进入战斗时，使自身激情+3，获得1层【筹备·虚构集】； 释放至终的仪式后，根据消耗的【独白】【群像】总层数，每消耗10层，获得1层【筹备·虚构集】，最多获得1层"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · S+ · Washing Me And My Clothes (Ultimate)：虚构集 | Ms. Stranger / 莫莉德尔 / Rhiannon | 葛天 / Narcissus（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）",
+      "Prydwen · S · Dynamo Wheelchair (Dynamo)：虚构集 | Ms. Stranger | 露西 / 乌尔里希 | Rhiannon / 卡戎 / Enigma（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E8%99%9A%E6%9E%84%E9%9B%86",
+    "https://www.prydwen.gg/re1999/characters/recoleta",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "虚构集",
+  "prydwen_slug": "recoleta",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/recoleta_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:recoleta",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 虚构集 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "S+",
+    "role": "Damage dealer",
+    "tags": "E1 Ult, Moxie",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria S+（Damage dealer；E1 Ult, Moxie）",
+    "position": "6星 / 岩 / 现实 / 输出 爆发 激情",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E8%99%9A%E6%9E%84%E9%9B%86"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

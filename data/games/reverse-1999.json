@@ -4,7 +4,8 @@
   "name_zh": "重返未来：1999",
   "platforms": [
     "steam",
-    "pc"
+    "pc",
+    "mobile"
   ],
   "tags": [
     "gacha",
@@ -12,14 +13,31 @@
   ],
   "sources": [
     {
+      "label": "官网",
+      "url": "https://re.bluepoch.com/"
+    },
+    {
       "label": "Steam",
       "url": "https://store.steampowered.com/app/3092660/"
+    },
+    {
+      "label": "Prydwen",
+      "url": "https://www.prydwen.gg/re1999/characters"
+    },
+    {
+      "label": "BWIKI",
+      "url": "https://wiki.biligame.com/reverse1999/"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/reverse1999/"
     }
   ],
   "steam_appid": 3092660,
-  "stub": true,
-  "watchlist": false,
-  "note": "Catalog stub — Steam store link only; no invented scores",
-  "as_of": "2026-09-27",
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/reverse-1999/",
+  "note": "Watchlist + character guides. CN 4.0 and global 3.8 banners are stored separately. GameKee alias reverse1999 answers the content API; the short aliases tried earlier returned 403.",
+  "as_of": "2026-10-17",
   "timezone": "Asia/Shanghai"
 }

@@ -1,0 +1,85 @@
+{
+  "id": "medicine-pocket",
+  "name": "兔毛手袋",
+  "name_zh": "兔毛手袋",
+  "name_en": "Medicine Pocket",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "治疗 削弱 控制",
+  "rarity": "6星",
+  "element": "兽",
+  "attack_type": "精神",
+  "skills": [
+    {
+      "name": "固有习性",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Debuff、Debuff、Debuff）：单体攻击，造成150%精神创伤；命中时使其受到伤害提升20%，持续1回合"
+    },
+    {
+      "name": "炼金容器",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Health、Health、Health）：群体治疗，使己方全体回复使用者攻击*80%生命；并额外赋予1层【坚固】"
+    },
+    {
+      "name": "二十六项次生反应",
+      "type": "ultimate",
+      "summary": "单体攻击，造成450%精神创伤；命中时使目标陷入【眩晕】1回合；攻击后使自身激情+1"
+    },
+    {
+      "name": "森林之铃",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：释放至终的仪式后，使己方全体回复兔毛手袋攻击*80%生命"
+    },
+    {
+      "name": "森林之铃",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "森林之铃",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：若自身生命百分比低于50%，则治疗率提升10%"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E5%85%94%E6%AF%9B%E6%89%8B%E8%A2%8B",
+    "https://www.prydwen.gg/re1999/characters/medicine-pocket",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "兔毛手袋",
+  "prydwen_slug": "medicine-pocket",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/medicine-pocket_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:medicine-pocket",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。",
+  "verified": "BWIKI 兔毛手袋 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A+",
+    "role": "Survival",
+    "tags": "E1 Debuff",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A+（Survival；E1 Debuff）",
+    "position": "6星 / 兽 / 精神 / 治疗 削弱 控制",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E5%85%94%E6%AF%9B%E6%89%8B%E8%A2%8B"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}

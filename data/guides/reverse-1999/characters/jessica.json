@@ -1,0 +1,90 @@
+{
+  "id": "jessica",
+  "name": "洁西卡",
+  "name_zh": "洁西卡",
+  "name_en": "Changeling",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "role": "输出 中毒",
+  "rarity": "6星",
+  "element": "木",
+  "attack_type": "现实",
+  "skills": [
+    {
+      "name": "白绒毯",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：单体攻击，造成180%现实创伤；若目标陷入【中毒】状态，则额外造成40%现实创伤；之后每个额外的【中毒】状态将再提升20%现实创伤，该效果最多提升40%现实创伤"
+    },
+    {
+      "name": "好朋友",
+      "type": "incantation",
+      "rank": 1,
+      "summary": "1阶（Attack、Attack、Attack）：群体攻击，对2名敌方造成135%现实创伤；若目标处于【属性削弱】【状态异常】【控制】中，则额外造成30%现实创伤"
+    },
+    {
+      "name": "凝视来自深林之中",
+      "type": "ultimate",
+      "summary": "群体攻击，对敌方全体造成350%现实创伤；攻击后使敌方全体陷入【中毒】状态2回合，每回合结束时，对其造成洁西卡攻击*30%的本源创伤"
+    },
+    {
+      "name": "换生灵",
+      "type": "insight",
+      "insight": 1,
+      "summary": "洞悉I：攻击处于【中毒】状态的敌人时，造成伤害提升20%；入场及每3回合（入场后1,3,6,9…)回合开始时，赋予敌方全体【中毒】状态2回合，回合结束时受到使用者攻击*30%的本源创伤"
+    },
+    {
+      "name": "换生灵",
+      "type": "insight",
+      "insight": 2,
+      "summary": "洞悉II：进入战斗时，造成伤害提升8%"
+    },
+    {
+      "name": "换生灵",
+      "type": "insight",
+      "insight": 3,
+      "summary": "洞悉III：攻击未处于【中毒】状态的敌人后，赋予其【中毒】状态2回合，回合结束受到使用者攻击*30%的本源创伤"
+    }
+  ],
+  "skill_prio": [],
+  "teams": {
+    "comp": [
+      "Prydwen · B · You Have Been Stopped (Petrify)：冷周六 / 槲寄生 / 洁西卡 / 维拉（https://www.prydwen.gg/re1999/team-tier-list ，as_of 2026-10-08）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/reverse1999/%E6%B4%81%E8%A5%BF%E5%8D%A1",
+    "https://www.prydwen.gg/re1999/characters/jessica",
+    "https://www.prydwen.gg/re1999/team-tier-list",
+    "https://www.prydwen.gg/re1999/tier-list"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "bwiki_title": "洁西卡",
+  "prydwen_slug": "jessica",
+  "portrait": "https://cdn.prydwen.gg/images/re1999/characters/jessica_card.webp",
+  "portrait_source": "https://www.prydwen.gg/re1999/characters",
+  "portrait_via": "prydwen-characters-index:jessica",
+  "note": "咒语、至终的仪式与洞悉摘自 BWIKI「神秘学家」模板。咒语只录 1 阶效果；2/3 阶和塑造留在同一页，不另写。 英文名栏写 Changeling，所属征集英文是 THE CHANGELING AWAITS。Prydwen 角色列表里唯一的 Plant Jessica 用 slug jessica。",
+  "verified": "BWIKI 洁西卡 于 2026-10-17 读取",
+  "ratings": {
+    "checked": true,
+    "as_of": "2026-10-11",
+    "url": "https://www.prydwen.gg/re1999/tier-list",
+    "overall": "A",
+    "role": "Sub Carry",
+    "tags": "E2 Poison, AP+",
+    "list": "Overall - Euphoria"
+  },
+  "summary": {
+    "tier": "Prydwen Overall-Euphoria A（Sub Carry；E2 Poison, AP+）",
+    "position": "6星 / 木 / 现实 / 输出 中毒",
+    "sources": [
+      "https://www.prydwen.gg/re1999/tier-list",
+      "https://wiki.biligame.com/reverse1999/%E6%B4%81%E8%A5%BF%E5%8D%A1"
+    ],
+    "stub": false,
+    "caveat": "强度只摘自 Prydwen Overall-Euphoria 梯度（编辑向，非官方；页头 Last updated 11/October/2026）。页面写明配队和场合会改变发挥。不编造抽卡结论。"
+  }
+}
