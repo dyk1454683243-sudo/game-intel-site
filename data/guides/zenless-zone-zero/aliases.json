@@ -1,0 +1,1629 @@
+{
+  "_meta": {
+    "game": "zenless-zone-zero",
+    "note": "BWIKI 名称 / 全名 / 英文名，以及能唯一对上的 Prydwen slug。不编造外号。",
+    "as_of": "2026-10-17"
+  },
+  "aliases": {
+    "2493": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "roxy": {
+      "id": "roxy",
+      "name": "洛克茜",
+      "kind": "character"
+    },
+    "洛克茜": {
+      "id": "roxy",
+      "name": "洛克茜",
+      "kind": "character"
+    },
+    "Roxy Ifrita Pryce": {
+      "id": "roxy",
+      "name": "洛克茜",
+      "kind": "character"
+    },
+    "洛克茜·伊芙莉塔·普莱斯": {
+      "id": "roxy",
+      "name": "洛克茜",
+      "kind": "character"
+    },
+    "claret": {
+      "id": "claret",
+      "name": "克拉蕾",
+      "kind": "character"
+    },
+    "克拉蕾": {
+      "id": "claret",
+      "name": "克拉蕾",
+      "kind": "character"
+    },
+    "Claret Flint": {
+      "id": "claret",
+      "name": "克拉蕾",
+      "kind": "character"
+    },
+    "克拉蕾·弗林特": {
+      "id": "claret",
+      "name": "克拉蕾",
+      "kind": "character"
+    },
+    "sigrid": {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "kind": "character"
+    },
+    "希格莉德": {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "kind": "character"
+    },
+    "Sigrid de L'Azur": {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "kind": "character"
+    },
+    "希格莉德·德拉叙尔": {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "kind": "character"
+    },
+    "马娘": {
+      "id": "sigrid",
+      "name": "希格莉德",
+      "kind": "character"
+    },
+    "remielle": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "蕾米埃尔": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "Remielle Dan": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "蕾米埃尔·丹": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "蕾米": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "丹": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "坏女人": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "「共犯」": {
+      "id": "remielle",
+      "name": "蕾米埃尔",
+      "kind": "character"
+    },
+    "norma": {
+      "id": "norma",
+      "name": "诺姆",
+      "kind": "character"
+    },
+    "诺姆": {
+      "id": "norma",
+      "name": "诺姆",
+      "kind": "character"
+    },
+    "Norma Hollowell": {
+      "id": "norma",
+      "name": "诺姆",
+      "kind": "character"
+    },
+    "诺姆·霍洛维尔": {
+      "id": "norma",
+      "name": "诺姆",
+      "kind": "character"
+    },
+    "velina": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "维琳娜": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "Velina Airgid": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "维琳娜·艾嘉德": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "小维": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "「天使」大人": {
+      "id": "velina",
+      "name": "维琳娜",
+      "kind": "character"
+    },
+    "pyrois": {
+      "id": "pyrois",
+      "name": "佩洛伊斯",
+      "kind": "character"
+    },
+    "佩洛伊斯": {
+      "id": "pyrois",
+      "name": "佩洛伊斯",
+      "kind": "character"
+    },
+    "Pyrois": {
+      "id": "pyrois",
+      "name": "佩洛伊斯",
+      "kind": "character"
+    },
+    "佩佩": {
+      "id": "pyrois",
+      "name": "佩洛伊斯",
+      "kind": "character"
+    },
+    "billy-starlight": {
+      "id": "billy-starlight",
+      "name": "星徽·比利",
+      "kind": "character"
+    },
+    "星徽·比利": {
+      "id": "billy-starlight",
+      "name": "星徽·比利",
+      "kind": "character"
+    },
+    "Starlight - Billy": {
+      "id": "billy-starlight",
+      "name": "星徽·比利",
+      "kind": "character"
+    },
+    "星徽·比利·奇德": {
+      "id": "billy-starlight",
+      "name": "星徽·比利",
+      "kind": "character"
+    },
+    "promeia": {
+      "id": "promeia",
+      "name": "普罗米娅",
+      "kind": "character"
+    },
+    "普罗米娅": {
+      "id": "promeia",
+      "name": "普罗米娅",
+      "kind": "character"
+    },
+    "Promeia": {
+      "id": "promeia",
+      "name": "普罗米娅",
+      "kind": "character"
+    },
+    "cissia": {
+      "id": "cissia",
+      "name": "希希芙",
+      "kind": "character"
+    },
+    "希希芙": {
+      "id": "cissia",
+      "name": "希希芙",
+      "kind": "character"
+    },
+    "Cissia": {
+      "id": "cissia",
+      "name": "希希芙",
+      "kind": "character"
+    },
+    "蛇蛇": {
+      "id": "cissia",
+      "name": "希希芙",
+      "kind": "character"
+    },
+    "啥子蛇": {
+      "id": "cissia",
+      "name": "希希芙",
+      "kind": "character"
+    },
+    "nangong-yu": {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "kind": "character"
+    },
+    "南宫羽": {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "kind": "character"
+    },
+    "Nangong Yu": {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "kind": "character"
+    },
+    "南宫": {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "kind": "character"
+    },
+    "队长": {
+      "id": "nangong-yu",
+      "name": "南宫羽",
+      "kind": "character"
+    },
+    "aria": {
+      "id": "aria",
+      "name": "爱芮",
+      "kind": "character"
+    },
+    "爱芮": {
+      "id": "aria",
+      "name": "爱芮",
+      "kind": "character"
+    },
+    "Aria": {
+      "id": "aria",
+      "name": "爱芮",
+      "kind": "character"
+    },
+    "sunna": {
+      "id": "sunna",
+      "name": "千夏",
+      "kind": "character"
+    },
+    "千夏": {
+      "id": "sunna",
+      "name": "千夏",
+      "kind": "character"
+    },
+    "Sunna": {
+      "id": "sunna",
+      "name": "千夏",
+      "kind": "character"
+    },
+    "废柴小绿毛": {
+      "id": "sunna",
+      "name": "千夏",
+      "kind": "character"
+    },
+    "zhao": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "照": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "Zhao": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "小照": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "救星小姐": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "吃肉的兔子": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "可怕的裁决官": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "照相机（三月七）": {
+      "id": "zhao",
+      "name": "照",
+      "kind": "character"
+    },
+    "ye-shunguang": {
+      "id": "ye-shunguang",
+      "name": "叶瞬光",
+      "kind": "character"
+    },
+    "叶瞬光": {
+      "id": "ye-shunguang",
+      "name": "叶瞬光",
+      "kind": "character"
+    },
+    "Ye Shunguang": {
+      "id": "ye-shunguang",
+      "name": "叶瞬光",
+      "kind": "character"
+    },
+    "小光": {
+      "id": "ye-shunguang",
+      "name": "叶瞬光",
+      "kind": "character"
+    },
+    "banyue": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "般岳": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "Banyue": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "大狮子": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "「肃灭单元·零型」": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "宗师": {
+      "id": "banyue",
+      "name": "般岳",
+      "kind": "character"
+    },
+    "dialyn": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "琉音": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "Dialyn": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "金牌客服": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "客服小刘": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "流萤}}": {
+      "id": "dialyn",
+      "name": "琉音",
+      "kind": "character"
+    },
+    "yidhari": {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "kind": "character"
+    },
+    "伊德海莉": {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "kind": "character"
+    },
+    "Yidhari Murphy": {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "kind": "character"
+    },
+    "伊德海莉·墨菲": {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "kind": "character"
+    },
+    "章鱼": {
+      "id": "yidhari",
+      "name": "伊德海莉",
+      "kind": "character"
+    },
+    "lucia": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "卢西娅": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "Lucia Elowen": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "卢西娅·艾洛温": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "「夜魔使者」": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "小羊": {
+      "id": "lucia",
+      "name": "卢西娅",
+      "kind": "character"
+    },
+    "orphie-and-magus": {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "kind": "character"
+    },
+    "奥菲丝&「鬼火」": {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "kind": "character"
+    },
+    "Orphie Magnusson & Magus": {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "kind": "character"
+    },
+    "奥菲丝·马格努森 &「鬼火」": {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "kind": "character"
+    },
+    "老妈子": {
+      "id": "orphie-and-magus",
+      "name": "奥菲丝&「鬼火」",
+      "kind": "character"
+    },
+    "seed": {
+      "id": "seed",
+      "name": "「席德」",
+      "kind": "character"
+    },
+    "「席德」": {
+      "id": "seed",
+      "name": "「席德」",
+      "kind": "character"
+    },
+    "Seed": {
+      "id": "seed",
+      "name": "「席德」",
+      "kind": "character"
+    },
+    "alice": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "爱丽丝": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "Alice Thymefield": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "爱丽丝·泰姆菲尔德": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "热浪兔兔": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "胆小胡萝卜": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "对称狂魔": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "绝区零第一可爱兔宝": {
+      "id": "alice",
+      "name": "爱丽丝",
+      "kind": "character"
+    },
+    "ukinami-yuzuha": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "柚叶": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "Ukinami Yuzuha": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "浮波柚叶": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "狸猫": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "ES-07": {
+      "id": "ukinami-yuzuha",
+      "name": "柚叶",
+      "kind": "character"
+    },
+    "ju-fufu": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "橘福福": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "Ju Fufu": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "大师姐": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "福福": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "橘猫": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "虎破王": {
+      "id": "ju-fufu",
+      "name": "橘福福",
+      "kind": "character"
+    },
+    "yixuan": {
+      "id": "yixuan",
+      "name": "仪玄",
+      "kind": "character"
+    },
+    "仪玄": {
+      "id": "yixuan",
+      "name": "仪玄",
+      "kind": "character"
+    },
+    "Yixuan": {
+      "id": "yixuan",
+      "name": "仪玄",
+      "kind": "character"
+    },
+    "师父": {
+      "id": "yixuan",
+      "name": "仪玄",
+      "kind": "character"
+    },
+    "hugo": {
+      "id": "hugo",
+      "name": "雨果",
+      "kind": "character"
+    },
+    "雨果": {
+      "id": "hugo",
+      "name": "雨果",
+      "kind": "character"
+    },
+    "Hugo": {
+      "id": "hugo",
+      "name": "雨果",
+      "kind": "character"
+    },
+    "雨果•维拉德": {
+      "id": "hugo",
+      "name": "雨果",
+      "kind": "character"
+    },
+    "果子哥": {
+      "id": "hugo",
+      "name": "雨果",
+      "kind": "character"
+    },
+    "vivian": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "薇薇安": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "Vivian Banshee": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "薇薇安•班希": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "打工皇帝": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "vva": {
+      "id": "vivian",
+      "name": "薇薇安",
+      "kind": "character"
+    },
+    "trigger": {
+      "id": "trigger",
+      "name": "「扳机」",
+      "kind": "character"
+    },
+    "「扳机」": {
+      "id": "trigger",
+      "name": "「扳机」",
+      "kind": "character"
+    },
+    "Trigger": {
+      "id": "trigger",
+      "name": "「扳机」",
+      "kind": "character"
+    },
+    "「卡戎」": {
+      "id": "trigger",
+      "name": "「扳机」",
+      "kind": "character"
+    },
+    "anby-demara-soldier-0": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "零号·安比": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "Soldier 0 - Anby": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "大安比": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "银心锡兵·安比": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "SP安比": {
+      "id": "anby-demara-soldier-0",
+      "name": "零号·安比",
+      "kind": "character"
+    },
+    "evelyn": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "伊芙琳": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "Evelyn Chevalier": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "伊芙琳·舒瓦利耶": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "伊芙": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "「舍勒之青」": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "火夜兰": {
+      "id": "evelyn",
+      "name": "伊芙琳",
+      "kind": "character"
+    },
+    "astra-yao": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "耀嘉音": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "Astra Yao": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "大明星": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "小姐": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "女王大人": {
+      "id": "astra-yao",
+      "name": "耀嘉音",
+      "kind": "character"
+    },
+    "miyabi": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "雅": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "Hoshimi Miyabi": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "星见雅": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "雅小姐": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "课长": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "头儿": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "武痴狐狸": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "人机课长": {
+      "id": "miyabi",
+      "name": "雅",
+      "kind": "character"
+    },
+    "harumasa": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "悠真": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "Asaba Harumasa": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "浅羽悠真": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "悠真真": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "摸鱼达人": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "义兄": {
+      "id": "harumasa",
+      "name": "悠真",
+      "kind": "character"
+    },
+    "lighter": {
+      "id": "lighter",
+      "name": "莱特",
+      "kind": "character"
+    },
+    "莱特": {
+      "id": "lighter",
+      "name": "莱特",
+      "kind": "character"
+    },
+    "Lighter": {
+      "id": "lighter",
+      "name": "莱特",
+      "kind": "character"
+    },
+    "常胜冠军": {
+      "id": "lighter",
+      "name": "莱特",
+      "kind": "character"
+    },
+    "那位莱特": {
+      "id": "lighter",
+      "name": "莱特",
+      "kind": "character"
+    },
+    "yanagi": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "柳": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "Tsukishiro Yanagi": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "月城柳": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "柳姐": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "副课长": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "班长小姐": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "学霸": {
+      "id": "yanagi",
+      "name": "柳",
+      "kind": "character"
+    },
+    "burnice": {
+      "id": "burnice",
+      "name": "柏妮思",
+      "kind": "character"
+    },
+    "柏妮思": {
+      "id": "burnice",
+      "name": "柏妮思",
+      "kind": "character"
+    },
+    "Burnice White": {
+      "id": "burnice",
+      "name": "柏妮思",
+      "kind": "character"
+    },
+    "柏妮思·怀特": {
+      "id": "burnice",
+      "name": "柏妮思",
+      "kind": "character"
+    },
+    "caesar": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "凯撒": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "Caesar King": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "凯撒·金": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "野猪": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "老板": {
+      "id": "caesar",
+      "name": "凯撒",
+      "kind": "character"
+    },
+    "jane-doe": {
+      "id": "jane-doe",
+      "name": "简",
+      "kind": "character"
+    },
+    "简": {
+      "id": "jane-doe",
+      "name": "简",
+      "kind": "character"
+    },
+    "Jane Doe": {
+      "id": "jane-doe",
+      "name": "简",
+      "kind": "character"
+    },
+    "简·杜": {
+      "id": "jane-doe",
+      "name": "简",
+      "kind": "character"
+    },
+    "鼠鼠": {
+      "id": "jane-doe",
+      "name": "简",
+      "kind": "character"
+    },
+    "qingyi": {
+      "id": "qingyi",
+      "name": "青衣",
+      "kind": "character"
+    },
+    "青衣": {
+      "id": "qingyi",
+      "name": "青衣",
+      "kind": "character"
+    },
+    "Qingyi": {
+      "id": "qingyi",
+      "name": "青衣",
+      "kind": "character"
+    },
+    "前辈": {
+      "id": "qingyi",
+      "name": "青衣",
+      "kind": "character"
+    },
+    "zhu-yuan": {
+      "id": "zhu-yuan",
+      "name": "朱鸢",
+      "kind": "character"
+    },
+    "朱鸢": {
+      "id": "zhu-yuan",
+      "name": "朱鸢",
+      "kind": "character"
+    },
+    "Zhu Yuan": {
+      "id": "zhu-yuan",
+      "name": "朱鸢",
+      "kind": "character"
+    },
+    "soldier-11": {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "kind": "character"
+    },
+    "「11号」": {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "kind": "character"
+    },
+    "Soldier 11": {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "kind": "character"
+    },
+    "夏潾": {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "kind": "character"
+    },
+    "玛卡巴卡": {
+      "id": "soldier-11",
+      "name": "「11号」",
+      "kind": "character"
+    },
+    "ellen": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "艾莲": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "Ellen Joe": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "艾莲·乔": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "圆鲨鲨": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "鲨鱼妹": {
+      "id": "ellen",
+      "name": "艾莲",
+      "kind": "character"
+    },
+    "lycaon": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "莱卡恩": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "Von Lycaon": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "冯·莱卡恩": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "狼哥": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "狼叔": {
+      "id": "lycaon",
+      "name": "莱卡恩",
+      "kind": "character"
+    },
+    "rina": {
+      "id": "rina",
+      "name": "丽娜",
+      "kind": "character"
+    },
+    "丽娜": {
+      "id": "rina",
+      "name": "丽娜",
+      "kind": "character"
+    },
+    "Alexandrina Sebastian": {
+      "id": "rina",
+      "name": "丽娜",
+      "kind": "character"
+    },
+    "亚历山德丽娜·莎芭丝缇安": {
+      "id": "rina",
+      "name": "丽娜",
+      "kind": "character"
+    },
+    "女仆长": {
+      "id": "rina",
+      "name": "丽娜",
+      "kind": "character"
+    },
+    "koleda": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "珂蕾妲": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "Koleda Belobog": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "珂蕾妲·贝洛伯格": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "社长": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "小不点": {
+      "id": "koleda",
+      "name": "珂蕾妲",
+      "kind": "character"
+    },
+    "grace-howard": {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "kind": "character"
+    },
+    "格莉丝": {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "kind": "character"
+    },
+    "Grace Howard": {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "kind": "character"
+    },
+    "格莉丝·霍华德": {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "kind": "character"
+    },
+    "铁魔女": {
+      "id": "grace-howard",
+      "name": "格莉丝",
+      "kind": "character"
+    },
+    "nekomata": {
+      "id": "nekomata",
+      "name": "猫又",
+      "kind": "character"
+    },
+    "猫又": {
+      "id": "nekomata",
+      "name": "猫又",
+      "kind": "character"
+    },
+    "Nekomiya Mana": {
+      "id": "nekomata",
+      "name": "猫又",
+      "kind": "character"
+    },
+    "猫宫又奈": {
+      "id": "nekomata",
+      "name": "猫又",
+      "kind": "character"
+    },
+    "manato": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "真斗": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "Komano Manato": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "狛野真斗": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "「荒魂丸」": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "泅珑de孤鬼": {
+      "id": "manato",
+      "name": "真斗",
+      "kind": "character"
+    },
+    "pan-yinhu": {
+      "id": "pan-yinhu",
+      "name": "潘引壶",
+      "kind": "character"
+    },
+    "潘引壶": {
+      "id": "pan-yinhu",
+      "name": "潘引壶",
+      "kind": "character"
+    },
+    "Pan Yinhu": {
+      "id": "pan-yinhu",
+      "name": "潘引壶",
+      "kind": "character"
+    },
+    "熊猫": {
+      "id": "pan-yinhu",
+      "name": "潘引壶",
+      "kind": "character"
+    },
+    "pulchra": {
+      "id": "pulchra",
+      "name": "波可娜",
+      "kind": "character"
+    },
+    "波可娜": {
+      "id": "pulchra",
+      "name": "波可娜",
+      "kind": "character"
+    },
+    "Pulchra Fellini": {
+      "id": "pulchra",
+      "name": "波可娜",
+      "kind": "character"
+    },
+    "波可娜·费雷尼": {
+      "id": "pulchra",
+      "name": "波可娜",
+      "kind": "character"
+    },
+    "波喵": {
+      "id": "pulchra",
+      "name": "波可娜",
+      "kind": "character"
+    },
+    "seth": {
+      "id": "seth",
+      "name": "赛斯",
+      "kind": "character"
+    },
+    "赛斯": {
+      "id": "seth",
+      "name": "赛斯",
+      "kind": "character"
+    },
+    "Seth Lowell": {
+      "id": "seth",
+      "name": "赛斯",
+      "kind": "character"
+    },
+    "赛斯·洛威尔": {
+      "id": "seth",
+      "name": "赛斯",
+      "kind": "character"
+    },
+    "corin": {
+      "id": "corin",
+      "name": "可琳",
+      "kind": "character"
+    },
+    "可琳": {
+      "id": "corin",
+      "name": "可琳",
+      "kind": "character"
+    },
+    "Corin Wickes": {
+      "id": "corin",
+      "name": "可琳",
+      "kind": "character"
+    },
+    "可琳·威克斯": {
+      "id": "corin",
+      "name": "可琳",
+      "kind": "character"
+    },
+    "女仆": {
+      "id": "corin",
+      "name": "可琳",
+      "kind": "character"
+    },
+    "ben": {
+      "id": "ben",
+      "name": "本",
+      "kind": "character"
+    },
+    "本": {
+      "id": "ben",
+      "name": "本",
+      "kind": "character"
+    },
+    "Ben Bigger": {
+      "id": "ben",
+      "name": "本",
+      "kind": "character"
+    },
+    "本·比格": {
+      "id": "ben",
+      "name": "本",
+      "kind": "character"
+    },
+    "大本": {
+      "id": "ben",
+      "name": "本",
+      "kind": "character"
+    },
+    "anton": {
+      "id": "anton",
+      "name": "安东",
+      "kind": "character"
+    },
+    "安东": {
+      "id": "anton",
+      "name": "安东",
+      "kind": "character"
+    },
+    "Anton Ivanov": {
+      "id": "anton",
+      "name": "安东",
+      "kind": "character"
+    },
+    "安东·伊万诺夫": {
+      "id": "anton",
+      "name": "安东",
+      "kind": "character"
+    },
+    "nicole-demara": {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "kind": "character"
+    },
+    "妮可": {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "kind": "character"
+    },
+    "Nicole Demara": {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "kind": "character"
+    },
+    "妮可·德玛拉": {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "kind": "character"
+    },
+    "老大": {
+      "id": "nicole-demara",
+      "name": "妮可",
+      "kind": "character"
+    },
+    "billy-kid": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "比利": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "Billy Kid": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "比利·奇德": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "星徽骑士": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "火力型地域压制用高智慧战术素体": {
+      "id": "billy-kid",
+      "name": "比利",
+      "kind": "character"
+    },
+    "anby-demara": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "安比": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "Anby Demara": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "安比·德玛拉": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "看板娘": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "噔噔噔": {
+      "id": "anby-demara",
+      "name": "安比",
+      "kind": "character"
+    },
+    "soukaku": {
+      "id": "soukaku",
+      "name": "苍角",
+      "kind": "character"
+    },
+    "苍角": {
+      "id": "soukaku",
+      "name": "苍角",
+      "kind": "character"
+    },
+    "Soukaku": {
+      "id": "soukaku",
+      "name": "苍角",
+      "kind": "character"
+    },
+    "汤饺": {
+      "id": "soukaku",
+      "name": "苍角",
+      "kind": "character"
+    },
+    "吃货": {
+      "id": "soukaku",
+      "name": "苍角",
+      "kind": "character"
+    },
+    "piper": {
+      "id": "piper",
+      "name": "派派",
+      "kind": "character"
+    },
+    "派派": {
+      "id": "piper",
+      "name": "派派",
+      "kind": "character"
+    },
+    "Piper Wheel": {
+      "id": "piper",
+      "name": "派派",
+      "kind": "character"
+    },
+    "派派·韦尔": {
+      "id": "piper",
+      "name": "派派",
+      "kind": "character"
+    },
+    "这个人": {
+      "id": "piper",
+      "name": "派派",
+      "kind": "character"
+    },
+    "lucy": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "露西": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "Lucy": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "露西亚娜·奥克希斯·提奥多·德·蒙特夫": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "大小姐": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "金丝姬哀歌": {
+      "id": "lucy",
+      "name": "露西",
+      "kind": "character"
+    },
+    "phoenix": {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "kind": "character"
+    },
+    "菲欧妮": {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "kind": "character"
+    },
+    "Phoenix": {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "kind": "character"
+    },
+    "菲欧妮·蕾法爱菈": {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "kind": "character"
+    },
+    "severian": {
+      "id": "severian",
+      "name": "赛维里安",
+      "kind": "character"
+    },
+    "赛维里安": {
+      "id": "severian",
+      "name": "赛维里安",
+      "kind": "character"
+    },
+    "Severian Lowell": {
+      "id": "severian",
+      "name": "赛维里安",
+      "kind": "character"
+    },
+    "赛维里安·洛威尔": {
+      "id": "severian",
+      "name": "赛维里安",
+      "kind": "character"
+    }
+  }
+}

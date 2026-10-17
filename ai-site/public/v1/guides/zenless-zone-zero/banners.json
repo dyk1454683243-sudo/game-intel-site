@@ -1,0 +1,189 @@
+{
+  "game": "zenless-zone-zero",
+  "as_of": "2026-10-17",
+  "timezone_note": "3.2 限时频道公告写的是「伺服器时间」，没有另给 UTC 偏移，这里不把伺服器时间改写成 UTC+8。3.2 更新公告另行写明版本结束时间是 2026/10/21 06:00（UTC+8）。3.3 上下半的钟点在前瞻公告配图里，正文没有这段时刻。",
+  "sources": [
+    "https://zenless.hoyoverse.com/zh-tw/news/166475",
+    "https://zenless.hoyoverse.com/zh-tw/news/165979",
+    "https://zenless.hoyoverse.com/zh-tw/news/166000",
+    "https://zenless.hoyoverse.com/zh-tw/news/166644"
+  ],
+  "banners": [
+    {
+      "id": "zzz-3.2-roxy",
+      "name": "「烬夜安眠」调频",
+      "kind": "limited_channel",
+      "status": "current",
+      "up": [
+        "洛克茜",
+        "可琳",
+        "比利"
+      ],
+      "up_characters": [
+        {
+          "id": "roxy",
+          "name": "洛克茜"
+        },
+        {
+          "id": "corin",
+          "name": "可琳"
+        },
+        {
+          "id": "billy-kid",
+          "name": "比利"
+        }
+      ],
+      "start": "2026-09-30T12:00:00",
+      "end": "2026-10-20T14:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166475",
+      "as_of": "2026-10-17",
+      "note": "3.2 版本限时频道（下期）。限定 S 级为洛克茜（风·击破）。可琳、比利是该公告写的 A 级概率提升。同一窗口还有音擎频道「绯月银棺」，不是代理人。"
+    },
+    {
+      "id": "zzz-3.2-promeia",
+      "name": "「冷雨将尽之夜」调频",
+      "kind": "limited_channel",
+      "status": "current",
+      "up": [
+        "普罗米娅",
+        "可琳",
+        "比利"
+      ],
+      "up_characters": [
+        {
+          "id": "promeia",
+          "name": "普罗米娅"
+        },
+        {
+          "id": "corin",
+          "name": "可琳"
+        },
+        {
+          "id": "billy-kid",
+          "name": "比利"
+        }
+      ],
+      "start": "2026-09-30T12:00:00",
+      "end": "2026-10-20T14:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166475",
+      "as_of": "2026-10-17",
+      "note": "与「烬夜安眠」同一则下期公告。限定 S 级为普罗米娅（冰·异常）。音擎频道是「朔月裁霜」。"
+    },
+    {
+      "id": "zzz-3.2-claret",
+      "name": "「红月初升」调频",
+      "kind": "limited_channel",
+      "status": "ended",
+      "up": [
+        "克拉蕾",
+        "安东",
+        "妮可"
+      ],
+      "up_characters": [
+        {
+          "id": "claret",
+          "name": "克拉蕾"
+        },
+        {
+          "id": "anton",
+          "name": "安东"
+        },
+        {
+          "id": "nicole-demara",
+          "name": "妮可"
+        }
+      ],
+      "start_text": "3.2版本更新后",
+      "end": "2026-09-30T11:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/165979",
+      "as_of": "2026-10-17",
+      "note": "3.2 上期。公告没有把「版本更新后」写成钟点。更新通知另写维护自 2026/09/09 06:00（UTC+8）开始。限定 S 级为克拉蕾（电·锋御）。安东、妮可是公告写的默认 A 级概率提升。"
+    },
+    {
+      "id": "zzz-3.2-nangong-yu",
+      "name": "「视线定格公理」调频",
+      "kind": "limited_channel",
+      "status": "ended",
+      "up": [
+        "南宫羽",
+        "安东",
+        "妮可"
+      ],
+      "up_characters": [
+        {
+          "id": "nangong-yu",
+          "name": "南宫羽"
+        },
+        {
+          "id": "anton",
+          "name": "安东"
+        },
+        {
+          "id": "nicole-demara",
+          "name": "妮可"
+        }
+      ],
+      "start_text": "3.2版本更新后",
+      "end": "2026-09-30T11:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/165979",
+      "as_of": "2026-10-17",
+      "note": "与「红月初升」同一则上期公告。限定 S 级为南宫羽（以太·击破）。音擎频道是「霓虹妄想」。"
+    },
+    {
+      "id": "zzz-3.3-phoenix-velina",
+      "name": "3.3 第一期调频",
+      "kind": "limited_channel",
+      "status": "upcoming",
+      "up": [
+        "菲欧妮",
+        "维琳娜"
+      ],
+      "up_characters": [
+        {
+          "id": "phoenix",
+          "name": "菲欧妮"
+        },
+        {
+          "id": "velina",
+          "name": "维琳娜"
+        }
+      ],
+      "start_text": "10月21日更新后",
+      "end": "2026-11-11T11:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166644",
+      "as_of": "2026-10-17",
+      "note": "钟点和 UP 在 2026/10/09 前瞻公告配图「第一期调频&复刻活动」，不在正文。配图写菲欧妮（S·火·异常）与维琳娜（S·风·异常），结束于 11月11日 11:59（伺服器时间）。配图末行写开发中内容以正式上线为准。3.2 更新公告写版本结束时间为 2026/10/21 06:00（UTC+8），这里不把「更新后」改成该钟点。"
+    },
+    {
+      "id": "zzz-3.3-severian-norma",
+      "name": "3.3 第二期调频",
+      "kind": "limited_channel",
+      "status": "upcoming",
+      "up": [
+        "赛维里安",
+        "诺姆"
+      ],
+      "up_characters": [
+        {
+          "id": "severian",
+          "name": "赛维里安"
+        },
+        {
+          "id": "norma",
+          "name": "诺姆"
+        }
+      ],
+      "start": "2026-11-11T12:00:00",
+      "end": "2026-12-01T14:59:00",
+      "timezone": "伺服器时间",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166644",
+      "as_of": "2026-10-17",
+      "note": "同一张前瞻配图的「第二期调频&复刻活动」。配图写赛维里安（S·风·强攻）与诺姆（S·火·击破），11月11日 12:00 至 12月1日 14:59（伺服器时间）。年份按公告日 2026/10/09。配图声明开发中内容以正式上线为准。"
+    }
+  ]
+}

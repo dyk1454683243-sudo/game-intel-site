@@ -1,0 +1,25 @@
+{
+  "game": "zenless-zone-zero",
+  "as_of": "2026-10-17",
+  "checked": "2026-10-17",
+  "redeem_url": "https://zenless.hoyoverse.com/redemption/gift",
+  "timezone_note": "截止时间按公告配图和正文的 UTC+8。",
+  "sources": [
+    "https://zenless.hoyoverse.com/zh-tw/news/166644"
+  ],
+  "note": "2026-10-17 核对官方新闻列表时，近期公开码只见到 3.3 前瞻特别节目这一条，而且已经过配图上的截止时间。本文件没有在游戏内再兑换。",
+  "codes": [
+    {
+      "code": "JRNY2SKY",
+      "rewards": "菲林×300、丁尼×30000、资深调查员纪录×2、音擎能源模组×3",
+      "released": "2026-10-09",
+      "expires": "2026-10-11T23:59:59+08:00",
+      "expires_text": "10.11 23:59:59 (UTC+8)",
+      "timezone": "UTC+8",
+      "status": "expired",
+      "note": "码、奖励图标下的小字和截止时间在 2026/10/09 前瞻公告配图「兑换码」。正文写本次特别节目兑换码于 10月11日 23:59:59（UTC+8）失效。2026-10-17 已过该时间。",
+      "source": "https://zenless.hoyoverse.com/zh-tw/news/166644",
+      "checked": "2026-10-17"
+    }
+  ]
+}

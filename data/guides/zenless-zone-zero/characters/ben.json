@@ -1,0 +1,121 @@
+{
+  "id": "ben",
+  "name": "本",
+  "name_zh": "本",
+  "name_en": "Ben Bigger",
+  "aliases": [
+    "本·比格"
+  ],
+  "nicknames": [
+    "大本"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "防护",
+  "rarity": "A",
+  "element": "火",
+  "faction": "白祇重工",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "普通攻击：对账",
+      "type": "basic",
+      "summary": "点按普通攻击发动: 向前方进行至多三段的打击，造成物理伤害。"
+    },
+    {
+      "name": "闪避：发票漏洞",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冲刺攻击：前来报销",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行打击，造成物理伤害。"
+    },
+    {
+      "name": "闪避反击：清算",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：联合追债",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "招架支援：分摊风险",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：违约惩罚",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动突进打击，造成火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：拳债统计",
+      "type": "special",
+      "summary": "点按特殊技发动： 架起武器格挡敌人的攻击，随后对前方进行打击，造成物理伤害，若在格挡期间成功格挡敌人的攻击，将提升招式的威力，发动格挡反击，造成大量物理伤害； 按住特殊技能够维持格挡； 维持格挡时获得护盾，护盾值随时间衰减； 退出格挡后移除护盾，护盾值随时间回复； 护盾值最高不超过本生命值上限的16%； 格挡发动时拥有无敌效果； 打击发动期间抗打断等级提升。"
+    },
+    {
+      "name": "强化特殊技：到期还拳",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 架起武器格挡敌人的攻击，随后对前方进行打击，造成火属性伤害，若在格挡期间成功格挡敌人的攻击，将提升招式的威力，发动格挡反击，造成大量火属性伤害； 按住强化特殊技能够维持格挡； 维持格挡时获得护盾，护盾值随时间衰减； 退出格挡后移除护盾，护盾值随时间回复； 护盾值最高不超过本生命值上限的16%； 招式发动时，回复护盾至最大值； 招式发动后，再次点按强化特殊技，能够向前方追加强力打击，造成大量火属性伤害； 格挡发动时拥有无敌效果； 打击发动期间拥有无敌效果。"
+    },
+    {
+      "name": "连携技：盖章，结算",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方大范围敌人发动强力打击，造成大量火属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "终结技：拳债，全面清偿",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方大范围敌人发动强力打击，造成大量火属性伤害； 招式发动时，额外回复3点支援点数； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "核心被动：守卫",
+      "type": "core",
+      "summary": "本的初始攻击力随初始防御力提升，提升效果等同于自身初始防御力的40%； 在「强化特殊技」中发动追击时，为全队角色提供等同于自身15%防御力+100点护盾，持续30秒。"
+    },
+    {
+      "name": "额外能力：协议合同",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发； 拥有「核心被动：守卫」施加的护盾时，角色的暴击率提升16%。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技=普通攻击>连携技=支援技>闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 可选参考1：「11号」 / 本 / 露西（https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%9C%AC",
+    "https://www.prydwen.gg/zenless/characters/ben",
+    "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+    "https://www.gamekee.com/zzz/621040.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "ben",
+  "verified": "BWIKI「本」图鉴 wikitext，页面修订 2026-08-13",
+  "gamekee_content_id": 621040,
+  "gamekee_entry_id": 148532,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/782127.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148532",
+  "summary": {
+    "position": "A / 火 / 防护 / 白祇重工",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%9C%AC",
+      "https://www.prydwen.gg/zenless/characters/ben",
+      "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+      "https://www.gamekee.com/zzz/621040.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-08-13"
+}

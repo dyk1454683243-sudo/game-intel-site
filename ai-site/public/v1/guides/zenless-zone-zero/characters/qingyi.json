@@ -1,0 +1,139 @@
+{
+  "id": "qingyi",
+  "name": "青衣",
+  "name_zh": "青衣",
+  "name_en": "Qingyi",
+  "aliases": [],
+  "nicknames": [
+    "前辈"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "S",
+  "element": "电",
+  "faction": "治安局·刑侦特勤组",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "一煞",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多四段的打击，造成物理伤害和电属性伤害； 第三段攻击期间，连续点按普通攻击 可以维持连击，持续打击敌人，在此期间发动「闪避」，不会打断「普通攻击」的连击段数； 第三段攻击期间，停止点按普通攻击 将会中断连击，自动衔接第四段攻击，维持连击超过一定时间后，第四段攻击将会得到强化； 第三、第四段攻击期间抗打断等级提升，受到的伤害降低40%。"
+    },
+    {
+      "name": "闪络",
+      "type": "basic",
+      "summary": "青衣发动招式造成电属性伤害时，会累积「闪络电压」，当「闪络电压」累积至75%时，青衣将进入「闪络」状态。发动「普通攻击：醉花月云转」时，青衣会消耗所有「闪络电压」并退出「闪络」状态，所消耗的「闪络电压」中超过75%的部分，每1%能够使本次招式造成的伤害/失衡值额外提升1%/0.5%。「普通攻击：醉花月云转」本身不会累积「闪络电压」。"
+    },
+    {
+      "name": "雁过声",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "入破",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前突进后发动上挑攻击，造成物理伤害。"
+    },
+    {
+      "name": "意不尽",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 腾空跃起后发动下落攻击，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "昼锦堂",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方快速上挑，随后发动下砸攻击，造成电属性伤害； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "月上海棠",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方快速上挑后腾空跃起，转身连打后发动强力的下砸攻击，造成大量电属性伤害，长按强化特殊技时，可以额外消耗能量，提升转身连打的攻击次数； 招式发动期间拥有无敌效果。 招式发动后，可直接衔接第三段「普通攻击」。"
+    },
+    {
+      "name": "太平令",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方大范围区域发动强力连续打击，造成大量电属性伤害； 攻击命中敌人时，目标每拥有一层「核心被动：千秋岁」中的「羁服」，招式对其造成的伤害提升3%； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "八声甘州",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方大范围区域发动强力连续打击，随后发动终结一击，造成大量电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "风入松",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 腾空跃起后发动下落攻击，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "锦上花",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低; 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "清江引",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 向前方快速突进攻击并向地面注入电能，随后拔起引发爆炸，造成电属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "千秋岁",
+      "type": "core",
+      "summary": "青衣在「普通攻击：醉花月云转」中发动终结一击命中敌人时，会对敌人施加5层「羁服」，最多叠加20层，每层「羁服」能够使目标的失衡易伤倍率提升2%；在「普通攻击：醉花月云转」中每发动一次突进攻击，终结一击将额外施加1层「羁服」，在发动终结一击时，若触发「极限闪避」，可以直接施加10层「羁服」；对普通或精英敌人施加「羁服」时，施加的层数翻倍；目标从失衡状态恢复时，对应「羁服」层数重置。（以上内容为初始数据)"
+    },
+    {
+      "name": "阳关三叠",
+      "type": "additional",
+      "summary": "队伍中存在「强攻」角色或与自身阵营相同的角色时，触发:「普通攻击：醉花月云转」造成的失衡值提升20%；此外，若青衣的冲击力高于120点，每超过1点冲击力会使自身的攻击力提升6点，通过这种方式最多使自身的攻击力提升600点。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>普通攻击>强化特殊技=闪避>连携技>支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 常规配队：仪玄 / 潘引壶 / 青衣（https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选替代：零号·安比 / 青衣 / 耀嘉音（https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：悠真 / 青衣 / 耀嘉音（https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳露妮：丽娜 / 柳 / 青衣（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：朱鸢 / 青衣 / 妮可（https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选参考1：「11号」 / 青衣 / 妮可（https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E9%9D%92%E8%A1%A3",
+    "https://www.prydwen.gg/zenless/characters/qingyi",
+    "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+    "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+    "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+    "https://wiki.biligame.com/zzz/%E6%9F%B3",
+    "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+    "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+    "https://www.gamekee.com/zzz/631454.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "qingyi",
+  "verified": "BWIKI「青衣」图鉴 wikitext，页面修订 2026-07-28",
+  "gamekee_content_id": 631454,
+  "gamekee_entry_id": 160079,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_583/h_740/50270/103682/2024/7/13/948247.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:160079",
+  "summary": {
+    "position": "S / 电 / 击破 / 治安局·刑侦特勤组",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E9%9D%92%E8%A1%A3",
+      "https://www.prydwen.gg/zenless/characters/qingyi",
+      "https://wiki.biligame.com/zzz/%E4%BB%AA%E7%8E%84",
+      "https://wiki.biligame.com/zzz/%E9%9B%B6%E5%8F%B7%C2%B7%E5%AE%89%E6%AF%94",
+      "https://wiki.biligame.com/zzz/%E6%82%A0%E7%9C%9F",
+      "https://wiki.biligame.com/zzz/%E6%9F%B3",
+      "https://wiki.biligame.com/zzz/%E6%9C%B1%E9%B8%A2",
+      "https://wiki.biligame.com/zzz/%E3%80%8C11%E5%8F%B7%E3%80%8D",
+      "https://www.gamekee.com/zzz/631454.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-07-28"
+}

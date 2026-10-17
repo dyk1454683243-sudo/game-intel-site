@@ -1,0 +1,130 @@
+{
+  "id": "lycaon",
+  "name": "莱卡恩",
+  "name_zh": "莱卡恩",
+  "name_en": "Von Lycaon",
+  "aliases": [
+    "冯·莱卡恩"
+  ],
+  "nicknames": [
+    "狼哥",
+    "狼叔"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "S",
+  "element": "冰",
+  "faction": "维多利亚家政",
+  "attack_type": "打击",
+  "skills": [
+    {
+      "name": "狩月舞步",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多五段的打击，造成物理伤害。 长按普通攻击可以进行蓄力，提升招式的威力，并造成冰属性伤害。"
+    },
+    {
+      "name": "进退得体",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "保持清洁",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方滑铲进行连续打击，造成物理伤害。"
+    },
+    {
+      "name": "礼仪教导",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动打击，造成冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "追猎时刻",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方进行连续打击，造成冰属性伤害； 长按特殊技可以进行蓄力，提升招式的威力； 招式发动期间抗打断等级提升。"
+    },
+    {
+      "name": "狂猎时刻",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方进行强力连续打击，造成大量冰属性伤害； 长按强化特殊技可以进行蓄力，消耗能量并提升招式的威力； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "遵命",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方小范围敌人发动强力连续打击，造成大量冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "不辱使命",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方大范围敌人发动强力连续打击，造成大量冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "狼群",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 对前方敌人发动打击，造成冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "狩猎干预",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "复仇反扑",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按支援技发动： 在前方生成冰柱并对区域内的敌人发动打击，造成冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "金属狼足",
+      "type": "core",
+      "summary": "莱卡恩在「普通攻击」中完成蓄力时，招式造成的失衡值提升40%。（此处数据为初始数据） 「强化特殊技」或「支援突击」命中敌人时，目标的冰属性伤害抗性降低25%，持续30秒。"
+    },
+    {
+      "name": "优雅猎群",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 莱卡恩攻击命中处于失衡状态下的敌人时，目标的失衡易伤倍率提升35%（全队只能触发一次）。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：强化特殊技>连携技>支援技>核心技>普通攻击=闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 配队表：雨果 / 莱卡恩 / 莱特（https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：雅 / 莱卡恩 / 苍角（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用：艾莲 / 莱卡恩 / 凯撒（https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用：艾莲 / 莱卡恩 / 苍角（https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用：艾莲 / 莱卡恩 / 莱特（https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E8%8E%B1%E5%8D%A1%E6%81%A9",
+    "https://www.prydwen.gg/zenless/characters/lycaon",
+    "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+    "https://www.gamekee.com/zzz/621030.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "lycaon",
+  "verified": "BWIKI「莱卡恩」图鉴 wikitext，页面修订 2026-02-09",
+  "gamekee_content_id": 621030,
+  "gamekee_entry_id": 148524,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/568259.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148524",
+  "summary": {
+    "position": "S / 冰 / 击破 / 维多利亚家政",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E8%8E%B1%E5%8D%A1%E6%81%A9",
+      "https://www.prydwen.gg/zenless/characters/lycaon",
+      "https://wiki.biligame.com/zzz/%E9%9B%A8%E6%9E%9C",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+      "https://www.gamekee.com/zzz/621030.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-02-09"
+}

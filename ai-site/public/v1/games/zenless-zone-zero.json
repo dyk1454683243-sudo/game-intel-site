@@ -4,7 +4,9 @@
   "name_zh": "绝区零",
   "platforms": [
     "steam",
-    "pc"
+    "pc",
+    "ps5",
+    "mobile"
   ],
   "tags": [
     "gacha",
@@ -15,12 +17,21 @@
     {
       "label": "Steam",
       "url": "https://store.steampowered.com/app/4162040/"
+    },
+    {
+      "label": "HoYoverse",
+      "url": "https://zenless.hoyoverse.com/"
+    },
+    {
+      "label": "GameKee",
+      "url": "https://www.gamekee.com/zzz/"
     }
   ],
   "steam_appid": 4162040,
-  "stub": true,
-  "watchlist": false,
-  "note": "Catalog stub — Steam store link only; no invented scores",
-  "as_of": "2026-09-27",
+  "stub": false,
+  "watchlist": true,
+  "guides_path": "/guides/zenless-zone-zero/",
+  "note": "Watchlist。代理人技能来自 BWIKI 图鉴；卡池和兑换码来自 HoYoverse 公告。不编造强度档。",
+  "as_of": "2026-10-17",
   "timezone": "Asia/Shanghai"
 }

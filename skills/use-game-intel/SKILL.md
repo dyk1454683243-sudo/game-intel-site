@@ -9,6 +9,6 @@ description: Use when pulling watchlist mobile-game intel (pools, tests, new tit
 2. Still use `search_gamekee` / `get_article` for CN wiki detail; combine with TapTap/Inven/Steam for coverage beyond the watchlist.
 3. Always keep source URLs in the short JSON; never invent rates or prices; never return raw HTML.
 4. For welfare/CDK use `game-welfare`, not this plugin.
-5. Watchlist defaults: hw, nikke, bd2, star (蓝色星原：旅谣 / Azur Promilia), miraesi, lo2, asora — miraesi/lo2 digest prefers Inven keywords; star/lo2 official use seed fallbacks.
+5. Watchlist defaults: hw, nikke, bd2, zenless-zone-zero (绝区零), star (蓝色星原：旅谣 / Azur Promilia), miraesi, lo2, asora — miraesi/lo2 digest prefers Inven keywords; star/lo2 official use seed fallbacks.
 6. `radar` aggregates 公测/预约/CBT/新作-style headlines across TapTap + Inven + GameKee (max 15).
 7. `personal_digest` filters published feed, digest, banners, and codes for `games` and `chars` (`game:id`). Same result as `GET /v1/personal`. It stores nothing. Do not send the list anywhere except that stateless call.

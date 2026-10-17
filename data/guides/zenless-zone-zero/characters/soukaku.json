@@ -1,0 +1,130 @@
+{
+  "id": "soukaku",
+  "name": "苍角",
+  "name_zh": "苍角",
+  "name_en": "Soukaku",
+  "aliases": [],
+  "nicknames": [
+    "汤饺",
+    "吃货"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "支援",
+  "rarity": "A",
+  "element": "冰",
+  "faction": "对空六课",
+  "attack_type": "斩击",
+  "skills": [
+    {
+      "name": "打年糕",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多三段攻击，造成物理伤害。"
+    },
+    {
+      "name": "打年糕（霜染刃旗）",
+      "type": "basic",
+      "summary": "「霜染刃旗」状态下，点按普通攻击发动： 向前方进行至多三段更快速的攻击，造成冰属性伤害。"
+    },
+    {
+      "name": "抢食",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "对半分",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行斩击，造成物理伤害。"
+    },
+    {
+      "name": "别抢零食",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动斩击，造成冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "吹凉便当",
+      "type": "special",
+      "summary": "点按特殊技发动： 向前方扇出风场，随后释放终结一击，造成冰属性伤害； 招式发动期间抗打断等级提升，受到的伤害降低40%； 招式发动期间长按特殊技，可以快速衔接「展旗」攻击。"
+    },
+    {
+      "name": "扇走蚊虫",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 向前方扇出范围更远的风场，造成大量冰属性伤害； 多次点按可以连续发动招式，每次发动时将消耗一定能量，能量不足或停止点按时会自动释放终结一击，造成大量冰属性伤害； 招式发动期间抗打断等级提升，受到的伤害降低40%； 招式发动期间长按，可以快速衔接「展旗」攻击。"
+    },
+    {
+      "name": "鹅鸡斩",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 快速向前方敌人发动多次打击，随后衔接「展旗」攻击，造成大量冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "大份鹅鸡斩",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 快速对前方敌人发动更多次打击，随后衔接「展旗」攻击，造成大量冰属性伤害； 招式发动时，苍角会进入「鬼面」状态，使自身的暴击率提升15%，持续15秒； 招式发动时，队伍中其他角色回复10点能量，下一名换入前场的角色额外回复20点能量； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "双人套餐",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动斩击，造成冰属性伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "防守战术",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "席卷打击",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动突进打击，造成冰属性伤害； 招式发动期间拥有无敌效果。 招式发动期间长按普通攻击，可以快速衔接「展旗」攻击。"
+    },
+    {
+      "name": "刃旗助威",
+      "type": "core",
+      "summary": "苍角发动「展旗」时，自身攻击力提升，提升数值等同于苍角10%初始攻击力，最高不超过500点，持续22秒，发动「展旗」并消耗「涡流」时，该增益效果翻倍，最高不超过1,000点。队伍中其他角色通过「展旗」所触发的「快速支援」或「连携技」入场时，该增益效果将传递给对应的角色，并刷新其持续时间。（此处数据为初始数据）"
+    },
+    {
+      "name": "团膳套餐",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发: 苍角消耗「涡流」发动「展旗」时，全队造成的冰属性伤害提升20%，持续22秒。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技>普通攻击>连携技>支援技=闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 配队表：雅 / 柚叶 / 苍角（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：雅 / 莱卡恩 / 苍角（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用：艾莲 / 莱卡恩 / 苍角（https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用：艾莲 / 丽娜 / 苍角（https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E8%8B%8D%E8%A7%92",
+    "https://www.prydwen.gg/zenless/characters/soukaku",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+    "https://www.gamekee.com/zzz/621045.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "soukaku",
+  "verified": "BWIKI「苍角」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 621045,
+  "gamekee_entry_id": 148539,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/52716.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148539",
+  "summary": {
+    "position": "A / 冰 / 支援 / 对空六课",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E8%8B%8D%E8%A7%92",
+      "https://www.prydwen.gg/zenless/characters/soukaku",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E8%89%BE%E8%8E%B2",
+      "https://www.gamekee.com/zzz/621045.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}

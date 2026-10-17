@@ -92,6 +92,15 @@
       "rich_count": 0,
       "stub_count": 0,
       "path": "guides/star"
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "name_zh": "绝区零",
+      "character_count": 62,
+      "rich_count": 57,
+      "stub_count": 5,
+      "path": "guides/zenless-zone-zero"
     }
   ]
 }

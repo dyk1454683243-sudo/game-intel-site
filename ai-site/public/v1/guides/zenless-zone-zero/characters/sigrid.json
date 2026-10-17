@@ -1,0 +1,35 @@
+{
+  "id": "sigrid",
+  "name": "希格莉德",
+  "name_zh": "希格莉德",
+  "name_en": "Sigrid de L'Azur",
+  "aliases": [
+    "希格莉德·德拉叙尔"
+  ],
+  "nicknames": [
+    "马娘"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "S",
+  "element": "冰",
+  "faction": "罗斯凯利法·空域巡戍局",
+  "attack_type": "穿透",
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E5%B8%8C%E6%A0%BC%E8%8E%89%E5%BE%B7",
+    "https://www.prydwen.gg/zenless/characters/sigrid"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "sigrid",
+  "verified": "BWIKI「希格莉德」图鉴 wikitext，页面修订 2026-09-09",
+  "note": "BWIKI 该页技能模板没有写具体效果。属性、稀有度和阵营来自同一页图鉴。不编造技能。",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/sigrid_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/sigrid",
+  "portrait_via": "prydwen-character:sigrid",
+  "wiki_revised": "2026-09-09"
+}

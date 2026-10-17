@@ -1,0 +1,33 @@
+{
+  "id": "roxy",
+  "name": "洛克茜",
+  "name_zh": "洛克茜",
+  "name_en": "Roxy Ifrita Pryce",
+  "aliases": [
+    "洛克茜·伊芙莉塔·普莱斯"
+  ],
+  "nicknames": [],
+  "game": "zenless-zone-zero",
+  "role": "击破",
+  "rarity": "S",
+  "element": "风",
+  "faction": "罗斯凯利法·弗林特工坊",
+  "attack_type": "打击",
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "teams": {},
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%B4%9B%E5%85%8B%E8%8C%9C",
+    "https://www.prydwen.gg/zenless/characters/roxy"
+  ],
+  "stub": true,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "roxy",
+  "verified": "BWIKI「洛克茜」图鉴 wikitext，页面修订 2026-10-05",
+  "note": "BWIKI 该页技能模板没有写具体效果。属性、稀有度和阵营来自同一页图鉴。不编造技能。",
+  "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/roxy_card.webp",
+  "portrait_source": "https://www.prydwen.gg/zenless/characters/roxy",
+  "portrait_via": "prydwen-character:roxy",
+  "wiki_revised": "2026-10-05"
+}

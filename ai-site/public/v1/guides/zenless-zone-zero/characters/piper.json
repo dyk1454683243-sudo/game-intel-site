@@ -1,0 +1,133 @@
+{
+  "id": "piper",
+  "name": "派派",
+  "name_zh": "派派",
+  "name_en": "Piper Wheel",
+  "aliases": [
+    "派派·韦尔"
+  ],
+  "nicknames": [
+    "这个人"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "异常",
+  "rarity": "A",
+  "element": "物理",
+  "faction": "卡吕冬之子",
+  "attack_type": "斩击",
+  "skills": [
+    {
+      "name": "准备发车",
+      "type": "basic",
+      "summary": "点按普通攻击发动：向前方进行至多四段的斩击，造成物理伤害；"
+    },
+    {
+      "name": "手刹漂移",
+      "type": "dodge",
+      "summary": "点按闪避发动： 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "一脚油门",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方进行斩击，造成物理伤害。"
+    },
+    {
+      "name": "动力漂移",
+      "type": "dodge",
+      "summary": "触发[极限闪避]后，点按普通攻击发动： 对前方敌人发动下砸攻击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "轮胎转",
+      "type": "special",
+      "summary": "点按特殊技发动： 转动身体向周围发动旋转斩击，造成物理伤害； 长按特殊技可以延长招式的持续时间，发动越来越强的旋转斩击，并提升招式的蓄力等级，最多提升2次； 若衔接在[普通攻击]前三段、[冲刺攻击]或[闪避反击]之后，则能够以提升后的蓄力等级快速发动[特殊技：轮胎转]； 招式发动期间抗打断等级提升，受到的伤害降低40%。"
+    },
+    {
+      "name": "引擎转",
+      "type": "special",
+      "summary": "能量足够时，在「特殊技：轮胎转」达到最高蓄力等级后，继续长按强化特殊技发动： 快速转动身体，向周围发动旋转斩击，造成大量物理伤害； 发动期间持续消耗能量，最多持续3秒； 招式发动期间抗打断等级提升，受到的伤害降低40%。"
+    },
+    {
+      "name": "非常重",
+      "type": "special",
+      "summary": "在「强化特殊技：引擎转」发动期间，松开强化特殊技发动： 向前方发动强力的下砸攻击，造成大量物理伤害； 在[强化特殊技：引擎转]发动期间，持续时间达到上限或能量降低至20点时，将会自动发动「强化特殊技：非常重」； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "系好安全带",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方敌人发动强力下砸攻击，造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "坐~稳~啦~",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 快速转动身体，对前方大范围敌人发动强力的旋转斩击，随后发动下砸攻击，造成大量物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "点刹",
+      "type": "assist",
+      "summary": "前场角色被击飞时，点按支援技发动： 对前方敌人发动下砸攻击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "极限刹车",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人攻击，累计大量失衡值；具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗量降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "弯道超车",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按支援技发动： 对前方敌人发动突进斩击，造成物理伤害； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "动力蓄能",
+      "type": "core",
+      "summary": "派派在「强化特殊技：引擎转」或「终结技」中发动旋转斩击命中敌人时，获得1层「动力」，最多叠加20层，持续12秒，重复触发时刷新持续时间；每拥有一层「动力」，派派的物理异常积蓄效率提升2%（初始）/4%（满级）。"
+    },
+    {
+      "name": "同步疾驰",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发： 派派拥有20层或以上「动力」时，全队造成的伤害提升18%。 }}"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技=普通攻击>连携技>闪避=支援技"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 派柏：派派 / 柏妮思 / 露西（https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 派柏：派派 / 薇薇安 / 耀嘉音（https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 妮耀：耀嘉音 / 派派 / 妮可（https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 妮耀：派派 / 露西 / 妮可（https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：雅 / 派派 / 露西（https://wiki.biligame.com/zzz/%E9%9B%85 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 柳薇柚：柳 / 派派 / 露西（https://wiki.biligame.com/zzz/%E6%9F%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE",
+    "https://www.prydwen.gg/zenless/characters/piper",
+    "https://wiki.biligame.com/zzz/%E9%9B%85",
+    "https://wiki.biligame.com/zzz/%E6%9F%B3",
+    "https://www.gamekee.com/zzz/626123.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "piper",
+  "verified": "BWIKI「派派」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 626123,
+  "gamekee_entry_id": 153112,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_322/h_411/50270/43637/2024/6/3/413782.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:153112",
+  "summary": {
+    "position": "A / 物理 / 异常 / 卡吕冬之子",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E6%B4%BE%E6%B4%BE",
+      "https://www.prydwen.gg/zenless/characters/piper",
+      "https://wiki.biligame.com/zzz/%E9%9B%85",
+      "https://wiki.biligame.com/zzz/%E6%9F%B3",
+      "https://www.gamekee.com/zzz/626123.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}

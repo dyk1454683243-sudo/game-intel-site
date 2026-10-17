@@ -1,0 +1,123 @@
+{
+  "id": "corin",
+  "name": "可琳",
+  "name_zh": "可琳",
+  "name_en": "Corin Wickes",
+  "aliases": [
+    "可琳·威克斯"
+  ],
+  "nicknames": [
+    "女仆"
+  ],
+  "game": "zenless-zone-zero",
+  "role": "强攻",
+  "rarity": "A",
+  "element": "物理",
+  "faction": "维多利亚家政",
+  "attack_type": "斩击",
+  "skills": [
+    {
+      "name": "普通攻击：扫除开始",
+      "type": "basic",
+      "summary": "点按普通攻击发动： 向前方进行至多五段的斩击，造成物理伤害； 在第三，第五段中连点或长按时，可以使用电锯持续斩击敌人。"
+    },
+    {
+      "name": "闪避：「离」",
+      "type": "dodge",
+      "summary": "点按闪避发动； 快速的冲刺闪避； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "冲刺攻击：「断」",
+      "type": "dodge",
+      "summary": "闪避时，点按普通攻击发动： 向前方发动斩击，造成物理伤害； 连点或长按时，可以使用电锯持续斩击敌人。"
+    },
+    {
+      "name": "闪避反击：「舍」",
+      "type": "dodge",
+      "summary": "触发「极限闪避」后，点按普通攻击发动： 对前方敌人发动斩击，随后引爆电锯，造成物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "快速支援：应急措施",
+      "type": "assist",
+      "summary": "当前操作中的角色被击飞时，点按支援技发动： 对前方敌人发动斩击，随后引爆电锯，造成物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "招架支援：请，请让我来!",
+      "type": "assist",
+      "summary": "前场角色即将被攻击时，点按支援技发动： 招架敌人的攻击，累积大量失衡值； 具有较为优秀的招架性能，承受高强度攻击时「支援点数」的消耗降低； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "支援突击：快速清扫",
+      "type": "assist",
+      "summary": "发动「招架支援」后，点按普通攻击发动： 对前方敌人发动连续斩击，随后引爆电锯，造成物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "特殊技：强力清扫",
+      "type": "special",
+      "summary": "点按特殊技发动： 对前方敌人发动持续斩击，随后引爆电锯，造成物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间抗打断等级提升，受到伤害降低40%。"
+    },
+    {
+      "name": "强化特殊技：小心裙角",
+      "type": "special",
+      "summary": "能量足够时，点按强化特殊技发动： 对前方敌人发动持续强力斩击，随后引爆电锯，造成大量物理伤害； 连点或长按时，可以使用电锯持续斩击敌人，并随招式命中目标，逐渐消耗能量； 招式发动期间拥有无敌效果； 持续斩击期间抗打断等级提升，受到伤害降低40%。"
+    },
+    {
+      "name": "连携技：抱歉…",
+      "type": "chain",
+      "summary": "触发「连携技」时，选择对应角色发动： 对前方小范围敌人发动强力斩击，造成大量物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "终结技：非，非常抱歉！",
+      "type": "ultimate",
+      "summary": "喧响等级达到「极」时，点按连携技发动： 对前方小范围敌人发动强力斩击，造成大量物理伤害； 连点或长按时，可以使用电锯持续斩击敌人； 招式发动期间拥有无敌效果。"
+    },
+    {
+      "name": "核心被动：专注",
+      "type": "core",
+      "summary": "连点或长按时，可琳使用电锯持续斩击敌人时，招式造成的伤害提升18.7%。"
+    },
+    {
+      "name": "额外能力：扫除帮手",
+      "type": "additional",
+      "summary": "队伍中存在与自身属性或阵营相同的角色时触发； 可琳攻击命中处于失衡状态下的敌人时，自身造成的伤害提升35%。"
+    }
+  ],
+  "skill_prio": [
+    "BWIKI 技能升级推荐：核心技>强化特殊技=连携技>普通攻击>支援技>闪避"
+  ],
+  "weapon": null,
+  "teams": {
+    "comp": [
+      "BWIKI · 阵容搭配 · 通用高配：可琳 / 青衣 / 耀嘉音（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用高配：可琳 / 珂蕾妲 / 丽娜（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 通用高配：可琳 / 波可娜 / 露西（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 可选高配：可琳 / 安比 / 妮可（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）",
+      "BWIKI · 阵容搭配 · 配队表：耀嘉音 / 可琳 / 妮可（https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3 ，as_of 2026-10-17）"
+    ]
+  },
+  "sources": [
+    "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+    "https://www.prydwen.gg/zenless/characters/corin",
+    "https://www.gamekee.com/zzz/621033.html"
+  ],
+  "stub": false,
+  "as_of": "2026-10-17",
+  "prydwen_slug": "corin",
+  "verified": "BWIKI「可琳」图鉴 wikitext，页面修订 2026-06-15",
+  "gamekee_content_id": 621033,
+  "gamekee_entry_id": 148527,
+  "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_561/h_762/50270/4305/2024/3/30/159206.png",
+  "portrait_source": "https://www.gamekee.com/v1/entry/list?page_no=1&limit=2000",
+  "portrait_via": "gamekee-entry-icon:zzz:148527",
+  "summary": {
+    "position": "A / 物理 / 强攻 / 维多利亚家政",
+    "sources": [
+      "https://wiki.biligame.com/zzz/%E5%8F%AF%E7%90%B3",
+      "https://www.prydwen.gg/zenless/characters/corin",
+      "https://www.gamekee.com/zzz/621033.html"
+    ],
+    "stub": true,
+    "caveat": "技能、属性、稀有度、阵营与技能升级推荐摘自 BWIKI 角色图鉴 wikitext。Prydwen 3.2 梯度页（2026-09-30）的公开文本没有把 T 档和角色名绑在一起，本卡不编造强度或抽卡结论。"
+  },
+  "wiki_revised": "2026-06-15"
+}
