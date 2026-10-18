@@ -102,6 +102,9 @@ function videoGameNode(game, pageUrl, lang) {
   return node;
 }
 
+export const GOOGLE_SITE_VERIFICATION_TAG =
+  '<meta name="google-site-verification" content="dDvLWlS-NRhgYTEgf7Tf8SKePsFCJQhkH9xq3b-ZkZk" />';
+
 export function renderHeadTags(model) {
   const alternates = model.alternates
     .map((row) => `<link rel="alternate" hreflang="${escapeHtml(row.hreflang)}" href="${escapeHtml(row.href)}"/>`)
@@ -110,7 +113,8 @@ export function renderHeadTags(model) {
     .map((code) => `<meta property="og:locale:alternate" content="${escapeHtml(code)}"/>`)
     .join("\n  ");
   const json = JSON.stringify(model.jsonLd).replace(/</g, "\\u003c");
-  return `<title>${escapeHtml(model.title)}</title>
+  return `${GOOGLE_SITE_VERIFICATION_TAG}
+  <title>${escapeHtml(model.title)}</title>
   <meta name="description" content="${escapeHtml(model.description)}"/>
   <meta name="robots" content="${escapeHtml(model.robots)}"/>
   <link rel="canonical" href="${escapeHtml(model.canonical)}"/>

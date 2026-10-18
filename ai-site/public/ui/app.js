@@ -96,6 +96,7 @@ function applySeo(model) {
   for (const sel of [
     'meta[name="description"]',
     'meta[name="robots"]',
+    'meta[name="google-site-verification"]',
     'link[rel="canonical"]',
     'link[rel="alternate"][hreflang]',
     'meta[property^="og:"]',
