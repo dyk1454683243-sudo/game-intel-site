@@ -70,12 +70,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental September 10th 2026 - September 24th 2026：LCE E.G.O::Dimension Shredder Yi Sang / MultiCrack Office Rep Faust / The Middle Little Sister Don Quixote / Kurokumo Clan Wakashu Ryoshu / The Middle Little Brother Meursault / R Corp. 4th Pack Reindeer Hong Lu / The Middle Big Brother Heathcliff / The House of Spiders: The Middle Apprentice Ishmael / R Corp. 4th Pack Reindeer Rodion / The Middle Little Brother Sinclair / The House of Spiders: The Middle Nursefather Outis / Lobotomy E.G.O::Lamp Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-09-10）",
+      "Limbus Wiki · Mirror of Names and Spiders rental August 13th 2026 - August 27th 2026：Liu Association South Section 3 Yi Sang / The House of Spiders: The Ring Apprentice Faust / The Middle Little Sister Don Quixote / Kurokumo Clan Wakashu Ryoshu / The Middle Little Brother Meursault / R Corp. 4th Pack Reindeer Hong Lu / The Middle Big Brother Heathcliff / The House of Spiders: The Middle Apprentice Ishmael / The Ring Fauvist Docent Rodion / The Middle Little Brother Sinclair / The House of Spiders: The Middle Nursefather Outis / LCE E.G.O::AEDD Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-08-13）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/the-middle-little-sister-don-quixote",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585794.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -102,7 +108,8 @@
       "https://www.prydwen.gg/limbus-company/identities/the-middle-little-sister-don-quixote",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585794.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame S；梯度表 Damage Dealer S",
     "stub": false,

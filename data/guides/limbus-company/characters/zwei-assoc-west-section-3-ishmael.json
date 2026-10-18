@@ -65,12 +65,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental October 8th 2026 - October 22nd 2026：Molar Office Fixer Yi Sang / MultiCrack Office Rep Faust / Haute Couture::Le Noir Brand Manager Don Quixote / Haute Couture::Le Noir Footwear Hall Ryoshu / Rosespanner Workshop Fixer Meursault / District 20 Yurodivy Hong Lu / Öufi Assoc. South Section 3 Heathcliff / Zwei. Assoc. West Section 3 Ishmael / Haute Couture::Alteration Shop Rodion / Zwei Assoc. West Section 3 Sinclair / T Corp. Class 3 VDCU Staff Outis / Rosespanner Workshop Fixer Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-10-08）",
+      "Limbus Wiki · Mirror of Names and Spiders rental July 2nd 2026 - July 16th 2026：Liu Association South Section 3 Yi Sang / LCE E.G.O::Ardor Blossom Star Faust / T Corp. Class 3 Collection Staff Don Quixote / N Corp. E.G.O::Contempt, Awe Ryōshū / The Thumb East Capo IIII Meursault / Liu Association South Section 5 Hong Lu / The House of Spiders: The Thumb Apprentice Heathcliff / Zwei. Assoc. West Section 3 Ishmael / The House of Spiders: The Thumb Nursefather Rodion / The Thumb East Soldato II Sinclair / LCA Udjat Vanguard Team 3 Leader Outis / Firefist Office Survivor Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-07-02）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-ishmael",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585805.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -96,7 +102,8 @@
       "https://www.prydwen.gg/limbus-company/identities/zwei-assoc-west-section-3-ishmael",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585805.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Tank A",
     "stub": false,

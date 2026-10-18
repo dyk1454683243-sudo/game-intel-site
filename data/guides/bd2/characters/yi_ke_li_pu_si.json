@@ -69,9 +69,15 @@
       "skill": "蜜月礼包"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "巴哈姆特 · 新手參考隊伍：海伦娜 / 厄尔比斯 / 莎美 / 达非 / 伊柯利普斯（https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4 ，as_of 2026-02-10）",
+      "巴哈姆特 · 新手參考隊伍：海伦娜 / 厄尔比斯 / 葛拉娜德 / 伊柯利普斯 / 贝那卡（https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4 ，as_of 2026-02-10）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593603.html"
+    "https://www.gamekee.com/zsca2/593603.html",
+    "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
   ],
   "stub": false,
   "as_of": "2026-09-28",
@@ -94,7 +100,8 @@
     "tier": "GameKee 服装测评：海边度假·伊柯利普斯服装 T1",
     "sources": [
       "https://www.gamekee.com/zsca2/634618.html",
-      "https://www.gamekee.com/zsca2/593603.html"
+      "https://www.gamekee.com/zsca2/593603.html",
+      "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
     ],
     "stub": false,
     "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",

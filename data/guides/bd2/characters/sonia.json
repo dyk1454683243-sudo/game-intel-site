@@ -41,9 +41,14 @@
       "skill": "嘻嘻，索尼娅登场！"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "巴哈姆特 · 魔法隊·暗屬：海伦娜 / 厄尔比斯 / 泰瑞丝 / 索尼娅 / 伊柯利普斯（https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4 ，as_of 2026-02-10）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/676671.html"
+    "https://www.gamekee.com/zsca2/676671.html",
+    "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
   ],
   "stub": false,
   "as_of": "2026-09-28",
@@ -74,7 +79,8 @@
   "summary": {
     "tier": "GameKee 图鉴服装梯度：潜藏的梦 T1；卖南瓜的少女 T0.5",
     "sources": [
-      "https://www.gamekee.com/zsca2/676671.html"
+      "https://www.gamekee.com/zsca2/676671.html",
+      "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
     ],
     "stub": false,
     "caveat": "梯度只摘自 GameKee 角色图鉴「服装梯度」单元格里写明的 T 档，按服装分列，不合并成角色总榜。抽取建议只复制同表「抽取建议」单元格原文。没有 T 档的服装不收录，不编造。",

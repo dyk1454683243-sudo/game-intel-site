@@ -70,12 +70,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Immortality rental August 21st 2025 - September 4th 2025：Seven Association South Section 6 Yi Sang / Heishou Pack - Mao Branch Adept Faust / Blade Lineage Salsu Don Quixote / Heishou Pack - Mao Branch Ryoshu / W Corp. L2 Cleanup Agent Meursault / The Lord of Hongyuan Hong Lu / Seven Assoc. South Section 4 Heathcliff / Family Hierarch Candidate Ishmael / Heishou Pack - Si Branch Rodion / Lobotomy E.G.O::Red Sheet Sinclair / Heishou Pack - Mao Branch Outis / Heishou Pack - Si Branch Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2025-08-21）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-yi-sang",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585110.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -102,7 +107,8 @@
       "https://www.prydwen.gg/limbus-company/identities/seven-association-south-section-6-yi-sang",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585110.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame D；梯度表 Support D",
     "stub": false,

@@ -64,12 +64,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental June 18th 2026 - July 2nd 2026：Blade Lineage Salsu Yi Sang / Blade Lineage Salsu Faust / Blade Lineage Salsu Don Quixote / Kurokumo Clan Wakashu Ryoshu / Blade Lineage Mentor Meursault / S Corp. Ch'unokkun Hong Lu / Kurokumo Clan Wakashu Heathcliff / LCD OSIR Team Ishmael / Kurokumo Clan Wakashu Rodion / Blade Lineage Salsu Sinclair / Blade Lineage Salsu Outis / Kurokumo Clan Captain Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-06-18）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/s-corp-ch-unokkun-hong-lu",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585802.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -94,7 +99,8 @@
       "https://www.prydwen.gg/limbus-company/identities/s-corp-ch-unokkun-hong-lu",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585802.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame S；梯度表 Status Specialist S",
     "stub": false,

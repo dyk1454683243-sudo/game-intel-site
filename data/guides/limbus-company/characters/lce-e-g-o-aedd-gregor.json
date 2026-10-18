@@ -77,12 +77,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Sisyphe rental October 15th 2026 - October 29th 2026：The Ring Pointillist Student Yi Sang / The House of Spiders: The Ring Apprentice Faust / The Manager of La Manchaland Don Quixote / R.B. Chef de Cuisine Ryoshu / The Ring Fauvist Student Meursault / The House of Spiders: The Ring Nursefather Hong Lu / Kurokumo Clan Wakashu Heathcliff / Kurokumo Clan Captain Ishmael / The Ring Fauvist Docent Rodion / The House of Spiders: The Pinky Apprentice Sinclair / The Ring Pointillist Student Outis / LCE E.G.O::AEDD Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-10-15）",
+      "Limbus Wiki · Mirror of Names and Spiders rental September 24th 2026 - October 8th 2026 (October 1st 2026 Update)：LCE E.G.O::Dimension Shredder Yi Sang / MultiCrack Office Rep Faust / W Corp. L3 Cleanup Agent Don Quixote / Haute Couture::Le Noir Footwear Hall Ryoshu / W Corp. L2 Cleanup Agent Meursault / W Corp. L2 Cleanup Agent Hong Lu / W Corp. L4 Cleanup Agent - CCA Heathcliff / Haute Couture::Boutique du Rouge Ishmael / Haute Couture::Alteration Shop Rodion / The Thumb East Soldato II Sinclair / W Corp. L3 Cleanup Captain Outis / LCE E.G.O::AEDD Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-09-24）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-aedd-gregor",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585811.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -108,7 +114,8 @@
       "https://www.prydwen.gg/limbus-company/identities/lce-e-g-o-aedd-gregor",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585811.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Support A",
     "stub": false,

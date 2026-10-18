@@ -65,12 +65,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental July 16th 2026 - July 30th 2026：Heishou Pack - Wu Branch Adept Yi Sang / Heishou Pack - Mao Branch Adept Faust / Heishou Pack - Wei Branch Don Quixote / Heishou Pack - Mao Branch Ryoshu / Cinq Assoc. West Section 3 Meursault / The Lord of Hongyuan Hong Lu / Heishou Pack - You Branch Adept Heathcliff / Family Hierarch Candidate Ishmael / Heishou Pack - Si Branch Rodion / Heishou Pack - You Branch Sinclair / Heishou Pack - Mao Branch Outis / Heishou Pack - Si Branch Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-07-16）",
+      "Limbus Wiki · Mirror of Immortality rental September 4th 2025 - September 18th 2025：Heishou Pack - Wu Branch Adept Yi Sang / LCB Sinner Faust / T Corp. Class 3 Collection Staff Don Quixote / District 20 Yurodivy Ryoshu / Rosespanner Workshop Fixer Meursault / District 20 Yurodivy Hong Lu / Öufi Assoc. South Section 3 Heathcliff / Family Hierarch Candidate Ishmael / Rosespanner Workshop Rep. Rodion / Heishou Pack - You Branch Sinclair / Molar Office Fixer Outis / Rosespanner Workshop Fixer Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2025-09-04）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-sinclair",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585810.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -96,7 +102,8 @@
       "https://www.prydwen.gg/limbus-company/identities/heishou-pack-you-branch-sinclair",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585810.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
     "stub": false,
