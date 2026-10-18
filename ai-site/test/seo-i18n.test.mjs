@@ -74,6 +74,16 @@ test("sitemap index lists each language and hreflang alternates stay aligned", (
   }
 });
 
+test("homepage head includes the Google Search Console verification tag", () => {
+  const tag =
+    '<meta name="google-site-verification" content="dDvLWlS-NRhgYTEgf7Tf8SKePsFCJQhkH9xq3b-ZkZk" />';
+  for (const rel of ["index.html", "en/index.html", "ja/index.html"]) {
+    const html = read(rel);
+    const head = html.slice(html.indexOf("<head>"), html.indexOf("</head>"));
+    assert.ok(head.includes(tag), rel);
+  }
+});
+
 test("hreflang alternates are mutual and each page has a canonical", () => {
   const groups = [
     ["catalog/index.html", "en/catalog/index.html", "ja/catalog/index.html"],

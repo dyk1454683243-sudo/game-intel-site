@@ -17,7 +17,14 @@ import {
   tx,
   withLang,
 } from "../public/ui/i18n.js";
-import { renderHeadTags, renderSitemapIndex, renderUrlSet, seoModel, staticDocument } from "../public/ui/seo.js";
+import {
+  GOOGLE_SITE_VERIFICATION_TAG,
+  renderHeadTags,
+  renderSitemapIndex,
+  renderUrlSet,
+  seoModel,
+  staticDocument,
+} from "../public/ui/seo.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(__dirname, "..");
@@ -407,11 +414,16 @@ function dedupeTitle(html) {
   });
 }
 
+function ensureGoogleSiteVerification(html) {
+  if (html.includes('name="google-site-verification"')) return html;
+  return html.replace("</head>", `  ${GOOGLE_SITE_VERIFICATION_TAG}\n</head>`);
+}
+
 function injectHead(html, model) {
-  if (html.includes('rel="canonical"')) return dedupeTitle(html);
+  if (html.includes('rel="canonical"')) return ensureGoogleSiteVerification(dedupeTitle(html));
   let tags = renderHeadTags(model);
   if (/<title>/.test(html)) tags = tags.replace(/<title>[\s\S]*?<\/title>\n?\s*/, "");
-  return dedupeTitle(html.replace("</head>", `  ${tags}\n</head>`));
+  return ensureGoogleSiteVerification(dedupeTitle(html.replace("</head>", `  ${tags}\n</head>`)));
 }
 
 const SKETCHES = [
