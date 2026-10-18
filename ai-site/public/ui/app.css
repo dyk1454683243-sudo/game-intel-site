@@ -724,6 +724,38 @@ ul.feed {
 .notice p { margin: 0.4rem 0; }
 .notice p:first-child { margin-top: 0; }
 .notice p:last-child { margin-bottom: 0; }
+.compare-wrap { overflow-x: auto; margin: 1rem 0 1.4rem; }
+table.compare { width: 100%; border-collapse: collapse; min-width: 40rem; background: var(--surface); }
+table.compare th, table.compare td { border: 1px solid var(--line); vertical-align: top; padding: 0.65rem 0.75rem; text-align: left; }
+table.compare th { background: var(--surface-2); }
+table.compare .gap, .planner-banner .gap { color: var(--gap-ink); }
+.planner-game { margin: 1.4rem 0 2rem; }
+.planner-banner {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+  padding: 0.85rem 1rem;
+  margin: 0.7rem 0;
+}
+.planner-banner h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+.checks, .follow-actions { display: flex; flex-wrap: wrap; gap: 0.45rem 0.8rem; }
+label.check, label.resource { display: flex; gap: 0.4rem; align-items: center; margin: 0.35rem 0; }
+label.resource input { min-height: 44px; min-width: 6rem; }
+.savings { font-weight: 650; }
+a.action.compare-add {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-left: 0.4rem;
+  padding: 0.2rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  text-decoration: none;
+}
+.planner-codes { padding-left: 1.1rem; }
+.planner-codes li { margin: 0.45rem 0; }
 .plain { padding-left: 1.15rem; }
 .plain li { margin: 0.4rem 0; }
 .skills li strong,

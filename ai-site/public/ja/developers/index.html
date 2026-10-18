@@ -49,6 +49,8 @@
 <a href="/ja/catalog/">カタログ</a>
 <a href="/ja/watchlist/">ウォッチリスト</a>
 <a href="/ja/me/">フォロー</a>
+<a href="/ja/planner/">計画</a>
+<a href="/ja/compare/">比較</a>
 <a href="/ja/claims/">照合</a>
 <a href="/ja/for-ai/">AI 向け</a>
 <a href="/developers/" aria-current="page">開発者</a></nav></header>
@@ -76,6 +78,8 @@
       <tr><td>GET</td><td><code>/v1/guides/{game}/codes.json</code></td><td>兑换码。本接口不代领。<code>expired</code> 和 <code>expiry_not_stated</code> 不要当成可用。Codes. This API does not redeem them.</td></tr>
       <tr><td>GET</td><td><code>/v1/guides/{game}/characters/{id}.json</code></td><td>角色卡。非 stub 带 https <code>sources</code> 和 <code>as_of</code>。Character card.</td></tr>
       <tr><td>GET</td><td><code>/v1/personal</code></td><td>无状态个人摘要。查询 <code>games</code>、<code>chars</code>（<code>game:id</code>）或分享码 <code>code=gi1.…</code>。不保存名单。Atom：<code>/v1/personal.atom</code>。Stateless personal digest. Nothing is stored.</td></tr>
+      <tr><td>GET</td><td><code>/v1/planner</code></td><td>从已发布 banners、calendar、codes 派生的卡池时间线。不保存规划。只有卡池注记写了「首个 N 次征集」才算差额。可选 <code>game</code>、<code>resources=game:数量</code>。Derived timeline. A shortfall exists only for that stated summon count.</td></tr>
+      <tr><td>GET</td><td><code>/v1/compare?ids=</code></td><td>同一游戏 2 到 4 张卡的派生对照。空字段是 <code>null</code>，不补。页面把空字段显示为「暂无出处」。Derived comparison. Empty fields stay null.</td></tr>
       <tr><td>GET / POST</td><td><code>/v1/claims.json</code> <code>/v1/claims</code></td><td>投稿镜像。POST 不需要密钥，沿用原有 KV 限额（每 IP 每小时 10 条，每天 100 条）。列出的行在人工复核前不可信。Claims stay keyless. Listed rows are untrusted.</td></tr>
       <tr><td>POST</td><td><code>/mcp</code></td><td>只读 Streamable HTTP MCP。发现文档 <a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>。</td></tr>
     </tbody>

@@ -52,6 +52,31 @@ const idParam = {
   description: "Slug id.",
   schema: { type: "string", pattern: SLUG },
 };
+const plannerQuery = [
+  {
+    name: "game",
+    in: "query",
+    required: false,
+    description: "Optional game id. Omit to list every game that has a current or future row.",
+    schema: { type: "string", pattern: SLUG },
+  },
+  {
+    name: "resources",
+    in: "query",
+    required: false,
+    description: "Optional game:count pairs, comma-separated. Applied only to banners whose note states 首个 N 次征集. Nothing is stored.",
+    schema: { type: "string" },
+  },
+];
+const compareQuery = [
+  {
+    name: "ids",
+    in: "query",
+    required: true,
+    description: "2 to 4 game:id pairs from the same game, comma-separated. 同一游戏 2 到 4 张卡。",
+    schema: { type: "string" },
+  },
+];
 const personalQuery = [
   {
     name: "games",
@@ -113,6 +138,26 @@ export const API_ROUTES = [
   { method: "get", path: "/v1/guides/hw/dopamine-auto.json", operationId: "getDopamineAuto", summary: "Horizon Walker dopamine-auto teams.", schema: "DopamineAuto", example: "/v1/guides/hw/dopamine-auto.json" },
   { method: "get", path: "/v1/guides/hw/modes/dopamine-auto.json", operationId: "getDopamineAutoMode", summary: "Same dopamine-auto document under modes/.", schema: "DopamineAuto", example: "/v1/guides/hw/modes/dopamine-auto.json" },
   { method: "get", path: "/v1/personal", operationId: "getPersonal", summary: "Stateless personal digest. Stores nothing. 无状态个人摘要，不保存名单。", schema: "Personal", query: personalQuery, example: "/v1/personal?games=hw" },
+  {
+    method: "get",
+    path: "/v1/planner",
+    operationId: "getPlanner",
+    summary: "Derived banner timeline from published banners, calendar, and codes. Stores nothing. Pull math only when a banner note states 首个 N 次征集.",
+    schema: "Planner",
+    query: plannerQuery,
+    badRequest: "bad_game or bad_resources. 游戏 id 或 resources 无法解析。",
+    example: "/v1/planner",
+  },
+  {
+    method: "get",
+    path: "/v1/compare",
+    operationId: "getCompare",
+    summary: "Derived side-by-side fields for 2–4 character cards in one game. Empty fields are null. Stores nothing.",
+    schema: "Compare",
+    query: compareQuery,
+    badRequest: "bad_compare. Need 2 to 4 game:id values from the same game. 需要 2 到 4 张同一游戏的卡。",
+    example: "/v1/compare?ids=hw:ai_mi_li_ya,hw:garud",
+  },
   { method: "get", path: "/v1/personal.atom", operationId: "getPersonalAtom", summary: "Atom feed for the same personal filter.", atom: true, query: personalQuery, example: "/v1/personal.atom?chars=hw:ai_mi_li_ya" },
   { method: "get", path: "/v1/claims.json", operationId: "getClaims", summary: "Public claims mirror. Rows are untrusted until a human reviews them. 投稿镜像，未经复核不可信。", schema: "ClaimsIndex", example: "/v1/claims.json" },
   { method: "get", path: "/v1/claims", operationId: "getClaimsAlias", summary: "Same JSON as /v1/claims.json.", schema: "ClaimsIndex", example: "/v1/claims" },
@@ -204,6 +249,12 @@ function operationFor(route) {
     },
   };
   if (!op.parameters.length) delete op.parameters;
+  if (route.badRequest) {
+    op.responses["400"] = {
+      description: route.badRequest,
+      content: jsonContent("Error"),
+    };
+  }
   return op;
 }
 
@@ -460,6 +511,78 @@ export function openApiDocument() {
         CharacterCard: embed(characterCardSchema),
         Aliases: embed(aliasesSchema),
         Personal: embed(personalSchema),
+        Planner: {
+          type: "object",
+          additionalProperties: true,
+          required: ["ok", "derived", "stored", "today", "timezone", "games"],
+          properties: {
+            ok: { const: true },
+            derived: { const: true },
+            stored: { const: false },
+            today: { type: "string", description: "Asia/Shanghai YYYY-MM-DD used as day zero." },
+            timezone: { const: "Asia/Shanghai" },
+            day_basis: { type: "string" },
+            pull_math: { type: "string" },
+            games: {
+              type: "array",
+              items: {
+                type: "object",
+                additionalProperties: true,
+                required: ["game", "timeline_only", "banners", "calendar", "codes"],
+                properties: {
+                  game: { type: "string" },
+                  name: { type: "string" },
+                  name_zh: { type: "string" },
+                  timeline_only: { type: "boolean", description: "True when no current or future banner states a summon count." },
+                  pull_math: { enum: ["timeline_only", "cited_summons"] },
+                  banners: { type: "array", items: { type: "object", additionalProperties: true } },
+                  calendar: { type: "array", items: { type: "object", additionalProperties: true } },
+                  codes: { type: "array", items: { type: "object", additionalProperties: true } },
+                },
+              },
+            },
+          },
+        },
+        Compare: {
+          type: "object",
+          additionalProperties: true,
+          required: ["ok", "derived", "stored", "game", "count", "gap", "columns", "rows"],
+          properties: {
+            ok: { const: true },
+            derived: { const: true },
+            stored: { const: false },
+            game: { type: "string" },
+            count: { type: "integer", minimum: 2, maximum: 4 },
+            gap: { const: "暂无出处", description: "Phrase for an empty field. Cell values stay null instead of being filled." },
+            columns: {
+              type: "array",
+              items: {
+                type: "object",
+                additionalProperties: true,
+                required: ["game", "id", "name"],
+                properties: {
+                  game: { type: "string" },
+                  id: { type: "string" },
+                  name: { type: "string" },
+                  path: { type: "string" },
+                },
+              },
+            },
+            rows: {
+              type: "array",
+              items: {
+                type: "object",
+                additionalProperties: true,
+                required: ["section", "key", "cells"],
+                properties: {
+                  section: { enum: ["attributes", "rating", "teams", "skills"] },
+                  key: { type: "string" },
+                  cells: { type: "array" },
+                },
+              },
+            },
+          },
+        },
         GuideGameIndex: {
           type: "object",
           additionalProperties: true,

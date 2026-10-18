@@ -24,6 +24,25 @@ import {
   toggleFollow,
 } from "./personal.js";
 import {
+  addToCompare,
+  assembleCompare,
+  parseCompareAdd,
+  parseCompareIds,
+  parseCompareState,
+  renderCompare,
+  renderComparePrompt,
+  COMPARE_KEY,
+} from "./compare.js";
+import {
+  assemblePlanner,
+  mergeWanted,
+  parsePlannerState,
+  PLANNER_KEY,
+  renderPlanner,
+  setResource,
+  toggleWanted,
+} from "./planner.js";
+import {
   displayCharacterName,
   displayGameName,
   getLang,
@@ -37,6 +56,7 @@ const app = document.getElementById("app");
 const view = (document.body && document.body.dataset.view) || "home";
 setLang(document.documentElement.lang || (document.body && document.body.dataset.lang) || "zh-CN");
 const FOLLOW_KEY = "game-intel.follows.v1";
+let plannerNote = "";
 function followError(code) {
   const table = {
     bad_follow: tx(
@@ -161,6 +181,40 @@ function loadFollows() {
     return parsed.ok ? parsed.follows : { games: [], chars: [] };
   } catch {
     return { games: [], chars: [] };
+  }
+}
+
+function loadPlanner() {
+  try {
+    return parsePlannerState(JSON.parse(localStorage.getItem(PLANNER_KEY) || "null"));
+  } catch {
+    return parsePlannerState(null);
+  }
+}
+
+function savePlanner(state) {
+  try {
+    const parsed = parsePlannerState(state);
+    localStorage.setItem(PLANNER_KEY, JSON.stringify({ v: 1, wanted: parsed.wanted, resources: parsed.resources }));
+  } catch {
+    plannerNote = tx("这台浏览器拒绝写入规划。", "This browser refused to store the plan.", "このブラウザは計画の保存を拒んだ。");
+  }
+}
+
+function loadCompareTray() {
+  try {
+    return parseCompareState(JSON.parse(localStorage.getItem(COMPARE_KEY) || "null"));
+  } catch {
+    return parseCompareState(null);
+  }
+}
+
+function saveCompareTray(state) {
+  try {
+    const parsed = parseCompareState(state);
+    localStorage.setItem(COMPARE_KEY, JSON.stringify({ v: 1, ids: parsed.ids }));
+  } catch {
+    /* the address still works without the tray */
   }
 }
 
@@ -464,6 +518,87 @@ async function showMe() {
   ));
 }
 
+async function showPlanner() {
+  const follows = loadFollows();
+  const doc = await assemblePlanner(readPublished, { today: shanghaiToday() });
+  const note = plannerNote;
+  plannerNote = "";
+  cache.planner = doc;
+  paint(renderPlanner(doc, { state: loadPlanner(), follows, note }), pageSeo(
+    tx("抽卡规划 · game-intel", "Pull planner · game-intel", "ガチャ計画 · game-intel"),
+    tx(
+      "按已发布卡池、日程和兑换码排当前和未来卡池。只计算出处写明的抽数。",
+      "Current and future banners from published banners, calendar, and codes. Only a stated pull count is calculated.",
+      "公開済みのガチャ、日程、コードで現行と今後を並べる。書いてある回数だけを計算する。"
+    ),
+    [crumbHome(), { name: tx("抽卡规划", "Planner", "計画"), path: localizePath("/planner/") }]
+  ));
+}
+
+async function showCompare() {
+  const search = params();
+  const add = parseCompareAdd(search.get("add") || "");
+  if (add) {
+    const tray = addToCompare(loadCompareTray(), add);
+    if (tray.ok) saveCompareTray(tray.state);
+    const note = !tray.ok
+      ? tx("对比里已经有 4 张卡。", "The comparison already has 4 cards.", "比較はすでに 4 枚。")
+      : tray.replaced
+        ? tx("已换成这部游戏，上一组对比已清掉。", "Switched to this game and cleared the previous comparison.", "このゲームに切り替え、前の比較は消した。")
+        : tx("已加入对比。同一游戏凑满 2 张后会并排打开。", "Added. Two cards from the same game open side by side.", "追加した。同じゲームが 2 枚になると並べる。");
+    if (tray.ok && tray.state.ids.length >= 2) {
+      const ids = tray.state.ids.join(",");
+      history.replaceState(null, "", `${localizePath("/compare/")}?ids=${encodeURIComponent(ids)}`);
+    } else {
+      history.replaceState(null, "", localizePath("/compare/"));
+      paint(renderComparePrompt(tray.ok ? tray.state : loadCompareTray(), note), pageSeo(
+        tx("角色对比 · game-intel", "Compare · game-intel", "キャラ比較 · game-intel"),
+        tx("同一游戏对比 2 到 4 张卡。", "Compare 2 to 4 cards from the same game.", "同じゲームの 2〜4 枚を比べる。"),
+        [crumbHome(), { name: tx("角色对比", "Compare", "比較"), path: localizePath("/compare/") }]
+      ));
+      return;
+    }
+  }
+  const ids = params().get("ids") || "";
+  if (!String(ids).trim()) {
+    paint(renderComparePrompt(loadCompareTray()), pageSeo(
+      tx("角色对比 · game-intel", "Compare · game-intel", "キャラ比較 · game-intel"),
+      tx("同一游戏对比 2 到 4 张卡。空字段保持暂无出处。", "Compare 2 to 4 cards from the same game. Empty fields stay empty.", "同じゲームの 2〜4 枚。空欄は埋めない。"),
+      [crumbHome(), { name: tx("角色对比", "Compare", "比較"), path: localizePath("/compare/") }]
+    ));
+    return;
+  }
+  const parsed = parseCompareIds(ids);
+  if (!parsed.ok) {
+    paint(renderComparePrompt(loadCompareTray(), parsed.message), pageSeo(
+      tx("角色对比 · game-intel", "Compare · game-intel", "キャラ比較 · game-intel"),
+      parsed.message,
+      [crumbHome(), { name: tx("角色对比", "Compare", "比較"), path: localizePath("/compare/") }]
+    ));
+    return;
+  }
+  const doc = await assembleCompare(readPublished, parsed.ids.map((row) => `${row.game}:${row.id}`));
+  if (!doc.ok) {
+    paint(renderComparePrompt(loadCompareTray(), doc.message), pageSeo(
+      tx("角色对比 · game-intel", "Compare · game-intel", "キャラ比較 · game-intel"),
+      doc.message,
+      [crumbHome(), { name: tx("角色对比", "Compare", "比較"), path: currentPath() }]
+    ));
+    return;
+  }
+  saveCompareTray({ v: 1, ids: doc.columns.map((column) => `${column.game}:${column.id}`) });
+  const title = doc.columns.map((column) => column.name).join(" / ");
+  paint(renderCompare(doc), pageSeo(
+    `${title} · ${tx("对比", "Compare", "比較")}`,
+    tx(
+      `${title} 的并排字段。空的格子是暂无出处。`,
+      `${title}. Empty cells have no cited source.`,
+      `${title}。空欄に出典はない。`
+    ),
+    [crumbHome(), { name: tx("角色对比", "Compare", "比較"), path: currentPath() }]
+  ));
+}
+
 async function showClaims() {
   try {
     const mirror = await getJson("/v1/claims.json");
@@ -528,6 +663,8 @@ async function boot() {
     else if (view === "game") await showGame();
     else if (view === "character") await showCharacter();
     else if (view === "me") await showMe();
+    else if (view === "planner") await showPlanner();
+    else if (view === "compare") await showCompare();
     else if (view === "for-ai") showForAi();
     else if (view === "claims") await showClaims();
     else paint(renderError("未知页面"));
@@ -623,9 +760,90 @@ async function onFollowImport(form) {
   await showMe();
 }
 
+function onPlannerEdit(event) {
+  const target = event.target;
+  if (!target || !target.dataset || view !== "planner") return;
+  if (event.type === "input" && target.dataset.plannerResource) {
+    rememberFocus(target);
+    savePlanner(setResource(loadPlanner(), target.dataset.plannerResource, target.value));
+    if (cache.planner) {
+      const note = plannerNote;
+      plannerNote = "";
+      paint(renderPlanner(cache.planner, { state: loadPlanner(), follows: loadFollows(), note }), document.title);
+    }
+    return;
+  }
+  if (event.type === "change" && target.dataset.plannerToggle && target.tagName === "INPUT") {
+    const toggled = toggleWanted(loadPlanner(), target.dataset.game, target.dataset.id, target.dataset.name);
+    if (!toggled.ok) plannerNote = followError(toggled.error);
+    savePlanner(toggled.state);
+    if (cache.planner) {
+      const note = plannerNote;
+      plannerNote = "";
+      paint(renderPlanner(cache.planner, { state: loadPlanner(), follows: loadFollows(), note }), document.title);
+    }
+  }
+}
+
+function onPlannerClick(button) {
+  const action = button.dataset.plannerAction;
+  if (action === "add-follows") {
+    const follows = loadFollows();
+    const merged = mergeWanted(loadPlanner(), follows.chars || []);
+    savePlanner(merged.state);
+    plannerNote = merged.added
+      ? tx(`已把 ${merged.added} 名关注角色加入规划。`, `Added ${merged.added} followed characters to the plan.`, `フォロー中 ${merged.added} 名を計画に入れた。`)
+      : tx("关注的角色都已经在规划里。", "Those followed characters are already in the plan.", "フォロー中のキャラはすでに計画にある。");
+    if (view === "planner" && cache.planner) {
+      const note = plannerNote;
+      plannerNote = "";
+      paint(renderPlanner(cache.planner, { state: loadPlanner(), follows, note }), document.title);
+      return;
+    }
+    setFollowStatus(plannerNote);
+    plannerNote = "";
+    return;
+  }
+  if (!button.dataset.plannerAdd && !button.dataset.plannerToggle) return;
+  const [game, id] = String(button.dataset.plannerAdd || `${button.dataset.game}:${button.dataset.id}`).split(":");
+  const toggled = button.dataset.plannerAdd
+    ? mergeWanted(loadPlanner(), [{ game, id, name: button.dataset.plannerName || "" }])
+    : toggleWanted(loadPlanner(), game, id, button.dataset.plannerName || "");
+  if (button.dataset.plannerAdd) {
+    savePlanner(toggled.state);
+    plannerNote = toggled.added
+      ? tx("已加入抽卡规划。", "Added to the pull planner.", "ガチャ計画に入れた。")
+      : tx("这名角色已经在规划里。", "This character is already in the plan.", "このキャラはすでに計画にある。");
+  } else if (!toggled.ok) {
+    plannerNote = followError(toggled.error);
+    savePlanner(toggled.state);
+  } else {
+    savePlanner(toggled.state);
+    plannerNote = toggled.on
+      ? tx("已加入抽卡规划。", "Added to the pull planner.", "ガチャ計画に入れた。")
+      : tx("已移出抽卡规划。", "Removed from the pull planner.", "ガチャ計画から外した。");
+  }
+  if (view === "planner" && cache.planner) {
+    const note = plannerNote;
+    plannerNote = "";
+    paint(renderPlanner(cache.planner, { state: loadPlanner(), follows: loadFollows(), note }), document.title);
+    return;
+  }
+  setFollowStatus(plannerNote);
+  plannerNote = "";
+}
+
 document.addEventListener("input", onFilter);
+document.addEventListener("input", onPlannerEdit);
 document.addEventListener("change", onFilter);
+document.addEventListener("change", onPlannerEdit);
 document.addEventListener("click", (event) => {
+  const planner = event.target && event.target.closest && event.target.closest("[data-planner-add], [data-planner-action], [data-planner-toggle]");
+  if (planner && planner.tagName === "BUTTON") {
+    event.preventDefault();
+    onPlannerClick(planner);
+    return;
+  }
   const button = event.target && event.target.closest && event.target.closest("[data-follow-kind], [data-follow-action]");
   if (!button || button.type === "submit") return;
   event.preventDefault();
@@ -633,7 +851,7 @@ document.addEventListener("click", (event) => {
 });
 document.addEventListener("submit", (event) => {
   if (!event.target) return;
-  if (event.target.id === "filters" || event.target.id === "follow-import") event.preventDefault();
+  if (event.target.id === "filters" || event.target.id === "follow-import" || event.target.id === "planner-form") event.preventDefault();
   if (event.target.id === "follow-import") onFollowImport(event.target);
 });
 
