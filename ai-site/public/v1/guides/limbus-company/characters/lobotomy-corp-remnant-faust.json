@@ -65,12 +65,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Immortality rental December 11th 2025 - December 25th 2025：N Corp. E.G.O:: Fell Bullet Yi Sang / Lobotomy Corp. Remnant Faust / Cinq Assoc. East Section 3 Don Quixote / Drifting Blade of Hongyuan Ryōshū / Cinq Assoc. West Section 3 Meursault / Tingtang Gang Gangleader Hong Lu / The Pequod Harpooner Heathcliff / The Pequod Captain Ishmael / Heishou Pack - Si Branch Rodion / Cinq South Section 4 Director Sinclair / Cinq South Section 4 Outis / Twinhook Pirates First Mate Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2025-12-11）",
+      "Limbus Wiki · Mirror of Immortality rental July 31st 2025 - August 7th 2025：N Corp. E.G.O:: Fell Bullet Yi Sang / Lobotomy Corp. Remnant Faust / Cinq Assoc. East Section 3 Don Quixote / Seven Association South Section 6 Ryoshu / Cinq Assoc. West Section 3 Meursault / Tingtang Gang Gangleader Hong Lu / Seven Assoc. South Section 4 Heathcliff / The Pequod Captain Ishmael / Heishou Pack - Si Branch Rodion / Cinq South Section 4 Director Sinclair / Cinq South Section 4 Outis / Heishou Pack - Si Branch Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2025-07-31）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/lobotomy-corp-remnant-faust",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585793.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -97,7 +103,8 @@
       "https://www.prydwen.gg/limbus-company/identities/lobotomy-corp-remnant-faust",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585793.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame C；梯度表 Damage Dealer C",
     "stub": false,

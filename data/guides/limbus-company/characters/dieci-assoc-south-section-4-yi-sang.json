@@ -59,12 +59,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Immortality rental January 8th 2026 - January 22nd 2026：Dieci Assoc. South Section 4 Yi Sang / Wuthering Heights Butler Faust / Heishou Pack - Wei Branch Don Quixote / LCCB Assistant Manager Ryoshu / Dieci Assoc. South Section 4 Director Meursault / Dieci Assoc. South Section 4 Hong Lu / Wild Hunt Heathcliff / Molar Boatworks Fixer Ishmael / Dieci Assoc. South Section 4 Rodion / Los Mariachis Jefe Sinclair / LCA Udjat Vanguard Team 3 Leader Outis / Edgar Family Heir Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-01-08）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-yi-sang",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585110.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -91,7 +96,8 @@
       "https://www.prydwen.gg/limbus-company/identities/dieci-assoc-south-section-4-yi-sang",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585110.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame D；梯度表 Tank D",
     "stub": false,

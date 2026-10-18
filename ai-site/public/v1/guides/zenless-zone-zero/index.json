@@ -517,7 +517,8 @@
       "stub": true,
       "sources": [
         "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
-        "https://www.prydwen.gg/zenless/characters/phoenix"
+        "https://www.prydwen.gg/zenless/characters/phoenix",
+        "https://game8.jp/zenless/783054"
       ],
       "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/phoenix_card.webp",
       "rarity": "S"
@@ -671,7 +672,8 @@
       "stub": true,
       "sources": [
         "https://wiki.biligame.com/zzz/%E8%B5%9B%E7%BB%B4%E9%87%8C%E5%AE%89",
-        "https://www.prydwen.gg/zenless/characters/severian"
+        "https://www.prydwen.gg/zenless/characters/severian",
+        "https://game8.jp/zenless/783054"
       ],
       "portrait": "https://cdn.prydwen.gg/images/zenless-zone-zero/characters/severian_card.webp",
       "rarity": "S"

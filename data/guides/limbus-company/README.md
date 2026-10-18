@@ -9,4 +9,4 @@ Limbus Company identity cards. One card is one Identity, not one sinner. `sinner
 - Sinner Chinese names are the GameKee sinner entries (`game-alias: limbus`, pid 117395). They are not aliases of a single identity.
 - Banners are transcribed from Project Moon's Steam scheduled-update notices. Times stay in KST (`Asia/Seoul`, UTC+9, no DST).
 - `codes.json` records that the checked sources did not publish a code string.
-- Teams: Prydwen team database（页面 Last updated 22/May/2026）每个 `limbus-team` 盒子里的人格链接。一盒 5 到 12 个、且每个链接都能唯一对上人格 id 时收录，每张卡最多两条。没出现在这 10 支队伍里的人格保持空 `teams`。评论里的外号不收。
+- Teams: Prydwen team database（页面 Last updated 22/May/2026）每个 `limbus-team` 盒子里的人格链接。一盒 5 到 12 个、且每个链接都能唯一对上人格 id 时收录，每张卡最多两条。评论里的外号不收。已有配队不改写。空卡可以再收 Limbus Company Wiki「List of Rental Teams」里每个 `rentbox` 的人格（不要 E.G.O 图标）。一盒 12 人、且每个 wiki 标题都能唯一对上人格 id、12 个罪人互不重复时收录，每张卡最多两条，优先较新的租借窗口。`The Pequod Harpooneer Heathcliff` 对上卡上的 Harpooner；`Cinq Assoc. South Section 4` 对上卡上省略了 Assoc. 的同名人格。对不上的整队不收。

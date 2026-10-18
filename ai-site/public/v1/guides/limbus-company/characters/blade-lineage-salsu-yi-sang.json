@@ -70,12 +70,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental June 18th 2026 - July 2nd 2026：Blade Lineage Salsu Yi Sang / Blade Lineage Salsu Faust / Blade Lineage Salsu Don Quixote / Kurokumo Clan Wakashu Ryoshu / Blade Lineage Mentor Meursault / S Corp. Ch'unokkun Hong Lu / Kurokumo Clan Wakashu Heathcliff / LCD OSIR Team Ishmael / Kurokumo Clan Wakashu Rodion / Blade Lineage Salsu Sinclair / Blade Lineage Salsu Outis / Kurokumo Clan Captain Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-06-18）",
+      "Limbus Wiki · Mirror of Immortality rental January 15th 2026 - January 29th 2026：Blade Lineage Salsu Yi Sang / The Index Proselyte: Paper Slip Faust / The Index Proxy - Effloresced E.G.O::Procuration Don Quixote / Edgar Family Chief Butler Ryoshu / Blade Lineage Mentor Meursault / Dieci Assoc. South Section 4 Hong Lu / Wild Hunt Heathcliff / Edgar Family Butler Ishmael / Kurokumo Clan Wakashu Rodion / Los Mariachis Jefe Sinclair / Wuthering Heights Chief Butler Outis / Edgar Family Heir Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-01-15）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585110.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -101,7 +107,8 @@
       "https://www.prydwen.gg/limbus-company/identities/blade-lineage-salsu-yi-sang",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585110.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
     "stub": false,

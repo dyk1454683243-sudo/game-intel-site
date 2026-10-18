@@ -18,7 +18,8 @@
   "teams": {},
   "sources": [
     "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
-    "https://www.prydwen.gg/zenless/characters/phoenix"
+    "https://www.prydwen.gg/zenless/characters/phoenix",
+    "https://game8.jp/zenless/783054"
   ],
   "stub": true,
   "as_of": "2026-10-17",
@@ -33,9 +34,10 @@
     "position": "S / 火 / 异常 / 坎卜斯黑枝",
     "sources": [
       "https://wiki.biligame.com/zzz/%E8%8F%B2%E6%AC%A7%E5%A6%AE",
-      "https://www.prydwen.gg/zenless/characters/phoenix"
+      "https://www.prydwen.gg/zenless/characters/phoenix",
+      "https://game8.jp/zenless/783054"
     ],
     "stub": true,
-    "caveat": "2026-10-10 复核该角色 Prydwen 页，Ratings 没有写出 T 档。技能模板仍没有具体效果。不编造强度或技能。"
+    "caveat": "2026-10-10 复核该角色 Prydwen 页，Ratings 没有写出 T 档。技能模板仍没有具体效果。不编造强度或技能。 Game8「フィオニーはいつ実装？性能と声優」（最终更新 2026-10-18）把她列在未実装，正文是性能予想，并写「上記はあくまで予想に過ぎず」。不把予想收成梯度或配队。"
   }
 }

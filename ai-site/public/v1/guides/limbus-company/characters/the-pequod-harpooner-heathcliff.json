@@ -59,12 +59,18 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental August 27th 2026 - September 10th 2026：The Pequod First Mate Yi Sang / Shi Assoc. East Section 3 Faust / Cinq Assoc. East Section 3 Don Quixote / Drifting Blade of Hongyuan Ryōshū / Cinq Assoc. West Section 3 Meursault / Cinq Assoc. East Section 3 Hong Lu / The Pequod Harpooner Heathcliff / The Pequod Captain Ishmael / Heishou Pack - Si Branch Rodion / Cinq South Section 4 Director Sinclair / Cinq South Section 4 Outis / Twinhook Pirates First Mate Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-08-27）",
+      "Limbus Wiki · Mirror of Names and Spiders rental May 21st 2026 - June 4th 2026：The House of Spiders: The Index Nursefather Yi Sang / The House of Spiders: The Ring Apprentice Faust / The Index Proxy - Effloresced E.G.O::Procuration Don Quixote / Blade of the House of Spiders Ryoshu / The Middle Little Brother Meursault / The House of Spiders: The Ring Nursefather Hong Lu / The Pequod Harpooner Heathcliff / The House of Spiders: The Middle Apprentice Ishmael / Kurokumo Clan Wakashu Rodion / The House of Spiders: The Pinky Apprentice Sinclair / The Ring Pointillist Student Outis / Twinhook Pirates First Mate Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-05-21）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/the-pequod-harpooner-heathcliff",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585803.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -90,7 +96,8 @@
       "https://www.prydwen.gg/limbus-company/identities/the-pequod-harpooner-heathcliff",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585803.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame B；梯度表 Damage Dealer B",
     "stub": false,

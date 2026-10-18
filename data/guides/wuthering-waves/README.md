@@ -9,4 +9,4 @@
 - 兑换码：GameKee `mc/622905`，页内都在「已过期」一节。
 - 中文名：图鉴双语行，或同一时刻的官方繁中/英文角色公告。BWIKI `/mc/` 是 Minecraft，没有用。
 
-`rich` 59 / `stub` 2 / 有梯度结论 59 / 有配队 59。Lily、锁暝的 Prydwen 页没有梯度，Example Teams 写 teams are currently missing。
+`rich` 59 / `stub` 2 / 有梯度结论 59 / 有配队 59。Lily、锁暝的 Prydwen 页没有梯度，Example Teams 写 teams are currently missing。Game8 角色一览（最终更新 2026-10-18）把リリー标为未実装，鎖暝只写了推测实现日，两人都没有梯度。白芷的封闭三人队仍是 GameKee `mc/623202`（2024-11-12）。Game8 白芷页（2026-08-25）的示例把另外两格写成自由枠，没有替换。

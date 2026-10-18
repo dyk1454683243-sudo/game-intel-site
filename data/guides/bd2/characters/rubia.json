@@ -69,9 +69,14 @@
       "skill": "秘密指令"
     }
   ],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "巴哈姆特 · 物理隊·火屬：黎维塔 / 黛安娜 / 泰瑞丝 / 露比雅 / 莉亚特里斯（https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4 ，as_of 2026-02-10）"
+    ]
+  },
   "sources": [
-    "https://www.gamekee.com/zsca2/593601.html"
+    "https://www.gamekee.com/zsca2/593601.html",
+    "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
   ],
   "stub": false,
   "as_of": "2026-09-28",
@@ -100,7 +105,8 @@
     "sources": [
       "https://www.gamekee.com/zsca2/599176.html",
       "https://www.gamekee.com/zsca2/657582.html",
-      "https://www.gamekee.com/zsca2/593601.html"
+      "https://www.gamekee.com/zsca2/593601.html",
+      "https://forum.gamer.com.tw/C.php?bsn=76207&snA=4032&tnum=4"
     ],
     "stub": false,
     "caveat": "梯度只摘自各篇 GameKee 服装测评摘要里的「综合评价」，按服装分列，不合并成角色总榜。测评写明具备时效性。总强度榜正文无角色名文本，未见可靠出处，不编造未写明的服装。",

@@ -72,12 +72,17 @@
     }
   ],
   "skill_prio": [],
-  "teams": {},
+  "teams": {
+    "comp": [
+      "Limbus Wiki · Mirror of Names and Spiders rental July 30th 2026 - August 13th 2026：LCE E.G.O::Dimension Shredder Yi Sang / W Corp. L2 Cleanup Agent Faust / W Corp. L3 Cleanup Agent Don Quixote / W Corp. L3 Cleanup Agent Ryoshu / W Corp. L2 Cleanup Agent Meursault / W Corp. L2 Cleanup Agent Hong Lu / W Corp. L4 Cleanup Agent - CCA Heathcliff / R Corp. 4th Pack Reindeer Ishmael / R Corp. 4th Pack Reindeer Rodion / Devyat Assoc. North Section 3 Sinclair / W Corp. L3 Cleanup Captain Outis / LCE E.G.O::AEDD Gregor（https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams ，as_of 2026-07-30）"
+    ]
+  },
   "sources": [
     "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-sinclair",
     "https://www.prydwen.gg/limbus-company/identities",
     "https://www.gamekee.com/limbus/585810.html",
-    "https://www.prydwen.gg/limbus-company/tier-list"
+    "https://www.prydwen.gg/limbus-company/tier-list",
+    "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
   ],
   "stub": false,
   "as_of": "2026-10-17",
@@ -103,7 +108,8 @@
       "https://www.prydwen.gg/limbus-company/identities/devyat-assoc-north-section-3-sinclair",
       "https://www.prydwen.gg/limbus-company/identities",
       "https://www.gamekee.com/limbus/585810.html",
-      "https://www.prydwen.gg/limbus-company/tier-list"
+      "https://www.prydwen.gg/limbus-company/tier-list",
+      "https://limbuscompany.wiki.gg/wiki/List_of_Rental_Teams"
     ],
     "tier": "Prydwen 角色页 Endgame A；梯度表 Damage Dealer A",
     "stub": false,
