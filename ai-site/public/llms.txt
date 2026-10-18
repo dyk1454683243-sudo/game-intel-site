@@ -96,6 +96,18 @@ Aliases: /v1/guides/{game}/aliases.json (nikke also aliases.p1.json … p4.json)
 HW dopamine auto: /v1/guides/hw/dopamine-auto.json (also /v1/guides/hw/modes/dopamine-auto.json).
 Banners: /v1/guides/{game}/banners.json. Codes: /v1/guides/{game}/codes.json. Both keep the source URL, the checked date, and an explicit expired or unstated status. Do not treat a code as live when status is expired or expiry_not_stated.
 
+### GET /v1/planner
+Purpose: derived current and future banner timeline. No stored plan. Reads published `/v1/guides/{game}/banners.json`, `/v1/calendar.json`, and `/v1/guides/{game}/codes.json`.
+Dates are the `YYYY-MM-DD` prefix already on a row. Prose dates are not parsed. Ended banners are omitted.
+`pull_math` is `cited_summons` only when a banner `note` states 「首个 N 次征集内必得」. That sentence is the only shortfall. Qualitative 保底 lines are quoted and do not become a number. Other games are `timeline_only`. Redeem-code rewards are listed and are not converted into pulls.
+Optional query: `game` (one slug) and `resources` (`game:count`, comma-separated). `resources` is not stored. Human page `/planner/` keeps the checklist and resource counts in `localStorage` and does not send them.
+Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false.
+
+### GET /v1/compare?ids=
+Purpose: derived side-by-side fields for 2 to 4 character cards in one game. `ids` is comma-separated `game:id`. Nothing is stored.
+Rows are attributes already on the card (role, element, rarity, and the other stored class fields), rating text with its https sources, team lines, and skill name plus summary. An empty cell is JSON `null`. The human page prints 暂无出处 and does not fill the cell. Human page: `/compare/?ids=game:id,game:id`, plus `/en/compare/` and `/ja/compare/`.
+Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false. `gap` is the string 暂无出处.
+
 ### GET /v1/personal and GET /v1/personal.atom
 Purpose: stateless personal digest. No account and no stored follows. The browser page `/me/` keeps the list in `localStorage` and filters the same published JSON locally. Bots call this endpoint or the MCP tool `personal_digest`.
 Query: `games` (comma-separated ids, max 24) and `chars` (comma-separated `game:id`, max 48). `code` is a `gi1.` share code and replaces the other two parameters when present.
@@ -126,9 +138,11 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 - /catalog/ — search and filter the game directory
 - /watchlist/ — hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves, plus thin rows star (星原), asora (阿索拉), miraesi (미래시), lo2
 - /game/?id= — identity card (name, platforms, tags, sources, steam_appid). Games outside the eight deep ids show 尚无深耕 and do not invent tier or pull advice.
-- /character/?game=&id= — strength, costume, skills, and source links. Deep games: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. A 关注 button writes that character into localStorage.
+- /character/?game=&id= — strength, costume, skills, and source links. Deep games: hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves. A 关注 button writes that character into localStorage. 加入对比 opens `/compare/?add=game:id`.
 - /developers/ — Chinese and English notes for the public API and remote MCP.
-- /me/ — personal view. Follow list is localStorage plus a shareable `/me/?games=&chars=` link or `gi1.` code. The page filters feed, digest, banners, and codes in the browser and does not send the list to the server.
+- /me/ — personal view. Follow list is localStorage plus a shareable `/me/?games=&chars=` link or `gi1.` code. The page filters feed, digest, banners, and codes in the browser and does not send the list to the server. Followed characters can be added to `/planner/` in one step.
+- /planner/ — pull planner. Also `/en/planner/` and `/ja/planner/`. Checklist and resource counts stay in localStorage. The timeline is `GET /v1/planner`.
+- /compare/?ids= — 2 to 4 cards from one game. Also `/en/compare/` and `/ja/compare/`. Empty fields render as 暂无出处.
 
 `export-games` copies `ai-site/public/ui/home.html` onto `/`. Static dual-publish HTML remains:
 

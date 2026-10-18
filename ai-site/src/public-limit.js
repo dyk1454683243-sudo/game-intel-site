@@ -191,6 +191,9 @@ export function cachePolicy(pathname, method, status) {
   if (pathname === "/v1/personal" || pathname === "/v1/personal.atom") {
     return { cache: CACHE_PERSONAL, etag: true, json: pathname.endsWith(".json") || pathname === "/v1/personal" };
   }
+  if (pathname === "/v1/planner" || pathname === "/v1/compare") {
+    return { cache: CACHE_PERSONAL, etag: true, json: true };
+  }
   if (pathname === "/v1/portrait") return { cache: CACHE_PORTRAIT, etag: true, json: false };
   if (
     pathname === "/v1/openapi.json" ||

@@ -9,7 +9,10 @@ import {
 } from "./claims.js";
 import { corsHeaders, handleMcp, jsonResponse } from "./mcp.js";
 import { openApiDocument } from "./openapi.js";
-import { personalDocument } from "./personal.js";
+import { personalDocument, readPublished } from "./personal.js";
+import { assembleCompare, parseCompareIds } from "../public/ui/compare.js";
+import { assemblePlanner, parseResourceQuery } from "../public/ui/planner.js";
+import { shanghaiYmd } from "./time.js";
 import {
   API_VERSION,
   CACHE_LONG,
@@ -175,6 +178,9 @@ export async function route(request, env) {
     return respondPersonal(request, env, path);
   }
 
+  if (path === "/v1/planner") return respondPlanner(request, env);
+  if (path === "/v1/compare") return respondCompare(request, env);
+
   if (path === "/v1/portrait") {
     if (request.method !== "GET") return new Response("method", { status: 405 });
     return servePortrait(url.searchParams.get("u"));
@@ -242,6 +248,40 @@ async function respondPersonal(request, env, path) {
       ...corsHeaders(),
     },
   });
+}
+
+function derivedJson(doc) {
+  return new Response(JSON.stringify(doc), {
+    status: 200,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "public, max-age=300",
+    },
+  });
+}
+
+async function respondPlanner(request, env) {
+  if (request.method !== "GET") return apiError(405, "method_not_allowed");
+  const url = new URL(request.url);
+  const resources = parseResourceQuery(url.searchParams.get("resources") || "");
+  if (!resources.ok) return apiError(resources.status || 400, resources.error, { message: resources.message });
+  const doc = await assemblePlanner((pathname) => readPublished(env, url.origin, pathname), {
+    today: shanghaiYmd(),
+    game: url.searchParams.get("game") || "",
+    resources: resources.resources,
+  });
+  if (!doc.ok) return apiError(doc.status || 400, doc.error, { message: doc.message });
+  return derivedJson(doc);
+}
+
+async function respondCompare(request, env) {
+  if (request.method !== "GET") return apiError(405, "method_not_allowed");
+  const url = new URL(request.url);
+  const parsed = parseCompareIds(url.searchParams.get("ids") || "");
+  if (!parsed.ok) return apiError(parsed.status || 400, parsed.error, { message: parsed.message });
+  const doc = await assembleCompare((pathname) => readPublished(env, url.origin, pathname), parsed.ids.map((row) => `${row.game}:${row.id}`));
+  if (!doc.ok) return apiError(doc.status || 400, doc.error, { message: doc.message });
+  return derivedJson(doc);
 }
 
 async function postClaim(request, env) {

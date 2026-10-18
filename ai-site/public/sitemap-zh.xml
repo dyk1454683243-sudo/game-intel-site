@@ -33,6 +33,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/claims/"/>
   </url>
   <url>
+    <loc>https://game-intel-ai.dyk1454683243.workers.dev/compare/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/compare/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://game-intel-ai.dyk1454683243.workers.dev/en/compare/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://game-intel-ai.dyk1454683243.workers.dev/ja/compare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/compare/"/>
+  </url>
+  <url>
     <loc>https://game-intel-ai.dyk1454683243.workers.dev/developers/</loc>
     <lastmod>2026-10-18</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/developers/"/>
@@ -7879,6 +7887,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://game-intel-ai.dyk1454683243.workers.dev/en/me/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://game-intel-ai.dyk1454683243.workers.dev/ja/me/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/me/"/>
+  </url>
+  <url>
+    <loc>https://game-intel-ai.dyk1454683243.workers.dev/planner/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/planner/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://game-intel-ai.dyk1454683243.workers.dev/en/planner/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://game-intel-ai.dyk1454683243.workers.dev/ja/planner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/planner/"/>
   </url>
   <url>
     <loc>https://game-intel-ai.dyk1454683243.workers.dev/sketches/</loc>

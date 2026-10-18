@@ -35,6 +35,8 @@ const NAV = [
   ["catalog", "/catalog/", ["目录", "Catalog", "カタログ"]],
   ["watchlist", "/watchlist/", ["观察名单", "Watchlist", "ウォッチリスト"]],
   ["me", "/me/", ["我的关注", "Following", "フォロー"]],
+  ["planner", "/planner/", ["抽卡规划", "Planner", "計画"]],
+  ["compare", "/compare/", ["对比", "Compare", "比較"]],
   ["claims", "/claims/", ["核对墙", "Claims", "照合"]],
   ["for-ai", "/for-ai/", ["给 AI", "For AI", "AI 向け"]],
   ["developers", "/developers/", ["开发者", "Developers", "開発者"]],
@@ -45,6 +47,8 @@ const VIEW_PATH = {
   catalog: "/catalog/",
   watchlist: "/watchlist/",
   me: "/me/",
+  planner: "/planner/",
+  compare: "/compare/",
   claims: "/claims/",
   "for-ai": "/for-ai/",
   developers: "/developers/",
@@ -171,6 +175,10 @@ export function gameHref(id) {
 
 export function characterHref(game, id) {
   return localizePath(`/character/?game=${encodeURIComponent(game)}&id=${encodeURIComponent(id)}`);
+}
+
+export function compareAddHref(game, id) {
+  return localizePath(`/compare/?add=${encodeURIComponent(`${game}:${id}`)}`);
 }
 
 export function aliasPartNames(doc) {
@@ -390,6 +398,8 @@ function zoneEntries() {
   return `<nav class="zones" aria-label="${esc(tx("首页入口", "Home sections", "ホームの入口"))}">
 <a class="zone" href="${esc(hrefFor("/watchlist/"))}"><strong>${esc(tx("观察名单", "Watchlist", "ウォッチリスト"))}</strong><span>${esc(tx("深耕从图鉴进。其余游戏只保留身份。", "Guides start from the watchlist. Other games stay identity-only.", "深掘りはウォッチリストから。それ以外は身元だけ。"))}</span></a>
 <a class="zone" href="${esc(hrefFor("/me/"))}"><strong>${esc(tx("我的关注", "Following", "フォロー"))}</strong><span>${esc(tx("只看订阅的游戏和角色。名单留在这台浏览器。", "Only games and characters you follow. The list stays in this browser.", "フォローしたゲームとキャラだけ。リストはこのブラウザに残る。"))}</span></a>
+<a class="zone" href="${esc(hrefFor("/planner/"))}"><strong>${esc(tx("抽卡规划", "Planner", "計画"))}</strong><span>${esc(tx("按有出处的卡池日期看还剩几天。没有写明的保底不算。", "Days left use sourced banner dates. Unstated pity is not calculated.", "残り日数は出典のある日付だけ。書いていない天井は計算しない。"))}</span></a>
+<a class="zone" href="${esc(hrefFor("/compare/"))}"><strong>${esc(tx("角色对比", "Compare", "比較"))}</strong><span>${esc(tx("同一游戏 2 到 4 张卡。空字段保持暂无出处。", "2 to 4 cards from the same game. Empty fields stay empty.", "同じゲームの 2〜4 枚。空欄は埋めない。"))}</span></a>
 <a class="zone" href="${esc(hrefFor("/for-ai/"))}"><strong>${esc(tx("给 AI", "For AI", "AI 向け"))}</strong><span>${esc(tx("MCP、OpenAPI、llms.txt。与人读同一份已发布数据。", "MCP, OpenAPI, llms.txt. The same published data people read.", "MCP、OpenAPI、llms.txt。人が読むのと同じ公開データ。"))}</span></a>
 </nav>`;
 }
@@ -1089,7 +1099,7 @@ ${requested ? `<p class="follow-row">${followButton("char", id, requested)}</p>`
 ${depthBanner(depth, depthLabel)}
 <div class="char-head"><figure class="art"><figcaption>${esc(tx("立绘", "Portrait", "立ち絵"))}</figcaption>${portraitTag(card, true)}</figure><div>
 <h1>${esc(name)} <code>${esc(card.id || "")}</code></h1>
-${card.id ? `<p class="follow-row">${followButton("char", id, card.id)}</p>` : ""}
+${card.id ? `<p class="follow-row">${followButton("char", id, card.id)} <a class="action compare-add" href="${esc(compareAddHref(id, card.id))}">${esc(tx("加入对比", "Add to compare", "比較に入れる"))}</a></p>` : ""}
 ${marks.length ? `<p class="flags">${marks.join(" ")}</p>` : ""}
 <p class="rule">${esc(depthNote)}</p>
 <p class="meta">${esc([en, nick ? tx(`别名 ${nick}`, `Aliases ${nick}`, `別名 ${nick}`) : "", card.as_of ? `as_of ${card.as_of}` : ""].filter(Boolean).join(" · "))}</p>
@@ -1166,7 +1176,7 @@ export function renderMe(doc, opts = {}) {
     if (!gid || !cid) continue;
     const key = `${gid}:${cid}`;
     const name = (labels.chars && labels.chars[key]) || cid;
-    const li = `<li>${link(characterHref(gid, cid), name)} <code>${esc(key)}</code> ${followButton("char", gid, cid, true)}</li>`;
+    const li = `<li>${link(characterHref(gid, cid), name)} <code>${esc(key)}</code> ${followButton("char", gid, cid, true)} <button type="button" class="action" data-planner-add="${esc(key)}" data-planner-name="${esc(name)}">${esc(tx("加入规划", "Add to planner", "計画に入れる"))}</button></li>`;
     const sinner = labels.char_sinner && labels.char_sinner[key];
     if (sinner && sinner.id) {
       if (!sinnerGroups.has(sinner.id)) sinnerGroups.set(sinner.id, { ...sinner, items: [] });
@@ -1224,6 +1234,7 @@ export function renderMe(doc, opts = {}) {
   const api = query ? `/v1/personal?${query}` : "/v1/personal";
   return `<h1>${esc(tx("我的关注", "Following", "フォロー"))}</h1>
 <p class="lede">${esc(tx("按这台浏览器里的关注列表，过滤已发布的 feed、digest、卡池和兑换码。不建账号，名单不上传。", "Filters the published feed, digest, banners, and codes by the follow list in this browser. No account. The list is not uploaded.", "このブラウザのフォローで、公開済みの feed、digest、ガチャ、コードを絞る。アカウントなし。リストは送らない。"))}</p>
+<p><a href="${esc(localizePath("/planner/"))}">${esc(tx("打开抽卡规划", "Open the pull planner", "ガチャ計画を開く"))}</a> <button type="button" class="action" data-planner-action="add-follows">${esc(tx("把关注的角色加入规划", "Add followed characters to the planner", "フォロー中のキャラを計画に入れる"))}</button></p>
 ${opts.imported ? `<p class="meta">${esc(tx("已从链接导入。之后只改这台浏览器里的名单。", "Imported from the link. Later edits stay in this browser.", "リンクから読み込んだ。以降の変更はこのブラウザだけ。"))}</p>` : ""}
 ${note}
 ${listHtml}

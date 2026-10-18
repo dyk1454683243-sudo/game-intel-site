@@ -384,7 +384,7 @@ function writeCharacterPage(game, meta, c, skills, sources) {
         `${shown} (${gameLabel}). Skills, conclusions, and teams stay in the published language.`,
         `${shown}（${gameLabel}）。スキル、結論、編成は公開された原文のまま。`
       );
-      const body = `<p><a href="${esc(localizePath("/"))}">${esc(tx("首页", "Home", "ホーム"))}</a> · <a href="${esc(localizePath("/watchlist/"))}">${esc(tx("观察名单", "Watchlist", "ウォッチリスト"))}</a> · <a href="${esc(localizePath(`/character/?game=${encodeURIComponent(game)}&id=${encodeURIComponent(c.id)}`))}">${esc(tx("人类界面", "Human page", "人のページ"))}</a> · <a href="./index.html">← ${esc(gameLabel)}</a></p>
+      const body = `<p><a href="${esc(localizePath("/"))}">${esc(tx("首页", "Home", "ホーム"))}</a> · <a href="${esc(localizePath("/watchlist/"))}">${esc(tx("观察名单", "Watchlist", "ウォッチリスト"))}</a> · <a href="${esc(localizePath(`/character/?game=${encodeURIComponent(game)}&id=${encodeURIComponent(c.id)}`))}">${esc(tx("人类界面", "Human page", "人のページ"))}</a> · <a href="${esc(localizePath(`/compare/?add=${encodeURIComponent(`${game}:${c.id}`)}`))}">${esc(tx("加入对比", "Add to compare", "比較に入れる"))}</a> · <a href="./index.html">← ${esc(gameLabel)}</a></p>
 <h1>${esc(shown)} <code>${esc(c.id)}</code></h1>
 <p class="${isStub(c) ? "stub" : "rich"}">${esc(isStub(c) ? tx("stub card — skills not verified yet", "stub card — skills not verified yet", "stub。スキルは未確認") : tx("verified card", "verified card", "確認済みのカード"))}</p>
 ${conclusionBar(c)}
