@@ -1,9 +1,11 @@
 {
   "game": "arknights-endfield",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-19",
   "timezone_note": "当期和上一期寻访以官网公告为准。server time 同时对应 UTC+8（Asia）和 UTC-5（Americas / Europe），见 3839。不合成单一偏移。",
   "sources": [
     "https://endfield.gryphline.com/en-us/news/9560",
+    "https://endfield.gryphline.com/zh-tw/news/9560",
+    "https://endfield.gryphline.com/ja-jp/news/9560",
     "https://endfield.gryphline.com/en-us/news/4489",
     "https://endfield.gryphline.com/en-us/news/2652",
     "https://endfield.gryphline.com/en-us/news/3839"
@@ -104,6 +106,54 @@
       "timezone": null,
       "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
       "as_of": "2026-10-17"
+    },
+    {
+      "id": "endfield-hearth-fire-argent-flow",
+      "name": "[The Hearth Fire Beckons the Starry Flow] Chartered Headhunting",
+      "name_zh": "「煙火邀星河」特許尋訪",
+      "name_ja": "特別スカウト「人煙の牽く天河」",
+      "kind": "chartered_headhunting",
+      "status": "upcoming",
+      "up": [
+        "Argent Flow"
+      ],
+      "up_characters": [
+        {
+          "id": "argent-flow",
+          "name": "明河",
+          "label": "Argent Flow"
+        }
+      ],
+      "start_text": "Nov. 5, 2026 at 12:00 (server time)",
+      "end_text": "Before version update and maintenance",
+      "start": null,
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "note": "写在 9560 的 New Headhunting 第 5 条。Rate-UP 6★ operator [Argent Flow]。繁中名来自同一公告 zh-tw/news/9560，日文名来自 ja-jp/news/9560。核对日 2026-10-19 还没到开始日，标 upcoming。结束语是版本更新维护前，没有钟点。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-19"
+    },
+    {
+      "id": "endfield-moongleam",
+      "name": "[Moongleam Issue] Arsenal Issue",
+      "name_zh": "「月映申領」武庫申領",
+      "name_ja": "武庫申請「月映・申請」",
+      "kind": "arsenal_issue",
+      "status": "upcoming",
+      "up": [
+        "Lunar Calling (Sword)"
+      ],
+      "up_characters": [],
+      "start_text": "Opens Nov. 5, 2026 at 12:00 (server time)",
+      "end_text": "ends after 3 [Chartered Headhunting] banners (starting from [The Hearth Fire Beckons the Starry Flow])",
+      "start": null,
+      "end": null,
+      "source": "https://endfield.gryphline.com/en-us/news/9560",
+      "note": "武器池，Rate-UP 是 6★ weapon [Lunar Calling (Sword)]，不是干员。写在 9560 的 New Headhunting 第 6 条。繁中名来自 zh-tw/news/9560，日文名来自 ja-jp/news/9560。结束条件公告没有写成钟点。",
+      "timezone": null,
+      "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
+      "as_of": "2026-10-19"
     },
     {
       "id": "endfield-resplendent-yvonne",
