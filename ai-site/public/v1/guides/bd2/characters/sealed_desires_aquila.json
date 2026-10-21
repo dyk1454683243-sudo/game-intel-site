@@ -1,0 +1,55 @@
+{
+  "id": "sealed_desires_aquila",
+  "name": "被封印的欲望阿奇拉",
+  "name_zh": "被封印的欲望阿奇拉",
+  "name_en": "Sealed Desires Aquila",
+  "aliases": [
+    "被封印的欲望 阿奇拉",
+    "封印的欲望阿奇拉",
+    "封印されし欲望 アクィラ"
+  ],
+  "nicknames": [],
+  "game": "bd2",
+  "element": "火",
+  "attack_type": "物理",
+  "skills": [
+    {
+      "name": "被封印的欲望阿奇拉",
+      "type": "active",
+      "costume": "被封印的欲望阿奇拉",
+      "summary": "+0：消耗 SP 5，冷却 5 回合。消耗自身当前生命力的95%，并使自身属性伤害在2回合内增加100%。为自身施加持续2回合的回复技能效果免疫。此效果不会因解除效果而消失。攻击敌人2次，每次造成相当于自身攻击力350%的物理伤害。+1 起消耗 SP 改为 4，冷却仍是 5 回合；两次攻击的物理伤害倍率依次为 +1 350%、+2 380%、+3 410%、+4 440%、+5 470%，其余句子与 +0 相同。目标：跳过。技能潜力：1 冷却时间 -2；2 属性伤害增加 +2 回合；3 伤害量 +30%。"
+    }
+  ],
+  "skill_prio": [],
+  "weapon": "噬血者",
+  "talent": null,
+  "costumes": [
+    {
+      "name": "被封印的欲望阿奇拉",
+      "type": null,
+      "skill": "被封印的欲望阿奇拉"
+    }
+  ],
+  "teams": {},
+  "sources": [
+    "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
+    "https://www.browndust2.com/zh-tw/news/view?id=01M5BJBTHKFW27WVS8PTRZ17NF",
+    "https://www.browndust2.com/en-us/news/view?id=01M590WZ7JMDQ4HDV0YQ8YST5M",
+    "https://www.browndust2.com/en-us/news/view?id=01M59683Y78VNQ9QWZDNXSVG8Y"
+  ],
+  "stub": true,
+  "as_of": "2026-10-21",
+  "verified": "简中维护公告 01M5BMB93HWJXD29P0GYAYE5AS 正文及其中的技能、爆发、噬血者配图",
+  "note": "这是阿奇拉的新服装，不是新的基础角色。原皮卡仍是 achila。公告技能表的表头是服装名「被封印的欲望阿奇拉（火）」，没有另印招式名，所以技能名沿用表头，不另起名字。爆发表同一张配图写：爆发 +1 消耗 SP 1，技能范围增加；爆发 +2 消耗 SP 1，对自身施加持续 2 回合的防御力和魔法抵抗力降低 50%，并施加持续 4 回合的增幅 200%；爆发 +3 消耗 SP 1，伤害量 +200%。专属装备配图写「噬血者」，专属能力攻击力 67；公告注明该段以首次获得 UR 噬血者为准。繁中公告的服装名是「封印的欲望阿奇拉」，装备名是「血之吞噬者」。英文公告的服装名是 Sealed Desires Aquila，装备名是 Blood Devourer。个人剧情活动名在简中、繁中和英文公告里都写作 Broken Bonds，没有另给译名。稀有度、定位、GameKee 梯度和配队这张配图都没有写。",
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "summary": {
+    "position": "火 / 物理",
+    "sources": [
+      "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS"
+    ],
+    "stub": true,
+    "caveat": "属性和物理伤害来自简中维护公告的技能配图表头与效果句。公告写详细数值以游戏内收藏集为准，这张卡只转写配图上能读到的句子。没有 GameKee 服装梯度，也没有配队句。不编造抽取建议或强度。"
+  }
+}

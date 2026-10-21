@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-21",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -25,9 +25,9 @@
       "id": "bd2",
       "name": "Brown Dust 2",
       "name_zh": "棕色尘埃2",
-      "character_count": 87,
+      "character_count": 88,
       "rich_count": 87,
-      "stub_count": 0,
+      "stub_count": 1,
       "path": "guides/bd2"
     },
     {

@@ -1600,6 +1600,11 @@
       "name": "菲欧妮",
       "kind": "character"
     },
+    "Phoenix Reffaella": {
+      "id": "phoenix",
+      "name": "菲欧妮",
+      "kind": "character"
+    },
     "菲欧妮·蕾法爱菈": {
       "id": "phoenix",
       "name": "菲欧妮",
@@ -1621,6 +1626,11 @@
       "kind": "character"
     },
     "赛维里安·洛威尔": {
+      "id": "severian",
+      "name": "赛维里安",
+      "kind": "character"
+    },
+    "塞维里安": {
       "id": "severian",
       "name": "赛维里安",
       "kind": "character"
