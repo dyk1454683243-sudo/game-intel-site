@@ -1,9 +1,11 @@
 {
   "game": "bd2",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-21",
   "sources": [
     "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
-    "https://dotgg.gg/brown-dust-2/%F0%9F%93%8B54th-developer-notes-october-update/"
+    "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
+    "https://www.browndust2.com/en-us/news/view?id=01M590WZ7JMDQ4HDV0YQ8YST5M",
+    "https://www.browndust2.com/en-us/news/view?id=01M59683Y78VNQ9QWZDNXSVG8Y"
   ],
   "banners": [
     {
@@ -36,22 +38,29 @@
       "kind": "costume",
       "status": "upcoming",
       "up": [
+        "被封印的欲望阿奇拉",
         "Sealed Desires Aquila"
       ],
       "up_characters": [
         {
+          "id": "sealed_desires_aquila",
+          "name": "被封印的欲望阿奇拉",
+          "costume": "被封印的欲望阿奇拉"
+        },
+        {
           "id": "achila",
           "name": "阿奇拉",
-          "costume": "Sealed Desires Aquila"
+          "costume": "被封印的欲望阿奇拉"
         }
       ],
       "start": "2026-10-22",
-      "start_text": "开发笔记写 Oct 22，没有钟点",
+      "start_text": "简中公告：2026年10月22日（周四）维护后。维护时间为当天上午 7:50～11:00。英文公告写 October 21, 11:50 PM (UTC) 维护结束后。",
       "end": null,
+      "end_text": "简中公告写到 2026年11月5日（周四）维护前。英文公告写 before the November 4 maintenance。两边都没有结束钟点。",
       "timezone": null,
-      "source": "https://dotgg.gg/brown-dust-2/%F0%9F%93%8B54th-developer-notes-october-update/",
-      "as_of": "2026-10-15",
-      "note": "DotGG 转载的第 54 期开发笔记（页头日期 October 2, 2026，Source: Neowiz）把这套服装和 Glupy Diner 有缘之客都标在 Oct 22。笔记正文没有把它写成带结束钟点的 Pickup。上一档官方 Pickup 帖写到 2026-10-22 08:50 KST。"
+      "source": "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
+      "as_of": "2026-10-21",
+      "note": "简中维护公告把「被封印的欲望阿奇拉」服装和阿奇拉的专属装备「噬血者」写成同一档 Pick Up。英文公告的服装名是 Sealed Desires Aquila，装备名是 Blood Devourer。个人剧情《Broken Bonds》在简中、繁中和英文公告里都沿用这个英文名。卡同时挂服装卡 sealed_desires_aquila 和原皮卡 achila：公告写这是阿奇拉的服装，原皮卡不并进这套技能。"
     }
   ]
 }

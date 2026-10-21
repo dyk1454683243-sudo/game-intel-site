@@ -2,11 +2,11 @@
   "game": "bd2",
   "name": "Brown Dust 2",
   "name_zh": "棕色尘埃2",
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "character_count": 87,
+  "character_count": 88,
   "rich_count": 87,
-  "stub_count": 0,
+  "stub_count": 1,
   "conclusion_stub_count": 0,
   "links": {
     "banners": "/v1/guides/bd2/banners.json",
@@ -798,6 +798,19 @@
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_279/h_429/50118/497891/2025/8/24/735967.png",
       "rarity": "5星"
+    },
+    {
+      "id": "sealed_desires_aquila",
+      "name": "被封印的欲望阿奇拉",
+      "name_zh": "被封印的欲望阿奇拉",
+      "stub": true,
+      "sources": [
+        "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
+        "https://www.browndust2.com/zh-tw/news/view?id=01M5BJBTHKFW27WVS8PTRZ17NF",
+        "https://www.browndust2.com/en-us/news/view?id=01M590WZ7JMDQ4HDV0YQ8YST5M",
+        "https://www.browndust2.com/en-us/news/view?id=01M59683Y78VNQ9QWZDNXSVG8Y"
+      ],
+      "portrait": null
     },
     {
       "id": "sha_he_la_cha_de",
