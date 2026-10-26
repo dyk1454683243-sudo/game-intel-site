@@ -2,11 +2,11 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Shanghai",
-  "character_count": 233,
+  "character_count": 236,
   "rich_count": 233,
-  "stub_count": 0,
+  "stub_count": 3,
   "conclusion_stub_count": 3,
   "links": {
     "banners": "/v1/guides/nikke/banners.json",
@@ -1748,6 +1748,16 @@
       "rarity": "SR"
     },
     {
+      "id": "marian-queen",
+      "name": "Marian: Queen",
+      "name_zh": "Marian: Queen",
+      "stub": true,
+      "sources": [
+        "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+      ],
+      "portrait": null
+    },
+    {
       "id": "mary",
       "name": "梅里",
       "name_zh": "梅里",
@@ -2586,6 +2596,16 @@
       "rarity": "SSR"
     },
     {
+      "id": "rapunzel-sanctuary",
+      "name": "Rapunzel: Sanctuary",
+      "name_zh": "Rapunzel: Sanctuary",
+      "stub": true,
+      "sources": [
+        "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+      ],
+      "portrait": null
+    },
+    {
       "id": "raven",
       "name": "Raven",
       "name_zh": "Raven",
@@ -2836,6 +2856,16 @@
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_310/h_402/1253/4408/2024/0/2/232983.png",
       "rarity": "SSR"
+    },
+    {
+      "id": "scarlet-goddeath",
+      "name": "Scarlet: Goddeath",
+      "name_zh": "Scarlet: Goddeath",
+      "stub": true,
+      "sources": [
+        "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+      ],
+      "portrait": null
     },
     {
       "id": "shen-fa",

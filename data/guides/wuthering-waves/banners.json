@@ -1,9 +1,10 @@
 {
   "game": "wuthering-waves",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-26",
   "timezone": null,
-  "timezone_note": "卡池公告写「伺服器時間」，没有写 UTC 偏移。同版本维护公告（5474）的维护钟点是 UTC+8，不套到卡池时刻上。3.7下半复刻名单以二手站互相矛盾，未收录洛瑟菈/琳奈等待定名单。",
+  "timezone_note": "卡池公告写「伺服器時間」，没有写 UTC 偏移。同版本维护公告（5474）的维护钟点是 UTC+8，不套到卡池时刻上。3.7 下半角色和武器名单以官方 5666 为准。",
   "sources": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5474",
@@ -14,7 +15,7 @@
       "id": "ww-37-xin",
       "name": "但願長圓如此夜",
       "kind": "resonator",
-      "status": "current",
+      "status": "ended",
       "up": [
         "心",
         "卜靈",
@@ -52,7 +53,7 @@
       "id": "ww-37-chisa",
       "name": "曙暮一線之間",
       "kind": "resonator",
-      "status": "current",
+      "status": "ended",
       "up": [
         "千咲",
         "卜靈",
@@ -90,7 +91,7 @@
       "id": "ww-37-iuno",
       "name": "漫於盈缺時軸",
       "kind": "resonator",
-      "status": "current",
+      "status": "ended",
       "up": [
         "尤諾",
         "卜靈",
@@ -128,7 +129,7 @@
       "id": "ww-37-weapon-yunque",
       "name": "玉闕玄華",
       "kind": "weapon",
-      "status": "current",
+      "status": "ended",
       "up": [
         "玉闕玄華"
       ],
@@ -145,7 +146,7 @@
       "id": "ww-37-weapon-tanqie",
       "name": "曇切",
       "kind": "weapon",
-      "status": "current",
+      "status": "ended",
       "up": [
         "曇切"
       ],
@@ -162,7 +163,7 @@
       "id": "ww-37-weapon-wanwu",
       "name": "萬物持存的註釋",
       "kind": "weapon",
-      "status": "current",
+      "status": "ended",
       "up": [
         "萬物持存的註釋"
       ],
@@ -179,38 +180,178 @@
       "id": "ww-37-suoming",
       "name": "余心所向九死未悔",
       "kind": "resonator",
-      "status": "upcoming",
+      "status": "current",
       "up": [
-        "鎖暝"
+        "鎖暝",
+        "燈燈",
+        "丹瑾",
+        "熾霞"
       ],
       "up_characters": [
         {
           "id": "suoming",
           "name": "鎖暝"
+        },
+        {
+          "id": "lumi",
+          "name": "燈燈"
+        },
+        {
+          "id": "danjin",
+          "name": "丹瑾"
+        },
+        {
+          "id": "chixia",
+          "name": "熾霞"
         }
       ],
-      "start": null,
-      "end": null,
-      "timezone": null,
-      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
-      "as_of": "2026-10-17",
-      "note": "3.7版本內容說明写鎖暝可通过该角色活动唤取获得，正文没有写这期唤取的起止钟点。不采用二手站的3.7下半复刻名单。"
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5562 只写锁暝可通过该角色活动唤取获得，没有钟点。5666 写 5 星「鎖暝」、4 星「燈燈」「丹瑾」「熾霞」，时间 2026年10月22日10:00 ~ 2026年11月11日11:59（伺服器時間）。"
+    },
+    {
+      "id": "ww-37-lucilla",
+      "name": "顯影於明日",
+      "kind": "resonator",
+      "status": "current",
+      "up": [
+        "洛瑟菈",
+        "燈燈",
+        "丹瑾",
+        "熾霞"
+      ],
+      "up_characters": [
+        {
+          "id": "lucilla",
+          "name": "洛瑟菈"
+        },
+        {
+          "id": "lumi",
+          "name": "燈燈"
+        },
+        {
+          "id": "danjin",
+          "name": "丹瑾"
+        },
+        {
+          "id": "chixia",
+          "name": "熾霞"
+        }
+      ],
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5666 写 5 星「洛瑟菈」，4 星与锁暝同一组。同一窗口。"
+    },
+    {
+      "id": "ww-37-lynae",
+      "name": "非定義光譜",
+      "kind": "resonator",
+      "status": "current",
+      "up": [
+        "琳奈",
+        "燈燈",
+        "丹瑾",
+        "熾霞"
+      ],
+      "up_characters": [
+        {
+          "id": "lynae",
+          "name": "琳奈"
+        },
+        {
+          "id": "lumi",
+          "name": "燈燈"
+        },
+        {
+          "id": "danjin",
+          "name": "丹瑾"
+        },
+        {
+          "id": "chixia",
+          "name": "熾霞"
+        }
+      ],
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5666 写 5 星「琳奈」，4 星与锁暝同一组。同一窗口。"
     },
     {
       "id": "ww-37-weapon-chenming",
       "name": "沉冥",
       "kind": "weapon",
-      "status": "upcoming",
+      "status": "current",
       "up": [
-        "沉冥"
+        "沉冥",
+        "行進序曲",
+        "悖論噴流",
+        "袍澤之固"
       ],
       "up_characters": [],
-      "start": null,
-      "end": null,
-      "timezone": null,
-      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
-      "as_of": "2026-10-17",
-      "note": "3.7版本內容說明写可通过「沉冥」武器活动唤取获得，正文没有写这期唤取的起止钟点。"
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5562 没有写钟点。5666 写 5 星武器「沉冥」，4 星武器「行進序曲」「悖論噴流」「袍澤之固」。武器池，up_characters 留空。"
+    },
+    {
+      "id": "ww-37-weapon-cunzhen",
+      "name": "存幀",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "存幀",
+        "行進序曲",
+        "悖論噴流",
+        "袍澤之固"
+      ],
+      "up_characters": [],
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5666 写 5 星武器「存幀」，4 星与沉冥同一组。武器池。"
+    },
+    {
+      "id": "ww-37-weapon-yicai",
+      "name": "溢彩熒輝",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "溢彩熒輝",
+        "行進序曲",
+        "悖論噴流",
+        "袍澤之固"
+      ],
+      "up_characters": [],
+      "start": "2026-10-22T10:00:00",
+      "start_text": "2026年10月22日10:00（伺服器時間）",
+      "end": "2026-11-11T11:59:00",
+      "end_text": "2026年11月11日11:59（伺服器時間）",
+      "timezone": "伺服器時間",
+      "source": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666",
+      "as_of": "2026-10-26",
+      "note": "5666 写 5 星武器「溢彩熒輝」，4 星与沉冥同一组。武器池。公告用字是熒，不是荧。"
     },
     {
       "id": "ww-36-hiyuki",

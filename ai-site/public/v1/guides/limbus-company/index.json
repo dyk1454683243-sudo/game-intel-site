@@ -2,11 +2,11 @@
   "game": "limbus-company",
   "name": "Limbus Company",
   "name_zh": "边狱公司",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Shanghai",
-  "character_count": 190,
+  "character_count": 192,
   "rich_count": 189,
-  "stub_count": 1,
+  "stub_count": 3,
   "conclusion_stub_count": 0,
   "links": {
     "banners": "/v1/guides/limbus-company/banners.json",
@@ -847,6 +847,24 @@
       "rarity": "000"
     },
     {
+      "id": "haute-couture-le-noir-3f-hong-lu",
+      "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
+      "name_zh": "오트쿠튀르::르누아르 3F 방송실 홍루",
+      "stub": true,
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+        "https://www.youtube.com/watch?v=jWYcZpYtdls"
+      ],
+      "portrait": null,
+      "sinner": {
+        "id": "hong-lu",
+        "name_en": "Hong Lu",
+        "name_zh": "鸿璐",
+        "order": 6
+      },
+      "rarity": "000"
+    },
+    {
       "id": "haute-couture-le-noir-brand-manager-don-quixote",
       "name": "Haute Couture::Le Noir Brand Manager Don Quixote",
       "name_zh": "Haute Couture::Le Noir Brand Manager Don Quixote",
@@ -885,6 +903,24 @@
         "name_en": "Ryōshū",
         "name_zh": "良秀",
         "order": 4
+      },
+      "rarity": "000"
+    },
+    {
+      "id": "haute-couture-le-rouge-heathcliff",
+      "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+      "name_zh": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+      "stub": true,
+      "sources": [
+        "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+        "https://www.youtube.com/watch?v=jWYcZpYtdls"
+      ],
+      "portrait": null,
+      "sinner": {
+        "id": "heathcliff",
+        "name_en": "Heathcliff",
+        "name_zh": "希斯克利夫",
+        "order": 7
       },
       "rarity": "000"
     },

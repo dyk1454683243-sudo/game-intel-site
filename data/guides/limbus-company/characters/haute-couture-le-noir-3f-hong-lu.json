@@ -1,0 +1,42 @@
+{
+  "id": "haute-couture-le-noir-3f-hong-lu",
+  "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
+  "name_zh": null,
+  "name_en": null,
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "hong-lu",
+    "name_en": "Hong Lu",
+    "name_zh": "鸿璐",
+    "order": 6,
+    "source": "https://www.gamekee.com/limbus/585802.html"
+  },
+  "rarity": "000",
+  "role": null,
+  "sin_affinities": [],
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+    "https://www.youtube.com/watch?v=jWYcZpYtdls"
+  ],
+  "stub": true,
+  "as_of": "2026-10-26",
+  "prydwen_slug": null,
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "同一则 Steam 公告里的 PV。YouTube 标题在斜线后写 [000] 오트쿠튀르::르누아르 3F 방송실 홍루。标题没有英文身份名，不自译。不收录技能数值。",
+  "verified": "Steam news 667254131059070030 与其中的 YouTube oEmbed 标题，as_of 2026-10-26",
+  "summary": {
+    "position": "000 / Hong Lu",
+    "sources": [
+      "https://www.youtube.com/watch?v=jWYcZpYtdls"
+    ],
+    "stub": true,
+    "caveat": "稀有度 [000] 和罪人来自官方 PV 标题。技能、罪业和梯度都没有在公告正文里写出。不编造。"
+  }
+}

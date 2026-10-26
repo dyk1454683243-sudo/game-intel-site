@@ -1,8 +1,8 @@
 {
   "_meta": {
     "game": "limbus-company",
-    "as_of": "2026-10-17",
-    "note": "Prydwen identity slug and display name. Sinner Chinese names are not aliases: one sinner has many identities."
+    "as_of": "2026-10-26",
+    "note": "Prydwen identity slug and display name. Sinner Chinese names are not aliases: one sinner has many identities. 2026-10-26 追加两张只有韩文 PV 标题的人格，不自译英文名。"
   },
   "aliases": {
     "blade-lineage-salsu-yi-sang": {
@@ -1903,6 +1903,26 @@
     "Zwei Association South Section 4 Gregor": {
       "id": "zwei-association-south-section-4-gregor",
       "name": "Zwei Association South Section 4 Gregor",
+      "kind": "character"
+    },
+    "haute-couture-le-rouge-heathcliff": {
+      "id": "haute-couture-le-rouge-heathcliff",
+      "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+      "kind": "character"
+    },
+    "오트쿠튀르::르루주 바느질의 왕 히스클리프": {
+      "id": "haute-couture-le-rouge-heathcliff",
+      "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+      "kind": "character"
+    },
+    "haute-couture-le-noir-3f-hong-lu": {
+      "id": "haute-couture-le-noir-3f-hong-lu",
+      "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
+      "kind": "character"
+    },
+    "오트쿠튀르::르누아르 3F 방송실 홍루": {
+      "id": "haute-couture-le-noir-3f-hong-lu",
+      "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
       "kind": "character"
     }
   }

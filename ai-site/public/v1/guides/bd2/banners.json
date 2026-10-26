@@ -1,7 +1,9 @@
 {
   "game": "bd2",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "sources": [
+    "https://www.browndust2.com/zh-cn/news/view?id=01M5GRSE8DY36ARPY7TPNP5APK",
+    "https://www.browndust2.com/zh-cn/news/view?id=01M5BMYM5C1PKMNZS0PG7A1QQ1",
     "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
     "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
     "https://www.browndust2.com/en-us/news/view?id=01M590WZ7JMDQ4HDV0YQ8YST5M",
@@ -12,7 +14,7 @@
       "id": "bd2-unraveling-mummy-nekyndalia",
       "name": "Pickup Unraveling Mummy Nekyndalia",
       "kind": "pickup",
-      "status": "current",
+      "status": "ended",
       "up": [
         "Unraveling Mummy Nekyndalia"
       ],
@@ -29,14 +31,14 @@
       "end_text": "Oct 22, 8:50 AM (KST)",
       "timezone": "Asia/Seoul",
       "source": "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
-      "as_of": "2026-10-15",
-      "note": "可访问转载页原文为 @BROWNDUST2_EN 2026-10-08 03:05 的帖。开发笔记把同名服装标在 Oct 8。"
+      "as_of": "2026-10-26",
+      "note": "可访问转载页原文为 @BROWNDUST2_EN 2026-10-08 03:05 的帖。开发笔记把同名服装标在 Oct 8。结束时间是该帖的 Oct 22, 8:50 AM (KST)。10/22 活动公告列出的是被封印的欲望阿奇拉和使徒墨菲亚，没有再列这套服装。"
     },
     {
       "id": "bd2-sealed-desires-aquila",
       "name": "Sealed Desires Aquila",
       "kind": "costume",
-      "status": "upcoming",
+      "status": "current",
       "up": [
         "被封印的欲望阿奇拉",
         "Sealed Desires Aquila"
@@ -58,9 +60,33 @@
       "end": null,
       "end_text": "简中公告写到 2026年11月5日（周四）维护前。英文公告写 before the November 4 maintenance。两边都没有结束钟点。",
       "timezone": null,
-      "source": "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
-      "as_of": "2026-10-21",
-      "note": "简中维护公告把「被封印的欲望阿奇拉」服装和阿奇拉的专属装备「噬血者」写成同一档 Pick Up。英文公告的服装名是 Sealed Desires Aquila，装备名是 Blood Devourer。个人剧情《Broken Bonds》在简中、繁中和英文公告里都沿用这个英文名。卡同时挂服装卡 sealed_desires_aquila 和原皮卡 achila：公告写这是阿奇拉的服装，原皮卡不并进这套技能。"
+      "source": "https://www.browndust2.com/zh-cn/news/view?id=01M5BMYM5C1PKMNZS0PG7A1QQ1",
+      "as_of": "2026-10-26",
+      "note": "简中维护公告把「被封印的欲望阿奇拉」服装和阿奇拉的专属装备「噬血者」写成同一档 Pick Up。英文公告的服装名是 Sealed Desires Aquila，装备名是 Blood Devourer。个人剧情《Broken Bonds》在简中、繁中和英文公告里都沿用这个英文名。卡同时挂服装卡 sealed_desires_aquila 和原皮卡 achila：公告写这是阿奇拉的服装，原皮卡不并进这套技能。10/22 完成公告写定期维护已经完成、可以登录。同日活动公告写这档 Pick Up 活动任务在维护后到 11 月 5 日维护前进行。"
+    },
+    {
+      "id": "bd2-apostle-morpeah",
+      "name": "使徒墨菲亚",
+      "kind": "rerun",
+      "status": "current",
+      "up": [
+        "使徒墨菲亚"
+      ],
+      "up_characters": [
+        {
+          "id": "mo_fei_ya",
+          "name": "墨菲亚",
+          "costume": "使徒"
+        }
+      ],
+      "start": "2026-10-22",
+      "start_text": "2026年10月22日（周四）维护后",
+      "end": null,
+      "end_text": "2026年11月5日（周四）维护前",
+      "timezone": null,
+      "source": "https://www.browndust2.com/zh-cn/news/view?id=01M5BMYM5C1PKMNZS0PG7A1QQ1",
+      "as_of": "2026-10-26",
+      "note": "10/22 活动公告写【复刻】使徒墨菲亚 Pick Up 活动任务，期间与被封印的欲望阿奇拉相同：维护后到 2026年11月5日（周四）维护前。没有结束钟点。服装名按公告写「使徒」，挂在原皮卡 mo_fei_ya。"
     }
   ]
 }

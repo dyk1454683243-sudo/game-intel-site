@@ -91,7 +91,7 @@ test("published JSON highlights UP, rerun, new codes, and expiring codes", async
   assert.ok(code.marks.includes("expiring"));
   assert.equal(code.days_left, 15);
   const mummy = doc.highlights.banners.find((row) => row.matched.some((item) => item.id === "nevendaria"));
-  assert.equal(mummy.status, "current");
+  assert.equal(mummy.status, "ended");
   assert.equal(mummy.matched[0].mark, "up");
   const emilia = doc.highlights.banners.find((row) => row.id === "hw-2026-10-08-rerun");
   assert.equal(emilia.matched.find((item) => item.id === "ai_mi_li_ya").mark, "rerun");

@@ -1,15 +1,44 @@
 {
   "game": "limbus-company",
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Seoul",
   "timezone_note": "公告写 KST。Asia/Seoul 与 UTC+9 同一偏移，没有夏令时。起止时间来自 Steam 公告图片里的文字，不是另行推算。",
   "sources": [
+    "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+    "https://www.youtube.com/watch?v=jWYcZpYtdls",
     "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
     "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
     "https://store.steampowered.com/news/app/1973530/view/1844115010500798",
     "https://store.steampowered.com/news/app/1973530/view/1843481262701165"
   ],
   "banners": [
+    {
+      "id": "limbus-2026-10-22-haute-couture",
+      "name": "2026.10.22 (KST) New Identity Target Extraction",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+        "오트쿠튀르::르누아르 3F 방송실 홍루"
+      ],
+      "up_characters": [
+        {
+          "id": "haute-couture-le-rouge-heathcliff",
+          "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프"
+        },
+        {
+          "id": "haute-couture-le-noir-3f-hong-lu",
+          "name": "오트쿠튀르::르누아르 3F 방송실 홍루"
+        }
+      ],
+      "start": "2026-10-22",
+      "start_text": "2026.10.22 (KST)",
+      "end": null,
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+      "as_of": "2026-10-26",
+      "note": "Steam 公告标题是 2026.10.22 (KST) New Identity Target Extraction。正文只有官方 PV https://www.youtube.com/watch?v=jWYcZpYtdls ，没有结束钟点，也不把 10/22 维护的 10:00–12:00 收成开始钟点。两个 UP 名是该 PV 的 YouTube 标题原文，频道为 Project Moon Official。不把韩文标题自译成英文身份名。"
+    },
     {
       "id": "limbus-2026-10-15-haute-couture-sinclair",
       "name": "New Identity Target Extraction: Haute Couture::The Crimson God of Le Rouge Sinclair",

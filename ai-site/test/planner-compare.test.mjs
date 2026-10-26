@@ -127,7 +127,7 @@ test("published timeline keeps current and future banners and skips unstated pit
 
   const zzz = doc.games.find((game) => game.game === "zenless-zone-zero");
   const phoenix = zzz.banners.find((row) => row.id === "zzz-3.3-phoenix-velina");
-  assert.equal(phoenix.status, "upcoming");
+  assert.equal(phoenix.status, "current");
   assert.equal(phoenix.start, null);
   assert.equal(phoenix.days_until_start, null);
   assert.equal(phoenix.end, "2026-11-11");
@@ -152,7 +152,7 @@ test("published timeline keeps current and future banners and skips unstated pit
 
   const hw = doc.games.find((game) => game.game === "hw");
   assert.equal(hw.timeline_only, true);
-  assert.equal(hw.banners.find((row) => row.id === "hw-2026-10-08-rerun").days_until_end, daysUntil(DAY, "2026-10-22"));
+  assert.equal(hw.banners.find((row) => row.id === "hw-2026-10-22-mu-yingying").days_until_end, daysUntil(DAY, "2026-11-05"));
 
   const withResources = applyResources(doc, { "reverse-1999": 4 });
   const priced = withResources.games.find((game) => game.game === "reverse-1999").banners.find((row) => row.id === "cn-2026-10-15-drake");

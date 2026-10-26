@@ -18,10 +18,10 @@
     "https://www.prydwen.gg/wuthering-waves/characters/suoming",
     "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
     "https://wutheringwaves.kurogames.com/en/main/news/detail/5625",
-    "https://game8.jp/meicho/608916"
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666"
   ],
   "stub": true,
-  "as_of": "2026-08-28",
+  "as_of": "2026-10-26",
   "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp",
   "portrait_source": "https://www.prydwen.gg/wuthering-waves/characters/suoming",
   "portrait_via": "prydwen-character:suoming",
@@ -31,10 +31,10 @@
       "https://www.prydwen.gg/wuthering-waves/characters/suoming",
       "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
       "https://wutheringwaves.kurogames.com/en/main/news/detail/5625",
-      "https://game8.jp/meicho/608916"
+      "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666"
     ],
     "stub": true,
-    "caveat": "Prydwen 角色页 Last updated 2026-08-28 写 teams are currently missing，Ratings 没有 Tower of Adversity / Whimpering Wastes 梯度。不编造。 Game8 同一页（最终更新 2026-10-18）写「鎖暝は10月22日(木)〜実装？」，并写日期是从活动日程推测的。没有写出梯度。不收录予想。",
+    "caveat": "Prydwen 角色页 Last updated 2026-08-28 写 teams are currently missing，Ratings 没有 Tower of Adversity / Whimpering Wastes 梯度。不编造。卡池窗口改以官方 5666 为准：2026年10月22日10:00 ~ 2026年11月11日11:59（伺服器時間）。不再引用 Game8 的推测日期。",
     "position": "5★ / Electro / Sword"
   }
 }
