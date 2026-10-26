@@ -1,0 +1,34 @@
+{
+  "id": "rapunzel-sanctuary",
+  "name": "Rapunzel: Sanctuary",
+  "name_zh": null,
+  "name_en": "Rapunzel: Sanctuary",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+  ],
+  "stub": true,
+  "as_of": "2026-10-26",
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "同一则新闻稿写 Rapunzel: Sanctuary (FREE SSR)，玩家可以通过周年活动领取最多 4 份。没有写成特殊招募，也没有写活动的起止钟点、代码、职业或武器。技能留空。",
+  "verified": "Level Infinite press release 2026-10-24",
+  "summary": {
+    "position": "FREE SSR / anniversary events",
+    "sources": [
+      "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+    ],
+    "stub": true,
+    "caveat": "新闻稿写她是免费 SSR，周年活动最多领 4 份。没有技能、梯度或兑换码。不把活动领取写成卡池。"
+  }
+}

@@ -2,7 +2,7 @@
   "game": "wuthering-waves",
   "name": "Wuthering Waves",
   "name_zh": "鸣潮",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Shanghai",
   "character_count": 61,
   "rich_count": 59,
@@ -636,7 +636,7 @@
         "https://www.prydwen.gg/wuthering-waves/characters/suoming",
         "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
         "https://wutheringwaves.kurogames.com/en/main/news/detail/5625",
-        "https://game8.jp/meicho/608916"
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5666"
       ],
       "portrait": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp",
       "rarity": "5★"

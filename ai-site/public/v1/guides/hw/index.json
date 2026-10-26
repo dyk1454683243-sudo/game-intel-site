@@ -2,10 +2,10 @@
   "game": "hw",
   "name": "Horizon Walker",
   "name_zh": "地平线行者",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Shanghai",
-  "character_count": 72,
-  "rich_count": 72,
+  "character_count": 73,
+  "rich_count": 73,
   "stub_count": 0,
   "conclusion_stub_count": 11,
   "links": {
@@ -458,6 +458,17 @@
         "https://www.gamekee.com/hw/634168.html"
       ],
       "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_1000/h_1300/50448/236746/2025/2/10/651910.png"
+    },
+    {
+      "id": "mu_ying_ying",
+      "name": "沐瑛英",
+      "name_zh": "沐瑛英",
+      "stub": false,
+      "sources": [
+        "https://www.gamekee.com/hw/725115.html",
+        "https://store.steampowered.com/news/app/3279780/view/707786527706447905"
+      ],
+      "portrait": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/50448/images/w_1000/h_1300/157597/2026/9/22/84612662mvje3nib.png"
     },
     {
       "id": "na_li",

@@ -1,16 +1,77 @@
 {
   "game": "hw",
-  "as_of": "2026-10-15",
-  "timezone_note": "Steam 公告写了日期和钟点，没有写时区。下面的 start/end 只保留公告原文，不补 KST 或 UTC。",
+  "as_of": "2026-10-26",
+  "timezone_note": "10/8 及更早的 Steam 公告写了日期和钟点，没有写时区，那些条目不补 KST。10/22 英文维护公告的搜寻结束钟点写了 KST，对应条目单独标 timezone。",
   "sources": [
+    "https://store.steampowered.com/news/app/3279780/view/707786527706447905",
     "https://steamcommunity.com/app/3279780/announcements/?l=tchinese"
   ],
   "banners": [
     {
+      "id": "hw-2026-10-22-mu-yingying",
+      "name": "Thunderclap Guardian, Mu Yingying",
+      "kind": "special",
+      "status": "current",
+      "up": [
+        "Thunderclap Guardian, Mu Yingying"
+      ],
+      "up_characters": [
+        {
+          "id": "mu_ying_ying",
+          "name": "沐瑛英",
+          "label": "Thunderclap Guardian, Mu Yingying"
+        }
+      ],
+      "start_text": "Oct 22, 2026 (Thu) after maintenance",
+      "end_text": "Nov 5, 2026 (Thu) 10:00 KST",
+      "start": "2026-10-22",
+      "end": "2026-11-05T10:00:00",
+      "timezone": "KST",
+      "source": "https://store.steampowered.com/news/app/3279780/view/707786527706447905",
+      "as_of": "2026-10-26",
+      "note": "10/22 英文维护公告写这是两段 Special Search 之一。维护时间 09:00–12:00 (KST)，开始写 after maintenance，不把维护窗口收成开始钟点。GameKee 图鉴角色名是沐瑛英，称号是雷鸣守望者。结束钟点公告写 10:00 KST。"
+    },
+    {
+      "id": "hw-2026-10-22-es01",
+      "name": "Tactical Suppression Gear – ES01",
+      "kind": "weapon",
+      "status": "current",
+      "up": [
+        "Tactical Suppression Gear – ES01"
+      ],
+      "up_characters": [],
+      "start_text": "Oct 22, 2026 (Thu) after maintenance",
+      "end_text": "Nov 5, 2026 (Thu) 10:00 KST",
+      "start": "2026-10-22",
+      "end": "2026-11-05T10:00:00",
+      "timezone": "KST",
+      "source": "https://store.steampowered.com/news/app/3279780/view/707786527706447905",
+      "as_of": "2026-10-26",
+      "note": "同一则公告里的第二段 Special Search，和沐瑛英共用一个期间。公告写 Rank EX，类型 Blunt Weapon & Shield。不是角色。"
+    },
+    {
+      "id": "hw-2026-10-22-fleure",
+      "name": "Fleure de Vanité 92",
+      "kind": "rerun",
+      "status": "current",
+      "up": [
+        "Fleure de Vanité 92"
+      ],
+      "up_characters": [],
+      "start_text": "Oct 22, 2026 (Thu) after maintenance",
+      "end_text": "Nov 5, 2026 (Thu) 10:00 KST",
+      "start": "2026-10-22",
+      "end": "2026-11-05T10:00:00",
+      "timezone": "KST",
+      "source": "https://store.steampowered.com/news/app/3279780/view/707786527706447905",
+      "as_of": "2026-10-26",
+      "note": "公告写 1 Rerun Search begins: Fleure de Vanité 92。没有把它写成角色名，现有图鉴卡对不上，up_characters 留空。"
+    },
+    {
       "id": "hw-2026-10-08-rerun",
       "name": "4种复刻搜寻",
       "kind": "rerun",
-      "status": "current",
+      "status": "ended",
       "up": [
         "終末之果 艾米莉亞",
         "賽里歐爾：醫療鎚",
@@ -29,9 +90,9 @@
       "start": "2026-10-08",
       "end": "2026-10-22T10:00:00",
       "timezone": null,
-      "source": "https://steamcommunity.com/app/3279780/announcements/?l=tchinese",
-      "as_of": "2026-10-15",
-      "note": "10/8 定期维护更新公告。医疗锤、JK220 阿尔忒弥斯、SS4-修改型按公告原文收录，公告没有把它们写成角色名。"
+      "source": "https://store.steampowered.com/news/app/3279780/view/707786527706447905",
+      "as_of": "2026-10-26",
+      "note": "10/8 定期维护更新公告。医疗锤、JK220 阿尔忒弥斯、SS4-修改型按公告原文收录，公告没有把它们写成角色名。10/22 英文维护公告写这四段搜寻已经结束；横幅再额外显示一周并移除 FairyNet Search 按钮，期间只能查看搜寻结果。额外一周的结束钟点仍没有写。"
     },
     {
       "id": "hw-2026-09-23-garud",

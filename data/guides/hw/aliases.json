@@ -1,8 +1,8 @@
 {
   "_meta": {
     "game": "hw",
-    "note": "Nickname → canonical id/name for Horizon Walker. Prefer GameKee 图鉴 names. Skip uncertain whale nicknames (白鲸/奶鲸). Auto-merged catalog names 2026-09; community nick patch 2026-09-18 (白金/水猫/冰女; 吉吉/妮姆赛→gigi). Garud/迦露德 aliases 2026-09-25. Mercenary aliases 2026-10-15 from GameKee pid 163310 and the 2026-10-08 Steam recruitment list.",
-    "as_of": "2026-10-15"
+    "note": "Nickname → canonical id/name for Horizon Walker. Prefer GameKee 图鉴 names. Skip uncertain whale nicknames (白鲸/奶鲸). Auto-merged catalog names 2026-09; community nick patch 2026-09-18 (白金/水猫/冰女; 吉吉/妮姆赛→gigi). Garud/迦露德 aliases 2026-09-25. Mercenary aliases 2026-10-15 from GameKee pid 163310 and the 2026-10-08 Steam recruitment list. 沐瑛英 aliases 2026-10-26 from GameKee hw/725115 and the Oct 22 Steam patch note.",
+    "as_of": "2026-10-26"
   },
   "aliases": {
     "修女": {
@@ -901,6 +901,26 @@
     "di_guo_mo_fa_bing_shi": {
       "id": "di_guo_mo_fa_bing_shi",
       "name": "帝国魔法兵士",
+      "kind": "character"
+    },
+    "沐瑛英": {
+      "id": "mu_ying_ying",
+      "name": "沐瑛英",
+      "kind": "character"
+    },
+    "雷鸣守望者": {
+      "id": "mu_ying_ying",
+      "name": "沐瑛英",
+      "kind": "character"
+    },
+    "Mu Yingying": {
+      "id": "mu_ying_ying",
+      "name": "沐瑛英",
+      "kind": "character"
+    },
+    "mu_ying_ying": {
+      "id": "mu_ying_ying",
+      "name": "沐瑛英",
       "kind": "character"
     }
   }

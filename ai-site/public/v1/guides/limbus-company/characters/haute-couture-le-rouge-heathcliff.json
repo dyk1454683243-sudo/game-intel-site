@@ -1,0 +1,42 @@
+{
+  "id": "haute-couture-le-rouge-heathcliff",
+  "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+  "name_zh": null,
+  "name_en": null,
+  "aliases": [],
+  "game": "limbus-company",
+  "kind": "identity",
+  "sinner": {
+    "id": "heathcliff",
+    "name_en": "Heathcliff",
+    "name_zh": "希斯克利夫",
+    "order": 7,
+    "source": "https://www.gamekee.com/limbus/585803.html"
+  },
+  "rarity": "000",
+  "role": null,
+  "sin_affinities": [],
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
+    "https://www.youtube.com/watch?v=jWYcZpYtdls"
+  ],
+  "stub": true,
+  "as_of": "2026-10-26",
+  "prydwen_slug": null,
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "Steam 2026-10-22 目标提取公告正文只有 Project Moon Official 的 PV。YouTube 标题写 [000] 오트쿠튀르::르루주 바느질의 왕 히스클리프。标题没有英文身份名，不自译。PV 画面没有逐字收录技能数值。",
+  "verified": "Steam news 667254131059070030 与其中的 YouTube oEmbed 标题，as_of 2026-10-26",
+  "summary": {
+    "position": "000 / Heathcliff",
+    "sources": [
+      "https://www.youtube.com/watch?v=jWYcZpYtdls"
+    ],
+    "stub": true,
+    "caveat": "稀有度 [000] 和罪人来自官方 PV 标题。技能、罪业和梯度都没有在公告正文里写出。不编造。"
+  }
+}

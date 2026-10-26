@@ -1,0 +1,34 @@
+{
+  "id": "marian-queen",
+  "name": "Marian: Queen",
+  "name_zh": null,
+  "name_en": "Marian: Queen",
+  "aliases": [],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+  ],
+  "stub": true,
+  "as_of": "2026-10-26",
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "Level Infinite 2026-10-24 新闻稿写 4 周年更新于 October 29 全球上线，并介绍可玩角色 Marian: Queen。稿子没有写代码、职业、武器或特殊招募起止钟点。简中名和日文名这则稿子没有写。技能留空。",
+  "verified": "Level Infinite press release 2026-10-24",
+  "summary": {
+    "position": "playable / October 29 update",
+    "sources": [
+      "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+    ],
+    "stub": true,
+    "caveat": "新闻稿只写她会在 10 月 29 日的 4 周年更新里作为可玩角色登场，并给了一句剧情介绍。没有招募窗口、技能或梯度。不编造。"
+  }
+}

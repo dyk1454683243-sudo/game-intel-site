@@ -1,0 +1,36 @@
+{
+  "id": "scarlet-goddeath",
+  "name": "Scarlet: Goddeath",
+  "name_zh": null,
+  "name_en": "Scarlet: Goddeath",
+  "aliases": [
+    "Hongryeon: Goddeath"
+  ],
+  "nicknames": [],
+  "game": "nikke",
+  "role": null,
+  "skills": [],
+  "skill_prio": [],
+  "weapon": null,
+  "element": null,
+  "manufacturer": null,
+  "teams": {},
+  "sources": [
+    "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+  ],
+  "stub": true,
+  "as_of": "2026-10-26",
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "同一则 2026-10-24 新闻稿正文写 Scarlet: Goddeath，并写她是 Hongryeon 的强化形态。标题把同一人写成 Hongryeon: Goddeath。没有写代码、职业、武器或特殊招募起止钟点。技能留空。",
+  "verified": "Level Infinite press release 2026-10-24",
+  "summary": {
+    "position": "playable / October 29 update",
+    "sources": [
+      "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
+    ],
+    "stub": true,
+    "caveat": "新闻稿把她列为 10 月 29 日更新的可玩角色。正文名是 Scarlet: Goddeath，标题另写 Hongryeon: Goddeath。没有招募窗口、技能或梯度。不编造。"
+  }
+}

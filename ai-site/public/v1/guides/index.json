@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-26",
   "timezone": "Asia/Shanghai",
   "note": "Every watchlist game gets guides/{game}; human HTML + AI JSON from the same export. Never invent skill names/numbers; stub:true until GameKee/Bahamut verified.",
   "games": [
@@ -34,8 +34,8 @@
       "id": "hw",
       "name": "Horizon Walker",
       "name_zh": "地平线行者",
-      "character_count": 72,
-      "rich_count": 72,
+      "character_count": 73,
+      "rich_count": 73,
       "stub_count": 0,
       "path": "guides/hw"
     },
@@ -43,9 +43,9 @@
       "id": "limbus-company",
       "name": "Limbus Company",
       "name_zh": "边狱公司",
-      "character_count": 190,
+      "character_count": 192,
       "rich_count": 189,
-      "stub_count": 1,
+      "stub_count": 3,
       "path": "guides/limbus-company"
     },
     {
@@ -70,9 +70,9 @@
       "id": "nikke",
       "name": "NIKKE",
       "name_zh": "胜利女神：NIKKE",
-      "character_count": 233,
+      "character_count": 236,
       "rich_count": 233,
-      "stub_count": 0,
+      "stub_count": 3,
       "path": "guides/nikke"
     },
     {
