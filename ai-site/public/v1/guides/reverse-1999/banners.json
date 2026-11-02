@@ -1,6 +1,6 @@
 {
   "game": "reverse-1999",
-  "as_of": "2026-10-17",
+  "as_of": "2026-11-02",
   "timezone_note": "国服条目来自认证账号「重返未来：1999官方微博」在新浪新闻的可访问镜像。正文写了月/日和钟点，没有写年份和时区。下面的 start/end 用帖文发布时间所在的 2026 年，不补 UTC+8。国际服条目来自 Bluepoch 的 Steam 公告，正文写了 UTC-5。国服 4.0 与国际服 3.8 不是同一套卡池。",
   "sources": [
     "https://re.bluepoch.com/",
@@ -11,7 +11,9 @@
     "https://www.sina.cn/news/detail/5352803225567718.html",
     "https://www.sina.cn/news/detail/5346974812604161.html",
     "https://www.sina.cn/news/detail/5347820388221101.html",
-    "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818"
+    "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
+    "https://game.xiaomi.com/viewpoint/1501612237_1792941525148_16",
+    "https://www.sina.cn/media/7600886366"
   ],
   "banners": [
     {
@@ -185,7 +187,7 @@
       "id": "cn-2026-10-13-kiperina",
       "name": "零重力漫游",
       "kind": "rotation",
-      "status": "current",
+      "status": "ended",
       "server": "cn",
       "up": [
         "库珀花环（星，6星）",
@@ -215,8 +217,45 @@
       "end": "2026-10-27T04:59:00",
       "timezone": null,
       "source": "https://www.sina.cn/news/detail/5352803225567718.html",
-      "as_of": "2026-10-17",
-      "note": "轮换征集，属于限时角色征集，保底与同类共享。帖文写将于「往昔应我声」结束后开启。"
+      "as_of": "2026-11-02",
+      "note": "轮换征集，属于限时角色征集，保底与同类共享。帖文写将于「往昔应我声」结束后开启。核对日 2026-11-02 已过结束时间 10/27 4:59。下一则「明日之础」写将于「零重力漫游」结束后开启。"
+    },
+    {
+      "id": "cn-2026-10-27-cornerstone",
+      "name": "明日之础",
+      "kind": "rotation",
+      "status": "current",
+      "server": "cn",
+      "up": [
+        "奠基石（岩，6星）",
+        "五色月（木，5星）",
+        "宽檐帽（岩，5星）"
+      ],
+      "up_characters": [
+        {
+          "id": "cornerstone",
+          "name": "奠基石",
+          "label": "奠基石（岩）"
+        },
+        {
+          "id": "satsuki",
+          "name": "五色月",
+          "label": "五色月（木）"
+        },
+        {
+          "id": "brimley",
+          "name": "宽檐帽",
+          "label": "宽檐帽（岩）"
+        }
+      ],
+      "start_text": "10/27 5:00",
+      "end_text": "11/10 4:59",
+      "start": "2026-10-27T05:00:00",
+      "end": "2026-11-10T04:59:00",
+      "timezone": null,
+      "source": "https://game.xiaomi.com/viewpoint/1501612237_1792941525148_16",
+      "as_of": "2026-11-02",
+      "note": "国服轮换征集。新浪认证账号镜像 https://www.sina.cn/media/7600886366 的 2026-10-25 18:00 帖写到「宽檐帽（」被截断。小米游戏中心转载同一则预告，补全宽檐帽（岩），并写轮换征集属于限时角色征集，保底与同类共享。年份按帖文 2026。没有时区。核对日 2026-11-02 已过 10/27 5:00，标 current。奠基石挂国际服卡 cornerstone。"
     },
     {
       "id": "cn-2026-09-25-beryl",

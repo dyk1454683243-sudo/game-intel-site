@@ -1,34 +1,38 @@
 {
   "id": "rapunzel-sanctuary",
-  "name": "Rapunzel: Sanctuary",
-  "name_zh": null,
+  "name": "长发公主：圣域",
+  "name_zh": "长发公主：圣域",
   "name_en": "Rapunzel: Sanctuary",
-  "aliases": [],
+  "aliases": [
+    "長髮公主：聖域"
+  ],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "辅助型",
   "skills": [],
   "skill_prio": [],
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "圣恩（RL）",
+  "element": "燃烧",
+  "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
+    "https://nikke.hotcool.tw/News_detail-237",
     "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
   ],
   "stub": true,
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "portrait": null,
   "portrait_source": null,
   "portrait_via": null,
-  "note": "同一则新闻稿写 Rapunzel: Sanctuary (FREE SSR)，玩家可以通过周年活动领取最多 4 份。没有写成特殊招募，也没有写活动的起止钟点、代码、职业或武器。技能留空。",
-  "verified": "Level Infinite press release 2026-10-24",
+  "note": "台服公告名【長髮公主：聖域】。职业辅助型，武器聖恩（RL），代码燃烧，企业朝圣者。可取得时间：2026年10月29日更新维护结束后～2026年11月19日4:59:59（UTC+9）。取得途径是剧情活动 MARIA-n、14 日签到和 4TH ANNIVERSARY，不写成卡池。技能留空。英文名 Rapunzel: Sanctuary 仍来自新闻稿。没有日文名。",
+  "verified": "nikke.hotcool.tw News_detail-237，2026-11-02",
   "summary": {
-    "position": "FREE SSR / anniversary events",
+    "position": "辅助型 / 燃烧 / 朝圣者 / 活动领取",
     "sources": [
+      "https://nikke.hotcool.tw/News_detail-237",
       "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
     ],
     "stub": true,
-    "caveat": "新闻稿写她是免费 SSR，周年活动最多领 4 份。没有技能、梯度或兑换码。不把活动领取写成卡池。"
+    "caveat": "台服公告写她通过剧情活动 MARIA-n、14 日签到和 4TH ANNIVERSARY 取得，不是特殊招募。没有技能名和数值。不编造梯度。"
   }
 }

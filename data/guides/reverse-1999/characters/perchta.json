@@ -1,0 +1,30 @@
+{
+  "id": "perchta",
+  "name": "佩施塔",
+  "name_zh": "佩施塔",
+  "name_en": "Perchta",
+  "aliases": [],
+  "nicknames": [],
+  "game": "reverse-1999",
+  "skills": [],
+  "skill_prio": [],
+  "teams": {},
+  "sources": [
+    "https://www.sina.cn/media/7600886366"
+  ],
+  "stub": true,
+  "as_of": "2026-11-02",
+  "portrait": null,
+  "portrait_source": null,
+  "portrait_via": null,
+  "note": "新浪认证账号「重返未来1999」2026-10-29 12:00 帖写「新秀登场 佩施塔 | Perchta」。同日 18:00 帖写角色剧情活动【佩施塔 · 雪红与玫瑰白】，时间 11/5 10:00 - 11/26 4:59。帖文没有写星级、灵感、技能名或数值。没有日文名。不把剧情活动收成卡池。",
+  "verified": "新浪微博镜像 7600886366，2026-11-02",
+  "summary": {
+    "position": "国服 4.1 新秀登场",
+    "sources": [
+      "https://www.sina.cn/media/7600886366"
+    ],
+    "stub": true,
+    "caveat": "公告只公开中文名、英文名和角色剧情活动窗口。技能、灵感和梯度都没有写。不编造。"
+  }
+}

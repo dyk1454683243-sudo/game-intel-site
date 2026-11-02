@@ -2,7 +2,7 @@
   "game": "nikke",
   "name": "NIKKE",
   "name_zh": "胜利女神：NIKKE",
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "timezone": "Asia/Shanghai",
   "character_count": 236,
   "rich_count": 233,
@@ -1749,10 +1749,11 @@
     },
     {
       "id": "marian-queen",
-      "name": "Marian: Queen",
-      "name_zh": "Marian: Queen",
+      "name": "玛丽安：女王",
+      "name_zh": "玛丽安：女王",
       "stub": true,
       "sources": [
+        "https://nikke.hotcool.tw/News_detail-237",
         "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
       ],
       "portrait": null
@@ -2597,10 +2598,11 @@
     },
     {
       "id": "rapunzel-sanctuary",
-      "name": "Rapunzel: Sanctuary",
-      "name_zh": "Rapunzel: Sanctuary",
+      "name": "长发公主：圣域",
+      "name_zh": "长发公主：圣域",
       "stub": true,
       "sources": [
+        "https://nikke.hotcool.tw/News_detail-237",
         "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
       ],
       "portrait": null
@@ -2859,10 +2861,11 @@
     },
     {
       "id": "scarlet-goddeath",
-      "name": "Scarlet: Goddeath",
-      "name_zh": "Scarlet: Goddeath",
+      "name": "红莲：弑神",
+      "name_zh": "红莲：弑神",
       "stub": true,
       "sources": [
+        "https://nikke.hotcool.tw/News_detail-237",
         "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
       ],
       "portrait": null

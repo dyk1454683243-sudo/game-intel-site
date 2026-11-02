@@ -1,14 +1,70 @@
 {
   "game": "nikke",
-  "as_of": "2026-10-15",
-  "checked": "2026-10-15",
+  "as_of": "2026-11-02",
+  "checked": "2026-11-02",
   "timezone_note": "过期表的截止时间，Nikke.gg 写的是 UTC+9。仍标 Reported working 的码，该页写明没有官方截止日期。",
   "page_last_checked_by_source": "2026-08-29",
   "sources": [
+    "https://dengekionline.com/article/202610/91994",
     "https://nikke.gg/cd-keys-guide/"
   ],
-  "note": "2026-10-15 打开的页面仍写 Last checked: August 29, 2026，并写 UNBREAKABLEMEMORIES 于 8 月 1 日过期后没有确认新的公开码。本文件没有在游戏内再兑换。Reported working 不是官方有效期。",
+  "note": "2026-11-02 新增的 5 条来自电撃オンライン对 10/24 四周年生放送和公式 @NIKKE_japan 帖的转载。正文列出 ReclaimTheSurface、GoddessMarchOn、ForgetMeNot、NIKKE4EVER、ToTheFrontline，并写有效期到 2026年11月24日23:59；嵌入的官方帖只印出 ToTheFrontline 和「～11月24日23:59」，没有写时区。奖励明细在配图里，正文没有逐条写出，rewards 留空。nikke.gg 打开时仍写 Last checked: August 29, 2026，旧码的 checked 不改。本文件没有在游戏内再兑换。",
   "codes": [
+    {
+      "code": "ReclaimTheSurface",
+      "rewards": null,
+      "released": "2026-10-24",
+      "expires": "2026-11-24T23:59:00",
+      "timezone": null,
+      "status": "active",
+      "note": "电撃オンライン 2026-10-25 文列出的四周年 CDKEY，有效期写 2026年11月24日23:59，没有时区。奖励配图没有逐条进入正文。大小写按该文。",
+      "source": "https://dengekionline.com/article/202610/91994",
+      "checked": "2026-11-02"
+    },
+    {
+      "code": "GoddessMarchOn",
+      "rewards": null,
+      "released": "2026-10-24",
+      "expires": "2026-11-24T23:59:00",
+      "timezone": null,
+      "status": "active",
+      "note": "电撃オンライン 2026-10-25 文列出的四周年 CDKEY，有效期写 2026年11月24日23:59，没有时区。奖励配图没有逐条进入正文。大小写按该文。",
+      "source": "https://dengekionline.com/article/202610/91994",
+      "checked": "2026-11-02"
+    },
+    {
+      "code": "ForgetMeNot",
+      "rewards": null,
+      "released": "2026-10-24",
+      "expires": "2026-11-24T23:59:00",
+      "timezone": null,
+      "status": "active",
+      "note": "电撃オンライン 2026-10-25 文列出的四周年 CDKEY，有效期写 2026年11月24日23:59，没有时区。奖励配图没有逐条进入正文。大小写按该文。",
+      "source": "https://dengekionline.com/article/202610/91994",
+      "checked": "2026-11-02"
+    },
+    {
+      "code": "NIKKE4EVER",
+      "rewards": null,
+      "released": "2026-10-24",
+      "expires": "2026-11-24T23:59:00",
+      "timezone": null,
+      "status": "active",
+      "note": "电撃オンライン 2026-10-25 文列出的四周年 CDKEY，有效期写 2026年11月24日23:59，没有时区。奖励配图没有逐条进入正文。大小写按该文。",
+      "source": "https://dengekionline.com/article/202610/91994",
+      "checked": "2026-11-02"
+    },
+    {
+      "code": "ToTheFrontline",
+      "rewards": null,
+      "released": "2026-10-24",
+      "expires": "2026-11-24T23:59:00",
+      "timezone": null,
+      "status": "active",
+      "note": "电撃オンライン 2026-10-25 文列出的四周年 CDKEY，有效期写 2026年11月24日23:59，没有时区。奖励配图没有逐条进入正文。大小写按该文。",
+      "source": "https://dengekionline.com/article/202610/91994",
+      "checked": "2026-11-02"
+    },
     {
       "code": "2026HAPPYNEWYEAR",
       "rewards": "Advanced Recruit Voucher x2 New Year rewards",

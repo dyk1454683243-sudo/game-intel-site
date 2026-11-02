@@ -1,36 +1,38 @@
 {
   "id": "scarlet-goddeath",
-  "name": "Scarlet: Goddeath",
-  "name_zh": null,
+  "name": "红莲：弑神",
+  "name_zh": "红莲：弑神",
   "name_en": "Scarlet: Goddeath",
   "aliases": [
-    "Hongryeon: Goddeath"
+    "紅蓮：弒神"
   ],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "火力型",
   "skills": [],
   "skill_prio": [],
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "花无十一日红（AR）",
+  "element": "燃烧",
+  "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
+    "https://nikke.hotcool.tw/News_detail-237",
     "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
   ],
   "stub": true,
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "portrait": null,
   "portrait_source": null,
   "portrait_via": null,
-  "note": "同一则 2026-10-24 新闻稿正文写 Scarlet: Goddeath，并写她是 Hongryeon 的强化形态。标题把同一人写成 Hongryeon: Goddeath。没有写代码、职业、武器或特殊招募起止钟点。技能留空。",
-  "verified": "Level Infinite press release 2026-10-24",
+  "note": "台服公告名【紅蓮：弒神】。职业火力型，武器花無十一日紅（AR），代码燃烧，企业朝圣者。特殊招募 2026年11月5日5:00:00～2026年11月26日4:59:59（UTC+9）。技能留空。英文名 Scarlet: Goddeath 和标题异写 Hongryeon: Goddeath 仍来自 2026-10-24 新闻稿。没有日文名。",
+  "verified": "nikke.hotcool.tw News_detail-237，2026-11-02",
   "summary": {
-    "position": "playable / October 29 update",
+    "position": "火力型 / 燃烧 / 朝圣者 / AR",
     "sources": [
+      "https://nikke.hotcool.tw/News_detail-237",
       "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
     ],
     "stub": true,
-    "caveat": "新闻稿把她列为 10 月 29 日更新的可玩角色。正文名是 Scarlet: Goddeath，标题另写 Hongryeon: Goddeath。没有招募窗口、技能或梯度。不编造。"
+    "caveat": "台服公告写她擅长穿透攻击，使用爆裂技能时强化自身攻击。没有技能名和数值。不编造梯度。武器原文是花無十一日紅（AR）。"
   }
 }

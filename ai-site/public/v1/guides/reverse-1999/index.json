@@ -2,11 +2,11 @@
   "game": "reverse-1999",
   "name": "Reverse: 1999",
   "name_zh": "重返未来：1999",
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "timezone": "Asia/Shanghai",
-  "character_count": 137,
+  "character_count": 138,
   "rich_count": 117,
-  "stub_count": 20,
+  "stub_count": 21,
   "conclusion_stub_count": 1,
   "links": {
     "banners": "/v1/guides/reverse-1999/banners.json",
@@ -1341,6 +1341,16 @@
       ],
       "portrait": "https://cdn.prydwen.gg/images/re1999/characters/pavia_card.webp",
       "rarity": "4星"
+    },
+    {
+      "id": "perchta",
+      "name": "佩施塔",
+      "name_zh": "佩施塔",
+      "stub": true,
+      "sources": [
+        "https://www.sina.cn/media/7600886366"
+      ],
+      "portrait": null
     },
     {
       "id": "pickles",

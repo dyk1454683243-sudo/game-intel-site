@@ -1,34 +1,38 @@
 {
   "id": "marian-queen",
-  "name": "Marian: Queen",
-  "name_zh": null,
+  "name": "玛丽安：女王",
+  "name_zh": "玛丽安：女王",
   "name_en": "Marian: Queen",
-  "aliases": [],
+  "aliases": [
+    "瑪麗安：女王"
+  ],
   "nicknames": [],
   "game": "nikke",
-  "role": null,
+  "role": "火力型",
   "skills": [],
   "skill_prio": [],
-  "weapon": null,
-  "element": null,
-  "manufacturer": null,
+  "weapon": "完美世界（MG）",
+  "element": "燃烧",
+  "manufacturer": "朝圣者",
   "teams": {},
   "sources": [
+    "https://nikke.hotcool.tw/News_detail-237",
     "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
   ],
   "stub": true,
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "portrait": null,
   "portrait_source": null,
   "portrait_via": null,
-  "note": "Level Infinite 2026-10-24 新闻稿写 4 周年更新于 October 29 全球上线，并介绍可玩角色 Marian: Queen。稿子没有写代码、职业、武器或特殊招募起止钟点。简中名和日文名这则稿子没有写。技能留空。",
-  "verified": "Level Infinite press release 2026-10-24",
+  "note": "台服公告名【瑪麗安：女王】。职业火力型，武器完美世界（MG），代码燃烧，企业朝圣者。特殊招募从 2026年10月29日更新维护结束后到 2026年11月19日4:59:59（UTC+9）。公告没有写技能名和数值，技能留空。英文名 Marian: Queen 仍来自 2026-10-24 Level Infinite 新闻稿。没有日文名。",
+  "verified": "nikke.hotcool.tw News_detail-237，2026-11-02",
   "summary": {
-    "position": "playable / October 29 update",
+    "position": "火力型 / 燃烧 / 朝圣者 / MG",
     "sources": [
+      "https://nikke.hotcool.tw/News_detail-237",
       "https://press.levelinfinite.com/en-US/THE-FINAL-STAND-BEGINS-GODDESS-OF-VICTORY-NIKKE-UNVEILS-MASSIVE-4TH-AN"
     ],
     "stub": true,
-    "caveat": "新闻稿只写她会在 10 月 29 日的 4 周年更新里作为可玩角色登场，并给了一句剧情介绍。没有招募窗口、技能或梯度。不编造。"
+    "caveat": "台服 10/29 更新公告写了职业、武器、代码和企业，以及「定期攻击多名敌人」这句。没有技能名和数值。不编造梯度。"
   }
 }

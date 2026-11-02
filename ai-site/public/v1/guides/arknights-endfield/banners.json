@@ -1,6 +1,6 @@
 {
   "game": "arknights-endfield",
-  "as_of": "2026-10-19",
+  "as_of": "2026-11-02",
   "timezone_note": "当期和上一期寻访以官网公告为准。server time 同时对应 UTC+8（Asia）和 UTC-5（Americas / Europe），见 3839。不合成单一偏移。",
   "sources": [
     "https://endfield.gryphline.com/en-us/news/9560",
@@ -67,7 +67,7 @@
       "id": "endfield-ancestral-spring-tangtang",
       "name": "[Ancestral Spring Flows Anew] RE-Factor Headhunting #1",
       "kind": "refactor_headhunting",
-      "status": "upcoming",
+      "status": "current",
       "up": [
         "Tangtang"
       ],
@@ -83,16 +83,16 @@
       "start": null,
       "end": null,
       "source": "https://endfield.gryphline.com/en-us/news/9560",
-      "note": "写在 9560 的 New Headhunting 第 3 条。核对日 2026-10-17 还没到开始日，标 upcoming。",
+      "note": "写在 9560 的 New Headhunting 第 3 条。核对日 2026-10-17 还没到开始日，标 upcoming。核对日 2026-11-02 已过 start_text 的 Oct. 29, 2026 at 12:00 (server time)，标 current。开始钟点仍是 server time，不收成单一偏移，start 保持空。",
       "timezone": null,
       "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
-      "as_of": "2026-10-17"
+      "as_of": "2026-11-02"
     },
     {
       "id": "endfield-tender-sprig",
       "name": "[Tender Sprig Issue] RE-Factor Issue #1",
       "kind": "refactor_issue",
-      "status": "upcoming",
+      "status": "current",
       "up": [
         "Brigand's Calling (Handcannon)"
       ],
@@ -102,10 +102,10 @@
       "start": null,
       "end": null,
       "source": "https://endfield.gryphline.com/en-us/news/9560",
-      "note": "武器池。写在 9560 的 New Headhunting 第 4 条。",
+      "note": "武器池。写在 9560 的 New Headhunting 第 4 条。核对日 2026-11-02 已过 start_text 的 Oct. 29, 2026 at 12:00 (server time)，标 current。开始钟点仍是 server time，不收成单一偏移，start 保持空。",
       "timezone": null,
       "timezone_note": "公告写 server time。3839 写明 Asia Server Time Zone: UTC+8，Americas / Europe Server Time Zone: UTC-5。不把两套服务器时间收成一个偏移。",
-      "as_of": "2026-10-17"
+      "as_of": "2026-11-02"
     },
     {
       "id": "endfield-hearth-fire-argent-flow",

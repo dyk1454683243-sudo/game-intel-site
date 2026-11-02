@@ -1,13 +1,15 @@
 {
   "game": "bd2",
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "sources": [
     "https://www.browndust2.com/zh-cn/news/view?id=01M5GRSE8DY36ARPY7TPNP5APK",
     "https://www.browndust2.com/zh-cn/news/view?id=01M5BMYM5C1PKMNZS0PG7A1QQ1",
     "https://twiscan.com/en/x/BROWNDUST2_EN/2108030996784533753",
     "https://www.browndust2.com/zh-cn/news/view?id=01M5BMB93HWJXD29P0GYAYE5AS",
     "https://www.browndust2.com/en-us/news/view?id=01M590WZ7JMDQ4HDV0YQ8YST5M",
-    "https://www.browndust2.com/en-us/news/view?id=01M59683Y78VNQ9QWZDNXSVG8Y"
+    "https://www.browndust2.com/en-us/news/view?id=01M59683Y78VNQ9QWZDNXSVG8Y",
+    "https://www.browndust2.com/zh-cn/news/view?id=01M659CH9ZT5T2RZ8S9R1XEQ5Q",
+    "https://www.browndust2.com/en-us/news/view?id=01M60RNEC8PMRM8C7VJXVW032Q"
   ],
   "banners": [
     {
@@ -87,6 +89,31 @@
       "source": "https://www.browndust2.com/zh-cn/news/view?id=01M5BMYM5C1PKMNZS0PG7A1QQ1",
       "as_of": "2026-10-26",
       "note": "10/22 活动公告写【复刻】使徒墨菲亚 Pick Up 活动任务，期间与被封印的欲望阿奇拉相同：维护后到 2026年11月5日（周四）维护前。没有结束钟点。服装名按公告写「使徒」，挂在原皮卡 mo_fei_ya。"
+    },
+    {
+      "id": "bd2-sweet-temptation-liatris",
+      "name": "甜蜜的诱惑莉亚特里斯",
+      "kind": "pickup",
+      "status": "upcoming",
+      "up": [
+        "甜蜜的诱惑莉亚特里斯",
+        "Sweet Temptation Liatris"
+      ],
+      "up_characters": [
+        {
+          "id": "li_ya_te_li_si",
+          "name": "莉亚特里斯",
+          "costume": "甜蜜的诱惑莉亚特里斯"
+        }
+      ],
+      "start": "2026-11-05",
+      "start_text": "简中开发笔记：11月5日。英文笔记：Nov 5。都没有钟点。",
+      "end": null,
+      "end_text": "开发笔记的服装 Pickup 日程没有写结束时间。",
+      "timezone": null,
+      "source": "https://www.browndust2.com/zh-cn/news/view?id=01M659CH9ZT5T2RZ8S9R1XEQ5Q",
+      "as_of": "2026-11-02",
+      "note": "简中《开发者笔记55-11月更新》把「甜蜜的诱惑莉亚特里斯」放在「服装Pickup日程 / 全新特别皮肤」下，并写它是「女仆代号R莉亚特里斯」的特别皮肤。英文笔记的对应名是 Sweet Temptation Liatris，Special Skin for Maid Name R Liatris。笔记没有写结束钟点，也不把 11月5日收成维护后的钟点。背叛之夜斐杰写的是店长游戏卡 3 的酒馆招募，折桂之姿贝那卡写的是 11月19日季票活动，这两条没有写成 Pickup，不收成卡池。技能数值笔记没有写，不新建服装卡。"
     }
   ]
 }
