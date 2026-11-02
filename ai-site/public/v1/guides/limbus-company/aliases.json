@@ -1,8 +1,8 @@
 {
   "_meta": {
     "game": "limbus-company",
-    "as_of": "2026-10-26",
-    "note": "Prydwen identity slug and display name. Sinner Chinese names are not aliases: one sinner has many identities. 2026-10-26 追加两张只有韩文 PV 标题的人格，不自译英文名。"
+    "as_of": "2026-11-02",
+    "note": "Prydwen identity slug and display name. Sinner Chinese names are not aliases: one sinner has many identities. 2026-10-26 追加两张只有韩文 PV 标题的人格，不自译英文名。2026-11-02 用 10/29 更新公告补上这两张的英文身份名。"
   },
   "aliases": {
     "blade-lineage-salsu-yi-sang": {
@@ -1915,12 +1915,22 @@
       "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
       "kind": "character"
     },
+    "Haute Couture::Le Rouge King of Needleworks Heathcliff": {
+      "id": "haute-couture-le-rouge-heathcliff",
+      "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프",
+      "kind": "character"
+    },
     "haute-couture-le-noir-3f-hong-lu": {
       "id": "haute-couture-le-noir-3f-hong-lu",
       "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
       "kind": "character"
     },
     "오트쿠튀르::르누아르 3F 방송실 홍루": {
+      "id": "haute-couture-le-noir-3f-hong-lu",
+      "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
+      "kind": "character"
+    },
+    "Haute Couture::Le Noir 3F Public Address Room Hong Lu": {
       "id": "haute-couture-le-noir-3f-hong-lu",
       "name": "오트쿠튀르::르누아르 3F 방송실 홍루",
       "kind": "character"

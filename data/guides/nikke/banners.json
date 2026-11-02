@@ -1,18 +1,94 @@
 {
   "game": "nikke",
-  "as_of": "2026-10-15",
+  "as_of": "2026-11-02",
   "timezone": "Asia/Tokyo",
   "timezone_note": "官方公告写 UTC+9。Asia/Tokyo 与 UTC+9 同一偏移，没有夏令时。",
   "sources": [
+    "https://nikke.hotcool.tw/News_detail-237",
     "https://nikke.hotcool.tw/m/News_detail-232",
     "https://nikke.hotcool.tw/News_detail-223"
   ],
   "banners": [
     {
+      "id": "nikke-marian-queen",
+      "name": "特殊招募 玛丽安：女王",
+      "kind": "special_recruit",
+      "status": "current",
+      "up": [
+        "玛丽安：女王"
+      ],
+      "up_characters": [
+        {
+          "id": "marian-queen",
+          "name": "玛丽安：女王"
+        }
+      ],
+      "start": "2026-10-29",
+      "start_text": "2026年10月29日更新维护结束后",
+      "end": "2026-11-19T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-237",
+      "as_of": "2026-11-02",
+      "note": "台服公告原文名是【瑪麗安：女王】。职业火力型，武器完美世界（MG），代码燃烧，企业朝圣者。开始句写更新维护结束后，不把维护窗口收成开始钟点。结束钟点 2026年11月19日4:59:59（UTC+9）。"
+    },
+    {
+      "id": "nikke-2026-10-29-pilgrim-select",
+      "name": "朝圣者选择招募",
+      "kind": "limited_select",
+      "status": "current",
+      "up": [
+        "灰姑娘",
+        "格拉维",
+        "娜由塔"
+      ],
+      "up_characters": [
+        {
+          "id": "cinderella",
+          "name": "灰姑娘"
+        },
+        {
+          "id": "grave",
+          "name": "格拉维"
+        },
+        {
+          "id": "nayuta",
+          "name": "娜由塔"
+        }
+      ],
+      "start": "2026-10-29",
+      "start_text": "2026年10月29日更新维护结束后",
+      "end": "2026-11-19T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-237",
+      "as_of": "2026-11-02",
+      "note": "同一则公告里灰姑娘、格拉維、娜由塔的朝圣者选择招募起止时间相同。公告写从清单里选 1 名，该名概率为 1%，未选的按普通朝圣者概率。不把三人写成同时概率 UP。格拉維按角色卡简体写成格拉维。"
+    },
+    {
+      "id": "nikke-scarlet-goddeath",
+      "name": "特殊招募 红莲：弑神",
+      "kind": "special_recruit",
+      "status": "upcoming",
+      "up": [
+        "红莲：弑神"
+      ],
+      "up_characters": [
+        {
+          "id": "scarlet-goddeath",
+          "name": "红莲：弑神"
+        }
+      ],
+      "start": "2026-11-05T05:00:00+09:00",
+      "end": "2026-11-26T04:59:59+09:00",
+      "timezone": "UTC+9",
+      "source": "https://nikke.hotcool.tw/News_detail-237",
+      "as_of": "2026-11-02",
+      "note": "台服公告原文名是【紅蓮：弒神】。职业火力型，武器花無十一日紅（AR），代码燃烧，企业朝圣者。开放时间 2026年11月5日5:00:00～2026年11月26日4:59:59（UTC+9）。核对日 2026-11-02 还没到开始钟点，标 upcoming。长发公主：圣域写的是活动领取，不是特殊招募，不收成卡池。"
+    },
+    {
       "id": "nikke-belorta-pumpkin-witch",
       "name": "特殊招募 贝洛塔：南瓜女巫",
       "kind": "special_recruit",
-      "status": "current",
+      "status": "ended",
       "up": [
         "贝洛塔：南瓜女巫"
       ],
@@ -27,7 +103,8 @@
       "end": "2026-10-28T23:59:59+09:00",
       "timezone": "UTC+9",
       "source": "https://nikke.hotcool.tw/m/News_detail-232",
-      "as_of": "2026-10-15"
+      "as_of": "2026-11-02",
+      "note": "原公告写特殊招募到 2026年10月28日 23:59:59（UTC+9）。10/29 台服更新公告写【贝洛塔：南瓜女巫】已可在普通招募、社交点数招募、铸模道具中取得。核对日 2026-11-02 已过结束时间，标 ended。"
     },
     {
       "id": "nikke-sin-rapid-bunny",

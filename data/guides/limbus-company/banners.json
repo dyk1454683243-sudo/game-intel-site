@@ -1,9 +1,10 @@
 {
   "game": "limbus-company",
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "timezone": "Asia/Seoul",
   "timezone_note": "公告写 KST。Asia/Seoul 与 UTC+9 同一偏移，没有夏令时。起止时间来自 Steam 公告图片里的文字，不是另行推算。",
   "sources": [
+    "https://store.steampowered.com/news/app/1973530/view/667254131059071073",
     "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
     "https://www.youtube.com/watch?v=jWYcZpYtdls",
     "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
@@ -14,36 +15,164 @@
   "banners": [
     {
       "id": "limbus-2026-10-22-haute-couture",
-      "name": "2026.10.22 (KST) New Identity Target Extraction",
+      "name": "2026.10.29 (KST) New Identity Target Extraction",
       "kind": "target_extraction",
       "status": "current",
       "up": [
-        "오트쿠튀르::르루주 바느질의 왕 히스클리프",
-        "오트쿠튀르::르누아르 3F 방송실 홍루"
+        "Haute Couture::Le Noir 3F Public Address Room Hong Lu",
+        "Haute Couture::Le Rouge King of Needleworks Heathcliff"
       ],
       "up_characters": [
         {
-          "id": "haute-couture-le-rouge-heathcliff",
-          "name": "오트쿠튀르::르루주 바느질의 왕 히스클리프"
+          "id": "haute-couture-le-noir-3f-hong-lu",
+          "name": "Haute Couture::Le Noir 3F Public Address Room Hong Lu"
         },
         {
-          "id": "haute-couture-le-noir-3f-hong-lu",
-          "name": "오트쿠튀르::르누아르 3F 방송실 홍루"
+          "id": "haute-couture-le-rouge-heathcliff",
+          "name": "Haute Couture::Le Rouge King of Needleworks Heathcliff"
         }
       ],
-      "start": "2026-10-22",
-      "start_text": "2026.10.22 (KST)",
-      "end": null,
+      "start": "2026-10-29T12:00:00+09:00",
+      "start_text": "10/29 12:00 (KST)",
+      "end": "2026-11-12T10:00:00+09:00",
       "timezone": "Asia/Seoul",
-      "source": "https://store.steampowered.com/news/app/1973530/view/667254131059070030",
-      "as_of": "2026-10-26",
-      "note": "Steam 公告标题是 2026.10.22 (KST) New Identity Target Extraction。正文只有官方 PV https://www.youtube.com/watch?v=jWYcZpYtdls ，没有结束钟点，也不把 10/22 维护的 10:00–12:00 收成开始钟点。两个 UP 名是该 PV 的 YouTube 标题原文，频道为 Project Moon Official。不把韩文标题自译成英文身份名。"
+      "source": "https://store.steampowered.com/news/app/1973530/view/667254131059071073",
+      "as_of": "2026-11-02",
+      "note": "10/22 Steam 帖只有 PV，没有提取窗口。10/29 定期更新公告第 2 页写 New Identity Target Extraction：Haute Couture::Le Noir 3F Public Address Room Hong Lu 与 Haute Couture::Le Rouge King of Needleworks Heathcliff，(10/29 12:00 ~ 11/12 10:00 (KST))，两名都是 3★ Season 8。韩文 PV 标题仍是角色卡上的 name，不把英文名覆盖掉韩文名。不把 10/29 维护的 10:00–12:00 收成开始钟点；提取开始是公告写的 12:00。",
+      "end_text": "11/12 10:00 (KST)"
+    },
+    {
+      "id": "limbus-2026-10-29-yi-sang",
+      "name": "Target Extraction: [Yi Sang]",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "LCE E.G.O::Dimension Shredder Yi Sang",
+        "The House of Spiders: The Index Nursefather Yi Sang",
+        "Heishou Pack - Wu Branch Adept Yi Sang",
+        "Liu South Section 3 Yi Sang",
+        "N Corp. E.G.O::Fell Bullet Yi Sang",
+        "The Ring Pointillist Student Yi Sang",
+        "W Corp. L3 Cleanup Agent Yi Sang",
+        "Effloresced E.G.O::Spicebush Yi Sang",
+        "Blade Lineage Salsu Yi Sang",
+        "LCE E.G.O::Lantern Yi Sang",
+        "Dieci South Section 4 Yi Sang",
+        "The Pequod First Mate Yi Sang",
+        "Molar Office Fixer Yi Sang",
+        "Seven South Section 6 Yi Sang",
+        "LCB Sinner Yi Sang"
+      ],
+      "up_characters": [
+        {
+          "id": "lce-e-g-o-dimension-shredder-yi-sang",
+          "name": "LCE E.G.O::Dimension Shredder Yi Sang"
+        },
+        {
+          "id": "the-house-of-spiders-the-index-nursefather-yi-sang",
+          "name": "The House of Spiders: The Index Nursefather Yi Sang"
+        },
+        {
+          "id": "heishou-pack-wu-branch-adept-yi-sang",
+          "name": "Heishou Pack - Wu Branch Adept Yi Sang"
+        },
+        {
+          "id": "liu-association-south-section-3-yi-sang",
+          "name": "Liu Association South Section 3 Yi Sang"
+        },
+        {
+          "id": "n-corp-e-g-o-fell-bullet-yi-sang",
+          "name": "N Corp. E.G.O:: Fell Bullet Yi Sang"
+        },
+        {
+          "id": "the-ring-pointillist-student-yi-sang",
+          "name": "The Ring Pointillist Student Yi Sang"
+        },
+        {
+          "id": "w-corp-l3-cleanup-agent-yi-sang",
+          "name": "W Corp. L3 Cleanup Agent Yi Sang"
+        },
+        {
+          "id": "effloresced-e-g-o-spicebush-yi-sang",
+          "name": "Effloresced E.G.O::Spicebush Yi Sang"
+        },
+        {
+          "id": "blade-lineage-salsu-yi-sang",
+          "name": "Blade Lineage Salsu Yi Sang"
+        },
+        {
+          "id": "lce-e-g-o-lantern-yi-sang",
+          "name": "LCE E.G.O::Lantern Yi Sang"
+        },
+        {
+          "id": "dieci-assoc-south-section-4-yi-sang",
+          "name": "Dieci Assoc. South Section 4 Yi Sang"
+        },
+        {
+          "id": "the-pequod-first-mate-yi-sang",
+          "name": "The Pequod First Mate Yi Sang"
+        },
+        {
+          "id": "molar-office-fixer-yi-sang",
+          "name": "Molar Office Fixer Yi Sang"
+        },
+        {
+          "id": "seven-association-south-section-6-yi-sang",
+          "name": "Seven Association South Section 6 Yi Sang"
+        },
+        {
+          "id": "lcb-sinner-yi-sang",
+          "name": "LCB Sinner Yi Sang"
+        }
+      ],
+      "start": "2026-10-29T12:00:00+09:00",
+      "end": "2026-11-12T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/667254131059071073",
+      "as_of": "2026-11-02",
+      "note": "10/29 更新公告第 2 页写 (10/29 12:00 ~ 11/12 10:00 (KST))。up 用公告上的缩短写法；Liu / Dieci / Seven / N Corp 的 up_characters.name 用角色卡全名。E.G.O 不写入人格 id：HE Fell Bullet Yi Sang、TETH Wishing Cairn Yi Sang。"
+    },
+    {
+      "id": "limbus-2026-10-29-thumb",
+      "name": "Target Extraction: [The Thumb]",
+      "kind": "target_extraction",
+      "status": "current",
+      "up": [
+        "The House of Spiders: The Thumb Nursefather Rodion",
+        "The House of Spiders: The Thumb Apprentice Heathcliff",
+        "The Thumb East Soldato II Sinclair",
+        "The Thumb East Capo IIII Meursault"
+      ],
+      "up_characters": [
+        {
+          "id": "the-house-of-spiders-the-thumb-nursefather-rodion",
+          "name": "The House of Spiders: The Thumb Nursefather Rodion"
+        },
+        {
+          "id": "the-house-of-spiders-the-thumb-apprentice-heathcliff",
+          "name": "The House of Spiders: The Thumb Apprentice Heathcliff"
+        },
+        {
+          "id": "the-thumb-east-soldato-ii-sinclair",
+          "name": "The Thumb East Soldato II Sinclair"
+        },
+        {
+          "id": "the-thumb-east-capo-iiii-meursault",
+          "name": "The Thumb East Capo IIII Meursault"
+        }
+      ],
+      "start": "2026-10-29T12:00:00+09:00",
+      "end": "2026-11-12T10:00:00+09:00",
+      "timezone": "Asia/Seoul",
+      "source": "https://store.steampowered.com/news/app/1973530/view/667254131059071073",
+      "as_of": "2026-11-02",
+      "note": "同一页 Target Extraction: [The Thumb]，窗口与李箱目标提取相同。公告把这四名标成 3★。"
     },
     {
       "id": "limbus-2026-10-15-haute-couture-sinclair",
       "name": "New Identity Target Extraction: Haute Couture::The Crimson God of Le Rouge Sinclair",
       "kind": "target_extraction",
-      "status": "current",
+      "status": "ended",
       "up": [
         "Haute Couture::The Crimson God of Le Rouge Sinclair"
       ],
@@ -57,14 +186,14 @@
       "end": "2026-10-29T10:00:00+09:00",
       "timezone": "Asia/Seoul",
       "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-      "as_of": "2026-10-17",
-      "note": "公告原文：(10/15 12:00 ~ 10/29 10:00 (KST))。3★ 概率提升。KST 与 Asia/Seoul 同为 UTC+9，无夏令时。维护结束时间为同公告第 1 页 12:00。"
+      "as_of": "2026-11-02",
+      "note": "公告原文：(10/15 12:00 ~ 10/29 10:00 (KST))。3★ 概率提升。KST 与 Asia/Seoul 同为 UTC+9，无夏令时。维护结束时间为同公告第 1 页 12:00。核对日 2026-11-02 已过公告写的结束时间 10/29 10:00 (KST)，标 ended。"
     },
     {
       "id": "limbus-2026-10-15-ishmael",
       "name": "Target Extraction: Ishmael",
       "kind": "target_extraction",
-      "status": "current",
+      "status": "ended",
       "up": [
         "Haute Couture::Boutique du Rouge Ishmael",
         "LCD OSIR Team Ishmael",
@@ -148,14 +277,14 @@
       "end": "2026-10-29T10:00:00+09:00",
       "timezone": "Asia/Seoul",
       "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-      "as_of": "2026-10-17",
-      "note": "同一页还列了 E.G.O，不写入人格 id：HE Christmas Nightmare Ishmael、Ardor Blossom Star Ishmael；TETH Bygone Days Ishmael。"
+      "as_of": "2026-11-02",
+      "note": "同一页还列了 E.G.O，不写入人格 id：HE Christmas Nightmare Ishmael、Ardor Blossom Star Ishmael；TETH Bygone Days Ishmael。核对日 2026-11-02 已过公告写的结束时间 10/29 10:00 (KST)，标 ended。"
     },
     {
       "id": "limbus-2026-10-15-the-ring",
       "name": "Target Extraction: The Ring",
       "kind": "target_extraction",
-      "status": "current",
+      "status": "ended",
       "up": [
         "The Ring Fauvist Docent Rodion",
         "The Ring Fauvist Student Meursault",
@@ -194,7 +323,8 @@
       "end": "2026-10-29T10:00:00+09:00",
       "timezone": "Asia/Seoul",
       "source": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-      "as_of": "2026-10-17"
+      "as_of": "2026-11-02",
+      "note": "核对日 2026-11-02 已过公告写的结束时间 10/29 10:00 (KST)，标 ended。"
     },
     {
       "id": "limbus-2026-10-01-don-quixote",

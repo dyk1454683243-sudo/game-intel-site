@@ -1,14 +1,28 @@
 {
   "game": "bd2",
-  "as_of": "2026-10-15",
-  "checked": "2026-10-15",
+  "as_of": "2026-11-02",
+  "checked": "2026-11-02",
   "redeem_url": "https://redeem.bd2.pmang.cloud/bd2/index.html?lang=zh-TW",
   "sources": [
+    "https://www.browndust2.com/zh-cn/news/view?id=01M65M4H5JVTVSXE9S0B4V5TKV",
+    "https://www.browndust2.com/en-us/news/view?id=01M65M0M8VX5GY5GQ1JG92VB0G",
     "https://www.gamekee.com/zsca2/619029.html",
     "https://twiscan.com/en/x/BROWNDUST2_EN/2105085217832947751"
   ],
-  "note": "GameKee 兑换码汇总标题为 9月28日更新，接口 updated_at 为 2025-09-28。该页写过期码会清掉，并写只能兑换当月。2026-10-15 没有把该页上的 2025 码标成可用。2026BD2OCT 的奖励内容官方帖没有写。",
+  "note": "2026-11-02 核对官网公告。2026BD2NOV 来自英文公告 November 2026 Coupon，窗口 October 31, 2026, 15:00 - November 30, 2026, 14:59 (UTC)，正文没有写奖励。简中公告写了同一组代码，没有写窗口。2026BD2OCT 的原帖窗口已过 2026-10-31 14:59 UTC，标 expired。10/30 Night Live 写的是登录后进邮箱的抽抽乐券，不是兑换码，不写入。GameKee 页仍停在 2025-09-28，旧码不改写成可用。",
   "codes": [
+    {
+      "code": "2026BD2NOV",
+      "rewards": null,
+      "expires": "2026-11-30T14:59:00Z",
+      "expires_text": "October 31, 2026, 15:00 - November 30, 2026, 14:59 (UTC)",
+      "starts": "2026-10-31T15:00:00Z",
+      "timezone": "UTC",
+      "status": "active",
+      "note": "官方英文公告没有写奖励内容。简中公告写了同一组代码，没有写兑换窗口，窗口用英文公告。",
+      "source": "https://www.browndust2.com/en-us/news/view?id=01M65M0M8VX5GY5GQ1JG92VB0G",
+      "checked": "2026-11-02"
+    },
     {
       "code": "2026BD2OCT",
       "rewards": null,
@@ -16,10 +30,10 @@
       "expires_text": "Sep 30, 2026, 15:00 - Oct 31, 2026, 14:59 (UTC)",
       "starts": "2026-09-30T15:00:00Z",
       "timezone": "UTC",
-      "status": "active",
-      "note": "官方帖没有写奖励内容。可访问转载为 @BROWNDUST2_EN 2026-09-30 的帖。",
+      "status": "expired",
+      "note": "官方帖没有写奖励内容。可访问转载为 @BROWNDUST2_EN 2026-09-30 的帖。核对日 2026-11-02 已过帖文写的 Oct 31, 2026, 14:59 (UTC)，标 expired。",
       "source": "https://twiscan.com/en/x/BROWNDUST2_EN/2105085217832947751",
-      "checked": "2026-10-15"
+      "checked": "2026-11-02"
     },
     {
       "code": "THANKS2025TGS",

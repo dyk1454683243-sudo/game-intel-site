@@ -86,10 +86,11 @@ test("published JSON highlights UP, rerun, new codes, and expiring codes", async
   );
   assert.equal(doc.stored, false);
   assert.equal(doc.stateless, true);
-  const code = doc.highlights.codes_new.find((row) => row.code === "2026BD2OCT");
-  assert.ok(code);
-  assert.ok(code.marks.includes("expiring"));
-  assert.equal(code.days_left, 15);
+  const oct = doc.codes.find((row) => row.code === "2026BD2OCT");
+  assert.ok(oct.marks.includes("expired"));
+  assert.ok(!oct.marks.includes("new"));
+  assert.ok(!oct.marks.includes("expiring"));
+  assert.equal(doc.highlights.codes_new.find((row) => row.code === "2026BD2OCT"), undefined);
   const mummy = doc.highlights.banners.find((row) => row.matched.some((item) => item.id === "nevendaria"));
   assert.equal(mummy.status, "ended");
   assert.equal(mummy.matched[0].mark, "up");
@@ -100,7 +101,7 @@ test("published JSON highlights UP, rerun, new codes, and expiring codes", async
   assert.equal(mixed.matched.find((item) => item.id === "garud").mark, "up");
   const belorta = doc.highlights.banners.find((row) => row.id === "nikke-belorta-pumpkin-witch");
   assert.equal(belorta.matched[0].mark, "up");
-  assert.equal(belorta.status, "current");
+  assert.equal(belorta.status, "ended");
 
   const onlyChar = await personalFromPublic({ chars: "nikke:modernia" }, DAY);
   assert.ok(!onlyChar.feed.items.some((item) => item.title.includes("灰姑娘")));
@@ -143,9 +144,11 @@ test("page render escapes hostile rows and shows the highlight labels", async ()
   const html = renderMe(doc);
   assert.match(html, /我的关注/);
   assert.match(html, /复刻/);
-  assert.match(html, /2026BD2OCT/);
-  assert.match(html, /新码/);
-  assert.match(html, /还有 15 天/);
+  assert.match(html, /没有落在近 45 天内的新码/);
+  assert.match(html, /没有 21 天内到期的码/);
+  assert.match(html, /2026BD2NOV/);
+  assert.match(html, /2026BD2OCT[\s\S]{0,80}已过期/);
+  assert.doesNotMatch(html, /还有 15 天/);
   assert.match(html, /gi1\./);
   assert.match(html, /\/v1\/personal\.atom\?/);
   assert.doesNotMatch(html, /<script>/);

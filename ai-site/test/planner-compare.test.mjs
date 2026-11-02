@@ -116,12 +116,13 @@ test("published timeline keeps current and future banners and skips unstated pit
   const nikke = doc.games.find((game) => game.game === "nikke");
   assert.equal(nikke.timeline_only, true);
   assert.equal(nikke.pull_math, "timeline_only");
-  const belorta = nikke.banners.find((row) => row.id === "nikke-belorta-pumpkin-witch");
-  assert.equal(belorta.status, "current");
-  assert.equal(belorta.end, "2026-10-28");
-  assert.equal(belorta.days_until_end, 10);
-  assert.equal(belorta.cited_rule, null);
-  assert.equal(belorta.savings, null);
+  const marian = nikke.banners.find((row) => row.id === "nikke-marian-queen");
+  assert.equal(marian.status, "current");
+  assert.equal(marian.end, "2026-11-19");
+  assert.equal(marian.days_until_end, daysUntil(DAY, "2026-11-19"));
+  assert.equal(nikke.banners.some((row) => row.id === "nikke-belorta-pumpkin-witch"), false);
+  assert.equal(marian.cited_rule, null);
+  assert.equal(marian.savings, null);
   assert.equal(nikke.banners.some((row) => row.status === "ended" || row.id === "nikke-sin-rapid-bunny"), false);
   assert.equal(nikke.codes.every((row) => row.counted_as_pulls === false), true);
 
@@ -162,10 +163,10 @@ test("published timeline keeps current and future banners and skips unstated pit
   assert.equal(stillTimeline.savings, null);
 
   const html = renderPlanner(doc, {
-    state: { wanted: [{ game: "nikke", id: "belorta-pumpkin-witch", name: "贝洛塔：南瓜女巫" }], resources: { nikke: 2 } },
+    state: { wanted: [{ game: "nikke", id: "marian-queen", name: "玛丽安：女王" }], resources: { nikke: 2 } },
     follows: { games: [], chars: [{ game: "hw", id: "ai_mi_li_ya" }] },
   });
-  assert.match(html, /离开卡池还有 10 天/);
+  assert.match(html, new RegExp(`离开卡池还有 ${daysUntil(DAY, "2026-11-19")} 天`));
   assert.match(html, /只显示时间线/);
   assert.match(html, /不换算成抽数/);
   assert.match(html, /把关注的角色加入规划/);

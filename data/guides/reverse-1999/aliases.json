@@ -1,8 +1,8 @@
 {
   "_meta": {
     "game": "reverse-1999",
-    "note": "Canonical names from BWIKI 神秘学家模板 and Prydwen character slugs. Official Chinese names for 狩勋女巫红弩箭, 格林杜尔 and 德雷克 come from the verified 重返未来1999 Weibo mirror. Ambiguous keys are omitted.",
-    "as_of": "2026-10-17"
+    "note": "Canonical names from BWIKI 神秘学家模板 and Prydwen character slugs. Official Chinese names for 狩勋女巫红弩箭, 格林杜尔 and 德雷克 come from the verified 重返未来1999 Weibo mirror. Ambiguous keys are omitted. 2026-11-02 追加国服公告里的奠基石和佩施塔。",
+    "as_of": "2026-11-02"
   },
   "aliases": {
     "37": {
@@ -308,6 +308,26 @@
     "cornerstone": {
       "id": "cornerstone",
       "name": "Cornerstone",
+      "kind": "character"
+    },
+    "奠基石": {
+      "id": "cornerstone",
+      "name": "奠基石",
+      "kind": "character"
+    },
+    "perchta": {
+      "id": "perchta",
+      "name": "佩施塔",
+      "kind": "character"
+    },
+    "Perchta": {
+      "id": "perchta",
+      "name": "佩施塔",
+      "kind": "character"
+    },
+    "佩施塔": {
+      "id": "perchta",
+      "name": "佩施塔",
       "kind": "character"
     },
     "Corvus": {
