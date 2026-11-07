@@ -38,6 +38,7 @@ const NAV = [
   ["planner", "/planner/", ["抽卡规划", "Planner", "計画"]],
   ["compare", "/compare/", ["对比", "Compare", "比較"]],
   ["claims", "/claims/", ["核对墙", "Claims", "照合"]],
+  ["status", "/status/", ["状态", "Status", "状態"]],
   ["for-ai", "/for-ai/", ["给 AI", "For AI", "AI 向け"]],
   ["developers", "/developers/", ["开发者", "Developers", "開発者"]],
 ];
@@ -50,6 +51,7 @@ const VIEW_PATH = {
   planner: "/planner/",
   compare: "/compare/",
   claims: "/claims/",
+  status: "/status/",
   "for-ai": "/for-ai/",
   developers: "/developers/",
   game: "/game/",
@@ -400,6 +402,7 @@ function zoneEntries() {
 <a class="zone" href="${esc(hrefFor("/me/"))}"><strong>${esc(tx("我的关注", "Following", "フォロー"))}</strong><span>${esc(tx("只看订阅的游戏和角色。名单留在这台浏览器。", "Only games and characters you follow. The list stays in this browser.", "フォローしたゲームとキャラだけ。リストはこのブラウザに残る。"))}</span></a>
 <a class="zone" href="${esc(hrefFor("/planner/"))}"><strong>${esc(tx("抽卡规划", "Planner", "計画"))}</strong><span>${esc(tx("按有出处的卡池日期看还剩几天。没有写明的保底不算。", "Days left use sourced banner dates. Unstated pity is not calculated.", "残り日数は出典のある日付だけ。書いていない天井は計算しない。"))}</span></a>
 <a class="zone" href="${esc(hrefFor("/compare/"))}"><strong>${esc(tx("角色对比", "Compare", "比較"))}</strong><span>${esc(tx("同一游戏 2 到 4 张卡。空字段保持暂无出处。", "2 to 4 cards from the same game. Empty fields stay empty.", "同じゲームの 2〜4 枚。空欄は埋めない。"))}</span></a>
+<a class="zone" href="${esc(hrefFor("/status/"))}"><strong>${esc(tx("数据状态", "Data status", "データ状態"))}</strong><span>${esc(tx("各流生成时间、更新说明与八款深耕角色/卡池/兑换码覆盖度。", "Feed timestamps, latest update note, and deep-game coverage.", "各フィードの生成時刻、更新メモ、深掘り 8 作のカバー状況。"))}</span></a>
 <a class="zone" href="${esc(hrefFor("/for-ai/"))}"><strong>${esc(tx("给 AI", "For AI", "AI 向け"))}</strong><span>${esc(tx("MCP、OpenAPI、llms.txt。与人读同一份已发布数据。", "MCP, OpenAPI, llms.txt. The same published data people read.", "MCP、OpenAPI、llms.txt。人が読むのと同じ公開データ。"))}</span></a>
 </nav>`;
 }
@@ -1301,6 +1304,7 @@ export function renderForAi() {
 <dt>游戏页</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code>。深耕再读 <code>/v1/guides/{id}/index.json</code>、别名、<code>banners.json</code> 与 <code>codes.json</code>。</dd>
 <dt>角色卡</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code>，深耕八款：${deepNames()}。边狱公司的卡是人格，带 <code>sinner</code>，游戏页和关注列表按罪人分组。</dd>
 <dt>核对墙</dt><dd>读 <code>GET /v1/claims.json</code>。写 <code>POST /v1/claims</code>，公开，不需要密钥。</dd>
+<dt>状态</dt><dd><a href="/status/"><code>/status/</code></a> 读 <a href="/v1/status"><code>GET /v1/status</code></a>，MCP 工具 <code>status</code>。派生新鲜度与深耕覆盖度快照，不保存状态。</dd>
 <dt>给 AI</dt><dd><code>/.well-known/mcp.json</code> · <a href="/developers/"><code>/developers/</code></a> · <a href="/v1/openapi.json"><code>/v1/openapi.json</code></a> · <code>/openapi.json</code> · <code>/llms.txt</code>。数据仍是上面的 <code>/v1</code>。读接口的可选密钥写在开发者页，投稿不使用它。</dd>
 <dt>草图</dt><dd><code>/sketches/</code> 不读 JSON。</dd>
 </dl>
@@ -1311,6 +1315,7 @@ function renderForAiIntl() {
   const dev = esc(hrefFor("/developers/"));
   const sketches = esc(hrefFor("/sketches/"));
   const claims = esc(hrefFor("/claims/"));
+  const statusHref = esc(hrefFor("/status/"));
   const en = getLang() === "en";
   const h1 = en ? "For AI" : "AI 向け";
   const lede = en
@@ -1357,6 +1362,7 @@ function renderForAiIntl() {
 <dt>${en ? "Game" : "ゲーム"}</dt><dd><code>/v1/games/{id}.json</code> · <code>/v1/digest.json</code></dd>
 <dt>${en ? "Character" : "キャラ"}</dt><dd><code>/v1/guides/{game}/characters/{id}.json</code></dd>
 <dt>${en ? "Claims" : "照合"}</dt><dd><code>GET /v1/claims.json</code>. <code>POST /v1/claims</code></dd>
+<dt>${en ? "Status" : "状態"}</dt><dd><a href="${statusHref}"><code>/status/</code></a> · <code>GET /v1/status</code>, MCP <code>status</code></dd>
 <dt>${en ? "For AI" : "AI 向け"}</dt><dd><code>/.well-known/mcp.json</code> · <a href="${dev}"><code>/developers/</code></a> · <code>/openapi.json</code> · <code>/llms.txt</code></dd>
 <dt>${en ? "Sketches" : "下絵"}</dt><dd><a href="${sketches}"><code>/sketches/</code></a></dd>
 </dl>`;
@@ -1408,3 +1414,222 @@ export function renderClaims(mirror = {}) {
 ${error}
 ${rows || empty}`;
 }
+
+export function renderStatus(doc, opts = {}) {
+  if (!doc || doc.ok === false) {
+    return renderError(
+      (doc && doc.message) ||
+        opts.message ||
+        tx("无法读取数据状态", "Could not read data status", "データ状態を読めない")
+    );
+  }
+  const today = doc.today || shanghaiToday();
+  const tz = doc.timezone || "Asia/Shanghai";
+  const feeds = doc.feeds || {};
+  const digest = feeds.digest || {};
+  const radar = feeds.radar || {};
+  const calendar = feeds.calendar || {};
+  const calendarHw = feeds.calendar_hw || {};
+  const feed = feeds.feed || {};
+  const catalog = doc.catalog || {};
+  const guides = doc.guides || {};
+  const deepGames = Array.isArray(doc.deep_games) ? doc.deep_games : [];
+  const filterGame = safeId(opts.game);
+
+  const noteHtml = digest.note
+    ? `<aside class="notice"><p><strong>${esc(tx("最近更新说明（digest.meta.note）", "Latest update note (digest.meta.note)", "最新の更新メモ（digest.meta.note）"))}</strong></p><p>${esc(digest.note)}</p></aside>`
+    : "";
+
+  const feedRows = [
+    [
+      tx("今日摘要", "Digest", "今日の摘要"),
+      "/v1/digest.json",
+      digest.generated_at || "—",
+      tx(
+        `${digest.game_count ?? 0} 部游戏 · ${digest.item_count ?? 0} 条`,
+        `${digest.game_count ?? 0} games · ${digest.item_count ?? 0} items`,
+        `${digest.game_count ?? 0} 作 · ${digest.item_count ?? 0} 件`
+      ),
+    ],
+    [
+      tx("新作雷达", "Radar", "レーダー"),
+      "/v1/radar.json",
+      radar.generated_at || "—",
+      tx(`${radar.count ?? 0} 条`, `${radar.count ?? 0} items`, `${radar.count ?? 0} 件`),
+    ],
+    [
+      tx("泛日程", "Calendar", "日程"),
+      "/v1/calendar.json",
+      calendar.generated_at || "—",
+      tx(`${calendar.count ?? 0} 条事件`, `${calendar.count ?? 0} events`, `${calendar.count ?? 0} 件`),
+    ],
+    [
+      tx("地平线行者日程", "HW Calendar", "HW 日程"),
+      "/v1/calendar-hw.json",
+      calendarHw.generated_at || "—",
+      tx(`${calendarHw.count ?? 0} 条事件`, `${calendarHw.count ?? 0} events`, `${calendarHw.count ?? 0} 件`),
+    ],
+    [
+      tx("跨游情报流", "Feed", "フィード"),
+      "/v1/feed.json",
+      feed.generated_at || feed.as_of || "—",
+      tx(`${feed.count ?? 0} 条`, `${feed.count ?? 0} items`, `${feed.count ?? 0} 件`),
+    ],
+  ]
+    .map(
+      ([label, pathHref, stamp, summary]) =>
+        `<tr><td><strong>${esc(label)}</strong></td><td>${link(pathHref, pathHref)}</td><td><code>${esc(stamp)}</code></td><td>${esc(summary)}</td></tr>`
+    )
+    .join("");
+
+  const cardsHtml = deepGames
+    .map((row) => {
+      const id = safeId(row.game) || String(row.game || "");
+      const title = displayGameName({ id, name: row.name, name_zh: row.name_zh }) || row.name_zh || row.name || id;
+      const banners = row.banners || {};
+      const codes = row.codes || {};
+      const gameDigest = row.digest || {};
+      const marks = [
+        flag(
+          tx(
+            `深耕卡 ${row.rich_count ?? 0}/${row.character_count ?? 0}`,
+            `Rich ${row.rich_count ?? 0}/${row.character_count ?? 0}`,
+            `深掘り ${row.rich_count ?? 0}/${row.character_count ?? 0}`
+          ),
+          "deep"
+        ),
+      ];
+      if ((row.stub_count || 0) > 0) {
+        marks.push(flag(`stub ${row.stub_count}`, "stub"));
+      }
+      marks.push(
+        flag(
+          tx(
+            `进行中卡池 ${banners.current_count ?? 0}`,
+            `Live banners ${banners.current_count ?? 0}`,
+            `開催中ガチャ ${banners.current_count ?? 0}`
+          ),
+          (banners.current_count || 0) > 0 ? "wl" : "gap"
+        )
+      );
+      if ((banners.upcoming_count || 0) > 0) {
+        marks.push(
+          flag(
+            tx(
+              `未开始卡池 ${banners.upcoming_count}`,
+              `Upcoming ${banners.upcoming_count}`,
+              `開始前 ${banners.upcoming_count}`
+            ),
+            "wl"
+          )
+        );
+      }
+      marks.push(
+        flag(
+          tx(
+            `可用码 ${codes.live_count ?? 0}`,
+            `Live codes ${codes.live_count ?? 0}`,
+            `有効コード ${codes.live_count ?? 0}`
+          ),
+          (codes.live_count || 0) > 0 ? "deep" : "gap"
+        )
+      );
+
+      const guideIdxHref = `/v1/guides/${encodeURIComponent(id)}/index.json`;
+      const bannersHref = `/v1/guides/${encodeURIComponent(id)}/banners.json`;
+      const codesHref = `/v1/guides/${encodeURIComponent(id)}/codes.json`;
+      const plannerHref = `/planner/?game=${encodeURIComponent(id)}`;
+
+      return `<article class="card card-deep">
+<h3>${link(gameHref(id), title)} <code>${esc(id)}</code></h3>
+<p class="flags">${marks.join(" ")}</p>
+<dl class="facts">
+<dt>${esc(tx("角色卡", "Characters", "キャラカード"))}</dt>
+<dd>${esc(
+        tx(
+          `共 ${row.character_count ?? 0} 张（深耕 ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}）`,
+          `${row.character_count ?? 0} total (${row.rich_count ?? 0} rich · ${row.stub_count ?? 0} stub)`,
+          `計 ${row.character_count ?? 0} 枚（深掘り ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}）`
+        )
+      )} · ${link(guideIdxHref, "index.json")}</dd>
+<dt>${esc(tx("卡池", "Banners", "ガチャ"))}</dt>
+<dd>${esc(
+        tx(
+          `共 ${banners.count ?? 0} 个（进行中 ${banners.current_count ?? 0} · 未开始 ${banners.upcoming_count ?? 0}）`,
+          `${banners.count ?? 0} total (${banners.current_count ?? 0} live · ${banners.upcoming_count ?? 0} upcoming)`,
+          `計 ${banners.count ?? 0} 件（開催中 ${banners.current_count ?? 0} · 開始前 ${banners.upcoming_count ?? 0}）`
+        )
+      )}${banners.as_of ? ` · <code>as_of ${esc(banners.as_of)}</code>` : ""} · ${link(bannersHref, "banners.json")} · ${link(plannerHref, tx("抽卡规划", "Planner", "計画"))}</dd>
+<dt>${esc(tx("兑换码", "Redeem codes", "引き換えコード"))}</dt>
+<dd>${esc(
+        tx(
+          `共 ${codes.count ?? 0} 个（有效期内/可用 ${codes.live_count ?? 0} · 已过期 ${codes.expired_count ?? 0} · 未写有效期 ${codes.unstated_count ?? 0}）`,
+          `${codes.count ?? 0} total (${codes.live_count ?? 0} live · ${codes.expired_count ?? 0} expired · ${codes.unstated_count ?? 0} unstated)`,
+          `計 ${codes.count ?? 0} 件（有効 ${codes.live_count ?? 0} · 期限切れ ${codes.expired_count ?? 0} · 期限未記載 ${codes.unstated_count ?? 0}）`
+        )
+      )}${codes.checked || codes.as_of ? ` · <code>checked ${esc(codes.checked || codes.as_of)}</code>` : ""} · ${link(codesHref, "codes.json")}</dd>
+<dt>${esc(tx("近期资讯", "Digest", "摘要"))}</dt>
+<dd>${esc(
+        tx(
+          `${gameDigest.count ?? 0} 条${gameDigest.latest_date ? `（最新 ${gameDigest.latest_date}）` : ""}`,
+          `${gameDigest.count ?? 0} items${gameDigest.latest_date ? ` (latest ${gameDigest.latest_date})` : ""}`,
+          `${gameDigest.count ?? 0} 件${gameDigest.latest_date ? `（最新 ${gameDigest.latest_date}）` : ""}`
+        )
+      )}</dd>
+</dl>
+</article>`;
+    })
+    .join("");
+
+  const filterNote = filterGame
+    ? `<p class="meta">${esc(tx(`当前仅筛选：${filterGame}`, `Filtered by game: ${filterGame}`, `絞り込み中：${filterGame}`))} · ${link("/status/", tx("查看全部八款深耕", "Show all 8 deep games", "深掘り 8 作をすべて表示"))}</p>`
+    : "";
+
+  const apiHref = filterGame ? `/v1/status?game=${encodeURIComponent(filterGame)}` : "/v1/status";
+
+  return `<h1>${esc(tx("数据状态", "Data status", "データ状態"))}</h1>
+<p class="lede">${tx(
+    "从已发布的 <code>/v1</code> JSON 派生的新鲜度、更新说明与八款深耕覆盖度快照。人读本页，AI 读 <a href=\"/v1/status\"><code>GET /v1/status</code></a> 或 MCP 工具 <code>status</code>，同一份数据，不保存状态。",
+    "Stateless freshness, update note, and deep-coverage snapshot derived from published <code>/v1</code> JSON. People read this page; AI reads <a href=\"/v1/status\"><code>GET /v1/status</code></a> or the MCP <code>status</code> tool.",
+    "公開済みの <code>/v1</code> JSON から派生した鮮度、更新メモ、深掘り 8 作のカバー状況スナップショット。人はこのページを読み、AI は <a href=\"/v1/status\"><code>GET /v1/status</code></a> または MCP <code>status</code> ツールを読む。"
+  )}</p>
+<p class="meta"><code>today ${esc(today)}</code> · ${esc(tz)}</p>
+${noteHtml}
+<section aria-labelledby="status-feeds-h">
+<h2 id="status-feeds-h">${esc(tx("数据流新鲜度", "Feed freshness", "フィード鮮度"))}</h2>
+<div class="compare-wrap">
+<table class="compare">
+<thead><tr><th>${esc(tx("数据流", "Feed", "フィード"))}</th><th>${esc(tx("端点", "Endpoint", "エンドポイント"))}</th><th>generated_at / as_of</th><th>${esc(tx("规模", "Count", "件数"))}</th></tr></thead>
+<tbody>${feedRows}</tbody>
+</table>
+</div>
+</section>
+<section aria-labelledby="status-totals-h">
+<h2 id="status-totals-h">${esc(tx("目录与深耕总览", "Catalog & guide totals", "カタログと深掘り総覧"))}</h2>
+<dl class="facts">
+<dt>${esc(tx("泛游戏目录", "Game catalog", "ゲーム目録"))}</dt>
+<dd>${esc(
+    tx(
+      `共 ${catalog.count ?? 0} 部（观察名单 ${catalog.watchlist_count ?? 0} · 仅身份 stub ${catalog.stub_count ?? 0}）`,
+      `${catalog.count ?? 0} games (${catalog.watchlist_count ?? 0} watchlist · ${catalog.stub_count ?? 0} stub)`,
+      `計 ${catalog.count ?? 0} 本（ウォッチリスト ${catalog.watchlist_count ?? 0} · 身元のみ stub ${catalog.stub_count ?? 0}）`
+    )
+  )}${catalog.as_of ? ` · <code>as_of ${esc(catalog.as_of)}</code>` : ""} · ${link("/catalog/", tx("打开目录", "Open catalog", "カタログを開く"))} · ${link("/v1/games/index.json", "/v1/games/index.json")}</dd>
+<dt>${esc(tx("深耕角色图鉴", "Character guides", "キャラ図鑑"))}</dt>
+<dd>${esc(
+    tx(
+      `八款深耕共 ${guides.character_total ?? 0} 张角色卡（深耕 ${guides.rich_total ?? 0} · stub ${guides.stub_count ?? guides.stub_total ?? 0}）`,
+      `${guides.character_total ?? 0} cards across ${guides.deep_count ?? 8} deep games (${guides.rich_total ?? 0} rich · ${guides.stub_total ?? 0} stub)`,
+      `深掘り ${guides.deep_count ?? 8} 作で計 ${guides.character_total ?? 0} 枚（深掘り ${guides.rich_total ?? 0} · stub ${guides.stub_total ?? 0}）`
+    )
+  )}${guides.as_of ? ` · <code>as_of ${esc(guides.as_of)}</code>` : ""} · ${link("/watchlist/", tx("打开观察名单", "Open watchlist", "ウォッチリストを開く"))} · ${link("/v1/guides/index.json", "/v1/guides/index.json")}</dd>
+</dl>
+</section>
+<section aria-labelledby="status-deep-h">
+<h2 id="status-deep-h">${esc(tx("八款深耕覆盖度", "Deep-game coverage", "深掘り 8 作のカバー状況"))}</h2>
+${filterNote}
+<div class="stack">${cardsHtml}</div>
+</section>
+${jsonLink(apiHref, apiHref)}`;
+}
+

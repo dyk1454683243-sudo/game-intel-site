@@ -13,6 +13,7 @@ import {
   renderGame,
   renderHome,
   renderMe,
+  renderStatus,
   renderWatchlist,
   safeId,
   shanghaiToday,
@@ -621,6 +622,21 @@ async function showClaims() {
   }
 }
 
+async function showStatus() {
+  const game = safeId(params().get("game"));
+  const url = game ? `/v1/status?game=${encodeURIComponent(game)}` : "/v1/status";
+  const doc = await getJson(url);
+  paint(renderStatus(doc, { game }), pageSeo(
+    tx("数据状态 · game-intel", "Data status · game-intel", "データ状態 · game-intel"),
+    tx(
+      "各数据流生成时间、更新说明与八款深耕角色/卡池/兑换码覆盖度快照。派生自 /v1 JSON，不保存状态。",
+      "Feed timestamps, latest update note, and deep-game coverage snapshot derived from published /v1 JSON.",
+      "各フィードの生成時刻、更新メモ、深掘り 8 作のカバー状況スナップショット。"
+    ),
+    [crumbHome(), { name: tx("状态", "Status", "状態"), path: localizePath("/status/") }]
+  ));
+}
+
 function onFilter(event) {
   const target = event.target;
   if (!target || !target.closest || !target.closest("#filters")) return;
@@ -668,6 +684,7 @@ async function boot() {
     else if (view === "compare") await showCompare();
     else if (view === "for-ai") showForAi();
     else if (view === "claims") await showClaims();
+    else if (view === "status") await showStatus();
     else paint(renderError("未知页面"));
   } catch (error) {
     paint(renderError(error.message || String(error)));
