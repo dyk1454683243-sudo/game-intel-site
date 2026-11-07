@@ -341,4 +341,16 @@ test("CLI planner and compare commands read published JSON without network", asy
   assert.equal(cmpOut.stored, false);
   assert.equal(cmpOut.game, "hw");
   assert.equal(cmpOut.count, 2);
+
+  const statusCli = spawnSync(
+    process.execPath,
+    ["mcp-server/cli.js", "status", "--game", "nikke"],
+    { cwd: repo, encoding: "utf8" }
+  );
+  assert.equal(statusCli.status, 0, statusCli.stderr);
+  const statusOut = JSON.parse(statusCli.stdout);
+  assert.equal(statusOut.ok, true);
+  assert.equal(statusOut.stored, false);
+  assert.equal(statusOut.deep_games.length, 1);
+  assert.equal(statusOut.deep_games[0].game, "nikke");
 });

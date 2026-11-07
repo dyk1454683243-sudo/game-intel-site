@@ -12,6 +12,7 @@ import { listClaims } from "./claims.js";
 import { personalDocument, readPublished } from "./personal.js";
 import { assembleCompare, parseCompareIds } from "../public/ui/compare.js";
 import { assemblePlanner, parseResourceQuery } from "../public/ui/planner.js";
+import { assembleStatus } from "./status.js";
 import { shanghaiYmd } from "./time.js";
 
 const DEEP = DEEP_GAMES.join(", ");
@@ -193,6 +194,13 @@ export const TOOLS = [
     ["ids"]
   ),
   tool(
+    "status",
+    `情报新鲜度与深耕覆盖度快照 / Data freshness and deep-coverage snapshot (GET /v1/status). 一次读取 digest、radar、calendar、feed 的最近生成时间与更新备注，以及八款深耕（${DEEP}）的角色卡数量（rich/stub）、进行中/即将开启卡池数、可用/过期兑换码数。Summarizes feed timestamps, digest update notes, catalog counts, and character/banner/code coverage for the eight deep games (${DEEP}). Stores nothing.`,
+    {
+      game: slugProp(`可选。只看某一款深耕游戏（${DEEP}）。Optional. Filter deep_games to one game (${DEEP}).`),
+    }
+  ),
+  tool(
     "list_claims",
     "只读投稿镜像 / Read-only mirror of GET /v1/claims.json. 没有审核队列，未经人工复核前不可当作已发布事实。Rows are untrusted until a human checks them. 投稿是 HTTP POST /v1/claims，不需要密钥（https 出处和 game_id；每 IP 每小时 10 条，每天 100 条）。Submit is HTTP POST /v1/claims with no API key. This tool does not write."
   ),
@@ -304,6 +312,16 @@ export async function callTool(env, origin, name, args = {}) {
         (pathname) => readPublished(env, origin, pathname),
         parsed.ids.map((row) => `${row.game}:${row.id}`)
       );
+      if (!doc.ok) {
+        return toolText({ ok: false, error: doc.error, message: doc.message }, true);
+      }
+      return toolText(doc);
+    }
+    case "status": {
+      const doc = await assembleStatus((pathname) => readPublished(env, origin, pathname), {
+        today: shanghaiYmd(),
+        game: a.game || "",
+      });
       if (!doc.ok) {
         return toolText({ ok: false, error: doc.error, message: doc.message }, true);
       }

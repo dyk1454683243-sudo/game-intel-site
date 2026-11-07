@@ -42,6 +42,8 @@ Commands:
     Derived pull planner timeline from published /v1 JSON. Stores nothing. No network.
   compare --ids game:id,game:id
     Side-by-side comparison of 2–4 cards from the same game. Stores nothing. No network.
+  status [--game ID]
+    Data freshness and deep-coverage snapshot from published /v1 JSON. Stores nothing. No network.
 
 Examples:
   node mcp-server/cli.js digest --summarize --diff --only_new
@@ -52,6 +54,7 @@ Examples:
   node mcp-server/cli.js personal --games bd2 --chars bd2:nevendaria
   node mcp-server/cli.js planner --game reverse-1999 --resources reverse-1999:3
   node mcp-server/cli.js compare --ids hw:ai_mi_li_ya,hw:garud
+  node mcp-server/cli.js status --game nikke
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js ask --state 'Horizon Walker 修女圣痕用什么 来源GameKee'
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js filter_morning --max 40
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js digest --summarize --diff --only_new | node mcp-server/cli.js triage --max 20
@@ -261,6 +264,13 @@ async function cmdCompare(flags) {
   });
 }
 
+async function cmdStatus(flags) {
+  const { statusFromPublic } = await import("./personal-public.js");
+  return statusFromPublic({
+    game: flags.game != null ? String(flags.game) : "",
+  });
+}
+
 async function main() {
   const flags = parseArgs(process.argv.slice(2));
   if (flags.help || flags._.length === 0) usage(flags.help ? 0 : 1);
@@ -301,6 +311,9 @@ async function main() {
       break;
     case "compare":
       result = await cmdCompare(flags);
+      break;
+    case "status":
+      result = await cmdStatus(flags);
       break;
     default:
       process.stderr.write(`unknown command: ${cmd}\n`);

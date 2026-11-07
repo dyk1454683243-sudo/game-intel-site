@@ -359,9 +359,9 @@ test("wrangler declares the public limiters and does not retarget CLAIMS", () =>
   assert.doesNotMatch(toml, /GAME_INTEL_API_KEYS\s*=\s*"[^"]+"/);
 });
 
-test("MCP tools are bilingual, schematized, and cover banners, codes, personal digest, planner, and compare", async () => {
+test("MCP tools are bilingual, schematized, and cover banners, codes, personal digest, planner, compare, and status", async () => {
   const names = TOOLS.map((tool) => tool.name);
-  for (const name of ["list_banners", "list_codes", "personal_digest", "planner", "compare", "list_games", "get_guide", "list_claims"]) {
+  for (const name of ["list_banners", "list_codes", "personal_digest", "planner", "compare", "status", "list_games", "get_guide", "list_claims"]) {
     assert.ok(names.includes(name), name);
   }
   for (const tool of TOOLS) {
@@ -380,6 +380,7 @@ test("MCP tools are bilingual, schematized, and cover banners, codes, personal d
   const personal = TOOLS.find((tool) => tool.name === "personal_digest");
   const plannerTool = TOOLS.find((tool) => tool.name === "planner");
   const compareTool = TOOLS.find((tool) => tool.name === "compare");
+  const statusTool = TOOLS.find((tool) => tool.name === "status");
   assert.deepEqual(banners.inputSchema.required, ["game"]);
   assert.deepEqual(codes.inputSchema.required, ["game"]);
   assert.deepEqual(compareTool.inputSchema.required, ["ids"]);
@@ -388,12 +389,14 @@ test("MCP tools are bilingual, schematized, and cover banners, codes, personal d
   assert.ok(personal.inputSchema.properties.chars);
   assert.ok(plannerTool.inputSchema.properties.game);
   assert.ok(plannerTool.inputSchema.properties.resources);
+  assert.ok(statusTool.inputSchema.properties.game);
   for (const id of DEEP_GAMES) {
     assert.match(banners.description, new RegExp(id));
     assert.match(codes.description, new RegExp(id));
     assert.match(personal.description, new RegExp(id));
     assert.match(plannerTool.description, new RegExp(id));
     assert.match(compareTool.description, new RegExp(id));
+    assert.match(statusTool.description, new RegExp(id));
     const bannerRes = await callTool(env(), origin, "list_banners", { game: id });
     const bannerData = JSON.parse(bannerRes.content[0].text);
     assert.equal(bannerRes.isError, false, id);
@@ -432,6 +435,19 @@ test("MCP tools are bilingual, schematized, and cover banners, codes, personal d
   const badCompare = await callTool(env(), origin, "compare", { ids: "hw:ai_mi_li_ya,nikke:modernia" });
   assert.equal(badCompare.isError, true);
   assert.equal(JSON.parse(badCompare.content[0].text).error, "bad_compare");
+
+  const statusRes = await callTool(env(), origin, "status", { game: "nikke" });
+  assert.equal(statusRes.isError, false);
+  const statusDoc = JSON.parse(statusRes.content[0].text);
+  assert.equal(statusDoc.ok, true);
+  assert.equal(statusDoc.stored, false);
+  assert.equal(statusDoc.deep_games.length, 1);
+  assert.equal(statusDoc.deep_games[0].game, "nikke");
+  assert.ok(statusDoc.feeds.digest.generated_at);
+
+  const badStatus = await callTool(env(), origin, "status", { game: "not-a-deep-game" });
+  assert.equal(badStatus.isError, true);
+  assert.equal(JSON.parse(badStatus.content[0].text).error, "bad_game");
 });
 
 test("developer page and llms.txt point at the public contract", () => {

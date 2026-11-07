@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 import { assembleCompare, parseCompareIds } from "../ai-site/public/ui/compare.js";
 import { assemblePersonal, parseFollows, shanghaiToday } from "../ai-site/public/ui/personal.js";
 import { assemblePlanner, parseResourceQuery } from "../ai-site/public/ui/planner.js";
+import { assembleStatus } from "../ai-site/src/status.js";
 
 const PUBLIC_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../ai-site/public");
 
@@ -48,4 +49,11 @@ export async function compareFromPublic(input = {}) {
     async (pathname) => readPublicFile(pathname),
     parsed.ids.map((row) => `${row.game}:${row.id}`)
   );
+}
+
+export async function statusFromPublic(input = {}, today = shanghaiToday()) {
+  return assembleStatus(async (pathname) => readPublicFile(pathname), {
+    today,
+    game: input.game || "",
+  });
 }

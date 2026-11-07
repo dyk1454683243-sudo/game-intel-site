@@ -42,7 +42,7 @@ import {
 } from "./guide-cache.js";
 import { askIntel } from "./ask.js";
 
-import { compareFromPublic, personalFromPublic, plannerFromPublic } from "./personal-public.js";
+import { compareFromPublic, personalFromPublic, plannerFromPublic, statusFromPublic } from "./personal-public.js";
 import { server } from "./index-tools-a.js";
 import {
   DATA_DIR,
@@ -111,6 +111,21 @@ server.tool(
   async ({ ids }) => {
     try {
       return textResult(await compareFromPublic({ ids: ids || "" }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
+    }
+  }
+);
+
+server.tool(
+  "status",
+  "Data freshness and deep-coverage snapshot from published /v1 JSON (digest, radar, calendar, feed, catalog, guides, banners, codes). Same document as GET /v1/status. Optional game filter. Stores nothing. No network.",
+  {
+    game: z.string().max(64).optional(),
+  },
+  async ({ game }) => {
+    try {
+      return textResult(await statusFromPublic({ game: game || "" }));
     } catch (e) {
       return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
     }
