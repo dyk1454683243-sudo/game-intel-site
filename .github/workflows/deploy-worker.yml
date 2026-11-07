@@ -1,0 +1,49 @@
+name: deploy-worker
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-worker-main
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ai-site/package-lock.json
+
+      - name: Install, test, and verify data freshness
+        working-directory: ai-site
+        run: |
+          npm ci
+          npm test
+          npm run check-data
+
+      - name: Deploy Cloudflare Worker
+        working-directory: ai-site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "${CLOUDFLARE_API_TOKEN}" ]; then
+            echo "::notice::CLOUDFLARE_API_TOKEN secret is not set; skipping wrangler deploy."
+            {
+              echo "### Cloudflare Worker Deploy Skipped"
+              echo "Add \`CLOUDFLARE_API_TOKEN\` (and optionally \`CLOUDFLARE_ACCOUNT_ID\`) under **Settings → Secrets and variables → Actions** to enable automatic \`wrangler deploy\` on pushes to \`main\`."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          npm run deploy
