@@ -103,18 +103,29 @@ export async function assembleStatus(readJson, options = {}) {
 
   const deep_games = await Promise.all(
     targetGames.map(async (id) => {
-      const [bannersDoc, codesDoc] = await Promise.all([
+      const [guideGameIdx, bannersDoc, codesDoc] = await Promise.all([
+        readJson(`/v1/guides/${id}/index.json`),
         readJson(`/v1/guides/${id}/banners.json`),
         readJson(`/v1/guides/${id}/codes.json`),
       ]);
       const gRow = guideMap.get(id) || {};
+      const chars = Array.isArray(guideGameIdx?.characters) ? guideGameIdx.characters : [];
+      const stub_characters = chars
+        .filter((c) => c && c.stub === true && c.id)
+        .map((c) => ({
+          id: String(c.id),
+          name: String(c.name || c.id),
+          name_zh: String(c.name_zh || c.name || c.id),
+        }));
       return {
         game: id,
-        name: gRow.name || id,
-        name_zh: gRow.name_zh || gRow.name || id,
-        character_count: gRow.character_count ?? 0,
-        rich_count: gRow.rich_count ?? 0,
-        stub_count: gRow.stub_count ?? 0,
+        name: gRow.name || guideGameIdx?.name || id,
+        name_zh: gRow.name_zh || guideGameIdx?.name_zh || gRow.name || id,
+        character_count: gRow.character_count ?? guideGameIdx?.character_count ?? chars.length,
+        rich_count: gRow.rich_count ?? guideGameIdx?.rich_count ?? 0,
+        stub_count: gRow.stub_count ?? guideGameIdx?.stub_count ?? stub_characters.length,
+        conclusion_stub_count: guideGameIdx?.conclusion_stub_count ?? 0,
+        stub_characters,
         banners: summarizeBanners(bannersDoc, today),
         codes: summarizeCodes(codesDoc),
         digest: summarizeDigestForGame(digestDoc, id),
@@ -126,6 +137,7 @@ export async function assembleStatus(readJson, options = {}) {
   const character_total = allGuideGames.reduce((sum, g) => sum + (g.character_count || 0), 0);
   const rich_total = allGuideGames.reduce((sum, g) => sum + (g.rich_count || 0), 0);
   const stub_total = allGuideGames.reduce((sum, g) => sum + (g.stub_count || 0), 0);
+  const conclusion_stub_total = deep_games.reduce((sum, g) => sum + (g.conclusion_stub_count || 0), 0);
 
   const digestList = Array.isArray(digestDoc?.digests) ? digestDoc.digests : [];
   const digestItemCount = digestList.reduce(
@@ -177,6 +189,7 @@ export async function assembleStatus(readJson, options = {}) {
       character_total,
       rich_total,
       stub_total,
+      conclusion_stub_total,
     },
     deep_games,
   };

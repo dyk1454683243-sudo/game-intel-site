@@ -1502,6 +1502,9 @@ export function renderStatus(doc, opts = {}) {
       if ((row.stub_count || 0) > 0) {
         marks.push(flag(`stub ${row.stub_count}`, "stub"));
       }
+      if ((row.conclusion_stub_count || 0) > 0) {
+        marks.push(flag(`summary.stub ${row.conclusion_stub_count}`, "stub"));
+      }
       marks.push(
         flag(
           tx(
@@ -1539,6 +1542,15 @@ export function renderStatus(doc, opts = {}) {
       const bannersHref = `/v1/guides/${encodeURIComponent(id)}/banners.json`;
       const codesHref = `/v1/guides/${encodeURIComponent(id)}/codes.json`;
       const plannerHref = `/planner/?game=${encodeURIComponent(id)}`;
+      const stubChars = Array.isArray(row.stub_characters) ? row.stub_characters : [];
+      const stubDetailsHtml = stubChars.length
+        ? `<details class="expired"><summary>${esc(tx(`待补齐 stub 角色卡（${stubChars.length}）`, `Remaining stub cards (${stubChars.length})`, `未完の stub カード（${stubChars.length}）`))}</summary><p>${stubChars
+            .map(
+              (c) =>
+                `${link(characterHref(id, c.id), displayCharacterName(c) || c.name_zh || c.name || c.id)} <code>${esc(c.id)}</code>`
+            )
+            .join(" · ")}</p></details>`
+        : "";
 
       return `<article class="card card-deep">
 <h3>${link(gameHref(id), title)} <code>${esc(id)}</code></h3>
@@ -1547,9 +1559,9 @@ export function renderStatus(doc, opts = {}) {
 <dt>${esc(tx("角色卡", "Characters", "キャラカード"))}</dt>
 <dd>${esc(
         tx(
-          `共 ${row.character_count ?? 0} 张（深耕 ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}）`,
-          `${row.character_count ?? 0} total (${row.rich_count ?? 0} rich · ${row.stub_count ?? 0} stub)`,
-          `計 ${row.character_count ?? 0} 枚（深掘り ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}）`
+          `共 ${row.character_count ?? 0} 张（深耕 ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}${row.conclusion_stub_count ? ` · 结论待补 ${row.conclusion_stub_count}` : ""}）`,
+          `${row.character_count ?? 0} total (${row.rich_count ?? 0} rich · ${row.stub_count ?? 0} stub${row.conclusion_stub_count ? ` · ${row.conclusion_stub_count} summary.stub` : ""})`,
+          `計 ${row.character_count ?? 0} 枚（深掘り ${row.rich_count ?? 0} · stub ${row.stub_count ?? 0}${row.conclusion_stub_count ? ` · 結論未完 ${row.conclusion_stub_count}` : ""}）`
         )
       )} · ${link(guideIdxHref, "index.json")}</dd>
 <dt>${esc(tx("卡池", "Banners", "ガチャ"))}</dt>
@@ -1577,6 +1589,7 @@ export function renderStatus(doc, opts = {}) {
         )
       )}</dd>
 </dl>
+${stubDetailsHtml}
 </article>`;
     })
     .join("");

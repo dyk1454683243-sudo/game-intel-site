@@ -1,0 +1,96 @@
+name: refresh-intel
+
+on:
+  schedule:
+    # Daily at 06:15 Asia/Shanghai (22:15 UTC)
+    - cron: "15 22 * * *"
+  workflow_dispatch:
+    inputs:
+      export_intel:
+        description: "Run export-intel (fetch live digest/radar/calendar via mcp-server CLI)"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh-intel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            ai-site/package-lock.json
+            mcp-server/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          npm --prefix mcp-server ci
+          npm --prefix ai-site ci
+
+      - name: Export live intel (best-effort)
+        if: ${{ github.event.inputs.export_intel != 'false' }}
+        working-directory: ai-site
+        run: npm run export-intel
+
+      - name: Re-export guides and catalog
+        working-directory: ai-site
+        run: |
+          npm run export-guides
+          npm run export-games
+
+      - name: Verify tests, data freshness gate, and stub audit
+        working-directory: ai-site
+        run: |
+          npm test
+          npm run check-data > /tmp/check-data.json
+          npm run audit-stubs -- --summary > /tmp/audit-stubs.json
+
+      - name: Open or update refresh PR when published JSON/HTML changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes after export; skipping PR."
+            exit 0
+          fi
+          TODAY="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          BRANCH="chore/auto-refresh-intel"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A
+          git commit -m "chore(data): refresh published intel and exports ($TODAY)"
+          git push --force origin "$BRANCH"
+
+          EXISTING_PR="$(gh pr list --head "$BRANCH" --base main --json number --jq '.[0].number // empty')"
+          BODY_FILE="/tmp/pr-body.md"
+          {
+            echo "## Automated Intel & Export Refresh ($TODAY)"
+            echo ""
+            echo "### \`npm run check-data\`"
+            echo "\`\`\`json"
+            cat /tmp/check-data.json
+            echo "\`\`\`"
+            echo ""
+            echo "### \`npm run audit-stubs -- --summary\`"
+            echo "\`\`\`json"
+            cat /tmp/audit-stubs.json
+            echo "\`\`\`"
+          } > "$BODY_FILE"
+
+          if [ -n "$EXISTING_PR" ]; then
+            gh pr edit "$EXISTING_PR" --title "chore(data): refresh published intel ($TODAY)" --body-file "$BODY_FILE"
+          else
+            gh pr create --base main --head "$BRANCH" --title "chore(data): refresh published intel ($TODAY)" --body-file "$BODY_FILE"
+          fi

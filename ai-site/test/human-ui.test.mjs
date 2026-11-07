@@ -24,6 +24,7 @@ import {
 } from "../public/ui/render.js";
 import { withLang } from "../public/ui/i18n.js";
 import { portraitImgSrc, portraitTarget } from "../public/ui/portrait.js";
+import { auditStubs } from "../scripts/audit-stubs.mjs";
 import { publishHumanHome } from "../scripts/export-games.mjs";
 import { assembleStatus } from "../src/status.js";
 
@@ -396,6 +397,10 @@ test("status page renders live snapshot and localized chrome without inventing f
     const abs = path.join(publicDir, rel);
     return fs.existsSync(abs) ? JSON.parse(fs.readFileSync(abs, "utf8")) : null;
   });
+  assert.equal(typeof doc.guides.conclusion_stub_total, "number");
+  const nikkeRow = doc.deep_games.find((g) => g.game === "nikke");
+  assert.ok(Array.isArray(nikkeRow.stub_characters) && nikkeRow.stub_characters.length > 0);
+
   const htmlZh = renderStatus(doc);
   assert.match(htmlZh, /<h1>数据状态<\/h1>/);
   assert.match(htmlZh, /数据流新鲜度/);
@@ -407,6 +412,8 @@ test("status page renders live snapshot and localized chrome without inventing f
   assert.match(htmlZh, /\/v1\/feed\.json/);
   assert.match(htmlZh, /href="\/game\/\?id=nikke"/);
   assert.match(htmlZh, /href="\/planner\/\?game=nikke"/);
+  assert.match(htmlZh, /待补齐 stub 角色卡/);
+  assert.match(htmlZh, /href="\/character\/\?game=nikke&amp;id=marian-queen"/);
   assert.match(htmlZh, /href="\/v1\/status"/);
 
   const htmlEn = withLang("en", () => renderStatus(doc, { game: "nikke" }));
@@ -414,17 +421,47 @@ test("status page renders live snapshot and localized chrome without inventing f
   assert.match(htmlEn, /Feed freshness/);
   assert.match(htmlEn, /Deep-game coverage/);
   assert.match(htmlEn, /Filtered by game: nikke/);
+  assert.match(htmlEn, /Remaining stub cards/);
   assert.match(htmlEn, /href="\/en\/game\/\?id=nikke"/);
   assert.match(htmlEn, /href="\/v1\/status\?game=nikke"/);
 
   const htmlJa = withLang("ja", () => renderStatus(doc));
   assert.match(htmlJa, /<h1>データ状態<\/h1>/);
   assert.match(htmlJa, /フィード鮮度/);
+  assert.match(htmlJa, /未完の stub カード/);
   assert.match(htmlJa, /href="\/ja\/game\/\?id=nikke"/);
 
   const errHtml = renderStatus({ ok: false, message: "Unknown deep game: bad-slug" });
   assert.match(errHtml, /class="error"/);
   assert.match(errHtml, /Unknown deep game: bad-slug/);
+});
+
+test("auditStubs and refresh-intel workflow cover all eight deep games", () => {
+  const report = auditStubs({ summaryOnly: false });
+  assert.equal(report.ok, true);
+  assert.equal(report.totals.deep_games, 8);
+  assert.ok(report.totals.character_total > 800);
+  assert.equal(
+    report.totals.character_total,
+    report.totals.rich_total + report.totals.skill_stub_total
+  );
+  const single = auditStubs({ game: "nikke" });
+  assert.equal(single.ok, true);
+  assert.equal(single.games.length, 1);
+  assert.equal(single.games[0].game, "nikke");
+  assert.ok(single.games[0].skill_stubs.every((row) => Array.isArray(row.sources)));
+
+  const bad = auditStubs({ game: "not-a-deep-game" });
+  assert.equal(bad.ok, false);
+  assert.equal(bad.error, "bad_game");
+
+  const wfPath = path.join(site, "..", ".github", "workflows", "refresh-intel.yml");
+  const wf = fs.readFileSync(wfPath, "utf8");
+  assert.match(wf, /schedule:/);
+  assert.match(wf, /workflow_dispatch:/);
+  assert.match(wf, /npm run export-intel/);
+  assert.match(wf, /npm run check-data/);
+  assert.match(wf, /npm run audit-stubs/);
 });
 
 test("game page keeps identity, deep entry, and published news only", () => {
