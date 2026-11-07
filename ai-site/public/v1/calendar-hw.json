@@ -1,25 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T01:43:21+08:00",
+    "fixture": false,
+    "generated_at": "2026-11-07T15:10:19+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli calendar --game hw"
   },
   "ok": true,
-  "count": 1,
-  "as_of": "2026-09-27T17:43:19.210Z",
-  "events": [
-    {
-      "game": "hw",
-      "name": "地平线行者",
-      "type": "event",
-      "title": "《Horizon Walker》l Event",
-      "start": null,
-      "end": null,
-      "note": "《Horizon Walker》l Event",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314344256",
-      "source": "official",
-      "confidence": "low"
-    }
-  ],
+  "count": 0,
+  "as_of": "2026-11-07T07:10:19.831Z",
+  "events": [],
   "via": "cli"
 }

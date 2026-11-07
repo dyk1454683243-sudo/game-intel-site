@@ -2,19 +2,155 @@
   "meta": {
     "as_of": "2026-11-07",
     "timezone": "Asia/Shanghai",
-    "generated_at": "2026-11-07T14:52:55+08:00",
+    "generated_at": "2026-11-07T15:10:27+08:00",
     "source": "digest+radar (real items only; never invented)",
     "count": 40,
     "note": "Sparse is OK. Empty items[] is valid if no real intel available."
   },
   "items": [
     {
-      "title": "共鳴者展示 | 鎖暝",
-      "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
+      "title": "伝説のTPS「ギアーズ」は“唯一無二”！ 最新作「Gears of War: E-Day」で味わうカバーシューターの真髄，「バイオ4」から「スプラ」へ続く系譜",
+      "url": "https://www.4gamer.net/games/968/G096869/20261030036/",
+      "game_id": null,
+      "platform": "four_gamer",
+      "published_at": "2026-11-07T03:00:00.000Z",
+      "source": "four_gamer"
+    },
+    {
+      "title": "初期版から何が変わった？ 「DRAPLINE」Ver.1.0の新要素と，アーリーアクセスで追加された内容まとめ。正式版で広がった育成と戦闘，その先の物語",
+      "url": "https://www.4gamer.net/games/921/G092147/20261104029/",
+      "game_id": null,
+      "platform": "four_gamer",
+      "published_at": "2026-11-07T01:00:00.000Z",
+      "source": "four_gamer"
+    },
+    {
+      "title": "Zenless Zone Zero представила Севериана Лоуэлла, агента городского фэнтези",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643347108",
+      "game_id": "zenless-zone-zero",
+      "platform": "official",
+      "published_at": "2026-11-06T15:53:08.000Z",
+      "source": "official"
+    },
+    {
+      "title": "Wuthering Waves получит крупное обновление 3.8: новая героиня, сюжетная глава и полезные улучшения",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643345771",
       "game_id": "wuthering-waves",
       "platform": "official",
-      "published_at": "2026-10-17",
+      "published_at": "2026-11-06T14:20:18.000Z",
       "source": "official"
+    },
+    {
+      "title": "【调研】wiki图鉴改版4.0！急需你的意见",
+      "url": "https://www.gamekee.com/nikke/727618.html",
+      "game_id": "nikke",
+      "platform": "gamekee",
+      "published_at": "2026-11-06T14:11:54.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "武装を瞬時に切り替えて戦うメカアクション「VOID ARMOR: FORM DRIVE」がSteamで本日発売。発売記念セールで25％オフ",
+      "url": "https://www.4gamer.net/games/055/G105593/20261106001/",
+      "game_id": null,
+      "platform": "four_gamer",
+      "published_at": "2026-11-06T14:00:00.000Z",
+      "source": "four_gamer"
+    },
+    {
+      "title": "The 10th Walpurgis Night - PV",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643344736",
+      "game_id": "limbus-company",
+      "platform": "official",
+      "published_at": "2026-11-06T09:06:50.000Z",
+      "source": "official"
+    },
+    {
+      "title": "Ver. 3.9 [Rekindled! Games of the Summer-Gold Sea] is Available!",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643341141",
+      "game_id": "reverse-1999",
+      "platform": "official",
+      "published_at": "2026-11-05T12:34:51.000Z",
+      "source": "official"
+    },
+    {
+      "title": "BrownDustX - v2.38.11.1 mod",
+      "url": "https://www.gamekee.com/zsca2/727450.html",
+      "game_id": "bd2",
+      "platform": "gamekee",
+      "published_at": "2026-11-05T11:53:40.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "11.05最新版BDX，要的自取",
+      "url": "https://www.gamekee.com/zsca2/727391.html",
+      "game_id": "bd2",
+      "platform": "gamekee",
+      "published_at": "2026-11-05T07:13:12.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《Horizon Walker》l Patch Note",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478513",
+      "game_id": "hw",
+      "platform": "official",
+      "published_at": "2026-11-04T10:00:10.000Z",
+      "source": "official"
+    },
+    {
+      "title": "IMPORTANT 11-04 Manual Security Check Instructions for the PC Launcher",
+      "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7&sid=494&from=list&col_name=IMPORTANT&father_content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+      "game_id": "nikke",
+      "platform": "official",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "source": "official"
+    },
+    {
+      "title": "Arknights: Endfield показала боевые приёмы оператора Argent Flow",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302253080",
+      "game_id": "arknights-endfield",
+      "platform": "official",
+      "published_at": "2026-11-03T16:52:34.000Z",
+      "source": "official"
+    },
+    {
+      "title": "万圣节兑换码",
+      "url": "https://www.gamekee.com/hw/726548.html",
+      "game_id": "hw",
+      "platform": "gamekee",
+      "published_at": "2026-10-30T09:46:47.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》全球CBT圆满收官！制作人揭秘未来优化方向与核心玩法。",
+      "url": "https://www.gamekee.com/www/726487.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": "2026-10-30T03:41:50.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《阿索拉：星之祈愿》“小鸠便利店”登场，四位反派魔法少女集结！",
+      "url": "https://www.gamekee.com/www/725910.html",
+      "game_id": "asora",
+      "platform": "gamekee",
+      "published_at": "2026-10-27T03:35:33.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "Nexon奇幻新作《蓝色星原：旅谣》定档11月26日上线，多重预热福利活动同步开启！",
+      "url": "https://www.gamekee.com/www/725336.html",
+      "game_id": "star",
+      "platform": "gamekee",
+      "published_at": "2026-10-23T08:53:49.000Z",
+      "source": "gamekee"
+    },
+    {
+      "title": "《碧蓝航线》开发商二游开放世界动作抓宠大作《蓝色星原：旅遥》正式定档11.26",
+      "url": "https://www.gamekee.com/www/725315.html",
+      "game_id": "star",
+      "platform": "gamekee",
+      "published_at": "2026-10-23T04:15:31.000Z",
+      "source": "gamekee"
     },
     {
       "title": "[Sanctuary of Ink] Version Update Notes",
@@ -25,44 +161,12 @@
       "source": "official"
     },
     {
-      "title": "2026, Oct. 15th Scheduled Update Notice",
-      "url": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-      "game_id": "limbus-company",
-      "platform": "official",
-      "published_at": "2026-10-12T09:14:56.000Z",
-      "source": "official"
-    },
-    {
-      "title": "New Content - Mirror of Sisyphe",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940410",
-      "game_id": "limbus-company",
-      "platform": "official",
-      "published_at": "2026-10-12T09:14:48.000Z",
-      "source": "official"
-    },
-    {
-      "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目｜情报总览",
-      "url": "https://zenless.hoyoverse.com/zh-tw/news/166644",
-      "game_id": "zenless-zone-zero",
-      "platform": "official",
-      "published_at": "2026-10-09T20:15:00+08:00",
-      "source": "official"
-    },
-    {
-      "title": "2026.10.15 (KST) New Identity Target Extraction",
-      "url": "https://store.steampowered.com/news/app/1973530/view/1846018067932619",
-      "game_id": "limbus-company",
-      "platform": "official",
-      "published_at": "2026-10-09T08:59:12.000Z",
-      "source": "official"
-    },
-    {
-      "title": "「鏡鎖妄世，心照紅塵」3.7版本內容說明",
-      "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
-      "game_id": "wuthering-waves",
-      "platform": "official",
-      "published_at": "2026-09-30",
-      "source": "official"
+      "title": "谷歌被停用后如何换绑地平线行者账号",
+      "url": "https://www.gamekee.com/hw/723514.html",
+      "game_id": "hw",
+      "platform": "gamekee",
+      "published_at": "2026-10-08T10:04:02.000Z",
+      "source": "gamekee"
     },
     {
       "title": "《阿索拉：星之祈愿》TGS曝新角色！“悠露子三人组”档案揭秘",
@@ -73,35 +177,11 @@
       "source": "gamekee"
     },
     {
-      "title": "【3.7版本】[角色/武器活動喚取・第一期]",
-      "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
-      "game_id": "wuthering-waves",
-      "platform": "official",
-      "published_at": "2026-09-29",
-      "source": "official"
-    },
-    {
       "title": "September 28 Resource Update & Fiend Hunter Skill Adjustment Notice",
       "url": "https://www.browndust2.com/en-us/news/view?id=01M3KNK923NR4P7568ECBR3JX5",
       "game_id": "bd2",
       "platform": "official",
       "published_at": "2026-09-28T09:30:14.367Z",
-      "source": "official"
-    },
-    {
-      "title": "2026, Oct. 1st Scheduled Update Notice",
-      "url": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
-      "game_id": "limbus-company",
-      "platform": "official",
-      "published_at": "2026-09-28T08:59:21.000Z",
-      "source": "official"
-    },
-    {
-      "title": "3.2版本限时频道（下期）",
-      "url": "https://zenless.hoyoverse.com/zh-tw/news/166475",
-      "game_id": "zenless-zone-zero",
-      "platform": "official",
-      "published_at": "2026-09-28T12:15:00+08:00",
       "source": "official"
     },
     {
@@ -113,156 +193,44 @@
       "source": "gamekee"
     },
     {
-      "title": "9月29日発売の「Minecraft Dungeons II」を開発陣と体験。約15年ぶりに登場する新ディメンション「シフト」（Sift）を4人協力プレイで飛び回ってきた",
-      "url": "https://www.4gamer.net/games/014/G101443/20260924017/",
-      "game_id": null,
-      "platform": "four_gamer",
-      "published_at": "2026-09-26T18:00:00.000Z",
-      "source": "four_gamer"
-    },
-    {
-      "title": "週刊Steam広場 第173号：仕立て屋シム「Dressmaker」や「Graveyard Keeper 2」が発売に",
-      "url": "https://www.4gamer.net/games/038/G003821/20260926002/",
-      "game_id": null,
-      "platform": "four_gamer",
-      "published_at": "2026-09-26T09:00:00.000Z",
-      "source": "four_gamer"
-    },
-    {
-      "title": "🍰 BrownDust2 | Granhildr’s Birthday",
-      "url": "https://www.browndust2.com/en-us/news/view?id=01M36CGYBABPCSSFAZEJ9K6F2N",
-      "game_id": "bd2",
-      "platform": "official",
-      "published_at": "2026-09-26T00:00:08.134Z",
-      "source": "official"
-    },
-    {
-      "title": "Switch向けダウンロード版「クーロンズゲートSuzaku」は10月29日発売へ。「クーロンズ・ゲート」の世界を再構築したアドベンチャーゲーム",
-      "url": "https://www.4gamer.net/games/911/G091134/20260925059/",
-      "game_id": null,
-      "platform": "four_gamer",
-      "published_at": "2026-09-25T13:48:57.000Z",
-      "source": "four_gamer"
-    },
-    {
-      "title": "解决一个bug，服务器断开连接重新开始游戏，实际上与网络无关，留档也许有人需要",
-      "url": "https://www.gamekee.com/zsca2/722174.html",
-      "game_id": "bd2",
+      "title": "鸣潮抽卡资源统计",
+      "url": "https://www.gamekee.com/mc/721612.html",
+      "game_id": "wuthering-waves",
       "platform": "gamekee",
-      "published_at": "2026-09-24T15:56:02.000Z",
+      "published_at": "2026-09-19T13:48:32.000Z",
       "source": "gamekee"
     },
     {
-      "title": "【角色评测+攻略】小美人鱼+米哈拉：羁绊锁链",
-      "url": "https://www.gamekee.com/nikke/721995.html",
-      "game_id": "nikke",
-      "platform": "gamekee",
-      "published_at": "2026-09-24T10:34:29.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "蓝色星原 平民队伍推荐——火属性超限队与风属性超限队",
-      "url": "https://www.gamekee.com/www/722051.html",
-      "game_id": "star",
-      "platform": "gamekee",
-      "published_at": "2026-09-23T16:35:20.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "蓝色星原 战斗底层介绍——属性克制与印记",
-      "url": "https://www.gamekee.com/www/722050.html",
-      "game_id": "star",
-      "platform": "gamekee",
-      "published_at": "2026-09-23T16:24:53.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
-      "url": "https://www.gamekee.com/www/721973.html",
-      "game_id": "asora",
-      "platform": "gamekee",
-      "published_at": "2026-09-23T08:32:17.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "IMPORTANT 09-23 List of Restricted Accounts Due to Misconduct (Updated on 2026/09/23)",
-      "url": "https://nikke-en.com/newsdetail.html?content_id=8c9c26caaf15ca4654aa5dfaabb9f868f607&sid=494&from=list&col_name=IMPORTANT&father_content_id=8c9c26caaf15ca4654aa5dfaabb9f868f607",
-      "game_id": "nikke",
-      "platform": "official",
-      "published_at": "2026-09-23T00:00:00.000Z",
-      "source": "official"
-    },
-    {
-      "title": "ElotesDoro 事件状况&来龙去脉",
-      "url": "https://www.gamekee.com/nikke/721826.html",
-      "game_id": "nikke",
-      "platform": "gamekee",
-      "published_at": "2026-09-22T09:51:59.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "《Horizon Walker》l Patch Note",
-      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010503595",
-      "game_id": "hw",
-      "platform": "official",
-      "published_at": "2026-09-22T09:01:38.000Z",
-      "source": "official"
-    },
-    {
-      "title": "NC《阿索拉：星之祈願》10月2日起展開全球CBT",
-      "url": "https://about.ncsoft.com/tw/news/article/AO_update_20260923",
-      "game_id": "asora",
-      "platform": "official",
-      "published_at": "2026-09-22",
-      "source": "official"
-    },
-    {
-      "title": "《阿索拉：星之祈愿》二次元新游揭秘！魔法咖啡店少女集结",
-      "url": "https://www.gamekee.com/www/721509.html",
-      "game_id": "asora",
-      "platform": "gamekee",
-      "published_at": "2026-09-18T08:31:35.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "《Horizon Walker 地平線行者》於23 日進行全新",
-      "url": "https://gnn.gamer.com.tw/detail.php?sn=312231",
+      "title": "【情報】萬聖節兌換碼",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=516",
       "game_id": "hw",
       "platform": "bahamut",
-      "published_at": "2026-09-09T00:00:00.000Z",
+      "published_at": null,
       "source": "bahamut"
     },
     {
-      "title": "收/换 莎拉镭射票/吧唧",
-      "url": "https://www.gamekee.com/zsca2/720284.html",
-      "game_id": "bd2",
-      "platform": "gamekee",
-      "published_at": "2026-09-08T11:46:38.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "第二届近卫征集大赛",
-      "url": "https://www.gamekee.com/hw/719925.html",
-      "game_id": "hw",
-      "platform": "gamekee",
-      "published_at": "2026-09-05T14:13:48.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "幕后访谈第14弹 “两周年奖励，比一周周年更加丰厚”",
-      "url": "https://www.gamekee.com/hw/715371.html",
-      "game_id": "hw",
-      "platform": "gamekee",
-      "published_at": "2026-08-04T09:20:33.000Z",
-      "source": "gamekee"
-    },
-    {
-      "title": "Guilty Mighty Bunny",
-      "url": "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+      "title": "Marian Queen",
+      "url": "https://www.prydwen.gg/nikke/characters/marian-queen",
       "game_id": "nikke",
       "platform": "prydwen",
       "published_at": null,
       "source": "prydwen"
+    },
+    {
+      "title": "Scarlet Goddeath",
+      "url": "https://www.prydwen.gg/nikke/characters/scarlet-goddeath",
+      "game_id": "nikke",
+      "platform": "prydwen",
+      "published_at": null,
+      "source": "prydwen"
+    },
+    {
+      "title": "【情報】序號CouPon兌換碼集中串(11/2更新)",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=76207&snA=9744",
+      "game_id": "bd2",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
     },
     {
       "title": "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
@@ -281,6 +249,14 @@
       "source": "taptap"
     },
     {
+      "title": "【情報】版上實用文章整合(暫定)",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=79865&snA=76",
+      "game_id": "star",
+      "platform": "bahamut",
+      "published_at": null,
+      "source": "bahamut"
+    },
+    {
       "title": "Smilegate Officially Opens MIRESI and CZN Booths at Anime Expo 2026",
       "url": "https://newsroom.smilegate.com/eng/1783313698",
       "game_id": "miraesi",
@@ -297,6 +273,14 @@
       "source": "official"
     },
     {
+      "title": "Astrae Oratio — Official TW hub (阿索拉：星之祈愿)",
+      "url": "https://astraeoratio.plaync.com/zh-tw/index",
+      "game_id": "asora",
+      "platform": "official",
+      "published_at": null,
+      "source": "official"
+    },
+    {
       "title": "阿索拉：星之祈愿",
       "url": "https://www.taptap.cn/app/855697",
       "game_id": "asora",
@@ -305,28 +289,44 @@
       "source": "taptap"
     },
     {
-      "title": "4.0版本「应门者」现已开启",
-      "url": "https://re.bluepoch.com/",
+      "title": "重返未来：1999",
+      "url": "https://www.taptap.cn/app/221062",
       "game_id": "reverse-1999",
-      "platform": "official",
+      "platform": "taptap",
       "published_at": null,
-      "source": "official"
+      "source": "taptap"
     },
     {
-      "title": "【存在之火】德雷克概率 UP",
-      "url": "https://www.sina.cn/news/detail/5354222569918675.html",
-      "game_id": "reverse-1999",
-      "platform": "official",
+      "title": "明日方舟：终末地",
+      "url": "https://www.taptap.cn/app/232326",
+      "game_id": "arknights-endfield",
+      "platform": "taptap",
       "published_at": null,
-      "source": "official"
+      "source": "taptap"
     },
     {
-      "title": "Ver. 3.8 [The Temporal Scale] is Available",
-      "url": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
-      "game_id": "reverse-1999",
-      "platform": "official",
+      "title": "《천상비M2》武侠新作预注册启动，11月CBT抢先体验！",
+      "url": "https://www.gamekee.com/www/726924.html",
+      "game_id": null,
+      "platform": "gamekee",
       "published_at": null,
-      "source": "official"
+      "source": "gamekee"
+    },
+    {
+      "title": "【新作】Trickcal Patima Alpha Build 预告PV",
+      "url": "https://www.gamekee.com/www/726947.html",
+      "game_id": null,
+      "platform": "gamekee",
+      "published_at": null,
+      "source": "gamekee"
+    },
+    {
+      "title": "《鬼魂养成》预注册突破百万！人气武侠放置RPG定档11月上线！",
+      "url": "https://www.gamekee.com/www/727510.html",
+      "game_id": null,
+      "platform": "gamekee",
+      "published_at": null,
+      "source": "gamekee"
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T01:43:27+08:00",
+    "fixture": false,
+    "generated_at": "2026-11-07T15:10:26+08:00",
     "timezone": "Asia/Shanghai",
     "source": "game-intel cli radar"
   },
@@ -14,7 +15,7 @@
   ],
   "channels": {
     "steam_coming_soon": {
-      "as_of": "2026-09-28",
+      "as_of": "2026-11-07",
       "source_url": "https://store.steampowered.com/api/featuredcategories/?l=english&cc=US",
       "error": null
     },
@@ -25,104 +26,104 @@
   },
   "items": [
     {
-      "title": "NCSoft奇幻RPG新作《阿索拉：星之祈愿》TGS 2026首秀，封闭测试火热招募！",
-      "url": "https://www.gamekee.com/www/721410.html",
+      "title": "《천상비M2》武侠新作预注册启动，11月CBT抢先体验！",
+      "url": "https://www.gamekee.com/www/726924.html",
+      "source": "gamekee",
+      "why": "gamekee:CBT"
+    },
+    {
+      "title": "【新作】Trickcal Patima Alpha Build 预告PV",
+      "url": "https://www.gamekee.com/www/726947.html",
       "source": "gamekee",
       "why": "gamekee:新作"
     },
     {
-      "title": "『 CBT 』 모집 마감 및 테스터 선정 일정 안내",
-      "url": "https://www.inven.co.kr/board/party/6537/112",
-      "source": "inven",
-      "why": "inven:CBT"
-    },
-    {
-      "title": "『 CBT 』 테스터 선정 결과 발표 안내",
-      "url": "https://www.inven.co.kr/board/party/6537/115",
-      "source": "inven",
-      "why": "inven:CBT"
-    },
-    {
-      "title": "CBT 참가자 모집 종료까지 D-14",
-      "url": "https://www.inven.co.kr/board/party/6537/92",
-      "source": "inven",
-      "why": "inven:CBT"
-    },
-    {
-      "title": "아스트라에 CBT 참가자 모집 시작",
-      "url": "https://www.inven.co.kr/board/party/6537/69",
-      "source": "inven",
-      "why": "inven:CBT"
-    },
-    {
-      "title": "아스트라에 오라토리오, CBT 참가자 모집 개시",
-      "url": "https://www.inven.co.kr/board/party/6553/37",
-      "source": "inven",
-      "why": "inven:CBT"
-    },
-    {
-      "title": "《阿索拉：星之祈愿》TGS首发爆火！复古RPG试玩排队火热",
-      "url": "https://www.gamekee.com/www/721482.html",
+      "title": "《鬼魂养成》预注册突破百万！人气武侠放置RPG定档11月上线！",
+      "url": "https://www.gamekee.com/www/727510.html",
       "source": "gamekee",
-      "why": "gamekee:CBT"
+      "why": "gamekee:预约"
     },
     {
-      "title": "《阿索拉：星之祈愿》二次元新游揭秘！魔法咖啡店少女集结",
-      "url": "https://www.gamekee.com/www/721509.html",
-      "source": "gamekee",
-      "why": "gamekee:CBT"
+      "title": "[라그나로크 온라인 PLUS+] CBT 이벤트 참여부터 보상까지",
+      "url": "https://www.inven.co.kr/board/ro/1952/351427",
+      "source": "inven",
+      "why": "inven:CBT"
     },
     {
-      "title": "Pawmlet - Wheat Farm",
-      "url": "https://store.steampowered.com/app/5250830/",
+      "title": "CBT 설문 93% “출시 후 플레이 의향”, 20단계 클리어는 3명",
+      "url": "https://www.inven.co.kr/board/party/6537/176",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "CBT 피드백 반영한다, AP와 패링부터 반복 전투까지",
+      "url": "https://www.inven.co.kr/board/party/6537/185",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "개선된 키보 대전? 2차·3차 CBT 플레이 비교",
+      "url": "https://www.inven.co.kr/board/party/6536/49",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "아스오라 CBT 후기 - 생각보다 꽤 괜찮았던 첫인상",
+      "url": "https://www.inven.co.kr/board/party/6537/148",
+      "source": "inven",
+      "why": "inven:CBT"
+    },
+    {
+      "title": "Desktop Oasis",
+      "url": "https://store.steampowered.com/app/4688280/",
       "source": "steam_coming_soon",
-      "why": "steam_coming_soon:2026-09-28",
-      "as_of": "2026-09-28"
+      "why": "steam_coming_soon:2026-11-07",
+      "as_of": "2026-11-07"
     },
     {
-      "title": "BomberParty",
-      "url": "https://store.steampowered.com/app/3130680/",
+      "title": "Noir Total : Deadly Party",
+      "url": "https://store.steampowered.com/app/3435580/",
       "source": "steam_coming_soon",
-      "why": "steam_coming_soon:2026-09-28",
-      "as_of": "2026-09-28"
+      "why": "steam_coming_soon:2026-11-07",
+      "as_of": "2026-11-07"
     },
     {
-      "title": "Hacker CLIcker",
-      "url": "https://store.steampowered.com/app/4504620/",
+      "title": "Dub Party",
+      "url": "https://store.steampowered.com/app/5259730/",
       "source": "steam_coming_soon",
-      "why": "steam_coming_soon:2026-09-28",
-      "as_of": "2026-09-28"
+      "why": "steam_coming_soon:2026-11-07",
+      "as_of": "2026-11-07"
     },
     {
-      "title": "DICEWAR OTHERWORLD Demo",
-      "url": "https://store.steampowered.com/app/5255600/",
+      "title": "The Light Switch",
+      "url": "https://store.steampowered.com/app/3681220/",
       "source": "steam_coming_soon",
-      "why": "steam_coming_soon:2026-09-28",
-      "as_of": "2026-09-28"
+      "why": "steam_coming_soon:2026-11-07",
+      "as_of": "2026-11-07"
     },
     {
-      "title": "9月29日発売の「Minecraft Dungeons II」を開発陣と体験。約15年ぶりに登場する新ディメンション「シフト」（Sift）を4人協力プレイで飛び回ってきた",
-      "url": "https://www.4gamer.net/games/014/G101443/20260924017/",
+      "title": "伝説のTPS「ギアーズ」は“唯一無二”！ 最新作「Gears of War: E-Day」で味わうカバーシューターの真髄，「バイオ4」から「スプラ」へ続く系譜",
+      "url": "https://www.4gamer.net/games/968/G096869/20261030036/",
       "source": "four_gamer",
-      "why": "four_gamer:2026-09-26",
-      "as_of": "2026-09-26",
-      "date": "2026-09-26T18:00:00.000Z"
+      "why": "four_gamer:2026-11-07",
+      "as_of": "2026-11-07",
+      "date": "2026-11-07T03:00:00.000Z"
     },
     {
-      "title": "週刊Steam広場 第173号：仕立て屋シム「Dressmaker」や「Graveyard Keeper 2」が発売に",
-      "url": "https://www.4gamer.net/games/038/G003821/20260926002/",
+      "title": "初期版から何が変わった？ 「DRAPLINE」Ver.1.0の新要素と，アーリーアクセスで追加された内容まとめ。正式版で広がった育成と戦闘，その先の物語",
+      "url": "https://www.4gamer.net/games/921/G092147/20261104029/",
       "source": "four_gamer",
-      "why": "four_gamer:2026-09-26",
-      "as_of": "2026-09-26",
-      "date": "2026-09-26T09:00:00.000Z"
+      "why": "four_gamer:2026-11-07",
+      "as_of": "2026-11-07",
+      "date": "2026-11-07T01:00:00.000Z"
     },
     {
-      "title": "Switch向けダウンロード版「クーロンズゲートSuzaku」は10月29日発売へ。「クーロンズ・ゲート」の世界を再構築したアドベンチャーゲーム",
-      "url": "https://www.4gamer.net/games/911/G091134/20260925059/",
+      "title": "武装を瞬時に切り替えて戦うメカアクション「VOID ARMOR: FORM DRIVE」がSteamで本日発売。発売記念セールで25％オフ",
+      "url": "https://www.4gamer.net/games/055/G105593/20261106001/",
       "source": "four_gamer",
-      "why": "four_gamer:2026-09-25",
-      "as_of": "2026-09-25",
-      "date": "2026-09-25T13:48:57.000Z"
+      "why": "four_gamer:2026-11-06",
+      "as_of": "2026-11-06",
+      "date": "2026-11-06T14:00:00.000Z"
     }
   ],
   "via": "cli"

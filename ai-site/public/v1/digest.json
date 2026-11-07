@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T01:43:18+08:00",
+    "fixture": false,
+    "generated_at": "2026-11-07T15:09:37+08:00",
     "timezone": "Asia/Shanghai",
-    "source": "game-intel cli digest --summarize",
-    "note": "2026-09-29：bd2 / nikke 各钉入一条已核对中文摘要（data/digest-briefs.json）。2026-09-30：asora 钉入 TGS 悠露子三人组。2026-10-08：lo2 去掉 GameKee www/722370、www/722318（东方幻想eclipse，不是 Last Origin 2）。2026-10-17：追加 reverse-1999 三条官方标题，其余游戏未重抓。 2026-10-17：追加终末地 Sanctuary of Ink 公告一条，其余游戏未重抓。 2026-10-17：wuthering-waves 追加 3 条库洛官方公告，不重抓其他游戏。"
+    "source": "game-intel cli digest --summarize"
   },
   "ok": true,
   "count": 12,
@@ -21,31 +21,31 @@
       ],
       "items": [
         {
-          "title": "第二届近卫征集大赛",
-          "url": "https://www.gamekee.com/hw/719925.html",
+          "title": "万圣节兑换码",
+          "url": "https://www.gamekee.com/hw/726548.html",
           "source": "gamekee",
-          "updated": "2026-09-05T14:13:48.000Z",
-          "id": 719925,
-          "summary": "您好，人神大人！迎来二周年，近卫征集大赛再度回归！这一次又会有哪位近卫化作现实呢！让您的想象成为现实！不妨再次尽情展开您想象的翅膀吧？第二届近卫征集大赛正式开启。本次被选为最优秀奖的构想，将会被制作为游戏内实装的近卫角色，诚邀大家踊跃参与！◆活动参与方式参与渠道：官方Discord【第二届近卫征集大"
+          "updated": "2026-10-30T09:46:47.000Z",
+          "id": 726548,
+          "summary": "人神大人，大家好~~转眼间万圣节已经近在眼前了~~~~~~~~啊啊对了为迎接万圣节准备的全新优惠券！HappyHappy万圣节~~~不对，是HappyHorizonWalker...？快来看看下面的内容吧！◈Happy万圣节？！HappyHorizonWalker~~●优惠券码26HAPPYHW*E"
         },
         {
-          "title": "幕后访谈第14弹 “两周年奖励，比一周周年更加丰厚”",
-          "url": "https://www.gamekee.com/hw/715371.html",
+          "title": "谷歌被停用后如何换绑地平线行者账号",
+          "url": "https://www.gamekee.com/hw/723514.html",
           "source": "gamekee",
-          "updated": "2026-08-04T09:20:33.000Z",
-          "id": 715371,
-          "summary": "“小游戏是制作组研讨得出的产物，白石琴叶是超强力辅助角色。”大家好，这里是TheGamesDaily的记者姜仁锡。近期针对叛忍以及HorizonWalker开服两周年进行了专访。将尽可能原汁原味地传达现场的访谈内容。本次访谈由徐允硕PD出席。记者：能否介绍一下为纪念开服两周年准备的更新与活动？徐：目"
+          "updated": "2026-10-08T10:04:02.000Z",
+          "id": 723514,
+          "summary": "之前有玩家发帖，说在网上买了一个HW初始号，购买后自己绑了一个三无谷歌号（无二步验证，无辅助手机，无辅助邮箱），玩了一段时间后谷歌账号被停用，向谷歌申诉失败，且游戏内没有关联steam、苹果账号，间接导致自己无法再登陆游戏。后来我们找到玩家收集账号资料，帮助玩家换绑成功，在此将全部流程写在本帖内，希"
         },
         {
           "title": "《Horizon Walker》l Patch Note",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010503595",
-          "date": "2026-09-22T09:01:38.000Z",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478513",
+          "date": "2026-11-04T10:00:10.000Z",
           "source": "official"
         },
         {
-          "title": "《Horizon Walker 地平線行者》於23 日進行全新",
-          "url": "https://gnn.gamer.com.tw/detail.php?sn=312231",
-          "date": "2026-09-09T00:00:00.000Z",
+          "title": "【情報】萬聖節兌換碼",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=81419&snA=516",
+          "date": null,
           "source": "bahamut"
         }
       ]
@@ -70,30 +70,28 @@
           "summary": "GameKee 发布特别动画《MINIKKE 小小童话集》灰姑娘篇完整版，带中文字幕。页面写道：灰姑娘梦想与女神部队并肩作战，与伙伴准备华丽舞台；公演开始后伙伴能力接连失控，出征欢迎仪式的舞台也朝意想不到的方向发展。不补充页面没写的情节。"
         },
         {
-          "title": "【角色评测+攻略】小美人鱼+米哈拉：羁绊锁链",
-          "url": "https://www.gamekee.com/nikke/721995.html",
+          "title": "【调研】wiki图鉴改版4.0！急需你的意见",
+          "url": "https://www.gamekee.com/nikke/727618.html",
           "source": "gamekee",
-          "updated": "2026-09-24T10:34:29.000Z",
-          "id": 721995,
-          "summary": "千呼万唤始出来！赛莲终于要登录国服了！作为国际服2.5周年的主打，尽管当期剧情颇具争议，但赛莲的造型人设强度都是毫无争议的优质，尽管早在二周年灰姑娘主场就登场，赛莲依旧在第三届人气投票中取得前三名的成绩，并且在后续的夏日剧情中与你指的羁绊进一步加强，还是NIKKE史上第一位双转盘拥有者，可以说是捍卫"
+          "updated": "2026-11-06T14:11:54.000Z",
+          "id": 727618,
+          "summary": "什么？图鉴又又又要升级啦？！是的在上半年我们推出了3.0版本收获了各位的好评几项升级都获得了认可这更加证明我们升级的思路是没错的。那么为什么我们要如此之快推出4.0版本呢？主要在于AI与AGENT在这几个月的飞速发展导致我们想用AI来重构代码完全打破之前的图鉴编辑与维护理念。换句话说最新的图鉴意味着"
         },
         {
-          "title": "ElotesDoro 事件状况&来龙去脉",
-          "url": "https://www.gamekee.com/nikke/721826.html",
-          "source": "gamekee",
-          "updated": "2026-09-22T09:51:59.000Z",
-          "id": 721826,
-          "summary": "ElotesDoro是什么？我相信国内很多玩NIKKE的小伙伴并不知道（包括在昨天之前的我）不过有小伙伴私信给我并且说这事非同小可我去推上一看果然可以说在nikke圈炸开了锅（截止到目前接近200万的访问量）所以我去把事情详细了解了一下为大家解读一番。简单来说ElotesDoro是一家墨西哥小镇当地"
-        },
-        {
-          "title": "IMPORTANT 09-23 List of Restricted Accounts Due to Misconduct (Updated on 2026/09/23)",
-          "url": "https://nikke-en.com/newsdetail.html?content_id=8c9c26caaf15ca4654aa5dfaabb9f868f607&sid=494&from=list&col_name=IMPORTANT&father_content_id=8c9c26caaf15ca4654aa5dfaabb9f868f607",
-          "date": "2026-09-23T00:00:00.000Z",
+          "title": "IMPORTANT 11-04 Manual Security Check Instructions for the PC Launcher",
+          "url": "https://nikke-en.com/newsdetail.html?content_id=ecdccd40a55a5a46aaa9abda64d436082db7&sid=494&from=list&col_name=IMPORTANT&father_content_id=ecdccd40a55a5a46aaa9abda64d436082db7",
+          "date": "2026-11-04T00:00:00.000Z",
           "source": "official"
         },
         {
-          "title": "Guilty Mighty Bunny",
-          "url": "https://www.prydwen.gg/nikke/characters/guilty-mighty-bunny",
+          "title": "Marian Queen",
+          "url": "https://www.prydwen.gg/nikke/characters/marian-queen",
+          "date": null,
+          "source": "prydwen"
+        },
+        {
+          "title": "Scarlet Goddeath",
+          "url": "https://www.prydwen.gg/nikke/characters/scarlet-goddeath",
           "date": null,
           "source": "prydwen"
         }
@@ -107,7 +105,8 @@
       "count": 4,
       "sources": [
         "official",
-        "gamekee"
+        "gamekee",
+        "bahamut"
       ],
       "items": [
         {
@@ -118,27 +117,26 @@
           "summary": "官方公告：9月28日 18:28（KST）已做资源更新。巨型魔兽「矿坑之灵（暗）」每次攻击追加效果：若目标的反击是按受到敌人伤害触发，则对其施加 1 回合、防御力降低 200% 的减益（防御力不低于 0%；按自身属性触发的反击不在此列），以免养成投入因防御力拉开猎魔分数。公告没有逐条改写玩家服装技能。"
         },
         {
-          "title": "解决一个bug，服务器断开连接重新开始游戏，实际上与网络无关，留档也许有人需要",
-          "url": "https://www.gamekee.com/zsca2/722174.html",
+          "title": "BrownDustX - v2.38.11.1 mod",
+          "url": "https://www.gamekee.com/zsca2/727450.html",
           "source": "gamekee",
-          "updated": "2026-09-24T15:56:02.000Z",
-          "id": 722174,
-          "summary": "前两天游戏在开始界面打不开选择卸载重装，结果每次在进度1%左右就卡住了，然后跳错误说明（我忘记截图用网上的图）：“与服务器断开连接。重新开始游戏CLIENT_LOGIC_ERROR/BUNDLE_COMMON”这个bug直接困扰我两三天，各种换梯子加速器都没用，提示断开连接让人误以为是网络问题，实际"
+          "updated": "2026-11-05T11:53:40.000Z",
+          "id": 727450,
+          "summary": "我用夸克网盘给你分享了「BrownDustX-v2.38.11.1.zip」，点击链接或复制整段内容，打开「夸克网盘APP」即可获取。/~c7ac3c63hf~:/链接：https://pan.quark.cn/s/2271aea789b8"
         },
         {
-          "title": "收/换 莎拉镭射票/吧唧",
-          "url": "https://www.gamekee.com/zsca2/720284.html",
+          "title": "11.05最新版BDX，要的自取",
+          "url": "https://www.gamekee.com/zsca2/727391.html",
           "source": "gamekee",
-          "updated": "2026-09-08T11:46:38.000Z",
-          "id": 720284,
-          "summary": "棕色尘埃2收/换莎拉镭射票/吧唧【现货】BROWNDUSTIIxknoppers联名礼盒，官方正版联名周边。已有：卢班希亚吧唧及温感明信片x2（主图所示）爱丽洁镭射票均有原袋，保存完好。收或换莎拉的镭射票和吧唧。包邮。细节欢迎私聊（前提是有我需要的）。"
+          "updated": "2026-11-05T07:13:12.000Z",
+          "id": 727391,
+          "summary": "通过网盘分享的文件：BrownDustX-v2.38.11.1.zip链接:https://pan.baidu.com/s/1h0haD7q1ILelfZqW7dp9mA?pwd=unxq提取码:unxq"
         },
         {
-          "title": "🍰 BrownDust2 | Granhildr’s Birthday",
-          "url": "https://www.browndust2.com/en-us/news/view?id=01M36CGYBABPCSSFAZEJ9K6F2N",
-          "date": "2026-09-26T00:00:08.134Z",
-          "source": "official",
-          "category": "notice"
+          "title": "【情報】序號CouPon兌換碼集中串(11/2更新)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=76207&snA=9744",
+          "date": null,
+          "source": "bahamut"
         }
       ]
     },
@@ -147,28 +145,29 @@
       "name": "蓝色星原：旅谣",
       "alias": "www",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "sources": [
         "gamekee",
         "official",
-        "taptap"
+        "taptap",
+        "bahamut"
       ],
       "items": [
         {
-          "title": "蓝色星原 平民队伍推荐——火属性超限队与风属性超限队",
-          "url": "https://www.gamekee.com/www/722051.html",
+          "title": "Nexon奇幻新作《蓝色星原：旅谣》定档11月26日上线，多重预热福利活动同步开启！",
+          "url": "https://www.gamekee.com/www/725336.html",
           "source": "gamekee",
-          "updated": "2026-09-23T16:35:20.000Z",
-          "id": 722051,
-          "summary": "大家好，我是顽皮的风，随着蓝原三测的开启，很多小伙伴们都开始对游戏的玩法感到好奇。今天我就将对蓝原配队进行简单的介绍并推荐几套平民阵容，希望大家能在这基础上发挥自己的想象，为自己构筑出适合自己的队伍。特别提醒：本攻略写于蓝原三测期间，后续公测时机制与数值出现变化都非常正常，希望可以理性观看。超限队："
+          "updated": "2026-10-23T08:53:49.000Z",
+          "id": 725336,
+          "summary": "Nexon宣布，由Manjuu Games开发的奇幻世界RPG《蓝色星原：旅谣》将于11月26日在韩国正式上线。这款新作将同步登陆PC及移动平台（Google Play、App Store、Galaxy Store）。玩家将在奇幻大陆“普罗米利亚”与神秘生物“奇波”建立羁绊，体验探索、战斗和建造等丰富玩法。游戏以精美的角色设计和细腻的艺术风格为特色，并支持韩语全程配音。为庆祝上线，官方还准备了“奇"
         },
         {
-          "title": "蓝色星原 战斗底层介绍——属性克制与印记",
-          "url": "https://www.gamekee.com/www/722050.html",
+          "title": "《碧蓝航线》开发商二游开放世界动作抓宠大作《蓝色星原：旅遥》正式定档11.26",
+          "url": "https://www.gamekee.com/www/725315.html",
           "source": "gamekee",
-          "updated": "2026-09-23T16:24:53.000Z",
-          "id": 722050,
-          "summary": "大家好，我是顽皮的风，随着蓝原三测的开启，很多小伙伴们都开始对游戏的玩法感到好奇。今天我就将对蓝原的属性与印记进行一下简单的介绍，并为大家介绍一下组队构思，希望大家能在这基础上发挥自己的想象，为自己构筑出适合自己的队伍。特别提醒：本攻略写于蓝原三测期间，后续公测时机制与数值出现变化都非常正常，希望可"
+          "updated": "2026-10-23T04:15:31.000Z",
+          "id": 725315,
+          "summary": "由蛮啾网路（Manjuu）制作的全新幻想大世界RPG《蓝色星原：旅谣》公测定档11.26官方表示，作为一款强调星宠结缘与多文明探索的幻想RPG，《蓝色星原：旅谣》主打沉浸大世界冒险与角色情感连结。星临者将踏入名为普罗米利亚的幻想大陆，文明、魔法、与不可思议的幻想生物在此共存，构筑成超乎你我想像的广袤"
         },
         {
           "title": "蓝色星原：旅谣 — TapTap 官方：旅迹测试定档 9月17日",
@@ -180,6 +179,12 @@
           "title": "蓝色星原：旅谣",
           "url": "https://www.taptap.cn/app/593829",
           "source": "taptap"
+        },
+        {
+          "title": "【情報】版上實用文章整合(暫定)",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=79865&snA=76",
+          "date": null,
+          "source": "bahamut"
         }
       ]
     },
@@ -239,25 +244,25 @@
           "summary": "GameKee 转述 TGS 角色情报：Dynamis One 与 NCSoft 的《阿索拉：星之祈愿》公布「悠露子三人组」，来自私立利萨拉女学园的特殊社团。三人是问题少女柳原路易斯、烈焰魔女炎龙小夜美、普通女孩爱泉柚月。正文亦写作柳原路易丝，并称她们被官方描述成「一群乌合之众组成的社团」。不补充强度或抽卡。"
         },
         {
-          "title": "《阿索拉：星之祈愿》全球测试10月2日启动，新团本、18角色抢先体验！",
-          "url": "https://www.gamekee.com/www/721973.html",
+          "title": "《阿索拉：星之祈愿》全球CBT圆满收官！制作人揭秘未来优化方向与核心玩法。",
+          "url": "https://www.gamekee.com/www/726487.html",
           "source": "gamekee",
-          "updated": "2026-09-23T08:32:17.000Z",
-          "id": 721973,
-          "summary": "NCSoft宣布，由迪纳米斯一号工作室开发的全新魔法RPG《阿索拉：星之祈愿》将于10月2日至6日开启全球封闭测试。本次为期五天的测试将登陆移动双平台，并支持中文繁体、日文、英文、韩文等多国语言。玩家将有机会抢先体验18位独特角色，以及首次公开的团队副本等核心玩法。测试内容还包括三段主线剧情、两段支线故事及丰富的战斗与社交系统。此前，游戏已在东京电玩展上首次公开亮相，NCSoft将根据本次测试反馈"
+          "updated": "2026-10-30T03:41:50.000Z",
+          "id": 726487,
+          "summary": "由Dynamis One开发、NCSoft发行的二次元新作《阿索拉：星之祈愿》已于10月2日至6日成功举办全球删档测试。本次测试展示了游戏独特的“新战记”世界观、个性角色以及融合回合制与即时元素的创新战斗系统，并取得了高玩家留存率。制作人表示，CBT期间玩家对故事和美术给予了积极评价，同时也收到了关于战斗系统优化的宝贵建议。开发团队将根据反馈，重点改进影响战斗流程和节奏的元素，力求在正式上线时带来"
         },
         {
-          "title": "《阿索拉：星之祈愿》二次元新游揭秘！魔法咖啡店少女集结",
-          "url": "https://www.gamekee.com/www/721509.html",
+          "title": "《阿索拉：星之祈愿》“小鸠便利店”登场，四位反派魔法少女集结！",
+          "url": "https://www.gamekee.com/www/725910.html",
           "source": "gamekee",
-          "updated": "2026-09-18T08:31:35.000Z",
-          "id": 721509,
-          "summary": "由Dynamis One与NCSoft联手打造的二次元魔法少女手游《阿索拉：星之祈愿》近日公开了详细情报。这款登陆Android及iOS平台的新作，以一间由退休魔法师蕾雅经营的“草莓咖啡店”为舞台。店内汇聚了多位性格鲜明的店员，更独特的是，它同时向普通人和魔法师开放。目前，游戏已介绍了三位核心角色：身兼多职的大学生夏目苍花、自称武士的看板娘咲场雪，以及看似严厉实则随性的店长蕾雅。"
+          "updated": "2026-10-27T03:35:33.000Z",
+          "id": 725910,
+          "summary": "《阿索拉：星之祈愿》近日揭秘了全新势力“小鸠便利店”。这个由Dynamis One和NCSoft联合打造的二次元手游，将带玩家深入东京地下世界。表面上是普通便利店，实则为中介二手魔法道具、处理各类委托的“恶党魔法师”组织。成员包括店长鸠谷翼、兼职员工熊谷里恩、战斗员所泽缠和会计川口纱枝，四位个性鲜明的反派魔法少女即将登场，为游戏增添更多精彩内容。"
         },
         {
-          "title": "NC《阿索拉：星之祈願》10月2日起展開全球CBT",
-          "url": "https://about.ncsoft.com/tw/news/article/AO_update_20260923",
-          "date": "2026-09-22",
+          "title": "Astrae Oratio — Official TW hub (阿索拉：星之祈愿)",
+          "url": "https://astraeoratio.plaync.com/zh-tw/index",
+          "date": null,
           "source": "official"
         },
         {
@@ -272,28 +277,22 @@
       "name": "重返未来：1999",
       "alias": "reverse1999",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "sources": [
-        "official"
+        "official",
+        "taptap"
       ],
       "items": [
         {
-          "title": "4.0版本「应门者」现已开启",
-          "url": "https://re.bluepoch.com/",
-          "source": "official",
-          "summary": "官网写当前版本 4.0.0，更新时间 2026.09.24。页面标题是 2026箱中巡游庆典·4.0版本「应门者」。"
+          "title": "Ver. 3.9 [Rekindled! Games of the Summer-Gold Sea] is Available!",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643341141",
+          "date": "2026-11-05T12:34:51.000Z",
+          "source": "official"
         },
         {
-          "title": "【存在之火】德雷克概率 UP",
-          "url": "https://www.sina.cn/news/detail/5354222569918675.html",
-          "source": "official",
-          "summary": "认证官方微博写六星兽灵感德雷克受邀概率 UP，时间 10/15 5:00-11/5 4:59，五星为空脑袋（木）和沙丝绒（兽）。帖文没有写时区。"
-        },
-        {
-          "title": "Ver. 3.8 [The Temporal Scale] is Available",
-          "url": "https://steamcommunity.com/games/3092660/announcements/detail/716790555855552818",
-          "source": "official",
-          "summary": "国际服 Steam 公告的下半是 The Future's Foundation，2026-10-15 05:00 至 2026-11-05 04:59 (UTC-5)，六星 Cornerstone。这不是国服 4.0 的德雷克池。"
+          "title": "重返未来：1999",
+          "url": "https://www.taptap.cn/app/221062",
+          "source": "taptap"
         }
       ]
     },
@@ -302,53 +301,46 @@
       "name": "明日方舟：终末地",
       "alias": "zmd",
       "ok": true,
+      "count": 3,
+      "sources": [
+        "official",
+        "taptap"
+      ],
+      "items": [
+        {
+          "title": "[Sanctuary of Ink] Version Update Notes",
+          "url": "https://endfield.gryphline.com/en-us/news/9560",
+          "source": "official",
+          "date": "2026-10-15T01:00:00.000Z",
+          "summary": "官网公告：Asia Server 于 Oct. 15, 2026 06:00–12:00（UTC+8）维护，版本名为 [Sanctuary of Ink]。新干员是 6★ Si 与 Argent Flow。特许寻访 [Rejuvenation] 的 Rate-UP 是 Si，写到 Nov. 5, 2026 11:59（server time）。公告没有写数字版本号 1.6。"
+        },
+        {
+          "title": "Arknights: Endfield показала боевые приёмы оператора Argent Flow",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1847920302253080",
+          "date": "2026-11-03T16:52:34.000Z",
+          "source": "official"
+        },
+        {
+          "title": "明日方舟：终末地",
+          "url": "https://www.taptap.cn/app/232326",
+          "source": "taptap"
+        }
+      ]
+    },
+    {
+      "game": "limbus-company",
+      "name": "边狱公司",
+      "alias": "limbus",
+      "ok": true,
       "count": 1,
       "sources": [
         "official"
       ],
       "items": [
         {
-          "title": "[Sanctuary of Ink] Version Update Notes",
-          "url": "https://endfield.gryphline.com/en-us/news/9560",
-          "date": "2026-10-15T01:00:00.000Z",
-          "source": "official",
-          "summary": "官网公告：Asia Server 于 Oct. 15, 2026 06:00–12:00（UTC+8）维护，版本名为 [Sanctuary of Ink]。新干员是 6★ Si 与 Argent Flow。特许寻访 [Rejuvenation] 的 Rate-UP 是 Si，写到 Nov. 5, 2026 11:59（server time）。公告没有写数字版本号 1.6。"
-        }
-      ]
-    },
-    {
-      "game": "limbus-company",
-      "name": "Limbus Company",
-      "name_zh": "边狱公司",
-      "alias": "limbus",
-      "ok": true,
-      "count": 4,
-      "sources": [
-        "official"
-      ],
-      "items": [
-        {
-          "title": "2026, Oct. 15th Scheduled Update Notice",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1846018067940411",
-          "date": "2026-10-12T09:14:56.000Z",
-          "source": "official"
-        },
-        {
-          "title": "2026.10.15 (KST) New Identity Target Extraction",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1846018067932619",
-          "date": "2026-10-09T08:59:12.000Z",
-          "source": "official"
-        },
-        {
-          "title": "2026, Oct. 1st Scheduled Update Notice",
-          "url": "https://store.steampowered.com/news/app/1973530/view/1844751498230922",
-          "date": "2026-09-28T08:59:21.000Z",
-          "source": "official"
-        },
-        {
-          "title": "New Content - Mirror of Sisyphe",
-          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067940410",
-          "date": "2026-10-12T09:14:48.000Z",
+          "title": "The 10th Walpurgis Night - PV",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643344736",
+          "date": "2026-11-06T09:06:50.000Z",
           "source": "official"
         }
       ]
@@ -358,24 +350,16 @@
       "name": "绝区零",
       "alias": "zzz",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "sources": [
         "official"
       ],
       "items": [
         {
-          "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目｜情报总览",
-          "url": "https://zenless.hoyoverse.com/zh-tw/news/166644",
-          "source": "official",
-          "date": "2026-10-09T20:15:00+08:00",
-          "summary": "官方新闻 2026/10/09。正文写全新代理人「菲欧妮」「赛维里安」即将登场，并写特别节目兑换码于 10月11日 23:59:59（UTC+8）失效。上下半调频钟点在该公告配图，不在正文。"
-        },
-        {
-          "title": "3.2版本限时频道（下期）",
-          "url": "https://zenless.hoyoverse.com/zh-tw/news/166475",
-          "source": "official",
-          "date": "2026-09-28T12:15:00+08:00",
-          "summary": "官方公告写本期调频时间为 2026/09/30 12:00 - 2026/10/20 14:59（伺服器时间），限定 S 级为洛克茜（风·击破）与普罗米娅（冰·异常）。"
+          "title": "Zenless Zone Zero представила Севериана Лоуэлла, агента городского фэнтези",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643347108",
+          "date": "2026-11-06T15:53:08.000Z",
+          "source": "official"
         }
       ]
     },
@@ -384,31 +368,25 @@
       "name": "鸣潮",
       "alias": "mc",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "sources": [
+        "gamekee",
         "official"
       ],
       "items": [
         {
-          "title": "共鳴者展示 | 鎖暝",
-          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5631",
-          "date": "2026-10-17",
-          "source": "official",
-          "summary": "官方繁中公告标题为「共鳴者展示 | 鎖暝」，startTime 2026-10-17 11:00。正文是图片，不补图里没有写出的句子。"
+          "title": "鸣潮抽卡资源统计",
+          "url": "https://www.gamekee.com/mc/721612.html",
+          "source": "gamekee",
+          "updated": "2026-09-19T13:48:32.000Z",
+          "id": 721612,
+          "summary": "鸣潮抽卡资源统计"
         },
         {
-          "title": "【3.7版本】[角色/武器活動喚取・第一期]",
-          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
-          "date": "2026-09-29",
-          "source": "official",
-          "summary": "公告写「但願長圓如此夜」「曙暮一線之間」「漫於盈缺時軸」角色喚取，以及「玉闕玄華」「曇切」「萬物持存的註釋」武器喚取。時段為 3.7版本更新後至 2026年10月22日09:59（伺服器時間）。5星UP分別為心、千咲、尤諾。"
-        },
-        {
-          "title": "「鏡鎖妄世，心照紅塵」3.7版本內容說明",
-          "url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5562",
-          "date": "2026-09-30",
-          "source": "official",
-          "summary": "內容說明列出5星共鳴者「心」（導電 | 音感儀）和「鎖暝」（導電 | 迅刀）。鎖暝可透過「余心所向九死未悔」獲得。這一段沒有寫該喚取的起止鐘點。"
+          "title": "Wuthering Waves получит крупное обновление 3.8: новая героиня, сюжетная глава и полезные улучшения",
+          "url": "https://steamstore-a.akamaihd.net/news/externalpost/PlayGround.ru - официальная группа/1848664643345771",
+          "date": "2026-11-06T14:20:18.000Z",
+          "source": "official"
         }
       ]
     }
