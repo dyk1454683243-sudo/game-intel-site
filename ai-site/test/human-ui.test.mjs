@@ -304,10 +304,14 @@ test("character pages use stored guide fields and keep gaps visible", () => {
 });
 
 test("home renders digest and radar without turning radar into a catalog", () => {
-  const today = "2026-09-28";
+  const digest = readJson("v1/digest.json");
+  const radar = readJson("v1/radar.json");
+  const today = String(digest?.meta?.generated_at || "2026-09-28").slice(0, 10);
+  const hwItems = newsForGame(digest, "hw");
+  assert.ok(hwItems.length > 0);
   const html = renderHome({
-    digest: readJson("v1/digest.json"),
-    radar: readJson("v1/radar.json"),
+    digest,
+    radar,
     today,
   });
   assert.match(html, /今日摘要/);
@@ -315,8 +319,7 @@ test("home renders digest and radar without turning radar into a catalog", () =>
   assert.match(html, /href="\/for-ai\/"/);
   assert.match(html, /观察名单/);
   assert.match(html, /雷达/);
-  assert.match(html, /第二届近卫征集大赛/);
-  assert.match(html, /阿索拉：星之祈愿/);
+  assert.ok(html.includes(hwItems[0].title));
   assert.match(html, /href="\/game\/\?id=hw"/);
   assert.doesNotMatch(html, /不是上海当日/);
   const hostile = renderHome({
@@ -324,7 +327,7 @@ test("home renders digest and radar without turning radar into a catalog", () =>
       meta: { generated_at: "2020-01-01T00:00:00+08:00", fixture: true },
       digests: [{ game: "hw", name: "地平线行者", count: 1, items: [{ title: "x", url: "javascript:alert(1)" }] }],
     },
-    radar: { meta: { generated_at: "2026-09-28T00:00:00+08:00" }, keywords: ["CBT"], items: [] },
+    radar: { meta: { generated_at: `${today}T00:00:00+08:00` }, keywords: ["CBT"], items: [] },
     today,
   });
   assert.match(hostile, /fixture/);
@@ -462,12 +465,19 @@ test("auditStubs and refresh-intel workflow cover all eight deep games", () => {
   assert.match(wf, /npm run export-intel/);
   assert.match(wf, /npm run check-data/);
   assert.match(wf, /npm run audit-stubs/);
+
+  const deployWfPath = path.join(site, "..", ".github", "workflows", "deploy-worker.yml");
+  const deployWf = fs.readFileSync(deployWfPath, "utf8");
+  assert.match(deployWf, /CLOUDFLARE_API_TOKEN/);
+  assert.match(deployWf, /npm run deploy/);
 });
 
 test("game page keeps identity, deep entry, and published news only", () => {
   const digest = readJson("v1/digest.json");
+  const hwNews = newsForGame(digest, "hw");
+  assert.ok(hwNews.length > 0);
   const hw = renderGame(readJson("v1/games/hw.json"), {
-    news: newsForGame(digest, "hw"),
+    news: hwNews,
     guideIndex: { characters: [], character_count: 0 },
   });
   assert.match(hw, /sheet-deep/);
@@ -475,14 +485,14 @@ test("game page keeps identity, deep entry, and published news only", () => {
   assert.match(hw, /data-follow-kind="game"/);
   assert.match(hw, /data-game="hw"/);
   assert.match(hw, /该游资讯/);
-  assert.match(hw, /第二届近卫征集大赛/);
-  assert.match(hw, /https:\/\/www\.gamekee\.com\/hw\/719925\.html/);
+  assert.ok(hw.includes(hwNews[0].title));
+  assert.ok(hw.includes(hwNews[0].url));
   assert.doesNotMatch(hw, /暂无已发布资讯/);
   const quiet = renderGame(readJson("v1/games/balatro.json"), { news: newsForGame(digest, "balatro") });
   assert.match(quiet, /sheet-stub/);
   assert.match(quiet, /暂无已发布资讯/);
   assert.match(quiet, /尚无深耕/);
-  assert.doesNotMatch(quiet, /第二届近卫征集大赛/);
+  assert.ok(!quiet.includes(hwNews[0].title));
 });
 
 test("stub character cards stay visually distinct and do not invent a conclusion", () => {
