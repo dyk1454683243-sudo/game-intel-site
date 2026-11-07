@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-18",
+  "as_of": "2026-11-07",
   "timezone": "Asia/Shanghai",
   "note": "Game entity catalog (separate from character guides). stub:true = identity+links only (name, platforms, tags, sources, steam_appid); character cards only for watchlist games. Never invent Metacritic/prices/player counts. If unverified, say 未见可靠出处.",
   "count": 84,

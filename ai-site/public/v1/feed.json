@@ -1,8 +1,8 @@
 {
   "meta": {
-    "as_of": "2026-10-18",
+    "as_of": "2026-11-07",
     "timezone": "Asia/Shanghai",
-    "generated_at": "2026-10-18T01:12:47+08:00",
+    "generated_at": "2026-11-07T14:52:55+08:00",
     "source": "digest+radar (real items only; never invented)",
     "count": 40,
     "note": "Sparse is OK. Empty items[] is valid if no real intel available."
