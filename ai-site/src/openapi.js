@@ -77,6 +77,15 @@ const compareQuery = [
     schema: { type: "string" },
   },
 ];
+const statusQuery = [
+  {
+    name: "game",
+    in: "query",
+    required: false,
+    description: `Optional deep game id (${DEEP}). Omit to inspect all eight deep games. 可选深耕游戏 id，留空返回全部八款。`,
+    schema: { type: "string", pattern: SLUG },
+  },
+];
 const personalQuery = [
   {
     name: "games",
@@ -114,6 +123,16 @@ function embed(schema) {
  */
 export const API_ROUTES = [
   { method: "get", path: "/v1/health", operationId: "getHealth", summary: "Liveness. Does not check KV. 健康检查，不依赖 KV。", schema: "Health", example: "/v1/health" },
+  {
+    method: "get",
+    path: "/v1/status",
+    operationId: "getStatus",
+    summary: "Derived freshness and deep-coverage snapshot across digest, radar, calendar, feed, catalog, and the eight deep games. Stores nothing. 实时情报新鲜度与八款深耕覆盖度快照。",
+    schema: "Status",
+    query: statusQuery,
+    badRequest: "bad_game. Unknown deep game id. 未知深耕游戏 id。",
+    example: "/v1/status",
+  },
   { method: "get", path: "/v1/openapi.json", operationId: "getOpenApi", summary: "This OpenAPI 3.1 document.", schema: "OpenApiDocument", example: "/v1/openapi.json" },
   { method: "get", path: "/openapi.json", operationId: "getOpenApiAlias", summary: "Same document as /v1/openapi.json.", schema: "OpenApiDocument", example: "/openapi.json" },
   { method: "get", path: "/v1/games/index.json", operationId: "getGamesIndex", summary: "Game catalog index. Stubs are identity-only. 游戏目录。", schema: "GamesIndex", example: "/v1/games/index.json" },
@@ -469,6 +488,73 @@ export function openApiDocument() {
             developers: { const: "/developers/" },
             mcp: { const: "/mcp" },
             rate_limit: { enum: ["active", "partial", "degraded"], description: "degraded means a rate-limit binding is missing and requests are allowed." },
+          },
+        },
+        Status: {
+          type: "object",
+          additionalProperties: true,
+          required: ["ok", "derived", "stored", "today", "timezone", "feeds", "catalog", "guides", "deep_games"],
+          properties: {
+            ok: { const: true },
+            derived: { const: true },
+            stored: { const: false },
+            today: { type: "string", description: "Asia/Shanghai YYYY-MM-DD." },
+            timezone: { const: "Asia/Shanghai" },
+            feeds: {
+              type: "object",
+              additionalProperties: true,
+              required: ["digest", "radar", "calendar", "calendar_hw", "feed"],
+              properties: {
+                digest: { type: "object", additionalProperties: true },
+                radar: { type: "object", additionalProperties: true },
+                calendar: { type: "object", additionalProperties: true },
+                calendar_hw: { type: "object", additionalProperties: true },
+                feed: { type: "object", additionalProperties: true },
+              },
+            },
+            catalog: {
+              type: "object",
+              additionalProperties: true,
+              required: ["as_of", "count", "watchlist_count", "stub_count"],
+              properties: {
+                as_of: { type: ["string", "null"] },
+                count: { type: "integer" },
+                watchlist_count: { type: "integer" },
+                stub_count: { type: "integer" },
+              },
+            },
+            guides: {
+              type: "object",
+              additionalProperties: true,
+              required: ["as_of", "total_games", "deep_count", "character_total", "rich_total", "stub_total"],
+              properties: {
+                as_of: { type: ["string", "null"] },
+                total_games: { type: "integer" },
+                deep_count: { type: "integer" },
+                character_total: { type: "integer" },
+                rich_total: { type: "integer" },
+                stub_total: { type: "integer" },
+              },
+            },
+            deep_games: {
+              type: "array",
+              items: {
+                type: "object",
+                additionalProperties: true,
+                required: ["game", "name", "character_count", "rich_count", "stub_count", "banners", "codes", "digest"],
+                properties: {
+                  game: { type: "string" },
+                  name: { type: "string" },
+                  name_zh: { type: "string" },
+                  character_count: { type: "integer" },
+                  rich_count: { type: "integer" },
+                  stub_count: { type: "integer" },
+                  banners: { type: "object", additionalProperties: true },
+                  codes: { type: "object", additionalProperties: true },
+                  digest: { type: "object", additionalProperties: true },
+                },
+              },
+            },
           },
         },
         OpenApiDocument: { type: "object", additionalProperties: true, description: "This document." },

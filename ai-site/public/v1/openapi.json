@@ -84,6 +84,66 @@
         }
       }
     },
+    "/v1/status": {
+      "get": {
+        "operationId": "getStatus",
+        "summary": "Derived freshness and deep-coverage snapshot across digest, radar, calendar, feed, catalog, and the eight deep games. Stores nothing. 实时情报新鲜度与八款深耕覆盖度快照。",
+        "parameters": [
+          {
+            "name": "game",
+            "in": "query",
+            "required": false,
+            "description": "Optional deep game id (hw, nikke, bd2, reverse-1999, arknights-endfield, limbus-company, zenless-zone-zero, wuthering-waves). Omit to inspect all eight deep games. 可选深耕游戏 id，留空返回全部八款。",
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "X-API-Version": {
+                "$ref": "#/components/headers/ApiVersion"
+              },
+              "ETag": {
+                "$ref": "#/components/headers/ETag"
+              },
+              "Access-Control-Allow-Origin": {
+                "$ref": "#/components/headers/AllowOrigin"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Status"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "bad_game. Unknown deep game id. 未知深耕游戏 id。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/InvalidKey"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "429": {
+            "$ref": "#/components/responses/RateLimited"
+          }
+        }
+      }
+    },
     "/v1/openapi.json": {
       "get": {
         "operationId": "getOpenApi",
@@ -2580,6 +2640,183 @@
               "degraded"
             ],
             "description": "degraded means a rate-limit binding is missing and requests are allowed."
+          }
+        }
+      },
+      "Status": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "ok",
+          "derived",
+          "stored",
+          "today",
+          "timezone",
+          "feeds",
+          "catalog",
+          "guides",
+          "deep_games"
+        ],
+        "properties": {
+          "ok": {
+            "const": true
+          },
+          "derived": {
+            "const": true
+          },
+          "stored": {
+            "const": false
+          },
+          "today": {
+            "type": "string",
+            "description": "Asia/Shanghai YYYY-MM-DD."
+          },
+          "timezone": {
+            "const": "Asia/Shanghai"
+          },
+          "feeds": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+              "digest",
+              "radar",
+              "calendar",
+              "calendar_hw",
+              "feed"
+            ],
+            "properties": {
+              "digest": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "radar": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "calendar": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "calendar_hw": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "feed": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          },
+          "catalog": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+              "as_of",
+              "count",
+              "watchlist_count",
+              "stub_count"
+            ],
+            "properties": {
+              "as_of": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "count": {
+                "type": "integer"
+              },
+              "watchlist_count": {
+                "type": "integer"
+              },
+              "stub_count": {
+                "type": "integer"
+              }
+            }
+          },
+          "guides": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": [
+              "as_of",
+              "total_games",
+              "deep_count",
+              "character_total",
+              "rich_total",
+              "stub_total"
+            ],
+            "properties": {
+              "as_of": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "total_games": {
+                "type": "integer"
+              },
+              "deep_count": {
+                "type": "integer"
+              },
+              "character_total": {
+                "type": "integer"
+              },
+              "rich_total": {
+                "type": "integer"
+              },
+              "stub_total": {
+                "type": "integer"
+              }
+            }
+          },
+          "deep_games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "required": [
+                "game",
+                "name",
+                "character_count",
+                "rich_count",
+                "stub_count",
+                "banners",
+                "codes",
+                "digest"
+              ],
+              "properties": {
+                "game": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_zh": {
+                  "type": "string"
+                },
+                "character_count": {
+                  "type": "integer"
+                },
+                "rich_count": {
+                  "type": "integer"
+                },
+                "stub_count": {
+                  "type": "integer"
+                },
+                "banners": {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                "codes": {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                "digest": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            }
           }
         }
       },

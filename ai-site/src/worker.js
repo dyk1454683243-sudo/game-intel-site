@@ -12,6 +12,7 @@ import { openApiDocument } from "./openapi.js";
 import { personalDocument, readPublished } from "./personal.js";
 import { assembleCompare, parseCompareIds } from "../public/ui/compare.js";
 import { assemblePlanner, parseResourceQuery } from "../public/ui/planner.js";
+import { assembleStatus } from "./status.js";
 import { shanghaiYmd } from "./time.js";
 import {
   API_VERSION,
@@ -180,6 +181,7 @@ export async function route(request, env) {
 
   if (path === "/v1/planner") return respondPlanner(request, env);
   if (path === "/v1/compare") return respondCompare(request, env);
+  if (path === "/v1/status") return respondStatus(request, env);
 
   if (path === "/v1/portrait") {
     if (request.method !== "GET") return new Response("method", { status: 405 });
@@ -280,6 +282,17 @@ async function respondCompare(request, env) {
   const parsed = parseCompareIds(url.searchParams.get("ids") || "");
   if (!parsed.ok) return apiError(parsed.status || 400, parsed.error, { message: parsed.message });
   const doc = await assembleCompare((pathname) => readPublished(env, url.origin, pathname), parsed.ids.map((row) => `${row.game}:${row.id}`));
+  if (!doc.ok) return apiError(doc.status || 400, doc.error, { message: doc.message });
+  return derivedJson(doc);
+}
+
+async function respondStatus(request, env) {
+  if (request.method !== "GET") return apiError(405, "method_not_allowed");
+  const url = new URL(request.url);
+  const doc = await assembleStatus((pathname) => readPublished(env, url.origin, pathname), {
+    today: shanghaiYmd(),
+    game: url.searchParams.get("game") || "",
+  });
   if (!doc.ok) return apiError(doc.status || 400, doc.error, { message: doc.message });
   return derivedJson(doc);
 }

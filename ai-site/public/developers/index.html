@@ -86,6 +86,7 @@
     <thead><tr><th>方法</th><th>路径</th><th>说明 / What</th></tr></thead>
     <tbody>
       <tr><td>GET</td><td><code>/v1/health</code></td><td>进程活着即 200。<code>rate_limit</code> 为 <code>degraded</code> 时限流绑定还没配上，请求仍然放行。Liveness. A missing rate-limit binding does not fail the check.</td></tr>
+      <tr><td>GET</td><td><code>/v1/status</code></td><td>派生的新鲜度与八款深耕覆盖度快照（digest/radar/calendar/feed 生成时间与更新日志、目录计数、各深耕游戏角色卡/卡池/兑换码汇总）。可选 <code>game</code>。不保存数据。Derived freshness and deep-coverage snapshot. Stores nothing.</td></tr>
       <tr><td>GET</td><td><code>/v1/games/index.json</code></td><td>游戏目录。Directory. <code>/v1/games/{id}.json</code> 是单条。</td></tr>
       <tr><td>GET</td><td><code>/v1/catalog-aliases.json</code></td><td>目录别名 → id。不是角色别名。Catalog nicknames, not character nicknames.</td></tr>
       <tr><td>GET</td><td><code>/v1/feed.json</code> <code>/v1/digest.json</code> <code>/v1/radar.json</code></td><td>已发布标题、分游戏摘要、新作雷达。空数组是合法结果。Headlines, per-game digest, new-game radar. An empty array is valid.</td></tr>
@@ -117,6 +118,7 @@
 
   <h2>试用 / Try it</h2>
   <pre>curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/health
+curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/status
 curl -sS -D - -o /dev/null https://game-intel-ai.dyk1454683243.workers.dev/v1/guides/nikke/banners.json
 curl -sS "https://game-intel-ai.dyk1454683243.workers.dev/v1/personal?games=hw&amp;chars=hw:ai_mi_li_ya"
 curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/guides/bd2/codes.json \
@@ -135,8 +137,8 @@ curl -sS https://game-intel-ai.dyk1454683243.workers.dev/v1/guides/bd2/codes.jso
   <p lang="en">Other gate errors use <code>{ok:false, error, message, api_version, status}</code>. MCP protocol errors stay JSON-RPC. HTTP 429 on <code>/mcp</code> uses the gate JSON.</p>
 
   <h2>MCP</h2>
-  <p>先读 <a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>，再向 <code>/mcp</code> 发 JSON-RPC POST。工具只读已发布 JSON，包括八款深耕的 <code>list_banners</code>、<code>list_codes</code> 和 <code>personal_digest</code>。描述是中英双语。</p>
-  <p lang="en">Read <code>/.well-known/mcp.json</code>, then POST JSON-RPC to <code>/mcp</code>. Tools are read-only, including <code>list_banners</code>, <code>list_codes</code>, and <code>personal_digest</code> for the eight deep games. Descriptions are bilingual.</p>
+  <p>先读 <a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>，再向 <code>/mcp</code> 发 JSON-RPC POST。工具只读已发布 JSON，包括八款深耕的 <code>list_banners</code>、<code>list_codes</code>、<code>personal_digest</code>、<code>planner</code>、<code>compare</code> 和 <code>status</code>。描述是中英双语。</p>
+  <p lang="en">Read <code>/.well-known/mcp.json</code>, then POST JSON-RPC to <code>/mcp</code>. Tools are read-only, including <code>list_banners</code>, <code>list_codes</code>, <code>personal_digest</code>, <code>planner</code>, <code>compare</code>, and <code>status</code> for the eight deep games. Descriptions are bilingual.</p>
 
   <h3>Cursor</h3>
   <p><code>~/.cursor/mcp.json</code> 或项目里的 <code>.cursor/mcp.json</code>。</p>

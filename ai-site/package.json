@@ -12,6 +12,7 @@
     "preview": "wrangler dev --port 8787",
     "preview:static": "python3 -m http.server 8787 --directory public",
     "test": "node --test test/*.test.mjs",
+    "check-data": "node scripts/check-freshness.mjs",
     "export-guides": "node scripts/export-guides.mjs",
     "export-intel": "node scripts/export-intel.mjs",
     "publish": "bash scripts/publish.sh",
