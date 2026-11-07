@@ -315,3 +315,30 @@ test("planner and compare shells are localized in the sitemap", () => {
   assert.match(ja, /\/ja\/planner\/</);
   assert.match(ja, /\/ja\/compare\/</);
 });
+
+test("CLI planner and compare commands read published JSON without network", async () => {
+  const { spawnSync } = await import("node:child_process");
+  const repo = path.join(path.dirname(fileURLToPath(import.meta.url)), "../..");
+  const planCli = spawnSync(
+    process.execPath,
+    ["mcp-server/cli.js", "planner", "--game", "reverse-1999", "--resources", "reverse-1999:3"],
+    { cwd: repo, encoding: "utf8" }
+  );
+  assert.equal(planCli.status, 0, planCli.stderr);
+  const planOut = JSON.parse(planCli.stdout);
+  assert.equal(planOut.ok, true);
+  assert.equal(planOut.stored, false);
+  assert.equal(planOut.games.length, 1);
+
+  const cmpCli = spawnSync(
+    process.execPath,
+    ["mcp-server/cli.js", "compare", "--ids", "hw:ai_mi_li_ya,hw:garud"],
+    { cwd: repo, encoding: "utf8" }
+  );
+  assert.equal(cmpCli.status, 0, cmpCli.stderr);
+  const cmpOut = JSON.parse(cmpCli.stdout);
+  assert.equal(cmpOut.ok, true);
+  assert.equal(cmpOut.stored, false);
+  assert.equal(cmpOut.game, "hw");
+  assert.equal(cmpOut.count, 2);
+});

@@ -9,7 +9,10 @@ import {
 import { DEEP_GAMES } from "./deep-games.js";
 import { clipText, isSlug, readPublic, resolveAlias } from "./public-json.js";
 import { listClaims } from "./claims.js";
-import { personalDocument } from "./personal.js";
+import { personalDocument, readPublished } from "./personal.js";
+import { assembleCompare, parseCompareIds } from "../public/ui/compare.js";
+import { assemblePlanner, parseResourceQuery } from "../public/ui/planner.js";
+import { shanghaiYmd } from "./time.js";
 
 const DEEP = DEEP_GAMES.join(", ");
 const SLUG_PATTERN = "^[a-z0-9][a-z0-9_-]{0,63}$";
@@ -163,6 +166,33 @@ export const TOOLS = [
     }
   ),
   tool(
+    "planner",
+    `抽卡规划时间线 / Derived pull planner timeline from GET /v1/planner. 聚合八款深耕（${DEEP}）已发布的进行中与未来卡池、活动日历和兑换码。只有卡池 note 写明「首个 N 次征集内必得」时才计算保底缺口，不编造概率或抽数。Reads published banners, calendar, and codes for the eight deep games (${DEEP}). Computes pull shortfall only when a banner note states 首个 N 次征集内必得. Stores nothing.`,
+    {
+      game: slugProp(`可选。只保留这个游戏。Optional. Filter to one game (${DEEP}).`),
+      resources: {
+        type: "string",
+        maxLength: 2000,
+        description:
+          "可选。逗号分隔的 game:已有抽数（例如 reverse-1999:3）。不保存。Optional comma-separated game:count (e.g. reverse-1999:3). Stores nothing.",
+      },
+    }
+  ),
+  tool(
+    "compare",
+    `同游角色横向对比 / Side-by-side comparison of 2 to 4 character cards from the same game (GET /v1/compare). 覆盖八款深耕（${DEEP}）。只投影卡上已有字段（定位、属性、评级、配队、技能），空白字段保持 null / 暂无出处，不补写。Projects stored fields for 2 to 4 cards in one game (${DEEP}). Empty cells stay null (暂无出处). Stores nothing.`,
+    {
+      ids: {
+        type: "string",
+        minLength: 3,
+        maxLength: 400,
+        description:
+          "逗号分隔的 2–4 个同游 game:id，例如 hw:ai_mi_li_ya,hw:garud。Comma-separated 2 to 4 game:id from the same game, for example hw:ai_mi_li_ya,hw:garud.",
+      },
+    },
+    ["ids"]
+  ),
+  tool(
     "list_claims",
     "只读投稿镜像 / Read-only mirror of GET /v1/claims.json. 没有审核队列，未经人工复核前不可当作已发布事实。Rows are untrusted until a human checks them. 投稿是 HTTP POST /v1/claims，不需要密钥（https 出处和 game_id；每 IP 每小时 10 条，每天 100 条）。Submit is HTTP POST /v1/claims with no API key. This tool does not write."
   ),
@@ -248,6 +278,35 @@ export async function callTool(env, origin, name, args = {}) {
         code: a.code,
       });
       if (!doc.ok) return toolText({ ok: false, error: doc.error }, true);
+      return toolText(doc);
+    }
+    case "planner": {
+      const resources = parseResourceQuery(a.resources || "");
+      if (!resources.ok) {
+        return toolText({ ok: false, error: resources.error, message: resources.message }, true);
+      }
+      const doc = await assemblePlanner((pathname) => readPublished(env, origin, pathname), {
+        today: shanghaiYmd(),
+        game: a.game || "",
+        resources: resources.resources,
+      });
+      if (!doc.ok) {
+        return toolText({ ok: false, error: doc.error, message: doc.message }, true);
+      }
+      return toolText(doc);
+    }
+    case "compare": {
+      const parsed = parseCompareIds(a.ids || "");
+      if (!parsed.ok) {
+        return toolText({ ok: false, error: parsed.error, message: parsed.message }, true);
+      }
+      const doc = await assembleCompare(
+        (pathname) => readPublished(env, origin, pathname),
+        parsed.ids.map((row) => `${row.game}:${row.id}`)
+      );
+      if (!doc.ok) {
+        return toolText({ ok: false, error: doc.error, message: doc.message }, true);
+      }
       return toolText(doc);
     }
     default:

@@ -16,7 +16,7 @@ Local commands, static preview, and the card walkthrough are in the root READMEï
 - Character cards: `data/guides/{game}/characters/{id}.json`. Schema: `ai-site/schema/character-card.schema.json`.
 - Aliases: `data/guides/{game}/aliases.json` (`id`, `name`, `kind`). NIKKE entries live in `aliases.p1.json`â€“`aliases.p4.json`.
 - Game entities: `data/games/{id}.json`. Schema: `ai-site/schema/game.schema.json`. Follow an existing stub such as `data/games/balatro.json`.
-- Incomplete cards set `"stub": true`. Non-stub cards need `sources` and `as_of`. HW / NIKKE / BD2 non-stub cards also need `summary` (`summary.stub: true` when the conclusion is thin). `export-guides` rejects cards that miss these.
+- Incomplete cards set `"stub": true`. Non-stub cards need `sources` and `as_of`. Non-stub cards for the eight deep games (`hw`, `nikke`, `bd2`, `reverse-1999`, `arknights-endfield`, `limbus-company`, `zenless-zone-zero`, `wuthering-waves`) also need `summary` (`summary.stub: true` when the conclusion is thin). `export-guides` rejects cards that miss these.
 - Guide sources follow `data/guides/README.md` and that game's README. Do not invent skill names, numbers, rates, prices, or pull advice. Import / enrich scripts must not overwrite non-stub cards.
 
 ## Guidelines

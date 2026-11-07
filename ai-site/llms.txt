@@ -97,14 +97,14 @@ HW dopamine auto: /v1/guides/hw/dopamine-auto.json (also /v1/guides/hw/modes/dop
 Banners: /v1/guides/{game}/banners.json. Codes: /v1/guides/{game}/codes.json. Both keep the source URL, the checked date, and an explicit expired or unstated status. Do not treat a code as live when status is expired or expiry_not_stated.
 
 ### GET /v1/planner
-Purpose: derived current and future banner timeline. No stored plan. Reads published `/v1/guides/{game}/banners.json`, `/v1/calendar.json`, and `/v1/guides/{game}/codes.json`.
+Purpose: derived current and future banner timeline. No stored plan. Reads published `/v1/guides/{game}/banners.json`, `/v1/calendar.json`, and `/v1/guides/{game}/codes.json`. MCP tool: `planner`.
 Dates are the `YYYY-MM-DD` prefix already on a row. Prose dates are not parsed. Ended banners are omitted.
 `pull_math` is `cited_summons` only when a banner `note` states 「首个 N 次征集内必得」. That sentence is the only shortfall. Qualitative 保底 lines are quoted and do not become a number. Other games are `timeline_only`. Redeem-code rewards are listed and are not converted into pulls.
 Optional query: `game` (one slug) and `resources` (`game:count`, comma-separated). `resources` is not stored. Human page `/planner/` keeps the checklist and resource counts in `localStorage` and does not send them.
 Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false.
 
 ### GET /v1/compare?ids=
-Purpose: derived side-by-side fields for 2 to 4 character cards in one game. `ids` is comma-separated `game:id`. Nothing is stored.
+Purpose: derived side-by-side fields for 2 to 4 character cards in one game. `ids` is comma-separated `game:id`. Nothing is stored. MCP tool: `compare`.
 Rows are attributes already on the card (role, element, rarity, and the other stored class fields), rating text with its https sources, team lines, and skill name plus summary. An empty cell is JSON `null`. The human page prints 暂无出处 and does not fill the cell. Human page: `/compare/?ids=game:id,game:id`, plus `/en/compare/` and `/ja/compare/`.
 Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false. `gap` is the string 暂无出处.
 
@@ -128,7 +128,7 @@ Rate limit uses Workers KV binding `CLAIMS`, Asia/Shanghai: 10 posts per IP per 
 Cadence: on submit. Humans: /claims/index.html.
 
 ### MCP
-GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` returns this file. `list_banners`, `list_codes`, and `personal_digest` cover the eight deep games. Other tools map to the GET routes above. Client setup is on /developers/.
+GET /.well-known/mcp.json then /mcp (read-only streamable HTTP). `read_llms` returns this file. `list_banners`, `list_codes`, `personal_digest`, `planner`, and `compare` cover the eight deep games. Other tools map to the GET routes above. Client setup is on /developers/.
 
 ## Human pages
 

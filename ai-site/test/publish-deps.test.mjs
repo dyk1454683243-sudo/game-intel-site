@@ -89,3 +89,13 @@ test("mcp-server lockfile pins @modelcontextprotocol/sdk", () => {
   assert.equal(lock.packages[""].dependencies["@modelcontextprotocol/sdk"], declared);
   assert.ok(lock.packages["node_modules/@modelcontextprotocol/sdk"].version);
 });
+
+test("export-intel jobs include calendar.json and mcp-server keeps no .fullbak files", () => {
+  const src = fs.readFileSync(path.join(site, "scripts/export-intel.mjs"), "utf8");
+  assert.match(src, /file:\s*"calendar\.json"/);
+  assert.match(src, /file:\s*"calendar-hw\.json"/);
+  assert.match(src, /file:\s*"digest\.json"/);
+  assert.match(src, /file:\s*"radar\.json"/);
+  const fullbaks = fs.readdirSync(path.join(root, "mcp-server")).filter((f) => f.endsWith(".fullbak"));
+  assert.deepEqual(fullbaks, []);
+});

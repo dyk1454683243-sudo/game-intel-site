@@ -42,7 +42,7 @@ import {
 } from "./guide-cache.js";
 import { askIntel } from "./ask.js";
 
-import { personalFromPublic } from "./personal-public.js";
+import { compareFromPublic, personalFromPublic, plannerFromPublic } from "./personal-public.js";
 import { server } from "./index-tools-a.js";
 import {
   DATA_DIR,
@@ -80,6 +80,37 @@ server.tool(
   async ({ games, chars }) => {
     try {
       return textResult(await personalFromPublic({ games: games || "", chars: chars || "" }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
+    }
+  }
+);
+
+server.tool(
+  "planner",
+  "Derived pull planner timeline from published /v1 JSON (banners, calendar, codes). Same timeline as GET /v1/planner. Computes pull shortfall only when a banner note states 首个 N 次征集内必得. Stores nothing. No network.",
+  {
+    game: z.string().max(64).optional(),
+    resources: z.string().max(1800).optional(),
+  },
+  async ({ game, resources }) => {
+    try {
+      return textResult(await plannerFromPublic({ game: game || "", resources: resources || "" }));
+    } catch (e) {
+      return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
+    }
+  }
+);
+
+server.tool(
+  "compare",
+  "Side-by-side comparison of 2 to 4 character cards from the same game from published /v1 JSON. Same projection as GET /v1/compare. Empty cells stay null (暂无出处). Stores nothing. No network.",
+  {
+    ids: z.string().min(3).max(400),
+  },
+  async ({ ids }) => {
+    try {
+      return textResult(await compareFromPublic({ ids: ids || "" }));
     } catch (e) {
       return textResult({ ok: false, error: truncate(String(e && e.message ? e.message : e), 80) });
     }

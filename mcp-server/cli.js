@@ -38,6 +38,10 @@ Commands:
     stdin JSON or internal digest+radar; jev-gate each candidate; stdout {kept,dropped,stats}
   personal [--games id,id] [--chars game:id,game:id]
     Stateless filter of published /v1 JSON. Stores nothing. No network.
+  planner [--game ID] [--resources game:count,game:count]
+    Derived pull planner timeline from published /v1 JSON. Stores nothing. No network.
+  compare --ids game:id,game:id
+    Side-by-side comparison of 2–4 cards from the same game. Stores nothing. No network.
 
 Examples:
   node mcp-server/cli.js digest --summarize --diff --only_new
@@ -46,6 +50,8 @@ Examples:
   node mcp-server/cli.js guide --q 吉吉 --topic skills
   node mcp-server/cli.js list_guides --game hw
   node mcp-server/cli.js personal --games bd2 --chars bd2:nevendaria
+  node mcp-server/cli.js planner --game reverse-1999 --resources reverse-1999:3
+  node mcp-server/cli.js compare --ids hw:ai_mi_li_ya,hw:garud
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js ask --state 'Horizon Walker 修女圣痕用什么 来源GameKee'
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js filter_morning --max 40
   PATH="$HOME/bin:$PATH" node mcp-server/cli.js digest --summarize --diff --only_new | node mcp-server/cli.js triage --max 20
@@ -240,6 +246,21 @@ async function cmdPersonal(flags) {
   });
 }
 
+async function cmdPlanner(flags) {
+  const { plannerFromPublic } = await import("./personal-public.js");
+  return plannerFromPublic({
+    game: flags.game != null ? String(flags.game) : "",
+    resources: flags.resources != null ? String(flags.resources) : "",
+  });
+}
+
+async function cmdCompare(flags) {
+  const { compareFromPublic } = await import("./personal-public.js");
+  return compareFromPublic({
+    ids: flags.ids != null ? String(flags.ids) : "",
+  });
+}
+
 async function main() {
   const flags = parseArgs(process.argv.slice(2));
   if (flags.help || flags._.length === 0) usage(flags.help ? 0 : 1);
@@ -274,6 +295,12 @@ async function main() {
     case "personal":
     case "personal_digest":
       result = await cmdPersonal(flags);
+      break;
+    case "planner":
+      result = await cmdPlanner(flags);
+      break;
+    case "compare":
+      result = await cmdCompare(flags);
       break;
     default:
       process.stderr.write(`unknown command: ${cmd}\n`);
