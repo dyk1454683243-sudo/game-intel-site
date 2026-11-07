@@ -234,6 +234,25 @@ const SHELLS = [
       "JavaScript が必要。POST /v1/claims は公開で鍵は不要。sources は https。各行に as_of。人が確認して書き出すまで陳述は信頼できない。",
     ],
   },
+  {
+    view: "status",
+    path: "/status/",
+    file: "status/index.html",
+    crumbs: () => [tri("状态", "Status", "状態")],
+    title: ["数据状态 · game-intel", "Data status · game-intel", "データ状態 · game-intel"],
+    description: [
+      "各数据流生成时间、更新说明与八款深耕角色/卡池/兑换码覆盖度快照。派生自 /v1 JSON，不保存状态。",
+      "Feed timestamps, latest update note, and deep-game coverage snapshot derived from published /v1 JSON.",
+      "各フィードの生成時刻、更新メモ、深掘り 8 作のカバー状況スナップショット。",
+    ],
+    loading: ["正在读取 /v1/status …", "Reading /v1/status …", "/v1/status を読んでいます…"],
+    noscriptHtml: true,
+    noscript: [
+      '需要 JavaScript。可直接读取 <a href="/v1/status">/v1/status</a> 查看各流生成时间、更新说明与八款深耕覆盖度快照。',
+      'JavaScript is required. Read <a href="/v1/status">/v1/status</a> directly for the freshness and deep-coverage snapshot.',
+      'JavaScript が必要。<a href="/v1/status">/v1/status</a> から直接スナップショットを取得できます。',
+    ],
+  },
 ];
 
 function pick(row) {
@@ -564,6 +583,7 @@ function patchDevelopers(publicDir) {
         ["/planner/", tri("抽卡规划", "Planner", "計画")],
         ["/compare/", tri("对比", "Compare", "比較")],
         ["/claims/", tri("核对墙", "Claims", "照合")],
+        ["/status/", tri("状态", "Status", "状態")],
         ["/for-ai/", tri("给 AI", "For AI", "AI 向け")],
         ["/developers/", tri("开发者", "Developers", "開発者")],
       ]

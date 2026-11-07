@@ -7993,6 +7993,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/sketches/home.html"/>
   </url>
   <url>
+    <loc>https://game-intel-ai.dyk1454683243.workers.dev/status/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/status/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://game-intel-ai.dyk1454683243.workers.dev/en/status/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://game-intel-ai.dyk1454683243.workers.dev/ja/status/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://game-intel-ai.dyk1454683243.workers.dev/status/"/>
+  </url>
+  <url>
     <loc>https://game-intel-ai.dyk1454683243.workers.dev/watchlist/</loc>
     <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://game-intel-ai.dyk1454683243.workers.dev/watchlist/"/>

@@ -99,7 +99,7 @@ npm run preview
 - `/v1/personal?games=&chars=` 同一份过滤的无状态 JSON。`/v1/personal.atom` 是 Atom。MCP 工具 `personal_digest`。服务端不保存查询
 - `/planner/` 抽卡规划器（API：`GET /v1/planner`，MCP 工具：`planner`）。聚合已发布的进行中与未来卡池、日历和兑换码；仅在卡池原文写明「首个 N 次征集内必得」时计算保底缺口，不编造概率或抽数
 - `/compare/?ids=game:id,game:id` 同游角色横向对比（API：`GET /v1/compare`，MCP 工具：`compare`）。并排投影同一游戏 2～4 张角色卡的已有字段，无出处留空（显示「暂无出处」）
-- `/v1/status` 实时新鲜度与八款深耕覆盖度快照（API：`GET /v1/status`，可选 `?game=`，MCP 工具：`status`）。一次读取 `digest`、`radar`、`calendar`、`feed` 的最近生成时间与更新日志，以及八款深耕的角色卡数量（rich/stub）、进行中/即将开启卡池数与可用/过期兑换码数
+- `/status/` 数据状态看板（API：`GET /v1/status`，可选 `?game=`，MCP 工具：`status`）。一次读取 `digest`、`radar`、`calendar`、`feed` 的最近生成时间与更新日志，以及八款深耕的角色卡数量（rich/stub）、进行中/即将开启卡池数与可用/过期兑换码数（同时提供 `/en/status/` 与 `/ja/status/`）
 - `/claims/` 核对墙。`POST /v1/claims` 公开，不需要密钥（https `sources` 必填；`as_of` 会记下）。镜像条目在人工复核并导出前不可信
 - `/for-ai/` 与 `/developers/`：MCP URL、OpenAPI（`/v1/openapi.json`）、`llms.txt`、公开限流（匿名 120 次/分，带 `X-API-Key` / `Bearer` 密钥 1200 次/分）与接入说明
 - 线框草图：`/sketches/`（首页、游戏页、角色卡）

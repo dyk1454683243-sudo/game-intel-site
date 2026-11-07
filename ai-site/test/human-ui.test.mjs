@@ -18,11 +18,14 @@ import {
   renderFrame,
   renderGame,
   renderHome,
+  renderStatus,
   renderWatchlist,
   safeHttpUrl,
 } from "../public/ui/render.js";
+import { withLang } from "../public/ui/i18n.js";
 import { portraitImgSrc, portraitTarget } from "../public/ui/portrait.js";
 import { publishHumanHome } from "../scripts/export-games.mjs";
+import { assembleStatus } from "../src/status.js";
 
 const site = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const publicDir = path.join(site, "public");
@@ -42,6 +45,7 @@ test("human shells point at the shared client", () => {
     "me/index.html": "me",
     "for-ai/index.html": "for-ai",
     "claims/index.html": "claims",
+    "status/index.html": "status",
   };
   const home = fs.readFileSync(path.join(publicDir, "ui/home.html"), "utf8");
   assert.equal(fs.readFileSync(path.join(publicDir, "index.html"), "utf8"), home);
@@ -330,11 +334,12 @@ test("home renders digest and radar without turning radar into a catalog", () =>
 
 test("shared nav matches the site map and for-ai states the write path", () => {
   const frame = renderFrame("home", "<p>x</p>");
-  for (const href of ["/", "/catalog/", "/watchlist/", "/me/", "/claims/", "/for-ai/"]) {
+  for (const href of ["/", "/catalog/", "/watchlist/", "/me/", "/claims/", "/status/", "/for-ai/"]) {
     assert.match(frame, new RegExp(`href="${href.replaceAll("/", "\\/")}"`));
   }
   assert.match(frame, /观察名单/);
   assert.match(frame, /核对墙/);
+  assert.match(frame, /状态/);
   assert.match(frame, /给 AI/);
   assert.match(frame, /同一份已发布数据/);
 
@@ -352,6 +357,7 @@ test("shared nav matches the site map and for-ai states the write path", () => {
   assert.match(ai, /\/v1\/games\/\{id\}\.json/);
   assert.match(ai, /\/v1\/guides\/\{game\}\/characters\/\{id\}\.json/);
   assert.match(ai, /GET \/v1\/claims\.json/);
+  assert.match(ai, /GET \/v1\/status/);
   assert.match(ai, /\/v1\/personal/);
   assert.match(ai, /personal_digest/);
   assert.match(ai, /localStorage/);
@@ -382,6 +388,43 @@ test("shared nav matches the site map and for-ai states the write path", () => {
   assert.match(empty, /POST \/v1\/claims/);
   assert.match(empty, /404/);
   assert.doesNotMatch(empty, /还没有已接受的核对/);
+});
+
+test("status page renders live snapshot and localized chrome without inventing facts", async () => {
+  const doc = await assembleStatus(async (pathname) => {
+    const rel = pathname.replace(/^\//, "");
+    const abs = path.join(publicDir, rel);
+    return fs.existsSync(abs) ? JSON.parse(fs.readFileSync(abs, "utf8")) : null;
+  });
+  const htmlZh = renderStatus(doc);
+  assert.match(htmlZh, /<h1>数据状态<\/h1>/);
+  assert.match(htmlZh, /数据流新鲜度/);
+  assert.match(htmlZh, /目录与深耕总览/);
+  assert.match(htmlZh, /八款深耕覆盖度/);
+  assert.match(htmlZh, /\/v1\/digest\.json/);
+  assert.match(htmlZh, /\/v1\/radar\.json/);
+  assert.match(htmlZh, /\/v1\/calendar\.json/);
+  assert.match(htmlZh, /\/v1\/feed\.json/);
+  assert.match(htmlZh, /href="\/game\/\?id=nikke"/);
+  assert.match(htmlZh, /href="\/planner\/\?game=nikke"/);
+  assert.match(htmlZh, /href="\/v1\/status"/);
+
+  const htmlEn = withLang("en", () => renderStatus(doc, { game: "nikke" }));
+  assert.match(htmlEn, /<h1>Data status<\/h1>/);
+  assert.match(htmlEn, /Feed freshness/);
+  assert.match(htmlEn, /Deep-game coverage/);
+  assert.match(htmlEn, /Filtered by game: nikke/);
+  assert.match(htmlEn, /href="\/en\/game\/\?id=nikke"/);
+  assert.match(htmlEn, /href="\/v1\/status\?game=nikke"/);
+
+  const htmlJa = withLang("ja", () => renderStatus(doc));
+  assert.match(htmlJa, /<h1>データ状態<\/h1>/);
+  assert.match(htmlJa, /フィード鮮度/);
+  assert.match(htmlJa, /href="\/ja\/game\/\?id=nikke"/);
+
+  const errHtml = renderStatus({ ok: false, message: "Unknown deep game: bad-slug" });
+  assert.match(errHtml, /class="error"/);
+  assert.match(errHtml, /Unknown deep game: bad-slug/);
 });
 
 test("game page keeps identity, deep entry, and published news only", () => {

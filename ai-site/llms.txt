@@ -109,7 +109,7 @@ Rows are attributes already on the card (role, element, rarity, and the other st
 Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false. `gap` is the string 暂无出处.
 
 ### GET /v1/status
-Purpose: derived freshness and deep-coverage snapshot across `/v1/digest.json`, `/v1/radar.json`, `/v1/calendar.json`, `/v1/calendar-hw.json`, `/v1/feed.json`, `/v1/games/index.json`, `/v1/guides/index.json`, and `/v1/guides/{game}/banners.json` + `codes.json`. Nothing is stored. MCP tool: `status`.
+Purpose: derived freshness and deep-coverage snapshot across `/v1/digest.json`, `/v1/radar.json`, `/v1/calendar.json`, `/v1/calendar-hw.json`, `/v1/feed.json`, `/v1/games/index.json`, `/v1/guides/index.json`, and `/v1/guides/{game}/banners.json` + `codes.json`. Nothing is stored. MCP tool: `status`. Human page: `/status/` (plus `/en/status/` and `/ja/status/`).
 Optional query: `game` (one deep-game slug). Returns `feeds` (`generated_at`, item counts, and `digest.note` update log), `catalog` counts, `guides` totals, and `deep_games[]` (`character_count`, `rich_count`, `stub_count`, `banners.{as_of,count,current_count,upcoming_count}`, `codes.{as_of,checked,count,live_count,expired_count,unstated_count}`, `digest.{count,latest_date,sources}`).
 Response sends `ETag`, `Cache-Control: public, max-age=300`, and `X-API-Version`. `stored` is false.
 
@@ -148,6 +148,7 @@ Browser UI (Chinese, fetches live `/v1` JSON, no login, no CDK):
 - /me/ — personal view. Follow list is localStorage plus a shareable `/me/?games=&chars=` link or `gi1.` code. The page filters feed, digest, banners, and codes in the browser and does not send the list to the server. Followed characters can be added to `/planner/` in one step.
 - /planner/ — pull planner. Also `/en/planner/` and `/ja/planner/`. Checklist and resource counts stay in localStorage. The timeline is `GET /v1/planner`.
 - /compare/?ids= — 2 to 4 cards from one game. Also `/en/compare/` and `/ja/compare/`. Empty fields render as 暂无出处.
+- /status/ — freshness, update note, and deep-coverage dashboard reading `GET /v1/status` (optional `?game=`). Also `/en/status/` and `/ja/status/`.
 
 `export-games` copies `ai-site/public/ui/home.html` onto `/`. Static dual-publish HTML remains:
 
