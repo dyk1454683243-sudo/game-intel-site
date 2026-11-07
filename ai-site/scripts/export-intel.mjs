@@ -102,6 +102,7 @@ function writeOut(name, payload, source) {
     payload && typeof payload === "object" && !Array.isArray(payload)
       ? {
           meta: {
+            fixture: false,
             generated_at: shanghaiIso(),
             timezone: "Asia/Shanghai",
             source,
@@ -110,6 +111,7 @@ function writeOut(name, payload, source) {
         }
       : {
           meta: {
+            fixture: false,
             generated_at: shanghaiIso(),
             timezone: "Asia/Shanghai",
             source,
@@ -126,6 +128,11 @@ const jobs = [
     file: "digest.json",
     args: ["digest", "--summarize"],
     source: "game-intel cli digest --summarize",
+  },
+  {
+    file: "calendar.json",
+    args: ["calendar", "--limit", "20"],
+    source: "game-intel cli calendar",
   },
   {
     file: "calendar-hw.json",

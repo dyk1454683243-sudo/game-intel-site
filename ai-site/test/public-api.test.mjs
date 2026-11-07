@@ -359,9 +359,9 @@ test("wrangler declares the public limiters and does not retarget CLAIMS", () =>
   assert.doesNotMatch(toml, /GAME_INTEL_API_KEYS\s*=\s*"[^"]+"/);
 });
 
-test("MCP tools are bilingual, schematized, and cover banners, codes, and personal digest", async () => {
+test("MCP tools are bilingual, schematized, and cover banners, codes, personal digest, planner, and compare", async () => {
   const names = TOOLS.map((tool) => tool.name);
-  for (const name of ["list_banners", "list_codes", "personal_digest", "list_games", "get_guide", "list_claims"]) {
+  for (const name of ["list_banners", "list_codes", "personal_digest", "planner", "compare", "list_games", "get_guide", "list_claims"]) {
     assert.ok(names.includes(name), name);
   }
   for (const tool of TOOLS) {
@@ -378,15 +378,22 @@ test("MCP tools are bilingual, schematized, and cover banners, codes, and person
   const banners = TOOLS.find((tool) => tool.name === "list_banners");
   const codes = TOOLS.find((tool) => tool.name === "list_codes");
   const personal = TOOLS.find((tool) => tool.name === "personal_digest");
+  const plannerTool = TOOLS.find((tool) => tool.name === "planner");
+  const compareTool = TOOLS.find((tool) => tool.name === "compare");
   assert.deepEqual(banners.inputSchema.required, ["game"]);
   assert.deepEqual(codes.inputSchema.required, ["game"]);
+  assert.deepEqual(compareTool.inputSchema.required, ["ids"]);
   assert.ok(personal.inputSchema.properties.code);
   assert.ok(personal.inputSchema.properties.games);
   assert.ok(personal.inputSchema.properties.chars);
+  assert.ok(plannerTool.inputSchema.properties.game);
+  assert.ok(plannerTool.inputSchema.properties.resources);
   for (const id of DEEP_GAMES) {
     assert.match(banners.description, new RegExp(id));
     assert.match(codes.description, new RegExp(id));
     assert.match(personal.description, new RegExp(id));
+    assert.match(plannerTool.description, new RegExp(id));
+    assert.match(compareTool.description, new RegExp(id));
     const bannerRes = await callTool(env(), origin, "list_banners", { game: id });
     const bannerData = JSON.parse(bannerRes.content[0].text);
     assert.equal(bannerRes.isError, false, id);
@@ -402,6 +409,29 @@ test("MCP tools are bilingual, schematized, and cover banners, codes, and person
   const doc = JSON.parse(digest.content[0].text);
   assert.equal(doc.stored, false);
   assert.equal(doc.ok, true);
+
+  const planned = await callTool(env(), origin, "planner", { game: "reverse-1999", resources: "reverse-1999:3" });
+  assert.equal(planned.isError, false);
+  const plannedDoc = JSON.parse(planned.content[0].text);
+  assert.equal(plannedDoc.ok, true);
+  assert.equal(plannedDoc.stored, false);
+  assert.equal(plannedDoc.games.length, 1);
+
+  const badPlan = await callTool(env(), origin, "planner", { resources: "nikke:ten" });
+  assert.equal(badPlan.isError, true);
+  assert.equal(JSON.parse(badPlan.content[0].text).error, "bad_resources");
+
+  const compared = await callTool(env(), origin, "compare", { ids: "hw:ai_mi_li_ya,hw:garud" });
+  assert.equal(compared.isError, false);
+  const comparedDoc = JSON.parse(compared.content[0].text);
+  assert.equal(comparedDoc.ok, true);
+  assert.equal(comparedDoc.stored, false);
+  assert.equal(comparedDoc.game, "hw");
+  assert.equal(comparedDoc.count, 2);
+
+  const badCompare = await callTool(env(), origin, "compare", { ids: "hw:ai_mi_li_ya,nikke:modernia" });
+  assert.equal(badCompare.isError, true);
+  assert.equal(JSON.parse(badCompare.content[0].text).error, "bad_compare");
 });
 
 test("developer page and llms.txt point at the public contract", () => {

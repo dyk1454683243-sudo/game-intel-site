@@ -27,6 +27,7 @@ credentials.json
 # OS / editor
 .DS_Store
 *.swp
+*.fullbak
 .idea/
 .vscode/
 

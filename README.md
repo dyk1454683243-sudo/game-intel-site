@@ -88,20 +88,24 @@ npm run preview
 
 人从网页专区进，AI 从 MCP + `/v1` 进，读的是同一份已发布数据。主导航：首页、目录、观察名单、我的关注、核对墙、给 AI。游戏页和角色卡从目录或观察名单进入。写卡仍是同一条路：填模板 → 校验（`sources[]` https + `as_of`，缺则拒）→ 可选审 → 发布 → 人读页与 `/v1` 同步。MCP 只读。新写走 `POST /v1/claims` 或现有导出管线。
 
-- `/` 今日情报摘要，并进入观察名单和给 AI
+- `/` 今日情报摘要，并进入观察名单和给 AI（同时提供英文 `/en/` 与日文 `/ja/`）
 - `/catalog/` 轻目录（stub 身份卡）
-- `/watchlist/` 观察名单：地平线行者、NIKKE、棕色尘埃2、星原、阿索拉、미래시、LO2
-- `/game/?id=` 身份、深耕入口（仅 hw / nikke / bd2 有图鉴）、该游资讯
-- `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开。页上有「关注」
+- `/watchlist/` 观察名单（12 款）：
+  - **八款深耕**（含角色图鉴、卡池 `banners.json`、兑换码 `codes.json`）：地平线行者（`hw`）、胜利女神：NIKKE（`nikke`）、棕色尘埃2（`bd2`）、重返未来：1999（`reverse-1999`）、明日方舟：终末地（`arknights-endfield`）、边狱公司（`limbus-company`）、绝区零（`zenless-zone-zero`）、鸣潮（`wuthering-waves`）
+  - **四款观察占位**（有核实来源再填图鉴）：蓝色星原：旅谣（`star`）、阿索拉：星之祈愿（`asora`）、미래시（`miraesi`）、Last Origin 2（`lo2`）
+- `/game/?id=` 身份、深耕入口（八款深耕有完整图鉴）、该游资讯
+- `/character/?game=hw&id=` 角色卡：结论、技能养成、配队、出处、立绘。深耕、结论未完成、stub 样式分开。页上有「关注」与「加入对比」
 - `/me/` 我的关注。关注列表在浏览器 `localStorage`，可用 `/me/?games=bd2&chars=bd2:nevendaria` 或 `gi1.` 订阅码导入。页面在本地过滤 feed、digest、`banners.json`、`codes.json`，标出关注角色的 UP / 复刻、近 45 天新码、21 天内到期的码。不上传名单
 - `/v1/personal?games=&chars=` 同一份过滤的无状态 JSON。`/v1/personal.atom` 是 Atom。MCP 工具 `personal_digest`。服务端不保存查询
+- `/planner/` 抽卡规划器（API：`GET /v1/planner`，MCP 工具：`planner`）。聚合已发布的进行中与未来卡池、日历和兑换码；仅在卡池原文写明「首个 N 次征集内必得」时计算保底缺口，不编造概率或抽数
+- `/compare/?ids=game:id,game:id` 同游角色横向对比（API：`GET /v1/compare`，MCP 工具：`compare`）。并排投影同一游戏 2～4 张角色卡的已有字段，无出处留空（显示「暂无出处」）
 - `/claims/` 核对墙。`POST /v1/claims` 公开，不需要密钥（https `sources` 必填；`as_of` 会记下）。镜像条目在人工复核并导出前不可信
-- `/for-ai/` MCP URL、OpenAPI、`llms.txt`
+- `/for-ai/` 与 `/developers/`：MCP URL、OpenAPI（`/v1/openapi.json`）、`llms.txt`、公开限流（匿名 120 次/分，带 `X-API-Key` / `Bearer` 密钥 1200 次/分）与接入说明
 - 线框草图：`/sketches/`（首页、游戏页、角色卡）
 
-静态双发页仍在 `/games/` 与 `/guides/`。`export-games` 会把 `ai-site/public/ui/home.html` 复制为站点首页。
+静态双发页仍在 `/games/` 与 `/guides/`（以及 `/en/`、`/ja/` 对应路径）。`export-games` 会把 `ai-site/public/ui/home.html` 复制为站点首页。
 
-改过 `data/guides` 之后，在 `ai-site/` 执行 `npm run export-guides` 再预览。非 stub 卡缺少 `sources` 或 `as_of`，或 hw / nikke / bd2 缺少结论行时，导出会拒绝。
+改过 `data/guides` 之后，在 `ai-site/` 执行 `npm run export-guides` 再预览。非 stub 卡缺少 `sources` 或 `as_of`，或八款深耕缺少结论行（`summary`）时，导出会拒绝。
 
 ## 怎么贡献卡
 
@@ -112,19 +116,19 @@ npm run preview
 路径：`data/guides/{game}/characters/{id}.json`  
 Schema：`ai-site/schema/character-card.schema.json`（必填 `id`、`name`、`game`）。
 
-Watchlist 目录：`hw`、`nikke`、`bd2`、`star`、`asora`、`miraesi`、`lo2`。`star` / `asora` / `miraesi` / `lo2` 仍是占位目录，有核实来源再填。各游戏说明在 `data/guides/{game}/README.md`。
+Watchlist 目录：`hw`、`nikke`、`bd2`、`reverse-1999`、`arknights-endfield`、`limbus-company`、`zenless-zone-zero`、`wuthering-waves`（八款深耕），以及 `star`、`asora`、`miraesi`、`lo2`（占位目录，有核实来源再填）。各游戏说明在 `data/guides/{game}/README.md`。
 
 来源按目录里已有约定：
 
-- 图鉴总规则：GameKee 图鉴/测评 + Bahamut（`data/guides/README.md`）
+- 图鉴总规则：GameKee 图鉴/测评 + Bahamut + Prydwen + 官方公告（`data/guides/README.md`）
 - NIKKE：GameKee 角色图鉴 + Prydwen（`data/guides/nikke/README.md`）
-- BD2：GameKee（`data/guides/bd2/README.md`）
+- BD2：GameKee + Bahamut（`data/guides/bd2/README.md`）
 
 约定：
 
 - 技能尚未核实：`"stub": true`。最小形状是 `id`、`name`、`game`、`stub`。
 - `stub` 不是 `true` 时，必须有 `sources`（https URL）和 `as_of`（上海时区日期或月份，如 `2026-09`）。
-- hw / nikke / bd2 的非 stub 卡还要有 `summary`。`summary.stub: true` 表示结论不完整，和技能卡上的 `stub` 是两件事。`summary.sources` 必填。没有核实到的强度或抽取文案，就不要写 `tier` / `pull`。
+- 八款深耕的非 stub 卡还要有 `summary`。`summary.stub: true` 表示结论不完整，和技能卡上的 `stub` 是两件事。`summary.sources` 必填。没有核实到的强度或抽取文案，就不要写 `tier` / `pull`。
 - 已填好的例子：`data/guides/nikke/characters/zwei.json`。
 
 别名写在 `data/guides/{game}/aliases.json`，每条含 `id`、`name`、`kind`（`character` | `stigmata_set` | `mode` | `other`）。NIKKE 的条目在 `aliases.p1.json`–`aliases.p4.json`，由 `aliases.json` 的 `_parts` 合并。
@@ -264,9 +268,9 @@ npm run preview
 # http://127.0.0.1:8787/   e.g. /llms.txt , /v1/guides/index.json , /guides/hw/lysandria.html
 ```
 
-Human UI (Chinese, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, my follows, claims wall, For AI. Game and character pages open from the catalog or watchlist and have a follow button. `/me/` filters feed, digest, banners, and codes from the browser's follow list (`localStorage`, or `/me/?games=&chars=`, or a `gi1.` code). `GET /v1/personal` and MCP `personal_digest` run that same stateless filter and store nothing. `/v1/personal.atom` is the Atom form. `/for-ai/` explains the MCP URL, OpenAPI, and `llms.txt`. `/claims/` notes that public `POST /v1/claims` needs no API key (https `sources` required; `as_of` is stored; mirror rows stay untrusted until a human review publishes through the existing export). `/for-ai/` lists the `/v1` path each human page reads. Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
+Human UI (Chinese, English `/en/`, and Japanese `/ja/`, reads published `/v1` JSON, no login, no CDK). People use the site zones; agents use MCP + `/v1` on the same published data. Nav: home, catalog, watchlist, my follows, planner, compare, claims wall, For AI, Developers. Game and character pages open from the catalog or watchlist and have follow + compare buttons. `/me/` filters feed, digest, banners, and codes from the browser's follow list (`localStorage`, or `/me/?games=&chars=`, or a `gi1.` code). `GET /v1/personal` and MCP `personal_digest` run that same stateless filter and store nothing. `/v1/personal.atom` is the Atom form. `/planner/` (`GET /v1/planner`, MCP `planner`) builds a sourced banner/code timeline and computes pull shortfall only when a banner note states `首个 N 次征集内必得`. `/compare/` (`GET /v1/compare`, MCP `compare`) projects 2–4 character cards from the same game side-by-side and leaves uncited cells empty (`暂无出处`). `/for-ai/` and `/developers/` explain the MCP URL, OpenAPI (`/v1/openapi.json`), `llms.txt`, and public rate limits (120/min anonymous, 1200/min with `X-API-Key` or `Bearer`). `/claims/` notes that public `POST /v1/claims` needs no API key (https `sources` required; `as_of` is stored; mirror rows stay untrusted until a human review publishes through the existing export). Wireframes: `/sketches/` (home, game, character). Static dual-publish pages stay under `/games/` and `/guides/`.
 
-After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and an hw / nikke / bd2 card that lacks a conclusion row.
+After editing `data/guides`, run `npm run export-guides` inside `ai-site/`, then preview. Export refuses a non-stub card that lacks `sources` or `as_of`, and a deep-game card that lacks a conclusion row (`summary`).
 
 ## Contribute cards
 
@@ -277,19 +281,19 @@ Small PRs. Skill names, numbers, rates, prices, and pull advice need a source. U
 Path: `data/guides/{game}/characters/{id}.json`  
 Schema: `ai-site/schema/character-card.schema.json` (required: `id`, `name`, `game`).
 
-Watchlist folders: `hw`, `nikke`, `bd2`, `star`, `asora`, `miraesi`, `lo2`. `star` / `asora` / `miraesi` / `lo2` are placeholders until a source is verified. Per-game notes: `data/guides/{game}/README.md`.
+Watchlist folders: eight deep games (`hw`, `nikke`, `bd2`, `reverse-1999`, `arknights-endfield`, `limbus-company`, `zenless-zone-zero`, `wuthering-waves`) plus four thin placeholders (`star`, `asora`, `miraesi`, `lo2`) until a source is verified. Per-game notes: `data/guides/{game}/README.md`.
 
 Sources already documented in-tree:
 
-- Guides overall: GameKee 图鉴/测评 + Bahamut (`data/guides/README.md`)
+- Guides overall: GameKee 图鉴/测评 + Bahamut + Prydwen + official notices (`data/guides/README.md`)
 - NIKKE: GameKee character wiki + Prydwen (`data/guides/nikke/README.md`)
-- BD2: GameKee (`data/guides/bd2/README.md`)
+- BD2: GameKee + Bahamut (`data/guides/bd2/README.md`)
 
 Rules:
 
 - Skills not verified yet: `"stub": true`. Minimum fields: `id`, `name`, `game`, `stub`.
 - When `stub` is not `true`, the card needs `sources` (https URLs) and `as_of` (Asia/Shanghai date or month, e.g. `2026-09`).
-- Non-stub hw / nikke / bd2 cards also need `summary`. `summary.stub: true` means the conclusion is incomplete; that flag is separate from the card's skill `stub`. `summary.sources` is required. Leave `tier` / `pull` out unless a source already states them.
+- Non-stub cards in the eight deep games also need `summary`. `summary.stub: true` means the conclusion is incomplete; that flag is separate from the card's skill `stub`. `summary.sources` is required. Leave `tier` / `pull` out unless a source already states them.
 - Filled example: `data/guides/nikke/characters/zwei.json`.
 
 Aliases live in `data/guides/{game}/aliases.json`. Each entry has `id`, `name`, and `kind` (`character` | `stigmata_set` | `mode` | `other`). NIKKE entries are in `aliases.p1.json`–`aliases.p4.json`, merged through `_parts` on `aliases.json`.
